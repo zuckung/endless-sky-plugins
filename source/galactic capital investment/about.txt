@@ -1,0 +1,8 @@
+made for v0.10.0
+
+implements a two mission chain that enables regular space port investment opportunities which result in small daily income. 
+Available in human, quarg and hai space with 2 million credits cash.
+
+Lore friendly, balanced and compatible with probably every other plugin.
+
+(inspired by a-alhusaini's investment bank plugin)
