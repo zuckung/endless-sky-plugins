@@ -1,0 +1,7 @@
+made for v0.10.0
+
+removes mass and outfit space from the cloaking device
+removes mass and outfit space from outskirts gauger
+puts outskirts gauger into unique category
+makes outfit `"Puny" the dog` and gives it a squirrel portrait
+makes an invisible mission to bring Puny back
