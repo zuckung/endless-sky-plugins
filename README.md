@@ -1,6 +1,8 @@
 # **my endless-sky-plugins**
 I aim at developing small limited and modular plugins that don't interfere with other plugins.<br><br><br>
 
+## Plugin List:<br>
+
 ### additional_command_buttons_for_mobile
 adds the following buttons:
 
