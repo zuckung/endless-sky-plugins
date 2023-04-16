@@ -32,9 +32,9 @@ jobs:
             plugins.add(path[index])
           if plugins:
             print("The following plugins have changed:")
+            os.chdir('plugins/own/')
             for p in plugins:
               print(p)
-              os.chdir('plugins/own/')
               subprocess.run(["zip", "-r", p + ".zip", p],
                 stdout=subprocess.DEVNULL)
           else:
