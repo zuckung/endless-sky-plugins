@@ -5,7 +5,7 @@ I aim at developing small limited and modular plugins that don't interfere with 
 ## Plugin List:<br>
 
 ### additional_command_buttons_for_mobile
-[zip](https://github.com/zuckung/endless-sky-plugins/blob/main/zip/additional_command_buttons_for_mobile.zip) , []()
+[zip](https://github.com/zuckung/endless-sky-plugins/blob/main/zip/additional_command_buttons_for_mobile.zip) , []()<br>
 adds the following buttons:
 full stop <br>
 board ship <br> 
