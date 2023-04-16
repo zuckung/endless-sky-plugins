@@ -35,7 +35,7 @@ It's lore friendly, and since korath automata balance friendly too.<br>
 Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered light 4" and have at least one android installed.
 
 ### Unique_fix
-[zip](https://github.com/zuckung/endless-sky-plugins/blob/main/zip/unique_fix.zip) , []()<br>
+[zip](https://github.com/zuckung/endless-sky-plugins/blob/main/zip/unique_fix.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/source/unique%20fix)<br>
 removes mass and outfit space from the cloaking device<br>
 removes mass and outfit space from outskirts gauger<br>
 puts outskirts gauger into unique category<br>
