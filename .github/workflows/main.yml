@@ -36,7 +36,7 @@ jobs:
               print(p)
 cwd = os.getcwd()
 print(cwd)
-              os.chdir('/plugins/own/')
+              os.chdir('plugins/own/')
               subprocess.run(["zip", "-r", p + ".zip", p],
                 stdout=subprocess.DEVNULL)
           else:
