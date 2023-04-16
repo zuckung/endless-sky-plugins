@@ -26,7 +26,7 @@ jobs:
             if not "source" in f:
               continue
             path = f.split(os.sep)
-            index = path.index("All source") + 1
+            index = path.index("source") + 1
             if index >= len(path):
               continue
             plugins.add(path[index])
