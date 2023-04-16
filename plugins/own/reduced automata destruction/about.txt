@@ -1,4 +1,4 @@
-made for v0.10.0
+made for v0.10.0 
 
 modifies the self destruction chance of Sestor and Mereti ships.
 
