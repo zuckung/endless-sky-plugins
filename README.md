@@ -1,15 +1,15 @@
-# my endless-sky-plugins
+# **my endless-sky-plugins**
 I aim at developing small limited and modular plugins that don't interfere with other plugins.
 
 ### additional_command_buttons_for_mobile
 adds the following buttons:
 
-full stop
-board ship
-land on planet
-fire afterburner
-fleet: hold position
-fleet: gather around me
+full stop / 
+board ship / 
+land on planet / 
+fire afterburner / 
+fleet: hold position / 
+fleet: gather around me / 
 view player info
 
 adjusts the message box to not overlap
@@ -33,7 +33,11 @@ Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered lig
 
 ### Unique_fix
 removes mass and outfit space from the cloaking device
+
 removes mass and outfit space from outskirts gauger
+
 puts outskirts gauger into unique category
-makes outfit `"Puny" the dog` and gives it a squirrel portrait
+
+makes outfit '`"Puny" the dog`' 	 and gives it a squirrel portrait
+
 makes an invisible mission to bring Puny back
