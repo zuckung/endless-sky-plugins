@@ -1,6 +1,6 @@
 made for v0.10.0
 
-on mobile devices
+on mobile devices 
 
 adds the following buttons
 
