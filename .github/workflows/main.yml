@@ -30,7 +30,6 @@ jobs:
               continue
             plugins.add(path[index])
           if plugins:
-subprocess.run(["cd", "plugins/own/"])
             print("The following plugins have changed:")
             for p in plugins:
               print(p)
