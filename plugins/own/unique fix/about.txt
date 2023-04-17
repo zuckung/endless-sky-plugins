@@ -1,4 +1,4 @@
-made for v0.10.0 
+made for v0.10.0
 
 removes mass and outfit space from the cloaking device
 removes mass and outfit space from outskirts gauger
