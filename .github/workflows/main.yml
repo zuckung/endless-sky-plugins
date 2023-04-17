@@ -20,31 +20,24 @@ jobs:
           import os
           import subprocess
           changed = "${{ steps.files.outputs.all_changed_and_modified_files }}"
-          print(changed)
           plugins = set()
           for f in changed.split("%%%"):
-            print(f)
             if not "own" in f:
               continue
             path = f.split(os.sep)
-            print(path)
             index = path.index("own") + 1
             print(index)
             if index >= len(path):
               continue
             plugins.add(path[index])
-            print(plugins)
           if plugins:
             print("The following plugins have changed:")
             for p in plugins:
               print(p)
-              print(os.getcwd())
               os.chdir('plugins/own/')
-              print(os.getcwd())
               subprocess.run(["zip", "-r", "../../" + p + ".zip", p],
                 stdout=subprocess.DEVNULL)
               os.chdir('../../')
-              print(os.getcwd())
           else:
             print("No plugin changes have been detected.")
         shell: python
