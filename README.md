@@ -14,15 +14,8 @@ Please excuse bad englisch, spelling, grammar, etc... englisch isn't my mother t
 ### additional.command.buttons
 [additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) (3 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/additional%20command%20buttons/data)<br>
 (interface changed)(made for 0.10.0)<br>
-made for the mobile version<br><br>
-adds the following buttons:<br>
-full stop <br>
-board ship <br> 
-land on planet <br>
-fire afterburner <br>
-fleet: hold position <br>
-fleet: gather around me <br>
-view player info<br><br>
+made for the mobile version and <br>
+adds the following buttons: full stop / board ship / land on planet / fire afterburner / fleet: hold position / fleet: gather around me / view player info<br>
 adjusts the message box to not overlap<br>
 (inspired by theweirednut)
 
