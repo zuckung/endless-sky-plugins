@@ -39,7 +39,7 @@ jobs:
             for p in plugins:
               print(p)
               os.chdir('plugins/own/')
-              print(os.getcwd)
+              print(os.getcwd())
               subprocess.run(["zip", "-r", p + ".zip", p],
                 stdout=subprocess.DEVNULL)
               os.chdir('../../')
