@@ -1,5 +1,5 @@
 # **my endless-sky-plugins**
-I aim at developing small limited and modular plugins that don't break vanilla lore too much.<br><br>
+I aim at developing small limited and modular plugins that don't break vanilla game too much.<br><br>
 When playing a plugin, I often enjoy many aspects of it, but then there is something I don't like.<br>
 For examaple... <br>
     great functionality without a lore friendly story, or with a bad story<br>
