@@ -1,6 +1,6 @@
 # **my endless-sky-plugins**
 I aim at developing small limited and modular plugins that don't break vanilla lore too much.<br><br>
-When playing a plugin, I often enjoy many aspects of it, but then there is something I don't like.<br><br>
+When playing a plugin, I often enjoy many aspects of it, but then there is something I don't like.<br>
 For examaple... <br>
 - great functionality without a lore friendly story, or even no story at all<br>
 - a great story with unnecessary or not fitting outfits/ships/functionality<br>
