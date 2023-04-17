@@ -2,7 +2,7 @@
 I aim at developing small limited and modular plugins that don't break vanilla lore too much.<br><br>
 When playing a plugin, I often enjoy many aspects of it, but then there is something I don't like.<br>
 For examaple... <br>
-- great functionality without a lore friendly story, or even no story at all<br>
+- great functionality without a lore friendly story, or with a bad story<br>
 - a great story with unnecessary or not fitting outfits/ships/functionality<br>
 - too massive plugins, only partially good<br><br>
 My goal is to get the things i like into the game and let them appear like vanilla game.
@@ -11,7 +11,7 @@ My goal is to get the things i like into the game and let them appear like vanil
 ## Plugin List:<br>
 
 ### additional.command.buttons
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.commands.buttons.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/own/additional%20commands%20buttons)<br>
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/own/additional%20command%20buttons)<br>
 made for mobile version
 adds the following buttons:
 full stop <br>
