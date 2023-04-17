@@ -43,7 +43,7 @@ jobs:
             print("No plugin changes have been detected.")
         shell: python
       - name: Upload plugins to release
-        uses: ncipollo/release-action@v1.11.1
+        uses: ncipollo/release-action@v1.12.0
         with:
           name: Downloads
           tag: Latest
