@@ -2,7 +2,7 @@ name: Zip Files
 on:
   push:
     paths:
-      - plugins/own/**
+      - plugins/myplugins/**
 jobs:
   zip-files:
     runs-on: ubuntu-latest
@@ -22,10 +22,10 @@ jobs:
           changed = "${{ steps.files.outputs.all_changed_and_modified_files }}"
           plugins = set()
           for f in changed.split("%%%"):
-            if not "own" in f:
+            if not "myplugins" in f:
               continue
             path = f.split(os.sep)
-            index = path.index("own") + 1
+            index = path.index("myplugins") + 1
             print(index)
             if index >= len(path):
               continue
@@ -34,7 +34,7 @@ jobs:
             print("The following plugins have changed:")
             for p in plugins:
               print(p)
-              os.chdir('plugins/own/')
+              os.chdir('plugins/myplugins/')
               subprocess.run(["zip", "-r", "../../" + p + ".zip", p],
                 stdout=subprocess.DEVNULL)
               os.chdir('../../')
