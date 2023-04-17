@@ -16,9 +16,9 @@ mission "Snowfeather Robotics 1"
     `Like allways you ask for details of the transport, just to avoid trouble.`
     `His name is Dr. Lufbin and he travels with his two assistants to a robotics conference on Allhome. The payment would be 100.000 credits. He admits that he is afraid of spacetravel and rejected several transport possibilities because the ships looked bad maintained. "So, would you take us to Allhome?"`
 			choice
-				`	"Yes, im soon done with my checkups."`
+				`	"Yes, I'm soon done with my checkups."`
 					goto thanks
-				`	"Sorry, i'm busy repairing the ship for the next days."`
+				`	"Sorry, I'm busy repairing the ship for the next days."`
 					goto no
 			label thanks
 			`	You lead your passengers to their bunks and get everything ready for the flight.`
@@ -29,7 +29,7 @@ mission "Snowfeather Robotics 1"
 	on complete
 		payment 100000
 		conversation
-			`You land on <destination>. Dr. Lufbin thanks you for the safe transport and pays you 100.000 credits. "I've seen the androids that work on your ship and i would love to study one of them. Of course i would pay you for that. If you are interested, meet me at the spaceport in a few hours."`
+			`You land on <destination>. Dr. Lufbin thanks you for the safe transport and pays you 100.000 credits. "I've seen the androids that work on your ship and I would love to study one of them. Of course I would pay you for that. If you are interested, meet me at the spaceport in a few hours."`
 
 mission "Snowfeather Robotics 2"
   priority
@@ -44,11 +44,11 @@ mission "Snowfeather Robotics 2"
   blocked "You don't have enough passenger space for this mission."
 	on offer
 		conversation
-			`Back at the spaceport, Dr. Lufbin asks you to transport him and his assistants back to his robotic laboratory on Snowfeather. Furthermore he would like to rent one of your androids to study it. "I will pay you 100.000 credits for the transport and 150.000 credits for renting the android. I guess i will need it for like 2 months. Do we have a deal?"`
+			`Back at the spaceport, Dr. Lufbin asks you to transport him and his assistants back to his robotic laboratory on Snowfeather. Furthermore he would like to rent one of your androids to study it. "I will pay you 100.000 credits for the transport and 150.000 credits for renting the android. And I guess i will need it for like 2 months. Do we have a deal?"`
 			choice
-				`"	Ok, i think i can spare an android for two months"`
+				`"	Ok, I think I can spare an android for two months"`
 					goto thanks
-				`"	No, sorry, i can't afford a smaller android crew."`
+				`"	No, sorry, I can't afford a smaller android crew."`
 					goto no
 			label thanks
 			`	Dr. Lufbin seems very happy. He cancels his other speeches at the conference and head back to your ship to continue studying the android.`
@@ -61,7 +61,7 @@ mission "Snowfeather Robotics 2"
    outfit "NDR-114 Android" -1
 		payment 250000
 		conversation
-			`You land on <planet>. Dr. Lufbin pays you 250.000 credits. "I will send you a message when i'm done with the work."`
+			`You land on <planet>. Dr. Lufbin pays you 250.000 credits. "I will send you a message when I'm done with the work."`
 
 mission "Snowfeather Robotics 3"
   priority
@@ -80,5 +80,5 @@ mission "Snowfeather Robotics 3"
     outfit "NDR-114 Android" 1
     payment 300000
 	 	 conversation
-		   `As you land on <planet>, Dr Lufbin awaits you at the starport. "Hello captain <last>, i have a surprise for you." he hands you 300.000 credits while some workers load the 'NDR-114 Android' back on your ship. "The additional credits express how helpful your contribution was to my work. My company 'Snowfeather Robotics' sells now SFR-100 androids at the local outfitter."`
+		   `As you land on <planet>, Dr Lufbin awaits you at the starport. "Hello captain <last>, I have a surprise for you." He hands you 300.000 credits while some workers load the 'NDR-114 Android' back on your ship. "The additional credits express how helpful your contribution was to my work. My company 'Snowfeather Robotics' sells now SFR-100 androids at the local outfitter."`
       `Dr. Lufbin says goodbye while you calculate how rich you will be, when you replace your lazy and expensive crew.`
