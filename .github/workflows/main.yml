@@ -1,0 +1,59 @@
+name: Zip Files
+on:
+  push:
+    paths:
+      - plugins/own/**
+jobs:
+  zip-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: Analyse changed plugins
+        id: files
+        uses: tj-actions/changed-files@v28.0.0
+        with:
+          separator: '%%%'
+      - name: Zip changed plugins
+        run: |
+          import os
+          import subprocess
+          changed = "${{ steps.files.outputs.all_changed_and_modified_files }}"
+          print(changed)
+          plugins = set()
+          for f in changed.split("%%%"):
+            print(f)
+            if not "own" in f:
+              continue
+            path = f.split(os.sep)
+            print(path)
+            index = path.index("own") + 1
+            print(index)
+            if index >= len(path):
+              continue
+            plugins.add(path[index])
+            print(plugins)
+          if plugins:
+            print("The following plugins have changed:")
+            for p in plugins:
+              print(p)
+              print(os.getcwd())
+              os.chdir('plugins/own/')
+              print(os.getcwd())
+              subprocess.run(["zip", "-r", "../../" + p + ".zip", p],
+                stdout=subprocess.DEVNULL)
+              os.chdir('../../')
+              print(os.getcwd())
+          else:
+            print("No plugin changes have been detected.")
+        shell: python
+      - name: Upload plugins to release
+        uses: ncipollo/release-action@v1.11.1
+        with:
+          name: Downloads
+          tag: Latest
+          allowUpdates: true
+          replacesArtifacts: true
+          updateOnlyUnreleased: false
+          artifacts: "*.zip"
