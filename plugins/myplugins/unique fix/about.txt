@@ -1,4 +1,4 @@
-(2 outfit attributes changed, 1 new outfit)(made for 0.10.0)
+(2 outfit attributes changed, 1 new outfit)(made for 0.10.0) 
 removes mass and outfit space from the cloaking device
 removes mass and outfit space from outskirts gauger and puny it in unique category
 makes outfit '"Puny" the dog' and gives it a squirrel portrait
