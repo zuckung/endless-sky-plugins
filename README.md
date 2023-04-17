@@ -2,9 +2,9 @@
 I aim at developing small limited and modular plugins that don't break vanilla game too much.<br><br>
 When playing a plugin, I often enjoy many aspects of it, but then there is something I don't like.<br>
 For examaple... <br>
-    great functionality without a lore friendly story, or with a bad story<br>
-    a great story with unnecessary or not fitting outfits/ships/functionality<br>
-    too massive plugins, only partially good<br><br>
+<ul><li>great functionality without a lore friendly story, or with a bad story</li>
+<li>a great story with unnecessary or not fitting outfits/ships/functionality</li>
+<li>too massive plugins, only partially good</li></ul>
 My goal is to get the things i like into the game and let them appear like vanilla game.<br>
 Please excuse bad englisch, spelling, grammar, etc... englisch isn't my mother tongue. Feel free to correct me.
 
