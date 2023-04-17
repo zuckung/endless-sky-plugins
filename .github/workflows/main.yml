@@ -2,7 +2,7 @@ name: Zip Files
 on:
   push:
     paths:
-      - './**'
+      - '/**'
 jobs:
   zip-files:
     runs-on: ubuntu-latest
