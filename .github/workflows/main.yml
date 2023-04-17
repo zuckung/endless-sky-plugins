@@ -41,7 +41,7 @@ jobs:
               os.chdir('plugins/own') 
               subprocess.run(["zip", "-r", p + ".zip", p],
                 stdout=subprocess.DEVNULL)
-              Os.chdir('../../')
+              os.chdir('../../')
           else:
             print("No plugin changes have been detected.")
         shell: python
