@@ -20,6 +20,7 @@ jobs:
           import os
           import subprocess
           changed = "${{ steps.files.outputs.all_changed_and_modified_files }}"
+          print(changed)
           plugins = set()
           for f in changed.split("%%%"):
             if not "own" in f:
