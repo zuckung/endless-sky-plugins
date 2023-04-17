@@ -38,7 +38,8 @@ jobs:
             print("The following plugins have changed:")
             for p in plugins:
               print(p)
-              os.chdir('plugins/own') 
+              os.chdir('plugins/own/')
+              print(os.getcwd)
               subprocess.run(["zip", "-r", p + ".zip", p],
                 stdout=subprocess.DEVNULL)
               os.chdir('../../')
