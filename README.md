@@ -11,40 +11,43 @@ My goal is to get the things i like into the game and let them appear like vanil
 ## Plugin List:<br>
 
 ### additional.command.buttons
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/own/additional%20command%20buttons)<br>
-made for mobile version
-adds the following buttons:
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/additional%20command%20buttons)<br>
+(interface changed)<br>
+made for the mobile version<br><br>
+adds the following buttons:<br>
 full stop <br>
 board ship <br> 
 land on planet <br>
 fire afterburner <br>
 fleet: hold position <br>
 fleet: gather around me <br>
-view player info<br><br>
-adjusts the message box to not overlap
+view player info<br><br><br>
+adjusts the message box to not overlap<br>
+(inspired by theweirednut)
 
 ### galactic.capital.investment
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/own/galactic%20capital%20investment)<br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/galactic%20capital%20investment)<br>
+(story, repeatable mission)<br>
 implements a two mission chain that enables regular space port investment opportunities which result in small daily income. 
 Available in human, quarg and hai space with 2 million credits cash.<br>
-Lore friendly, balanced and compatible with probably every other plugin.<br>
 (inspired by a-alhusaini's investment bank plugin)
 
 ### reduced.automata.destruction
-[reduced.automata.destruction.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/reduced.automata.destruction.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/own/reduced%20automata%20destruction)<br>
+[reduced.automata.destruction.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/reduced.automata.destruction.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/reduced%20automata%20destruction)<br>
+(14 ship attributes changed)<br>
 modifies the self destruction chance of Sestor and Mereti ships.<br>
 Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.3 (51%).
 
 ### snowfeather.robotics
-[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/own/snowfeather%20robotics)<br>
-adds 3 missions that lead to adding androids to the outfitter on Snowfeather(hai space).<br>
-It's lore friendly, and since korath automata balance friendly too.<br>
+[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/snowfeather%20robotics)<br>
+(story, 1 new outfit)<br>
+Adds 3 missions that lead to adding androids to the outfitter on Snowfeather(hai space).<br>
 Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered light 4" and have at least one android installed.
 
 ### Unique.fix
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/own/unique%20fix)<br>
+[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/unique%20fix)<br>
+(3 outfit attributes changed)<br>
 removes mass and outfit space from the cloaking device<br>
-removes mass and outfit space from outskirts gauger<br>
-puts outskirts gauger into unique category<br>
+removes mass and outfit space from outskirts gauger and puny it in unique category<br>
 makes outfit '`"Puny" the dog`' and gives it a squirrel portrait<br>
 makes an invisible mission to bring Puny back
