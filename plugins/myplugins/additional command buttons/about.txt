@@ -1,4 +1,4 @@
-(interface changed)(made for 0.10.0)
+(interface changed)(made for 0.10.0) 
 made for the mobile version
 
 adds the following buttons:
