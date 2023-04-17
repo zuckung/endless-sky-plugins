@@ -21,7 +21,7 @@ land on planet <br>
 fire afterburner <br>
 fleet: hold position <br>
 fleet: gather around me <br>
-view player info<br><br><br>
+view player info<br><br>
 adjusts the message box to not overlap<br>
 (inspired by theweirednut)
 
@@ -46,7 +46,7 @@ Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered lig
 
 ### Unique.fix
 [unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) , [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/unique%20fix)<br>
-(3 outfit attributes changed)<br>
+(2 outfit attributes changed, 1 new outfit)<br>
 removes mass and outfit space from the cloaking device<br>
 removes mass and outfit space from outskirts gauger and puny it in unique category<br>
 makes outfit '`"Puny" the dog`' and gives it a squirrel portrait<br>
