@@ -5,7 +5,8 @@ For examaple... <br>
 - great functionality without a lore friendly story, or with a bad story<br>
 - a great story with unnecessary or not fitting outfits/ships/functionality<br>
 - too massive plugins, only partially good<br><br>
-My goal is to get the things i like into the game and let them appear like vanilla game.
+My goal is to get the things i like into the game and let them appear like vanilla game.<br>
+Please excuse bad englisch, spelling, grammar, etc... englisch isn't my mother tongue. Feel free to correct me.
 
 
 ## Plugin List:<br>
