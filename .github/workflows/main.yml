@@ -41,7 +41,7 @@ jobs:
               print(os.getcwd())
               os.chdir('plugins/own/')
               print(os.getcwd())
-              subprocess.run(["zip", "-r -b ", "home/runner/work/endless-sky-plugins/endless-sky-plugins/" + p + ".zip", p],
+              subprocess.run(["zip", "-r -b ", "../../" + p + ".zip", p],
                 stdout=subprocess.DEVNULL)
               os.chdir('../../')
               print(os.getcwd())
