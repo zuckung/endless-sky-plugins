@@ -1,4 +1,4 @@
-made for v0.10.0 
+made for v0.10.0
 
 adds 3 missions that lead to adding androids to the outfitter on Snowfeather(hai space). It's lore friendly, and since korath automata balance friendly too.
 
