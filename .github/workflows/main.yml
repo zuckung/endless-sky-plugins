@@ -38,6 +38,7 @@ jobs:
             print("The following plugins have changed:")
             for p in plugins:
               print(p)
+              print(os.getcwd())
               os.chdir('plugins/own/')
               print(os.getcwd())
               subprocess.run(["zip", "-r", "home/runner/work/endless-sky-plugins/endless-sky-plugins/" + p + ".zip", p],
