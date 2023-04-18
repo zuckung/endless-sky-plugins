@@ -51,4 +51,3 @@ jobs:
           replacesArtifacts: true
           updateOnlyUnreleased: false
           artifacts: "*.zip"
-          artifactErrorsFailBuild: true
