@@ -42,6 +42,6 @@ Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered lig
 [unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) (2 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/unique%20fix/data)<br>
 (2 outfit attributes changed, 1 new outfit)(made for 0.10.0)<br>
 removes mass and outfit space from the cloaking device<br>
-removes mass and outfit space from outskirts gauger and puny it in unique category<br>
+removes mass and outfit space from outskirts gauger and puts it in unique category<br>
 makes outfit '`"Puny" the dog`' and gives it a squirrel portrait<br>
 makes an invisible mission to bring Puny back
