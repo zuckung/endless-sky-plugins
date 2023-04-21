@@ -31,8 +31,8 @@ Available in human, quarg and hai space with 2 million credits cash.<br>
 (14 ship attributes changed)(made for 0.10.0)<br>
 modifies the self destruction chance of Sestor and Mereti ships.<br>
 Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.0 (0%).<br>
-[reduced.automata.destruction.23percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/reduced.automata.destruction.23percent.zip) / 
-[reduced.automata.destruction.51percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/reduced.automata.destruction.51percent.zip) / 
+[reduced.automata.destruction.23percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/reduced.automata.destruction.23percent.zip)<br>
+[reduced.automata.destruction.51percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/reduced.automata.destruction.51percent.zip)<br>
 [reduced.automata.destruction.75percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/reduced.automata.destruction.75percent.zip)
 
 ### snowfeather.robotics
