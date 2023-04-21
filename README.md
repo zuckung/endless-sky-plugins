@@ -26,14 +26,14 @@ implements a two mission chain that enables regular space port investment opport
 Available in human, quarg and hai space with 2 million credits cash.<br>
 (inspired by a-alhusaini's investment bank plugin)
 
-### reduced.automata.destruction.0percent
-[reduced.automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/reduced.automata.destruction.0percent.zip) (2 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/reduced%20automata%20destruction%200percent/data)<br>
+### automata.destruction.0percent
+[automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.0percent.zip) (2 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/automata%20destruction%200percent/data)<br>
 (14 ship attributes changed)(made for 0.10.0)<br>
 modifies the self destruction chance of Sestor and Mereti ships.<br>
 Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.0 (0%).<br>
-[reduced.automata.destruction.23percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/reduced.automata.destruction.23percent.zip)<br>
-[reduced.automata.destruction.51percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/reduced.automata.destruction.51percent.zip)<br>
-[reduced.automata.destruction.75percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/reduced.automata.destruction.75percent.zip)
+[automata.destruction.23percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.23percent.zip)<br>
+[automata.destruction.51percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.51percent.zip)<br>
+[automata.destruction.75percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.75percent.zip)
 
 ### snowfeather.robotics
 [snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) (4 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/snowfeather%20robotics/data)<br>
