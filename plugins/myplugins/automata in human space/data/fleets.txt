@@ -1,0 +1,102 @@
+mission "automata to human space"
+	landing
+	invisible
+	to offer
+		has "Wanderers: Sestor: Factory 3: done"
+	on offer
+		event "automatahuman"
+		fail
+
+event "automatahuman"
+
+	# original korath variants 25
+	fleet "Korath Ember Waste Raid"
+		add variant 7
+			"Far Lek 14 (Jump)" 3
+			"Met Par Tek 53 (Jump)" 2
+			"Tek Far 78 - Osk (Jump)" 1
+			"Kar Ik Vot 349 (Jump)" 1
+		add variant 7
+			"Far Osk 27 (Jump)" 3
+			"Tek Far 71 - Lek (Jump)" 2
+			"Tek Far 109 (Jump)" 1
+			"Kar Ik Vot 349 (Jump)" 1
+		add variant 7
+			"Model 8 (Jump)" 3
+			"Model 32 (Jump)" 2
+			"Model 128 (Jump)" 1
+			"Model 512 (Jump)" 1
+		add variant 7
+			"Model 16 (Jump)" 3
+			"Model 64 (Jump)" 2
+			"Model 256 (Jump)" 1
+			"Model 512 (Jump)" 1
+
+	# original korath variants 5
+	fleet "Korath Raid"
+		add variant 1
+			"Far Lek 14 (Jump)" 3
+			"Met Par Tek 53 (Jump)" 2
+			"Tek Far 78 - Osk (Jump)" 1
+			"Kar Ik Vot 349 (Jump)" 1
+		add variant 2
+			"Far Osk 27 (Jump)" 3
+			"Tek Far 71 - Lek (Jump)" 2
+			"Tek Far 109 (Jump)" 1
+			"Kar Ik Vot 349 (Jump)" 1
+		add variant 1
+			"Model 8 (Jump)" 3
+			"Model 32 (Jump)" 2
+			"Model 128 (Jump)" 1
+			"Model 512 (Jump)" 1
+		add variant 2
+			"Model 16 (Jump)" 3
+			"Model 64 (Jump)" 2
+			"Model 256 (Jump)" 1
+			"Model 512 (Jump)" 1
+
+	# original korath variants 12
+	fleet "Korath Large Raid"
+		add variant 3
+			"Far Lek 14 (Jump)" 3
+			"Met Par Tek 53 (Jump)" 2
+			"Tek Far 78 - Osk (Jump)" 1
+			"Kar Ik Vot 349 (Jump)" 1
+		add variant 3
+			"Far Osk 27 (Jump)" 3
+			"Tek Far 71 - Lek (Jump)" 2
+			"Tek Far 109 (Jump)" 1
+			"Kar Ik Vot 349 (Jump)" 1
+		add variant 3
+			"Model 8 (Jump)" 3
+			"Model 32 (Jump)" 2
+			"Model 128 (Jump)" 1
+			"Model 512 (Jump)" 1
+		add variant 3
+			"Model 16 (Jump)" 3
+			"Model 64 (Jump)" 2
+			"Model 256 (Jump)" 1
+			"Model 512 (Jump)" 1
+
+	# original korath variants 1
+	fleet "Korath Miners"
+		add variant 1
+			"Far Lek 14 (Jump)" 3
+			"Met Par Tek 53 (Jump)" 2
+			"Tek Far 78 - Osk (Jump)" 1
+			"Kar Ik Vot 349 (Jump)" 1
+		add variant 1
+			"Far Osk 27 (Jump)" 3
+			"Tek Far 71 - Lek (Jump)" 2
+			"Tek Far 109 (Jump)" 1
+			"Kar Ik Vot 349 (Jump)" 1
+		add variant 1
+			"Model 8 (Jump)" 3
+			"Model 32 (Jump)" 2
+			"Model 128 (Jump)" 1
+			"Model 512 (Jump)" 1
+		add variant 1
+			"Model 16 (Jump)" 3
+			"Model 64 (Jump)" 2
+			"Model 256 (Jump)" 1
+			"Model 512 (Jump)" 1
