@@ -28,6 +28,13 @@ Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a sel
 [automata.destruction.51percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.51percent.zip)<br>
 [automata.destruction.75percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.75percent.zip)
 
+### automata.in.human.space
+[automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.in.human.space.zip) (3 kb), [View data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/automata%20in%20human%20space/data)<br>
+(14 ship variants, 16 variants in 4 fleets)(made for 0.10.0)<br>
+brings jump drive equipped automata into human space after the wanderer campaign. 
+You can find them where korath ships in human space are usually found(ember waste and eastern syndicate). 
+The chance to encounter previous korath ships or automata is like 50/50.
+
 ### galactic.capital.investment
 [galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) (4 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/galactic%20capital%20investment/data)<br>
 (story, repeatable mission)(made for 0.10.0)<br>

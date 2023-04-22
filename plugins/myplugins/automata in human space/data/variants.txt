@@ -1,0 +1,227 @@
+ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Jump)"
+	outfits
+		"Korath Detainer" 2
+		"Piercer Missile Launcher" 2
+		"Piercer Missile" 94
+		"Piercer Missile Rack" 2
+		"Warder Anti-Missile" 2
+		"Thermal Repeater Turret" 6
+		
+		"Triple Plasma Core"
+		"Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt" 4
+		"Small Heat Shunt" 2
+		"Control Transceiver"
+		
+		"Thruster (Planetary Class)"
+		"Steering (Stellar Class)"
+		"Jump Drive"
+
+ship "Tek Far 71 - Lek" "Tek Far 71 - Lek (Jump)"
+	outfits
+		"Korath Detainer"
+		"Piercer Missile Launcher" 2
+		"Piercer Missile" 62
+		"Banisher Grav-Turret"
+		"Warder Anti-Missile" 2
+		
+		"Double Plasma Core"
+		"Generator (Furnace Class)"
+		"Systems Core (Medium)"
+		"Large Heat Shunt"
+		"Control Transceiver"
+		
+		"Thruster (Lunar Class)"
+		"Steering (Lunar Class)"
+		"Jump Drive"
+
+ship "Tek Far 78 - Osk" "Tek Far 78 - Osk (Jump)"
+	outfits
+		"Korath Detainer"
+		"Piercer Missile Launcher" 3
+		"Piercer Missile" 93
+		"Banisher Grav-Turret"
+		"Warder Anti-Missile" 2
+		
+		"Double Plasma Core"
+		"Generator (Inferno Class)"
+		"Systems Core (Medium)"
+		"Large Heat Shunt"
+		"Control Transceiver"
+		
+		"Thruster (Lunar Class)"
+		"Steering (Planetary Class)"
+		"Jump Drive"
+
+ship "Tek Far 109" "Tek Far 109 (Jump)"
+	outfits
+		"Korath Detainer"
+		"Piercer Missile Launcher" 2
+		"Piercer Missile" 62
+		"Banisher Grav-Turret" 2
+		
+		"Double Plasma Core"
+		"Systems Core (Medium)"
+		"Small Heat Shunt" 2
+		"Control Transceiver"
+		
+		"Thruster (Lunar Class)"
+		"Steering (Planetary Class)"
+		"Jump Drive"
+	
+ship "Met Par Tek 53" "Met Par Tek 53 (Jump)"
+	outfits
+		"Thermal Repeater" 3
+		"Thermal Repeater Turret" 6
+		
+		"Double Plasma Core"
+		"Generator (Inferno Class)"
+		"Systems Core (Medium)"
+		"Large Heat Shunt" 3
+		"Control Transceiver"
+		
+		"Thruster (Lunar Class)"
+		"Steering (Planetary Class)"
+		"Jump Drive"
+	
+ship "Far Lek 14" "Far Lek 14 (Jump)"
+	outfits
+		"Thermal Repeater"
+		
+		"Generator (Candle Class)"
+		"Small Heat Shunt"
+		
+		"Thruster (Asteroid Class)"
+		"Steering (Asteroid Class)"
+		"Jump Drive"
+
+ship "Far Osk 27" "Far Osk 27 (Jump)"
+	outfits
+		"Thermal Repeater" 2
+		
+		"Generator (Furnace Class)"
+		"Small Heat Shunt" 2
+		
+		"Thruster (Asteroid Class)"
+		"Steering (Asteroid Class)"
+		"Jump Drive"
+		
+ship "Model 8" "Model 8 (Jump)"
+	outfits
+		"Husk-Slice"
+		
+		"Generator (Furnace Class)"
+		"Generator (Candle Class)"
+		"Systems Core (Small)"
+		"Reasoning Node"
+		
+		"Thruster (Comet Class)"
+		"Steering (Lunar Class)"
+		"Jump Drive"
+
+ship "Model 16" "Model 16 (Jump)"
+	outfits
+		"Cluster Mine Layer"
+		"Cluster Mine" 17
+		"Shield Disruptor Turret"
+		"Husk-Slice Turret"
+		
+		"Plasma Core"
+		"Generator (Inferno Class)"
+		"Systems Core (Small)"
+		"Small Heat Shunt"
+		"Reasoning Node"
+		
+		"Thruster (Planetary Class)"
+		"Steering (Lunar Class)"
+		"Jump Drive"
+
+ship "Model 32" "Model 32 (Jump)"
+	outfits
+		"Cluster Mine Layer"
+		"Cluster Mine" 17
+		"Shield Disruptor Turret"
+		"Husk-Slice Turret" 2
+		
+		"Double Plasma Core"
+		"Generator (Candle Class)"
+		"Systems Core (Small)"
+		"Small Heat Shunt"
+		"Reasoning Node"
+		
+		"Thruster (Planetary Class)"
+		"Steering (Lunar Class)"
+		"Jump Drive"
+
+ship "Model 64" "Model 64 (Jump)"
+	outfits
+		"Cluster Mine Layer"
+		"Cluster Mine" 35
+		"Cluster Mine Rack" 2
+		"Shield Disruptor Turret" 2
+		"Husk-Slice Turret" 2
+		
+		"Double Plasma Core"
+		"Generator (Furnace Class)"
+		"Systems Core (Medium)"
+		"Reasoning Node" 2
+		
+		"Thruster (Lunar Class)"
+		"Thruster (Asteroid Class)"
+		"Steering (Planetary Class)"
+		"Jump Drive"
+	
+ship "Model 128" "Model 128 (Jump)"
+	outfits
+		"Cluster Mine Layer" 2
+		"Cluster Mine" 34
+		"Shield Disruptor Turret" 2
+		"Husk-Slice Turret" 3
+		
+		"Double Plasma Core"
+		"Generator (Inferno Class)"
+		"Systems Core (Medium)"
+		"Reasoning Node" 2
+		
+		"Thruster (Planetary Class)"
+		"Steering (Planetary Class)"
+		"Steering (Asteroid Class)"
+		"Jump Drive"
+
+ship "Model 256" "Model 256 (Jump)"
+	outfits
+		"Cluster Mine Layer" 2
+		"Cluster Mine" 61
+		"Cluster Mine Rack" 3
+		"Shield Disruptor Turret" 3
+		"Husk-Slice Turret" 3
+		
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt"
+		"Reasoning Node" 3
+		
+		"Thruster (Planetary Class)"
+		"Steering (Planetary Class)"
+		"Steering (Comet Class)"
+		"Jump Drive"
+
+ship "Model 512" "Model 512 (Jump)"
+	outfits
+		"Cluster Mine Layer" 2
+		"Cluster Mine" 52
+		"Cluster Mine Rack" 2
+		"Shield Disruptor Turret" 3
+		"Husk-Slice Turret" 4
+		
+		"Triple Plasma Core"
+		"Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt"
+		"Small Heat Shunt" 2
+		"Reasoning Node" 3
+		
+		"Thruster (Planetary Class)"
+		"Steering (Stellar Class)"
+		"Jump Drive"
