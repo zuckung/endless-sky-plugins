@@ -48,6 +48,11 @@ Available in human, quarg and hai space with 2 million credits cash.<br>
 Adds 3 missions that lead to adding androids to the outfitter on Snowfeather(hai space).<br>
 Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered light 4" and have at least one android installed.
 
+### too.many.asteroids
+[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) (6 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/too%20many%20asteroids/data)<br>
+(1-6 system attributes changed, in 540 systems)(made for 0.10.0)<br>
+removes all non-mineable asteroids from all systems. mineable asteroids and asteroid belts are untouched.
+
 ### Unique.fix
 [unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) (2 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/unique%20fix/data)<br>
 (2 outfit attributes changed, 1 new outfit)(made for 0.10.0)<br>
