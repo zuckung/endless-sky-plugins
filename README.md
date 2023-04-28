@@ -42,6 +42,11 @@ implements a two mission chain that enables regular space port investment opport
 Available in human, quarg and hai space with 2 million credits cash.<br>
 (inspired by a-alhusaini's investment bank plugin)
 
+### kor.efret.shipyard
+[kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/kor.efret.shipyard.zip) (2 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/kor%20efret%20shipyard/data)<br>
+(outfitter and shipyard added)(made for 0.10.0)<br>
+adds a shipyard with the 3 Kor Efret ships(Arch-Carrack, Charm-Shallop, Echo-Galleon) to Laki Nemparu(Kashikt) in Kor Efret space. also adds an outfitter with all outfits of these 3 ships.
+
 ### snowfeather.robotics
 [snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) (4 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/plugins/myplugins/snowfeather%20robotics/data)<br>
 (story, 1 new outfit)(made for 0.10.0)<br>
