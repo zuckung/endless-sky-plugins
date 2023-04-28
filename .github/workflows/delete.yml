@@ -10,7 +10,8 @@ jobs:
       - name: Check out Git repository
         uses: actions/checkout@v1
 
-      - name: Delete current release assets
-        uses: andreaswilli/delete-release-assets-action@2.0.0
+      - name: Delete Release Assets
+        uses: andreaswilli/delete-release-assets-action@v2.0.0
+
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
