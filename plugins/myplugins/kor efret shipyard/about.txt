@@ -1,4 +1,4 @@
-(outfitter and shipyard added)(made for 0.10.0)  
+(outfitter and shipyard added)(made for 0.10.0)
 github.com/zuckung/endless-sky-plugins
 
 adds a shipyard with the 3 Kor Efret ships(Arch-Carrack, Charm-Shallop, Echo-Galleon) to Laki Nemparu(Kashikt) in Kor Efret space. also adds an outfitter with all outfits of these 3 ships.
