@@ -36,7 +36,8 @@ jobs:
             for p in plugins:
               print(p)
               os.chdir('plugins/myplugins/')
-              subprocess.run(["zip", "-r", "../../" + p + ".zip", p],
+              x = p.replace(" ", ".")
+              subprocess.run(["zip", "-r", "../../" + x + ".zip", p],
                 stdout=subprocess.DEVNULL)
               os.chdir('../../')
           else:
