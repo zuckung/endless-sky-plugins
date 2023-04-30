@@ -137,7 +137,7 @@ mission "Galactic Capital 5M"
 			`Investment:	`
 			`	5.000.000 credits`
 			`Daily yield:`
-			`	3400 credits`
+			`	3.400 credits`
 			`First profit after:`
 			`	4 years`
 			` `
@@ -169,7 +169,7 @@ mission "Galactic Capital 10M"
 			`Investment:	`
 			`	10.000.000 credits`
 			`Daily yield:`
-			`	7200 credits`
+			`	7.200 credits`
 			`First profit after:`
 			`	3,8 years`
 			` `
@@ -228,7 +228,7 @@ mission "Galactic Capital 100M"
 			`Investment:	`
 			`	100.000.000 credits`
 			`Daily yield:`
-			`	76100 credits`
+			`	76.100 credits`
 			`First profit after:`
 			`	3,6 years`
 			` `
