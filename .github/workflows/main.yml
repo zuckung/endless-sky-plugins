@@ -2,7 +2,7 @@ name: Zip Files
 on:
   push:
     paths:
-      - plugins/myplugins/**
+      - myplugins/**
 jobs:
   zip-files:
     runs-on: ubuntu-latest
@@ -35,11 +35,11 @@ jobs:
             print("The following plugins have changed:")
             for p in plugins:
               print(p)
-              os.chdir('plugins/myplugins/')
+              os.chdir('myplugins/')
               x = p.replace(" ", ".")
-              subprocess.run(["zip", "-r", "../../" + x + ".zip", p],
+              subprocess.run(["zip", "-r", "../" + x + ".zip", p],
                 stdout=subprocess.DEVNULL)
-              os.chdir('../../')
+              os.chdir('../')
           else:
             print("No plugin changes have been detected.")
         shell: python
