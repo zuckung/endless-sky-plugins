@@ -14,9 +14,9 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 ### additional.command.buttons
 [additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) (3 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional%20command%20buttons/data)<br>
 (interface changed)(made for 0.10.0)<br>
-Made for the mobile version and <br>
-adds the following buttons: full stop / board ship / land on planet / fire afterburner / fleet: hold position / fleet: gather around me / view player info<br>
-adjusts the message box to not overlap<br>
+Made for the mobile version<br>
+Adds the following buttons: full stop / board ship / land on planet / fire afterburner / fleet: hold position / fleet: gather around me / view player info.<br>
+Adjusts the message box to not overlap.<br>
 (inspired by theweirednut)
 
 ### automata.destruction.0percent
@@ -45,18 +45,18 @@ Available in human, quarg and hai space with 2 million credits cash.<br>
 ### kor.efret.shipyard
 [kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/kor.efret.shipyard.zip) (2 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor%20efret%20shipyard/data)<br>
 (outfitter and shipyard added)(made for 0.10.0)<br>
-Adds a shipyard with the 3 Kor Efret ships(Arch-Carrack, Charm-Shallop, Echo-Galleon) to Laki Nemparu(Kashikt) in Kor Efret space. also adds an outfitter with all outfits of these 3 ships.
+Adds a shipyard with the three Kor Efret ships(Arch-Carrack, Charm-Shallop, Echo-Galleon) to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships.
 
 ### snowfeather.robotics
 [snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) (4 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather%20robotics/data)<br>
 (story, 1 new outfit)(made for 0.10.0)<br>
-Adds 3 missions that lead to adding androids to the outfitter on Snowfeather(hai space).<br>
+Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space).<br>
 Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered light 4" and have at least one android installed.
 
 ### too.many.asteroids
 [too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) (6 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too%20many%20asteroids/data)<br>
 (1-6 system attributes changed, in 540 systems)(made for 0.10.0)<br>
-Removes all non-mineable asteroids from all systems. mineable asteroids and asteroid belts are untouched.
+Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched.
 
 ### Unique.fix
 [unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) (2 kb), [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique%20fix/data)<br>
