@@ -1,7 +1,7 @@
 (2 outfit attributes changed, 1 new outfit)(made for 0.10.0)
 github.com/zuckung/endless-sky-plugins
 
-removes mass and outfit space from the cloaking device
-removes mass and outfit space from outskirts gauger and puts it in unique category
-makes outfit '"Puny" the dog' and gives it a squirrel portrait
-makes an invisible mission to bring Puny back
+Removes mass and outfit space from the cloaking device.
+Removes mass and outfit space from outskirts gauger and puts it in unique category.
+Makes outfit '"Puny" the dog' and gives it a squirrel portrait.
+Makes an invisible mission to bring Puny back.
