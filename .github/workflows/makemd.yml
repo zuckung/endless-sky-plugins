@@ -14,10 +14,10 @@ jobs:
       - name: make md
         run: |
          import os
-         pathtoplugins = "/home/runner/work/endless-sky-plugins/endless-sky-plugins/myplugins/"
-         indexfile = "/home/runner/work/endless-sky-plugins/endless-sky-plugins/README.md"
+         pathtoplugins = "myplugins/"
+         indexfile = "README.md"
          assetfiles = "https://github.com/zuckung/endless-sky-plugins/releases/download/"
-         header = "/home/runner/work/endless-sky-plugins/endless-sky-plugins/header"
+         header = "header"
 
          # write header
          file1 = open(indexfile, "w")
