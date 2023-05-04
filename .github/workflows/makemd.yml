@@ -17,6 +17,7 @@ jobs:
          pathtoplugins = "myplugins/"
          indexfile = "README.md"
          assetfiles = "https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/"
+         pluginurl = "https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/"
          header = "header"
 
          # write header
@@ -32,7 +33,7 @@ jobs:
           withdots = entry.replace(" ", ".")
           file1.writelines("### " + entry + "\n")
           file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip)\n")
-          file1.writelines("[view data](/" + pathtoplugins + entry + ")<br>\n")
+          file1.writelines("[view data](/" + pluginurl + entry + ")<br>\n")
           file2 = open(pathtoplugins + entry + "/about.txt" , "r")
           x = file2.readlines()
           file1.writelines(x)
