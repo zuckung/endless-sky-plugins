@@ -41,3 +41,4 @@ jobs:
           file2.close
           print(entry + " DONE")
          file1.close
+         shell: python
