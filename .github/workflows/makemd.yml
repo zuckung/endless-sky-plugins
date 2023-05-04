@@ -43,4 +43,4 @@ jobs:
           file1.writelines("\n \n")
           file2.close
           print(entry + " DONE")
-        file1.close
+         file1.close
