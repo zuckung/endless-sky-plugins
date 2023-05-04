@@ -36,8 +36,8 @@ jobs:
           file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) | \n")
           file1.writelines("[view data](" + pluginurl + forweb + "/data/)<br>\n")
           file2 = open(pathtoplugins + entry + "/about.txt" , "r")
-          x = str(file2.readlines())
-          x.replace("github.com/zuckung/endless-sky-plugins", "")
+          x = file2.readlines()
+          x = item.replace("github.com/zuckung/endless-sky-plugins", "") for item in x
           file1.writelines(x)
           file1.writelines("\n \n")
           file2.close
