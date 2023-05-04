@@ -38,7 +38,12 @@ jobs:
           file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) ")
            
           response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
-          file1.writelines(response.headers['Content-Length']) 
+          size = response.headers['Content-Length'] / 1024
+          f = " kb"
+          if size > 1024
+            size = size / 1024
+            f = " mb"
+          file1.writelines(size + f) 
           
           file1.writelines(" | \n[view data](" + pluginurl + forweb + "/data/)<br>\n")
           file2 = open(pathtoplugins + entry + "/about.txt" , "r")
