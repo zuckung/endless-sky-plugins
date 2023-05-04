@@ -32,12 +32,12 @@ jobs:
          for entry in entries:
           withdots = entry.replace(" ", ".")
           forweb  = entry.replace(" ", "%20")
-          entry = entry.replace("github.com/zuckung/endless-sky-plugins", "")
           file1.writelines("### " + entry + "\n")
           file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) | \n")
           file1.writelines("[view data](" + pluginurl + forweb + "/data/)<br>\n")
           file2 = open(pathtoplugins + entry + "/about.txt" , "r")
           x = file2.readlines()
+          x = x.replace("github.com/zuckung/endless-sky-plugins", "")
           file1.writelines(x)
           file1.writelines("\n \n")
           file2.close
@@ -48,7 +48,7 @@ jobs:
         run: |
           git config --local user.name  ${{ github.actor }}
           git add ./
-          git commit -m "automatic README.md update"
+          git commit -m "README.md updated"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
