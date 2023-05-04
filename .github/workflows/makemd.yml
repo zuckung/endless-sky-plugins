@@ -1,0 +1,46 @@
+name: Make README.md
+on:
+  push:
+    paths:
+      - myplugins/**
+jobs:
+  zip-files:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: make md
+        run: |
+         import os
+         import subprocess
+
+         pathtoplugins = "/myplugins/"
+         indexfile = "/README.md"
+         assetfiles = "https://github.com/zuckung/endless-sky-plugins/releases/download/"
+         header = "header"
+
+         # write header
+         file1 = open(indexfile, "w")
+         file2 = open(header, "r")
+         file1.writelines(file2.readlines())
+         file2.close
+
+
+         # read folders, and write to indexfile
+         entries = os.listdir(pathtoplugins)
+         entries = sorted(entries)
+         for entry in entries:
+          withdots = entry.replace(" ", ".")
+          file1.writelines("### " + entry + "\n")
+          file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip)\n")
+          file1.writelines("[view data]("+ pathtoplugins + entry + ")<br>\n")
+          file2 = open(pathtoplugins + entry + "/about.txt" , "r")
+          x = file2.readlines()
+          file1.writelines(x)
+          file1.writelines("\n \n")
+          file2.close
+          print(entry + " DONE")
+        file1.close
