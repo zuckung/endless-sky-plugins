@@ -4,7 +4,7 @@ on:
     paths:
       - myplugins/**
 jobs:
-  makereadmemd:
+  makeREADMEmd:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
@@ -14,7 +14,7 @@ jobs:
       - name: make md
         run: |
          import os
-         pathtoplugins = "/myplugins/"
+         pathtoplugins = "myplugins/"
          indexfile = "README.md"
          assetfiles = "https://github.com/zuckung/endless-sky-plugins/releases/download/"
          header = "header"
