@@ -32,7 +32,7 @@ jobs:
           withdots = entry.replace(" ", ".")
           file1.writelines("### " + entry + "\n")
           file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip)\n")
-          file1.writelines("[view data]("/" + pathtoplugins + entry + ")<br>\n")
+          file1.writelines("[view data](/" + pathtoplugins + entry + ")<br>\n")
           file2 = open(pathtoplugins + entry + "/about.txt" , "r")
           x = file2.readlines()
           file1.writelines(x)
