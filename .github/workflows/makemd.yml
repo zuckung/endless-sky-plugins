@@ -15,8 +15,6 @@ jobs:
       - name: make md
         run: |
          import os
-         import subprocess
-
          pathtoplugins = "/myplugins/"
          indexfile = "/README.md"
          assetfiles = "https://github.com/zuckung/endless-sky-plugins/releases/download/"
@@ -27,7 +25,6 @@ jobs:
          file2 = open(header, "r")
          file1.writelines(file2.readlines())
          file2.close
-
 
          # read folders, and write to indexfile
          entries = os.listdir(pathtoplugins)
