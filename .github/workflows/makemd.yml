@@ -43,7 +43,7 @@ jobs:
           if size > 1024 :
             size = size / 1024
             f = " mb"
-          file1.writelines(str(size) + f) 
+          file1.writelines(str(round(size, 2)) + f) 
           
           file1.writelines(" | \n[view data](" + pluginurl + forweb + "/data/)<br>\n")
           file2 = open(pathtoplugins + entry + "/about.txt" , "r")
