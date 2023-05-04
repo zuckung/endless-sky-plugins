@@ -32,6 +32,7 @@ jobs:
          for entry in entries:
           withdots = entry.replace(" ", ".")
           forweb  = entry.replace(" ", "%20")
+          entry = entry.replace("github.com/zuckung/endless-sky-plugins", "")
           file1.writelines("### " + entry + "\n")
           file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) | \n")
           file1.writelines("[view data](" + pluginurl + forweb + "/data/)<br>\n")
