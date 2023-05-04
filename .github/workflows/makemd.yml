@@ -43,3 +43,13 @@ jobs:
          print('getcwd:      ', os.getcwd())
          print('__file__:    ', __file__)
         shell: python
+      - name: Commit file
+        run: |
+          git config --local user.name  ${{ github.actor }}
+          git add ./
+          git commit -m "automatic README.md update"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
