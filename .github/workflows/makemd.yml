@@ -14,6 +14,7 @@ jobs:
       - name: make md
         run: |
          import os
+         import urllib
          pathtoplugins = "myplugins/"
          indexfile = "README.md"
          assetfiles = "https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/"
@@ -33,8 +34,10 @@ jobs:
           withdots = entry.replace(" ", ".")
           forweb  = entry.replace(" ", "%20")
           file1.writelines("### " + entry + "\n")
-          file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) | \n")
-          file1.writelines("[view data](" + pluginurl + forweb + "/data/)<br>\n")
+          file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) ")
+          urlstat = urllib.urlopen(assetfiles + withdots + ".zip")
+          file1.writelines(urlstat.info()['Content-Length'])
+          file1.writelines(" | \n[view data](" + pluginurl + forweb + "/data/)<br>\n")
           file2 = open(pathtoplugins + entry + "/about.txt" , "r")
           x = file2.readlines()
           x = [item.replace("github.com/zuckung/endless-sky-plugins", "") for item in x]
