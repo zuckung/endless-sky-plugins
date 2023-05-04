@@ -1,0 +1,67 @@
+name: Make README.md
+on:
+  push:
+    paths:
+      - myplugins/**
+jobs:
+  makeREADMEmd:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: make md
+        run: |
+         import os
+         import requests
+         
+         pathtoplugins = "myplugins/"
+         indexfile = "README.md"
+         assetfiles = "https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/"
+         pluginurl = "https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/"
+         header = "header.file"
+
+         # write header
+         file1 = open(indexfile, "w")
+         file2 = open(header, "r")
+         file1.writelines(file2.readlines())
+         file2.close
+
+         # read folders, and write to README.md
+         entries = os.listdir(pathtoplugins)
+         entries = sorted(entries)
+         for entry in entries:
+          withdots = entry.replace(" ", ".")
+          forweb  = entry.replace(" ", "%20")
+          file1.writelines("### " + entry + "\n")
+          file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) ")
+           
+          response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
+          size = int(response.headers['Content-Length']) / 1024
+          f = " kb"
+          if size > 1024 :
+            size = size / 1024
+            f = " mb"
+          file1.writelines(str(round(size, 2)) + f) 
+          
+          file1.writelines(" | \n[view data](" + pluginurl + forweb + "/data/)<br>\n")
+          file2 = open(pathtoplugins + entry + "/about.txt" , "r")
+          x = file2.readlines()
+          x = [item.replace("github.com/zuckung/endless-sky-plugins", "") for item in x]
+          file1.writelines(x)
+          file1.writelines("\n \n")
+          file2.close
+          print(entry + " DONE")
+         file1.close
+        shell: python
+      - name: Commit file
+        run: |
+          git config --local user.name  ${{ github.actor }}
+          git add ./
+          git commit -m "README.md updated"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
