@@ -31,9 +31,11 @@ jobs:
          entries = sorted(entries)
          for entry in entries:
           withdots = entry.replace(" ", ".")
+          forweb  = entry.replace(" ", "%20")
           file1.writelines("### " + entry + "\n")
           file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip)\n")
-          file1.writelines("[view data](/" + pluginurl + entry + ")<br>\n")
+          
+          file1.writelines("[view data](" + pluginurl + entry + ")<br>\n")
           file2 = open(pathtoplugins + entry + "/about.txt" , "r")
           x = file2.readlines()
           file1.writelines(x)
@@ -41,8 +43,6 @@ jobs:
           file2.close
           print(entry + " DONE")
          file1.close
-         print('getcwd:      ', os.getcwd())
-         print('__file__:    ', __file__)
         shell: python
       - name: Commit file
         run: |
