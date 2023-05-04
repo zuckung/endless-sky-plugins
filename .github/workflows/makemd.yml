@@ -18,7 +18,7 @@ jobs:
          indexfile = "README.md"
          assetfiles = "https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/"
          pluginurl = "https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/"
-         header = "header"
+         header = "header.file"
 
          # write header
          file1 = open(indexfile, "w")
@@ -26,15 +26,14 @@ jobs:
          file1.writelines(file2.readlines())
          file2.close
 
-         # read folders, and write to indexfile
+         # read folders, and write to README.md
          entries = os.listdir(pathtoplugins)
          entries = sorted(entries)
          for entry in entries:
           withdots = entry.replace(" ", ".")
           forweb  = entry.replace(" ", "%20")
           file1.writelines("### " + entry + "\n")
-          file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip)\n")
-          
+          file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) | \n")
           file1.writelines("[view data](" + pluginurl + forweb + "/data/)<br>\n")
           file2 = open(pathtoplugins + entry + "/about.txt" , "r")
           x = file2.readlines()
