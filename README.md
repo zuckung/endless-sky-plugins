@@ -13,7 +13,7 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 
 ### additional command buttons
 [additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip)
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional command buttons)<br>
+[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional command buttons/)<br>
 (interface changed)(made for 0.10.0)
 github.com/zuckung/endless-sky-plugins
 
