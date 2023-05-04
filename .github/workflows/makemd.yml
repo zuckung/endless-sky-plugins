@@ -40,7 +40,7 @@ jobs:
           response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
           size = response.headers['Content-Length'] / 1024
           f = " kb"
-          if size > 1024
+          if size > 1024 :
             size = size / 1024
             f = " mb"
           file1.writelines(size + f) 
