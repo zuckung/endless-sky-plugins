@@ -15,7 +15,7 @@ jobs:
         run: |
          import os
          pathtoplugins = "myplugins/"
-         indexfile = "README.md"
+         indexfile = "test.md"
          assetfiles = "https://github.com/zuckung/endless-sky-plugins/releases/download/"
          header = "header"
 
