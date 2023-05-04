@@ -1,4 +1,4 @@
-![ ](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional%20command%20buttons/icon.png)
+![ ](https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional%20command%20buttons/icon.png)
 # **my endless-sky-plugins**
 I aim at developing small and modular plugins that don't break vanilla lore too much.<br><br>
 When playing a plugin, I often enjoy many aspects of it, but then there is something I don't like.<br>
@@ -117,7 +117,7 @@ Removes all non-mineable asteroids from all systems. Mineable asteroids and aste
 ### unique fix
 [unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) 51.92 kb | 
 [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique%20fix/data/)<br>
-(2 outfit attributes changed, 1 new outfit)(made for 0.10.0) 
+(2 outfit attributes changed, 1 new outfit)(made for 0.10.0)
 
 
 Removes mass and outfit space from the cloaking device.
