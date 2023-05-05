@@ -1,0 +1,14 @@
+name: Testing manuelly Workflow runs
+on: 
+  workflow_dispatch:
+    inputs:
+      git-ref:
+        description: Git Ref (Optional)    
+        required: false
+jobs:
+  deploy:
+    name: first
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Repository (Latest)
+        uses: actions/checkout@v2
