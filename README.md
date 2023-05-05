@@ -117,7 +117,7 @@ Removes all non-mineable asteroids from all systems. Mineable asteroids and aste
 ### unique fix
 [unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) 51.92 kb | 
 [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique%20fix/data/)<br>
-(2 outfit attributes changed, 1 new outfit)(made for 0.10.0)
+(2 outfit attributes changed, 1 new outfit)(made for 0.10.0) 
 
 
 Removes mass and outfit space from the cloaking device.
