@@ -1,4 +1,4 @@
-name: Testing manuelly workflow run
+name: Testing manually workflow run
 on: 
   workflow_dispatch:
     inputs:
@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 2
       - name: makemd
-        run: python src/makemd.py
+        run: python /src/makemd.py
       - name: Commit file
         run: |
           git config --local user.name  ${{ github.actor }}
