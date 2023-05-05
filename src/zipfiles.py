@@ -7,7 +7,9 @@
             if not "myplugins" in f:
               continue
             path = f.split(os.sep)
+	    print(path)
             index = path.index("myplugins") + 1
+	    print(index)
             if index >= len(path):
               continue
             plugins.add(path[index])
