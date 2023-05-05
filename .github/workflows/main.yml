@@ -1,4 +1,4 @@
-name: Zip Files
+name: Zip Release Readme
 on:
   push:
     paths:
