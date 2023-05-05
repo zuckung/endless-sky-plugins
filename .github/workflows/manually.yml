@@ -1,4 +1,4 @@
-name: Testing manuelly Workflow runs
+name: Testing manuelly workflow run
 on: 
   workflow_dispatch:
     inputs:
@@ -9,6 +9,17 @@ jobs:
   deploy:
     name: first
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
-      - name: Clone Repository (Latest)
-        uses: actions/checkout@v2
+      - name: makemd
+        uses: scr/makemd.py
+      - name: Commit file
+        run: |
+          git config --local user.name  ${{ github.actor }}
+          git add ./
+          git commit -m "README.md updated"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
