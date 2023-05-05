@@ -52,3 +52,15 @@ jobs:
           replacesArtifacts: true
           updateOnlyUnreleased: false
           artifacts: "*.zip"
+      - name: makemd
+        run: python src/makemd.py
+      - name: Commit file
+        run: |
+          git config --local user.name  ${{ github.actor }}
+          git add ./
+          git commit -m "README.md updated"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
