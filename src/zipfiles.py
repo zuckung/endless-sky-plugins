@@ -2,7 +2,7 @@ import os
 import subprocess
 import sys
 
-# formating argument
+# formating arguments
 changed = str(sys.argv)
 pos = changed.index(".py', '") + 7
 changed = changed[pos:]
