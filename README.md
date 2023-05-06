@@ -87,7 +87,7 @@ Adds seven pirate bounty boarding missions and seven human assisting boarding mi
 ### galactic capital investment
 [galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) 53.96 kb | 
 [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic%20capital%20investment/data/)<br>
-(story, repeatable mission)(made for 0.10.0)
+(story, repeatable mission)(made for 0.10.0) 
 
 
 Implements a two mission chain that enables regular spaceport investment opportunities which result in small daily income. Available in human, quarg and hai space with 2 million credits cash.
@@ -123,13 +123,13 @@ Removes all non-mineable asteroids from all systems. Mineable asteroids and aste
 
  
 ### unique fix
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) 51.6 kb | 
+[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) 96.56 kb | 
 [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique%20fix/data/)<br>
 (3 outfit attributes changed)(made for 0.10.0 continous) 
 
 
 Removes mass and outfit space from the cloaking device.
 Removes mass and outfit space from outskirts gauger and puts it in unique category.
-Gives outfit '"Puny"' a squirrel portrait.
+Gives outfit '"Puny"' a portrait.
 
  
