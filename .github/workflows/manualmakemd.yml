@@ -7,7 +7,7 @@ on:
         required: false
 jobs:
   deploy:
-    name: first job
+    name: First job
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
