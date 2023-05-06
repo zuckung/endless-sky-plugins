@@ -70,14 +70,6 @@ You can find them where Korath ships in human space are usually found(ember wast
 The chance to encounter previous Korath ships or automata is like 50/50.
 
  
-### boarding missions
-[boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/boarding.missions.zip) 52.86 kb | last modified: 2023-05-06
- | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boarding%20missions/) <br>
-(14 boarding mission)(made for 0.10.0)
-
-
-Adds seven pirate bounty boarding missions and seven human assisting boarding missions(20%, different credit rewards, repeatable).
- 
 ### galactic capital investment
 [galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) 54.63 kb | last modified: 2023-05-06
  | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic%20capital%20investment/) <br>
@@ -96,6 +88,14 @@ Implements a two mission chain that enables regular spaceport investment opportu
 
 Adds a shipyard with the the three Kor Efret ships(Arch-Carrack, Charm-Shallop, Echo-Galleon) to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships.
 
+ 
+### more boarding missions
+[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) 52.88 kb | last modified: 2023-05-06
+ | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more%20boarding%20missions/) <br>
+(21 boarding mission)(made for 0.10.0)
+
+
+Adds seven pirate bounty boarding missions, seven human assisting boarding missions and seven Hai assisting boarding missions(20%, different credit rewards, repeatable).
  
 ### snowfeather robotics
 [snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) 54.8 kb | last modified: 2023-05-06
