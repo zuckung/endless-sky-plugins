@@ -1,5 +1,5 @@
 author:
-	zuckung
+	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
 
 image:
