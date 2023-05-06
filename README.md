@@ -123,14 +123,13 @@ Removes all non-mineable asteroids from all systems. Mineable asteroids and aste
 
  
 ### unique fix
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) 51.92 kb | 
+[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) 51.6 kb | 
 [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique%20fix/data/)<br>
-(2 outfit attributes changed, 1 new outfit)(made for 0.10.0) 
+(3 outfit attributes changed)(made for 0.10.0 continous) 
 
 
 Removes mass and outfit space from the cloaking device.
 Removes mass and outfit space from outskirts gauger and puts it in unique category.
-Makes outfit '"Puny" the dog' and gives it a squirrel portrait.
-Makes an invisible mission to bring Puny back.
+Gives outfit '"Puny"' a squirrel portrait.
 
  
