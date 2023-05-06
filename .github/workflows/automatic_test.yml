@@ -1,4 +1,4 @@
-name: Automatic Zip Release Readme
+name: Automatic Zip Release Readme(test)
 on:
   push:
     paths:
