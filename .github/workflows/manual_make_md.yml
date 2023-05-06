@@ -1,4 +1,4 @@
-name: Manually make README.md
+name: Manual make README.md
 on: 
   workflow_dispatch:
     inputs:
