@@ -32,7 +32,8 @@ jobs:
         run: python src/makemd.py
       - name: Commit file
         run: |
-          git config --local user.name  ${{ github.actor }}
+          git config user.name "Generator" 
+          git config user.email "<>"
           git add ./README.md
           git commit -m "README.md updated"
       - name: Push changes
