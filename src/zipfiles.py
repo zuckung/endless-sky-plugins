@@ -2,9 +2,14 @@ import os
 import subprocess
 import sys
 
-a = "myplugins/unique fix/about.txt"
+# formating argument
 changed = str(sys.argv)
-print("'"+a+"' vs '"+ changed +"'" )
+pos = changed.index(".py', '") + 7
+changed = changed[pos:]
+changed = changed.replace("', '"," ")
+changed = changed.replace("']","")
+print(changed)
+
 plugins = set()
 for f in changed.split("%%%"):
     if not "myplugins" in f:
