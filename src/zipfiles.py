@@ -2,8 +2,8 @@ import os
 import subprocess
 import sys
 
-changed = "myplugins/unique fix/about.txt%%%myplugins/blub und bla/egal.txt"
-#changed = str(sys.argv)
+#changed = "myplugins/unique fix/about.txt%%%myplugins/blub und bla/egal.txt"
+changed = str(sys.argv)
 plugins = set()
 for f in changed.split("%%%"):
     if not "myplugins" in f:
@@ -17,9 +17,9 @@ if plugins:
     print("The following plugins have changed:")
     for p in plugins:
         print(p)
-        #os.chdir('myplugins/')
+        os.chdir('myplugins/')
         x = p.replace(" ", ".")
-        #subprocess.run(["zip", "-r", "../" + x + ".zip", p], stdout=subprocess.DEVNULL)
-        #os.chdir('../')
+        subprocess.run(["zip", "-r", "../" + x + ".zip", p], stdout=subprocess.DEVNULL)
+        os.chdir('../')
 else:
     print("No plugin changes have been detected.")
