@@ -1,7 +1,3 @@
-#                                                           original chances   my chances   overall chance
-# intercepter, light warship, transport, light freighter    7                  +20          27
-# medium warship, heavy freighter                           5                  +20          25
-# heavy warship                                             3                  +20          23
 
 conversation "boarding pirate id"
 	`As you board the "<origin>", you find the pirate captain died by an explosion. You check his ID on the galactic network feed and receive <payment> credits bounty.`
@@ -105,12 +101,11 @@ mission "Boarding Pirate ID (Heavy Warship)"
 		conversation "boarding pirate id"
 	destination "Earth"
 
+
+
 conversation "assisting human"
 	`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
 		decline
-
-
-
 
 mission "Assisting Human (Interceptor)"
 	assisting
