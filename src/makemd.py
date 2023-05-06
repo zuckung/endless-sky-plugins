@@ -5,7 +5,7 @@ pathtoplugins = "myplugins/"
 indexfile = "README.md"
 assetfiles = "https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/"
 pluginurl = "https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/"
-header = "header.file"
+header = "src/header.file"
 
 # write header
 file1 = open(indexfile, "w")
