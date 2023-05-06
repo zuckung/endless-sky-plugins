@@ -1,4 +1,4 @@
-name: testing .py
+name: Test .py file
 on: 
   workflow_dispatch:
     inputs:
@@ -7,12 +7,12 @@ on:
         required: false
 jobs:
   deploy:
-    name: first
+    name: First job
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 2
-      - name: test .py
+      - name: Test .py
         run: python src/zipfiles.py
