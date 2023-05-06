@@ -11,7 +11,7 @@ changed = changed.replace("']","")
 print(changed)
 
 plugins = set()
-for f in changed.split("%%%"):
+for f in changed.split("%25%25%25"):
     if not "myplugins" in f:
         continue
     path = f.split(os.sep)
