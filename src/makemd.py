@@ -1,5 +1,6 @@
 import os
 import requests
+import datetime
 
 pathtoplugins = "myplugins/"
 indexfile = "README.md"
@@ -24,6 +25,9 @@ for entry in entries:
            
 	response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
 	modif = response.headers['Last-Modified']
+	modif = datetime.strptime(modif, '%a, %d %b %Y %H:%M:%S %Z').date()
+	
+	
 	size = int(response.headers['Content-Length']) / 1024
 	f = " kb"
 	if size > 1024 :
