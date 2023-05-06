@@ -1,4 +1,4 @@
-name: Manually test .py file
+name: Manual test .py file
 on: 
   workflow_dispatch:
     inputs:
