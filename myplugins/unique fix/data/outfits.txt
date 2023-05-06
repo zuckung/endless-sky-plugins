@@ -7,4 +7,4 @@ outfit "Outskirts Gauger"
 	"outfit space" 0	
 
 outfit "Puny"
-	thumbnail "portrait/hai00"
+	thumbnail "outfit/puny"
