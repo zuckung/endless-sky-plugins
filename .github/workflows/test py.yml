@@ -1,0 +1,18 @@
+name: testing .py
+on: 
+  workflow_dispatch:
+    inputs:
+      git-ref:
+        description: Git Ref (Optional)    
+        required: false
+jobs:
+  deploy:
+    name: first
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: test .py
+        run: python src/zipfiles.py

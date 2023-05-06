@@ -1,4 +1,4 @@
-name: Testing manually workflow run
+name: Manually make README.md
 on: 
   workflow_dispatch:
     inputs:
@@ -7,14 +7,14 @@ on:
         required: false
 jobs:
   deploy:
-    name: first
+    name: first job
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 2
-      - name: makemd
+      - name: Make README.md
         run: python src/makemd.py
       - name: Commit file
         run: |
