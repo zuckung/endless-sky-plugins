@@ -14,8 +14,8 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 
 
 ### additional command buttons
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) 53.9 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional%20command%20buttons/data/) | last modified: 2023-05-06<br>
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) 53.9 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional%20command%20buttons/data/) <br>
 (interface changed)(made for 0.10.0)
 
 
@@ -26,8 +26,8 @@ adjusts the message box to not overlap
 
  
 ### automata destruction 0percent
-[automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.0percent.zip) 52.13 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata%20destruction%200percent/data/) | last modified: 2023-05-06<br>
+[automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.0percent.zip) 52.13 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata%20destruction%200percent/data/) <br>
 (14 ship attributes changed)(made for 0.10.0)
 
 
@@ -36,8 +36,8 @@ Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a sel
 
  
 ### automata destruction 23percent
-[automata.destruction.23percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.23percent.zip) 52.15 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata%20destruction%2023percent/data/) | last modified: 2023-05-06<br>
+[automata.destruction.23percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.23percent.zip) 52.15 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata%20destruction%2023percent/data/) <br>
 (14 ship attributes changed)(made for 0.10.0)
 
 
@@ -46,8 +46,8 @@ Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a sel
 
  
 ### automata destruction 51percent
-[automata.destruction.51percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.51percent.zip) 52.15 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata%20destruction%2051percent/data/) | last modified: 2023-05-06<br>
+[automata.destruction.51percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.51percent.zip) 52.15 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata%20destruction%2051percent/data/) <br>
 (14 ship attributes changed)(made for 0.10.0)
 
 
@@ -56,8 +56,8 @@ Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a sel
 
  
 ### automata destruction 75percent
-[automata.destruction.75percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.75percent.zip) 52.15 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata%20destruction%2075percent/data/) | last modified: 2023-05-06<br>
+[automata.destruction.75percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.75percent.zip) 52.15 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata%20destruction%2075percent/data/) <br>
 (14 ship attributes changed)(made for 0.10.0)
 
 
@@ -66,8 +66,8 @@ Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a sel
 
  
 ### automata in human space
-[automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.in.human.space.zip) 53.24 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata%20in%20human%20space/data/) | last modified: 2023-05-06<br>
+[automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.in.human.space.zip) 53.24 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata%20in%20human%20space/data/) <br>
 (14 ship variants, 16 variants in 4 fleets)(made for 0.10.0)
 
 
@@ -77,16 +77,16 @@ The chance to encounter previous Korath ships or automata is like 50/50.
 
  
 ### boarding missions
-[boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/boarding.missions.zip) 52.55 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boarding%20missions/data/) | last modified: 2023-05-06<br>
+[boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/boarding.missions.zip) 52.55 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boarding%20missions/data/) <br>
 (14 boarding mission)(made for 0.10.0)
 
 
 Adds seven pirate bounty boarding missions and seven human assisting boarding missions(20%, different credit rewards, repeatable).
  
 ### galactic capital investment
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) 54.22 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic%20capital%20investment/data/) | last modified: 2023-05-06<br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) 54.22 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic%20capital%20investment/data/) <br>
 (story, repeatable mission)(made for 0.10.0)
 
 
@@ -95,8 +95,8 @@ Implements a two mission chain that enables regular spaceport investment opportu
 
  
 ### kor efret shipyard
-[kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/kor.efret.shipyard.zip) 52.15 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor%20efret%20shipyard/data/) | last modified: 2023-05-06<br>
+[kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/kor.efret.shipyard.zip) 52.15 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor%20efret%20shipyard/data/) <br>
 (outfitter and shipyard added)(made for 0.10.0)
 
 
@@ -104,8 +104,8 @@ Adds a shipyard with the the three Kor Efret ships(Arch-Carrack, Charm-Shallop, 
 
  
 ### snowfeather robotics
-[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) 54.42 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather%20robotics/data/) | last modified: 2023-05-06<br>
+[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) 54.42 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather%20robotics/data/) <br>
 (story, 1 new outfit)(made for 0.10.0)
 
 
@@ -114,8 +114,8 @@ Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered lig
 
  
 ### too many asteroids
-[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) 56.17 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too%20many%20asteroids/data/) | last modified: 2023-05-06<br>
+[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) 56.17 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too%20many%20asteroids/data/) <br>
 (1-6 system attributes changed, in 540 systems)(made for 0.10.0)
 
 
@@ -123,8 +123,8 @@ Removes all non-mineable asteroids from all systems. Mineable asteroids and aste
 
  
 ### unique fix
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) 96.6 kb | 
-[view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique%20fix/data/) | last modified: 2023-05-06<br>
+[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) 96.6 kb | last modified: 2023-05-06
+ | [view data](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique%20fix/data/) <br>
 (3 outfit attributes changed)(made for 0.10.0 continous)
 
 
