@@ -1,4 +1,4 @@
-(2 outfit attributes changed, 1 new outfit)(made for 0.10.0)
+(2 outfit attributes changed, 1 new outfit)(made for 0.10.0) 
 github.com/zuckung/endless-sky-plugins
 
 Removes mass and outfit space from the cloaking device.
