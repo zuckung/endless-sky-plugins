@@ -25,7 +25,8 @@ for entry in entries:
            
 	response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
 	modif = response.headers['Last-Modified']
-	modif = datetime.strptime(modif, '%a, %d %b %Y %H:%M:%S %Z').date()
+	cur_data = { assetfiles + withdots + ".zip": datetime.strptime(modif, '%a, %d %b %Y %H:%M:%S %Z') }
+	print(cur_data)
 	
 	
 	size = int(response.headers['Content-Length']) / 1024
