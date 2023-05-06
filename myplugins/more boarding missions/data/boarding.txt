@@ -120,9 +120,6 @@ mission "Assisting Human (Interceptor)"
 	on offer
 		payment 10000
 		conversation "assisting human"
-	# A mission with no destination will not be offered, so give it one.
-	# What the destination is doesn't matter, because you always 'decline' this.
-	destination "Earth"
 
 mission "Assisting Human (Light Warship)"
 	assisting
@@ -137,9 +134,6 @@ mission "Assisting Human (Light Warship)"
 	on offer
 		payment 12000
 		conversation "assisting human"
-	# A mission with no destination will not be offered, so give it one.
-	# What the destination is doesn't matter, because you always 'decline' this.
-	destination "Earth"
 
 mission "Assisting Human (Transport)"
 	assisting
@@ -154,9 +148,6 @@ mission "Assisting Human (Transport)"
 	on offer
 		payment 15000
 		conversation "assisting human"
-	# A mission with no destination will not be offered, so give it one.
-	# What the destination is doesn't matter, because you always 'decline' this.
-	destination "Earth"
 
 mission "Assisting Human (Light Freighter)"
 	assisting
@@ -171,9 +162,6 @@ mission "Assisting Human (Light Freighter)"
 	on offer
 		payment 18000
 		conversation "assisting human"
-	# A mission with no destination will not be offered, so give it one.
-	# What the destination is doesn't matter, because you always 'decline' this.
-	destination "Earth"
 
 mission "Assisting Human (Medium Warship)"
 	assisting
@@ -218,4 +206,111 @@ mission "Assisting Human (Heavy Warship)"
 	on offer
 		payment 30000
 		conversation "assisting human"
+	destination "Earth"
+
+
+
+conversation "assisting hai"
+	`When you repair the Hai ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+		decline
+
+mission "Assisting Hai (Interceptor)"
+	assisting
+	repeat
+	minor
+	to offer
+		random < 20
+	source
+		government "Hai"
+		category "Interceptor"
+		not attributes "automaton"
+	on offer
+		payment 20000
+		conversation "assisting hai"
+
+mission "Assisting Hai (Light Warship)"
+	assisting
+	repeat
+	minor
+	to offer
+		random < 20
+	source
+		government "Hai"
+		category "Light Warship"
+		not attributes "automaton"
+	on offer
+		payment 24000
+		conversation "assisting hai"
+
+mission "Assisting Hai (Transport)"
+	assisting
+	repeat
+	minor
+	to offer
+		random < 20
+	source
+		government "Hai"
+		category "Transport"
+		not attributes "automaton"
+	on offer
+		payment 30000
+		conversation "assisting hai"
+
+mission "Assisting Hai (Light Freighter)"
+	assisting
+	repeat
+	minor
+	to offer
+		random < 20
+	source
+		government "Hai"
+		category "Light Freighter"
+		not attributes "automaton"
+	on offer
+		payment 36000
+		conversation "assisting hai"
+
+mission "Assisting Hai (Medium Warship)"
+	assisting
+	repeat
+	minor
+	to offer
+		random < 20
+	source
+		government "Hai"
+		category "Medium Warship"
+		not attributes "automaton"
+	on offer
+		payment 40000
+		conversation "assisting hai"
+	destination "Earth"
+
+mission "Assisting Hai (Heavy Freighter)"
+	assisting
+	repeat
+	minor
+	to offer
+		random < 20
+	source
+		government "Hai"
+		category "Heavy Freighter"
+		not attributes "automaton"
+	on offer
+		payment 50000
+		conversation "assisting hai"
+	destination "Earth"
+
+mission "Assisting Hai (Heavy Warship)"
+	assisting
+	repeat
+	minor
+	to offer
+		random < 20
+	source
+		government "Hai"
+		category "Heavy Warship"
+		not attributes "automaton"
+	on offer
+		payment 60000
+		conversation "assisting hai"
 	destination "Earth"
