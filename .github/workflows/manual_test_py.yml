@@ -15,4 +15,4 @@ jobs:
         with:
           fetch-depth: 2
       - name: Test .py
-        run: python src/zipfiles.py
+        run: python src/makemd.py

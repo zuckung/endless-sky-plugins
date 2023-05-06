@@ -1,4 +1,4 @@
-name: Automatic Zip Release Readme(test)
+name: Automatic Zip Release Readme
 on:
   push:
     paths:
@@ -33,7 +33,7 @@ jobs:
       - name: Commit file
         run: |
           git config --local user.name  ${{ github.actor }}
-          git add ./
+          git add ./README.md
           git commit -m "README.md updated"
       - name: Push changes
         uses: ad-m/github-push-action@master
