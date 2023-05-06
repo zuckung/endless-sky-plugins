@@ -46,7 +46,7 @@ for entry in entries:
 	file1.writelines("### " + entry + "\n")
 	file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) ")
 	file1.writelines(str(round(assetsize, 2)) + form)    
-	file1.writelines(" | last modified: " + modif + "\n"
+	file1.writelines(" | last modified: " + modif + "\n")
 	file1.writelines(" | [view data](" + pluginurl + forweb + "/data/) <br>\n")
 	file1.writelines(description)
 	file1.writelines("\n \n")
