@@ -23,6 +23,7 @@ for entry in entries:
 	file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) ")
            
 	response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
+	modif = response.headers['Last-Modified']
 	size = int(response.headers['Content-Length']) / 1024
 	f = " kb"
 	if size > 1024 :
@@ -30,7 +31,7 @@ for entry in entries:
 		f = " mb"
 	file1.writelines(str(round(size, 2)) + f) 
           
-	file1.writelines(" | \n[view data](" + pluginurl + forweb + "/data/)<br>\n")
+	file1.writelines(" | \n[view data](" + pluginurl + forweb + "/data/) | last modified: " + modif + "<br>\n")
 	file2 = open(pathtoplugins + entry + "/about.txt" , "r")
 	x = file2.readlines()
 	x = [item.replace("github.com/zuckung/endless-sky-plugins", "") for item in x]
