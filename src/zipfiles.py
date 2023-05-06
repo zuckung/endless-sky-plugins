@@ -2,8 +2,9 @@ import os
 import subprocess
 import sys
 
-#changed = "myplugins/unique fix/about.txt%%%myplugins/blub und bla/egal.txt"
+a = "myplugins/unique fix/about.txt"
 changed = str(sys.argv)
+print("'"+a+"' vs '"+ changed +"'" )
 plugins = set()
 for f in changed.split("%%%"):
     if not "myplugins" in f:
