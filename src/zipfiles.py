@@ -12,13 +12,7 @@ print("arguments are : " + changed)
 
 
 if changed == "-all":
-    names = os.listdir("myplugins/")
-    for name in names:
-            os.chdir('myplugins/')
-            x = name.replace(" ", ".")
-            subprocess.run(["zip", "-r", "../" + x + ".zip", name], stdout=subprocess.DEVNULL)
-            os.chdir('../')
-            print(name + " DONE")
+
 else:
     plugins = set()
         for f in changed.split("%25%25%25"):
