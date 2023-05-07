@@ -11,18 +11,15 @@ changed = changed.replace("']","")
 print("arguments are : " + changed)
 
 
-if changed == "-all":
-
-else:
-    plugins = set()
-        for f in changed.split("%25%25%25"):
-        if not "myplugins" in f:
-            continue
-        path = f.split(os.sep)
-        index = path.index("myplugins") + 1
-        if index >= len(path):
-            continue
-        plugins.add(path[index])
+plugins = set()
+for f in changed.split("%25%25%25"):
+    if not "myplugins" in f:
+        continue
+    path = f.split(os.sep)
+    index = path.index("myplugins") + 1
+    if index >= len(path):
+        continue
+    plugins.add(path[index])
     if plugins:
         print("The following plugins have changed:")
         for p in plugins:
