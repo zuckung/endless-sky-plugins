@@ -28,6 +28,8 @@ jobs:
           replacesArtifacts: true
           updateOnlyUnreleased: false
           artifacts: "*.zip"
+      - name: move zip
+        run: mv -f *.zip zip/
       - name: Make README.md
         run: python src/makemd.py
       - name: Commit file
