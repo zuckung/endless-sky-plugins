@@ -44,7 +44,7 @@ for entry in entries:
 	
 	# write the plugin informations to README.md
 	file1.writelines("### " + entry + "\n")
-	file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) ")
+	file1.writelines("[" + withdots + ".zip](" + assetfiles + withdots + ".zip) | ")
 	file1.writelines(str(round(assetsize, 2)) + form)    
 	file1.writelines(" | last modified: " + modif + "\n")
 	file1.writelines(" | [view files](" + pluginurl + forweb + "/) <br>\n")
