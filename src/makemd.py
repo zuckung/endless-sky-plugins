@@ -2,15 +2,27 @@ import os
 import requests
 from datetime import datetime, date
 
-pathtoplugins = "myplugins/"
-indexfile = "README.md"
-assetfiles = "https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/"
-pluginurl = "https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/"
-header = "src/header.file"
+# read paths and files
+with open("res/paths.txt") as f:
+	for line in f:
+		line = str((line.strip()))
+		if line.find("pathtoplugins") == 0:	# i.e. pathtoplugins = myplugins/
+			pathtoplugins = line.split(" = ")[1]
+		elif line.find("indexfile") == 0: 		# i.e.indexfile = README.md
+			indexfile = line.split(" = ")[1]
+		elif line.find("assetfiles") == 0:	   # i.e. assetfiles = https://github.com/zuckung/test/releases/download/Latest/
+ 			assetfiles = line.split(" = ")[1]
+		elif line.find("pluginurl") == 0:		 # i.e pluginurl = https://github.com/zuckung/test/tree/main/myplugins/
+			pluginurl = line.split(" = ")[1]
+		elif line.find("header") == 0:			# i.e. headerfile = res/header.txt
+			headerfile = line.split(" = ")[1]
+		elif line.find("picturefile") == 0:	  # i.e picturefile = res/icon.png
+			picturefile = line.split(" = ")[1]
 
 # write header
-file2 = open(header, "r")
-header = file2.readlines()
+file2 = open(headerfile, "r")
+header = str(file2.readlines())
+header = header.replace("*picture*" , picturefile)
 file2.close
 file1 = open(indexfile, "w")
 file1.writelines(header)

@@ -1,0 +1,10 @@
+outfit "Cloaking Device"	
+	"mass" 0
+	"outfit space" 0	
+
+outfit "Outskirts Gauger"	
+	"mass" 0	
+	"outfit space" 0	
+
+outfit "Puny"
+	thumbnail "outfit/puny"

@@ -1,10 +1,6 @@
 name: Manual make README.md
 on: 
   workflow_dispatch:
-    inputs:
-      git-ref:
-        description: Git Ref (Optional)    
-        required: false
 jobs:
   deploy:
     name: First job
@@ -19,7 +15,7 @@ jobs:
       - name: Commit file
         run: |
           git config user.name "zuckung" 
-          git config user.email "<>"
+          git config user.email "zuckung@gmx.de"
           git add ./
           git commit -m "README.md updated"
       - name: Push changes
