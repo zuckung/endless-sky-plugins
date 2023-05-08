@@ -1,5 +1,0 @@
-### snowfeather robotics <br>
-(story, 1 new outfit)(made for 0.10.0) <br>
-<br>
-Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). <br>
-Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered light 4" and have at least one android installed. <br>
