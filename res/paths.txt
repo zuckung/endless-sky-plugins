@@ -1,7 +1,7 @@
 # fix paths
 pathtoplugins = myplugins/
 indexfile = README.md
-assetfiles = https://github.com/zuckung/test/releases/download/Latest/
-pluginurl = https://github.com/zuckung/test/tree/main/myplugins/
+assetfiles = https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/
+pluginurl = https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/
 headerfile = res/header.txt
 picturefile = res/icon.png
