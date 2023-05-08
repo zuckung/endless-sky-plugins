@@ -21,8 +21,7 @@ with open("res/paths.txt") as f:
 
 # write header
 file2 = open(headerfile, "r")
-header = str(file2.readlines())
-header = header.replace("*picture*" , picturefile)
+header = file2.readlines()
 file2.close
 file1 = open(indexfile, "w")
 file1.writelines(header)
