@@ -32,9 +32,9 @@ jobs:
         run: python src/makemd.py
       - name: Commit file
         run: |
-          git config user.name "Generator" 
-          git config user.email "<>"
-          git add ./
+          git config user.name "zuckung" 
+          git config user.email "zuckung@gmx.de"
+          git add README.md
           git commit -m "README.md updated"
       - name: Push changes
         uses: ad-m/github-push-action@master
