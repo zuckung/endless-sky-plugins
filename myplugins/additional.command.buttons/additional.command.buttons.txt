@@ -1,6 +1,6 @@
 author=zuckung
 website=https://github.com/zuckung/endless-sky-plugins
-category=graphics
+category=overhauls
 status=made for 0.10.0
 description=(interface changed)
 
