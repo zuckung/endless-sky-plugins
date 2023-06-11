@@ -1,7 +1,0 @@
-author=zuckung
-website=https://github.com/zuckung/endless-sky-plugins
-category=overhauls
-status=made for 0.10.0
-description=(1-6 system attributes changed, in 540 systems)
-
-Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched.

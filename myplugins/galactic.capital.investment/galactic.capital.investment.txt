@@ -1,8 +1,0 @@
-author=zuckung
-website=https://github.com/zuckung/endless-sky-plugins
-category=gameplay
-status=made for 0.10.0
-description=(story, repeatable mission)
-
-Implements a two mission chain that enables regular spaceport investment opportunities which result in small daily income. Available in human, quarg and hai space with 2 million credits cash.
-(inspired by a-alhusaini's investment bank plugin)
