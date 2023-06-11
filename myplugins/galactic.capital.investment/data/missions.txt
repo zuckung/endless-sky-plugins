@@ -94,7 +94,7 @@ mission "Galactic Capital 1M"
 		has "Galactic Capital Intro B: offered"
 		"credits" > 2000000
 		"credits" < 6000000
-		random < 15
+		random > 85
 	on decline
 		payment -1000000
 		"salary: Galactic Capital" += 600
@@ -126,7 +126,7 @@ mission "Galactic Capital 5M"
 		has "Galactic Capital Intro B: offered"
 		"credits" > 6000000
 		"credits" < 11000000
-		random < 15
+		random > 85
 	on decline
 		payment -5000000
 		"salary: Galactic Capital" += 3400
@@ -158,7 +158,7 @@ mission "Galactic Capital 10M"
 		has "Galactic Capital Intro B: offered"
 		"credits" > 11000000
 		"credits" < 55000000
-		random < 15
+		random > 85
 	on decline
 		payment -10000000
 		"salary: Galactic Capital" += 7200
@@ -188,7 +188,7 @@ mission "Galactic Capital 50M"
 		has "Galactic Capital Intro B: offered"
 		"credits" > 55000000
 		"credits" < 110000000
-		random < 15
+		random > 85
 	on decline
 		payment -50000000
 		"salary: Galactic Capital" += 37000
@@ -217,7 +217,7 @@ mission "Galactic Capital 100M"
 	to offer
 		has "Galactic Capital Intro B: offered"
 		"credits" > 110000000
-		random < 15
+		random > 85
 	on decline
 		payment -100000000
 		"salary: Galactic Capital" += 76100

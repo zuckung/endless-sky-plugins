@@ -3,6 +3,7 @@ outfit "Cloaking Device"
 	"outfit space" 0	
 
 outfit "Outskirts Gauger"	
+	category "Unique"
 	"mass" 0	
 	"outfit space" 0	
 
