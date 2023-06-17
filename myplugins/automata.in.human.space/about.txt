@@ -1,4 +1,4 @@
-(14 ship variants, 16 variants in 4 fleets)(made for 0.10.0)
+(14 ship variants, 16 variants in 4 fleets)(made for 0.10.1)
 github.com/zuckung/endless-sky-plugins
 
 Brings jump drive equipped automata into human space after the wanderer campaign. 

@@ -1,3 +1,6 @@
+# number of systems: 552
+# number of asteroid entries: 2654
+
 system "1 Axis"
 	remove asteroids "small rock"
 	remove asteroids "medium rock"
@@ -134,7 +137,7 @@ system "5 Spring Below"
 	remove asteroids "medium rock"
 	remove asteroids "large rock"
 	remove asteroids "small metal"
-	remove asteroids "medium metal" 
+	remove asteroids "medium metal"
 	remove asteroids "large metal"
 
 system "5 Summer Above"
@@ -288,6 +291,8 @@ system "Ae Il O-96"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
 
+system Aescolanus
+
 system Aierena
 	remove asteroids "small metal"
 	remove asteroids "medium metal"
@@ -365,6 +370,8 @@ system Aldhibain
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
 
+system Aleit
+
 system Algenib
 	remove asteroids "large metal"
 
@@ -409,7 +416,7 @@ system Alioth
 
 system Alkaid
 	remove asteroids "medium rock"
-	remove asteroids "large rock" 
+	remove asteroids "large rock"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
 
@@ -878,6 +885,8 @@ system Chy'chra
 	remove asteroids "large rock"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
+
+system Cinxia
 
 system Coluber
 	remove asteroids "small rock"
@@ -1375,7 +1384,7 @@ system Eteron
 	remove asteroids "medium rock"
 	remove asteroids "large rock"
 	remove asteroids "small metal"
-	remove asteroids "medium metal" 
+	remove asteroids "medium metal"
 	remove asteroids "large metal"
 
 system Evrae
@@ -1435,7 +1444,7 @@ system Faronektu
 	remove asteroids "large metal"
 
 system Fasitopfar
-	remove asteroids "small rock" 
+	remove asteroids "small rock"
 	remove asteroids "medium rock"
 	remove asteroids "large rock"
 	remove asteroids "small metal"
@@ -1610,7 +1619,7 @@ system Ghhil
 	remove asteroids "medium rock"
 	remove asteroids "large rock"
 	remove asteroids "small metal"
- 	remove asteroids "medium metal"
+	remove asteroids "medium metal"
 	remove asteroids "large metal"
 
 system Gienah
@@ -1748,6 +1757,8 @@ system Heutesl
 	remove asteroids "small metal"
 	remove asteroids "medium metal"
 
+system "Hevru Hai"
+
 system "Hi Yahr"
 	remove asteroids "small rock"
 	remove asteroids "medium rock"
@@ -1875,6 +1886,12 @@ system "Is Ce B-139"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
 
+system "Is Ce F-422"
+	remove asteroids "small rock"
+	remove asteroids "medium rock"
+	remove asteroids "large rock"
+	remove asteroids "large metal"
+
 system "Is Ce G-460"
 	remove asteroids "small rock"
 	remove asteroids "medium rock"
@@ -1972,6 +1989,8 @@ system "Jyeg Pvu"
 	remove asteroids "large rock"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
+
+system Jyelio
 
 system Ka'ch'chrai
 	remove asteroids "small rock"
@@ -2275,6 +2294,8 @@ system Lurata
 system M-1188
 	remove asteroids "large metal"
 
+system MC-42
+
 system MS-219
 	remove asteroids "large metal"
 
@@ -2506,6 +2527,8 @@ system Mora
 	remove asteroids "large rock"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
+
+system Msalbit
 
 system Muhlifain
 	remove asteroids "large metal"
@@ -2795,7 +2818,7 @@ system Plort
 system Polaris
 	remove asteroids "small rock"
 	remove asteroids "medium rock"
-	remove asteroids "large rock" 
+	remove asteroids "large rock"
 	remove asteroids "large metal"
 
 system Polerius
@@ -2858,7 +2881,6 @@ system Ptetubo
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
 
-
 system Ptobeh
 	remove asteroids "large metal"
 
@@ -2875,6 +2897,10 @@ system Pukako
 	remove asteroids "medium rock"
 	remove asteroids "large rock"
 	remove asteroids "large metal"
+
+system Quaru
+
+system Queri
 
 system Rajak
 	remove asteroids "small rock"
@@ -3011,6 +3037,8 @@ system Sadr
 	remove asteroids "small metal"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
+
+system "Sagittarius A*"
 
 system Saiph
 	remove asteroids "small rock"
@@ -3594,6 +3622,8 @@ system Wezen
 	remove asteroids "small metal"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
+
+system "World's End"
 
 system Wreoul
 	remove asteroids "small rock"
