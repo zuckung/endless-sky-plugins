@@ -8,7 +8,7 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 
 
 ### additional.command.buttons
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 54.49 kb | last modified: 2023-06-17
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 54.49 kb | last modified: 2023-06-21
  | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
 (interface changed)(made for 0.10.1)
 
@@ -71,9 +71,9 @@ The chance to encounter previous Korath ships or automata is like 50/50.
 
  
 ### galactic.capital.investment
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 54.79 kb | last modified: 2023-06-17
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 54.79 kb | last modified: 2023-06-21
  | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
-(story, repeatable mission)(made for 0.10.1)
+(story, repeatable mission)(made for 0.10.1) 
 
 
 Implements a two mission chain that enables regular spaceport investment opportunities which result in small daily income. Available in human, quarg and hai space with 2 million credits cash.
@@ -98,7 +98,7 @@ Adds a shipyard with the the three Kor Efret ships(Arch-Carrack, Charm-Shallop, 
 Adds seven pirate bounty boarding missions, seven human assisting boarding missions and seven Hai assisting boarding missions(20%, different credit rewards, repeatable).
  
 ### snowfeather.robotics
-[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) | 54.77 kb | last modified: 2023-06-17
+[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) | 54.77 kb | last modified: 2023-06-21
  | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) <br>
 (story, 1 new outfit)(made for 0.10.1)
 
@@ -108,12 +108,13 @@ Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered lig
 
  
 ### too.many.asteroids
-[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) | 57.33 kb | last modified: 2023-06-17
+[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) | 57.36 kb | last modified: 2023-06-21
  | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <br>
-(2654 system attributes changed, in 552 systems)(made for 0.10.1)  
+(2654 system attributes changed, in 552 systems)(made for 0.10.1) 
 
 
 Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched.
+Increases game performance.
 
  
 ### unique.fix
