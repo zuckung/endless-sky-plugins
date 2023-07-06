@@ -8,13 +8,13 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 
 
 ### additional.command.buttons
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 54.49 kb | last modified: 2023-06-21
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 54.6 kb | last modified: 2023-07-06
  | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
 (interface changed)(made for 0.10.1)
 
 
 Made for the mobile version and  
-adds the following buttons: full stop / board ship / land on planet / fire afterburner / fleet: hold position / fleet: gather around me / view player info
+adds the following buttons: full stop / board ship / land on planet / fleet: harvest flotsam / fleet: hold position / fleet: gather around me / view player info
 adjusts the message box to not overlap
 (inspired by theweirednut)
 
@@ -71,9 +71,9 @@ The chance to encounter previous Korath ships or automata is like 50/50.
 
  
 ### galactic.capital.investment
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 54.79 kb | last modified: 2023-06-21
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 54.81 kb | last modified: 2023-06-27
  | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
-(story, repeatable mission)(made for 0.10.1) 
+(story, repeatable mission)(made for 0.10.1)
 
 
 Implements a two mission chain that enables regular spaceport investment opportunities which result in small daily income. Available in human, quarg and hai space with 2 million credits cash.
