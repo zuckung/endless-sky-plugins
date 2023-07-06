@@ -78,9 +78,12 @@ interface "main buttons" bottom right
      
 	# modified
 	# button commands are:
+	# "Show main menu"
+	# "Forward thrust"
 	# "Turn left"
 	# "Turn right"
 	# "Reverse"
+	# "Mouse turning (hold)"
 	# "Fire primary weapon"
 	# "Fire secondary weapon"
 	# "Select secondary weapon"
@@ -101,7 +104,9 @@ interface "main buttons" bottom right
 	# "Fleet: Fight my target"
 	# "Fleet: Gather around me"
 	# "Fleet: Hold position"
+	# "Fleet: Harvest flotsam"
 	# "Fleet: Toggle ammo usage"
+	# "Auto steer"
 	# "Stop"
 	# "Mouse turning (hold)"
 	# "Mouse turning (toggle)"
@@ -126,7 +131,7 @@ interface "main buttons" bottom right
 
 	sprite "ui/dialog cancel"
 		from -410 -130 to -320 -80
-	button "Fire afterburner" "_Afterburn"
+	button "Fleet: Harvest flotsam" "_F:Harvest"
 		from -400 -120 to -330 -90
 
 	sprite "ui/dialog cancel"
