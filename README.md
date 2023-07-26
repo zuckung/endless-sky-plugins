@@ -8,14 +8,14 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 
 
 ### additional.command.buttons
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 54.6 kb | last modified: 2023-07-06
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 130.95 kb | last modified: 2023-07-26
  | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
 (interface changed)(made for 0.10.1)
 
 
-Made for the mobile version and  
-adds the following buttons: full stop / board ship / land on planet / fleet: harvest flotsam / fleet: hold position / fleet: gather around me / view player info
-adjusts the message box to not overlap
+Made for the mobile version and 
+adds the following buttons: full stop / board ship / land on planet / fleet: harvest flotsam / fleet: hold position / fleet: gather around me / fleet: attack my target / fleet: toggle ammo usage / view player info / fast forward 
+
 (inspired by theweirednut)
 
  
