@@ -111,43 +111,79 @@ interface "main buttons" bottom right
 	# "Mouse turning (hold)"
 	# "Mouse turning (toggle)"
 
+	# Layout of this plugin:
+	#   |stop     | |f:harvest| |f:atk    | |info     | |deploy   | |fast for.|
+	#   |board    | |f:hold   | |f:ammo   | |atk/mine | |fire     | |zoom +-  |
+	#   |land     | |f:gather | |cloak    | |talk/scan| |jump     | |map      |
+
+	# Layout buttons:
+	#   |button 1 | |button 4 | |button 7 | |button 9 | |deploy   | |button 10|
+	#   |button 2 | |button 5 | |button 8 | |atk/mine | |fire     | |zoom +-  |
+	#   |button 3 | |button 6 | |cloak    | |talk/scan| |jump     | |map      |
+
 	active
 	visible
 
+	# button 1
 	sprite "ui/dialog cancel"
 		from -490 -130 to -400 -80
 	button "Stop" "_Stop"
 		from -480 -120 to -410 -90
 
+	# button 2
 	sprite "ui/dialog cancel"
 		from -490 -90 to -400 -40
 	button "Board selected ship" "_Board"
 		from -480 -90 to -410 -40
 
+	# button 3
 	sprite "ui/dialog cancel"
 		from -490 -50 to -400 -0
 	button "Land on planet / station" "_Land"
 		from -480 -40 to -410 -10
 
+	# button 4
 	sprite "ui/dialog cancel"
 		from -410 -130 to -320 -80
 	button "Fleet: Harvest flotsam" "_F:Harvest"
 		from -400 -120 to -330 -90
 
+	# button 5
 	sprite "ui/dialog cancel"
 		from -410 -90 to -320 -40
 	button "Fleet: Hold position" "_F:Hold"
 		from -400 -90 to -330 -40
 
+	# button 6
 	sprite "ui/dialog cancel"
 		from -410 -50 to -320 0
 	button "Fleet: Gather around me" "_F:Gather"
 		from -400 -40 to -330 -10
 
+	# button 7
 	sprite "ui/dialog cancel"
 		from -330 -130 to -240 -80
-	button "View player info" "_Info"
+	button "Fleet: Fight my target" "_F:Atk"
 		from -320 -120 to -250 -90
+
+	# button 8
+	sprite "ui/dialog cancel"
+		from -330 -90 to -240 -40
+	button "Fleet: Toggle ammo usage" "_F:Ammo"
+		from -320 -90 to -250 -40
+
+	# button 9
+	sprite "ui/dialog cancel"
+		from -250 -130 to -160 -80
+	button "View player info" "_Info"
+		from -240 -120 to -170 -90
+
+	# button 10
+	sprite "ui/dialog cancel"
+		from -90 -130 to 0 -80
+	button "Toggle fast-forward" "_Fast For."
+		from -80 -120 to -10 -90
+
 	# /modified
 
 
