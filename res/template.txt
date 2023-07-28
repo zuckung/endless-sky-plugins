@@ -7,3 +7,13 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 ## Plugin List:<br>
 
 
+%plugin template below this line%
+
+---
+
+### %name%
+
+[%assetfile%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) <br>
+<br>
+%description%
+<br>

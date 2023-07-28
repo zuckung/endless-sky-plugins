@@ -14,7 +14,7 @@ with open("res/paths.txt") as f:
  			assetfiles = line.split(" = ")[1]
 		elif line.find("pluginurl") == 0:		 # i.e pluginurl = https://github.com/zuckung/test/tree/main/myplugins/
 			pluginurl = line.split(" = ")[1]
-		elif line.find("header") == 0:			# i.e. headerfile = res/header.txt
+		elif line.find("template") == 0:			# template = res/template.txt
 			headerfile = line.split(" = ")[1]
 		elif line.find("picturefile") == 0:	  # i.e picturefile = res/icon.png
 			picturefile = line.split(" = ")[1]

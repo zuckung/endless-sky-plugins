@@ -1,4 +1,4 @@
-name: Manual make README.md
+name: (manual) make README.md
 on: 
   workflow_dispatch:
 jobs:
@@ -11,12 +11,12 @@ jobs:
         with:
           fetch-depth: 2
       - name: Make README.md
-        run: python src/makemd.py
+        run: python res/src/makemd.py
       - name: Commit file
         run: |
           git config user.name "zuckung" 
           git config user.email "zuckung@gmx.de"
-          git add -A
+          git add .
           git diff-index --quiet HEAD || git commit -m "README.md updated"
       - name: Push changes
         uses: ad-m/github-push-action@master
