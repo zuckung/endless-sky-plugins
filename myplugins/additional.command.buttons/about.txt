@@ -1,7 +1,2 @@
-(interface changed)(made for 0.10.1)
-github.com/zuckung/endless-sky-plugins
-
-Made for the mobile version and 
-adds the following buttons: full stop / board ship / land on planet / fleet: harvest flotsam / fleet: hold position / fleet: gather around me / fleet: attack my target / fleet: toggle ammo usage / view player info / fast forward 
-
+Made for the mobile version and adds several new buttons to the lower right corner. See the readme for details.
 (inspired by theweirednut)
