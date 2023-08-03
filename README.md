@@ -99,6 +99,17 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 
 ---
 
+### free.worlds.5.years.later
+
+[free.worlds.5.years.later.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/free.worlds.5.years.later.zip) | 52.2 kb | 2023-08-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/free.worlds.5.years.later/) <br>
+<br>
+>lets the free world war begin 5 years later
+
+<br>
+
+
+---
+
 ### galactic.capital.investment
 
 [galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 54.81 kb | 2023-06-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
@@ -122,6 +133,17 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >github.com/zuckung/endless-sky-plugins
 >
 >Adds a shipyard with the the three Kor Efret ships(Arch-Carrack, Charm-Shallop, Echo-Galleon) to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships.
+
+<br>
+
+
+---
+
+### more.arfectas
+
+[more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.arfectas.zip) | 110.29 kb | 2023-08-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <br>
+<br>
+>Adds rare spawning arfectas to "Pug Iyik" in Wanderer space.
 
 <br>
 
@@ -181,5 +203,16 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >Removes mass and outfit space from the cloaking device.
 >Removes mass and outfit space from outskirts gauger and puts it in unique category.
 >Gives outfit '"Puny"' a portrait.
+
+<br>
+
+
+---
+
+### z.starts
+
+[z.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/z.starts.zip) | 53.87 kb | 2023-08-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/z.starts/) <br>
+<br>
+>Adds several new start options with different ships, background storys, credits and debts.
 
 <br>
