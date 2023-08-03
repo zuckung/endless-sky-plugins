@@ -1,0 +1,132 @@
+start "z_cheater"
+	name "Start: Cheater"
+	description `Balance: +120 million $
+	description `Start with:`
+	description ` a 'Leviathan' heavy warship`
+	description ` Jump Drive`
+	description ` 100 million credits`
+	description ` full visible human space`
+	thumbnail "scene/lobby"
+	date 16 11 3013
+	system "Sol"
+	planet "Earth"
+	conversation "z_cheater"
+	account
+		credits 100000000
+		score 800
+		mortgage Mortgage
+			principal 0
+			interest 0.008
+			term 365
+	set "license: Pilot's"
+	ship "Leviathan" "Leviathan (Customized)"
+		outfits
+			"Heavy Laser" 4
+			"Heavy Laser Turret" 3
+			"Heavy Anti-Missile Turret"
+			"Human Space Map"
+			"Armageddon Core"
+			"LP036a Battery Pack"
+			"Supercapacitor"
+			"D94-YV Shield Generator"
+			"Liquid Helium Cooler"
+			"Ramscoop"
+			"Fuel Pod" 3
+			"Laser Rifle" 18
+			"A370 Atomic Thruster"
+			"A525 Atomic Steering"
+			"Jump Drive"
+		turret "Heavy Laser Turret"
+		turret "Heavy Laser Turret"
+		turret "Heavy Anti-Missile Turret"
+		turret "Heavy Laser Turret""
+	
+conversation "z_cheater"
+	scene "scene/lobby"
+	`For full visible human space map: sell and re-buy the unique outfit "Human Space Map".`
+	`	Enter your name: `
+	name
+	`Hello captain <first> <last>, please enjoy your easy start :)`
+
+
+start "z_salvager"
+	name "Start: Salvager Argosy"
+	description `Balance: +228.000 $
+	description `You grew up on Glaze in the Aldhibain system, which is often attacked by pirates. Your earliest memories are stories of space battles against pirates, told by your uncle Tiberius.`
+	description `Two weeks ago, your uncle died and now you have inherited his business: An 'Argosy' spaceship, equipped for boarding and capturing pirat ships!`
+	thumbnail "scene/lobby"
+	date 16 11 3013
+	system "Aldhibain"
+	planet "Glaze"
+	conversation "z_salvager"
+	account
+		credits 100000
+		score 600
+		mortgage Mortgage
+			principal 3700000
+			interest 0.008
+			term 365
+	set "license: Pilot's"
+	ship "Argosy" "Argosy (Customized)"
+		name "Fortuna"
+		outfits
+			Brig
+			"Bunk Room" 9
+			"D23-QP Shield Generator"
+			"Greyhound Plasma Steering"
+			"Greyhound Plasma Thruster"
+			Hyperdrive
+			"LP072a Battery Pack"
+			"Laser Rifle" 50
+			"Outfits Expansion" 6
+			"RT-I Radiothermal"
+			"Tactical Scanner" 2
+	
+conversation "z_salvager"
+	scene "scene/lobby"
+	`You were quiet surprised when you heard the reading of your uncle's last will. Now, another week later, you own a spaceship and 100.000 credits. Unfortunately your uncle had still a a very high debt, which is your debt now.`
+	`  At the bank, you do the paper works and head to the space port to change the registration of your ship.`
+	name
+	`You are very happy when you enter the dock. Allthough you often visited your uncle Tiberius here, where he lived in his old 'Argosy', it feels so different. Owning an space ship opens up so many possibilities. `
+	`  You can continue your uncle's business, by boarding pirate ships, disabled in fights with the Republic. His 'Argosy' is equipped for that purpose. Weaponless, it gives the pirates fewer reasons to attack. Also it is outfitted with many bunks for a big crew and lots of laser rifles. You just need to hire a bigger crew.`
+	`  Or you can travel into the Endless Sky.`
+
+start "z_salvager2"
+	name "Start: Salvager Shuttle"
+	description `Balance: + 293.000 $
+	description `You grew up on Glaze in the Aldhibain system, which is often attacked by pirates. Your earliest memories are stories of space battles against pirates, told by your uncle Tiberius.`
+	description `Two weeks ago, your uncle died and now you have inherited his business: A 'Shuttle' spaceship, equipped for boarding and capturing pirat ships!`
+	thumbnail "scene/lobby"
+	date 16 11 3013
+	system "Aldhibain"
+	planet "Glaze"
+	conversation "z_salvager2"
+	account
+		credits 200000
+		score 600
+		mortgage Mortgage
+			principal 600000
+			interest 0.008
+			term 365
+	set "license: Pilot's"
+	ship "Shuttle" "Shuttle (Customized)"
+		name "Fortuna"
+		outfits
+			"Bunk Room" 2
+			"D14-RN Shield Generator"
+			Hyperdrive
+			"Laser Rifle" 14
+			"Outfits Expansion"
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			"nGVF-AA Fuel Cell"
+			"Tactical Scanner"
+	
+conversation "z_salvager2"
+	scene "scene/lobby"
+	`You were quiet surprised when you heard the reading of your uncle's last will. Now, another week later, you own a spaceship and 200.000 credits. Unfortunately your uncle had still a debt of 500.000 credits, which is your debt now.`
+	`  At the bank, you do the paper works and head to the space port to change the registration of your ship.`
+	name
+	`You are very happy when you enter the dock. Allthough you often visited your uncle Tiberius here, where he worked on his old 'Shuttle', it feels so different. Owning an space ship opens up so many possibilities. `
+	`  You can continue your uncle's business, by boarding pirate ships, disabled in fights with the Republic. His 'Shuttle' is equipped for that purpose. Weaponless, it gives the pirates fewer reasons to attack. Also it is outfitted with additional bunks for a bigger crew and some laser rifles. You just need to hire a bigger crew.`
+	`  Or you can travel into the Endless Sky.`

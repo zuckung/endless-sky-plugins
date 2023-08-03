@@ -1,0 +1,19 @@
+event "war begins"
+	# was date 4 7 3014
+	date 4 7 3019
+
+event "initial deployment 1"
+	# was date 24 7 3014
+	date 24 7 3019
+
+event "initial deployment 2"
+	# was date 14 8 3014
+	date 14 8 3019
+	
+event "initial deployment 3"
+	# was date 29 8 3014
+	date  29 8 3019
+
+event "initial deployment 4"
+	# was date 17 9 3014
+	date 17 9 3019
