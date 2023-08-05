@@ -245,9 +245,9 @@ The chance to encounter previous Korath ships or automata is like 50/50. <br>
 
 ### better.starts
 
-[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 54.8 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
+[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 17.57 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
 <br>
->Adds 4 new start options with different ships, background storys, credits and debts.
+>Adds 4 new start options with different ships, background storys, credits and debts. See readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -261,13 +261,13 @@ Adds 4 new start options with different ships, background storys, credits and de
 
 <ul>
 
-<li>Start Cheater: Leviathan, 100m credits, full visible human space, in Sol system, no story</li>
+<li>Start Cheater Leviathan: 100m credits, full visible human space, jump drive, in Sol system, no story</li>
 
-<li>Start Salvager Argosy: argosy, equipped for boarding, in Aldhibain system</li>
+<li>Start Salvager Argosy: equipped for boarding, in Aldhibain system</li>
 
-<li>Start Salvager Shuttle: shuttle, equipped for boarding, in Aldhibain system</li>
+<li>Start Salvager Shuttle: equipped for boarding, in Aldhibain system</li>
 
-<li>Start Miner Clipper: clipper, with mining equipment, in Ascella system</li>
+<li>Start Miner Clipper: equipped for mining, in Ascella system</li>
 
 </ul>
 
