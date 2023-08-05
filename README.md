@@ -94,6 +94,7 @@ added descriptions inside script to exchange buttons functions<br>
 
 changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner can easily toggled by double tapping<br>
 </blockquote>
+</details>
 <br>
 
 
@@ -121,6 +122,7 @@ Modifies the self destruction chance of Sestor and Mereti ships. <br>
 
 Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.0 (0%). <br>
 </blockquote>
+</details>
 <br>
 
 
@@ -148,6 +150,7 @@ Modifies the self destruction chance of Sestor and Mereti ships. <br>
 
 Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.12 (23%). <br>
 </blockquote>
+</details>
 <br>
 
 
@@ -175,6 +178,7 @@ Modifies the self destruction chance of Sestor and Mereti ships. <br>
 
 Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.3 (51%). <br>
 </blockquote>
+</details>
 <br>
 
 
@@ -202,6 +206,7 @@ Modifies the self destruction chance of Sestor and Mereti ships. <br>
 
 Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.5 (75%). <br>
 </blockquote>
+</details>
 <br>
 
 
@@ -232,6 +237,7 @@ You can find them where Korath ships in human space are usually found(ember wast
 
 The chance to encounter previous Korath ships or automata is like 50/50. <br>
 </blockquote>
+</details>
 <br>
 
 
@@ -256,6 +262,7 @@ lets the free world war begin 5 years later<br>
 
 
 </blockquote>
+</details>
 <br>
 
 
@@ -301,6 +308,7 @@ There are mission for 1 million, 5 million, 10 million, 50 million and 100 milli
 
 These investments pay off after 3,5 to 4,5 years.
 </blockquote>
+</details>
 <br>
 
 
@@ -325,6 +333,7 @@ These investments pay off after 3,5 to 4,5 years.
 
 Adds a shipyard with the the three Kor Efret ships(Arch-Carrack, Charm-Shallop, Echo-Galleon) to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships. <br>
 </blockquote>
+</details>
 <br>
 
 
@@ -349,6 +358,7 @@ Adds the new system 'Pug Zak', near 'Pug Iyek' in Wanderer space. There you can 
 Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets are like the ones in 'Pug Iyek' and the third, rare spawning one, has 1 arfecta. It spawns within 15000 frames(~4 minutes).<br>
 
 </blockquote>
+</details>
 <br>
 
 
@@ -370,6 +380,7 @@ Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets 
 
 Adds seven pirate bounty boarding missions, seven human assisting boarding missions and seven Hai assisting boarding missions(20%, different credit rewards, repeatable).<br>
 </blockquote>
+</details>
 <br>
 
 
@@ -397,6 +408,7 @@ Adds three missions that lead to adding androids to the outfitter on Snowfeather
 
 Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered light 4" and have at least one android installed. <br>
 </blockquote>
+</details>
 <br>
 
 
@@ -430,6 +442,7 @@ Increases game performance.<br>
 
 2023/06/17 added a python script which generates the asteroids.txt(in case I don't update this mod, everyone can do it in no time.)<br>
 </blockquote>
+</details>
 <br>
 
 
@@ -460,6 +473,7 @@ Removes mass and outfit space from outskirts gauger and puts it in unique catego
 
 Gives outfit '"Puny"' a portrait. <br>
 </blockquote>
+</details>
 <br>
 
 
@@ -480,4 +494,5 @@ Gives outfit '"Puny"' a portrait. <br>
 Adds several new start options with different ships, background storys, credits and debts.<br>
 
 </blockquote>
+</details>
 <br>
