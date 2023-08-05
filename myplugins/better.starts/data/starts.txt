@@ -1,5 +1,5 @@
 start "z_cheater"
-	name "Start: Cheater"
+	name "Start: Cheater Leviathan"
 	description `Balance: +120 million $
 	description `Start with:`
 	description ` a 'Leviathan' heavy warship`
