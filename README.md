@@ -18,6 +18,82 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >Made for the mobile version and adds several new buttons to the lower right corner. See the readme for details.
 >(inspired by theweirednut)
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### additional command buttons <br>
+
+<br>
+
+Made for the mobile version and changes the interface by adding the following 10 buttons: <br> 
+
+- full stop<br>
+
+- board ship<br>
+
+- land on planet<br>
+
+- fleet: harvest flotsam<br>
+
+- fleet: hold position<br>
+
+- fleet: gather around me<br>
+
+- fleet: attack my target<br>
+
+- fleet: toggle ammo usage<br>
+
+- view player info<br>
+
+- fast forward<br>
+
+<br>
+
+and adjusts the message box to not overlap <br>
+
+(inspired by theweirednut) <br>
+
+<br>
+
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons/screenshot.jpg' width='400'>
+
+<br>
+
+Allthough most of these commands are now implemented in other parts to the original mobile user interface or can be accessed by gestures, I personally prefer these buttons on the lower right corner.<br>
+
+<br>
+
+Additional there are some functions in this plugin that the original mobile ui can't do at the moment:<br>
+
+- board button cycles through the possibilities <br>
+
+- fleet commands can be used for single ships when selected <br>
+
+<br>
+
+This plugin overwrites `interface "main buttons"` and `interface "hud"`, so it isn't compatible with other plugins modifying these.<br>
+
+<br>
+
+<br>
+
+2023-8-2<br>
+
+added new icon and reworked readme<br>
+
+<br>
+
+2023-7-26<br>
+
+added 3 more buttons to a total of 10<br>
+
+added descriptions inside script to exchange buttons functions<br>
+
+<br>
+
+2023-7-6<br>
+
+changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner can easily toggled by double tapping<br>
+</blockquote>
 <br>
 
 
@@ -33,6 +109,18 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >Modifies the self destruction chance of Sestor and Mereti ships.
 >Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.0 (0%).
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### automata destruction 0percent <br>
+
+(14 ship attributes changed)(made for 0.10.1) <br>
+
+<br>
+
+Modifies the self destruction chance of Sestor and Mereti ships. <br>
+
+Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.0 (0%). <br>
+</blockquote>
 <br>
 
 
@@ -48,6 +136,18 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >Modifies the self destruction chance of Sestor and Mereti ships.
 >Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.12 (23%).
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### automata destruction 23percent <br>
+
+(14 ship attributes changed)(made for 0.10.1) <br>
+
+<br>
+
+Modifies the self destruction chance of Sestor and Mereti ships. <br>
+
+Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.12 (23%). <br>
+</blockquote>
 <br>
 
 
@@ -63,6 +163,18 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >Modifies the self destruction chance of Sestor and Mereti ships.
 >Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.3 (51%).
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### automata destruction 51percent <br>
+
+(14 ship attributes changed)(made for 0.10.1) <br>
+
+<br>
+
+Modifies the self destruction chance of Sestor and Mereti ships. <br>
+
+Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.3 (51%). <br>
+</blockquote>
 <br>
 
 
@@ -78,6 +190,18 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >Modifies the self destruction chance of Sestor and Mereti ships.
 >Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.5 (75%).
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### automata destruction 75percent <br>
+
+(14 ship attributes changed)(made for 0.10.1) <br>
+
+<br>
+
+Modifies the self destruction chance of Sestor and Mereti ships. <br>
+
+Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.5 (75%). <br>
+</blockquote>
 <br>
 
 
@@ -94,6 +218,20 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >You can find them where Korath ships in human space are usually found(ember waste and eastern syndicate). 
 >The chance to encounter previous Korath ships or automata is like 50/50.
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### automata in human space <br>
+
+(14 ship variants, 16 variants in 4 fleets)(made for 0.10.1) <br>
+
+<br>
+
+Brings jump drive equipped automata into human space after the wanderer campaign. <br>
+
+You can find them where Korath ships in human space are usually found(ember waste and eastern syndicate). <br>
+
+The chance to encounter previous Korath ships or automata is like 50/50. <br>
+</blockquote>
 <br>
 
 
@@ -105,6 +243,19 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 <br>
 >lets the free world war begin 5 years later
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### free.worlds.5.years.later <br>
+
+(changed 5 event dates)(made for 0.10.2) <br>
+
+<br>
+
+lets the free world war begin 5 years later<br>
+
+
+
+</blockquote>
 <br>
 
 
@@ -120,6 +271,36 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >Implements a two mission chain that enables regular spaceport investment opportunities which result in small daily income. Available in human, quarg and hai space with 2 million credits cash.
 >(inspired by a-alhusaini's investment bank plugin)
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### galactic capital investment <br>
+
+(story, repeatable mission)(made for 0.10.1) <br>
+
+<br>
+
+Implements a two mission chain that enables regular spaceport investment opportunities which result in small daily income. Available in human, quarg and hai space with 2 million credits cash. <br>
+
+(inspired by a-alhusaini's investment bank plugin) <br>
+
+<br>
+
+There are mission for 1 million, 5 million, 10 million, 50 million and 100 million credits. When the mission gets triggered(15% chance), the best fitting credit mission starts(your credits + 10%).<br>
+
+1 million = 600 credits daily <br>
+
+5 million = 3.400 credits daily <br>
+
+10 million = 7.200 credits daily <br>
+
+50 million = 37.000 credits daily <br>
+
+100 million = 76.100 credits daily <br>
+
+<br>
+
+These investments pay off after 3,5 to 4,5 years.
+</blockquote>
 <br>
 
 
@@ -134,6 +315,16 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >
 >Adds a shipyard with the the three Kor Efret ships(Arch-Carrack, Charm-Shallop, Echo-Galleon) to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships.
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### kor efret shipyard <br>
+
+(outfitter and shipyard added)(made for 0.10.1) <br>
+
+<br>
+
+Adds a shipyard with the the three Kor Efret ships(Arch-Carrack, Charm-Shallop, Echo-Galleon) to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships. <br>
+</blockquote>
 <br>
 
 
@@ -145,6 +336,19 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 <br>
 >Adds the new system 'Pug Zak', near 'Pug Iyek' in Wanderer space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation.
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### more.arfectas <br>
+
+<br>
+
+Adds the new system 'Pug Zak', near 'Pug Iyek' in Wanderer space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation.<br>
+
+<br>
+
+Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets are like the ones in 'Pug Iyek' and the third, rare spawning one, has 1 arfecta. It spawns within 15000 frames(~4 minutes).<br>
+
+</blockquote>
 <br>
 
 
@@ -158,6 +362,14 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >github.com/zuckung/endless-sky-plugins
 >
 >Adds seven pirate bounty boarding missions, seven human assisting boarding missions and seven Hai assisting boarding missions(20%, different credit rewards, repeatable).
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### more boarding missions <br>
+
+(21 boarding mission)(made for 0.10.1)<br>
+
+Adds seven pirate bounty boarding missions, seven human assisting boarding missions and seven Hai assisting boarding missions(20%, different credit rewards, repeatable).<br>
+</blockquote>
 <br>
 
 
@@ -173,6 +385,18 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space).
 >Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered light 4" and have at least one android installed.
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### snowfeather robotics <br>
+
+(story, 1 new outfit)(made for 0.10.1) <br>
+
+<br>
+
+Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). <br>
+
+Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered light 4" and have at least one android installed. <br>
+</blockquote>
 <br>
 
 
@@ -188,6 +412,24 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched.
 >Increases game performance.
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### too many asteroids <br>
+
+(2654 system attributes changed, in 552 systems)(made for 0.10.1) <br>
+
+<br>
+
+Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. <br>
+
+Increases game performance.<br>
+
+<br>
+
+2023/06/17 updated to 0.10.1<br>
+
+2023/06/17 added a python script which generates the asteroids.txt(in case I don't update this mod, everyone can do it in no time.)<br>
+</blockquote>
 <br>
 
 
@@ -204,6 +446,20 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 >Removes mass and outfit space from outskirts gauger and puts it in unique category.
 >Gives outfit '"Puny"' a portrait.
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### unique fix <br>
+
+(3 outfit attributes changed)(made for 0.10.1) <br>
+
+<br>
+
+Removes mass and outfit space from the cloaking device. <br>
+
+Removes mass and outfit space from outskirts gauger and puts it in unique category. <br>
+
+Gives outfit '"Puny"' a portrait. <br>
+</blockquote>
 <br>
 
 
@@ -215,4 +471,13 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 <br>
 >Adds several new start options with different ships, background storys, credits and debts.
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### starts <br>
+
+<br>
+
+Adds several new start options with different ships, background storys, credits and debts.<br>
+
+</blockquote>
 <br>
