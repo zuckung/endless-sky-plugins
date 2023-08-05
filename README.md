@@ -26,29 +26,41 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 
 Made for the mobile version and changes the interface by adding the following 10 buttons: <br> 
 
-- full stop<br>
+<ul>
 
-- board ship<br>
+<li>full stop</li>
 
-- land on planet<br>
+<li>board ship</li>
 
-- fleet: harvest flotsam<br>
+<li>land on planet</li>
 
-- fleet: hold position<br>
+<li>fleet: harvest flotsam</li>
 
-- fleet: gather around me<br>
+<li>fleet: hold position</li>
 
-- fleet: attack my target<br>
+<li>fleet: gather around me</li>
 
-- fleet: toggle ammo usage<br>
+<li>fleet: attack my target</li>
 
-- view player info<br>
+<li>fleet: toggle ammo usage</li>
 
-- fast forward<br>
+<li>view player info</li>
+
+<li>fast forward</li>
+
+</ul>
+
+and
+
+<ul>
+
+<li>adjusts the message box to not overlap</li>
+
+<li>moved the hidden ammo box to a visible place</li>
+
+</ul>
 
 <br>
-
-and adjusts the message box to not overlap <br>
 
 (inspired by theweirednut) <br>
 
@@ -76,13 +88,23 @@ This plugin overwrites `interface "main buttons"` and `interface "hud"`, so it i
 
 <br>
 
-2023-8-2<br>
+Chancelog:<br>
+
+<br>
+
+2023-08-05<br>
+
+moved the hidden ammo box to a visible place<br>
+
+<br>
+
+2023-08-02<br>
 
 added new icon and reworked readme<br>
 
 <br>
 
-2023-7-26<br>
+2023-07-26<br>
 
 added 3 more buttons to a total of 10<br>
 
@@ -90,7 +112,7 @@ added descriptions inside script to exchange buttons functions<br>
 
 <br>
 
-2023-7-6<br>
+2023-07-06<br>
 
 changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner can easily toggled by double tapping<br>
 </blockquote>
@@ -247,7 +269,7 @@ The chance to encounter previous Korath ships or automata is like 50/50. <br>
 
 [better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 17.57 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
 <br>
->Adds 4 new start options with different ships, background storys, credits and debts. See readme for details.
+>Adds 4 new start options with different ships, background storys, credits and debts. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -286,7 +308,7 @@ Beside the cheat start option, all others are balanced . A bigger ship means a b
 
 [free.worlds.5.years.later.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/free.worlds.5.years.later.zip) | 30.28 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/free.worlds.5.years.later/) <br>
 <br>
->Lets the free world war begin 5 years later. See readme for details.
+>Lets the free world war begin 5 years later. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -392,9 +414,9 @@ Adds a shipyard with the the three Kor Efret ships(Arch-Carrack, Charm-Shallop, 
 
 ### more.arfectas
 
-[more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.arfectas.zip) | 30.02 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <br>
+[more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.arfectas.zip) | 30.04 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <br>
 <br>
->Adds the new system 'Pug Zak', near 'Pug Iyek' in Wanderer space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation.
+>Adds the new system 'Pug Zak', near 'Pug Iyek' in Wanderer space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
