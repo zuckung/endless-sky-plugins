@@ -32,7 +32,7 @@ Additional there are some functions in this plugin that the original mobile ui c
 This plugin overwrites `interface "main buttons"` and `interface "hud"`, so it isn't compatible with other plugins modifying these.<br>
 <br>
 <br>
-Chancelog:<br>
+Changelog:<br>
 <br>
 2023-08-05<br>
 moved the hidden ammo box to a visible place<br>
