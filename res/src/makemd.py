@@ -51,6 +51,12 @@ for entry in entries:
 	for line in description_list:
 		description = description + ">" + line
 		
+	# get readme.md
+	with open(pathtoplugins + entry + "/README.md" , "r") as file1:
+		readme_list = file1.readlines()
+	readme = ""
+	for line in readme_list:
+		readme = readme + line + "\n"
           
 	# get last modified date from the assetfiles
 	response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
@@ -78,6 +84,7 @@ for entry in entries:
 	pa_template = pa_template.replace("%pluginurl%", pluginurl)
 	pa_template = pa_template.replace("%pluginnameurl%", forweb)
 	pa_template = pa_template.replace("%description%", description)
+	pa_template = pa_template.replace("%readme%", readme)
 	
 	
 	with open(indexfile, "a") as file1:

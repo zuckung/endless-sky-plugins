@@ -16,4 +16,7 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 [%assetfile%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) <br>
 <br>
 %description%
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>%readme%</blockquote>
 <br>
