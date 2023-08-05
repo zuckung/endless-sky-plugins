@@ -19,4 +19,5 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>%readme%</blockquote>
+</details>
 <br>
