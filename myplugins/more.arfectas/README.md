@@ -1,6 +1,5 @@
 ### more.arfectas <br>
-(new fleet)(made for 0.10.2) <br>
 <br>
-Adds rare spawning arfectas to "Pug Iyik" in Wanderer space.<br>
+Adds the new system 'Pug Zak', near 'Pug Iyek' in Wanderer space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation.<br>
 <br>
-added a new fleet with 1 arfecta spawning within 15000 frames(~4 minutes).<br>
+Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets are like the ones in 'Pug Iyek' and the third, rare spawning one, has 1 arfecta. It spawns within 15000 frames(~4 minutes).<br>

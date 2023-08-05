@@ -1,0 +1,112 @@
+government "Pug (Farm)"
+	"display name" "Pug"
+	swizzle 0
+	color "governments: Pug"
+	
+	"player reputation" 1
+	"attitude toward"
+		"Drak" -.01
+		"Quarg" -.01
+		"Quarg (Hai)" -.01
+		"Quarg (Kor Efret)" -.01
+		"Quarg (Gegno)" -.01
+	"friendly hail" "friendly pug"
+	"friendly disabled hail" "friendly disabled pug"
+	"hostile hail" "hostile pug"
+	"hostile disabled hail" "hostile pug"
+
+system "Pug Zak"
+	pos -345.249 -825.123
+	government "Pug (Farm)"
+	arrival 625
+	habitable 625
+	belt 1286
+	haze _menu/haze-blackbody
+	fleet "Small Pug (Farm)" 600
+	fleet "Large Pug (Farm)" 1200
+	fleet "Arfecta Pug (Farm)" 15000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock6-b
+		distance 268.89
+		period 70.5475
+		object
+			sprite planet/europa
+			distance 160
+			period 25.4415
+	object
+		sprite planet/ocean4
+		distance 643.85
+		period 261.394
+	object
+		sprite planet/lava3-b
+		distance 1271.1
+		period 725.086
+	object
+		sprite planet/gas15
+		distance 2701.19
+		period 2246.22
+		object
+			sprite planet/dust5
+			distance 234
+			period 18.8417
+		object
+			sprite planet/desert4
+			distance 365
+			period 36.706
+
+
+fleet "Arfecta Pug (Farm)"
+	government "Pug (Farm)"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Arfecta"
+
+fleet "Small Pug (Farm)"
+	government "Pug (Farm)"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Zibruka"
+	variant 2
+		"Pug Zibruka" 2
+	variant 2
+		"Pug Enfolta"
+	variant 1
+		"Pug Enfolta"
+		"Pug Zibruka"
+
+fleet "Large Pug (Farm)"
+	government "Pug (Farm)"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Enfolta"
+		"Pug Zibruka" 2
+	variant 1
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Zibruka" 5
+	variant 2
+		"Pug Maboro"
+		"Pug Zibruka" 2
+	variant 3
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Zibruka"
+	variant 2
+		"Pug Maboro"
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Zibruka" 2
