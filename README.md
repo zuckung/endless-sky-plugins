@@ -13,7 +13,7 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 
 ### additional.command.buttons
 
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 92.97 kb | 2023-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 160.12 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
 <br>
 >Made for the mobile version and adds several new buttons to the lower right corner. See the readme for details.
 >(inspired by theweirednut)
@@ -88,7 +88,7 @@ This plugin overwrites `interface "main buttons"` and `interface "hud"`, so it i
 
 <br>
 
-Chancelog:<br>
+Changelog:<br>
 
 <br>
 
@@ -115,6 +115,7 @@ added descriptions inside script to exchange buttons functions<br>
 2023-07-06<br>
 
 changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner can easily toggled by double tapping<br>
+
 </blockquote>
 </details>
 <br>
