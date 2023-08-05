@@ -141,9 +141,9 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 
 ### more.arfectas
 
-[more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.arfectas.zip) | 110.29 kb | 2023-08-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <br>
+[more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.arfectas.zip) | 30.02 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <br>
 <br>
->Adds rare spawning arfectas to "Pug Iyik" in Wanderer space.
+>Adds the new system 'Pug Zak', near 'Pug Iyek' in Wanderer space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation.
 
 <br>
 
