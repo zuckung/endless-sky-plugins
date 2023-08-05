@@ -243,23 +243,74 @@ The chance to encounter previous Korath ships or automata is like 50/50. <br>
 
 ---
 
+### better.starts
+
+[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 54.8 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
+<br>
+>Adds 4 new start options with different ships, background storys, credits and debts.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### better.starts <br>
+
+<br>
+
+Adds 4 new start options with different ships, background storys, credits and debts.<br>
+
+<br>
+
+<ul>
+
+<li>Start Cheater: Leviathan, 100m credits, full visible human space, in Sol system, no story</li>
+
+<li>Start Salvager Argosy: argosy, equipped for boarding, in Aldhibain system</li>
+
+<li>Start Salvager Shuttle: shuttle, equipped for boarding, in Aldhibain system</li>
+
+<li>Start Miner Clipper: clipper, with mining equipment, in Ascella system</li>
+
+</ul>
+
+<br>
+
+Beside the cheat start option, all others are balanced . A bigger ship means a bigger bank loan. All starts come with 200.000 credits cash and a bank loan between 600.000 and 3.700.000 credits.
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
 ### free.worlds.5.years.later
 
-[free.worlds.5.years.later.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/free.worlds.5.years.later.zip) | 52.2 kb | 2023-08-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/free.worlds.5.years.later/) <br>
+[free.worlds.5.years.later.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/free.worlds.5.years.later.zip) | 30.28 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/free.worlds.5.years.later/) <br>
 <br>
->lets the free world war begin 5 years later
+>Lets the free world war begin 5 years later. See readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### free.worlds.5.years.later <br>
 
-(changed 5 event dates)(made for 0.10.2) <br>
+<br>
+
+Lets the free world war begin 5 years later.<br>
 
 <br>
 
-lets the free world war begin 5 years later<br>
+<ul>
 
+<li>changes event "war begins" from 4 7 3014 to 4 7 3019</li>
 
+<li>changes event "initial deployment 1" from 24 7 3014 to 24 7 3019</li>
+
+<li>changes event "initial deployment 2" from 14 8 3014 to 14 8 3019</li>
+
+<li>changes event "initial deployment 3" from 29 8 3014 to 29 8 3019</li>
+
+<li>changes event "initial deployment 4" from 17 9 3014 to 17 9 3019</li>
+
+</ul>
 
 </blockquote>
 </details>
@@ -472,27 +523,6 @@ Removes mass and outfit space from the cloaking device. <br>
 Removes mass and outfit space from outskirts gauger and puts it in unique category. <br>
 
 Gives outfit '"Puny"' a portrait. <br>
-</blockquote>
-</details>
-<br>
-
-
----
-
-### z.starts
-
-[z.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/z.starts.zip) | 53.87 kb | 2023-08-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/z.starts/) <br>
-<br>
->Adds several new start options with different ships, background storys, credits and debts.
-
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### starts <br>
-
-<br>
-
-Adds several new start options with different ships, background storys, credits and debts.<br>
-
 </blockquote>
 </details>
 <br>
