@@ -51,8 +51,6 @@ interface "main buttons" bottom right
 		from -250 -40 to -160 -90
 	button "Fire primary weapon" "Attack"
 		from -240 -40 to -170 -90
-		# also, order fleet to fire as well
-		command "Fleet: Fight my target"
 
 	visible if "targeting asteroid"
 	sprite "ui/dialog cancel"
