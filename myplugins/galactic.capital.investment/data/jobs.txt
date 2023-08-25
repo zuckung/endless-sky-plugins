@@ -1,0 +1,79 @@
+mission "Galactic Capital 1M"
+	name "Galactic Capital Investment 1 million"
+	job
+	repeat
+	description "Daily yield: 600 credits, first profit after: 4,6 years"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
+	to offer
+		has "Galactic Capital Intro B: offered"
+		"credits" > 1000000
+		random > 75
+	on accept
+		payment -1000000
+		"salary: Galactic Capital" += 600
+		fail
+
+mission "Galactic Capital 5M"
+	name "Galactic Capital Investment 5 million"
+	job
+	repeat
+	description "Daily yield: 3.400 credits, first profit after: 4 years"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
+	to offer
+		has "Galactic Capital Intro B: offered"
+		"credits" > 5000000
+		random > 75
+	on accept
+		payment -5000000
+		"salary: Galactic Capital" += 3400
+		fail
+
+mission "Galactic Capital 10M"
+	name "Galactic Capital Investment 10 million"
+	job
+	repeat
+	description "Daily yield: 7.200 credits, first profit after: 3,8 years"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
+	to offer
+		has "Galactic Capital Intro B: offered"
+		"credits" > 10000000
+		random > 75
+	on accept
+		payment -10000000
+		"salary: Galactic Capital" += 7200
+		fail
+
+mission "Galactic Capital 50M"
+	name "Galactic Capital Investment 50 million"
+	job
+	repeat
+	description "Daily yield: 37.000 credits, first profit after: 3,7 years"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
+	to offer
+		has "Galactic Capital Intro B: offered"
+		"credits" > 50000000
+		random > 75
+	on accept
+		payment -50000000
+		"salary: Galactic Capital" += 37000
+		fail
+
+mission "Galactic Capital 100M"
+	name "Galactic Capital Investment 100 million"
+	job
+	repeat
+	description "Daily yield: 76.100 credits, first profit after: 3,6 years"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
+	to offer
+		has "Galactic Capital Intro B: offered"
+		"credits" > 100000000
+		random > 75
+	on accept
+		payment -100000000
+		"salary: Galactic Capital" += 76100
+		fail

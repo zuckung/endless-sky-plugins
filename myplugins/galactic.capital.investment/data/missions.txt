@@ -2,7 +2,7 @@ mission "Galactic Capital Intro A"
 	name "Travel to Earth for a business meeting"
 	description "Travel to Earth for a meeting with a manager of your bank."
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai"
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
 		not planet "Earth"
 	destination "Earth"
 	to offer
@@ -31,14 +31,12 @@ mission "Galactic Capital Intro A"
 		conversation
 			`When you land on Earth you remind yourself visiting the spaceport information center to find the headquaters of 'Galactic Capital' for your meeting with Warren Goulding.`
 
-
-
 mission "Galactic Capital Intro B"
 	invisible
 	source "Earth"
 	to offer
 		has "Galactic Capital Intro A: done"
-		"credits" > 1500000
+		"credits" > 1000000
 	on offer
 		conversation
 			`After a ten minute train ride you arrive at 'Galactic Capital'. It is the largest bank in human space, and their headquaters reflect that very well. You see six skyscrapers distributed over several squarekilometers and a giant glass pyramid dominates the center of that complex. Everywhere are parks, paths through it, modern weatherproof art installations and thausands of people, mostly in business dresses.`
@@ -47,15 +45,15 @@ mission "Galactic Capital Intro B"
 			choice
 				`	"That sounds great."`
 					goto letscontinue
-				`	"What and where is 'hai space?'"`
+				`	"What and where is 'Hai space?'"`
 					goto haispace
 				`	"Hands up, this is a bank robbery!"`
 					goto robbery
 			label haispace
-			`"Ehm...errr... did i say 'hai space'? Hmmm that's the german word for 'shark' and I ment the core worlds with that. You know, where the hard business happends." Nervously, he continues doing business.`
+			`"Ehm...errr... did i say 'Hai space'? Hmmm that's the german word for 'shark' and I ment the core worlds with that. You know, where the hard business happends." Nervously, he continues doing business.`
 				goto letscontinue
 			label robbery
-			`Goulding starts to laugh again, he really seems to like this joke. After he calms down he continues doing business. `
+			`Goulding starts to laugh, he really seems to like this joke. After he calms down he continues doing business. `
 				goto letscontinue
 			label letscontinue
 			`"I allready prepared an investment plan for you. Please take a look."`
@@ -74,166 +72,11 @@ mission "Galactic Capital Intro B"
 				`		dont sign the contract`
 					goto nomoney
 			label money
-			`"Great. I will send a message when i have another investment for you." You say goodbye to Mr. Goulding and leave his office.`
+			`"Great. I will send a message when I have another investment for you. Remember checking the job board." You say goodbye to Mr. Goulding and leave his office.`
 				accept
 			label nomoney
-			`"Yes, it is a lot of money. I can understand that. I will send a message when I have other investments for you, maybe you change your mind." You say goodbye to Mr. Goulding and leave his office.`
+			`"Yes, it is a lot of money. I can understand that. I will send a message when I have other investments for you, maybe you change your mind. Remember checking the job board." You say goodbye to Mr. Goulding and leave his office.`
 				decline
 	on accept
 		payment -1000000
 		"salary: Galactic Capital" += 600
-
-
-
-mission "Galactic Capital 1M"
-	minor
-	repeat
-	source
-		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai"
-	to offer
-		has "Galactic Capital Intro B: offered"
-		"credits" > 2000000
-		"credits" < 6000000
-		random > 85
-	on decline
-		payment -1000000
-		"salary: Galactic Capital" += 600
-	on offer
-		conversation
-			`You received a message from 'Galactic Capital', offering an investment opportunity.`
-			` `
-			`Investment:	`
-			`	1.000.000 credits`
-			`Daily yield:`
-			`	600 credits`
-			`First profit after:`
-			`	4,6 years`
-			` `
-			choice
-				`		sign the contract`
-					decline
-				`		don't sign the contract`
-					defer
-
-
-
-mission "Galactic Capital 5M"
-	minor
-	repeat
-	source
-		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai"
-	to offer
-		has "Galactic Capital Intro B: offered"
-		"credits" > 6000000
-		"credits" < 11000000
-		random > 85
-	on decline
-		payment -5000000
-		"salary: Galactic Capital" += 3400
-	on offer
-		conversation
-			`You received a message from 'Galactic Capital', offering an investment opportunity.`
-			` `
-			`Investment:	`
-			`	5.000.000 credits`
-			`Daily yield:`
-			`	3.400 credits`
-			`First profit after:`
-			`	4 years`
-			` `
-			choice
-				`		sign the contract`
-					decline
-				`		don't sign the contract`
-					defer
-
-
-
-mission "Galactic Capital 10M"
-	minor
-	repeat
-	source
-		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai"
-	to offer
-		has "Galactic Capital Intro B: offered"
-		"credits" > 11000000
-		"credits" < 55000000
-		random > 85
-	on decline
-		payment -10000000
-		"salary: Galactic Capital" += 7200
-	on offer
-		conversation
-			`You received a message from 'Galactic Capital', offering an investment opportunity.`
-			` `
-			`Investment:	`
-			`	10.000.000 credits`
-			`Daily yield:`
-			`	7.200 credits`
-			`First profit after:`
-			`	3,8 years`
-			` `
-			choice
-				`		sign the contract`
-					decline
-				`		don't sign the contract`
-					defer
-
-mission "Galactic Capital 50M"
-	minor
-	repeat
-	source
-		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai"
-	to offer
-		has "Galactic Capital Intro B: offered"
-		"credits" > 55000000
-		"credits" < 110000000
-		random > 85
-	on decline
-		payment -50000000
-		"salary: Galactic Capital" += 37000
-	on offer
-		conversation
-			`You received a message from 'Galactic Capital', offering an investment opportunity.`
-			` `
-			`Investment:	`
-			`	50.000.000 credits`
-			`Daily yield:`
-			`	37.000 credits`
-			`First profit after:`
-			`	3,7 years`
-			` `
-			choice
-				`		sign the contract`
-					decline
-				`		don't sign the contract`
-					defer
-
-mission "Galactic Capital 100M"
-	minor
-	repeat
-	source
-		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai"
-	to offer
-		has "Galactic Capital Intro B: offered"
-		"credits" > 110000000
-		random > 85
-	on decline
-		payment -100000000
-		"salary: Galactic Capital" += 76100
-	on offer
-		conversation
-			`You received a message from 'Galactic Capital', offering an investment opportunity.`
-			` `
-			`Investment:	`
-			`	100.000.000 credits`
-			`Daily yield:`
-			`	76.100 credits`
-			`First profit after:`
-			`	3,6 years`
-			` `
-			choice
-				`		sign the contract`
-					decline
-				`		don't sign the contract`
-					defer
