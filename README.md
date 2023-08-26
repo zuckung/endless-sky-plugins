@@ -13,7 +13,7 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 
 ### additional.command.buttons
 
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 160.12 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 160.13 kb | 2023-08-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
 <br>
 >Made for the mobile version and adds several new buttons to the lower right corner. See the readme for details.
 >(inspired by theweirednut)
@@ -88,7 +88,13 @@ This plugin overwrites `interface "main buttons"` and `interface "hud"`, so it i
 
 <br>
 
-Changelog:<br>
+Chancelog:<br>
+
+<br>
+
+2023-08-24<br>
+
+fixed non-fireing attack button<br>
 
 <br>
 
@@ -115,7 +121,6 @@ added descriptions inside script to exchange buttons functions<br>
 2023-07-06<br>
 
 changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner can easily toggled by double tapping<br>
-
 </blockquote>
 </details>
 <br>
@@ -305,6 +310,42 @@ Beside the cheat start option, all others are balanced . A bigger ship means a b
 
 ---
 
+### bunrodea.missions
+
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 45.75 kb | 2023-08-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
+<br>
+>This plugin adds a mission to destroy a Korath ship, which enables job board missions for raising the Bunrodea reputation. The mission is available after the first contact mission. Doing more jobs will allow you to get access to all their planets and ships.
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### bunrodea.missions <br>
+
+<br>
+
+<br>
+
+This plugin adds a mission to destroy a Korath ship, which enables job board missions for raising the Bunrodea reputation. The mission is available after the first contact mission. Doing more jobs will allow you to get access to all their planets and ships.<br>
+
+<br>
+
+Currently there is only 1 job, which is the same as the initial mission. Each job gives 10 reputation. So it's 7 jobs for unlocking a planet with a shipyard with all ships and 47 jobs to unlock landing on the last of the Bunrodea planets.<br>
+
+This plugin is lore-friendly<br>
+
+<br>
+
+2023-08-26<br>
+
+intial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
 ### free.worlds.5.years.later
 
 [free.worlds.5.years.later.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/free.worlds.5.years.later.zip) | 30.28 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/free.worlds.5.years.later/) <br>
@@ -344,29 +385,24 @@ Lets the free world war begin 5 years later.<br>
 
 ### galactic.capital.investment
 
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 54.81 kb | 2023-06-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 26.63 kb | 2023-08-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
 <br>
->(story, repeatable mission)(made for 0.10.1)
->github.com/zuckung/endless-sky-plugins
->
->Implements a two mission chain that enables regular spaceport investment opportunities which result in small daily income. Available in human, quarg and hai space with 2 million credits cash.
+>Implements a two mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 100 million credits. See the readme for details.
 >(inspired by a-alhusaini's investment bank plugin)
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### galactic capital investment <br>
 
-(story, repeatable mission)(made for 0.10.1) <br>
-
 <br>
 
-Implements a two mission chain that enables regular spaceport investment opportunities which result in small daily income. Available in human, quarg and hai space with 2 million credits cash. <br>
+Implements a two mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 100 million credits. <br>
 
 (inspired by a-alhusaini's investment bank plugin) <br>
 
 <br>
 
-There are mission for 1 million, 5 million, 10 million, 50 million and 100 million credits. When the mission gets triggered(15% chance), the best fitting credit mission starts(your credits + 10%).<br>
+There are missions for 1 million, 5 million, 10 million, 50 million and 100 million credits. The chance for the jobs to appear on the job board are 25% for each one. Unfortunately you have to take off and land again on the same planet to clear the mission marker.<br>
 
 1 million = 600 credits daily <br>
 
@@ -380,7 +416,17 @@ There are mission for 1 million, 5 million, 10 million, 50 million and 100 milli
 
 <br>
 
-These investments pay off after 3,5 to 4,5 years.
+These investments pay off after 3,5 to 4,5 years. Higher Investments pay off faster.<br>
+
+<br>
+
+<br>
+
+2023-08-25<br>
+
+added pirate planets as mission source
+
+moved investment missions from spaceport mission to job board
 </blockquote>
 </details>
 <br>
