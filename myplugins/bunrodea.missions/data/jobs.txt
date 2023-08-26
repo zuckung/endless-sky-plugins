@@ -1,0 +1,28 @@
+mission "bunrodea defense (job)"
+	job
+	repeat
+	name "Bunrodea Defense"
+	description "A Korath ship entered Bunrodea territory at Era Natta. Destroy it."
+	source 
+		government "Bunrodea" "Bunrodea (Guard)"
+	waypoint "Era Natta"
+	to offer
+		has "bunrodea defense: done"
+	npc kill
+		government "Korath"
+		personality personality heroic nemesis staying
+		system "Era Natta"
+		fleet
+			names "korath"
+			cargo 200
+			variant 2
+				"Palavret"
+			variant 1
+				"Rano'erek"
+		dialog "You have destroyed the Korath ship."
+	on complete
+		dialog `You receive a message from the Bunrodean authorities, gratulating for your victory over the Korath.`
+		"reputation: Bunrodea" += 10
+		"reputation: Bunrodea (Erabu)" += 10
+		"reputation: Bunrodea (Guard)" += 10
+		"reputation: Bunrodea (Megasa)" += 10
