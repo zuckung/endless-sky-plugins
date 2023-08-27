@@ -1,0 +1,1 @@
+Removes the hidden tag from system devil-run. it can be found near the core and opens the path to the deep space systems via wormhole. See the readme for details.
