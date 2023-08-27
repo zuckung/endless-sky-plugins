@@ -1,0 +1,12 @@
+disable mission
+	"Shady passenger transport 1"
+	"Shady passenger transport 2"
+	"Shady passenger transport 3"
+	"Drug Running 1"
+	"Drug Running 2"
+	"Drug Running 3"
+	"Courier 1"
+	"Courier 2"
+	"Southern Pirate Attack"
+	"Northern Pirate Attack"
+	"Core Pirate Attack"

@@ -1,0 +1,1 @@
+Disables all repeatable spaceport missions. See the readme for details.
