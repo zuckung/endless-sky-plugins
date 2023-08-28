@@ -32,8 +32,19 @@ p_template =  template.split("%plugin template below this line%")[1]
 
 
 # write header
+entries = os.listdir(pathtoplugins)
+entries = sorted(entries)
+pluginlist = '<table><tr valign="top"><td>'
+amount = len(entries)
+index = 0
+for entry in entries:
+	index += 1
+	pluginlist += '<a href="' + indexfile + '#' + entry.replace('.','') + '">' + entry + '</a><br>\n'
+	if index == int(amount / 2):
+		pluginlist += '</td><td>'
+pluginlist += '</td></tr></table>'
 with open(indexfile, "w") as file1:
-	file1.writelines(header)
+	file1.writelines(header.replace('%pluginlist%', pluginlist))
 
 
 # read folders, and write to README.md
@@ -59,27 +70,34 @@ for entry in entries:
 		readme = readme + line + "\n"
           
 	# get last modified date from the assetfiles
-	response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
-	modif = response.headers['Last-Modified']
-	datetime_object = datetime.strptime(modif, '%a, %d %b %Y %H:%M:%S %Z')
-	modif = str(datetime_object.date())
+	try:
+		response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
+		modif = response.headers['Last-Modified']
+		datetime_object = datetime.strptime(modif, '%a, %d %b %Y %H:%M:%S %Z')
+		modif = str(datetime_object.date())
 
 	# get file size of the assetfiles in kb or mb
-	assetsize = int(response.headers['Content-Length']) / 1024
-	form = " kb"
-	if assetsize > 1024 :
-		assetsize = assetsize / 1024
-		form = " mb"
-	
+		assetsize = int(response.headers['Content-Length']) / 1024
+		form = " kb"
+		if assetsize > 1024 :
+			assetsize = assetsize / 1024
+			form = " mb"
+	except:
+		modif = 'N/A'
+		form = ''
+		assetsize = 'N/A'
 	# write the plugin informations to README.md
 	### %name%
-# [%name%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) <br>
-# %description% p_template
+	# [%name%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) <br>
+	# %description% p_template
 
 	pa_template = pa_template.replace("%name%", entry)
 	pa_template = pa_template.replace("%assetfullpath%", assetfiles)
 	pa_template = pa_template.replace("%assetfile%", withdots + ".zip")
-	pa_template = pa_template.replace("%size%", str(round(assetsize, 2)) + form)
+	if assetsize != 'N/A':
+		pa_template = pa_template.replace("%size%", str(round(assetsize, 2)) + form)
+	else:
+		pa_template = pa_template.replace("%size%", assetsize)
 	pa_template = pa_template.replace("%lastmodified%", modif)
 	pa_template = pa_template.replace("%pluginurl%", pluginurl)
 	pa_template = pa_template.replace("%pluginnameurl%", forweb)
