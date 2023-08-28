@@ -6,7 +6,6 @@ mission "Snowfeather Robotics 1"
 	source "Snowfeather"
 	destination "Allhome"
 	to offer
-		has "Remnant: Shattered Light 4: done"
 		require "NDR-114 Android"
 	blocked "You don't have enough passenger space for this mission."
 	on offer
