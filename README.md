@@ -5,6 +5,26 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 
 
 ## Plugin List:<br>
+<table><tr valign="top"><td><a href="README.md#additionalcommandbuttons">additional.command.buttons</a><br>
+<a href="README.md#automatadestruction0percent">automata.destruction.0percent</a><br>
+<a href="README.md#automatadestruction23percent">automata.destruction.23percent</a><br>
+<a href="README.md#automatadestruction51percent">automata.destruction.51percent</a><br>
+<a href="README.md#automatadestruction75percent">automata.destruction.75percent</a><br>
+<a href="README.md#automatainhumanspace">automata.in.human.space</a><br>
+<a href="README.md#betterstarts">better.starts</a><br>
+<a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
+<a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
+</td><td><a href="README.md#disablepersonships">disable.person.ships</a><br>
+<a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
+<a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
+<a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
+<a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
+<a href="README.md#morearfectas">more.arfectas</a><br>
+<a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
+<a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
+<a href="README.md#toomanyasteroids">too.many.asteroids</a><br>
+<a href="README.md#uniquefix">unique.fix</a><br>
+</td></tr></table>
 
 
 
@@ -339,6 +359,137 @@ intial release<br>
 
 
 
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### devil-run.unhidden
+
+[devil-run.unhidden.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/devil-run.unhidden.zip) | 2.34 kb | 2023-08-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/devil-run.unhidden/) <br>
+<br>
+>Removes the hidden tag from system devil-run. it can be found near the core and opens the path to the deep space systems via wormhole. See the readme for details.
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### devil-run.unuidden <br>
+
+<br>
+
+<br>
+
+Removes the hidden tag from system devil-run. it can be found near the core and opens the path to the deep space systems via wormhole.<br>
+
+<br>
+
+Originally this system opens during hai reveal storyline, which is disabled because of a rework. Unfortunately some Remnant jobs rely on the Deep Space systems hidden behind a wormhole in devil-run. This plugin makes this system visible and reachable in eastern syndicate.<br> 
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### disable.person.ships
+
+[disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.person.ships.zip) | 2.43 kb | 2023-08-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <br>
+<br>
+>Disables all person ships. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### disable.person.ships <br>
+
+<br>
+
+<br>
+
+Disables all 14 person ships.<br>
+
+<br>
+
+<ul>
+
+<li>	"Michael Zahniser" </li>
+
+<li>	"Cap'n Pester" </li>
+
+<li>	"Marauding Max" </li>
+
+<li>	"Captain Nate" </li>
+
+<li>	"Tranquility" </li>
+
+<li>	"Power of the People" </li>
+
+<li>	"Local God" </li>
+
+<li>	"Subsidurial" </li>
+
+<li>	"Prototype B3-CC4" </li>
+
+<li>	"Rais Iris XVIII" </li>
+
+<li>	"Zitchas" </li>
+
+<li>	"Brick" </li>
+
+<li>	"Gefullte Taubenbrust" </li>
+
+<li>	"MasterOfGrey" </li>
+
+</ul>
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### disable.spaceport.repeatables
+
+[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 2.51 kb | 2023-08-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
+<br>
+>Disables all repeatable spaceport missions. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### disable.spaceport.repeatables <br>
+
+<br>
+
+<br>
+
+Disables all spaceport repeatable missions. These missions annoy me. Basically removes the 8 dialog repeatables and the 3 defend planet mission.<br>
+
+<br>
+
+<ul>
+
+<li> "Shady passenger transport 1" </li>
+
+<li> "Shady passenger transport 2" </li>
+
+<li> "Shady passenger transport 3" </li>
+
+<li> "Drug Running 1" </li>
+
+<li> "Drug Running 2" </li>
+
+<li> "Drug Running 3" </li>
+
+<li> "Courier 1" </li>
+
+<li> "Courier 2" </li>
+
+<li> "Southern Pirate Attack" </li>
+
+<li> "Northern Pirate Attack" </li>
+
+<li> "Core Pirate Attack" </li>
+
+</ul>
 </blockquote>
 </details>
 <br>
