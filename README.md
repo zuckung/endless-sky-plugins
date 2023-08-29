@@ -637,19 +637,57 @@ Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets 
 
 ### more.boarding.missions
 
-[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 52.88 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
+[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 12.04 kb | 2023-08-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
 <br>
->(21 boarding mission)(made for 0.10.1)
->github.com/zuckung/endless-sky-plugins
->
->Adds seven pirate bounty boarding missions, seven human assisting boarding missions and seven Hai assisting boarding missions(20%, different credit rewards, repeatable).
+>Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the readme for details.
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### more boarding missions <br>
 
-(21 boarding mission)(made for 0.10.1)<br>
+<br>
 
-Adds seven pirate bounty boarding missions, seven human assisting boarding missions and seven Hai assisting boarding missions(20%, different credit rewards, repeatable).<br>
+<br>
+
+Adds 27 boarding and assisting missions. Boarding Free Worlds, Republic, Syndicate, Militia, Pirates, Korath or Hai can trigger them. Bigger ships give higher rewards.<br>
+
+<br>
+
+<ul>
+
+<li> 7 Pirate boarding missions for credits<br>
+
+  (by ship categories, 20% chance, 5.000 to 25.000 credits, repeatable)</li>
+
+<li> 4 Pirate boarding missions for an android<br>
+
+  (by ship categories, 1-4% chance, outfit "NDR-114 Android" as reward, repeatable)</li>
+
+<li> 7 Human assisting boarding missions<br>
+
+  (by ship categories, 20% chance, 10.000 to 30.000 credits, repeatable)</li>
+
+<li> 7 Hai assisting boarding missions<br>
+
+  (by ship categories, 20% chance, 20.000 to 60.000 credits, repeatable)</li>
+
+<li> 2 Korath boarding missions<br>
+
+  (for the bigger ship categories, 2-3% chance, outfit "Cloaking Device" as reward, repeatable)</li>
+
+</ul>
+
+<br>
+
+<br>
+
+2023-08-29<br>
+
+added 2 korath boarding missions with a rare chance for a cloaking device<br>
+
+added 4 pirate boarding missions with rare chance for an android<br>
+
+added icon and reworked readme<br>
+
 </blockquote>
 </details>
 <br>
@@ -659,25 +697,36 @@ Adds seven pirate bounty boarding missions, seven human assisting boarding missi
 
 ### snowfeather.robotics
 
-[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) | 54.77 kb | 2023-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) <br>
+[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) | 21.72 kb | 2023-08-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) <br>
 <br>
->(story, 1 new outfit)(made for 0.10.1)
->github.com/zuckung/endless-sky-plugins
->
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space).
->Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered light 4" and have at least one android installed.
+>Starts on Snowfeather(Bore Fah) when having at least one android installed. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### snowfeather robotics <br>
 
-(story, 1 new outfit)(made for 0.10.1) <br>
+<br>
 
 <br>
 
 Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). <br>
 
-Starts on Snowfeather(Bore Fah) after completing mission "remnant: shattered light 4" and have at least one android installed. <br>
+Starts on Snowfeather(Bore Fah) when having at least one android installed. <br>
+
+<br>
+
+To get an android, which is needed to start this plugin, do the remnant mission 'shattered light 4'. Alternatively my plugin 'more.boarding.missions' give androids as rare reward for boarding pirates.<br>
+
+The new buyable androids are a little bit more expensive than the original ones.<br>
+
+<br>
+
+<br>
+
+2023-08-29<br>
+
+removed remnant mission requirement<br>
 </blockquote>
 </details>
 <br>
