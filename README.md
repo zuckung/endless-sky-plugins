@@ -32,7 +32,7 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 ---
 
 ### additional.command.buttons
-
+<img src="myplugins/additional.command.buttons/icon.png" height="100">
 [additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 160.13 kb | 2023-08-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
 <br>
 >Made for the mobile version and adds several new buttons to the lower right corner. See the readme for details.
@@ -149,7 +149,7 @@ changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner 
 ---
 
 ### automata.destruction.0percent
-
+<img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 [automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.0percent.zip) | 52.52 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) <br>
 <br>
 >(14 ship attributes changed)(made for 0.10.1)
@@ -177,7 +177,7 @@ Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a sel
 ---
 
 ### automata.destruction.23percent
-
+<img src="myplugins/automata.destruction.23percent/icon.png" height="100">
 [automata.destruction.23percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.23percent.zip) | 52.54 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.23percent/) <br>
 <br>
 >(14 ship attributes changed)(made for 0.10.1)
@@ -205,7 +205,7 @@ Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a sel
 ---
 
 ### automata.destruction.51percent
-
+<img src="myplugins/automata.destruction.51percent/icon.png" height="100">
 [automata.destruction.51percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.51percent.zip) | 52.54 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.51percent/) <br>
 <br>
 >(14 ship attributes changed)(made for 0.10.1)
@@ -233,7 +233,7 @@ Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a sel
 ---
 
 ### automata.destruction.75percent
-
+<img src="myplugins/automata.destruction.75percent/icon.png" height="100">
 [automata.destruction.75percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.75percent.zip) | 52.54 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.75percent/) <br>
 <br>
 >(14 ship attributes changed)(made for 0.10.1)
@@ -261,7 +261,7 @@ Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a sel
 ---
 
 ### automata.in.human.space
-
+<img src="myplugins/automata.in.human.space/icon.png" height="100">
 [automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.in.human.space.zip) | 53.66 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) <br>
 <br>
 >(14 ship variants, 16 variants in 4 fleets)(made for 0.10.1)
@@ -292,7 +292,7 @@ The chance to encounter previous Korath ships or automata is like 50/50. <br>
 ---
 
 ### better.starts
-
+<img src="myplugins/better.starts/icon.png" height="100">
 [better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 17.57 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
 <br>
 >Adds 4 new start options with different ships, background storys, credits and debts. See the readme for details.
@@ -331,7 +331,7 @@ Beside the cheat start option, all others are balanced . A bigger ship means a b
 ---
 
 ### bunrodea.missions
-
+<img src="myplugins/bunrodea.missions/icon.png" height="100">
 [bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 45.75 kb | 2023-08-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
 <br>
 >This plugin adds a mission to destroy a Korath ship, which enables job board missions for raising the Bunrodea reputation. The mission is available after the first contact mission. Doing more jobs will allow you to get access to all their planets and ships.
@@ -514,7 +514,7 @@ added the 3 pirate occupation missions<br>
 ---
 
 ### free.worlds.5.years.later
-
+<img src="myplugins/free.worlds.5.years.later/icon.png" height="100">
 [free.worlds.5.years.later.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/free.worlds.5.years.later.zip) | 30.28 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/free.worlds.5.years.later/) <br>
 <br>
 >Lets the free world war begin 5 years later. See the readme for details.
@@ -551,7 +551,7 @@ Lets the free world war begin 5 years later.<br>
 ---
 
 ### galactic.capital.investment
-
+<img src="myplugins/galactic.capital.investment/icon.png" height="100">
 [galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 26.63 kb | 2023-08-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
 <br>
 >Implements a two mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 100 million credits. See the readme for details.
@@ -602,7 +602,7 @@ moved investment missions from spaceport mission to job board
 ---
 
 ### kor.efret.shipyard
-
+<img src="myplugins/kor.efret.shipyard/icon.png" height="100">
 [kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/kor.efret.shipyard.zip) | 52.51 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor.efret.shipyard/) <br>
 <br>
 >(outfitter and shipyard added)(made for 0.10.1)
@@ -627,7 +627,7 @@ Adds a shipyard with the the three Kor Efret ships(Arch-Carrack, Charm-Shallop, 
 ---
 
 ### more.arfectas
-
+<img src="myplugins/more.arfectas/icon.png" height="100">
 [more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.arfectas.zip) | 30.04 kb | 2023-08-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <br>
 <br>
 >Adds the new system 'Pug Zak', near 'Pug Iyek' in Wanderer space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the readme for details.
@@ -652,7 +652,7 @@ Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets 
 ---
 
 ### more.boarding.missions
-
+<img src="myplugins/more.boarding.missions/icon.png" height="100">
 [more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 12.04 kb | 2023-08-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the readme for details.
@@ -712,7 +712,7 @@ added icon and reworked readme<br>
 ---
 
 ### snowfeather.robotics
-
+<img src="myplugins/snowfeather.robotics/icon.png" height="100">
 [snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) | 21.72 kb | 2023-08-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) <br>
 <br>
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space).
@@ -751,7 +751,7 @@ removed remnant mission requirement<br>
 ---
 
 ### too.many.asteroids
-
+<img src="myplugins/too.many.asteroids/icon.png" height="100">
 [too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) | 57.36 kb | 2023-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <br>
 <br>
 >(2654 system attributes changed, in 552 systems)(made for 0.10.1) 
@@ -785,8 +785,8 @@ Increases game performance.<br>
 ---
 
 ### unique.fix
-
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) | 62.22 kb | 2023-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
+<img src="myplugins/unique.fix/icon.png" height="100">
+[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) | 202.8 kb | 2023-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.
 
@@ -815,6 +815,8 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 <li> Puts outfit 'Mug' into unique category and gives it a portrait </li>
 
 </ul>
+
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/unique.fix/screenshot.png' width='400'>
 
 <br>
 
