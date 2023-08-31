@@ -86,6 +86,10 @@ for entry in entries:
 		modif = 'N/A'
 		form = ''
 		assetsize = 'N/A'
+	if os.path.isfile(pathtoplugins + entry + '/icon.png'):
+		icon = '<img src="' + pathtoplugins + entry + 'icon.png" heigth="100">'
+	else:
+		icon = ''
 	# write the plugin informations to README.md
 	### %name%
 	# [%name%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) <br>
@@ -103,6 +107,7 @@ for entry in entries:
 	pa_template = pa_template.replace("%pluginnameurl%", forweb)
 	pa_template = pa_template.replace("%description%", description)
 	pa_template = pa_template.replace("%readme%", readme)
+	pa_template = pa_template.replace("%icon%", icon)
 	
 	
 	with open(indexfile, "a") as file1:
