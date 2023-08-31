@@ -10,3 +10,6 @@ disable mission
 	"Southern Pirate Attack"
 	"Northern Pirate Attack"
 	"Core Pirate Attack"
+	"Pirate Occupation [0]"
+	"Pirate Occupation [1]"
+	"Pirate Occupation [2]"
