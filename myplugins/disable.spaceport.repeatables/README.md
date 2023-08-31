@@ -24,3 +24,4 @@ Disables all spaceport repeatable missions. These missions annoy me. Basically r
 <br>
 2023-08-31<br>
 added the 3 pirate occupation missions<br>
+added icon.png<br>

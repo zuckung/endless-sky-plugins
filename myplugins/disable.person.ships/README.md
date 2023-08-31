@@ -1,7 +1,7 @@
 ### disable.person.ships <br>
 <br>
 <br>
-Disables all 14 person ships.<br>
+Disables all 14 random spawning person ships.<br>
 <br>
 <ul>
 <li>	"Michael Zahniser" </li>
@@ -19,3 +19,7 @@ Disables all 14 person ships.<br>
 <li>	"Gefullte Taubenbrust" </li>
 <li>	"MasterOfGrey" </li>
 </ul>
+<br>
+<br>
+2013-08-31<br>
+added icon.png<br>

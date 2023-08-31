@@ -1,1 +1,1 @@
-Removes the hidden tag from system devil-run. it can be found near the core and opens the path to the deep space systems via wormhole. See the readme for details.
+Removes the hidden tag from system Devil-Run. It can be found near the core and opens the path to the Deep Space systems and the Devil-Hide system via wormhole. See the readme for details.
