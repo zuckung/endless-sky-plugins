@@ -87,7 +87,7 @@ for entry in entries:
 		form = ''
 		assetsize = 'N/A'
 	if os.path.isfile(pathtoplugins + entry + '/icon.png'):
-		icon = '<img src="' + pathtoplugins + entry + 'icon.png" heigth="100">'
+		icon = '<img src="' + pathtoplugins + entry + '/icon.png" height="100">'
 	else:
 		icon = ''
 	# write the plugin informations to README.md
