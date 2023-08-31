@@ -384,24 +384,34 @@ intial release<br>
 
 ### devil-run.unhidden
 
+<img src="myplugins/devil-run.unhidden/icon.png" height="100">
 
-
-[devil-run.unhidden.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/devil-run.unhidden.zip) | 2.34 kb | 2023-08-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/devil-run.unhidden/) <br>
+[devil-run.unhidden.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/devil-run.unhidden.zip) | 39.53 kb | 2023-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/devil-run.unhidden/) <br>
 <br>
->Removes the hidden tag from system devil-run. it can be found near the core and opens the path to the deep space systems via wormhole. See the readme for details.
+>Removes the hidden tag from system Devil-Run. It can be found near the core and opens the path to the Deep Space systems and the Devil-Hide system via wormhole. See the readme for details.
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>### devil-run.unuidden <br>
+<blockquote>### devil-run.unhidden
 
 <br>
 
 <br>
 
-Removes the hidden tag from system devil-run. it can be found near the core and opens the path to the deep space systems via wormhole.<br>
+Removes the hidden tag from system Devil-Run. It can be found near the core and opens the path to the Deep Space systems and the Devil-Hide system via wormhole.<br>
 
 <br>
 
-Originally this system opens during hai reveal storyline, which is disabled because of a rework. Unfortunately some Remnant jobs rely on the Deep Space systems hidden behind a wormhole in devil-run. This plugin makes this system visible and reachable in eastern syndicate.<br> 
+Originally this system opens during hai reveal storyline, which is disabled because of a rework. Unfortunately some Remnant jobs rely on the Deep Space systems hidden behind a wormhole in Devil-Run. This plugin makes this system visible and reachable(by jump drive) in eastern syndicate.<br>
+
+The Devil-Hide system is also a nice system to farm Marauder Leviathans.<br>
+
+<br>
+
+<br>
+
+2023-08-31<br>
+
+added icon.png<br>
 </blockquote>
 </details>
 <br>
@@ -411,9 +421,9 @@ Originally this system opens during hai reveal storyline, which is disabled beca
 
 ### disable.person.ships
 
+<img src="myplugins/disable.person.ships/icon.png" height="100">
 
-
-[disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.person.ships.zip) | 2.43 kb | 2023-08-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <br>
+[disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.person.ships.zip) | 19.75 kb | 2023-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <br>
 <br>
 >Disables all person ships. See the readme for details.
 
@@ -425,7 +435,7 @@ Originally this system opens during hai reveal storyline, which is disabled beca
 
 <br>
 
-Disables all 14 person ships.<br>
+Disables all 14 random spawning person ships.<br>
 
 <br>
 
@@ -460,6 +470,14 @@ Disables all 14 person ships.<br>
 <li>	"MasterOfGrey" </li>
 
 </ul>
+
+<br>
+
+<br>
+
+2013-08-31<br>
+
+added icon.png<br>
 </blockquote>
 </details>
 <br>
@@ -469,9 +487,9 @@ Disables all 14 person ships.<br>
 
 ### disable.spaceport.repeatables
 
+<img src="myplugins/disable.spaceport.repeatables/icon.png" height="100">
 
-
-[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 2.63 kb | 2023-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
+[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 19.95 kb | 2023-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
 <br>
 >Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the readme for details.
 
@@ -528,6 +546,8 @@ Disables all spaceport repeatable missions. These missions annoy me. Basically r
 2023-08-31<br>
 
 added the 3 pirate occupation missions<br>
+
+added icon.png<br>
 </blockquote>
 </details>
 <br>
