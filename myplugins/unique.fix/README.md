@@ -1,6 +1,18 @@
-### unique fix <br>
-(3 outfit attributes changed)(made for 0.10.1) <br>
+### unique fix
 <br>
-Removes mass and outfit space from the cloaking device. <br>
-Removes mass and outfit space from outskirts gauger and puts it in unique category. <br>
-Gives outfit '"Puny"' a portrait. <br>
+<br>
+Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.<br>
+<br>
+<br>
+<ul>
+<li> Removes mass and outfit space from the cloaking device. </li>
+<li> Removes mass and outfit space from outskirts gauger and puts it in unique category. </li>
+<li> Gives outfit '"Puny"' a portrait. </li>
+<li> Puts outfit 'Mug' into unique category and gives it a portrait </li>
+</ul>
+<br>
+<br>
+2023-8-31<br>
+added 'Mug' to unique category and added a portrait<br>
+changed puny portrait<br>
+changed icon.png<br>

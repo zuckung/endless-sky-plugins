@@ -1,6 +1,1 @@
-(3 outfit attributes changed)(made for 0.10.1)   
-github.com/zuckung/endless-sky-plugins
-
-Removes mass and outfit space from the cloaking device.
-Removes mass and outfit space from outskirts gauger and puts it in unique category.
-Gives outfit '"Puny"' a portrait.
+Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.
