@@ -449,19 +449,21 @@ Disables all 14 person ships.<br>
 
 ### disable.spaceport.repeatables
 
-[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 2.51 kb | 2023-08-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
+[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 2.63 kb | 2023-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
 <br>
->Disables all repeatable spaceport missions. See the readme for details.
+>Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>### disable.spaceport.repeatables <br>
+<blockquote>### disable.spaceport.repeatables
 
 <br>
 
 <br>
 
-Disables all spaceport repeatable missions. These missions annoy me. Basically removes the 8 dialog repeatables and the 3 defend planet mission.<br>
+Disables all spaceport repeatable missions. These missions annoy me. Basically removes the 8 dialog repeatables and the 6 defend planet missions.<br>
+
+<br>
 
 <br>
 
@@ -489,7 +491,21 @@ Disables all spaceport repeatable missions. These missions annoy me. Basically r
 
 <li> "Core Pirate Attack" </li>
 
+<li> "Pirate Occupation [0]" </li>
+
+<li> "Pirate Occupation [1]" </li>
+
+<li> "Pirate Occupation [2]" </li>
+
 </ul>
+
+<br>
+
+<br>
+
+2023-08-31<br>
+
+added the 3 pirate occupation missions<br>
 </blockquote>
 </details>
 <br>
@@ -770,28 +786,47 @@ Increases game performance.<br>
 
 ### unique.fix
 
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) | 96.93 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
+[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) | 62.22 kb | 2023-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
 <br>
->(3 outfit attributes changed)(made for 0.10.1)   
->github.com/zuckung/endless-sky-plugins
->
->Removes mass and outfit space from the cloaking device.
->Removes mass and outfit space from outskirts gauger and puts it in unique category.
->Gives outfit '"Puny"' a portrait.
+>Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>### unique fix <br>
-
-(3 outfit attributes changed)(made for 0.10.1) <br>
+<blockquote>### unique fix
 
 <br>
 
-Removes mass and outfit space from the cloaking device. <br>
+<br>
 
-Removes mass and outfit space from outskirts gauger and puts it in unique category. <br>
+Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.<br>
 
-Gives outfit '"Puny"' a portrait. <br>
+<br>
+
+<br>
+
+<ul>
+
+<li> Removes mass and outfit space from the cloaking device. </li>
+
+<li> Removes mass and outfit space from outskirts gauger and puts it in unique category. </li>
+
+<li> Gives outfit '"Puny"' a portrait. </li>
+
+<li> Puts outfit 'Mug' into unique category and gives it a portrait </li>
+
+</ul>
+
+<br>
+
+<br>
+
+2023-8-31<br>
+
+added 'Mug' to unique category and added a portrait<br>
+
+changed puny portrait<br>
+
+changed icon.png<br>
 </blockquote>
 </details>
 <br>
