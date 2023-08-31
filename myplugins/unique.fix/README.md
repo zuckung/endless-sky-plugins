@@ -10,6 +10,7 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 <li> Gives outfit '"Puny"' a portrait. </li>
 <li> Puts outfit 'Mug' into unique category and gives it a portrait </li>
 </ul>
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/unique.fix/screenshot.png' width='400'>
 <br>
 <br>
 2023-8-31<br>
