@@ -13,7 +13,9 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 ---
 
 ### %name%
+
 %icon%
+
 [%assetfile%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) <br>
 <br>
 %description%
