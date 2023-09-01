@@ -9,9 +9,9 @@ mission "bunrodea defense"
 	on offer
 		conversation
 			`While landing on <planet>, you noticed some stuttering coming from the engines. You decide to take a deeper look into the engines.`
-			`A young Bunrodean with a unusual colourful hat approaches, hands you one of the translating devices, and starts to speak immediately.`
+			`A young Bunrodea with a unusual colourful hat approaches, hands you one of the translating devices, and starts to speak immediately.`
 			`You turn the device on "... to be having problems with the rotator splint. The engine runs good now, but not for long."`
-			`"Anyway," he pulls out a computer pad and starts reading "On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, defender of Bunthro', you are allowed to proof your worth to the Bunrodean Empire."`
+			`"Anyway," he pulls out a computer pad and starts reading "On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', you are allowed to proof your worth to the Bunrodea Empire."`
 			`"Our territorial integrity gets tested by the Korath. Although these invaders mean no threat to us, letting an outsider handle them will show the Korath that they will have to fight on several frontiers if they ever decide to go beyond weak raids."`
 			`"Travel to Era Natta and destroy the Korath presence." without waiting for your answer the Bunrodean walks away.`
 				accept
@@ -24,15 +24,68 @@ mission "bunrodea defense"
 			cargo 200
 			variant 2
 				"Palavret"
+				"'olofez" 2
 			variant 1
 				"Rano'erek"
+				"'olofez" 4
 		dialog "You have destroyed the Korath ship."
 	on complete
 		conversation
-			`As far as you can tell, the same young Bunrodean already awaits you after the landing. He pulls out his pad again and starts reading.`
-			`"On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, defender of Bunthro', the human captain <first> <last> is now allowed to use the 'Bunrodean Empire Job Network'. Further proofs of worth to the Bunrodean Empire will result in higher earning of trust." he puts back the pad and walks away.`
-			`You think about the advantages you can get by buying a Bunrodean warship, once your reputation with them is high enough.`
+			`As far as you can tell, the same young Bunrodea already awaits you after the landing. He pulls out his pad again and starts reading.`
+			`"On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', the human captain <first> <last> is now allowed to use the 'Bunrodea Empire Job Network'. Further proofs of worth to the Bunrodea Empire will result in higher earning of trust." he puts back the pad and walks away.`
+			`You think about the advantages you can get by buying a Bunrodea warship, once your reputation with them is high enough.`
 		"reputation: Bunrodea" += 20
+		"reputation: Bunrodea (Erabu)" += 30
+		"reputation: Bunrodea (Guard)" += 30
+		"reputation: Bunrodea (Megasa)" += 30
+
+mission "bunrodea defense 2"
+	landing
+	name "Bunrodea Defense 2"
+	description "A Korath fleet entered Bunrodea territory at Genta Bo. Destroy it."
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	waypoint "Genta Bo"
+	to offer
+		"reputation: Bunrodea" >= 100
+	on offer
+		conversation
+			`The young Bunrodea with the silly appearance and behaivior awaits you at the spaceport. This time he has memorized his speech.`
+			`"Our great queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro' is very pleased with your devotion to our cause. She offers you the chance to gain more honour. A Korath fleet just entered the Genta Bo system and you are chosen to fight for our queen."`
+			`Like on all your previous meetings, he doesn't wait for a response and just walks away. You aren't sure if he is just a bureaucrat, stupid or a normal Bunrodea. This race is still very strange to your understanding.`
+				accept
+	npc kill
+		government "Korath"
+		personality personality heroic nemesis staying
+		system "Genta Bo"
+		fleet
+			names "korath"
+			cargo 200
+			variant 1
+				"Palavret" 2
+				"'olofez" 4
+				"Ra'gru Ik 618"
+			variant 1
+				"Rano'erek" 2
+				"'olofez" 4
+				"Lor'kas Ik 577 (Jump)"
+			variant 1
+				"Rano'erek"
+				"Palavret"
+				"'olofez" 4
+				"Ra'at Ik 621"
+		dialog "You have destroyed the Korath fleet."
+	on complete
+		conversation
+			`After leaving your ship, an an elderly distinguished Bunrodea awaits you. He bows before you.`
+			`"Greetings captain <last>, my name is Josuno and I am your new contact to the government. Our queen wishes to gratulate you to your great victory over the Korath fleet. She is very pleased by your work. You can find new opportunities to earn more honour on the job board."`
+			`"And personally, I have to say it is an honour to meet you in person. Our deep space surveillance systems spread your fights with the Korath all over the empire. You are well known by most Bunrodea."`
+			`"Well, I don't want to hold you back from your work. I wish you all the best, good luck and farewell." He starts walking away.`
+			`"Wait a second" you say, "I have a question about my former contact man."`
+			`Josuno slowly turns around. "There is nothing to say, but if you aren't in a hurry, maybe I can have a look at your ship?"`
+			`As soon as you both enter the ship, he relaxes. "Your former contact is dead. The queen expects perfect appearance from her sons, and Shinao had many chances to prove himself. Unfortunately he didn't have enough brain or skills to survive the high expectations of his position. Is there anything else you want to know?"`
+			`Still shocked about the cruel fate of the poor young Bunrodea, you say goodby to Josuno and head over to the job board.`
+		"reputation: Bunrodea" += 30
 		"reputation: Bunrodea (Erabu)" += 30
 		"reputation: Bunrodea (Guard)" += 30
 		"reputation: Bunrodea (Megasa)" += 30

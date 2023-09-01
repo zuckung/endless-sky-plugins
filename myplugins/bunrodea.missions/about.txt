@@ -1,1 +1,1 @@
-This plugin adds a mission to destroy a Korath ship, which enables job board missions for raising the Bunrodea reputation. The mission is available after the first contact mission. Doing more jobs will allow you to get access to all their planets and ships.
+This plugin adds some missions to destroy Korath ships, which enable job board missions for raising the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the readme for details.
