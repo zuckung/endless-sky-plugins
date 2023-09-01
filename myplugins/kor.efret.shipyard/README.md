@@ -1,4 +1,68 @@
-### kor efret shipyard <br>
-(outfitter and shipyard added)(made for 0.10.1) <br>
+### kor.efret.shipyard
 <br>
-Adds a shipyard with the the three Kor Efret ships(Arch-Carrack, Charm-Shallop, Echo-Galleon) to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships. <br>
+<br>
+Adds a shipyard with the three Kor Efret ships to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships and some Korath Exiles outfits. <br>
+<br>
+<br>
+Available ships:<br>
+<ul> 
+<li>Arch-Carrack</li>
+<li>Charm-Shallop</li>
+<li>Echo-Galleon</li>
+</ul>
+<br>
+Available outfits:<br>
+<ul>
+<li>Digger Mining Beam</li>
+<li>Banisher Grav-Turret</li>
+<li>Warder Anti-Missile</li>
+<li>Grab-Strike Turret</li>
+<li>Fuel Processor</li>
+<li>Small Heat Shunt</li>
+<li>Large Heat Shunt</li>
+<li>Liquid Sodium Cooler</li>
+<li>Scram Drive</li>
+<li>System Core (Large)</li>
+<li>System Core (Medium)</li>
+<li>System Core (Small)</li>
+<li>Plasma Core</li>
+<li>Double Plasma Core</li>
+<li>Triple Plasma Core</li>
+<li>Afterburner (Asteroid Class)</li>
+<li>Afterburner (Comet Class)</li>
+<li>Afterburner (Lunar Class)</li>
+<li>Afterburner (Planetary Class)</li>
+<li>Afterburner (Stellar Class)</li>
+<li>Generator (Furnace Class)</li>
+<li>Generator (Candle Class)</li>
+<li>Generator (Inferno Class)</li>
+<li>Farves GP Hybrid Thruster</li>
+<li>Gaktem GP Hybrid Steering</li>
+<li>Gaktem GP Hybrid Thruster</li>
+<li>Nelmeb GP Hybrid Steering</li>
+<li>Nelmeb GP Hybrid Thruster</li>
+<li>Engine (Meteor Class)</li>
+<li>Bow Drive (Meteor Class)</li>
+<li>Reverser (Asteroid Class)</li>
+<li>Reverser (Comet Class)</li>
+<li>Reverser (Lunar Class)</li>
+<li>Reverser (Planetary Class)</li>
+<li>Reverser (Stellar Class)</li>
+<li>Thruster (Asteroid Class)</li>
+<li>Thruster (Comet Class)</li>
+<li>Thruster (Lunar Class)</li>
+<li>Thruster (Planetary Class)</li>
+<li>Thruster (Stellar Class)</li>
+<li>Steering (Asteroid Class)</li>
+<li>Steering (Comet Class)</li>
+<li>Steering (Lunar Class)</li>
+<li>Steering (Planetary Class)</li>
+<li>Steering (Stellar Class)</li>
+<li>Thermal Repeater Rifle</li>
+</ul>
+<br>
+<br>
+2023-xx-xx<br>
+added 28 korath outfits(no weapons)<br>
+added new icon.png<br>
+reworked readme<br>
