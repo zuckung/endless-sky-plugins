@@ -12,7 +12,7 @@ mission "Assisting Human (Interceptor)"
 	to offer
 		random > 79
 	source
-		government "Free Worlds" "Republic" "Syndicate" "Militia"
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
 		category "Interceptor"
 		not attributes "automaton"
 	on offer
@@ -27,7 +27,7 @@ mission "Assisting Human (Light Warship)"
 	to offer
 		random > 79
 	source
-		government "Free Worlds" "Republic" "Syndicate" "Militia"
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
 		category "Light Warship"
 		not attributes "automaton"
 	on offer
@@ -42,7 +42,7 @@ mission "Assisting Human (Transport)"
 	to offer
 		random > 79
 	source
-		government "Free Worlds" "Republic" "Syndicate" "Militia"
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
 		category "Transport"
 		not attributes "automaton"
 	on offer
@@ -57,7 +57,7 @@ mission "Assisting Human (Light Freighter)"
 	to offer
 		random > 79
 	source
-		government "Free Worlds" "Republic" "Syndicate" "Militia"
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
 		category "Light Freighter"
 		not attributes "automaton"
 	on offer
@@ -72,7 +72,7 @@ mission "Assisting Human (Medium Warship)"
 	to offer
 		random > 79
 	source
-		government "Free Worlds" "Republic" "Syndicate" "Militia"
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
 		category "Medium Warship"
 		not attributes "automaton"
 	on offer
@@ -87,7 +87,7 @@ mission "Assisting Human (Heavy Freighter)"
 	to offer
 		random > 79
 	source
-		government "Free Worlds" "Republic" "Syndicate" "Militia"
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
 		category "Heavy Freighter"
 		not attributes "automaton"
 	on offer
@@ -102,7 +102,7 @@ mission "Assisting Human (Heavy Warship)"
 	to offer
 		random > 79
 	source
-		government "Free Worlds" "Republic" "Syndicate" "Militia"
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
 		category "Heavy Warship"
 		not attributes "automaton"
 	on offer

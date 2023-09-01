@@ -1,4 +1,4 @@
-# 2 korath cloaking device boarding missions
+# 2 korath boarding missions for cloaking device
 
 conversation "con boarding korath cloak"
 	`As you board the "<origin>", the crew entrenches on strategical positions. You aren't sure if you can capture a ship with such a huge crew, but you can definitely search some undefended storage rooms for valuable loot. In a room 2 decks below the entry, you stumble over something you didn't see. You heard rumors of Korath ships experimenting with some kind of cloaking device, so you take that mysterious invisible thing to your ship.`
