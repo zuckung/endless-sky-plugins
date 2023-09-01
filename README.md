@@ -348,24 +348,42 @@ Beside the cheat start option, all others are balanced . A bigger ship means a b
 
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 45.75 kb | 2023-08-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 47.0 kb | 2023-09-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
 <br>
->This plugin adds a mission to destroy a Korath ship, which enables job board missions for raising the Bunrodea reputation. The mission is available after the first contact mission. Doing more jobs will allow you to get access to all their planets and ships.
+>This plugin adds some missions to destroy Korath ships, which enable job board missions for raising the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the readme for details.
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>### bunrodea.missions <br>
+<blockquote>### bunrodea.missions
 
 <br>
 
 <br>
 
-This plugin adds a mission to destroy a Korath ship, which enables job board missions for raising the Bunrodea reputation. The mission is available after the first contact mission. Doing more jobs will allow you to get access to all their planets and ships.<br>
+This plugin adds some missions to destroy Korath ships, which enable job board missions for raising the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships.<br>
 
 <br>
 
-Currently there is only 1 job, which is the same as the initial mission. Each job gives 10 reputation. So it's 7 jobs for unlocking a planet with a shipyard with all ships and 47 jobs to unlock landing on the last of the Bunrodea planets.<br>
+Unlocking the planet with all ships needs 100 reputation. Unlocking the last of the planets needs 500 reputation.<br>
 
-This plugin is lore-friendly<br>
+<br>
+
+The vanilla first contact mission gives 10 rep.<br>
+
+The first mission gives 20 rep and unlocks the first repeatable job which gives 10 rep.<br>
+
+At 100 rep the second mission starts, which gives 30 rep and unlocks the second repeatable job with 30 rep each.<br>
+
+<br>
+
+As a little bonus, the second mission/job spawns a jumpdrive equipped "Lor'kas Ik 577" or "Ra'gru Ik 618" or "Ra'at Ik 621".<br>
+
+<br>
+
+<br>
+
+202e-09-01<br>
+
+added a 2nd mission and a 2nd repeatable job<br>
 
 <br>
 
@@ -808,19 +826,16 @@ removed remnant mission requirement<br>
 
 <img src="myplugins/too.many.asteroids/icon.png" height="100">
 
-[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) | 57.36 kb | 2023-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <br>
+[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) | 17.97 kb | 2023-09-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <br>
 <br>
->(2654 system attributes changed, in 552 systems)(made for 0.10.1) 
->github.com/zuckung/endless-sky-plugins
->
 >Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched.
->Increases game performance.
+>Increases game performance. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### too many asteroids <br>
 
-(2654 system attributes changed, in 552 systems)(made for 0.10.1) <br>
+<br>
 
 <br>
 
@@ -830,9 +845,31 @@ Increases game performance.<br>
 
 <br>
 
-2023/06/17 updated to 0.10.1<br>
+<br>
 
-2023/06/17 added a python script which generates the asteroids.txt(in case I don't update this mod, everyone can do it in no time.)<br>
+Every of the 552 base game systems(0.10.2) is edited via remove command for full compatibility with other system altering plugins. A total of 2654 asteroid entries got removed.<br>
+
+In case i won't update this plugin to the newest game version, a python script for generating an updated plugin can be found <a href="https://github.com/zuckung/endless-sky-plugins/tree/main/tools/too_many_asteroids_plugin_script">here</a>.<br>
+
+<br>
+
+<br>
+
+2023-09-01<br>
+
+added new icon.png<br>
+
+reworked readme<br>
+
+removed py script<br>
+
+<br>
+
+2023-06-17<br>
+
+updated to 0.10.1<br>
+
+added a python script which generates the asteroids.txt(in case I don't update this mod, everyone can do it in no time.)<br>
 </blockquote>
 </details>
 <br>
