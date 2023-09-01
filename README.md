@@ -274,28 +274,38 @@ Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a sel
 
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
 
-[automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.in.human.space.zip) | 53.66 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) <br>
+[automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.in.human.space.zip) | 35.39 kb | 2023-09-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) <br>
 <br>
->(14 ship variants, 16 variants in 4 fleets)(made for 0.10.1)
->github.com/zuckung/endless-sky-plugins
->
->Brings jump drive equipped automata into human space after the wanderer campaign. 
->You can find them where Korath ships in human space are usually found(ember waste and eastern syndicate). 
->The chance to encounter previous Korath ships or automata is like 50/50.
+>Brings jump drive equipped automata into human space after the wanderer campaign. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>### automata in human space <br>
+<blockquote>### automata in human space
 
-(14 ship variants, 16 variants in 4 fleets)(made for 0.10.1) <br>
+<br>
 
 <br>
 
 Brings jump drive equipped automata into human space after the wanderer campaign. <br>
 
+<br>
+
 You can find them where Korath ships in human space are usually found(ember waste and eastern syndicate). <br>
 
 The chance to encounter previous Korath ships or automata is like 50/50. <br>
+
+<br>
+
+<br>
+
+2023-09-01<br>
+
+added more fleet variants <br>
+
+reworked readme <br>
+
+changed icon.png<br>
+
 </blockquote>
 </details>
 <br>
@@ -848,7 +858,7 @@ Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets 
 
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
 
-[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 12.04 kb | 2023-08-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
+[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 13.58 kb | 2023-09-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the readme for details.
 <details>
@@ -859,7 +869,7 @@ Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets 
 
 <br>
 
-Adds 27 boarding and assisting missions. Boarding Free Worlds, Republic, Syndicate, Militia, Pirates, Korath or Hai can trigger them. Bigger ships give higher rewards.<br>
+Adds 40 boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai or Hai Unfettered can trigger them. Bigger ships give higher rewards.<br>
 
 <br>
 
@@ -869,17 +879,29 @@ Adds 27 boarding and assisting missions. Boarding Free Worlds, Republic, Syndica
 
   (by ship categories, 20% chance, 5.000 to 25.000 credits, repeatable)</li>
 
-<li> 4 Pirate boarding missions for an android<br>
+<li> 4 Pirate boarding missions for outfit<br>
 
   (by ship categories, 1-4% chance, outfit "NDR-114 Android" as reward, repeatable)</li>
 
-<li> 7 Human assisting boarding missions<br>
+<li> 7 Human assisting missions for credits<br>
 
   (by ship categories, 20% chance, 10.000 to 30.000 credits, repeatable)</li>
 
-<li> 7 Hai assisting boarding missions<br>
+<li> 7 Hai assisting missions for crecits<br>
 
   (by ship categories, 20% chance, 20.000 to 60.000 credits, repeatable)</li>
+
+<li> 5 Hai Unfettered assisting missions for credits<br>
+
+  (by ship categories, 20% chance, 30.000 to 90.000 credits, repeatable)</li>
+
+<li> 5 Hai Unfettered boarding missions for credits<br>
+
+  (by ship categories, 10% chance, 30.000 to 90.000 credits, repeatable)</li>
+
+<li> 3 Hai Unfettered boarding missions for outfit<br>
+
+  (by reward, 3% chance, outfit one of the 3 weapon prototypes, repeatable)</li>
 
 <li> 2 Korath boarding missions<br>
 
@@ -888,6 +910,18 @@ Adds 27 boarding and assisting missions. Boarding Free Worlds, Republic, Syndica
 </ul>
 
 <br>
+
+<br>
+
+2023-09-01<br>
+
+added 5 hai unfettered assisting missions <br>
+
+added 5 hai unfettered boarding missions <br>
+
+added 3 hai unfettered boarding missions for weapon prototypes <br>
+
+added "Merchant" and "Independant" to human assisting missions
 
 <br>
 
