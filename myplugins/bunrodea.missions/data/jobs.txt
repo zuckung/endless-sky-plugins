@@ -1,7 +1,7 @@
 mission "bunrodea defense (job)"
 	job
 	repeat
-	name "Bunrodea Defense (Ship)"
+	name "Destroy a Korath ship"
 	description "A Korath ship entered Bunrodea territory at Era Natta. Destroy it."
 	source 
 		government "Bunrodea" "Bunrodea (Guard)"
@@ -32,7 +32,7 @@ mission "bunrodea defense (job)"
 mission "bunrodea defense 2 (job)"
 	job
 	repeat
-	name "Bunrodea Defense (Fleet)"
+	name "Destroy a Korath fleet"
 	description "A Korath fleet entered Bunrodea territory at Genta Bo. Destroy it."
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
@@ -47,18 +47,15 @@ mission "bunrodea defense 2 (job)"
 			names "korath"
 			cargo 200
 			variant 1
-				"Palavret" 2
-				"'olofez" 4
-				"Ra'gru Ik 618"
+				"Palavret" 3
+				"'olofez" 6
 			variant 1
-				"Rano'erek" 2
-				"'olofez" 4
-				"Lor'kas Ik 577 (Jump)"
+				"Rano'erek" 3
+				"'olofez" 6
 			variant 1
 				"Rano'erek"
-				"Palavret"
-				"'olofez" 4
-				"Ra'at Ik 621"
+				"Palavret" 2
+				"'olofez" 6
 		dialog "You have destroyed the Korath fleet."
 	on complete
 		dialog `You receive a message from the Bunrodea authorities, gratulating for your victory over the Korath fleet.`
@@ -66,3 +63,147 @@ mission "bunrodea defense 2 (job)"
 		"reputation: Bunrodea (Erabu)" += 30
 		"reputation: Bunrodea (Guard)" += 30
 		"reputation: Bunrodea (Megasa)" += 30
+
+mission "cargo transport small"
+	job
+	repeat
+	name "Delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 10 100
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 1 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 5
+		"reputation: Bunrodea (Erabu)" += 5
+		"reputation: Bunrodea (Guard)" += 5
+		"reputation: Bunrodea (Megasa)" += 5
+		dialog phrase "generic cargo delivery payment"
+
+mission "cargo transport medium"
+	job
+	repeat
+	name "Huge delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 80 250
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 1 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 6
+		"reputation: Bunrodea (Erabu)" += 6
+		"reputation: Bunrodea (Guard)" += 6
+		"reputation: Bunrodea (Megasa)" += 6
+		dialog phrase "generic cargo delivery payment"
+
+mission "cargo transport large"
+	job
+	repeat
+	name "Bulk delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 220 600
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 7
+		"reputation: Bunrodea (Erabu)" += 7
+		"reputation: Bunrodea (Guard)" += 7
+		"reputation: Bunrodea (Megasa)" += 7
+		dialog phrase "generic cargo delivery payment"
+
+mission "Passengers small"
+	name "Transport a family to <planet>"
+	job
+	repeat
+	description "Bring a family of <bunks> to <destination>. Payment is <payment>."
+	passengers 3 8 .9
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 5
+		"reputation: Bunrodea (Erabu)" += 5
+		"reputation: Bunrodea (Guard)" += 5
+		"reputation: Bunrodea (Megasa)" += 5
+		dialog phrase "generic passenger dropoff payment" 
+
+mission "Passengers medium"
+	name "Transport scientists to <planet>"
+	job
+	repeat
+	description "Bring <bunks> scientists to a conference on <destination>. Payment is <payment>."
+	passengers 8 25 .9
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 6
+		"reputation: Bunrodea (Erabu)" += 6
+		"reputation: Bunrodea (Guard)" += 6
+		"reputation: Bunrodea (Megasa)" += 6
+		dialog phrase "generic passenger dropoff payment" 
+
+mission "Passengers large"
+	name "Transport workers to <planet>"
+	job
+	repeat
+	description "Bring <bunks> workers to <destination>. Payment is <payment>."
+	passengers 25 60 .9
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 7
+		"reputation: Bunrodea (Erabu)" += 7
+		"reputation: Bunrodea (Guard)" += 7
+		"reputation: Bunrodea (Megasa)" += 7
+		dialog phrase "generic passenger dropoff payment" 

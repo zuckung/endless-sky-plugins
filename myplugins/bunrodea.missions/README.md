@@ -5,14 +5,21 @@ This plugin adds some missions to destroy Korath ships, which enable job board m
 <br>
 Unlocking the planet with all ships needs 100 reputation. Unlocking the last of the planets needs 500 reputation.<br>
 <br>
-The vanilla first contact mission gives 10 rep.<br>
-The first mission gives 20 rep and unlocks the first repeatable job which gives 10 rep.<br>
-At 100 rep the second mission starts, which gives 30 rep and unlocks the second repeatable job with 30 rep each.<br>
+10 rep for vanilla first contact mission<br>
+20 rep for the first mission which unlocks repeatable jobs.<br>
+5-7 rep for repeatable transport jobs<br>
+10 rep for Korath ship killing job<br>
+At 100 rep the second mission starts, which gives 30 rep and unlocks the second repeatable job which gives 30 rep.<br>
 <br>
-As a little bonus, the second mission/job spawns a jumpdrive equipped "Lor'kas Ik 577" or "Ra'gru Ik 618" or "Ra'at Ik 621".<br>
+As a little bonus, the three eastern uninhabited systems spawn jumpdrive equipped "Lor'kas Ik 577" or "Ra'gru Ik 618" or "Ra'at Ik 621".<br>
 <br>
 <br>
-202e-09-01<br>
+2023-09-02<br>
+changed fleet missions/jobs to include only Palavret and Rano'erek<br>
+added korath fleets to Era Natta, Genta Bo and Eneva Katta<br>
+added 6 transport/passenger jobs<br>
+<br>
+2023-09-01<br>
 added a 2nd mission and a 2nd repeatable job<br>
 <br>
 2023-08-26<br>

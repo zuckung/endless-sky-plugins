@@ -1,4 +1,5 @@
 mission "bunrodea defense"
+	landing
 	name "Bunrodea Defense"
 	description "A Korath ship entered Bunrodea territory at Era Natta. Destroy it."
 	source
@@ -33,7 +34,7 @@ mission "bunrodea defense"
 		conversation
 			`As far as you can tell, the same young Bunrodea already awaits you after the landing. He pulls out his pad again and starts reading.`
 			`"On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', the human captain <first> <last> is now allowed to use the 'Bunrodea Empire Job Network'. Further proofs of worth to the Bunrodea Empire will result in higher earning of trust." he puts back the pad and walks away.`
-			`You think about the advantages you can get by buying a Bunrodea warship, once your reputation with them is high enough.`
+			`You think about the advantages you can get by buying a Bunrodea warship, once your reputation with them is high enough. And you have your own translation device now!`
 		"reputation: Bunrodea" += 20
 		"reputation: Bunrodea (Erabu)" += 30
 		"reputation: Bunrodea (Guard)" += 30
@@ -48,6 +49,7 @@ mission "bunrodea defense 2"
 	waypoint "Genta Bo"
 	to offer
 		"reputation: Bunrodea" >= 100
+		random < 10
 	on offer
 		conversation
 			`The young Bunrodea with the silly appearance and behaivior awaits you at the spaceport. This time he has memorized his speech.`
@@ -62,18 +64,15 @@ mission "bunrodea defense 2"
 			names "korath"
 			cargo 200
 			variant 1
-				"Palavret" 2
-				"'olofez" 4
-				"Ra'gru Ik 618"
+				"Palavret" 3
+				"'olofez" 6
 			variant 1
-				"Rano'erek" 2
-				"'olofez" 4
-				"Lor'kas Ik 577 (Jump)"
+				"Rano'erek" 3
+				"'olofez" 6
 			variant 1
 				"Rano'erek"
-				"Palavret"
-				"'olofez" 4
-				"Ra'at Ik 621"
+				"Palavret" 2
+				"'olofez" 6
 		dialog "You have destroyed the Korath fleet."
 	on complete
 		conversation
