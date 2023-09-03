@@ -3,33 +3,33 @@
 I aim at developing small and modular plugins that don't break vanilla lore too much. <br><br>
 Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me. <br><br>
 
-Latest News:<br>
-<table><tr><td>2023-09-03 | update: disable.spaceport.repeatables<br>
+## Latest News:
+<table><tr><td><img width="882" height="1"><br>2023-09-03 | update: disable.spaceport.repeatables<br>
 2023-09-03 | update: better.starts<br>
 2023-09-03 | news system added<br>
-</td></tr></table>
+<img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
-<table><tr valign="top"><td><a href="README.md#additionalcommandbuttons">additional.command.buttons</a><br>
+<table><tr valign="top"><td><img width="294" height="1"><br><a href="README.md#additionalcommandbuttons">additional.command.buttons</a><br>
 <a href="README.md#automatadestruction0percent">automata.destruction.0percent</a><br>
 <a href="README.md#automatadestruction23percent">automata.destruction.23percent</a><br>
 <a href="README.md#automatadestruction51percent">automata.destruction.51percent</a><br>
 <a href="README.md#automatadestruction75percent">automata.destruction.75percent</a><br>
 <a href="README.md#automatainhumanspace">automata.in.human.space</a><br>
-<a href="README.md#betterstarts">better.starts</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br><a href="README.md#betterstarts">better.starts</a><br>
 <a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
 <a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
-</td><td><a href="README.md#disablepersonships">disable.person.ships</a><br>
+<a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
-<a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br><a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
 <a href="README.md#toomanyasteroids">too.many.asteroids</a><br>
 <a href="README.md#uniquefix">unique.fix</a><br>
-</td></tr></table>
+<img width="294" height="1"><br></td></tr></table>
 
 
 
