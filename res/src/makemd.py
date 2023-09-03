@@ -36,26 +36,28 @@ with open('res/news.txt') as file1:
 news = ''
 amount = 0
 for each in allnews:
-	amount += 1
 	each = each.replace('\n', '')
-	if amount <= 15:
+	if amount <= 10:
+		amount += 1
 		news += each + '<br>\n'
 	else:
 		break
-news = 'Latest News:<br>\n<table><tr><td>' + news + '</td></tr></table>'
+news = '## Latest News:\n<table><tr><td><img width="882" height="1"><br>' + news + '<img width="882" height="1"><br></td></tr></table>'
 
 # write header
 entries = os.listdir(pathtoplugins)
 entries = sorted(entries)
-pluginlist = '<table><tr valign="top"><td>'
+pluginlist = '<table><tr valign="top"><td><img width="294" height="1"><br>'
 amount = len(entries)
 index = 0
 for entry in entries:
 	index += 1
 	pluginlist += '<a href="' + indexfile + '#' + entry.replace('.','') + '">' + entry + '</a><br>\n'
-	if index == int(amount / 2):
-		pluginlist += '</td><td>'
-pluginlist += '</td></tr></table>'
+	if index == int(amount / 3):
+		pluginlist += '<img width="294" height="1"><br></td><td><img width="294" height="1"><br>'
+	elif index == int(2 * amount / 3):
+		pluginlist += '<img width="294" height="1"><br></td><td><img width="294" height="1"><br>'
+pluginlist += '<img width="294" height="1"><br></td></tr></table>'
 with open(indexfile, "w") as file1:
 	file1.writelines(header.replace('%pluginlist%', pluginlist).replace('%news%', news))
 
