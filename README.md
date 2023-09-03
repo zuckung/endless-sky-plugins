@@ -555,7 +555,7 @@ added icon.png<br>
 
 <img src="myplugins/disable.spaceport.repeatables/icon.png" height="100">
 
-[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 19.95 kb | 2023-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
+[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 19.98 kb | 2023-09-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
 <br>
 >Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the readme for details.
 
@@ -567,7 +567,7 @@ added icon.png<br>
 
 <br>
 
-Disables all spaceport repeatable missions. These missions annoy me. Basically removes the 8 dialog repeatables and the 6 defend planet missions.<br>
+Disables all spaceport repeatable missions. These missions annoy me. Removes the 8 dialog repeatables and the 8 defend planet missions.<br>
 
 <br>
 
@@ -603,9 +603,17 @@ Disables all spaceport repeatable missions. These missions annoy me. Basically r
 
 <li> "Pirate Occupation [2]" </li>
 
+<li> "Raider Attack 1" </li>
+
+<li> "Raider Attack 2" </li>
+
 </ul>
 
 <br>
+
+2023-09-03<br>
+
+added the 2 syndicate alien attack missions<br>
 
 <br>
 
