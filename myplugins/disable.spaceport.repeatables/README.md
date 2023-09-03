@@ -1,7 +1,7 @@
 ### disable.spaceport.repeatables
 <br>
 <br>
-Disables all spaceport repeatable missions. These missions annoy me. Basically removes the 8 dialog repeatables and the 6 defend planet missions.<br>
+Disables all spaceport repeatable missions. These missions annoy me. Removes the 8 dialog repeatables and the 8 defend planet missions.<br>
 <br>
 <br>
 <ul>
@@ -19,8 +19,12 @@ Disables all spaceport repeatable missions. These missions annoy me. Basically r
 <li> "Pirate Occupation [0]" </li>
 <li> "Pirate Occupation [1]" </li>
 <li> "Pirate Occupation [2]" </li>
+<li> "Raider Attack 1" </li>
+<li> "Raider Attack 2" </li>
 </ul>
 <br>
+2023-09-03<br>
+added the 2 syndicate alien attack missions<br>
 <br>
 2023-08-31<br>
 added the 3 pirate occupation missions<br>

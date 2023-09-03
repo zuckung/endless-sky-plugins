@@ -13,3 +13,5 @@ disable mission
 	"Pirate Occupation [0]"
 	"Pirate Occupation [1]"
 	"Pirate Occupation [2]"
+	"Raider Attack 1"
+	"Raider Attack 2"
