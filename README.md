@@ -3,6 +3,11 @@
 I aim at developing small and modular plugins that don't break vanilla lore too much. <br><br>
 Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me. <br><br>
 
+Latest News:<br>
+<table><tr><td>2023-09-03 | update: disable.spaceport.repeatables<br>
+2023-09-03 | update: better.starts<br>
+2023-09-03 | news system added<br>
+</td></tr></table>
 
 ## Plugin List:<br>
 <table><tr valign="top"><td><a href="README.md#additionalcommandbuttons">additional.command.buttons</a><br>
@@ -557,7 +562,7 @@ added icon.png<br>
 
 [disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 19.98 kb | 2023-09-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
 <br>
->Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the readme for details.
+>Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the readme for details. 
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
