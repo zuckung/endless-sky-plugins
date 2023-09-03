@@ -21,6 +21,7 @@ jobs:
         run: |
           import os
           import subprocess
+          from datetime import datetime
           changed = "${{ steps.files.outputs.all_changed_and_modified_files }}"
           plugins = set()
           for f in changed.split("%%%"):
@@ -50,6 +51,13 @@ jobs:
               subprocess.run(["zip", "-r", "../" + corrected + ".zip", p],
                 stdout=subprocess.DEVNULL)
               os.chdir('../')
+              # writing to news
+              today = datetime.today().strftime('%Y-%m-%d')
+              news = [today + ' | update: ' + p + '\n']
+              with open('res/news.txt') as newsfile:
+                old = newsfile.readlines()
+              with open('res/news.txt', 'w') as newsfile:
+                newsfile.writelines(news + old)
           else:
             print("No plugin changes have been detected.")
         shell: python

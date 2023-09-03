@@ -30,6 +30,19 @@ with open(templatefile, "r") as file1:
 header = template.split("%plugin template below this line%")[0]
 p_template =  template.split("%plugin template below this line%")[1]
 
+# reading news.txt
+with open('res/news.txt') as file1:
+	allnews = file1.readlines()
+news = ''
+amount = 0
+for each in allnews:
+	amount += 1
+	each = each.replace('\n', '')
+	if amount <= 15:
+		news += each + '<br>\n'
+	else:
+		break
+news = 'Latest News:<br>\n<table><tr><td>' + news + '</td></tr></table>'
 
 # write header
 entries = os.listdir(pathtoplugins)
@@ -44,7 +57,7 @@ for entry in entries:
 		pluginlist += '</td><td>'
 pluginlist += '</td></tr></table>'
 with open(indexfile, "w") as file1:
-	file1.writelines(header.replace('%pluginlist%', pluginlist))
+	file1.writelines(header.replace('%pluginlist%', pluginlist).replace('%news%', news))
 
 
 # read folders, and write to README.md
