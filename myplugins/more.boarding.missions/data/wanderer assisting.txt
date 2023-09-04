@@ -1,0 +1,110 @@
+# 7 assisting wanderer missions
+
+conversation "con assisting wanderer"
+	`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+		decline
+
+mission "Assisting Wanderer (Interceptor)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Interceptor"
+		not attributes "automaton"
+	on offer
+		payment 50000
+		conversation "con assisting wanderer"
+
+mission "Assisting Wanderer (Light Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Light Warship"
+		not attributes "automaton"
+	on offer
+		payment 75000
+		conversation "con assisting wanderer"
+
+mission "Assisting Wanderer (Transport)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Transport" "Space Liner" 
+		not attributes "automaton"
+	on offer
+		payment 65000
+		conversation "con assisting wanderer"
+
+mission "Assisting Wanderer (Light Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Light Freighter"
+		not attributes "automaton"
+	on offer
+		payment 60000
+		conversation "con assisting wanderer"
+
+mission "Assisting Wanderer (Medium Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Medium Warship"
+		not attributes "automaton"
+	on offer
+		payment 85000
+		conversation "con assisting wanderer"
+
+mission "Assisting Wanderer (Heavy Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Heavy Freighter"
+		not attributes "automaton"
+	on offer
+		payment 80000
+		conversation "con assisting wanderer"
+
+mission "Assisting Wanderer (Heavy Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Heavy Warship"
+		not attributes "automaton"
+	on offer
+		payment 100000
+		conversation "con assisting wanderer"
