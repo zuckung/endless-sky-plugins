@@ -13,7 +13,8 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-04 | badges!<br>
+<table><tr><td><img width="882" height="1"><br>2023-09-04 | update: more.boarding.missions<br>
+2023-09-04 | badges!<br>
 2023-09-03 | update: disable.spaceport.repeatables<br>
 2023-09-03 | update: better.starts<br>
 2023-09-03 | news system added<br>
@@ -919,7 +920,7 @@ Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets 
 
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
 
-[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 13.58 kb | 2023-09-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
+[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 15.17 kb | 2023-09-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the readme for details.
 <details>
@@ -930,43 +931,33 @@ Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets 
 
 <br>
 
-Adds 40 boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai or Hai Unfettered can trigger them. Bigger ships give higher rewards.<br>
+Adds 53 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer) and Wanderer can trigger them. Bigger ships give higher rewards.<br>
 
 <br>
 
 <ul>
 
-<li> 7 Pirate boarding missions for credits<br>
+<li> 7 Human assisting missions (by ship categories, 20% chance, 10.000 to 30.000 credits)</li>
 
-  (by ship categories, 20% chance, 5.000 to 25.000 credits, repeatable)</li>
+<li> 7 Pirate boarding missions (by ship categories, 20% chance, 5.000 to 25.000 credits)</li>
 
-<li> 4 Pirate boarding missions for outfit<br>
+<li> 4 Pirate boarding missions (by ship categories, 1-4% chance, outfit "NDR-114 Android")</li>
 
-  (by ship categories, 1-4% chance, outfit "NDR-114 Android" as reward, repeatable)</li>
+<li> 7 Hai assisting missions (by ship categories, 20% chance, 20.000 to 60.000 credits)</li>
 
-<li> 7 Human assisting missions for credits<br>
+<li> 5 Hai Unfettered assisting missions (by ship categories, 20% chance, 30.000 to 90.000 credits)</li>
 
-  (by ship categories, 20% chance, 10.000 to 30.000 credits, repeatable)</li>
+<li> 5 Hai Unfettered boarding missions (by ship categories, 10% chance, 30.000 to 90.000 credits)</li>
 
-<li> 7 Hai assisting missions for crecits<br>
+<li> 3 Hai Unfettered boarding missions (by reward, 3% chance, outfit one of the 3 weapon prototypes)</li>
 
-  (by ship categories, 20% chance, 20.000 to 60.000 credits, repeatable)</li>
+<li> 2 Korath boarding missions (for the bigger ship categories, 2-3% chance, outfit "Cloaking Device")</li>
 
-<li> 5 Hai Unfettered assisting missions for credits<br>
+<li> 3 Pug boarding missions (by ship categories, 10% chance, 100.000 to 200.000 credits)</li>
 
-  (by ship categories, 20% chance, 30.000 to 90.000 credits, repeatable)</li>
+<li> 3 Pug boarding missions (by ship categories, 1-3% chance, new outfit "Pug War Staff")</li>
 
-<li> 5 Hai Unfettered boarding missions for credits<br>
-
-  (by ship categories, 10% chance, 30.000 to 90.000 credits, repeatable)</li>
-
-<li> 3 Hai Unfettered boarding missions for outfit<br>
-
-  (by reward, 3% chance, outfit one of the 3 weapon prototypes, repeatable)</li>
-
-<li> 2 Korath boarding missions<br>
-
-  (for the bigger ship categories, 2-3% chance, outfit "Cloaking Device" as reward, repeatable)</li>
+<li> 7 Wanderer assisting missions (by ship categories, 10% chance, 50.000 to 100.000 credits)</li>
 
 </ul>
 
@@ -974,23 +965,35 @@ Adds 40 boarding and assisting missions. Boarding/assisting Free Worlds, Republi
 
 <br>
 
+2023-09-04<br>
+
+added 7 wanderer assisting missions (credits)<br>
+
+added 3 pug boarding missions (credits)<br>
+
+added 3 pug boarding missions (outfit)<br>
+
+added new outfit "Pug War Staff"<br>
+
+<br>
+
 2023-09-01<br>
 
-added 5 hai unfettered assisting missions <br>
+added 5 hai unfettered assisting missions (credits)<br>
 
-added 5 hai unfettered boarding missions <br>
+added 5 hai unfettered boarding missions (credits)<br>
 
-added 3 hai unfettered boarding missions for weapon prototypes <br>
+added 3 hai unfettered boarding missions (outfit)<br>
 
-added "Merchant" and "Independant" to human assisting missions
+added "Merchant" and "Independant" to human assisting missions<br>
 
 <br>
 
 2023-08-29<br>
 
-added 2 korath boarding missions with a rare chance for a cloaking device<br>
+added 2 korath boarding missions (outfit)<br>
 
-added 4 pirate boarding missions with rare chance for an android<br>
+added 4 pirate boarding missions (outfit)<br>
 
 added icon and reworked readme<br>
 
