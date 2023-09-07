@@ -4,8 +4,8 @@ I aim at developing small and modular plugins that don't break vanilla lore too 
 Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me. <br>
 <br>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzuckung%2Fendless-sky-plugins&count_bg=%2395c20e&title_bg=%235a5a5a&icon=&icon_color=%235A5A5A&title=hits&edge_flat=false"/></a>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
+<a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
+<a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/commit-activity/t/zuckung/endless-sky-plugins"></a>
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/repo-size/zuckung/endless-sky-plugins"></a>
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/code-size/zuckung/endless-sky-plugins"></a>
@@ -13,7 +13,11 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-04 | update: more.boarding.missions<br>
+<table><tr><td><img width="882" height="1"><br>2023-09-07 | update: automata.destruction.0percent<br>
+2023-09-07 | update: automata.destruction.75percent<br>
+2023-09-07 | update: automata.destruction.51percent<br>
+2023-09-07 | update: automata.destruction.23percent<br>
+2023-09-04 | update: more.boarding.missions<br>
 2023-09-04 | badges!<br>
 2023-09-03 | update: disable.spaceport.repeatables<br>
 2023-09-03 | update: better.starts<br>
@@ -23,18 +27,15 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 ## Plugin List:<br>
 <table><tr valign="top"><td><img width="294" height="1"><br><a href="README.md#additionalcommandbuttons">additional.command.buttons</a><br>
 <a href="README.md#automatadestruction0percent">automata.destruction.0percent</a><br>
-<a href="README.md#automatadestruction23percent">automata.destruction.23percent</a><br>
-<a href="README.md#automatadestruction51percent">automata.destruction.51percent</a><br>
-<a href="README.md#automatadestruction75percent">automata.destruction.75percent</a><br>
 <a href="README.md#automatainhumanspace">automata.in.human.space</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br><a href="README.md#betterstarts">better.starts</a><br>
+<a href="README.md#betterstarts">better.starts</a><br>
 <a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
-<a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br><a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br><a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
-<a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
+<a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br><a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
@@ -170,115 +171,54 @@ changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner 
 
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 
-[automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.0percent.zip) | 52.52 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) <br>
+[automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.0percent.zip) | 43.71 kb | 2023-09-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) <br>
 <br>
->(14 ship attributes changed)(made for 0.10.1)
->github.com/zuckung/endless-sky-plugins
->
->Modifies the self destruction chance of Sestor and Mereti ships.
->Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.0 (0%).
+>Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>### automata destruction 0percent <br>
-
-(14 ship attributes changed)(made for 0.10.1) <br>
+<blockquote>### automata destruction 0percent
 
 <br>
 
-Modifies the self destruction chance of Sestor and Mereti ships. <br>
-
-Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.0 (0%). <br>
-</blockquote>
-</details>
 <br>
 
-
----
-
-### automata.destruction.23percent
-
-<img src="myplugins/automata.destruction.23percent/icon.png" height="100">
-
-[automata.destruction.23percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.23percent.zip) | 52.54 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.23percent/) <br>
-<br>
->(14 ship attributes changed)(made for 0.10.1)
->github.com/zuckung/endless-sky-plugins
->
->Modifies the self destruction chance of Sestor and Mereti ships.
->Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.12 (23%).
-
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### automata destruction 23percent <br>
-
-(14 ship attributes changed)(made for 0.10.1) <br>
+Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%).<br>
 
 <br>
 
-Modifies the self destruction chance of Sestor and Mereti ships. <br>
+Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.0 (0%) now.<br>
 
-Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.12 (23%). <br>
-</blockquote>
-</details>
-<br>
-
-
----
-
-### automata.destruction.51percent
-
-<img src="myplugins/automata.destruction.51percent/icon.png" height="100">
-
-[automata.destruction.51percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.51percent.zip) | 52.54 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.51percent/) <br>
-<br>
->(14 ship attributes changed)(made for 0.10.1)
->github.com/zuckung/endless-sky-plugins
->
->Modifies the self destruction chance of Sestor and Mereti ships.
->Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.3 (51%).
-
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### automata destruction 51percent <br>
-
-(14 ship attributes changed)(made for 0.10.1) <br>
+You can easily change the values in automata.txt for each ship ('"self destruct" .0') to a value of your choice. I.e. 0.12 is 23%, 0.3 is 51%, 0.5 is 75%. Its calculated twice, first the chance for self destruction on boarding(i.e. 0.3) is 30%, then of the remaining 70% again 30% chance for self destruction on capturing. That makes 30% + 21% = 51% overall chance for self destruction on a capturing try.<br>
 
 <br>
 
-Modifies the self destruction chance of Sestor and Mereti ships. <br>
-
-Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.3 (51%). <br>
-</blockquote>
-</details>
 <br>
 
+2023-09-07<br>
 
----
+changed icon<br>
 
-### automata.destruction.75percent
+changed about.txt<br>
 
-<img src="myplugins/automata.destruction.75percent/icon.png" height="100">
+changed readme<br>
 
-[automata.destruction.75percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.75percent.zip) | 52.54 kb | 2023-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.75percent/) <br>
-<br>
->(14 ship attributes changed)(made for 0.10.1)
->github.com/zuckung/endless-sky-plugins
->
->Modifies the self destruction chance of Sestor and Mereti ships.
->Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.5 (75%).
 
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### automata destruction 75percent <br>
 
-(14 ship attributes changed)(made for 0.10.1) <br>
 
-<br>
 
-Modifies the self destruction chance of Sestor and Mereti ships. <br>
 
-Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.5 (75%). <br>
+
+
+
+
+
+
+
+
+
+
+
 </blockquote>
 </details>
 <br>
