@@ -37,7 +37,7 @@ news = ''
 amount = 0
 for each in allnews:
 	each = each.replace('\n', '')
-	if amount <= 10:
+	if amount < 10:
 		amount += 1
 		news += each + '<br>\n'
 	else:

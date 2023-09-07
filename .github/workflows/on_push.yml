@@ -56,8 +56,15 @@ jobs:
               news = [today + ' | update: ' + p + '\n']
               with open('res/news.txt') as newsfile:
                 old = newsfile.readlines()
-              with open('res/news.txt', 'w') as newsfile:
-                newsfile.writelines(news + old)
+              double = False
+              for line in old:
+                if line == news[0]:
+                  double = True
+                  print('double entry! NOT adding to news!')
+                  break
+              if double == False:
+                with open('res/news.txt', 'w') as newsfile:
+                  newsfile.writelines(news + old)
           else:
             print("No plugin changes have been detected.")
         shell: python
