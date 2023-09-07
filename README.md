@@ -26,23 +26,27 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
-<table><tr valign="top"><td><img width="294" height="1"><br><a href="README.md#additionalcommandbuttons">additional.command.buttons</a><br>
+<table><tr valign="top"><td><img width="294" height="1"><br>
+<a href="README.md#additionalcommandbuttons">additional.command.buttons</a><br>
 <a href="README.md#automatadestruction0percent">automata.destruction.0percent</a><br>
 <a href="README.md#automatainhumanspace">automata.in.human.space</a><br>
 <a href="README.md#betterstarts">better.starts</a><br>
 <a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br><a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
+<a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br><a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
+<a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
 <a href="README.md#toomanyasteroids">too.many.asteroids</a><br>
 <a href="README.md#uniquefix">unique.fix</a><br>
 <img width="294" height="1"><br></td></tr></table>
+
 
 
 
