@@ -1,7 +1,5 @@
+2023-09-07 | removed the other 3 automata.destruction
 2023-09-07 | update: automata.destruction.0percent
-2023-09-07 | update: automata.destruction.75percent
-2023-09-07 | update: automata.destruction.51percent
-2023-09-07 | update: automata.destruction.23percent
 2023-09-04 | update: more.boarding.missions
 2023-09-04 | badges!
 2023-09-03 | update: disable.spaceport.repeatables
