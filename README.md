@@ -1,19 +1,22 @@
 ![img](https://github.com/zuckung/test/blob/main/res/icon.png)
 # **my endless-sky-plugins**
-I aim at developing small and modular plugins that don't break vanilla lore too much. <br><br>
-Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me. <br>
+I aim at developing small, modular and maximal compatible plugins that don't break vanilla lore too much. <br>
+Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me.<br><br>
+Speaking of that, I'm looking for someone with great english knowledge(preferable native english speaking), for correcting and rephrasing some of my more text-intense plugins(better.starts, bunrodea.missions, galactic.capital.investment and snowfeather.robotics).<br><br>
+Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators or people who seek informations inside the data folder. Basically it is a very fast way to view everything out of the data folder, especially when you don't know where to find something.<br>
 <br>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzuckung%2Fendless-sky-plugins&count_bg=%2395c20e&title_bg=%235a5a5a&icon=&icon_color=%235A5A5A&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/commit-activity/t/zuckung/endless-sky-plugins"></a>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/repo-size/zuckung/endless-sky-plugins"></a>
+<a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/commit-activity/t/zuckung/endless-sky-plugins"></a>
+<a href="https://github.com/zuckung/endless-sky-plugins/archive/refs/heads/main.zip"><img src="https://img.shields.io/github/repo-size/zuckung/endless-sky-plugins"></a>
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/code-size/zuckung/endless-sky-plugins"></a>
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/top/zuckung/endless-sky-plugins"></a>
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-07 | removed the other 3 automata.destruction<br>
+<table><tr><td><img width="882" height="1"><br>2023-09-07 | repo update<br>
+2023-09-07 | removed the other 3 automata.destruction<br>
 2023-09-07 | update: automata.destruction.0percent<br>
 2023-09-04 | update: more.boarding.missions<br>
 2023-09-04 | badges!<br>
