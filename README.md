@@ -13,10 +13,8 @@ Please excuse bad english, spelling, grammar, etc... english isn't my mother ton
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-07 | update: automata.destruction.0percent<br>
-2023-09-07 | update: automata.destruction.75percent<br>
-2023-09-07 | update: automata.destruction.51percent<br>
-2023-09-07 | update: automata.destruction.23percent<br>
+<table><tr><td><img width="882" height="1"><br>2023-09-07 | removed the other 3 automata.destruction<br>
+2023-09-07 | update: automata.destruction.0percent<br>
 2023-09-04 | update: more.boarding.missions<br>
 2023-09-04 | badges!<br>
 2023-09-03 | update: disable.spaceport.repeatables<br>
