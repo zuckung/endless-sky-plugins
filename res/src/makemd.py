@@ -37,7 +37,7 @@ news = ''
 amount = 0
 for each in allnews:
 	each = each.replace('\n', '')
-	if amount < 10:
+	if amount <= 10:
 		amount += 1
 		news += each + '<br>\n'
 	else:
@@ -47,17 +47,24 @@ news = '## Latest News:\n<table><tr><td><img width="882" height="1"><br>' + news
 # write header
 entries = os.listdir(pathtoplugins)
 entries = sorted(entries)
-pluginlist = '<table><tr valign="top"><td><img width="294" height="1"><br>'
+pluginlist = '<table><tr valign="top"><td><img width="294" height="1"><br>\n'
 amount = len(entries)
+column = amount//3
+remainder = amount%3
 index = 0
 for entry in entries:
 	index += 1
 	pluginlist += '<a href="' + indexfile + '#' + entry.replace('.','') + '">' + entry + '</a><br>\n'
-	if index == int(amount / 3):
-		pluginlist += '<img width="294" height="1"><br></td><td><img width="294" height="1"><br>'
-	elif index == int(2 * amount / 3):
-		pluginlist += '<img width="294" height="1"><br></td><td><img width="294" height="1"><br>'
-pluginlist += '<img width="294" height="1"><br></td></tr></table>'
+	if remainder == 0:
+		if index  == column or index == 2*column:
+			pluginlist += '<img width="294" height="1"><br></td><td><img width="294" height="1"><br>\n'
+	elif remainder == 1:
+		if index == column +1 or index == 2*column +1:
+			pluginlist += '<img width="294" height="1"><br></td><td><img width="294" height="1"><br>\n'
+	elif remainder == 2:
+		if index == column +1 or index == 2*column +2:
+			pluginlist += '<img width="294" height="1"><br></td><td><img width="294" height="1"><br>\n'
+pluginlist += '<img width="294" height="1"><br></td></tr></table>\n'
 with open(indexfile, "w") as file1:
 	file1.writelines(header.replace('%pluginlist%', pluginlist).replace('%news%', news))
 
