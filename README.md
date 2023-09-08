@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-07 | repo update<br>
+<table><tr><td><img width="882" height="1"><br>2023-09-08 | update: captureable.person.ships<br>
+2023-09-07 | repo update<br>
 2023-09-07 | removed the other 3 automata.destruction<br>
 2023-09-07 | update: automata.destruction.0percent<br>
 2023-09-04 | update: more.boarding.missions<br>
@@ -32,8 +33,9 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#automatainhumanspace">automata.in.human.space</a><br>
 <a href="README.md#betterstarts">better.starts</a><br>
 <a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
-<a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
+<a href="README.md#captureablepersonships">captureable.person.ships</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
@@ -402,6 +404,78 @@ intial release<br>
 
 
 
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### captureable.person.ships
+
+<img src="myplugins/captureable.person.ships/icon.png" height="100">
+
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 40.11 kb | 2023-09-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
+<br>
+>Makes person ships capturable. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### capturable.person.ships
+
+<br>
+
+<br>
+
+Makes person ships captureable.<br> 
+
+Well, technically this plugin disables the person ships, and creates new ones which are captureable(due yo the limitations of changing parts of them). Also adds all of them to the author government and adjusts some personalities.<br>
+
+So attacking one or two of them makes all your enemies.<br>
+
+<ul>
+
+<li>"Michael Zahniser" (found everywhere | kestrel + finch)</li>
+
+<li>"Cap'n Pester" (found everywhere | quarg wardragon)</li>
+
+<li>"Marauding Max" (found everywhere | marauder fury)</li>
+
+<li>"Captain Nate" (found everywhere | vanguard)</li>
+
+<li>"Tranquility" (found everywhere | lampyrid)</li>
+
+<li>"Power of the People" (found everywhere | modified osprey)</li>
+
+<li>"Local God" (found everywhere | Ursa Polaris)</li>
+
+<li>"Subsidurial" (found in uninhabited | subsidurial)</li>
+
+<li>"Prototype B3-CC4" (found in ember waste | shooting star)</li>
+
+<li>"Rais Iris XVIII" (found everywhere | marauder bactrian)</li>
+
+<li>"Zitchas" (found in ember waste | heron + peregrine + 4xpetrel + 33xtern)</li>
+
+<li>"Brick" (found everywhere | 3xmodified boxwing)</li>
+
+<li>"Gefullte Taubenbrust" (found everywhere | modified battleship)</li>
+
+<li>"MasterOfGrey" (found in hai space | modified ladybug)</li>
+
+</ul>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2023-09-09<br>
+
+initial release<br>
 </blockquote>
 </details>
 <br>
