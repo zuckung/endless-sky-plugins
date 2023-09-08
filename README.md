@@ -429,9 +429,11 @@ intial release<br>
 
 Makes person ships captureable.<br> 
 
-Well, technically this plugin disables the person ships, and creates new ones which are captureable(due yo the limitations of changing parts of them). Also adds all of them to the author government and adjusts some personalities.<br>
+Well, technically this plugin disables the person ships, and creates new ones which are captureable(due to the limitations of changing parts of them). Also adds all of them to the author government and adjusts some personalities.<br>
 
 So attacking one or two of them makes all your enemies.<br>
+
+<br>
 
 <ul>
 
@@ -476,6 +478,7 @@ Changelog:<br>
 2023-09-09<br>
 
 initial release<br>
+
 </blockquote>
 </details>
 <br>
