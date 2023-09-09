@@ -1,3 +1,4 @@
+2023-09-09 | update: captureable.person.ships
 2023-09-08 | update: captureable.person.ships
 2023-09-07 | repo update
 2023-09-07 | removed the other 3 automata.destruction
