@@ -30,9 +30,12 @@ disable person
 	"Gefullte Taubenbrust"
 	"MasterOfGrey"
 
+gamerules
+	"no person spawn weight" 0
 
 person "Michael Zahniser "
 	government "Author"
+	frequency 1000
 	personality
 		plunders heroic surveillance
 	phrase
@@ -131,7 +134,7 @@ ship "Finch" "Finch (MZ)"
 
 person "Cap'n Pester "
 	government "Author"
-	frequency 300
+	frequency 1000
 	personality
 		 heroic surveillance
 	phrase
@@ -159,7 +162,7 @@ person "Cap'n Pester "
 
 person "Marauding Max "
 	government "Author"
-	frequency 400
+	frequency 1000
 	personality
 		 heroic surveillance unconstrained harvests
 	phrase
@@ -223,7 +226,7 @@ person "Marauding Max "
 
 person "Captain Nate "
 	government "Author"
-	frequency 300
+	frequency 1000
 	personality
 		vindictive heroic surveillance
 	phrase
@@ -360,9 +363,9 @@ person "Captain Nate "
 
 person "Tranquility "
 	government "Author"
-	frequency 100
+	frequency 1000
 	personality
-		timid heroic surveillance
+		heroic surveillance staying mining harvests ramming hunting daring nemesis
 	phrase
 		word
 			"They tell ya never to hit a man with a closed fist, but it is on occasion hilarious."
@@ -391,7 +394,7 @@ person "Tranquility "
 
 person "Power of the People "
 	government "Author"
-	frequency 200
+	frequency 1000
 	personality
 		mining harvests opportunistic frugal unconstrained heroic surveillance
 	phrase
@@ -481,7 +484,7 @@ person "Power of the People "
 
 person "Local God "
 	government "Author"
-	frequency 200
+	frequency 1000
 	personality
 		mining harvests heroic surveillance unconstrained forbearing
 	phrase
@@ -877,7 +880,7 @@ person "Zitchas "
 
 person "Brick "
 	government "Author"
-	frequency 300
+	frequency 1000
 	personality
 		mining harvests plunders heroic surveillance
 	phrase
@@ -893,7 +896,7 @@ person "Brick "
 
 person "Gefullte Taubenbrust "
 	government "Author"
-	frequency 200
+	frequency 1000
 	personality
 		heroic plunders opportunistic heroic surveillance
 	phrase
@@ -912,7 +915,7 @@ person "Gefullte Taubenbrust "
 
 person "MasterOfGrey "
 	government "Author"
-	frequency 200
+	frequency 1000
 	personality
 		plunders opportunistic heroic surveillance
 	system
