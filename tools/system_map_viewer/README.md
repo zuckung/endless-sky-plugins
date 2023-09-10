@@ -3,7 +3,7 @@
 Very basic system map viewer written in python.<br>
 Script comments explain use. On click it shows the position<br>
 <br>
-<img src='screenshot.jpg' width='500'>
+<img src='Screenshot.jpg' width='500'>
 <br>
 <br>
 # pillow.py
