@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-09 | update: captureable.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2023-09-10 | added a better map viewer to tools<br>
+2023-09-09 | update: captureable.person.ships<br>
 2023-09-08 | update: captureable.person.ships<br>
 2023-09-07 | repo update<br>
 2023-09-07 | removed the other 3 automata.destruction<br>
