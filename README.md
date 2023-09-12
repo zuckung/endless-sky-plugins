@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-10 | added a better map viewer to tools<br>
+<table><tr><td><img width="882" height="1"><br>2023-09-12 | improved the map viewer, looks good now, but still WIP<br>
+2023-09-10 | added a better map viewer to tools<br>
 2023-09-09 | update: captureable.person.ships<br>
 2023-09-08 | update: captureable.person.ships<br>
 2023-09-07 | repo update<br>
@@ -25,7 +26,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-09-04 | badges!<br>
 2023-09-03 | update: disable.spaceport.repeatables<br>
 2023-09-03 | update: better.starts<br>
-2023-09-03 | news system added<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
