@@ -1,3 +1,5 @@
+2023-09-15 | update: better.starts
+2023-09-15 | update: captureable.person.ships
 2023-09-12 | improved the map viewer, looks good now, but still WIP
 2023-09-10 | added a better map viewer to tools
 2023-09-09 | update: captureable.person.ships

@@ -15,7 +15,9 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-12 | improved the map viewer, looks good now, but still WIP<br>
+<table><tr><td><img width="882" height="1"><br>2023-09-15 | update: better.starts<br>
+2023-09-15 | update: captureable.person.ships<br>
+2023-09-12 | improved the map viewer, looks good now, but still WIP<br>
 2023-09-10 | added a better map viewer to tools<br>
 2023-09-09 | update: captureable.person.ships<br>
 2023-09-08 | update: captureable.person.ships<br>
@@ -24,8 +26,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-09-07 | update: automata.destruction.0percent<br>
 2023-09-04 | update: more.boarding.missions<br>
 2023-09-04 | badges!<br>
-2023-09-03 | update: disable.spaceport.repeatables<br>
-2023-09-03 | update: better.starts<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -282,7 +282,7 @@ changed icon.png<br>
 
 <img src="myplugins/better.starts/icon.png" height="100">
 
-[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 20.49 kb | 2023-09-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
+[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 21.45 kb | 2023-09-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
 <br>
 >Adds several new start options with different ships, background storys, credits and debts. See the readme for details.
 
@@ -292,35 +292,53 @@ changed icon.png<br>
 
 <br>
 
-Adds 8 new start options with different ships, background storys, credits and debts.<br>
+Adds 9 new start options with different ships, background storys, credits and debts.<br>
 
 <br>
 
 <ul>
 
-<li>Start: Cheater | Leviathan: 100m credits, full visible human space, Jump Drive, in Sol system, no story</li>
+<li>Start: Trader | Freighter: equipped for cargo transport, in Merak system</li>
+
+<li>Start: Trader (Hai) | Aphid: equipped for cargo transport, in Fah Soom system(Hai space)</li>
+
+<li>Start: Passenger Transport | Scout: equipped for passenger transport, Talita system</li>
+
+<li>Start: Miner | Clipper: equipped for mining, in Rasalhague system</li>
 
 <li>Start: Salvager | Shuttle: equipped for boarding, in Aldhibain system</li>
 
 <li>Start: Salvager(big) | Argosy: equipped for boarding, in Aldhibain system</li>
 
-<li>Start: Miner | Clipper: equipped for mining, in Rasalhague system</li>
-
-<li>Start: Trader | Freighter: equipped for cargo transport, in Merak system</li>
-
-<li>Start: Trader (Hai) | Aphid: equipped for cargo transport, in Fah Soom system(Hai space)</li>
-
 <li>Start: Explorer to Remnant | Heavy Shuttle: equipped for exploring the Remnant, in Tania Australis system</li>
 
-<li>Start: Explorer to Automata | Bounder: equipped for exploring the Kor Automata, in Mirfak system(Hai space)</li>
+<li>Start: Explorer to Automata | Bounder: equipped for exploring the Kor Automata, in Mirfak system</li>
+
+<li>Start: Cheater | Heron: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
 
 </ul>
 
 <br>
 
-Beside the cheater start option, all others are balanced and lore friendly. A bigger ship means a bigger bank loan. All starts come with 200.000 credits cash and a bank loan between 600.000 and 4,5 million credits. The ships outfits are changed to fit the role.<br>
+Beside the cheater start option, all others are balanced and lore friendly. A bigger ship means a bigger bank loan. All starts come with 200.000 credits cash and a bank loan between 600.000 and 4,5 million credits. The ships outfits are changed to fit the role. The intro missions on New Bosten are set as completed. Same goes for the Hai start with the Hai first contact mission.<br>
 
 <br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2023-09-15<br>
+
+added passenger transport start<br>
+
+set intro missions to done for all starts<br>
+
+doubled bank loan duration / halfed interest rate for all starts<br>
+
+changed cheater start ship and credits<br>
 
 <br>
 
@@ -417,7 +435,7 @@ intial release<br>
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 170.95 kb | 2023-09-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 170.85 kb | 2023-09-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
 <br>
 >Makes person ships capturable. See the readme for details.
 
@@ -435,11 +453,9 @@ Makes person ships captureable.<br>
 
 <br>
 
-Well, technically this plugin disables the person ships, and creates new ones(with a space more in its names) which are captureable(due to the limitations of changing parts of originals). Also adds all of them to the author government, adjusts some personalities, sets all frequencies to 1000 and changes the game rules to prevent that no ship spawns.<br>
+Well, technically this plugin disables the person ships, and creates new ones(with a space more in its names, due to limitations of changing parts of originals) which are captureable. Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000.<br>
 
-So attacking one of them makes all your enemies.<br>
-
-The average spawn time is 10 minutes.<br>
+So attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average within 10 minutes.<br>
 
 <br>
 
@@ -486,6 +502,14 @@ Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti be
 <br>
 
 Changelog:<br>
+
+<br>
+
+2023-09-15<br>
+
+changed gamerules back, because it caused mass spawning<br>
+
+changed some personalities<br>
 
 <br>
 
