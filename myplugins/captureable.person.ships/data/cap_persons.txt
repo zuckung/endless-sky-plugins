@@ -30,14 +30,14 @@ disable person
 	"Gefullte Taubenbrust"
 	"MasterOfGrey"
 
-gamerules
-	"no person spawn weight" 0
+#gamerules
+#	"no person spawn weight" 0
 
 person "Michael Zahniser "
 	government "Author"
 	frequency 1000
 	personality
-		plunders heroic surveillance
+		disables heroic surveillance
 	phrase
 		word
 			"I hope you're enjoying the game!"
@@ -136,7 +136,7 @@ person "Cap'n Pester "
 	government "Author"
 	frequency 1000
 	personality
-		 heroic surveillance
+		 disables heroic surveillance
 	phrase
 		phrase
 			"friendly author"
@@ -164,7 +164,7 @@ person "Marauding Max "
 	government "Author"
 	frequency 1000
 	personality
-		 heroic surveillance unconstrained harvests
+		 disables heroic surveillance
 	phrase
 		word
 			"Do you think you "
@@ -228,7 +228,7 @@ person "Captain Nate "
 	government "Author"
 	frequency 1000
 	personality
-		vindictive heroic surveillance
+		disables heroic surveillance
 	phrase
 		phrase
 			"friendly author"
@@ -365,7 +365,7 @@ person "Tranquility "
 	government "Author"
 	frequency 1000
 	personality
-		heroic surveillance staying mining harvests ramming hunting daring nemesis
+		disables heroic surveillance staying
 	phrase
 		word
 			"They tell ya never to hit a man with a closed fist, but it is on occasion hilarious."
@@ -396,7 +396,7 @@ person "Power of the People "
 	government "Author"
 	frequency 1000
 	personality
-		mining harvests opportunistic frugal unconstrained heroic surveillance
+		disables heroic surveillance
 	phrase
 		phrase
 			"friendly author"
@@ -486,7 +486,7 @@ person "Local God "
 	government "Author"
 	frequency 1000
 	personality
-		mining harvests heroic surveillance unconstrained forbearing
+		disables heroic surveillance
 	phrase
 		phrase
 			"friendly author"
@@ -570,7 +570,7 @@ person "Subsidurial "
 	government "Author"
 	frequency 1000
 	personality
-		timid unconstrained appeasing uninterested mining harvests mute heroic surveillance
+		disables heroic surveillance
 	ship "Subsidurial" "Subsidurial"
 	system
 		government "Uninhabited"
@@ -580,7 +580,7 @@ person "Prototype B3-CC4 "
 	government "Author"
 	frequency 1000
 	personality
-		forbearing mining unconstrained swarming heroic surveillance
+		disables heroic surveillance
 	system
 		attributes "ember waste"
 	phrase
@@ -674,7 +674,7 @@ person "Rais Iris XVIII "
 	government "Author"
 	frequency 200
 	personality
-		disables heroic surveillance plunders opportunistic
+		disables heroic surveillance
 	phrase
 		phrase
 			"friendly author"
@@ -757,7 +757,7 @@ person "Zitchas "
 	government "Author"
 	frequency 1000
 	personality
-		mining harvests opportunistic heroic surveillance
+		disables heroic surveillance
 	system
 		attributes "ember waste"
 	phrase
@@ -882,7 +882,7 @@ person "Brick "
 	government "Author"
 	frequency 1000
 	personality
-		mining harvests plunders heroic surveillance
+		disables heroic surveillance
 	phrase
 		word
 			"If sticks and stones break bones, then bricks should work wonders."
@@ -898,7 +898,7 @@ person "Gefullte Taubenbrust "
 	government "Author"
 	frequency 1000
 	personality
-		heroic plunders opportunistic heroic surveillance
+		disables heroic surveillance
 	phrase
 		word
 			"The whole room is spinning."
@@ -917,7 +917,7 @@ person "MasterOfGrey "
 	government "Author"
 	frequency 1000
 	personality
-		plunders opportunistic heroic surveillance
+		disables heroic surveillance
 	system
 		government "Hai"
 	phrase

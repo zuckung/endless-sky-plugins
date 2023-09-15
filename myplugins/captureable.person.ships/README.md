@@ -4,9 +4,8 @@
 Makes person ships captureable.<br> 
 <br>
 <br>
-Well, technically this plugin disables the person ships, and creates new ones(with a space more in its names) which are captureable(due to the limitations of changing parts of originals). Also adds all of them to the author government, adjusts some personalities, sets all frequencies to 1000 and changes the game rules to prevent that no ship spawns.<br>
-So attacking one of them makes all your enemies.<br>
-The average spawn time is 10 minutes.<br>
+Well, technically this plugin disables the person ships, and creates new ones(with a space more in its names, due to limitations of changing parts of originals) which are captureable. Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000.<br>
+So attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average within 10 minutes.<br>
 <br>
 Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti beam weapons, was probably an overkill on most. Except for "Zitchas" which needed less dmg weapons and max flamethrowers to prevent its cloaking. Also boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and i tried it with hand2hand outfits plugin. Maybe it works with nerve gas too. Another problem is "Tranquility" which has no weapons and therefore avoids fight. Tested different personality settings and best choice was to let it stay in system after spawn(yellow dot on radar).<br>
 <br>
@@ -30,6 +29,10 @@ Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti be
 <br>
 <br>
 Changelog:<br>
+<br>
+2023-09-15<br>
+changed gamerules back, because it caused mass spawning<br>
+changed some personalities<br>
 <br>
 2023-09-09<br>
 changed all frequencies to 1000<br>
