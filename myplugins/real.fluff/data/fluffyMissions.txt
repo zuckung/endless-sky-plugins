@@ -1,0 +1,75 @@
+mission "squirrel mission 1"
+	minor
+	name "The Search for squirrels."
+	description "Go to <destination> to ask around where to buy a squirrel."
+	source
+		planet "Heartvalley"
+	destination "Maelstrom"
+	to offer
+		random < 10
+	on offer
+		conversation
+			`As you make final checks for launching your ship, an elderly female Hai approaches.`
+			`  "Hello, is that your ship? Do you know your way around in human space? How much would a special procurement from human space cost me?"`
+			`  "Hello, a lot of questions at once." you say "The answers are: yes, yes and it depends from where and what."`
+			`The Hai woman, whose name is Xanua, tells you how years ago she heard a story that there is a species of animal among humans that looks similar to the Hai, only much smaller. Since then Xanua has become very wealthy and would like to score points with high society with something exotic like that.`
+			`You agree on a fixed amount of 500,000 credits. Now all you have to do is figure out how to get a squirrel. You've never seen a squirrel yourself and you don't even know what world they come from. You decide to search informations on the next human world.`
+				accept
+	on complete
+		conversation
+			`You reached <destination>. Here you might find more information where to buy a squirrel.`
+
+mission "squirrel mission 2"
+	landing
+	name "Buy a squirrel."
+	description "Go to <destination> to ask around where to buy a squirrel."
+	source
+		planet "Maelstrom"
+	destination "Earth"
+	to offer
+		has "squirrel mission 1: done"
+	on offer
+		conversation
+			`After landing on Maelstrom you search the local information network for squirrels. A few posts later, most of conspiracy theories about extraterrestrial giant squirrels enslaving humanity that are obviously only partially untrue, you'll find the information you're looking for. Squirrels are from Earth, your new destination.`
+				accept
+	on complete
+		conversation
+			`You are coming closer buying a squirrel for that nice lady on Heartvalley. You should ask around at the spaceport.`
+
+mission "squirrel mission 3"
+	name "Are squirrels real?."
+	description "Go to <destination> to buy a squirrel, if they really exist."
+	source
+		planet "Earth"
+	destination "Amazon"
+	to offer
+		has "squirrel mission 2: done"
+	on offer
+		conversation
+			`After questioning around for squirrels, the Spaceport Information Center directs you to a local pet store. Once there, you learn that squirrels have been extinct on earth for over 600 years. When Xanua quickly agreed to pay 500,000 credits, you were happy about the easy money to earn. But if this is going to be a galaxy-wide quest, then that probably wasn't enough. The pet dealer offers you to get a squirrel within two months. After some discussion, he gives you the contact details of his supplier. Off to Amazon in the Shedar system!`
+				accept
+	on complete
+		conversation
+			`You reached <destination>. According to your contact on Earth, one of the biggest squirrel populations live in the wide forrests of this world. You should check the spaceport to find your local contact.`
+
+mission "squirrel mission 4"
+	name "Bring the squirrel to Hearthvalley"
+	description "Bring the squirrel to Xanua on <destination>."
+	source
+		planet "Amazon"
+	destination "Heartvalley"
+	to offer
+		has "squirrel mission 3: done"
+	on offer
+		payment -5000
+		outfit "fluffy_squirrel"
+		conversation
+			`You find the animal dealer whose name you found out on earth easily. This time everything is unusually unproblematic. When you see the little squirrels you realize that they are even cuter than the Hai. You decide to buy two squirrels, one for Xanua and one for you. Back on the ship, 5,000 credits poorer, you set a course to Heartvalley. `
+				accept
+	on complete
+		payment 750000
+		conversation
+			`You contact Xanua and let her know that you have the squirrel and are on your way to see her. In the transport train, with a cage in which the squirrel is sitting, you are the center of attention of dozens of Hai. They are offering tens of thousands of credits to buy the squirrel from you, which you have to politely decline several times.`
+			`When you give Xenua the squirrel, she is completely enchanted by him. In her high spirits she pays you 750,000 credits.`
+			`  "Captain <last>, I can't thank you enough. This little creature is so incredibly adorable. You've done me a great service. Thank you. Maybe you'll visit me sometime. Me and the little "Shan"."`
+			`You say goodbye. Back on your ship, you play a little with your squirrel that you named "Trixie". Xenua is right, squirrels are adorable!`

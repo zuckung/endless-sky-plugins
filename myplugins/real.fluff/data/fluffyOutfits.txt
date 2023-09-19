@@ -1,0 +1,48 @@
+# tempoary buyable
+outfitter "fluffy_pets"
+	"fluffy_squirrel"
+	"fluffy_cat"
+	"fluffy_ferret"
+	"fluffy_koala"
+	"fluffy_hamster"
+	"fluffy_rabbit"
+
+planet "New Tortuga"
+	add outfitter "fluffy_pets"
+
+
+outfit "fluffy_squirrel"
+	category "Unique"
+	"display name" `"Trixie"`
+	thumbnail "outfit/fluffy_squirrel"
+	description `A little squirrel girl named "Trixie". She is now your friend.`
+
+outfit "fluffy_cat"
+	category "Unique"
+	"display name" `"Whiskers"`
+	thumbnail "outfit/fluffy_cat"
+	description `"Whiskers" loves lying on the scanner console and occasionally getting a few cuddles.`
+
+outfit "fluffy_ferret"
+	category "Unique"
+	"display name" `"Gummi Bear"`
+	thumbnail "outfit/fluffy_ferret"
+	description `"Gummi Bear" is a hyperactive ferret. He is always wherever the action is. It looks like he particularly enjoys space battles.`
+
+outfit "fluffy_koala"
+	category "Unique"
+	"display name" `"Archie"`
+	thumbnail "outfit/fluffy_koala"
+	description `You installed half a tree on the bridge for "Archie." And now he sleeps almost all day, only interrupted by breaks to eat. At least he is fluffy.`
+
+outfit "fluffy_hamster"
+	category "Unique"
+	"display name" `"Peanut"`
+	thumbnail "outfit/fluffy_hamster"
+	description `As a real spacefaring hamster, "Peanut" knows how to transport a large cargo of nuts to his house.`
+
+outfit "fluffy_rabbit"
+	category "Unique"
+	"display name" `"Thumper"`
+	thumbnail "outfit/fluffy_rabbit"
+	description `Unfortunately, "Thumper" constantly gnaws at all exposed cables. It took some effort to make the bridge of your ship rabbit-proof. If only he wasn't so cute.`
