@@ -717,7 +717,7 @@ added icon.png<br>
 
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 482.69 kb | 2023-09-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 482.68 kb | 2023-09-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regenaration, more thrust, more cargo etc. See the readme for details.
 <details>
@@ -742,7 +742,7 @@ They have the positive stats of a medium human outfit, at the cost of a bunk and
 
 <br>
 
-<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/special.crew.members/screenshot.jpg' width='400'>
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/expert.crew.members/screenshot.jpg' width='400'>
 
 <br>
 
@@ -751,6 +751,7 @@ They have the positive stats of a medium human outfit, at the cost of a bunk and
 2023-09-19<br>
 
 initial release<br>
+
 </blockquote>
 </details>
 <br>
