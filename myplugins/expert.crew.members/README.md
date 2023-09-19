@@ -8,7 +8,7 @@ The technology fields are: hull(2), energy(2), storage(3), scanner(3), cooling(3
 In case you can't afford their daily wage you can store them at the outfitter without daily costs.<br>
 They have the positive stats of a medium human outfit, at the cost of a bunk and a daily salery of 2.000 to 5.000 credits. On a small ship they make a huge difference, while on a heavy warship the stats are minor.<br>
 <br>
-<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/special.crew.members/screenshot.jpg' width='400'>
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/expert.crew.members/screenshot.jpg' width='400'>
 <br>
 <br>
 2023-09-19<br>
