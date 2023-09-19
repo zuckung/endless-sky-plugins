@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-15 | update: better.starts<br>
+<table><tr><td><img width="882" height="1"><br>2023-09-19 | update: expert.crew.members<br>
+2023-09-15 | update: better.starts<br>
 2023-09-15 | update: captureable.person.ships<br>
 2023-09-12 | improved the map viewer, looks good now, but still WIP<br>
 2023-09-10 | added a better map viewer to tools<br>
@@ -24,8 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-09-07 | repo update<br>
 2023-09-07 | removed the other 3 automata.destruction<br>
 2023-09-07 | update: automata.destruction.0percent<br>
-2023-09-04 | update: more.boarding.missions<br>
-2023-09-04 | badges!<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -40,10 +39,11 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
+<a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
-<a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
@@ -706,6 +706,51 @@ added the 2 syndicate alien attack missions<br>
 added the 3 pirate occupation missions<br>
 
 added icon.png<br>
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### expert.crew.members
+
+<img src="myplugins/expert.crew.members/icon.png" height="100">
+
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 482.69 kb | 2023-09-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
+<br>
+>Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regenaration, more thrust, more cargo etc. See the readme for details.
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### expert.crew.members
+
+<br>
+
+<br>
+
+Adds unique crew members, aquireable through low chance missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regenaration, more thrust, more cargo etc.<br>
+
+<br>
+
+Currently there are 20 expert crew members. Visit spaceports on human worlds with an outfitter to find the missions.(2% chance)<br>
+
+The technology fields are: hull(2), energy(2), storage(3), scanner(3), cooling(3), engine(2), fuel(3), shield(2)<br>
+
+In case you can't afford their daily wage you can store them at the outfitter without daily costs.<br>
+
+They have the positive stats of a medium human outfit, at the cost of a bunk and a daily salery of 2.000 to 5.000 credits. On a small ship they make a huge difference, while on a heavy warship the stats are minor.<br>
+
+<br>
+
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/special.crew.members/screenshot.jpg' width='400'>
+
+<br>
+
+<br>
+
+2023-09-19<br>
+
+initial release<br>
 </blockquote>
 </details>
 <br>
