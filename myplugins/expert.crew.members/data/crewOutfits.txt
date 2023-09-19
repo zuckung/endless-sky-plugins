@@ -1,0 +1,243 @@
+# crewmember: 20
+# hull(2)*, energy(2)*, storage(3), scanner(3)*, cooling(3)*, engine(2)*, fuel(3)*, shield(2)*
+
+
+category "outfit"
+	"Crew"
+
+
+# HULL
+
+outfit "hull silvius hildegard"
+	category "Crew"
+	"display name" "(Hull) Silvius Hildegard"
+	thumbnail "portrait/human00"
+	"operating costs" 4500
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" 0.3
+	hull 400
+	description `This is a highly educated employee focused on hull technologies.`
+
+outfit "hull anuradha talin"
+	category "Crew"
+	"display name" "(Hull) Anuradha Talin"
+	thumbnail "portrait/human04"
+	"operating costs" 2900
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" 0.2
+	hull 600
+	description `This is a highly educated employee focused on hull technologies.`
+
+# ENERGY
+
+outfit "energy deirdre ciaran"
+	category "Crew"
+	"display name" "(Energy) Deirdre Ciaran"
+	thumbnail "portrait/human14"
+	"operating costs" 3700
+	bunks -1
+	"unplunderable" 1
+	"energy capacity" 5000
+	"energy generation" 5.5
+	description `This is a highly educated employee focused on energy technologies.`
+
+outfit "energy normand kiran"
+	category "Crew"
+	"display name" "(Energy) Normand Kiran"
+	thumbnail "portrait/human08"
+	"operating costs" 3200
+	bunks -1
+	"unplunderable" 1
+	"energy capacity" 8000
+	"energy generation" 4.5
+	description `This is a highly educated employee focused on energy technologies.`
+
+# STORAGE
+
+outfit "storage eduardo wapasha"
+	category "Crew"
+	"display name" "(Storage) Eduardo Wapasha"
+	thumbnail "portrait/human03"
+	"operating costs" 2200
+	bunks -1
+	"unplunderable" 1
+	"outfit space" 20
+	"cargo space" 20
+	description `This is a highly educated employee focused on storage optimization.`
+
+outfit "storage mani godefrid"
+	category "Crew"
+	"display name" "(Storage) Mani Godefrid"
+	thumbnail "portrait/human13"
+	"operating costs" 3100
+	bunks -1
+	"unplunderable" 1
+	"outfit space" 30
+	"weapon capacity" 10
+	description `This is a highly educated employee focused on storage technologies.`
+
+outfit "storage monika raganhildis"
+	category "Crew"
+	"display name" "(Storage) Monika Raganhildis"
+	thumbnail "portrait/human01"
+	"operating costs" 4200
+	bunks -1
+	"unplunderable" 1
+	"outfit space" 35
+	"engine capacity" 15
+	description `This is a highly educated employee focused on storage technologies.`
+
+# SCANNER
+
+outfit "scanner tichaona yong"
+	category "Crew"
+	"display name" "(Scanner) Tichaona Yong"
+	thumbnail "portrait/human10"
+	"operating costs" 2900
+	bunks -1
+	"unplunderable" 1
+	"tactical scan power" 32
+	"asteroid scan power" 40
+	description `This is a highly educated employee focused on scanner technologies.`
+
+outfit "scanner mikmel wanjala"
+	category "Crew"
+	"display name" "(Scanner) Mikkel Wanjala"
+	thumbnail "portrait/human16"
+	"operating costs" 3300
+	bunks -1
+	"unplunderable" 1
+	"cargo scan power" 29
+	"outfit scan power" 45
+	description `This is a highly educated employee focused on scanner technologies.`
+
+outfit "scanner saffira ivka"
+	category "Crew"
+	"display name" "(Scanner) Saffira Ivka"
+	thumbnail "portrait/human47"
+	"operating costs" 2100
+	bunks -1
+	"unplunderable" 1
+	"cargo scan efficiency" 9
+	"outfit scan efficiency" 19
+	description `This is a highly educated employee focused on scanner technologies.`
+
+# COOLING
+
+outfit "cooling caspar laurentinus"
+	category "Crew"
+	"display name" "(Cooling) Caspar Laurentinus"
+	thumbnail "portrait/human02"
+	"operating costs" 4300
+	bunks -1
+	"unplunderable" 1
+	cooling 15
+	"heat capacity" 500
+	description `This is a highly educated employee focused on cooling technologies.`
+
+outfit "cooling itoro signe"
+	category "Crew"
+	"display name" "(Cooling) Itoro Signe"
+	thumbnail "portrait/human95"
+	"operating costs" 3700
+	bunks -1
+	"unplunderable" 1
+	cooling 11
+	"heat capacity" 1000
+	description `This is a highly educated employee focused on cooling technologies.`
+
+outfit "cooling valeriya jannick"
+	category "Crew"
+	"display name" "(Cooling) Valeriya Jannick"
+	thumbnail "portrait/human90"
+	"operating costs" 4700
+	bunks -1
+	"unplunderable" 1
+	cooling 17
+	"heat capacity" 600
+	description `This is a highly educated employee focused on cooling technologies.`
+
+# ENGINE
+
+outfit "engine chetana jaleh"
+	category "Crew"
+	"display name" "(Engine) Chetana Jaleh"
+	thumbnail "portrait/human46"
+	"operating costs" 3300
+	bunks -1
+	"unplunderable" 1
+	"thrust" 23
+	"turn" 500
+	description `This is a highly educated employee focused on engine technologies.`
+
+outfit "engine anahit bodil"
+	category "Crew"
+	"display name" "(Engine) Anahit Bodil"
+	thumbnail "portrait/human65"
+	"operating costs" 2800
+	bunks -1
+	"unplunderable" 1
+	"thrust" 15
+	"turn" 650
+	description `This is a highly educated employee focused on engine technologies.`
+
+# FUEL
+
+outfit "fuel carl ahmad"
+	category "Crew"
+	"display name" "(Fuel) Carl Ahmad"
+	thumbnail "portrait/human07"
+	"operating costs" 2300
+	bunks -1
+	"unplunderable" 1
+	"fuel capacity" 150
+	"fuel generation" .2
+	description `This is a highly educated employee focused on fuel technologies.`
+
+outfit "fuel kfir balam"
+	category "Crew"
+	"display name" "(Fuel) Kfir Balam"
+	thumbnail "portrait/human25"
+	"operating costs" 3500
+	bunks -1
+	"unplunderable" 1
+	"fuel capacity" 250
+	ramscoop 3
+	description `This is a highly educated employee focused on fuel technologies.`
+
+outfit "fuel kostis joona"
+	category "Crew"
+	"display name" "(Fuel) Kostis Joona"
+	thumbnail "portrait/human24"
+	"operating costs" 4000
+	bunks -1
+	"unplunderable" 1
+	ramscoop 2
+	"fuel generation" .3
+	description `This is a highly educated employee focused on fuel technologies.`
+
+# SHIELD
+
+outfit "shield sonja halimah"
+	category "Crew"
+	"display name" "(Shield) Sonja Halimah"
+	thumbnail "portrait/human28"
+	"operating costs" 4500
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .3
+	"shields" 2300
+	description `This is a highly educated employee focused on shield technologies.`
+
+outfit "shield taisto nithin"
+	category "Crew"
+	"display name" "(Shield) Taisto Nithin"
+	thumbnail "portrait/human43"
+	"operating costs" 2600
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .22
+	"shields" 1900
+	description `This is a highly educated employee focused on shield technologies.`
