@@ -1,14 +1,8 @@
-#  cat: find half destroyed ship, distress call, all dead, cat alive?
-
-disable mission "ferret mission 1"
-disable mission "ferret mission 2"
-disable mission "koala mission 1"
-
 mission "ferret mission 1"
 	minor
-	name "transport a lot ferrets"
-	description "Transport ferrets to <destination>."
-	cargo 20
+	name "Cargo full of ferrets"
+	description "Transport 750 ferrets to <destination>."
+	cargo 12
 	blocked "You don't have enough cargo space for this mission."
 	source "Bivrost"
 	destination "Millrace"
@@ -16,12 +10,12 @@ mission "ferret mission 1"
 		random < 10
 	on offer
 		conversation
-			`ferret: transport mass of ferrets for an animal trader`
+			`After landing on 'Bivrost', a local animal breeder contacts you. He needs transport to <destination> for 750 ferrets. The ferrets and their cages require 12 tons of cargo space and you will receive 76,000 credits on delivery. You agree. Two hours later the animals are loaded and you are ready to leave. `
 				accept
 	on complete
 		payment 76000
 		conversation
-			`payment`
+			`The ferrets are unloaded quickly. After you see the 76,000 credits appear in your account, you are happy about this profitable and problem-free job.`
 
 mission "ferret mission 2"
 	priority
@@ -32,13 +26,15 @@ mission "ferret mission 2"
 	on offer
 		outfit "fluffy_ferret"
 		conversation
-			`after you finish the ferret mission you find one ferret left in the cargo, keep it`
+			`While inspecting the cargo hold, you hear noises and investigate. In a corner of the cargo hold, behind a few boxes of spare parts, you find a ferret playing with an electronic component lying around. The animal must have escaped from its cage somehow.`
+			`When the ferret sees you, it runs towards you and climbs up your leg. At first the animal's behavior frightens you, but since it doesn't bite you but rather tries to play with you, you quickly calm down again.`
+			`The tamed, playful ferret quickly grows on you. Of course, your first thought was to hand it over to the recipient of the ferret charge, but the more you play with it, the more you want to keep it. One less ferret out of 750 animals does not seem particularly serious. The more you think about it the clearer it becomes.`
+			`You now have a new pet! You name the ferret 'Gummi Bear'.`
 				fail
-
 
 mission "koala mission 1"
 	minor
-	name "transport a koala"
+	name "Transport a koala"
 	description "Transport a koala to <destination>."
 	cargo 1
 	blocked "You don't have enough cargo space for this mission."
@@ -48,13 +44,19 @@ mission "koala mission 1"
 		random < 10
 	on offer
 		conversation
-			`koala: transport koala to zoo, it doesnt like the other koalas, transport back would be too expensive, buy it cheap`
+			`After completeing your routine checks, you head out to find new work, when your comm-link flashes. You accept the holo transmission on the bridge.`
+			`"Hello captain <last>. My name is Mordin, senior inspector in the criminal investigation department. Don't worry, you don't have any problems. Yesterday we busted an illegal animal smuggling organization and are now looking for lots of cargo captains to disgribute the many rare animals to the zoos of other planets. Are you interested?"`
+			`You agree on a transport destination and a price with Chief Inspector Mordin. A koala needs a transport to the zoo on 'Shroud'. Upon delivery you will receive 120,000 credits. Half an hour later, a large cage with a koala gets delivered to your cargo hold. `
 				accept
 	on complete
 		payment 120000
 		outfit "fluffy_koala"
 		conversation
-			`payment + take koala`
+			`After landing on 'Shroud', the koala gets picked up directly by local zoo staff. A friendly young animal caretaker offers you to accompany the transport and see 'Archie' the koala in his new home. Since you still have to get some papers signed by the zoo management, you agree.`
+			`When 'Archie' is released into his new enclosure, you see a terrible picture. The otherwise sluggish koalas rush towards 'Archie' and bite him. The young animal caretaker bravely intervenes and carries him out of the enclosure, away from the other koalas.`
+			`The zoo director who observed the process with you turns to you.`
+			`"Now we have a problem. We cannot accommodate the koala here. And since such a significant amount of credits have already been spent on the transport, we cannot afford a second transport. Captain <last>, it is not by chance that you are interested in taking over the koala and look after him? Otherwise we would have to put him down. I'm only asking because you've already proven on the way here that you are able to look after him."`
+			`Since the koala's death would put too much strain on you, you accept the offer. After a little paperwork, you are now the proud owner of 'Archie' the koala!`
 
 mission "rabbit mission 1"
 	minor

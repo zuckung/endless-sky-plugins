@@ -4,12 +4,6 @@ outfit "fluffy_squirrel"
 	thumbnail "outfit/fluffy_squirrel"
 	description `A little squirrel girl named "Trixie". She is now your friend.`
 
-outfit "fluffy_cat"
-	category "Unique"
-	"display name" `"Whiskers"`
-	thumbnail "outfit/fluffy_cat"
-	description `"Whiskers" loves lying on the scanner console and occasionally getting a few cuddles.`
-
 outfit "fluffy_ferret"
 	category "Unique"
 	"display name" `"Gummi Bear"`
