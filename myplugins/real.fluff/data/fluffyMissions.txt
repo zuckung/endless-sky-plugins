@@ -3,7 +3,6 @@
 disable mission "ferret mission 1"
 disable mission "ferret mission 2"
 disable mission "koala mission 1"
-disable mission "rabbit mission 1"
 
 mission "ferret mission 1"
 	minor
@@ -31,8 +30,8 @@ mission "ferret mission 2"
 	to offer
 				has "ferret mission 1: done"
 	on offer
+		outfit "fluffy_ferret"
 		conversation
-			outfit "fluffy_ferret"
 			`after you finish the ferret mission you find one ferret left in the cargo, keep it`
 				fail
 
@@ -59,23 +58,40 @@ mission "koala mission 1"
 
 mission "rabbit mission 1"
 	minor
-	name "transport family"
-	description "Transport a family to <destination>."
+	name "Transport a family"
+	description "Transport a family and their belongings to <destination>."
 	passengers 3
-	blocked "You don't have enough passenger space for this mission."
+	cargo 1
+	blocked "You don't have enough passenger/cargo space for this mission."
 	source "Starcross"
 	destination "Clark"
 	to offer
 		random < 10
 	on offer
 		conversation
-			`rabbit: transport family, rabbit not allowed on planet cause its an invasive species, you have to take it`
+			`While you are studying the job board on 'Starcross', a woman speaks to you.`
+			`  "Hello, aren't you a starship captain by any chance? My family and I are looking for transportation to 'Clark'."`
+			`As usual, you ask for the details. The woman's name is Rita. She, her husband Owen, their young daughter Sophie, their sparse luggage and their pet rabbit need passage to 'Clark', to Rita's sister. Apparently the family got into financial difficulties here. With the last of their savings they now want to book a ferry to start a new life on 'Clark'. You agree to the offer of 35,000 credits, even though the distance is actually a bit too far for the payment.`
 				accept
 	on complete
-		payment 53000
+		payment 35000
+		conversation
+			`You got along really well with the family during the flight to Clark. Rita and Owen tried to be as good and useful passengers as possible on your spaceship since you accepted the rather meager payment. Owen, who used to work in machine maintenance, even made tweaks to your reactor and Rita served you excellent tea a few times. They barely got little Sophie off the bridge; she now wants to become a spaceship captain.`
+			`As you say goodbye, Owen hands you the agreed 35,000 credits. You accept the payment and wish the family good luck.`
+
+mission "rabbit mission 2"
+	priority
+	landing
+	invisible
+	to offer
+				has "rabbit mission 1: done"
+	on offer
 		outfit "fluffy_rabbit"
 		conversation
-			`payment + take rabbit`
+			`Half an hour later, Owen appears in front of your ship again.`
+			`  "Hello, Captain <first>, we have a little problem. Customs won't let us enter with the rabbit. They say that an invasive population of rabbits, which has displaced the local animals, has just been eradicated on 'Clark'. We have to put poor 'Thumper' to sleep. Sophie then came up with the idea that maybe you could look after him. I would of course understand if you refuse."`
+			`Just the idea of seeing little Sophie cry forces you to accept the rabbit. After instructions on how to care for a rabbit and a second warm farewell, you now have a new pet.`
+				fail
 
 mission "hamster mission 1"
 	minor
@@ -88,7 +104,7 @@ mission "hamster mission 1"
 	on offer
 		outfit "fluffy_hamster"
 		conversation
-			`When you enter the spaceport of "Twinstar", you can't believe your eyes. Hundreds of little furry rodents are running around everywhere. It is truly an amazing view. Several crews of spaceport personnel are desperately trying to capture these rat-like animals. You stroll over to one of the foremen, careful not to step on any of the animals.`
+			`When you enter the spaceport of 'Twinstar', you can't believe your eyes. Hundreds of little furry rodents are running around everywhere. It is truly an amazing view. Several crews of spaceport personnel are desperately trying to capture these rat-like animals. You stroll over to one of the foremen, careful not to step on any of the animals.`
 			`The worker holds one of the creatures in his hand and sucks on one of the fingers of his other hand.`
 			`  "Excuse me, but what the hell is going on here?" you ask.`
 			`The spaceport worker looks at you annoyed.`
