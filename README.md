@@ -1122,7 +1122,7 @@ added icon and reworked readme<br>
 
 <img src="myplugins/real.fluff/icon.png" height="100">
 
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 1.32 mb | 2023-09-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
+[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 1.13 mb | 2023-09-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
 <br>
 >A bunch of side missions which reward unique fluffy pets. See the readme for details.
 <details>
@@ -1137,15 +1137,19 @@ A bunch of side missions which reward unique pets. <br>
 
 <br>
 
-At the moment there arn't all pet missions implemented. Ferret, koala and cat are still missing.<br>
+Lore-friendly, total useless, but cute pet outfits, with storylines. All missions have a 10% chance of appearing.<br>
 
 <ul>
 
-<li>Squirrel - mission chain found on Heartvalley (Hai space)</li>
+<li>Ferret - mission found on Bivrost</li>
 
 <li>Hamster - mission found on Twinstar</li>
 
+<li>Koala - mission found on New Portland</li>
+
 <li>Rabbit - mission found on Starcross</li>
+
+<li>Squirrel - mission found on Heartvalley (Hai space)</li>
 
 </ul>
 
@@ -1157,6 +1161,10 @@ At the moment there arn't all pet missions implemented. Ferret, koala and cat ar
 
 2023-09-23<br>
 
+added ferret mission
+
+added koala mission<br>
+
 added rabbit mission<br>
 
 added hamster mission<br>
@@ -1167,7 +1175,7 @@ added hamster mission<br>
 
 added squirrel mission chain<br>
 
-added 6 pet outfits with images<br>
+added 5 pet outfits with images<br>
 
 initial release<br>
 </blockquote>
