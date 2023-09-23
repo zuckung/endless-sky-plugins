@@ -1,16 +1,3 @@
-# tempoary buyable
-outfitter "fluffy_pets"
-	"fluffy_squirrel"
-	"fluffy_cat"
-	"fluffy_ferret"
-	"fluffy_koala"
-	"fluffy_hamster"
-	"fluffy_rabbit"
-
-planet "New Tortuga"
-	add outfitter "fluffy_pets"
-
-
 outfit "fluffy_squirrel"
 	category "Unique"
 	"display name" `"Trixie"`

@@ -1,3 +1,101 @@
+#  cat: find half destroyed ship, distress call, all dead, cat alive?
+
+disable mission "ferret mission 1"
+disable mission "ferret mission 2"
+disable mission "koala mission 1"
+disable mission "rabbit mission 1"
+
+mission "ferret mission 1"
+	minor
+	name "transport a lot ferrets"
+	description "Transport ferrets to <destination>."
+	cargo 20
+	blocked "You don't have enough cargo space for this mission."
+	source "Bivrost"
+	destination "Millrace"
+	to offer
+		random < 10
+	on offer
+		conversation
+			`ferret: transport mass of ferrets for an animal trader`
+				accept
+	on complete
+		payment 76000
+		conversation
+			`payment`
+
+mission "ferret mission 2"
+	priority
+	landing
+	invisible
+	to offer
+				has "ferret mission 1: done"
+	on offer
+		conversation
+			outfit "fluffy_ferret"
+			`after you finish the ferret mission you find one ferret left in the cargo, keep it`
+				fail
+
+
+mission "koala mission 1"
+	minor
+	name "transport a koala"
+	description "Transport a koala to <destination>."
+	cargo 1
+	blocked "You don't have enough cargo space for this mission."
+	source "New Portland"
+	destination "Shroud"
+	to offer
+		random < 10
+	on offer
+		conversation
+			`koala: transport koala to zoo, it doesnt like the other koalas, transport back would be too expensive, buy it cheap`
+				accept
+	on complete
+		payment 120000
+		outfit "fluffy_koala"
+		conversation
+			`payment + take koala`
+
+mission "rabbit mission 1"
+	minor
+	name "transport family"
+	description "Transport a family to <destination>."
+	passengers 3
+	blocked "You don't have enough passenger space for this mission."
+	source "Starcross"
+	destination "Clark"
+	to offer
+		random < 10
+	on offer
+		conversation
+			`rabbit: transport family, rabbit not allowed on planet cause its an invasive species, you have to take it`
+				accept
+	on complete
+		payment 53000
+		outfit "fluffy_rabbit"
+		conversation
+			`payment + take rabbit`
+
+mission "hamster mission 1"
+	minor
+	invisible
+	landing
+	source
+		planet "Twinstar"
+	to offer
+		random < 10
+	on offer
+		outfit "fluffy_hamster"
+		conversation
+			`When you enter the spaceport of "Twinstar", you can't believe your eyes. Hundreds of little furry rodents are running around everywhere. It is truly an amazing view. Several crews of spaceport personnel are desperately trying to capture these rat-like animals. You stroll over to one of the foremen, careful not to step on any of the animals.`
+			`The worker holds one of the creatures in his hand and sucks on one of the fingers of his other hand.`
+			`  "Excuse me, but what the hell is going on here?" you ask.`
+			`The spaceport worker looks at you annoyed.`
+			`  "We have just unloaded a freighter whose cargo is destined for an animal wholesale company. When we opened the hold, a veritable flood of hamsters rushed out and scurried away in every direction. We've been trying to catch these bastards for two hours. And this little monster just bit me in the finger. Here, take him, I have to get some healing spray now."` 
+			`He pushes the hamster into your hands and you practically have no choice but to accept it. As you look at the hamster and gently pet him, you notice how the animal relaxes. You decide to keep the hamster and name him 'Peanut.'`
+				fail
+
 mission "squirrel mission 1"
 	minor
 	name "The Search for squirrels."
