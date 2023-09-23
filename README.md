@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-19 | update: real.fluff<br>
+<table><tr><td><img width="882" height="1"><br>2023-09-23 | update: real.fluff<br>
+2023-09-19 | update: real.fluff<br>
 2023-09-19 | update: expert.crew.members<br>
 2023-09-15 | update: better.starts<br>
 2023-09-15 | update: captureable.person.ships<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-09-09 | update: captureable.person.ships<br>
 2023-09-08 | update: captureable.person.ships<br>
 2023-09-07 | repo update<br>
-2023-09-07 | removed the other 3 automata.destruction<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1122,7 +1122,7 @@ added icon and reworked readme<br>
 
 <img src="myplugins/real.fluff/icon.png" height="100">
 
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 1.22 mb | 2023-09-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
+[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 1.32 mb | 2023-09-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
 <br>
 >A bunch of side missions which reward unique fluffy pets. See the readme for details.
 <details>
@@ -1137,15 +1137,25 @@ A bunch of side missions which reward unique pets. <br>
 
 <br>
 
-At the moment there is only a mission chain with a squirrel as reward.<br>
+At the moment there are only two pet missions/chains.<br>
 
 <ul>
 
 <li>Squirrel - mission chain found on Heartvalley (Hai space)</li>
 
+<li>Hamster - mission found on Twinstar</li>
+
 </ul>
 
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/real.fluff/screenshot.jpg' width='400'>
+
 <br>
+
+<br>
+
+2023-09-23<br>
+
+added hamster mission<br>
 
 <br>
 
