@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-23 | update: real.fluff<br>
+<table><tr><td><img width="882" height="1"><br>2023-09-30 | update: expert.crew.members<br>
+2023-09-23 | update: real.fluff<br>
 2023-09-19 | update: real.fluff<br>
 2023-09-19 | update: expert.crew.members<br>
 2023-09-15 | update: better.starts<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-09-10 | added a better map viewer to tools<br>
 2023-09-09 | update: captureable.person.ships<br>
 2023-09-08 | update: captureable.person.ships<br>
-2023-09-07 | repo update<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -718,9 +718,9 @@ added icon.png<br>
 
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 482.68 kb | 2023-09-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 493.56 kb | 2023-09-30 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
 <br>
->Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regenaration, more thrust, more cargo etc. See the readme for details.
+>Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the readme for details.
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### expert.crew.members
@@ -729,23 +729,39 @@ added icon.png<br>
 
 <br>
 
-Adds unique crew members, aquireable through low chance missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regenaration, more thrust, more cargo etc.<br>
+Adds unique crew members, aquireable through spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc.<br>
 
 <br>
 
-Currently there are 20 expert crew members. Visit spaceports on human worlds with an outfitter to find the missions.(2% chance)<br>
+Currently there are 40 expert crew members. Visit spaceports on human worlds with an outfitter to find the missions(5% chance).<br>
 
-The technology fields are: hull(2), energy(2), storage(3), scanner(3), cooling(3), engine(2), fuel(3), shield(2)<br>
+Their technology fields are: combat(4) cooling(5) energy(4) engine(3) fuel(5) hull(3) jamming(4) scanner(4) shield(3) storage(5).<br>
 
 In case you can't afford their daily wage you can store them at the outfitter without daily costs.<br>
 
 They have the positive stats of a medium human outfit, at the cost of a bunk and a daily salery of 2.000 to 5.000 credits. On a small ship they make a huge difference, while on a heavy warship the stats are minor.<br>
+
+See data/crew.list.txt of this plugin for locations, an stat infos.<br>
 
 <br>
 
 <img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/expert.crew.members/screenshot.jpg' width='400'>
 
 <br>
+
+<br>
+
+2023-09-30<br>
+
+spread the missions over human space, 5 missions for each area<br>
+
+changed mission chance to 5%<br>
+
+added icons to the missions<br>
+
+reworked files<br>
+
+added 20 more crew members<br>
 
 <br>
 
