@@ -1,0 +1,111 @@
+# "energy lisa zola"           south      4300 f human39   energy capacity 7500 / energy generation 6
+# "energy simona branka"       deep       3500 f human71   energy capacity 4000 / energy generation 5
+# "energy deirdre ciaran"      rim        3700 f human14   energy capacity 5000 / energy generation 5.5
+# "energy normand kiran"       near earth 3200 m human08   energy capacity 8000 / energy generation 4.5
+
+outfit "energy lisa zola"
+	category "Crew"
+	"display name" "(Energy) Lisa Zola"
+	thumbnail "portrait/human39"
+	"operating costs" 4300
+	bunks -1
+	"unplunderable" 1
+	"energy capacity" 7500
+	"energy generation" 6
+	description `This is a highly educated employee focused on energy technologies.`
+mission "hire energy lisa zola"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "south"
+	to offer
+		random < 5
+	on offer
+		outfit "energy lisa zola" 1
+		conversation
+			scene "portrait/human39"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Lisa Zola and she demands a daily wage of 4.300 credits.`
+				fail
+
+
+outfit "energy simona branka"
+	category "Crew"
+	"display name" "(Energy) Simona Branka"
+	thumbnail "portrait/human71"
+	"operating costs" 3500
+	bunks -1
+	"unplunderable" 1
+	"energy capacity" 4000
+	"energy generation" 5
+	description `This is a highly educated employee focused on energy technologies.`
+mission "hire energy simona branka"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "deep"
+	to offer
+		random < 5
+	on offer
+		outfit "energy simona branka" 1
+		conversation
+			scene "portrait/human71"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Simona Branka and she demands a daily wage of 3.500 credits.`
+				fail
+
+
+outfit "energy deirdre ciaran"
+	category "Crew"
+	"display name" "(Energy) Deirdre Ciaran"
+	thumbnail "portrait/human14"
+	"operating costs" 3700
+	bunks -1
+	"unplunderable" 1
+	"energy capacity" 5000
+	"energy generation" 5.5
+	description `This is a highly educated employee focused on energy technologies.`
+mission "hire energy deirdre ciaran"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "rim"
+	to offer
+		random < 5
+	on offer
+		outfit "energy deirdre ciaran" 1
+		conversation
+			scene "portrait/human14"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Deirdre Ciaran and she demands a daily wage of 3.700 credits.`
+				fail
+
+
+outfit "energy normand kiran"
+	category "Crew"
+	"display name" "(Energy) Normand Kiran"
+	thumbnail "portrait/human08"
+	"operating costs" 3200
+	bunks -1
+	"unplunderable" 1
+	"energy capacity" 8000
+	"energy generation" 4.5
+	description `This is a highly educated employee focused on energy technologies.`
+mission "hire energy normand kiran"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "near earth"
+	to offer
+		random < 5
+	on offer
+		outfit "energy normand kiran" 1
+		conversation
+			scene "portrait/human08"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. He is looking for work and you decide to hire him. His name is Normand Kiran and he demands a daily wage of 3.200 credits.`
+				fail

@@ -1,0 +1,111 @@
+# "scanner ivanus kozlov"      paradise   3700 m human31   tactical scan power 37 / outfit scan power 42
+# "scanner tichaona yong"      north      2900 f human10   tactical scan power 32 / asteroid scan power 40
+# "scanner mikmel wanjala"     core       3300 m human16   cargo scan power 29 / outfit scan power 45
+# "scanner saffira ivka"       near earth 2100 f human47   cargo scan efficiency 9 / outfit scan efficiency 19
+
+outfit "scanner ivanus kozlov"
+	category "Crew"
+	"display name" "(Scanner) Ivanus Kozlov"
+	thumbnail "portrait/human31"
+	"operating costs" 3700
+	bunks -1
+	"unplunderable" 1
+	"tactical scan power" 37
+	"outfit scan power" 42
+	description `This is a highly educated employee focused on scanner technologies.`
+mission "hire scanner ivanus kozlov"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "paradise"
+	to offer
+		random < 5
+	on offer
+		outfit "scanner ivanus kozlov" 1
+		conversation
+			scene "portrait/human31"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work and you decide to hire him. His name is Ivanus Kozlov and he demands a daily wage of 3.700 credits.`
+				fail
+
+
+outfit "scanner tichaona yong"
+	category "Crew"
+	"display name" "(Scanner) Tichaona Yong"
+	thumbnail "portrait/human10"
+	"operating costs" 2900
+	bunks -1
+	"unplunderable" 1
+	"tactical scan power" 32
+	"asteroid scan power" 40
+	description `This is a highly educated employee focused on scanner technologies.`
+mission "hire scanner tichaona yong"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "north"
+	to offer
+		random < 5
+	on offer
+		outfit "scanner tichaona yong" 1
+		conversation
+			scene "portrait/human10"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work and you decide to hire her. Her name is Tichaona Yong and she demands a daily wage of 2.900 credits.`
+				fail
+
+
+outfit "scanner mikmel wanjala"
+	category "Crew"
+	"display name" "(Scanner) Mikkel Wanjala"
+	thumbnail "portrait/human16"
+	"operating costs" 3300
+	bunks -1
+	"unplunderable" 1
+	"cargo scan power" 29
+	"outfit scan power" 45
+	description `This is a highly educated employee focused on scanner technologies.`
+mission "hire scanner mikmel wanjala"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "core"
+	to offer
+		random < 5
+	on offer
+		outfit "scanner mikmel wanjala" 1
+		conversation
+			scene "portrait/human16"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work and you decide to hire him. His name is Mikmel Wanjala and he demands a daily wage of 3.300 credits.`
+				fail
+
+
+outfit "scanner saffira ivka"
+	category "Crew"
+	"display name" "(Scanner) Saffira Ivka"
+	thumbnail "portrait/human47"
+	"operating costs" 2100
+	bunks -1
+	"unplunderable" 1
+	"cargo scan efficiency" 9
+	"outfit scan efficiency" 19
+	description `This is a highly educated employee focused on scanner technologies.`
+mission "hire scanner saffira ivka"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "near earth"
+	to offer
+		random < 5
+	on offer
+		outfit "scanner saffira ivka" 1
+		conversation
+			scene "portrait/human47"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work and you decide to hire her. Her name is Saffira Ivka and she demands a daily wage of 2.100 credits.`
+				fail

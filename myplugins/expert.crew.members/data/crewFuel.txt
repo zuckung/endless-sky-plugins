@@ -1,0 +1,139 @@
+# "fuel sabina draga"          south      3500 f human107  fuel capacity 550 / ramscoop 2
+# "fuel nina sotiroula"        north      3300 f human122  fuel capacity 450 / fuel generation .22
+# "fuel carl ahmad"            core       2300 m human07   fuel capacity 150 / fuel genetation .2
+# "fuel kfir balam"            dirt belt  3500 m human25   fuel capacity 250 / ramscoop 3
+# "fuel kostis joona"          near earth 4000 m human24   fuel generation .3 / ramscoop 2
+
+outfit "fuel sabina draga"
+	category "Crew"
+	"display name" "(Fuel) Sabina Draga"
+	thumbnail "portrait/human107"
+	"operating costs" 3500
+	bunks -1
+	"unplunderable" 1
+	"fuel capacity" 550
+	ramscoop 2
+	description `This is a highly educated employee focused on fuel technologies.`
+mission "hire fuel sabina draga"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "south"
+	to offer
+		random < 5
+	on offer
+		outfit "fuel sabina draga" 1
+		conversation
+			scene "portrait/human107"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work and you decide to hire her. Her name is Sabina Draga and she demands a daily wage of 3.500 credits.`
+				fail
+
+
+outfit "fuel nina sotiroula"
+	category "Crew"
+	"display name" "(Fuel) Nina Sotiroula"
+	thumbnail "portrait/human122"
+	"operating costs" 3300
+	bunks -1
+	"unplunderable" 1
+	"fuel capacity" 450
+	"fuel generation" .22
+	description `This is a highly educated employee focused on fuel technologies.`
+mission "hire fuel nina sotiroula"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "north"
+	to offer
+		random < 5
+	on offer
+		outfit "fuel nina sotiroula" 1
+		conversation
+			scene "portrait/human122"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work and you decide to hire her. Her name is Nina Sotiroula and she demands a daily wage of 3.300 credits.`
+				fail
+
+
+outfit "fuel carl ahmad"
+	category "Crew"
+	"display name" "(Fuel) Carl Ahmad"
+	thumbnail "portrait/human07"
+	"operating costs" 2300
+	bunks -1
+	"unplunderable" 1
+	"fuel capacity" 150
+	"fuel generation" .2
+	description `This is a highly educated employee focused on fuel technologies.`
+mission "hire fuel carl ahmad"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "core"
+	to offer
+		random < 5
+	on offer
+		outfit "fuel carl ahmad" 1
+		conversation
+			scene "portrait/human07"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Carl Ahmad and he demands a daily wage of 2.300 credits.`
+				fail
+
+
+outfit "fuel kfir balam"
+	category "Crew"
+	"display name" "(Fuel) Kfir Balam"
+	thumbnail "portrait/human25"
+	"operating costs" 3500
+	bunks -1
+	"unplunderable" 1
+	"fuel capacity" 250
+	ramscoop 3
+	description `This is a highly educated employee focused on fuel technologies.`
+mission "hire fuel kfir balam"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "dirt belt"
+	to offer
+		random < 5
+	on offer
+		outfit "fuel kfir balam" 1
+		conversation
+			scene "portrait/human25"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Kfir Balam and he demands a daily wage of 3.500 credits.`
+				fail
+
+
+outfit "fuel kostis joona"
+	category "Crew"
+	"display name" "(Fuel) Kostis Joona"
+	thumbnail "portrait/human24"
+	"operating costs" 4000
+	bunks -1
+	"unplunderable" 1
+	ramscoop 2
+	"fuel generation" .3
+	description `This is a highly educated employee focused on fuel technologies.`
+mission "hire fuel kostis joona"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "near earth"
+	to offer
+		random < 5
+	on offer
+		outfit "fuel kostis joona" 1
+		conversation
+			scene "portrait/human24"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Kostis Joona and he demands a daily wage of 4.000 credits.`
+				fail

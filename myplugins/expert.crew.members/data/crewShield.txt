@@ -1,0 +1,83 @@
+# "shield lucille meritites"   paradise   3600 f human11   shield generation .28 / shields 2600
+# "shield sonja halimah"       north      4500 f human28   shield generation .3 / shields 2300
+# "shield taisto nithin"       rim        2600 m human43   shield generation .22 / shields 1900
+
+outfit "shield lucille meritites"
+	category "Crew"
+	"display name" "(Shield) Lucille Meritites"
+	thumbnail "portrait/human11"
+	"operating costs" 3600
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .28
+	"shields" 2600
+	description `This is a highly educated employee focused on shield technologies.`
+mission "hire shield lucille meritites"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "paradise"
+	to offer
+		random < 5
+	on offer
+		outfit "shield lucille meritites" 1
+		conversation
+			scene "portrait/human11"
+			`In a spaceport bar you get to know a highly qualified expert in shield technologies. She is looking for work and you decide to hire her. Her name is Lucille Meritites and she demands a daily wage of 3.600 credits.`
+				fail
+
+
+outfit "shield sonja halimah"
+	category "Crew"
+	"display name" "(Shield) Sonja Halimah"
+	thumbnail "portrait/human28"
+	"operating costs" 4500
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .3
+	"shields" 2300
+	description `This is a highly educated employee focused on shield technologies.`
+mission "hire shield sonja halimah"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "north"
+	to offer
+		random < 5
+	on offer
+		outfit "shield sonja halimah" 1
+		conversation
+			scene "portrait/human28"
+			`In a spaceport bar you get to know a highly qualified expert in shield technologies. She is looking for work and you decide to hire her. Her name is Sonja Halimah and she demands a daily wage of 4.500 credits.`
+				fail
+
+
+outfit "shield taisto nithin"
+	category "Crew"
+	"display name" "(Shield) Taisto Nithin"
+	thumbnail "portrait/human43"
+	"operating costs" 2600
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .22
+	"shields" 1900
+	description `This is a highly educated employee focused on shield technologies.`
+mission "hire shield taisto nithin"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "rim"
+	to offer
+		random < 5
+	on offer
+		outfit "shield taisto nithin" 1
+		conversation
+			scene "portrait/human43"
+			`In a spaceport bar you get to know a highly qualified expert in shield technologies. He is looking for work and you decide to hire him. His name is Taisto Nithin and he demands a daily wage of 2.600 credits.`
+				fail

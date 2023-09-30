@@ -1,0 +1,111 @@
+# "combat jessy tuta"          south      3100 f human125  capture attack 15 / capture defense 15
+# "combat rodrigo bain"        deep       3500 m human36   capture attack 17 / capture defense 19
+# "combat isaac wirth"         rim        4100 m human45   capture attack 22 / capture defense 22
+# "combat kianoush royston"    dirt belt  4600 m human55   capture attack 27 / capture defense 23
+
+outfit "combat jessy tuta"
+	category "Crew"
+	"display name" "(Combat) Jessy Tuta"
+	thumbnail "portrait/human125"
+	"operating costs" 3100
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 15
+	"capture defense" 15
+	description `This is a highly educated employee focused on hand to hand combat.`
+mission "hire combat jessy tuta"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "south"
+	to offer
+		random < 5
+	on offer
+		outfit "combat jessy tuta" 1
+		conversation
+			scene "portrait/human125"
+			`In a spaceport bar you get to know a highly qualified expert in combat techniques. She is looking for work and you decide to hire her. Her name is Jessy Tuta and she demands a daily wage of 3.100 credits.`
+				fail
+
+
+outfit "combat rodrigo bain"
+	category "Crew"
+	"display name" "(Combat) Rodrigo Bain"
+	thumbnail "portrait/human36"
+	"operating costs" 3500
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 17
+	"capture defense" 19
+	description `This is a highly educated employee focused on hand to hand combat.`
+mission "hire combat rodrigo bain"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "deep"
+	to offer
+		random < 5
+	on offer
+		outfit "combat rodrigo bain" 1
+		conversation
+			scene "portrait/human36"
+			`In a spaceport bar you get to know a highly qualified expert in combat techniques. He is looking for work and you decide to hire him. His name is Rodrigo Bain and he demands a daily wage of 3.500 credits.`
+				fail
+
+
+outfit "combat isaac wirth"
+	category "Crew"
+	"display name" "(Combat) Isaac Wirth"
+	thumbnail "portrait/human45"
+	"operating costs" 4100
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 22
+	"capture defense" 22
+	description `This is a highly educated employee focused on hand to hand combat.`
+mission "hire combat isaac wirth"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "rim"
+	to offer
+		random < 5
+	on offer
+		outfit "combat isaac wirth" 1
+		conversation
+			scene "portrait/human45"
+			`In a spaceport bar you get to know a highly qualified expert in combat techniques. He is looking for work and you decide to hire him. His name is Isaac Wirth and he demands a daily wage of 4.100 credits.`
+				fail
+
+
+outfit "combat kianoush royston"
+	category "Crew"
+	"display name" "(Combat) Kianoush Royston"
+	thumbnail "portrait/human55"
+	"operating costs" 4600
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 27
+	"capture defense" 23
+	description `This is a highly educated employee focused on hand to hand combat.`
+mission "hire combat kianoush royston"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+		attributes "dirt belt"
+	to offer
+		random < 5
+	on offer
+		outfit "combat kianoush royston" 1
+		conversation
+			scene "portrait/human55"
+			`In a spaceport bar you get to know a highly qualified expert in combat techniques. He is looking for work and you decide to hire him. His name is Kianoush Royston and he demands a daily wage of 4.600 credits.`
+				fail
