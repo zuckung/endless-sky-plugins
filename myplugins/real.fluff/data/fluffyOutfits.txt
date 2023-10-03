@@ -1,3 +1,21 @@
+outfit "fluffy_alien"
+	category "Unique"
+	"display name" `"Black Beauty"`
+	thumbnail "outfit/alien"
+	description `Some kind of strange animal you've found on a derelict ship. Although it tries to bite you regularly, you keep it as a pet.`
+
+outfit "fluffy_raccoon"
+	category "Unique"
+	"display name" `"Bandit"`
+	thumbnail "outfit/fluffy_raccoon"
+	description `This little raccoon is always at your side, at least at lunch time. `
+
+outfit "fluffy_ocelot"
+	category "Unique"
+	"display name" `"Babou"`
+	thumbnail "outfit/fluffy_ocelot"
+	description `"Babou", former pirate ocelot, fights for the good side now!`
+
 outfit "fluffy_squirrel"
 	category "Unique"
 	"display name" `"Trixie"`

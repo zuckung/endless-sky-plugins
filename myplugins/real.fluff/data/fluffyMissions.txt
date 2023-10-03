@@ -1,3 +1,114 @@
+mission "ocelot mission 1"
+	minor
+	name "Retrieve stolen jewelry"
+	description "Retrieve stolen jewelry from a pirate ship. The 'Lootbox' must be in one of these three systems: `Tortor, Mintaka or Gorvi."
+	to offer
+		random < 10
+		"combat rating" > 1000
+	on offer
+		conversation
+			`Just as you are about to start looking for a lucrative contract, a potential customer appears in front of your ship.`
+			`"Hello Captain <last>, I come on behalf of Countess Anastasia Ruhna. The Countess is looking for a battle-experienced captain who will take care of the recovery of stolen jewelry. You seem to be the best choice here. Are you interested?"`
+			`You ask for more details. The Countess appears to have been attacked by a pirate on an interstellar flight and a box containing valuable jewelry was stolen from her. Later investigations revealed that it was a local pirate who has his retreat somewhere in the Tortor, Mintaka or Gorvi system. The pirate flies a 'Raven' called 'Lootbox'. The Countess will pay 200.000 credits to get the jewelry back. The task shouldn't be too difficult, so you agree.`
+				accept
+	source "Farpoint"
+	npc board
+		personality staying nemesis target
+		government "Pirate"
+		system "Tortor"
+		ship "Raven" "Lootbox"
+		on board
+			outfit "fluffy_ocelot"
+			payment 250000
+		conversation
+			`When you enter the 'Lootbox' you quickly come across dead pirates. The battle was quick and brutal, leaving most of the pirates dead. A small group of survivors have barricaded themselves on the bridge. You decide to search the quarters and quickly discover the captain's cabin. Among the captain's useless belongings you will find the stolen jewelry and 50,000 credits.`
+			`As you continue to look for valuablex, something behind a sofa hisses at you. It is a slightly larger cat with a spotted pattern. That must be an ocelot. You courageously try to convince the animal of your friendliness, which you quickly succeed in with a few strokes of petting. A plaque on his neck reads 'Babou'. You decide to take the ocelot with you.`
+			`Half an hour later you are back on your ship. Mission accomplished. Very successful actually. 50,000 extra credits and a new pet.`
+				launch
+	on complete
+		payment 200000
+		conversation
+			`After landing on 'Farpoint', you contact the Countess's assistant and a short time later she appears in front of your ship. You hand over the jewelry, receive 200,000 credits on your account and also a personal letter from the Countess in which she thanks you profusely for your commitment. As you tease 'Babou', you wish for more jobs like this.`
+
+mission "raccoon mission 1"
+	minor
+	name "Transport noble wood"
+	description "Transport noble wood to <destination>."
+	cargo 30
+	blocked "You don't have enough cargo space for this mission."
+	source "Foundry"
+	destination "Hephaestus"
+	to offer
+		random < 10
+	on offer
+		conversation
+			`After landing on "Foundry", you begin the usual routine inspection of your ship when a woman in a business suit approaches you.`
+			`"Hello Captain <last>, I am looking for a cargo ship to deliver 30 tons of noble wood to <destination>. However, the noble wood would first have to be picked up from a private spaceport 500 kilometers west of here. Due to the circumstances and the value of the cargo my company would pay you 80,000 credits. Are you interested?"`
+			`Although you know that private spaceports usually mean illegal business, but the payment tempts you considerably. As long as the shipping documents are in order, there shouldn't be any problems for you. You agree.`
+			`The route to the private spaceport is quickly completed, but the landing turns out to be quite difficult. What was advertised as a private spaceport is nothing more than a clearing in the woods with a few cabins and a few patches of burnt grass. Loading the huge polished tree trunks takes all afternoon. Instead of robotic loading forklifts, everything here is done by burly lumberjacks. This gives you enough time to go for a walk in the forest. The forest has something primal about it. Smaller animals are scurrying around everywhere and twice you see something like a deer darting through the forest. You should treat yourself to some time in nature more often.`
+			`In the late afternoon everything is finally done and you can start.`
+				accept
+	on complete
+		payment 80000
+		outfit "fluffy_raccoon"
+		conversation
+			`Once you arrive on 'Hephaestus', the rapid unloading of your cargo begins immediately. In contrast to loading, heavy machinery is used here, which shortens unloading enormously. As the dockworkers unload the last logs, you notice a small, living thing fleeing back and forth in panic between the huge moving masses. You stop the unloading, climb over tree trunks and frozen loading robots and find a frightened raccoon in the back of the hold. He must have sneaked aboard in the Foundry forest. Coaxing and calming the raccoon takes longer than the previous unloading time, but when you carefully lift the raccoon and it remains relaxed, you realize that it was worth it. He's really cute and with a few feedings you'll definitely get him tame. You decide to keep him and call him "Bandit".`
+			`A short time later the work is done and the 80,000 credits payment has arrived in your account. "Bandit" seems as happy as you are.`
+
+mission "alien mission 1"
+	priority
+	landing
+	invisible
+	on offer
+		accept
+	to fail
+		has "outfit (installed): fluffy_alien"
+	on enter "Danoa"
+		dialog
+			`When you enter the Danoa system, you receive an automatic emergency call. It is broadcasted from a badly damaged ship and is repeated regularly. Maybe you should look into this.`
+	npc board
+		government "Pirate"
+		personality waiting derelict target mute
+		system "Danoa"
+		ship "Nostromo"
+		to despawn
+			has "outfit (installed): fluffy_alien"
+		on board
+			outfit "fluffy_alien"
+		conversation
+			`Due to the severe damage, parts of the ship are exposed to the vacuum of space, so you have to wear a spacesuit. It doesn't look like a spaceship battle happend here. The corridors are partially barricaded, there are signs of firefights and apparently someone spilled acid on the corridors floors. Must have been a hard fight in here.`
+			`The ship is completely silent, it seems like no one survived. You pass some rooms, complete devastated by explosions.`
+			choice 
+				`    continue investigation`
+					goto "continue investigation 1"
+				`    head back to your ship`
+					goto "continue investigation 1"
+			label "continue investigation 1"
+			scene "scene/alien_eggs"
+			`On your way you find one of the starboard cargo holds. Something organic has grown over the walls. The cargo hold almost looks like the inside of a strange body, and there are several cocoons or eggs spread out on the floor.`
+			choice
+				`    examine the eggs`
+					goto "examine eggs"
+				`    go further`
+					goto "continue investigation 2"
+			label "examine eggs"
+			`You take off your helmet and approach the eggs. However, a bad smell convinces you to keep your distance again. Well whatever, you decide to move on.`
+				goto "continue investigation 2"
+			label "continue investigation 2"
+			`Searching the ship takes half an hour and you find nothing. No bodies, all valuable cargo seems to have been blown into space by several explosions, there is nothing to find here and nothing to report.`
+			`You make your way back to your ship. Shortly before you reach the lock, a small, almost black, extremely strange-looking animal shoots towards you. Quickly you grab it and lift it up. It tries to bite you, but you don't have a hard time dodging each bite. After a while the animal seems to realize that you are in advantage and stops its attacks. You've never seen anything like this animal before. You decide to take it with you.`
+				launch
+
+ship "Argosy" "Nostromo"
+	attributes
+		"bunks" 0
+	outfits
+		"Fission Reactor"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		"Outfits Expansion"
+		"Greyhound Plasma Thruster"
+
 mission "ferret mission 1"
 	minor
 	name "Cargo full of ferrets"
