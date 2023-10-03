@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-09-30 | update: expert.crew.members<br>
+<table><tr><td><img width="882" height="1"><br>2023-10-03 | update: real.fluff<br>
+2023-09-30 | update: expert.crew.members<br>
 2023-09-23 | update: real.fluff<br>
 2023-09-19 | update: real.fluff<br>
 2023-09-19 | update: expert.crew.members<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-09-12 | improved the map viewer, looks good now, but still WIP<br>
 2023-09-10 | added a better map viewer to tools<br>
 2023-09-09 | update: captureable.person.ships<br>
-2023-09-08 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1138,7 +1138,7 @@ added icon and reworked readme<br>
 
 <img src="myplugins/real.fluff/icon.png" height="100">
 
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 1.13 mb | 2023-09-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
+[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 1.93 mb | 2023-10-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
 <br>
 >A bunch of side missions which reward unique fluffy pets. See the readme for details.
 <details>
@@ -1153,9 +1153,11 @@ A bunch of side missions which reward unique pets. <br>
 
 <br>
 
-Lore-friendly, total useless, but cute pet outfits, with storylines. All missions have a 10% chance of appearing.<br>
+Lore-friendly, total useless, but cute pet outfits, with storylines. All missions have a 10% chance of appearing, except alien mission which has  100%.<br>
 
 <ul>
+
+<li>Alien - land somewhere in human space, hidden destination is Danoa system</li>
 
 <li>Ferret - mission found on Bivrost</li>
 
@@ -1163,7 +1165,11 @@ Lore-friendly, total useless, but cute pet outfits, with storylines. All mission
 
 <li>Koala - mission found on New Portland</li>
 
+<li>Ocelot - mission found on Farpoint</li>
+
 <li>Rabbit - mission found on Starcross</li>
+
+<li>Raccoon - mission found on Foundry </li>
 
 <li>Squirrel - mission found on Heartvalley (Hai space)</li>
 
@@ -1172,6 +1178,16 @@ Lore-friendly, total useless, but cute pet outfits, with storylines. All mission
 <img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/real.fluff/screenshot.jpg' width='400'>
 
 <br>
+
+<br>
+
+2023-10-03<br>
+
+added ocelot mission<br>
+
+added raccoon mission<br>
+
+added alien mission<br>
 
 <br>
 
