@@ -1,4 +1,3 @@
-![img](https://github.com/zuckung/test/blob/main/res/icon.png)
 # **my endless-sky-plugins**
 I aim at developing small, modular and maximal compatible plugins that don't break vanilla lore too much. <br>
 Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me.<br><br>
