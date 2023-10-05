@@ -14,7 +14,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-10-03 | update: real.fluff<br>
+<table><tr><td><img width="882" height="1"><br>2023-10-05 | update: coalition.shopping<br>
+2023-10-03 | update: real.fluff<br>
 2023-09-30 | update: expert.crew.members<br>
 2023-09-23 | update: real.fluff<br>
 2023-09-19 | update: real.fluff<br>
@@ -23,7 +24,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-09-15 | update: captureable.person.ships<br>
 2023-09-12 | improved the map viewer, looks good now, but still WIP<br>
 2023-09-10 | added a better map viewer to tools<br>
-2023-09-09 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -34,8 +34,9 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#betterstarts">better.starts</a><br>
 <a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
 <a href="README.md#captureablepersonships">captureable.person.ships</a><br>
-<a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
+<a href="README.md#coalitionshopping">coalition.shopping</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
@@ -524,6 +525,53 @@ changed gamerules to prevent no spawning chance<br>
 2023-09-08<br>
 
 initial release<br>
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### coalition.shopping
+
+<img src="myplugins/coalition.shopping/icon.png" height="100">
+
+[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/coalition.shopping.zip) | 30.54 kb | 2023-10-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <br>
+<br>
+>Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in 'Homeward' system. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### coalition.shopping
+
+<br>
+
+<br>
+
+Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in 'Homeward' system.<br>
+
+<br>
+
+Adds all existing coalition outfitters and shipyards to 'Far Home'. Also adds a new shipyard and a new outfitter.<br>
+
+The shipyard sells all missing Heliarch ships.<br>
+
+The outfitter sells all missing Heliarch Outfits and Coalition/Heliarch license.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2023-10-05<br>
+
+initial release<br>
+
+
 
 </blockquote>
 </details>
