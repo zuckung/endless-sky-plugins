@@ -1,3 +1,4 @@
+2023-10-17 | added plugin.txt to all plugins
 2023-10-17 | update: galactic.capital.investment
 2023-10-17 | update: kor.efret.shipyard
 2023-10-17 | update: automata.in.human.space

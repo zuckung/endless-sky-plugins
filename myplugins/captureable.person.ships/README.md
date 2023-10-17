@@ -9,7 +9,7 @@ So attacking one of them makes all your enemies, they all try to disable instead
 <br>
 Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti beam weapons, was probably an overkill on most. Except for "Zitchas" which needed less dmg weapons and max flamethrowers to prevent its cloaking. Also boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and i tried it with hand2hand outfits plugin. Maybe it works with nerve gas too. Another problem is "Tranquility" which has no weapons and therefore avoids fight. Tested different personality settings and best choice was to let it stay in system after spawn(yellow dot on radar).<br>
 <br>
-<img src='https://github.com/zuckung/endless-sky-plugins/myplugins/captureable.person.ships/screenshot.jpg' width='400'>
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/captureable.person.ships/screenshot.jpg' width='400'>
 <ul>
 <li>"Michael Zahniser" (found everywhere | Kestrel + Finch)</li>
 <li>"Cap'n Pester" (found everywhere | Quarg Wardragon)</li>
