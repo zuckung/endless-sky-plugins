@@ -1,0 +1,2 @@
+name "automata.destruction.0percent"
+about "Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the readme for details."

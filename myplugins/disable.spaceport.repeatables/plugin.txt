@@ -1,0 +1,2 @@
+name "disable.spaceport.repeatables"
+about "Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the readme for details."

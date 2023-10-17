@@ -7,5 +7,10 @@ Originally this system opens during hai reveal storyline, which is disabled beca
 The Devil-Hide system is also a nice system to farm Marauder Leviathans.<br>
 <br>
 <br>
+Changelog:<br>
+<br>
+2023-10-17<br>
+added plugin.txt<br>
+<br>
 2023-08-31<br>
 added icon.png<br>

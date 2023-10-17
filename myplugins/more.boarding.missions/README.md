@@ -1,4 +1,4 @@
-### more boarding missions <br>
+### more.boarding.missions <br>
 <br>
 <br>
 Adds 53 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer) and Wanderer can trigger them. Bigger ships give higher rewards.<br>
@@ -17,6 +17,11 @@ Adds 53 repeatable boarding and assisting missions. Boarding/assisting Free Worl
 <li> 7 Wanderer assisting missions (by ship categories, 10% chance, 50.000 to 100.000 credits)</li>
 </ul>
 <br>
+<br>
+Changelog:<br>
+<br>
+2023-10-17<br>
+added plugin.txt<br>
 <br>
 2023-09-04<br>
 added 7 wanderer assisting missions (credits)<br>

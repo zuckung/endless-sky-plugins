@@ -1,4 +1,4 @@
-### additional command buttons <br>
+### additional.command.buttons <br>
 <br>
 Made for the mobile version and changes the interface by adding the following 10 buttons: <br> 
 <ul>
@@ -21,7 +21,7 @@ and
 <br>
 (inspired by theweirednut) <br>
 <br>
-<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons/screenshot.jpg' width='400'>
+<img src='https://github.com/zuckung/endless-sky-plugins/myplugins/additional.command.buttons/screenshot.jpg' width='400'>
 <br>
 Allthough most of these commands are now implemented in other parts to the original mobile user interface or can be accessed by gestures, I personally prefer these buttons on the lower right corner.<br>
 <br>
@@ -32,7 +32,10 @@ Additional there are some functions in this plugin that the original mobile ui c
 This plugin overwrites `interface "main buttons"` and `interface "hud"`, so it isn't compatible with other plugins modifying these.<br>
 <br>
 <br>
-Chancelog:<br>
+Changelog:<br>
+<br>
+2023-10-17<br>
+added plugin.txt<br>
 <br>
 2023-08-24<br>
 fixed non-fireing attack button<br>

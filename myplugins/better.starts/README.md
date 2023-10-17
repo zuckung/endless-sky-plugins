@@ -19,6 +19,9 @@ Beside the cheater start option, all others are balanced and lore friendly. A bi
 <br>
 Changelog:<br>
 <br>
+2023-10-17<br>
+added plugin.txt<br>
+<br>
 2023-09-15<br>
 added passenger transport start<br>
 set intro missions to done for all starts<br>

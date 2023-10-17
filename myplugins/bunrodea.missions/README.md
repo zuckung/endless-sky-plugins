@@ -9,10 +9,15 @@ Unlocking the planet with all ships needs 100 reputation. Unlocking the last of 
 20 rep for the first mission which unlocks repeatable jobs.<br>
 5-7 rep for repeatable transport jobs<br>
 10 rep for Korath ship killing job<br>
-At 100 rep the second mission starts, which gives 30 rep and unlocks the second repeatable job which gives 30 rep.<br>
+At 100 rep the second mission starts, which gives 30 rep and unlocks the second repeatable fighting job which gives 30 rep.<br>
 <br>
 As a little bonus, the three eastern uninhabited systems spawn jumpdrive equipped "Lor'kas Ik 577" or "Ra'gru Ik 618" or "Ra'at Ik 621".<br>
 <br>
+<br>
+Changelog:<br>
+<br>
+2023-10-17<br>
+added plugin.txt<br>
 <br>
 2023-09-02<br>
 changed fleet missions/jobs to include only Palavret and Rano'erek<br>

@@ -21,5 +21,10 @@ Disables all 14 random spawning person ships.<br>
 </ul>
 <br>
 <br>
+Changelog:<br>
+<br>
+2023-10-17<br>
+added plugin.txt<br>
+<br>
 2013-08-31<br>
 added icon.png<br>

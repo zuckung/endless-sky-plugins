@@ -1,0 +1,2 @@
+name "unique.fix"
+about "Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details."

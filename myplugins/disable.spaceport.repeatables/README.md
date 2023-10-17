@@ -23,6 +23,12 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 <li> "Raider Attack 2" </li>
 </ul>
 <br>
+<br>
+Changelog:<br>
+<br>
+2023-10-17<br>
+added plugin.txt<br>
+<br>
 2023-09-03<br>
 added the 2 syndicate alien attack missions<br>
 <br>

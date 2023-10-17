@@ -10,6 +10,9 @@ The outfitter sells all missing Heliarch Outfits and Coalition/Heliarch license.
 <br>
 Changelog:<br>
 <br>
+2023-10-17<br>
+added plugin.txt<br>
+<br>
 2023-10-05<br>
 initial release<br>
 

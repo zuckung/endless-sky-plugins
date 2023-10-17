@@ -2,13 +2,13 @@ real.fluff
 author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
-	images from:
-		https://www.pngfind.com/mpng/wiRowb_ferret-png-free-download-cute-ferret-transparent-png/
-		https://www.pngfind.com/mpng/iiJbmwT_hamster-transparent-background-teddy-bear-hamster-hd-png/
-		https://www.pngfind.com/mpng/ibRwwh_thumb-image-koala-png-transparent-png/
-		https://www.pngfind.com/mpng/TiThib_gray-and-white-rabbit-transparent-background-rabbit-png/
-		https://www.pngfind.com/mpng/hmoRhTw_red-squirrel-clipart-transparent-background-squirrel-free-hd/
-		https://www.pngfind.com/download/hhTowhR_ocelot-pet-hd-png-download/
-		https://www.pngfind.com/download/imxJhi_raccoon-png-free-download-raccoon-stock-transparent-png/
-		https://www.pngfind.com/mpng/hwmwhii_image-alien-isolation-alien-png-transparent-png/
-		https://www.worldofreel.com/blog//2016/12/in-alien-light-effects-in-egg-chamber.html
+images from:
+	https://www.pngfind.com/mpng/wiRowb_ferret-png-free-download-cute-ferret-transparent-png/
+	https://www.pngfind.com/mpng/iiJbmwT_hamster-transparent-background-teddy-bear-hamster-hd-png/
+	https://www.pngfind.com/mpng/ibRwwh_thumb-image-koala-png-transparent-png/
+	https://www.pngfind.com/mpng/TiThib_gray-and-white-rabbit-transparent-background-rabbit-png/
+	https://www.pngfind.com/mpng/hmoRhTw_red-squirrel-clipart-transparent-background-squirrel-free-hd/
+	https://www.pngfind.com/download/hhTowhR_ocelot-pet-hd-png-download/
+	https://www.pngfind.com/download/imxJhi_raccoon-png-free-download-raccoon-stock-transparent-png/
+	https://www.pngfind.com/mpng/hwmwhii_image-alien-isolation-alien-png-transparent-png/
+	https://www.worldofreel.com/blog//2016/12/in-alien-light-effects-in-egg-chamber.html

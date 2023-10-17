@@ -1,6 +1,4 @@
+unique.fix
 author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
-
-image:
-	AI generated at craiyon.com

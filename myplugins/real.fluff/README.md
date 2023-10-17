@@ -14,8 +14,13 @@ Lore-friendly, total useless, but cute pet outfits, with storylines. All mission
 <li>Raccoon - mission found on Foundry </li>
 <li>Squirrel - mission found on Heartvalley (Hai space)</li>
 </ul>
-<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/real.fluff/screenshot.jpg' width='400'>
+<img src='https://github.com/zuckung/endless-sky-plugins/myplugins/real.fluff/screenshot.jpg' width='400'>
 <br>
+<br>
+Changelog:<br>
+<br>
+2023-10-17<br>
+added plugin.txt<br>
 <br>
 2023-10-03<br>
 added ocelot mission<br>

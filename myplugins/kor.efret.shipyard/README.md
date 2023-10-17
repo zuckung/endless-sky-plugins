@@ -62,7 +62,12 @@ Available outfits:<br>
 </ul>
 <br>
 <br>
-2023-xx-xx<br>
+Changelog:<br>
+<br>
+2023-10-17<br>
+added plugin.txt<br>
+<br>
+2023-09-01<br>
 added 28 korath outfits(no weapons)<br>
 added new icon.png<br>
 reworked readme<br>

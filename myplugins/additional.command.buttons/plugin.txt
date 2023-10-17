@@ -1,0 +1,2 @@
+name "additional.command.buttons"
+about "Made for the mobile version and adds several new buttons to the lower right corner(inspired by theweirednut). See the readme for details."
