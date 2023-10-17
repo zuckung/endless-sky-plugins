@@ -14,7 +14,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-10-17 | update: galactic.capital.investment<br>
+<table><tr><td><img width="882" height="1"><br>2023-10-17 | added plugin.txt to all plugins<br>
+2023-10-17 | update: galactic.capital.investment<br>
 2023-10-17 | update: kor.efret.shipyard<br>
 2023-10-17 | update: automata.in.human.space<br>
 2023-10-17 | update: more.arfectas<br>
@@ -23,7 +24,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-10-17 | update: better.starts<br>
 2023-10-17 | update: free.worlds.5.years.later<br>
 2023-10-17 | update: real.fluff<br>
-2023-10-17 | update: unique.fix<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -62,7 +62,7 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 
 <img src="myplugins/additional.command.buttons/icon.png" height="100">
 
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 160.47 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 160.48 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
 <br>
 >Made for the mobile version and adds several new buttons to the lower right corner. See the readme for details.
 >(inspired by theweirednut)
@@ -115,7 +115,7 @@ and
 
 <br>
 
-<img src='https://github.com/zuckung/endless-sky-plugins/myplugins/additional.command.buttons/screenshot.jpg' width='400'>
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons/screenshot.jpg' width='400'>
 
 <br>
 
@@ -478,7 +478,7 @@ intial release<br>
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 171.13 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 171.14 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
 <br>
 >Makes person ships capturable. See the readme for details.
 
@@ -506,7 +506,7 @@ Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti be
 
 <br>
 
-<img src='https://github.com/zuckung/endless-sky-plugins/myplugins/captureable.person.ships/screenshot.jpg' width='400'>
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/captureable.person.ships/screenshot.jpg' width='400'>
 
 <ul>
 
@@ -851,7 +851,7 @@ added icon.png<br>
 
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 493.98 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 493.99 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the readme for details.
 <details>
@@ -878,7 +878,7 @@ See data/crew.list.txt of this plugin for locations, an stat infos.<br>
 
 <br>
 
-<img src='https://github.com/zuckung/endless-sky-plugins/myplugins/expert.crew.members/screenshot.jpg' width='400'>
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/expert.crew.members/screenshot.jpg' width='400'>
 
 <br>
 
@@ -1371,7 +1371,7 @@ Lore-friendly, total useless, but cute pet outfits, with storylines. All mission
 
 </ul>
 
-<img src='https://github.com/zuckung/endless-sky-plugins/myplugins/real.fluff/screenshot.jpg' width='400'>
+<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/real.fluff/screenshot.jpg' width='400'>
 
 <br>
 
@@ -1499,7 +1499,7 @@ Increases game performance.<br>
 
 Every of the 552 base game systems(0.10.2) is edited via remove command for full compatibility with other system altering plugins. A total of 2654 asteroid entries got removed.<br>
 
-In case i won't update this plugin to the newest game version, a python script for generating an updated plugin can be found <a href="https://github.com/zuckung/endless-sky-plugins/tools/too_many_asteroids_plugin_script">here</a>.<br>
+In case i won't update this plugin to the newest game version, a python script for generating an updated plugin can be found <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/tools/too_many_asteroids_plugin_script">here</a>.<br>
 
 <br>
 
