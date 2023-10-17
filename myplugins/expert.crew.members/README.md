@@ -9,7 +9,7 @@ In case you can't afford their daily wage you can store them at the outfitter wi
 They have the positive stats of a medium human outfit, at the cost of a bunk and a daily salery of 2.000 to 5.000 credits. On a small ship they make a huge difference, while on a heavy warship the stats are minor.<br>
 See data/crew.list.txt of this plugin for locations, an stat infos.<br>
 <br>
-<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/expert.crew.members/screenshot.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/expert.crew.members/screenshot.jpg' width='400'>
 <br>
 <br>
 Changelog:<br>

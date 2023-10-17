@@ -21,7 +21,7 @@ and
 <br>
 (inspired by theweirednut) <br>
 <br>
-<img src='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons/screenshot.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/additional.command.buttons/screenshot.jpg' width='400'>
 <br>
 Allthough most of these commands are now implemented in other parts to the original mobile user interface or can be accessed by gestures, I personally prefer these buttons on the lower right corner.<br>
 <br>
