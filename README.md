@@ -14,7 +14,9 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2023-10-17 | added plugin.txt to all plugins<br>
+<table><tr><td><img width="882" height="1"><br>2024-02-02 | update: disable.person.ships<br>
+2024-02-02 | update: captureable.person.ships<br>
+2023-10-17 | added plugin.txt to all plugins<br>
 2023-10-17 | update: galactic.capital.investment<br>
 2023-10-17 | update: kor.efret.shipyard<br>
 2023-10-17 | update: automata.in.human.space<br>
@@ -22,8 +24,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-10-17 | update: coalition.shopping<br>
 2023-10-17 | update: captureable.person.ships<br>
 2023-10-17 | update: better.starts<br>
-2023-10-17 | update: free.worlds.5.years.later<br>
-2023-10-17 | update: real.fluff<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -478,7 +478,7 @@ intial release<br>
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 171.14 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 173.21 kb | 2024-02-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
 <br>
 >Makes person ships capturable. See the readme for details.
 
@@ -538,6 +538,8 @@ Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti be
 
 <li>"MasterOfGrey" (found in Hai space | Modified Ladybug)</li>
 
+<li>"Patrol Team" (found everywhere | 6x Waverider)</li>
+
 </ul>
 
 <br>
@@ -545,6 +547,12 @@ Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti be
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-02-02<br>
+
+added 0.10.5 person "Patrol Team"<br>
 
 <br>
 
@@ -685,7 +693,7 @@ added icon.png<br>
 
 <img src="myplugins/disable.person.ships/icon.png" height="100">
 
-[disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.person.ships.zip) | 20.05 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <br>
+[disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.person.ships.zip) | 20.08 kb | 2024-02-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <br>
 <br>
 >Disables all person ships. See the readme for details.
 
@@ -731,6 +739,8 @@ Disables all 14 random spawning person ships.<br>
 
 <li>	"MasterOfGrey" </li>
 
+<li>	"Patrol Team" </li>
+
 </ul>
 
 <br>
@@ -738,6 +748,12 @@ Disables all 14 random spawning person ships.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-02-02<br>
+
+added 0.10.5 "Patrol Team"<br>
 
 <br>
 
