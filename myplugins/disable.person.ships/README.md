@@ -18,10 +18,14 @@ Disables all 14 random spawning person ships.<br>
 <li>	"Brick" </li>
 <li>	"Gefullte Taubenbrust" </li>
 <li>	"MasterOfGrey" </li>
+<li>	"Patrol Team" </li>
 </ul>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-02-02<br>
+added 0.10.5 "Patrol Team"<br>
 <br>
 2023-10-17<br>
 added plugin.txt<br>

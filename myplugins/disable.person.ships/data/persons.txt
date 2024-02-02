@@ -13,3 +13,4 @@ disable person
 	"Brick"
 	"Gefullte Taubenbrust"
 	"MasterOfGrey"
+	"Patrol Team"

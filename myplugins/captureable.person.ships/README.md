@@ -25,10 +25,14 @@ Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti be
 <li>"Brick" (found everywhere | 3x Modified Boxwing)</li>
 <li>"Gefullte Taubenbrust" (found everywhere | Modified Battleship)</li>
 <li>"MasterOfGrey" (found in Hai space | Modified Ladybug)</li>
+<li>"Patrol Team" (found everywhere | 6x Waverider)</li>
 </ul>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-02-02<br>
+added 0.10.5 person "Patrol Team"<br>
 <br>
 2023-10-17<br>
 added plugin.txt<br>
