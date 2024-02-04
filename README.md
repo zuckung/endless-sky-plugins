@@ -14,7 +14,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-02-04 | update: too.many.asteroids<br>
+<table><tr><td><img width="882" height="1"><br>2024-02-04 | update: no.more.mereti.mines<br>
+2024-02-04 | update: too.many.asteroids<br>
 2024-02-04 | update: unique.fix<br>
 2024-02-02 | update: disable.person.ships<br>
 2024-02-02 | update: captureable.person.ships<br>
@@ -23,7 +24,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-10-17 | update: kor.efret.shipyard<br>
 2023-10-17 | update: automata.in.human.space<br>
 2023-10-17 | update: more.arfectas<br>
-2023-10-17 | update: coalition.shopping<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -46,6 +46,7 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
+<a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#realfluff">real.fluff</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
 <a href="README.md#toomanyasteroids">too.many.asteroids</a><br>
@@ -1338,6 +1339,49 @@ added 2 korath boarding missions (outfit)<br>
 added 4 pirate boarding missions (outfit)<br>
 
 added icon and reworked readme<br>
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### no.more.mereti.mines
+
+<img src="myplugins/no.more.mereti.mines/icon.png" height="100">
+
+[no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/no.more.mereti.mines.zip) | 34.02 kb | 2024-02-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) <br>
+<br>
+>Removes the mines from Mereti ships and replaces them with Husk-Slice to increase game performance. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### no.more.mereti.mines
+
+<br>
+
+<br>
+
+Removes the mines from Mereti ships and replaces them with Husk-Slice to increase game performance.<br>
+
+<br>
+
+Replaces Cluster Mine Layer, Cluster Mine Racks and Cluster Mines with Husk-Slice cannons, on Model 16/32/64/128/256/512. For every removed mine layer a cannon got added. That increases game performance in mass fights, like in Mesuket system.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-02-04<br>
+
+initial release<br>
+
+
 
 </blockquote>
 </details>
