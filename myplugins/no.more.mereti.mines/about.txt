@@ -1,0 +1,1 @@
+Removes the mines from Mereti ships and replaces them with Husk-Slice to increase game performance. See the readme for details.

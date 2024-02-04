@@ -1,0 +1,96 @@
+# removed 1x cluster mine layer, 17x cluster mine = 48t outfit 
+# added 1x husk slice = 46t outfit
+ship "Model 16"
+	outfits
+		"Husk-Slice"
+		"Shield Disruptor Turret" 1
+		"Husk-Slice Turret"
+		"Plasma Core"
+		"Generator (Inferno Class)"
+		"Systems Core (Small)"
+		"Small Heat Shunt"
+		"Reasoning Node"	
+		"Thruster (Planetary Class)"
+		"Steering (Lunar Class)"
+		Hyperdrive
+	
+# removed 1x cluster mine layer, 17x cluster mine = 48t outfit
+# added 1x husk slice = 46t outfit
+ship "Model 32"
+	outfits
+		"Husk-Slice"
+		"Shield Disruptor Turret" 1
+		"Husk-Slice Turret" 2
+		"Double Plasma Core"
+		"Generator (Candle Class)"
+		"Systems Core (Small)"
+		"Small Heat Shunt"
+		"Reasoning Node"
+		"Thruster (Planetary Class)"
+		"Steering (Lunar Class)"
+		Hyperdrive
+
+# removed 1x cluster mine layer, 35x cluster mine, 2x cluster mine rack = 66t outfit
+# added 1x husk slice = 46t outfit
+ship "Model 64"
+	outfits
+		"Husk-Slice"
+		"Shield Disruptor Turret" 2
+		"Husk-Slice Turret" 2
+		"Double Plasma Core"
+		"Generator (Furnace Class)"
+		"Systems Core (Medium)"
+		"Reasoning Node" 2
+		"Thruster (Lunar Class)"
+		"Thruster (Asteroid Class)"
+		"Steering (Planetary Class)"
+		Hyperdrive
+
+# removed 2x cluster mine layer, 34x cluster mine = 96t outfit
+# added 2x husk slice = 92t outfit
+ship "Model 128"
+	outfits
+		"Husk-Slice" 2
+		"Shield Disruptor Turret" 2
+		"Husk-Slice Turret" 3
+		"Double Plasma Core"
+		"Generator (Inferno Class)"
+		"Systems Core (Medium)"
+		"Reasoning Node" 2
+		"Thruster (Planetary Class)"
+		"Steering (Planetary Class)"
+		"Steering (Asteroid Class)"
+		Hyperdrive
+
+# removed 2x cluster mine layer, 61x cluster mine, 3x cluster mine rack = 123t outfit
+# added 2x husk slice = 92t outfit
+ship "Model 256"
+	outfits
+		"Husk-Slice" 2
+		"Shield Disruptor Turret" 3
+		"Husk-Slice Turret" 3
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt"
+		"Reasoning Node" 3
+		"Thruster (Planetary Class)"
+		"Steering (Planetary Class)"
+		"Steering (Comet Class)"
+		Hyperdrive
+
+# removed 2x cluster mine layer, 52x cluster mine, 2x cluster mine rack = 114t outfit
+# added 1x husk slice = 92t outfit
+ship "Model 512"
+	outfits
+		"Husk-Slice" 2
+		"Shield Disruptor Turret" 3
+		"Husk-Slice Turret" 4
+		"Triple Plasma Core"
+		"Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt"
+		"Small Heat Shunt" 2
+		"Reasoning Node" 3
+		"Thruster (Planetary Class)"
+		"Steering (Stellar Class)"
+		Hyperdrive
