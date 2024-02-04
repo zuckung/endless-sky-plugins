@@ -1,3 +1,5 @@
+2024-02-04 | update: too.many.asteroids
+2024-02-04 | update: unique.fix
 2024-02-02 | update: disable.person.ships
 2024-02-02 | update: captureable.person.ships
 2023-10-17 | added plugin.txt to all plugins

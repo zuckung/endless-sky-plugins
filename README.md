@@ -14,7 +14,9 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-02-02 | update: disable.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-02-04 | update: too.many.asteroids<br>
+2024-02-04 | update: unique.fix<br>
+2024-02-02 | update: disable.person.ships<br>
 2024-02-02 | update: captureable.person.ships<br>
 2023-10-17 | added plugin.txt to all plugins<br>
 2023-10-17 | update: galactic.capital.investment<br>
@@ -22,8 +24,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-10-17 | update: automata.in.human.space<br>
 2023-10-17 | update: more.arfectas<br>
 2023-10-17 | update: coalition.shopping<br>
-2023-10-17 | update: captureable.person.ships<br>
-2023-10-17 | update: better.starts<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1493,7 +1493,7 @@ removed remnant mission requirement<br>
 
 <img src="myplugins/too.many.asteroids/icon.png" height="100">
 
-[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) | 18.3 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <br>
+[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) | 18.38 kb | 2024-02-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <br>
 <br>
 >Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. Increases game performance. See the readme for details.
 
@@ -1513,7 +1513,7 @@ Increases game performance.<br>
 
 <br>
 
-Every of the 552 base game systems(0.10.2) is edited via remove command for full compatibility with other system altering plugins. A total of 2654 asteroid entries got removed.<br>
+Every of the 558 base game systems(0.10.5) is edited via remove command for full compatibility with other system altering plugins. A total of 2663 asteroid entries got removed.<br>
 
 In case i won't update this plugin to the newest game version, a python script for generating an updated plugin can be found <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/tools/too_many_asteroids_plugin_script">here</a>.<br>
 
@@ -1522,6 +1522,12 @@ In case i won't update this plugin to the newest game version, a python script f
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-02-4<br>
+
+added the 0.10.5 systems<br>
 
 <br>
 
@@ -1557,7 +1563,7 @@ added a python script which generates the asteroids.txt(in case I don't update t
 
 <img src="myplugins/unique.fix/icon.png" height="100">
 
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) | 203.1 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
+[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) | 196.74 kb | 2024-02-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.
 
@@ -1583,7 +1589,7 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 
 <li> Gives outfit '"Puny"' a portrait. </li>
 
-<li> Puts outfit 'Mug' into unique category and gives it a portrait </li>
+<li> Puts outfit 'Mug' into unique category </li>
 
 </ul>
 
@@ -1594,6 +1600,12 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-02-04<br>
+
+removed mug image, because it got added in 0.10.5<br>
 
 <br>
 
