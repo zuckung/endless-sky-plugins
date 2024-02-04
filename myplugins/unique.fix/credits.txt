@@ -2,3 +2,5 @@ unique.fix
 author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
+images:
+	https://www.pngfind.com/mpng/obRboJ_apricot-poodle-hd-png-download

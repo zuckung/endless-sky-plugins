@@ -17,6 +17,7 @@ Changelog:<br>
 <br>
 2024-02-04<br>
 removed mug image, because it got added in 0.10.5<br>
+changed puny image to a poodle<br>
 <br>
 2023-10-17<br>
 added plugin.txt<br>
