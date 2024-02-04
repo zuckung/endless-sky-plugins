@@ -1563,7 +1563,7 @@ added a python script which generates the asteroids.txt(in case I don't update t
 
 <img src="myplugins/unique.fix/icon.png" height="100">
 
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) | 196.74 kb | 2024-02-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
+[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) | 346.85 kb | 2024-02-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.
 
@@ -1607,6 +1607,8 @@ Changelog:<br>
 
 removed mug image, because it got added in 0.10.5<br>
 
+changed puny image to a poodle and added high res image <br>
+
 <br>
 
 2023-10-17<br>
@@ -1622,6 +1624,7 @@ added 'Mug' to unique category and added a portrait<br>
 changed puny portrait<br>
 
 changed icon.png<br>
+
 </blockquote>
 </details>
 <br>
