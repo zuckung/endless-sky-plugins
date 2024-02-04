@@ -11,5 +11,4 @@ outfit "Puny"
 	thumbnail "outfit/puny"
 
 outfit "Mug"
-	thumbnail "outfit/mug"
 	category "Unique"

@@ -1,5 +1,5 @@
-# number of systems: 552
-# number of asteroid entries: 2654
+# number of systems: 558
+# number of asteroid entries: 2663
 
 system "1 Axis"
 	remove asteroids "small rock"
@@ -330,6 +330,8 @@ system "Al Dhanab"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
 
+system "Al Hurr"
+
 system Albaldah
 	remove asteroids "small rock"
 	remove asteroids "medium rock"
@@ -512,6 +514,10 @@ system Alpheratz
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
 
+system Alpherg
+	remove asteroids "medium rock"
+	remove asteroids "small metal"
+
 system Altair
 	remove asteroids "large metal"
 
@@ -664,6 +670,12 @@ system Beginning
 	remove asteroids "small metal"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
+
+system Belenos
+	remove asteroids "small rock"
+	remove asteroids "large rock"
+	remove asteroids "small metal"
+	remove asteroids "medium metal"
 
 system Bellatrix
 	remove asteroids "small rock"
@@ -888,6 +900,14 @@ system Chy'chra
 
 system Cinxia
 
+system Citadelle
+	remove asteroids "small rock"
+	remove asteroids "medium rock"
+	remove asteroids "large rock"
+	remove asteroids "small metal"
+	remove asteroids "medium metal"
+	remove asteroids "large metal"
+
 system Coluber
 	remove asteroids "small rock"
 	remove asteroids "medium rock"
@@ -1107,12 +1127,6 @@ system Devil-Hide
 	remove asteroids "large metal"
 
 system Devil-Run
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-	remove asteroids "large rock"
-	remove asteroids "small metal"
-	remove asteroids "medium metal"
-	remove asteroids "large metal"
 
 system Diespiter
 	remove asteroids "small rock"
@@ -1538,6 +1552,9 @@ system Fscher
 	remove asteroids "small metal"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
+
+system Fumalsamakah
+	remove asteroids "small rock"
 
 system Furmeliki
 	remove asteroids "large metal"
@@ -3372,6 +3389,10 @@ system "Thshybo Le"
 	remove asteroids "large rock"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
+
+system Thuban
+	remove asteroids "small metal"
+	remove asteroids "large rock"
 
 system Torbab
 	remove asteroids "small rock"
