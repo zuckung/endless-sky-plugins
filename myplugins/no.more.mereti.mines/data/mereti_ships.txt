@@ -79,7 +79,7 @@ ship "Model 256"
 		Hyperdrive
 
 # removed 2x cluster mine layer, 52x cluster mine, 2x cluster mine rack = 114t outfit
-# added 1x husk slice = 92t outfit
+# added 2x husk slice = 92t outfit
 ship "Model 512"
 	outfits
 		"Husk-Slice" 2
