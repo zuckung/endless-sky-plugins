@@ -1,0 +1,2 @@
+name "pirate.warlords"
+about "This plugin adds 3 pirate person ships to the 3 pirate regions. See the readme for details."

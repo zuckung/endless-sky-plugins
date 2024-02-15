@@ -157,10 +157,10 @@ conversation "z_passenger1"
 
 start "z_miner"
 	name "Start: Miner"
-	description `Ship: Clipper`
-	description `Special: 70t Cargo, Asteroid Scanner`
+	description `Ship: Sunder`
+	description `Special: 80t Cargo, Mining Weapons, Mining Drones`
 	description `You grew up on Oblivion in the Rasalhague system, a world with oil and mining industry, dreaming of an escape of this toxic life. A childhood friend, who made his way into space, earned a lot of credits with asteroid mining. `
-	description `Now he helps you getting a "Clipper" equipped for asteroid mining.`
+	description `Now he helps you getting a "Sunder" equipped for asteroid mining.`
 	thumbnail "scene/lobby"
 	date 16 11 3013
 	system "Rasalhague"
@@ -170,7 +170,7 @@ start "z_miner"
 		credits 200000
 		score 400
 		mortgage Mortgage
-			principal 1999000
+			principal 2045000
 			interest 0.004
 			term 730
 	set "license: Pilot's"
@@ -182,26 +182,19 @@ start "z_miner"
 	set "Intro [2 Transport]: done"
 	set "Intro [3 Transport]: offered"
 	set "Intro [3 Transport]: done"
-	ship "Clipper" "Clipper (Customized)"
+	ship "Sunder" "Sunder (Customized)"
 		name "Digger"
-		outfits
-			"A250 Atomic Thruster"
-			"A255 Atomic Steering"
-			"Asteroid Scanner"
-			"D23-QP Shield Generator"
-			"Heavy Laser" 4
-			Hyperdrive
-			"LP072a Battery Pack"
-			"nGVF-DD Fuel Cell"
+	ship "Mining Drone" "A"
+	ship "Mining Drone" "B"
 
 conversation "z_miner"
 	scene "scene/lobby"
 	`You were quiet surprised, when you heard of your childhood friend Ted a month ago. When his parents died, he took his legacy and disappeared from this planet.`
 	`Ted made a fortune with asteroid mining, and now he came back to help you.`
-	`He vouched for you at the bank so you could take a pretty big loan. He took you to Tarazad to buy a 'Clipper', equipped for asteroid mining. You felt like back in school, when Ted helped learning for your pilots license.`
+	`He vouched for you at the bank so you could take a pretty big loan. He took you to Tarazad to buy a 'Sunder', equipped for asteroid mining. You felt like back in school, when Ted helped learning for your pilots license.`
 	`While you sign the paperwork at the bank, you are still astonished how fast the things went over the last month.`
 	name
-	`With a smile on your face, you head over to the landing pad, where your new 'Clipper' is parked. Ted gave you a lot of hints how to be a successfull asteroid miner. The asteroid belt of Rasalhague is rich on aluminium and iron. Not two of the more expensive metals, but it is a start. For better ores you could check other near systems, the Ascella system should have more expensive ores. `
+	`With a smile on your face, you head over to the landing pad, where your new 'Sunder' is parked. Ted gave you a lot of hints how to be a successfull asteroid miner. The asteroid belt of Rasalhague is rich on aluminium and iron. Not two of the more expensive metals, but it is a start. For better ores you could check other near systems, the Ascella system should have more expensive ores. `
 	`The future looks great.`
 
 

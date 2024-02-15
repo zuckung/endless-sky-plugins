@@ -1,0 +1,120 @@
+government "Pirate Warlords"
+	swizzle 6
+	"player reputation" -1000
+	"fine" 0
+
+
+ship "Modified Bactrian"
+	sprite "ship/bactrian"
+	thumbnail "thumbnail/bactrian"
+	attributes
+		licenses
+			City-Ship
+		category "Utility"
+		"cost" 20000000
+		"shields" 17500
+		"hull" 8600
+		"required crew" 45
+		"bunks" 245
+		"mass" 940
+		"drag" 16.1
+		"heat dissipation" .4
+		"fuel capacity" 1000
+		"cargo space" 650
+		"outfit space" 850
+		"weapon capacity" 300
+		"engine capacity" 180
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Heavy Laser" 4
+		"Heavy Laser Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		"LP144a Battery Pack"
+		"Laser Rifle" 100
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Tactical Scanner"
+		"A520 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Jump Drive"
+		"Fuel Processor"
+		"Triple Plasma Core"
+		"Large Heat Shunt" 2
+		"Systems Core (Large)"
+		"NDR-114 Android" 5
+		
+	engine 18.5 232
+	engine -15 232
+	gun -9 -231.5 "Heavy Laser"
+	gun 13.5 -231.5 "Heavy Laser"
+	gun 36.5 -197 "Heavy Laser"
+	gun 42 -193 "Heavy Laser"
+	turret 37 -132.5 "Heavy Anti-Missile Turret"
+	turret -39 -39 "Heavy Laser Turret"
+	turret 31.5 -26 "Heavy Laser Turret"
+	turret -42.5 75 "Heavy Laser Turret"
+	turret 32.5 132 "Heavy Laser Turret"
+	turret -33.5 192.5 "Heavy Anti-Missile Turret"
+	bay "Fighter" -43.5 -125
+		"launch effect" "human internal"
+	bay "Fighter" 53 -72.5
+		"launch effect" "human internal"
+	bay "Fighter" -50 103.5
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "The Lionheart Bactrian is the last of the great city-ships, a design hearkening back to the early days of space colonization when a long-distance vessel needed to be a self-contained world, able to survive for weeks at a time without encountering an inhabited planet. It is not only a freighter, but a carrier, and a capable warship either at short range or at a distance."
+	description "	Naturally, this versatility also makes it extremely expensive, and the Bactrian is normally only for sale to citizens who have been vetted by the local government of the Deep."
+
+person "North Pirate Warlord"
+	frequency 1000
+	government "Pirate Warlords"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		government "Pirate"
+		attributes "north"
+	phrase
+		word
+			"Who dares to invade my empire?"
+			"Your ship will let my fleet grow!"
+	ship "Modified Bactrian" "Fist of the North"
+
+
+person "Core Pirate Warlord"
+	frequency 1000
+	government "Pirate Warlords"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		government "Pirate"
+		attributes "core"
+	phrase
+		word
+			"Prepare to meet your maker!"
+			"Flee or die!"
+	ship "Modified Bactrian" "Fist of the Core"
+
+person "South Pirate Warlord"
+	frequency 1000
+	government "Pirate Warlords"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		government "Pirate"
+		attributes "south"
+	phrase
+		word
+			"Soon your ship is mine!"
+			"This will be your end!"
+	ship "Modified Bactrian" "Fist of the South"

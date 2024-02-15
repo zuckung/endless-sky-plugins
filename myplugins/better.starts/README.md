@@ -19,6 +19,10 @@ Beside the cheater start option, all others are balanced and lore friendly. A bi
 <br>
 Changelog:<br>
 <br>
+2024-02-15<br>
+Start: Cheater... fixed map not showing all systems<br>
+Start: Miner... changed ship to "Sunder" with Mining Drones<br>
+<br>
 2023-10-17<br>
 added plugin.txt<br>
 <br>
