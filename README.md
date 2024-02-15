@@ -14,7 +14,9 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-02-04 | update: no.more.mereti.mines<br>
+<table><tr><td><img width="882" height="1"><br>2024-02-15 | update: pirate.warlords<br>
+2024-02-15 | update: better.starts<br>
+2024-02-04 | update: no.more.mereti.mines<br>
 2024-02-04 | update: too.many.asteroids<br>
 2024-02-04 | update: unique.fix<br>
 2024-02-02 | update: disable.person.ships<br>
@@ -22,8 +24,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2023-10-17 | added plugin.txt to all plugins<br>
 2023-10-17 | update: galactic.capital.investment<br>
 2023-10-17 | update: kor.efret.shipyard<br>
-2023-10-17 | update: automata.in.human.space<br>
-2023-10-17 | update: more.arfectas<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -35,18 +35,19 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
 <a href="README.md#captureablepersonships">captureable.person.ships</a><br>
 <a href="README.md#coalitionshopping">coalition.shopping</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
+<a href="README.md#piratewarlords">pirate.warlords</a><br>
 <a href="README.md#realfluff">real.fluff</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
 <a href="README.md#toomanyasteroids">too.many.asteroids</a><br>
@@ -310,7 +311,7 @@ changed icon.png<br>
 
 <img src="myplugins/better.starts/icon.png" height="100">
 
-[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 21.75 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
+[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 21.79 kb | 2024-02-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
 <br>
 >Adds several new start options with different ships, background storys, credits and debts. See the readme for details.
 
@@ -355,6 +356,14 @@ Beside the cheater start option, all others are balanced and lore friendly. A bi
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-02-15<br>
+
+Start: Cheater... fixed map not showing all systems<br>
+
+Start: Miner... changed ship to "Sunder" with Mining Drones<br>
 
 <br>
 
@@ -1378,6 +1387,57 @@ Changelog:<br>
 <br>
 
 2024-02-04<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### pirate.warlords
+
+<img src="myplugins/pirate.warlords/icon.png" height="100">
+
+[pirate.warlords.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/pirate.warlords.zip) | 47.06 kb | 2024-02-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/pirate.warlords/) <br>
+<br>
+>This plugin adds 3 pirate person ships to the 3 pirate regions. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### pirate.warlords
+
+<br>
+
+<br>
+
+This plugin adds 3 pirate person ships to the 3 pirate regions.<br>
+
+<br>
+
+The north, core and south pirates each get a pirate warlord person ship. Like other person ships, the average spawn time is like 10 minutes, and the chance of appearing if no other person ships exist for this region is 50%. All 3 ships are captureable Bactrians with mixed Human and Korath equipment, a Jump Drive, 5 Androids and some attribute improvements. <br>
+
+<br>
+
+North Pirate Warlord found in: Arneb, Alnilam, Almaaz <br>
+
+Core Pirate Warlord found in: Alcyone, Misam, Almach, Algenib, Gienah <br>
+
+South Pirate Warlord found in: Shaula, Antares, Nunki, Men, Alpherg, Citadelle, Belenos <br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-02-15<br>
 
 initial release<br>
 
