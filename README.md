@@ -14,7 +14,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-02-15 | update: pirate.warlords<br>
+<table><tr><td><img width="882" height="1"><br>2024-02-17 | update: navy.licenses<br>
+2024-02-15 | update: pirate.warlords<br>
 2024-02-15 | update: better.starts<br>
 2024-02-04 | update: no.more.mereti.mines<br>
 2024-02-04 | update: too.many.asteroids<br>
@@ -23,7 +24,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-02-02 | update: captureable.person.ships<br>
 2023-10-17 | added plugin.txt to all plugins<br>
 2023-10-17 | update: galactic.capital.investment<br>
-2023-10-17 | update: kor.efret.shipyard<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -44,8 +44,9 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#piratewarlords">pirate.warlords</a><br>
 <a href="README.md#realfluff">real.fluff</a><br>
@@ -1348,6 +1349,53 @@ added 2 korath boarding missions (outfit)<br>
 added 4 pirate boarding missions (outfit)<br>
 
 added icon and reworked readme<br>
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### navy.licenses
+
+<img src="myplugins/navy.licenses/icon.png" height="100">
+
+[navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/navy.licenses.zip) | 19.28 kb | 2024-02-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) <br>
+<br>
+>Adds a mission on Stormhold(Alcyone system) which leads you to Geminus(Castor system) to buy the four Navy licenses. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### navy.licenses
+
+<br>
+
+<br>
+
+Adds a mission on Stormhold(Alcyone system) which leads you to Geminus(Castor system) to buy the four Navy licenses.<br>
+
+<br>
+
+The mission can get started with 2,5 million credits cash available. You have to pay 50.000 credits for the contact and 2 million for the four licenses.<br>
+
+If you reject the mission, you can restart it on other visits.<br>
+
+You get the following licenses : Navy license, Navy Auxiliary license, Navy Cruiser license, Navy Carrier license.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-02-17<br>
+
+initial release<br>
+
+
 
 </blockquote>
 </details>
