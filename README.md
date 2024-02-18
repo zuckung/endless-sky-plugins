@@ -14,7 +14,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-02-17 | update: navy.licenses<br>
+<table><tr><td><img width="882" height="1"><br>2024-02-18 | update: bunrodea.missions<br>
+2024-02-17 | update: navy.licenses<br>
 2024-02-15 | update: pirate.warlords<br>
 2024-02-15 | update: better.starts<br>
 2024-02-04 | update: no.more.mereti.mines<br>
@@ -23,7 +24,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-02-02 | update: disable.person.ships<br>
 2024-02-02 | update: captureable.person.ships<br>
 2023-10-17 | added plugin.txt to all plugins<br>
-2023-10-17 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -409,7 +409,7 @@ added Start Explorer to Automata<br>
 
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 48.18 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 48.23 kb | 2024-02-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the readme for details.
 <details>
@@ -447,6 +447,12 @@ As a little bonus, the three eastern uninhabited systems spawn jumpdrive equippe
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-02-18<br>
+
+fixed unplayable first mission, if it gets started direct after the first contact<br>
 
 <br>
 
