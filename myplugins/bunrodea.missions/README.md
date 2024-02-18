@@ -16,6 +16,9 @@ As a little bonus, the three eastern uninhabited systems spawn jumpdrive equippe
 <br>
 Changelog:<br>
 <br>
+2024-02-18<br>
+fixed unplayable first mission, if it gets started direct after the first contact<br>
+<br>
 2023-10-17<br>
 added plugin.txt<br>
 <br>

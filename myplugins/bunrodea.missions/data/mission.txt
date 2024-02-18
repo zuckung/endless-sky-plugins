@@ -4,6 +4,7 @@ mission "bunrodea defense"
 	description "A Korath ship entered Bunrodea territory at Era Natta. Destroy it."
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
+		not planet "Erabuthro"
 	waypoint "Era Natta"
 	to offer
 		has "First Contact: Bunrodea (Hostile): done"
