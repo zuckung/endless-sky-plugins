@@ -216,6 +216,13 @@ interface "main buttons" bottom right
 		center 128 -128
 		dimensions 192 192
 
+# ammo box
+	anchor top right
+	visible if "has secondary"
+	active
+	box "ammo"
+		from -170 330 top right
+		to -80 -120 bottom right
 
 
 interface "hud"
