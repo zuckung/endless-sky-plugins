@@ -14,7 +14,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-02-18 | update: bunrodea.missions<br>
+<table><tr><td><img width="882" height="1"><br>2024-02-19 | update: additional.command.buttons<br>
+2024-02-18 | update: bunrodea.missions<br>
 2024-02-17 | update: navy.licenses<br>
 2024-02-15 | update: pirate.warlords<br>
 2024-02-15 | update: better.starts<br>
@@ -23,7 +24,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-02-04 | update: unique.fix<br>
 2024-02-02 | update: disable.person.ships<br>
 2024-02-02 | update: captureable.person.ships<br>
-2023-10-17 | added plugin.txt to all plugins<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -65,7 +65,7 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 
 <img src="myplugins/additional.command.buttons/icon.png" height="100">
 
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 160.49 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 160.53 kb | 2024-02-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
 <br>
 >Made for the mobile version and adds several new buttons to the lower right corner. See the readme for details.
 >(inspired by theweirednut)
@@ -141,6 +141,12 @@ This plugin overwrites `interface "main buttons"` and `interface "hud"`, so it i
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-02-20<br>
+
+re-added the ammo box to main buttons (latest mobile game version needed)<br>
 
 <br>
 
