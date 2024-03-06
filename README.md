@@ -1,8 +1,9 @@
 # **my endless-sky-plugins**
 I aim at developing small, modular and maximal compatible plugins that don't break vanilla lore too much. <br>
-Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me.<br><br>
-Speaking of that, I'm looking for someone with great english knowledge(preferable native english speaking), for correcting and rephrasing some of my more text-intense plugins(better.starts, bunrodea.missions, galactic.capital.investment and snowfeather.robotics).<br><br>
-Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators or people who seek informations inside the data folder. Basically it is a very fast way to view everything out of the data folder, especially when you don't know where to find something.<br>
+Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me.<br>
+Pull requests, discussions and issue reports are welcome. <br>
+<br>
+Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators or people who seek informations inside the data folder. Basically it is a very fast website to view every object of the data folder, especially when you don't know where to find something. Easy browsing of missions, ships, outfits, systems etc.<br>
 <br>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzuckung%2Fendless-sky-plugins&count_bg=%2395c20e&title_bg=%235a5a5a&icon=&icon_color=%235A5A5A&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
@@ -14,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-02-19 | update: additional.command.buttons<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-06 | update: gegno.pirates<br>
+2024-02-19 | update: additional.command.buttons<br>
 2024-02-18 | update: bunrodea.missions<br>
 2024-02-17 | update: navy.licenses<br>
 2024-02-15 | update: pirate.warlords<br>
@@ -23,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-02-04 | update: too.many.asteroids<br>
 2024-02-04 | update: unique.fix<br>
 2024-02-02 | update: disable.person.ships<br>
-2024-02-02 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -42,10 +43,11 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
+<a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
-<a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#piratewarlords">pirate.warlords</a><br>
@@ -1064,6 +1066,53 @@ added plugin.txt<br>
 added pirate planets as mission source
 
 moved investment missions from spaceport mission to job board
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### gegno.pirates
+
+<img src="myplugins/gegno.pirates/icon.png" height="100">
+
+[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/gegno.pirates.zip) | 111.44 kb | 2024-03-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
+<br>
+>Adds a new faction of Gegno pirates which lets you capture Gegno ships without ruining your reputation. Also increases Gegno/Scin/Vi reputation by killing Gegno pirates. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### gegno.pirates
+
+<br>
+
+<br>
+
+Adds a new faction of Gegno pirates which lets you capture Gegno ships without ruining your reputation. Also increases Gegno/Scin/Vi reputation by killing Gegno pirates.<br>
+
+<br>
+
+The new government "Gegno Pirates" inhabit the new System "Zaron"(between Huud, Vesvii and Cotpoxi). The surrounding systems, up to 3 jumps away, have new pirate fleets.<br>
+
+Killing pirates and assisting Gegno/Scin/Vi gives reputation now. The needed reputation to land on the Gegno planets got changed to higher valuss. Killing like 100 Gegno pirates should allow you to land on all Gegno planets and use their shipyards and outfitters.<br>
+
+Boarding Gegno Pirates gives you a 5% chance to obtain one of the 8 Gegno licenses.<br> 
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-03-05<br>
+
+initial release<br>
+
+
+
 </blockquote>
 </details>
 <br>
