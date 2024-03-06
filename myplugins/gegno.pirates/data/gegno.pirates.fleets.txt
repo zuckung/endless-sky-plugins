@@ -1,0 +1,163 @@
+# fleets: trader, small, medium, heavy, superheavy
+
+# mostly unarmed
+fleet "Trader Gegno Pirate Fleet"
+	government "Gegno Pirates"
+	names "Gegno Pirates"
+	cargo 1
+	personality
+		disables plunders harvests
+	variant 1
+		"Mica" 4
+		"Dolomite"
+	variant 1
+		"Shale" 4
+		"Granofel"
+	variant 1
+		"Tridymite" 4
+		"Conglomerate"
+	variant 1
+		"Slate" 3
+		"Protolith"
+	variant 1
+		"Gypsum" 3
+		"Granulite"
+	variant 1
+		"Schist"
+		"Schist (Light Load)"
+	variant 1
+		"Schist"
+		"Schist (Heavy Load)"
+
+# average 100 weaponspace
+fleet "Small Gegno Pirate Fleet"
+	government "Gegno Pirates"
+	names "Gegno Pirates"
+	cargo 1
+	personality
+		disables plunders harvests
+	variant 1
+		"Coesite"
+		"Dunite"
+	variant 1
+		"Eclogite"
+	variant 1
+		"Dunite" 5
+	variant 1
+		"Halite" 4
+	variant 1
+		"Halite" 2
+		"Dunite" 2
+	variant 1
+		"Corundum (Torch)"
+		"Dunite" 2
+	variant 1
+		"Corundum (Multi)"
+		"Halite" 
+
+# average 500 weaponspace
+fleet "Medium Gegno Pirate Fleet"
+	government "Gegno Pirates"
+	names "Gegno Pirates"
+	cargo 1
+	personality
+		disables plunders harvests
+	variant 1
+		"Diorite" 2
+		"Halite" 4
+	variant 1
+		"Hornfel" 2
+		"Halite" 2
+	variant 1
+		"Diorite (Ballistic)" 2
+		"Dunite" 5
+	variant 1
+		"Hornfel (Light Load)"
+		"Hornfel (Heavy Weapons)"
+	variant 1
+		"Hornfel (Heavy Load)" 2
+		"Dunite" 2
+	variant 1
+		"Corundum (Torch)" 4
+		"Diorite (Ballistic)"
+	variant 1
+		"Corundum (Multi)" 3
+		"Hornfel (Heavy Weapons)" 
+	variant 1
+		"Gneiss"
+	variant 1
+		"Feldspar" 2
+
+# average 1000 weaponspace
+fleet "Heavy Gegno Pirate Fleet"
+	government "Gegno Pirates"
+	names "Gegno Pirates"
+	cargo 1
+	personality
+		disables plunders harvests
+	variant 1
+		"Gneiss"
+		"Diorite" 2
+		"Halite" 3
+	variant 1
+		"Feldspar" 2
+		"Hornfel" 2
+		"Halite" 2
+	variant 1
+		"Feldspar" 2
+		"Diorite (Ballistic)" 3
+	variant 1
+		"Gneiss"
+		"Hornfel (Heavy Weapons)" 2
+	variant 1
+		"Gneiss"
+		"Epidote" 2
+		"Dunite" 5
+	variant 1
+		"Gneiss"
+		"Feldspar"
+		"Corundum (Torch)"
+		"Diorite (Ballistic)"
+	variant 1
+		"Gneiss"
+		"Feldspar"
+		"Corundum (Multi)"
+		"Hornfel (Heavy Weapons)" 
+	variant 1
+		"Gneiss"
+		"Felsic" 4
+	variant 1
+		"Gneiss"
+		"Epidote" 3
+	variant 1
+		"Feldspar" 3
+		"Kyanite"
+		"Kyanite (Guile)"
+	variant 1
+		"Feldspar" 2
+		"Kyanite" 2
+		"Kyanite (Acumen)"
+
+# average 2000 weaponspace
+fleet "SuperHeavy Gegno Pirate Fleet"
+	government "Gegno Pirates"
+	names "Gegno Pirates"
+	cargo 1
+	personality
+		disables plunders harvests
+	variant 1
+		"Augen"
+		"Gneiss" 2
+	variant 1
+		"Augen"
+		"Feldspar" 4
+	variant 1
+		"Augen"
+		"Hornfel (Heavy Weapons)" 4
+	variant 1
+		"Augen"
+		"Kyanite (Guile)" 2
+		"Kyanite (Acumen)" 2
+	variant 1
+		"Augen"
+		"Diorite (Ballistic)" 4

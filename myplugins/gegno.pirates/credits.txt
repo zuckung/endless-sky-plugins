@@ -1,0 +1,6 @@
+gegno.pirates
+author:
+	zuckung 
+	https://github.com/zuckung/endless-sky-plugins
+images from:
+  https://www.craiyon.com

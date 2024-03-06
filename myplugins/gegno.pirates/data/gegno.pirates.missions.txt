@@ -1,0 +1,114 @@
+# 8 gegno pirate boarding missions with licenses as reward (5% chance)
+
+mission "Boarding Gegno Pirates (Civilian License)"
+	boarding
+	minor
+	destination "Earth"
+	to offer
+		random > 95
+	source
+		government "Gegno Pirates"
+	on offer
+		set "license: Gegno Civilian"
+		conversation 
+			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Civilian License.`
+				decline
+
+
+mission "Boarding Gegno Pirates (Driller License)"
+	boarding
+	minor
+	destination "Earth"
+	to offer
+		random > 95
+	source
+		government "Gegno Pirates"
+	on offer
+		set "license: Gegno Driller"
+		conversation 
+			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Driller License.`
+				decline
+
+mission "Boarding Gegno Pirates (Vi Lord License)"
+	boarding
+	minor
+	destination "Earth"
+	to offer
+		random > 95
+	source
+		government "Gegno Pirates"
+	on offer
+		set "license: Vi Lord"
+		conversation 
+			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Lord License.`
+				decline
+
+mission "Boarding Gegno Pirates (Vi Centurion License)"
+	boarding
+	minor
+	destination "Earth"
+	to offer
+		random > 95
+	source
+		government "Gegno Pirates"
+	on offer
+		set "license: Vi Centurion"
+		conversation 
+			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Centurion License.`
+				decline
+
+mission "Boarding Gegno Pirates (Vi Evocati License)"
+	boarding
+	minor
+	destination "Earth"
+	to offer
+		random > 95
+	source
+		government "Gegno Pirates"
+	on offer
+		set "license: Vi Evocati"
+		conversation 
+			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Evocati License.`
+				decline
+
+mission "Boarding Gegno Pirates (Scin Hoplologist License)"
+	boarding
+	minor
+	destination "Earth"
+	to offer
+		random > 95
+	source
+		government "Gegno Pirates"
+	on offer
+		set "license: Scin Hoplologist"
+		conversation 
+			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Scin Hoplologist License.`
+				decline
+
+mission "Boarding Gegno Pirates (Scin Architect License)"
+	boarding
+	minor
+	destination "Earth"
+	to offer
+		random > 95
+	source
+		government "Gegno Pirates"
+	on offer
+		set "license: Scin Architect"
+		conversation 
+			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Scin Architect License.`
+				decline
+
+mission "Boarding Gegno Pirates (Scin Adjutant License)"
+	boarding
+	minor
+	destination "Earth"
+	to offer
+		random > 95
+	source
+		government "Gegno Pirates"
+	on offer
+		set "license: Scin Adjutant"
+		conversation 
+			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Sci Adjutant License.`
+				decline

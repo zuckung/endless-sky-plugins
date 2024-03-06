@@ -1,0 +1,80 @@
+# new government "Gegno Pirates"
+# modified: "Gegno", "Gegno Scin", "Gegno Vi", "Gegno Scin (Neutral)", "Gegno Vi (Neutral)"
+
+government "Gegno Pirates"
+	swizzle 6
+	language "Gegno"
+	color "governments: Pirate"
+	"player reputation" -10
+	"fine" 0
+	"attitude toward"
+		"Author" -.1
+		"Gegno Scin" -.1
+		"Gegno Vi" -.1
+		"Gegno Scin (Neutral)" -.1
+		"Gegno Vi (Neutral)" -.1
+		"Gegno" -.01
+	"penalty for"
+		assist 0
+		disable 0.2
+		board 0.3
+		destroy 0.5
+
+government "Gegno"
+	"attitude toward"
+		"Gegno Pirates" -.1
+		"Gegno Scin" 0.01
+		"Gegno Vi" 0.01
+		"Quarg (Gegno)" 0.02
+	"penalty for"
+		assist -.25
+		provoke 10
+		destroy 10
+
+government "Gegno Scin"
+	"attitude toward"
+		"Gegno Pirates" -.1
+		"Gegno" 1
+		"Gegno Vi" -0.01
+	"penalty for"
+		assist -.25
+		disable 0.3
+		board 0.5
+		destroy 0.3
+
+government "Gegno Vi"
+	"attitude toward"
+		"Gegno Pirates" -.1
+		"Gegno" 1
+		"Gegno Vi (Duelist A)" 1
+		"Gegno Vi (Duelist B)" 1
+		"Gegno Scin" -0.01
+	"penalty for"
+		assist -.25
+		disable 0.3
+		board 0.5
+		destroy 0.3
+
+government "Gegno Scin (Neutral)"
+	"attitude toward"
+		"Gegno Pirates" -.1
+		"Gegno" 1
+	"penalty for"
+		assist -.25
+		disable 0.3
+		board 0.5
+		destroy 0.3
+	"foreign penalties for"
+		"Gegno"
+
+government "Gegno Vi (Neutral)"
+	"attitude toward"
+		"Gegno Pirates" -.1
+		"Gegno" 1
+	"penalty for"
+		assist -.25
+		disable 0.3
+		board 0.5
+		destroy 0.3
+	"foreign penalties for"
+		"Gegno"

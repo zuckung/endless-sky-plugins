@@ -1,0 +1,1 @@
+Adds a new faction of Gegno pirates which lets you capture Gegno ships without ruining your reputation. Also increases Gegno/Scin/Vi reputation by killing Gegno pirates. See the readme for details.

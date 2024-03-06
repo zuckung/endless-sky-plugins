@@ -1,0 +1,25 @@
+# new license outfit thumbnail
+
+outfit "Gegno Civilian License"
+	thumbnail "outfit/gegno.license"
+
+outfit "Gegno Driller License"
+	thumbnail "outfit/gegno.license"
+
+outfit "Vi Lord License"
+	thumbnail "outfit/gegno.license"
+	
+outfit "Vi Centurion License"
+	thumbnail "outfit/gegno.license"
+
+outfit "Vi Evocati License"
+	thumbnail "outfit/gegno.license"
+
+outfit "Scin Hoplologist License"
+	thumbnail "outfit/gegno.license"
+
+outfit "Scin Architect License"
+	thumbnail "outfit/gegno.license"
+
+outfit "Scin Adjutant License"
+	thumbnail "outfit/gegno.license"

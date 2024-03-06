@@ -1,0 +1,86 @@
+# new pirate planet "Bantam"
+# planet vi: Essime, Ternituul, Graede, Siedi, Enbye, Sies Upi
+# planet scin: Enn Bue , Dueitch Ae, Cipi, Ef Osch, Gue Faur, Oup Je
+# planet neutral: Tschyss, Ef Aourtdye, Dueyu Eitch, Iemn Eitch
+
+
+
+# Vi planets:
+
+planet "Essime"
+	"required reputation" 22
+
+planet "Siedi"
+	"required reputation" 27
+
+# has outfitter
+planet "Ternituul"
+	"required reputation" 50
+
+# has outfitter
+planet "Sies Upi"
+	"required reputation" 60
+
+# has outfitter, shipyard
+planet "Graede"
+	"required reputation" 75
+
+# has outfitter, shipyard
+planet "Enbye"
+	"required reputation" 100
+
+
+
+# Scin planets:
+
+planet "Cipi"
+	"required reputation" 20
+
+planet "Oup Je"
+	"required reputation" 23
+
+# has outfitter
+planet "Ef Osch"
+	"required reputation" 55
+
+# has outfitter, shipyard
+planet "Enn Bue"
+	"required reputation" 70
+
+# has outfitter, shipyard
+planet "Dueitch Ae"
+	"required reputation" 75
+
+# has outfitter, shipyard
+planet "Gue Faur"
+	"required reputation" 100
+
+
+
+# neutral planets:
+
+planet "Tschyss"
+	"required reputation" 30
+
+planet "Iemn Eitch"
+	"required reputation" 50
+
+# has outfitter, shipyard
+planet "Ef Aourtdye"
+	"required reputation" 90
+
+# has outfitter, shipyard
+planet "Dueyu Eitch"
+	"required reputation" 110
+
+
+
+
+# pirate planets:
+
+planet "Bantam"
+	attributes "Gegno Pirates" religious
+	landscape land/fog6
+	description `A planet of rough climate, hidden at the border of Gegno space and without any valuable resources. The perfect place for a pirate base.`
+	spaceport `	The mixed spaceships of the different Gegno groups clearly show that this is a pirate base.`
+	security 0
