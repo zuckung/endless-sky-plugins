@@ -1,4 +1,5 @@
 # 8 gegno pirate boarding missions with licenses as reward (5% chance)
+# 7 gegno pirate boarding missions with credits as reward (10% chance)
 
 mission "Boarding Gegno Pirates (Civilian License)"
 	boarding
@@ -11,7 +12,7 @@ mission "Boarding Gegno Pirates (Civilian License)"
 	on offer
 		set "license: Gegno Civilian"
 		conversation 
-			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Civilian License.`
+			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Civilian License.`
 				decline
 
 
@@ -26,7 +27,7 @@ mission "Boarding Gegno Pirates (Driller License)"
 	on offer
 		set "license: Gegno Driller"
 		conversation 
-			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Driller License.`
+			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Driller License.`
 				decline
 
 mission "Boarding Gegno Pirates (Vi Lord License)"
@@ -40,7 +41,7 @@ mission "Boarding Gegno Pirates (Vi Lord License)"
 	on offer
 		set "license: Vi Lord"
 		conversation 
-			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Lord License.`
+			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Lord License.`
 				decline
 
 mission "Boarding Gegno Pirates (Vi Centurion License)"
@@ -54,7 +55,7 @@ mission "Boarding Gegno Pirates (Vi Centurion License)"
 	on offer
 		set "license: Vi Centurion"
 		conversation 
-			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Centurion License.`
+			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Centurion License.`
 				decline
 
 mission "Boarding Gegno Pirates (Vi Evocati License)"
@@ -68,7 +69,7 @@ mission "Boarding Gegno Pirates (Vi Evocati License)"
 	on offer
 		set "license: Vi Evocati"
 		conversation 
-			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Evocati License.`
+			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Evocati License.`
 				decline
 
 mission "Boarding Gegno Pirates (Scin Hoplologist License)"
@@ -82,7 +83,7 @@ mission "Boarding Gegno Pirates (Scin Hoplologist License)"
 	on offer
 		set "license: Scin Hoplologist"
 		conversation 
-			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Scin Hoplologist License.`
+			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Scin Hoplologist License.`
 				decline
 
 mission "Boarding Gegno Pirates (Scin Architect License)"
@@ -96,7 +97,7 @@ mission "Boarding Gegno Pirates (Scin Architect License)"
 	on offer
 		set "license: Scin Architect"
 		conversation 
-			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Scin Architect License.`
+			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Scin Architect License.`
 				decline
 
 mission "Boarding Gegno Pirates (Scin Adjutant License)"
@@ -110,5 +111,110 @@ mission "Boarding Gegno Pirates (Scin Adjutant License)"
 	on offer
 		set "license: Scin Adjutant"
 		conversation 
-			`When you search the Gegno pirate ship <origin> for valuables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Sci Adjutant License.`
+			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Scin Adjutant License.`
 				decline
+
+
+# boarding for credits
+
+conversation "con boarding gegno pirate"
+	`As you board the "<origin>", the crew entrenches on the bridge. While searching for valueables you find a small chest with jewels worth <payment> credits.`
+		decline
+
+mission "Boarding Gegno Pirate (Interceptor)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random < 10
+	source
+		government "Gegno Pirates"
+		category "Interceptor" "Fighter"
+	on offer
+		payment 10000
+		conversation "con boarding gegno pirate"
+
+mission "Boarding Gegno Pirate (Light Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random < 10
+	source
+		government "Gegno Pirates"
+		category "Light Warship"
+	on offer
+		payment 20000
+		conversation "con boarding gegno pirate"
+
+mission "Boarding Gegno Pirate (Transport)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random < 10
+	source
+		government "Gegno Pirates"
+		category "Transport"
+	on offer
+		payment 18000
+		conversation "con boarding gegno pirate"
+
+mission "Boarding Gegno Pirate (Light Freighter)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random < 10
+	source
+		government "Gegno Pirates"
+		category "Light Freighter"
+	on offer
+		payment 16000
+		conversation "con boarding gegno pirate"
+
+mission "Boarding Gegno Pirate (Medium Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random < 10
+	source
+		government "Gegno Pirates"
+		category "Medium Warship"
+	on offer
+		payment 34000
+		conversation "con boarding gegno pirate"
+
+mission "Boarding Gegno Pirate (Heavy Freighter)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random < 10
+	source
+		government "Gegno Pirates"
+		category "Heavy Freighter" "Utility"
+	on offer
+		payment 26000
+		conversation "con boarding gegno pirate"
+
+mission "Boarding Gegno Pirate (Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random < 10
+	source
+		government "Gegno Pirates"
+		category "Heavy Warship" "Superheavy"
+	on offer
+		payment 75000
+		conversation "con boarding gegno pirate"
