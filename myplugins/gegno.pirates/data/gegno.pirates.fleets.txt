@@ -7,7 +7,7 @@ fleet "Trader Gegno Pirate Fleet"
 	cargo 1
 	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
 	personality
-		disables plunders harvests mining
+		disables plunders harvests mining surveillance
 	variant 1
 		"Mica" 4
 		"Dolomite"
@@ -17,9 +17,6 @@ fleet "Trader Gegno Pirate Fleet"
 	variant 1
 		"Tridymite" 4
 		"Conglomerate"
-	variant 1
-		"Slate" 3
-		"Protolith"
 	variant 1
 		"Gypsum" 3
 		"Granulite"

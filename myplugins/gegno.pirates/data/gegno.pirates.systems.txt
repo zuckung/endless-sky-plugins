@@ -17,13 +17,11 @@ system Zaron
 	minables uranium 11 6.5
 	minables platinum 32 4.1
 	minables copper 10 4.8
-	fleet "Small Vi" 2600
-	fleet "Small Scin" 5100
-	fleet "Small Gegno Pirate Fleet" 2000
-	fleet "Medium Gegno Pirate Fleet" 7000
-	fleet "Heavy Gegno Pirate Fleet" 9000
-	fleet "SuperHeavy Gegno Pirate Fleet" 12000
-	fleet "Trader Gegno Pirate Fleet" 13000
+	fleet "Small Gegno Pirate Fleet" 5000
+	fleet "Medium Gegno Pirate Fleet" 5000
+	fleet "Heavy Gegno Pirate Fleet" 5000
+	fleet "SuperHeavy Gegno Pirate Fleet" 10000
+	fleet "Trader Gegno Pirate Fleet" 10000
 	object
 		sprite star/b3
 		period 10

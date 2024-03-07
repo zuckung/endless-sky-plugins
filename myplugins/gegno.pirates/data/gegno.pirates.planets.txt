@@ -5,73 +5,106 @@
 
 
 
+outfitter "Gegno Basic" 
+outfitter "Gegno Intermediate" 
+outfitter "Scin Basic" 
+outfitter "Scin Intermediate" 
+outfitter "Scin Advanced"
+
+shipyard "Gegno Basic" 	"Dolomite" 	"Shale"
+shipyard "Gegno Intermediate" 	"Conglomerate" 	"Granofel"
+shipyard "Gegno Advanced" 	"Gypsum" 	"Corundum"
+shipyard "Vi Cargo" 	"Slate" 	"Schist"
+shipyard "Vi Warships I" 	"Hornfel" 	"Gneiss"
+shipyard "Vi Warships II" 	"Eclogite" 	"Diorite"
+shipyard "Vi Utility" 	"Granulite"
+shipyard "Scin Cargo" 	"Mica" 	"Felsic" 
+shipyard "Scin Warships" 	"Coesite" 	"Felsic" 	"Feldspar"
+shipyard "Scin Utility" 	"Halite" 	"Epidote" 	"Tridymite"
+
+
 # Vi planets:
 
 planet "Essime"
-	"required reputation" 22
+	"required reputation" 88
 
 planet "Siedi"
-	"required reputation" 27
+	"required reputation" 108
 
 # has outfitter
 planet "Ternituul"
-	"required reputation" 50
+	"required reputation" 200
 
 # has outfitter
 planet "Sies Upi"
-	"required reputation" 60
+	"required reputation" 240
 
 # has outfitter, shipyard
 planet "Graede"
-	"required reputation" 75
+	"required reputation" 300
 
 # has outfitter, shipyard
 planet "Enbye"
-	"required reputation" 100
-
+	"required reputation" 400
+	shipyard "Gegno Basic"
+	shipyard "Gegno Intermediate"
+	shipyard "Gegno Advanced"
+	shipyard "Vi Warships II"
+	shipyard "Vi Cargo"
+	outfitter "Gegno Basic" 
+	outfitter "Gegno Intermediate" 
 
 
 # Scin planets:
 
 planet "Cipi"
-	"required reputation" 20
+	"required reputation" 80
 
 planet "Oup Je"
-	"required reputation" 23
+	"required reputation" 92
 
 # has outfitter
 planet "Ef Osch"
-	"required reputation" 55
+	"required reputation" 220
 
 # has outfitter, shipyard
 planet "Enn Bue"
-	"required reputation" 70
+	"required reputation" 280
 
 # has outfitter, shipyard
 planet "Dueitch Ae"
-	"required reputation" 75
+	"required reputation" 300
 
 # has outfitter, shipyard
 planet "Gue Faur"
-	"required reputation" 100
+	"required reputation" 400
+	shipyard "Gegno Basic"
+	shipyard "Gegno Intermediate"
+	shipyard "Gegno Advanced"
+	shipyard "Scin Cargo"
+	shipyard "Scin Warships"
+	outfitter "Scin Basic" 
+	outfitter "Scin Intermediate" 
+	outfitter "Gegno Basic" 
+	outfitter "Gegno Intermediate" 
 
 
 
 # neutral planets:
 
 planet "Tschyss"
-	"required reputation" 30
+	"required reputation" 1200
 
 planet "Iemn Eitch"
-	"required reputation" 50
+	"required reputation" 2000
 
 # has outfitter, shipyard
 planet "Ef Aourtdye"
-	"required reputation" 90
+	"required reputation" 3600
 
 # has outfitter, shipyard
 planet "Dueyu Eitch"
-	"required reputation" 110
+	"required reputation" 4400
 
 
 
