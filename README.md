@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-06 | update: gegno.pirates<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-07 | update: gegno.pirates<br>
+2024-03-06 | update: gegno.pirates<br>
 2024-02-19 | update: additional.command.buttons<br>
 2024-02-18 | update: bunrodea.missions<br>
 2024-02-17 | update: navy.licenses<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-02-04 | update: no.more.mereti.mines<br>
 2024-02-04 | update: too.many.asteroids<br>
 2024-02-04 | update: unique.fix<br>
-2024-02-02 | update: disable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1077,7 +1077,7 @@ moved investment missions from spaceport mission to job board
 
 <img src="myplugins/gegno.pirates/icon.png" height="100">
 
-[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/gegno.pirates.zip) | 111.79 kb | 2024-03-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
+[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/gegno.pirates.zip) | 236.27 kb | 2024-03-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
 <br>
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships without ruining your reputation. Also increases Gegno/Scin/Vi reputation by killing Gegno pirates. See the readme for details.
 
@@ -1095,7 +1095,7 @@ Adds a new faction of Gegno pirates which lets you capture Gegno ships without r
 
 The new government "Gegno Pirates" inhabit the new System "Zaron"(between Huud, Vesvii and Cotpoxi). The surrounding systems, up to 3 jumps away, have new pirate fleets.<br>
 
-Killing pirates and assisting Gegno/Scin/Vi gives reputation now. The needed reputation to land on the Gegno planets got changed to higher values. Killing like 100 Gegno pirates should allow you to land on all Gegno planets and use their shipyards and outfitters.<br>
+Killing pirates and assisting Gegno/Scin/Vi gives reputation now. The needed reputation to land on the Gegno planets got changed to higher values. Killing like 80 Gegno pirates should allow you to land on all Gegno planets and use their shipyards and outfitters.<br>
 
 Boarding Gegno Pirates gives you a 5% chance to obtain one of the 8 Gegno licenses.<br> 
 
@@ -1107,9 +1107,25 @@ Changelog:<br>
 
 <br>
 
+2024-03-07<br>
+
+adjustments and fixes<br>
+
+added different license pngs<br>
+
+added missing outfits and ships<br>
+
+<br>
+
 2024-03-05<br>
 
 initial release<br>
+
+
+
+
+
+
 
 
 
