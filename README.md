@@ -1103,9 +1103,7 @@ Boarding Gegno Pirates gives you a 5% chance to obtain one of the 8 Gegno licens
 
 Warning: As soon as new Gegno story content is added to the base game, it is highly advised to remove this plugin and/or do a new playthrough. If not, the new story missions, which are probably based on reputation, won't appear in the planned order. If you want to keep your save you have to remove this plugin and edit your savegame. To do so ... open your savegame and find the lines with the different Gegno reputations looking like the following lines and change the values to 0.	<br>
 
-<code>	
-
-	Gegno 5544.86
+<code>	Gegno 5544.86
 
 	"Gegno Pirates" -4871.9
 
@@ -1119,9 +1117,7 @@ Warning: As soon as new Gegno story content is added to the base game, it is hig
 
 	"Gegno Vi (Duelist B)" 0
 
-	"Gegno Vi (Neutral)" 517.5
-
-</code>
+	"Gegno Vi (Neutral)" 517.5</code>
 
 then find the position where the licenses are saved, looking like this:<br>
 
