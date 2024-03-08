@@ -1,4 +1,4 @@
-# fleets: trader, small, medium, heavy, superheavy
+# new fleets: trader, small, medium, heavy, superheavy
 
 # mostly unarmed
 fleet "Trader Gegno Pirate Fleet"
@@ -7,7 +7,8 @@ fleet "Trader Gegno Pirate Fleet"
 	cargo 1
 	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
 	personality
-		disables plunders harvests mining surveillance
+		confusion 30
+		disables plunders harvests mining surveillance appeasing
 	variant 1
 		"Mica" 4
 		"Dolomite"
@@ -34,6 +35,7 @@ fleet "Small Gegno Pirate Fleet"
 	cargo 1
 	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
 	personality
+		confusion 20
 		disables plunders harvests surveillance
 	variant 1
 		"Coesite"
@@ -61,6 +63,7 @@ fleet "Medium Gegno Pirate Fleet"
 	cargo 1
 	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
 	personality
+		confusion 20
 		disables plunders harvests surveillance
 	variant 1
 		"Diorite" 2
@@ -95,6 +98,7 @@ fleet "Heavy Gegno Pirate Fleet"
 	cargo 1
 	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
 	personality
+		confusion 20
 		disables plunders harvests surveillance
 	variant 1
 		"Gneiss"
@@ -146,6 +150,7 @@ fleet "SuperHeavy Gegno Pirate Fleet"
 	cargo 1
 	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
 	personality
+		confusion 20
 		disables plunders harvests surveillance
 	variant 1
 		"Augen"

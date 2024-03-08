@@ -1,5 +1,76 @@
+# 1 missions to display the center of the pirate threat
+# 2 boarding missions to display plugin progression
+# 1 mission to reveal hidden planet with full outfitter/shipyard
+# 1 event for the reveal
 # 8 gegno pirate boarding missions with licenses as reward (5% chance)
 # 7 gegno pirate boarding missions with credits as reward (10% chance)
+
+mission "found gegno pirates"
+	landing
+	invisible
+	on offer
+		accept
+	on enter "Zaron"
+		dialog `You have entered the Zaron system. This must be the center of the Gegno pirate threat. Boarding these pirates might bring unexpected wealth!`
+		fail
+
+mission "full gegno rep"
+	boarding
+	destination "Earth"
+	source
+		government "Gegno Pirates"
+	to offer
+		"reputation: Gegno" >= 4400
+		"reputation: Gegno Scin" >= 400
+	on offer
+		conversation
+			`A look at your long range friend/foe identifier shows that you can land on all Gegno planets now. The Gegno seem to register you fight against the pirates.`
+				decline
+
+mission "all gegno licenses"
+	boarding
+	destination "Earth"
+	source
+		government "Gegno Pirates"
+	to offer
+		has "license: Gegno Civilian"
+		has "license: Gegno Driller"
+		has "license: Vi Lord"
+		has "license: Vi Centurion"
+		has "license: Vi Evocati"
+		has "license: Scin Hoplologist"
+		has "license: Scin Architect"
+		has "license: Scin Adjutant"
+	on offer
+		conversation
+			`After comparing all ships on the 8 Gegno Licenses plates you've looted so far with the Gegno ships you have seen in their space, it seems you collected all licenses!`
+				decline
+
+mission "gegno.pirates complete"
+	landing
+	name "Travel to a hidden Gegno system"
+	description "You received a star map with an additional system not found in your own celestial database. Find out what is there."
+	source
+		government "Gegno" "Gegno Vi" "Gegno Scin"
+	destination "Uuta"
+	to offer
+		has "all gegno licenses: declined"
+		has "full gegno rep: declined"
+	on offer
+		event "reveal gegno outfitter"
+		conversation
+			`After refuelling you notice a Gegno starring at you and your ship. The eye contact brings motion into his legs, he approaches and hands over a small star map with a marked system. You examine the star map and when you look up again the Gegno allready disappeared. The map shows a marked system you don't know. Maybe you should go there and find out what's there.`
+				accept
+	on complete
+		conversation
+			`You reached <destination>. This planet has an outfitter and a shipyard which sell all equipment the Gegno can offer. Time to go shopping!`
+
+event "reveal gegno outfitter"
+	system "Uuba"
+		remove hidden
+	link Asio Uuba
+
+# boarding for licenses
 
 mission "Boarding Gegno Pirates (Civilian License)"
 	boarding
@@ -15,7 +86,6 @@ mission "Boarding Gegno Pirates (Civilian License)"
 			scene "outfit/gegno.license"
 			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Civilian License.`
 				decline
-
 
 mission "Boarding Gegno Pirates (Driller License)"
 	boarding

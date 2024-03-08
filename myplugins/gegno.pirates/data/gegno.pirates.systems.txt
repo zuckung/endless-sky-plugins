@@ -1,7 +1,42 @@
-# new system "Zaron"
+# new hidden gegno system "Uuba", new pirate system "Zaron"
 # new hyperlanes from Huud, Cotpoxi and Vesvii to Zaron
 # new pirate fleets to Huud, Cotpoxi, Vesvii, Fscher, Anbrim, Yerser, Vilacira, Mnashyu, Jyelio, Ilirco, Evrae, Eebu, Wreoul, Empeles
 
+
+
+system Uuba
+	hidden
+	pos 837 -658
+	government "Gegno"
+	attributes "bright star" "notable star"
+	arrival 1000
+	habitable 2000
+	belt 1748
+	haze _menu/haze-67
+	link Asio
+	minables uranium 3 9.1
+	minables platinum 3 7.8
+	minables copper 3 5.3
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
+	fleet "Gegno Basic" 500
+	fleet "Gegno Cargo" 900
+	fleet "Gegno Miners" 1100
+	object
+		sprite star/b3
+		period 10
+	object "Uuta"
+		sprite planet/ocean3-b
+		distance 2012
+		period 1010
 
 system Zaron
 	pos 805 -383
@@ -17,6 +52,16 @@ system Zaron
 	minables uranium 11 6.5
 	minables platinum 32 4.1
 	minables copper 10 4.8
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
 	fleet "Small Gegno Pirate Fleet" 5000
 	fleet "Medium Gegno Pirate Fleet" 5000
 	fleet "Heavy Gegno Pirate Fleet" 5000

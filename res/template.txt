@@ -1,7 +1,7 @@
 # **my endless-sky-plugins**
 I aim at developing small, modular and maximal compatible plugins that don't break vanilla lore too much. <br>
 Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me.<br>
-Pull requests, discussions and issue reports are welcome. <br>
+<a href="https://github.com/zuckung/endless-sky-plugins/pulls">Pull requests</a>, <a href="https://github.com/zuckung/endless-sky-plugins/discussions">discussions</a> and <a href="https://github.com/zuckung/endless-sky-plugins/issues">Issue reports</a> are welcome! <br>
 <br>
 Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators or people who seek informations inside the data folder. Basically it is a very fast website to view every object of the data folder, especially when you don't know where to find something. Easy browsing of missions, ships, outfits, systems etc.<br>
 <br>

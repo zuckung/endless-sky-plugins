@@ -1,26 +1,8 @@
+# modified planet vi: Essime, Ternituul, Graede, Siedi, Enbye, Sies Upi
+# modified planet scin: Enn Bue , Dueitch Ae, Cipi, Ef Osch, Gue Faur, Oup Je
+# modified planet neutral: Tschyss, Ef Aourtdye, Dueyu Eitch, Iemn Eitch
 # new pirate planet "Bantam"
-# planet vi: Essime, Ternituul, Graede, Siedi, Enbye, Sies Upi
-# planet scin: Enn Bue , Dueitch Ae, Cipi, Ef Osch, Gue Faur, Oup Je
-# planet neutral: Tschyss, Ef Aourtdye, Dueyu Eitch, Iemn Eitch
-
-
-
-outfitter "Gegno Basic" 
-outfitter "Gegno Intermediate" 
-outfitter "Scin Basic" 
-outfitter "Scin Intermediate" 
-outfitter "Scin Advanced"
-
-shipyard "Gegno Basic" 	"Dolomite" 	"Shale"
-shipyard "Gegno Intermediate" 	"Conglomerate" 	"Granofel"
-shipyard "Gegno Advanced" 	"Gypsum" 	"Corundum"
-shipyard "Vi Cargo" 	"Slate" 	"Schist"
-shipyard "Vi Warships I" 	"Hornfel" 	"Gneiss"
-shipyard "Vi Warships II" 	"Eclogite" 	"Diorite"
-shipyard "Vi Utility" 	"Granulite"
-shipyard "Scin Cargo" 	"Mica" 	"Felsic" 
-shipyard "Scin Warships" 	"Coesite" 	"Felsic" 	"Feldspar"
-shipyard "Scin Utility" 	"Halite" 	"Epidote" 	"Tridymite"
+# new Gegno planet "Uuta" with all shipyards and outfitters
 
 
 # Vi planets:
@@ -46,13 +28,9 @@ planet "Graede"
 # has outfitter, shipyard
 planet "Enbye"
 	"required reputation" 400
-	shipyard "Gegno Basic"
-	shipyard "Gegno Intermediate"
-	shipyard "Gegno Advanced"
 	shipyard "Vi Warships II"
 	shipyard "Vi Cargo"
-	outfitter "Gegno Basic" 
-	outfitter "Gegno Intermediate" 
+
 
 
 # Scin planets:
@@ -78,15 +56,10 @@ planet "Dueitch Ae"
 # has outfitter, shipyard
 planet "Gue Faur"
 	"required reputation" 400
-	shipyard "Gegno Basic"
-	shipyard "Gegno Intermediate"
-	shipyard "Gegno Advanced"
 	shipyard "Scin Cargo"
 	shipyard "Scin Warships"
 	outfitter "Scin Basic" 
 	outfitter "Scin Intermediate" 
-	outfitter "Gegno Basic" 
-	outfitter "Gegno Intermediate" 
 
 
 
@@ -108,8 +81,7 @@ planet "Dueyu Eitch"
 
 
 
-
-# pirate planets:
+# new planets:
 
 planet "Bantam"
 	attributes "Gegno Pirates" religious
@@ -117,3 +89,29 @@ planet "Bantam"
 	description `A planet of rough climate, hidden at the border of Gegno space and without any valuable resources. The perfect place for a pirate base.`
 	spaceport `	The mixed spaceships of the different Gegno groups clearly show that this is a pirate base.`
 	security 0
+	outfitter "Gegno Basic"
+	shipyard "Gegno Basic"
+
+planet "Uuta"
+	attributes "Gegno"
+	landscape land/city6
+	description `A highly populated and very wealthy planet hidden by the Gegno.`
+	spaceport `	On this enormous spaceport you see nearly every ship typ you've encountered during your travels through Gegno space.`
+	security 0
+	outfitter "Gegno Basic"
+	outfitter "Gegno Intermediate"
+	outfitter "Vi Basic"
+	outfitter "Vi Intermediate"
+	outfitter "Scin Basic"
+	outfitter "Scin Intermediate"
+	outfitter "Scin Advanced"
+	shipyard "Gegno Basic"
+	shipyard "Gegno Intermediate"
+	shipyard "Gegno Advanced"
+	shipyard "Vi Cargo"
+	shipyard "Vi Warships I"
+	shipyard "Vi Warships II"
+	shipyard "Vi Utility"
+	shipyard "Scin Cargo"
+	shipyard "Scin Warships"
+	shipyard "Scin Utility"
