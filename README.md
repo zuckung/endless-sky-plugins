@@ -1,7 +1,7 @@
 # **my endless-sky-plugins**
 I aim at developing small, modular and maximal compatible plugins that don't break vanilla lore too much. <br>
 Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me.<br>
-Pull requests, discussions and issue reports are welcome. <br>
+<a href="https://github.com/zuckung/endless-sky-plugins/pulls">Pull requests</a>, <a href="https://github.com/zuckung/endless-sky-plugins/discussions">discussions</a> and <a href="https://github.com/zuckung/endless-sky-plugins/issues">Issue reports</a> are welcome! <br>
 <br>
 Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators or people who seek informations inside the data folder. Basically it is a very fast website to view every object of the data folder, especially when you don't know where to find something. Easy browsing of missions, ships, outfits, systems etc.<br>
 <br>
@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-07 | update: gegno.pirates<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-08 | update: gegno.pirates<br>
+2024-03-07 | update: gegno.pirates<br>
 2024-03-06 | update: gegno.pirates<br>
 2024-02-19 | update: additional.command.buttons<br>
 2024-02-18 | update: bunrodea.missions<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-02-15 | update: better.starts<br>
 2024-02-04 | update: no.more.mereti.mines<br>
 2024-02-04 | update: too.many.asteroids<br>
-2024-02-04 | update: unique.fix<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1077,7 +1077,7 @@ moved investment missions from spaceport mission to job board
 
 <img src="myplugins/gegno.pirates/icon.png" height="100">
 
-[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/gegno.pirates.zip) | 236.27 kb | 2024-03-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
+[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/gegno.pirates.zip) | 237.91 kb | 2024-03-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
 <br>
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships without ruining your reputation. Also increases Gegno/Scin/Vi reputation by killing Gegno pirates. See the readme for details.
 
@@ -1101,9 +1101,67 @@ Boarding Gegno Pirates gives you a 5% chance to obtain one of the 8 Gegno licens
 
 <br>
 
+Warning: As soon as new Gegno story content is added to the base game, it is highly advised to remove this plugin and/or do a new playthrough. If not, the new story missions, which are probably based on reputation, won't appear in the planned order. If you want to keep your save you have to remove this plugin and edit your savegame. To do so ... open your savegame and find the lines with the different Gegno reputations looking like the following lines and change the values to 0.	<br>
+
+<code>	
+
+	Gegno 5544.86
+
+	"Gegno Pirates" -4871.9
+
+	"Gegno Scin" 517.5
+
+	"Gegno Scin (Neutral)" 517.5
+
+	"Gegno Vi" 517.5
+
+	"Gegno Vi (Duelist A)" 0
+
+	"Gegno Vi (Duelist B)" 0
+
+	"Gegno Vi (Neutral)" 517.5
+
+</code>
+
+then find the position where the licenses are saved, looking like this:<br>
+
+<code>
+
+licenses
+
+	City-Ship
+
+	Coalition
+
+	"Gegno Civilian"
+
+	"Gegno Driller"
+
+	Heliarch
+
+	...
+
+<code>
+
+Remove the 8 lines containing: "Gegno Civilian" "Gegno Driller"	 "Scin Adjutant" "Scin Architect 	"Scin Hoplologist" "Vi Centurion" "Vi Evocati" 	"Vi Lord". Save it and then you are ready to start the new Gegno storylines as planned.<br>
+
+<br>
+
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-08<br>
+
+adjustments and fixes<br>
+
+added plugin removal guide to the readme<br>
+
+added several missions<br>
+
+added new planet with all outfits/ships for easier browsing<br>
 
 <br>
 
