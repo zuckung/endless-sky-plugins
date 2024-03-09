@@ -22,9 +22,10 @@ mission "full gegno rep"
 	to offer
 		"reputation: Gegno" >= 4400
 		"reputation: Gegno Scin" >= 400
+		not "gegno.pirates complete: done"
 	on offer
 		conversation
-			`A look at your long range friend/foe identifier shows that you can land on all Gegno planets now. The Gegno seem to register you fight against the pirates.`
+			`A look at your long range friend/foe identifier shows that you can land on all Gegno planets now. The Gegno seem to register your fight against the pirates.`
 				decline
 
 mission "all gegno licenses"
@@ -41,9 +42,10 @@ mission "all gegno licenses"
 		has "license: Scin Hoplologist"
 		has "license: Scin Architect"
 		has "license: Scin Adjutant"
+		not "gegno.pirates complete: done"
 	on offer
 		conversation
-			`After comparing all ships on the 8 Gegno Licenses plates you've looted so far with the Gegno ships you have seen in their space, it seems you collected all licenses!`
+			`After comparing all ships engraved on the 8 Gegno Licenses plates you've looted so far with the Gegno ships you have seen in their space, it seems you collected all licenses!`
 				decline
 
 mission "gegno.pirates complete"
@@ -54,8 +56,16 @@ mission "gegno.pirates complete"
 		government "Gegno" "Gegno Vi" "Gegno Scin"
 	destination "Uuta"
 	to offer
-		has "all gegno licenses: declined"
-		has "full gegno rep: declined"
+		has "license: Gegno Civilian"
+		has "license: Gegno Driller"
+		has "license: Vi Lord"
+		has "license: Vi Centurion"
+		has "license: Vi Evocati"
+		has "license: Scin Hoplologist"
+		has "license: Scin Architect"
+		has "license: Scin Adjutant"
+		"reputation: Gegno" >= 4400
+		"reputation: Gegno Scin" >= 400
 	on offer
 		event "reveal gegno outfitter"
 		conversation

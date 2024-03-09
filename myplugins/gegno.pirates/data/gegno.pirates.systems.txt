@@ -42,9 +42,9 @@ system Zaron
 	pos 805 -383
 	government "Gegno Pirates"
 	attributes "bright star" "Gegno Pirates" "notable star"
-	arrival 2000
-	habitable 6300
-	belt 1048
+	arrival 1000
+	habitable 3000
+	belt 1548
 	haze _menu/haze-67
 	link Huud
 	link Cotpoxi
