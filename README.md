@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-08 | update: gegno.pirates<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-09 | update: gegno.pirates<br>
+2024-03-08 | update: gegno.pirates<br>
 2024-03-07 | update: gegno.pirates<br>
 2024-03-06 | update: gegno.pirates<br>
 2024-02-19 | update: additional.command.buttons<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-02-15 | update: pirate.warlords<br>
 2024-02-15 | update: better.starts<br>
 2024-02-04 | update: no.more.mereti.mines<br>
-2024-02-04 | update: too.many.asteroids<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1077,9 +1077,9 @@ moved investment missions from spaceport mission to job board
 
 <img src="myplugins/gegno.pirates/icon.png" height="100">
 
-[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/gegno.pirates.zip) | 237.9 kb | 2024-03-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
+[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/gegno.pirates.zip) | 238.03 kb | 2024-03-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
 <br>
->Adds a new faction of Gegno pirates which lets you capture Gegno ships without ruining your reputation. Also increases Gegno/Scin/Vi reputation by killing Gegno pirates. See the readme for details.
+>Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1089,7 +1089,7 @@ moved investment missions from spaceport mission to job board
 
 <br>
 
-Adds a new faction of Gegno pirates which lets you capture Gegno ships without ruining your reputation. Also increases Gegno/Scin/Vi reputation by killing Gegno pirates.<br>
+Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear.<br>
 
 <br>
 
@@ -1099,27 +1099,29 @@ Killing pirates and assisting Gegno/Scin/Vi gives reputation now. The needed rep
 
 Boarding Gegno Pirates gives you a 5% chance to obtain one of the 8 Gegno licenses.<br> 
 
+After gaining full reputation for all planets and obtaining all Gegno licenses you get a mission to a new system with all outfitters/shipyards centralized.<br>
+
 <br>
 
 Warning: As soon as new Gegno story content is added to the base game, it is highly advised to remove this plugin and/or do a new playthrough. If not, the new story missions, which are probably based on reputation, won't appear in the planned order. If you want to keep your save you have to remove this plugin and edit your savegame. To do so ... open your savegame and find the lines with the different Gegno reputations looking like the following lines and change the values to 0.	<br>
 
 <br>
 
-	Gegno 5544.86<br>
+ Gegno 5544.86<br>
 
-	"Gegno Pirates" -4871.9<br>
+ "Gegno Pirates" -4871.9<br>
 
-	"Gegno Scin" 517.5<br>
+ "Gegno Scin" 517.5<br>
 
-	"Gegno Scin (Neutral)" 517.5<br>
+ "Gegno Scin (Neutral)" 517.5<br>
 
-	"Gegno Vi" 517.5<br>
+ "Gegno Vi" 517.5<br>
 
-	"Gegno Vi (Duelist A)" 0<br>
+ "Gegno Vi (Duelist A)" 0<br>
 
-	"Gegno Vi (Duelist B)" 0<br>
+ "Gegno Vi (Duelist B)" 0<br>
 
-	"Gegno Vi (Neutral)" 517.5<br>
+ "Gegno Vi (Neutral)" 517.5<br>
 
 <br>
 
@@ -1129,17 +1131,17 @@ then find the position where the licenses are saved, looking like this:<br>
 
 licenses<br>
 
-	City-Ship<br>
+ City-Ship<br>
 
-	Coalition<br>
+ Coalition<br>
 
-	"Gegno Civilian"<br>
+ "Gegno Civilian"<br>
 
-	"Gegno Driller"<br>
+ "Gegno Driller"<br>
 
-	Heliarch<br>
+ Heliarch<br>
 
-	...<br>
+ ...<br>
 
 <br>
 
@@ -1150,6 +1152,14 @@ Remove the 8 lines containing: "Gegno Civilian" "Gegno Driller"	 "Scin Adjutant"
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-09<br>
+
+adjustments and fixes<br>
+
+compatibility fix in missions<br>
 
 <br>
 
