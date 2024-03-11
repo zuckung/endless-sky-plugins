@@ -15,8 +15,8 @@ At 200 rep the third mission starts, which gives 40 rep and unlocks the third re
 <br>
 Changelog:<br>
 <br>
-2024-03-xx<br>
-fixed missions not starting bug <br>
+2024-03-11<br>
+fixed missions not starting bug<br>
 removed worldship fleets from the 3 border systems<br>
 added normal korath fleets to the 3 border systems<br>
 added 3rd fight mission(worldship) and repeatable job(25% chance)<br>
