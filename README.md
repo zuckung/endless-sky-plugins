@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-09 | update: gegno.pirates<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-11 | update: bunrodea.missions<br>
+2024-03-09 | update: gegno.pirates<br>
 2024-03-08 | update: gegno.pirates<br>
 2024-03-07 | update: gegno.pirates<br>
 2024-03-06 | update: gegno.pirates<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-02-17 | update: navy.licenses<br>
 2024-02-15 | update: pirate.warlords<br>
 2024-02-15 | update: better.starts<br>
-2024-02-04 | update: no.more.mereti.mines<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -417,7 +417,7 @@ added Start Explorer to Automata<br>
 
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 48.23 kb | 2024-02-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 51.08 kb | 2024-03-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the readme for details.
 <details>
@@ -440,21 +440,37 @@ Unlocking the planet with all ships needs 100 reputation. Unlocking the last of 
 
 20 rep for the first mission which unlocks repeatable jobs.<br>
 
-5-7 rep for repeatable transport jobs<br>
+5-9 rep for repeatable jobs<br>
 
 10 rep for Korath ship killing job<br>
 
 At 100 rep the second mission starts, which gives 30 rep and unlocks the second repeatable fighting job which gives 30 rep.<br>
 
-<br>
-
-As a little bonus, the three eastern uninhabited systems spawn jumpdrive equipped "Lor'kas Ik 577" or "Ra'gru Ik 618" or "Ra'at Ik 621".<br>
+At 200 rep the third mission starts, which gives 40 rep and unlocks the third repeatable fighting job which gives 40 rep.<br>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-xx<br>
+
+fixed missions not starting bug <br>
+
+removed worldship fleets from the 3 border systems<br>
+
+added normal korath fleets to the 3 border systems<br>
+
+added 3rd fight mission(worldship) and repeatable job(25% chance)<br>
+
+added 3 rush delivery jobs<br>
+
+added criminal hunt culture conversation(25% chance) and repeatable job(35% chance)<br>
+
+added final mission at 500 reputation<br>
 
 <br>
 
