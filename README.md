@@ -456,9 +456,9 @@ Changelog:<br>
 
 <br>
 
-2024-03-xx<br>
+2024-03-11<br>
 
-fixed missions not starting bug <br>
+fixed missions not starting bug<br>
 
 removed worldship fleets from the 3 border systems<br>
 
