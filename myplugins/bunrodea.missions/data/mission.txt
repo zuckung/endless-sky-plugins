@@ -152,6 +152,7 @@ mission "bunrodea full rep"
 	to offer
 		not planet "Erabuthro"
 		"reputation: Bunrodea" >= 500
+		has "bunrodea defense 3: done"
 	on offer
 		conversation
 			`When you enter the spaceport, Josuno is already waiting for you.`
