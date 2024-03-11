@@ -7,14 +7,22 @@ Unlocking the planet with all ships needs 100 reputation. Unlocking the last of 
 <br>
 10 rep for vanilla first contact mission<br>
 20 rep for the first mission which unlocks repeatable jobs.<br>
-5-7 rep for repeatable transport jobs<br>
+5-9 rep for repeatable jobs<br>
 10 rep for Korath ship killing job<br>
 At 100 rep the second mission starts, which gives 30 rep and unlocks the second repeatable fighting job which gives 30 rep.<br>
-<br>
-As a little bonus, the three eastern uninhabited systems spawn jumpdrive equipped "Lor'kas Ik 577" or "Ra'gru Ik 618" or "Ra'at Ik 621".<br>
+At 200 rep the third mission starts, which gives 40 rep and unlocks the third repeatable fighting job which gives 40 rep.<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-03-xx<br>
+fixed missions not starting bug <br>
+removed worldship fleets from the 3 border systems<br>
+added normal korath fleets to the 3 border systems<br>
+added 3rd fight mission(worldship) and repeatable job(25% chance)<br>
+added 3 rush delivery jobs<br>
+added criminal hunt culture conversation(25% chance) and repeatable job(35% chance)<br>
+added final mission at 500 reputation<br>
 <br>
 2024-02-18<br>
 fixed unplayable first mission, if it gets started direct after the first contact<br>

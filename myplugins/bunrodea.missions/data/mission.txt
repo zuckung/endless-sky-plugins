@@ -1,3 +1,7 @@
+# 3 defense missions
+# mission at full rep
+# criminal hunt culture conversation
+
 mission "bunrodea defense"
 	landing
 	name "Bunrodea Defense"
@@ -41,6 +45,8 @@ mission "bunrodea defense"
 		"reputation: Bunrodea (Guard)" += 30
 		"reputation: Bunrodea (Megasa)" += 30
 
+
+
 mission "bunrodea defense 2"
 	landing
 	name "Bunrodea Defense 2"
@@ -50,10 +56,9 @@ mission "bunrodea defense 2"
 	waypoint "Genta Bo"
 	to offer
 		"reputation: Bunrodea" >= 100
-		random < 10
 	on offer
 		conversation
-			`The young Bunrodea with the silly appearance and behaivior awaits you at the spaceport. This time he has memorized his speech.`
+			`The young Bunrodea with the silly appearance and behavior awaits you at the spaceport. This time he has memorized his speech.`
 			`"Our great queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro' is very pleased with your devotion to our cause. She offers you the chance to gain more honour. A Korath fleet just entered the Genta Bo system and you are chosen to fight for our queen."`
 			`Like on all your previous meetings, he doesn't wait for a response and just walks away. You aren't sure if he is just a bureaucrat, stupid or a normal Bunrodea. This race is still very strange to your understanding.`
 				accept
@@ -79,7 +84,7 @@ mission "bunrodea defense 2"
 		conversation
 			`After leaving your ship, an an elderly distinguished Bunrodea awaits you. He bows before you.`
 			`"Greetings captain <last>, my name is Josuno and I am your new contact to the government. Our queen wishes to gratulate you to your great victory over the Korath fleet. She is very pleased by your work. You can find new opportunities to earn more honour on the job board."`
-			`"And personally, I have to say it is an honour to meet you in person. Our deep space surveillance systems spread your fights with the Korath all over the empire. You are well known by most Bunrodea."`
+			`"And personally, I have to say it is an honour to meet you in person. Our deep space surveillance systems spread recordings of your fights with the Korath all over the empire. You are well known by most Bunrodea."`
 			`"Well, I don't want to hold you back from your work. I wish you all the best, good luck and farewell." He starts walking away.`
 			`"Wait a second" you say, "I have a question about my former contact man."`
 			`Josuno slowly turns around. "There is nothing to say, but if you aren't in a hurry, maybe I can have a look at your ship?"`
@@ -89,3 +94,103 @@ mission "bunrodea defense 2"
 		"reputation: Bunrodea (Erabu)" += 30
 		"reputation: Bunrodea (Guard)" += 30
 		"reputation: Bunrodea (Megasa)" += 30
+
+
+
+mission "bunrodea defense 3"
+	landing
+	name "Bunrodea Defense 3"
+	description "A Korath worldship entered Bunrodea territory at Eneva Katta. Destroy it."
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	waypoint "Eneva Katta"
+	to offer
+		"reputation: Bunrodea" >= 200
+	on offer
+		conversation
+			`After leaving your ship you find Josuno already waiting for you.`
+			`"Greetings captain <last>, our queen once again offers you to defend the empire."`
+			`"A few hours ago, a Korath worldship destroyed one of our surveillance satellites in a peripheral system. Your task is to track down and destroy the worldship in the "Eneva Katta" system. I wish you good luck!"`
+				accept
+	npc kill
+		government "Korath"
+		personality personality heroic nemesis staying
+		system "Eneva Katta"
+		fleet
+			names "korath"
+			cargo 200
+			variant 1
+				"Ra'gru Ik 618"
+			variant 1
+				"Lor'kas Ik 577 (Jump)"
+			variant 1
+				"Ra'at Ik 621"
+		dialog "You have destroyed the Korath worldship."
+	on complete
+		conversation
+			`After landing you see a large crowd of Bunrodea gathering in front of your ship. From dock workers, security personnel to lower dignitaries, everyone seems to be there.`
+			`As the ramp of your ship lowers and you step outside, the crowd falls silent and raises their arms in unison. You wonder what that means. Josuno pushes himself out of the crowd, stands silently in front of you and raises his arms.`
+			`Since he doesn't make any effort to say anything, you decide to ask what it all means.
+			`"I'm sorry Captain <last>, I completely forgot how little you know about our customs. That arm gesture is a sign of deep respect. Everyone here saw your space battle with the worldship live on the space surveillance system. And everyone is here to honor you."`
+			`"It is our custom that you now raise your arms to acknowledge the honor."`
+			`As you raise your arms, all the Bunrodea lower theirs and the crowd slowly disperses.`
+			`"Such displays of honor are usually only seen in the Queen's palace, and practically never to a non-noble."`
+			`"Well, our Queen has instructed me to express our deepest gratitude to you and to assure you the eternal friendship of the Bunrodea Empire. And I personally would like to thank you as well. Just knowing you has brought me great honor."`
+			`"I hope we see each other again soon. Until then, I wish you the best of luck."`
+		"reputation: Bunrodea" += 40
+		"reputation: Bunrodea (Erabu)" += 40
+		"reputation: Bunrodea (Guard)" += 40
+		"reputation: Bunrodea (Megasa)" += 40
+
+mission "bunrodea full rep"
+	landing
+	name "A meeting with the queen"
+	description "Travel to the bunrodean queen at <destination>."
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination "Erabuthro"
+	to offer
+		not planet "Erabuthro"
+		"reputation: Bunrodea" >= 500
+	on offer
+		conversation
+			`When you enter the spaceport, Josuno is already waiting for you.`
+			`"Greetings Captain <last>, our queen requests your presence and I have the task of accompanying you to the palace on Erabuthro. Can we then go straight away? Our queen is very impatient."`
+			`Since Josuno seems very tense, you decide to fly off straight away. It makes you a little nervous that the queen summons you and has a heavily armed ship accompany you. It either ends very badly or very well.`
+				accept
+	npc accompany save
+		government "Bunrodea"
+		personality escort timid
+		fleet
+			names "bunrodea"
+			variant
+				"Chigiriki"
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
+	on complete
+		give ship "Chigiriki"
+		conversation
+			`When you arrive on Erabuthro, an equally heavily armed escort of 12 Bunrodea awaits you, led by the very serious-looking Josuno.`
+			`You make your way to the palace. The queen's huge palace seems even more intimidating due to the circumstances of your journey. When you reach the throne room, the herald announces you as "Captain <first> <last>, Terror of the Korath, Defender of the Border Systems", which calms you down a bit. These people are really difficult to interpret. The queen looks at you and rises from her throne.`
+			`"Captain <last>, you have more than proven your friendship with the Bunrodean Empire. And we now prove our friendship with you. You will receive the title 'Special Representative', full access to all our planets and our equipment. We will also give you one of our strongest warships as a gift, a 'Chigiriki'."`
+			`The queen raises her arms in the air. In perfect synchronicity, your escort, Josuno and two dozen nobles raise their arms to show you their respect. This all impresses you very much and you almost forget to raise your arms to accept the honor. This ends the audience and you are escorted out.`
+			`When you arrive at the spaceport, you are still in your thoughts. What an experience. Despite the differences, you like the Bunrodea, and they probably like you too.`
+
+
+mission "bunrodea criminal"
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	to offer
+		"reputation: Bunrodea" >= 50
+			random < 25
+	on offer
+		conversation
+			`As you cross the spaceport you notice something strange. Four security guards escort a handcuffed and battered prisoner to a small ship. In front of the ship they take off his shackles and beat him. Then they hand him a key card and take him to the ship's airlock. The small spaceship takes off and rises into the atmosphere. The four security guards leisurely stroll away.`
+			`A passerby notices your confusion and speaks to you.`
+			`"Is this the first time you've observed an execution ritual?"`
+			`After you say yes, the passerby continues.`
+			`"We equip criminals with a small spaceship and drive them off the planet. After an hour, an execution request is announced and anyone interested can take part in the hunt for the criminal. This is very lucrative but also a bit dangerous. But for such an experienced captain as you are, it shouldn't be a problem. Such requests can be found on the job boards." The passerby says goodbye and moves on.`
+				decline
+
+

@@ -1,20 +1,12 @@
-fleet "Korath raid on Bunrodea"
-	government "Korath"
-	names "korath"
-	fighters "korath"
-	cargo 100
-	personality
-		disables plunders heroic nemesis staying
-	variant 1
-		"Ra'gru Ik 618"
-	variant 1
-		"Lor'kas Ik 577 (Jump)"
-	variant 1
-		"Ra'at Ik 621"
-
 system "Era Natta"
-	add fleet "Korath raid on Bunrodea" 5000
+	add fleet "Korath Raid" 5000
+	add fleet "Korath Large Raid" 11000
+
 system "Genta Bo"
-	add fleet "Korath raid on Bunrodea" 5000
+	add fleet "Korath Raid" 5000
+	add fleet "Korath Large Raid" 11000
+
 system "Eneva Katta"
-	add fleet "Korath raid on Bunrodea" 5000
+	add fleet "Korath Raid" 5000
+	add fleet "Korath Large Raid" 11000
+
