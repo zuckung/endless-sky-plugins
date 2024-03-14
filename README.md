@@ -15,16 +15,16 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-11 | update: bunrodea.missions<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-14 | update: snowfeather.robotics<br>
+2024-03-14 | update: expert.crew.members<br>
+2024-03-14 | update: captureable.person.ships<br>
+2024-03-11 | update: bunrodea.missions<br>
 2024-03-09 | update: gegno.pirates<br>
 2024-03-08 | update: gegno.pirates<br>
 2024-03-07 | update: gegno.pirates<br>
 2024-03-06 | update: gegno.pirates<br>
 2024-02-19 | update: additional.command.buttons<br>
 2024-02-18 | update: bunrodea.missions<br>
-2024-02-17 | update: navy.licenses<br>
-2024-02-15 | update: pirate.warlords<br>
-2024-02-15 | update: better.starts<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -519,7 +519,7 @@ intial release<br>
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 173.21 kb | 2024-02-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 174.85 kb | 2024-03-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
 <br>
 >Makes person ships capturable. See the readme for details.
 
@@ -540,6 +540,10 @@ Makes person ships captureable.<br>
 Well, technically this plugin disables the person ships, and creates new ones(with a space more in its names, due to limitations of changing parts of originals) which are captureable. Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000.<br>
 
 So attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average within 10 minutes.<br>
+
+<br>
+
+At Earth's job board you can find a repeatable job that displays which persons you have already killed, which are alive and where to find them<br>
 
 <br>
 
@@ -588,6 +592,14 @@ Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti be
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-14<br>
+
+bugfixes<br>
+
+added person destroyed check on Earth job board<br>
 
 <br>
 
@@ -908,7 +920,7 @@ added icon.png<br>
 
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 494.0 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 2.56 mb | 2024-03-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the readme for details.
 <details>
@@ -923,15 +935,15 @@ Adds unique crew members, aquireable through spaceport missions. These crew memb
 
 <br>
 
-Currently there are 40 expert crew members. Visit spaceports on human worlds with an outfitter to find the missions(5% chance).<br>
+Currently there are 65 expert crew members. Visit spaceports with an outfitter to find the missions(3% chance). In every of the following regions  you can find 5 experts: Rim, South, Dirt Belt, Deep, Near Earth, Core, North, Paradise, Hai, Bunrodea, Remnant, Wanderer(after translation device), Kor Efret(after Rek went to Kor Efret).<br>
 
-Their technology fields are: combat(4) cooling(5) energy(4) engine(3) fuel(5) hull(3) jamming(4) scanner(4) shield(3) storage(5).<br>
+Their technology fields are: combat(6) cooling(7) energy(7) engine(7) fuel(7) hull(6) jamming(6) scanner(6) shield(6) storage(7).<br>
 
 In case you can't afford their daily wage you can store them at the outfitter without daily costs.<br>
 
 They have the positive stats of a medium human outfit, at the cost of a bunk and a daily salery of 2.000 to 5.000 credits. On a small ship they make a huge difference, while on a heavy warship the stats are minor.<br>
 
-See data/crew.list.txt of this plugin for locations, an stat infos.<br>
+See crew.list.txt of this plugin for locations, and stat infos.<br>
 
 <br>
 
@@ -942,6 +954,28 @@ See data/crew.list.txt of this plugin for locations, an stat infos.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-14<br>
+
+bugfixes<br>
+
+changed outfit descriptions to show race and source<br>
+
+changed chance to from 5% to 3%<br>
+
+generated 25 alien portaits<br>
+
+added 5 Hai experts<br>
+
+added 5 Bunrodea experts<br>
+
+added 5 Wanderer experts<br>
+
+added 5 Korath experts<br>
+
+added 5 Remnant experts<br>
 
 <br>
 
@@ -1756,7 +1790,7 @@ initial release<br>
 
 <img src="myplugins/snowfeather.robotics/icon.png" height="100">
 
-[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) | 22.1 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) <br>
+[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) | 613.43 kb | 2024-03-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) <br>
 <br>
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). Starts on Snowfeather(Bore Fah) when having at least one android installed. See the readme for details.
 
@@ -1783,6 +1817,20 @@ The new buyable androids are a little bit more expensive than the original ones.
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-14<br>
+
+bugfixes<br>
+
+changed icon<br>
+
+added new android outfit png<br>
+
+added 2 scenes to the missions<br>
+
+lowered wait time from 60 to 30 days<br>
 
 <br>
 
