@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-14 | update: snowfeather.robotics<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-14 | update: show.reputation<br>
+2024-03-14 | update: snowfeather.robotics<br>
 2024-03-14 | update: expert.crew.members<br>
 2024-03-14 | update: captureable.person.ships<br>
 2024-03-11 | update: bunrodea.missions<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-07 | update: gegno.pirates<br>
 2024-03-06 | update: gegno.pirates<br>
 2024-02-19 | update: additional.command.buttons<br>
-2024-02-18 | update: bunrodea.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -37,8 +37,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#captureablepersonships">captureable.person.ships</a><br>
 <a href="README.md#coalitionshopping">coalition.shopping</a><br>
 <a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
@@ -46,12 +46,13 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#piratewarlords">pirate.warlords</a><br>
 <a href="README.md#realfluff">real.fluff</a><br>
+<a href="README.md#showreputation">show.reputation</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
 <a href="README.md#toomanyasteroids">too.many.asteroids</a><br>
 <a href="README.md#uniquefix">unique.fix</a><br>
@@ -1779,6 +1780,57 @@ added squirrel mission chain<br>
 added 5 pet outfits with images<br>
 
 initial release<br>
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### show.reputation
+
+<img src="myplugins/show.reputation/icon.png" height="100">
+
+[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/show.reputation.zip) | 67.59 kb | 2024-03-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <br>
+<br>
+>Enables a job on every planet's job board, that shows the reputation values. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### show.reputation
+
+<br>
+
+<br>
+
+Enables a job on every planet's jobboard, that shows the reputation values.<br>
+
+<br>
+
+Accept the job, start, land again, and the list of reputations pops up.<br>
+
+Its shows the values in steps of 10, from -1000 to +1000.<br>
+
+I took just the 30 most useful reputations. Full list made landing lag.<br>
+
+<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/show.reputation/screenshot.jpg' width='100'>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-03-14<br>
+
+initial release<br>
+
+
+
 </blockquote>
 </details>
 <br>
