@@ -1803,7 +1803,7 @@ initial release<br>
 
 <br>
 
-Enables a job on every planet's jobboard, that shows the reputation values.<br>
+Enables a job on every planet's job board, that shows the reputation values.<br>
 
 <br>
 
