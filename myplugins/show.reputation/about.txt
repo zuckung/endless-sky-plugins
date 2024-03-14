@@ -1,0 +1,1 @@
+Enables a job on every planet's job board, that shows the reputation values. See the readme for details.
