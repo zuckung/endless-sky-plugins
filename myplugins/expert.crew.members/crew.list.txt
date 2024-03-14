@@ -1,0 +1,330 @@
+ combat(6) cooling(7) energy(7) engine(7) fuel(7) hull(6) jamming(6) scanner(6) shield(6) storage(7)
+
+  name                        source     wage              stats
+ "combat isaac wirth"         rim        4100 m human45    capture attack 22 / capture defense 22
+ "combat jessy tuta"          south      3100 f human125   capture attack 15 / capture defense 15
+ "combat kianoush royston"    dirt belt  4600 m human55    capture attack 27 / capture defense 23
+ "combat rodrigo bain"        deep       3500 m human36    capture attack 17 / capture defense 19
+ "cooling atreus bodilsen"    south      4400 m human34    cooling 18 / heat capacity 400
+ "cooling beckah feidhelm"    deep       3900 f human123   cooling 13 / heat capacity 900
+ "cooling caspar laurentinus" rim        4300 m human02    cooling 15 / heat capacity 500
+ "cooling itoro signe"        dirt belt  3700 f human95    cooling 11 / heat capacity 1000
+ "cooling valeriya jannick"   near earth 4700 f human90    cooling 17 / heat capacity 600
+ "energy deirdre ciaran"      rim        3700 f human14    energy capacity 5000 / energy generation 5.5
+ "energy lisa zola"           south      4300 f human39    energy capacity 7500 / energy generation 6
+ "energy normand kiran"       near earth 3200 m human08    energy capacity 8000 / energy generation 4.5
+ "energy simona branka"       deep       3500 f human71    energy capacity 4000 / energy generation 5
+ "engine anahit bodil"        core       2800 f human65    thrust 15 / turn 650
+ "engine chetana jaleh"       deep       3300 f human46    thrust 23 / turn 500
+ "engine neal fransson"       south      3900 m human12    thrust 21 / turn 700
+ "fuel carl ahmad"            core       2300 m human07    fuel capacity 150 / fuel genetation .2
+ "fuel kfir balam"            dirt belt  3500 m human25    fuel capacity 250 / ramscoop 3
+ "fuel kostis joona"          near earth 4000 m human24    fuel generation .3 / ramscoop 2
+ "fuel nina sotiroula"        north      3300 f human122   fuel capacity 450 / fuel generation .22
+ "fuel sabina draga"          south      3500 f human107   fuel capacity 550 / ramscoop 2
+ "hull anuradha talin"        core       2900 f human04    hull repair rate .2 / hull 600
+ "hull julia grainne"         paradise   4200 f human3     hull repair rate .33 / hull 500
+ "hull silvius hildegard"     north      4500 m human00    hull repair rate .3 / hull 400
+ "jamming aline mai"          paradise   3900 f human128   radar jamming 8 / optical jamming 12
+ "jamming dominik bullock"    dirt belt  3400 m human68    scan interference .5 / scan concealment 15
+ "jamming enver diefenbach"   north      3700 m human58    radar jamming 12 / optical jamming 5
+ "jamming raban fields"       core       4200 m human67    scan interference .5 / scan concealment 3
+ "scanner ivanus kozlov"      paradise   3700 m human31    tactical scan power 37 / outfit scan power 42
+ "scanner mikmel wanjala"     core       3300 m human16    cargo scan power 29 / outfit scan power 45
+ "scanner saffira ivka"       near earth 2100 f human47    cargo scan efficiency 9 / outfit scan efficiency 19
+ "scanner tichaona yong"      north      2900 f human10    tactical scan power 32 / asteroid scan power 40
+ "shield lucille meritites"   paradise   3600 f human11    shield generation .28 / shields 2600
+ "shield sonja halimah"       north      4500 f human28    shield generation .3 / shields 2300
+ "shield taisto nithin"       rim        2600 m human43    shield generation .22 / shields 1900
+ "storage darius hasegawa"    deep       4700 m human33    weapon capacity 20 / engine capacity 20
+ "storage eduardo wapasha"    rim        2200 m human03    outfit space 20 / cargo space 20
+ "storage mani godefrid"      dirt belt  3100 m human13    outfit space 30 / weapon capacity 10
+ "storage marie zohreh"       paradise   4200 f human93    outfit space 50 / cargo space 25
+ "storage monika raganhildis" near earth 4200 f human01    outfit space 35 / engine capacity 15
+
+ "engine lohmahow monuden"    hai        4500 f hai05      thrust 25 / turn 750
+ "hull sookot dulur"          hai        4700 f hai06n     hull repair rate .36 / hull 650
+ "shield touna farchi"        hai        4700 f hai07      shield generation .33 / shields 2700
+ "combat ainem wahpip"        hai        4800 m hai02      capture attack 28 / capture defense 25
+ "scanner rashi vaitle"       hai        4000 m hai10      outfit scan power 45 / asteroid scan power 45
+ "energy akane sakai"         bunrodea   4600 f bunrodea01 energy capacity 8500 / energy generation 6.5
+ "engine riko ishii"          bunrodea   4600 f bunrodea02 thrust 26 / turn 700
+ "hull shiro kan"             bunrodea   4400 m bunrodea03 hull repair rate .35 / hull 650
+ "jamming umeo ageta"         bunrodea   4300 m bunrodea07 scan interference .6 / radar jamming 13
+ "shield saburo aoki"         bunrodea   4500 m bunrodea09 shield generation .34 / shields 2500
+ "energy aikach"              wanderer   4100 f wanderer01 energy capacity 6500 / energy generation 5.5
+ "fuel voriar"                wanderer   4500 f wanderer02 fuel generation .28 / ramscoop 3
+ "scanner kriik"              wanderer   4300 f wanderer05 tactical scan power 42 / outfit scan power 46
+ "storage reisek"             wanderer   4800 m wanderer06 outfit space 55 / cargo space 35
+ "cooling krikey"             wanderer   4900 m wanderer10 cooling 19 / heat capacity 700
+ "combat asvip rap"           korath     4700 f korath03 capture attack 26 / capture defense 29
+ "cooling kemme ranris"       korath     4600 f korath04 cooling 17 / heat capacity 1100
+ "engine ifir rakik"          korath     4500 m korath05 thrust 24 / turn 800
+ "hull ak'en oaip"            korath     4400 m korath07 hull repair rate .31 / hull 500
+ "shield ilesam bableh"       korath     4400 m korath10 shield generation .32 / shields 2600
+ "jamming snowfall"           remnant    4700 f remnant01 scan interference .6 / scan concealment 4
+ "storage swift"              remnant    4900 f remnant02 outfit space 60 / engine capacity 20
+ "energy raindrop"            remnant    4400 f remnant04 energy capacity 8000 / energy generation 5.5
+ "fuel ozon"                  remnant    4400 m remnant06 fuel capacity 800 / ramscoop 2
+ "engine midnight"            remnant    4600 m remnant09 thrust 26 / turn 700
+
+
+ shields
+   shields number
+   "shield generation" number per frame. increases energy used
+   "shield generation multiplier": multiplies the shield generation value of other outfits.
+   "shield multiplier": multiplies the maximum shield value of the ship. (v. 0.10.3)
+ hull
+   hull: an additional number of hull points added to a ship's base hull value.
+   "hull repair rate": the number of hull points regenerated per frame. It takes 1 energy to repair 1 unit of hull.
+   "hull repair multiplier": multiplies the hull repair rate value of other outfits.
+   "hull multiplier": multiplies the maximum hull value of the ship. (v. 0.10.3)
+ energy
+   "energy capacity": how much energy your ship can store.
+   "energy generation": energy generated each frame. If you do not have any energy capacity, this energy does not carry over from frame to frame.
+   "solar collection": the amount of energy that this outfit provides when your ship is 1250 pixels from the system center. 
+ fuel
+   ramscoop: fuel regeneration. Each frame, your ship gains fuel proportional to .03 * √("ramscoop").
+   "fuel capacity": the amount of fuel storage provided by this outfit.
+   "fuel generation": fuel produced per frame. (v. 0.9.9)
+ engine
+   thrust: your ship's acceleration per frame equals thrust / mass, and your ship's max speed is thrust / drag.
+   "reverse thrust": if your ship has reverse thrusters, the "back" button will apply reverse thrust instead of turning your ship around.
+   turn: your ship's turn rate is (turn / mass) degrees per frame.
+   "afterburner thrust": thrust produced each frame when using an afterburner.
+ cooling
+   cooling: heat subtracted from your ship by this outfit, per frame.
+   "active cooling": amount of cooling this outfit provides when heat is at 100%, at which level it will consume its entire "cooling energy". 
+   "heat capacity": adds to the ship's total mass where the ship's maximum heat capacity is concerned, but does not influence movement as mass 
+ scanner
+   "cargo scan power": the cargo scanning range is 100 times the square root of this number. you need four scanners to get twice the range 
+   "cargo scan speed": the time it takes to complete a cargo scan is one second divided by the square root of this number. 
+   "cargo scan efficiency": the maximum cargo scanning speed is the square root of this number. 
+   "cargo scan opacity": increases the time required for other ships to perform a cargo scan on the ship with this attribute. 
+   "outfit scan power": the outfit scanning range is 100 times the square root of this number. 
+   "outfit scan speed": the time it takes to complete an outfit scan is one second divided by the square root of this number. 
+   "outfit scan efficiency": the maximum outfit scanning speed is the square root of this number. 
+   "outfit scan opacity": increases the time required for other ships to perform an outfit scan on the ship with this attribute. 
+   "scan interference": your odds of a scan of your ship discovering anything illegal you have are equal to 1 / (1 + scan interference). 
+   "scan concealment": prevents an equivalent mass of illegal goods from being scanned.
+   "asteroid scan power": the asteroid scanning range is 100 times the square root of this number.
+   "tactical scan power": the tactical scanning range is 100 times the square root of this number.
+ storage
+   bunks: additional crew / passenger space.
+   "required crew": turrets (and maybe other high-end outfits) can increase your crew requirements.
+   "outfit space": if negative, how much generic outfit space (as opposed to weapon or engine space) this outfit takes up.
+   "engine capacity": if negative, how much engine space an outfit uses.
+   "weapon capacity": set this to a negative value (generally, the same value as "outfit space") for any outfit that is a weapon. 
+   "cargo space": amount of cargo space that this outfit adds (if positive) or removes (if negative) from your ship.
+ other
+   "capture attack": this outfit can be wielded by a crew member and adds this amount to their strength of 1 when attacking
+   "capture defense": this outfit can be wielded by a crew member and adds this amount to their strength of 2 when defending against boarders.
+   cloak: how quickly a cloaking device cloaks or uncloaks.
+   "landing speed": a value between 0 and 1, representing progress made per frame when landing or taking off. 
+   "radar jamming": how much resistance this ship has to radar tracking. 
+   "optical jamming": how much resistance this ship has to optical tracking.
+
+
+savegame editing:
+
+outfits:
+
+		"combat ainem wahpip"
+		"combat asvip rap"
+		"combat isaac wirth"
+		"combat jessy tuta"
+		"combat kianoush royston"
+		"combat rodrigo bain"
+		"cooling atreus bodilsen"
+		"cooling beckah feidhelm"
+		"cooling caspar laurentinus"
+		"cooling itoro signe"
+		"cooling kemme ranris"
+		"cooling krikey"
+		"cooling valeriya jannick"
+		"energy aikach"
+		"energy akane sakai"
+		"energy deirdre ciaran"
+		"energy lisa zola"
+		"energy normand kiran"
+		"energy raindrop"
+		"energy simona branka"
+		"engine anahit bodil"
+		"engine chetana jaleh"
+		"engine ifir rakik"
+		"engine lohmahow monuden"
+		"engine midnight"
+		"engine neal fransson"
+		"engine riko ishii"
+		"fuel carl ahmad"
+		"fuel kfir balam"
+		"fuel kostis joona"
+		"fuel nina sotiroula"
+		"fuel ozon"
+		"fuel sabina draga"
+		"fuel voriar"
+		"hull ak'en oaip"
+		"hull anuradha talin"
+		"hull julia grainne"
+		"hull shiro kan"
+		"hull silvius hildegard"
+		"hull sookot dulur"
+		"jamming aline mai"
+		"jamming dominik bullock"
+		"jamming enver diefenbach"
+		"jamming raban fields"
+		"jamming snowfall"
+		"jamming umeo ageta"
+		"scanner ivanus kozlov"
+		"scanner kriik
+		"scanner mikmel wanjala"
+		"scanner rashi vaitle"
+		"scanner saffira ivka"
+		"scanner tichaona yong"
+		"shield ilesam bableh"
+		"shield lucille meritites"
+		"shield saburo aoki"
+		"shield sonja halimah"
+		"shield taisto nithin"
+		"shield touna farchi"
+		"storage darius hasegawa"
+		"storage eduardo wapasha"
+		"storage mani godefrid"
+		"storage marie zohreh"
+		"storage monika raganhildis"
+		"storage reisek"
+		"storage swift"
+
+
+missions:
+
+	"hire combat ainem wahpip: declined"
+	"hire combat ainem wahpip: offered"
+	"hire combat asvip rap: declined"
+	"hire combat asvip rap: offered"
+	"hire combat isaac wirth: declined"
+	"hire combat isaac wirth: offered"
+	"hire combat jessy tuta: declined"
+	"hire combat jessy tuta: offered"
+	"hire combat kianoush royston: declined"
+	"hire combat kianoush royston: offered"
+	"hire combat rodrigo bain: declined"
+	"hire combat rodrigo bain: offered"
+	"hire cooling atreus bodilsen: declined"
+	"hire cooling atreus bodilsen: offered"
+	"hire cooling beckah feidhelm: declined"
+	"hire cooling beckah feidhelm: offered"
+	"hire cooling caspar laurentinus: declined"
+	"hire cooling caspar laurentinus: offered"
+	"hire cooling itoro signe: declined"
+	"hire cooling itoro signe: offered"
+	"hire cooling kemme ranris: declined"
+	"hire cooling kemme ranris: offered"
+	"hire cooling krikey: declined"
+	"hire cooling krikey: offered"
+	"hire cooling valeriya jannick: declined"
+	"hire cooling valeriya jannick: offered"
+	"hire energy aikach: declined"
+	"hire energy aikach: offered"
+	"hire energy akane sakai: declined"
+	"hire energy akane sakai: offered"
+	"hire energy deirdre ciaran: declined"
+	"hire energy deirdre ciaran: offered"
+	"hire energy lisa zola: declined"
+	"hire energy lisa zola: offered"
+	"hire energy normand kiran: declined"
+	"hire energy normand kiran: offered"
+	"hire energy raindrop: declined"
+	"hire energy raindrop: offered"
+	"hire energy simona branka: declined"
+	"hire energy simona branka: offered"
+	"hire engine anahit bodil: declined"
+	"hire engine anahit bodil: offered"
+	"hire engine chetana jaleh: declined"
+	"hire engine chetana jaleh: offered"
+	"hire engine ifir rakik: declined"
+	"hire engine ifir rakik: offered"
+	"hire engine lohmahow monuden: declined"
+	"hire engine lohmahow monuden: offered"
+	"hire engine midnight: declined"
+	"hire engine midnight: offered"
+	"hire engine neal fransson: declined"
+	"hire engine neal fransson: offered"
+	"hire engine riko ishii: declined"
+	"hire engine riko ishii: offered"
+	"hire fuel carl ahmad: declined"
+	"hire fuel carl ahmad: offered"
+	"hire fuel kfir balam: declined"
+	"hire fuel kfir balam: offered"
+	"hire fuel kostis joona: declined"
+	"hire fuel kostis joona: offered"
+	"hire fuel nina sotiroula: declined"
+	"hire fuel nina sotiroula: offered"
+	"hire fuel ozon: declined"
+	"hire fuel ozon: offered"
+	"hire fuel sabina draga: declined"
+	"hire fuel sabina draga: offered"
+	"hire fuel voriar: declined"
+	"hire fuel voriar: offered"
+	"hire hull ak'en oaip: declined"
+	"hire hull ak'en oaip: offered"
+	"hire hull anuradha talin: declined"
+	"hire hull anuradha talin: offered"
+	"hire hull julia grainne: declined"
+	"hire hull julia grainne: offered"
+	"hire hull silvius hildegard: declined"
+	"hire hull silvius hildegard: offered"
+	"hire hull shiro kan: declined"
+	"hire hull shiro kan: offered"
+	"hire hull sookot dulur: declined"
+	"hire hull sookot dulur: offered"
+	"hire jamming aline mai: declined"
+	"hire jamming aline mai: offered"
+	"hire jamming dominik bullock: declined"
+	"hire jamming dominik bullock: offered"
+	"hire jamming enver diefenbach: declined"
+	"hire jamming enver diefenbach: offered"
+	"hire jamming raban fields: declined"
+	"hire jamming raban fields: offered"
+	"hire jamming snowfall: declined"
+	"hire jamming snowfall: offered"
+	"hire jamming umeo ageta: declined"
+	"hire jamming umeo ageta: offered"
+	"hire scanner ivanus kozlov: declined"
+	"hire scanner ivanus kozlov: offered"
+	"hire scanner kriik: declined"
+	"hire scanner kriik: offered"
+	"hire scanner mikmel wanjala: declined"
+	"hire scanner mikmel wanjala: offered"
+	"hire scanner rashi vaitle: declined"
+	"hire scanner rashi vaitle: offered"
+	"hire scanner saffira ivka: declined"
+	"hire scanner saffira ivka: offered"
+	"hire scanner tichaona yong: declined"
+	"hire scanner tichaona yong: offered"
+	"hire shield ilesam bableh: declined"
+	"hire shield ilesam bableh: offered"
+	"hire shield lucille meritites: declined"
+	"hire shield lucille meritites: offered"
+	"hire shield saburo aoki: declined"
+	"hire shield saburo aoki: offered"
+	"hire shield sonja halimah: declined"
+	"hire shield sonja halimah: offered"
+	"hire shield taisto nithin: declined"
+	"hire shield taisto nithin: offered"
+	"hire shield touna farchi: declined"
+	"hire shield touna farchi: offered"
+	"hire storage darius hasegawa: declined"
+	"hire storage darius hasegawa: offered"
+	"hire storage eduardo wapasha: declined"
+	"hire storage eduardo wapasha: offered"
+	"hire storage mani godefrid: declined"
+	"hire storage mani godefrid: offered"
+	"hire storage marie zohreh: declined"
+	"hire storage marie zohreh: offered"
+	"hire storage monika raganhildis: declined"
+	"hire storage monika raganhildis: offered"
+	"hire storage reisek: declined"
+	"hire storage reisek: offered"
+	"hire storage swift: declined"
+	"hire storage swift: offered"

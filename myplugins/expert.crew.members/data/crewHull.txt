@@ -1,6 +1,89 @@
-# "hull julia grainne"         paradise   4200 f human37   hull repair rate .33 / hull 500
-# "hull silvius hildegard"     north      4500 m human00   hull repair rate .3 / hull 400
-# "hull anuradha talin"        core       2900 f human04   hull repair rate .2 / hull 600
+# "hull ak'en oaip"            korath     4400 m korath07 hull repair rate .31 / hull 500
+# "hull shiro kan"             bunrodea   4400 m bunrodea03 hull repair rate .35 / hull 650
+# "hull sookot dulur"          hai        4700 f hai06      hull repair rate .36 / hull 650
+# "hull julia grainne"         paradise   4200 f human37    hull repair rate .33 / hull 500
+# "hull silvius hildegard"     north      4500 m human00    hull repair rate .3 / hull 400
+# "hull anuradha talin"        core       2900 f human04    hull repair rate .2 / hull 600
+
+
+outfit "hull ak'en oaip"
+	category "Crew"
+	"display name" "(Hull) Ak'en Oaip"
+	thumbnail "portrait/korath07"
+	"operating costs" 4400
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" 0.31
+	hull 500
+	description `This is a highly educated employee focused on hull technologies. He is a Korath.`
+mission "hire hull ak'en oaip"
+	minor
+	invisible
+	source
+		government "Kor Efret"
+		attributes "outfitter"
+	to offer
+		has "Wanderers: Rek To Kor Efret: done"
+		random < 3
+	on offer
+		outfit "hull ak'en oaip" 1
+		conversation
+			scene "portrait/korath07"
+			`In a spaceport bar you get to know a highly qualified expert in hull technologies. He is looking for work and you decide to hire him. His name is Ak'en Oaip, he is a Korath, and he demands a daily wage of 4.400 credits.`
+				decline
+
+
+outfit "hull shiro kan"
+	category "Crew"
+	"display name" "(Hull) Shiro Kan"
+	thumbnail "portrait/bunrodea03"
+	"operating costs" 4400
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" 0.35
+	hull 650
+	description `This is a highly educated employee focused on hull technologies. He is a Bunrodea.`
+mission "hire hull shiro kan"
+	minor
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+		attributes "outfitter"
+	to offer
+		random < 3
+	on offer
+		outfit "hull shiro kan" 1
+		conversation
+			scene "portrait/bunrodea03"
+			`In a spaceport bar you get to know a highly qualified expert in hull technologies. He is looking for work and you decide to hire him. His name is Shiro Kan, he is a Bunrodea, and he demands a daily wage of 4.400 credits.`
+				decline
+
+
+outfit "hull sookot dulur"
+	category "Crew"
+	"display name" "(Hull) Sookot Dulur"
+	thumbnail "portrait/hai06"
+	"operating costs" 4700
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" 0.36
+	hull 650
+	description `This is a highly educated employee focused on hull technologies. She is a Hai.`
+mission "hire hull sookot dulur"
+	minor
+	invisible
+	source
+		government "Hai"
+		attributes "outfitter"
+	to offer
+		random < 3
+	on offer
+		outfit "hull sookot dulur" 1
+		conversation
+			scene "portrait/hai06"
+			`In a spaceport bar you get to know a highly qualified expert in hull technologies. She is looking for work and you decide to hire her. Her name is Sookot Dulur, she is a Hai, and she demands a daily wage of 4.700 credits.`
+				decline
+
 
 outfit "hull julia grainne"
 	category "Crew"
@@ -11,7 +94,7 @@ outfit "hull julia grainne"
 	"unplunderable" 1
 	"hull repair rate" 0.33
 	hull 500
-	description `This is a highly educated employee focused on hull technologies.`
+	description `This is a highly educated employee focused on hull technologies. She is a Human coming from the paradise worlds.`
 mission "hire hull julia grainne"
 	minor
 	invisible
@@ -20,13 +103,13 @@ mission "hire hull julia grainne"
 		attributes "outfitter"
 		attributes "paradise"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "hull julia grainne" 1
 		conversation
 			scene "portrait/human37"
-			`In a spaceport bar you get to know a highly qualified expert in hull technologies. She is looking for work and you decide to hire her. Her name is Julia Grainne and she demands a daily wage of 4.200 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in hull technologies. She is looking for work and you decide to hire her. Her name is Julia Grainne, she is a Human, and she demands a daily wage of 4.200 credits.`
+				decline
 
 
 outfit "hull silvius hildegard"
@@ -38,7 +121,7 @@ outfit "hull silvius hildegard"
 	"unplunderable" 1
 	"hull repair rate" 0.3
 	hull 400
-	description `This is a highly educated employee focused on hull technologies.`
+	description `This is a highly educated employee focused on hull technologies. He is a Human coming from the north.`
 mission "hire hull silvius hildegard"
 	minor
 	invisible
@@ -47,13 +130,13 @@ mission "hire hull silvius hildegard"
 		attributes "outfitter"
 		attributes "north"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "hull silvius hildegard" 1
 		conversation
 			scene "portrait/human00"
-			`In a spaceport bar you get to know a highly qualified expert in hull technologies. He is looking for work and you decide to hire him. His name is Silvius Hildegard and he demands a daily wage of 4.500 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in hull technologies. He is looking for work and you decide to hire him. His name is Silvius Hildegard, he is a Human, and he demands a daily wage of 4.500 credits.`
+				decline
 
 
 outfit "hull anuradha talin"
@@ -65,7 +148,7 @@ outfit "hull anuradha talin"
 	"unplunderable" 1
 	"hull repair rate" 0.2
 	hull 600
-	description `This is a highly educated employee focused on hull technologies.`
+	description `This is a highly educated employee focused on hull technologies. She is a Human coming from the core.`
 mission "hire hull anuradha talin"
 	minor
 	invisible
@@ -74,10 +157,10 @@ mission "hire hull anuradha talin"
 		attributes "outfitter"
 		attributes "core"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "hull anuradha talin" 1
 		conversation
 			scene "portrait/human04"
-			`In a spaceport bar you get to know a highly qualified expert in hull technologies. She is looking for work and you decide to hire her. Her name is Anuradha Talin and she demands a daily wage of 2.900 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in hull technologies. She is looking for work and you decide to hire her. Her name is Anuradha Talin, she is a Human, and she demands a daily wage of 2.900 credits.`
+				decline

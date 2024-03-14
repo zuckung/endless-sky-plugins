@@ -35,7 +35,7 @@ disable person
 #gamerules
 #	"no person spawn weight" 0
 
-person "Michael Zahniser "
+person "Michael Zahniser (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
@@ -134,11 +134,11 @@ ship "Finch" "Finch (MZ)"
 		"Ionic Afterburner"
 
 
-person "Cap'n Pester "
+person "Cap'n Pester (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
-		 disables heroic surveillance
+		disables heroic surveillance
 	phrase
 		phrase
 			"friendly author"
@@ -162,11 +162,11 @@ person "Cap'n Pester "
 			"Scram Drive"
 
 
-person "Marauding Max "
+person "Marauding Max (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
-		 disables heroic surveillance
+		disables heroic surveillance
 	phrase
 		word
 			"Do you think you "
@@ -226,7 +226,7 @@ person "Marauding Max "
 	ship "Marauder Fury" "Mad Quest"
 
 
-person "Captain Nate "
+person "Captain Nate (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
@@ -363,7 +363,7 @@ person "Captain Nate "
 		"final explode" "final explosion large"
 
 
-person "Tranquility "
+person "Tranquility (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
@@ -394,7 +394,7 @@ person "Tranquility "
 	ship "Lampyrid-Class Transport" "Tranquility"
 
 
-person "Power of the People "
+person "Power of the People (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
@@ -484,7 +484,7 @@ person "Power of the People "
 	ship "Modified Osprey" "Power of the People"
 
 
-person "Local God "
+person "Local God (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
@@ -568,7 +568,7 @@ person "Local God "
 	ship "Ursa Polaris" "Local God"
 
 
-person "Subsidurial "
+person "Subsidurial (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
@@ -578,7 +578,7 @@ person "Subsidurial "
 		government "Uninhabited"
 
 
-person "Prototype B3-CC4 "
+person "Prototype B3-CC4 (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
@@ -672,7 +672,7 @@ person "Prototype B3-CC4 "
 	ship "Shooting Star" "Prototype B3-CC4"
 
 
-person "Rais Iris XVIII "
+person "Rais Iris XVIII (Capture me)"
 	government "Author"
 	frequency 200
 	personality
@@ -755,7 +755,7 @@ person "Rais Iris XVIII "
 	ship "Marauder Bactrian" "Rais Iris XVIII"
 
 
-person "Zitchas "
+person "Zitchas (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
@@ -880,7 +880,7 @@ person "Zitchas "
 	ship "Tern" "Shadow Flight 24"
 
 
-person "Brick "
+person "Brick (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
@@ -896,7 +896,7 @@ person "Brick "
 	ship "Modified Boxwing" "Remnant Block"
 
 
-person "Gefullte Taubenbrust "
+person "Gefullte Taubenbrust (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
@@ -915,7 +915,7 @@ person "Gefullte Taubenbrust "
 	ship "Modified Battleship" "RSS Smoking Dove"
 
 
-person "MasterOfGrey "
+person "MasterOfGrey (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
@@ -948,7 +948,7 @@ person "MasterOfGrey "
 			"<placeholder text>"
 	ship "Modified Ladybug" "Revealer of Hai"
 
-person "Patrol Team"
+person "Patrol Team (Capture me)"
 	government "Author"
 	frequency 1000
 	personality

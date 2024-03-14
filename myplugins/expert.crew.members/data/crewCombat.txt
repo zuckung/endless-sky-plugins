@@ -1,7 +1,62 @@
-# "combat jessy tuta"          south      3100 f human125  capture attack 15 / capture defense 15
-# "combat rodrigo bain"        deep       3500 m human36   capture attack 17 / capture defense 19
-# "combat isaac wirth"         rim        4100 m human45   capture attack 22 / capture defense 22
-# "combat kianoush royston"    dirt belt  4600 m human55   capture attack 27 / capture defense 23
+# "combat asvip rap"           korath     4700 f korath03 capture attack 26 / capture defense 29
+# "combat ainem wahpip"        hai        4800 m hai02      capture attack 28 / capture defense 25
+# "combat jessy tuta"          south      3100 f human125   capture attack 15 / capture defense 15
+# "combat rodrigo bain"        deep       3500 m human36    capture attack 17 / capture defense 19
+# "combat isaac wirth"         rim        4100 m human45    capture attack 22 / capture defense 22
+# "combat kianoush royston"    dirt belt  4600 m human55    capture attack 27 / capture defense 23
+
+
+outfit "combat asvip rap"
+	category "Crew"
+	"display name" "(Combat) Asvip Rap"
+	thumbnail "portrait/korath03"
+	"operating costs" 4700
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 26
+	"capture defense" 29
+	description `This is a highly educated employee focused on hand to hand combat. She is a Korath.`
+mission "hire combat asvip rap"
+	minor
+	invisible
+	source
+		government "Kor Efret"
+		attributes "outfitter"
+	to offer
+		has "Wanderers: Rek To Kor Efret: done"
+		random < 3
+	on offer
+		outfit "combat asvip rap" 1
+		conversation
+			scene "portrait/korath03"
+			`In a spaceport bar you get to know a highly qualified expert in combat techniques. She is looking for work and you decide to hire her. Her name is Asvip Rap, she is a Korath, and she demands a daily wage of 4.700 credits.`
+				decline
+
+
+outfit "combat ainem wahpip"
+	category "Crew"
+	"display name" "(Combat) Ainem Wahpip"
+	thumbnail "portrait/hai02"
+	"operating costs" 4800
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 28
+	"capture defense" 25
+	description `This is a highly educated employee focused on hand to hand combat. He is a Hai.`
+mission "hire combat ainem wahpip"
+	minor
+	invisible
+	source
+		government "Hai"
+		attributes "outfitter"
+	to offer
+		random < 3
+	on offer
+		outfit "combat ainem wahpip" 1
+		conversation
+			scene "portrait/hai02"
+			`In a spaceport bar you get to know a highly qualified expert in combat techniques. He is looking for work and you decide to hire him. His name is Ainem Wahpip, he is a Hai, and he demands a daily wage of 4.800 credits.`
+				decline
 
 outfit "combat jessy tuta"
 	category "Crew"
@@ -12,7 +67,7 @@ outfit "combat jessy tuta"
 	"unplunderable" 1
 	"capture attack" 15
 	"capture defense" 15
-	description `This is a highly educated employee focused on hand to hand combat.`
+	description `This is a highly educated employee focused on hand to hand combat. She is a Human coming from the south.`
 mission "hire combat jessy tuta"
 	minor
 	invisible
@@ -21,13 +76,13 @@ mission "hire combat jessy tuta"
 		attributes "outfitter"
 		attributes "south"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "combat jessy tuta" 1
 		conversation
 			scene "portrait/human125"
-			`In a spaceport bar you get to know a highly qualified expert in combat techniques. She is looking for work and you decide to hire her. Her name is Jessy Tuta and she demands a daily wage of 3.100 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in combat techniques. She is looking for work and you decide to hire her. Her name is Jessy Tuta, she is a Human, and she demands a daily wage of 3.100 credits.`
+				decline
 
 
 outfit "combat rodrigo bain"
@@ -39,7 +94,7 @@ outfit "combat rodrigo bain"
 	"unplunderable" 1
 	"capture attack" 17
 	"capture defense" 19
-	description `This is a highly educated employee focused on hand to hand combat.`
+	description `This is a highly educated employee focused on hand to hand combat. He is a Human coming from the deep.`
 mission "hire combat rodrigo bain"
 	minor
 	invisible
@@ -48,13 +103,13 @@ mission "hire combat rodrigo bain"
 		attributes "outfitter"
 		attributes "deep"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "combat rodrigo bain" 1
 		conversation
 			scene "portrait/human36"
-			`In a spaceport bar you get to know a highly qualified expert in combat techniques. He is looking for work and you decide to hire him. His name is Rodrigo Bain and he demands a daily wage of 3.500 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in combat techniques. He is looking for work and you decide to hire him. His name is Rodrigo Bain, he is a Human, and he demands a daily wage of 3.500 credits.`
+				decline
 
 
 outfit "combat isaac wirth"
@@ -66,7 +121,7 @@ outfit "combat isaac wirth"
 	"unplunderable" 1
 	"capture attack" 22
 	"capture defense" 22
-	description `This is a highly educated employee focused on hand to hand combat.`
+	description `This is a highly educated employee focused on hand to hand combat. He is a Human coming from the rim.`
 mission "hire combat isaac wirth"
 	minor
 	invisible
@@ -75,13 +130,13 @@ mission "hire combat isaac wirth"
 		attributes "outfitter"
 		attributes "rim"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "combat isaac wirth" 1
 		conversation
 			scene "portrait/human45"
-			`In a spaceport bar you get to know a highly qualified expert in combat techniques. He is looking for work and you decide to hire him. His name is Isaac Wirth and he demands a daily wage of 4.100 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in combat techniques. He is looking for work and you decide to hire him. His name is Isaac Wirth, he is a Human, and he demands a daily wage of 4.100 credits.`
+				decline
 
 
 outfit "combat kianoush royston"
@@ -93,7 +148,7 @@ outfit "combat kianoush royston"
 	"unplunderable" 1
 	"capture attack" 27
 	"capture defense" 23
-	description `This is a highly educated employee focused on hand to hand combat.`
+	description `This is a highly educated employee focused on hand to hand combat. He is a Human coming from the dirt belt.`
 mission "hire combat kianoush royston"
 	minor
 	invisible
@@ -102,10 +157,10 @@ mission "hire combat kianoush royston"
 		attributes "outfitter"
 		attributes "dirt belt"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "combat kianoush royston" 1
 		conversation
 			scene "portrait/human55"
-			`In a spaceport bar you get to know a highly qualified expert in combat techniques. He is looking for work and you decide to hire him. His name is Kianoush Royston and he demands a daily wage of 4.600 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in combat techniques. He is looking for work and you decide to hire him. His name is Kianoush Royston, he is a Human, and he demands a daily wage of 4.600 credits.`
+				decline

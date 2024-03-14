@@ -2,3 +2,8 @@ snowfeather.robotics
 author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
+images:
+	outfit
+		ai generated at https://www.craiyon.com/
+	scenes
+		ai generated at https://perchance.org/ai-text-to-image-generator

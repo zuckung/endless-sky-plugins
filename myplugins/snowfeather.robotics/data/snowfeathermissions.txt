@@ -6,14 +6,17 @@ mission "Snowfeather Robotics 1"
 	source "Snowfeather"
 	destination "Allhome"
 	to offer
-		require "NDR-114 Android"
+		has "outfit (flagship installed): NDR-114 Android"
 	blocked "You don't have enough passenger space for this mission."
 	on offer
 		conversation
-   		`While inspecting the main propulsion of your spaceship a group of three hai approach. The leading hai speaks to you "Hello, this spaceship seems to be in pretty good shape. I would like to speak to the captain."`
+			scene "scene/3hai"
+			`While inspecting the main propulsion of your spaceship a group of three hai approach. The leading hai speaks to you.`
+			`"Hello, this spaceship seems to be in pretty good shape. I would like to speak to the captain."`
 			`After you told him that you are the captain, it turns out that the hai is looking for a passenger transport for him and his two assistants.`
-			`Like allways you ask for details of the transport, just to avoid trouble.`
-			`His name is Dr. Lufbin and he travels with his two assistants to a robotics conference on Allhome. The payment would be 100.000 credits. He admits that he is afraid of spacetravel and rejected several transport possibilities because the ships looked bad maintained. "So, would you take us to Allhome?"`
+			`Like always you ask for details of the transport, just to avoid trouble.`
+			`His name is Dr. Lufbin and he travels with his two assistants to a robotics conference on Allhome. The payment would be 100.000 credits. He admits that he is afraid of spacetravel and rejected several transport possibilities because the ships looked bad maintained.`
+			`"So, would you take us to Allhome?"`
 			choice
 				`	"Yes, I'm soon done with my checkups."`
 					goto thanks
@@ -28,10 +31,10 @@ mission "Snowfeather Robotics 1"
 	on complete
 		payment 100000
 		conversation
-			`You land on <destination>. Dr. Lufbin thanks you for the safe transport and pays you 100.000 credits. "I've seen the androids that work on your ship and I would love to study one of them. Of course I would pay you for that. If you are interested, meet me at the spaceport in a few hours."`
+			`You land on <destination>. Dr. Lufbin thanks you for the safe transport and pays you 100.000 credits.`
+			`"I've seen the androids that work on your ship and I would love to study one of them. Of course I would pay you for that. If you are interested, meet me at the spaceport in a few hours."`
 
 mission "Snowfeather Robotics 2"
-	priority
 	name "Dr. Lufbin and the android"
 	description "Transport Dr. Lufbin back to <destination>."
 	source "Allhome"
@@ -39,13 +42,14 @@ mission "Snowfeather Robotics 2"
 	passengers 3
 	to offer
 		has "Snowfeather Robotics 1: done"
-   require "NDR-114 Android"
+		has "outfit (flagship installed): NDR-114 Android"
 	blocked "You don't have enough passenger space for this mission."
 	on offer
 		conversation
-			`Back at the spaceport, Dr. Lufbin asks you to transport him and his assistants back to his robotic laboratory on Snowfeather. Furthermore he would like to rent one of your androids to study it. "I will pay you 100.000 credits for the transport and 150.000 credits for renting the android. And I guess i will need it for like 2 months. Do we have a deal?"`
+			`Back at the spaceport, Dr. Lufbin asks you to transport him and his assistants back to his robotic laboratory on Snowfeather. Furthermore he would like to rent one of your androids to study it.`
+			`"I will pay you 100.000 credits for the transport and 150.000 credits for renting the android. And I guess i will need it for like 30 days. Do we have a deal?"`
 			choice
-				`"	Ok, I think I can spare an android for two months"`
+				`"	Ok, I think I can spare an android for a month"`
 					goto thanks
 				`"	No, sorry, I can't afford a smaller android crew."`
 					goto no
@@ -56,14 +60,14 @@ mission "Snowfeather Robotics 2"
 			`	Dr. Lufbin seems very disappointed. He says goodbye and heads back to the conference.`
 				decline
 	on complete
-		event "add snowfeather robotics" 60
+		event "add snowfeather robotics" 30
 		outfit "NDR-114 Android" -1
 		payment 250000
 		conversation
-			`You land on <planet>. Dr. Lufbin pays you 250.000 credits. "I will send you a message when I'm done with the work."`
+			`You land on <planet>. Dr. Lufbin pays you 250.000 credits.`
+			`"I will send you a message when I'm done with the work."`
 
 mission "Snowfeather Robotics 3"
-	priority
 	landing
 	name "Back to Snowfeather"
 	description "Dr. Lufbin from Snowfeather Robotics wants to talk to you."
@@ -79,5 +83,9 @@ mission "Snowfeather Robotics 3"
 		outfit "NDR-114 Android" 1
 		payment 300000
 		conversation
-			`As you land on <planet>, Dr Lufbin awaits you at the starport. "Hello captain <last>, I have a surprise for you." He hands you 300.000 credits while some workers load the 'NDR-114 Android' back on your ship. "The additional credits express how helpful your contribution was to my work. My company 'Snowfeather Robotics' sells now SFR-100 androids at the local outfitter."`
+			scene "scene/hai_in_lab"
+			`As you land on <planet>, an assistant of Dr Lufbin awaits you at the starport and leads you to the laboratory.`
+			`Dr Lufbin greets you. "Hello captain <last>, I have a surprise for you."`
+			`He hands you 300.000 credits while some workers transport the 'NDR-114 Android' back on your ship.`
+			`"The additional credits express how helpful your contribution was to my work. My company 'Snowfeather Robotics' sells now SFR-100 androids at the local outfitter."`
 			`Dr. Lufbin says goodbye while you calculate how rich you will be, when you replace your lazy and expensive crew.`

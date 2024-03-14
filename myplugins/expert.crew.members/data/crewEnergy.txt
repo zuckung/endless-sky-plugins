@@ -1,7 +1,90 @@
-# "energy lisa zola"           south      4300 f human39   energy capacity 7500 / energy generation 6
-# "energy simona branka"       deep       3500 f human71   energy capacity 4000 / energy generation 5
-# "energy deirdre ciaran"      rim        3700 f human14   energy capacity 5000 / energy generation 5.5
-# "energy normand kiran"       near earth 3200 m human08   energy capacity 8000 / energy generation 4.5
+# "energy raindrop"            remnant    4400 f remnant04 energy capacity 8000 / energy generation 5.5
+# "energy aikach"              wanderer   4100 f wanderer01 energy capacity 6500 / energy generation 5.5
+# "energy akane sakai"         bunrodea   4600 f bunrodea01 energy capacity 8500 / energy generation 6.5
+# "energy lisa zola"           south      4300 f human39    energy capacity 7500 / energy generation 6
+# "energy simona branka"       deep       3500 f human71    energy capacity 4000 / energy generation 5
+# "energy deirdre ciaran"      rim        3700 f human14    energy capacity 5000 / energy generation 5.5
+# "energy normand kiran"       near earth 3200 m human08    energy capacity 8000 / energy generation 4.5
+
+
+outfit "energy raindrop"
+	category "Crew"
+	"display name" "(Energy) Raindrop"
+	thumbnail "portrait/remnant04"
+	"operating costs" 4400
+	bunks -1
+	"unplunderable" 1
+	"energy capacity" 8000
+	"energy generation" 5.5
+	description `This is a highly educated employee focused on energy technologies. She is a Remnant.`
+mission "hire energy raindrop"
+	minor
+	invisible
+	source
+		government "Remnant"
+		attributes "outfitter"
+	to offer
+		random < 3
+	on offer
+		outfit "energy raindrop" 1
+		conversation
+			scene "portrait/remnant04"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Raindrop, she is a Remnant, and she demands a daily wage of 4.400 credits.`
+				decline
+
+
+outfit "energy aikach"
+	category "Crew"
+	"display name" "(Energy) Aikach"
+	thumbnail "portrait/wanderer01"
+	"operating costs" 4100
+	bunks -1
+	"unplunderable" 1
+	"energy capacity" 6500
+	"energy generation" 5.5
+	description `This is a highly educated employee focused on energy technologies. She is a Wanderer.`
+mission "hire energy aikach"
+	minor
+	invisible
+	source
+		government "Wanderer"
+		attributes "outfitter"
+	to offer
+		has "language: Wanderer"
+		random < 3
+	on offer
+		outfit "energy aikach" 1
+		conversation
+			scene "portrait/wanderer01"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Aikach, she is a Wanderer, and she demands a daily wage of 4.100 credits.`
+				decline
+
+
+outfit "energy akane sakai"
+	category "Crew"
+	"display name" "(Energy) Akane Sakai"
+	thumbnail "portrait/bunrodea01"
+	"operating costs" 4600
+	bunks -1
+	"unplunderable" 1
+	"energy capacity" 8500
+	"energy generation" 6.5
+	description `This is a highly educated employee focused on energy technologies. She is a Bunrodea.`
+mission "hire energy akane sakai"
+	minor
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+		attributes "outfitter"
+	to offer
+		random < 3
+	on offer
+		outfit "energy akane sakai" 1
+		conversation
+			scene "portrait/bunrodea01"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Akane Sakai, she is a Bunrodea, and she demands a daily wage of 4.600 credits.`
+				decline
+
 
 outfit "energy lisa zola"
 	category "Crew"
@@ -12,7 +95,7 @@ outfit "energy lisa zola"
 	"unplunderable" 1
 	"energy capacity" 7500
 	"energy generation" 6
-	description `This is a highly educated employee focused on energy technologies.`
+	description `This is a highly educated employee focused on energy technologies. She is a Human coming from the south.`
 mission "hire energy lisa zola"
 	minor
 	invisible
@@ -21,13 +104,13 @@ mission "hire energy lisa zola"
 		attributes "outfitter"
 		attributes "south"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "energy lisa zola" 1
 		conversation
 			scene "portrait/human39"
-			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Lisa Zola and she demands a daily wage of 4.300 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Lisa Zola, she is a Human, and she demands a daily wage of 4.300 credits.`
+				decline
 
 
 outfit "energy simona branka"
@@ -39,7 +122,7 @@ outfit "energy simona branka"
 	"unplunderable" 1
 	"energy capacity" 4000
 	"energy generation" 5
-	description `This is a highly educated employee focused on energy technologies.`
+	description `This is a highly educated employee focused on energy technologies. She is a Human coming from the deep.`
 mission "hire energy simona branka"
 	minor
 	invisible
@@ -48,13 +131,13 @@ mission "hire energy simona branka"
 		attributes "outfitter"
 		attributes "deep"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "energy simona branka" 1
 		conversation
 			scene "portrait/human71"
-			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Simona Branka and she demands a daily wage of 3.500 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Simona Branka, she is a Human, and she demands a daily wage of 3.500 credits.`
+				decline
 
 
 outfit "energy deirdre ciaran"
@@ -66,7 +149,7 @@ outfit "energy deirdre ciaran"
 	"unplunderable" 1
 	"energy capacity" 5000
 	"energy generation" 5.5
-	description `This is a highly educated employee focused on energy technologies.`
+	description `This is a highly educated employee focused on energy technologies. She is a Human coming from the rim.`
 mission "hire energy deirdre ciaran"
 	minor
 	invisible
@@ -75,13 +158,13 @@ mission "hire energy deirdre ciaran"
 		attributes "outfitter"
 		attributes "rim"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "energy deirdre ciaran" 1
 		conversation
 			scene "portrait/human14"
-			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Deirdre Ciaran and she demands a daily wage of 3.700 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Deirdre Ciaran, she is a Human, and she demands a daily wage of 3.700 credits.`
+				decline
 
 
 outfit "energy normand kiran"
@@ -93,7 +176,7 @@ outfit "energy normand kiran"
 	"unplunderable" 1
 	"energy capacity" 8000
 	"energy generation" 4.5
-	description `This is a highly educated employee focused on energy technologies.`
+	description `This is a highly educated employee focused on energy technologies. He is a Human coming from near Earth.`
 mission "hire energy normand kiran"
 	minor
 	invisible
@@ -102,10 +185,10 @@ mission "hire energy normand kiran"
 		attributes "outfitter"
 		attributes "near earth"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "energy normand kiran" 1
 		conversation
 			scene "portrait/human08"
-			`In a spaceport bar you get to know a highly qualified expert in energy technologies. He is looking for work and you decide to hire him. His name is Normand Kiran and he demands a daily wage of 3.200 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. He is looking for work and you decide to hire him. His name is Normand Kiran, he is a Human, and he demands a daily wage of 3.200 credits.`
+				decline

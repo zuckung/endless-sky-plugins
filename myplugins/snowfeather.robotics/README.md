@@ -10,6 +10,13 @@ The new buyable androids are a little bit more expensive than the original ones.
 <br>
 Changelog:<br>
 <br>
+2024-03-14<br>
+bugfixes<br>
+changed icon<br>
+added new android outfit png<br>
+added 2 scenes to the missions<br>
+lowered wait time from 60 to 30 days<br>
+<br>
 2023-10-17<br>
 added plugin.txt<br>
 <br>

@@ -1,7 +1,7 @@
 outfit "SFR-100 Android"	
 	category "Systems"	
 	cost 150000	
-	thumbnail "outfit/android"	
+	thumbnail "outfit/SFR-100_android"	
 	"required crew" -1	
 	"energy consumption" 0.01	
 	unplunderable 1	

@@ -1,8 +1,66 @@
-# "cooling atreus bodilsen"    south      4400 m human34   cooling 18 / heat capacity 400
-# "cooling beckah feidhelm"    deep       3900 f hyman123  cooling 13 / heat capacity 900
-# "cooling caspar laurentinus" rim        4300 m human02   cooling 15 / heat capacity 500
-# "cooling itoro signe"        dirt belt  3700 f human95   cooling 11 / heat capacity 1000
-# "cooling valeriya jannick"   near earth 4700 f human90   cooling 17 / heat capacity 600
+# "cooling kemme ranris"       korath     4600 f korath04 cooling 17 / heat capacity 1100
+# "cooling krikey"             wanderer   4900 m wanderer10 cooling 19 / heat capacity 700
+# "cooling atreus bodilsen"    south      4400 m human34    cooling 18 / heat capacity 400
+# "cooling beckah feidhelm"    deep       3900 f human123   cooling 13 / heat capacity 900
+# "cooling caspar laurentinus" rim        4300 m human02    cooling 15 / heat capacity 500
+# "cooling itoro signe"        dirt belt  3700 f human95    cooling 11 / heat capacity 1000
+# "cooling valeriya jannick"   near earth 4700 f human90    cooling 17 / heat capacity 600
+
+
+outfit "cooling kemme ranris"
+	plural "(Cooling) Kemme Ranris"
+	category "Crew"
+	"display name" "(Cooling) Kemme Ranris"
+	thumbnail "portrait/korath04"
+	"operating costs" 4600
+	bunks -1
+	"unplunderable" 1
+	cooling 17
+	"heat capacity" 1100
+	description `This is a highly educated employee focused on cooling technologies. She is a Korath.`
+mission "hire cooling kemme ranris"
+	minor
+	invisible
+	source
+		government "Kor Efret"
+		attributes "outfitter"
+	to offer
+		has "Wanderers: Rek To Kor Efret: done"
+		random < 3
+	on offer
+		outfit "cooling kemme ranris" 1
+		conversation
+			scene "portrait/korath04"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work and you decide to hire her. Her name is Kemme Ranris, she is a Korath, and she demands a daily wage of 4.600 credits.`
+				decline
+
+
+outfit "cooling krikey"
+	category "Crew"
+	"display name" "(Cooling) Krikey"
+	thumbnail "portrait/wanderer10"
+	"operating costs" 4900
+	bunks -1
+	"unplunderable" 1
+	cooling 19
+	"heat capacity" 700
+	description `This is a highly educated employee focused on cooling technologies. He is a Wanderer.`
+mission "hire cooling krikey"
+	minor
+	invisible
+	source
+		government "Wanderer"
+		attributes "outfitter"
+	to offer
+		has "language: Wanderer"
+		random < 3
+	on offer
+		outfit "cooling krikey" 1
+		conversation
+			scene "portrait/wanderer10"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work and you decide to hire him. His name is Krikey, he is a Wanderer, and he demands a daily wage of 4.900 credits.`
+				decline
+
 
 outfit "cooling atreus bodilsen"
 	category "Crew"
@@ -13,7 +71,7 @@ outfit "cooling atreus bodilsen"
 	"unplunderable" 1
 	cooling 18
 	"heat capacity" 400
-	description `This is a highly educated employee focused on cooling technologies.`
+	description `This is a highly educated employee focused on cooling technologies. He is a Human coming from the south.`
 mission "hire cooling atreus bodilsen"
 	minor
 	invisible
@@ -22,13 +80,13 @@ mission "hire cooling atreus bodilsen"
 		attributes "outfitter"
 		attributes "south"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "cooling atreus bodilsen" 1
 		conversation
 			scene "portrait/human34"
-			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work and you decide to hire him. His name is Atreus Bodilsen and he demands a daily wage of 4.400 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work and you decide to hire him. His name is Atreus Bodilsen, he is a Human, and he demands a daily wage of 4.400 credits.`
+				decline
 
 
 outfit "cooling beckah feidhelm"
@@ -40,7 +98,7 @@ outfit "cooling beckah feidhelm"
 	"unplunderable" 1
 	cooling 13
 	"heat capacity" 900
-	description `This is a highly educated employee focused on cooling technologies.`
+	description `This is a highly educated employee focused on cooling technologies. She is a Human coming from the deep.`
 mission "hire cooling beckah feidhelm"
 	minor
 	invisible
@@ -49,16 +107,17 @@ mission "hire cooling beckah feidhelm"
 		attributes "outfitter"
 		attributes "deep"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "cooling beckah feidhelm" 1
 		conversation
 			scene "portrait/human123"
-			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work and you decide to hire her. Her name is Beckah Feidhelm and she demands a daily wage of 3.900 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work and you decide to hire her. Her name is Beckah Feidhelm, she is a Human, and she demands a daily wage of 3.900 credits.`
+				decline
 
 
 outfit "cooling caspar laurentinus"
+	plural "(Cooling) Caspar Laurentinus"
 	category "Crew"
 	"display name" "(Cooling) Caspar Laurentinus"
 	thumbnail "portrait/human02"
@@ -67,7 +126,7 @@ outfit "cooling caspar laurentinus"
 	"unplunderable" 1
 	cooling 15
 	"heat capacity" 500
-	description `This is a highly educated employee focused on cooling technologies.`
+	description `This is a highly educated employee focused on cooling technologies. He is a Human coming from the rim.`
 mission "hire cooling caspar laurentinus"
 	minor
 	invisible
@@ -76,13 +135,13 @@ mission "hire cooling caspar laurentinus"
 		attributes "outfitter"
 		attributes "rim"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "cooling caspar laurentinus" 1
 		conversation
 			scene "portrait/human02"
-			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work and you decide to hire him. His name is Caspar Laurentinus and he demands a daily wage of 4.300 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work and you decide to hire him. His name is Caspar Laurentinus, he is a Human, and he demands a daily wage of 4.300 credits.`
+				decline
 
 
 outfit "cooling itoro signe"
@@ -94,7 +153,7 @@ outfit "cooling itoro signe"
 	"unplunderable" 1
 	cooling 11
 	"heat capacity" 1000
-	description `This is a highly educated employee focused on cooling technologies.`
+	description `This is a highly educated employee focused on cooling technologies. She is a Human coming from the dirt belt.`
 mission "hire cooling itoro signe"
 	minor
 	invisible
@@ -103,13 +162,13 @@ mission "hire cooling itoro signe"
 		attributes "outfitter"
 		attributes "dirt belt"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "cooling itoro signe" 1
 		conversation
 			scene "portrait/human95"
-			`In a spaceport bar you get to know a highly qualified expert in cooling technogies. She is looking for work and you decide to hire her. Her name is Itoro Signe and she demands a daily wage of 3.700 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in cooling technogies. She is looking for work and you decide to hire her. Her name is Itoro Signe, she is a Human, and she demands a daily wage of 3.700 credits.`
+				decline
 
 
 outfit "cooling valeriya jannick"
@@ -121,7 +180,7 @@ outfit "cooling valeriya jannick"
 	"unplunderable" 1
 	cooling 17
 	"heat capacity" 600
-	description `This is a highly educated employee focused on cooling technologies.`
+	description `This is a highly educated employee focused on cooling technologies. She is a Human coming from near Earth.`
 mission "hire cooling valeriya jannick"
 	minor
 	invisible
@@ -130,10 +189,10 @@ mission "hire cooling valeriya jannick"
 		attributes "outfitter"
 		attributes "near earth"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "cooling valeriya jannick" 1
 		conversation
 			scene "portrait/human90"
-			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work and you decide to hire her. Her name is Valeriya Jannick and she demands a daily wage of 4.700 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work and you decide to hire her. Her name is Valeriya Jannick, she is a Human, and she demands a daily wage of 4.700 credits.`
+				decline

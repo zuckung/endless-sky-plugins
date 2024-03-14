@@ -1,8 +1,92 @@
-# "shield lucille meritites"   paradise   3600 f human11   shield generation .28 / shields 2600
-# "shield sonja halimah"       north      4500 f human28   shield generation .3 / shields 2300
-# "shield taisto nithin"       rim        2600 m human43   shield generation .22 / shields 1900
+# "shield ilesam bableh"       korath     4400 m korath10   shield generation .32 / shields 2600
+# "shield saburo aoki"         bunrodea   4500 m bunrodea09 shield generation .34 / shields 2500
+# "shield touna farchi"        hai        4700 f hai07      shield generation .33 / shields 2700
+# "shield lucille meritites"   paradise   3600 f human11    shield generation .28 / shields 2600
+# "shield sonja halimah"       north      4500 f human28    shield generation .3 / shields 2300
+# "shield taisto nithin"       rim        2600 m human43    shield generation .22 / shields 1900
+
+
+outfit "shield ilesam bableh"
+	category "Crew"
+	"display name" "(Shield) Ilesam Bableh"
+	thumbnail "portrait/korath10"
+	"operating costs" 4400
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .32
+	"shields" 2600
+	description `This is a highly educated employee focused on shield technologies. He is a Korath.`
+mission "hire shield ilesam bableh"
+	minor
+	invisible
+	source
+		government "Kor Efret"
+		attributes "outfitter"
+	to offer
+		has "Wanderers: Rek To Kor Efret: done"
+		random < 3
+	on offer
+		outfit "shield ilesam bableh" 1
+		conversation
+			scene "portrait/korath10"
+			`In a spaceport bar you get to know a highly qualified expert in shield technologies. He is looking for work and you decide to hire him. His name is Ilesam Bableh, he is a Korath, and he demands a daily wage of 4.400 credits.`
+				decline
+
+
+outfit "shield saburo aoki"
+	category "Crew"
+	"display name" "(Shield) Saburo Aoki"
+	thumbnail "portrait/bunrodea09"
+	"operating costs" 4500
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .34
+	"shields" 2500
+	description `This is a highly educated employee focused on shield technologies. He is a Bunrodea.`
+mission "hire shield saburo aoki"
+	minor
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+		attributes "outfitter"
+	to offer
+		random < 3
+	on offer
+		outfit "shield saburo aoki" 1
+		conversation
+			scene "portrait/bunrodea09"
+			`In a spaceport bar you get to know a highly qualified expert in shield technologies. He is looking for work and you decide to hire him. His name is Saburo Aoki, he is a Bunrodea, and he demands a daily wage of 4.500 credits.`
+				decline
+
+
+outfit "shield touna farchi"
+	category "Crew"
+	"display name" "(Shield) Touna Farchi"
+	thumbnail "portrait/hai07"
+	"operating costs" 4700
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .33
+	"shields" 2700
+	description `This is a highly educated employee focused on shield technologies. She is a Hai.`
+mission "hire shield touna farchi"
+	minor
+	invisible
+	source
+		government "Hai"
+		attributes "outfitter"
+	to offer
+		random < 3
+	on offer
+		outfit "shield touna farchi" 1
+		conversation
+			scene "portrait/hai07"
+			`In a spaceport bar you get to know a highly qualified expert in shield technologies. She is looking for work and you decide to hire her. Her name is Touna Farchi, she is a Hai, and she demands a daily wage of 4.700 credits.`
+				decline
+
 
 outfit "shield lucille meritites"
+	plural "(Shield) Lucille Meritites"
 	category "Crew"
 	"display name" "(Shield) Lucille Meritites"
 	thumbnail "portrait/human11"
@@ -11,7 +95,7 @@ outfit "shield lucille meritites"
 	"unplunderable" 1
 	"shield generation" .28
 	"shields" 2600
-	description `This is a highly educated employee focused on shield technologies.`
+	description `This is a highly educated employee focused on shield technologies. She is a Human coming from the paradise worlds.`
 mission "hire shield lucille meritites"
 	minor
 	invisible
@@ -20,13 +104,13 @@ mission "hire shield lucille meritites"
 		attributes "outfitter"
 		attributes "paradise"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "shield lucille meritites" 1
 		conversation
 			scene "portrait/human11"
-			`In a spaceport bar you get to know a highly qualified expert in shield technologies. She is looking for work and you decide to hire her. Her name is Lucille Meritites and she demands a daily wage of 3.600 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in shield technologies. She is looking for work and you decide to hire her. Her name is Lucille Meritites, she is a Human, and she demands a daily wage of 3.600 credits.`
+				decline
 
 
 outfit "shield sonja halimah"
@@ -38,7 +122,7 @@ outfit "shield sonja halimah"
 	"unplunderable" 1
 	"shield generation" .3
 	"shields" 2300
-	description `This is a highly educated employee focused on shield technologies.`
+	description `This is a highly educated employee focused on shield technologies. She is a Human coming from the north.`
 mission "hire shield sonja halimah"
 	minor
 	invisible
@@ -47,13 +131,13 @@ mission "hire shield sonja halimah"
 		attributes "outfitter"
 		attributes "north"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "shield sonja halimah" 1
 		conversation
 			scene "portrait/human28"
-			`In a spaceport bar you get to know a highly qualified expert in shield technologies. She is looking for work and you decide to hire her. Her name is Sonja Halimah and she demands a daily wage of 4.500 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in shield technologies. She is looking for work and you decide to hire her. Her name is Sonja Halimah, she is a Human, and she demands a daily wage of 4.500 credits.`
+				decline
 
 
 outfit "shield taisto nithin"
@@ -65,7 +149,7 @@ outfit "shield taisto nithin"
 	"unplunderable" 1
 	"shield generation" .22
 	"shields" 1900
-	description `This is a highly educated employee focused on shield technologies.`
+	description `This is a highly educated employee focused on shield technologies. He is a Human coming from the rim.`
 mission "hire shield taisto nithin"
 	minor
 	invisible
@@ -74,10 +158,10 @@ mission "hire shield taisto nithin"
 		attributes "outfitter"
 		attributes "rim"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "shield taisto nithin" 1
 		conversation
 			scene "portrait/human43"
-			`In a spaceport bar you get to know a highly qualified expert in shield technologies. He is looking for work and you decide to hire him. His name is Taisto Nithin and he demands a daily wage of 2.600 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in shield technologies. He is looking for work and you decide to hire him. His name is Taisto Nithin, he is a Human, and he demands a daily wage of 2.600 credits.`
+				decline

@@ -1,8 +1,64 @@
-# "fuel sabina draga"          south      3500 f human107  fuel capacity 550 / ramscoop 2
-# "fuel nina sotiroula"        north      3300 f human122  fuel capacity 450 / fuel generation .22
-# "fuel carl ahmad"            core       2300 m human07   fuel capacity 150 / fuel genetation .2
-# "fuel kfir balam"            dirt belt  3500 m human25   fuel capacity 250 / ramscoop 3
-# "fuel kostis joona"          near earth 4000 m human24   fuel generation .3 / ramscoop 2
+# "fuel ozon"                  remnant    4400 m remnant06 fuel capacity 800 / ramscoop 2
+# "fuel voriar"                wanderer   4500 f wanderer02 fuel generation .28 / ramscoop 3
+# "fuel sabina draga"          south      3500 f human107   fuel capacity 550 / ramscoop 2
+# "fuel nina sotiroula"        north      3300 f human122   fuel capacity 450 / fuel generation .22
+# "fuel carl ahmad"            core       2300 m human07    fuel capacity 150 / fuel genetation .2
+# "fuel kfir balam"            dirt belt  3500 m human25    fuel capacity 250 / ramscoop 3
+# "fuel kostis joona"          near earth 4000 m human24    fuel generation .3 / ramscoop 2
+
+
+outfit "fuel ozon"
+	category "Crew"
+	"display name" "(Fuel) Ozon"
+	thumbnail "portrait/remnant06"
+	"operating costs" 4400
+	bunks -1
+	"unplunderable" 1
+	"fuel capacity" 800
+	"ramscoop" 2
+	description `This is a highly educated employee focused on fuel technologies. He is a Remnant.`
+mission "hire fuel ozon"
+	minor
+	invisible
+	source
+		government "Remnant"
+		attributes "outfitter"
+	to offer
+		random < 3
+	on offer
+		outfit "fuel ozon" 1
+		conversation
+			scene "portrait/remnant06"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Ozon, he is a Remnant, and he demands a daily wage of 4.400 credits.`
+				decline
+
+
+outfit "fuel voriar"
+	category "Crew"
+	"display name" "(Fuel) Voriar"
+	thumbnail "portrait/wanderer02"
+	"operating costs" 4500
+	bunks -1
+	"unplunderable" 1
+	"fuel generation" .28
+	ramscoop 3
+	description `This is a highly educated employee focused on fuel technologies. She is a Wanderer.`
+mission "hire fuel voriar"
+	minor
+	invisible
+	source
+		government "Wanderer"
+		attributes "outfitter"
+	to offer
+		has "language: Wanderer"
+		random < 3
+	on offer
+		outfit "fuel voriar" 1
+		conversation
+			scene "portrait/wanderer02"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work and you decide to hire her. Her name is Voriar, she is a Wanderer, and she demands a daily wage of 4.500 credits.`
+				decline
+
 
 outfit "fuel sabina draga"
 	category "Crew"
@@ -13,7 +69,7 @@ outfit "fuel sabina draga"
 	"unplunderable" 1
 	"fuel capacity" 550
 	ramscoop 2
-	description `This is a highly educated employee focused on fuel technologies.`
+	description `This is a highly educated employee focused on fuel technologies. She is a Human coming from the south.`
 mission "hire fuel sabina draga"
 	minor
 	invisible
@@ -22,13 +78,13 @@ mission "hire fuel sabina draga"
 		attributes "outfitter"
 		attributes "south"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "fuel sabina draga" 1
 		conversation
 			scene "portrait/human107"
-			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work and you decide to hire her. Her name is Sabina Draga and she demands a daily wage of 3.500 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work and you decide to hire her. Her name is Sabina Draga, she is a Human, and she demands a daily wage of 3.500 credits.`
+				decline
 
 
 outfit "fuel nina sotiroula"
@@ -40,7 +96,7 @@ outfit "fuel nina sotiroula"
 	"unplunderable" 1
 	"fuel capacity" 450
 	"fuel generation" .22
-	description `This is a highly educated employee focused on fuel technologies.`
+	description `This is a highly educated employee focused on fuel technologies. She is a Human coming from the north.`
 mission "hire fuel nina sotiroula"
 	minor
 	invisible
@@ -49,13 +105,13 @@ mission "hire fuel nina sotiroula"
 		attributes "outfitter"
 		attributes "north"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "fuel nina sotiroula" 1
 		conversation
 			scene "portrait/human122"
-			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work and you decide to hire her. Her name is Nina Sotiroula and she demands a daily wage of 3.300 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work and you decide to hire her. Her name is Nina Sotiroula, she is a Human, and she demands a daily wage of 3.300 credits.`
+				decline
 
 
 outfit "fuel carl ahmad"
@@ -67,7 +123,7 @@ outfit "fuel carl ahmad"
 	"unplunderable" 1
 	"fuel capacity" 150
 	"fuel generation" .2
-	description `This is a highly educated employee focused on fuel technologies.`
+	description `This is a highly educated employee focused on fuel technologies. He is a Human coming from the core.`
 mission "hire fuel carl ahmad"
 	minor
 	invisible
@@ -76,13 +132,13 @@ mission "hire fuel carl ahmad"
 		attributes "outfitter"
 		attributes "core"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "fuel carl ahmad" 1
 		conversation
 			scene "portrait/human07"
-			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Carl Ahmad and he demands a daily wage of 2.300 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Carl Ahmad, he is a Human, and he demands a daily wage of 2.300 credits.`
+				decline
 
 
 outfit "fuel kfir balam"
@@ -94,7 +150,7 @@ outfit "fuel kfir balam"
 	"unplunderable" 1
 	"fuel capacity" 250
 	ramscoop 3
-	description `This is a highly educated employee focused on fuel technologies.`
+	description `This is a highly educated employee focused on fuel technologies. He is a Human coming from the dirt belt.`
 mission "hire fuel kfir balam"
 	minor
 	invisible
@@ -103,13 +159,13 @@ mission "hire fuel kfir balam"
 		attributes "outfitter"
 		attributes "dirt belt"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "fuel kfir balam" 1
 		conversation
 			scene "portrait/human25"
-			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Kfir Balam and he demands a daily wage of 3.500 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Kfir Balam, he is a Human, and he demands a daily wage of 3.500 credits.`
+				decline
 
 
 outfit "fuel kostis joona"
@@ -121,7 +177,7 @@ outfit "fuel kostis joona"
 	"unplunderable" 1
 	ramscoop 2
 	"fuel generation" .3
-	description `This is a highly educated employee focused on fuel technologies.`
+	description `This is a highly educated employee focused on fuel technologies. He is a Human coming from near Earth.`
 mission "hire fuel kostis joona"
 	minor
 	invisible
@@ -130,10 +186,10 @@ mission "hire fuel kostis joona"
 		attributes "outfitter"
 		attributes "near earth"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "fuel kostis joona" 1
 		conversation
 			scene "portrait/human24"
-			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Kostis Joona and he demands a daily wage of 4.000 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Kostis Joona, he is a Human, and he demands a daily wage of 4.000 credits.`
+				decline

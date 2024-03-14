@@ -1,7 +1,63 @@
-# "scanner ivanus kozlov"      paradise   3700 m human31   tactical scan power 37 / outfit scan power 42
-# "scanner tichaona yong"      north      2900 f human10   tactical scan power 32 / asteroid scan power 40
-# "scanner mikmel wanjala"     core       3300 m human16   cargo scan power 29 / outfit scan power 45
-# "scanner saffira ivka"       near earth 2100 f human47   cargo scan efficiency 9 / outfit scan efficiency 19
+# "scanner kriik"              wanderer   4300 f wanderer05 tactical scan power 42 / outfit scan power 46
+# "scanner rashi vaitle"       hai        4000 m hai10      outfit scan power 45 / asteroid scan power 45
+# "scanner ivanus kozlov"      paradise   3700 m human31    tactical scan power 37 / outfit scan power 42
+# "scanner tichaona yong"      north      2900 f human10    tactical scan power 32 / asteroid scan power 40
+# "scanner mikmel wanjala"     core       3300 m human16    cargo scan power 29 / outfit scan power 45
+# "scanner saffira ivka"       near earth 2100 f human47    cargo scan efficiency 9 / outfit scan efficiency 19
+
+
+outfit "scanner kriik"
+	category "Crew"
+	"display name" "(Scanner) Kriik"
+	thumbnail "portrait/wanderer05"
+	"operating costs" 4300
+	bunks -1
+	"unplunderable" 1
+	"tactical scan power" 42
+	"outfit scan power" 46
+	description `This is a highly educated employee focused on scanner technologies. She is a Wanderer.`
+mission "hire scanner kriik"
+	minor
+	invisible
+	source
+		government "Wanderer"
+		attributes "outfitter"
+	to offer
+		has "language: Wanderer"
+		random < 3
+	on offer
+		outfit "scanner kriik" 1
+		conversation
+			scene "portrait/wanderer05"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work and you decide to hire her. Her name is Kriik, she is a Wanderer, and she demands a daily wage of 4.300 credits.`
+				decline
+
+
+outfit "scanner rashi vaitle"
+	category "Crew"
+	"display name" "(Scanner) Rashi Vaitle"
+	thumbnail "portrait/hai10"
+	"operating costs" 4000
+	bunks -1
+	"unplunderable" 1
+	"outfit scan power" 45
+	"asteroid scan power" 45
+	description `This is a highly educated employee focused on scanner technologies. He is a Hai.`
+mission "hire scanner rashi vaitle"
+	minor
+	invisible
+	source
+		government "Hai"
+		attributes "outfitter"
+	to offer
+		random < 3
+	on offer
+		outfit "scanner rashi vaitle" 1
+		conversation
+			scene "portrait/hai10"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work and you decide to hire him. His name is Rashi Vaitle, he is a Hai, and he demands a daily wage of 4.000 credits.`
+				decline
+
 
 outfit "scanner ivanus kozlov"
 	category "Crew"
@@ -12,7 +68,7 @@ outfit "scanner ivanus kozlov"
 	"unplunderable" 1
 	"tactical scan power" 37
 	"outfit scan power" 42
-	description `This is a highly educated employee focused on scanner technologies.`
+	description `This is a highly educated employee focused on scanner technologies. He is a Human coming from the paradise worlds.`
 mission "hire scanner ivanus kozlov"
 	minor
 	invisible
@@ -21,13 +77,13 @@ mission "hire scanner ivanus kozlov"
 		attributes "outfitter"
 		attributes "paradise"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "scanner ivanus kozlov" 1
 		conversation
 			scene "portrait/human31"
-			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work and you decide to hire him. His name is Ivanus Kozlov and he demands a daily wage of 3.700 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work and you decide to hire him. His name is Ivanus Kozlov, he is a Human, and he demands a daily wage of 3.700 credits.`
+				decline
 
 
 outfit "scanner tichaona yong"
@@ -39,7 +95,7 @@ outfit "scanner tichaona yong"
 	"unplunderable" 1
 	"tactical scan power" 32
 	"asteroid scan power" 40
-	description `This is a highly educated employee focused on scanner technologies.`
+	description `This is a highly educated employee focused on scanner technologies. She is a Human coming from the north.`
 mission "hire scanner tichaona yong"
 	minor
 	invisible
@@ -48,13 +104,13 @@ mission "hire scanner tichaona yong"
 		attributes "outfitter"
 		attributes "north"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "scanner tichaona yong" 1
 		conversation
 			scene "portrait/human10"
-			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work and you decide to hire her. Her name is Tichaona Yong and she demands a daily wage of 2.900 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work and you decide to hire her. Her name is Tichaona Yong, she is a Human, and she demands a daily wage of 2.900 credits.`
+				decline
 
 
 outfit "scanner mikmel wanjala"
@@ -66,7 +122,7 @@ outfit "scanner mikmel wanjala"
 	"unplunderable" 1
 	"cargo scan power" 29
 	"outfit scan power" 45
-	description `This is a highly educated employee focused on scanner technologies.`
+	description `This is a highly educated employee focused on scanner technologies. He is a Human coming from the core.`
 mission "hire scanner mikmel wanjala"
 	minor
 	invisible
@@ -75,13 +131,13 @@ mission "hire scanner mikmel wanjala"
 		attributes "outfitter"
 		attributes "core"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "scanner mikmel wanjala" 1
 		conversation
 			scene "portrait/human16"
-			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work and you decide to hire him. His name is Mikmel Wanjala and he demands a daily wage of 3.300 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work and you decide to hire him. His name is Mikmel Wanjala, he is a Human, and he demands a daily wage of 3.300 credits.`
+				decline
 
 
 outfit "scanner saffira ivka"
@@ -93,7 +149,7 @@ outfit "scanner saffira ivka"
 	"unplunderable" 1
 	"cargo scan efficiency" 9
 	"outfit scan efficiency" 19
-	description `This is a highly educated employee focused on scanner technologies.`
+	description `This is a highly educated employee focused on scanner technologies. She is a Human coming from near Earth.`
 mission "hire scanner saffira ivka"
 	minor
 	invisible
@@ -102,10 +158,10 @@ mission "hire scanner saffira ivka"
 		attributes "outfitter"
 		attributes "near earth"
 	to offer
-		random < 5
+		random < 3
 	on offer
 		outfit "scanner saffira ivka" 1
 		conversation
 			scene "portrait/human47"
-			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work and you decide to hire her. Her name is Saffira Ivka and she demands a daily wage of 2.100 credits.`
-				fail
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work and you decide to hire her. Her name is Saffira Ivka, she is a Human, and she demands a daily wage of 2.100 credits.`
+				decline

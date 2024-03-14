@@ -1,0 +1,99 @@
+substitutions
+	"<mich>" "alive"
+		"person destroyed: Michael Zahniser (Capture me)" == 0
+	"<capn>" "alive"
+		"person destroyed: Cap'n Pester (Capture me)" == 0
+	"<mara>" "alive"
+		"person destroyed: Marauding Max (Capture me)" == 0
+	"<capt>" "alive"
+		"person destroyed: Captain Nate (Capture me)" == 0
+	"<tran>" "alive"
+		"person destroyed: Tranquility (Capture me)" == 0
+	"<powe>" "alive"
+		"person destroyed: Power of the People (Capture me)" == 0
+	"<loca>" "alive"
+		"person destroyed: Local God (Capture me)" == 0
+	"<subs>" "alive"
+		"person destroyed: Subsidurial (Capture me)" == 0
+	"<prot>" "alive"
+		"person destroyed: Prototype B3-CC4 (Capture me)" == 0
+	"<rais>" "alive"
+		"person destroyed: Rais Iris XVIII (Capture me)" == 0
+	"<zitc>" "alive"
+		"person destroyed: Zitchas (Capture me)" == 0
+	"<bric>" "alive"
+		"person destroyed: Brick (Capture me)" == 0
+	"<gefu>" "alive"
+		"person destroyed: Gefullte Taubenbrust (Capture me)" == 0
+	"<mast>" "alive"
+		"person destroyed: MasterOfGrey (Capture me)" == 0
+	"<patr>" "alive"
+		"person destroyed: Patrol Team (Capture me)" == 0
+
+
+	"<mich>" "dead"
+		"person destroyed: Michael Zahniser (Capture me)" == 1
+	"<capn>" "dead"
+		"person destroyed: Cap'n Pester (Capture me)" == 1
+	"<mara>" "dead"
+		"person destroyed: Marauding Max (Capture me)" == 1
+	"<capt>" "dead"
+		"person destroyed: Captain Nate (Capture me)" == 1
+	"<tran>" "dead"
+		"person destroyed: Tranquility (Capture me)" == 1
+	"<powe>" "dead"
+		"person destroyed: Power of the People (Capture me)" == 1
+	"<loca>" "dead"
+		"person destroyed: Local God (Capture me)" == 1
+	"<subs>" "dead"
+		"person destroyed: Subsidurial (Capture me)" == 1
+	"<prot>" "dead"
+		"person destroyed: Prototype B3-CC4 (Capture me)" == 1
+	"<rais>" "dead"
+		"person destroyed: Rais Iris XVIII (Capture me)" == 1
+	"<zitc>" "dead"
+		"person destroyed: Zitchas (Capture me)" == 1
+	"<bric>" "dead"
+		"person destroyed: Brick (Capture me)" == 1
+	"<gefu>" "dead"
+		"person destroyed: Gefullte Taubenbrust (Capture me)" == 1
+	"<mast>" "dead"
+		"person destroyed: MasterOfGrey (Capture me)" == 1
+	"<patr>" "dead"
+		"person destroyed: Patrol Team (Capture me)" == 1
+
+
+
+mission "show person status"
+	job
+	repeat
+	name "(Show Person Ship List)"	
+	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships. Accept, start and land again to show the list."
+	source "Earth"
+	on complete
+		conversation
+			`Person Ship List`
+			``
+			`Status	"Name" (Source | Shiptype/s)`
+			`<mich>	"Michael Zahniser" (found everywhere | Kestrel + Finch)`
+			`<capn>	"Cap'n Pester" (found everywhere | Quarg Wardragon)`
+			`<mara>	"Marauding Max" (found everywhere | Marauder Fury)`
+			`<capt>	"Captain Nate" (found everywhere | Vanguard)	`
+			`<tran>	"Tranquility" (found everywhere | Lampyrid)	`
+			`<powe>	"Power of the People" (found everywhere | Modified Osprey)`
+			`<loca>	"Local God" (found everywhere | Ursa Polaris)`
+			`<subs>	"Subsidurial" (found in uninhabited | Subsidurial)`
+			`<prot>	"Prototype B3-CC4" (found in Ember Waste | Shooting Star)`
+			`<rais>	"Rais Iris XVIII" (found everywhere | Marauder Bactrian)`
+			`<zitc>	"Zitchas" (found in Ember Waste | Heron + Peregrine + 4x Petrel + 32x Tern)`
+			`<bric>	"Brick" (found everywhere | 3x Modified Boxwing)`
+			`<gefu>	"Gefullte Taubenbrust" (found everywhere | Modified Battleship)`
+			`<mast>	"MasterOfGrey" (found in Hai space | Modified Ladybug)`
+			`<patr>	"Patrol Team" (found everywhere | 6x Waverider)`
+			``
+			`captureable.person.ships disables the old person ships, and creates nearly identically new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(Capture me)" behind their names. So persons ships killed prior installing this plugin got re-added.` 
+			``
+			`Every 10 minutes a person ship has the chance to spawn in the system you are in. The formula for the chance to spawn a specific ship is:`
+			`1000 / (1000 x remainig.ships.that.can.spawn.here + 1000)`
+			`So lets say, you have just one unkilled ship... 1000 / (1000 x 1 + 1000) = 50% , the other 50% nothing spawns. With 4 ships you have a 20% chance for each ship, with 10 ships its 9% and so on. There is allways a chance nothings spawns, the more ships are alive the lower is that chance, which peaks at 50% with one ship.` 
+
