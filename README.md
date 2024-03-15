@@ -15,16 +15,16 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-14 | update: show.reputation<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-15 | update: gegno.pirates<br>
+2024-03-15 | update: more.boarding.missions<br>
+2024-03-15 | update: real.fluff<br>
+2024-03-14 | update: show.reputation<br>
 2024-03-14 | update: snowfeather.robotics<br>
 2024-03-14 | update: expert.crew.members<br>
 2024-03-14 | update: captureable.person.ships<br>
 2024-03-11 | update: bunrodea.missions<br>
 2024-03-09 | update: gegno.pirates<br>
 2024-03-08 | update: gegno.pirates<br>
-2024-03-07 | update: gegno.pirates<br>
-2024-03-06 | update: gegno.pirates<br>
-2024-02-19 | update: additional.command.buttons<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1128,7 +1128,7 @@ moved investment missions from spaceport mission to job board
 
 <img src="myplugins/gegno.pirates/icon.png" height="100">
 
-[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/gegno.pirates.zip) | 238.03 kb | 2024-03-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
+[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/gegno.pirates.zip) | 238.06 kb | 2024-03-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
 <br>
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the readme for details.
 
@@ -1203,6 +1203,12 @@ Remove the 8 lines containing: "Gegno Civilian" "Gegno Driller"	 "Scin Adjutant"
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-15<br>
+
+adjustments and fixes<br>
 
 <br>
 
@@ -1459,7 +1465,7 @@ added plugin.txt<br>
 
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
 
-[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 15.55 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
+[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 26.79 kb | 2024-03-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the readme for details.
 <details>
@@ -1498,6 +1504,10 @@ Adds 53 repeatable boarding and assisting missions. Boarding/assisting Free Worl
 
 <li> 7 Wanderer assisting missions (by ship categories, 10% chance, 50.000 to 100.000 credits)</li>
 
+<li> 7 Gegno Scin assisting missions (by ship categories, 20% chance, 14.000 to 50.000 credits)</li>
+
+<li> 7 Gegno Vi assisting missions (by ship categories, 20% chance, 16.000 to 50.000 credits)</li>
+
 </ul>
 
 <br>
@@ -1505,6 +1515,18 @@ Adds 53 repeatable boarding and assisting missions. Boarding/assisting Free Worl
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-15<br>
+
+bugfixes<br>
+
+added 7 Gegno Scin assisting mission<br>
+
+added 7 Gegno Vi assisting mission<br>
+
+added color changed outfit png for pug war staff<br>
 
 <br>
 
@@ -1698,7 +1720,7 @@ initial release<br>
 
 <img src="myplugins/real.fluff/icon.png" height="100">
 
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 1.93 mb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
+[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 2.65 mb | 2024-03-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
 <br>
 >A bunch of side missions which reward unique fluffy pets. See the readme for details.
 <details>
@@ -1719,19 +1741,21 @@ Lore-friendly, total useless, but cute pet outfits, with storylines. All mission
 
 <li>Alien - land somewhere in human space, hidden destination is Danoa system</li>
 
-<li>Ferret - mission found on Bivrost</li>
+<li>Cat - mission found on Deadman's Cove (Almach)</li>
 
-<li>Hamster - mission found on Twinstar</li>
+<li>Ferret - mission found on Bivrost (Markeb)</li>
 
-<li>Koala - mission found on New Portland</li>
+<li>Hamster - mission found on Twinstar (Alniyat)</li>
 
-<li>Ocelot - mission found on Farpoint</li>
+<li>Koala - mission found on New Portland (Delta Sagittarii)</li>
 
-<li>Rabbit - mission found on Starcross</li>
+<li>Ocelot - mission found on Farpoint (Alnitak) needs 100 combat xp</li>
 
-<li>Raccoon - mission found on Foundry </li>
+<li>Rabbit - mission found on Starcross (Acrux)</li>
 
-<li>Squirrel - mission found on Heartvalley (Hai space)</li>
+<li>Raccoon - mission found on Foundry (Achernar)</li>
+
+<li>Squirrel - mission found on Heartvalley (Io Lowe, Hai space)</li>
 
 </ul>
 
@@ -1742,6 +1766,18 @@ Lore-friendly, total useless, but cute pet outfits, with storylines. All mission
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-15<br>
+
+bugfixes<br>
+
+added cat mission<br>
+
+added 4 new scene images<br>
+
+changed images to ai generated<br>
 
 <br>
 

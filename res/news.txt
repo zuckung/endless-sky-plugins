@@ -1,3 +1,6 @@
+2024-03-15 | update: gegno.pirates
+2024-03-15 | update: more.boarding.missions
+2024-03-15 | update: real.fluff
 2024-03-14 | update: show.reputation
 2024-03-14 | update: snowfeather.robotics
 2024-03-14 | update: expert.crew.members
