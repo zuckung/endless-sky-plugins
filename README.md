@@ -15,16 +15,16 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-15 | update: gegno.pirates<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-15 | update: unique.fix<br>
+2024-03-15 | update: better.starts<br>
+2024-03-15 | update: bunrodea.missions<br>
+2024-03-15 | update: gegno.pirates<br>
 2024-03-15 | update: more.boarding.missions<br>
 2024-03-15 | update: real.fluff<br>
 2024-03-14 | update: show.reputation<br>
 2024-03-14 | update: snowfeather.robotics<br>
 2024-03-14 | update: expert.crew.members<br>
 2024-03-14 | update: captureable.person.ships<br>
-2024-03-11 | update: bunrodea.missions<br>
-2024-03-09 | update: gegno.pirates<br>
-2024-03-08 | update: gegno.pirates<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -321,7 +321,7 @@ changed icon.png<br>
 
 <img src="myplugins/better.starts/icon.png" height="100">
 
-[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 21.79 kb | 2024-02-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
+[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 22.34 kb | 2024-03-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
 <br>
 >Adds several new start options with different ships, background storys, credits and debts. See the readme for details.
 
@@ -353,7 +353,7 @@ Adds 9 new start options with different ships, background storys, credits and de
 
 <li>Start: Explorer to Automata | Bounder: equipped for exploring the Kor Automata, in Mirfak system</li>
 
-<li>Start: Cheater | Heron: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
+<li>Start: Cheater | Heron + 10xKIV: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
 
 </ul>
 
@@ -369,11 +369,19 @@ Changelog:<br>
 
 <br>
 
+2024-03-15<br>
+
+Start: Cheater, changed Heron weapons and added 10x KIV with beam weapons<br>
+
+Start: Cheater, added mission for full visible human space to the outfitter<br>
+
+<br>
+
 2024-02-15<br>
 
 Start: Cheater... fixed map not showing all systems<br>
 
-Start: Miner... changed ship to "Sunder" with Mining Drones<br>
+Start: Miner... changed ship to "Sunder" with 2 Mining Drones<br>
 
 <br>
 
@@ -418,7 +426,7 @@ added Start Explorer to Automata<br>
 
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 51.09 kb | 2024-03-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 129.45 kb | 2024-03-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the readme for details.
 <details>
@@ -441,7 +449,7 @@ Unlocking the planet with all ships needs 100 reputation. Unlocking the last of 
 
 20 rep for the first mission which unlocks repeatable jobs.<br>
 
-5-9 rep for repeatable jobs<br>
+5-10 rep for repeatable jobs<br>
 
 10 rep for Korath ship killing job<br>
 
@@ -451,15 +459,31 @@ At 200 rep the third mission starts, which gives 40 rep and unlocks the third re
 
 <br>
 
+Since it's often questioned, here is a guide to the bunrodea first contact mission. Travel through Bunrodea territory till you killed at least one Bunrodea ship, then fly to the human pirate system Misam, start and land there till you get a mission(10% on landing), that mission brings you back to the Bunrodea. You can land on 4 planets now, and at this point this plugin starts.<br>
+
+<br>
+
 <br>
 
 Changelog:<br>
 
 <br>
 
+2024-03-15<br>
+
+bugfixes<br>
+
+added first contact guide to readme<br>
+
+added unique outfit "Bunrodea Translation Device"<br>
+
+added 2 more hunt criminal jobs<br>
+
+<br>
+
 2024-03-11<br>
 
-fixed missions not starting bug<br>
+fixed missions not starting bug <br>
 
 removed worldship fleets from the 3 border systems<br>
 
@@ -469,7 +493,7 @@ added 3rd fight mission(worldship) and repeatable job(25% chance)<br>
 
 added 3 rush delivery jobs<br>
 
-added criminal hunt culture conversation(25% chance) and repeatable job(35% chance)<br>
+added criminal hunt culture conversation(25% chance) and repeatable job(35% chance) after<br>
 
 added final mission at 500 reputation<br>
 
@@ -2012,7 +2036,7 @@ added a python script which generates the asteroids.txt(in case I don't update t
 
 <img src="myplugins/unique.fix/icon.png" height="100">
 
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) | 346.85 kb | 2024-02-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
+[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/unique.fix.zip) | 429.04 kb | 2024-03-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.
 
@@ -2042,13 +2066,17 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 
 </ul>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/unique.fix/screenshot.png' width='400'>
-
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-15<br>
+
+changed Puny png to ai generated<br>
 
 <br>
 
