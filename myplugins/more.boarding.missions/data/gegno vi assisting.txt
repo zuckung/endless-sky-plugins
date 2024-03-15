@@ -1,0 +1,103 @@
+# 7 assisting gegno vi missions
+
+conversation "con assisting gegno vi"
+	`After you've repaired the Gegno Vi ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+		decline
+
+mission "Assisting Gegno Vi (Interceptor)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Interceptor" "Fighter"
+	on offer
+		payment 16000
+		conversation "con assisting gegno vi"
+
+mission "Assisting Gegno Vi (Light Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Light Warship"
+	on offer
+		payment 21000
+		conversation "con assisting gegno vi"
+
+mission "Assisting Gegno Vi (Transport)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Transport"
+	on offer
+		payment 26000
+		conversation "con assisting gegno vi"
+
+mission "Assisting Gegno Vi (Light Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Light Freighter"
+	on offer
+		payment 29000
+		conversation "con assisting gegno vi"
+
+mission "Assisting Gegno Vi (Medium Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Medium Warship"
+	on offer
+		payment 34000
+		conversation "con assisting gegno vi"
+
+mission "Assisting Gegno Vi (Heavy Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Heavy Freighter"
+	on offer
+		payment 39000
+		conversation "con assisting gegno vi"
+
+mission "Assisting Gegno Vi (Heavy Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Heavy Warship" "Utility"
+	on offer
+		payment 50000
+		conversation "con assisting gegno vi"

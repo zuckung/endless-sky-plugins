@@ -34,6 +34,9 @@ Remove the 8 lines containing: "Gegno Civilian" "Gegno Driller"	 "Scin Adjutant"
 <br>
 Changelog:<br>
 <br>
+2024-03-15<br>
+adjustments and fixes<br>
+<br>
 2024-03-09<br>
 adjustments and fixes<br>
 compatibility fix in missions<br>

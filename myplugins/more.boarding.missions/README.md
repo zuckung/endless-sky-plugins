@@ -15,10 +15,18 @@ Adds 53 repeatable boarding and assisting missions. Boarding/assisting Free Worl
 <li> 3 Pug boarding missions (by ship categories, 10% chance, 100.000 to 200.000 credits)</li>
 <li> 3 Pug boarding missions (by ship categories, 1-3% chance, new outfit "Pug War Staff")</li>
 <li> 7 Wanderer assisting missions (by ship categories, 10% chance, 50.000 to 100.000 credits)</li>
+<li> 7 Gegno Scin assisting missions (by ship categories, 20% chance, 14.000 to 50.000 credits)</li>
+<li> 7 Gegno Vi assisting missions (by ship categories, 20% chance, 16.000 to 50.000 credits)</li>
 </ul>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-03-15<br>
+bugfixes<br>
+added 7 Gegno Scin assisting mission<br>
+added 7 Gegno Vi assisting mission<br>
+added color changed outfit png for pug war staff<br>
 <br>
 2023-10-17<br>
 added plugin.txt<br>

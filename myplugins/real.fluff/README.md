@@ -6,18 +6,25 @@ A bunch of side missions which reward unique pets. <br>
 Lore-friendly, total useless, but cute pet outfits, with storylines. All missions have a 10% chance of appearing, except alien mission which has  100%.<br>
 <ul>
 <li>Alien - land somewhere in human space, hidden destination is Danoa system</li>
-<li>Ferret - mission found on Bivrost</li>
-<li>Hamster - mission found on Twinstar</li>
-<li>Koala - mission found on New Portland</li>
-<li>Ocelot - mission found on Farpoint</li>
-<li>Rabbit - mission found on Starcross</li>
-<li>Raccoon - mission found on Foundry </li>
-<li>Squirrel - mission found on Heartvalley (Hai space)</li>
+<li>Cat - mission found on Deadman's Cove (Almach)</li>
+<li>Ferret - mission found on Bivrost (Markeb)</li>
+<li>Hamster - mission found on Twinstar (Alniyat)</li>
+<li>Koala - mission found on New Portland (Delta Sagittarii)</li>
+<li>Ocelot - mission found on Farpoint (Alnitak) needs 100 combat xp</li>
+<li>Rabbit - mission found on Starcross (Acrux)</li>
+<li>Raccoon - mission found on Foundry (Achernar)</li>
+<li>Squirrel - mission found on Heartvalley (Io Lowe, Hai space)</li>
 </ul>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/real.fluff/screenshot.jpg' width='400'>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-03-15<br>
+bugfixes<br>
+added cat mission<br>
+added 4 new scene images<br>
+changed images to ai generated<br>
 <br>
 2023-10-17<br>
 added plugin.txt<br>

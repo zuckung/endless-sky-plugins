@@ -8,8 +8,8 @@
 mission "found gegno pirates"
 	landing
 	invisible
-	on offer
-		accept
+	to complete
+		never
 	on enter "Zaron"
 		dialog `You have entered the Zaron system. This must be the center of the Gegno pirate threat. Boarding these pirates might bring unexpected wealth!`
 		fail

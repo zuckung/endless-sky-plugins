@@ -1,14 +1,34 @@
-outfit "fluffy_alien"
-	category "Unique"
-	"display name" `"Black Beauty"`
-	thumbnail "outfit/alien"
-	description `Some kind of strange animal you've found on a derelict ship. Although it tries to bite you regularly, you keep it as a pet.`
+# ship argosy for alien mission
+# outfit ocelot
+# outfit raccoon
+# outfit alien
+# outfit ferret
+# outfit koala
+# outfit rabbit
+# outfit hamster
+# outfit squirrel
 
-outfit "fluffy_raccoon"
+
+ship "Argosy" "Nostromo"
+	add attributes
+		"drag" 100
+		"cargo space" 20
+		"outfit space" 134
+		"engine capacity" 34
+	attributes
+		"bunks" 0
+	outfits
+		"Fission Reactor"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		"Outfits Expansion"
+		"Greyhound Plasma Thruster"
+
+outfit "fluffy_cat"
 	category "Unique"
-	"display name" `"Bandit"`
-	thumbnail "outfit/fluffy_raccoon"
-	description `This little raccoon is always at your side, at least at lunch time. `
+	"display name" `"Cleo"`
+	thumbnail "outfit/fluffy_cat"
+	description `Once "Cleo" was a collateral victim of a gun shooting, now she is the queen of a star ship bridge! One rank above the captain.`
 
 outfit "fluffy_ocelot"
 	category "Unique"
@@ -16,11 +36,17 @@ outfit "fluffy_ocelot"
 	thumbnail "outfit/fluffy_ocelot"
 	description `"Babou", former pirate ocelot, fights for the good side now!`
 
-outfit "fluffy_squirrel"
+outfit "fluffy_raccoon"
 	category "Unique"
-	"display name" `"Trixie"`
-	thumbnail "outfit/fluffy_squirrel"
-	description `A little squirrel girl named "Trixie". She is now your friend.`
+	"display name" `"Bandit"`
+	thumbnail "outfit/fluffy_raccoon"
+	description `This little raccoon is always at your side, at least at lunch time. `
+
+outfit "fluffy_alien"
+	category "Unique"
+	"display name" `"Black Beauty"`
+	thumbnail "outfit/alien"
+	description `Some kind of strange animal you've found on a derelict ship. Although it tries to bite you regularly, you keep it as a pet.`
 
 outfit "fluffy_ferret"
 	category "Unique"
@@ -34,14 +60,20 @@ outfit "fluffy_koala"
 	thumbnail "outfit/fluffy_koala"
 	description `You installed half a tree on the bridge for "Archie." And now he sleeps almost all day, only interrupted by breaks to eat. At least he is fluffy.`
 
+outfit "fluffy_rabbit"
+	category "Unique"
+	"display name" `"Thumper"`
+	thumbnail "outfit/fluffy_rabbit"
+	description `Unfortunately, "Thumper" constantly gnaws at all exposed cables. It took some effort to make the bridge of your ship rabbit-proof. If only he wasn't so cute.`
+
 outfit "fluffy_hamster"
 	category "Unique"
 	"display name" `"Peanut"`
 	thumbnail "outfit/fluffy_hamster"
 	description `As a real spacefaring hamster, "Peanut" knows how to transport a large cargo of nuts to his house.`
 
-outfit "fluffy_rabbit"
+outfit "fluffy_squirrel"
 	category "Unique"
-	"display name" `"Thumper"`
-	thumbnail "outfit/fluffy_rabbit"
-	description `Unfortunately, "Thumper" constantly gnaws at all exposed cables. It took some effort to make the bridge of your ship rabbit-proof. If only he wasn't so cute.`
+	"display name" `"Trixie"`
+	thumbnail "outfit/fluffy_squirrel"
+	description `A little squirrel girl named "Trixie". She is now your friend.`

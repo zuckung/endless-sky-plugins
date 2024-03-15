@@ -4,7 +4,7 @@
 fleet "Trader Gegno Pirate Fleet"
 	government "Gegno Pirates"
 	names "gegno united"
-	cargo 4
+	cargo 250
 	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
 	personality
 		confusion 30
@@ -32,7 +32,7 @@ fleet "Trader Gegno Pirate Fleet"
 fleet "Small Gegno Pirate Fleet"
 	government "Gegno Pirates"
 	names "gegno united"
-	cargo 4
+	cargo 50
 	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
 	personality
 		confusion 20
@@ -60,7 +60,7 @@ fleet "Small Gegno Pirate Fleet"
 fleet "Medium Gegno Pirate Fleet"
 	government "Gegno Pirates"
 	names "gegno united"
-	cargo 4
+	cargo 100
 	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
 	personality
 		confusion 20
@@ -95,7 +95,7 @@ fleet "Medium Gegno Pirate Fleet"
 fleet "Heavy Gegno Pirate Fleet"
 	government "Gegno Pirates"
 	names "gegno united"
-	cargo 4
+	cargo 150
 	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
 	personality
 		confusion 20
@@ -147,7 +147,7 @@ fleet "Heavy Gegno Pirate Fleet"
 fleet "SuperHeavy Gegno Pirate Fleet"
 	government "Gegno Pirates"
 	names "gegno united"
-	cargo 4
+	cargo 200
 	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
 	personality
 		confusion 20
