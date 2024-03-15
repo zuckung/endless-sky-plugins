@@ -1476,7 +1476,7 @@ added plugin.txt<br>
 
 <br>
 
-Adds 53 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer) and Wanderer can trigger them. Bigger ships give higher rewards.<br>
+Adds 67 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer) and Wanderer can trigger them. Bigger ships give higher rewards.<br>
 
 <br>
 
