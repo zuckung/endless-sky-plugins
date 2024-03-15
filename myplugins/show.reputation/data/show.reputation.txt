@@ -1,0 +1,42 @@
+mission "show reputation"
+	job
+	repeat
+	name "(Show Reputations)"
+	description "Shows a list of reputations. Accept mission, start and land again. Its shows the values in steps of 10, from -1000 to +1000."
+	on complete
+		conversation
+			`Reputation List`
+			``
+			`&[reputation: Author] Author`
+			`&[reputation: Bunrodea] Bunrodea`
+			`&[reputation: Coalition] Coalition`
+			`&[reputation: Deep] Deep`
+			`&[reputation: Gegno] Gegno`
+			`&[reputation: Gegno Scin] Gegno Scin`
+			`&[reputation: Gegno Vi] Gegno Vi`
+			`&[reputation: Hai] Hai`
+			`&[reputation: Hai Merchant] Hai Merchant`
+			`&[reputation: Hai Merchant (Sympathizers)] Hai Merchant (Sympathizers)`
+			`&[reputation: Hai (Unfettered)] Hai (Unfettered)`
+			`&[reputation: Heliarch] Heliarch`
+			`&[reputation: Ka'het] Ka'het`
+			`&[reputation: Korath] Korath`
+			`&[reputation: Korath (Civilian)] Korath (Civilian)`
+			`&[reputation: Kor Efret] Kor Efret`
+			`&[reputation: Lunarium] Lunarium`
+			`&[reputation: Merchant] Merchant`
+			`&[reputation: Militia] Militia`
+			`&[reputation: Navy Intelligence] Navy Intelligence`
+			`&[reputation: Navy (Oathkeeper)] Navy (Oathkeeper)`
+			`&[reputation: Pirate] Pirate`
+			`&[reputation: Pug] Pug`
+			`&[reputation: Pug (Wanderer)] Pug (Wanderer)`
+			`&[reputation: Quarg] Quarg`
+			`&[reputation: Quarg (Hai)] Quarg (Hai)`
+			`&[reputation: Quarg (Kor Efret)] Quarg (Kor Efret)`
+			`&[reputation: Quarg (Gegno)] Quarg (Gegno)`
+			`&[reputation: Remnant] Remnant`
+			`&[reputation: Republic] Republic`
+			`&[reputation: Syndicate] Syndicate`
+			`&[reputation: Wanderer] Wanderer`
+			``
