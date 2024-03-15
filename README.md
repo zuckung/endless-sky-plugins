@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-15 | update: unique.fix<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-15 | update: show.reputation<br>
+2024-03-15 | update: unique.fix<br>
 2024-03-15 | update: better.starts<br>
 2024-03-15 | update: bunrodea.missions<br>
 2024-03-15 | update: gegno.pirates<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-14 | update: show.reputation<br>
 2024-03-14 | update: snowfeather.robotics<br>
 2024-03-14 | update: expert.crew.members<br>
-2024-03-14 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1851,7 +1851,7 @@ initial release<br>
 
 <img src="myplugins/show.reputation/icon.png" height="100">
 
-[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/show.reputation.zip) | 67.59 kb | 2024-03-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <br>
+[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/show.reputation.zip) | 68.23 kb | 2024-03-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <br>
 <br>
 >Enables a job on every planet's job board, that shows the reputation values. See the readme for details.
 
@@ -1869,9 +1869,7 @@ Enables a job on every planet's job board, that shows the reputation values.<br>
 
 Accept the job, start, land again, and the list of reputations pops up.<br>
 
-Its shows the values in steps of 10, from -1000 to +1000.<br>
-
-I took just the 30 most useful reputations. Full list made landing lag.<br>
+I took just the 30 most useful reputations.<br>
 
 <br>
 
