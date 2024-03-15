@@ -184,8 +184,10 @@ start "z_miner"
 	set "Intro [3 Transport]: done"
 	ship "Sunder" "Sunder (Customized)"
 		name "Digger"
-	ship "Mining Drone" "A"
-	ship "Mining Drone" "B"
+	ship "Mining Drone" "Mining Drone (Modified)"
+		"name" "Alpha"
+	ship "Mining Drone" "Mining Drone (Modified)"
+		"name" "Beta"
 
 conversation "z_miner"
 	scene "scene/lobby"
@@ -408,7 +410,7 @@ conversation "z_explorer2"
 
 start "z_cheater"
 	name "Start: Cheater"
-	description `Ship: Heron`
+	description `Ship: Heron + 10xKIV`
 	description `Start with:`
 	description ` Jump Drive`
 	description ` 1 billion credits`
@@ -434,29 +436,33 @@ start "z_cheater"
 	set "Intro [2 Transport]: done"
 	set "Intro [3 Transport]: offered"
 	set "Intro [3 Transport]: done"
-	ship "Heron" "Heron (Customized)"
-		outfits
-			"Aeon Cell" 4
-			"Bellows-Class Afterburner" 3
-			"Crystal Capacitor" 10
-			"Ember Tear"
-			"Emergency Ramscoop" 10
-			"Human Space Map"
-			Hyperdrive
-			"Inhibitor Turret" 6
-			"Jump Drive"
-			"Large Heat Shunt" 5
-			"Point Defense Turret" 3
-			"Quantum Key Stone"
-			"Salvage Scanner" 5
-			"Scram Drive"
-			"Smelter-Class Steering" 5
-			"Smelter-Class Thruster" 4
-			"Thermoelectric Cooler" 5
-	
+	set "give map"
+	ship "Heron (Disabler)" "Heron (Customized)"
+		"name" "Voyager"
+	ship "Kar Ik Vot 349 (Disabler)" "KIV"
+		"name" "KIV 01"
+	ship "Kar Ik Vot 349 (Disabler)" "KIV"
+		"name" "KIV 02"
+	ship "Kar Ik Vot 349 (Disabler)" "KIV"
+		"name" "KIV 03"
+	ship "Kar Ik Vot 349 (Disabler)" "KIV"
+		"name" "KIV 04"
+	ship "Kar Ik Vot 349 (Disabler)" "KIV"
+		"name" "KIV 05"
+	ship "Kar Ik Vot 349 (Disabler)"	 "KIV"
+		"name" "KIV 06"
+	ship "Kar Ik Vot 349 (Disabler)"	 "KIV"
+		"name" "KIV 07"
+	ship "Kar Ik Vot 349 (Disabler)" "KIV"
+		"name" "KIV 08"
+	ship "Kar Ik Vot 349 (Disabler)" "KIV"
+		"name" "KIV 09"
+	ship "Kar Ik Vot 349 (Disabler)" "KIV"
+		"name" "KIV 10"
+
 conversation "z_cheater"
 	scene "scene/lobby"
 	`	Enter your name: `
 	name
 	`Hello captain <first> <last>, please enjoy your easy start :)`
-	`For full visible human space map: sell and re-buy the unique outfit "Human Space Map".`
+	`For full visible human space map visit the local outfitter.`

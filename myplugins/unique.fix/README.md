@@ -10,10 +10,12 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 <li> Gives outfit '"Puny"' a portrait. </li>
 <li> Puts outfit 'Mug' into unique category </li>
 </ul>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/unique.fix/screenshot.png' width='400'>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-03-15<br>
+changed Puny png to ai generated<br>
 <br>
 2024-02-04<br>
 removed mug image, because it got added in 0.10.5<br>

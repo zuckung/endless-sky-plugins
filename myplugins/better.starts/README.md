@@ -11,7 +11,7 @@ Adds 9 new start options with different ships, background storys, credits and de
 <li>Start: Salvager(big) | Argosy: equipped for boarding, in Aldhibain system</li>
 <li>Start: Explorer to Remnant | Heavy Shuttle: equipped for exploring the Remnant, in Tania Australis system</li>
 <li>Start: Explorer to Automata | Bounder: equipped for exploring the Kor Automata, in Mirfak system</li>
-<li>Start: Cheater | Heron: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
+<li>Start: Cheater | Heron + 10xKIV: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
 </ul>
 <br>
 Beside the cheater start option, all others are balanced and lore friendly. A bigger ship means a bigger bank loan. All starts come with 200.000 credits cash and a bank loan between 600.000 and 4,5 million credits. The ships outfits are changed to fit the role. The intro missions on New Bosten are set as completed. Same goes for the Hai start with the Hai first contact mission.<br>
@@ -19,9 +19,13 @@ Beside the cheater start option, all others are balanced and lore friendly. A bi
 <br>
 Changelog:<br>
 <br>
+2024-03-15<br>
+Start: Cheater, changed Heron weapons and added 10x KIV with beam weapons<br>
+Start: Cheater, added mission for full visible human space to the outfitter<br>
+<br>
 2024-02-15<br>
 Start: Cheater... fixed map not showing all systems<br>
-Start: Miner... changed ship to "Sunder" with Mining Drones<br>
+Start: Miner... changed ship to "Sunder" with 2 Mining Drones<br>
 <br>
 2023-10-17<br>
 added plugin.txt<br>

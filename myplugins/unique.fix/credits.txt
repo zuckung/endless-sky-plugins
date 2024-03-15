@@ -3,4 +3,4 @@ author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
 images:
-	https://www.pngfind.com/mpng/obRboJ_apricot-poodle-hd-png-download
+	ai generated at https://www.craiyon.com/

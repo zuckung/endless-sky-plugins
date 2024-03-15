@@ -5,11 +5,11 @@
 mission "bunrodea defense"
 	landing
 	name "Bunrodea Defense"
-	description "A Korath ship entered Bunrodea territory at Era Natta. Destroy it."
+	description "A Korath ship entered Bunrodea territory at Genta Bo. Destroy it."
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
 		not planet "Erabuthro"
-	waypoint "Era Natta"
+	waypoint "Genta Bo"
 	to offer
 		has "First Contact: Bunrodea (Hostile): done"
 	on offer
@@ -19,15 +19,15 @@ mission "bunrodea defense"
 			`You turn the device on "... to be having problems with the rotator splint. The engine runs good now, but not for long."`
 			`"Anyway," he pulls out a computer pad and starts reading "On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', you are allowed to proof your worth to the Bunrodea Empire."`
 			`"Our territorial integrity gets tested by the Korath. Although these invaders mean no threat to us, letting an outsider handle them will show the Korath that they will have to fight on several frontiers if they ever decide to go beyond weak raids."`
-			`"Travel to Era Natta and destroy the Korath presence." without waiting for your answer the Bunrodean walks away.`
+			`"Travel to Genta Bo and destroy the Korath presence." without waiting for your answer the Bunrodean walks away.`
 				accept
 	npc kill
 		government "Korath"
-		personality personality heroic nemesis staying
-		system "Era Natta"
+		personality heroic nemesis staying
+		system "Genta Bo"
 		fleet
 			names "korath"
-			cargo 200
+			cargo 100
 			variant 2
 				"Palavret"
 				"'olofez" 2
@@ -36,6 +36,7 @@ mission "bunrodea defense"
 				"'olofez" 4
 		dialog "You have destroyed the Korath ship."
 	on complete
+		outfit "Bunrodea Translation Device"
 		conversation
 			`As far as you can tell, the same young Bunrodea already awaits you after the landing. He pulls out his pad again and starts reading.`
 			`"On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', the human captain <first> <last> is now allowed to use the 'Bunrodea Empire Job Network'. Further proofs of worth to the Bunrodea Empire will result in higher earning of trust." he puts back the pad and walks away.`
@@ -50,25 +51,25 @@ mission "bunrodea defense"
 mission "bunrodea defense 2"
 	landing
 	name "Bunrodea Defense 2"
-	description "A Korath fleet entered Bunrodea territory at Genta Bo. Destroy it."
+	description "A Korath fleet entered Bunrodea territory at Era Natta. Destroy it."
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
-	waypoint "Genta Bo"
+	waypoint "Era Natta"
 	to offer
 		"reputation: Bunrodea" >= 100
 	on offer
 		conversation
 			`The young Bunrodea with the silly appearance and behavior awaits you at the spaceport. This time he has memorized his speech.`
-			`"Our great queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro' is very pleased with your devotion to our cause. She offers you the chance to gain more honour. A Korath fleet just entered the Genta Bo system and you are chosen to fight for our queen."`
+			`"Our great queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro' is very pleased with your devotion to our cause. She offers you the chance to gain more honour. A Korath fleet just entered the Era Natta system and you are chosen to fight for our queen."`
 			`Like on all your previous meetings, he doesn't wait for a response and just walks away. You aren't sure if he is just a bureaucrat, stupid or a normal Bunrodea. This race is still very strange to your understanding.`
 				accept
 	npc kill
 		government "Korath"
-		personality personality heroic nemesis staying
-		system "Genta Bo"
+		personality heroic nemesis staying
+		system "Era Natta"
 		fleet
 			names "korath"
-			cargo 200
+			cargo 100
 			variant 1
 				"Palavret" 3
 				"'olofez" 6
@@ -110,15 +111,15 @@ mission "bunrodea defense 3"
 		conversation
 			`After leaving your ship you find Josuno already waiting for you.`
 			`"Greetings captain <last>, our queen once again offers you to defend the empire."`
-			`"A few hours ago, a Korath worldship destroyed one of our surveillance satellites in a peripheral system. Your task is to track down and destroy the worldship in the "Eneva Katta" system. I wish you good luck!"`
+			`"A few hours ago, a Korath worldship destroyed one of our surveillance satellites in a peripheral system. Your task is to track down and destroy the worldship in Eneva Katta. I wish you good luck!"`
 				accept
 	npc kill
 		government "Korath"
-		personality personality heroic nemesis staying
+		personality heroic nemesis staying
 		system "Eneva Katta"
 		fleet
 			names "korath"
-			cargo 200
+			cargo 100
 			variant 1
 				"Ra'gru Ik 618"
 			variant 1
@@ -130,7 +131,7 @@ mission "bunrodea defense 3"
 		conversation
 			`After landing you see a large crowd of Bunrodea gathering in front of your ship. From dock workers, security personnel to lower dignitaries, everyone seems to be there.`
 			`As the ramp of your ship lowers and you step outside, the crowd falls silent and raises their arms in unison. You wonder what that means. Josuno pushes himself out of the crowd, stands silently in front of you and raises his arms.`
-			`Since he doesn't make any effort to say anything, you decide to ask what it all means.
+			`Since he doesn't make any effort to say anything, you decide to ask what it all means.`
 			`"I'm sorry Captain <last>, I completely forgot how little you know about our customs. That arm gesture is a sign of deep respect. Everyone here saw your space battle with the worldship live on the space surveillance system. And everyone is here to honor you."`
 			`"It is our custom that you now raise your arms to acknowledge the honor."`
 			`As you raise your arms, all the Bunrodea lower theirs and the crowd slowly disperses.`
@@ -148,9 +149,9 @@ mission "bunrodea full rep"
 	description "Travel to the bunrodean queen at <destination>."
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
+		not planet "Erabuthro"
 	destination "Erabuthro"
 	to offer
-		not planet "Erabuthro"
 		"reputation: Bunrodea" >= 500
 		has "bunrodea defense 3: done"
 	on offer
@@ -184,7 +185,7 @@ mission "bunrodea criminal"
 		government "Bunrodea" "Bunrodea (Guard)"
 	to offer
 		"reputation: Bunrodea" >= 50
-			random < 25
+		random < 25
 	on offer
 		conversation
 			`As you cross the spaceport you notice something strange. Four security guards escort a handcuffed and battered prisoner to a small ship. In front of the ship they take off his shackles and beat him. Then they hand him a key card and take him to the ship's airlock. The small spaceship takes off and rises into the atmosphere. The four security guards leisurely stroll away.`

@@ -1,6 +1,64 @@
-outfit "Human Space Map"
-	category "Unique"
-	cost 45000
+# mission to add human space map
+# outfit tablet computer
+# ship kar ik vot 349 (disabler)
+# ship heron (disabler)
+
+
+mission "add full map"
+	invisible
+	outfitter
+	source "Earth"
+	to offer
+		has "give map"
+	on offer
+		outfit "Full Human Space Map"
+		conversation
+			`As soon as you appear at the local outfitter, the technicians copy every information they have about the Human space to your navigation computer! It's nice to be a premium customer.`
+				decline
+
+
+outfit "Full Human Space Map"
+	category "Special"
+	cost 100000
 	thumbnail "outfit/map"
 	"map" 300
-	description "This data chip contains complete information on the twelve star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+	description "This Table computer contains complete information on all star systems within the human space: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+
+
+ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Disabler)"
+	outfits
+		"Catalytic Ramscoop"
+		"Double Plasma Core"
+		"Fuel Module"
+		"Fuel Processor" 2
+		"Husk-Slice Turret" 4
+		"Jump Drive"
+		"Large Heat Shunt" 3
+		"Quantum Keystone"
+		"Shield Disruptor Turret" 2
+		"Small Heat Shunt"
+		"Steering (Planetary Class)"
+		"Systems Core (Large)"
+		"Thruster (Stellar Class)"
+		"Triple Plasma Core"
+		"Warder Anti-Missile" 2
+
+
+ship "Heron" "Heron (Disabler)"
+	outfits
+		"Aeon Cell" 4
+		"Bellows-Class Afterburner" 3
+		"Crystal Capacitor" 10
+		"Emergency Ramscoop" 10
+		"Husk-Slice Turret" 4
+		"Shield Disruptor Turret" 2
+		"Husk-Slice"
+		"Jump Drive"
+		"Large Heat Shunt" 5
+		"Point Defense Turret" 3
+		"Quantum Key Stone"
+		"Salvage Scanner" 5
+		"Smelter-Class Steering" 5
+		"Smelter-Class Thruster" 4
+		"Thermoelectric Cooler" 5
+

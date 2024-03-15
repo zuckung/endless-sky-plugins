@@ -1,12 +1,11 @@
-system "Era Natta"
-	add fleet "Korath Raid" 5000
-	add fleet "Korath Large Raid" 11000
-
 system "Genta Bo"
 	add fleet "Korath Raid" 5000
-	add fleet "Korath Large Raid" 11000
+	add fleet "Korath Large Raid" 10000
+
+system "Era Natta"
+	add fleet "Korath Raid" 5000
+	add fleet "Large Korath Raid" 10000
 
 system "Eneva Katta"
 	add fleet "Korath Raid" 5000
-	add fleet "Korath Large Raid" 11000
-
+	add fleet "Large Korath Raid" 10000

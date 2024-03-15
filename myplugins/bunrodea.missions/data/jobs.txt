@@ -2,7 +2,7 @@
 # 3 rush cargo jobs
 # 3 cargo jobs
 # 3 passenger jobs
-# 1 criminal hunt job
+# 3 criminal hunt job
 
 
 
@@ -10,20 +10,20 @@ mission "bunrodea defense (job)"
 	job
 	repeat
 	name "Destroy a Korath ship"
-	description "A Korath ship entered Bunrodea territory at Era Natta. Destroy it."
+	description "A Korath ship entered Bunrodea territory at Genta Bo. Destroy it."
 	source 
 		government "Bunrodea" "Bunrodea (Guard)"
-	waypoint "Era Natta"
+	waypoint "Genta Bo"
 	to offer
 		has "bunrodea defense: done"
 		random < 75
 	npc kill
 		government "Korath"
-		personality personality heroic nemesis staying
-		system "Era Natta"
+		personality heroic nemesis staying
+		system "Genta Bo"
 		fleet
 			names "korath"
-			cargo 200
+			cargo 100
 			variant 2
 				"Palavret"
 				"'olofez" 2
@@ -44,20 +44,20 @@ mission "bunrodea defense 2 (job)"
 	job
 	repeat
 	name "Destroy a Korath fleet"
-	description "A Korath fleet entered Bunrodea territory at Genta Bo. Destroy it."
+	description "A Korath fleet entered Bunrodea territory at Era Natta. Destroy it."
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
-		random < 50
-	waypoint "Genta Bo"
+	waypoint "Era Natta"
 	to offer
 		has "bunrodea defense 2: done"
+		random < 50
 	npc kill
 		government "Korath"
-		personality personality heroic nemesis staying
-		system "Genta Bo"
+		personality heroic nemesis staying
+		system "Era Natta"
 		fleet
 			names "korath"
-			cargo 200
+			cargo 100
 			variant 1
 				"Palavret" 3
 				"'olofez" 6
@@ -89,11 +89,11 @@ mission "bunrodea defense 3 (job)"
 		random < 25
 	npc kill
 		government "Korath"
-		personality personality heroic nemesis staying
+		personality heroic nemesis staying
 		system "Eneva Katta"
 		fleet
 			names "korath"
-			cargo 200
+			cargo 100
 			variant 1
 				"Ra'gru Ik 618"
 			variant 1
@@ -332,7 +332,7 @@ mission "bunrodea Passengers large"
 
 
 
-mission "bunrodea criminal (job)"
+mission "bunrodea criminal 1 (job)"
 	name "Execute a convicted criminal"
 	description "Search and execute a convicted criminal in the nearby systems by <day>. The payment is <payment>."
 	repeat
@@ -361,6 +361,66 @@ mission "bunrodea criminal (job)"
 		"reputation: Bunrodea (Erabu)" += 8
 		"reputation: Bunrodea (Guard)" += 8
 		"reputation: Bunrodea (Megasa)" += 8
+
+mission "bunrodea criminal 2 (job)"
+	name "Execute convicted criminals"
+	description "Search and execute a group of convicted criminals in the nearby systems by <day>. The payment is <payment>."
+	repeat
+	job
+	deadline 25
+	to offer
+		has "bunrodea criminal: declined"
+		random < 35
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	npc kill
+		government "Bunrodea (Criminal)"
+		personality heroic staying nemesis target
+		system
+			distance 1 2
+		fleet
+			names "bunrodea"
+			cargo 1
+			variant 1
+				"Tanto"
+		dialog "You have killed the criminal."
+	on complete
+		payment 100000
+		dialog `You receive the payment from the Bunrodea authorities for the execution of the criminal.`
+		"reputation: Bunrodea" += 9
+		"reputation: Bunrodea (Erabu)" += 9
+		"reputation: Bunrodea (Guard)" += 9
+		"reputation: Bunrodea (Megasa)" += 9
+
+mission "bunrodea criminal 3 (job)"
+	name "Execute convicted criminals"
+	description "Search and execute a group of convicted criminals in the nearby systems by <day>. The payment is <payment>."
+	repeat
+	job
+	deadline 25
+	to offer
+		has "bunrodea criminal: declined"
+		random < 35
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	npc kill
+		government "Bunrodea (Criminal)"
+		personality heroic staying nemesis target
+		system
+			distance 1 2
+		fleet
+			names "bunrodea"
+			cargo 1
+			variant 1
+				"Tekkan"
+		dialog "You have killed the criminal."
+	on complete
+		payment 125000
+		dialog `You receive the payment from the Bunrodea authorities for the execution of the criminal.`
+		"reputation: Bunrodea" += 10
+		"reputation: Bunrodea (Erabu)" += 10
+		"reputation: Bunrodea (Guard)" += 10
+		"reputation: Bunrodea (Megasa)" += 10
 
 
 

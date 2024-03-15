@@ -1,0 +1,4 @@
+outfit "Bunrodea Translation Device"
+	category "Unique"
+	thumbnail "outfit/device03"
+	description `This device translates Bunrodea to Human Common and vice versa.`
