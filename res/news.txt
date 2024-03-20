@@ -1,6 +1,6 @@
 2024-03-20 | update: galactic.capital.investment
 2024-03-20 | update: expert.crew.members
-2024-0÷-16 | cleaned up tools and added 2 more
+2024-03-20 | cleaned up tools and added 2 more
 2024-03-16 | update: show.reputation
 2024-03-15 | update: show.reputation
 2024-03-15 | update: unique.fix
