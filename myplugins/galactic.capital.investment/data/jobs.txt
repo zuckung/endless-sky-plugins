@@ -1,3 +1,11 @@
+# mission "Galactic Capital 1M"
+# mission "Galactic Capital 5M"
+# mission "Galactic Capital 10M"
+# mission "Galactic Capital 50M"
+# mission "Galactic Capital 100M"
+# mission "Galactic Capital 1000M"
+
+
 mission "Galactic Capital 1M"
 	name "Galactic Capital Investment 1 million"
 	job
@@ -8,11 +16,12 @@ mission "Galactic Capital 1M"
 	to offer
 		has "Galactic Capital Intro B: offered"
 		"credits" > 1000000
-		random > 75
+		random < 60
 	on accept
 		payment -1000000
 		"salary: Galactic Capital" += 600
 		fail
+
 
 mission "Galactic Capital 5M"
 	name "Galactic Capital Investment 5 million"
@@ -24,11 +33,12 @@ mission "Galactic Capital 5M"
 	to offer
 		has "Galactic Capital Intro B: offered"
 		"credits" > 5000000
-		random > 75
+		random < 50
 	on accept
 		payment -5000000
 		"salary: Galactic Capital" += 3400
 		fail
+
 
 mission "Galactic Capital 10M"
 	name "Galactic Capital Investment 10 million"
@@ -40,11 +50,12 @@ mission "Galactic Capital 10M"
 	to offer
 		has "Galactic Capital Intro B: offered"
 		"credits" > 10000000
-		random > 75
+		random < 40
 	on accept
 		payment -10000000
 		"salary: Galactic Capital" += 7200
 		fail
+
 
 mission "Galactic Capital 50M"
 	name "Galactic Capital Investment 50 million"
@@ -56,11 +67,12 @@ mission "Galactic Capital 50M"
 	to offer
 		has "Galactic Capital Intro B: offered"
 		"credits" > 50000000
-		random > 75
+		random < 30
 	on accept
 		payment -50000000
 		"salary: Galactic Capital" += 37000
 		fail
+
 
 mission "Galactic Capital 100M"
 	name "Galactic Capital Investment 100 million"
@@ -72,8 +84,25 @@ mission "Galactic Capital 100M"
 	to offer
 		has "Galactic Capital Intro B: offered"
 		"credits" > 100000000
-		random > 75
+		random < 20
 	on accept
 		payment -100000000
 		"salary: Galactic Capital" += 76100
+		fail
+
+
+mission "Galactic Capital 1000M"
+	name "Galactic Capital Investment 1000 million"
+	job
+	repeat
+	description "This is a rare investment opportunity with high investment and high reward. Daily yield: 2 Million credits, first profit after: 2,3 years"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
+	to offer
+		has "Galactic Capital Colonize 9: offered"
+		"credits" > 1000000000
+		random < 2
+	on accept
+		payment -1000000000
+		"salary: Galactic Capital" += 2000000
 		fail

@@ -1,0 +1,888 @@
+category "outfit"
+	"Crew"
+
+outfit "combat isaac wirth"
+	category "Crew"
+	"display name" "(Combat) Isaac Wirth"
+	thumbnail "portrait/human45"
+	"operating costs" 2000
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 15 
+	"capture defense" 16 
+	description `This is a highly educated employee focused on hand to hand combat. He is a Human, grown up in "rim".`
+
+outfit "combat jessy tuta"
+	category "Crew"
+	"display name" "(Combat) Jessy Tuta"
+	thumbnail "portrait/human125"
+	"operating costs" 2600
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 17 
+	"capture defense" 19 
+	description `This is a highly educated employee focused on hand to hand combat. She is a Human, grown up in "south".`
+
+outfit "combat kianoush royston"
+	category "Crew"
+	"display name" "(Combat) Kianoush Royston"
+	thumbnail "portrait/human55"
+	"operating costs" 3100
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 18 
+	"capture defense" 20 
+	description `This is a highly educated employee focused on hand to hand combat. He is a Human, grown up in "dirt belt".`
+
+outfit "combat rodrigo bain"
+	category "Crew"
+	"display name" "(Combat) Rodrigo Bain"
+	thumbnail "portrait/human36"
+	"operating costs" 3500
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 21 
+	"capture defense" 21 
+	description `This is a highly educated employee focused on hand to hand combat. He is a Human, grown up in "deep".`
+
+outfit "combat ainem wahpip"
+	category "Crew"
+	"display name" "(Combat) Ainem Wahpip"
+	thumbnail "portrait/hai02"
+	"operating costs" 3800
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 22 
+	"capture defense" 24 
+	description `This is a highly educated employee focused on hand to hand combat. He is a Hai.`
+
+outfit "combat asvip rap"
+	category "Crew"
+	"display name" "(Combat) Asvip Rap"
+	thumbnail "portrait/korath03"
+	"operating costs" 4300
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 23 
+	"capture defense" 25 
+	description `This is a highly educated employee focused on hand to hand combat. She is a Korath.`
+
+outfit "combat ry'i"
+	category "Crew"
+	"display name" "(Combat) Ry'i"
+	thumbnail "portrait/kimek03"
+	"operating costs" 4600
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 25 
+	"capture defense" 26 
+	description `This is a highly educated employee focused on hand to hand combat. He is a Kimek.`
+
+outfit "combat lugub"
+	category "Crew"
+	"display name" "(Combat) Lugub"
+	thumbnail "portrait/arachi04"
+	"operating costs" 5000
+	bunks -1
+	"unplunderable" 1
+	"capture attack" 26 
+	"capture defense" 26 
+	description `This is a highly educated employee focused on hand to hand combat. She is an Arach.`
+
+outfit "cooling atreus bodilsen"
+	category "Crew"
+	"display name" "(Cooling) Atreus Bodilsen"
+	thumbnail "portrait/human34"
+	"operating costs" 2200
+	bunks -1
+	"unplunderable" 1
+	"cooling" 11 
+	"heat capacity" 400 
+	description `This is a highly educated employee focused on cooling technologies. He is a Human, grown up in "south".`
+
+outfit "cooling beckah feidhelm"
+	category "Crew"
+	"display name" "(Cooling) Beckah Feidhelm"
+	thumbnail "portrait/human123"
+	"operating costs" 2900
+	bunks -1
+	"unplunderable" 1
+	"cooling" 13 
+	"heat capacity" 500 
+	description `This is a highly educated employee focused on cooling technologies. She is a Human, grown up in "deep".`
+
+outfit "cooling caspar laurentinus"
+	plural "(Cooling) Caspar Laurentinus"
+	category "Crew"
+	"display name" "(Cooling) Caspar Laurentinus"
+	thumbnail "portrait/human02"
+	"operating costs" 3000
+	bunks -1
+	"unplunderable" 1
+	"cooling" 13 
+	"heat capacity" 700 
+	description `This is a highly educated employee focused on cooling technologies. He is a Human, grown up in "rim".`
+
+outfit "cooling itoro signe"
+	category "Crew"
+	"display name" "(Cooling) Itoro Signe"
+	thumbnail "portrait/human95"
+	"operating costs" 3600
+	bunks -1
+	"unplunderable" 1
+	"cooling" 14 
+	"heat capacity" 800 
+	description `This is a highly educated employee focused on cooling technologies. She is a Human, grown up in "dirt belt".`
+
+outfit "cooling lohmahow monuden"
+	category "Crew"
+	"display name" "(Cooling) Lohmahow Monuden"
+	thumbnail "portrait/hai05"
+	"operating costs" 4000
+	bunks -1
+	"unplunderable" 1
+	"cooling" 15 
+	"heat capacity" 800 
+	description `This is a highly educated employee focused on cooling technologies. She is a Hai.`
+
+outfit "cooling krikey"
+	category "Crew"
+	"display name" "(Cooling) Krikey"
+	thumbnail "portrait/wanderer10"
+	"operating costs" 4100
+	bunks -1
+	"unplunderable" 1
+	"cooling" 16 
+	"heat capacity" 900 
+	description `This is a highly educated employee focused on cooling technologies. He is a Wanderer.`
+
+outfit "cooling kemme ranris"
+	plural "(Cooling) Kemme Ranris"
+	category "Crew"
+	"display name" "(Cooling) Kemme Ranris"
+	thumbnail "portrait/korath04"
+	"operating costs" 4200
+	bunks -1
+	"unplunderable" 1
+	"cooling" 18 
+	"heat capacity" 1100 
+	description `This is a highly educated employee focused on cooling technologies. She is a Korath.`
+
+outfit "cooling lotura"
+	category "Crew"
+	"display name" "(Cooling) Lotura"
+	thumbnail "portrait/saryd01"
+	"operating costs" 4900
+	bunks -1
+	"unplunderable" 1
+	"cooling" 19 
+	"heat capacity" 1200 
+	description `This is a highly educated employee focused on cooling technologies. She is a Saryd.`
+
+outfit "energy deirdre ciaran"
+	category "Crew"
+	"display name" "(Energy) Deirdre Ciaran"
+	thumbnail "portrait/human14"
+	"operating costs" 2100
+	bunks -1
+	"unplunderable" 1
+	"energy generation" 4.5 
+	"energy capacity" 5000 
+	description `This is a highly educated employee focused on energy technologies. She is a Human, grown up in "rim".`
+
+outfit "energy lisa zola"
+	category "Crew"
+	"display name" "(Energy) Lisa Zola"
+	thumbnail "portrait/human39"
+	"operating costs" 2500
+	bunks -1
+	"unplunderable" 1
+	"energy generation" 5.0 
+	"energy capacity" 7500 
+	description `This is a highly educated employee focused on energy technologies. She is a Human, grown up in "south".`
+
+outfit "energy normand kiran"
+	category "Crew"
+	"display name" "(Energy) Normand Kiran"
+	thumbnail "portrait/human08"
+	"operating costs" 2900
+	bunks -1
+	"unplunderable" 1
+	"energy generation" 5.0 
+	"energy capacity" 8000 
+	description `This is a highly educated employee focused on energy technologies. He is a Human, grown up in "near earth".`
+
+outfit "energy simona branka"
+	category "Crew"
+	"display name" "(Energy) Simona Branka"
+	thumbnail "portrait/human71"
+	"operating costs" 3400
+	bunks -1
+	"unplunderable" 1
+	"energy generation" 5.5 
+	"energy capacity" 4000 
+	description `This is a highly educated employee focused on energy technologies. She is a Human, grown up in "deep".`
+
+outfit "energy akane sakai"
+	category "Crew"
+	"display name" "(Energy) Akane Sakai"
+	thumbnail "portrait/bunrodea01"
+	"operating costs" 3700
+	bunks -1
+	"unplunderable" 1
+	"energy generation" 5.5 
+	"energy capacity" 8500 
+	description `This is a highly educated employee focused on energy technologies. She is a Bunrodea.`
+
+outfit "energy aikach"
+	category "Crew"
+	"display name" "(Energy) Aikach"
+	thumbnail "portrait/wanderer01"
+	"operating costs" 3900
+	bunks -1
+	"unplunderable" 1
+	"energy generation" 6.0 
+	"energy capacity" 6500 
+	description `This is a highly educated employee focused on energy technologies. She is a Wanderer.`
+
+outfit "energy raindrop"
+	category "Crew"
+	"display name" "(Energy) Raindrop"
+	thumbnail "portrait/remnant04"
+	"operating costs" 4200
+	bunks -1
+	"unplunderable" 1
+	"energy generation" 6.0 
+	"energy capacity" 8000 
+	description `This is a highly educated employee focused on energy technologies. She is a Remnant.`
+
+outfit "energy paicha"
+	category "Crew"
+	"display name" "(Energy) Paicha"
+	thumbnail "portrait/kimek01"
+	"operating costs" 4600
+	bunks -1
+	"unplunderable" 1
+	"energy generation" 6.5 
+	"energy capacity" 8000 
+	description `This is a highly educated employee focused on energy technologies. He is a Kimek.`
+
+outfit "engine anahit bodil"
+	category "Crew"
+	"display name" "(Engine) Anahit Bodil"
+	thumbnail "portrait/human65"
+	"operating costs" 2000
+	bunks -1
+	"unplunderable" 1
+	"thrust" 15 
+	"turn" 500 
+	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "core".`
+
+outfit "engine chetana jaleh"
+	category "Crew"
+	"display name" "(Engine) Chetana Jaleh"
+	thumbnail "portrait/human46"
+	"operating costs" 2800
+	bunks -1
+	"unplunderable" 1
+	"thrust" 16 
+	"turn" 550 
+	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "deep".`
+
+outfit "engine neal fransson"
+	category "Crew"
+	"display name" "(Engine) Neal Fransson"
+	thumbnail "portrait/human12"
+	"operating costs" 3200
+	bunks -1
+	"unplunderable" 1
+	"thrust" 18 
+	"turn" 550 
+	description `This is a highly educated employee focused on engine technologies. He is a Human, grown up in "south".`
+
+outfit "engine valeriya jannick"
+	category "Crew"
+	"display name" "(Engine) Valeriya Jannick"
+	thumbnail "portrait/human90"
+	"operating costs" 3600
+	bunks -1
+	"unplunderable" 1
+	"thrust" 19 
+	"turn" 600 
+	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "near earth".`
+
+outfit "engine riko ishii"
+	category "Crew"
+	"display name" "(Engine) Riko Ishii"
+	thumbnail "portrait/bunrodea02"
+	"operating costs" 3900
+	bunks -1
+	"unplunderable" 1
+	"thrust" 21 
+	"turn" 650 
+	description `This is a highly educated employee focused on engine technologies. She is a Bunrodea.`
+
+outfit "engine ifir rakik"
+	category "Crew"
+	"display name" "(Engine) Ifir Rakik"
+	thumbnail "portrait/korath05"
+	"operating costs" 4200
+	bunks -1
+	"unplunderable" 1
+	"thrust" 23 
+	"turn" 650 
+	description `This is a highly educated employee focused on engine technologies. He is a Korath.`
+
+outfit "engine midnight"
+	category "Crew"
+	"display name" "(Engine) Midnight"
+	thumbnail "portrait/remnant09"
+	"operating costs" 4400
+	bunks -1
+	"unplunderable" 1
+	"thrust" 25 
+	"turn" 700 
+	description `This is a highly educated employee focused on engine technologies. He is a Remnant.`
+
+outfit "engine kyree"
+	category "Crew"
+	"display name" "(Engine) Kyree"
+	thumbnail "portrait/kimek04"
+	"operating costs" 4900
+	bunks -1
+	"unplunderable" 1
+	"thrust" 26 
+	"turn" 750 
+	description `This is a highly educated employee focused on engine technologies. She is a Kimek.`
+
+outfit "fuel carl ahmad"
+	category "Crew"
+	"display name" "(Fuel) Carl Ahmad"
+	thumbnail "portrait/human07"
+	"operating costs" 2300
+	bunks -1
+	"unplunderable" 1
+	"ramscoop" 2 
+	"fuel capacity" 200 
+	description `This is a highly educated employee focused on fuel technologies. He is a Human, grown up in "core".`
+
+outfit "fuel kfir balam"
+	category "Crew"
+	"display name" "(Fuel) Kfir Balam"
+	thumbnail "portrait/human25"
+	"operating costs" 2800
+	bunks -1
+	"unplunderable" 1
+	"ramscoop" 2 
+	"fuel capacity" 400 
+	description `This is a highly educated employee focused on fuel technologies. He is a Human, grown up in "dirt belt".`
+
+outfit "fuel kostis joona"
+	category "Crew"
+	"display name" "(Fuel) Kostis Joona"
+	thumbnail "portrait/human24"
+	"operating costs" 3100
+	bunks -1
+	"unplunderable" 1
+	"ramscoop" 3 
+	"fuel capacity" 400 
+	description `This is a highly educated employee focused on fuel technologies. He is a Human, grown up in "near earth".`
+
+outfit "fuel nina sotiroula"
+	category "Crew"
+	"display name" "(Fuel) Nina Sotiroula"
+	thumbnail "portrait/human122"
+	"operating costs" 3400
+	bunks -1
+	"unplunderable" 1
+	"ramscoop" 3 
+	"fuel capacity" 600 
+	description `This is a highly educated employee focused on fuel technologies. She is a Human, grown up in "north".`
+
+outfit "fuel sookot dulur"
+	category "Crew"
+	"display name" "(Fuel) Sookot Dulur"
+	thumbnail "portrait/hai06"
+	"operating costs" 3800
+	bunks -1
+	"unplunderable" 1
+	"fuel generation" .2 
+	"fuel capacity" 600 
+	description `This is a highly educated employee focused on fuel technologies. She is a Hai.`
+
+outfit "fuel voriar"
+	category "Crew"
+	"display name" "(Fuel) Voriar"
+	thumbnail "portrait/wanderer02"
+	"operating costs" 4000
+	bunks -1
+	"unplunderable" 1
+	"fuel generation" .24 
+	"fuel capacity" 800 
+	description `This is a highly educated employee focused on fuel technologies. She is a Wanderer.`
+
+outfit "fuel ozon"
+	category "Crew"
+	"display name" "(Fuel) Ozon"
+	thumbnail "portrait/remnant06"
+	"operating costs" 4500
+	bunks -1
+	"unplunderable" 1
+	"fuel generation" .28 
+	"ramscoop" 2 
+	description `This is a highly educated employee focused on fuel technologies. He is a Remnant.`
+
+outfit "fuel comseci"
+	category "Crew"
+	"display name" "(Fuel) Comseci"
+	thumbnail "portrait/saryd05"
+	"operating costs" 5000
+	bunks -1
+	"unplunderable" 1
+	"fuel generation" .3 
+	"ramscoop" 3 
+	description `This is a highly educated employee focused on fuel technologies. He is a Saryd.`
+
+outfit "hull anuradha talin"
+	category "Crew"
+	"display name" "(Hull) Anuradha Talin"
+	thumbnail "portrait/human04"
+	"operating costs" 2100
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" .2 
+	"hull" 500 
+	description `This is a highly educated employee focused on hull effektivity. She is a Human, grown up in "core".`
+
+outfit "hull julia grainne"
+	category "Crew"
+	"display name" "(Hull) Julia Grainne"
+	thumbnail "portrait/human37"
+	"operating costs" 2600
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" .23 
+	"hull" 800 
+	description `This is a highly educated employee focused on hull effektivity. She is a Human, grown up in "paradise".`
+
+outfit "hull silvius hildegard"
+	category "Crew"
+	"display name" "(Hull) Silvius Hildegard"
+	thumbnail "portrait/human00"
+	"operating costs" 3200
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" .27 
+	"hull" 1000 
+	description `This is a highly educated employee focused on hull effektivity. He is a Human, grown up in "north".`
+
+outfit "hull sabina draga"
+	category "Crew"
+	"display name" "(Hull) Sabina Draga"
+	thumbnail "portrait/human107"
+	"operating costs" 3500
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" .28 
+	"hull" 1300 
+	description `This is a highly educated employee focused on hull effektivity. She is a Human, grown up in "south".`
+
+outfit "hull shiro kan"
+	category "Crew"
+	"display name" "(Hull) Shiro Kan"
+	thumbnail "portrait/bunrodea03"
+	"operating costs" 3900
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" .29 
+	"hull" 1400 
+	description `This is a highly educated employee focused on hull effektivity. He is a Bunrodea.`
+
+outfit "hull ak'en oaip"
+	category "Crew"
+	"display name" "(Hull) Ak'en Oaip"
+	thumbnail "portrait/korath07"
+	"operating costs" 4300
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" .31 
+	"hull" 1700 
+	description `This is a highly educated employee focused on hull effektivity. He is a Korath.`
+
+outfit "hull achee"
+	category "Crew"
+	"display name" "(Hull) Achee"
+	thumbnail "portrait/kimek02"
+	"operating costs" 4700
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" .35 
+	"hull" 1900 
+	description `This is a highly educated employee focused on hull effektivity. He is a Kimek.`
+
+outfit "hull potamog"
+	category "Crew"
+	"display name" "(Hull) Potamog"
+	thumbnail "portrait/arachi01"
+	"operating costs" 4900
+	bunks -1
+	"unplunderable" 1
+	"hull repair rate" .36 
+	"hull" 2000 
+	description `This is a highly educated employee focused on hull effektivity. He is an Arach.`
+
+outfit "jamming aline mai"
+	category "Crew"
+	"display name" "(Jamming) Aline Mai"
+	thumbnail "portrait/human128"
+	"operating costs" 2200
+	bunks -1
+	"unplunderable" 1
+	"radar jamming" 8 
+	"optical jamming" 5 
+	description `This is a highly educated employee focused on jamming technologies. She is a Human, grown up in "paradise".`
+
+outfit "jamming dominik bullock"
+	category "Crew"
+	"display name" "(Jamming) Dominik Bullock"
+	thumbnail "portrait/human68"
+	"operating costs" 2800
+	bunks -1
+	"unplunderable" 1
+	"radar jamming" 10 
+	"optical jamming" 8 
+	description `This is a highly educated employee focused on jamming technologies. He is a Human, grown up in "dirt belt".`
+
+outfit "jamming enver diefenbach"
+	category "Crew"
+	"display name" "(Jamming) Enver Diefenbach"
+	thumbnail "portrait/human58"
+	"operating costs" 3200
+	bunks -1
+	"unplunderable" 1
+	"scan interference" .5 
+	"optical jamming" 10 
+	description `This is a highly educated employee focused on jamming technologies. He is a Human, grown up in "north".`
+
+outfit "jamming raban fields"
+	plural "(Jamming) Raban Fields"
+	category "Crew"
+	"display name" "(Jamming) Raban Fields"
+	thumbnail "portrait/human67"
+	"operating costs" 3600
+	bunks -1
+	"unplunderable" 1
+	"scan interference" .5 
+	"optical jamming" 12 
+	description `This is a highly educated employee focused on jamming technologies. He is a Human, grown up in "core".`
+
+outfit "jamming umeo ageta"
+	category "Crew"
+	"display name" "(Jamming) Umeo Ageta"
+	thumbnail "portrait/bunrodea07"
+	"operating costs" 3800
+	bunks -1
+	"unplunderable" 1
+	"radar jamming" 12 
+	"scan concealment" 3 
+	description `This is a highly educated employee focused on jamming technologies. He is a Bunrodea.`
+
+outfit "jamming snowfall"
+	category "Crew"
+	"display name" "(Jamming) Snowfall"
+	thumbnail "portrait/remnant01"
+	"operating costs" 4100
+	bunks -1
+	"unplunderable" 1
+	"radar jamming" 13 
+	"scan concealment" 6 
+	description `This is a highly educated employee focused on jamming technologies. She is a Remnant.`
+
+outfit "jamming temtuor"
+	category "Crew"
+	"display name" "(Jamming) Temtuor"
+	thumbnail "portrait/saryd04"
+	"operating costs" 4600
+	bunks -1
+	"unplunderable" 1
+	"scan interference" .6 
+	"scan concealment" 9 
+	description `This is a highly educated employee focused on jamming technologies. He is a Saryd.`
+
+outfit "jamming plortab"
+	category "Crew"
+	"display name" "(Jamming) Plortab"
+	thumbnail "portrait/arachi02"
+	"operating costs" 4900
+	bunks -1
+	"unplunderable" 1
+	"scan interference" .6 
+	"scan concealment" 12 
+	description `This is a highly educated employee focused on jamming technologies. He is an Arach.`
+
+outfit "scanner ivanus kozlov"
+	category "Crew"
+	"display name" "(Scanner) Ivanus Kozlov"
+	thumbnail "portrait/human31"
+	"operating costs" 2000
+	bunks -1
+	"unplunderable" 1
+	"tactical scan power" 30 
+	"outfit scan efficiency" 10 
+	description `This is a highly educated employee focused on scanner technologies. He is a Human, grown up in "paradise".`
+
+outfit "scanner mikmel wanjala"
+	category "Crew"
+	"display name" "(Scanner) Mikmel Wanjala"
+	thumbnail "portrait/human16"
+	"operating costs" 2500
+	bunks -1
+	"unplunderable" 1
+	"cargo scan power" 31 
+	"cargo scan efficiency" 9 
+	description `This is a highly educated employee focused on scanner technologies. He is a Human, grown up in "core".`
+
+outfit "scanner saffira ivka"
+	category "Crew"
+	"display name" "(Scanner) Saffira Ivka"
+	thumbnail "portrait/human47"
+	"operating costs" 2900
+	bunks -1
+	"unplunderable" 1
+	"outfit scan power" 33 
+	"outfit scan efficiency" 13 
+	description `This is a highly educated employee focused on scanner technologies. She is a Human, grown up in "near earth".`
+
+outfit "scanner tichaona yong"
+	category "Crew"
+	"display name" "(Scanner) Tichaona Yong"
+	thumbnail "portrait/human10"
+	"operating costs" 3400
+	bunks -1
+	"unplunderable" 1
+	"asteroid scan power" 40 
+	"cargo scan efficiency" 11 
+	description `This is a highly educated employee focused on scanner technologies. She is a Human, grown up in "north".`
+
+outfit "scanner rashi vaitle"
+	category "Crew"
+	"display name" "(Scanner) Rashi Vaitle"
+	thumbnail "portrait/hai10"
+	"operating costs" 4000
+	bunks -1
+	"unplunderable" 1
+	"tactical scan power" 41 
+	"outfit scan efficiency" 16 
+	description `This is a highly educated employee focused on scanner technologies. He is a Hai.`
+
+outfit "scanner kriik"
+	category "Crew"
+	"display name" "(Scanner) Kriik"
+	thumbnail "portrait/wanderer05"
+	"operating costs" 4200
+	bunks -1
+	"unplunderable" 1
+	"cargo scan power" 42 
+	"cargo scan efficiency" 13 
+	description `This is a highly educated employee focused on scanner technologies. She is a Wanderer.`
+
+outfit "scanner expari"
+	category "Crew"
+	"display name" "(Scanner) Expari"
+	thumbnail "portrait/saryd03"
+	"operating costs" 4600
+	bunks -1
+	"unplunderable" 1
+	"outfit scan power" 43 
+	"outfit scan efficiency" 19 
+	description `This is a highly educated employee focused on scanner technologies. She is a Saryd.`
+
+outfit "scanner tugrup"
+	category "Crew"
+	"display name" "(Scanner) Tugrup"
+	thumbnail "portrait/arachi03"
+	"operating costs" 5000
+	bunks -1
+	"unplunderable" 1
+	"asteroid scan power" 44 
+	"cargo scan efficiency" 15 
+	description `This is a highly educated employee focused on scanner technologies. He is an Arach.`
+
+outfit "shield lucille meritites"
+	plural "(Shield) Lucille Meritites"
+	category "Crew"
+	"display name" "(Shield) Lucille Meritites"
+	thumbnail "portrait/human11"
+	"operating costs" 2200
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .22 
+	"shields" 2000 
+	description `This is a highly educated employee focused on shield effektivity. She is a Human, grown up in "paradise".`
+
+outfit "shield sonja halimah"
+	category "Crew"
+	"display name" "(Shield) Sonja Halimah"
+	thumbnail "portrait/human28"
+	"operating costs" 2900
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .23 
+	"shields" 2100 
+	description `This is a highly educated employee focused on shield effektivity. She is a Human, grown up in "north".`
+
+outfit "shield taisto nithin"
+	category "Crew"
+	"display name" "(Shield) Taisto Nithin"
+	thumbnail "portrait/human43"
+	"operating costs" 3300
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .25 
+	"shields" 2200 
+	description `This is a highly educated employee focused on shield effektivity. He is a Human, grown up in "rim".`
+
+outfit "shield monika raganhildis"
+	plural "(Shield) Monika Raganhildis"
+	category "Crew"
+	"display name" "(Shield) Monika Raganhildis"
+	thumbnail "portrait/human01"
+	"operating costs" 3600
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .28 
+	"shields" 2400 
+	description `This is a highly educated employee focused on shield effektivity. She is a Human, grown up in "near earth".`
+
+outfit "shield saburo aoki"
+	category "Crew"
+	"display name" "(Shield) Saburo Aoki"
+	thumbnail "portrait/bunrodea09"
+	"operating costs" 3800
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .29 
+	"shields" 2500 
+	description `This is a highly educated employee focused on shield effektivity. He is a Bunrodea.`
+
+outfit "shield ilesam bableh"
+	category "Crew"
+	"display name" "(Shield) Ilesam Bableh"
+	thumbnail "portrait/korath10"
+	"operating costs" 4100
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .30 
+	"shields" 2600 
+	description `This is a highly educated employee focused on shield effektivity. He is a Korath.`
+
+outfit "shield nisieum"
+	category "Crew"
+	"display name" "(Shield) Nisieum"
+	thumbnail "portrait/saryd02"
+	"operating costs" 4400
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .33 
+	"shields" 2800 
+	description `This is a highly educated employee focused on shield effektivity. She is a Saryd.`
+
+outfit "shield chi'a"
+	category "Crew"
+	"display name" "(Shield) Chi'a"
+	thumbnail "portrait/kimek05"
+	"operating costs" 4900
+	bunks -1
+	"unplunderable" 1
+	"shield generation" .34 
+	"shields" 3000 
+	description `This is a highly educated employee focused on shield effektivity. She is a Kimek.`
+
+outfit "storage darius hasegawa"
+	category "Crew"
+	"display name" "(Storage) Darius Hasegawa"
+	thumbnail "portrait/human33"
+	"operating costs" 2300
+	bunks -1
+	"unplunderable" 1
+	"outfit space" 20 
+	"engine capacity" 20 
+	description `This is a highly educated employee focused on storage management. He is a Human, grown up in "deep".`
+
+outfit "storage eduardo wapasha"
+	category "Crew"
+	"display name" "(Storage) Eduardo Wapasha"
+	thumbnail "portrait/human03"
+	"operating costs" 2400
+	bunks -1
+	"unplunderable" 1
+	"outfit space" 25 
+	"cargo space" 20 
+	description `This is a highly educated employee focused on storage management. He is a Human, grown up in "rim".`
+
+outfit "storage mani godefrid"
+	category "Crew"
+	"display name" "(Storage) Mani Godefrid"
+	thumbnail "portrait/human13"
+	"operating costs" 3000
+	bunks -1
+	"unplunderable" 1
+	"outfit space" 30 
+	"weapon capacity" 25 
+	description `This is a highly educated employee focused on storage management. He is a Human, grown up in "dirt belt".`
+
+outfit "storage marie zohreh"
+	category "Crew"
+	"display name" "(Storage) Marie Zohreh"
+	thumbnail "portrait/human93"
+	"operating costs" 3600
+	bunks -1
+	"unplunderable" 1
+	"outfit space" 35 
+	"cargo space" 25 
+	description `This is a highly educated employee focused on storage management. She is a Human, grown up in "paradise".`
+
+outfit "storage touna farchi"
+	category "Crew"
+	"display name" "(Storage) Touna Farchi"
+	thumbnail "portrait/hai07"
+	"operating costs" 3900
+	bunks -1
+	"unplunderable" 1
+	"outfit space" 40 
+	"engine capacity" 30 
+	description `This is a highly educated employee focused on storage management. She is a Hai.`
+
+outfit "storage reisek"
+	category "Crew"
+	"display name" "(Storage) Reisek"
+	thumbnail "portrait/wanderer06"
+	"operating costs" 4200
+	bunks -1
+	"unplunderable" 1
+	"outfit space" 45 
+	"cargo space" 30 
+	description `This is a highly educated employee focused on storage management. He is a Wanderer.`
+
+outfit "storage swift"
+	category "Crew"
+	"display name" "(Storage) Swift"
+	thumbnail "portrait/remnant02"
+	"operating costs" 4500
+	bunks -1
+	"unplunderable" 1
+	"outfit space" 50 
+	"weapon capacity" 35 
+	description `This is a highly educated employee focused on storage management. She is a Remnant.`
+
+outfit "storage mupoop"
+	category "Crew"
+	"display name" "(Storage) Mupoop"
+	thumbnail "portrait/arachi05"
+	"operating costs" 5000
+	bunks -1
+	"unplunderable" 1
+	"outfit space" 60 
+	"cargo space" 35 
+	description `This is a highly educated employee focused on storage management. She is an Arach.`
+

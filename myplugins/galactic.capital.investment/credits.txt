@@ -2,3 +2,8 @@ galactic.capital.investment
 author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
+images:
+	icon, ship, outfit
+		ai generated at https://www.craiyon.com/
+	scenes, land
+		ai generated at https://perchance.org/ai-text-to-image-generator

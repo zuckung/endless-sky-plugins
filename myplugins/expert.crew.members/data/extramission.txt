@@ -1,0 +1,112 @@
+# final mission after hiring all crew members
+# outfit galaxy hologram
+
+
+
+mission "all crew members hired"
+	invisible 
+	landing
+	to offer
+		has "hire combat isaac wirth: declined"
+		has "hire combat jessy tuta: declined"
+		has "hire combat kianoush royston: declined"
+		has "hire combat rodrigo bain: declined"
+		has "hire combat ainem wahpip: declined"
+		has "hire combat asvip rap: declined"
+		has "hire combat ry'i: declined"
+		has "hire combat lugub: declined"
+		has "hire cooling atreus bodilsen: declined"
+		has "hire cooling beckah feidhelm: declined"
+		has "hire cooling caspar laurentinus: declined"
+		has "hire cooling itoro signe: declined"
+		has "hire cooling lohmahow monuden: declined"
+		has "hire cooling krikey: declined"
+		has "hire cooling kemme ranris: declined"
+		has "hire cooling lotura: declined"
+		has "hire energy deirdre ciaran: declined"
+		has "hire energy lisa zola: declined"
+		has "hire energy normand kiran: declined"
+		has "hire energy simona branka: declined"
+		has "hire energy akane sakai: declined"
+		has "hire energy aikach: declined"
+		has "hire energy raindrop: declined"
+		has "hire energy paicha: declined"
+		has "hire engine anahit bodil: declined"
+		has "hire engine chetana jaleh: declined"
+		has "hire engine neal fransson: declined"
+		has "hire engine valeriya jannick: declined"
+		has "hire engine riko ishii: declined"
+		has "hire engine ifir rakik: declined"
+		has "hire engine midnight: declined"
+		has "hire engine kyree: declined"
+		has "hire fuel carl ahmad: declined"
+		has "hire fuel kfir balam: declined"
+		has "hire fuel kostis joona: declined"
+		has "hire fuel nina sotiroula: declined"
+		has "hire fuel sookot dulur: declined"
+		has "hire fuel voriar: declined"
+		has "hire fuel ozon: declined"
+		has "hire fuel comseci: declined"
+		has "hire hull anuradha talin: declined"
+		has "hire hull julia grainne: declined"
+		has "hire hull silvius hildegard: declined"
+		has "hire hull sabina draga: declined"
+		has "hire hull shiro kan: declined"
+		has "hire hull ak'en oaip: declined"
+		has "hire hull achee: declined"
+		has "hire hull potamog: declined"
+		has "hire jamming aline mai: declined"
+		has "hire jamming dominik bullock: declined"
+		has "hire jamming enver diefenbach: declined"
+		has "hire jamming raban fields: declined"
+		has "hire jamming umeo ageta: declined"
+		has "hire jamming snowfall: declined"
+		has "hire jamming temtuor: declined"
+		has "hire jamming plortab: declined"
+		has "hire scanner ivanus kozlov: declined"
+		has "hire scanner mikmel wanjala: declined"
+		has "hire scanner saffira ivka: declined"
+		has "hire scanner tichaona yong: declined"
+		has "hire scanner rashi vaitle: declined"
+		has "hire scanner kriik: declined"
+		has "hire scanner expari: declined"
+		has "hire scanner tugrup: declined"
+		has "hire shield lucille meritites: declined"
+		has "hire shield sonja halimah: declined"
+		has "hire shield taisto nithin: declined"
+		has "hire shield monika raganhildis: declined"
+		has "hire shield saburo aoki: declined"
+		has "hire shield ilesam bableh: declined"
+		has "hire shield nisieum: declined"
+		has "hire shield chi'a: declined"
+		has "hire storage darius hasegawa: declined"
+		has "hire storage eduardo wapasha: declined"
+		has "hire storage mani godefrid: declined"
+		has "hire storage marie zohreh: declined"
+		has "hire storage touna farchi: declined"
+		has "hire storage reisek: declined"
+		has "hire storage swift: declined"
+		has "hire storage mupoop: declined"
+	on offer
+		outfit "Galaxy Hologram"
+		conversation
+			scene "portrait/hai07"
+			`As you land, you hear the bridge door open and you turn around. Touna Fachi, a crew member from the storage optimization, enters the bridge and stands quietly to the side. You turn around again, back to the landing monitor screens. Despite modern technology, every landing requires the utmost concentration, after all, you don't want to crash. You give orders to your crew and check position data. Everything goes well and a few minutes later your ship is safely on the ground.`
+			`You turn to Touna and ask "Touna, I thought you had the late shift today? What brings you here?"`
+			`Touna adopts a respectful attitude and begins to talk. "Captain <first>, I am here on behalf of the crew. There was a meeting among us recently and I was given the honor of informing you of it."`
+			`"Your crew agrees that the experience of serving under someone who ventures so far into unknown reaches of the galaxy is something very special. We have met many members of a wide variety of species here on the ship. We have explored rare space anomalies, nebulae, and we've seen so many stars. Each of us joined your crew to see more of space, but the journey so far has exceeded our wildest expectations. And we want to thank you for that."`
+			`"Many of us contributed our engineering skills to a gift, others added ideas or suggested improvements. And now it's finished."`
+			choice
+				`	smile at Touna`
+			label hologram
+			scene "outfit/galaxy_hologram"
+			`Touna hands you a dark gray disc. "On behalf of the crew, thank you for the opportunity to learn so much." She presses a small button on the side of the disk and a hologram appears above it. It shows our galaxy, but with a level of detail that is far beyond the standard holograms. The disk is also quite small, so it must have a very strong energy source.`
+			`You are delighted with the hologram, and when Touna sees your smile, she smiles too. You thank her profusely and tell her to also thank the crew. Touna leaves the bridge very satisfied. You are delighted with the gift. How could you ask for a better crew?`
+				decline
+
+
+outfit "Galaxy Hologram"
+	category "Unique"
+	thumbnail "outfit/galaxy_hologram"
+	cost 50000
+	description `A gift of your crew members. With it, they thank you for the unique experience to see so much of the galaxy.`

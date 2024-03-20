@@ -1,0 +1,24 @@
+<html>
+<body>
+<font size="1">
+show objects starting with:<br>
+<br>
+%categories%
+</font>
+</body>
+</html>
+
+%cut template here%
+<html>
+<body>
+<font size="1">
+%tmpl%
+</font>
+</body>
+</html>
+
+%cut template here%
+<details>
+<summary>%filename% | %objectname%</summary>
+<pre>%object%</pre>
+</details>

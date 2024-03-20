@@ -1,0 +1,51 @@
+
+
+outfit "Golden Figurine"
+	category "Unique"
+	thumbnail "outfit/gold_figur"
+	cost 50000
+	description `A gift by Warren Goulding from Galactic Capital Investment, to celebrate to success of your colonization project.`
+
+
+ship "Colony Ship"
+	sprite "ship/colonyship"
+	"never disabled"
+	attributes
+		category "Heavy Freighter"
+		"cost" 10800000
+		"shields" 7600
+		"hull" 6300
+		"required crew" 1000
+		"bunks" 1000
+		"mass" 540
+		"drag" 11.7
+		"heat dissipation" .4
+		"fuel capacity" 1200
+		"cargo space" 600
+		"outfit space" 510
+		"weapon capacity" 280
+		"engine capacity" 90
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2100
+	outfits
+		"NT-200 Nucleovoltaic"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster" 2
+		"Scram Drive"
+	engine -4 404.5
+	engine -98 273
+	engine 93.5 265.5
+	leak "leak" 95.5 -44
+	leak "flame" -120.5 174.5
+	leak "big leak" 47 -210
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"

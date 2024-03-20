@@ -1,3 +1,20 @@
+# mission "Galactic Capital Intro A"     fly to earth
+# mission "Galactic Capital Intro B"     invest 2m
+# mission "Galactic Capital Colonize 1"  fly to earth
+# event "GCI add planet"
+# mission "Galactic Capital Colonize 2"  invest 500m, escort to sapphire
+# event "GCI wait colonization"          wait 120
+# mission "Galactic Capital Colonize 3"  transport goulding to earth
+# mission "Galactic Capital Colonize 4"  fly to earth
+# mission "Galactic Capital Colonize 5"  invest 250m
+# event "GCI wait infrastructure         wait 120
+# mission "Galactic Capital Colonize 6"  fly to earth
+# mission "Galactic Capital Colonize 7"  invest 250m
+# event "GCI wait defense fleet"         wait 120
+# mission "Galactic Capital Colonize 8"  fly to sapphire
+# mission "Galactic Capital Colonize 9"  get reward
+
+
 mission "Galactic Capital Intro A"
 	name "Travel to Earth for a business meeting"
 	description "Travel to Earth for a meeting with a manager of your bank."
@@ -9,8 +26,9 @@ mission "Galactic Capital Intro A"
 		"credits" > 2000000
 	on offer
 		conversation
+			scene "scene/Sci-fi_bank"
 			`On the way to the spaceport you stop at the local bank to check your finances. While looking at the big numbers on your account statement, you remember your career start. The debts which looked so big and frightening, rushing from one contract to the next, sometimes just to pay the interest rates. And now... you are on the winner side. Suddenly a bank employee appears right next to you.`
-			`"Captain <last>, my name is Warren Goulding, I'm an investment manager of 'Galactic Capital', and I'm happy to finally meet you. We need to talk about your recent financial situation."`
+			`"Captain <last>, my name is Warren Goulding, I'm an investment manager of 'Galactic Capital Investment', and I'm happy to finally meet you. We need to talk about your recent financial situation."`
 			choice
 				`		"Is there something wrong with my account? Am I in trouble?"`
 					goto notrouble
@@ -25,11 +43,12 @@ mission "Galactic Capital Intro A"
 			`"But..." he looks around conspiratorially "we can fund a pirate fleet for you." He starts laughing again. After a while he calms down, still smiling.`
 				goto toearth
 			label toearth
-			`"With your enourmous financial ressources, you are now a premium customer. We would like to offer you highly profitable investment opportunities. Unfortunately I'm in a rush at the moment. Please meet me at 'Galactic Capital' headquaters on Earth."`
+			`"With your enourmous financial ressources, you are now a premium customer. We would like to offer you highly profitable investment opportunities. Unfortunately I'm in a rush at the moment. Please meet me at 'Galactic Capital Investment' headquaters on Earth."`
 				accept
 	on complete
 		conversation
 			`When you land on Earth you remind yourself visiting the spaceport information center to find the headquaters of 'Galactic Capital' for your meeting with Warren Goulding.`
+
 
 mission "Galactic Capital Intro B"
 	invisible
@@ -39,7 +58,8 @@ mission "Galactic Capital Intro B"
 		"credits" > 1000000
 	on offer
 		conversation
-			`After a ten minute train ride you arrive at 'Galactic Capital'. It is the largest bank in human space, and their headquaters reflect that very well. You see six skyscrapers distributed over several squarekilometers and a giant glass pyramid dominates the center of that complex. Everywhere are parks, paths through it, modern weatherproof art installations and thausands of people, mostly in business dresses.`
+			scene "scene/galactic_capital"
+			`After a ten minute train ride you arrive at 'Galactic Capital Investment'. It is the largest bank in human space, and their headquaters reflect that very well. You see six skyscrapers distributed over several squarekilometers and a giant glass pyramid dominates the center of that complex. Everywhere are parks, paths through it, modern weatherproof art installations and thausands of people, mostly in business dresses.`
 			`Twenty minutes later you reach the office of Warren Goulding. "Captain <last>, welcome to our headquaters. Please take a seat."`
 			`"We offer our premium customers regularly investment possibilities in small but established companies. With an investment of one to several million credits you can generate a daily income which pays off the investment in around four years. Our analysts check these companies and their business plans very carefully, so that there is no risk for you. Of course we take a small part of the profit for us. Your success is our success. Our services are available in human, quarg and hai space."`
 			choice
@@ -80,3 +100,282 @@ mission "Galactic Capital Intro B"
 	on accept
 		payment -1000000
 		"salary: Galactic Capital" += 600
+
+
+mission "Galactic Capital Colonize 1"
+	landing
+	name "Travel to Galactic Capital Investment"
+	description "Travel to <destination> for a business meeting with Warren Goulding of Galactic Capital Investment."
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
+		not planet "Earth"
+	destination "Earth"
+	to offer
+		has "Galactic Capital Intro B: offered"
+		"credits" > 1000000000
+	on offer
+			dialog `You receive a message from Warren Goulding, the manager at Galactic Capital Investment. He asks for a meeting on Earth to discuss a new investment opportunity.`
+	on accept
+		event "GCI add planet"
+	on complete
+		conversation
+			`You arrived at Earth.`
+
+
+event "GCI add planet"
+	system "Limen"
+		add object "Sapphire"
+			sprite planet/earth
+			distance 1700
+			period 650
+	planet "Sapphire"
+		attributes uninhabited
+		landscape land/alien_vegetation
+		description `Sapphire is a beautiful green world. After the native poisonous insects have been eradicated, it is now time to begin the  colonization.`
+
+
+mission "Galactic Capital Colonize 2"
+	landing
+	name "Escort colony ships"
+	description "Escort 3 colony ships to <destination>."
+	source "Earth"
+	destination "Sapphire"
+	to offer
+		has "Galactic Capital Colonize 1: done"
+		"credits" > 500000000
+	on offer
+		conversation
+			scene "scene/galactic_capital"
+			`When you leave your spaceship, one of Goulding's assistants is waiting for you and escorts you to the headquarters of Galactic Capital Investment. The assistant leads you into a large conference room, where you are greeted effusively by Warren Goulding and a horde of bankers. After you and everyone else are seated, Goulding begins his presentation.`
+			`"As you probably know, human colonization of space has been stagnant for centuries. That's because we've already colonized pretty much every world within reach. The worlds that remain now require expensive terraforming and are generally too dangerous for humans. So it's not worth it.`
+			`On the edge of the Dirt Belt lies a small world called Sapphire that is almost perfect for humans. The only problem is a native, numerous, species of ant-like extremly poisonous insects. That's why this paradise-like world has been avoided until now, or only visited by well-protected researchers.`
+			`Galactic Capital Investment supported an up-and-coming genetic engineering company a few decades ago, whose research is now paying off. A few months ago we started eradicating these insects with a tailor-made virus and are now completely successful with that. Colonization can now begin. We have invited many large investors to participate in this project. I must admit that the investment is significant, but our analysts assured me that the first distribution of profits will occur after 1 to 1.5 years, and pay off after about 3 years."`
+			`Goulding starts sweating.`
+			`"To participate in this venture we need 500 million credits from you."`
+			`He's actually sweating a lot now.`
+			choice
+				`	accept`
+					goto omgyes
+				`	decline`
+					goto hellno
+			label hellno
+			`It seems that Goulding expected your reaction.`
+			`"Yes, it is a lot of money. Before you say no, take some time and think about it. This is a great opportunity, and you can come back at any time to accept it"`
+				defer
+			label omgyes
+			`For a moment Goulding looks a little bit like he is having a stroke, then he recovers, smiling.`
+			`"You're one hell of a guy Mr. <last>! How could I assume anything else? Great! Then let's sign the papers."`
+			`After signing dozens of pages and doing a DNA identification, Goulding continues.`
+			`"To be honest, before this project is completed, you will have to invest nearly the same amount of credits again, but lets keep this discussion for later."`
+			`"Everything is already prepared for the first phase. We have purchased 3 colony ships and loaded them with enough colonists and equipment. We would welcome it, if you, as a battle-hardened fleet captain, would take over the leadership of the armada. We can start in a few hours."`
+			`After more small talk and many enthusiastic farewells, you and Goulding make your way to the spaceport. The destination is <destination>.`
+				accept
+	on accept
+		payment -500000000
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders staying
+		system "Merak" 
+		fleet
+			names "pirate"
+			cargo 50
+			variant
+				"Leviathan" 4
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders staying
+		system "Limen"
+		fleet
+			names "pirate"
+			cargo 50
+			variant
+				"Leviathan" 4
+				"Bactrian" 1
+	npc accompany save
+		government "Merchant"
+		personality escort timid
+		fleet
+			names "civilian"
+			variant
+				"Colony Ship" 3
+	on visit
+		dialog phrase "generic arrived-without-npc dialog" 
+	on complete
+		event "GCI wait colonization" 120
+		conversation
+			scene "scene/colonists"
+			`You have reached Sapphire safely. While Golding oversees the unloading, you study the surrounding area. It's a wonderful sunny day, lush green vegetation is everywhere. This is actually a very welcoming planet. Teams of engineers, workers, and researchers travel around to plan the building process. The 3 landed colony ships will serve as living space for the colonists in the transition period until the first buildings are build. In about 4 months the spaceport and a small city will be constructed.`
+
+
+event "GCI wait colonization"
+	planet "Sapphire"
+		attributes "dirt belt"
+		spaceport `The spaceport is still rather small, but the ongoing work indicates very rapid growth.`
+		description `Sapphire is a beautiful green world. After the native poisonous insects have been eradicated, the colonization has started and the first phase is done now. In its current state, Sapphire has a medium-sized city with a spaceport and dozens of outposts spread across the land masses.`
+
+
+mission "Galactic Capital Colonize 3"
+	landing
+	name "Bring Golding back to Earth"
+	description "Travel to <destination> to bring Warren Golding back to Galactic Capital Investment headquaters."
+	source "Sapphire"
+	destination "Earth"
+	to offer
+		has "Galactic Capital Colonize 2: done"
+	on offer
+		conversation
+			`On the evening of the first day of colonization, you and Goulding set off again. The colonists now assume responsibility for the success or failure of this venture. Goulding has to go back to Earth and you have to do other things for the next months afterwards. But first, let's get to Earth.`
+				accept
+	on complete
+		conversation
+			`After landing on Earth, Warren Goulding says goodbye. You can clearly see his enthusiasm for this project. As soon as there is news from Sapphire, he will contact you.`
+
+
+mission "Galactic Capital Colonize 4"
+	landing
+	name "Meet Goulding on Sapphire"
+	description "Travel to <destination> for a meeting with Warren Goulding from Galactic Capital Investment."
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
+		not planet "Sapphire"
+	destination "Sapphire"
+	to offer
+		has "event: GCI wait colonization"
+	on offer
+			dialog `You receive a message from Warren Goulding, the manager of Galactic Capital Investment. He asks for a meeting on the new colony world <destination>.`
+
+
+mission "Galactic Capital Colonize 5"
+	landing
+	invisible
+	source "Sapphire"
+	destination "Sapphire"
+	to offer
+		has "Galactic Capital Colonize 4: done"
+		"credits" > 250000000
+	on offer
+		conversation
+			scene "scene/spaceport"
+			`Warren Goulding is already waiting for you at the newly built spaceport. This place is almost unrecognizable. Lots of asphalt, roads, lots of multi-storied buildings, and construction is going on everywhere. Goulding greets you and leads you to the local headquarters of Galactic Capital Investment. The building is not as impressive as the one on Earth, but it is still a magnificent five-storied building.`
+			`"<first>, we need to talk about the second phase of the project. The colonization was very successful and thousands of new settlers are now arriving every day. In order to guarantee the prosperity of this colony, we need to improve the infrastructure and attract more colonists. That is subsidizing merchant fleets, expanding the administration, advertising this world everywhere in the Republic, etc. All of this costs credits. As mentioned when the contract was signed, a second transaction is now necessary. Are you ready to invest another 250 million?"`
+			choice
+				` invest`
+					goto invest
+				` don't invest now`
+					goto noinvest
+			label noinvest
+			`That will slow colony development significantly. Please come back when you have acquired the necessary credits.`
+				defer
+			label invest
+			`Goulding is delighted. You sign further contracts and complete the transaction.`
+			`"I think we can expect significant progress in about 4 months. I will contact you then."`
+			`Golding walks you to your ship and then says goodbye. You are already looking forward to seeing the colony's progress in a few months.`
+				decline
+	on decline
+		payment -250000000
+		event "GCI wait infrastructure" 120
+
+
+event "GCI wait infrastructure"
+	planet "Sapphire"
+		spaceport `The spaceport is still rather medium-sized, but the ongoing work indicates very rapid growth.`
+		description `Sapphire is a beautiful green world. After the native poisonous insects have been eradicated, the colonization has started. In its current state, Sapphire has a big city with a spaceport and dozens of smaller villages spread across the land masses.`
+		outfitter "Basic Outfits"
+		outfitter "Basic Weapons"
+		outfitter "Lovelace Security"
+		outfitter "Ammo North"
+		shipyard "Basic Ships"
+		shipyard "Betelgeuse Basics"
+	system "Limen"
+		add fleet "Large Southern Merchants" 3000"
+		add fleet "Small Republic" 12000
+
+
+mission "Galactic Capital Colonize 6"
+	landing
+	name "Goulding wants another meeting"
+	description "Travel to <destination> for a meeting with Warren Goulding."
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
+		not planet "Earth"
+	destination "Earth"
+	to offer
+		has "event: GCI wait infrastructure"
+	on offer
+			dialog `You receive a message from Warren Goulding, the manager of Galactic Capital Investment. He asks for a meeting on <destination> to improve the developement of Sapphire.`
+
+
+mission "Galactic Capital Colonize 7"
+	landing
+	invisible
+	source "Earth"
+	destination "Earth"
+	to offer
+		has "Galactic Capital Colonize 6: done"
+		"credits" > 250000000
+	on offer
+		conversation
+			scene "scene/galactic_capital"
+			`After landing, you head straight to the Galactic Capital Investment headquarters. When you arrive in Goulding's office, you immediately notice Goulding's displeased expression and ask what happened.`
+			`"We have problems on Sapphire. Since the planet is on the edge of the Dirt Belt, Republic patrols are rather sparse, which leads to increased pirate activity. The pirates not only rob the merchant spaceships, but often land on the planet to attack the smaller communities that are now sprouting up in numbers. We have to build planetary defense fleets and that will be expensive. I need a new investment of 250 million credits to solve this problem. But that should be the last investment necessary. Are you ready to transfer the credits now?"`
+			choice
+				` yes`
+					goto yes
+				` no`
+					goto no
+			label no
+			`"Too bad, waiting will make the problem worse. Please hurry up and get the credits."`
+				defer
+			label yes
+			`"Very good, here are the papers. Sign here, there and there. Excellent. In a few months the fleet will be strong enough to keep the pirates at bay. A part of the credits will also flow into a defense fund to keep the fleets operational. Once this is achieved, nothing will stand in the way of growth. I'll let know you when there's anything new."`
+			`When you say goodbye, Goulding seems much more confident. Back on your ship, you think about how you can bridge the time until the next construction progress on the colony world.`
+				decline
+	on decline
+		event "GCI wait defense fleets" 120
+		payment -250000000
+
+
+event "GCI wait defense fleets"
+	planet "Sapphire"
+		spaceport `This is a big spaceport with lots of traffic.`
+		description `Sapphire is a beautiful green world. After the native poisonous insects have been eradicated, the colonization progress is egolving fast. In its current state, Sapphire has several big cities and hundreds of smaller villages and outposts spread across the land masses. This is a world with a very fast growing economy.`
+		security 0.1
+		tribute 1000
+		threshold 1500
+		fleet "Small Militia" 15
+
+
+mission "Galactic Capital Colonize 8"
+	landing
+	name "Travel to Sapphire for a business meeting"
+	description "Travel to <destination> for a meeting with Warren Goulding."
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
+		not planet "Sapphire"
+	destination "Sapphire"
+	to offer
+		has "event: GCI wait defense fleets"
+	on offer
+		dialog `You receive a message from Warren Goulding, the manager of Galactic Capital Investment. He asks for a meeting on the colony world  <destination>.`
+
+
+mission "Galactic Capital Colonize 9"
+	landing
+	invisible
+	source "Sapphire"
+	destination "Sapphire"
+	to offer
+		has "Galactic Capital Colonize 8: done"
+	on offer
+		"salary: Galactic Capital" += 2000000
+		outfit "Golden Figurine"
+		conversation
+			scene "scene/big_city"
+			`Sapphire has changed significantly. The spaceport has gotten bigger and it's filled with people. At an information stand you find out that there are 12 larger cities and hundreds of small settlements, and the population is approaching the 100 million mark. On the way to Galactic Capital Investment's planetary headquarters, you see a lot of activity everywhere. This is what a rising world looks like. The headquarters of Galactic Capital Investment is also very impressive and is one of the first few skyscrapers here. When you enter Goulding's office you are greeted warmly.`
+			`"<first>, I'm glad to see you here." Goulding smiles.`
+			`"Everything is developing splendidly. More than splendidly! We got this venture up and running in record time and now there's nothing left to do. We can enjoy the fruits of our labor. That's why I asked you here. Let's talk about the distribution of profits."`
+			`"The numbers are much better than our analysts predicted. As one of our first investors, you will also be the first to receive a share of the profits. From now on, the Planetary Government will transfer you two million credits every day! This means that in 1.3 years you've fully recovered your investment. After that, all that's left is profit!" Goulding smiles even wider.`
+			`"Please <first>, take some time and take a vacation, maybe even here. Sapphire has some really beautiful sights."`
+			`"Before you go, I have something for you, nothing special, just a small gift to celebrate our success here." he hands you a golden figurine of a credit symbol.` 
+			`After more small talk, you say goodbye. Before you head out, Goulding mentions that he may come back to you with more investments like this in the future. When you get to the ship, you ask yourself what you should do now.`
+				decline
