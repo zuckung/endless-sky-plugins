@@ -17,7 +17,7 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 ## Latest News:
 <table><tr><td><img width="882" height="1"><br>2024-03-20 | update: galactic.capital.investment<br>
 2024-03-20 | update: expert.crew.members<br>
-2024-0÷-16 | cleaned up tools and added 2 more<br>
+2024-03-20 | cleaned up tools and added 2 more<br>
 2024-03-16 | update: show.reputation<br>
 2024-03-15 | update: show.reputation<br>
 2024-03-15 | update: unique.fix<br>
@@ -1108,7 +1108,7 @@ added plugin.txt<br>
 
 [galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 1.86 mb | 2024-03-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
 <br>
->Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 100 million credits (inspired by a-alhusaini's investment bank plugin). See the readme for details.
+>Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits (inspired by a-alhusaini's investment bank plugin). See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1116,13 +1116,13 @@ added plugin.txt<br>
 
 <br>
 
-Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 100 million credits.<br>
+Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits.<br>
 
 (inspired by a-alhusaini's investment bank plugin)<br>
 
 <br>
 
-There are missions for 1 million, 5 million, 10 million, 50 million, 100 million and 1 billion credits. The chance for the jobs to appear on the job board getting lower with the amoumt to invest. Unfortunately you have to take off and land again on the same planet to clear the mission marker.<br>
+There are missions for 1 million, 5 million, 10 million, 50 million, 100 million and 1 billion credits. The chance for the jobs to appear on the job board getting lower with the amount to invest. Unfortunately you have to take off and land again on the same planet to clear the mission marker.<br>
 
 At 1 billion credits a longer mission chain starts and enables a reapeatable job board investment of 1 billion credits. The chain has some breaks and finish after a year.<br>
 
@@ -1160,7 +1160,7 @@ added 5 new conversation scenes<br>
 
 added 9-mission-chain to get credits for a planet colonization<br>
 
-added unique trophy outfit at the end if the chain<br>
+added unique trophy outfit at the end of the chain<br>
 
 added a new rare repeatable job after the colonization chain<br>
 
