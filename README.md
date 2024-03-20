@@ -15,16 +15,16 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-16 | update: show.reputation<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-20 | update: galactic.capital.investment<br>
+2024-03-20 | update: expert.crew.members<br>
+2024-0÷-16 | cleaned up tools and added 2 more<br>
+2024-03-16 | update: show.reputation<br>
 2024-03-15 | update: show.reputation<br>
 2024-03-15 | update: unique.fix<br>
 2024-03-15 | update: better.starts<br>
 2024-03-15 | update: bunrodea.missions<br>
 2024-03-15 | update: gegno.pirates<br>
 2024-03-15 | update: more.boarding.missions<br>
-2024-03-15 | update: real.fluff<br>
-2024-03-14 | update: show.reputation<br>
-2024-03-14 | update: snowfeather.robotics<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -945,7 +945,7 @@ added icon.png<br>
 
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 2.56 mb | 2024-03-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 3.88 mb | 2024-03-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the readme for details.
 <details>
@@ -960,15 +960,17 @@ Adds unique crew members, aquireable through spaceport missions. These crew memb
 
 <br>
 
-Currently there are 65 expert crew members. Visit spaceports with an outfitter to find the missions(3% chance). In every of the following regions  you can find 5 experts: Rim, South, Dirt Belt, Deep, Near Earth, Core, North, Paradise, Hai, Bunrodea, Remnant, Wanderer(after translation device), Kor Efret(after Rek went to Kor Efret).<br>
+Currently there are 80 expert crew members. Visit spaceports with an outfitter to find the missions(3% chance). In every of the following regions  you can find 5 experts: Rim, South, Dirt Belt, Deep, Near Earth, Core, North, Paradise, Hai, Bunrodea(after first contact), Remnant, Wanderer(after translation device), Kor Efret(after Rek went to the Kor Efret), Arachi, Kimek, Saryd(last 3 after coalition first contact).<br>
 
-Their technology fields are: combat(6) cooling(7) energy(7) engine(7) fuel(7) hull(6) jamming(6) scanner(6) shield(6) storage(7).<br>
+Their technology fields are: combat(8) cooling(8) energy(8) engine(8) fuel(8) hull(8) jamming(8) scanner(8) shield(8) storage(8).<br>
 
 In case you can't afford their daily wage you can store them at the outfitter without daily costs.<br>
 
 They have the positive stats of a medium human outfit, at the cost of a bunk and a daily salery of 2.000 to 5.000 credits. On a small ship they make a huge difference, while on a heavy warship the stats are minor.<br>
 
-See crew.list.txt of this plugin for locations, and stat infos.<br>
+If you collect them all, you'll get a special mission<br>
+
+See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/expert.crew.members/crew.list.txt'>crew.list.txt</a> of this plugin for locations, and stat infos.<br>
 
 <br>
 
@@ -982,13 +984,27 @@ Changelog:<br>
 
 <br>
 
+2024-03-20<br>
+
+generated 15 alien portraits<br>
+
+added 5 Saryd experts<br>
+
+added 5 Arachi experts<br>
+
+added 5 Kimek experts<br>
+
+added mission and reward after collecting all crew members<br>
+
+<br>
+
 2024-03-14<br>
 
 bugfixes<br>
 
 changed outfit descriptions to show race and source<br>
 
-changed chance to from 5% to 3%<br>
+changed chance from 5% to 3%<br>
 
 generated 25 alien portaits<br>
 
@@ -1090,7 +1106,7 @@ added plugin.txt<br>
 
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 27.08 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 1.86 mb | 2024-03-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
 <br>
 >Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 100 million credits (inspired by a-alhusaini's investment bank plugin). See the readme for details.
 
@@ -1100,33 +1116,53 @@ added plugin.txt<br>
 
 <br>
 
-Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 100 million credits. <br>
+Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 100 million credits.<br>
 
-(inspired by a-alhusaini's investment bank plugin) <br>
-
-<br>
-
-There are missions for 1 million, 5 million, 10 million, 50 million and 100 million credits. The chance for the jobs to appear on the job board are 25% for each one. Unfortunately you have to take off and land again on the same planet to clear the mission marker.<br>
-
-1 million = 600 credits daily <br>
-
-5 million = 3.400 credits daily <br>
-
-10 million = 7.200 credits daily <br>
-
-50 million = 37.000 credits daily <br>
-
-100 million = 76.100 credits daily <br>
+(inspired by a-alhusaini's investment bank plugin)<br>
 
 <br>
 
-These investments pay off after 3,5 to 4,5 years. Higher Investments pay off faster.<br>
+There are missions for 1 million, 5 million, 10 million, 50 million, 100 million and 1 billion credits. The chance for the jobs to appear on the job board getting lower with the amoumt to invest. Unfortunately you have to take off and land again on the same planet to clear the mission marker.<br>
+
+At 1 billion credits a longer mission chain starts and enables a reapeatable job board investment of 1 billion credits. The chain has some breaks and finish after a year.<br>
+
+<br>
+
+1 million = 600 credits daily (60% chance)<br>
+
+5 million = 3.400 credits daily (50% chance)<br>
+
+10 million = 7.200 credits daily (40% chance)<br>
+
+50 million = 37.000 credits daily (30% chance)<br>
+
+100 million = 76.100 credits daily (20% chance)<br>
+
+1 billion = 2 million credits daily (2% chance)<br>
+
+<br>
+
+These investments pay off after 2,3 to 4,5 years. Higher Investments pay off faster.<br>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-20<br>
+
+changed icon<br>
+
+added 5 new conversation scenes<br>
+
+added 9-mission-chain to get credits for a planet colonization<br>
+
+added unique trophy outfit at the end if the chain<br>
+
+added a new rare repeatable job after the colonization chain<br>
 
 <br>
 
