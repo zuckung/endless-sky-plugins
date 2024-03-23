@@ -108,5 +108,6 @@ mission "all crew members hired"
 outfit "Galaxy Hologram"
 	category "Unique"
 	thumbnail "outfit/galaxy_hologram"
+	"unique" 1
 	cost 50000
 	description `A gift of your crew members. With it, they thank you for the unique experience to see so much of the galaxy.`

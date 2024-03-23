@@ -10,8 +10,8 @@ mission "hire combat isaac wirth"
 	on offer
 		outfit "combat isaac wirth" 1
 		conversation
-			scene "portrait/human45"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work and you decide to hire him. His name is Isaac Wirth, he is a Human, and he demands a daily wage of 2000 credits.`
+			scene "portrait/ecmbm03"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work and you decide to hire him. His name is Isaac Wirth, he is a Ecmbm, and he demands a daily wage of 2000 credits.`
 				decline
 
 mission "hire combat jessy tuta"
@@ -26,8 +26,8 @@ mission "hire combat jessy tuta"
 	on offer
 		outfit "combat jessy tuta" 1
 		conversation
-			scene "portrait/human125"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. She is looking for work and you decide to hire her. Her name is Jessy Tuta, she is a Human, and she demands a daily wage of 2600 credits.`
+			scene "portrait/ecmbf02"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. She is looking for work and you decide to hire her. Her name is Jessy Tuta, she is a Ecmbf, and she demands a daily wage of 2600 credits.`
 				decline
 
 mission "hire combat kianoush royston"
@@ -42,8 +42,8 @@ mission "hire combat kianoush royston"
 	on offer
 		outfit "combat kianoush royston" 1
 		conversation
-			scene "portrait/human55"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work and you decide to hire him. His name is Kianoush Royston, he is a Human, and he demands a daily wage of 3100 credits.`
+			scene "portrait/ecmam03"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work and you decide to hire him. His name is Kianoush Royston, he is a Ecmam, and he demands a daily wage of 3100 credits.`
 				decline
 
 mission "hire combat rodrigo bain"
@@ -58,8 +58,8 @@ mission "hire combat rodrigo bain"
 	on offer
 		outfit "combat rodrigo bain" 1
 		conversation
-			scene "portrait/human36"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work and you decide to hire him. His name is Rodrigo Bain, he is a Human, and he demands a daily wage of 3500 credits.`
+			scene "portrait/ecmbm04"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work and you decide to hire him. His name is Rodrigo Bain, he is a Ecmbm, and he demands a daily wage of 3500 credits.`
 				decline
 
 mission "hire combat ainem wahpip"
@@ -139,8 +139,8 @@ mission "hire cooling atreus bodilsen"
 	on offer
 		outfit "cooling atreus bodilsen" 1
 		conversation
-			scene "portrait/human34"
-			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work and you decide to hire him. His name is Atreus Bodilsen, he is a Human, and he demands a daily wage of 2200 credits.`
+			scene "portrait/ecmwm01"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work and you decide to hire him. His name is Atreus Bodilsen, he is a Ecmwm, and he demands a daily wage of 2200 credits.`
 				decline
 
 mission "hire cooling beckah feidhelm"
@@ -155,8 +155,8 @@ mission "hire cooling beckah feidhelm"
 	on offer
 		outfit "cooling beckah feidhelm" 1
 		conversation
-			scene "portrait/human123"
-			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work and you decide to hire her. Her name is Beckah Feidhelm, she is a Human, and she demands a daily wage of 2900 credits.`
+			scene "portrait/ecmwf01"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work and you decide to hire her. Her name is Beckah Feidhelm, she is a Ecmwf, and she demands a daily wage of 2900 credits.`
 				decline
 
 mission "hire cooling caspar laurentinus"
@@ -171,8 +171,8 @@ mission "hire cooling caspar laurentinus"
 	on offer
 		outfit "cooling caspar laurentinus" 1
 		conversation
-			scene "portrait/human02"
-			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work and you decide to hire him. His name is Caspar Laurentinus, he is a Human, and he demands a daily wage of 3000 credits.`
+			scene "portrait/ecmwm02"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work and you decide to hire him. His name is Caspar Laurentinus, he is a Ecmwm, and he demands a daily wage of 3000 credits.`
 				decline
 
 mission "hire cooling itoro signe"
@@ -187,8 +187,8 @@ mission "hire cooling itoro signe"
 	on offer
 		outfit "cooling itoro signe" 1
 		conversation
-			scene "portrait/human95"
-			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work and you decide to hire her. Her name is Itoro Signe, she is a Human, and she demands a daily wage of 3600 credits.`
+			scene "portrait/ecmaf01"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work and you decide to hire her. Her name is Itoro Signe, she is a Ecmaf, and she demands a daily wage of 3600 credits.`
 				decline
 
 mission "hire cooling lohmahow monuden"
@@ -267,8 +267,8 @@ mission "hire energy deirdre ciaran"
 	on offer
 		outfit "energy deirdre ciaran" 1
 		conversation
-			scene "portrait/human14"
-			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Deirdre Ciaran, she is a Human, and she demands a daily wage of 2100 credits.`
+			scene "portrait/ecmwf02"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Deirdre Ciaran, she is a Ecmwf, and she demands a daily wage of 2100 credits.`
 				decline
 
 mission "hire energy lisa zola"
@@ -283,8 +283,8 @@ mission "hire energy lisa zola"
 	on offer
 		outfit "energy lisa zola" 1
 		conversation
-			scene "portrait/human39"
-			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Lisa Zola, she is a Human, and she demands a daily wage of 2500 credits.`
+			scene "portrait/ecmwf03"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Lisa Zola, she is a Ecmwf, and she demands a daily wage of 2500 credits.`
 				decline
 
 mission "hire energy normand kiran"
@@ -299,8 +299,8 @@ mission "hire energy normand kiran"
 	on offer
 		outfit "energy normand kiran" 1
 		conversation
-			scene "portrait/human08"
-			`In a spaceport bar you get to know a highly qualified expert in energy technologies. He is looking for work and you decide to hire him. His name is Normand Kiran, he is a Human, and he demands a daily wage of 2900 credits.`
+			scene "portrait/ecmwm10"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. He is looking for work and you decide to hire him. His name is Normand Kiran, he is a Ecmwm, and he demands a daily wage of 2900 credits.`
 				decline
 
 mission "hire energy simona branka"
@@ -315,8 +315,8 @@ mission "hire energy simona branka"
 	on offer
 		outfit "energy simona branka" 1
 		conversation
-			scene "portrait/human71"
-			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Simona Branka, she is a Human, and she demands a daily wage of 3400 credits.`
+			scene "portrait/ecmwf04"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work and you decide to hire her. Her name is Simona Branka, she is a Ecmwf, and she demands a daily wage of 3400 credits.`
 				decline
 
 mission "hire energy akane sakai"
@@ -394,8 +394,8 @@ mission "hire engine anahit bodil"
 	on offer
 		outfit "engine anahit bodil" 1
 		conversation
-			scene "portrait/human65"
-			`In a spaceport bar you get to know a highly qualified expert in engine technologies. She is looking for work and you decide to hire her. Her name is Anahit Bodil, she is a Human, and she demands a daily wage of 2000 credits.`
+			scene "portrait/ecmbf03"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. She is looking for work and you decide to hire her. Her name is Anahit Bodil, she is a Ecmbf, and she demands a daily wage of 2000 credits.`
 				decline
 
 mission "hire engine chetana jaleh"
@@ -410,8 +410,8 @@ mission "hire engine chetana jaleh"
 	on offer
 		outfit "engine chetana jaleh" 1
 		conversation
-			scene "portrait/human46"
-			`In a spaceport bar you get to know a highly qualified expert in engine technologies. She is looking for work and you decide to hire her. Her name is Chetana Jaleh, she is a Human, and she demands a daily wage of 2800 credits.`
+			scene "portrait/ecmbf01"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. She is looking for work and you decide to hire her. Her name is Chetana Jaleh, she is a Ecmbf, and she demands a daily wage of 2800 credits.`
 				decline
 
 mission "hire engine neal fransson"
@@ -426,8 +426,8 @@ mission "hire engine neal fransson"
 	on offer
 		outfit "engine neal fransson" 1
 		conversation
-			scene "portrait/human12"
-			`In a spaceport bar you get to know a highly qualified expert in engine technologies. He is looking for work and you decide to hire him. His name is Neal Fransson, he is a Human, and he demands a daily wage of 3200 credits.`
+			scene "portrait/ecmwm03"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. He is looking for work and you decide to hire him. His name is Neal Fransson, he is a Ecmwm, and he demands a daily wage of 3200 credits.`
 				decline
 
 mission "hire engine valeriya jannick"
@@ -442,8 +442,8 @@ mission "hire engine valeriya jannick"
 	on offer
 		outfit "engine valeriya jannick" 1
 		conversation
-			scene "portrait/human90"
-			`In a spaceport bar you get to know a highly qualified expert in engine technologies. She is looking for work and you decide to hire her. Her name is Valeriya Jannick, she is a Human, and she demands a daily wage of 3600 credits.`
+			scene "portrait/ecmwf05"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. She is looking for work and you decide to hire her. Her name is Valeriya Jannick, she is a Ecmwf, and she demands a daily wage of 3600 credits.`
 				decline
 
 mission "hire engine riko ishii"
@@ -521,8 +521,8 @@ mission "hire fuel carl ahmad"
 	on offer
 		outfit "fuel carl ahmad" 1
 		conversation
-			scene "portrait/human07"
-			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Carl Ahmad, he is a Human, and he demands a daily wage of 2300 credits.`
+			scene "portrait/ecmam04"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Carl Ahmad, he is a Ecmam, and he demands a daily wage of 2300 credits.`
 				decline
 
 mission "hire fuel kfir balam"
@@ -537,8 +537,8 @@ mission "hire fuel kfir balam"
 	on offer
 		outfit "fuel kfir balam" 1
 		conversation
-			scene "portrait/human25"
-			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Kfir Balam, he is a Human, and he demands a daily wage of 2800 credits.`
+			scene "portrait/ecmbm01"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Kfir Balam, he is a Ecmbm, and he demands a daily wage of 2800 credits.`
 				decline
 
 mission "hire fuel kostis joona"
@@ -553,8 +553,8 @@ mission "hire fuel kostis joona"
 	on offer
 		outfit "fuel kostis joona" 1
 		conversation
-			scene "portrait/human24"
-			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Kostis Joona, he is a Human, and he demands a daily wage of 3100 credits.`
+			scene "portrait/ecmwm04"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work and you decide to hire him. His name is Kostis Joona, he is a Ecmwm, and he demands a daily wage of 3100 credits.`
 				decline
 
 mission "hire fuel nina sotiroula"
@@ -569,8 +569,8 @@ mission "hire fuel nina sotiroula"
 	on offer
 		outfit "fuel nina sotiroula" 1
 		conversation
-			scene "portrait/human122"
-			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work and you decide to hire her. Her name is Nina Sotiroula, she is a Human, and she demands a daily wage of 3400 credits.`
+			scene "portrait/ecmbf04"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work and you decide to hire her. Her name is Nina Sotiroula, she is a Ecmbf, and she demands a daily wage of 3400 credits.`
 				decline
 
 mission "hire fuel sookot dulur"
@@ -648,8 +648,8 @@ mission "hire hull anuradha talin"
 	on offer
 		outfit "hull anuradha talin" 1
 		conversation
-			scene "portrait/human04"
-			`In a spaceport bar you get to know a highly qualified expert in hull effektivity. She is looking for work and you decide to hire her. Her name is Anuradha Talin, she is a Human, and she demands a daily wage of 2100 credits.`
+			scene "portrait/ecmaf03"
+			`In a spaceport bar you get to know a highly qualified expert in hull effektivity. She is looking for work and you decide to hire her. Her name is Anuradha Talin, she is a Ecmaf, and she demands a daily wage of 2100 credits.`
 				decline
 
 mission "hire hull julia grainne"
@@ -664,8 +664,8 @@ mission "hire hull julia grainne"
 	on offer
 		outfit "hull julia grainne" 1
 		conversation
-			scene "portrait/human37"
-			`In a spaceport bar you get to know a highly qualified expert in hull effektivity. She is looking for work and you decide to hire her. Her name is Julia Grainne, she is a Human, and she demands a daily wage of 2600 credits.`
+			scene "portrait/ecmwf06"
+			`In a spaceport bar you get to know a highly qualified expert in hull effektivity. She is looking for work and you decide to hire her. Her name is Julia Grainne, she is a Ecmwf, and she demands a daily wage of 2600 credits.`
 				decline
 
 mission "hire hull silvius hildegard"
@@ -680,8 +680,8 @@ mission "hire hull silvius hildegard"
 	on offer
 		outfit "hull silvius hildegard" 1
 		conversation
-			scene "portrait/human00"
-			`In a spaceport bar you get to know a highly qualified expert in hull effektivity. He is looking for work and you decide to hire him. His name is Silvius Hildegard, he is a Human, and he demands a daily wage of 3200 credits.`
+			scene "portrait/ecmwm05"
+			`In a spaceport bar you get to know a highly qualified expert in hull effektivity. He is looking for work and you decide to hire him. His name is Silvius Hildegard, he is a Ecmwm, and he demands a daily wage of 3200 credits.`
 				decline
 
 mission "hire hull sabina draga"
@@ -696,8 +696,8 @@ mission "hire hull sabina draga"
 	on offer
 		outfit "hull sabina draga" 1
 		conversation
-			scene "portrait/human107"
-			`In a spaceport bar you get to know a highly qualified expert in hull effektivity. She is looking for work and you decide to hire her. Her name is Sabina Draga, she is a Human, and she demands a daily wage of 3500 credits.`
+			scene "portrait/ecmwf07"
+			`In a spaceport bar you get to know a highly qualified expert in hull effektivity. She is looking for work and you decide to hire her. Her name is Sabina Draga, she is a Ecmwf, and she demands a daily wage of 3500 credits.`
 				decline
 
 mission "hire hull shiro kan"
@@ -777,8 +777,8 @@ mission "hire jamming aline mai"
 	on offer
 		outfit "jamming aline mai" 1
 		conversation
-			scene "portrait/human128"
-			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. She is looking for work and you decide to hire her. Her name is Aline Mai, she is a Human, and she demands a daily wage of 2200 credits.`
+			scene "portrait/ecmaf04"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. She is looking for work and you decide to hire her. Her name is Aline Mai, she is a Ecmaf, and she demands a daily wage of 2200 credits.`
 				decline
 
 mission "hire jamming dominik bullock"
@@ -793,8 +793,8 @@ mission "hire jamming dominik bullock"
 	on offer
 		outfit "jamming dominik bullock" 1
 		conversation
-			scene "portrait/human68"
-			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work and you decide to hire him. His name is Dominik Bullock, he is a Human, and he demands a daily wage of 2800 credits.`
+			scene "portrait/ecmwm06"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work and you decide to hire him. His name is Dominik Bullock, he is a Ecmwm, and he demands a daily wage of 2800 credits.`
 				decline
 
 mission "hire jamming enver diefenbach"
@@ -809,8 +809,8 @@ mission "hire jamming enver diefenbach"
 	on offer
 		outfit "jamming enver diefenbach" 1
 		conversation
-			scene "portrait/human58"
-			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work and you decide to hire him. His name is Enver Diefenbach, he is a Human, and he demands a daily wage of 3200 credits.`
+			scene "portrait/ecmwm07"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work and you decide to hire him. His name is Enver Diefenbach, he is a Ecmwm, and he demands a daily wage of 3200 credits.`
 				decline
 
 mission "hire jamming raban fields"
@@ -825,8 +825,8 @@ mission "hire jamming raban fields"
 	on offer
 		outfit "jamming raban fields" 1
 		conversation
-			scene "portrait/human67"
-			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work and you decide to hire him. His name is Raban Fields, he is a Human, and he demands a daily wage of 3600 credits.`
+			scene "portrait/ecmam05"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work and you decide to hire him. His name is Raban Fields, he is a Ecmam, and he demands a daily wage of 3600 credits.`
 				decline
 
 mission "hire jamming umeo ageta"
@@ -905,8 +905,8 @@ mission "hire scanner ivanus kozlov"
 	on offer
 		outfit "scanner ivanus kozlov" 1
 		conversation
-			scene "portrait/human31"
-			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work and you decide to hire him. His name is Ivanus Kozlov, he is a Human, and he demands a daily wage of 2000 credits.`
+			scene "portrait/ecmwm08"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work and you decide to hire him. His name is Ivanus Kozlov, he is a Ecmwm, and he demands a daily wage of 2000 credits.`
 				decline
 
 mission "hire scanner mikmel wanjala"
@@ -921,8 +921,8 @@ mission "hire scanner mikmel wanjala"
 	on offer
 		outfit "scanner mikmel wanjala" 1
 		conversation
-			scene "portrait/human16"
-			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work and you decide to hire him. His name is Mikmel Wanjala, he is a Human, and he demands a daily wage of 2500 credits.`
+			scene "portrait/ecmbm05"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work and you decide to hire him. His name is Mikmel Wanjala, he is a Ecmbm, and he demands a daily wage of 2500 credits.`
 				decline
 
 mission "hire scanner saffira ivka"
@@ -937,8 +937,8 @@ mission "hire scanner saffira ivka"
 	on offer
 		outfit "scanner saffira ivka" 1
 		conversation
-			scene "portrait/human47"
-			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work and you decide to hire her. Her name is Saffira Ivka, she is a Human, and she demands a daily wage of 2900 credits.`
+			scene "portrait/ecmaf05"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work and you decide to hire her. Her name is Saffira Ivka, she is a Ecmaf, and she demands a daily wage of 2900 credits.`
 				decline
 
 mission "hire scanner tichaona yong"
@@ -953,8 +953,8 @@ mission "hire scanner tichaona yong"
 	on offer
 		outfit "scanner tichaona yong" 1
 		conversation
-			scene "portrait/human10"
-			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work and you decide to hire her. Her name is Tichaona Yong, she is a Human, and she demands a daily wage of 3400 credits.`
+			scene "portrait/ecmaf02"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work and you decide to hire her. Her name is Tichaona Yong, she is a Ecmaf, and she demands a daily wage of 3400 credits.`
 				decline
 
 mission "hire scanner rashi vaitle"
@@ -1034,8 +1034,8 @@ mission "hire shield lucille meritites"
 	on offer
 		outfit "shield lucille meritites" 1
 		conversation
-			scene "portrait/human11"
-			`In a spaceport bar you get to know a highly qualified expert in shield effektivity. She is looking for work and you decide to hire her. Her name is Lucille Meritites, she is a Human, and she demands a daily wage of 2200 credits.`
+			scene "portrait/ecmbf05"
+			`In a spaceport bar you get to know a highly qualified expert in shield effektivity. She is looking for work and you decide to hire her. Her name is Lucille Meritites, she is a Ecmbf, and she demands a daily wage of 2200 credits.`
 				decline
 
 mission "hire shield sonja halimah"
@@ -1050,8 +1050,8 @@ mission "hire shield sonja halimah"
 	on offer
 		outfit "shield sonja halimah" 1
 		conversation
-			scene "portrait/human28"
-			`In a spaceport bar you get to know a highly qualified expert in shield effektivity. She is looking for work and you decide to hire her. Her name is Sonja Halimah, she is a Human, and she demands a daily wage of 2900 credits.`
+			scene "portrait/ecmwf10"
+			`In a spaceport bar you get to know a highly qualified expert in shield effektivity. She is looking for work and you decide to hire her. Her name is Sonja Halimah, she is a Ecmwf, and she demands a daily wage of 2900 credits.`
 				decline
 
 mission "hire shield taisto nithin"
@@ -1066,8 +1066,8 @@ mission "hire shield taisto nithin"
 	on offer
 		outfit "shield taisto nithin" 1
 		conversation
-			scene "portrait/human43"
-			`In a spaceport bar you get to know a highly qualified expert in shield effektivity. He is looking for work and you decide to hire him. His name is Taisto Nithin, he is a Human, and he demands a daily wage of 3300 credits.`
+			scene "portrait/ecmam01"
+			`In a spaceport bar you get to know a highly qualified expert in shield effektivity. He is looking for work and you decide to hire him. His name is Taisto Nithin, he is a Ecmam, and he demands a daily wage of 3300 credits.`
 				decline
 
 mission "hire shield monika raganhildis"
@@ -1082,8 +1082,8 @@ mission "hire shield monika raganhildis"
 	on offer
 		outfit "shield monika raganhildis" 1
 		conversation
-			scene "portrait/human01"
-			`In a spaceport bar you get to know a highly qualified expert in shield effektivity. She is looking for work and you decide to hire her. Her name is Monika Raganhildis, she is a Human, and she demands a daily wage of 3600 credits.`
+			scene "portrait/ecmwf08"
+			`In a spaceport bar you get to know a highly qualified expert in shield effektivity. She is looking for work and you decide to hire her. Her name is Monika Raganhildis, she is a Ecmwf, and she demands a daily wage of 3600 credits.`
 				decline
 
 mission "hire shield saburo aoki"
@@ -1163,8 +1163,8 @@ mission "hire storage darius hasegawa"
 	on offer
 		outfit "storage darius hasegawa" 1
 		conversation
-			scene "portrait/human33"
-			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work and you decide to hire him. His name is Darius Hasegawa, he is a Human, and he demands a daily wage of 2300 credits.`
+			scene "portrait/ecmam02"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work and you decide to hire him. His name is Darius Hasegawa, he is a Ecmam, and he demands a daily wage of 2300 credits.`
 				decline
 
 mission "hire storage eduardo wapasha"
@@ -1179,8 +1179,8 @@ mission "hire storage eduardo wapasha"
 	on offer
 		outfit "storage eduardo wapasha" 1
 		conversation
-			scene "portrait/human03"
-			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work and you decide to hire him. His name is Eduardo Wapasha, he is a Human, and he demands a daily wage of 2400 credits.`
+			scene "portrait/ecmbm02"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work and you decide to hire him. His name is Eduardo Wapasha, he is a Ecmbm, and he demands a daily wage of 2400 credits.`
 				decline
 
 mission "hire storage mani godefrid"
@@ -1195,8 +1195,8 @@ mission "hire storage mani godefrid"
 	on offer
 		outfit "storage mani godefrid" 1
 		conversation
-			scene "portrait/human13"
-			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work and you decide to hire him. His name is Mani Godefrid, he is a Human, and he demands a daily wage of 3000 credits.`
+			scene "portrait/ecmwm09"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work and you decide to hire him. His name is Mani Godefrid, he is a Ecmwm, and he demands a daily wage of 3000 credits.`
 				decline
 
 mission "hire storage marie zohreh"
@@ -1211,8 +1211,8 @@ mission "hire storage marie zohreh"
 	on offer
 		outfit "storage marie zohreh" 1
 		conversation
-			scene "portrait/human93"
-			`In a spaceport bar you get to know a highly qualified expert in storage management. She is looking for work and you decide to hire her. Her name is Marie Zohreh, she is a Human, and she demands a daily wage of 3600 credits.`
+			scene "portrait/ecmwf09"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. She is looking for work and you decide to hire her. Her name is Marie Zohreh, she is a Ecmwf, and she demands a daily wage of 3600 credits.`
 				decline
 
 mission "hire storage touna farchi"

@@ -211,6 +211,7 @@ def write_files():
 					outfits_file.writelines('\t"operating costs" ' + money[index] + '\n')
 					outfits_file.writelines('\tbunks -1\n')
 					outfits_file.writelines('\t"unplunderable" 1\n')
+					outfits_file.writelines('\t"unique" 1\n')
 					outfits_file.writelines('\t' + stat1[index] + '\n')
 					outfits_file.writelines('\t' + stat2[index] + '\n')
 					outfits_file.writelines('\tdescription `This is a highly educated employee focused on '+ prefield + fields[index] + postfield + '. ' + pronoun.capitalize() + ' is ' + article + ' ' + races[index].capitalize() + locphrase + '.`\n')

@@ -15,12 +15,15 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 Changelog:<br>
 <br>
+2024-03-23<br>
+generated 40 new human portraits<br>
+<br>
 2024-03-20<br>
 generated 15 alien portraits<br>
 added 5 Saryd experts<br>
 added 5 Arachi experts<br>
 added 5 Kimek experts<br>
-added mission and reward after collecting all crew members<br>
+added mission after collecting all crew members<br>
 <br>
 2024-03-14<br>
 bugfixes<br>
