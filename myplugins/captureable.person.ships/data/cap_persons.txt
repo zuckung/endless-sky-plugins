@@ -4,6 +4,7 @@
 #	"Marauding Max"        400   everywhere  marauder fury
 #	"Captain Nate"         300   everywhere  vanguard
 #	"Tranquility"          100   everywhere  lampyrid
+#  ship "Lampyrid"
 #	"Power of the People"  200   everywhere  modified osprey
 #	"Local God"            200   everywhere  Ursa Polaris
 #	"Subsidurial"         1000   uninhab.    subsidurial
@@ -13,6 +14,9 @@
 #	"Brick"                300   everywhere  3xmodified boxwing
 #	"Gefullte Taubenbrust" 200   everywhere  modified battleship
 #	"MasterOfGrey"         200   hai         modified ladybug
+
+gamerules
+	"no person spawn weight" 0
 
 disable person
 	"Michael Zahniser"
@@ -393,6 +397,63 @@ person "Tranquility (Capture me)"
 			"I'm a dangerous-minded man on a ship loaded with hurt."
 	ship "Lampyrid-Class Transport" "Tranquility"
 
+ship "Lampyrid-Class Transport"
+	sprite "ship/lampyrid"
+	thumbnail "thumbnail/lampyrid"
+	attributes
+		category "Heavy Freighter"
+		cost 2760000
+		"shields" 5400
+		"hull" 4400
+		"required crew" 5
+		"bunks" 23
+		"mass" 240
+		"drag" 8.5
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 160
+		"outfit space" 265
+		"weapon capacity" 5		
+		"engine capacity" 105
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"S3 Thermionic"
+		"LP036a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer"
+		"Ramscoop"
+		"Energy Blaster"
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+
+	gun 0 -119 "Energy Blaster"
+	engine -64 28 0.7
+	engine 0 80 1.8
+	engine 0 100 1.2
+	engine 64 28 0.7
+	"reverse engine" -64.5 -31.5 0.7
+	"reverse engine" 64.5 -31.5 0.7
+	"steering engine" -64.5 -31.5 0.7
+		angle -180
+		left
+	"steering engine" 64 28 0.7
+		left
+	"steering engine" -64 28 0.7
+		right
+	"steering engine" 64.5 -31.5 0.7
+		angle -180
+		right
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 15
+	"final explode" "final explosion medium" 1
+
 
 person "Power of the People (Capture me)"
 	government "Author"
@@ -759,7 +820,7 @@ person "Zitchas (Capture me)"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
+		disables heroic surveillance decloaked
 	system
 		attributes "ember waste"
 	phrase

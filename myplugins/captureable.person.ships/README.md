@@ -4,12 +4,12 @@
 Makes person ships captureable.<br> 
 <br>
 <br>
-Well, technically this plugin disables the person ships, and creates new ones(with a space more in its names, due to limitations of changing parts of originals) which are captureable. Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000.<br>
+Well, technically this plugin disables the person ships, and creates new ones which are captureable (with changed names to "<name> (disable me)", due to limitations of changing parts of the originals). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesnt flee. And changed "Zitchas" personality to "decloaked", so it doesnt flee and regenerate while cloaked.<br>
 So attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average within 10 minutes.<br>
 <br>
-At Earth's job board you can find a repeatable job that displays which persons you have already killed, which are alive and where to find them<br>
+At every job board you can find a repeatable job that displays which persons you have already killed, which is alive and where to find it<br>
 <br>
-Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti beam weapons, was probably an overkill on most. Except for "Zitchas" which needed less dmg weapons and max flamethrowers to prevent its cloaking. Also boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and i tried it with hand2hand outfits plugin. Maybe it works with nerve gas too. Another problem is "Tranquility" which has no weapons and therefore avoids fight. Tested different personality settings and best choice was to let it stay in system after spawn(yellow dot on radar).<br>
+Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and i tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
 <br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/captureable.person.ships/screenshot.jpg' width='400'>
 <ul>
@@ -32,6 +32,12 @@ Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti be
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-03-23<br>
+set "no person spawn weight" to 0<br>
+added person destroyed check job to every planet with a job board<br>
+added a gun to Tranquility so that it stays for fighting<br>
+changed Zitchas personality, so that it doesn't cloak<br>
 <br>
 2024-03-14<br>
 bugfixes<br>
