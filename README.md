@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-20 | update: galactic.capital.investment<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-23 | update: expert.crew.members<br>
+2024-03-20 | update: galactic.capital.investment<br>
 2024-03-20 | update: expert.crew.members<br>
 2024-03-20 | cleaned up tools and added 2 more<br>
 2024-03-16 | update: show.reputation<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-15 | update: better.starts<br>
 2024-03-15 | update: bunrodea.missions<br>
 2024-03-15 | update: gegno.pirates<br>
-2024-03-15 | update: more.boarding.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -945,7 +945,7 @@ added icon.png<br>
 
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 3.88 mb | 2024-03-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 7.16 mb | 2024-03-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the readme for details.
 <details>
@@ -984,6 +984,12 @@ Changelog:<br>
 
 <br>
 
+2024-03-23<br>
+
+generated 40 new human portraits<br>
+
+<br>
+
 2024-03-20<br>
 
 generated 15 alien portraits<br>
@@ -994,7 +1000,7 @@ added 5 Arachi experts<br>
 
 added 5 Kimek experts<br>
 
-added mission and reward after collecting all crew members<br>
+added mission after collecting all crew members<br>
 
 <br>
 
