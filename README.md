@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-23 | update: captureable.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-24 | update: planet.map<br>
+2024-03-23 | update: captureable.person.ships<br>
 2024-03-23 | update: expert.crew.members<br>
 2024-03-20 | update: galactic.capital.investment<br>
 2024-03-20 | update: expert.crew.members<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-15 | update: show.reputation<br>
 2024-03-15 | update: unique.fix<br>
 2024-03-15 | update: better.starts<br>
-2024-03-15 | update: bunrodea.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -47,10 +47,11 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#piratewarlords">pirate.warlords</a><br>
+<a href="README.md#planetmap">planet.map</a><br>
 <a href="README.md#realfluff">real.fluff</a><br>
 <a href="README.md#showreputation">show.reputation</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
@@ -1787,6 +1788,58 @@ initial release<br>
 
 
 
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### planet.map
+
+<img src="myplugins/planet.map/icon.png" height="100">
+
+[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/planet.map.zip) | 2.24 mb | 2024-03-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) <br>
+<br>
+>Planetary map concept : start a new pilot, use "start: planet.map" and follow the small story line. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### planet.map
+
+<br>
+
+<br>
+
+Planetary map concept : start a new pilot, use 'start: planet.map' and follow the small story line. See the readme for details.<br>
+
+<br>
+
+This is just a proof of concept of an idea by Epsil-Astra.<br>
+
+Basically a planet in a starsystem is a wormhole to a starsystem with changed background, to look like a ground map. The planets there look like cities. It simulates travelling on a planet you've landed on.<br>
+
+A small storyline got added.<br>
+
+<br>
+
+As in the spirit of Epsil-Astra, feel free to modify/use this plugin for your own content creation.<br> 
+
+<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/planet.map/screenshot.jpg' width='400'>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-03-24<br>
+
+initial release<br>
 </blockquote>
 </details>
 <br>
