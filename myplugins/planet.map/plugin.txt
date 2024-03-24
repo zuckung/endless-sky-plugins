@@ -1,2 +1,2 @@
 name "planet.map"
-about "Planetary map concept : start a new pilot, use 'start: planet.map' and follow the small story line. See the readme for details."
+about "planetary map concept : start a new pilot, use "start: planet.map""

@@ -43,7 +43,6 @@ mission "start story"
 	name "Search for the colony ship"
 	description "Investigate the Theben system, to search for clues on the disappearing of a colony ship, 200 years ago."
 	source "Memory"
-#	destination "Center (City)"
 	waypoint "Theben"
 	to offer
 		has "give map"
@@ -65,10 +64,11 @@ mission "start story"
 event "close wormhole"
 	system "Map of New Avalon"
 		remove object "New Avalon"
-			sprite planet/wormhole
-			distance 2000
+			sprite planet/cloud
+				scale 2.5
+			distance 3500
 			period 1
-			offset 290
+			offset 0
 	mission "start story: done"
 
 mission "whats going on"
@@ -81,14 +81,14 @@ mission "whats going on"
 		has "start story: offered"
 	on offer
 		conversation
-			`After the landing you seek contact to find out what's going on here. After an hour you know a lot more. This planet is called New Avalon, and yes, the inhabitants are mostly from the disappeared colony ship. Some other came with there own ships, and can't leave because an invisible force hinders the ships from breaking through the athmosphere. After questioning your way up, you finally reach the city council, which, like expected, can't help escaping this planet.`
+			`After the landing you seek contact to find out what's going on here. After an hour you know a lot more. This planet is called New Avalon, a forest planet, and yes, the inhabitants are mostly from the disappeared colony ship. Some other came with there own ships, and can't leave because an invisible force hinders the ships from breaking through the athmosphere. The biggest city, named Center, and 3 other cities were build around a lake. After questioning your way up, you finally reach the city council, which, like expected, can't help escaping this planet.`
 			`After 2 more hours of talking to strangers, you hear of a guy, who might know some more. Travel to Ember (City) to meet a guy named Linus Rane.`
 				accept
 
 mission "linus knows"
 	landing
 	name "Fly north"
-	description "Fly north to find the mysterious object Linus Rane was talking about."
+	description "Fly west to find the mysterious object Linus Rane was talking about."
 	source "Ember (City)"
 	destination "Mysterious Object"
 	to offer
@@ -96,8 +96,8 @@ mission "linus knows"
 	on offer
 		conversation
 			`It takes some time to find Linus Rane, but it was worth it.`
-			`Linus tells a story, about when he was leading an expedition to the north. At some point they discovered a big metallic object. They couldn't analyze it, because it was made of an unknown metal. Nothing worked. The expedition came home again to get help with their discovery. But when the expedition, grown with dozens of people, returned to where the object was, it was gone. The members of the expedition and Linus got called liars and nothing more was done. Thats the story.`
-			`You decide to fly north to find out more.`
+			`Linus tells a story, about when he was leading an expedition to the west. At some point they discovered a big metallic object. They couldn't analyze it, because it was made of an unknown metal. Nothing worked. The expedition came home again to get help with their discovery. But when the expedition, grown with dozens of people, returned to where the object was, it was gone. The members of the expedition and Linus got called liars and nothing more was done. Thats the story.`
+			`You decide to fly west to find out more.`
 				accept
 	on complete
 		event "open wormhole"
@@ -105,10 +105,11 @@ mission "linus knows"
 event "open wormhole"
 	system "Map of New Avalon"
 		add object "New Avalon"
-			sprite planet/wormhole
-			distance 2000
+			sprite planet/cloud
+				scale 2.5
+			distance 3500
 			period 1
-			offset 290
+			offset 0
 
 mission "back to linus"
 	landing

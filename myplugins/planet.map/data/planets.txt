@@ -26,9 +26,7 @@ planet "Center (City)"
 	landscape land/city23
 	government "Avalonian"
 	description `This is a city.`
-	description `line 2`
 	spaceport `This is the landing area`
-	spaceport `line 2`
 	outfitter "Avalonian Basics"
 	shipyard "Avalonian Basics"
 	bribe 0.05
@@ -41,12 +39,9 @@ planet "Lightfall (City)"
 	attributes factory research urban
 	landscape land/city23
 	description `This is a city.`
-	description `line 2`
 	government "Avalonian"
 	spaceport `This is the landing area`
-	spaceport `line 2`
 	outfitter "Avalonian Basics"
-	shipyard "Avalonian Basics"
 	bribe 0.05
 	security 0.7
 	tribute 1000
@@ -58,11 +53,8 @@ planet "Warsong (City)"
 	landscape land/city23
 	government "Avalonian"
 	description `This is a city.`
-	description `line 2`
 	spaceport `This is the landing area`
-	spaceport `line 2`
 	outfitter "Avalonian Basics"
-	shipyard "Avalonian Basics"
 	bribe 0.05
 	security 0.7
 	tribute 1000
@@ -74,11 +66,8 @@ planet "Ember (City)"
 	landscape land/city23
 	government "Avalonian"
 	description `This is a city.`
-	description `line 2`
 	spaceport `This is the landing area`
-	spaceport `line 2`
 	outfitter "Avalonian Basics"
-	shipyard "Avalonian Basics"
 	bribe 0.05
 	security 0.7
 	tribute 1000
@@ -109,46 +98,47 @@ system "Map of New Avalon"
 	trade Metal 367
 	trade Plastic 270
 	fleet "Avalonian Fleet" 250
-	object "Center (City)"
-		sprite planet/city0
+	object "Ember (City)"
+		sprite planet/city2
+			scale 1
 		distance 0
 		period 1
-	object 
-		sprite planet/lake2
-		distance 750
-		period 1
-		offset 270
-		scale 2
-	object "Lightfall (City)"
+	object "Center (City)"
 		sprite planet/city1
-		distance 1000
+			scale 1
+		distance 1520
 		period 1
-		offset 170
+		offset 20
+	object "Lightfall (City)"
+		sprite planet/city2
+			scale 0.8
+		distance 1500
+		period 1
+		offset 130
 	object "Warsong (City)" 
 		sprite planet/city2
-		distance 1200
-		period 1
-		offset 100
-	object 
-		sprite planet/lake1
-		distance 1300
-		period 1
-		offset 75
-	object "Ember (City)"
-		sprite planet/city3
-		distance 1400
-		period 1
-		offset 30
-	object "New Avalon"
-		sprite planet/wormhole
+			scale 0.7
 		distance 2000
 		period 1
-		offset 290
-	object "Mysterious Object"
-		sprite planet/metalobject
-		distance 7000
+		offset 80
+	object 
+		sprite planet/lake1
+			scale 4
+		distance 1300
+		period 1
+		offset 65
+	object "New Avalon"
+		sprite planet/cloud
+			scale 2.5
+		distance 3500
 		period 1
 		offset 0
+	object "Mysterious Object"
+		sprite planet/metalobject
+			scale 1
+		distance 7000
+		period 1
+		offset 270
 
 system Theben
 	pos -740 -123
