@@ -1799,9 +1799,9 @@ initial release<br>
 
 <img src="myplugins/planet.map/icon.png" height="100">
 
-[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/planet.map.zip) | 2.24 mb | 2024-03-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) <br>
+[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/planet.map.zip) | 2.11 mb | 2024-03-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) <br>
 <br>
->Planetary map concept : start a new pilot, use "start: planet.map" and follow the small story line. See the readme for details.
+>planetary map concept : start a new pilot, use "start: planet.map"
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
