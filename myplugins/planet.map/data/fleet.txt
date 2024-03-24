@@ -1,0 +1,17 @@
+# fleet avalonian fleet
+
+fleet "Avalonian Fleet"
+	government "Avalonian"
+	names "civilian"
+	cargo 2
+	personality
+		confusion 30
+		launching timid frugal appeasing
+	variant 1
+		"Argosy"
+	variant 1
+		"Hauler"
+	variant 1
+		"Hauler II"
+	variant 1
+		"Freighter"

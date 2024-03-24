@@ -1,0 +1,8 @@
+planet.map
+author:
+	zuckung 
+	https://github.com/zuckung/endless-sky-plugins
+concept and brainstorming:
+	Epsil-Astra
+images:
+	ai generated at https://www.craiyon.com/
