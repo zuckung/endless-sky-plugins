@@ -15,7 +15,6 @@ wormhole "New Avalon Map"
 	link "Map of New Avalon" "Theben"
 
 planet "New Avalon"
-	sprite planet/earth
 	attributes "worm hole" uninhabited
 	description `wormhole`
 	wormhole "New Avalon Map"
