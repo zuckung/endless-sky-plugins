@@ -98,7 +98,7 @@ system "Map of New Avalon"
 	trade Plastic 270
 	fleet "Avalonian Fleet" 250
 	object "Ember (City)"
-		sprite planet/city2
+		sprite planet/city4
 			scale 1
 		distance 0
 		period 1
@@ -109,7 +109,7 @@ system "Map of New Avalon"
 		period 1
 		offset 20
 	object "Lightfall (City)"
-		sprite planet/city2
+		sprite planet/city3
 			scale 0.8
 		distance 1500
 		period 1
