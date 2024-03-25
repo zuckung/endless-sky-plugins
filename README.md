@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-24 | update: planet.map<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-25 | update: planet.map<br>
+2024-03-24 | update: planet.map<br>
 2024-03-23 | update: captureable.person.ships<br>
 2024-03-23 | update: expert.crew.members<br>
 2024-03-20 | update: galactic.capital.investment<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-16 | update: show.reputation<br>
 2024-03-15 | update: show.reputation<br>
 2024-03-15 | update: unique.fix<br>
-2024-03-15 | update: better.starts<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1799,7 +1799,7 @@ initial release<br>
 
 <img src="myplugins/planet.map/icon.png" height="100">
 
-[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/planet.map.zip) | 2.11 mb | 2024-03-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) <br>
+[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/planet.map.zip) | 2.11 mb | 2024-03-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) <br>
 <br>
 >planetary map concept : start a new pilot, use "start: planet.map"
 
