@@ -6,6 +6,7 @@
 # planet warsong (city)
 # planet ember (city)
 # planet mysterious object
+# planet expedition ship
 # system the eastern sea
 # system tropical forests of the south
 # system the northern tundra
@@ -88,6 +89,18 @@ planet "Mysterious Object"
 	description `This is a very mysterious object.`
 	spaceport `This is the landing area`
 
+planet "Expedition Ship"
+	attributes research
+	landscape land/sivael2
+	government "Avalonian"
+	description `This is a big expedition ship.`
+	spaceport `This is the landing area`
+	bribe 0.05
+	security 0.7
+	tribute 1000
+		threshold 7000
+		fleet "Avalonian Fleet" 39
+
 system "The Eastern Sea"
 	pos -4750 -4900
 	government "Avalonian"
@@ -105,6 +118,11 @@ system "The Eastern Sea"
 	trade Medical 520
 	trade Metal 367
 	trade Plastic 270
+	object "Expedition Ship"
+		sprite planet/expedition
+			scale 3
+		distance 0
+		period 1
 
 system "Tropical Forests of the South"
 	pos -5080 -4750
@@ -159,6 +177,12 @@ system "The Great Desert"
 	trade Medical 520
 	trade Metal 367
 	trade Plastic 270
+	object "Mysterious Object"
+		sprite planet/metalobject
+			scale 1
+		distance 2000
+		period 1
+		offset 270
 
 
 system "The Landing Site"
@@ -217,12 +241,6 @@ system "The Landing Site"
 		distance 3500
 		period 1
 		offset 0
-	object "Mysterious Object"
-		sprite planet/metalobject
-			scale 1
-		distance 7000
-		period 1
-		offset 270
 
 system Theben
 	pos -740 -123

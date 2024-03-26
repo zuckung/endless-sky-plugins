@@ -44,8 +44,6 @@ mission "start story"
 	description "Investigate the Theben system, to search for clues on the disappearing of a colony ship, 200 years ago."
 	source "Memory"
 	waypoint "Theben"
-	to offer
-		has "give map"
 	on offer
 		outfit "Local Map"
 		conversation
@@ -86,19 +84,32 @@ mission "whats going on"
 			`After 2 more hours of talking to strangers, you hear of a guy, who might know some more. Travel to Ember (City) to meet a guy named Linus Rane.`
 				accept
 
-mission "linus knows"
+mission "whats going on 2"
 	landing
-	name "Fly north"
-	description "Fly west to find the mysterious object Linus Rane was talking about."
+	name "Contact Linus Rane"
+	description "Find Linus Rane. He is on an expedition to the eastern sea."
 	source "Ember (City)"
-	destination "Mysterious Object"
+	destination "Expedition Ship"
 	to offer
 		has "whats going on: done"
 	on offer
 		conversation
+			`In Ember you ask around for hours to find Linus Rane. And finally you meet someone who knows where to find him. Unfortunately Linus went to an expedition to the eastern sea, so you have to fly there.`
+				accept
+
+mission "linus knows"
+	landing
+	name "Fly north"
+	description "Fly west to find the mysterious object Linus Rane was talking about."
+	source "Expedition Ship"
+	destination "Mysterious Object"
+	to offer
+		has "whats going on 2: done"
+	on offer
+		conversation
 			`It takes some time to find Linus Rane, but it was worth it.`
-			`Linus tells a story, about when he was leading an expedition to the west. At some point they discovered a big metallic object. They couldn't analyze it, because it was made of an unknown metal. Nothing worked. The expedition came home again to get help with their discovery. But when the expedition, grown with dozens of people, returned to where the object was, it was gone. The members of the expedition and Linus got called liars and nothing more was done. Thats the story.`
-			`You decide to fly west to find out more.`
+			`Linus tells a story, about when he was leading an expedition to the far west. At some point they discovered a big metallic object. They couldn't analyze it, because it was made of an unknown metal. Nothing worked. The expedition came home again to get help with their discovery. But when the expedition, grown with dozens of people, returned to where the object was, it was gone. The members of the expedition and Linus got called liars and nothing more was done. Thats the story.`
+			`You decide to fly west, into the great desert, to find out more.`
 				accept
 	on complete
 		event "open wormhole"
@@ -115,9 +126,9 @@ event "open wormhole"
 mission "back to linus"
 	landing
 	name "Fly back to Linus"
-	description "Fly back to Ember (City), to tell Linus about what happend inside the mysterious object."
+	description "Fly back to the Expedition Ship, to tell Linus about what happend inside the mysterious object."
 	source "Mysterious Object"
-	destination "Ember (City)"
+	destination "Expedition Ship"
 	to offer
 		has "linus knows: done"
 	on offer
