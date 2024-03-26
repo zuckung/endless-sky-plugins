@@ -1799,7 +1799,7 @@ initial release<br>
 
 <img src="myplugins/planet.map/icon.png" height="100">
 
-[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/planet.map.zip) | 5.06 mb | 2024-03-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) <br>
+[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/planet.map.zip) | 5.13 mb | 2024-03-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) <br>
 <br>
 >planetary map travelling concept : start a new pilot, use "start: planet.map"
 
@@ -1817,7 +1817,7 @@ Planetary map travelling concept : start a new pilot, use 'start: planet.map' an
 
 This is just a proof of concept of an idea by Epsil-Astra.<br>
 
-Basically a planet in a starsystem is a wormhole to a starsystem with changed background, to look like a ground map. The planets there look like cities. It simulates travelling on a planet you've landed on. Other starsystems act as different bioms, like forest, desert, water.<br>
+Basically a planet in a starsystem is a wormhole to a starsystem with changed background, to look like a ground map. The planets there look like cities. The galaxy background is a single whole planet. It simulates travelling on a planet you've landed on. Other starsystems act as different bioms, like forest, desert, sea.<br>
 
 A small storyline got added.<br>
 
@@ -1841,7 +1841,7 @@ Changelog:<br>
 
 2024-03-26<br>
 
-fixes a d adjustments<br>
+fixes and adjustments<br>
 
 added galaxy planet<br>
 
