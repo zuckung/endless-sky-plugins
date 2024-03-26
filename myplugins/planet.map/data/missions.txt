@@ -53,7 +53,8 @@ mission "start story"
 				accept
 	on enter "Theben"
 		dialog `After a long time scan of the Theben system, your improved scanner finds a planet. You should go for a visit.`
-	on enter "Map of New Avalon"
+	on enter "The Landing Site"
+		outfit "Local Map"
 		event "close wormhole"
 		conversation
 			`While landing your whole ship shakes. As you try to leave the planet again, you can feel an invisible force pulling your ship down. You can't  escape. Well, maybe the people in the big city right in front of you can help?`
@@ -62,7 +63,7 @@ mission "start story"
 			`You tell the administration of Memory what you find out about the colony ship. With the exact position of the hard to find planet, the'll send ships to include the planet to the Republic.`
 
 event "close wormhole"
-	system "Map of New Avalon"
+	system "The Landing Site"
 		remove object "New Avalon"
 			sprite planet/cloud
 				scale 2.5
@@ -103,7 +104,7 @@ mission "linus knows"
 		event "open wormhole"
 
 event "open wormhole"
-	system "Map of New Avalon"
+	system "The Landing Site"
 		add object "New Avalon"
 			sprite planet/cloud
 				scale 2.5

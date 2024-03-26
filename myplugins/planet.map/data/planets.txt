@@ -1,3 +1,4 @@
+# galaxy planet new avalon
 # wormhole new avalon map
 # planet new avalon
 # planet center (city)
@@ -5,14 +6,22 @@
 # planet warsong (city)
 # planet ember (city)
 # planet mysterious object
-# system map of new avalon
+# system the eastern sea
+# system tropical forests of the south
+# system the northern tundra
+# system the great desert
+# system the landing site
 # system theben
 # system zosma
 
+galaxy "Planet New Avalon"
+	pos -5000 -5000
+	sprite "ui/planetgalaxy"
+		scale 2
+
 wormhole "New Avalon Map"
-	mappable
-	link "Theben" "Map of New Avalon"
-	link "Map of New Avalon" "Theben"
+	link "Theben" "The Landing Site"
+	link "The Landing Site" "Theben"
 
 planet "New Avalon"
 	attributes "worm hole" uninhabited
@@ -79,13 +88,89 @@ planet "Mysterious Object"
 	description `This is a very mysterious object.`
 	spaceport `This is the landing area`
 
+system "The Eastern Sea"
+	pos -4750 -4900
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-water
+	link "The Landing Site"
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
 
-system "Map of New Avalon"
+system "Tropical Forests of the South"
+	pos -5080 -4750
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-forest
+	link "The Landing Site"
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
+
+system "The Northern Tundra"
+	pos -4850 -5310
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-forest
+	link "The Landing Site"
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
+
+system "The Great Desert"
+	pos -5270 -5100
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-desert
+	link "The Landing Site"
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
+
+
+system "The Landing Site"
 	pos -5000 -5000
 	government "Avalonian"
 	arrival 1000
 	habitable 3000
 	haze _menu/haze-forest
+	link "The Great Desert"
+	link "The Northern Tundra"
+	link "Tropical Forests of the South"
+	link "The Eastern Sea"
 	trade Clothing 240
 	trade Electronics 611
 	trade Equipment 455
