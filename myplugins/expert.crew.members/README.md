@@ -15,6 +15,10 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 Changelog:<br>
 <br>
+2024-03-27<br>
+added option to decline the hiring, they will be offered later again<br>
+fixed human experts showing the image name as race<br>
+<br>
 2024-03-23<br>
 generated 40 new human portraits<br>
 <br>
