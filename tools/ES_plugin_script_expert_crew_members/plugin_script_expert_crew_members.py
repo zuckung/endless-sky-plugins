@@ -60,7 +60,7 @@ def read_experts():
 					sexes.append(x)
 					x, pos = find_symbol(line,pos + 1, '"')
 					images.append(x)
-					if x.startswith('human'):
+					if x.startswith('ecm'):
 						races.append('human')
 					elif x.startswith('arachi'): 
 						races.append('arach')
@@ -144,7 +144,7 @@ def write_files():
 						postfield = ' technologies'
 					elif fields[index] == 'hull':
 						prefield = ''
-						postfield = ' effektivity'
+						postfield = ' effectivity'
 					elif fields[index] == 'jamming':
 						prefield = ''
 						postfield = ' technologies'
@@ -153,7 +153,7 @@ def write_files():
 						postfield = ' technologies'
 					elif fields[index] =='shield':
 						prefield = ''
-						postfield = ' effektivity'
+						postfield = ' effectivity'
 					elif fields[index] =='storage':
 						prefield = ''
 						postfield = ' management'
@@ -163,7 +163,7 @@ def write_files():
 					else:
 						locphrase = ''
 					# setting source	
-					if races[index] == 'human':
+					if races[index].startswith('human'):
 						source = '\t\tgovernment "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"\n'
 						source2 = '\t\tattributes "' + locations[index] + '"\n'
 						tooffer = ''
@@ -231,14 +231,19 @@ def write_files():
 					if tooffer != '':
 						missions_file.writelines(tooffer)
 					missions_file.writelines('\t\trandom < ' + str(percent) + '\n')
-					missions_file.writelines('\ton offer\n')
+					missions_file.writelines('\ton decline\n')
 					missions_file.writelines('\t\toutfit "' + fields[index] + ' ' + names[index] + '" 1\n')
+					missions_file.writelines('\ton offer\n')
 					missions_file.writelines('\t\tconversation\n')
 					missions_file.writelines('\t\t\tscene "portrait/' + images[index] + '"\n')
-					missions_file.writelines('\t\t\t`In a spaceport bar you get to know a highly qualified expert in ' + prefield + fields[index] + postfield + '. ' + pronoun.capitalize() + ' is looking for work and you decide to hire ' + pronoun2 + '. ' + pronoun3.capitalize() + ' name is ' + fullname + ', ' + pronoun + ' is ' + article + ' ' + races[index].capitalize() + ', and ' + pronoun + ' demands a daily wage of ' + money[index] + ' credits.`\n')
-					missions_file.writelines('\t\t\t\tdecline\n')
+					missions_file.writelines('\t\t\t`In a spaceport bar you get to know a highly qualified expert in ' + prefield + fields[index] + postfield + '. ' + pronoun.capitalize() + ' is looking for work. ' + pronoun3.capitalize() + ' name is ' + fullname + ', ' + pronoun + ' is ' + article + ' ' + races[index].capitalize() + ', and ' + pronoun + ' demands a daily wage of ' + money[index] + ' credits.`\n')
+					missions_file.writelines('\t\t\tchoice\n')
+					missions_file.writelines("\t\t\t\t`don't hire " + pronoun2 + " (maybe you will meet " + pronoun2 + " again)`\n")
+					missions_file.writelines('\t\t\t\t\tdefer\n')
+					missions_file.writelines('\t\t\t\t`hire ' + pronoun2 + '`\n')
+					missions_file.writelines('\t\t\t\t\tdecline\n')
 					missions_file.writelines('\n')
-
+		# writing additional infos
 		list_file.writelines('savegame editing:\n')
 		list_file.writelines('\n')
 		list_file.writelines('outfits:\n')
