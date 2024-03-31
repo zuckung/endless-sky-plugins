@@ -23,7 +23,7 @@ def set_globals():
 	listfile = 'crew.list.txt' # overview
 	foutfits = 'outfits.txt' # output
 	fmissions = 'missions.txt' # output
-	percent = 3 # mission chance
+	percent = 1 # mission chance
 	names, fields, locations, races, sexes, images, money, stat1, stat2, saveedit1, saveedit2, saveedit3 = [], [], [], [], [], [], [], [], [], [], [], []
 
 
@@ -199,6 +199,10 @@ def write_files():
 						source = '\t\tgovernment "Coalition"\n'
 						source2 = '\t\tattributes "' + races[index] + '"\n'
 						tooffer = '\t\thas "Coalition: First Contact: done"\n'
+					elif races[index] == 'gegno':
+						source = '\t\tgovernment "Gegno" "Gegno Scin" "Gegno Vi"\n'
+						source2 = ''
+						tooffer = ''
 				
 					# writing the outfit
 					outfits_file.writelines('outfit "' + fields[index] + ' '  + names[index] + '"\n')
