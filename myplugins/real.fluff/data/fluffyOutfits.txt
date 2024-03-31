@@ -1,4 +1,8 @@
+# category pets
 # ship argosy for alien mission
+# outfit glass cat
+# outfit puny modified
+# outfit cat
 # outfit ocelot
 # outfit raccoon
 # outfit alien
@@ -8,6 +12,9 @@
 # outfit hamster
 # outfit squirrel
 
+
+category "outfit"
+	"Pets"
 
 ship "Argosy" "Nostromo"
 	add attributes
@@ -24,56 +31,76 @@ ship "Argosy" "Nostromo"
 		"Outfits Expansion"
 		"Greyhound Plasma Thruster"
 
-outfit "fluffy_cat"
+outfit "Glass Cat"
 	category "Unique"
+	"unique" 1
+	"unplunderable" 1
+	thumbnail "outfit/cat_figurine"
+	description `A modern art figurine of a cat, made of glass. It is a gift by 'Beings for Ethical Treatment of Animals' (BETA) for your work in the field of animal protection. You just wonder how this Organisation found out of your pet rescues. Do they have some kind of intelligence service?`
+
+outfit "Puny"
+	category "Pets"
+	thumbnail "outfit/puny"
+
+outfit "fluffy_cat"
+	category "Pets"
+	"unique" 1
 	"display name" `"Cleo"`
 	thumbnail "outfit/fluffy_cat"
 	description `Once "Cleo" was a collateral victim of a gun shooting, now she is the queen of a star ship bridge! One rank above the captain.`
 
 outfit "fluffy_ocelot"
-	category "Unique"
+	category "Pets"
+	"unique" 1
 	"display name" `"Babou"`
 	thumbnail "outfit/fluffy_ocelot"
 	description `"Babou", former pirate ocelot, fights for the good side now!`
 
 outfit "fluffy_raccoon"
-	category "Unique"
+	category "Pets"
+	"unique" 1
 	"display name" `"Bandit"`
 	thumbnail "outfit/fluffy_raccoon"
 	description `This little raccoon is always at your side, at least at lunch time. `
 
 outfit "fluffy_alien"
-	category "Unique"
+	category "Pets"
+	"unique" 1
 	"display name" `"Black Beauty"`
 	thumbnail "outfit/alien"
 	description `Some kind of strange animal you've found on a derelict ship. Although it tries to bite you regularly, you keep it as a pet.`
 
 outfit "fluffy_ferret"
-	category "Unique"
+	category "Pets"
+	"unique" 1
 	"display name" `"Gummi Bear"`
 	thumbnail "outfit/fluffy_ferret"
 	description `"Gummi Bear" is a hyperactive ferret. He is always wherever the action is. It looks like he particularly enjoys space battles.`
 
 outfit "fluffy_koala"
-	category "Unique"
+	category "Pets"
+	"unique" 1
 	"display name" `"Archie"`
 	thumbnail "outfit/fluffy_koala"
 	description `You installed half a tree on the bridge for "Archie." And now he sleeps almost all day, only interrupted by breaks to eat. At least he is fluffy.`
 
 outfit "fluffy_rabbit"
-	category "Unique"
+	category "Pets"
+	"unique" 1
 	"display name" `"Thumper"`
 	thumbnail "outfit/fluffy_rabbit"
 	description `Unfortunately, "Thumper" constantly gnaws at all exposed cables. It took some effort to make the bridge of your ship rabbit-proof. If only he wasn't so cute.`
 
 outfit "fluffy_hamster"
-	category "Unique"
+	category "Pets"
+	"unique" 1
 	"display name" `"Peanut"`
 	thumbnail "outfit/fluffy_hamster"
 	description `As a real spacefaring hamster, "Peanut" knows how to transport a large cargo of nuts to his house.`
 
 outfit "fluffy_squirrel"
-	category "Unique"
+	category "Pets"
+	"unique" 1
 	"display name" `"Trixie"`
 	thumbnail "outfit/fluffy_squirrel"
 	description `A little squirrel girl named "Trixie". She is now your friend.`

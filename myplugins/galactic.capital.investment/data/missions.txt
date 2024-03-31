@@ -7,7 +7,7 @@
 # mission "Galactic Capital Colonize 3"  transport goulding to earth
 # mission "Galactic Capital Colonize 4"  fly to earth
 # mission "Galactic Capital Colonize 5"  invest 250m
-# event "GCI wait infrastructure         wait 120
+# event "GCI wait infrastructure"        wait 120
 # mission "Galactic Capital Colonize 6"  fly to earth
 # mission "Galactic Capital Colonize 7"  invest 250m
 # event "GCI wait defense fleet"         wait 120
@@ -287,7 +287,7 @@ event "GCI wait infrastructure"
 		shipyard "Basic Ships"
 		shipyard "Betelgeuse Basics"
 	system "Limen"
-		add fleet "Large Southern Merchants" 3000"
+		add fleet "Large Southern Merchants" 3000
 		add fleet "Small Republic" 12000
 
 
@@ -341,8 +341,8 @@ event "GCI wait defense fleets"
 		description `Sapphire is a beautiful green world. After the native poisonous insects have been eradicated, the colonization progress is egolving fast. In its current state, Sapphire has several big cities and hundreds of smaller villages and outposts spread across the land masses. This is a world with a very fast growing economy.`
 		security 0.1
 		tribute 1000
-		threshold 1500
-		fleet "Small Militia" 15
+			threshold 1500
+			fleet "Small Militia" 15
 
 
 mission "Galactic Capital Colonize 8"

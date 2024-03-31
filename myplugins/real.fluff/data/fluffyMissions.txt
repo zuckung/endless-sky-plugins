@@ -1,21 +1,56 @@
-# 1 mission cat
-# 1 mission ocelot
-# 1 mission raccoon
-# 1 mission alien
-# 2 missions ferret
-# 1 mission koala
-# 2 missions rabbit
-# 1 mission hamster
-# 4 missions squirrel
+# mission beta
+# event waitfluff
+# mission cat mission 1
+# mission ocelot mission 1
+# mission raccoon mission 1
+# mission alien mission 1
+# mission ferret mission 1
+# mission ferret mission 2
+# mission koala mission 1
+# mission rabbit mission 1
+# mission rabbit mission 2
+# mission hamster mission 1
+# mission squirrel mission 1
+# mission squirrel mission 2
+# mission squirrel mission 3
+# mission squirrel mission 4
 
+
+
+mission "beta"
+	minor
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
+	to offer
+		has "cat mission 1: declined"
+		has "ocelot mission 1: done"
+		has "raccoon mission 1: done"
+		has "alien mission 1: failed"
+		has "ferret mission 2: declined"
+		has "koala mission 1: done"
+		has "rabbit mission 2: declined"
+		has "hamster mission 1: declined"
+		has "squirrel mission 4: done"
+		random < 20
+	on offer
+		outfit "Glass Cat"
+		event "waitfluff" 30
+		conversation
+			scene "outfit/cat_figurine"
+			`When you leave the ship, a courier with a package is waiting for you. It contains a strange glass cat statue and a letter.`
+			`"Dear Captain <first> <last>, in consideration of your achievements in the field of animal protection, we, the organization "Beings for Ethical Treatment of Animals" (BETA), award you the "Glass Cat". As an honorary member you are at any time welcome to our branches."`
+			`"Best regards"`
+			`"	BETA"`
+				decline
+
+event "waitfluff"
 
 mission "cat mission 1"
-	landing
 	invisible
 	minor
 	source "Deadman's Cove"
 	to offer
-		random < 10
+		random < 20
 	on offer
 		outfit "fluffy_cat"
 		conversation
@@ -39,13 +74,12 @@ mission "cat mission 1"
 				decline
 
 mission "ocelot mission 1"
-	landing
 	minor
 	name "Retrieve stolen jewelry"
 	description "Retrieve stolen jewelry from a pirate ship. The 'Lootbox' must be in one of these three systems: `Tortor, Mintaka or Gorvi."
 	to offer
-		random < 10
-		"combat rating" > 100
+		random < 20
+		"combat rating" > 1000
 	on offer
 		conversation
 			`Just as you are about to start looking for a lucrative contract, a potential customer appears in front of your ship.`
@@ -60,7 +94,7 @@ mission "ocelot mission 1"
 		ship "Raven" "Lootbox"
 		on board
 			outfit "fluffy_ocelot"
-			payment 250000
+			payment 50000
 		conversation
 			scene "scene/piratecabin"
 			`When you enter the 'Lootbox' you quickly come across dead pirates. The battle was quick and brutal, leaving most of the pirates dead. A small group of survivors have barricaded themselves on the bridge. You decide to search the quarters and quickly discover the captain's cabin. Among the captain's useless belongings you find the stolen jewelry and 50,000 credits.`
@@ -74,7 +108,6 @@ mission "ocelot mission 1"
 			`After landing on 'Farpoint', you contact the Countess's assistant and a short time later she appears in front of your ship. You hand over the jewelry, receive 200,000 credits on your account and also a personal letter from the Countess in which she thanks you profusely for your commitment. As you tease 'Babou', you wish for more jobs like this.`
 
 mission "raccoon mission 1"
-	landing
 	minor
 	name "Transport noble wood"
 	description "Transport noble wood to <destination>."
@@ -83,7 +116,7 @@ mission "raccoon mission 1"
 	source "Foundry"
 	destination "Hephaestus"
 	to offer
-		random < 10
+		random < 20
 	on offer
 		conversation
 			`After landing on "Foundry", you begin the usual routine inspection of your ship when a woman in a business suit approaches you.`
@@ -168,7 +201,6 @@ mission "alien mission 1"
 				launch
 
 mission "ferret mission 1"
-	landing
 	minor
 	name "Cargo full of ferrets"
 	description "Transport 750 ferrets to <destination>."
@@ -177,7 +209,7 @@ mission "ferret mission 1"
 	source "Bivrost"
 	destination "Millrace"
 	to offer
-		random < 10
+		random < 20
 	on offer
 		conversation
 			`After landing on 'Bivrost', a local animal breeder contacts you. He needs transport to <destination> for 750 ferrets. The ferrets and their cages require 12 tons of cargo space and you will receive 76,000 credits on delivery. You agree. Two hours later the animals are loaded and you are ready to leave. `
@@ -190,6 +222,7 @@ mission "ferret mission 1"
 mission "ferret mission 2"
 	landing
 	invisible
+	source "Millrace"
 	to offer
 				has "ferret mission 1: done"
 	on offer
@@ -203,7 +236,6 @@ mission "ferret mission 2"
 				decline
 
 mission "koala mission 1"
-	landing
 	minor
 	name "Transport a koala"
 	description "Transport a koala to <destination>."
@@ -212,11 +244,11 @@ mission "koala mission 1"
 	source "New Portland"
 	destination "Shroud"
 	to offer
-		random < 10
+		random < 20
 	on offer
 		conversation
 			`After completeing your routine checks, you head out to find new work, when your comm-link flashes. You accept the holo transmission on the bridge.`
-			`"Hello captain <last>. My name is Mordin, senior inspector in the criminal investigation department. Don't worry, you don't have any problems. Yesterday we busted an illegal animal smuggling organization and are now looking for lots of cargo captains to disgribute the many rare animals to the zoos of other planets. Are you interested?"`
+			`"Hello captain <last>. My name is Mordin, senior inspector in the criminal investigation department. Don't worry, you don't have any problems. Yesterday we busted an illegal animal smuggling organization and are now looking for lots of cargo captains to distribute the many rare animals to the zoos of other planets. Are you interested?"`
 			`You agree on a transport destination and a price with Chief Inspector Mordin. A koala needs a transport to the zoo on 'Shroud'. Upon delivery you will receive 120,000 credits. Half an hour later, a large cage with a koala gets delivered to your cargo hold. `
 				accept
 	on complete
@@ -231,7 +263,6 @@ mission "koala mission 1"
 			`Since the koala's death would put too much strain on you, you accept the offer. After a little paperwork, you are now the proud owner of 'Archie' the koala!`
 
 mission "rabbit mission 1"
-	landing
 	minor
 	name "Transport a family"
 	description "Transport a family and their belongings to <destination>."
@@ -241,7 +272,7 @@ mission "rabbit mission 1"
 	source "Starcross"
 	destination "Clark"
 	to offer
-		random < 10
+		random < 20
 	on offer
 		conversation
 			`While you are studying the job board on 'Starcross', a woman speaks to you.`
@@ -269,14 +300,13 @@ mission "rabbit mission 2"
 				decline
 
 mission "hamster mission 1"
-	landing
 	minor
 	invisible
 	landing
 	source
 		planet "Twinstar"
 	to offer
-		random < 10
+		random < 20
 	on offer
 		outfit "fluffy_hamster"
 		conversation
@@ -290,7 +320,6 @@ mission "hamster mission 1"
 				decline
 
 mission "squirrel mission 1"
-	landing
 	minor
 	name "The Search for squirrels."
 	description "Go to <destination> to ask around where to buy a squirrel."
@@ -298,7 +327,7 @@ mission "squirrel mission 1"
 		planet "Heartvalley"
 	destination "Maelstrom"
 	to offer
-		random < 10
+		random < 20
 	on offer
 		conversation
 			`As you make final checks for launching your ship, an elderly female Hai approaches.`

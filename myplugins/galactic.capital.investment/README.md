@@ -1,7 +1,6 @@
 ### galactic.capital.investment <br>
 <br>
 Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits.<br>
-(inspired by a-alhusaini's investment bank plugin)<br>
 <br>
 There are missions for 1 million, 5 million, 10 million, 50 million, 100 million and 1 billion credits. The chance for the jobs to appear on the job board getting lower with the amount to invest. Unfortunately you have to take off and land again on the same planet to clear the mission marker.<br>
 At 1 billion credits a longer mission chain starts and enables a reapeatable job board investment of 1 billion credits. The chain has some breaks and finish after a year.<br>
@@ -17,6 +16,10 @@ These investments pay off after 2,3 to 4,5 years. Higher Investments pay off fas
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-03-31<br>
+fixed some errors<br>
+changed scene pngs to jpg<br>
 <br>
 2024-03-20<br>
 changed icon<br>

@@ -1,10 +1,12 @@
-
+# outfit golden figurine
+# ship colony ship
 
 outfit "Golden Figurine"
 	category "Unique"
+	"unique" 1
 	thumbnail "outfit/gold_figur"
 	cost 50000
-	description `A gift by Warren Goulding from Galactic Capital Investment, to celebrate to success of your colonization project.`
+	description `A gift by Warren Goulding from Galactic Capital Investment, to celebrate the success of your colonization project.`
 
 
 ship "Colony Ship"
