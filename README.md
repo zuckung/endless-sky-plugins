@@ -15,7 +15,9 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-03-27 | update: expert.crew.members<br>
+<table><tr><td><img width="882" height="1"><br>2024-03-31 | update: real.fluff<br>
+2024-03-31 | update: galactic.capital.investment<br>
+2024-03-27 | update: expert.crew.members<br>
 2024-03-26 | update: planet.map<br>
 2024-03-25 | update: planet.map<br>
 2024-03-24 | update: planet.map<br>
@@ -23,8 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-23 | update: expert.crew.members<br>
 2024-03-20 | update: galactic.capital.investment<br>
 2024-03-20 | update: expert.crew.members<br>
-2024-03-20 | cleaned up tools and added 2 more<br>
-2024-03-16 | update: show.reputation<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1133,9 +1133,9 @@ added plugin.txt<br>
 
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 1.86 mb | 2024-03-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 2.16 mb | 2024-03-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
 <br>
->Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits (inspired by a-alhusaini's investment bank plugin). See the readme for details.
+>Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1144,8 +1144,6 @@ added plugin.txt<br>
 <br>
 
 Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits.<br>
-
-(inspired by a-alhusaini's investment bank plugin)<br>
 
 <br>
 
@@ -1176,6 +1174,14 @@ These investments pay off after 2,3 to 4,5 years. Higher Investments pay off fas
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-31<br>
+
+fixed some errors<br>
+
+changed scene pngs to jpg<br>
 
 <br>
 
@@ -1871,7 +1877,7 @@ initial release<br>
 
 <img src="myplugins/real.fluff/icon.png" height="100">
 
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 2.65 mb | 2024-03-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
+[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 3.02 mb | 2024-03-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
 <br>
 >A bunch of side missions which reward unique fluffy pets. See the readme for details.
 <details>
@@ -1886,7 +1892,7 @@ A bunch of side missions which reward unique pets. <br>
 
 <br>
 
-Lore-friendly, total useless, but cute pet outfits, with storylines. All missions have a 10% chance of appearing, except alien mission which has  100%.<br>
+Lore-friendly, total useless, but cute pet outfits, with storylines. All missions have a 20% chance of appearing, except alien mission which has 100%.<br>
 
 <ul>
 
@@ -1900,7 +1906,7 @@ Lore-friendly, total useless, but cute pet outfits, with storylines. All mission
 
 <li>Koala - mission found on New Portland (Delta Sagittarii)</li>
 
-<li>Ocelot - mission found on Farpoint (Alnitak) needs 100 combat xp</li>
+<li>Ocelot - mission found on Farpoint (Alnitak) needs 1000 combat xp</li>
 
 <li>Rabbit - mission found on Starcross (Acrux)</li>
 
@@ -1910,6 +1916,8 @@ Lore-friendly, total useless, but cute pet outfits, with storylines. All mission
 
 </ul>
 
+After collecting them all, you get a missions (20%) with unique rewards.<br>
+
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/real.fluff/screenshot.jpg' width='400'>
 
 <br>
@@ -1917,6 +1925,20 @@ Lore-friendly, total useless, but cute pet outfits, with storylines. All mission
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-31<br>
+
+new category pets<br>
+
+gave puny an image and added to pets<br>
+
+a new missions, after collecting all pets, with a unique reward<br>
+
+converted scene pngs to jpg<br>
+
+minor tweaks<br>
 
 <br>
 
