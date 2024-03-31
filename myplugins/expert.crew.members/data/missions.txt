@@ -6,7 +6,7 @@ mission "hire combat isaac wirth"
 		attributes "rim"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "combat isaac wirth" 1
 	on offer
@@ -27,7 +27,7 @@ mission "hire combat jessy tuta"
 		attributes "south"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "combat jessy tuta" 1
 	on offer
@@ -48,7 +48,7 @@ mission "hire combat kianoush royston"
 		attributes "dirt belt"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "combat kianoush royston" 1
 	on offer
@@ -69,13 +69,33 @@ mission "hire combat rodrigo bain"
 		attributes "deep"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "combat rodrigo bain" 1
 	on offer
 		conversation
 			scene "portrait/ecmbm04"
 			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Rodrigo Bain, he is a Human, and he demands a daily wage of 3500 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire combat tieeitch"
+	minor
+	invisible
+	source
+		government "Gegno" "Gegno Scin" "Gegno Vi"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "combat tieeitch" 1
+	on offer
+		conversation
+			scene "portrait/gegno01"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Tieeitch, he is a Gegno, and he demands a daily wage of 3600 credits.`
 			choice
 				`don't hire him (maybe you will meet him again)`
 					defer
@@ -89,7 +109,7 @@ mission "hire combat ainem wahpip"
 		government "Hai"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "combat ainem wahpip" 1
 	on offer
@@ -110,7 +130,7 @@ mission "hire combat asvip rap"
 		attributes "outfitter"
 	to offer
 		has "Wanderers: Rek To Kor Efret: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "combat asvip rap" 1
 	on offer
@@ -132,7 +152,7 @@ mission "hire combat ry'i"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "combat ry'i" 1
 	on offer
@@ -154,7 +174,7 @@ mission "hire combat lugub"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "combat lugub" 1
 	on offer
@@ -175,7 +195,7 @@ mission "hire cooling atreus bodilsen"
 		attributes "south"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "cooling atreus bodilsen" 1
 	on offer
@@ -196,7 +216,7 @@ mission "hire cooling beckah feidhelm"
 		attributes "deep"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "cooling beckah feidhelm" 1
 	on offer
@@ -217,7 +237,7 @@ mission "hire cooling caspar laurentinus"
 		attributes "rim"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "cooling caspar laurentinus" 1
 	on offer
@@ -238,7 +258,7 @@ mission "hire cooling itoro signe"
 		attributes "dirt belt"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "cooling itoro signe" 1
 	on offer
@@ -251,6 +271,26 @@ mission "hire cooling itoro signe"
 				`hire her`
 					decline
 
+mission "hire cooling dyeisc"
+	minor
+	invisible
+	source
+		government "Gegno" "Gegno Scin" "Gegno Vi"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "cooling dyeisc" 1
+	on offer
+		conversation
+			scene "portrait/gegno05"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work. His name is Dyeisc, he is a Gegno, and he demands a daily wage of 3800 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
 mission "hire cooling lohmahow monuden"
 	minor
 	invisible
@@ -258,7 +298,7 @@ mission "hire cooling lohmahow monuden"
 		government "Hai"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "cooling lohmahow monuden" 1
 	on offer
@@ -279,7 +319,7 @@ mission "hire cooling krikey"
 		attributes "outfitter"
 	to offer
 		has "language: Wanderer"
-		random < 3
+		random < 1
 	on decline
 		outfit "cooling krikey" 1
 	on offer
@@ -300,7 +340,7 @@ mission "hire cooling kemme ranris"
 		attributes "outfitter"
 	to offer
 		has "Wanderers: Rek To Kor Efret: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "cooling kemme ranris" 1
 	on offer
@@ -322,7 +362,7 @@ mission "hire cooling lotura"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "cooling lotura" 1
 	on offer
@@ -343,7 +383,7 @@ mission "hire energy deirdre ciaran"
 		attributes "rim"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "energy deirdre ciaran" 1
 	on offer
@@ -364,7 +404,7 @@ mission "hire energy lisa zola"
 		attributes "south"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "energy lisa zola" 1
 	on offer
@@ -385,7 +425,7 @@ mission "hire energy normand kiran"
 		attributes "near earth"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "energy normand kiran" 1
 	on offer
@@ -406,7 +446,7 @@ mission "hire energy simona branka"
 		attributes "deep"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "energy simona branka" 1
 	on offer
@@ -419,6 +459,26 @@ mission "hire energy simona branka"
 				`hire her`
 					decline
 
+mission "hire energy auriiel"
+	minor
+	invisible
+	source
+		government "Gegno" "Gegno Scin" "Gegno Vi"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "energy auriiel" 1
+	on offer
+		conversation
+			scene "portrait/gegno02"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. He is looking for work. His name is Auriiel, he is a Gegno, and he demands a daily wage of 3600 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
 mission "hire energy akane sakai"
 	minor
 	invisible
@@ -426,7 +486,7 @@ mission "hire energy akane sakai"
 		government "Bunrodea" "Bunrodea (Guard)"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "energy akane sakai" 1
 	on offer
@@ -447,7 +507,7 @@ mission "hire energy aikach"
 		attributes "outfitter"
 	to offer
 		has "language: Wanderer"
-		random < 3
+		random < 1
 	on decline
 		outfit "energy aikach" 1
 	on offer
@@ -467,7 +527,7 @@ mission "hire energy raindrop"
 		government "Remnant"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "energy raindrop" 1
 	on offer
@@ -489,7 +549,7 @@ mission "hire energy paicha"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "energy paicha" 1
 	on offer
@@ -510,7 +570,7 @@ mission "hire engine anahit bodil"
 		attributes "core"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "engine anahit bodil" 1
 	on offer
@@ -531,7 +591,7 @@ mission "hire engine chetana jaleh"
 		attributes "deep"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "engine chetana jaleh" 1
 	on offer
@@ -552,7 +612,7 @@ mission "hire engine neal fransson"
 		attributes "south"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "engine neal fransson" 1
 	on offer
@@ -573,7 +633,7 @@ mission "hire engine valeriya jannick"
 		attributes "near earth"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "engine valeriya jannick" 1
 	on offer
@@ -586,6 +646,26 @@ mission "hire engine valeriya jannick"
 				`hire her`
 					decline
 
+mission "hire engine efeduefyu"
+	minor
+	invisible
+	source
+		government "Gegno" "Gegno Scin" "Gegno Vi"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "engine efeduefyu" 1
+	on offer
+		conversation
+			scene "portrait/gegno04"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. He is looking for work. His name is Efeduefyu, he is a Gegno, and he demands a daily wage of 3700 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
 mission "hire engine riko ishii"
 	minor
 	invisible
@@ -593,7 +673,7 @@ mission "hire engine riko ishii"
 		government "Bunrodea" "Bunrodea (Guard)"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "engine riko ishii" 1
 	on offer
@@ -614,7 +694,7 @@ mission "hire engine ifir rakik"
 		attributes "outfitter"
 	to offer
 		has "Wanderers: Rek To Kor Efret: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "engine ifir rakik" 1
 	on offer
@@ -634,7 +714,7 @@ mission "hire engine midnight"
 		government "Remnant"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "engine midnight" 1
 	on offer
@@ -656,7 +736,7 @@ mission "hire engine kyree"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "engine kyree" 1
 	on offer
@@ -677,7 +757,7 @@ mission "hire fuel carl ahmad"
 		attributes "core"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "fuel carl ahmad" 1
 	on offer
@@ -698,7 +778,7 @@ mission "hire fuel kfir balam"
 		attributes "dirt belt"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "fuel kfir balam" 1
 	on offer
@@ -719,7 +799,7 @@ mission "hire fuel kostis joona"
 		attributes "near earth"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "fuel kostis joona" 1
 	on offer
@@ -740,7 +820,7 @@ mission "hire fuel nina sotiroula"
 		attributes "north"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "fuel nina sotiroula" 1
 	on offer
@@ -760,7 +840,7 @@ mission "hire fuel sookot dulur"
 		government "Hai"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "fuel sookot dulur" 1
 	on offer
@@ -781,7 +861,7 @@ mission "hire fuel voriar"
 		attributes "outfitter"
 	to offer
 		has "language: Wanderer"
-		random < 3
+		random < 1
 	on decline
 		outfit "fuel voriar" 1
 	on offer
@@ -801,7 +881,7 @@ mission "hire fuel ozon"
 		government "Remnant"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "fuel ozon" 1
 	on offer
@@ -823,7 +903,7 @@ mission "hire fuel comseci"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "fuel comseci" 1
 	on offer
@@ -844,7 +924,7 @@ mission "hire hull anuradha talin"
 		attributes "core"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "hull anuradha talin" 1
 	on offer
@@ -865,7 +945,7 @@ mission "hire hull julia grainne"
 		attributes "paradise"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "hull julia grainne" 1
 	on offer
@@ -886,7 +966,7 @@ mission "hire hull silvius hildegard"
 		attributes "north"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "hull silvius hildegard" 1
 	on offer
@@ -907,7 +987,7 @@ mission "hire hull sabina draga"
 		attributes "south"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "hull sabina draga" 1
 	on offer
@@ -927,7 +1007,7 @@ mission "hire hull shiro kan"
 		government "Bunrodea" "Bunrodea (Guard)"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "hull shiro kan" 1
 	on offer
@@ -948,7 +1028,7 @@ mission "hire hull ak'en oaip"
 		attributes "outfitter"
 	to offer
 		has "Wanderers: Rek To Kor Efret: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "hull ak'en oaip" 1
 	on offer
@@ -970,7 +1050,7 @@ mission "hire hull achee"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "hull achee" 1
 	on offer
@@ -992,7 +1072,7 @@ mission "hire hull potamog"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "hull potamog" 1
 	on offer
@@ -1013,7 +1093,7 @@ mission "hire jamming aline mai"
 		attributes "paradise"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "jamming aline mai" 1
 	on offer
@@ -1034,7 +1114,7 @@ mission "hire jamming dominik bullock"
 		attributes "dirt belt"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "jamming dominik bullock" 1
 	on offer
@@ -1055,7 +1135,7 @@ mission "hire jamming enver diefenbach"
 		attributes "north"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "jamming enver diefenbach" 1
 	on offer
@@ -1076,7 +1156,7 @@ mission "hire jamming raban fields"
 		attributes "core"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "jamming raban fields" 1
 	on offer
@@ -1096,7 +1176,7 @@ mission "hire jamming umeo ageta"
 		government "Bunrodea" "Bunrodea (Guard)"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "jamming umeo ageta" 1
 	on offer
@@ -1116,7 +1196,7 @@ mission "hire jamming snowfall"
 		government "Remnant"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "jamming snowfall" 1
 	on offer
@@ -1138,7 +1218,7 @@ mission "hire jamming temtuor"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "jamming temtuor" 1
 	on offer
@@ -1160,7 +1240,7 @@ mission "hire jamming plortab"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "jamming plortab" 1
 	on offer
@@ -1181,7 +1261,7 @@ mission "hire scanner ivanus kozlov"
 		attributes "paradise"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "scanner ivanus kozlov" 1
 	on offer
@@ -1202,7 +1282,7 @@ mission "hire scanner mikmel wanjala"
 		attributes "core"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "scanner mikmel wanjala" 1
 	on offer
@@ -1223,7 +1303,7 @@ mission "hire scanner saffira ivka"
 		attributes "near earth"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "scanner saffira ivka" 1
 	on offer
@@ -1244,7 +1324,7 @@ mission "hire scanner tichaona yong"
 		attributes "north"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "scanner tichaona yong" 1
 	on offer
@@ -1264,7 +1344,7 @@ mission "hire scanner rashi vaitle"
 		government "Hai"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "scanner rashi vaitle" 1
 	on offer
@@ -1285,7 +1365,7 @@ mission "hire scanner kriik"
 		attributes "outfitter"
 	to offer
 		has "language: Wanderer"
-		random < 3
+		random < 1
 	on decline
 		outfit "scanner kriik" 1
 	on offer
@@ -1307,7 +1387,7 @@ mission "hire scanner expari"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "scanner expari" 1
 	on offer
@@ -1329,7 +1409,7 @@ mission "hire scanner tugrup"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "scanner tugrup" 1
 	on offer
@@ -1350,7 +1430,7 @@ mission "hire shield lucille meritites"
 		attributes "paradise"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "shield lucille meritites" 1
 	on offer
@@ -1371,7 +1451,7 @@ mission "hire shield sonja halimah"
 		attributes "north"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "shield sonja halimah" 1
 	on offer
@@ -1392,7 +1472,7 @@ mission "hire shield taisto nithin"
 		attributes "rim"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "shield taisto nithin" 1
 	on offer
@@ -1413,7 +1493,7 @@ mission "hire shield monika raganhildis"
 		attributes "near earth"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "shield monika raganhildis" 1
 	on offer
@@ -1433,7 +1513,7 @@ mission "hire shield saburo aoki"
 		government "Bunrodea" "Bunrodea (Guard)"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "shield saburo aoki" 1
 	on offer
@@ -1454,7 +1534,7 @@ mission "hire shield ilesam bableh"
 		attributes "outfitter"
 	to offer
 		has "Wanderers: Rek To Kor Efret: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "shield ilesam bableh" 1
 	on offer
@@ -1476,7 +1556,7 @@ mission "hire shield nisieum"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "shield nisieum" 1
 	on offer
@@ -1498,7 +1578,7 @@ mission "hire shield chi'a"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "shield chi'a" 1
 	on offer
@@ -1519,7 +1599,7 @@ mission "hire storage darius hasegawa"
 		attributes "deep"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "storage darius hasegawa" 1
 	on offer
@@ -1540,7 +1620,7 @@ mission "hire storage eduardo wapasha"
 		attributes "rim"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "storage eduardo wapasha" 1
 	on offer
@@ -1561,7 +1641,7 @@ mission "hire storage mani godefrid"
 		attributes "dirt belt"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "storage mani godefrid" 1
 	on offer
@@ -1582,7 +1662,7 @@ mission "hire storage marie zohreh"
 		attributes "paradise"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "storage marie zohreh" 1
 	on offer
@@ -1595,6 +1675,26 @@ mission "hire storage marie zohreh"
 				`hire her`
 					decline
 
+mission "hire storage yxoorevyt"
+	minor
+	invisible
+	source
+		government "Gegno" "Gegno Scin" "Gegno Vi"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "storage yxoorevyt" 1
+	on offer
+		conversation
+			scene "portrait/gegno03"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work. His name is Yxoorevyt, he is a Gegno, and he demands a daily wage of 3800 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
 mission "hire storage touna farchi"
 	minor
 	invisible
@@ -1602,7 +1702,7 @@ mission "hire storage touna farchi"
 		government "Hai"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "storage touna farchi" 1
 	on offer
@@ -1623,7 +1723,7 @@ mission "hire storage reisek"
 		attributes "outfitter"
 	to offer
 		has "language: Wanderer"
-		random < 3
+		random < 1
 	on decline
 		outfit "storage reisek" 1
 	on offer
@@ -1643,7 +1743,7 @@ mission "hire storage swift"
 		government "Remnant"
 		attributes "outfitter"
 	to offer
-		random < 3
+		random < 1
 	on decline
 		outfit "storage swift" 1
 	on offer
@@ -1665,7 +1765,7 @@ mission "hire storage mupoop"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 3
+		random < 1
 	on decline
 		outfit "storage mupoop" 1
 	on offer
