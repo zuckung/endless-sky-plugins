@@ -1,0 +1,183 @@
+# news bunrodea untranslated
+# news bunrodea translated
+# news bunrodea news
+
+news "bunrodea untranslated"
+	location
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
+	to show
+		not "outfit (flagship installed): Bunrodea Translation Device"
+	name
+		word
+			"Young Bunrodea"
+			"Old Bunrodea"
+			"Security Guard"
+			"Ship Captain"
+			"Passenger"
+			"Scientist"
+			"Worker"
+			"Fly Hunter"
+			"Noble"
+			"Dock Worker"
+			"Factory Worker"
+			"Engineer"
+			"Teacher"
+			"Doctor"
+			"Machinist"
+			"Technician"
+	portrait
+		"portrait/bunrodea01"
+		"portrait/bunrodea02"
+		"portrait/bunrodea03"
+		"portrait/bunrodea04"
+		"portrait/bunrodea05"
+		"portrait/bunrodea06"
+		"portrait/bunrodea07"
+		"portrait/bunrodea08"
+		"portrait/bunrodea09"
+		"portrait/bunrodea10"
+	message
+		word
+			`"`
+		word
+			"Sop"
+			"Kis"
+			"Ang"
+			"Byr"
+			"Del"
+			"Mel"
+			"Ol"
+			"Dis"
+			"Ok" 
+		word
+			"ili"
+			"ali"
+			"amo"
+			"oma"
+			"iko"
+			"eka"
+			"uzi"
+			"talo"
+		word
+			" "
+		word
+			"vo"
+			"ve"
+			"va"
+			"ga"
+			"gi"
+			"go"
+			"te"
+			"ti"
+			"tu"
+			"ko"
+			"ka"
+			"ki"
+		word
+			"yasa"
+			"gesu"
+			"pata"
+			"han"
+			"kin"
+			"wah"
+			"lin"
+			"jun"
+			"chi"
+			"sam"
+		word
+			" "
+		word
+			"Era"
+			"Eru"
+			"Erga"
+			"Ergu"
+			"Jentila"
+			"Jentlu"
+			"Thshyba"
+			"Thshu"
+			"Bosuna"
+			"Bosunu"
+			"Shina"
+			"Shinu"
+		word
+			"."
+			"?"
+			"!"
+		word
+			`"`
+
+news "bunrodea translated"
+	location
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
+	to show
+		has "outfit (flagship installed): Bunrodea Translation Device"
+	name
+		word
+			"Young Bunrodea"
+			"Old Bunrodea"
+			"Security Guard"
+			"Ship Captain"
+			"Passenger"
+			"Scientist"
+			"Worker"
+			"Fly Hunter"
+			"Noble"
+			"Dock Worker"
+			"Factory Worker"
+			"Engineer"
+			"Teacher"
+			"Doctor"
+			"Machinist"
+			"Technician"
+	portrait
+		"portrait/bunrodea01"
+		"portrait/bunrodea02"
+		"portrait/bunrodea03"
+		"portrait/bunrodea04"
+		"portrait/bunrodea05"
+		"portrait/bunrodea06"
+		"portrait/bunrodea07"
+		"portrait/bunrodea08"
+		"portrait/bunrodea09"
+		"portrait/bunrodea10"
+	message
+		word
+			`"`
+		word
+			"You are the one I've seen on Holovid, the human? We don't have many visitors here."
+			"The Korath are getting a bit brash lately. I wish we would punish them harder."
+			"Hey, did you see the last execution on holovid? That prisoner was really tough."
+			"Our queen, Shinuxa, is having a really hard time with her sons."
+			"Do you know this one? Two Korath walk into a bar... and then they both steal everything."
+			"I heard that the Korath are planning a new wave of raids."
+			"Have you seen my father? He must be here somewhere. He has the same face as me. Silly old people, always running around."
+			"You are a human? Your species lives on the other side of the Korath space?"
+			"Did you see how the guards beat the prisoner? One of the guards stumbled over his legs. That was really funny."
+			"Last week I caught a snap fly and the damned thing actually scratched my shell. Well, it was still delicious."
+
+			"The snap flies are particularly large and juicy this year. I'm thinking about joining a hunting expedition."
+			"Are all people as fragile as you? Without an exoskeleton you are totally defenseless."
+			"We have been at war with the Korath for decades, but recently they have intensified their efforts."
+			"You look really funny. Are you a usual human? And your smell is also very intense."
+			"The damned Korath are just thieves and murderers, too weak to be a real threat for the empire."
+		word
+			`"`
+
+news "bunrodea news"
+	location
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
+	to show
+		has "outfit (flagship installed): Bunrodea Translation Device"
+	name
+		word
+			"Holovid Screen"
+	portrait
+		"portrait/alien_screen"
+	message
+		word
+			"News: Korath are still testing our defences!"
+			"News: Outsider from the human species reached our territory!"
+			"News: The human got an audience with the queen!"
+			"News: After 100 years we have again contact to the humans!"
+			"News: The queen announces a change in our defence strategy!"
+			"News: The human wants to fight for us!"

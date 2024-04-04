@@ -3,7 +3,6 @@
 # criminal hunt culture conversation
 
 mission "bunrodea defense"
-	landing
 	name "Bunrodea Defense"
 	description "A Korath ship entered Bunrodea territory at Genta Bo. Destroy it."
 	source
@@ -19,8 +18,12 @@ mission "bunrodea defense"
 			`You turn the device on "... to be having problems with the rotator splint. The engine runs good now, but not for long."`
 			`"Anyway," he pulls out a computer pad and starts reading "On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', you are allowed to proof your worth to the Bunrodea Empire."`
 			`"Our territorial integrity gets tested by the Korath. Although these invaders mean no threat to us, letting an outsider handle them will show the Korath that they will have to fight on several frontiers if they ever decide to go beyond weak raids."`
-			`"Travel to Genta Bo and destroy the Korath presence." without waiting for your answer the Bunrodean walks away.`
-				accept
+			`"Travel to Genta Bo and destroy the Korath presence."`
+			choice
+				`	"Sorry, I have to do that later."`
+					defer
+				`	"Sure."`
+					accept
 	npc kill
 		government "Korath"
 		personality heroic nemesis staying
@@ -38,6 +41,7 @@ mission "bunrodea defense"
 	on complete
 		outfit "Bunrodea Translation Device"
 		conversation
+			scene "outfit/device03"
 			`As far as you can tell, the same young Bunrodea already awaits you after the landing. He pulls out his pad again and starts reading.`
 			`"On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', the human captain <first> <last> is now allowed to use the 'Bunrodea Empire Job Network'. Further proofs of worth to the Bunrodea Empire will result in higher earning of trust." he puts back the pad and walks away.`
 			`You think about the advantages you can get by buying a Bunrodea warship, once your reputation with them is high enough. And you have your own translation device now!`
@@ -49,7 +53,6 @@ mission "bunrodea defense"
 
 
 mission "bunrodea defense 2"
-	landing
 	name "Bunrodea Defense 2"
 	description "A Korath fleet entered Bunrodea territory at Era Natta. Destroy it."
 	source
@@ -61,7 +64,13 @@ mission "bunrodea defense 2"
 		conversation
 			`The young Bunrodea with the silly appearance and behavior awaits you at the spaceport. This time he has memorized his speech.`
 			`"Our great queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro' is very pleased with your devotion to our cause. She offers you the chance to gain more honour. A Korath fleet just entered the Era Natta system and you are chosen to fight for our queen."`
-			`Like on all your previous meetings, he doesn't wait for a response and just walks away. You aren't sure if he is just a bureaucrat, stupid or a normal Bunrodea. This race is still very strange to your understanding.`
+			choice
+				`	"Sorry, I have to do that later."`
+					defer
+				`	"Sure."`
+					goto sure
+			label sure
+			`Like on all your previous meetings, he is already walking away and doesn't wait for a response. You aren't sure if he is just a bureaucrat, stupid or a normal Bunrodea. This race is still very strange to your understanding.`
 				accept
 	npc kill
 		government "Korath"
@@ -99,7 +108,6 @@ mission "bunrodea defense 2"
 
 
 mission "bunrodea defense 3"
-	landing
 	name "Bunrodea Defense 3"
 	description "A Korath worldship entered Bunrodea territory at Eneva Katta. Destroy it."
 	source
@@ -111,7 +119,14 @@ mission "bunrodea defense 3"
 		conversation
 			`After leaving your ship you find Josuno already waiting for you.`
 			`"Greetings captain <last>, our queen once again offers you to defend the empire."`
-			`"A few hours ago, a Korath worldship destroyed one of our surveillance satellites in a peripheral system. Your task is to track down and destroy the worldship in Eneva Katta. I wish you good luck!"`
+			`"A few hours ago, a Korath worldship destroyed one of our surveillance satellites in a peripheral system. Your task is to track down and destroy the worldship in Eneva Katta."`
+			choice
+				`	"Sorry, I have to do that later."`
+					defer
+				`	"Sure."`
+					goto sure
+			label sure
+			`"I wish you good luck!"`
 				accept
 	npc kill
 		government "Korath"
@@ -120,12 +135,12 @@ mission "bunrodea defense 3"
 		fleet
 			names "korath"
 			cargo 100
-			variant 1
+			variant 5
 				"Ra'gru Ik 618"
+			variant 4
+				"Ra'at Ik 621"
 			variant 1
 				"Lor'kas Ik 577 (Jump)"
-			variant 1
-				"Ra'at Ik 621"
 		dialog "You have destroyed the Korath worldship."
 	on complete
 		conversation
@@ -144,7 +159,6 @@ mission "bunrodea defense 3"
 		"reputation: Bunrodea (Megasa)" += 40
 
 mission "bunrodea full rep"
-	landing
 	name "A meeting with the queen"
 	description "Travel to the bunrodean queen at <destination>."
 	source
@@ -158,6 +172,12 @@ mission "bunrodea full rep"
 		conversation
 			`When you enter the spaceport, Josuno is already waiting for you.`
 			`"Greetings Captain <last>, our queen requests your presence and I have the task of accompanying you to the palace on Erabuthro. Can we then go straight away? Our queen is very impatient."`
+			choice
+				`	"Sorry, I have to do that later."`
+					defer
+				`	"Sure."`
+					goto sure
+			label sure
 			`Since Josuno seems very tense, you decide to fly off straight away. It makes you a little nervous that the queen summons you and has a heavily armed ship accompany you. It either ends very badly or very well.`
 				accept
 	npc accompany save
@@ -184,7 +204,7 @@ mission "bunrodea criminal"
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
 	to offer
-		"reputation: Bunrodea" >= 50
+		"reputation: Bunrodea" >= 300
 		random < 25
 	on offer
 		conversation

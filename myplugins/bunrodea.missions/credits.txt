@@ -3,5 +3,5 @@ author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
 images:
-	outfit
+	outfit + portraits
 		ai generated at https://www.craiyon.com/
