@@ -68,8 +68,12 @@ jobs:
                   new_version = '1.0'
               with open('../res/versioning.txt', 'w') as target:
                  target.writelines(newlines)
-              subprocess.run(["zip", "-r", "../versioning/" + corrected + "_v" + new_version + ".zip", p],
+              subprocess.run(["zip", "-r", "../versioning/" + corrected + ".v" + new_version + ".zip", p],
                 stdout=subprocess.DEVNULL)
+              env_file = os.getenv('GITHUB_ENV')
+              with open(env_file, "a") as myfile:
+                myfile.write("UPDATE_TAG=" + corrected + '.v' + new_version +'\n')
+                
               os.chdir('../')
               # writing to news
               today = datetime.today().strftime('%Y-%m-%d')
@@ -91,8 +95,8 @@ jobs:
       - name: Upload plugins to release (versioning)
         uses: ncipollo/release-action@v1.11.1
         with:
-          name: Downloads
-          tag: Versioning
+          name: ${{ env.UPDATE_TAG }}
+          tag: ${{ env.UPDATE_TAG }}
           allowUpdates: true
           replacesArtifacts: true
           updateOnlyUnreleased: false

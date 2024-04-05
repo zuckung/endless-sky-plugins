@@ -143,3 +143,4 @@ for file in files:
 	if file[len (file)  -3:] == "zip":
 		os.remove(file)
 		print("\n" + file + " REMOVED")
+shutil.rmtree('versioning')
