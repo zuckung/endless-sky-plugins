@@ -72,7 +72,7 @@ jobs:
                 stdout=subprocess.DEVNULL)
               env_file = os.getenv('GITHUB_ENV')
               with open(env_file, "a") as myfile:
-                myfile.write("UPDATE_TAG=" + corrected + '.v' + new_version +'\n')
+                myfile.write("UPDATE_TAG=v" + new_version + '-'  + corrected + '\n')
                 
               os.chdir('../')
               # writing to news
