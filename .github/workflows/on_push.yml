@@ -1,4 +1,3 @@
-
 name: (on push) zip release readme
 on:
   push:
@@ -50,6 +49,27 @@ jobs:
                 corrected = corrected[:len(corrected)-1]
               subprocess.run(["zip", "-r", "../" + corrected + ".zip", p],
                 stdout=subprocess.DEVNULL)
+              # versioning
+              os.mkdir('../versioning')
+              with open('../res/versioning.txt', 'r') as vfile:
+                lines = vfile.readlines()
+                newlines = []
+                found = 0
+                for line in lines:
+                  if line.startswith(corrected):
+                    found = 1
+                    old_version = line.split('|')[1]
+                    new_version = '1.' + str(int(old_version.split('.')[1]) + 1)
+                    print(corrected + ' ' + old_version + ' to ' + new_version)
+                    line = corrected + '|' + new_version + '\n'
+                  newlines.append(line)
+                if found == 0:
+                  newlines.append(corrected + '|1.0' + '\n')
+                  new_version = '1.0'
+              with open('../res/versioning.txt', 'w') as target:
+                 target.writelines(newlines)
+              subprocess.run(["zip", "-r", "../versioning/" + corrected + "_v" + new_version + ".zip", p],
+                stdout=subprocess.DEVNULL)
               os.chdir('../')
               # writing to news
               today = datetime.today().strftime('%Y-%m-%d')
@@ -68,6 +88,15 @@ jobs:
           else:
             print("No plugin changes have been detected.")
         shell: python
+      - name: Upload plugins to release (versioning)
+        uses: ncipollo/release-action@v1.11.1
+        with:
+          name: Downloads
+          tag: Versioning
+          allowUpdates: true
+          replacesArtifacts: true
+          updateOnlyUnreleased: false
+          artifacts: "versioning/*.zip"
       - name: Upload plugins to release
         uses: ncipollo/release-action@v1.11.1
         with:
