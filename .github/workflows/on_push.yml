@@ -68,7 +68,7 @@ jobs:
                   new_version = '1.0'
               with open('../res/versioning.txt', 'w') as target:
                  target.writelines(newlines)
-              subprocess.run(["zip", "-r", "../versioning/" + corrected + ".v" + new_version + ".zip", p],
+              subprocess.run(["zip", "-r", "../versioning/" + corrected + ".zip", p],
                 stdout=subprocess.DEVNULL)
               env_file = os.getenv('GITHUB_ENV')
               with open(env_file, "a") as myfile:
