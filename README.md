@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-05 | repo update: versioning implemented<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-05 | update: galactic.capital.investment<br>
+2024-04-05 | repo update: versioning implemented<br>
 2024-04-04 | update: bunrodea.missions<br>
 2024-03-31 | update: expert.crew.members<br>
 2024-03-31 | update: real.fluff<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-26 | update: planet.map<br>
 2024-03-25 | update: planet.map<br>
 2024-03-24 | update: planet.map<br>
-2024-03-23 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1165,7 +1165,7 @@ added plugin.txt<br>
 
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 2.16 mb | 2024-03-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/galactic.capital.investment.zip) | 690.88 kb | 2024-04-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
 <br>
 >Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits. See the readme for details.
 
@@ -1206,6 +1206,14 @@ These investments pay off after 2,3 to 4,5 years. Higher Investments pay off fas
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-04-05<br>
+
+removed duplicate pngs<br>
+
+resized land jpg<br>
 
 <br>
 
