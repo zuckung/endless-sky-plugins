@@ -36,5 +36,5 @@ added a new rare repeatable job after the colonization chain<br>
 added plugin.txt<br>
 <br>
 2023-08-25<br>
-added pirate planets as mission source
-moved investment missions from spaceport mission to job board
+added pirate planets as mission source<br>
+moved investment missions from spaceport mission to job board<br>
