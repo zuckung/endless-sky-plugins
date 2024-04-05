@@ -10,7 +10,7 @@ disable.person.ships|1.0
 disable.spaceport.repeatables|1.0
 expert.crew.members|1.0
 free.worlds.5.years.later|1.0
-galactic.capital.investment|1.0
+galactic.capital.investment|1.1
 gegno.pirates|1.0
 kor.efret.shipyard|1.0
 more.arfectas|1.0

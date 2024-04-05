@@ -1247,9 +1247,10 @@ added plugin.txt<br>
 
 2023-08-25<br>
 
-added pirate planets as mission source
+added pirate planets as mission source<br>
 
-moved investment missions from spaceport mission to job board
+moved investment missions from spaceport mission to job board<br>
+
 </blockquote>
 </details>
 <br>
