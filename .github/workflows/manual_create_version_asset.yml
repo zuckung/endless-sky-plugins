@@ -1,0 +1,66 @@
+name: (manual) create version asset
+on: 
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'which plugin?'
+        required: true
+        type: string
+jobs:
+  deploy:
+    name: First job
+    runs-on: ubuntu-latest
+    permissions: write-all
+    env:
+      INPUT_STORE: ${{ github.event.inputs.tags }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: Zip versioned plugins
+        run: |
+          import os
+          import subprocess
+          import shutil
+          from datetime import datetime
+          # ${{ inputs.tags }} 
+          inputvariable = os.environ['INPUT_STORE']
+          print(inputvariable)
+          corrected = inputvariable
+          # versioning
+          os.chdir('myplugins/')
+          subprocess.run(["zip", "-r", "../" + corrected + ".zip", corrected],
+            stdout=subprocess.DEVNULL)
+          env_file = os.getenv('GITHUB_ENV')
+          with open(env_file, "a") as myfile:
+            myfile.write("UPDATE_TAG=v1.0-" + corrected + '\n')
+            myfile.write("UPDATE_TAG2="+ corrected + '-v1.0\n')
+          print('  zipped')
+          os.chdir('../')
+        shell: python
+      - name: Upload plugins to release (versioning)
+        uses: ncipollo/release-action@v1.11.1
+        with:
+          name: ${{ env.UPDATE_TAG2 }}
+          tag: ${{ env.UPDATE_TAG }}
+          allowUpdates: true
+          replacesArtifacts: true
+          updateOnlyUnreleased: false
+          artifacts: "*.zip"
+      - name: delete zip
+        run: |
+          import os
+          file = os.environ['INPUT_STORE'] + '.zip'
+          os.remove(file)
+        shell: python
+      - name: Commit file
+        run: |
+          git config user.name "zuckung" 
+          git config user.email "zuckung@gmx.de"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "README.md updated"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true

@@ -73,6 +73,7 @@ jobs:
               env_file = os.getenv('GITHUB_ENV')
               with open(env_file, "a") as myfile:
                 myfile.write("UPDATE_TAG=v" + new_version + '-'  + corrected + '\n')
+                myfile.write("UPDATE_TAG2="+ corrected + '-v' + new_version + '\n')
                 
               os.chdir('../')
               # writing to news
@@ -95,7 +96,7 @@ jobs:
       - name: Upload plugins to release (versioning)
         uses: ncipollo/release-action@v1.11.1
         with:
-          name: ${{ env.UPDATE_TAG }}
+          name: ${{ env.UPDATE_TAG2 }}
           tag: ${{ env.UPDATE_TAG }}
           allowUpdates: true
           replacesArtifacts: true
