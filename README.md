@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-04 | update: bunrodea.missions<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-05 | repo update: versioning implemented<br>
+2024-04-04 | update: bunrodea.missions<br>
 2024-03-31 | update: expert.crew.members<br>
 2024-03-31 | update: real.fluff<br>
 2024-03-31 | update: galactic.capital.investment<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-25 | update: planet.map<br>
 2024-03-24 | update: planet.map<br>
 2024-03-23 | update: captureable.person.ships<br>
-2024-03-23 | update: expert.crew.members<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
