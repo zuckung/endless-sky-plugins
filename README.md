@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-05 | update: galactic.capital.investment<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-06 | update: disable.spaceport.repeatables<br>
+2024-04-05 | update: galactic.capital.investment<br>
 2024-04-05 | repo update: versioning implemented<br>
 2024-04-04 | update: bunrodea.missions<br>
 2024-03-31 | update: expert.crew.members<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-27 | update: expert.crew.members<br>
 2024-03-26 | update: planet.map<br>
 2024-03-25 | update: planet.map<br>
-2024-03-24 | update: planet.map<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -890,7 +890,7 @@ added icon.png<br>
 
 <img src="myplugins/disable.spaceport.repeatables/icon.png" height="100">
 
-[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 20.36 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
+[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 20.51 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
 <br>
 >Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the readme for details.
 
@@ -902,7 +902,7 @@ added icon.png<br>
 
 <br>
 
-Disables all spaceport repeatable missions. These missions annoy me. Removes the 8 dialog repeatables and the 8 defend planet missions.<br>
+Disables all spaceport repeatable missions. These missions annoy me. Removes the 8 dialog repeatables, the 8 defend planet missions and the 4 republic catastrophe repeatables.<br>
 
 <br>
 
@@ -942,6 +942,14 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 
 <li> "Raider Attack 2" </li>
 
+<li> "Republic Navy Advisory System [frozen]" </li>
+
+<li> "Republic Navy Advisory System [volcanic]" </li>
+
+<li> "Republic Navy Advisory System [wildfire cargo]" </li>
+
+<li> "Republic Navy Advisory System [wildfire firefighters]" </li>
+
 </ul>
 
 <br>
@@ -949,6 +957,12 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-04-06<br>
+
+added the 4 republic catastrophe repeatables<br>
 
 <br>
 
