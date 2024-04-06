@@ -15,3 +15,7 @@ disable mission
 	"Pirate Occupation [2]"
 	"Raider Attack 1"
 	"Raider Attack 2"
+	"Republic Navy Advisory System [frozen]"
+	"Republic Navy Advisory System [volcanic]"
+	"Republic Navy Advisory System [wildfire cargo]"
+	"Republic Navy Advisory System [wildfire firefighters]"

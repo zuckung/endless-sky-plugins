@@ -1,7 +1,7 @@
 ### disable.spaceport.repeatables
 <br>
 <br>
-Disables all spaceport repeatable missions. These missions annoy me. Removes the 8 dialog repeatables and the 8 defend planet missions.<br>
+Disables all spaceport repeatable missions. These missions annoy me. Removes the 8 dialog repeatables, the 8 defend planet missions and the 4 republic catastrophe repeatables.<br>
 <br>
 <br>
 <ul>
@@ -21,10 +21,17 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 <li> "Pirate Occupation [2]" </li>
 <li> "Raider Attack 1" </li>
 <li> "Raider Attack 2" </li>
+<li> "Republic Navy Advisory System [frozen]" </li>
+<li> "Republic Navy Advisory System [volcanic]" </li>
+<li> "Republic Navy Advisory System [wildfire cargo]" </li>
+<li> "Republic Navy Advisory System [wildfire firefighters]" </li>
 </ul>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-04-06<br>
+added the 4 republic catastrophe repeatables<br>
 <br>
 2023-10-17<br>
 added plugin.txt<br>
