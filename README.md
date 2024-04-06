@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-06 | update: disable.spaceport.repeatables<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-06 | update: captureable.person.ships<br>
+2024-04-06 | update: disable.spaceport.repeatables<br>
 2024-04-05 | update: galactic.capital.investment<br>
 2024-04-05 | repo update: versioning implemented<br>
 2024-04-04 | update: bunrodea.missions<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-31 | update: galactic.capital.investment<br>
 2024-03-27 | update: expert.crew.members<br>
 2024-03-26 | update: planet.map<br>
-2024-03-25 | update: planet.map<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -567,7 +567,7 @@ intial release<br>
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 174.97 kb | 2024-03-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 269.24 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
 <br>
 >Makes person ships capturable. See the readme for details.
 
@@ -591,11 +591,13 @@ So attacking one of them makes all your enemies, they all try to disable instead
 
 <br>
 
-At every job board you can find a repeatable job that displays which persons you have already killed, which is alive and where to find it<br>
+At Earths job board you can find a repeatable job that displays which persons you have already killed, which is alive and where to find it.<br>
+
+After you've killed them all, you receive a small unique gift.<br>
 
 <br>
 
-Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and i tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
+Tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and i tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
 
 <br>
 
@@ -640,6 +642,14 @@ Tested this plugin with 10x KIV349 and 10x Model512, all equipped with Mereti be
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-04-06<br>
+
+set person killed job back to earth only, less annoying when you are done<br>
+
+added a mission with unique reward, after killing all person ships<br>
 
 <br>
 
