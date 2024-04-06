@@ -1,3 +1,10 @@
+# 15 substitutions for alive
+# 15 substitutions for dead
+# mission show person status
+# mission kill em all reward
+# outfit author slaughtering trophy
+
+
 substitutions
 	"<mich>" "alive"
 		"person destroyed: Michael Zahniser (Capture me)" == 0
@@ -62,13 +69,12 @@ substitutions
 	"<patr>" "dead"
 		"person destroyed: Patrol Team (Capture me)" == 1
 
-
-
 mission "show person status"
 	job
 	repeat
 	name "(Show Person Ship List)"	
 	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships. Accept, start and land again to show the list."
+	source Earth
 	on complete
 		conversation
 			`Person Ship List`
@@ -92,3 +98,44 @@ mission "show person status"
 			``
 			`captureable.person.ships disables the old person ships, and creates nearly identically new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(Capture me)" behind their names. So persons ships killed prior installing this plugin got re-added. The maximal spawn time, for a person ship in the system you are in, is 10 minutes.`
 
+
+mission "kill em all reward"
+	invisible
+	landing
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	to offer
+		"person destroyed: Michael Zahniser (Capture me)" == 1
+		"person destroyed: Cap'n Pester (Capture me)" == 1
+		"person destroyed: Marauding Max (Capture me)" == 1
+		"person destroyed: Captain Nate (Capture me)" == 1
+		"person destroyed: Tranquility (Capture me)" == 1
+		"person destroyed: Power of the People (Capture me)" == 1
+		"person destroyed: Local God (Capture me)" == 1
+		"person destroyed: Subsidurial (Capture me)" == 1
+		"person destroyed: Prototype B3-CC4 (Capture me)" == 1
+		"person destroyed: Rais Iris XVIII (Capture me)" == 1
+		"person destroyed: Zitchas (Capture me)" == 1
+		"person destroyed: Brick (Capture me)" == 1
+		"person destroyed: Gefullte Taubenbrust (Capture me)" == 1
+		"person destroyed: MasterOfGrey (Capture me)" == 1
+		"person destroyed: Patrol Team (Capture me)" == 1
+	on offer
+		outfit "Author Slaughtering Trophy"
+		conversation
+			scene "outfit/gold_trophy"
+			`As you leave your ship at the spaceport, you see a courier ship land nearby at suicidal speed. Before the engines have even completely shut down, a man jumps out of the airlock and walks purposefully towards you.`
+			`"Captain <last>, I have a package for you. Would you please sign here."`
+			`You have barely finished the last letter of your name when the courier pushes the package into your arms and hurries back to his ship. When you open the package, the first thing you see is a large, massive, golden trophy, which distracts you so much that you almost miss the enclosed letter. Who would send you something like that?`
+			`"Dear captain <last>, with great joy I heard about your victories over the Author captains. These scoundrels don't deserve any better. They never wanted to take me in! Just thinking about that evening in the bar on Starcross makes me think that my blood is boiling over. Well, the matter is now settled. Enclosed is a token of my appreciation. I wish you all the best. Kind regards, Captain Zuckung"`
+			`Even though the sender of the package seems crazy to you, you decide to keep this wonderful trophy.`
+				decline
+
+
+outfit "Author Slaughtering Trophy"
+	category "Unique"
+	"unique" 1
+	"unplunderable" 1
+	thumbnail "outfit/gold_trophy"
+	cost 60000
+	description `A wonderful trophy for slaughtering all Author ship captains. It is a gift by a mysterious man named 'Zuckung', who wanted to see them dead. It looks like he was jealous because they didn't let him join their ranks. Or something like that.`

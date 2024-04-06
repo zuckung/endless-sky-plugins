@@ -1,22 +1,23 @@
 # name                   freq  where       ship
-#	"Michael Zahniser"     100   everywhere  kestrel + finch
-#	"Cap'n Pester"         300   everywhere  quarg wardragon
-#	"Marauding Max"        400   everywhere  marauder fury
-#	"Captain Nate"         300   everywhere  vanguard
-#	"Tranquility"          100   everywhere  lampyrid
-#  ship "Lampyrid"
-#	"Power of the People"  200   everywhere  modified osprey
-#	"Local God"            200   everywhere  Ursa Polaris
-#	"Subsidurial"         1000   uninhab.    subsidurial
-#	"Prototype B3-CC4"    1000   ember waste shooting star
-#	"Rais Iris XVIII"      200   everywhere  marauder bactrian
-#	"Zitchas"             1000   ember waste heron + peregrine + 4xpetrel + 33xtern
-#	"Brick"                300   everywhere  3xmodified boxwing
-#	"Gefullte Taubenbrust" 200   everywhere  modified battleship
-#	"MasterOfGrey"         200   hai         modified ladybug
+#	"Michael Zahniser"     1000  everywhere  kestrel + finch
+#	"Cap'n Pester"         1000  everywhere  quarg wardragon
+#	"Marauding Max"        1000  everywhere  marauder fury
+#	"Captain Nate"         1000  everywhere  vanguard
+#	"Tranquility"          1000  everywhere  lampyrid
+#	"Power of the People"  1000  everywhere  modified osprey
+#	"Local God"            1000  everywhere  Ursa Polaris
+#	"Subsidurial"          1000  uninhab.    subsidurial
+#	"Prototype B3-CC4"     1000  ember waste shooting star
+#	"Rais Iris XVIII"      1000  everywhere  marauder bactrian
+#	"Zitchas"              1000  ember waste heron + peregrine + 4xpetrel + 33xtern
+#	"Brick"                1000  everywhere  3xmodified boxwing
+#	"Gefullte Taubenbrust" 1000  everywhere  modified battleship
+#	"MasterOfGrey"         1000  hai         modified ladybug
+# "Patrol Team"          1000  everywhere  5x waverider
 
 gamerules
 	"no person spawn weight" 0
+#	"person spawn period" 2000
 
 disable person
 	"Michael Zahniser"
@@ -34,10 +35,6 @@ disable person
 	"Gefullte Taubenbrust"
 	"MasterOfGrey"
 	"Patrol Team"
-
-
-#gamerules
-#	"no person spawn weight" 0
 
 person "Michael Zahniser (Capture me)"
 	government "Author"
