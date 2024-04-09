@@ -58,8 +58,13 @@ jobs:
                 for line in lines:
                   if line.startswith(corrected):
                     found = 1
+                    part = ''
                     old_version = line.split('|')[1]
-                    new_version = '1.' + str(int(old_version.split('.')[1]) + 1)
+                    osplit = old_version.split('.')
+                    new_version = str(int(osplit[len(osplit)-1]) + 1)
+                    for x in range(0, len(osplit)-1):
+                      part += osplit[x] + '.'
+                    new_version = part + new_version
                     print(corrected + ' ' + old_version + ' to ' + new_version)
                     line = corrected + '|' + new_version + '\n'
                   newlines.append(line)
