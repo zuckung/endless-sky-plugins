@@ -10,15 +10,24 @@ Unlocking the planets is based on reputation, so you get access step by step. Un
 5-9 rep for repeatable passenger/rush/cargo jobs<br>
 10 rep for Korath ship killing job<br>
 At 100 rep the second mission starts, which gives 30 rep and unlocks the second repeatable fighting job for 30 rep.<br>
+At 100+ rep three culture conversations may happen(10% chance), changing the spaceport news, or adding more jobs<br>
 At 200 rep the third mission starts, which gives 40 rep and unlocks the third repeatable fighting job for 40 rep.<br>
-At 300 rep a culture conversation starts, which enables the criminal hunting job for 12 to 14 rep<br>
 At 500 rep you are done and get the last mission, its an escort mission with a gift at the end<br>
-Averagely you have to do 50 jobs.<br>
+Averagely you have to do like 50 jobs, less if you take the fighting jobs.<br>
 <br>
 Since it's often questioned, here guide to the bunrodea first contact mission. Travel through Bunrodea territory till you killed at least one attacking Bunrodea ship, then fly to the human pirate system Misam, start and land there till you get a mission(10% on landing), that mission brings you back to the Bunrodea. You can land on 4 planets now, and at this point this plugin starts.<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-04-10<br>
+added 4 scene images<br>
+added 2 invisible missions to fix storyline on update / on loss of uniques<br>
+changed gift at full rep from ship to a unique<br>
+added 2 new culture conversations: flonkball / snap fly hunt<br>
+added more spaceport news and regrouped them<br>
+rebalanced the worldship mission/job, to nearly same chances as in vanilla fleets. (2,5%=582,590,577,Rai'alorej and 50%=618 and 40%=621)<br>
+added "Kas'lor Ik 582 (Jump)" and "Lor'nag Ik 590 (Troop Transport)" and "Rai'alorej" to worldship mission/jobs<br>
 <br>
 2024-04-04<br>
 added lots of spaceport news, with portraits<br>

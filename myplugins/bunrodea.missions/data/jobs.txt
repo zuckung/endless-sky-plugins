@@ -10,7 +10,7 @@ mission "bunrodea defense (job)"
 	job
 	repeat
 	name "Destroy a Korath ship"
-	description "A Korath ship entered Bunrodea territory at Genta Bo. Destroy it."
+	description "A Korath ship entered Bunrodea territory at Genta Bo. Destroy it. The payment is <payment>."
 	source 
 		government "Bunrodea" "Bunrodea (Guard)"
 	waypoint "Genta Bo"
@@ -33,6 +33,7 @@ mission "bunrodea defense (job)"
 		dialog "You have destroyed the Korath ship."
 	on complete
 		dialog `You receive a message from the Bunrodea authorities, gratulating for your victory over the Korath ship.`
+		payment 100000
 		"reputation: Bunrodea" += 10
 		"reputation: Bunrodea (Erabu)" += 10
 		"reputation: Bunrodea (Guard)" += 10
@@ -44,7 +45,7 @@ mission "bunrodea defense 2 (job)"
 	job
 	repeat
 	name "Destroy a Korath fleet"
-	description "A Korath fleet entered Bunrodea territory at Era Natta. Destroy it."
+	description "A Korath fleet entered Bunrodea territory at Era Natta. Destroy it. The payment is <payment>."
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
 	waypoint "Era Natta"
@@ -70,6 +71,7 @@ mission "bunrodea defense 2 (job)"
 				"'olofez" 6
 		dialog "You have destroyed the Korath fleet."
 	on complete
+		payment 200000
 		dialog `You receive a message from the Bunrodea authorities, gratulating for your victory over the Korath fleet.`
 		"reputation: Bunrodea" += 30
 		"reputation: Bunrodea (Erabu)" += 30
@@ -80,7 +82,7 @@ mission "bunrodea defense 3 (job)"
 	job
 	repeat
 	name "Destroy a Korath worldship"
-	description "A Korath worldship entered Bunrodea territory at Eneva Katta. Destroy it."
+	description "A Korath worldship entered Bunrodea territory at Eneva Katta. Destroy it. The payment is <payment>."
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
 	waypoint "Eneva Katta"
@@ -94,15 +96,21 @@ mission "bunrodea defense 3 (job)"
 		fleet
 			names "korath"
 			cargo 100
-			variant 5
-				"Ra'gru Ik 618"
-			variant 4
-				"Ra'at Ik 621"
+			variant 1
+				"Rai'alorej"
 			variant 1
 				"Lor'kas Ik 577 (Jump)"
-
+			variant 1
+				"Kas'lor Ik 582 (Jump)"
+			variant 1
+				"Lor'nag Ik 590 (Troop Transport)"
+			variant 25
+				"Ra'gru Ik 618"
+			variant 20
+				"Ra'at Ik 621"
 		dialog "You have destroyed the Korath fleet."
 	on complete
+		payment 300000
 		dialog `You receive a message from the Bunrodea authorities, gratulating for your victory over the Korath worldship.`
 		"reputation: Bunrodea" += 40
 		"reputation: Bunrodea (Erabu)" += 40
@@ -167,7 +175,7 @@ mission "Bunrodea Rush Delivery 2b"
 	repeat
 	deadline
 	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
-	cargo random 100 300
+	cargo "Snap Fly meat" 100 300
 	to offer
 		has "bunrodea defense: done"
 		random < 75
@@ -266,7 +274,7 @@ mission "bunrodea cargo transport medium b"
 	repeat
 	name "Huge delivery to <planet>"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 100 300
+	cargo "Snap Fly meat" 100 300
 	to offer
 		has "bunrodea defense: done"
 		random < 75
@@ -412,7 +420,7 @@ mission "bunrodea criminal 1 (job)"
 	job
 	deadline 25
 	to offer
-		has "bunrodea criminal: declined"
+		has "culture bunrodea criminal: declined"
 		random < 35
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
@@ -442,7 +450,7 @@ mission "bunrodea criminal 2 (job)"
 	job
 	deadline 25
 	to offer
-		has "bunrodea criminal: declined"
+		has "culture bunrodea criminal: declined"
 		random < 35
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
@@ -472,7 +480,7 @@ mission "bunrodea criminal 3 (job)"
 	job
 	deadline 25
 	to offer
-		has "bunrodea criminal: declined"
+		has "culture bunrodea criminal: declined"
 		random < 35
 	source
 		government "Bunrodea" "Bunrodea (Guard)"

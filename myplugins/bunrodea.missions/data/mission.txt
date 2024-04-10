@@ -1,6 +1,12 @@
-# 3 defense missions
-# mission at full rep
-# criminal hunt culture conversation
+# mission bunrodea defense 1
+# mission bunrodea defense 2
+# mission bunrodea defense 3
+# mission bunrodea translation update fix
+# mission bunrodea full rep
+# mission bunrodea noble authorization update fix
+# mission culture bunrodea criminal
+# mission culture bunrodea flonkball
+# mission culture bunrodea snap fly
 
 mission "bunrodea defense"
 	name "Bunrodea Defense"
@@ -49,7 +55,6 @@ mission "bunrodea defense"
 		"reputation: Bunrodea (Erabu)" += 30
 		"reputation: Bunrodea (Guard)" += 30
 		"reputation: Bunrodea (Megasa)" += 30
-
 
 
 mission "bunrodea defense 2"
@@ -106,7 +111,6 @@ mission "bunrodea defense 2"
 		"reputation: Bunrodea (Megasa)" += 30
 
 
-
 mission "bunrodea defense 3"
 	name "Bunrodea Defense 3"
 	description "A Korath worldship entered Bunrodea territory at Eneva Katta. Destroy it."
@@ -135,12 +139,18 @@ mission "bunrodea defense 3"
 		fleet
 			names "korath"
 			cargo 100
-			variant 5
-				"Ra'gru Ik 618"
-			variant 4
-				"Ra'at Ik 621"
+			variant 1
+				"Rai'alorej"
 			variant 1
 				"Lor'kas Ik 577 (Jump)"
+			variant 1
+				"Kas'lor Ik 582 (Jump)"
+			variant 1
+				"Lor'nag Ik 590 (Troop Transport)"
+			variant 25
+				"Ra'gru Ik 618"
+			variant 20
+				"Ra'at Ik 621"
 		dialog "You have destroyed the Korath worldship."
 	on complete
 		conversation
@@ -157,6 +167,21 @@ mission "bunrodea defense 3"
 		"reputation: Bunrodea (Erabu)" += 40
 		"reputation: Bunrodea (Guard)" += 40
 		"reputation: Bunrodea (Megasa)" += 40
+
+
+mission "bunrodea translation update fix"
+	minor
+	invisible
+	repeat
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	to offer
+		not "outfit (flagship installed): Bunrodea Translation Device"
+		has "bunrodea defense: done"
+	on offer 
+		outfit "Bunrodea Translation Device"
+			fail
+
 
 mission "bunrodea full rep"
 	name "A meeting with the queen"
@@ -190,29 +215,104 @@ mission "bunrodea full rep"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
 	on complete
-		give ship "Chigiriki"
+		outfit "Bunrodea Noble Authorization"
 		conversation
+			scene "scene/bun_queen"
 			`When you arrive on Erabuthro, an equally heavily armed escort of 12 Bunrodea awaits you, led by the very serious-looking Josuno.`
 			`You make your way to the palace. The queen's huge palace seems even more intimidating due to the circumstances of your journey. When you reach the throne room, the herald announces you as "Captain <first> <last>, Terror of the Korath, Defender of the Border Systems", which calms you down a bit. These people are really difficult to interpret. The queen looks at you and rises from her throne.`
-			`"Captain <last>, you have more than proven your friendship with the Bunrodean Empire. And we now prove our friendship with you. You will receive the title 'Special Representative', full access to all our planets and our equipment. We will also give you one of our strongest warships as a gift, a 'Chigiriki'."`
+			`"Captain <last>, you have more than proven your friendship with the Bunrodean Empire. And we now prove our friendship with you. You will receive the title 'Special Representative', full access to all our planets and our equipment. We will also give you a Noble Authorization Plate, which will allow you to request an audience at any time."`
 			`The queen raises her arms in the air. In perfect synchronicity, your escort, Josuno and two dozen nobles raise their arms to show you their respect. This all impresses you very much and you almost forget to raise your arms to accept the honor. This ends the audience and you are escorted out.`
 			`When you arrive at the spaceport, you are still in your thoughts. What an experience. Despite the differences, you like the Bunrodea, and they probably like you too.`
 
 
-mission "bunrodea criminal"
+mission "bunrodea noble authorization update fix"
+	minor
+	invisible
+	repeat
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	to offer
+		not "outfit (flagship installed): Bunrodea Noble Authorization"
+		has "bunrodea full rep: done"
+	on offer 
+		outfit "Bunrodea Noble Authorization"
+			fail
+
+
+mission "culture bunrodea criminal"
 	invisible
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
 	to offer
-		"reputation: Bunrodea" >= 300
-		random < 25
+		"reputation: Bunrodea" >= 120
+		random < 10
 	on offer
 		conversation
-			`As you cross the spaceport you notice something strange. Four security guards escort a handcuffed and battered prisoner to a small ship. In front of the ship they take off his shackles and beat him. Then they hand him a key card and take him to the ship's airlock. The small spaceship takes off and rises into the atmosphere. The four security guards leisurely stroll away.`
+			scene "scene/bun_criminal"
+			`As you cross the spaceport you notice something strange. Four security guards escort a handcuffed and battered prisoner to a small ship. In front of the ship they take off his shackles and beat him. Then they hand him a key card and take him to the ship's airlock. The small spaceship takes off very fast and rises into the atmosphere. The four security guards leisurely stroll away.`
 			`A passerby notices your confusion and speaks to you.`
 			`"Is this the first time you've observed an execution ritual?"`
 			`After you say yes, the passerby continues.`
 			`"We equip criminals with a small spaceship and drive them off the planet. After an hour, an execution request is announced and anyone interested can take part in the hunt for the criminal. This is very lucrative but also a bit dangerous. But for such an experienced captain as you are, it shouldn't be a problem. Such requests can be found on the job boards." The passerby says goodbye and moves on.`
+				decline
+
+
+mission "culture bunrodea flonkball"
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	to offer
+		"reputation: Bunrodea" >= 140
+		random < 10
+	on offer
+		conversation
+			`As you explore the city outside the spaceport, you discover that there is a big sport event taking place today, and you think about checking it out.`
+			choice
+				`	follow the masses to the stadium`
+					goto join
+				`	not now, go back to the spaceport`
+					defer
+			label join
+			scene "scene/stadium"
+			`Crowds of Bunrodea pour into a huge stadium and among them, you, a single human. When you get to the stands, you let the strange architecture and even stranger customs affect you. The playing field is huge and round. There is a barrel on two opposite sides, surrounded by a trench filled with water. As the teams enter the field, some players from both teams begin to beat each other. The crowd screams with excitement. A young Bunrodea sitting next to you notices your confusion.`
+			`"Is this the first time you see a Flonkball game? Should I explain the rules to you?" he asks.`
+			choice
+				`	"Yes please."`
+				`	"Why do the players beat each other up?"`
+				`	"Has the game started yet?"`
+					goto started
+			label started
+			scene "scene/stadium"
+			`"The battles between the rival teams are part of the game and allowed. The actual game revolves around the 'Flonk', a flightless pterodactyl, that is used as a ball. The flonk must be brought into a basket in the opponent's end zone, which results in a 'Flopp', for a distance throw, or a 'double Flopp', by jumping to the basket. The game ends when the seventh Flonk is placed in the basket. If both teams have the same number of Flopps, an eighth Flonk is played. Another method to end the game successfully is to decimate the opposing team through hard play to such an extent that they no longer have enough players available. The game is led by a referee. He punishes fouls with giving the Flonk to the opposing team. Since fighting is permitted, it is only considered a foul if hidden weapons are drawn and used. "`
+			`You thank the young Bunrodea for that enlightening explaination. Now that you know the rules, you enjoy the game to the fullest. A lot of blood flows over the next hour. Players are carried off the field with serious injuries. And then the blue team wins because all of the red team's players leave the field, most of them carried by medics. On your way out of the stadium, you're still thinking about the game. That was a really strange experience.`
+				decline
+
+
+mission "culture bunrodea snap fly"
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	to offer
+		"reputation: Bunrodea" >= 160
+		random < 10
+	on offer
+		conversation
+			`Just as you're about to look for work, an older Bunrodea approaches. "Hello Captain <last>, I am Takeno, elder of House Ido. Our queen asked me to show you some of our culture. I would like to introduce you to the ancient tradition of snap fly hunting. Are you interested?"`
+			choice
+				`	"Very much!"`
+					goto start
+				`	"I don't have any time at the moment, I'd like to do it another time."`
+					defer
+			label start
+			`Takeno leads you to a small shuttle where two guards are already waiting. During the flight you receive a safety briefing, since you don't have an exoskeleton. These snap flies appear to be dangerous to you, and you should avoid drawing their attention to you. While your Bunrodea companions are only equipped with light traditional leather clothing, you are given a surprisingly comfortable light metal body armor that was obviously made specifically for you. You wonder how your hosts know your body measurements, as the shuttle begins its descent. Takeno asks you if you are ready.`
+			choice
+				`	"Yes, we can get started"`
+					goto continue
+			label continue
+			scene "scene/snap_flies"
+			`As the shuttle touches the jungle ground, your two guards, Takeno and you, jump out of the airlock. While the three Bunrodea slowly advance through the vegetation, you try to adapt your behavior to the three. A few minutes later the jungle clears up and you reach a more open area with a stream running through it. In the air, a few dozen meters away, you see head-sized flies. At a closer look, you'll see razor-sharp attachments on her legs.`
+			`When a medium-sized rodent is scared up right in front of you, one of the snap flies swoops down and tears the poor animal to pieces. One of the guards jumps forward, grabs the fly with his grasping tools and bites it in the head. The first catch of the day.`
+			`A few hours later you load your prey, consisting of eighteen snap flies, into the shuttle. Your armor actually got some scratches, these beasts are really very dangerous. "Isn't snap fly hunting thrilling?" Takeno asks. You don't really understand the Bunrodea's hunting behavior. Sure, it was a nice trip, but the Bunrodea seem totally ecstatic. Maybe it's due to the biochemistry of snapping flies, since all of your companions have tasted their blood with targeted bites. Back at the spaceport, you thank them for the experience and say goodbye. Maybe some day you'll find out more about that.`
 				decline
 
 

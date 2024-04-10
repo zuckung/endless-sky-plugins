@@ -1,14 +1,16 @@
+# phrase bunrodea jobs
 # news bunrodea untranslated
-# news bunrodea translated
-# news bunrodea news
+# news bunrodea translated player
+# news bunrodea translated korath
+# news bunrodea translated snap fly
+# news bunrodea translated culture
+# news bunrodey translated criminal
+# news bunrodey translated flonkball
+# news bunrodea news system
 
-news "bunrodea untranslated"
-	location
-		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
-	to show
-		not "outfit (flagship installed): Bunrodea Translation Device"
-	name
-		word
+
+phrase "bunrodea jobs"
+	word
 			"Young Bunrodea"
 			"Old Bunrodea"
 			"Security Guard"
@@ -25,6 +27,16 @@ news "bunrodea untranslated"
 			"Doctor"
 			"Machinist"
 			"Technician"
+
+
+news "bunrodea untranslated"
+	location
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
+	to show
+		not "outfit (flagship installed): Bunrodea Translation Device"
+	name
+		phrase
+			"bunrodea jobs"
 	portrait
 		"portrait/bunrodea01"
 		"portrait/bunrodea02"
@@ -106,29 +118,15 @@ news "bunrodea untranslated"
 		word
 			`"`
 
-news "bunrodea translated"
+
+news "bunrodea translated player"
 	location
 		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
 	to show
 		has "outfit (flagship installed): Bunrodea Translation Device"
 	name
-		word
-			"Young Bunrodea"
-			"Old Bunrodea"
-			"Security Guard"
-			"Ship Captain"
-			"Passenger"
-			"Scientist"
-			"Worker"
-			"Fly Hunter"
-			"Noble"
-			"Dock Worker"
-			"Factory Worker"
-			"Engineer"
-			"Teacher"
-			"Doctor"
-			"Machinist"
-			"Technician"
+		phrase
+			"bunrodea jobs"
 	portrait
 		"portrait/bunrodea01"
 		"portrait/bunrodea02"
@@ -142,28 +140,156 @@ news "bunrodea translated"
 		"portrait/bunrodea10"
 	message
 		word
-			`"`
-		word
-			"You are the one I've seen on Holovid, the human? We don't have many visitors here."
-			"The Korath are getting a bit brash lately. I wish we would punish them harder."
-			"Hey, did you see the last execution on holovid? That prisoner was really tough."
-			"Our queen, Shinuxa, is having a really hard time with her sons."
-			"Do you know this one? Two Korath walk into a bar... and then they both steal everything."
-			"I heard that the Korath are planning a new wave of raids."
-			"Have you seen my father? He must be here somewhere. He has the same face as me. Silly old people, always running around."
-			"You are a human? Your species lives on the other side of the Korath space?"
-			"Did you see how the guards beat the prisoner? One of the guards stumbled over his legs. That was really funny."
-			"Last week I caught a snap fly and the damned thing actually scratched my shell. Well, it was still delicious."
+			`"You are the one I've seen on Holovid, the human? We don't have many visitors here."`
+			`"You are a human? Your species lives on the other side of the Korath space, right?"`
+			`"Are all humans as fragile as you are? Without an exoskeleton you are totally defenseless."`
+			`"You look really funny. Are you a usual human? And your smell is also very intense."`
+			`"I've never met anyone as famous as you. Can we do a holo? My friends are going to freak out when they see this."`
 
-			"The snap flies are particularly large and juicy this year. I'm thinking about joining a hunting expedition."
-			"Are all people as fragile as you? Without an exoskeleton you are totally defenseless."
-			"We have been at war with the Korath for decades, but recently they have intensified their efforts."
-			"You look really funny. Are you a usual human? And your smell is also very intense."
-			"The damned Korath are just thieves and murderers, too weak to be a real threat for the empire."
-		word
-			`"`
 
-news "bunrodea news"
+news "bunrodea translated korath"
+	location
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
+	to show
+		has "outfit (flagship installed): Bunrodea Translation Device"
+	name
+		phrase
+			"bunrodea jobs"
+	portrait
+		"portrait/bunrodea01"
+		"portrait/bunrodea02"
+		"portrait/bunrodea03"
+		"portrait/bunrodea04"
+		"portrait/bunrodea05"
+		"portrait/bunrodea06"
+		"portrait/bunrodea07"
+		"portrait/bunrodea08"
+		"portrait/bunrodea09"
+		"portrait/bunrodea10"
+	message
+		word
+			`"The Korath are getting a bit brash lately. I wish we would punish them harder."`
+			`"Do you know this one? Two Korath walk into a bar... and then they both steal everything."`
+			`"I've heard that the Korath are planning a new wave of raids."`
+			`"We have been at war with the Korath for decades, but recently they have intensified their efforts."`
+			`"The damned Korath are just thieves and murderers, too weak to be a real threat for the empire."`
+
+
+news "bunrodea translated snap fly"
+	location
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
+	to show
+		has "outfit (flagship installed): Bunrodea Translation Device"
+	name
+		phrase
+			"bunrodea jobs"
+	portrait
+		"portrait/bunrodea01"
+		"portrait/bunrodea02"
+		"portrait/bunrodea03"
+		"portrait/bunrodea04"
+		"portrait/bunrodea05"
+		"portrait/bunrodea06"
+		"portrait/bunrodea07"
+		"portrait/bunrodea08"
+		"portrait/bunrodea09"
+		"portrait/bunrodea10"
+	message
+		word
+			`"Last week I caught a snap fly and that damned thing actually scratched my shell. Well, it was still delicious."`
+			`"The snap flies are particularly large and juicy this year. I'm thinking about joining a hunting expedition."`
+			`"I was already on a snap fly hunting expedition this year. There's nothing like catching snap flies yourself."`
+			`"You should be careful when you see a snap fly. Your body appears to be far too soft to survive an attack."`
+			`"I know an artist who could make you a body armor. This means you too could take part in a snap fly hunt. You should really think about that."`
+
+
+news "bunrodea translated culture"
+	location
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
+	to show
+		has "outfit (flagship installed): Bunrodea Translation Device"
+	name
+		phrase
+			"bunrodea jobs"
+	portrait
+		"portrait/bunrodea01"
+		"portrait/bunrodea02"
+		"portrait/bunrodea03"
+		"portrait/bunrodea04"
+		"portrait/bunrodea05"
+		"portrait/bunrodea06"
+		"portrait/bunrodea07"
+		"portrait/bunrodea08"
+		"portrait/bunrodea09"
+		"portrait/bunrodea10"
+	message
+		word
+			`"Our queen, Shinuxa, is having a really hard time with her sons. They are in no way as capable as their mother."`
+			`"Although Queen Shinuxa is already quite old, she probably won't be challenged anytime soon."`
+			`"Have you seen my father? He must be here somewhere. He has the same face as me. Silly old people, always running around."`
+			`"I'm traveling to the Caves of Jengon with my family. The sight is said to be truly unbelievable."`
+			`"I'm sorry, but I don't have time. My transport ship should leave any minute."`
+
+
+news "bunrodea translated criminal"
+	location
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
+	to show
+		has "outfit (flagship installed): Bunrodea Translation Device"
+		has "culture bunrodea criminal: declined"
+	name
+		phrase
+			"bunrodea jobs"
+	portrait
+		"portrait/bunrodea01"
+		"portrait/bunrodea02"
+		"portrait/bunrodea03"
+		"portrait/bunrodea04"
+		"portrait/bunrodea05"
+		"portrait/bunrodea06"
+		"portrait/bunrodea07"
+		"portrait/bunrodea08"
+		"portrait/bunrodea09"
+		"portrait/bunrodea10"
+	message
+		word
+			`"Did you see how the guards beat that prisoner? One of the guards stumbled over his legs. That was really funny."`
+			`"Hey, did you see the last execution on holovid? That prisoner was really tough."`
+			`"I have accompanied criminal executions half a dozen times. This is a really exciting hobby."`
+			`"Two years ago, a convicted one actually managed to avoid execution. He was then found months later, starved to death in a peripheral system."`
+			`"A friend of the father of my sister's breeding partner also got executed. His execution really didn't last long."`
+
+
+news "bunrodea translated flonkball"
+	location
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
+	to show
+		has "outfit (flagship installed): Bunrodea Translation Device"
+		has "culture bunrodea flonkball: declined"
+	name
+		phrase
+			"bunrodea jobs"
+	portrait
+		"portrait/bunrodea01"
+		"portrait/bunrodea02"
+		"portrait/bunrodea03"
+		"portrait/bunrodea04"
+		"portrait/bunrodea05"
+		"portrait/bunrodea06"
+		"portrait/bunrodea07"
+		"portrait/bunrodea08"
+		"portrait/bunrodea09"
+		"portrait/bunrodea10"
+	message
+		word
+			`"I've just seen the Flonkball match 'Kisarra Snappers vs Angko Rogues'. Wasn't that a great game?"`
+			`"Sometimes I feel like I'm a Flonk, without any control over my life. You know what I mean?"`
+			`"Last week a player of the 'Melenci Unstoppables' fouled the referee.  The referee pulled his knife and killed him. Flonkball is such a great game!"`
+			`"The 'Erabuthro Flonktastics' is my favourite Flonkball Team. I hope they win the cup this year."`
+			`"To be honest, a Flonkball game won by Flopps is less interesting than one won by decimating."`
+
+
+news "bunrodea news system"
 	location
 		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
 	to show

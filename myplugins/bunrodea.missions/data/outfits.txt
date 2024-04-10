@@ -1,4 +1,13 @@
 outfit "Bunrodea Translation Device"
 	category "Unique"
 	thumbnail "outfit/device03"
+	"unplunderable" 1
+	"unique" 1
 	description `This device translates Bunrodea to Human Common and vice versa.`
+
+outfit "Bunrodea Noble Authorization"
+	category "Unique"
+	thumbnail "outfit/alien_sheet"
+	"unplunderable" 1
+	"unique" 1
+	description `This is an authorization plate for Bunrodea nobles. You can use it to request an audience with the queen at any time. The possession alone shows the high status of the wearer in Bunrodea society.`
