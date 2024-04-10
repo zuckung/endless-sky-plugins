@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-06 | update: captureable.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-10 | update: bunrodea.missions<br>
+2024-04-06 | update: captureable.person.ships<br>
 2024-04-06 | update: disable.spaceport.repeatables<br>
 2024-04-05 | update: galactic.capital.investment<br>
 2024-04-05 | repo update: versioning implemented<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-31 | update: real.fluff<br>
 2024-03-31 | update: galactic.capital.investment<br>
 2024-03-27 | update: expert.crew.members<br>
-2024-03-26 | update: planet.map<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -427,7 +427,7 @@ added Start Explorer to Automata<br>
 
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 806.14 kb | 2024-04-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 1.17 mb | 2024-04-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the readme for details.
 <details>
@@ -456,13 +456,13 @@ Unlocking the planets is based on reputation, so you get access step by step. Un
 
 At 100 rep the second mission starts, which gives 30 rep and unlocks the second repeatable fighting job for 30 rep.<br>
 
-At 200 rep the third mission starts, which gives 40 rep and unlocks the third repeatable fighting job for 40 rep.<br>
+At 100+ rep three culture conversations may happen(10% chance), changing the spaceport news, or adding more jobs<br>
 
-At 300 rep a culture conversation starts, which enables the criminal hunting job for 12 to 14 rep<br>
+At 200 rep the third mission starts, which gives 40 rep and unlocks the third repeatable fighting job for 40 rep.<br>
 
 At 500 rep you are done and get the last mission, its an escort mission with a gift at the end<br>
 
-Averagely you have to do 50 jobs.<br>
+Averagely you have to do like 50 jobs, less if you take the fighting jobs.<br>
 
 <br>
 
@@ -473,6 +473,24 @@ Since it's often questioned, here guide to the bunrodea first contact mission. T
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-04-10<br>
+
+added 4 scene images<br>
+
+added 2 invisible missions to fix storyline on update / on loss of uniques<br>
+
+changed gift at full rep from ship to a unique<br>
+
+added 2 new culture conversations: flonkball / snap fly hunt<br>
+
+added more spaceport news and regrouped them<br>
+
+rebalanced the worldship mission/job, to nearly same chances as in vanilla fleets. (2,5%=582,590,577,Rai'alorej and 50%=618 and 40%=621)<br>
+
+added "Kas'lor Ik 582 (Jump)" and "Lor'nag Ik 590 (Troop Transport)" and "Rai'alorej" to worldship mission/jobs<br>
 
 <br>
 
