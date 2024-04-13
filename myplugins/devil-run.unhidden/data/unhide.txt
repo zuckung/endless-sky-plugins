@@ -1,2 +1,22 @@
 system Devil-Run
-  remove hidden
+	remove hidden
+
+system Devil-Hide
+	remove hidden
+
+system "Al Hurr"
+	remove hidden
+
+planet Devil-Eye
+	spaceport `Calling this a spaceport is too much, but you can land and refuel here.`
+	bribe 0.03
+	tribute 1000
+		threshold 2500
+		fleet "Small Northern Pirates" 20
+
+planet Elenchus
+	spaceport `Calling this a spaceport is too much, but you can land and refuel here.`
+	bribe 0.03
+	tribute 500
+		threshold 2500
+		fleet "Small Northern Pirates" 15
