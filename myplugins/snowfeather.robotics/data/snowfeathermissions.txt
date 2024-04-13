@@ -31,6 +31,7 @@ mission "Snowfeather Robotics 1"
 	on complete
 		payment 100000
 		conversation
+			scene "scene/3hai_park"
 			`You land on <destination>. Dr. Lufbin thanks you for the safe transport and pays you 100.000 credits.`
 			`"I've seen the androids that work on your ship and I would love to study one of them. Of course I would pay you for that. If you are interested, meet me at the spaceport in a few hours."`
 
