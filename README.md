@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-10 | update: bunrodea.missions<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-13 | update: real.fluff<br>
+2024-04-10 | update: bunrodea.missions<br>
 2024-04-06 | update: captureable.person.ships<br>
 2024-04-06 | update: disable.spaceport.repeatables<br>
 2024-04-05 | update: galactic.capital.investment<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-03-31 | update: expert.crew.members<br>
 2024-03-31 | update: real.fluff<br>
 2024-03-31 | update: galactic.capital.investment<br>
-2024-03-27 | update: expert.crew.members<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1960,7 +1960,7 @@ initial release<br>
 
 <img src="myplugins/real.fluff/icon.png" height="100">
 
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 3.02 mb | 2024-03-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
+[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 3.02 mb | 2024-04-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
 <br>
 >A bunch of side missions which reward unique fluffy pets. See the readme for details.
 <details>
@@ -2008,6 +2008,14 @@ After collecting them all, you get a missions (20%) with unique rewards.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-13<br>
+
+added the choice to defer missions<br>
+
+added the choice to take a pet or not(doesnt influence the final mission)<br>
 
 <br>
 
