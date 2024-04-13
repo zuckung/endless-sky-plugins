@@ -21,6 +21,10 @@ After collecting them all, you get a missions (20%) with unique rewards.<br>
 <br>
 Changelog:<br>
 <br>
+2024-03-13<br>
+added the choice to defer missions<br>
+added the choice to take a pet or not(doesnt influence the final mission)<br>
+<br>
 2024-03-31<br>
 new category pets<br>
 gave puny an image and added to pets<br>

@@ -50,9 +50,8 @@ mission "cat mission 1"
 	minor
 	source "Deadman's Cove"
 	to offer
-		random < 20
+		random > 79
 	on offer
-		outfit "fluffy_cat"
 		conversation
 			`After landing on "Deadman's Cove" you decide to go out to see the only big city on this planet, maybe eat something and search for a lucrative job. As expected of a pirate planet, the city outside the spaceport is a bit dirty. A few conversations with strangers later, you find a good restaurant in one of the better neighborhoods. After the meal, which was surprisingly good, you decide to return to your ship and delay the search for jobs.`
 			choice
@@ -69,23 +68,40 @@ mission "cat mission 1"
 				`	use the regenerator (shorter, severe pain)`
 					goto adoptcat
 			label adoptcat
+			`After the treatment, the cat enjoys your caresses and is now very trusting. You're thinking about keeping the cat. It has always been customary to keep a 'ship cat' on ships. So why break with this tradition?`
+			choice
+				`	adopt the cat`
+					goto adopt
+				`	don't adopt the cat`
+					goto shelter
+			label adopt
 			scene "outfit/fluffy_cat"
-			`After the treatment, the cat enjoys your caresses and is now very trusting. You decide to keep her. Despite the pain, the cat always maintained its dignified posture. "Cleo" seems like a fitting name for her.`
+			action
+				outfit "fluffy_cat"
+			`You decide to keep her. Despite the pain, the cat always maintained its dignified posture. "Cleo" seems like a fitting name for her.`
 				decline
+			label shelter
+			`You take the cat to an animal shelter. You aren't really a 'cat person'.`
+				decline
+
 
 mission "ocelot mission 1"
 	minor
 	name "Retrieve stolen jewelry"
 	description "Retrieve stolen jewelry from a pirate ship. The 'Lootbox' must be in one of these three systems: `Tortor, Mintaka or Gorvi."
 	to offer
-		random < 20
+		random > 79
 		"combat rating" > 1000
 	on offer
 		conversation
 			`Just as you are about to start looking for a lucrative contract, a potential customer appears in front of your ship.`
 			`"Hello Captain <last>, I come on behalf of Countess Anastasia Ruhna. The Countess is looking for a battle-experienced captain who will take care of the recovery of stolen jewelry. You seem to be the best choice here. Are you interested?"`
-			`You ask for more details. The Countess appears to have been attacked by a pirate on an interstellar flight and a box containing valuable jewelry was stolen from her. Later investigations revealed that it was a local pirate who has his retreat somewhere in the Tortor, Mintaka or Gorvi system. The pirate flies a 'Raven' called 'Lootbox'. The Countess will pay 200.000 credits to get the jewelry back. The task shouldn't be too difficult, so you agree.`
-				accept
+			`You ask for more details. The Countess appears to have been attacked by a pirate on an interstellar flight and a box containing valuable jewelry was stolen from her. Later investigations revealed that it was a local pirate who has his retreat somewhere in the Tortor, Mintaka or Gorvi system. The pirate flies a 'Raven' called 'Lootbox'. The Countess will pay 200.000 credits to get the jewelry back. The task shouldn't be too difficult. So, are you interested?`
+			choice
+				`	"Sure, I will start the search immediately."`
+					accept
+				`	"Sorry, I don't have time at the moment."`
+					defer
 	source "Farpoint"
 	npc board
 		personality staying nemesis target
@@ -93,19 +109,33 @@ mission "ocelot mission 1"
 		system "Tortor"
 		ship "Raven" "Lootbox"
 		on board
-			outfit "fluffy_ocelot"
 			payment 50000
 		conversation
 			scene "scene/piratecabin"
 			`When you enter the 'Lootbox' you quickly come across dead pirates. The battle was quick and brutal, leaving most of the pirates dead. A small group of survivors have barricaded themselves on the bridge. You decide to search the quarters and quickly discover the captain's cabin. Among the captain's useless belongings you find the stolen jewelry and 50,000 credits.`
 			`As you continue to look for valuablex, something behind a sofa hisses at you. It is a slightly larger cat with a spotted pattern. That must be an ocelot. You courageously try to convince the animal of your friendliness, which you quickly succeed in with a few strokes of petting. A plaque on his neck reads 'Babou'. You decide to take the ocelot with you.`
-			`Half an hour later you are back on your ship. Mission accomplished. Very successful actually. 50,000 extra credits and a new pet.`
+			`Half an hour later you are back on your ship. Mission accomplished. Very successful actually. 50,000 extra credits.`
 				launch
 	on complete
 		payment 200000
 		conversation
+			`After landing on 'Farpoint', you contact the Countess's assistant and a short time later she appears in front of your ship. You hand over the jewelry, receive 200,000 credits on your account and also a personal letter from the Countess in which she thanks you profusely for your commitment.`
+			`Now to the ocelot you've found on the pirate ship.`
+			choice
+				`	adopt the ocelot`
+					goto adopt
+				`	don't adopt the ocelot`
+					goto shelter
+			label shelter
+			`You take the ocelot to an animal shelter. You aren't really an 'ocelot person'.`
+				goto end
+			label adopt
 			scene "outfit/fluffy_ocelot"
-			`After landing on 'Farpoint', you contact the Countess's assistant and a short time later she appears in front of your ship. You hand over the jewelry, receive 200,000 credits on your account and also a personal letter from the Countess in which she thanks you profusely for your commitment. As you tease 'Babou', you wish for more jobs like this.`
+			action
+				outfit "fluffy_ocelot"
+			`As you tease 'Babou', you wish for more jobs like this.`
+			label end
+
 
 mission "raccoon mission 1"
 	minor
@@ -116,12 +146,18 @@ mission "raccoon mission 1"
 	source "Foundry"
 	destination "Hephaestus"
 	to offer
-		random < 20
+		random > 79
 	on offer
 		conversation
 			`After landing on "Foundry", you begin the usual routine inspection of your ship when a woman in a business suit approaches you.`
 			`"Hello Captain <last>, I am looking for a cargo ship to deliver 30 tons of noble wood to <destination>. However, the noble wood would first have to be picked up from a private spaceport 500 kilometers west of here. Due to the circumstances and the value of the cargo my company would pay you 80,000 credits. Are you interested?"`
-			`Although you know that private spaceports usually mean illegal business, but the payment tempts you considerably. As long as the shipping documents are in order, there shouldn't be any problems for you. You agree.`
+			choice
+				`	"Yes."`
+					goto accept
+				`	"Sorry, I don't have time at the moment."`
+					defer
+			label accept
+			`Although you know that private spaceports usually mean illegal business, but the payment tempts you considerably. As long as the shipping documents are alright, there shouldn't be any problems for you.`
 			`The route to the private spaceport is quickly completed, but the landing turns out to be quite difficult. What was advertised as a private spaceport is nothing more than a clearing in the woods with a few cabins and a few patches of burnt grass. Loading the huge polished tree trunks takes all afternoon. Instead of robotic loading forklifts, everything here is done by burly lumberjacks. This would give you enough time to go for a walk in the forest.`
 			choice
 				`	go for a walk`
@@ -144,11 +180,24 @@ mission "raccoon mission 1"
 				accept
 	on complete
 		payment 80000
-		outfit "fluffy_raccoon"
 		conversation
+			`Once you arrive on 'Hephaestus', the rapid unloading of your cargo begins immediately. In contrast to loading, heavy machinery is used here, which shortens unloading enormously. As the dockworkers unload the last logs, you notice a small, living thing fleeing back and forth in panic between the huge moving masses. You stop the unloading, climb over tree trunks and frozen loading robots and find a frightened raccoon in the back of the hold. He must have sneaked aboard in the Foundry forest. Coaxing and calming the raccoon takes longer than the previous unloading time, but when you carefully lift the raccoon and it remains relaxed, you realize that it was worth it. He's really cute and with a few feedings you'll definitely get him tame.`
+			choice
+				`	adopt the raccoon`
+					goto adopt
+				`	don't adopt the raccoon`
+					goto shelter
+			label shelter
+			`You take the raccoon to an animal shelter. You aren't really an 'raccoon person'.`
+			`A short time later the work is done and the 80,000 credits payment arrived in your account.`
+				goto end
+			label adopt
 			scene "outfit/fluffy_raccoon"
-			`Once you arrive on 'Hephaestus', the rapid unloading of your cargo begins immediately. In contrast to loading, heavy machinery is used here, which shortens unloading enormously. As the dockworkers unload the last logs, you notice a small, living thing fleeing back and forth in panic between the huge moving masses. You stop the unloading, climb over tree trunks and frozen loading robots and find a frightened raccoon in the back of the hold. He must have sneaked aboard in the Foundry forest. Coaxing and calming the raccoon takes longer than the previous unloading time, but when you carefully lift the raccoon and it remains relaxed, you realize that it was worth it. He's really cute and with a few feedings you'll definitely get him tame. You decide to keep him and call him "Bandit".`
+			action
+				outfit "fluffy_raccoon"
+			`You decide to keep him and call him "Bandit".`
 			`A short time later the work is done and the 80,000 credits payment has arrived in your account. "Bandit" seems as happy as you are.`
+			label end
 
 mission "alien mission 1"
 	landing
@@ -168,7 +217,6 @@ mission "alien mission 1"
 		to despawn
 			has "outfit (installed): fluffy_alien"
 		on board
-			outfit "fluffy_alien"
 		conversation
 			`Due to the severe damage, parts of the ship are exposed to the vacuum of space, so you have to wear a spacesuit. It doesn't look like a spaceship battle happend here. The corridors are partially barricaded, there are signs of firefights and apparently someone spilled acid on the corridors floors. Must have been a hard fight in here.`
 			`The ship is completely silent, it seems like no one survived. You pass some rooms, complete devastated by explosions.`
@@ -196,8 +244,20 @@ mission "alien mission 1"
 				`	keep looking for valueables on your way out`
 					goto findalien
 			label findalien
+			`You make your way back to your ship. Shortly before you reach the lock, a small, almost black, extremely strange-looking animal shoots towards you. Quickly you grab it and lift it up. It tries to bite you, but you don't have a hard time dodging each bite. After a while the animal seems to realize that you are in advantage and stops its attacks. You've never seen anything like this animal before.`
+			choice
+				`	adopt the creature`
+					goto adopt
+				`	don't adopt the creature`
+					goto shelter
+			label shelter
+			`You release the strange animal back into the ship.`
+				launch
+			label adopt
 			scene "outfit/alien"
-			`You make your way back to your ship. Shortly before you reach the lock, a small, almost black, extremely strange-looking animal shoots towards you. Quickly you grab it and lift it up. It tries to bite you, but you don't have a hard time dodging each bite. After a while the animal seems to realize that you are in advantage and stops its attacks. You've never seen anything like this animal before. You decide to take it with you.`
+			action
+				outfit "fluffy_alien"			
+			`You decide to take it with you.`
 				launch
 
 mission "ferret mission 1"
@@ -209,10 +269,17 @@ mission "ferret mission 1"
 	source "Bivrost"
 	destination "Millrace"
 	to offer
-		random < 20
+		random > 79
 	on offer
 		conversation
-			`After landing on 'Bivrost', a local animal breeder contacts you. He needs transport to <destination> for 750 ferrets. The ferrets and their cages require 12 tons of cargo space and you will receive 76,000 credits on delivery. You agree. Two hours later the animals are loaded and you are ready to leave. `
+			`After landing on 'Bivrost', a local animal breeder contacts you. He needs transport to <destination> for 750 ferrets. The ferrets and their cages require 12 tons of cargo space and you will receive 76,000 credits on delivery.`
+			choice
+				`	accept`
+					goto accept
+				`	decline`
+					defer
+			label accept
+			`Two hours later the animals are loaded and you are ready to leave to <destination>. `
 				accept
 	on complete
 		payment 76000
@@ -226,11 +293,21 @@ mission "ferret mission 2"
 	to offer
 				has "ferret mission 1: done"
 	on offer
-		outfit "fluffy_ferret"
 		conversation
-			scene "outfit/fluffy_ferret"
 			`While inspecting the cargo hold, you hear noises and investigate. In a corner of the cargo hold, behind a few boxes of spare parts, you find a ferret playing with an electronic component lying around. The animal must have escaped from its cage somehow.`
 			`When the ferret sees you, it runs towards you and climbs up your leg. At first the animal's behavior frightens you, but since it doesn't bite you but rather tries to play with you, you quickly calm down again.`
+			choice
+				`	adopt the ferret`
+					goto adopt
+				`	don't adopt the ferret`
+					goto shelter
+			label shelter
+			`You take the ferret to an animal shelter. You aren't really an 'ferret person'.`
+				decline
+			label adopt
+			scene "outfit/fluffy_ferret"
+			action
+				outfit "fluffy_ferret"
 			`The tamed, playful ferret quickly grows on you. Of course, your first thought was to hand it over to the recipient of the ferret charge, but the more you play with it, the more you want to keep it. One less ferret out of 750 animals does not seem particularly serious. The more you think about it the clearer it becomes.`
 			`You now have a new pet! You name the ferret 'Gummi Bear'.`
 				decline
@@ -244,23 +321,40 @@ mission "koala mission 1"
 	source "New Portland"
 	destination "Shroud"
 	to offer
-		random < 20
+		random > 79
 	on offer
 		conversation
 			`After completeing your routine checks, you head out to find new work, when your comm-link flashes. You accept the holo transmission on the bridge.`
 			`"Hello captain <last>. My name is Mordin, senior inspector in the criminal investigation department. Don't worry, you don't have any problems. Yesterday we busted an illegal animal smuggling organization and are now looking for lots of cargo captains to distribute the many rare animals to the zoos of other planets. Are you interested?"`
+			choice
+				`	"Yes, I'm interested."`
+					goto accept
+				`	"I don't have time. Maybe later.`
+					defer
+			label accept
 			`You agree on a transport destination and a price with Chief Inspector Mordin. A koala needs a transport to the zoo on 'Shroud'. Upon delivery you will receive 120,000 credits. Half an hour later, a large cage with a koala gets delivered to your cargo hold. `
 				accept
 	on complete
 		payment 120000
-		outfit "fluffy_koala"
 		conversation
-			scene "outfit/fluffy_koala"
 			`After landing on 'Shroud', the koala gets picked up directly by local zoo staff. A friendly young animal caretaker offers you to accompany the transport and see 'Archie' the koala in his new home. Since you still have to get some papers signed by the zoo management, you agree.`
 			`When 'Archie' is released into his new enclosure, you see a terrible picture. The otherwise sluggish koalas rush towards 'Archie' and bite him. The young animal caretaker bravely intervenes and carries him out of the enclosure, away from the other koalas.`
 			`The zoo director who observed the process with you turns to you.`
 			`"Now we have a problem. We cannot accommodate the koala here. And since such a significant amount of credits have already been spent on the transport, we cannot afford a second transport. Captain <last>, it is not by chance that you are interested in taking over the koala and look after him? Otherwise we would have to put him down. I'm only asking because you've already proven on the way here that you are able to look after him."`
+			choice
+				`	adopt the koala`
+					goto adopt
+				`	don't adopt the koala`
+					goto shelter
+			label shelter
+			`You say to yourself, that you won't have the time to care for the koala. It's better to bring it to a clean end. It's not your problem.`
+				goto end
+			label adopt
+			scene "outfit/fluffy_koala"
+			action
+				outfit "fluffy_koala"
 			`Since the koala's death would put too much strain on you, you accept the offer. After a little paperwork, you are now the proud owner of 'Archie' the koala!`
+			label end
 
 mission "rabbit mission 1"
 	minor
@@ -272,12 +366,19 @@ mission "rabbit mission 1"
 	source "Starcross"
 	destination "Clark"
 	to offer
-		random < 20
+		random > 79
 	on offer
 		conversation
 			`While you are studying the job board on 'Starcross', a woman speaks to you.`
 			`  "Hello, aren't you a starship captain by any chance? My family and I are looking for transportation to 'Clark'."`
-			`As usual, you ask for the details. The woman's name is Rita. She, her husband Owen, their young daughter Sophie, their sparse luggage and their pet rabbit need passage to 'Clark', to Rita's sister. Apparently the family got into financial difficulties here. With the last of their savings they now want to book a ferry to start a new life on 'Clark'. You agree to the offer of 35,000 credits, even though the distance is actually a bit too far for the payment.`
+			`As usual, you ask for the details. The woman's name is Rita. She, her husband Owen, their young daughter Sophie, their sparse luggage and their pet rabbit need passage to 'Clark', to Rita's sister. Apparently the family got into financial difficulties here. With the last of their savings they now want to book a ferry to start a new life on 'Clark'.`
+			choice
+				`	"Get your family and luggage on my ship."`
+					goto accept
+				`	"Sorry, that's not my direction."`
+					defer
+			label accept
+			`You agree to the offer of 35,000 credits, even though the distance is actually a bit too far for the payment.`
 				accept
 	on complete
 		payment 35000
@@ -291,11 +392,21 @@ mission "rabbit mission 2"
 	to offer
 				has "rabbit mission 1: done"
 	on offer
-		outfit "fluffy_rabbit"
 		conversation
-			scene "outfit/fluffy_rabbit"
 			`Half an hour later, Owen appears in front of your ship again.`
 			`  "Hello, Captain <first>, we have a little problem. Customs won't let us enter with the rabbit. They say that an invasive population of rabbits, which has displaced the local animals, has just been eradicated on 'Clark'. We have to put poor 'Thumper' to sleep. Sophie then came up with the idea that maybe you could look after him. I would of course understand if you refuse."`
+			choice
+				`	adopt the rabbit`
+					goto adopt
+				`	don't adopt the rabbit`
+					goto shelter
+			label shelter
+			`You explain Owen that you can't take care for the rabbit.`
+				decline
+			label adopt
+			scene "outfit/fluffy_rabbit"
+			action
+				outfit "fluffy_rabbit"
 			`Just the idea of seeing little Sophie cry forces you to accept the rabbit. After instructions on how to care for a rabbit and a second warm farewell, you now have a new pet.`
 				decline
 
@@ -306,9 +417,8 @@ mission "hamster mission 1"
 	source
 		planet "Twinstar"
 	to offer
-		random < 20
+		random > 79
 	on offer
-		outfit "fluffy_hamster"
 		conversation
 			scene "scene/hamsterport"
 			`When you enter the spaceport of 'Twinstar', you can't believe your eyes. Hundreds of little furry rodents are running around everywhere. It is truly an amazing view. Several crews of spaceport personnel are desperately trying to capture these rat-like animals. You stroll over to one of the foremen, careful not to step on any of the animals.`
@@ -316,7 +426,20 @@ mission "hamster mission 1"
 			`  "Excuse me, but what the hell is going on here?" you ask.`
 			`The spaceport worker looks at you annoyed.`
 			`  "We have just unloaded a freighter whose cargo is destined for an animal wholesale company. When we opened the hold, a veritable flood of hamsters rushed out and scurried away in every direction. We've been trying to catch these bastards for two hours. And this little monster just bit me in the finger. Here, take him, I have to get some healing spray now."` 
-			`He pushes the hamster into your hands and you practically have no choice but to accept it. As you look at the hamster and gently pet him, you notice how the animal relaxes. You decide to keep the hamster and name him 'Peanut.'`
+			`He pushes the hamster into your hands and you practically have no choice but to accept it. As you look at the hamster and gently pet him, you notice how the animal relaxes.`
+			choice
+				`	adopt the hamster`
+					goto adopt
+				`	don't adopt the hamster`
+					goto shelter
+			label shelter
+			`You release the hamster back to his brothers and sisters on the spaceport. You aren't really an 'hamster person'.`
+				decline
+			label adopt
+			scene "outfit/fluffy_hamster"
+			action
+				outfit "fluffy_hamster"
+			`You decide to keep the hamster and name him 'Peanut.'`
 				decline
 
 mission "squirrel mission 1"
@@ -327,13 +450,19 @@ mission "squirrel mission 1"
 		planet "Heartvalley"
 	destination "Maelstrom"
 	to offer
-		random < 20
+		random > 79
 	on offer
 		conversation
 			`As you make final checks for launching your ship, an elderly female Hai approaches.`
 			`  "Hello, is that your ship? Do you know your way around in human space? How much would a special procurement from human space cost me?"`
 			`  "Hello, a lot of questions at once." you say "The answers are: yes, yes and it depends from where and what."`
-			`The Hai woman, whose name is Xanua, tells you how years ago she heard a story that there is a species of animal among humans that looks similar to the Hai, only much smaller. Since then Xanua has become very wealthy and would like to score points with high society by something exotic like that.`
+			`The Hai woman, whose name is Xanua, tells you how years ago she heard a story that there is a species of animal among humans that looks similar to the Hai, only much smaller. Since then Xanua has become very wealthy and would like to score points with high society by something exotic like that. Are you willing to get such an animal for her?`
+			choice
+				`	agree`
+					goto accept
+				`	decline`
+					defer
+			label accept
 			`You agree on a fixed amount of 500,000 credits. Now all you have to do is figure out how to get a squirrel. You've never seen a squirrel yourself and you don't even know what world they come from. You decide to search informations on the next human world.`
 				accept
 	on complete
@@ -384,16 +513,29 @@ mission "squirrel mission 4"
 	to offer
 		has "squirrel mission 3: done"
 	on offer
-		payment -5000
-		outfit "fluffy_squirrel"
 		conversation
+			`You find the animal dealer whose name you found out on earth easily. This time everything is unusually unproblematic. When you see the little squirrels you realize that they are even cuter than the Hai. You decide to buy a squirrel for Xanua.`
+			choice
+				`	also buy a squirrel for you`
+					goto adopt
+				`	don't buy a second squirrel`
+					goto dontbuy
+			label dontbuy
+			action
+				payment -2500
+			`Back on the ship, 2,500 credits poorer, you set a course to Heartvalley. `
+				accept
+			label adopt
 			scene "outfit/fluffy_squirrel"
-			`You find the animal dealer whose name you found out on earth easily. This time everything is unusually unproblematic. When you see the little squirrels you realize that they are even cuter than the Hai. You decide to buy two squirrels, one for Xanua and one for you. Back on the ship, 5,000 credits poorer, you set a course to Heartvalley. `
+			action
+				payment -5000
+				outfit "fluffy_squirrel"
+			`Back on the ship, 5.000 credits poorer, you set a course to Heartvalley. `
 				accept
 	on complete
 		payment 750000
 		conversation
 			`You contact Xanua and let her know that you have the squirrel and are on your way to see her. In the transport train, with a cage in which the squirrel is sitting, you are the center of attention of dozens of Hai. They are offering tens of thousands of credits to buy the squirrel from you, which you have to politely decline several times.`
 			`When you give Xenua the squirrel, she is completely enchanted by him. In her high spirits she pays you 750,000 credits.`
-			`  "Captain <last>, I can't thank you enough. This little creature is so incredibly adorable. You've done me a great service. Thank you. Maybe you'll visit me sometime. Me and the little "Shan"."`
+			`  "Captain <last>, I can't thank you enough. This little creature is so incredibly adorable. You've done me a great service. Thank you. Maybe you'll visit me sometime. Me and the little 'Shan'."`
 			`You say goodbye. Back on your ship, you play a little with your squirrel that you named "Trixie". Xenua is right, squirrels are adorable!`
