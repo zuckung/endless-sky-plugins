@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-13 | update: snowfeather.robotics<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-13 | update: devil-run.unhidden<br>
+2024-04-13 | update: snowfeather.robotics<br>
 2024-04-13 | update: real.fluff<br>
 2024-04-10 | update: bunrodea.missions<br>
 2024-04-06 | update: captureable.person.ships<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-05 | repo update: versioning implemented<br>
 2024-04-04 | update: bunrodea.missions<br>
 2024-03-31 | update: expert.crew.members<br>
-2024-03-31 | update: real.fluff<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -787,7 +787,7 @@ initial release<br>
 
 <img src="myplugins/devil-run.unhidden/icon.png" height="100">
 
-[devil-run.unhidden.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/devil-run.unhidden.zip) | 39.89 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/devil-run.unhidden/) <br>
+[devil-run.unhidden.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/devil-run.unhidden.zip) | 40.12 kb | 2024-04-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/devil-run.unhidden/) <br>
 <br>
 >Removes the hidden tag from system Devil-Run. It can be found near the core and opens the path to the Deep Space systems and the Devil-Hide system via wormhole. See the readme for details.
 <details>
@@ -802,15 +802,23 @@ Removes the hidden tag from system Devil-Run. It can be found near the core and 
 
 <br>
 
-Originally this system opens during hai reveal storyline, which is disabled because of a rework. Unfortunately some Remnant jobs rely on the Deep Space systems hidden behind a wormhole in Devil-Run. This plugin makes this system visible and reachable(by jump drive) in eastern syndicate.<br>
-
-The Devil-Hide system is also a nice system to farm Marauder Leviathans.<br>
+Originally this system opens during hai reveal storyline, which is disabled because of a rework. This plugin makes this system visible and reachable(by jump drive) in eastern syndicate. Also removes hidden tag from "Devil-Hide" and "Al Hurr", both hai reveal systems. And the planets in Devil-Hide got a new spaceport, bribe and tribute.<br>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-04-13<br>
+
+removed hidden tag from Devil-Hide, which got added there unnoticed by me<br>
+
+removed hidden tag from "Al Hurr" (at the northern pirates)<br>
+
+added spaceport, bribe and tribute to "Devil-Eye" and "Elenchus"<br>
 
 <br>
 
