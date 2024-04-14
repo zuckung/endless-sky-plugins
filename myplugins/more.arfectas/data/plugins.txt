@@ -1,0 +1,94 @@
+# support for more.boarding.missions
+# 3 pug (farm) boarding credits missions
+# 3 pug (farm )boarding staff missions
+
+
+mission "Boarding Pug Farm (Light Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.boarding.missions"
+		random > 89
+	source
+		government "Pug (Farm)"
+		category "Light Warship"
+	on offer
+		payment 100000
+		conversation "con boarding pug"
+
+mission "Boarding Pug Farm (Medium Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.boarding.missions"
+		random > 89
+	source
+		government "Pug (Farm)"
+		category "Medium Warship"
+	on offer
+		payment 150000
+		conversation "con boarding pug"
+
+mission "Boarding Pug Farm (Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.boarding.missions"
+		random > 89
+	source
+		government "Pug (Farm)"
+		category "Heavy Warship"
+	on offer
+		payment 200000
+		conversation "con boarding pug"
+
+mission "Boarding Pug Farm staff(Light Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.boarding.missions"
+		random > 98
+	source
+		government "Pug (Farm)"
+		category "Light Warship"
+	on offer
+		outfit "Pug War Staff"
+		conversation "con boarding pug staff"
+
+mission "Boarding Pug Farm staff(Medium Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.boarding.missions"
+		random > 97
+	source
+		government "Pug (Farm)"
+		category "Medium Warship"
+	on offer
+		outfit "Pug War Staff"
+		conversation "con boarding pug staff"
+
+mission "Boarding Pug Farm staff(Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.boarding.missions"
+		random > 96
+	source
+		government "Pug (Farm)"
+		category "Heavy Warship"
+	on offer
+		outfit "Pug War Staff"
+		conversation "con boarding pug staff"

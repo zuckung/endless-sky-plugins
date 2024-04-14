@@ -1,9 +1,17 @@
+# government Pug (Farm)
+# mission Pug Warning Mego Pug
+# system Mego Pug
+# planet Hana Pug
+# fleet Arfecta Pug (Farm)
+# fleet Small Pug (Farm)
+# fleet Large Pug (Farm)
+
+
 government "Pug (Farm)"
 	"display name" "Pug"
 	swizzle 0
 	color "governments: Pug"
-	
-	"player reputation" 1
+	"player reputation" -1
 	"attitude toward"
 		"Drak" -.01
 		"Quarg" -.01
@@ -15,48 +23,65 @@ government "Pug (Farm)"
 	"hostile hail" "hostile pug"
 	"hostile disabled hail" "hostile pug"
 
-system "Pug Zak"
-	pos -345.249 -825.123
+
+mission "Pug Warning Mego Pug"
+	landing
+	invisible
+	to complete
+		never
+	on enter "Mego Pug"
+		dialog `When you enter the Mego Pug system you receive a transmition: "Human, leave this system immediately or we will attack. You are not welcome here."`
+		fail
+
+system "Mego Pug"
+	pos 445 -251
 	government "Pug (Farm)"
-	arrival 625
-	habitable 625
-	belt 1286
+	arrival 600
+	habitable 600
+	belt 1345
 	haze _menu/haze-blackbody
-	fleet "Small Pug (Farm)" 600
-	fleet "Large Pug (Farm)" 1200
+	fleet "Small Pug (Farm)" 1000
+	fleet "Large Pug (Farm)" 2000
 	fleet "Arfecta Pug (Farm)" 15000
 	object
 		sprite star/g5
 		period 10
 	object
 		sprite planet/rock6-b
-		distance 268.89
-		period 70.5475
+		distance 392
+		period 88
 		object
 			sprite planet/europa
-			distance 160
-			period 25.4415
-	object
+			distance 190
+			period 22
+	object "Hana Pug"
 		sprite planet/ocean4
-		distance 643.85
-		period 261.394
+		distance 601
+		period 312
 	object
 		sprite planet/lava3-b
-		distance 1271.1
-		period 725.086
+		distance 1176
+		period 699
 	object
 		sprite planet/gas15
-		distance 2701.19
-		period 2246.22
+		distance 2549
+		period 2310
 		object
 			sprite planet/dust5
-			distance 234
-			period 18.8417
+			distance 207
+			period 16
 		object
 			sprite planet/desert4
-			distance 365
-			period 36.706
+			distance 376
+			period 32
 
+planet "Hana Pug"
+	attributes pug
+	landscape land/bwerner5
+	description `Hana Pug is the Pug administration world, responsible for the Bunrodea.`
+	spaceport `The Pug let you know that you aren't welcome here.`
+	bribe 0
+	security 0.9
 
 fleet "Arfecta Pug (Farm)"
 	government "Pug (Farm)"
