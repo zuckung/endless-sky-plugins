@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-13 | update: devil-run.unhidden<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-14 | update: more.arfectas<br>
+2024-04-13 | update: devil-run.unhidden<br>
 2024-04-13 | update: snowfeather.robotics<br>
 2024-04-13 | update: real.fluff<br>
 2024-04-10 | update: bunrodea.missions<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-05 | update: galactic.capital.investment<br>
 2024-04-05 | repo update: versioning implemented<br>
 2024-04-04 | update: bunrodea.missions<br>
-2024-03-31 | update: expert.crew.members<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1611,9 +1611,9 @@ reworked readme<br>
 
 <img src="myplugins/more.arfectas/icon.png" height="100">
 
-[more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.arfectas.zip) | 30.42 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <br>
+[more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.arfectas.zip) | 31.29 kb | 2024-04-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <br>
 <br>
->Adds the new system 'Pug Zak', near 'Pug Iyek' in Wanderer space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the readme for details.
+>Adds the new system 'Mego Pug', in eastern Bunrodea space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1621,7 +1621,7 @@ reworked readme<br>
 
 <br>
 
-Adds the new system 'Pug Zak', near 'Pug Iyek' in Wanderer space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation.<br>
+Adds the new system 'Mego Pug', in eastern Bunrodea space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation.<br>
 
 <br>
 
@@ -1632,6 +1632,20 @@ Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-04-14<br>
+
+moved the system to eastern Bunrodea territory<br>
+
+renamed the system, adjusted objects, added a planet<br>
+
+made them hostile at first contact<br>
+
+added a warning mission on system entering<br>
+
+added support for more.boarding.missions<br>
 
 <br>
 
