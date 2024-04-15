@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-14 | update: more.arfectas<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-15 | update: more.arfectas<br>
+2024-04-14 | update: more.arfectas<br>
 2024-04-13 | update: devil-run.unhidden<br>
 2024-04-13 | update: snowfeather.robotics<br>
 2024-04-13 | update: real.fluff<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-06 | update: disable.spaceport.repeatables<br>
 2024-04-05 | update: galactic.capital.investment<br>
 2024-04-05 | repo update: versioning implemented<br>
-2024-04-04 | update: bunrodea.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1611,7 +1611,7 @@ reworked readme<br>
 
 <img src="myplugins/more.arfectas/icon.png" height="100">
 
-[more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.arfectas.zip) | 31.29 kb | 2024-04-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <br>
+[more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.arfectas.zip) | 30.79 kb | 2024-04-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <br>
 <br>
 >Adds the new system 'Mego Pug', in eastern Bunrodea space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the readme for details.
 
