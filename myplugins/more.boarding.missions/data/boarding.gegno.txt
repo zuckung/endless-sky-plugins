@@ -1,0 +1,269 @@
+# 7 assisting gegno scin + 7 assisting gegno vi
+
+# mission "Assisting Gegno Scin (Interceptor)"
+# mission "Assisting Gegno Scin (Light Warship)"
+# mission "Assisting Gegno Scin (Transport)"
+# mission "Assisting Gegno Scin (Light Freighter)"
+# mission "Assisting Gegno Scin (Medium Warship)"
+# mission "Assisting Gegno Scin (Heavy Freighter)"
+# mission "Assisting Gegno Scin (Heavy Warship)"
+# mission "Assisting Gegno Vi (Interceptor)"
+# mission "Assisting Gegno Vi (Light Warship)"
+# mission "Assisting Gegno Vi (Transport)"
+# mission "Assisting Gegno Vi (Light Freighter)"
+# mission "Assisting Gegno Vi (Medium Warship)"
+# mission "Assisting Gegno Vi (Heavy Freighter)"
+# mission "Assisting Gegno Vi (Heavy Warship)"
+
+
+
+mission "Assisting Gegno Scin (Interceptor)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Scin"
+		category "Interceptor" "Fighter"
+	on offer
+		payment 14000
+		conversation
+			scene "scene/assisting07"
+			`After you've repaired the Gegno Scin ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Scin (Light Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Scin"
+		category "Light Warship"
+	on offer
+		payment 19000
+		conversation
+			scene "scene/assisting08"
+			`After you've repaired the Gegno Scin ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Scin (Transport)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Scin"
+		category "Transport"
+	on offer
+		payment 24000
+		conversation
+			scene "scene/assisting09"
+			`After you've repaired the Gegno Scin ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Scin (Light Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Scin"
+		category "Light Freighter"
+	on offer
+		payment 31000
+		conversation
+			scene "scene/assisting10"
+			`After you've repaired the Gegno Scin ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Scin (Medium Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Scin"
+		category "Medium Warship"
+	on offer
+		payment 36000
+		conversation
+			scene "scene/assisting01"
+			`After you've repaired the Gegno Scin ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Scin (Heavy Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Scin"
+		category "Heavy Freighter"
+	on offer
+		payment 41000
+		conversation
+			scene "scene/assisting02"
+			`After you've repaired the Gegno Scin ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Scin (Heavy Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Scin"
+		category "Heavy Warship" "Utility"
+	on offer
+		payment 50000
+		conversation
+			scene "scene/assisting03"
+			`After you've repaired the Gegno Scin ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Vi (Interceptor)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Interceptor" "Fighter"
+	on offer
+		payment 16000
+		conversation
+			scene "scene/assisting04"
+			`After you've repaired the Gegno Vi ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Vi (Light Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Light Warship"
+	on offer
+		payment 21000
+		conversation
+			scene "scene/assisting05"
+			`After you've repaired the Gegno Vi ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Vi (Transport)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Transport"
+	on offer
+		payment 26000
+		conversation
+			scene "scene/assisting06"
+			`After you've repaired the Gegno Vi ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Vi (Light Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Light Freighter"
+	on offer
+		payment 29000
+		conversation
+			scene "scene/assisting07"
+			`After you've repaired the Gegno Vi ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Vi (Medium Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Medium Warship"
+	on offer
+		payment 34000
+		conversation
+			scene "scene/assisting08"
+			`After you've repaired the Gegno Vi ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Vi (Heavy Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Heavy Freighter"
+	on offer
+		payment 39000
+		conversation
+			scene "scene/assisting09"
+			`After you've repaired the Gegno Vi ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline
+
+
+mission "Assisting Gegno Vi (Heavy Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Gegno Vi"
+		category "Heavy Warship" "Utility"
+	on offer
+		payment 50000
+		conversation
+			scene "scene/assisting10"
+			`After you've repaired the Gegno Vi ship <origin>, the captain gestures wildly. After some time you realize that he thanks you for your assistance. You accept the payment of <payment> he hands over.`
+				decline

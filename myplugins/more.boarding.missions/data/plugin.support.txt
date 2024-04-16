@@ -1,0 +1,123 @@
+# for plugin more.arfectas: 3 boarding pug farm + 3 boarding pug farm for outfit
+
+# mission "Boarding Pug Farm (Light Warship)"
+# mission "Boarding Pug Farm (Medium Warship)"
+# mission "Boarding Pug Farm (Heavy Warship)"
+# mission "Boarding Pug Farm staff(Light Warship)"
+# mission "Boarding Pug Farm staff(Medium Warship)"
+# mission "Boarding Pug Farm staff(Heavy Warship)"
+
+
+
+mission "Boarding Pug Farm (Light Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.arfectas"
+		random > 89
+	source
+		government "Pug (Farm)"
+		category "Light Warship"
+	on offer
+		payment 100000
+		conversation
+			scene "scene/boarding08"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You transport your loot, worth <payment>, back to your ship.`
+				decline
+
+
+mission "Boarding Pug Farm (Medium Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.arfectas"
+		random > 89
+	source
+		government "Pug (Farm)"
+		category "Medium Warship"
+	on offer
+		payment 150000
+		conversation
+			scene "scene/boarding09"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You transport your loot, worth <payment>, back to your ship.`
+				decline
+
+
+mission "Boarding Pug Farm (Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.arfectas"
+		random > 89
+	source
+		government "Pug (Farm)"
+		category "Heavy Warship"
+	on offer
+		payment 200000
+		conversation
+			scene "scene/boarding10"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You transport your loot, worth <payment>, back to your ship.`
+				decline
+
+
+mission "Boarding Pug Farm staff(Light Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.arfectas"
+		random > 98
+	source
+		government "Pug (Farm)"
+		category "Light Warship"
+	on offer
+		outfit "Pug War Staff"
+		conversation
+			scene "outfit/pug war staff"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You found a special version of the "Pug Peacekeeping Staff", the more powerful "Pug War Staff".`
+				decline
+
+
+mission "Boarding Pug Farm staff(Medium Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.arfectas"
+		random > 97
+	source
+		government "Pug (Farm)"
+		category "Medium Warship"
+	on offer
+		outfit "Pug War Staff"
+		conversation
+			scene "outfit/pug war staff"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You found a special version of the "Pug Peacekeeping Staff", the more powerful "Pug War Staff".`
+				decline
+
+
+mission "Boarding Pug Farm staff(Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		has "installed plugin: more.arfectas"
+		random > 96
+	source
+		government "Pug (Farm)"
+		category "Heavy Warship"
+	on offer
+		outfit "Pug War Staff"
+		conversation
+			scene "outfit/pug war staff"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You found a special version of the "Pug Peacekeeping Staff", the more powerful "Pug War Staff".`
+				decline

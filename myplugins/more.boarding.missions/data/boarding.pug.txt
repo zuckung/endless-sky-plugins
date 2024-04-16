@@ -1,0 +1,129 @@
+# 3 boarding pug + 3 boarding pug for outfit
+
+# outfit "Pug War Staff"
+# mission "Boarding Pug (Light Warship)"
+# mission "Boarding Pug (Medium Warship)"
+# mission "Boarding Pug (Heavy Warship)"
+# mission "Boarding Pug staff(Light Warship)"
+# mission "Boarding Pug staff(Medium Warship)"
+# mission "Boarding Pug staff(Heavy Warship)"
+
+
+
+outfit "Pug War Staff"
+	plural "Pug War Staves"
+	category "Unique"
+	cost 1234567
+	thumbnail "outfit/pug war staff"
+	"capture attack" 23
+	"capture defense" 23
+	"unplunderable" 1
+	description "Though designed for planetary population control, the peacekeeping staff also works exceptionally well for ship defense. The staff emits a short-ranged beam that incapacitates anyone it touches by causing them to enter a euphoric and hallucinogenic state, wandering off to somewhere where they won't cause any trouble. Coming down from the state of euphoria is never pleasant. This is a more powerful version of the original peacekeeping staff made for attacking." 
+
+
+mission "Boarding Pug (Light Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Pug" "Pug (Wanderer)"
+		category "Light Warship"
+	on offer
+		payment 100000
+		conversation
+			scene "scene/boarding08"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You transport your loot, worth <payment>, back to your ship.`
+				decline
+
+
+mission "Boarding Pug (Medium Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Pug" "Pug (Wanderer)"
+		category "Medium Warship"
+	on offer
+		payment 150000
+		conversation
+			scene "scene/boarding09"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You transport your loot, worth <payment>, back to your ship.`
+				decline
+
+
+mission "Boarding Pug (Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Pug" "Pug (Wanderer)"
+		category "Heavy Warship"
+	on offer
+		payment 200000
+		conversation
+			scene "scene/boarding10"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You transport your loot, worth <payment>, back to your ship.`
+				decline
+
+
+mission "Boarding Pug staff(Light Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 98
+	source
+		government "Pug" "Pug (Wanderer)"
+		category "Light Warship"
+	on offer
+		outfit "Pug War Staff"
+		conversation
+			scene "outfit/pug war staff"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You found a special version of the "Pug Peacekeeping Staff", the more powerful "Pug War Staff".`
+				decline
+
+
+mission "Boarding Pug staff(Medium Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 97
+	source
+		government "Pug" "Pug (Wanderer)"
+		category "Medium Warship"
+	on offer
+		outfit "Pug War Staff"
+		conversation
+			scene "outfit/pug war staff"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You found a special version of the "Pug Peacekeeping Staff", the more powerful "Pug War Staff".`
+				decline
+
+
+mission "Boarding Pug staff(Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 96
+	source
+		government "Pug" "Pug (Wanderer)"
+		category "Heavy Warship"
+	on offer
+		outfit "Pug War Staff"
+		conversation
+			scene "outfit/pug war staff"
+			`As you board the Pug ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You found a special version of the "Pug Peacekeeping Staff", the more powerful "Pug War Staff".`
+				decline

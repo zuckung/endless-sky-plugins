@@ -1,0 +1,383 @@
+# 7 assisting hai + 5 assisting unfettered + 5 boarding unfettered + 3 boarding unfettered with outfit
+
+# mission "Assisting Hai (Interceptor)"
+# mission "Assisting Hai (Light Warship)"
+# mission "Assisting Hai (Transport)"
+# mission "Assisting Hai (Light Freighter)"
+# mission "Assisting Hai (Medium Warship)"
+# mission "Assisting Hai (Heavy Freighter)"
+# mission "Assisting Hai (Heavy Warship)"
+# mission "Assisting Hai Unfettered (Interceptor)"
+# mission "Assisting Hai Unfettered (Light Warship)"
+# mission "Assisting Hai Unfettered (Light Freighter)"
+# mission "Assisting Hai Unfettered (Medium Warship)"
+# mission "Assisting Hai Unfettered (Heavy Warship)"
+# mission "Boarding Hai Unfettered (Interceptor)"
+# mission "Boarding Hai Unfettered (Light Warship)"
+# mission "Boarding Hai Unfettered (Light Freighter)"
+# mission "Boarding Hai Unfettered (Medium Warship)"
+# mission "Boarding Hai Unfettered (Heavy Warship)"
+# mission "Boarding Hai Unfettered (tripulse shredder)"
+# mission "Boarding Hai Unfettered (ionic blaster)"
+# mission "Boarding Hai Unfettered (ionic turret)"
+
+
+
+mission "Assisting Hai (Interceptor)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai"
+		category "Interceptor"
+	on offer
+		payment 20000
+		conversation
+			scene "scene/assisting01"
+			`When you repair the Hai ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Hai (Light Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai"
+		category "Light Warship"
+	on offer
+		payment 24000
+		conversation
+			scene "scene/assisting02"
+			`When you repair the Hai ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Hai (Transport)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai"
+		category "Transport"
+	on offer
+		payment 30000
+		conversation
+			scene "scene/assisting03"
+			`When you repair the Hai ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Hai (Light Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai"
+		category "Light Freighter"
+	on offer
+		payment 36000
+		conversation
+			scene "scene/assisting04"
+			`When you repair the Hai ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Hai (Medium Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai"
+		category "Medium Warship"
+	on offer
+		payment 40000
+		conversation
+			scene "scene/assisting05"
+			`When you repair the Hai ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Hai (Heavy Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai"
+		category "Heavy Freighter"
+	on offer
+		payment 50000
+		conversation
+			scene "scene/assisting06"
+			`When you repair the Hai ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Hai (Heavy Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai"
+		category "Heavy Warship"
+	on offer
+		payment 60000
+		conversation
+			scene "scene/assisting07"
+			`When you repair the Hai ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Hai Unfettered (Interceptor)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Interceptor"
+	on offer
+		payment 30000
+		conversation
+			scene "scene/assisting08"
+			`When you repair the Unfettered ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Hai Unfettered (Light Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Light Warship"
+	on offer
+		payment 36000
+		conversation
+			scene "scene/assisting09"
+			`When you repair the Unfettered ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Hai Unfettered (Light Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Light Freighter"
+	on offer
+		payment 54000
+		conversation
+			scene "scene/assisting10"
+			`When you repair the Unfettered ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Hai Unfettered (Medium Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Medium Warship"
+	on offer
+		payment 60000
+		conversation
+			scene "scene/assisting01"
+			`When you repair the Unfettered ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Hai Unfettered (Heavy Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Heavy Warship"
+	on offer
+		payment 90000
+		conversation
+			scene "scene/assisting02"
+			`When you repair the Unfettered ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Boarding Hai Unfettered (Interceptor)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Interceptor"
+	on offer
+		payment 30000
+		conversation
+			scene "scene/boarding02"
+			`When you board the Unfettered ship <origin>, you stumble over a chest full of valuable gems, worth <payment> credits. You take it back to your ship.`
+				decline
+
+
+mission "Boarding Hai Unfettered (Light Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Light Warship"
+	on offer
+		payment 36000
+		conversation
+			scene "scene/boarding03"
+			`When you board the Unfettered ship <origin>, you stumble over a chest full of valuable gems, worth <payment> credits. You take it back to your ship.`
+				decline
+
+
+mission "Boarding Hai Unfettered (Light Freighter)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Light Freighter"
+	on offer
+		payment 54000
+		conversation
+			scene "scene/boarding04"
+			`When you board the Unfettered ship <origin>, you stumble over a chest full of valuable gems, worth <payment> credits. You take it back to your ship.`
+				decline
+
+
+mission "Boarding Hai Unfettered (Medium Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Medium Warship"
+	on offer
+		payment 60000
+		conversation
+			scene "scene/boarding05"
+			`When you board the Unfettered ship <origin>, you stumble over a chest full of valuable gems, worth <payment> credits. You take it back to your ship.`
+				decline
+
+
+mission "Boarding Hai Unfettered (Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Heavy Warship"
+	on offer
+		payment 90000
+		conversation
+			scene "scene/boarding06"
+			`When you board the Unfettered ship <origin>, you stumble over a chest full of valuable gems, worth <payment> credits. You take it back to your ship.`
+				decline
+
+
+mission "Boarding Hai Unfettered (tripulse shredder)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 96
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Heavy Warship" "Medium Warship" "Light Freighter" "Light Warship"
+	on offer
+		outfit "Tripulse Shredder" 1
+		conversation
+			scene "outfit/tripulse shredder"
+			`When you board the Unfettered ship <origin>, you find an unknown ship weapon in one of the cargo rooms. It looks like some kind of projectile gun. You decide to take it back to your ship.`
+				decline
+
+
+mission "Boarding Hai Unfettered (ionic blaster)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 96
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Heavy Warship" "Medium Warship" "Light Freighter" "Light Warship"
+	on offer
+		outfit "Ionic Blaster Prototype" 1
+		conversation
+			scene "outfit/hai ionic blaster"
+			`When you board the Unfettered ship <origin>, you find an unknown ship weapon in one of the cargo rooms. It looks like some kind of ionic gun. You decide to take it back to your ship.`
+				decline
+
+
+mission "Boarding Hai Unfettered (ionic turret)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 96
+	source
+		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		category "Heavy Warship" "Medium Warship" "Light Freighter" "Light Warship"
+	on offer
+		outfit "Ionic Turret Prototype" 1
+		conversation
+			scene "outfit/hai ionic turret"
+			`When you board the Unfettered ship <origin>, you find an unknown ship weapon in one of the cargo rooms. It looks like some kind of ionic turret weapon. You decite to take it back to your ship.`
+				decline

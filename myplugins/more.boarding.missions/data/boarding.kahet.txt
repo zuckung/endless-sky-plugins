@@ -1,0 +1,60 @@
+# 3 boarding kahet
+
+# mission "Boarding kahet (light)"
+# mission "Boarding kahet (medium)"
+# mission "Boarding kahet (heavy)"
+
+
+
+mission "Boarding kahet (light)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 64
+	source
+		government "Ka'het"
+		category "Light Warship" "Interceptor"
+	on offer
+		payment 150000
+		conversation
+			scene "scene/kahetboarding01"
+			`Although you can't capture this Ka'het 'ship', there is nothing stopping you from searching for valuables. In a small room, probably some kind of side-stomach, you find lots of ores and even some valuable gems. Your loot is worth <payment>.`
+				decline
+
+
+mission "Boarding kahet (medium)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 69
+	source
+		government "Ka'het"
+		category "Medium Warship"
+	on offer
+		payment 200000
+		conversation
+			scene "scene/kahetboarding02"
+			`Although you can't capture this Ka'het 'ship', there is nothing stopping you from searching for valuables. In a small room, probably some kind of side-stomach, you find lots of ores and even some valuable gems. Your loot is worth <payment>.`
+				decline
+
+
+mission "Boarding kahet (heavy)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 74
+	source
+		government "Ka'het"
+		category "Heavy Warship"
+	on offer
+		payment 250000
+		conversation
+			scene "scene/kahetboarding03"
+			`Although you can't capture this Ka'het 'ship', there is nothing stopping you from searching for valuables. In a small room, probably some kind of side-stomach, you find lots of ores and even some valuable gems. Your loot is worth <payment>.`
+				decline

@@ -1,8 +1,14 @@
-# 7 assisting wanderer missions
+# 7 assisting wanderer
 
-conversation "con assisting wanderer"
-	`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
-		decline
+# mission "Assisting Wanderer (Interceptor)"
+# mission "Assisting Wanderer (Light Warship)"
+# mission "Assisting Wanderer (Transport)"
+# mission "Assisting Wanderer (Light Freighter)"
+# mission "Assisting Wanderer (Medium Warship)"
+# mission "Assisting Wanderer (Heavy Freighter)"
+# mission "Assisting Wanderer (Heavy Warship)"
+
+
 
 mission "Assisting Wanderer (Interceptor)"
 	assisting
@@ -17,7 +23,11 @@ mission "Assisting Wanderer (Interceptor)"
 		not attributes "automaton"
 	on offer
 		payment 50000
-		conversation "con assisting wanderer"
+		conversation
+			scene "scene/assisting10"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
 
 mission "Assisting Wanderer (Light Warship)"
 	assisting
@@ -32,7 +42,11 @@ mission "Assisting Wanderer (Light Warship)"
 		not attributes "automaton"
 	on offer
 		payment 75000
-		conversation "con assisting wanderer"
+		conversation
+			scene "scene/assisting01"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
 
 mission "Assisting Wanderer (Transport)"
 	assisting
@@ -47,7 +61,11 @@ mission "Assisting Wanderer (Transport)"
 		not attributes "automaton"
 	on offer
 		payment 65000
-		conversation "con assisting wanderer"
+		conversation
+			scene "scene/assisting02"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
 
 mission "Assisting Wanderer (Light Freighter)"
 	assisting
@@ -62,7 +80,11 @@ mission "Assisting Wanderer (Light Freighter)"
 		not attributes "automaton"
 	on offer
 		payment 60000
-		conversation "con assisting wanderer"
+		conversation
+			scene "scene/assisting03"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
 
 mission "Assisting Wanderer (Medium Warship)"
 	assisting
@@ -77,7 +99,11 @@ mission "Assisting Wanderer (Medium Warship)"
 		not attributes "automaton"
 	on offer
 		payment 85000
-		conversation "con assisting wanderer"
+		conversation
+			scene "scene/assisting04"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
 
 mission "Assisting Wanderer (Heavy Freighter)"
 	assisting
@@ -92,7 +118,11 @@ mission "Assisting Wanderer (Heavy Freighter)"
 		not attributes "automaton"
 	on offer
 		payment 80000
-		conversation "con assisting wanderer"
+		conversation
+			scene "scene/assisting05"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
 
 mission "Assisting Wanderer (Heavy Warship)"
 	assisting
@@ -107,4 +137,7 @@ mission "Assisting Wanderer (Heavy Warship)"
 		not attributes "automaton"
 	on offer
 		payment 100000
-		conversation "con assisting wanderer"
+		conversation
+			scene "scene/assisting06"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline

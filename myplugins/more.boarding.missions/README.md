@@ -1,7 +1,7 @@
 ### more.boarding.missions <br>
 <br>
 <br>
-Adds 67 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
+Adds 70 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
 <br>
 <ul>
 <li> 7 Human assisting missions (by ship categories, 20% chance, 10.000 to 30.000 credits)</li>
@@ -17,10 +17,19 @@ Adds 67 repeatable boarding and assisting missions. Boarding/assisting Free Worl
 <li> 7 Wanderer assisting missions (by ship categories, 10% chance, 50.000 to 100.000 credits)</li>
 <li> 7 Gegno Scin assisting missions (by ship categories, 20% chance, 14.000 to 50.000 credits)</li>
 <li> 7 Gegno Vi assisting missions (by ship categories, 20% chance, 16.000 to 50.000 credits)</li>
+<li> 3 Ka'het boarding missions (by ship categories, 25-35% chance, 150.000 to 250.000 credits)</li>
+<li> support for plugin more.arfectas(6 pug farm boarding missions)</li>
 </ul>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/more.boarding.missions/screenshot.jpg' width='400'>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-04-16<br>
+added 3 Ka'het boarding missions<br>
+added 23 scene images, boarding looks great now<br>
+added support for plugin more.arfectas<br>
+reorganized/renamed files(delete old files on update)<br>
 <br>
 2024-03-15<br>
 bugfixes<br>

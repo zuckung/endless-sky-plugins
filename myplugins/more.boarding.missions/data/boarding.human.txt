@@ -1,0 +1,360 @@
+# 7 assisting human + 7 boarding pirate + 4 boarding pirate for outfit
+
+# mission "Assisting Human (Interceptor)"
+# mission "Assisting Human (Light Warship)"
+# mission "Assisting Human (Transport)"
+# mission "Assisting Human (Light Freighter)"
+# mission "Assisting Human (Medium Warship)"
+# mission "Assisting Human (Heavy Freighter)"
+# mission "Assisting Human (Heavy Warship)"
+# conversation "boarding pirate"
+# mission "Boarding Pirate ID (Interceptor)"
+# mission "Boarding Pirate ID (Light Warship)"
+# mission "Boarding Pirate ID (Transport)"
+# mission "Boarding Pirate ID (Light Freighter)"
+# mission "Boarding Pirate ID (Medium Warship)"
+# mission "Boarding Pirate ID (Heavy Freighter)"
+# mission "Boarding Pirate ID (Heavy Warship)"
+# mission "Boarding Pirate AD (Interceptor)"
+# mission "Boarding Pirate AD (Light Warship)"
+# mission "Boarding Pirate AD (Medium Warship)"
+# mission "Boarding Pirate AD (Heavy Warship)"
+
+
+
+mission "Assisting Human (Interceptor)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
+		category "Interceptor"
+		not attributes "automaton"
+	on offer
+		payment 10000
+		conversation
+			scene "scene/assisting03"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Human (Light Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
+		category "Light Warship"
+		not attributes "automaton"
+	on offer
+		payment 12000
+		conversation
+			scene "scene/assisting04"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Human (Transport)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
+		category "Transport"
+		not attributes "automaton"
+	on offer
+		payment 15000
+		conversation
+			scene "scene/assisting05"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Human (Light Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
+		category "Light Freighter"
+		not attributes "automaton"
+	on offer
+		payment 18000
+		conversation
+			scene "scene/assisting06"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Human (Medium Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
+		category "Medium Warship"
+		not attributes "automaton"
+	on offer
+		payment 20000
+		conversation
+			scene "scene/assisting07"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Human (Heavy Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
+		category "Heavy Freighter"
+		not attributes "automaton"
+	on offer
+		payment 25000
+		conversation
+			scene "scene/assisting08"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Human (Heavy Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independant"
+		category "Heavy Warship"
+		not attributes "automaton"
+	on offer
+		payment 30000
+		conversation
+			scene "scene/assisting09"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+# modified vanilla boarding conversation
+conversation "boarding pirate"
+	scene "scene/boarding07"
+	`You make short-range scans of the <origin>'s outfits and cargo. Among the cargo, you find a crate full of credit chips worth <payment>. You drag the crate onto your ship before considering your next move.`
+		decline
+
+
+mission "Boarding Pirate ID (Interceptor)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Pirate"
+		category "Interceptor"
+	on offer
+		payment 5000
+		conversation
+			scene "scene/boarding01"
+			`As you board the "<origin>", you find the pirate captain died by an explosion. You check his ID on the galactic network feed and receive <payment> credits bounty.`
+				decline
+
+
+mission "Boarding Pirate ID (Light Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Pirate"
+		category "Light Warship"
+	on offer
+		payment 10000
+		conversation
+			scene "scene/boarding01"
+			`As you board the "<origin>", you find the pirate captain died by an explosion. You check his ID on the galactic network feed and receive <payment> credits bounty.`
+				decline
+
+
+mission "Boarding Pirate ID (Transport)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Pirate"
+		category "Transport"
+	on offer
+		payment 9000
+		conversation
+			scene "scene/boarding02"
+			`As you board the "<origin>", you find the pirate captain died by an explosion. You check his ID on the galactic network feed and receive <payment> credits bounty.`
+				decline
+
+
+mission "Boarding Pirate ID (Light Freighter)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Pirate"
+		category "Light Freighter"
+	on offer
+		payment 8000
+		conversation
+			scene "scene/boarding03"
+			`As you board the "<origin>", you find the pirate captain died by an explosion. You check his ID on the galactic network feed and receive <payment> credits bounty.`
+				decline
+
+
+mission "Boarding Pirate ID (Medium Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Pirate"
+		category "Medium Warship"
+	on offer
+		payment 17000
+		conversation
+			scene "scene/boarding04"
+			`As you board the "<origin>", you find the pirate captain died by an explosion. You check his ID on the galactic network feed and receive <payment> credits bounty.`
+				decline
+
+
+mission "Boarding Pirate ID (Heavy Freighter)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Pirate"
+		category "Heavy Freighter"
+	on offer
+		payment 13000
+		conversation
+			scene "scene/boarding05"
+			`As you board the "<origin>", you find the pirate captain died by an explosion. You check his ID on the galactic network feed and receive <payment> credits bounty.`
+				decline
+
+
+mission "Boarding Pirate ID (Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Pirate"
+		category "Heavy Warship"
+	on offer
+		payment 25000
+		conversation
+			scene "scene/boarding06"
+			`As you board the "<origin>", you find the pirate captain died by an explosion. You check his ID on the galactic network feed and receive <payment> credits bounty.`
+				decline
+
+
+mission "Boarding Pirate AD (Interceptor)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 98
+	source
+		government "Pirate"
+		category "Interceptor"
+	on offer
+		outfit "NDR-114 Android" 1
+		conversation
+			scene "outfit/android"
+			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approches from the machine room. You decide to take the android to your ship.`
+				decline
+
+
+mission "Boarding Pirate AD (Light Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 97
+	source
+		government "Pirate"
+		category "Light Warship" "Transport" "Light Freighter"
+	on offer
+		outfit "NDR-114 Android" 1
+		conversation
+			scene "outfit/android"
+			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approches from the machine room. You decide to take the android to your ship.`
+				decline
+
+
+mission "Boarding Pirate AD (Medium Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 96
+	source
+		government "Pirate"
+		category "Medium Warship" "Heavy Freighter"
+	on offer
+		outfit "NDR-114 Android" 1
+		conversation
+			scene "outfit/android"
+			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approches from the machine room. You decide to take the android to your ship.`
+				decline
+
+
+mission "Boarding Pirate AD (Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 95
+	source
+		government "Pirate"
+		category "Heavy Warship"
+	on offer
+		outfit "NDR-114 Android" 1
+		conversation
+			scene "outfit/android"
+			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approches from the machine room. You decide to take the android to your ship.`
+				decline
