@@ -3,14 +3,18 @@
 # mission "Hiding in Plain Sight" (removed secret leaks & resolution)
 # mission "Nanachi 1" (removed secret leaks & resolution) followups are ok
 # mission "Expanding Business [1]" (removed resolution) followups are ok
+# mission "Hai Reveal: Pirate Troubles [0]" (removed chain requirement) followups are ok
+# mission "ZZ Hai Reveal [A04] Report to Teeneep" (removed pirate troubles to stop chain again)
 
 
-mission "Unwanted Cargo Trigger"
+mission "unlocked Unwanted Cargo Trigger"
 	invisible
 	landing
 	source
 		government "Hai"
 		not attributes "uninhabited"
+		"hr: secret leaks"
+		not "Unwanted Cargo Trigger: offered"
 	to offer
 		random < 1
 		"cargo space" > 0
@@ -19,13 +23,15 @@ mission "Unwanted Cargo Trigger"
 		fail
 
 
-mission "Unwanted Cargo"
+mission "unlocked Unwanted Cargo"
 	minor
 	landing
 	description "Bring a Hai child who hid in your cargo hold back to <destination>."
 	source
 		not government "Hai" "Hai (Unfettered)"
 		not near "Heia Due" 0 100
+		"hr: secret leaks"
+		not "Unwanted Cargo: offered"
 	destination "Allhome"
 	to offer
 		has "event: hai in cargo"
@@ -65,12 +71,14 @@ mission "Unwanted Cargo"
 		dialog `You contact the spaceport authorities of <planet> and ask them if they are looking for a lost Hai child. It turns out that the family was so worried that they put up a <payment> reward for finding their son. A Hai spaceport worker takes the child from your ship and thanks you for finding him for the family.`
 
 
-mission "Hiding in Plain Sight"
+mission "unlocked Hiding in Plain Sight"
 	description "Bring Arthur and his Hai friend Kiru to <destination> for a gaming convention by <date>."
 	minor
 	source
 		government "Hai"
 		not attributes "station"
+		not "Hiding in Plain Sight: offered"
+		"hr: secret leaks"
 	destination "Vinci"
 	passengers 2
 	deadline 30
@@ -106,7 +114,7 @@ mission "Hiding in Plain Sight"
 
 
 
-mission "Nanachi 1"
+mission "unlocked Nanachi 1"
 	name "Escort Nanachi to <planet>"
 	description "Help Nanachi, a Hai who just bought her first ship, make a simple delivery to <destination> by <date>."
 	minor
@@ -118,6 +126,8 @@ mission "Nanachi 1"
 		"net worth" > 20000000
 		"combat rating" > 1200
 		has "First Contact: Hai: offered"
+		not "Nanachi 1: offered"
+		"hr: secret leaks"
 	on offer
 		conversation
 			`As you are making your way through the spaceport you notice a worried-looking Hai staring at the local job board and back at some sort of document they are holding.`
@@ -157,6 +167,8 @@ mission "Nanachi 1"
 	on visit
 		dialog `You have reached <planet>, but you left Nanachi's ship behind! Better depart and wait for her to arrive in this star system.`
 	on complete
+		set "Nanachi 1: done"
+		set "Nanachi 1: offered"
 		conversation
 			`Shortly after her ship lands, you meet up with Nanachi, who is doing her best to hide her excitement at being on another planet for the first time, and is gawking at some Hai military ships in particular. "So, how did you like your first time doing a hyperspace jump?" you ask, to try and snap her out of it.`
 			`	"Oh um, I don't think I'll get used to the feeling anytime soon. I threw up a lot so I'm glad this wasn't a job with passengers. I've always dreamt of being on other worlds, exploring and learning everything about them. I'm glad I'm finally able to do it."`
@@ -166,7 +178,7 @@ mission "Nanachi 1"
 			`	You two agree to meet in the spaceport in a few hours; maybe this time she will do fine on her own.`
 
 
-mission "Expanding Business [1]"
+mission "unlocked Expanding Business [1]"
 	name "An Interesting Proposition"
 	description "Travel with businessman David Turner to <destination> where a convoy of freighters are awaiting escort."
 	minor
@@ -221,5 +233,70 @@ mission "Expanding Business [1]"
 	on visit
 		dialog `You've reached <planet>, but you've left Turner behind. Wait for Turner's ship to arrive before landing.`
 	on complete
+		set "Expanding Business [1]: done"
+		set "Expanding Business [1]: offered"
 		dialog `The freighters are ready to launch by the time you get to <planet>. "Now we just need to escort these freighters to Follower in the Alphard system and back in one piece," Turner exclaims, hopping back on to his Star Queen.`
 
+
+mission "unlocked Hai Reveal: Pirate Troubles [0]"
+	name "Defend <system>"
+	description "A sizable group of pirates has found their way into Hai space and is terrorizing the system. Help the Hai fight back against them."
+	source
+		near "Waypoint" 3
+		government "Hai"
+		not planet "Allhome"
+	to offer
+		has "First Contact: Unfettered: offered
+		"combat rating" > 1100
+		random < 10
+	on offer
+		conversation
+			`The peaceful spaceport is suddenly filled with the harsh sound of sirens. You spot some Hai and a small number of humans running to their ships and speeding quickly into orbit. It appears that the system is under attack, but this is behind the heightened security front in Allhome and the Unfettered Hai never reach this far south... A loud speaker begins blaring throughout the spaceport: "Unfettered humans have entered the system in a large fleet and have begun attacking! Requesting all combat-worthy pilots to assist in the defense of our space. These enemies of harmony are not welcome here."`
+			branch unfettered
+				has "Unfettered: Jump Drive Source: offered"
+			`	You find the phrase "unfettered humans" odd, but guess that they may be referring to pirates who have somehow slipped through. The Hai probably expect you help with your reputation, and this is certainly a significant threat to be attacking here.`
+				goto choice
+			label unfettered
+			`	Your heart drops at the phrase "unfettered humans," as the last time you heard that was when the Unfettered Hai used that phrase to refer to the Alphas. If it is really the Alphas attacking the Hai, then it is probably a good idea to help.`
+			label choice
+			choice
+				`	(Join the defense fleet.)`
+					launch
+				`	(Stay here until the fight is over.)`
+					decline
+	on decline
+		dialog `You have declined an essential narrative mission. If you want to complete this story line, revert to the autosave or another earlier snapshot of the game.`
+		# Maybe we'll put in a workaround alternative pathway later.
+	npc
+		government "Hai"
+		personality staying
+		fleet "Large Hai"
+	npc
+		government "Merchant"
+		personality staying
+		fleet "Large Human Merchants (Hai)"
+	npc evade
+		government "Pirate"
+		personality staying
+		fleet
+			names "pirate"
+			variant
+				"Leviathan" 2
+				"Mule" 2
+				"Firebird"
+				"Headhunter" 3
+				"Raven" 3
+	on complete
+		set "Hai Reveal: Pirate Troubles [0]: done"
+		set "Hai Reveal: Pirate Troubles [0]: offered"
+
+mission "ZZ Hai Reveal [A04] Report to Teeneep"
+	landing
+	name "Report to Teeneep"
+	description `Tell Teeneep about the experience with Scar's Legion.`
+	source "Hai-home"
+	destination Darkwaste
+	to offer
+		has "event: alondo symbol timer"
+	on offer
+		dialog `While resolving the situation with Scar's Legion, you have learned information which should be reported to Alondo, but apparently he is away somewhere and unavailable for a short while. Even if the delay were a risk you could afford to take, simply waiting for him at this point may draw suspicion. This whole situation is probably something Teeneep should be informed of, though, and doing so may also help shed some light on the grander schemes at play. Return to and speak with her, instead.`
