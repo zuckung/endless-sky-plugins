@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-15 | update: more.arfectas<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-16 | update: more.boarding.missions<br>
+2024-04-15 | update: more.arfectas<br>
 2024-04-14 | update: more.arfectas<br>
 2024-04-13 | update: devil-run.unhidden<br>
 2024-04-13 | update: snowfeather.robotics<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-06 | update: captureable.person.ships<br>
 2024-04-06 | update: disable.spaceport.repeatables<br>
 2024-04-05 | update: galactic.capital.investment<br>
-2024-04-05 | repo update: versioning implemented<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1663,7 +1663,7 @@ added plugin.txt<br>
 
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
 
-[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 26.8 kb | 2024-03-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
+[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 1.62 mb | 2024-04-16 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the readme for details.
 <details>
@@ -1674,7 +1674,7 @@ added plugin.txt<br>
 
 <br>
 
-Adds 67 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
+Adds 70 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
 
 <br>
 
@@ -1706,13 +1706,31 @@ Adds 67 repeatable boarding and assisting missions. Boarding/assisting Free Worl
 
 <li> 7 Gegno Vi assisting missions (by ship categories, 20% chance, 16.000 to 50.000 credits)</li>
 
+<li> 3 Ka'het boarding missions (by ship categories, 25-35% chance, 150.000 to 250.000 credits)</li>
+
+<li> support for plugin more.arfectas(6 pug farm boarding missions)</li>
+
 </ul>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/more.boarding.missions/screenshot.jpg' width='400'>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-04-16<br>
+
+added 3 Ka'het boarding missions<br>
+
+added 23 scene images, boarding looks great now<br>
+
+added support for plugin more.arfectas<br>
+
+reorganized/renamed files(delete old files on update)<br>
 
 <br>
 
