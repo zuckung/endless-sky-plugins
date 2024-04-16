@@ -1450,9 +1450,9 @@ initial release<br>
 
 <img src="myplugins/hai.side.mission.unlocker/icon.png" height="100">
 
-[hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/hai.side.mission.unlocker.zip) | 28.34 kb | 2024-04-16 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) <br>
+[hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/hai.side.mission.unlocker.zip) | 29.67 kb | 2024-04-16 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) <br>
 <br>
->Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1]. If there are followups they work too. See the readme for details.
+>Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1462,7 +1462,7 @@ initial release<br>
 
 <br>
 
-Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1]. If there are followups they work too.<br>
+Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too.<br>
 
 <br>
 
@@ -1477,6 +1477,8 @@ mission "Hiding in Plain Sight" (removed secret leaks & resolution)<br>
 mission "Nanachi 1" (removed secret leaks & resolution) followups are ok<br>
 
 mission "Expanding Business [1]" (removed resolution) followups are ok<br>
+
+mission "Hai Reveal: Pirate Troubles [0]" (Scars Legion cut out of campaign)<br>
 
 <br>
 
