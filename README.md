@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-16 | update: more.boarding.missions<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-16 | update: hai.side.mission.unlocker<br>
+2024-04-16 | update: more.boarding.missions<br>
 2024-04-15 | update: more.arfectas<br>
 2024-04-14 | update: more.arfectas<br>
 2024-04-13 | update: devil-run.unhidden<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-10 | update: bunrodea.missions<br>
 2024-04-06 | update: captureable.person.ships<br>
 2024-04-06 | update: disable.spaceport.repeatables<br>
-2024-04-05 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -44,11 +44,12 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
+<a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
-<a href="README.md#navylicenses">navy.licenses</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#piratewarlords">pirate.warlords</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
@@ -1435,6 +1436,59 @@ initial release<br>
 
 
 
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### hai.side.mission.unlocker
+
+<img src="myplugins/hai.side.mission.unlocker/icon.png" height="100">
+
+[hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/hai.side.mission.unlocker.zip) | 28.34 kb | 2024-04-16 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) <br>
+<br>
+>Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1]. If there are followups they work too. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### hai.side.mission.unlocker
+
+<br>
+
+<br>
+
+Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1]. If there are followups they work too.<br>
+
+<br>
+
+Currently these missions are either completely blocked or blocked after you start chapter 1 of hai reveal. This plugin fixes that.<br>
+
+# mission "Unwanted Cargo Trigger" (removed secret leaks)<br>
+
+# mission "Unwanted Cargo" (removed secret leaks)<br>
+
+# mission "Hiding in Plain Sight" (removed secret leaks & resolution)<br>
+
+# mission "Nanachi 1" (removed secret leaks & resolution) followups are ok<br>
+
+# mission "Expanding Business [1]" (removed resolution) followups are ok<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-04-16<br>
+
+initial release<br>
 
 
 
