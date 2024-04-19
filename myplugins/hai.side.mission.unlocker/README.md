@@ -14,6 +14,9 @@ mission "Hai Reveal: Pirate Troubles [0]" (Scars Legion cut out of campaign)<br>
 <br>
 Changelog:<br>
 <br>
+2024-04-19<br>
+bug fixes<br>
+<br>
 2024-04-16<br>
 initial release<br>
 
