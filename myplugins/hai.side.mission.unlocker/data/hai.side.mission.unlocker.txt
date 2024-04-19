@@ -13,11 +13,11 @@ mission "unlocked Unwanted Cargo Trigger"
 	source
 		government "Hai"
 		not attributes "uninhabited"
-		not "Unwanted Cargo Trigger: offered"
 	to offer
 		has "hr: secret leaks"
 		random < 1
 		"cargo space" > 0
+		not "Unwanted Cargo Trigger: offered"
 	on offer
 		event "hai in cargo" 14
 		fail
@@ -77,7 +77,6 @@ mission "unlocked Hiding in Plain Sight"
 	source
 		government "Hai"
 		not attributes "station"
-		not "Hiding in Plain Sight: offered"
 	destination "Vinci"
 	passengers 2
 	deadline 30
@@ -85,6 +84,7 @@ mission "unlocked Hiding in Plain Sight"
 		random < 30
 		has "First Contact: Hai: offered"
 		has "hr: secret leaks"
+		not "Hiding in Plain Sight: offered"
 	on offer
 		conversation
 			`While eating in a spaceport cafeteria that serves both Hai and human cuisine, you are approached by a teenage human and Hai. "Hello. Do you know how to get to <destination>?" the Hai asks.`
