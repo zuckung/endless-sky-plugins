@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-20 | update: gegno.pirates<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-20 | update: real.fluff<br>
+2024-04-20 | update: gegno.pirates<br>
 2024-04-19 | update: hai.side.mission.unlocker<br>
 2024-04-16 | update: hai.side.mission.unlocker<br>
 2024-04-16 | update: more.boarding.missions<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-13 | update: devil-run.unhidden<br>
 2024-04-13 | update: snowfeather.robotics<br>
 2024-04-13 | update: real.fluff<br>
-2024-04-10 | update: bunrodea.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2068,7 +2068,7 @@ initial release<br>
 
 <img src="myplugins/real.fluff/icon.png" height="100">
 
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 3.02 mb | 2024-04-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
+[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 2.04 mb | 2024-04-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
 <br>
 >A bunch of side missions which reward unique fluffy pets. See the readme for details.
 <details>
@@ -2116,6 +2116,14 @@ After collecting them all, you get a missions (20%) with unique rewards.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-04-21<br>
+
+changed size of alien.png to prevent error.txt mentioning<br>
+
+added 4 more scene images<br>
 
 <br>
 
