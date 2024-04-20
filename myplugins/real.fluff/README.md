@@ -21,6 +21,10 @@ After collecting them all, you get a missions (20%) with unique rewards.<br>
 <br>
 Changelog:<br>
 <br>
+2024-04-21<br>
+changed size of alien.png to prevent error.txt mentioning<br>
+added 4 more scene images<br>
+<br>
 2024-03-13<br>
 added the choice to defer missions<br>
 added the choice to take a pet or not(doesnt influence the final mission)<br>

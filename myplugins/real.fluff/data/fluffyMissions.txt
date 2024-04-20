@@ -88,7 +88,7 @@ mission "cat mission 1"
 mission "ocelot mission 1"
 	minor
 	name "Retrieve stolen jewelry"
-	description "Retrieve stolen jewelry from a pirate ship. The 'Lootbox' must be in one of these three systems: `Tortor, Mintaka or Gorvi."
+	description "Retrieve stolen jewelry from a pirate ship. The 'Lootbox' must be in one of these three systems: Tortor, Mintaka or Gorvi."
 	to offer
 		random > 79
 		"combat rating" > 1000
@@ -294,6 +294,7 @@ mission "ferret mission 2"
 				has "ferret mission 1: done"
 	on offer
 		conversation
+			scene "scene/ferret_cargo"
 			`While inspecting the cargo hold, you hear noises and investigate. In a corner of the cargo hold, behind a few boxes of spare parts, you find a ferret playing with an electronic component lying around. The animal must have escaped from its cage somehow.`
 			`When the ferret sees you, it runs towards you and climbs up your leg. At first the animal's behavior frightens you, but since it doesn't bite you but rather tries to play with you, you quickly calm down again.`
 			choice
@@ -337,6 +338,7 @@ mission "koala mission 1"
 	on complete
 		payment 120000
 		conversation
+			scene "scene/koalas_zoo"
 			`After landing on 'Shroud', the koala gets picked up directly by local zoo staff. A friendly young animal caretaker offers you to accompany the transport and see 'Archie' the koala in his new home. Since you still have to get some papers signed by the zoo management, you agree.`
 			`When 'Archie' is released into his new enclosure, you see a terrible picture. The otherwise sluggish koalas rush towards 'Archie' and bite him. The young animal caretaker bravely intervenes and carries him out of the enclosure, away from the other koalas.`
 			`The zoo director who observed the process with you turns to you.`
@@ -393,6 +395,7 @@ mission "rabbit mission 2"
 				has "rabbit mission 1: done"
 	on offer
 		conversation
+			scene "scene/man_rabbit"
 			`Half an hour later, Owen appears in front of your ship again.`
 			`  "Hello, Captain <first>, we have a little problem. Customs won't let us enter with the rabbit. They say that an invasive population of rabbits, which has displaced the local animals, has just been eradicated on 'Clark'. We have to put poor 'Thumper' to sleep. Sophie then came up with the idea that maybe you could look after him. I would of course understand if you refuse."`
 			choice
@@ -497,6 +500,7 @@ mission "squirrel mission 3"
 		has "squirrel mission 2: done"
 	on offer
 		conversation
+			scene "scene/pet_store"
 			`After questioning around for squirrels, the Spaceport Information Center directs you to a local pet store. Once there, you learn that squirrels have been extinct on earth for over 600 years. When Xanua quickly agreed to pay 500,000 credits, you were happy about the easy money to earn. But if this is going to be a galaxy-wide quest, then that probably wasn't enough. The pet dealer offers you to get a squirrel within two months. After some discussion, he gives you the contact details of his supplier. Off to Amazon in the Shedar system!`
 				accept
 	on complete
