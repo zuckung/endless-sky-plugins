@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-19 | update: hai.side.mission.unlocker<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-20 | update: gegno.pirates<br>
+2024-04-19 | update: hai.side.mission.unlocker<br>
 2024-04-16 | update: hai.side.mission.unlocker<br>
 2024-04-16 | update: more.boarding.missions<br>
 2024-04-15 | update: more.arfectas<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-13 | update: snowfeather.robotics<br>
 2024-04-13 | update: real.fluff<br>
 2024-04-10 | update: bunrodea.missions<br>
-2024-04-06 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1313,7 +1313,7 @@ moved investment missions from spaceport mission to job board<br>
 
 <img src="myplugins/gegno.pirates/icon.png" height="100">
 
-[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/gegno.pirates.zip) | 238.06 kb | 2024-03-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
+[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/gegno.pirates.zip) | 238.11 kb | 2024-04-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
 <br>
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the readme for details.
 
@@ -1388,6 +1388,12 @@ Remove the 8 lines containing: "Gegno Civilian" "Gegno Driller"	 "Scin Adjutant"
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-03-20<br>
+
+fixed missing hyperlink from asio to uuba (thx isaias for reporting)<br>
 
 <br>
 
