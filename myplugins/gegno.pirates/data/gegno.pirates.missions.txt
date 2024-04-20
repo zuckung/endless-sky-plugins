@@ -79,6 +79,7 @@ event "reveal gegno outfitter"
 	system "Uuba"
 		remove hidden
 	link Asio Uuba
+	link Uuba Asio
 
 # boarding for licenses
 
