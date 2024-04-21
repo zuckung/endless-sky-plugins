@@ -1,0 +1,155 @@
+# 7 remnant assisting + 4 remnant assisting for outfit
+
+# mission "Assisting Remnant (Interceptor)"
+# mission "Assisting Remnant (Light Warship)"
+# mission "Assisting Remnant (Transport)"
+# mission "Assisting Remnant (Light Freighter)"
+# mission "Assisting Remnant (Medium Warship)"
+# mission "Assisting Remnant (Heavy Freighter)"
+# mission "Assisting Remnant (Heavy Warship)"
+# mission "Assisting Remnant Void Rifle"
+
+
+
+
+mission "Assisting Remnant (Interceptor)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 49
+	source
+		government "Remnant"
+		category "Interceptor" "Fighter"
+	on offer
+		payment 20000
+		conversation
+			scene "scene/assisting01"
+			`When you repair the Remnant ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Remnant (Light Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 49
+	source
+		government "Remnant"
+		category "Light Warship"
+	on offer
+		payment 30000
+		conversation
+			scene "scene/assisting02"
+			`When you repair the Remnant ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Remnant (Transport)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 49
+	source
+		government "Remnant"
+		category "Transport"
+	on offer
+		payment 40000
+		conversation
+			scene "scene/assisting03"
+			`When you repair the Remnant ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Remnant (Light Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 49
+	source
+		government "Remnant"
+		category "Light Freighter"
+	on offer
+		payment 55000
+		conversation
+			scene "scene/assisting04"
+			`When you repair the Remnant ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Remnant (Medium Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 49
+	source
+		government "Remnant"
+		category "Medium Warship" 
+	on offer
+		payment 70000
+		conversation
+			scene "scene/assisting05"
+			`When you repair the Remnant ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Remnant (Heavy Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 49
+	source
+		government "Remnant"
+		category "Heavy Freighter"
+	on offer
+		payment 85000
+		conversation
+			scene "scene/assisting06"
+			`When you repair the Remnant ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Remnant (Heavy Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 49
+	source
+		government "Remnant"
+		category "Heavy Warship"
+	on offer
+		payment 100000
+		conversation
+			scene "scene/assisting07"
+			`When you repair the Remnant ship <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Remnant Void rifle"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Remnant"
+	on offer
+		outfit "Void Rifle"
+		conversation
+			scene "outfit/void rifle"
+			`When you repair the Remnant ship <origin>, the captain thanks you for your assistance and pays you with a Void Rifle.`
+				decline

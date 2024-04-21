@@ -1,8 +1,46 @@
-# 2 boarding korath
+# 2 boarding korath + 2 boarding korath for outfit
 
+# mission "Boarding Korath (big ships)"
+# mission "Boarding Korath (Heavy Warship)"
 # mission "Boarding Korath Cloak (big ships)"
 # mission "Boarding Korath Cloak (Heavy Warship)"
 
+
+
+mission "Boarding Korath (big ships)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 84
+	source
+		government "Korath"
+		category "Utility" "Heavy Freighter" "Space Liner"
+	on offer
+		payment 20000 
+		conversation
+			scene "scene/boarding03"
+			`As you board the korath ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You transport your loot, worth <payment>, back to your ship.`
+				decline
+
+
+mission "Boarding Korath (Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 84
+	source
+		government "Korath"
+		category "Heavy Warship" "Superheavy"
+	on offer
+		payment 30000
+		conversation
+			scene "scene/boarding04"
+			`As you board the Korath ship "<origin>", the crew defend only strategically important positions. That gives you the opportunity to search the rest of the ship for valueables. You transport your loot, worth <payment>, back to your ship.`
+				decline
 
 
 mission "Boarding Korath Cloak (big ships)"
