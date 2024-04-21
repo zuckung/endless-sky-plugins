@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-20 | update: real.fluff<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-21 | update: more.boarding.missions<br>
+2024-04-20 | update: real.fluff<br>
 2024-04-20 | update: gegno.pirates<br>
 2024-04-19 | update: hai.side.mission.unlocker<br>
 2024-04-16 | update: hai.side.mission.unlocker<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-14 | update: more.arfectas<br>
 2024-04-13 | update: devil-run.unhidden<br>
 2024-04-13 | update: snowfeather.robotics<br>
-2024-04-13 | update: real.fluff<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1731,7 +1731,7 @@ added plugin.txt<br>
 
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
 
-[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 1.62 mb | 2024-04-16 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
+[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.boarding.missions.zip) | 1.62 mb | 2024-04-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the readme for details.
 <details>
@@ -1742,17 +1742,19 @@ added plugin.txt<br>
 
 <br>
 
-Adds 70 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
+Adds 80 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Remnant, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
+
+<br>
+
+Only natural spawning ships can trigger these missions and ships spawned from jobs/missions or marauder hunting fleets doesn't trigger. Remnant assisting chances and Ka'het boarding chances are so high, cause of the rarity to find a boardable ship.<br>
 
 <br>
 
 <ul>
 
-<li> 7 Human assisting missions (by ship categories, 20% chance, 10.000 to 30.000 credits)</li>
+<li> 7 Gegno Scin assisting missions (by ship categories, 20% chance, 14.000 to 50.000 credits)</li>
 
-<li> 7 Pirate boarding missions (by ship categories, 20% chance, 5.000 to 25.000 credits)</li>
-
-<li> 4 Pirate boarding missions (by ship categories, 1-4% chance, outfit "NDR-114 Android")</li>
+<li> 7 Gegno Vi assisting missions (by ship categories, 20% chance, 16.000 to 50.000 credits)</li>
 
 <li> 7 Hai assisting missions (by ship categories, 20% chance, 20.000 to 60.000 credits)</li>
 
@@ -1762,19 +1764,27 @@ Adds 70 repeatable boarding and assisting missions. Boarding/assisting Free Worl
 
 <li> 3 Hai Unfettered boarding missions (by reward, 3% chance, outfit one of the 3 weapon prototypes)</li>
 
+<li> 7 Human assisting missions (by ship categories, 20% chance, 10.000 to 30.000 credits)</li>
+
+<li> 3 Ka'het boarding missions (by ship categories, 25-35% chance, 150.000 to 250.000 credits)</li>
+
+<li> 2 Korath boarding missions (for the bigger ship categories, 15% chance, 20.000 to 30.000 credits)</li>
+
 <li> 2 Korath boarding missions (for the bigger ship categories, 2-3% chance, outfit "Cloaking Device")</li>
+
+<li> 7 Pirate boarding missions (by ship categories, 20% chance, 5.000 to 25.000 credits)</li>
+
+<li> 4 Pirate boarding missions (by ship categories, 1-4% chance, outfit "NDR-114 Android")</li>
 
 <li> 3 Pug boarding missions (by ship categories, 10% chance, 100.000 to 200.000 credits)</li>
 
 <li> 3 Pug boarding missions (by ship categories, 1-3% chance, new outfit "Pug War Staff")</li>
 
+<li> 7 Remnant assisting missions (by ship categories, 50% chance, 20.000 to 100.000 credits)</li>
+
+<li> 1 Remnant assisting missions (10% chance, outfit "Void Rifle")</li>
+
 <li> 7 Wanderer assisting missions (by ship categories, 10% chance, 50.000 to 100.000 credits)</li>
-
-<li> 7 Gegno Scin assisting missions (by ship categories, 20% chance, 14.000 to 50.000 credits)</li>
-
-<li> 7 Gegno Vi assisting missions (by ship categories, 20% chance, 16.000 to 50.000 credits)</li>
-
-<li> 3 Ka'het boarding missions (by ship categories, 25-35% chance, 150.000 to 250.000 credits)</li>
 
 <li> support for plugin more.arfectas(6 pug farm boarding missions)</li>
 
@@ -1787,6 +1797,18 @@ Adds 70 repeatable boarding and assisting missions. Boarding/assisting Free Worl
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-04-21<br>
+
+fixed error on human Independent assisting missions<br>
+
+added 2 korath boarding missions for credits<br>
+
+added 7 remnant assisting missions for credits<br>
+
+added 1 remnant assisting missions for outfit void rifle<br>
 
 <br>
 
