@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-21 | update: more.boarding.missions<br>
+<table><tr><td><img width="882" height="1"><br>2024-04-21 | update: coalition.shopping<br>
+2024-04-21 | update: more.boarding.missions<br>
 2024-04-20 | update: real.fluff<br>
 2024-04-20 | update: gegno.pirates<br>
 2024-04-19 | update: hai.side.mission.unlocker<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-15 | update: more.arfectas<br>
 2024-04-14 | update: more.arfectas<br>
 2024-04-13 | update: devil-run.unhidden<br>
-2024-04-13 | update: snowfeather.robotics<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -735,7 +735,7 @@ initial release<br>
 
 <img src="myplugins/coalition.shopping/icon.png" height="100">
 
-[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/coalition.shopping.zip) | 30.86 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <br>
+[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/coalition.shopping.zip) | 30.88 kb | 2024-04-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <br>
 <br>
 >Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in 'Homeward' system. See the readme for details.
 
@@ -762,6 +762,12 @@ The outfitter sells all missing Heliarch Outfits and Coalition/Heliarch license.
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-04-21<br>
+
+fixed error on coalition basics outfitter<br>
 
 <br>
 
