@@ -5,3 +5,5 @@ author:
 images:
 	outfit + portraits
 		ai generated at https://www.craiyon.com/
+	scenes
+		ai generated at https://perchance.org/ai-text-to-image-generator

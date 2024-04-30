@@ -9,6 +9,7 @@
 # news bunrodea news system
 
 
+
 phrase "bunrodea jobs"
 	word
 			"Young Bunrodea"
@@ -175,34 +176,6 @@ news "bunrodea translated korath"
 			`"The damned Korath are just thieves and murderers, too weak to be a real threat for the empire."`
 
 
-news "bunrodea translated snap fly"
-	location
-		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
-	to show
-		has "outfit (flagship installed): Bunrodea Translation Device"
-	name
-		phrase
-			"bunrodea jobs"
-	portrait
-		"portrait/bunrodea01"
-		"portrait/bunrodea02"
-		"portrait/bunrodea03"
-		"portrait/bunrodea04"
-		"portrait/bunrodea05"
-		"portrait/bunrodea06"
-		"portrait/bunrodea07"
-		"portrait/bunrodea08"
-		"portrait/bunrodea09"
-		"portrait/bunrodea10"
-	message
-		word
-			`"Last week I caught a snap fly and that damned thing actually scratched my shell. Well, it was still delicious."`
-			`"The snap flies are particularly large and juicy this year. I'm thinking about joining a hunting expedition."`
-			`"I was already on a snap fly hunting expedition this year. There's nothing like catching snap flies yourself."`
-			`"You should be careful when you see a snap fly. Your body appears to be far too soft to survive an attack."`
-			`"I know an artist who could make you a body armor. This means you too could take part in a snap fly hunt. You should really think about that."`
-
-
 news "bunrodea translated culture"
 	location
 		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
@@ -229,6 +202,35 @@ news "bunrodea translated culture"
 			`"Have you seen my father? He must be here somewhere. He has the same face as me. Silly old people, always running around."`
 			`"I'm traveling to the Caves of Jengon with my family. The sight is said to be truly unbelievable."`
 			`"I'm sorry, but I don't have time. My transport ship should leave any minute."`
+
+
+news "bunrodea translated snap fly"
+	location
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Erabu)" "Bunrodea (Megasa)"
+	to show
+		has "outfit (flagship installed): Bunrodea Translation Device"
+		has "culture bunrodea snap fly: declined"
+	name
+		phrase
+			"bunrodea jobs"
+	portrait
+		"portrait/bunrodea01"
+		"portrait/bunrodea02"
+		"portrait/bunrodea03"
+		"portrait/bunrodea04"
+		"portrait/bunrodea05"
+		"portrait/bunrodea06"
+		"portrait/bunrodea07"
+		"portrait/bunrodea08"
+		"portrait/bunrodea09"
+		"portrait/bunrodea10"
+	message
+		word
+			`"Last week I caught a snap fly and that damned thing actually scratched my shell. Well, it was still delicious."`
+			`"The snap flies are particularly large and juicy this year. I'm thinking about joining a hunting expedition."`
+			`"I was already on a snap fly hunting expedition this year. There's nothing like catching snap flies yourself."`
+			`"You should be careful when you see a snap fly. Your body appears to be far too soft to survive an attack."`
+			`"I know an artist who could make you a body armor. This means you too could take part in a snap fly hunt. You should really think about that."`
 
 
 news "bunrodea translated criminal"

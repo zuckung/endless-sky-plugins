@@ -5,20 +5,34 @@ This plugin adds some missions to destroy Korath ships, which enable job board m
 <br>
 Unlocking the planets is based on reputation, so you get access step by step. Unlocking the last of the planets(with the big shipyard) needs 500 reputation.<br>
 <br>
-10 rep for vanilla first contact mission<br>
-20 rep for the first mission which unlocks repeatable jobs.<br>
-5-9 rep for repeatable passenger/rush/cargo jobs<br>
-10 rep for Korath ship killing job<br>
-At 100 rep the second mission starts, which gives 30 rep and unlocks the second repeatable fighting job for 30 rep.<br>
-At 100+ rep three culture conversations may happen(10% chance), changing the spaceport news, or adding more jobs<br>
-At 200 rep the third mission starts, which gives 40 rep and unlocks the third repeatable fighting job for 40 rep.<br>
-At 500 rep you are done and get the last mission, its an escort mission with a gift at the end<br>
-Averagely you have to do like 50 jobs, less if you take the fighting jobs.<br>
+Some missions from landing/spaceport unlock jobs. Others just give reputation or unlock story progression. Each job gives 5 to 40 reputation.<br>
+Averagely you have to do like 50 jobs, less if you take the fighting jobs. Like in vanilla play, hit spaceport often.<br>
 <br>
-Since it's often questioned, here guide to the bunrodea first contact mission. Travel through Bunrodea territory till you killed at least one attacking Bunrodea ship, then fly to the human pirate system Misam, start and land there till you get a mission(10% on landing), that mission brings you back to the Bunrodea. You can land on 4 planets now, and at this point this plugin starts.<br>
+Since it's often questioned, here is a guide to the bunrodea first contact mission. Travel through Bunrodea territory till you've killed at least one Bunrodea ship, then fly to a human system, land there and you get a mission that mission brings you back to the Bunrodea. You can land on 4 planets now, and at this point this plugin starts.<br>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions01.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions02.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions03.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions04.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions05.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions06.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions07.jpg' width='400'>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-04-30<br>
+fixed error on natural spawning korath fleets<br>
+changed some space port news and jobs to require culture conversations<br>
+changed culture conversation chance from 10% to 20%<br>
+changed icon<br>
+changed reputation needed for planet landings, to make the progression more fluent<br>
+changed first contact mission chance to 100%, from 10% (for pilcrow)<br>
+changed filenames (delete old files on update)<br>
+added 5 new jobs<br>
+added 6 side missions/chains, most with scene images<br>
+added 1 person ship (thx pilcrow)<br>
+added language bunrodea and friendly hails<br>
+added minable asteroids to the systems<br>
 <br>
 2024-04-10<br>
 added 4 scene images<br>

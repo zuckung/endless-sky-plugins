@@ -1,5 +1,0 @@
-planet Erabuthro
-	"required reputation" 500
-
-planet Bunthro
-	"required reputation" 420

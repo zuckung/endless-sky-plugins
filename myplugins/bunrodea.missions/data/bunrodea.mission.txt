@@ -1,0 +1,791 @@
+# disable mission "First Contact: Bunrodea (Hostile)"
+# mission "(easier)First Contact: Bunrodea (Hostile)" : removed 10% chance, set mission offered/done
+# mission "bunrodea defense 1"
+# mission "bunrodea defense 2"
+# mission "bunrodea defense 3"
+# mission "bunrodea translation update fix"
+# mission "bunrodea translation update fix 2"
+# mission "bunrodea full rep"
+# mission "bunrodea noble authorization update fix"
+# mission "culture bunrodea criminal"
+# mission "culture bunrodea flonkball"
+# mission "culture bunrodea snap fly"
+# mission "bunrodea side supernova"
+# mission "bunrodea side archeology 1"
+# event "bun archeology"
+# mission "bunrodea side archeology 2"
+# mission "bunrodea side archeology 3"
+# mission "bunrodea side volcano"
+# mission "bunrodea side genetic"
+# mission "bunrodea side army"
+# mission "bunrodea side cybernetic"
+
+
+
+disable mission
+	"First Contact: Bunrodea (Hostile)"
+
+
+mission "(easier)First Contact: Bunrodea (Hostile)"
+	landing
+	name "An Intriguing Invitation"
+	description "You have received an invitation, or summons, to the marked system by some mantis-like aliens who seem to have been following you around human space."
+	source
+		near "Sol" 0 100
+		not attributes "urban" "station"
+		attributes "spaceport"
+	destination "Erabuthro"
+	clearance "After hailing the planet the map pointed you towards, you hear an alien voice respond. Before you can think of what to say, the small device that the aliens threw at you on <origin> responds for you. The voice on the other end says something short, then cuts the feed. It seems like you've been cleared to land."
+	to offer
+		not "First Contact: Bunrodea (Hostile): offered"
+		or
+			"reputation: Bunrodea" < 1
+			"reputation: Bunrodea (Megasa)" < 1
+			"reputation: Bunrodea (Erabu)" < 1
+			"reputation: Bunrodea (Guard)" < -1
+	on offer
+		"bunrodea: guard rep" = "reputation: Bunrodea (Guard)"
+		"bunrodea: megasa rep" = "reputation: Bunrodea (Megasa)"
+		"bunrodea: erabu rep" = "reputation: Bunrodea (Erabu)"
+		"bunrodea: normal rep" = "reputation: Bunrodea"
+		conversation
+			`When you depart your ship, you're startled by a small alien ship uncloaking right in front of you. Two elegant mantis-like creatures step off it, each holding a strange looking weapon pointed directly at you. They have four long insectoid legs and two arms. Although their arms end in what look like hands, they also have strange claw-like features that partially enclose them, extending outward from their forearms to grasp their weapons. You look around to see if there's anyone else witnessing this, but you've landed at <origin>'s main spaceport in the middle of the night, leaving you as the only human in sight.`
+			`	The aliens begin speaking to you in a language you don't understand, their words interspersed with clicking noises. As one of them speaks, they sound almost robotic, as if they are speaking through a synthesizer. Taking a closer look, you spot what you can only guess are cybernetic modifications to parts of the alien's body; the alien's throat and one of its eyes look non-organic, as well as the joints of its legs. The other one has no such visible modifications, though.`
+			choice
+				`	"Do you come in peace?"`
+				`	"I don't understand a word you're saying."`
+				`	"Don't shoot! I'll take you to my leader."`
+			`	The aliens look at each other and say a few words. One of them grabs a small device from a belt and throws it on the ground in front of you.`
+			choice
+				`	(Pick it up.)`
+				`	(Dodge for cover.)`
+					goto dodge
+			`	You pick up the device and look at it. It springs open in your hand, causing you to drop it. After it falls to the ground, it begins projecting a holographic star map. You recognize some of the systems on the map as those where you fought an alien fleet, made up of ships similar to the one in front of you. A single system within that region is highlighted. The aliens return to their ship, which becomes invisible again, and although you can't see it, you hear it take off and fly away.`
+				accept
+			label dodge
+			`	You dodge for cover behind your ship. After a few seconds, you hear a springing sound. When you look back out from behind your ship, the aliens are gone, and the device they threw at you is now projecting a holographic star map. You recognize some of the systems on the map as those where you fought an alien fleet, made up of ships similar to the one in front of you. A single system within that region is highlighted. The alien ship becomes invisible once again, and although you can't see it, you hear it take off and fly away.`
+				accept
+	on accept
+		"reputation: Bunrodea" = 0
+		"reputation: Bunrodea (Guard)" = 0
+		"reputation: Bunrodea (Megasa)" = 0
+		"reputation: Bunrodea (Erabu)" = 0
+	on complete
+		"reputation: Bunrodea" = 10
+		set "First Contact: Bunrodea (Hostile): offered"
+		set "First Contact: Bunrodea (Hostile): done"
+		conversation
+			`As you enter the atmosphere, you're flanked by two large alien ships which guide you to the surface, leading you to a particular landing zone. When you leave your ship, you're met by two aliens that look similar to the ones that startled you on <origin>, including having the same weaponry.`
+			`	As you take a moment to look around, you find yourself in the middle of a massive metropolis. Skyscrapers taller than anything you've ever seen in human space cover the horizon, although most of the buildings around you appear far more elegant in architecture. Directly ahead is a large palace-like building with a considerable number of steps leading up to the front doors.`
+			`	You take a step forward, but one of the aliens says something while waving its weapon around, and you take the hint that you shouldn't be moving right now. The other says something into a communication device, then sits down on the ground and gestures for you to do the same. You suspect that you might be waiting here for a while.`
+			choice
+				`	(Sit down.)`
+					goto sit
+				`	(Turn around and re-enter my ship.)`
+			`	You reenter your ship, and the aliens don't move to stop you. You decide to turn your ship back on and attempt to take off, but just as you try to activate the repulsor engines, you hear a loud buzzing sound coming from outside. You look out the nearest window, and see that the aliens have moved some sort of vehicle near your ship, buzzing with energy. You attempt to take off, but your ship's repulsor engines aren't moving you anywhere. The vehicle seems like it is deactivating any nearby repulsors.`
+			choice
+				`	(Blast the vehicle with a turret.)`
+					to display
+						"flagship base attribute: turret mounts" > "flagship attribute: turret mounts"
+				`	(Leave my ship and sit down with the aliens.)`
+					goto leave
+			action
+				"reputation: Bunrodea" = -10
+				"reputation: Bunrodea (Guard)" = -10
+				"reputation: Bunrodea (Megasa)" = -10
+				"reputation: Bunrodea (Erabu)" = -10
+			`	You turn one of your turrets toward the vehicle and fire, then immediately try to pull up. It looks like your shot either destroyed the vehicle or disrupted it enough for you to escape its influence as your ship rapidly rises into the atmosphere. It looks like the aliens didn't take too kindly to your action, though, as you begin seeing ships targeting you on your radar.`
+				flee
+			label leave
+			`	You exit your ship and sit down on the boarding ramp. The aliens that are watching you don't seem to care that you just tried to leave.`
+				goto intro
+			label sit
+			`	You sit down on the boarding ramp of your ship and gaze at the scenery while you wait.`
+			label intro
+			`	After some time, you look up to the palace steps and notice a six-limbed creature unlike the mantis-like aliens watching over you. As it slowly makes its way downward and gets to the last few steps, the aliens guarding you stand to attention. You wonder if this entire time you've just been waiting for this alien to reach the bottom of the stairs.`
+			`	The creature approaches you on all six limbs, but stands up on its hind two legs once it is only a few paces away from you. It is rather small, hardly reaching your chin while it stands at full height, with big round eyes and a large, bulbous nose. It extends its four arms outward, revealing the palms of its hands. Except for its face and palms, it is covered in a thin layer of golden brown fur. It begins speaking. You can't understand what it's saying, but it seems to be cycling through various different languages and pausing after each line, as each sentence sounds wildly different from the last. You're suddenly startled when it says perfectly, "Hello."`
+			choice
+				`	"Hello?"`
+				`	"Wait, say that again."`
+			label loop
+			`	"Hello," the creature repeats itself. "Hello. Hello. Hello," it continues to say.`
+			choice
+				`	"Can you say anything else?"`
+				`	"How do you know my language?"`
+					goto language
+				`	"Hello."`
+					goto loop
+			`	"Can you say anything else?" it repeats back to you.`
+				goto human
+			label language
+			`	"How do you know my language?" it repeats back to you.`
+			label human
+			`	"Human?" it asks.`
+			choice
+				`	"Yes, I am a human."`
+				`	"What even are you?"`
+			`	"Human," it says to itself confidently. "Human. Human. Human," it repeats, looking around as if it is searching for something in its mind. "One... hundred years ago. Human," it says.`
+			choice
+				`	"I'm not the first human here?"`
+				`	"What do you mean one hundred years ago?"`
+			`	"Human visitors, many years ago," it says. "Not important. The Queen desires yours presence." It then says something in a language that the mantis-like aliens understand, and they motion for you to follow as the small alien begins making its way back to the steps of the palace. You have a feeling you're going to dread the next half hour.`
+			`	You finally reach the top of the palace stairs completely exhausted, although the aliens with you look entirely unphased.`
+			`	The aliens lead you into the palace and through various elegant hallways. The walls are lined with marble statues and paintings that seem to be depicting historical figures and events for this alien race, although you're not allowed to linger long enough to get a good look at any of them.`
+			`	You eventually approach a large ornate doorway that the aliens push open, revealing what must be the Queen's throne room. It is a long, narrow room lined with stained glass windows with what you guess is a throne chair where the alien Queen sits. The Queen is part of the mantis-like species and considerably larger in appearance than the ones guarding you.`
+			`	The small creature says something to the Queen as you approach, and the Queen responds. The creature turns to you to translate.`
+			branch royalty
+				"bunrodea: erabu rep" < 1
+			branch guard
+				"bunrodea: guard rep" < -1
+			branch civi
+				"bunrodea: normal rep" < 1
+			`	"I hear that you have attacked one of my Megasa."`
+			choice
+				`	"Your what?"`
+					goto megasa
+				`	"I was only defending myself."`
+					goto lie
+				`	"I have, and for that I apologize."`
+					goto apologize
+				`	"Okay, and?"`
+					goto and
+			label civi
+			`	"I hear that you have attacked one of my civilians."`
+			choice
+				`	"I was only defending myself."`
+					goto lie
+				`	"I have, and for that I apologize."`
+					goto apologize
+				`	"Okay, and?"`
+					goto and
+			label guard
+			`	"I hear that you have fought a member of my guard."`
+			choice
+				`	"I was only defending myself."`
+					goto defending
+				`	"Hey, they deserved it. They attacked me first."`
+					goto attacked
+				`	"I have, and for that I apologize."`
+					goto apologize
+				`	"Okay, and?"`
+					goto and
+			label royalty
+			`	"I hear that you have attacked one of my Erabu."`
+			choice
+				`	"Your what?"`
+					goto erabu
+				`	"I was only defending myself."`
+					goto lie
+				`	"I have, and for that I apologize."`
+					goto apologize
+				`	"Okay, and?"`
+					goto and
+			label erabu
+			`	As the small creature translates for you, the Queen seems to laugh in a strange chittering way. "The Erabu are the aristocrats of my land. Attacking them is a grave offense," the creature translates for the Queen. "What do you say for yourself?"`
+				goto rechoice
+			label megasa
+			`	As the small creature translates for you, the Queen seems to laugh in a strange chittering way. "The Megasa are the lowest of my people, but still my people to defend," the creature translates for the Queen. "What do you say for yourself?"`
+			label rechoice
+			choice
+				`	"Whoever I attacked, I was only defending myself."`
+					goto lie
+				`	"Well, then for that I apologize."`
+					goto apologize
+				`	"Okay, and?"`
+					goto and
+			label defending
+			`	As the small creature translates for you, the Queen seems to laugh in a strange chittering way. "Yes, my royal guards are rather... eager to defend, and for that I apologize," the creature translates as the Queen speaks. "But would my royal guard truly be doing its duty if it were not defending my lands from unknown threats? Although, perhaps they could be more patient in assessing true threats. I might punish those responsible, but it would seem that you have already dealt with those who have slighted you."`
+				goto slighted
+			label attacked
+			`	As the small creature translates for you, the Queen seems to laugh in a strange chittering way. "Deserved, you say?" the creature translates as the Queen speaks. "Would my royal guard truly be doing its duty if it were not defending my lands from unknown threats? Although, perhaps they could be more patient in assessing true threats. I might punish those responsible, but it would seem that you have already dealt with those who have slighted you."`
+				goto slighted
+			label lie
+			`	As the small creature translates for you, the Queen steps off of her throne and approaches you. She extends her legs so that she towers over you to at least twice your height. She speaks, and the creature translates. "How flippant you are, to lie like that in front of the highest royalty. You're either extremely brave, or extremely stupid." The Queen turns around and returns to her throne. "I will show mercy, just this once. But you will not be so fortunate the next time."`
+				goto threatened
+			label and
+			`	As the small creature translates for you, the Queen steps off of her throne and approaches you. She extends her legs so that she towers over you to at least twice your height. She speaks, and the creature translates. "How flippant you are, to speak like that in front of the highest royalty. You're either extremely brave, or extremely stupid." The Queen turns around and returns to her throne. "I will show mercy, just this once. But you will not be so fortunate the next time."`
+				goto threatened
+			label apologize
+			`	As the small creature translates for you, the Queen looks as if she is smiling. "An apology. Such an... unexpected response," the creature continues to translate for the Queen. "Normally, those who have offended the Queen attempt to make excuses for themselves. Your apology is accepted."`
+			`	The Queen motions to one of the guards and says something to them that the creature does not translate. She then speaks to you, and the creature translates: "Since you have apologized, you will be allowed to live. My guards have been ordered to leave you be, and you may come and go on a small number of our worlds. But this is only so that you do not cause further trouble, and to allow you to refuel if you are passing through my systems. Your presence will only be tolerated, not welcomed. Now please leave my court."`
+				goto end
+			label threatened
+			`	The Queen motions to one of the guards and says something to them that the creature does not translate. She then speaks to you, and the creature translates: "Since I have shown you mercy, you will be allowed to live. My guards have been ordered to leave you be, and you may come and go on a small number of our worlds. But this is only so that you do not cause further trouble, and to allow you to refuel if you are passing through my systems. Your presence will only be tolerated, not welcomed. Now please leave my court."`
+				goto end
+			label slighted
+			`	The Queen motions to one of the guards and says something to them that the creature does not translate. She then speaks to you, and the creature translates: "Since it is my guards that have shown you disrespect, you will be allowed to live. My guards have been ordered to leave you be, and you may come and go on a small number of our worlds. But this is only so that you do not cause further trouble, and to allow you to refuel if you are passing through my systems. Your presence will only be tolerated, not welcomed. Now please leave my court."`
+			label end
+			`	You're escorted out of the throne room and told by the small creature to leave as soon as you reach your ship. You exit the palace, and realize that you must once again face the stairs. You take a deep breath, and prepare yourself for the long journey down.`
+				launch
+
+
+mission "bunrodea defense"
+	name "Bunrodea Defense"
+	description "A Korath ship entered Bunrodean territory at Genta Bo. Destroy it."
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+		not planet "Erabuthro"
+	waypoint "Genta Bo"
+	to offer
+		has "First Contact: Bunrodea (Hostile): done"
+	on offer
+		conversation
+			`While landing on <planet>, you noticed some stuttering coming from the engines. You decide to take a deeper look into the engines.`
+			`A young Bunrodean with a unusual colourful hat approaches, hands you one of the translating devices, and starts to speak immediately.`
+			`You turn the device on "... to be having problems with the rotator splint. The engine runs good now, but not for long."`
+			`"Anyway," he pulls out a computer pad and starts reading "On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', you are allowed to proof your worth to the Bunrodean Empire."`
+			`"Our territorial integrity gets tested by the Korath. Although these invaders mean no threat to us, letting an outsider handle them will show the Korath that they will have to fight on several frontiers if they ever decide to go beyond weak raids."`
+			`"Travel to Genta Bo and destroy the Korath presence."`
+			choice
+				`	"Sorry, I have to do that later."`
+					defer
+				`	"Sure."`
+					accept
+	npc kill
+		government "Korath"
+		personality heroic nemesis staying
+		system "Genta Bo"
+		fleet
+			names "korath"
+			cargo 100
+			variant 2
+				"Palavret"
+				"'olofez" 2
+			variant 1
+				"Rano'erek"
+				"'olofez" 4
+		dialog "You have destroyed the Korath ship."
+	on complete
+		outfit "Bunrodea Translation Device"
+		set "language: Bunrodea"
+		conversation
+			scene "outfit/device03"
+			`As far as you can tell, the same young Bunrodean already awaits you after the landing. He pulls out his pad again and starts reading.`
+			`"On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', the human captain <first> <last> is now allowed to use the 'Bunrodea Empire Job Network'. Further proofs of worth to the Bunrodea Empire will result in higher earning of trust." he puts back the pad and walks away.`
+			`You think about the advantages you can get by buying a Bunrodean warship, once your reputation with them is high enough. And you have your own translation device now!`
+		"reputation: Bunrodea" += 20
+		"reputation: Bunrodea (Erabu)" += 30
+		"reputation: Bunrodea (Guard)" += 30
+		"reputation: Bunrodea (Megasa)" += 30
+
+
+mission "bunrodea defense 2"
+	name "Bunrodea Defense 2"
+	description "A Korath fleet entered Bunrodean territory at Era Natta. Destroy it."
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	waypoint "Era Natta"
+	to offer
+		"reputation: Bunrodea" >= 100
+	on offer
+		conversation
+			`The young Bunrodea with the silly appearance and behavior awaits you at the spaceport. This time he has memorized his speech.`
+			`"Our great queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro' is very pleased with your devotion to our cause. She offers you the chance to gain more honour. A Korath fleet just entered the Era Natta system and you are chosen to fight for our queen."`
+			choice
+				`	"Sorry, I have to do that later."`
+					defer
+				`	"Sure."`
+					goto sure
+			label sure
+			`Like on all your previous meetings, he is already walking away and doesn't wait for a response. You aren't sure if he is just a bureaucrat, stupid or a normal Bunrodea. This race is still very strange to your understanding.`
+				accept
+	npc kill
+		government "Korath"
+		personality heroic nemesis staying
+		system "Era Natta"
+		fleet
+			names "korath"
+			cargo 100
+			variant 1
+				"Palavret" 3
+				"'olofez" 6
+			variant 1
+				"Rano'erek" 3
+				"'olofez" 6
+			variant 1
+				"Rano'erek"
+				"Palavret" 2
+				"'olofez" 6
+		dialog "You have destroyed the Korath fleet."
+	on complete
+		conversation
+			`After leaving your ship, an an elderly distinguished Bunrodean awaits you. He bows before you.`
+			`"Greetings captain <last>, my name is Josuno and I am your new contact to the government. Our queen wishes to gratulate you to your great victory over the Korath fleet. She is very pleased by your work. You can find new opportunities to earn more honour on the job board."`
+			`"And personally, I have to say it is an honour to meet you in person. Our deep space surveillance systems spread recordings of your fights with the Korath all over the empire. You are well known by most Bunrodea."`
+			`"Well, I don't want to hold you back from your work. I wish you all the best, good luck and farewell." He starts walking away.`
+			`"Wait a second" you say, "I have a question about my former contact man."`
+			`Josuno slowly turns around. "There is nothing to say, but if you aren't in a hurry, maybe I can have a look at your ship?"`
+			`As soon as you both enter the ship, he relaxes. "Your former contact is dead. The queen expects perfect appearance from her sons, and Shinao had many chances to prove himself. Unfortunately he didn't have enough brain or skills to survive the high expectations of his position. Is there anything else you want to know?"`
+			`Still shocked about the cruel fate of the poor young Bunrodea, you say goodby to Josuno and head over to the job board.`
+		"reputation: Bunrodea" += 30
+		"reputation: Bunrodea (Erabu)" += 30
+		"reputation: Bunrodea (Guard)" += 30
+		"reputation: Bunrodea (Megasa)" += 30
+
+
+mission "bunrodea defense 3"
+	name "Bunrodea Defense 3"
+	description "A Korath worldship entered Bunrodean territory at Eneva Katta. Destroy it."
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	waypoint "Eneva Katta"
+	to offer
+		"reputation: Bunrodea" >= 200
+	on offer
+		conversation
+			`After leaving your ship you find Josuno already waiting for you.`
+			`"Greetings captain <last>, our queen once again offers you to defend the empire."`
+			`"A few hours ago, a Korath worldship destroyed one of our surveillance satellites in a peripheral system. Your task is to track down and destroy the worldship in Eneva Katta."`
+			choice
+				`	"Sorry, I have to do that later."`
+					defer
+				`	"Sure."`
+					goto sure
+			label sure
+			`"I wish you good luck!"`
+				accept
+	npc kill
+		government "Korath"
+		personality heroic nemesis staying
+		system "Eneva Katta"
+		fleet
+			names "korath"
+			cargo 100
+			variant 1
+				"Rai'alorej"
+			variant 1
+				"Lor'kas Ik 577 (Jump)"
+			variant 1
+				"Kas'lor Ik 582 (Jump)"
+			variant 1
+				"Lor'nag Ik 590 (Troop Transport)"
+			variant 25
+				"Ra'gru Ik 618"
+			variant 20
+				"Ra'at Ik 621"
+		dialog "You have destroyed the Korath worldship."
+	on complete
+		conversation
+			`After landing you see a large crowd of Bunrodeans gathering in front of your ship. From dock workers, security personnel to lower dignitaries, everyone seems to be there.`
+			`As the ramp of your ship lowers and you step outside, the crowd falls silent and raises their arms in unison. You wonder what that means. Josuno pushes himself out of the crowd, stands silently in front of you and raises his arms.`
+			`Since he doesn't make any effort to say anything, you decide to ask what it all means.`
+			`"I'm sorry Captain <last>, I completely forgot how little you know about our customs. That arm gesture is a sign of deep respect. Everyone here saw your space battle with the worldship live on the space surveillance system. And everyone is here to honor you."`
+			`"It is our custom that you now raise your arms to acknowledge the honor."`
+			`As you raise your arms, all the Bunrodeans lower theirs and the crowd slowly disperses.`
+			`"Such displays of honor are usually only seen in the Queen's palace, and practically never to a non-noble."`
+			`"Well, our Queen has instructed me to express our deepest gratitude to you and to assure you the eternal friendship of the Bunrodean Empire. And I personally would like to thank you as well. Just knowing you has brought me great honor."`
+			`"I hope we see each other again soon. Until then, I wish you the best of luck."`
+		"reputation: Bunrodea" += 40
+		"reputation: Bunrodea (Erabu)" += 40
+		"reputation: Bunrodea (Guard)" += 40
+		"reputation: Bunrodea (Megasa)" += 40
+
+
+mission "bunrodea translation update fix"
+	minor
+	invisible
+	repeat
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	to offer
+		not "outfit (flagship installed): Bunrodea Translation Device"
+		has "bunrodea defense: done"
+	on offer 
+		outfit "Bunrodea Translation Device"
+			fail
+
+
+mission "bunrodea translation update fix 2"
+	minor
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	to offer
+		not "language: Bunrodea"
+		has "bunrodea defense: done"
+	on offer 
+		set "language: Bunrodea"
+			fail
+
+
+mission "bunrodea full rep"
+	name "A meeting with the queen"
+	description "Travel to the bunrodean queen at <destination>."
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+		not planet "Erabuthro"
+	destination "Erabuthro"
+	to offer
+		"reputation: Bunrodea" >= 500
+		has "bunrodea defense 3: done"
+	on offer
+		conversation
+			`When you enter the spaceport, Josuno is already waiting for you.`
+			`"Greetings Captain <last>, our queen requests your presence and I have the task of accompanying you to the palace on Erabuthro. Can we then go straight away? Our queen is very impatient."`
+			choice
+				`	"Sorry, I have to do that later."`
+					defer
+				`	"Sure."`
+					goto sure
+			label sure
+			`Since Josuno seems very tense, you decide to fly off straight away. It makes you a little nervous that the queen summons you and has a heavily armed ship accompany you. It either ends very badly or very well.`
+				accept
+	npc accompany save
+		government "Bunrodea"
+		personality escort timid
+		fleet
+			names "bunrodea"
+			variant
+				"Chigiriki"
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
+	on complete
+		outfit "Bunrodea Noble Authorization"
+		conversation
+			scene "scene/bun_queen"
+			`When you arrive on Erabuthro, an equally heavily armed escort of 12 Bunrodeans awaits you, led by the very serious-looking Josuno.`
+			`You make your way to the palace. The queen's huge palace seems even more intimidating due to the circumstances of your journey. When you reach the throne room, the herald announces you as "Captain <first> <last>, Terror of the Korath, Defender of the Border Systems", which calms you down a bit. These people are really difficult to interpret. The queen looks at you and rises from her throne.`
+			`"Captain <last>, you have more than proven your friendship with the Bunrodean Empire. And we now prove our friendship with you. You will receive the title 'Special Representative', full access to all our planets and our equipment. We will also give you a Noble Authorization Plate, which will allow you to request an audience at any time.`
+			`The queen raises her arms in the air. In perfect synchronicity, your escort, Josuno and two dozen nobles raise their arms to show you their respect. This all impresses you very much and you almost forget to raise your arms to accept the honor. This ends the audience and you are escorted out.`
+			`When you arrive at the spaceport, you are still in your thoughts. What an experience. Despite the differences, you like the Bunrodeans, and they probably like you too.`
+
+
+mission "bunrodea noble authorization update fix"
+	minor
+	invisible
+	repeat
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	to offer
+		not "outfit (flagship installed): Bunrodea Noble Authorization"
+		has "bunrodea full rep: done"
+	on offer 
+		outfit "Bunrodea Noble Authorization"
+			fail
+
+
+mission "culture bunrodea criminal"
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	to offer
+		"reputation: Bunrodea" >= 120
+		random < 20
+	on offer
+		conversation
+			scene "scene/bun_criminal"
+			`As you cross the spaceport you notice something strange. Four security guards escort a handcuffed and battered prisoner to a small ship. In front of the ship they take off his shackles and beat him. Then they hand him a key card and take him to the ship's airlock. The small spaceship takes off very fast and rises into the atmosphere. The four security guards leisurely stroll away.`
+			`A passerby notices your confusion and speaks to you.`
+			`"Is this the first time you've observed an execution ritual?"`
+			`After you say yes, the passerby continues.`
+			`"We equip criminals with a small spaceship and drive them off the planet. After an hour, an execution request is announced and anyone interested can take part in the hunt for the criminal. This is very lucrative but also a bit dangerous. But for such an experienced captain as you are, it shouldn't be a problem. Such requests can be found on the job boards." The passerby says goodbye and moves on.`
+				decline
+
+
+mission "culture bunrodea flonkball"
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	to offer
+		"reputation: Bunrodea" >= 140
+		random < 20
+	on offer
+		conversation
+			`As you explore the city outside the spaceport, you discover that there is a big sport event taking place today, and you think about checking it out.`
+			choice
+				`	follow the masses to the stadium`
+					goto join
+				`	not now, go back to the spaceport`
+					defer
+			label join
+			scene "scene/stadium"
+			`Crowds of Bunrodeans pour into a huge stadium and among them, you, a single human. When you get to the stands, you let the strange architecture and even stranger customs affect you. The playing field is huge and round. There is a barrel on two opposite sides, surrounded by a trench filled with water. As the teams enter the field, some players from both teams begin to beat each other. The crowd screams with excitement. A young Bunrodean sitting next to you notices your confusion.`
+			`"Is this the first time you see a Flonkball game? Should I explain the rules to you?" he asks.`
+			choice
+				`	"Yes please."`
+				`	"Why do the players beat each other up?"`
+				`	"Has the game started yet?"`
+					goto started
+			label started
+			scene "scene/stadium"
+			`"The battles between the rival teams are part of the game and allowed. The actual game revolves around the 'Flonk', a flightless pterodactyl, that is used as a ball. The flonk must be brought into a basket in the opponent's end zone, which results in a 'Flopp' (for a distance throw) or a 'double Flopp' (by jumping to the basket). The game ends when the seventh Flonk is placed in the basket. If both teams have the same number of Flopps, an eighth Flonk is played. Another method to end the game successfully is to decimate the opposing team through hard play to such an extent that they no longer have enough players available. The game is led by a referee. He punishes fouls with giving the Flonk to the opposing team. Since fighting is permitted, it is only considered a foul if hidden weapons are drawn and used. "`
+			`You thank the young Bunrodea for that enlightening explaination. Now that you know the rules, you enjoy the game to the fullest. A lot of blood flows over the next hour. Players are carried off the field with serious injuries. And then the blue team wins because all of the red team's players leave the field, most of them carried by medics. On your way out of the stadium, you're still thinking about the game. That was a really strange experience.`
+				decline
+
+
+mission "culture bunrodea snap fly"
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	to offer
+		"reputation: Bunrodea" >= 160
+		random < 20
+	on offer
+		conversation
+			`Just as you're about to look for work, an older Bunrodean approaches. "Hello Captain <last>, I am Takeno, elder of House Ido. Our queen asked me to show you some of our culture. I would like to introduce you the ancient tradition of snap fly hunting. Are you interested?"`
+			choice
+				`	"Very much!"`
+					goto start
+				`	"I don't have any time at the moment, I'd like to do it another time."`
+					defer
+			label start
+			`Takeno leads you to a small shuttle where two guards are already waiting. During the flight you receive a safety briefing, since you don't have an exoskeleton. These snap flies appear to be dangerous to you, and you should avoid drawing their attention to you. While your Bunrodea companions are only equipped with light traditional leather clothing, you are given a surprisingly comfortable light metal body armor that was obviously made specifically for you. You wonder how your hosts know your body measurements, as the shuttle begins its descent. Takeno asks you if you are ready.`
+			choice
+				`	"Yes, we can get started"`
+					goto continue
+			label continue
+			scene "scene/snap_flies"
+			`As the shuttle touches the jungle ground, your two guards, Takeno and you, jump out of the airlock. While the three Bunrodeans slowly advance through the vegetation, you try to adapt your behavior to the three. A few minutes later the jungle clears up and you reach a more open area with a stream running through it. In the air, a few dozen meters away, you see head-sized flies. At a closer look, you'll see razor-sharp attachments on her legs.`
+			`When a medium-sized rodent is scared up right in front of you, one of the snap flies swoops down and tears the poor animal to pieces. One of the guards jumps forward, grabs the fly with his grasping tools and bites it in the head. The first catch of the day.`
+			`A few hours later you load your prey, consisting of eighteen snap flies, into the shuttle. Your armor actually got some scratches, these beasts are really very dangerous. "Isn't snap fly hunting thrilling?" Takeno asks. You don't really understand the Bunrodea's hunting behavior. Sure, it was a nice trip, but the Bunrodeans seem totally ecstatic. Maybe it's due to the biochemistry of snapping flies, since all of your companions have tasted their blood with targeted bites. Back at the spaceport, you thank them for the experience and say goodbye. Maybe some day you'll find out more about that.`
+				decline
+
+
+mission "bunrodea side supernova"
+	name "Supernova studies"
+	description "A group of scientists wants to study the supernova remnants at <waypoints>. Return back to <destination> after the visit. The payment will be <payment>."	
+	source "Sopoyra"
+	destination "Sopoyra"
+	waypoint "Peresedersi"
+	cargo "Science Equipment" 2
+	passengers 7
+	blocked "You don't have enough passenger/cargo space for this mission."
+	to offer
+		random > 49
+	on offer
+		conversation
+			`As you study the job board, a group Bunrodeans approaches. The leader speaks to you: "Greetings. It's actually a remarkable experience to meet a real human being. Your body is so different. Sorry, I'm Ren and this is my research team, we're looking for a transport to a supernova remnant just outside the Empire. It's quite difficult to convince captains to leave the safe space, but I don't think you have any problems with that?"`
+			choice
+				`	Thats no problem for me.`
+					goto noproblem
+				`	I'm sorry, I don't have time now. Maybe later.`
+					defer
+			label noproblem
+			`"Good. We need a transport for 7 people and 2 tons of equipment to <waypoints> and we would pay 150.000 credits. Are you interested?"`
+			choice
+				`	We have a deal.`
+					accept
+				`	That's not my direction. Sorry.`
+					decline
+	on enter "Peresedersi"
+		conversation
+			scene "scene/bun_supernova"
+			`When your ship reaches the Peresedersi system, the scientists begin their measurements. Now that you have to wait, you enjoy the view of the supernova remnant and think about it. Many thousands of years ago, the mass of the star in front of you increased and exceeded a critical limit. With incredible speed, the outer shell of the star fell to the center, bounced off and was thrown into the vastness of space. The result of this violent process is the beautiful sight that presents itself to you. While you're still thinking about the beauty of space and your decision to travel there, the scientists inform you that their job is done.`
+	on complete
+		payment 150000
+		"reputation: Bunrodea" += 20
+		"reputation: Bunrodea (Erabu)" += 20
+		"reputation: Bunrodea (Guard)" += 20
+		"reputation: Bunrodea (Megasa)" += 20
+		conversation
+			`After landing, the scientists thank you for the safe transport and promptly pay the agreed amount of 150.000 credits.`
+
+
+mission "bunrodea side archeology 1"
+	name "Archeological Expedition"
+	description "A group of archeologists wants to study newly discovered ruins at <destination>. The payment will be <payment>."	
+	source "Deli Kat"
+	destination "Byruca"
+	cargo "Archeological Equipment" 20
+	passengers 12
+	blocked "You don't have enough passenger/cargo space for this mission."
+	to offer
+		random > 49
+	on offer
+		conversation
+			`Before you leave your ship to look for new contracts, your holovid reports a call. An older Bubrodean appears on the screen.`
+			`"Hello Captain <last>, I am Professor Hideki from the Deli Kat Archaeological Research Center and I am looking for transport of an expedition to <destination>. As you can imagine, it is not easy to persuade civilian captains to travel into Korath infested system. It has come to my attention that you could be the right captain for this venture. Our expedition consists of 12 participants and 20 tons of equipment. We would pay <payment> for the outward journey and twenty days later <payment> for bringing us back home. "`
+			choice
+				`	I can do that.`
+					goto accept
+				`	I don't have time at the moment.`
+					decline
+			label accept
+			`Several hours later, the expedition participants and their equipment are loaded into your ship and you are ready to start the flight to <destination>.`
+				accept
+	on complete
+		payment 125000
+		"reputation: Bunrodea" += 15
+		"reputation: Bunrodea (Erabu)" += 15
+		"reputation: Bunrodea (Guard)" += 15
+		"reputation: Bunrodea (Megasa)" += 15
+		event "bun archeology" 20
+		conversation
+			scene "scene/bun_archeology"
+			`The desert where your ship landed is very hot and dry and you wonder how the archeology team will survive here for twenty days. Perhaps the Bunrodean's different physiology makes them less susceptible to heat? Sweating wetly, you admire the old ruins and after about three hours the unloading process is completed.`
+			`Professor Hideki thanks you for the safe transport and tells you that he will send you a message as soon as they are ready to get transported back.`
+
+
+event "bun archeology"
+
+
+mission "bunrodea side archeology 2"
+	landing
+	name "Archeological Expedition returns"
+	description "Travel to <destination> to retrieve the archeological expedition."	
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+		not planet "Byruca"
+	destination "Byruca"
+	to offer
+		has "event: bun archeology"
+	on offer
+		dialog `You receive a message from Professor Hideki from the archaeological research team that you have dropped off at <destination>. The work is finished and they are ready to be picked up.`
+
+
+mission "bunrodea side archeology 3"
+	landing
+	name "Return the archeological expedition"
+	description "Transport the archeological expedition back to <destination>. The payment will be <payment>."	
+	source "Byruca"
+	destination "Deli Kat"
+	cargo "Archeological Equipment" 20
+	passengers 12
+	blocked "You don't have enough passenger/cargo space for this mission."
+	to offer
+		has "bunrodea side archeology 2: done"
+	on offer
+		conversation
+			scene "scene/bun_archeology"
+			`You land your ship near the ancient ruins. Professor Hideki's team hurries to load their equipment into your cargo hold. Nevertheless, it takes a few hours during which you often marvel at the old ruins. This architecture is truly admirable.`
+			`When everything is finally done, you're completely sweaty and exhausted. Time to leave the planet and take your passengers to <destination>.`
+				accept
+	on complete
+		payment 125000
+		"reputation: Bunrodea" += 15
+		"reputation: Bunrodea (Erabu)" += 15
+		"reputation: Bunrodea (Guard)" += 15
+		"reputation: Bunrodea (Megasa)" += 15
+		conversation
+			`You monitor the unloading process. When everything is done, you check your account and discover the payment of <payment> has already been received. The archaeologists thank you and say goodbye.`
+
+
+mission "bunrodea side volcano"
+	name "Transport injured"
+	description "Transport 50 injured Bunrodeans to <destination> by <date>. Payment will be <payment>."	
+	source "Thshybothro"
+	destination "Jentuthro"
+	passengers 50
+	blocked "You don't have enough passenger space for this mission."
+	deadline
+	to offer
+		random > 49
+	on offer
+		conversation
+			scene "scene/bun_volcano"
+			`You've already noticed from space that a large volcano appears to have erupted in the southern hemisphere, but the chaos at the spaceport surprises you. After questioning a less panicked passerby, you realize the seriousness of the situation. Two volcanoes located next to each other, almost a super volcano, have erupted and the explosion debris has devastated a nearby large city. Disaster response is now frantically looking for spaceships to transport injured people to other worlds because local hospitals are overcrowded.`
+			choice
+				`	offer help`
+					goto accept
+				`	continue doing your business`
+					decline
+			label accept
+			scene "scene/bun_volcano"
+			`After you volunteered, 50 passengers were loaded onto your ship. You have the task of bringing them to <destination> and a payment of <payment> is promised as compensation.`
+				accept
+	on complete
+		payment 78000
+		"reputation: Bunrodea" += 15
+		"reputation: Bunrodea (Erabu)" += 15
+		"reputation: Bunrodea (Guard)" += 15
+		"reputation: Bunrodea (Megasa)" += 15
+		conversation
+			`After landing, the injured are treated and transported away quickly. The payment from <payment> is already waiting for you in your account.`
+
+
+mission "bunrodea side genetic"
+	name "Transport a geneticist"
+	description "Transport a geneticist to <destination>. Payment will be <payment>."	
+	source "Jentuthro"
+	destination "Melenci"
+	passengers 1
+	blocked "You don't have enough passenger space for this mission."
+	to offer
+		random > 49
+	on offer
+		conversation
+			`As you study the job board, a female Bunrodean approaches you. She would like to book a passage to <destination> with you. As usual, you ask for more details just to avoid problems. She is a genetics researcher on the way to <planet> to bring her research to mass production. The payment is <payment>.`
+			choice
+				`	accept`
+					goto accept
+				`	decline`
+					decline
+			label accept
+			`You show her her cabin and are ready to leave.`
+				accept
+	on complete
+		payment 52000
+		"reputation: Bunrodea" += 15
+		"reputation: Bunrodea (Erabu)" += 15
+		"reputation: Bunrodea (Guard)" += 15
+		"reputation: Bunrodea (Megasa)" += 15
+		conversation
+			`During the flight the genetics researcher explained her research to you very enthusiastically. You may not have understood most of it, but apparently it is something very special among Bunrodean geneticists when their work goes into mass production, comparable to an academic award. After the landing she pays you quickly and leaves. `
+
+
+mission "bunrodea side army"
+	name "Transport to military academy"
+	description "Transport a young Bunrodean to the military academy on <destination>. Payment will be <payment>."	
+	source "Disara"
+	destination "Eragarthro"
+	passengers 1
+	clearance "After sending your transport contract details, you receive landing clearance."
+	blocked "You don't have enough passenger space for this mission."
+	to offer
+		random > 49
+	on offer
+		conversation
+			`While looking for new contracts, you are approached by an older Bunrodean, accompanied by a younger one. "Hello captain, I'm looking for passage to <destination> for my son. He will attend the military academy there. I could give you <payment> for the passage. Are you interested?"`
+			choice
+				`	Yes.`
+					goto accept
+				`	I'm busy, you have to look for someone else.`
+					decline
+			label accept
+			`The elder Bunrodea accompanies you as you show his son his cabin. The heartbreaking farewell makes you realize that Bunrodean and humans are very much the same in this respect, parents love their children.`
+				accept
+	on complete
+		payment 55000
+		"reputation: Bunrodea" += 15
+		"reputation: Bunrodea (Erabu)" += 15
+		"reputation: Bunrodea (Guard)" += 15
+		"reputation: Bunrodea (Megasa)" += 15
+		conversation
+			scene "scene/bun_academy"
+			`While landing, the young Bunrodea asks you to fly over the military academy to take an aerial look. You see no reason not to grant the request. In fact, the Military Academy of Fuhtiiski is an impressive complex and is known throughout the empire. You are satisfied with the decision to take a look at the academy. After landing, the payment is made promptly and you both say goodbye.`
+
+
+mission "bunrodea side cybernetic"
+	name "Transport a cybernetics expert"
+	description "Transport a cybernetics expert to <destination>. Payment will be <payment>."	
+	source "Eragarthro"
+	destination "Thshybothro"
+	passengers 1
+	blocked "You don't have enough passenger space for this mission."
+	to offer
+		random > 49
+	on offer
+		conversation
+			`An older Bunrodean woman speaks to you. "You're not a spaceship captain by any chance? I need passage to <destination>. I would pay <payment>."`
+			choice
+				`	I'm interested.`
+					goto accept
+				`	Sorry, I don't have time at the moment.`
+					decline
+			label accept
+			`After showing her the cabin, you talk to her for a while. It's always good to know more about your customers. She is a cybernetics expert on the way from a conference to her research institute.`
+				accept
+	on complete
+		payment 57000
+		"reputation: Bunrodea" += 15
+		"reputation: Bunrodea (Erabu)" += 15
+		"reputation: Bunrodea (Guard)" += 15
+		"reputation: Bunrodea (Megasa)" += 15
+		conversation
+			`On the flight here you had an intensive conversation with the cybernetics expert. The Bunrodeans' penchant for physical upgrades is pervasive. After the formalities have been clarified, she invites you to visit her laboratory.`
+			choice
+				`	accept her offer`
+					goto lab
+			label lab
+			scene "scene/bun_cybernetic"
+			`The cybernetics laboratory is extremely impressive. The Bunrodeans who work here are all highly modified. The technological level is far higher than anything that humanity has developed in this direction. After an hour you are done with the tour through the laboratory complex. You thank her for the guidance and say goodbye.`

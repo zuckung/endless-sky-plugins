@@ -1,0 +1,130 @@
+# government "Bunrodea"
+# government "Bunrodea (Erabu)"
+# government "Bunrodea (Guard)"
+# government "Bunrodea (Megasa)"
+# government "Bunrodea (Criminal)"
+# government "Bunrodea (Person)"
+# outfit "Bunrodea Translation Device"
+# outfit "Bunrodea Noble Authorization"
+# phrase "friendly bunrodea"
+# ship "Chikigiri" "Chikigiri MK2"
+# person "Nekokami"
+
+
+
+government "Bunrodea"
+	"friendly hail" "friendly bunrodea"
+
+
+government "Bunrodea (Erabu)"
+	"friendly hail" "friendly bunrodea"
+
+
+government "Bunrodea (Guard)"
+	"friendly hail" "friendly bunrodea"
+
+
+government "Bunrodea (Megasa)"
+	"friendly hail" "friendly bunrodea"
+
+
+government "Bunrodea (Criminal)"
+	swizzle 3
+	color .35 .65 .3
+	language "Bunrodea"
+	"player reputation" -1
+	"attitude toward"
+		"Bunrodea (Erabu)" 1
+		"Bunrodea (Megasa)" 1
+		"Korath" -0.01
+		"Kor Sestor" -0.01
+		"Kor Mereti" -0.01
+		"Kor Efret" -0.01
+	"bribe" 0
+	"penalty for"
+		assist 0
+
+government "Bunrodea (Person)"
+	swizzle 3
+	color .35 .65 .3
+	language "Bunrodea"
+	"player reputation" 1
+	"attitude toward"
+		"Bunrodea (Erabu)" 1
+		"Bunrodea (Megasa)" 1
+		"Korath" -0.01
+		"Kor Sestor" -0.01
+		"Kor Mereti" -0.01
+		"Kor Efret" -0.01
+	"bribe" 0
+	"penalty for"
+		assist 0
+
+
+outfit "Bunrodea Translation Device"
+	category "Unique"
+	thumbnail "outfit/device03"
+	"unplunderable" 1
+	"unique" 1
+	description `This device translates Bunrodea to Human Common and vice versa.`
+
+
+outfit "Bunrodea Noble Authorization"
+	category "Unique"
+	thumbnail "outfit/alien_sheet"
+	"unplunderable" 1
+	"unique" 1
+	description `This is an authorization plate for Bunrodea nobles. You can use it to request an audience with the queen at any time. The possession alone shows the high status of the wearer in Bunrodea society.`
+
+
+phrase "friendly bunrodea"
+	word
+		"Greetings "
+		"Hail "
+	word
+		"warrior. "
+		"fighter. "
+		"slaughter of Korath. "
+	word
+		"Do you need any "
+		"Are you in need of "
+		"May I offer you "
+	word
+		"help?"
+		"assistance?"
+
+ship "Chigiriki" "Chigiriki MK2"
+	outfits
+		`"Bufaer" Atomic Steering`
+		"Digger Mining Beam" 4
+		Fire-Lance 7
+		"Fuel Module"
+		"Jump Drive"
+		"Korath Inferno"
+		"Large Biochemical Cell"
+		"Outfits Expansion" 5
+		"Quantum Keystone"
+		"Shield Disruptor Turret"
+		"Small Heat Shunt"
+		Supercapacitor
+		"Systems Core (Large)"
+		"Systems Core (Small)"
+		"Thermoelectric Cooler"
+		"Thruster (Planetary Class)"
+		"Wanderer Ramscoop"
+		"White Sun Reactor"
+
+person "Neko"
+	frequency 5000
+	government "Bunrodea (Person)"
+	personality
+		surveillance mining plunders
+	system
+		government "Bunrodea" "Bunrodea (Guard)"
+	phrase
+		word
+			"The Neko travelled the galaxy!"
+			"The Neko protect the Bunrodean Empire!"
+			"The Neko are here to protect!"
+	ship "Chigiriki MK2" "Nekokami"
+	ship "Chigiriki MK2" "Nekoinu"

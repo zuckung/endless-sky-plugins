@@ -1,0 +1,235 @@
+# system "Era Natta"
+# system "Genta Bo"
+# system "Eneva Katta"
+# system "Elo Chigo"
+# system "Thshybo Le"
+# system "Shini Bori"
+# system "Jentu Le"
+# system "Erabu Lemeta"
+# system "Bunri Lemeta"
+# system "Avo Chigo"
+# system "Eragaru Le"
+# system "Bosuno Le"
+# system "Paru Paru"
+# system "Ravu Kon"
+# system "Kifrana Terberah"
+# system "Xotlunu Fali"
+# system "Mego Inito"
+# system "Mego Seo"
+# system "Jentu Senti"
+# system "Xutluno Rees"
+# system "Mego Faro"
+# system "Gento Ah"
+# system "Piadenli"
+# system "Urba Pest"
+# system "Sera Natta"
+# planet Erabuthro
+# planet Bunthro
+# planet Sardva
+# planet Bosunothro
+# planet Eragarthro
+# planet Iddesato
+# planet Jentuthro
+# planet Melenci
+# planet Thshybothro
+# planet Disara
+# planet "Illbo Avo"
+# planet "Illbo Elo"
+# planet Okoity
+# planet Sopoyra
+
+
+
+system "Era Natta"
+# fleet "Bunrodea Defense" 4000
+	add fleet "Bunrodea Royal Guard" 3000
+	add fleet "Korath Raid" 5000
+	add fleet "Korath Large Raid" 10000
+	add minables lead 15 3
+	add minables silver 5 20
+
+
+system "Genta Bo"
+# fleet "Bunrodea Defense" 3500
+	add fleet "Bunrodea Royal Guard" 3500
+	add fleet "Korath Raid" 5000
+	add fleet "Korath Large Raid" 10000
+	add minables aluminum 11 10
+	add minables titanium 9 9
+
+
+system "Eneva Katta"
+# fleet "Bunrodea Defense" 5000
+	add fleet "Bunrodea Royal Guard" 2000
+	add fleet "Korath Raid" 5000
+	add fleet "Korath Large Raid" 10000
+	add minables copper 12 12
+	add minables tungsten 8 12
+
+
+system "Elo Chigo"
+	add minables gold 7 18
+	add minables uranium 13 17
+
+
+system "Thshybo Le"
+	add minables iron 12 11
+	add minables titanium 8 17
+
+
+system "Shini Bori"
+	add minables neodymium 7 15
+	add minables silicon 13 14
+
+
+system "Jentu Le"
+	add minables copper 14 19
+	add minables uranium 6 12
+
+
+system "Erabu Lemeta"
+	add minables silver 9 16
+	add minables silicon 11 19
+
+
+system "Bunri Lemeta"
+	add minables neodymium 10 14
+	add minables titanium 10 17
+
+
+system "Avo Chigo"
+	add minables aluminum 16 15
+	add minables uranium 4 20
+
+
+system "Eragaru Le"
+	add minables copper 12 17
+	add minables titanium 8 14
+
+
+system "Bosuno Le"
+	add minables gold 7 18
+	add minables tungsten 13 13
+
+
+system "Paru Paru"
+	add minables iron 9 20
+	add minables silver 11 19
+
+
+system "Ravu Kon"
+	add minables lead 15 17
+	add minables platinum 5 17
+
+
+system "Kifrana Terberah"
+	add minables platinum 6 16
+	add minables tungsten 14 13
+
+
+system "Xutluno Fali"
+	add minables iron 14 13
+	add minables uranium 6 15
+
+
+system "Mego Inito"
+	add minables gold 7 18
+	add minables silver 13 17
+
+
+system "Mego Seo"
+	add minables copper 17 13
+	add minables silicon 3 17
+
+
+system "Jentu Centi"
+	add minables aluminum 18 14
+	add minables platinum 2 17
+
+
+system "Xutluno Rees"
+	add minables platinum 9 17
+	add minables silicon 11 16
+
+
+system "Mego Faro"
+	add minables lead 13 19
+	add minables neodymium 7 15
+
+
+system "Gento Ah"
+	add minables iron 10 19
+	add minables silver 10 20
+
+
+system "Piadenli"
+	add minables gold 7 18
+	add minables titanium 13 15
+
+
+system "Urba Pest"
+	add minables copper 15 16
+	add minables tungsten 5 18
+
+
+system "Sera Natta"
+	add minables aluminum 12 17
+	add minables uranium 8 14
+
+
+planet Erabuthro
+	"required reputation" 500
+
+
+planet Bunthro
+	"required reputation" 420
+
+
+planet Sardva
+	"required reputation" 360
+
+
+planet Bosunothro
+	"required reputation" 280
+
+	
+planet Eragarthro
+	"required reputation" 200
+
+
+planet Iddesato
+	"required reputation" 200
+
+
+planet Jentuthro
+	"required reputation" 150
+
+
+planet Melenci
+	"required reputation" 150
+
+
+planet Thshybothro
+	"required reputation" 100
+
+
+planet Disara
+	"required reputation" 100
+
+	
+planet "Illbo Avo"
+	"required reputation" 50
+
+	
+planet "Illbo Elo"
+	"required reputation" 50
+
+
+planet Okoity
+	"required reputation" 25
+
+
+planet Sopoyra
+	"required reputation" 25
+
+
