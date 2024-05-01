@@ -1,0 +1,275 @@
+# system "Alpha Fauna"
+#   system "Cardax"
+# system "Beta Fauna"
+#   system "Ossipago"
+# system "Gamma Fauna"
+#   system "5 Spring Below"
+# system "Delta Fauna"
+#   system "Cshudlye"
+# planet "Alpha Hive"
+# planet "Beta Hive"
+# planet "Gamma Hive"
+# planet "Delta Hive"
+
+
+
+system "Alpha Fauna"
+	pos -179 -270
+	government "Space Fauna"
+	attributes "hive"
+	arrival 500
+	habitable 135
+	belt 1410
+	haze _menu/haze-67
+	link "Cardax"
+	minables silicon 27 4
+	trade Clothing 281
+	trade Electronics 672
+	trade Equipment 605
+	trade Food 366
+	trade "Heavy Metals" 1013
+	trade Industrial 784
+	trade "Luxury Goods" 1219
+	trade Medical 617
+	trade Metal 311
+	trade Plastic 424
+	fleet "space fauna hive" 300
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/rock5
+		distance 130.39
+		period 51.2577
+	object
+		sprite planet/cloud3-b
+		distance 565.64
+		period 463.130
+	object "Alpha Hive"
+		sprite "planet/fauna_colony"
+		distance 1500
+		period 600
+	object
+		sprite planet/gas10
+		distance 2450.13
+		period 4175.19
+		object
+			sprite planet/dust3
+			distance 215
+			period 15.5389
+		object
+			sprite planet/ice7-b
+			distance 374
+			period 35.6508
+
+
+system "Cardax"
+	add link "Alpha Fauna"
+
+
+system "Beta Fauna"
+	pos 10 400
+	government "Space Fauna"
+	attributes "hive"
+	arrival 500
+	habitable 135
+	belt 1410
+	haze _menu/haze-67
+	link "Ossipago"
+	minables silicon 27 4
+	trade Clothing 288
+	trade Electronics 770
+	trade Equipment 481
+	trade Food 198
+	trade "Heavy Metals" 775
+	trade Industrial 748
+	trade "Luxury Goods" 1322
+	trade Medical 768
+	trade Metal 263
+	trade Plastic 505
+	fleet "space fauna hive" 300
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/rock5
+		distance 130.39
+		period 51.2577
+	object
+		sprite planet/cloud3-b
+		distance 565.64
+		period 463.130
+	object "Beta Hive"
+		sprite "planet/fauna_colony"
+		distance 1500
+		period 600
+	object
+		sprite planet/gas10
+		distance 2450.13
+		period 4175.19
+		object
+			sprite planet/dust3
+			distance 215
+			period 15.5389
+		object
+			sprite planet/ice7-b
+			distance 374
+			period 35.6508
+
+
+system "Ossipago"
+	add link "Beta Fauna"
+
+
+system "Gamma Fauna"
+	pos -1270 460
+	government "Space Fauna"
+	attributes "hive"
+	arrival 500
+	habitable 135
+	belt 1410
+	haze _menu/haze-67
+	link "5 Spring Below"
+	minables silicon 27 4
+	trade Clothing 342
+	trade Electronics 718
+	trade Equipment 561
+	trade Food 434
+	trade "Heavy Metals" 1155
+	trade Industrial 791
+	trade "Luxury Goods" 1259
+	trade Medical 840
+	trade Metal 495
+	trade Plastic 521
+	fleet "space fauna hive" 300
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/rock5
+		distance 130.39
+		period 51.2577
+	object
+		sprite planet/cloud3-b
+		distance 565.64
+		period 463.130
+	object "Gamma Hive"
+		sprite "planet/fauna_colony"
+		distance 1500
+		period 600
+	object
+		sprite planet/gas10
+		distance 2450.13
+		period 4175.19
+		object
+			sprite planet/dust3
+			distance 215
+			period 15.5389
+		object
+			sprite planet/ice7-b
+			distance 374
+			period 35.6508
+
+
+system "5 Spring Below"
+	add link "Gamma Fauna"
+
+
+system "Delta Fauna"
+	pos 560 -473
+	government "Space Fauna"
+	attributes "hive"
+	arrival 500
+	habitable 135
+	belt 1410
+	haze _menu/haze-67
+	link "Cshudlye"
+	minables silicon 27 4
+	trade Clothing 288
+	trade Electronics 770
+	trade Equipment 481
+	trade Food 198
+	trade "Heavy Metals" 775
+	trade Industrial 748
+	trade "Luxury Goods" 1322
+	trade Medical 768
+	trade Metal 263
+	trade Plastic 505
+	fleet "space fauna hive" 300
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/rock5
+		distance 130.39
+		period 51.2577
+	object
+		sprite planet/cloud3-b
+		distance 565.64
+		period 463.130
+	object "Delta Hive"
+		sprite "planet/fauna_colony"
+		distance 1500
+		period 600
+	object
+		sprite planet/gas10
+		distance 2450.13
+		period 4175.19
+		object
+			sprite planet/dust3
+			distance 215
+			period 15.5389
+		object
+			sprite planet/ice7-b
+			distance 374
+			period 35.6508
+
+
+system "Cshudlye"
+	add link "Delta Fauna"
+
+
+planet "Alpha Hive"
+	attributes hive factory research urban
+	government "Space Fauna"
+	landscape land/yellow_caves
+	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone.`
+	spaceport `A dangerous place to land, space amoeba breeding here.`
+	outfitter "Basic Outfits"
+	shipyard "Basic Ships"
+	security 0
+	bribe 0
+	"required reputation" 1001
+
+
+planet "Beta Hive" 
+	attributes hive
+	government "Space Fauna"
+	landscape land/yellow_caves
+	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone.`
+	spaceport `A dangerous place to land, space amoeba breeding here.`
+	security 0
+	bribe 0
+	"required reputation" 1001
+	
+
+planet "Gamma Hive"
+	attributes hive
+	government "Space Fauna"
+	landscape land/yellow_caves
+	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone.`
+	spaceport `A dangerous place to land, space amoeba breeding here.`
+	security 0
+	bribe 0
+	"required reputation" 1001
+
+
+planet "Delta Hive"
+	attributes hive
+	government "Space Fauna"
+	landscape land/yellow_caves
+	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone.`
+	spaceport `A dangerous place to land, space amoeba breeding here.`
+	security 0
+	bribe 0
+	"required reputation" 1001
