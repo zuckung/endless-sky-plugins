@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-04-30 | update: bunrodea.missions<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-01 | update: space.fauna<br>
+2024-04-30 | update: bunrodea.missions<br>
 2024-04-21 | update: coalition.shopping<br>
 2024-04-21 | update: more.boarding.missions<br>
 2024-04-20 | update: real.fluff<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-16 | update: hai.side.mission.unlocker<br>
 2024-04-16 | update: more.boarding.missions<br>
 2024-04-15 | update: more.arfectas<br>
-2024-04-14 | update: more.arfectas<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -38,8 +38,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#coalitionshopping">coalition.shopping</a><br>
 <a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
@@ -48,14 +48,15 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#piratewarlords">pirate.warlords</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
 <a href="README.md#realfluff">real.fluff</a><br>
 <a href="README.md#showreputation">show.reputation</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
+<a href="README.md#spacefauna">space.fauna</a><br>
 <a href="README.md#toomanyasteroids">too.many.asteroids</a><br>
 <a href="README.md#uniquefix">unique.fix</a><br>
 <img width="294" height="1"><br></td></tr></table>
@@ -2385,6 +2386,55 @@ added plugin.txt<br>
 2023-08-29<br>
 
 removed remnant mission requirement<br>
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### space.fauna
+
+<img src="myplugins/space.fauna/icon.png" height="100">
+
+[space.fauna.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/space.fauna.zip) | 895.66 kb | 2024-05-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/space.fauna/) <br>
+<br>
+>Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### space.fauna
+
+<br>
+
+<br>
+
+Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive.<br>
+
+<br>
+
+Currently there are 10 different oranisms, 4 lebiathan-sized, 6 clipper-sized. They are coming in fleet sized from 1 to 5 and aren't capturable/plunderable. There are 4 Hive planets around the galaxy, with increased spawn rates. Uninhabited systems have a higher spawn chance than inhabited systems.<br>
+
+<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/space.fauna01.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/space.fauna02.jpg' width='400'>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-05-01<br>
+
+initial release<br>
+
+
+
 </blockquote>
 </details>
 <br>
