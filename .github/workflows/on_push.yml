@@ -69,8 +69,8 @@ jobs:
                     line = corrected + '|' + new_version + '\n'
                   newlines.append(line)
                 if found == 0:
-                  newlines.append(corrected + '|1.0' + '\n')
-                  new_version = '1.0'
+                  newlines.append(corrected + '|1.0.0' + '\n')
+                  new_version = '1.0.0'
               with open('../res/versioning.txt', 'w') as target:
                  target.writelines(newlines)
               subprocess.run(["zip", "-r", "../versioning/" + corrected + ".zip", p],

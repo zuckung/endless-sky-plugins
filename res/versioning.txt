@@ -25,4 +25,4 @@ snowfeather.robotics|1.0.1
 too.many.asteroids|1.0.0
 unique.fix|1.0.0
 hai.side.mission.unlocker|1.1.2
-space.fauna|1.0
+space.fauna|1.1.0
