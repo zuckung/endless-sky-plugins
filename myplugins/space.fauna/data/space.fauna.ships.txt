@@ -1,170 +1,20 @@
-# outfit "Offal"
-# ship "Locus Amoeba"
-# ship "Locus Cetacea"
-# ship "Locus Coleoidea"
-# ship "Locus Batoidea"
-# ship "Locus Musculus"
-# ship "Locus Aranea"
-# ship "Locus Rana"
-# ship "Locus Medusa"
-# ship "Locus Corallium"
-# ship "Locus Deseris"
+# ship "Magna Musculus"
+# ship "Magna Aranea"
+# ship "Magna Rana"
+# ship "Magna Medusa"
+# ship "Magna Corallium"
+# ship "Magna Deseris"
+# ship "Ingens Amoeba"
+# ship "Ingens Cetacea"
+# ship "Ingens Coleoidea"
+# ship "Ingens Batoidea"
+# ship "Gargantua Avis"
+# ship "Gargantua Calamar"
+# ship "Gargantua Odoratus"
 
 
 
-outfit "Offal"
-	"cooling" 69
-	"thrust" 28.85	
-	"turn" 1426
-	"jump speed" .2
-	"jump fuel" 100
-	"hyperdrive" 1
-	"cargo scan power" 9
-	"cargo scan efficiency" 5
-	"asteroid scan power" 40
-
-
-ship "Locus Amoeba"
-	sprite "ship/space_fauna01"
-	"never disabled"
-	"uncapturable"
-	attributes
-		category "Heavy Freighter"
-		"cost" 1000
-		"hull" 40000
-		"required crew" 1
-		"bunks" 1
-		"mass" 1000
-		"drag" 8.1
-		"heat dissipation" .5
-		"fuel capacity" 500
-		"cargo space" 80
-		weapon
-			"blast radius" 80
-			"shield damage" 800
-			"hull damage" 400
-			"hit force" 1200
-	outfits
-		"Offal"
-		"Plankton Mouth"
-	gun 13.5 -107
-	leak "leak" 50 50
-	leak "flame" 30 80
-	leak "big leak" 60 30
-	explode "tiny explosion" 18
-	explode "small explosion" 36
-	explode "medium explosion" 24
-	explode "large explosion" 8
-	"final explode" "final explosion large"
-	description "This is a giant space amoeba."
-
-
-ship "Locus Cetacea"
-	sprite "ship/space_fauna02"
-	"never disabled"
-	"uncapturable"
-	attributes
-		category "Heavy Freighter"
-		"cost" 1000
-		"hull" 55000
-		"required crew" 1
-		"bunks" 1
-		"mass" 1000
-		"drag" 8.1
-		"heat dissipation" .5
-		"fuel capacity" 500
-		"cargo space" 120
-		weapon
-			"blast radius" 80
-			"shield damage" 800
-			"hull damage" 400
-			"hit force" 1200
-	outfits
-		"Offal"
-		"Plankton Mouth"
-	gun -19.5 -120.5
-	leak "leak" 50 50
-	leak "flame" 30 80
-	leak "big leak" 60 30
-	explode "tiny explosion" 18
-	explode "small explosion" 36
-	explode "medium explosion" 24
-	explode "large explosion" 8
-	"final explode" "final explosion large"
-	description "This is a giant space whale."
-
-
-ship "Locus Coleoidea"
-	sprite "ship/space_fauna03"
-	"never disabled"
-	"uncapturable"
-	attributes
-		category "Heavy Freighter"
-		"cost" 1000
-		"hull" 70000
-		"required crew" 1
-		"bunks" 1
-		"mass" 1000
-		"drag" 8.1
-		"heat dissipation" .5
-		"fuel capacity" 500
-		"cargo space" 110
-		weapon
-			"blast radius" 80
-			"shield damage" 800
-			"hull damage" 400
-			"hit force" 1200
-	outfits
-		"Offal"
-		"Plankton Mouth"
-	gun -4.5 -131 
-	leak "leak" 50 50
-	leak "flame" 30 80
-	leak "big leak" 60 30
-	explode "tiny explosion" 18
-	explode "small explosion" 36
-	explode "medium explosion" 24
-	explode "large explosion" 8
-	"final explode" "final explosion large"
-	description "This is a giant space squid."
-
-
-ship "Locus Batoidea"
-	sprite "ship/space_fauna04"
-	"never disabled"
-	"uncapturable"
-	attributes
-		category "Heavy Freighter"
-		"cost" 1000
-		"hull" 50000
-		"required crew" 1
-		"bunks" 1
-		"mass" 1000
-		"drag" 8.1
-		"heat dissipation" .5
-		"fuel capacity" 500
-		"cargo space" 90
-		weapon
-			"blast radius" 80
-			"shield damage" 800
-			"hull damage" 400
-			"hit force" 1200
-	outfits
-		"Offal"
-		"Plankton Mouth"
-	gun -0.5 -99.5
-	leak "leak" 50 50
-	leak "flame" 30 80
-	leak "big leak" 60 30
-	explode "tiny explosion" 18
-	explode "small explosion" 36
-	explode "medium explosion" 24
-	explode "large explosion" 8
-	"final explode" "final explosion large" 
-	description "This is a giant space stingray."
-
-
-ship "Locus Musculus"
+ship "Magna Musculus"
 	plural "Locus Musculus"
 	sprite "ship/space_fauna05"
 	"never disabled"
@@ -187,7 +37,7 @@ ship "Locus Musculus"
 			"hit force" 1200
 	outfits
 		"Offal"
-		"Plankton Mouth"
+		"Oris"
 	gun 13.5 -107
 	leak "leak" 50 50
 	leak "flame" 30 80
@@ -200,7 +50,7 @@ ship "Locus Musculus"
 	description "This is a giant space hulk."
 
 
-ship "Locus Aranea"
+ship "Magna Aranea"
 	sprite "ship/space_fauna06"
 	"never disabled"
 	"uncapturable"
@@ -222,7 +72,7 @@ ship "Locus Aranea"
 			"hit force" 1200
 	outfits
 		"Offal"
-		"Plankton Mouth"
+		"Oris"
 	gun 13.5 -107
 	leak "leak" 50 50
 	leak "flame" 30 80
@@ -235,7 +85,7 @@ ship "Locus Aranea"
 	description "This is a giant space spider."
 
 
-ship "Locus Rana"
+ship "Magna Rana"
 	sprite "ship/space_fauna07"
 	"never disabled"
 	"uncapturable"
@@ -257,7 +107,7 @@ ship "Locus Rana"
 			"hit force" 1200
 	outfits
 		"Offal"
-		"Plankton Mouth"
+		"Oris"
 	gun 13.5 -107
 	leak "leak" 50 50
 	leak "flame" 30 80
@@ -270,7 +120,7 @@ ship "Locus Rana"
 	description "This is a giant space frog."
 
 
-ship "Locus Medusa"
+ship "Magna Medusa"
 	sprite "ship/space_fauna08"
 	"never disabled"
 	"uncapturable"
@@ -292,7 +142,7 @@ ship "Locus Medusa"
 			"hit force" 1200
 	outfits
 		"Offal"
-		"Plankton Mouth"
+		"Oris"
 	gun 13.5 -107
 	leak "leak" 50 50
 	leak "flame" 30 80
@@ -305,7 +155,7 @@ ship "Locus Medusa"
 	description "This is a giant space jellyfish."
 
 
-ship "Locus Corallium"
+ship "Magna Corallium"
 	sprite "ship/space_fauna09"
 	"never disabled"
 	"uncapturable"
@@ -327,7 +177,7 @@ ship "Locus Corallium"
 			"hit force" 1200
 	outfits
 		"Offal"
-		"Plankton Mouth"
+		"Oris"
 	gun 13.5 -107
 	leak "leak" 50 50
 	leak "flame" 30 80
@@ -340,7 +190,7 @@ ship "Locus Corallium"
 	description "This is a giant space coral."
 
 
-ship "Locus Deseris"
+ship "Magna Deseris"
 	plural "Locus Deseris"
 	sprite "ship/space_fauna10"
 	"never disabled"
@@ -363,7 +213,254 @@ ship "Locus Deseris"
 			"hit force" 1200
 	outfits
 		"Offal"
-		"Plankton Mouth"
+		"Oris"
+	gun 13.5 -107
+	leak "leak" 50 50
+	leak "flame" 30 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description "This is a giant space stich."
+
+
+ship "Ingens Amoeba"
+	sprite "ship/space_fauna01"
+	"never disabled"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 1000
+		"hull" 40000
+		"required crew" 1
+		"bunks" 1
+		"mass" 1000
+		"drag" 8.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 80
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Offal"
+		"Oris"
+	gun 13.5 -107
+	leak "leak" 50 50
+	leak "flame" 30 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description "This is a giant space amoeba."
+
+
+ship "Ingens Cetacea"
+	sprite "ship/space_fauna02"
+	"never disabled"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 1000
+		"hull" 55000
+		"required crew" 1
+		"bunks" 1
+		"mass" 1000
+		"drag" 8.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 120
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Offal"
+		"Oris"
+	gun -19.5 -120.5
+	leak "leak" 50 50
+	leak "flame" 30 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description "This is a giant space whale."
+
+
+ship "Ingens Coleoidea"
+	sprite "ship/space_fauna03"
+	"never disabled"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 1000
+		"hull" 70000
+		"required crew" 1
+		"bunks" 1
+		"mass" 1000
+		"drag" 8.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 110
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Offal"
+		"Oris"
+	gun -4.5 -131 
+	leak "leak" 50 50
+	leak "flame" 30 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description "This is a giant space squid."
+
+
+ship "Ingens Batoidea"
+	sprite "ship/space_fauna04"
+	"never disabled"
+	"uncapturable"
+	attributes
+		category "Heavy Freighter"
+		"cost" 1000
+		"hull" 50000
+		"required crew" 1
+		"bunks" 1
+		"mass" 1000
+		"drag" 8.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 90
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Offal"
+		"Oris"
+	gun -0.5 -99.5
+	leak "leak" 50 50
+	leak "flame" 30 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large" 
+	description "This is a giant space stingray."
+
+
+ship "Gargantua Avis"
+	plural "Ingens Avis"
+	sprite "ship/space_fauna11"
+	"never disabled"
+	"uncapturable"
+	attributes
+		category "Light Freighter"
+		"cost" 1000
+		"hull" 85000
+		"required crew" 1
+		"bunks" 1
+		"mass" 1000
+		"drag" 8.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 40
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Offal"
+		"Oris"
+	gun 13.5 -107
+	leak "leak" 50 50
+	leak "flame" 30 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description "This is a giant space bird."
+
+
+ship "Gargantua Calamar"
+	sprite "ship/space_fauna12"
+	"never disabled"
+	"uncapturable"
+	attributes
+		category "Light Freighter"
+		"cost" 1000
+		"hull" 80000
+		"required crew" 1
+		"bunks" 1
+		"mass" 1000
+		"drag" 8.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 40
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Offal"
+		"Oris"
+	gun 13.5 -107
+	leak "leak" 50 50
+	leak "flame" 30 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description "This is a giant space octopus."
+
+
+ship "Gargantua Odoratus"
+	plural "Gargantua Odoratus"
+	sprite "ship/space_fauna13"
+	"never disabled"
+	"uncapturable"
+	attributes
+		category "Light Freighter"
+		"cost" 1000
+		"hull" 74000
+		"required crew" 1
+		"bunks" 1
+		"mass" 1000
+		"drag" 8.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 40
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Offal"
+		"Oris"
 	gun 13.5 -107
 	leak "leak" 50 50
 	leak "flame" 30 80

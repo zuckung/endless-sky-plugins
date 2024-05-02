@@ -1,19 +1,19 @@
-# system "Alpha Fauna"
+# system "Fauna Alpha"
 #   system "Cardax"
-# system "Beta Fauna"
+# system "Fauna Beta"
 #   system "Ossipago"
-# system "Gamma Fauna"
+# system "Fauna Gamma"
 #   system "5 Spring Below"
-# system "Delta Fauna"
+# system "Fauna Deltz"
 #   system "Cshudlye"
-# planet "Alpha Hive"
-# planet "Beta Hive"
-# planet "Gamma Hive"
-# planet "Delta Hive"
+# planet "Hive Alpha"
+# planet "Hive Beta"
+# planet "Hive Gamma"
+# planet "Hive Delta"
 
 
 
-system "Alpha Fauna"
+system "Fauna Alpha"
 	pos -179 -270
 	government "Space Fauna"
 	attributes "hive"
@@ -45,7 +45,7 @@ system "Alpha Fauna"
 		sprite planet/cloud3-b
 		distance 565.64
 		period 463.130
-	object "Alpha Hive"
+	object "Hive Alpha"
 		sprite "planet/fauna_colony"
 		distance 1500
 		period 600
@@ -64,10 +64,10 @@ system "Alpha Fauna"
 
 
 system "Cardax"
-	add link "Alpha Fauna"
+	add link "Fauna Alpha"
 
 
-system "Beta Fauna"
+system "Fauna Beta"
 	pos 10 400
 	government "Space Fauna"
 	attributes "hive"
@@ -99,7 +99,7 @@ system "Beta Fauna"
 		sprite planet/cloud3-b
 		distance 565.64
 		period 463.130
-	object "Beta Hive"
+	object "Hive Beta"
 		sprite "planet/fauna_colony"
 		distance 1500
 		period 600
@@ -118,10 +118,10 @@ system "Beta Fauna"
 
 
 system "Ossipago"
-	add link "Beta Fauna"
+	add link "Fauna Beta"
 
 
-system "Gamma Fauna"
+system "Fauna Gamma"
 	pos -1270 460
 	government "Space Fauna"
 	attributes "hive"
@@ -153,7 +153,7 @@ system "Gamma Fauna"
 		sprite planet/cloud3-b
 		distance 565.64
 		period 463.130
-	object "Gamma Hive"
+	object "Hive Gamma"
 		sprite "planet/fauna_colony"
 		distance 1500
 		period 600
@@ -172,10 +172,10 @@ system "Gamma Fauna"
 
 
 system "5 Spring Below"
-	add link "Gamma Fauna"
+	add link "Fauna Gamma"
 
 
-system "Delta Fauna"
+system "Fauna Delta"
 	pos 560 -473
 	government "Space Fauna"
 	attributes "hive"
@@ -207,7 +207,7 @@ system "Delta Fauna"
 		sprite planet/cloud3-b
 		distance 565.64
 		period 463.130
-	object "Delta Hive"
+	object "Hive Delta"
 		sprite "planet/fauna_colony"
 		distance 1500
 		period 600
@@ -226,50 +226,44 @@ system "Delta Fauna"
 
 
 system "Cshudlye"
-	add link "Delta Fauna"
+	add link "Fauna Delta"
 
 
-planet "Alpha Hive"
-	attributes hive factory research urban
-	government "Space Fauna"
-	landscape land/yellow_caves
-	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone.`
-	spaceport `A dangerous place to land, space amoeba breeding here.`
-	outfitter "Basic Outfits"
-	shipyard "Basic Ships"
-	security 0
-	bribe 0
-	"required reputation" 1001
-
-
-planet "Beta Hive" 
+planet "Hive Alpha"
 	attributes hive
 	government "Space Fauna"
 	landscape land/yellow_caves
-	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone.`
-	spaceport `A dangerous place to land, space amoeba breeding here.`
+	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone. The lifeforms here range from bacteria to the gigantic space travelling ones. It seems that they return from space to breed here.`
+	spaceport `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone. The lifeforms here range from bacteria to the gigantic space travelling ones. It seems that they return from space to breed here.`
 	security 0
 	bribe 0
-	"required reputation" 1001
+
+
+planet "Hive Beta" 
+	attributes hive
+	government "Space Fauna"
+	landscape land/yellow_caves
+	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone. The lifeforms here range from bacteria to the gigantic space travelling ones. It seems that they return from space to breed here.`
+	spaceport `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone. The lifeforms here range from bacteria to the gigantic space travelling ones. It seems that they return from space to breed here.`
+	security 0
+	bribe 0
 	
 
-planet "Gamma Hive"
+planet "Hive Gamma"
 	attributes hive
 	government "Space Fauna"
 	landscape land/yellow_caves
-	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone.`
-	spaceport `A dangerous place to land, space amoeba breeding here.`
+	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone. The lifeforms here range from bacteria to the gigantic space travelling ones. It seems that they return from space to breed here.`
+	spaceport `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone. The lifeforms here range from bacteria to the gigantic space travelling ones. It seems that they return from space to breed here.`
 	security 0
 	bribe 0
-	"required reputation" 1001
 
 
-planet "Delta Hive"
+planet "Hive Delta"
 	attributes hive
 	government "Space Fauna"
 	landscape land/yellow_caves
-	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone.`
-	spaceport `A dangerous place to land, space amoeba breeding here.`
+	description `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone. The lifeforms here range from bacteria to the gigantic space travelling ones. It seems that they return from space to breed here.`
+	spaceport `A hive planet of space faring fauna. It consists of lots of organic material, dust and stone. The lifeforms here range from bacteria to the gigantic space travelling ones. It seems that they return from space to breed here.`
 	security 0
 	bribe 0
-	"required reputation" 1001

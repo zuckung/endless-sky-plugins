@@ -1,4 +1,6 @@
 # government "Space Fauna Amoeba"
+# outfit "Oris"
+# outfit "Offal"
 # fleet "space fauna 01"
 # fleet "space fauna hive"
 
@@ -11,6 +13,53 @@ government "Space Fauna"
 		provoke 10
 		destroy 10
 
+outfit "Oris"
+	plural "Oris"
+	category "Guns"
+	cost 1000
+	thumbnail "outfit/unknown"
+	"gun ports" -1
+	weapon
+#		sprite "projectile/mining laser"
+#			"frame rate" 1
+		sound "plankton bite"
+#		"hit effect" "beam laser impact"
+#		"inaccuracy" .35
+		"velocity" 50
+		"lifetime" 1
+		"reload" 1
+		"shield damage" 4.8
+		"hull damage" 8.4
+		"minable damage" 2
+		"prospecting" 1
+	description "This is a hard hitting mouth!"
+
+outfit "Offal"
+	"cooling" 69
+	"thrust" 28.85	
+	"turn" 1426
+	"jump speed" .2
+	"jump fuel" 100
+	"hyperdrive" 1
+	"cargo scan power" 9
+	"cargo scan efficiency" 5
+	"asteroid scan power" 40
+
+
+# ship "Magna Musculus"
+# ship "Magna Aranea"
+# ship "Magna Rana"
+# ship "Magna Medusa"
+# ship "Magna Corallium"
+# ship "Magna Deseris"
+# ship "Ingens Amoeba"
+# ship "Ingens Cetacea"
+# ship "Ingens Coleoidea"
+# ship "Ingens Batoidea"
+# ship "Gargantua Avis"
+# ship "Gargantua Calamar"
+# ship "Gargantua Odoratus"
+
 
 fleet "space fauna 01"
 	government "Space Fauna"
@@ -18,65 +67,71 @@ fleet "space fauna 01"
 	personality
 		mining harvests surveillance coward mute
 	variant 3
-		"Locus Amoeba" 1
+		"Magna Musculus" 3
 	variant 2
-		"Locus Amoeba" 2
+		"Magna Musculus" 4
 	variant 1
-		"Locus Amoeba" 3
+		"Magna Musculus" 5
 	variant 3
-		"Locus Cetacea" 1
+		"Magna Aranea" 3
 	variant 2
-		"Locus Cetacea" 2
+		"Magna Aranea" 4
 	variant 1
-		"Locus Cetacea" 3
+		"Magna Aranea" 5
 	variant 3
-		"Locus Coleoidea" 1
+		"Magna Rana" 3
 	variant 2
-		"Locus Coleoidea" 2
+		"Magna Rana" 4
 	variant 1
-		"Locus Coleoidea" 3
+		"Magna Rana" 5
 	variant 3
-		"Locus Batoidea" 1
+		"Magna Medusa" 3
 	variant 2
-		"Locus Batoidea" 2
+		"Magna Medusa" 4
 	variant 1
-		"Locus Batoidea" 3
+		"Magna Medusa" 5
 	variant 3
-		"Locus Musculus" 3
+		"Magna Corallium" 3
 	variant 2
-		"Locus Musculus" 4
+		"Magna Corallium" 4
 	variant 1
-		"Locus Musculus" 5
+		"Magna Corallium" 5
 	variant 3
-		"Locus Aranea" 3
+		"Magna Deseris" 3
 	variant 2
-		"Locus Aranea" 4
+		"Magna Deseris" 4
 	variant 1
-		"Locus Aranea" 5
+		"Magna Deseris" 5
 	variant 3
-		"Locus Rana" 3
+		"Ingens Amoeba" 1
 	variant 2
-		"Locus Rana" 4
+		"Ingens Amoeba" 2
 	variant 1
-		"Locus Rana" 5
+		"Ingens Amoeba" 3
 	variant 3
-		"Locus Medusa" 3
+		"Ingens Cetacea" 1
 	variant 2
-		"Locus Medusa" 4
+		"Ingens Cetacea" 2
 	variant 1
-		"Locus Medusa" 5
+		"Ingens Cetacea" 3
 	variant 3
-		"Locus Corallium" 3
+		"Ingens Coleoidea" 1
 	variant 2
-		"Locus Corallium" 4
+		"Ingens Coleoidea" 2
 	variant 1
-		"Locus Corallium" 5
+		"Ingens Coleoidea" 3
 	variant 3
-		"Locus Deseris" 3
+		"Ingens Batoidea" 1
 	variant 2
-		"Locus Deseris" 4
+		"Ingens Batoidea" 2
 	variant 1
-		"Locus Deseris" 5
+		"Ingens Batoidea" 3
+	variant 1
+		"Gargantua Odoratus" 1
+	variant 1
+		"Gargantua Calamar" 1
+	variant 1
+		"Gargantua Avis" 1
 
 
 fleet "space fauna hive"
@@ -85,62 +140,68 @@ fleet "space fauna hive"
 	personality
 		timid frugal appeasing
 	variant 3
-		"Locus Amoeba" 1
+		"Magna Musculus" 3
 	variant 2
-		"Locus Amoeba" 2
+		"Magna Musculus" 4
 	variant 1
-		"Locus Amoeba" 3
+		"Magna Musculus" 5
 	variant 3
-		"Locus Cetacea" 1
+		"Magna Aranea" 3
 	variant 2
-		"Locus Cetacea" 2
+		"Magna Aranea" 4
 	variant 1
-		"Locus Cetacea" 3
+		"Magna Aranea" 5
 	variant 3
-		"Locus Coleoidea" 1
+		"Magna Rana" 3
 	variant 2
-		"Locus Coleoidea" 2
+		"Magna Rana" 4
 	variant 1
-		"Locus Coleoidea" 3
+		"Magna Rana" 5
 	variant 3
-		"Locus Batoidea" 1
+		"Magna Medusa" 3
 	variant 2
-		"Locus Batoidea" 2
+		"Magna Medusa" 4
 	variant 1
-		"Locus Batoidea" 3
+		"Magna Medusa" 5
 	variant 3
-		"Locus Musculus" 3
+		"Magna Corallium" 3
 	variant 2
-		"Locus Musculus" 4
+		"Magna Corallium" 4
 	variant 1
-		"Locus Musculus" 5
+		"Magna Corallium" 5
 	variant 3
-		"Locus Aranea" 3
+		"Magna Deseris" 3
 	variant 2
-		"Locus Aranea" 4
+		"Magna Deseris" 4
 	variant 1
-		"Locus Aranea" 5
+		"Magna Deseris" 5
 	variant 3
-		"Locus Rana" 3
+		"Ingens Amoeba" 1
 	variant 2
-		"Locus Rana" 4
+		"Ingens Amoeba" 2
 	variant 1
-		"Locus Rana" 5
+		"Ingens Amoeba" 3
 	variant 3
-		"Locus Medusa" 3
+		"Ingens Cetacea" 1
 	variant 2
-		"Locus Medusa" 4
+		"Ingens Cetacea" 2
 	variant 1
-		"Locus Medusa" 5
+		"Ingens Cetacea" 3
 	variant 3
-		"Locus Corallium" 3
+		"Ingens Coleoidea" 1
 	variant 2
-		"Locus Corallium" 4
+		"Ingens Coleoidea" 2
 	variant 1
-		"Locus Corallium" 5
+		"Ingens Coleoidea" 3
 	variant 3
-		"Locus Deseris" 3
+		"Ingens Batoidea" 1
 	variant 2
-		"Locus Deseris" 4
+		"Ingens Batoidea" 2
 	variant 1
-		"Locus Deseris" 5
+		"Ingens Batoidea" 3
+	variant 1
+		"Gargantua Odoratus" 1
+	variant 1
+		"Gargantua Calamar" 1
+	variant 1
+		"Gargantua Avis" 1
