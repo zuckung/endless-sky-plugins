@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-01 | update: space.fauna<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-02 | update: space.fauna<br>
+2024-05-01 | update: space.fauna<br>
 2024-04-30 | update: bunrodea.missions<br>
 2024-04-21 | update: coalition.shopping<br>
 2024-04-21 | update: more.boarding.missions<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-19 | update: hai.side.mission.unlocker<br>
 2024-04-16 | update: hai.side.mission.unlocker<br>
 2024-04-16 | update: more.boarding.missions<br>
-2024-04-15 | update: more.arfectas<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2397,7 +2397,7 @@ removed remnant mission requirement<br>
 
 <img src="myplugins/space.fauna/icon.png" height="100">
 
-[space.fauna.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/space.fauna.zip) | 895.66 kb | 2024-05-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/space.fauna/) <br>
+[space.fauna.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/space.fauna.zip) | 1.38 mb | 2024-05-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/space.fauna/) <br>
 <br>
 >Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive. See the readme for details.
 
@@ -2413,7 +2413,7 @@ Adds space fauna fleets to all systems. Useless but pretty, to make the universe
 
 <br>
 
-Currently there are 10 different oranisms, 4 lebiathan-sized, 6 clipper-sized. They are coming in fleet sized from 1 to 5 and aren't capturable/plunderable. There are 4 Hive planets around the galaxy, with increased spawn rates. Uninhabited systems have a higher spawn chance than inhabited systems.<br>
+There are 13 different oranisms, 3 superheavy-sized, 4 heavy-sized, 6 medium-sized. They are coming in fleet sized from 1 to 5 and aren't capturable/plunderable. There are 4 Hive planets around the galaxy, with increased spawn rates. Uninhabited systems have a higher spawn chance than inhabited systems.<br>
 
 <br>
 
@@ -2426,6 +2426,14 @@ Currently there are 10 different oranisms, 4 lebiathan-sized, 6 clipper-sized. T
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-05-02<br>
+
+added short range weapon<br>
+
+added 3 organisms<br>
 
 <br>
 
