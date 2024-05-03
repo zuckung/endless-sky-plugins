@@ -1,6 +1,7 @@
-# government "Space Fauna Amoeba"
+# government "Space Fauna"
 # outfit "Oris"
 # outfit "Offal"
+# mission "spawn gargantua regina"
 # fleet "space fauna 01"
 # fleet "space fauna hive"
 
@@ -20,45 +21,83 @@ outfit "Oris"
 	thumbnail "outfit/unknown"
 	"gun ports" -1
 	weapon
-#		sprite "projectile/mining laser"
-#			"frame rate" 1
 		sound "plankton bite"
-#		"hit effect" "beam laser impact"
-#		"inaccuracy" .35
 		"velocity" 50
 		"lifetime" 1
 		"reload" 1
-		"shield damage" 4.8
-		"hull damage" 8.4
-		"minable damage" 2
+		"shield damage" 20
+		"hull damage" 20
+		"minable damage" 4
 		"prospecting" 1
 	description "This is a hard hitting mouth!"
 
-outfit "Offal"
-	"cooling" 69
-	"thrust" 28.85	
-	"turn" 1426
+outfit "Intestina"
+	"cooling" 100
+	"thrust" 30
+	"turn" 1400
 	"jump speed" .2
-	"jump fuel" 100
+	"jump fuel" 10
 	"hyperdrive" 1
-	"cargo scan power" 9
-	"cargo scan efficiency" 5
-	"asteroid scan power" 40
+	"cargo scan power" 20
+	"cargo scan efficiency" 10
+	"asteroid scan power" 60
+	description "These are the entrails!"
 
 
-# ship "Magna Musculus"
-# ship "Magna Aranea"
-# ship "Magna Rana"
-# ship "Magna Medusa"
-# ship "Magna Corallium"
-# ship "Magna Deseris"
-# ship "Ingens Amoeba"
-# ship "Ingens Cetacea"
-# ship "Ingens Coleoidea"
-# ship "Ingens Batoidea"
-# ship "Gargantua Avis"
-# ship "Gargantua Calamar"
-# ship "Gargantua Odoratus"
+mission "spawn gargantua regina"
+	invisible
+	landing
+	to complete
+		never
+	on enter "Fauna Alpha"
+		set "visited fauna alpha"
+		dialog
+			`You have found a space fauna hive system!`
+	on enter "Fauna Beta"
+		set "visited fauna beta"
+		dialog
+			`You have found a space fauna hive system!`
+	on enter "Fauna Gamma"
+		set "visited fauna gamma"
+		dialog
+			`You have found a space fauna hive system!`
+	on enter "Fauna Delta"
+		set "visited fauna delta"
+		dialog
+			`You have found a space fauna hive system!`
+	npc kill
+		government "Space Fauna"
+		personality surveillance swarming mute staying waiting
+		system "Fauna Alpha"
+		fleet
+			cargo 0
+			variant 1
+				"Gargantua Regina" 1
+	npc kill
+		government "Space Fauna"
+		personality surveillance swarming mute staying waiting
+		system "Fauna Beta"
+		fleet
+			cargo 0
+			variant 1
+				"Gargantua Regina" 1
+	npc kill
+		government "Space Fauna"
+		personality surveillance swarming mute staying waiting
+		system "Fauna Gamma"
+		fleet
+			cargo 0
+			variant 1
+				"Gargantua Regina" 1
+	npc kill
+		government "Space Fauna"
+		personality surveillance swarming mute staying waiting
+		system "Fauna Delta"
+		fleet
+			cargo 0
+			variant 1
+				"Gargantua Regina" 1
+
 
 
 fleet "space fauna 01"

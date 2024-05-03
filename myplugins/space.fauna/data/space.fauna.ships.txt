@@ -11,6 +11,7 @@
 # ship "Gargantua Avis"
 # ship "Gargantua Calamar"
 # ship "Gargantua Odoratus"
+# ship "Gargantua Regina"
 
 
 
@@ -36,9 +37,9 @@ ship "Magna Musculus"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun 13.5 -107
+	gun 0.5 -55.5
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -71,9 +72,9 @@ ship "Magna Aranea"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun 13.5 -107
+	gun 1 -60.5
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -106,9 +107,9 @@ ship "Magna Rana"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun 13.5 -107
+	gun -0.5 -56.5
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -141,9 +142,9 @@ ship "Magna Medusa"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun 13.5 -107
+	gun -1 -95
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -176,9 +177,9 @@ ship "Magna Corallium"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun 13.5 -107
+	gun -3.5 -70
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -212,9 +213,9 @@ ship "Magna Deseris"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun 13.5 -107
+	gun 4.5 -57.5
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -247,9 +248,11 @@ ship "Ingens Amoeba"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun 13.5 -107
+		"Oris"
+	gun 13 -105
+	gun 14 -105 
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -282,9 +285,11 @@ ship "Ingens Cetacea"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun -19.5 -120.5
+		"Oris"
+	gun -22 -118
+	gun -21 -118 
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -317,9 +322,11 @@ ship "Ingens Coleoidea"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun -4.5 -131 
+		"Oris"
+	gun -3 -138
+	gun -4 -138
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -352,9 +359,11 @@ ship "Ingens Batoidea"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun -0.5 -99.5
+		"Oris"
+	gun -2 -108.5
+	gun -1 -108.5
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -388,9 +397,13 @@ ship "Gargantua Avis"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun 13.5 -107
+		"Oris"
+		"Oris"
+	gun 2 -130
+	gun 3 -130
+	gun 4 -130
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -423,9 +436,13 @@ ship "Gargantua Calamar"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun 13.5 -107
+		"Oris"
+		"Oris"
+	gun 1 -178
+	gun 2 -178
+	gun 3 -178
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -459,9 +476,54 @@ ship "Gargantua Odoratus"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Offal"
+		"Intestina"
 		"Oris"
-	gun 13.5 -107
+		"Oris"
+		"Oris"
+	gun -5 -227
+	gun -4 -227
+	gun -3 -227
+	leak "leak" 50 50
+	leak "flame" 30 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description "This is a giant space stich."
+
+
+ship "Gargantua Regina"
+	sprite "ship/space_fauna14"
+	"never disabled"
+	"uncapturable"
+	attributes
+		category "Light Freighter"
+		"cost" 1000
+		"hull" 120000
+		"required crew" 1
+		"bunks" 1
+		"mass" 1000
+		"drag" 8.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 40
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Intestina"
+		"Oris"
+		"Oris"
+		"Oris"
+		"Oris"
+	gun 4 -315
+	gun 5 -315
+	gun 6 -315
+	gun 7 -315
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30

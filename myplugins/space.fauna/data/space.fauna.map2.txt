@@ -4,7 +4,7 @@
 #   system "Ossipago"
 # system "Fauna Gamma"
 #   system "5 Spring Below"
-# system "Fauna Deltz"
+# system "Fauna Delta"
 #   system "Cshudlye"
 # planet "Hive Alpha"
 # planet "Hive Beta"
