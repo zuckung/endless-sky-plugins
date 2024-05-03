@@ -44,7 +44,7 @@ outfit "SFR-100 Android"
 outfit "SFR-200 Android"
 	"display name" "SFR-200 Fighter"
 	category "Androids"
-	cost 60000
+	cost 150000
 	thumbnail "outfit/sfr_fight01"
 	"capture attack" 2
 	"capture defense" 2
@@ -57,7 +57,7 @@ outfit "SFR-200 Android"
 outfit "SFR-210 Android"
 	"display name" "SFR-210 Fighter"
 	category "Androids"
-	cost 80000
+	cost 300000
 	thumbnail "outfit/sfr_fight02"
 	"capture attack" 4
 	"capture defense" 4
@@ -70,7 +70,7 @@ outfit "SFR-210 Android"
 outfit "SFR-220 Android"
 	"display name" "SFR-220 Fighter"
 	category "Androids"
-	cost 100000
+	cost 450000
 	thumbnail "outfit/sfr_fight03"
 	"capture attack" 6
 	"capture defense" 6
@@ -83,7 +83,7 @@ outfit "SFR-220 Android"
 outfit "SFR-300 Android"
 	"display name" "SFR-300 Fighter"
 	category "Androids"
-	cost 160000
+	cost 600000
 	thumbnail "outfit/sfr_fight04"
 	"capture attack" 8
 	"capture defense" 8
@@ -96,7 +96,7 @@ outfit "SFR-300 Android"
 outfit "SFR-310 Android"
 	"display name" "SFR-310 Fighter"
 	category "Androids"
-	cost 180000
+	cost 750000
 	thumbnail "outfit/sfr_fight05"
 	"capture attack" 10
 	"capture defense" 10
@@ -109,7 +109,7 @@ outfit "SFR-310 Android"
 outfit "SFR-320 Android"
 	"display name" "SFR-320 Fighter"
 	category "Androids"
-	cost 200000
+	cost 900000
 	thumbnail "outfit/sfr_fight06"
 	"capture attack" 12
 	"capture defense" 12
