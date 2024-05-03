@@ -1,12 +1,119 @@
-outfit "SFR-100 Android"	
-	category "Systems"	
-	cost 150000	
-	thumbnail "outfit/SFR-100_android"	
-	"required crew" -1	
-	"energy consumption" 0.01	
-	unplunderable 1	
-	description "	This android effectively replace one of your crew members with a robotic counterpart. Androids possess sufficient capabilities to perform most work, but lack the capability to captain a ship or take part in boarding actions."
-	description "Despite the increased price, compared to the hard to get 'NDR-114 android', they pay off after four years."
+# category "outfit"
+# outfitter "Snowfeather Robotics"
+# outfit "NDR-114 Android"
+# outfit "SFR-100 Android"
+# outfit "SFR-200 Android"
+# outfit "SFR-210 Android"
+# outfit "SFR-220 Android"
+# outfit "SFR-300 Android"
+# outfit "SFR-310 Android"
+# outfit "SFR-320 Android"
+
+
+
+category "outfit"
+	"Androids"
+
 
 outfitter "Snowfeather Robotics"
 	"SFR-100 Android"
+	"SFR-200 Android"
+	"SFR-210 Android"
+	"SFR-220 Android"
+	"SFR-300 Android"
+	"SFR-310 Android"
+	"SFR-320 Android"
+
+
+outfit "NDR-114 Android"
+	category "Androids"
+
+
+outfit "SFR-100 Android"
+	"display name" "SFR-100 Worker"
+	category "Androids"
+	cost 150000
+	thumbnail "outfit/sfr_worker"	
+	"required crew" -1	
+	"energy consumption" 0.01
+	unplunderable 1
+	description "This android effectively replace one of your crew members with a robotic counterpart. Androids possess sufficient capabilities to perform most work, but lack the capability to captain a ship or take part in boarding actions."
+	description "Despite the increased price, compared to the hard to get 'NDR-114 android', they pay off after four years."
+
+
+outfit "SFR-200 Android"
+	"display name" "SFR-200 Fighter"
+	category "Androids"
+	cost 60000
+	thumbnail "outfit/sfr_fight01"
+	"capture attack" 2
+	"capture defense" 2
+	"energy consumption" 0.01
+	unplunderable 1
+	description "This android takes part in boarding operations. Though it will only assist the crew and not replace them."
+	description "First generation of SFR fighting androids. The SFR-200 is and upgraded version of the SFR-100 with increased muscle strength and tactical programming."
+
+
+outfit "SFR-210 Android"
+	"display name" "SFR-210 Fighter"
+	category "Androids"
+	cost 80000
+	thumbnail "outfit/sfr_fight02"
+	"capture attack" 4
+	"capture defense" 4
+	"energy consumption" 0.01
+	unplunderable 1
+	description "This android takes part in boarding operations. Though it will only assist the crew and not replace them."
+	description "First generation of SFR fighting androids. The SFR-210 is even more upgraded than the SFR-200, with increased muscle strength and better tactical programming."
+
+
+outfit "SFR-220 Android"
+	"display name" "SFR-220 Fighter"
+	category "Androids"
+	cost 100000
+	thumbnail "outfit/sfr_fight03"
+	"capture attack" 6
+	"capture defense" 6
+	"energy consumption" 0.01
+	unplunderable 1
+	description "This android takes part in boarding operations. Though it will only assist the crew and not replace them."
+	description "First generation of SFR fighting androids. The SFR-220 is equipped with two blades and upgraded reflexes. The tactical programming is focused on extremely fast blade fighting, making it very deadly in close combat."
+
+
+outfit "SFR-300 Android"
+	"display name" "SFR-300 Fighter"
+	category "Androids"
+	cost 160000
+	thumbnail "outfit/sfr_fight04"
+	"capture attack" 8
+	"capture defense" 8
+	"energy consumption" 0.01
+	unplunderable 1
+	description "This android takes part in boarding operations. Though it will only assist the crew and not replace them."
+	description "Second generation of SFR fighting androids. The SFR-300 is the first version of heavy armored combat androids. Despite its weight it moves very fast and the two power-fists hit hard."
+
+
+outfit "SFR-310 Android"
+	"display name" "SFR-310 Fighter"
+	category "Androids"
+	cost 180000
+	thumbnail "outfit/sfr_fight05"
+	"capture attack" 10
+	"capture defense" 10
+	"energy consumption" 0.01
+	unplunderable 1
+	description "This android takes part in boarding operations. Though it will only assist the crew and not replace them."
+	description "Second generation of SFR fighting androids. The SFR-310 is heavily armored and equipped with two needle-throwers, making it deadly even at mid range."
+
+
+outfit "SFR-320 Android"
+	"display name" "SFR-320 Fighter"
+	category "Androids"
+	cost 200000
+	thumbnail "outfit/sfr_fight06"
+	"capture attack" 12
+	"capture defense" 12
+	"energy consumption" 0.01
+	unplunderable 1
+	description "This android takes part in boarding operations. Though it will only assist the crew and not replace them."
+	description "Second generation of SFR fighting androids. The SFR-320 is the current top model of SFR, maximal armored and with heavy weaponry. It has a small rail gun in one arm, and a heavy power fist in the other. It can only be stopped by massive counter fire and luck."
