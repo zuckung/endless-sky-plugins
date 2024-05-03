@@ -21,7 +21,7 @@ pirate.warlords|1.0.0
 planet.map|1.0.0
 real.fluff|1.0.2
 show.reputation|1.0.0
-snowfeather.robotics|1.0.2
+snowfeather.robotics|1.0.3
 too.many.asteroids|1.0.0
 unique.fix|1.0.0
 hai.side.mission.unlocker|1.1.2
