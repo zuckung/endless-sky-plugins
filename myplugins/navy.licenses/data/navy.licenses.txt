@@ -1,3 +1,8 @@
+# mission "getNavyLicenses"
+# mission "getNavyLicenses 2"
+
+
+
 mission "getNavyLicenses"
 	name "Get Navy licenses"
 	description "Travel to <destination> to acquire illegal Navy licences."
@@ -5,9 +10,10 @@ mission "getNavyLicenses"
 		planet "Stormhold"
 	destination "Geminus"
 	to offer
-		"credits" > 2500000
+		"credits" > 550000
 	on offer
 		conversation
+			scene "scene/nl_spaceport_captain"
 			`When you enter Stormhold's spaceport, you can hardly believe your eyes. A Republic Cruiser is parked right in front of you, and it has a pirate logo spray-painted on the hull. You move closer to take a look. A very authoritarian-looking woman is currently scaring up a group of technicians who are taking a break. She notices you admiring her ship and strolls over to you.`
 			`"Isn't that a beauty?" she asks.`
 			choice
@@ -16,9 +22,11 @@ mission "getNavyLicenses"
 				`		"A great ship, but don't you have to fight your way through every Republic system you enter?"`
 					goto captureB
 			label captureA
+			scene "scene/nl_spaceport_captain"
 			`"Oh, i didnt hijack it. I have a license."`
 					goto captureC
 			label captureB
+			scene "scene/nl_spaceport_captain"
 			`"It would be like this if I had actually hijacked it. But I have a license."`
 					goto captureC
 			label captureC
@@ -31,7 +39,7 @@ mission "getNavyLicenses"
 				`		"No, thanks. Sounds too dangerous for me."`
 					goto notinterested
 			label interested
-			`Ok, great. I'll arrange a meeting with my contact on Geminus. He is risking a lot with a stranger, so he probably would only sell all four  licenses in one rush. Keep 2 million credits ready for him. "`
+			`Ok, great. I'll arrange a meeting with my contact on Geminus. He is risking a lot with a stranger, so keep the credits ready for him. "`
 				accept
 			label notinterested
 			`Ok, maybe you come back later. Have a nice day.`
@@ -39,10 +47,127 @@ mission "getNavyLicenses"
 	on accept
 		payment -50000
 	on complete
-		payment -2000000
-		set "license: Navy"
-		set "license: Navy Auxiliary"
-		set "license: Navy Cruiser"
-		set "license: Navy Carrier"		
 		conversation
-			`After you have reached the contact from orbit, you meet him in a shady bar. Everything happens pretty quickly. A quick credit transfer, a quick handover of the licenses, and the extremely nervous man disappears. Now it's time to test the licenses. There are some Navy ships for sale in the local ship dock.`
+			label buy
+			scene "scene/nl_shady_bar"
+			`After you have reached the contact from orbit, you meet him in a shady bar. He is very nervous.`
+			choice
+				`	buy Navy license (500.000 credits)`
+					to display
+						not "license: Navy"
+						"credits" > 500000
+					goto navy1
+				`	buy Navy Auxiliary license (500.000 credits)`
+					to display
+						not "license: Navy Auxiliary"
+						"credits" > 500000
+					goto navy2
+				`	buy Navy Cruiser license (500.000 credits)`
+					to display
+						not "license: Navy Cruiser"
+						"credits" > 500000
+					goto navy3
+				`	buy Navy Carrier license (500.000 credits)`
+					to display
+						not "license: Navy Carrier"
+						"credits" > 500000
+					goto navy4
+				`	come back later`
+					goto done
+			label navy1
+			action
+				payment -500000
+				set "license: Navy"
+			` You've bought the Navy license.`
+				goto buy
+			label navy2
+			action
+				payment -500000
+				set "license: Navy Auxiliary"
+			` You've bought the Navy Auxiliary license.`
+				goto buy
+			label navy3
+			action
+				payment -500000
+				set "license: Navy Cruiser"
+			` You've bought the Navy Cruiser license.`
+				goto buy
+			label navy4
+			action
+				payment -500000
+				set "license: Navy Carrier"
+			` You've bought the Navy Carrier license.`
+				goto buy
+			label done
+			`Everything happens pretty quickly. A quick credit transfer, a quick handover of the licenses, and the extremely nervous man disappears. Now it's time to test the licenses. There are some Navy ships for sale in the local ship dock.`
+
+
+mission "getNavyLicenses 2"
+	invisible
+	repeat
+	landing
+	source
+		planet "Geminus"
+	to offer
+		"credits" > 500000
+		has "getNavyLicenses: done"
+		or
+			not "license: Navy"
+			not "license: Navy Cruiser"
+			not "license: Navy Auxiliary"
+			not "license: Navy Carrier"
+	on offer
+		conversation
+			label buy
+			scene "scene/nl_shady_bar"
+			`You meet your contact of the local navy administration again in a shady bar.`
+			choice
+				`	buy Navy license (500.000 credits)`
+					to display
+						not "license: Navy"
+						"credits" > 500000
+					goto navy1
+				`	buy Navy Auxiliary license (500.000 credits)`
+					to display
+						not "license: Navy Auxiliary"
+						"credits" > 500000
+					goto navy2
+				`	buy Navy Cruiser license (500.000 credits)`
+					to display
+						not "license: Navy Cruiser"
+						"credits" > 500000
+					goto navy3
+				`	buy Navy Carrier license (500.000 credits)`
+					to display
+						not "license: Navy Carrier"
+						"credits" > 500000
+					goto navy4
+				`	come back later`
+					goto done
+			label navy1
+			action
+				payment -500000
+				set "license: Navy"
+			` You've bought the Navy license.`
+				goto buy
+			label navy2
+			action
+				payment -500000
+				set "license: Navy Auxiliary"
+			` You've bought the Navy Auxiliary license.`
+				goto buy
+			label navy3
+			action
+				payment -500000
+				set "license: Navy Cruiser"
+			` You've bought the Navy Cruiser license.`
+				goto buy
+			label navy4
+			action
+				payment -500000
+				set "license: Navy Carrier"
+			` You've bought the Navy Carrier license.`
+				goto buy
+			label done
+			`Everything happens pretty quickly. A quick credit transfer, a quick handover of the licenses, and the extremely nervous man disappears. Now it's time to test the licenses. There are some Navy ships for sale in the local ship dock.`
+
