@@ -62,7 +62,7 @@ mission "get heliarch"
 	on offer
 		conversation
 			scene "scene/kimek_spaceport"
-			`As you enter <origin>'s spaceport, a suspiciously nervous Kimek approaches. "Hello Captain <last>. I would like to talk to you about a not entirely legal business  with you. Can we perhaps talk further in your ship?"`
+			`As you enter <origin>'s spaceport, a suspiciously nervous Kimek approaches. "Hello Captain <last>. I would like to talk to you about a not entirely legal business. Can we perhaps talk further inside your ship?"`
 			choice
 				`	Sure.`
 					goto yes
@@ -70,7 +70,7 @@ mission "get heliarch"
 					decline
 			label yes
 			scene "scene/kimek_sitting"
-			`Once in the ship, the Kimek begins to relax. "My client has already built a few shipyards and outfitters in the 'Far Home' system, some with unlicensed ships and equipment, and is now looking for paying customers. For a small fee of one million credits, you would be granted access to these difficult-to-access objects. More precisely, it is about Heliarch and Lunarium technology. The payment would be made now and you would also be provided with a Heliarch license. Are you interested?"`
+			`Once in the ship, the Kimek begins to relax. "My client has already built a few shipyards and outfitters in the 'Far Home' system, some with unlicensed ships and equipment, and is now looking for paying customers. For a small fee of five million credits, you would be granted access to these difficult-to-access technologies. More precisely, it is about Heliarch and Lunarium technologies. The payment would be made now and you would also be provided with a Heliarch license. Are you interested?"`
 			choice
 				`	That sounds great, I will pay.`
 					goto yesyes
@@ -104,7 +104,7 @@ mission "get lunarium"
 	on offer
 		conversation
 			scene "scene/kimek_spaceport"
-			`As you enter <origin>'s spaceport, a suspiciously nervous Kimek approaches. "Hello Captain <last>. I would like to talk to you about a not entirely legal business  with you. Can we perhaps talk further in your ship?"`
+			`As you enter <origin>'s spaceport, a suspiciously nervous Kimek approaches. "Hello Captain <last>. I would like to talk to you about a not entirely legal business. Can we perhaps talk further inside your ship?"`
 			choice
 				`	Sure.`
 					goto yes
@@ -112,7 +112,7 @@ mission "get lunarium"
 					decline
 			label yes
 			scene "scene/kimek_sitting"
-			`Once in the ship, the Kimek begins to relax. "My client has already built a few shipyards and outfitters in the 'Far Home' system, some with unlicensed ships and equipment, and is now looking for paying customers. For a small fee of one million credits, you would be granted access to these difficult-to-access objects. More precisely, it is about Heliarch and Lunarium technology. The payment would be made now. Are you interested?"`
+			`Once in the ship, the Kimek begins to relax. "My client has already built a few shipyards and outfitters in the 'Far Home' system, some with unlicensed ships and equipment, and is now looking for paying customers. For a small fee of five million credits, you would be granted access to these difficult-to-access technologies. More precisely, it is about Heliarch and Lunarium technologies. The payment would be made now. Are you interested?"`
 			choice
 				`	That sounds great, I will pay.`
 					goto yesyes
