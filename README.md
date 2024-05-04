@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-03 | update: space.fauna<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-04 | update: navy.licenses<br>
+2024-05-03 | update: space.fauna<br>
 2024-05-03 | update: snowfeather.robotics<br>
 2024-05-02 | update: space.fauna<br>
 2024-05-01 | update: space.fauna<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-21 | update: more.boarding.missions<br>
 2024-04-20 | update: real.fluff<br>
 2024-04-20 | update: gegno.pirates<br>
-2024-04-19 | update: hai.side.mission.unlocker<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1920,7 +1920,7 @@ added icon and reworked readme<br>
 
 <img src="myplugins/navy.licenses/icon.png" height="100">
 
-[navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/navy.licenses.zip) | 19.28 kb | 2024-02-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) <br>
+[navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/navy.licenses.zip) | 81.48 kb | 2024-05-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) <br>
 <br>
 >Adds a mission on Stormhold(Alcyone system) which leads you to Geminus(Castor system) to buy the four Navy licenses. See the readme for details.
 
@@ -1936,17 +1936,29 @@ Adds a mission on Stormhold(Alcyone system) which leads you to Geminus(Castor sy
 
 <br>
 
-The mission can get started with 2,5 million credits cash available. You have to pay 50.000 credits for the contact and 2 million for the four licenses.<br>
+The mission can get started with 550.000 credits cash available. You have to pay 50.000 credits for making the contact and 500.000 credits for each of the four licenses.<br>
 
-If you reject the mission, you can restart it on other visits.<br>
+If you reject the mission, you can restart it on other visits. Also not buying all licenses lets the buying mission on Geminus restart on other landings(till all are bought).<br>
 
 You get the following licenses : Navy license, Navy Auxiliary license, Navy Cruiser license, Navy Carrier license.<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/navy.licenses01.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/navy.licenses02.jpg' width='400'>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-05-04<br>
+
+added 2 scene images<br>
+
+added the option to buy single licenses<br>
 
 <br>
 
