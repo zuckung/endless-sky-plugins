@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-04 | update: navy.licenses<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-04 | update: coalition.shopping<br>
+2024-05-04 | update: navy.licenses<br>
 2024-05-03 | update: space.fauna<br>
 2024-05-03 | update: snowfeather.robotics<br>
 2024-05-02 | update: space.fauna<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-04-21 | update: coalition.shopping<br>
 2024-04-21 | update: more.boarding.missions<br>
 2024-04-20 | update: real.fluff<br>
-2024-04-20 | update: gegno.pirates<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -764,7 +764,7 @@ initial release<br>
 
 <img src="myplugins/coalition.shopping/icon.png" height="100">
 
-[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/coalition.shopping.zip) | 30.88 kb | 2024-04-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <br>
+[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/coalition.shopping.zip) | 88.54 kb | 2024-05-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <br>
 <br>
 >Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in 'Homeward' system. See the readme for details.
 
@@ -780,17 +780,27 @@ Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in 'Homewar
 
 <br>
 
-Adds all existing coalition outfitters and shipyards to 'Far Home'. Also adds a new shipyard and a new outfitter.<br>
+Adds all existing coalition outfitters and shipyards to 'Far Home'. Also adds a new shipyard and a new outfitter with missing ships/outfits.<br>
 
-The shipyard sells all missing Heliarch ships.<br>
+To start the mission to enable these outfitters and shipyards, you have to join Heliarch or Lunarium (complete the first chapter of these storylines) and own/pay 5 million credits. The mission starts anywhere in coalition space. I added this plausible mission to make the plugin feel less cheaty.<br>
 
-The outfitter sells all missing Heliarch Outfits and Coalition/Heliarch license.<br>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/coalition.shopping01.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/coalition.shopping02.jpg' width='400'>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-05-04<br>
+
+added 2 scene images<br>
+
+added a plausible story mission for heliarch and one for lunarium players<br>
 
 <br>
 

@@ -4,7 +4,7 @@ automata.in.human.space|1.0.0
 better.starts|1.0.0
 bunrodea.missions|1.0.2
 captureable.person.ships|1.1.0
-coalition.shopping|1.0.1
+coalition.shopping|1.0.2
 devil-run.unhidden|1.0.1
 disable.person.ships|1.0.0
 disable.spaceport.repeatables|1.1.0
