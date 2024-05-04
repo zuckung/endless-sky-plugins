@@ -764,7 +764,7 @@ initial release<br>
 
 <img src="myplugins/coalition.shopping/icon.png" height="100">
 
-[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/coalition.shopping.zip) | 88.54 kb | 2024-05-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <br>
+[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/coalition.shopping.zip) | 88.53 kb | 2024-05-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <br>
 <br>
 >Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in 'Homeward' system. See the readme for details.
 
