@@ -1,7 +1,7 @@
 ### more.boarding.missions <br>
 <br>
 <br>
-Adds 80 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Remnant, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
+Adds 87 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Remnant, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
 <br>
 Only natural spawning ships can trigger these missions and ships spawned from jobs/missions or marauder hunting fleets doesn't trigger. Remnant assisting chances and Ka'het boarding chances are so high, cause of the rarity to find a boardable ship.<br>
 <br>
@@ -13,6 +13,7 @@ Only natural spawning ships can trigger these missions and ships spawned from jo
 <li> 5 Hai Unfettered boarding missions (by ship categories, 10% chance, 30.000 to 90.000 credits)</li>
 <li> 3 Hai Unfettered boarding missions (by reward, 3% chance, outfit one of the 3 weapon prototypes)</li>
 <li> 7 Human assisting missions (by ship categories, 20% chance, 10.000 to 30.000 credits)</li>
+<li> 7 Human boarding missions (by ship categories, 20% chance, 10.000 to 30.000 credits)</li>
 <li> 3 Ka'het boarding missions (by ship categories, 25-35% chance, 150.000 to 250.000 credits)</li>
 <li> 2 Korath boarding missions (for the bigger ship categories, 15% chance, 20.000 to 30.000 credits)</li>
 <li> 2 Korath boarding missions (for the bigger ship categories, 2-3% chance, outfit "Cloaking Device")</li>
@@ -25,10 +26,24 @@ Only natural spawning ships can trigger these missions and ships spawned from jo
 <li> 7 Wanderer assisting missions (by ship categories, 10% chance, 50.000 to 100.000 credits)</li>
 <li> support for plugin more.arfectas(6 pug farm boarding missions)</li>
 </ul>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/more.boarding.missions/screenshot.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions01.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions02.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions03.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions04.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions05.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions06.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions07.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions08.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions09.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions10.jpg' width='400'>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-05-08<br>
+fixed hai assisting to include  "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"<br>
+added 7 human boarding missions<br>
+modified 3 vanilla boarding conversations to add image<br>
 <br>
 2024-04-21<br>
 fixed error on human Independent assisting missions<br>

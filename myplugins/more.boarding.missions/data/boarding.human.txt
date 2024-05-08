@@ -1,5 +1,9 @@
-# 7 assisting human + 7 boarding pirate + 4 boarding pirate for outfit
+# 7 assisting human + 7 boarding human + 7 boarding pirate + 4 boarding pirate for outfit
 
+# conversation "assisting merchant"
+# conversation "assisting merchant hazardous"
+# conversation "assisting law enforcement"
+# conversation "boarding pirate"
 # mission "Assisting Human (Interceptor)"
 # mission "Assisting Human (Light Warship)"
 # mission "Assisting Human (Transport)"
@@ -7,7 +11,13 @@
 # mission "Assisting Human (Medium Warship)"
 # mission "Assisting Human (Heavy Freighter)"
 # mission "Assisting Human (Heavy Warship)"
-# conversation "boarding pirate"
+# mission "Boarding Human (Interceptor)"
+# mission "Boarding Human (Light Warship)"
+# mission "Boarding Human (Transport)"
+# mission "Boarding Human (Light Freighter)"
+# mission "Boarding Human (Medium Warship)"
+# mission "Boarding Human (Heavy Freighter)"
+# mission "Boarding Human (Heavy Warship)"
 # mission "Boarding Pirate ID (Interceptor)"
 # mission "Boarding Pirate ID (Light Warship)"
 # mission "Boarding Pirate ID (Transport)"
@@ -20,6 +30,35 @@
 # mission "Boarding Pirate AD (Medium Warship)"
 # mission "Boarding Pirate AD (Heavy Warship)"
 
+
+
+conversation "assisting merchant"
+	scene "scene/assisting03"
+	`${assist merchant 1} <origin>${assist merchant 2} ${assist merchant 3} <payment>${assist merchant 4}`
+			decline
+
+
+conversation "assisting merchant hazardous"
+	scene "scene/assisting04"
+	`${assist merchant 1 hazardous} <origin>${assist merchant 2} ${assist merchant 3} <payment>${assist merchant 4}`
+		decline
+
+
+conversation "assisting law enforcement"
+	scene "scene/assisting05"
+	`The captain of the <origin> thanks you for repairing them, but informs you that the pirates that disabled them are only a smaller part of a fleet attacking <destination>.`
+	`	The authorities of <planet> will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+	choice
+		`	(Don't join the fight.)`
+			decline
+		`	(Join the defense fleet.)`
+			accept
+
+
+conversation "boarding pirate"
+	scene "scene/boarding06"
+	`You make short-range scans of the <origin>'s outfits and cargo. Among the cargo, you find a crate full of credit chips worth <payment>. You drag the crate onto your ship before considering your next move.`
+		decline
 
 
 mission "Assisting Human (Interceptor)"
@@ -155,11 +194,137 @@ mission "Assisting Human (Heavy Warship)"
 				decline
 
 
-# modified vanilla boarding conversation
-conversation "boarding pirate"
-	scene "scene/boarding07"
-	`You make short-range scans of the <origin>'s outfits and cargo. Among the cargo, you find a crate full of credit chips worth <payment>. You drag the crate onto your ship before considering your next move.`
-		decline
+mission "Boarding Human (Interceptor)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
+		category "Interceptor"
+		not attributes "automaton"
+	on offer
+		payment 10000
+		conversation
+			scene "scene/boarding07"
+			`When you board the <origin>, the captain negotiates a ransom payment and pays you <payment>. Of course, you have the choice to still rob him despite this agreement.`
+				decline
+
+
+mission "Boarding Human (Light Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
+		category "Light Warship"
+		not attributes "automaton"
+	on offer
+		payment 12000
+		conversation
+			scene "scene/boarding08"
+			`When you board the <origin>, the captain negotiates a ransom payment and pays you <payment>. Of course, you have the choice to still rob him despite this agreement.`
+				decline
+
+
+mission "Boarding Human (Transport)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
+		category "Transport"
+		not attributes "automaton"
+	on offer
+		payment 15000
+		conversation
+			scene "scene/boarding09"
+			`When you board the <origin>, the captain negotiates a ransom payment and pays you <payment>. Of course, you have the choice to still rob him despite this agreement.`
+				decline
+
+
+mission "Boarding Human (Light Freighter)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
+		category "Light Freighter"
+		not attributes "automaton"
+	on offer
+		payment 18000
+		conversation
+			scene "scene/boarding10"
+			`When you board the <origin>, the captain negotiates a ransom payment and pays you <payment>. Of course, you have the choice to still rob him despite this agreement.`
+				decline
+
+
+mission "Boarding Human (Medium Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
+		category "Medium Warship"
+		not attributes "automaton"
+	on offer
+		payment 20000
+		conversation
+			scene "scene/assisting07"
+			`When you board the <origin>, the captain negotiates a ransom payment and pays you <payment>. Of course, you have the choice to still rob him despite this agreement.`
+				decline
+
+
+mission "Boarding Human (Heavy Freighter)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
+		category "Heavy Freighter"
+		not attributes "automaton"
+	on offer
+		payment 25000
+		conversation
+			scene "scene/boarding01"
+			`When you board the <origin>, the captain negotiates a ransom payment and pays you <payment>. Of course, you have the choice to still rob him despite this agreement.`
+				decline
+
+
+mission "Boarding Human (Heavy Warship)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
+		category "Heavy Warship"
+		not attributes "automaton"
+	on offer
+		payment 30000
+		conversation
+			scene "scene/boarding02"
+			`When you board the <origin>, the captain negotiates a ransom payment and pays you <payment>. Of course, you have the choice to still rob him despite this agreement.`
+				decline
 
 
 mission "Boarding Pirate ID (Interceptor)"

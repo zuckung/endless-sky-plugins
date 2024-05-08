@@ -31,7 +31,7 @@ mission "Assisting Hai (Interceptor)"
 	to offer
 		random > 79
 	source
-		government "Hai"
+		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		category "Interceptor"
 	on offer
 		payment 20000
@@ -49,7 +49,7 @@ mission "Assisting Hai (Light Warship)"
 	to offer
 		random > 79
 	source
-		government "Hai"
+		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		category "Light Warship"
 	on offer
 		payment 24000
@@ -67,7 +67,7 @@ mission "Assisting Hai (Transport)"
 	to offer
 		random > 79
 	source
-		government "Hai"
+		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		category "Transport"
 	on offer
 		payment 30000
@@ -85,7 +85,7 @@ mission "Assisting Hai (Light Freighter)"
 	to offer
 		random > 79
 	source
-		government "Hai"
+		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		category "Light Freighter"
 	on offer
 		payment 36000
@@ -103,7 +103,7 @@ mission "Assisting Hai (Medium Warship)"
 	to offer
 		random > 79
 	source
-		government "Hai"
+		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		category "Medium Warship"
 	on offer
 		payment 40000
@@ -121,7 +121,7 @@ mission "Assisting Hai (Heavy Freighter)"
 	to offer
 		random > 79
 	source
-		government "Hai"
+		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		category "Heavy Freighter"
 	on offer
 		payment 50000
@@ -139,7 +139,7 @@ mission "Assisting Hai (Heavy Warship)"
 	to offer
 		random > 79
 	source
-		government "Hai"
+		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		category "Heavy Warship"
 	on offer
 		payment 60000
