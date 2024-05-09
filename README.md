@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-08 | update: more.boarding.missions<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-09 | update: additional.command.buttons.radial<br>
+2024-05-08 | update: more.boarding.missions<br>
 2024-05-04 | update: coalition.shopping<br>
 2024-05-04 | update: navy.licenses<br>
 2024-05-03 | update: space.fauna<br>
@@ -24,12 +25,12 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-01 | update: space.fauna<br>
 2024-04-30 | update: bunrodea.missions<br>
 2024-04-21 | update: coalition.shopping<br>
-2024-04-21 | update: more.boarding.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
 <table><tr valign="top"><td><img width="294" height="1"><br>
 <a href="README.md#additionalcommandbuttons">additional.command.buttons</a><br>
+<a href="README.md#additionalcommandbuttonsradial">additional.command.buttons.radial</a><br>
 <a href="README.md#automatadestruction0percent">automata.destruction.0percent</a><br>
 <a href="README.md#automatainhumanspace">automata.in.human.space</a><br>
 <a href="README.md#betterstarts">better.starts</a><br>
@@ -38,8 +39,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#coalitionshopping">coalition.shopping</a><br>
 <a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
-<a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
@@ -191,6 +192,50 @@ added descriptions inside script to exchange buttons functions<br>
 2023-07-06<br>
 
 changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner can easily toggled by double tapping<br>
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### additional.command.buttons.radial
+
+<img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
+
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.radial.zip) | 32.39 kb | 2024-05-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
+<br>
+>Reworks the main buttons ui on the lower right side. Made for the mobile version. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### additional.command.buttons <br>
+
+<br>
+
+Reworks the main buttons ui on the lower right side. Made for the mobile version.<br> 
+
+<br>
+
+<br>
+
+This plugin rearranges and resizes some of the buttons, adds two easy accessible buttons and puts an image behind them.<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial01.jpg' width='400'>
+
+<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-05-09<br>
+
+initial release<br>
 </blockquote>
 </details>
 <br>
