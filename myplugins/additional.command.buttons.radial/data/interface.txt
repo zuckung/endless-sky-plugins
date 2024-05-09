@@ -1,0 +1,214 @@
+interface "main buttons" bottom right
+
+	anchor bottom right
+	sprite "ui/buttonbox"
+		from 0 0 to -325 -200
+
+
+# UPPER ROW
+
+	active
+	sprite "ui/round_button_bg"
+		center -208 -139
+		dimensions 50 50
+	sprite "ui/icon_fleet_stop"
+		center -208 -139
+		dimensions 40 40
+	button "Stop"
+		center -208 -139
+		radius 22
+
+	active
+	sprite "ui/round_button_bg"
+		center -264 -139
+		dimensions 50 50
+	sprite "ui/icon_board"
+		center -264 -139
+		dimensions 40 40
+	button "Board selected ship"
+		center -264 -139
+		radius 22
+
+# LOWER ROW
+
+	active
+	sprite "ui/round_button_bg"
+		center -40 -30
+		dimensions 50 50
+	sprite "ui/icon_map"
+		center -40 -30
+		dimensions 40 40
+	button "View star map"
+		center -40 -30
+		radius 22
+
+	active
+	sprite "ui/round_button_bg"
+		center -96 -30
+		dimensions 50 50
+	sprite "ui/icon_jump"
+		center -96 -30
+		dimensions 40 40
+	button "Initiate hyperspace jump"
+		center -96 -30
+		radius 22
+
+	visible if "can deploy"
+	sprite "ui/round_button_bg"
+		center -152 -30
+		dimensions 50 50
+	sprite "ui/icon_deploy"
+		center -152 -30
+		dimensions 40 40
+	button "Deploy / recall fighters"
+		center -152 -30
+		radius 22
+
+	visible if "can recall"
+	sprite "ui/round_button_bg"
+		center -152 -30
+		dimensions 50 50
+	sprite "ui/icon_recall"
+		center -152 -30
+		dimensions 40 40
+	button "Deploy / recall fighters"
+		center -152 -30
+		radius 22
+
+	visible
+	sprite "ui/round_button_bg"
+		center -208 -30
+		dimensions 50 50
+	sprite "ui/icon_menu"
+		center -208 -30
+		dimensions 44 44
+	radial
+		center -208 -30
+		radius 22
+		selection_angles -1.5 1.1
+		selection_radius 175
+		"Land on planet / station"
+		"Toggle fast-forward"
+		"View player info"
+		"Show main menu"
+		visible if "can hail"
+		"Talk to selected ship"
+		visible if "can scan asteroids"
+		"Select nearest asteroid" "asteroid/small rock/spin"
+
+	visible if "has fleet"
+	sprite "ui/round_button_bg"
+		center -264 -30
+		dimensions 50 50
+	sprite "ui/icon_fleet"
+		center -264 -30
+		dimensions 40 40
+	radial
+		center -264 -30
+		radius 22
+		selection_angles -1.5 1.1
+		selection_radius 175
+		"Fleet: Gather around me"
+		"Fleet: Hold position"
+		"Fleet: Harvest flotsam"
+		"Fleet: Fight my target"
+		"Fleet: Toggle ammo usage"
+
+# BIG ATTACK BUTTONS
+
+	visible
+	sprite "ui/round_button_bg"
+		center -50 -100
+		dimensions 80 80
+	sprite "ui/icon_fire"
+		center -50 -100
+		dimensions 64 64
+	visible if "!can attack"
+	button "Fire primary weapon"
+		center -50 -100
+		radius 40
+	visible if "can attack"
+	button "Fire primary weapon"
+		center -50 -100
+		radius 40
+		command "Fleet: Fight my target"
+
+	visible if "has secondary"
+	active if "secondary selected"
+	sprite "ui/round_button_bg"
+		center -140 -100
+		dimensions 80 80
+	sprite "ui/icon_secondary"
+		center -140 -100
+		dimensions 64 64
+	button "Fire secondary weapon"
+		center -140 -100
+		radius 25
+	# The engine will draw the secondary weapons list here.
+	box "ammo"
+		from -160 -180 to -70 -335
+	# from -200 -145 to -110 -300
+
+# MIDDLE ROW
+
+	visible if "can scan"
+	sprite "ui/round_button_bg"
+		center -208 -86
+		dimensions 50 50
+	sprite "ui/icon_scan"
+		center -208 -86
+		dimensions 40 40
+	button "Scan selected ship"
+		center -208 -86
+		radius 22
+
+	visible if "can cloak"
+	sprite "ui/round_button_bg"
+		center -264 -86
+		dimensions 50 50
+	sprite "ui/icon_cloak"
+		center -264 -86
+		dimensions 40 40
+	button "Toggle cloaking device"
+		center -264 -86
+		radius 22
+
+
+
+
+	# Overlayed on target display, but the hud doesn't have a panel, so to
+	# handle input, we put it here instead.
+	visible
+	active
+	anchor top left
+	button "Select next ship"
+		center 75 315
+		radius 80
+
+	# Overlayed on the navigational panel, which displays something like
+	# "Can land on: Earth"
+	visible
+	active
+	button "Land on planet / station"
+		from 200 0 to 380 60
+
+	# hidden button in top-left corner that turns on fast-forwarding
+	visible
+	active
+	anchor top left
+	button "Toggle fast-forward"
+		from 0 0 to 48 48
+
+
+	# box in bottom left corner that defines a location for the onscreen joystick
+	anchor bottom left
+	active if "onscreen joystick"
+	box "onscreen joystick"
+		center 128 -128
+		dimensions 192 192
+
+	# This button doesn't do anything. It is here to swallow any clicks on the
+	# onscreen joystick, in case some of these controls overlap
+	button ^ ""
+		center 128 -128
+		radius 96
