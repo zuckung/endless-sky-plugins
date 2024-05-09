@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-09 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-09 | update: control.station<br>
+2024-05-09 | update: additional.command.buttons.radial<br>
 2024-05-08 | update: more.boarding.missions<br>
 2024-05-04 | update: coalition.shopping<br>
 2024-05-04 | update: navy.licenses<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-02 | update: space.fauna<br>
 2024-05-01 | update: space.fauna<br>
 2024-04-30 | update: bunrodea.missions<br>
-2024-04-21 | update: coalition.shopping<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -37,9 +37,10 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
 <a href="README.md#captureablepersonships">captureable.person.ships</a><br>
 <a href="README.md#coalitionshopping">coalition.shopping</a><br>
+<a href="README.md#controlstation">control.station</a><br>
 <a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
-<a href="README.md#disablepersonships">disable.person.ships</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
@@ -49,8 +50,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
-<a href="README.md#navylicenses">navy.licenses</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#piratewarlords">pirate.warlords</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
@@ -862,6 +863,61 @@ added plugin.txt<br>
 <br>
 
 2023-10-05<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### control.station
+
+<img src="myplugins/control.station/icon.png" height="100">
+
+[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/control.station.zip) | 219.16 kb | 2024-05-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <br>
+<br>
+>Adds a station to the Sol system that offers administrative functions started by the job board. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### control.station
+
+<br>
+
+<br>
+
+Adds a station to the Sol system that offers administrative functions started by the job board. See the readme for details.<br>
+
+<br>
+
+Current functions:<br>
+
+show reputation<br>
+
+show person ships<br>
+
+complete free worlds reconciliation campaign<br>
+
+<br>
+
+Completing the campaign might not exactly have the same result as if the campaign was played. There is a massive amount of events, that might suppress other events, when done on the same day. It looks good now, but not sure if that's really the case.<br>
+
+So lets call this plugin EXPERIMENTAL for now.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-05-09<br>
 
 initial release<br>
 

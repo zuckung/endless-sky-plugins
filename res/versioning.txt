@@ -27,3 +27,4 @@ unique.fix|1.0.0
 hai.side.mission.unlocker|1.1.2
 space.fauna|1.1.2
 additional.command.buttons.radial|1.0.0
+control.station|1.0.0
