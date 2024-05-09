@@ -1,0 +1,95 @@
+substitutions
+	"<mich>" "alive"
+		"person destroyed: Michael Zahniser" == 0
+	"<capn>" "alive"
+		"person destroyed: Cap'n Pester" == 0
+	"<mara>" "alive"
+		"person destroyed: Marauding Max" == 0
+	"<capt>" "alive"
+		"person destroyed: Captain Nate" == 0
+	"<tran>" "alive"
+		"person destroyed: Tranquility" == 0
+	"<powe>" "alive"
+		"person destroyed: Power of the People" == 0
+	"<loca>" "alive"
+		"person destroyed: Local God" == 0
+	"<subs>" "alive"
+		"person destroyed: Subsidurial" == 0
+	"<prot>" "alive"
+		"person destroyed: Prototype B3-CC4" == 0
+	"<rais>" "alive"
+		"person destroyed: Rais Iris XVIII" == 0
+	"<zitc>" "alive"
+		"person destroyed: Zitchas" == 0
+	"<bric>" "alive"
+		"person destroyed: Brick" == 0
+	"<gefu>" "alive"
+		"person destroyed: Gefullte Taubenbrust" == 0
+	"<mast>" "alive"
+		"person destroyed: MasterOfGrey" == 0
+	"<patr>" "alive"
+		"person destroyed: Patrol Team" == 0
+
+
+	"<mich>" "dead"
+		"person destroyed: Michael Zahniser" == 1
+	"<capn>" "dead"
+		"person destroyed: Cap'n Pester" == 1
+	"<mara>" "dead"
+		"person destroyed: Marauding Max" == 1
+	"<capt>" "dead"
+		"person destroyed: Captain Nate" == 1
+	"<tran>" "dead"
+		"person destroyed: Tranquility" == 1
+	"<powe>" "dead"
+		"person destroyed: Power of the People" == 1
+	"<loca>" "dead"
+		"person destroyed: Local God" == 1
+	"<subs>" "dead"
+		"person destroyed: Subsidurial" == 1
+	"<prot>" "dead"
+		"person destroyed: Prototype B3-CC4" == 1
+	"<rais>" "dead"
+		"person destroyed: Rais Iris XVIII" == 1
+	"<zitc>" "dead"
+		"person destroyed: Zitchas" == 1
+	"<bric>" "dead"
+		"person destroyed: Brick" == 1
+	"<gefu>" "dead"
+		"person destroyed: Gefullte Taubenbrust" == 1
+	"<mast>" "dead"
+		"person destroyed: MasterOfGrey" == 1
+	"<patr>" "dead"
+		"person destroyed: Patrol Team" == 1
+
+
+
+mission "person status"
+	job
+	repeat
+	name "(Show Person Ship List)"	
+	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships. Accept, start and land again to show the list."
+	source "Control Station"
+	on accept
+		conversation
+			`Person Ship List`
+			``
+			`Status	"Name" (Source | Shiptype/s)`
+			`<mich>	"Michael Zahniser" (found everywhere | Kestrel + Finch)`
+			`<capn>	"Cap'n Pester" (found everywhere | Quarg Wardragon)`
+			`<mara>	"Marauding Max" (found everywhere | Marauder Fury)`
+			`<capt>	"Captain Nate" (found everywhere | Vanguard)	`
+			`<tran>	"Tranquility" (found everywhere | Lampyrid)	`
+			`<powe>	"Power of the People" (found everywhere | Modified Osprey)`
+			`<loca>	"Local God" (found everywhere | Ursa Polaris)`
+			`<subs>	"Subsidurial" (found in uninhabited | Subsidurial)`
+			`<prot>	"Prototype B3-CC4" (found in Ember Waste | Shooting Star)`
+			`<rais>	"Rais Iris XVIII" (found everywhere | Marauder Bactrian)`
+			`<zitc>	"Zitchas" (found in Ember Waste | Heron + Peregrine + 4x Petrel + 32x Tern)`
+			`<bric>	"Brick" (found everywhere | 3x Modified Boxwing)`
+			`<gefu>	"Gefullte Taubenbrust" (found everywhere | Modified Battleship)`
+			`<mast>	"MasterOfGrey" (found in Hai space | Modified Ladybug)`
+			`<patr>	"Patrol Team" (found everywhere | 6x Waverider)`
+			``
+				decline
+

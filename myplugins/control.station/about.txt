@@ -1,0 +1,1 @@
+Adds a station to the Sol system that offers administrative functions started by the job board. See the readme for details.

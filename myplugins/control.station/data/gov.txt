@@ -1,0 +1,28 @@
+# government administration
+# system sol
+# planet control station
+
+
+
+
+government "Administration"
+	"display name" "Administration"
+	swizzle 4
+	color 1 1 1
+	"player reputation" 1
+
+system "Sol"
+	add object "Control Station"
+		sprite planet/admin_station
+			scale 1
+		distance 3500
+		period 1
+		offset 45
+
+planet "Control Station"
+	landscape land/inside_station
+	description `This is the Endless Sky Control Station`
+	government "Administration"
+	spaceport `spaceport`
+	outfitter "Basic Outfits"
+	shipyard "Basic Ships"

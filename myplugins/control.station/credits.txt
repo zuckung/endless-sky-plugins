@@ -1,0 +1,9 @@
+control.station
+author:
+	zuckung 
+	https://github.com/zuckung/endless-sky-plugins
+images:
+	planet, icon
+		ai generated at https://www.craiyon.com/
+	land
+		ai generated at https://perchance.org/ai-text-to-image-generator
