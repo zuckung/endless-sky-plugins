@@ -1,0 +1,84 @@
+# work around to enable normal gameplay when not using complete fw
+# also to fix vanilla events overwriting systems after complete fw
+
+mission "timed war begin"
+	landing
+	invisible
+	on offer
+		event "wabe" 220
+		event "inde 1" 240
+		event "inde 2" 260
+		event "inde 3" 275
+		event "inde 4" 292
+		fail
+
+event "wabe"
+event "inde 1"
+event "inde 2"
+event "inde 3"
+event "inde 4"
+
+mission "wabe"
+	invisible
+	landing
+	to offer
+		has "event: wabe"
+		not "donefw"
+	on offer
+		event "war begins"
+		fail
+
+mission "inde 1"
+	invisible
+	landing
+	to offer
+		has "event: inde 1"
+		not "donefw"
+	on offer
+		event "initial deployment 1"
+		fail
+
+mission "inde 2"
+	invisible
+	landing
+	to offer
+		has "event: inde 2"
+		not "donefw"
+	on offer
+		event "initial deployment 2"
+		fail
+
+mission "inde 3"
+	invisible
+	landing
+	to offer
+		has "event: inde 3"
+		not "donefw"
+	on offer
+		event "initial deployment 3"
+		fail
+
+mission "inde 4"
+	invisible
+	landing
+	to offer
+		has "event: inde 4"
+		not "donefw"
+	on offer
+		event "initial deployment 4"
+		fail
+
+event "war begins"
+	date 1 1 4000
+
+event "initial deployment 1"
+	date 1 1 4000
+
+event "initial deployment 2"
+	date 1 1 4000
+
+event "initial deployment 3"
+	date 1 1 4000
+
+event "initial deployment 4"
+	date 1 1 4000

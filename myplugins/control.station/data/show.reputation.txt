@@ -1,20 +1,24 @@
+# mission "reputation"
+
+
+
 mission "reputation"
 	job
 	repeat
 	name "(Show Reputations)"
-	description "Shows a list of reputations. Accept mission, start and land again."
+	description "Shows a list of all reputation standings."
 	source "Control Station"
 	on accept
 		conversation
 			label menu
 			``
-			`Menu:`
+			`Choose!`
 			choice
 				`	Reputation List (selected 35)`
 					goto selrep
 				`	Reputation List (all)`
 					goto fullrep
-				`	close this`
+				`	Close`
 					goto end
 			label selrep
 			`Reputation List (selected 35)`

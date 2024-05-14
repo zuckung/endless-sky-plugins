@@ -1,3 +1,8 @@
+# substitutions
+# mission "person status"
+
+
+
 substitutions
 	"<mich>" "alive"
 		"person destroyed: Michael Zahniser" == 0
@@ -68,7 +73,7 @@ mission "person status"
 	job
 	repeat
 	name "(Show Person Ship List)"	
-	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships. Accept, start and land again to show the list."
+	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships."
 	source "Control Station"
 	on accept
 		conversation
