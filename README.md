@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-09 | update: control.station<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-14 | update: control.station<br>
+2024-05-09 | update: control.station<br>
 2024-05-09 | update: additional.command.buttons.radial<br>
 2024-05-08 | update: more.boarding.missions<br>
 2024-05-04 | update: coalition.shopping<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-03 | update: snowfeather.robotics<br>
 2024-05-02 | update: space.fauna<br>
 2024-05-01 | update: space.fauna<br>
-2024-04-30 | update: bunrodea.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -879,7 +879,7 @@ initial release<br>
 
 <img src="myplugins/control.station/icon.png" height="100">
 
-[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/control.station.zip) | 219.16 kb | 2024-05-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <br>
+[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/control.station.zip) | 231.84 kb | 2024-05-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <br>
 <br>
 >Adds a station to the Sol system that offers administrative functions started by the job board. See the readme for details.
 
@@ -901,19 +901,57 @@ show reputation<br>
 
 show person ships<br>
 
+show all vanilla system<br>
+
 complete free worlds reconciliation campaign<br>
+
+complete free worlds checkmate campaign<br>
+
+complete free worlds both campaigns<br>
+
+complete hai reveal 0 prolog<br>
+
+complete remnant campaign<br>
 
 <br>
 
-Completing the campaign might not exactly have the same result as if the campaign was played. There is a massive amount of events, that might suppress other events, when done on the same day. It looks good now, but not sure if that's really the case.<br>
+Completing the campaigns might not exactly have the same result as if the campaign was played. There is a massive amount of events, that might suppress other events, when done on the same day. It looks good now, but not sure if that's really the case.<br>
 
 So lets call this plugin EXPERIMENTAL for now.<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/control.station01.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/control.station02.jpg' width='400'>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-05-14<br>
+
+fixed all events set not correct<br>
+
+fixed fw mission offered on clink<br>
+
+fixed vanilla fw events with dates overwriting the set done<br>
+
+added 100 Neutral rep so you can land on the former Pug planets<br>
+
+added -100 Pirate rep<br>
+
+added checkmate option<br>
+
+added both branches option<br>
+
+added hai reveal 0 done job<br>
+
+added remnant done job<br>
+
+added reveal whole galaxy job<br>
 
 <br>
 
