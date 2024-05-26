@@ -14,6 +14,10 @@ mission "Hai Reveal: Pirate Troubles [0]" (Scars Legion cut out of campaign)<br>
 <br>
 Changelog:<br>
 <br>
+2024-05-26<br>
+replaced expanding business with old version(thx ziproot)<br>
+added set mission: done/offered to all missions<br>
+<br>
 2024-04-19<br>
 bug fixes<br>
 <br>
