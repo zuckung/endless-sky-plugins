@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-26 | update: disable.spaceport.repeatables<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-26 | update: quarg.farm<br>
+2024-05-26 | update: disable.spaceport.repeatables<br>
 2024-05-14 | update: control.station<br>
 2024-05-09 | update: control.station<br>
 2024-05-09 | update: additional.command.buttons.radial<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-04 | update: navy.licenses<br>
 2024-05-03 | update: space.fauna<br>
 2024-05-03 | update: snowfeather.robotics<br>
-2024-05-02 | update: space.fauna<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -39,8 +39,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#coalitionshopping">coalition.shopping</a><br>
 <a href="README.md#controlstation">control.station</a><br>
 <a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
@@ -50,11 +50,12 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#piratewarlords">pirate.warlords</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
+<a href="README.md#quargfarm">quarg.farm</a><br>
 <a href="README.md#realfluff">real.fluff</a><br>
 <a href="README.md#showreputation">show.reputation</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
@@ -2313,6 +2314,49 @@ added 4 new locations, with 2 new backgrounds<br>
 2024-03-24<br>
 
 initial release<br>
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### quarg.farm
+
+<img src="myplugins/quarg.farm/icon.png" height="100">
+
+[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/quarg.farm.zip) | 26.78 kb | 2024-05-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <br>
+<br>
+>Adds a new system "Saquerver" (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### quarg.farm
+
+<br>
+
+<br>
+
+Adds a new system "Saquerver" (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed.<br>
+
+<br>
+
+The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Quarg fleets spawn there. Killing/plundering them doesn't make the other Quarg angry. Landing on the four other Quarg faction's worlds doesn't end with a death sentence when you have their ships/outfits.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-05-26<br>
+
+initial release<br>
+
+
+
 </blockquote>
 </details>
 <br>
