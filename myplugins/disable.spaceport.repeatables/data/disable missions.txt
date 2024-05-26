@@ -19,3 +19,4 @@ disable mission
 	"Republic Navy Advisory System [volcanic]"
 	"Republic Navy Advisory System [wildfire cargo]"
 	"Republic Navy Advisory System [wildfire firefighters]"
+	"Small Scale Delivery"

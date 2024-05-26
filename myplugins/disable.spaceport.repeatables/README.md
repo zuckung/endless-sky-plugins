@@ -25,10 +25,14 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 <li> "Republic Navy Advisory System [volcanic]" </li>
 <li> "Republic Navy Advisory System [wildfire cargo]" </li>
 <li> "Republic Navy Advisory System [wildfire firefighters]" </li>
+<li> "Small Scale Delivery" (Kor Efret)<li>
 </ul>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-05-26<br>
+added "Small Scale Delivery" from Kor Efret<br>
 <br>
 2024-04-06<br>
 added the 4 republic catastrophe repeatables<br>
