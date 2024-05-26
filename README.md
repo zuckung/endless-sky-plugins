@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-26 | update: quarg.farm<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-26 | update: hai.side.mission.unlocker<br>
+2024-05-26 | update: quarg.farm<br>
 2024-05-26 | update: disable.spaceport.repeatables<br>
 2024-05-14 | update: control.station<br>
 2024-05-09 | update: control.station<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-04 | update: coalition.shopping<br>
 2024-05-04 | update: navy.licenses<br>
 2024-05-03 | update: space.fauna<br>
-2024-05-03 | update: snowfeather.robotics<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1649,7 +1649,7 @@ initial release<br>
 
 <img src="myplugins/hai.side.mission.unlocker/icon.png" height="100">
 
-[hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/hai.side.mission.unlocker.zip) | 29.4 kb | 2024-04-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) <br>
+[hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/hai.side.mission.unlocker.zip) | 29.71 kb | 2024-05-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) <br>
 <br>
 >Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. See the readme for details.
 
@@ -1684,6 +1684,14 @@ mission "Hai Reveal: Pirate Troubles [0]" (Scars Legion cut out of campaign)<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-05-26<br>
+
+replaced expanding business with old version(thx ziproot)<br>
+
+added set mission: done/offered to all missions<br>
 
 <br>
 
