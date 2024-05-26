@@ -1,0 +1,4 @@
+quarg.farm
+author:
+	zuckung 
+	https://github.com/zuckung/endless-sky-plugins

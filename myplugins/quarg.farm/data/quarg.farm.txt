@@ -1,0 +1,153 @@
+# government "Quarg"
+# government "Quarg (Hai)"
+# government "Quarg (Kor Efret)"
+# government "Quarg (Gegno)"
+# government "Quarg (Secret)"
+# mission "Quarg Warning Saquerver"
+# system "Saquerver"
+# planet "Ver"
+# fleet "Quarg (Evil)"
+# fleet "Large Quarg (Evil)"
+# outfit "Stub"
+
+
+
+government "Quarg"
+	atrocities
+		"Stub"
+		
+		
+government "Quarg (Hai)"
+	atrocities
+		"Stub"
+
+
+government "Quarg (Kor Efret)"
+	atrocities
+		"Stub"
+
+
+government "Quarg (Gegno)"
+	atrocities
+		"Stub"
+
+
+government "Quarg (Evil)"
+	swizzle 0
+	color .88 .77 0
+	"display name" "Quarg"
+	"player reputation" -1000
+	"hostile hail" "hostile quarg"
+	"hostile disabled hail" "hostile quarg"
+	atrocities
+		"Stub"
+
+
+mission "Quarg Warning Saquerver"
+	landing
+	invisible
+	to complete
+		never
+	on enter "Saquerver"
+		dialog `When you enter the Saquerver system you receive a transmition: "Human, this is a restrictected military system, leave immediately or we will attack. You are not welcome here."`
+		fail
+
+
+system "Saquerver"
+	pos -532 599
+	government "Quarg (Evil)"
+	arrival 600
+	habitable 600
+	belt 1345
+	haze _menu/haze-blackbody
+	fleet "Quarg (Evil)" 1000
+	fleet "Large Quarg (Evil)" 2000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock6-b
+		distance 392
+		period 88
+		object
+			sprite planet/europa
+			distance 190
+			period 22
+	object "Ver"
+		sprite planet/ocean4
+		distance 601
+		period 312
+	object
+		sprite planet/lava3-b
+		distance 1176
+		period 699
+	object
+		sprite planet/gas15
+		distance 2549
+		period 2310
+		object
+			sprite planet/dust5
+			distance 207
+			period 16
+		object
+			sprite planet/desert4
+			distance 376
+			period 32
+
+
+planet "Ver"
+	attributes quarg
+	landscape land/bwerner5
+	description `Ver is a military Quarg outpost for spying the coalition.`
+	spaceport `The Quarg let you know that you aren't welcome here.`
+	bribe 0
+	security 0.9
+	tribute 1000
+		threshold 8000
+		fleet "Quarg (Evil)" 2
+	
+	
+fleet "Quarg (Evil)"
+	government "Quarg (Evil)"
+	names "quarg"
+	cargo 3
+	personality
+		forbearing opportunistic
+	variant
+		"Quarg Skylark"
+	variant
+		"Quarg Wardragon"
+
+
+fleet "Large Quarg (Evil)"
+	government "Quarg (Evil)"
+	names "quarg"
+	cargo 1
+	personality
+		forbearing opportunistic
+	variant 2
+		"Quarg Skylark" 2
+		"Quarg Wardragon"
+	variant 2
+		"Quarg Wardragon" 2
+		"Quarg Skylark"
+	variant
+		"Quarg Skylark" 2
+		"Quarg Wardragon" 2
+	variant
+		"Quarg Wardragon" 3
+		"Quarg Skylark"
+	variant
+		"Quarg Skylark" 3
+		"Quarg Wardragon"
+
+outfit "Stub"
+	category "Power"
+	cost 100000000
+	thumbnail "outfit/quarg antimatter core"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 80
+	"heat generation" 20
+	"unplunderable" 1
+	description "Woot?"
