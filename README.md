@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-14 | update: control.station<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-26 | update: disable.spaceport.repeatables<br>
+2024-05-14 | update: control.station<br>
 2024-05-09 | update: control.station<br>
 2024-05-09 | update: additional.command.buttons.radial<br>
 2024-05-08 | update: more.boarding.missions<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-03 | update: space.fauna<br>
 2024-05-03 | update: snowfeather.robotics<br>
 2024-05-02 | update: space.fauna<br>
-2024-05-01 | update: space.fauna<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1111,7 +1111,7 @@ added icon.png<br>
 
 <img src="myplugins/disable.spaceport.repeatables/icon.png" height="100">
 
-[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 20.51 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
+[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/disable.spaceport.repeatables.zip) | 20.57 kb | 2024-05-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
 <br>
 >Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the readme for details.
 
@@ -1171,6 +1171,8 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 
 <li> "Republic Navy Advisory System [wildfire firefighters]" </li>
 
+<li> "Small Scale Delivery" (Kor Efret)<li>
+
 </ul>
 
 <br>
@@ -1178,6 +1180,12 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-05-26<br>
+
+added "Small Scale Delivery" from Kor Efret<br>
 
 <br>
 

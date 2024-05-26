@@ -7,7 +7,7 @@ captureable.person.ships|1.1.0
 coalition.shopping|1.0.3
 devil-run.unhidden|1.0.1
 disable.person.ships|1.0.0
-disable.spaceport.repeatables|1.1.0
+disable.spaceport.repeatables|1.1.1
 expert.crew.members|1.0.0
 free.worlds.5.years.later|1.0.0
 galactic.capital.investment|1.1.0

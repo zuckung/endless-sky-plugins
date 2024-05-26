@@ -1,3 +1,4 @@
+2024-05-26 | update: disable.spaceport.repeatables
 2024-05-14 | update: control.station
 2024-05-09 | update: control.station
 2024-05-09 | update: additional.command.buttons.radial
