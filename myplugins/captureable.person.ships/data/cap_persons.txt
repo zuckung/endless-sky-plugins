@@ -36,7 +36,7 @@ disable person
 	"MasterOfGrey"
 	"Patrol Team"
 
-person "Michael Zahniser (Capture me)"
+person "Michael Zahniser (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -54,9 +54,9 @@ person "Michael Zahniser (Capture me)"
 			"hull" 40000
 			"required crew" 400
 			"bunks" 500
-			"mass" 740
-			"drag" 12.5
-			"heat dissipation" 0.45
+			"mass" 2270
+			"drag" 18.75
+			"heat dissipation" 0.3
 			"fuel capacity" 500
 			"cargo space" 200
 			"outfit space" 2400
@@ -135,7 +135,7 @@ ship "Finch" "Finch (MZ)"
 		"Ionic Afterburner"
 
 
-person "Cap'n Pester (Capture me)"
+person "Cap'n Pester (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -163,7 +163,7 @@ person "Cap'n Pester (Capture me)"
 			"Scram Drive"
 
 
-person "Marauding Max (Capture me)"
+person "Marauding Max (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -227,7 +227,7 @@ person "Marauding Max (Capture me)"
 	ship "Marauder Fury" "Mad Quest"
 
 
-person "Captain Nate (Capture me)"
+person "Captain Nate (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -293,9 +293,9 @@ person "Captain Nate (Capture me)"
 			"hull" 8000
 			"required crew" 23
 			"bunks" 45
-			"mass" 500
-			"drag" 8
-			"heat dissipation" .6
+			"mass" 1357.5
+			"drag" 12
+			"heat dissipation" .4
 			"fuel capacity" 400
 			"cargo space" 50
 			"outfit space" 1215
@@ -364,11 +364,11 @@ person "Captain Nate (Capture me)"
 		"final explode" "final explosion large"
 
 
-person "Tranquility (Capture me)"
+person "Tranquility (C)"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance staying
+		disables heroic surveillance
 	phrase
 		word
 			"They tell ya never to hit a man with a closed fist, but it is on occasion hilarious."
@@ -404,13 +404,12 @@ ship "Lampyrid-Class Transport"
 		"hull" 4400
 		"required crew" 5
 		"bunks" 23
-		"mass" 240
-		"drag" 8.5
-		"heat dissipation" .7
+		"mass" 490
+		"drag" 12.75
+		"heat dissipation" .47
 		"fuel capacity" 700
 		"cargo space" 160
-		"outfit space" 265
-		"weapon capacity" 5		
+		"outfit space" 260
 		"engine capacity" 105
 		weapon
 			"blast radius" 100
@@ -452,7 +451,7 @@ ship "Lampyrid-Class Transport"
 	"final explode" "final explosion medium" 1
 
 
-person "Power of the People (Capture me)"
+person "Power of the People (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -542,7 +541,7 @@ person "Power of the People (Capture me)"
 	ship "Modified Osprey" "Power of the People"
 
 
-person "Local God (Capture me)"
+person "Local God (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -626,7 +625,7 @@ person "Local God (Capture me)"
 	ship "Ursa Polaris" "Local God"
 
 
-person "Subsidurial (Capture me)"
+person "Subsidurial (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -636,7 +635,7 @@ person "Subsidurial (Capture me)"
 		government "Uninhabited"
 
 
-person "Prototype B3-CC4 (Capture me)"
+person "Prototype B3-CC4 (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -730,7 +729,7 @@ person "Prototype B3-CC4 (Capture me)"
 	ship "Shooting Star" "Prototype B3-CC4"
 
 
-person "Rais Iris XVIII (Capture me)"
+person "Rais Iris XVIII (C)"
 	government "Author"
 	frequency 200
 	personality
@@ -813,7 +812,7 @@ person "Rais Iris XVIII (Capture me)"
 	ship "Marauder Bactrian" "Rais Iris XVIII"
 
 
-person "Zitchas (Capture me)"
+person "Zitchas (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -938,7 +937,7 @@ person "Zitchas (Capture me)"
 	ship "Tern" "Shadow Flight 24"
 
 
-person "Brick (Capture me)"
+person "Brick (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -954,7 +953,7 @@ person "Brick (Capture me)"
 	ship "Modified Boxwing" "Remnant Block"
 
 
-person "Gefullte Taubenbrust (Capture me)"
+person "Gefullte Taubenbrust (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -973,7 +972,7 @@ person "Gefullte Taubenbrust (Capture me)"
 	ship "Modified Battleship" "RSS Smoking Dove"
 
 
-person "MasterOfGrey (Capture me)"
+person "MasterOfGrey (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -1006,7 +1005,7 @@ person "MasterOfGrey (Capture me)"
 			"<placeholder text>"
 	ship "Modified Ladybug" "Revealer of Hai"
 
-person "Patrol Team (Capture me)"
+person "Patrol Team (C)"
 	government "Author"
 	frequency 1000
 	personality
@@ -1125,58 +1124,3 @@ person "Patrol Team (Capture me)"
 			"shields" 12000
 			"hull" 5000
 			"mass" 100
-
-ship "Waverider"
-	sprite "ship/waverider"
-	attributes
-		category "Light Warship"
-		"cost" 3000000
-		"shields" 10000
-		"hull" 7000
-		"required crew" 1
-		"bunks" 1
-		"mass" 150
-		"drag" 1.5
-		"heat dissipation" 1
-		"fuel capacity" 1000
-		"cargo space" 100
-		"outfit space" 346
-		"weapon capacity" 120
-		"engine capacity" 54
-		weapon
-			"blast radius" 340
-			"shield damage" 3400
-			"hull damage" 1700
-			"hit force" 5000
-	outfits
-		"Particle Cannon" 4
-		"S-970 Regenerator"
-		"Dwarf Core"
-		"LP072a Battery Pack"
-		"Liquid Nitrogen Cooler"
-		"Catalytic Ramscoop"
-		"Tactical Scanner"
-		"Cargo Scanner"
-		"Outfit Scanner"
-		"Asteroid Scanner"
-
-		"A120 Atomic Thruster"
-		"A125 Atomic Steering" 2
-		"Scram Drive"
-
-		"Emotional Baggage"
-	engine 0 56
-	engine -23 64
-	engine 23 64
-	gun -22.5 -56.5 "Particle Cannon"
-	gun 22.5 -56.5 "Particle Cannon"
-	gun -31.5 -7 "Particle Cannon"
-	gun 31.5 -7 "Particle Cannon"
-	description `The Waverider was a ship that was first requested and never used for five years, seven months and twenty-seven days.`
-	description `	Its disappointment was so immense, it willed itself into being.`
-
-outfit "Emotional Baggage"
-	category "Unique"
-	thumbnail "outfit/unknown"
-	description `The physical embodiment of everything that makes the Reviewers who they are today.`
-	description `	Unfortunately, it's not for sale.`

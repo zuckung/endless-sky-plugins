@@ -11,8 +11,9 @@ At Earths job board you can find a repeatable job that displays which persons yo
 After you've killed them all, you receive a small unique gift.<br>
 <br>
 Tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and i tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
+In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in max a  minute.<br>
 <br>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/captureable.person.ships/screenshot.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/capturable.person.ships01.jpg' width='400'>
 <ul>
 <li>"Michael Zahniser" (found everywhere | Kestrel + Finch)</li>
 <li>"Cap'n Pester" (found everywhere | Quarg Wardragon)</li>
@@ -33,6 +34,11 @@ Tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was p
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-05-28<br>
+adjusted mass and drag to be like in 0.10.7<br>
+removed staying personality ftom tranquillity<br>
+renamed persons to "name (C)", was "name (Capture me)"<br>
 <br>
 2024-04-06<br>
 set person killed job back to earth only, less annoying when you are done<br>
