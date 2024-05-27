@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-26 | update: hai.side.mission.unlocker<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-27 | update: captureable.person.ships<br>
+2024-05-26 | update: hai.side.mission.unlocker<br>
 2024-05-26 | update: quarg.farm<br>
 2024-05-26 | update: disable.spaceport.repeatables<br>
 2024-05-14 | update: control.station<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-08 | update: more.boarding.missions<br>
 2024-05-04 | update: coalition.shopping<br>
 2024-05-04 | update: navy.licenses<br>
-2024-05-03 | update: space.fauna<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -662,7 +662,7 @@ intial release<br>
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 269.24 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 138.69 kb | 2024-05-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
 <br>
 >Makes person ships capturable. See the readme for details.
 
@@ -694,9 +694,11 @@ After you've killed them all, you receive a small unique gift.<br>
 
 Tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and i tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
 
+In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in max a  minute.<br>
+
 <br>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/captureable.person.ships/screenshot.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/capturable.person.ships01.jpg' width='400'>
 
 <ul>
 
@@ -737,6 +739,16 @@ Tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was p
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-05-28<br>
+
+adjusted mass and drag to be like in 0.10.7<br>
+
+removed staying personality ftom tranquillity<br>
+
+renamed persons to "name (C)", was "name (Capture me)"<br>
 
 <br>
 
