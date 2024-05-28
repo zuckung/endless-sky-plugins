@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-27 | update: captureable.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-28 | update: captureable.person.ships<br>
+2024-05-27 | update: captureable.person.ships<br>
 2024-05-26 | update: hai.side.mission.unlocker<br>
 2024-05-26 | update: quarg.farm<br>
 2024-05-26 | update: disable.spaceport.repeatables<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-09 | update: additional.command.buttons.radial<br>
 2024-05-08 | update: more.boarding.missions<br>
 2024-05-04 | update: coalition.shopping<br>
-2024-05-04 | update: navy.licenses<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -662,7 +662,7 @@ intial release<br>
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 138.69 kb | 2024-05-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 138.67 kb | 2024-05-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
 <br>
 >Makes person ships capturable. See the readme for details.
 
