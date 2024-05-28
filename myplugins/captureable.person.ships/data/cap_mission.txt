@@ -7,67 +7,67 @@
 
 substitutions
 	"<mich>" "alive"
-		"person destroyed: Michael Zahniser (Capture me)" == 0
+		"person destroyed: Michael Zahniser (C)" == 0
 	"<capn>" "alive"
-		"person destroyed: Cap'n Pester (Capture me)" == 0
+		"person destroyed: Cap'n Pester (C)" == 0
 	"<mara>" "alive"
-		"person destroyed: Marauding Max (Capture me)" == 0
+		"person destroyed: Marauding Max (C)" == 0
 	"<capt>" "alive"
-		"person destroyed: Captain Nate (Capture me)" == 0
+		"person destroyed: Captain Nate (C)" == 0
 	"<tran>" "alive"
-		"person destroyed: Tranquility (Capture me)" == 0
+		"person destroyed: Tranquility (C)" == 0
 	"<powe>" "alive"
-		"person destroyed: Power of the People (Capture me)" == 0
+		"person destroyed: Power of the People (C)" == 0
 	"<loca>" "alive"
-		"person destroyed: Local God (Capture me)" == 0
+		"person destroyed: Local God (C)" == 0
 	"<subs>" "alive"
-		"person destroyed: Subsidurial (Capture me)" == 0
+		"person destroyed: Subsidurial (C)" == 0
 	"<prot>" "alive"
-		"person destroyed: Prototype B3-CC4 (Capture me)" == 0
+		"person destroyed: Prototype B3-CC4 (C)" == 0
 	"<rais>" "alive"
-		"person destroyed: Rais Iris XVIII (Capture me)" == 0
+		"person destroyed: Rais Iris XVIII (C)" == 0
 	"<zitc>" "alive"
-		"person destroyed: Zitchas (Capture me)" == 0
+		"person destroyed: Zitchas (C)" == 0
 	"<bric>" "alive"
-		"person destroyed: Brick (Capture me)" == 0
+		"person destroyed: Brick (C)" == 0
 	"<gefu>" "alive"
-		"person destroyed: Gefullte Taubenbrust (Capture me)" == 0
+		"person destroyed: Gefullte Taubenbrust (C)" == 0
 	"<mast>" "alive"
-		"person destroyed: MasterOfGrey (Capture me)" == 0
+		"person destroyed: MasterOfGrey (C)" == 0
 	"<patr>" "alive"
-		"person destroyed: Patrol Team (Capture me)" == 0
+		"person destroyed: Patrol Team (C)" == 0
 
 
 	"<mich>" "dead"
-		"person destroyed: Michael Zahniser (Capture me)" == 1
+		"person destroyed: Michael Zahniser (C)" == 1
 	"<capn>" "dead"
-		"person destroyed: Cap'n Pester (Capture me)" == 1
+		"person destroyed: Cap'n Pester (C)" == 1
 	"<mara>" "dead"
-		"person destroyed: Marauding Max (Capture me)" == 1
+		"person destroyed: Marauding Max (C)" == 1
 	"<capt>" "dead"
-		"person destroyed: Captain Nate (Capture me)" == 1
+		"person destroyed: Captain Nate (C)" == 1
 	"<tran>" "dead"
-		"person destroyed: Tranquility (Capture me)" == 1
+		"person destroyed: Tranquility (C)" == 1
 	"<powe>" "dead"
-		"person destroyed: Power of the People (Capture me)" == 1
+		"person destroyed: Power of the People (C)" == 1
 	"<loca>" "dead"
-		"person destroyed: Local God (Capture me)" == 1
+		"person destroyed: Local God (C)" == 1
 	"<subs>" "dead"
-		"person destroyed: Subsidurial (Capture me)" == 1
+		"person destroyed: Subsidurial (C)" == 1
 	"<prot>" "dead"
-		"person destroyed: Prototype B3-CC4 (Capture me)" == 1
+		"person destroyed: Prototype B3-CC4 (C)" == 1
 	"<rais>" "dead"
-		"person destroyed: Rais Iris XVIII (Capture me)" == 1
+		"person destroyed: Rais Iris XVIII (C)" == 1
 	"<zitc>" "dead"
-		"person destroyed: Zitchas (Capture me)" == 1
+		"person destroyed: Zitchas (C)" == 1
 	"<bric>" "dead"
-		"person destroyed: Brick (Capture me)" == 1
+		"person destroyed: Brick (C)" == 1
 	"<gefu>" "dead"
-		"person destroyed: Gefullte Taubenbrust (Capture me)" == 1
+		"person destroyed: Gefullte Taubenbrust (C)" == 1
 	"<mast>" "dead"
-		"person destroyed: MasterOfGrey (Capture me)" == 1
+		"person destroyed: MasterOfGrey (C)" == 1
 	"<patr>" "dead"
-		"person destroyed: Patrol Team (Capture me)" == 1
+		"person destroyed: Patrol Team (C)" == 1
 
 mission "show person status"
 	job
@@ -96,7 +96,7 @@ mission "show person status"
 			`<mast>	"MasterOfGrey" (found in Hai space | Modified Ladybug)`
 			`<patr>	"Patrol Team" (found everywhere | 6x Waverider)`
 			``
-			`captureable.person.ships disables the old person ships, and creates nearly identically new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(Capture me)" behind their names. So persons ships killed prior installing this plugin got re-added. The maximal spawn time, for a person ship in the system you are in, is 10 minutes.`
+			`captureable.person.ships disables the old person ships, and creates nearly identically new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(C)" behind their names. So persons ships killed prior installing this plugin got re-added. The maximal spawn time, for a person ship in the system you are in, is 10 minutes.`
 
 
 mission "kill em all reward"
@@ -105,21 +105,21 @@ mission "kill em all reward"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	to offer
-		"person destroyed: Michael Zahniser (Capture me)" == 1
-		"person destroyed: Cap'n Pester (Capture me)" == 1
-		"person destroyed: Marauding Max (Capture me)" == 1
-		"person destroyed: Captain Nate (Capture me)" == 1
-		"person destroyed: Tranquility (Capture me)" == 1
-		"person destroyed: Power of the People (Capture me)" == 1
-		"person destroyed: Local God (Capture me)" == 1
-		"person destroyed: Subsidurial (Capture me)" == 1
-		"person destroyed: Prototype B3-CC4 (Capture me)" == 1
-		"person destroyed: Rais Iris XVIII (Capture me)" == 1
-		"person destroyed: Zitchas (Capture me)" == 1
-		"person destroyed: Brick (Capture me)" == 1
-		"person destroyed: Gefullte Taubenbrust (Capture me)" == 1
-		"person destroyed: MasterOfGrey (Capture me)" == 1
-		"person destroyed: Patrol Team (Capture me)" == 1
+		"person destroyed: Michael Zahniser (C)" == 1
+		"person destroyed: Cap'n Pester (C)" == 1
+		"person destroyed: Marauding Max (C)" == 1
+		"person destroyed: Captain Nate (C)" == 1
+		"person destroyed: Tranquility (C)" == 1
+		"person destroyed: Power of the People (C)" == 1
+		"person destroyed: Local God (C)" == 1
+		"person destroyed: Subsidurial (C)" == 1
+		"person destroyed: Prototype B3-CC4 (C)" == 1
+		"person destroyed: Rais Iris XVIII (C)" == 1
+		"person destroyed: Zitchas (C)" == 1
+		"person destroyed: Brick (C)" == 1
+		"person destroyed: Gefullte Taubenbrust (C)" == 1
+		"person destroyed: MasterOfGrey (C)" == 1
+		"person destroyed: Patrol Team (C)" == 1
 	on offer
 		outfit "Author Slaughtering Trophy"
 		conversation
