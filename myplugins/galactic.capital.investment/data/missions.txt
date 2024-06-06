@@ -190,7 +190,7 @@ mission "Galactic Capital Colonize 2"
 			variant
 				"Leviathan" 4
 				"Bactrian" 1
-"Dagger" 3
+				"Dagger" 3
 	npc accompany save
 		government "Merchant"
 		personality escort timid
