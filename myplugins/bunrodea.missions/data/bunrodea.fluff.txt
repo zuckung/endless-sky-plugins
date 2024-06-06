@@ -84,7 +84,7 @@ phrase "friendly bunrodea"
 	word
 		"warrior. "
 		"fighter. "
-		"slaughter of Korath. "
+		"slayer of Korath. "
 	word
 		"Do you need any "
 		"Are you in need of "
