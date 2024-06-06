@@ -23,14 +23,14 @@ mission "getNavyLicenses"
 					goto captureB
 			label captureA
 			scene "scene/nl_spaceport_captain"
-			`"Oh, i didnt hijack it. I have a license."`
+			`"Oh, I didn't hijack it. I have a license."`
 					goto captureC
 			label captureB
 			scene "scene/nl_spaceport_captain"
-			`"It would be like this if I had actually hijacked it. But I have a license."`
+			`"It would be like that if I had actually hijacked it. But I have a license."`
 					goto captureC
 			label captureC
-			`		"You don't look like a member of the Navy. And if you were, you won't be welcome here. So, how?" you ask.`
+			`		"You don't look like a member of the Navy. And if you were, you wouldn't be welcome here. So, how?" you ask.`
 			`She smiles. "I have a contact in the Navy administration on Geminus. It cost me 500,000 credits just to have the one license forged. It is equipped with a secret service seal so that no patrol or shipyard will inspect it more closely. And now I'm saving up to have my contact forge the other three licenses.`
 			`"If you are interested, I would perhaps arrange a meeting with my contact. Let's say for a small fee of 50,000 credits?"`
 			choice
@@ -42,7 +42,7 @@ mission "getNavyLicenses"
 			`Ok, great. I'll arrange a meeting with my contact on Geminus. He is risking a lot with a stranger, so keep the credits ready for him. "`
 				accept
 			label notinterested
-			`Ok, maybe you come back later. Have a nice day.`
+			`Ok, maybe you can come back later. Have a nice day.`
 				defer
 	on accept
 		payment -50000
@@ -52,27 +52,27 @@ mission "getNavyLicenses"
 			scene "scene/nl_shady_bar"
 			`After you have reached the contact from orbit, you meet him in a shady bar. He is very nervous.`
 			choice
-				`	buy Navy license (500.000 credits)`
+				`	(Buy Navy license (500,000 credits))`
 					to display
 						not "license: Navy"
 						"credits" > 500000
 					goto navy1
-				`	buy Navy Auxiliary license (500.000 credits)`
+				`	(Buy Navy Auxiliary license (500,000 credits))`
 					to display
 						not "license: Navy Auxiliary"
 						"credits" > 500000
 					goto navy2
-				`	buy Navy Cruiser license (500.000 credits)`
+				`	(Buy Navy Cruiser license (500,000 credits))`
 					to display
 						not "license: Navy Cruiser"
 						"credits" > 500000
 					goto navy3
-				`	buy Navy Carrier license (500.000 credits)`
+				`	(Buy Navy Carrier license (500,000 credits))`
 					to display
 						not "license: Navy Carrier"
 						"credits" > 500000
 					goto navy4
-				`	come back later`
+				`	(Come back later.)`
 					goto done
 			label navy1
 			action
@@ -122,27 +122,27 @@ mission "getNavyLicenses 2"
 			scene "scene/nl_shady_bar"
 			`You meet your contact of the local navy administration again in a shady bar.`
 			choice
-				`	buy Navy license (500.000 credits)`
+				`	(Buy Navy license (500,000 credits))`
 					to display
 						not "license: Navy"
 						"credits" > 500000
 					goto navy1
-				`	buy Navy Auxiliary license (500.000 credits)`
+				`	(Buy Navy Auxiliary license (500,000 credits))`
 					to display
 						not "license: Navy Auxiliary"
 						"credits" > 500000
 					goto navy2
-				`	buy Navy Cruiser license (500.000 credits)`
+				`	(Buy Navy Cruiser license (500,000 credits))`
 					to display
 						not "license: Navy Cruiser"
 						"credits" > 500000
 					goto navy3
-				`	buy Navy Carrier license (500.000 credits)`
+				`	(Buy Navy Carrier license (500,000 credits))`
 					to display
 						not "license: Navy Carrier"
 						"credits" > 500000
 					goto navy4
-				`	come back later`
+				`	(Come back later.)`
 					goto done
 			label navy1
 			action
