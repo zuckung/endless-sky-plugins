@@ -309,7 +309,7 @@ mission "ferret mission 2"
 			scene "outfit/fluffy_ferret"
 			action
 				outfit "fluffy_ferret"
-			`The tamed, playful ferret quickly grows on you. Of course, your first thought was to hand it over to the recipient of the ferret charge, but the more you play with it, the more you want to keep it. One less ferret out of seven hindred and fifty animals does not seem particularly serious. The more you think about it the clearer it becomes.`
+			`The tamed, playful ferret quickly grows on you. Of course, your first thought was to hand it over to the recipient of the ferret charge, but the more you play with it, the more you want to keep it. One less ferret out of seven hundred and fifty animals does not seem particularly serious. The more you think about it the clearer it becomes.`
 			`You now have a new pet! You name the ferret 'Gummi Bear'.`
 				decline
 
