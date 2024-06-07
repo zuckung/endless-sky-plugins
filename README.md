@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: too.many.asteroids<br>
+<table><tr><td><img width="882" height="1"><br>2024-05-28 | lots of text corrections(thx TheGiraffe3)<br>
+2024-06-07 | update: too.many.asteroids<br>
 2024-06-07 | update: real.fluff<br>
 2024-06-07 | update: quarg.farm<br>
 2024-06-07 | update: navy.licenses<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-06-07 | update: captureable.person.ships<br>
 2024-06-07 | update: bunrodea.missions<br>
 2024-06-07 | update: better.starts<br>
-2024-06-07 | update: automata.destruction.0percent<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2443,7 +2443,7 @@ initial release<br>
 
 <img src="myplugins/real.fluff/icon.png" height="100">
 
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 2.04 mb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
+[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 1.75 mb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
 <br>
 >A bunch of side missions which reward unique fluffy pets. See the readme for details.
 <details>
@@ -2484,7 +2484,7 @@ Lore-friendly, totally useless, but cute pet outfits, with storylines. All missi
 
 After collecting them all, you get a mission (20%) with unique rewards.<br>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/real.fluff/screenshot.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff01.jpg' width='400'>
 
 <br>
 
