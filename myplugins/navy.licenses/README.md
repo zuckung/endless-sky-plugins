@@ -12,6 +12,9 @@ You get the following licenses: Navy license, Navy Auxiliary license, Navy Cruis
 <br>
 Changelog:<br>
 <br>
+2024-06-07<br>
+text corrections (thx to TheGiraffe3)<br>
+<br>
 2024-05-04<br>
 added 2 scene images<br>
 added the option to buy single licenses<br>
