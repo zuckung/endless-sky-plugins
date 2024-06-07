@@ -19,6 +19,9 @@ Beside the cheater start option, all others are balanced and lore friendly. A bi
 <br>
 Changelog:<br>
 <br>
+2024-06-07<br>
+text corrections (thx to TheGiraffe3)<br>
+<br>
 2024-03-15<br>
 Start: Cheater, changed Heron weapons and added 10x KIV with beam weapons<br>
 Start: Cheater, added mission for full visible human space to the outfitter<br>
