@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: galactic.capital.investment<br>
+<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: navy.licenses<br>
+2024-06-07 | update: galactic.capital.investment<br>
 2024-06-07 | update: expert.crew.members<br>
 2024-06-07 | update: captureable.person.ships<br>
 2024-06-07 | update: bunrodea.missions<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-06-07 | update: additional.command.buttons<br>
 2024-05-28 | update: captureable.person.ships<br>
 2024-05-27 | update: captureable.person.ships<br>
-2024-05-26 | update: hai.side.mission.unlocker<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2171,7 +2171,7 @@ added icon and reworked readme<br>
 
 <img src="myplugins/navy.licenses/icon.png" height="100">
 
-[navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/navy.licenses.zip) | 81.48 kb | 2024-05-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) <br>
+[navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/navy.licenses.zip) | 81.51 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) <br>
 <br>
 >Adds a mission on Stormhold(Alcyone system) which leads you to Geminus(Castor system) to buy the four Navy licenses. See the readme for details.
 
@@ -2202,6 +2202,12 @@ You get the following licenses: Navy license, Navy Auxiliary license, Navy Cruis
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-06-07<br>
+
+text corrections (thx to TheGiraffe3)<br>
 
 <br>
 
