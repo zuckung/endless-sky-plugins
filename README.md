@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: bunrodea.missions<br>
+<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: captureable.person.ships<br>
+2024-06-07 | update: bunrodea.missions<br>
 2024-06-07 | update: better.starts<br>
 2024-06-07 | update: automata.destruction.0percent<br>
 2024-06-07 | update: additional.command.buttons<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-26 | update: hai.side.mission.unlocker<br>
 2024-05-26 | update: quarg.farm<br>
 2024-05-26 | update: disable.spaceport.repeatables<br>
-2024-05-14 | update: control.station<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -687,7 +687,7 @@ intial release<br>
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 138.67 kb | 2024-05-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/captureable.person.ships.zip) | 138.71 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
 <br>
 >Makes person ships capturable. See the readme for details.
 
@@ -764,6 +764,12 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-06-07<br>
+
+text corrections (thx to TheGiraffe3)<br>
 
 <br>
 

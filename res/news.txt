@@ -1,3 +1,4 @@
+2024-06-07 | update: captureable.person.ships
 2024-06-07 | update: bunrodea.missions
 2024-06-07 | update: better.starts
 2024-06-07 | update: automata.destruction.0percent
