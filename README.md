@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: captureable.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: expert.crew.members<br>
+2024-06-07 | update: captureable.person.ships<br>
 2024-06-07 | update: bunrodea.missions<br>
 2024-06-07 | update: better.starts<br>
 2024-06-07 | update: automata.destruction.0percent<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-27 | update: captureable.person.ships<br>
 2024-05-26 | update: hai.side.mission.unlocker<br>
 2024-05-26 | update: quarg.farm<br>
-2024-05-26 | update: disable.spaceport.repeatables<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1267,7 +1267,7 @@ added icon.png<br>
 
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 7.67 mb | 2024-03-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/expert.crew.members.zip) | 7.67 mb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the readme for details.
 <details>
@@ -1303,6 +1303,12 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-06-07<br>
+
+text corrections (thx to TheGiraffe3)<br>
 
 <br>
 
