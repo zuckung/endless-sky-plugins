@@ -16,7 +16,7 @@ Lore-friendly, totally useless, but cute pet outfits, with storylines. All missi
 <li>Squirrel - mission found on Heartvalley (Io Lowe, Hai space)</li>
 </ul>
 After collecting them all, you get a mission (20%) with unique rewards.<br>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/real.fluff/screenshot.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff01.jpg' width='400'>
 <br>
 <br>
 Changelog:<br>
