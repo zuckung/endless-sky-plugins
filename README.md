@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: better.starts<br>
+<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: bunrodea.missions<br>
+2024-06-07 | update: better.starts<br>
 2024-06-07 | update: automata.destruction.0percent<br>
 2024-06-07 | update: additional.command.buttons<br>
 2024-05-28 | update: captureable.person.ships<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-26 | update: quarg.farm<br>
 2024-05-26 | update: disable.spaceport.repeatables<br>
 2024-05-14 | update: control.station<br>
-2024-05-09 | update: control.station<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -495,7 +495,7 @@ added Start Explorer to Automata<br>
 
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 1.29 mb | 2024-04-30 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/bunrodea.missions.zip) | 1.29 mb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the readme for details.
 <details>
@@ -541,6 +541,12 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-06-07<br>
+
+text corrections (thx to TheGiraffe3)<br>
 
 <br>
 
