@@ -15,6 +15,9 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 Changelog:<br>
 <br>
+2024-06-07<br>
+text corrections (thx to TheGiraffe3)<br>
+<br>
 2024-04-01<br>
 added 5 gegno experts<br>
 changed mission chance from 3% to 1%<br>
