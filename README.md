@@ -74,7 +74,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 
 <img src="myplugins/additional.command.buttons/icon.png" height="100">
 
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 160.56 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 18.1 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
 <br>
 >Made for the mobile version and adds several new buttons to the lower right corner. See the readme for details.
 >(inspired by theweirednut)
@@ -127,7 +127,7 @@ and
 
 <br>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/additional.command.buttons/screenshot.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons01.jpg' width='400'>
 
 <br>
 
