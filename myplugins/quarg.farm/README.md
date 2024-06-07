@@ -8,6 +8,9 @@ The system "Saquerver" lies between "Saquergen" and "Ablub". The usual-sized Qua
 <br>
 Changelog:<br>
 <br>
+2024-06-07<br>
+text corrections (thx to TheGiraffe3)<br>
+<br>
 2024-05-26<br>
 initial release<br>
 
