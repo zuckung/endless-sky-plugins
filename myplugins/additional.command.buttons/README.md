@@ -34,6 +34,9 @@ This plugin overwrites `interface "main buttons"` and `interface "hud"`, so it i
 <br>
 Changelog:<br>
 <br>
+2024-06-07<br>
+text corrections (thx to TheGiraffe3)<br>
+<br>
 2024-02-20<br>
 re-added the ammo box to main buttons (latest mobile game version needed)<br>
 <br>
