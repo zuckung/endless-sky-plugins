@@ -17,6 +17,9 @@ These investments pay off after 2.3 to 4.5 years. Higher investments pay off fas
 <br>
 Changelog:<br>
 <br>
+2024-06-07<br>
+text corrections (thx to TheGiraffe3)<br>
+<br>
 2024-04-05<br>
 removed duplicate pngs<br>
 resized land jpg<br>
