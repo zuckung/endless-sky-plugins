@@ -1,5 +1,5 @@
 additional.command.buttons|1.0.1
-automata.destruction.0percent|1.0.0
+automata.destruction.0percent|1.0.1
 automata.in.human.space|1.0.0
 better.starts|1.0.0
 bunrodea.missions|1.0.2

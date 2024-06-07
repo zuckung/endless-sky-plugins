@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: additional.command.buttons<br>
+<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: automata.destruction.0percent<br>
+2024-06-07 | update: additional.command.buttons<br>
 2024-05-28 | update: captureable.person.ships<br>
 2024-05-27 | update: captureable.person.ships<br>
 2024-05-26 | update: hai.side.mission.unlocker<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-14 | update: control.station<br>
 2024-05-09 | update: control.station<br>
 2024-05-09 | update: additional.command.buttons.radial<br>
-2024-05-08 | update: more.boarding.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -256,7 +256,7 @@ initial release<br>
 
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 
-[automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.0percent.zip) | 44.05 kb | 2023-10-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) <br>
+[automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/automata.destruction.0percent.zip) | 44.08 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) <br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the readme for details.
 
@@ -281,6 +281,12 @@ You can easily change the values in automata.txt for each ship ('"self destruct"
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-06-07<br>
+
+text corrections (thx to TheGiraffe3)<br>
 
 <br>
 
