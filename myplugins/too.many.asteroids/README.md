@@ -6,10 +6,13 @@ Increases game performance.<br>
 <br>
 <br>
 Every of the 558 base game systems (0.10.5) is edited via a remove command for full compatibility with other system altering plugins. A total of 2663 asteroid entries got removed.<br>
-In case I don't update this plugin to the newest game version, a python script for generating an updated plugin can be found <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/tools/too_many_asteroids_plugin_script">here</a>.<br>
+In case I don't update this plugin to the newest game version, a python script for generating an updated plugin can be found <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/tools/ES_plugin_script_too_many_asteroids">here</a>.<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-06-07<br>
+text corrections (thx to TheGiraffe3)<br>
 <br>
 2024-02-4<br>
 added the 0.10.5 systems<br>
