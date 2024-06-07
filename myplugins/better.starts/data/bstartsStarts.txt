@@ -43,7 +43,7 @@ start "z_trader1"
 conversation "z_trader1"
 	scene "scene/lobby"
 	`Your family is more wealthy than most of New China's inhabitants, but less wealthy than your neighbour Phil. He is the most lazy and annoying person you know. Amazingly how good he is standing with doing his trading job. Most of the year he does nothing, just hanging around in bars. And that is why you decided to become a space trader. With your talent, charm, and ambitions, you can get really really rich.` 
-	`Anyway, now it's time for signing up the final contracts for the bank loan and the ship purchase.`
+	`Anyway, now it's time to sign the final contracts for the bank loan and the ship purchase.`
 	name
 	`It won't be easy yo pay off 1.8 million credits, but you think positive. You have a great ship, a customized "Freighter", with engine upgrades and a bigger cargo. No weapons, but with that engine you are faster than the pirates. Also the Paradise Worlds are in the near north, which are safer for traders.`
 	`Nothing stands in your way. Your future begins now!`
