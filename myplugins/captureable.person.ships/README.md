@@ -35,6 +35,9 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 Changelog:<br>
 <br>
+2024-06-07<br>
+text corrections (thx to TheGiraffe3)<br>
+<br>
 2024-05-28<br>
 adjusted mass and drag to be like in 0.10.7<br>
 removed staying personality ftom Tranquility<br>
