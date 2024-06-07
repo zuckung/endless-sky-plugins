@@ -1,4 +1,4 @@
-additional.command.buttons|1.0.0
+additional.command.buttons|1.0.1
 automata.destruction.0percent|1.0.0
 automata.in.human.space|1.0.0
 better.starts|1.0.0
@@ -26,6 +26,6 @@ too.many.asteroids|1.0.0
 unique.fix|1.0.0
 hai.side.mission.unlocker|1.1.3
 space.fauna|1.1.2
-additional.command.buttons.radial|1.0.0
+additional.command.buttons|1.0.1
 control.station|1.0.1
 quarg.farm|1.0.0

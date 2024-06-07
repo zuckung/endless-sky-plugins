@@ -1,9 +1,9 @@
 # **my endless-sky-plugins**
 I aim at developing small, modular and maximal compatible plugins that don't break vanilla lore too much. <br>
-Please excuse bad English, spelling, grammar, etc... English isn't my mother tongue. Feel free to correct me.<br>
+Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me.<br>
 <a href="https://github.com/zuckung/endless-sky-plugins/pulls">Pull requests</a>, <a href="https://github.com/zuckung/endless-sky-plugins/discussions">discussions</a> and <a href="https://github.com/zuckung/endless-sky-plugins/issues">Issue reports</a> are welcome! <br>
 <br>
-Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators, or people who seek information inside the data folder. Basically, it is a very fast website to view every object of the data folder, especially when you don't know where to find something. Easy browsing of missions, ships, outfits, systems etc.<br>
+Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators or people who seek informations inside the data folder. Basically it is a very fast website to view every object of the data folder, especially when you don't know where to find something. Easy browsing of missions, ships, outfits, systems etc.<br>
 <br>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzuckung%2Fendless-sky-plugins&count_bg=%2395c20e&title_bg=%235a5a5a&icon=&icon_color=%235A5A5A&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-28 | update: captureable.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: additional.command.buttons<br>
+2024-05-28 | update: captureable.person.ships<br>
 2024-05-27 | update: captureable.person.ships<br>
 2024-05-26 | update: hai.side.mission.unlocker<br>
 2024-05-26 | update: quarg.farm<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-05-09 | update: control.station<br>
 2024-05-09 | update: additional.command.buttons.radial<br>
 2024-05-08 | update: more.boarding.missions<br>
-2024-05-04 | update: coalition.shopping<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -74,7 +74,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 
 <img src="myplugins/additional.command.buttons/icon.png" height="100">
 
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 160.53 kb | 2024-02-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
+[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/additional.command.buttons.zip) | 160.56 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
 <br>
 >Made for the mobile version and adds several new buttons to the lower right corner. See the readme for details.
 >(inspired by theweirednut)
@@ -123,7 +123,7 @@ and
 
 <br>
 
-(inspired by thewierdnut) <br>
+(inspired by theweirednut) <br>
 
 <br>
 
@@ -150,6 +150,12 @@ This plugin overwrites `interface "main buttons"` and `interface "hud"`, so it i
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-06-07<br>
+
+text corrections (thx to TheGiraffe3)<br>
 
 <br>
 
@@ -185,7 +191,7 @@ added new icon and reworked readme<br>
 
 2023-07-26<br>
 
-added 3 more buttons making a total of 10<br>
+added 3 more buttons to a total of 10<br>
 
 added descriptions inside script to exchange buttons functions<br>
 
@@ -194,6 +200,7 @@ added descriptions inside script to exchange buttons functions<br>
 2023-07-06<br>
 
 changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner can easily toggled by double tapping<br>
+
 </blockquote>
 </details>
 <br>
@@ -265,7 +272,7 @@ Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.
 
 <br>
 
-Sestor 349/109/78/71/53/40/27 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.0 (0%) now.<br>
+Sestor 349/109/78/71/53/27/14 and Mereti 512/256/128/64/32/16/8 ships have a self destruction value of 0.0 (0%) now.<br>
 
 You can easily change the values in automata.txt for each ship ('"self destruct" .0') to a value of your choice. I.e. 0.12 is 23%, 0.3 is 51%, 0.5 is 75%. Its calculated twice, first the chance for self destruction on boarding(i.e. 0.3) is 30%, then of the remaining 70% again 30% chance for self destruction on capturing. That makes 30% + 21% = 51% overall chance for self destruction on a capturing try.<br>
 
@@ -680,19 +687,19 @@ Makes person ships captureable.<br>
 
 <br>
 
-Well, technically this plugin disables the person ships, and creates new ones which are captureable (with changed names to "<name> (disable me)", due to limitations of changing parts of the originals). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesnt flee. And changed "Zitchas" personality to "decloaked", so it doesnt flee and regenerate while cloaked.<br>
+Well, technically this plugin disables the person ships, and creates new ones which are captureable (with changed names to "<name> (disable me)", due to limitations of changing parts of the originals). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesn't flee. And changed "Zitchas" personality to "decloaked", so it doesn'tflee and regenerate while cloaked.<br>
 
 So attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average within 10 minutes.<br>
 
 <br>
 
-At Earths job board you can find a repeatable job that displays which persons you have already killed, which is alive and where to find it.<br>
+At Earth's job board you can find a repeatable job that displays which persons you have already killed, which are alive, and where to find them.<br>
 
 After you've killed them all, you receive a small unique gift.<br>
 
 <br>
 
-Tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and i tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
+I tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and I tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
 
 In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in max a  minute.<br>
 
@@ -746,7 +753,7 @@ Changelog:<br>
 
 adjusted mass and drag to be like in 0.10.7<br>
 
-removed staying personality ftom tranquillity<br>
+removed staying personality ftom Tranquility<br>
 
 renamed persons to "name (C)", was "name (Capture me)"<br>
 
@@ -1443,19 +1450,19 @@ At 1 billion credits a longer mission chain starts and enables a reapeatable job
 
 1 million = 600 credits daily (60% chance)<br>
 
-5 million = 3.400 credits daily (50% chance)<br>
+5 million = 3,400 credits daily (50% chance)<br>
 
-10 million = 7.200 credits daily (40% chance)<br>
+10 million = 7,200 credits daily (40% chance)<br>
 
-50 million = 37.000 credits daily (30% chance)<br>
+50 million = 37,000 credits daily (30% chance)<br>
 
-100 million = 76.100 credits daily (20% chance)<br>
+100 million = 76,100 credits daily (20% chance)<br>
 
 1 billion = 2 million credits daily (2% chance)<br>
 
 <br>
 
-These investments pay off after 2,3 to 4,5 years. Higher Investments pay off faster.<br>
+These investments pay off after 2.3 to 4.5 years. Higher investments pay off faster.<br>
 
 <br>
 
@@ -2140,15 +2147,15 @@ added icon and reworked readme<br>
 
 <br>
 
-Adds a mission on Stormhold(Alcyone system) which leads you to Geminus(Castor system) to buy the four Navy licenses.<br>
+Adds a mission on Stormhold (Alcyone system) which leads you to Geminus (Castor system) to buy the four Navy licenses.<br>
 
 <br>
 
-The mission can get started with 550.000 credits cash available. You have to pay 50.000 credits for making the contact and 500.000 credits for each of the four licenses.<br>
+The mission can get started with 550,000 credits cash available. You have to pay 50,000 credits for making the contact and 500,000 credits for each of the four licenses.<br>
 
-If you reject the mission, you can restart it on other visits. Also not buying all licenses lets the buying mission on Geminus restart on other landings(till all are bought).<br>
+If you reject the mission, you can restart it on other visits. Also not buying all licenses lets the buying mission on Geminus restart on other landings (until all are bought).<br>
 
-You get the following licenses : Navy license, Navy Auxiliary license, Navy Cruiser license, Navy Carrier license.<br>
+You get the following licenses: Navy license, Navy Auxiliary license, Navy Cruiser license, Navy Carrier license.<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/navy.licenses01.jpg' width='400'>
 
@@ -2361,7 +2368,7 @@ Adds a new system "Saquerver" (between human and coalition space) where you can 
 
 <br>
 
-The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Quarg fleets spawn there. Killing/plundering them doesn't make the other Quarg angry. Landing on the four other Quarg faction's worlds doesn't end with a death sentence when you have their ships/outfits.<br>
+The system "Saquerver" lies between "Saquergen" and "Ablub". The usual-sized Quarg fleets spawn there. Killing/plundering them doesn't make the other Quarg angry. Landing on the four other Quarg faction's worlds doesn't end with a death sentence when you have their ships/outfits.<br>
 
 <br>
 
@@ -2403,7 +2410,7 @@ A bunch of side missions which reward unique pets. <br>
 
 <br>
 
-Lore-friendly, total useless, but cute pet outfits, with storylines. All missions have a 20% chance of appearing, except alien mission which has 100%.<br>
+Lore-friendly, totally useless, but cute pet outfits, with storylines. All missions have a 20% chance of appearing, except alien mission which has 100%.<br>
 
 <ul>
 
@@ -2417,7 +2424,7 @@ Lore-friendly, total useless, but cute pet outfits, with storylines. All mission
 
 <li>Koala - mission found on New Portland (Delta Sagittarii)</li>
 
-<li>Ocelot - mission found on Farpoint (Alnitak) needs 1000 combat xp</li>
+<li>Ocelot - mission found on Farpoint (Alnitak) needs 1000 combat rating</li>
 
 <li>Rabbit - mission found on Starcross (Acrux)</li>
 
@@ -2427,7 +2434,7 @@ Lore-friendly, total useless, but cute pet outfits, with storylines. All mission
 
 </ul>
 
-After collecting them all, you get a missions (20%) with unique rewards.<br>
+After collecting them all, you get a mission (20%) with unique rewards.<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/real.fluff/screenshot.jpg' width='400'>
 
@@ -2516,6 +2523,7 @@ added squirrel mission chain<br>
 added 5 pet outfits with images<br>
 
 initial release<br>
+
 </blockquote>
 </details>
 <br>
@@ -2761,9 +2769,9 @@ Increases game performance.<br>
 
 <br>
 
-Every of the 558 base game systems(0.10.5) is edited via remove command for full compatibility with other system altering plugins. A total of 2663 asteroid entries got removed.<br>
+Every of the 558 base game systems (0.10.5) is edited via a remove command for full compatibility with other system altering plugins. A total of 2663 asteroid entries got removed.<br>
 
-In case i won't update this plugin to the newest game version, a python script for generating an updated plugin can be found <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/tools/too_many_asteroids_plugin_script">here</a>.<br>
+In case I don't update this plugin to the newest game version, a python script for generating an updated plugin can be found <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/tools/too_many_asteroids_plugin_script">here</a>.<br>
 
 <br>
 
@@ -2800,6 +2808,7 @@ removed py script<br>
 updated to 0.10.1<br>
 
 added a python script which generates the asteroids.txt(in case I don't update this mod, everyone can do it in no time.)<br>
+
 </blockquote>
 </details>
 <br>
