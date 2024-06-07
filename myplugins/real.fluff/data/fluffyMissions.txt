@@ -39,7 +39,7 @@ mission "beta"
 			scene "outfit/cat_figurine"
 			`When you leave the ship, a courier with a package is waiting for you. It contains a strange glass cat statue and a letter.`
 			`"Dear Captain <first> <last>, in consideration of your achievements in the field of animal protection, we, the organization "Beings for Ethical Treatment of Animals" (BETA), award you the "Glass Cat". As an honorary member you are at any time welcome to our branches."`
-			`"Best regards"`
+			`"Best regards,"`
 			`"	BETA"`
 				decline
 
@@ -53,26 +53,26 @@ mission "cat mission 1"
 		random > 79
 	on offer
 		conversation
-			`After landing on "Deadman's Cove" you decide to go out to see the only big city on this planet, maybe eat something and search for a lucrative job. As expected of a pirate planet, the city outside the spaceport is a bit dirty. A few conversations with strangers later, you find a good restaurant in one of the better neighborhoods. After the meal, which was surprisingly good, you decide to return to your ship and delay the search for jobs.`
+			`After landing on "Deadman's Cove" you decide to go out to see the only big city on this planet, maybe eat something, and search for a lucrative job. As expected of a pirate planet, the city outside the spaceport is a bit dirty. A few conversations with strangers later, you find a good restaurant in one of the better neighborhoods. After the meal, which was surprisingly good, you decide to return to your ship and delay the search for jobs.`
 			choice
-				`	take the shortest route to the spaceport`
+				`	(Take the shortest route to the spaceport.)`
 					goto darkalley 
-				`	visit some of the neighborhoods of this big pirate city first`
+				`	(Visit some of the neighborhoods of this big pirate city first.)`
 					goto darkalley
 			label darkalley
 			scene "scene/dark_alley"
-			`In a dark alley you see two men arguing. The taller of the two suddenly runs away while the other pulls out a gun and shoots. He misses but runs after the man. You're glad you didn't get involved in this. As you continue your way, you hear pained meows and decide to investigate. Next to a pile of rubbish lies a small cat, grazed by a bullet during the shooting. You decide to help and fully expect to be scratched and bitten by the frightened cat, but the cat seems to understand your intentions and willingly lets you take her with you. Back in the ship you treat the poor animal. The wound at her leg is not too serious.`
+			`In a dark alley you see two men arguing. The taller of the two suddenly runs away while the other pulls out a gun and shoots. He misses but runs after the man. You're glad you didn't get involved in this. As you continue your way, you hear pained meows and decide to investigate. Next to a pile of rubbish lies a small cat, grazed by a bullet during the shooting. You decide to help and fully expect to be scratched and bitten by the frightened cat, but the cat seems to understand your intentions and willingly lets you take her with you. Back in the ship you treat the poor animal. The wound in her leg is not too serious.`
 			choice
-				`	apply a painkiller and then bandage her (longer, less pain)`
+				`	(Apply a painkiller and then bandage her (longer, less pain))`
 					goto adoptcat
-				`	use the regenerator (shorter, severe pain)`
+				`	(Use the regenerator (shorter, severe pain))`
 					goto adoptcat
 			label adoptcat
-			`After the treatment, the cat enjoys your caresses and is now very trusting. You're thinking about keeping the cat. It has always been customary to keep a 'ship cat' on ships. So why break with this tradition?`
+			`After the treatment, the cat enjoys your caresses and is now very trusting. You're thinking about keeping the cat. It has always been customary to keep a 'ship cat' on ships. So why break this tradition?`
 			choice
-				`	adopt the cat`
+				`	(Adopt the cat.)`
 					goto adopt
-				`	don't adopt the cat`
+				`	(Don't adopt the cat.)`
 					goto shelter
 			label adopt
 			scene "outfit/fluffy_cat"
@@ -96,7 +96,7 @@ mission "ocelot mission 1"
 		conversation
 			`Just as you are about to start looking for a lucrative contract, a potential customer appears in front of your ship.`
 			`"Hello Captain <last>, I come on behalf of Countess Anastasia Ruhna. The Countess is looking for a battle-experienced captain who will take care of the recovery of stolen jewelry. You seem to be the best choice here. Are you interested?"`
-			`You ask for more details. The Countess appears to have been attacked by a pirate on an interstellar flight and a box containing valuable jewelry was stolen from her. Later investigations revealed that it was a local pirate who has his retreat somewhere in the Tortor, Mintaka or Gorvi system. The pirate flies a 'Raven' called 'Lootbox'. The Countess will pay 200.000 credits to get the jewelry back. The task shouldn't be too difficult. So, are you interested?`
+			`You ask for more details. The Countess appears to have been attacked by a pirate on an interstellar flight and a box containing valuable jewelry was stolen from her. Later investigations revealed that it was a local pirate who has his retreat somewhere in the Tortor, Mintaka or Gorvi system. The pirate flies a 'Raven' called 'Lootbox'. The Countess will pay 200,000 credits to get the jewelry back. The task shouldn't be too difficult. So, are you interested?`
 			choice
 				`	"Sure, I will start the search immediately."`
 					accept
@@ -122,9 +122,9 @@ mission "ocelot mission 1"
 			`After landing on 'Farpoint', you contact the Countess's assistant and a short time later she appears in front of your ship. You hand over the jewelry, receive 200,000 credits on your account and also a personal letter from the Countess in which she thanks you profusely for your commitment.`
 			`Now to the ocelot you've found on the pirate ship.`
 			choice
-				`	adopt the ocelot`
+				`	(Adopt the ocelot.)`
 					goto adopt
-				`	don't adopt the ocelot`
+				`	(Don't adopt the ocelot.)`
 					goto shelter
 			label shelter
 			`You take the ocelot to an animal shelter. You aren't really an 'ocelot person'.`
@@ -160,20 +160,20 @@ mission "raccoon mission 1"
 			`Although you know that private spaceports usually mean illegal business, but the payment tempts you considerably. As long as the shipping documents are alright, there shouldn't be any problems for you.`
 			`The route to the private spaceport is quickly completed, but the landing turns out to be quite difficult. What was advertised as a private spaceport is nothing more than a clearing in the woods with a few cabins and a few patches of burnt grass. Loading the huge polished tree trunks takes all afternoon. Instead of robotic loading forklifts, everything here is done by burly lumberjacks. This would give you enough time to go for a walk in the forest.`
 			choice
-				`	go for a walk`
+				`	(Go for a walk.)`
 					goto walk
-				`	stay near ship`
+				`	(Stay near my ship.)`
 					goto ship
 			label walk
 			scene "scene/rainforest"
 			`The forest has something primal about it. Smaller animals are scurrying around everywhere and twice you see something like a deer darting through the forest. You should treat yourself to some time in nature more often.`
 			choice
-				`	stay for half an hour then head back to the ship `
+				`	(Stay for half an hour then head back to the ship.)`
 					goto takeoff
-				`	go immediately back to the ship`
+				`	(Go immediately back to the ship.)`
 					goto takeoff
 			label ship
-			`You wait for hours watching the loading process. You should've explored the forrest.`
+			`You wait for hours watching the loading process. You should've explored the forest.`
 				goto takeoff
 			label takeoff
 			`In the late afternoon everything is finally done and you start your journey to "Hephaestus".`
@@ -183,9 +183,9 @@ mission "raccoon mission 1"
 		conversation
 			`Once you arrive on 'Hephaestus', the rapid unloading of your cargo begins immediately. In contrast to loading, heavy machinery is used here, which shortens unloading enormously. As the dockworkers unload the last logs, you notice a small, living thing fleeing back and forth in panic between the huge moving masses. You stop the unloading, climb over tree trunks and frozen loading robots and find a frightened raccoon in the back of the hold. He must have sneaked aboard in the Foundry forest. Coaxing and calming the raccoon takes longer than the previous unloading time, but when you carefully lift the raccoon and it remains relaxed, you realize that it was worth it. He's really cute and with a few feedings you'll definitely get him tame.`
 			choice
-				`	adopt the raccoon`
+				`	(Adopt the raccoon.)`
 					goto adopt
-				`	don't adopt the raccoon`
+				`	(Don't adopt the raccoon.)`
 					goto shelter
 			label shelter
 			`You take the raccoon to an animal shelter. You aren't really an 'raccoon person'.`
@@ -218,37 +218,37 @@ mission "alien mission 1"
 			has "outfit (installed): fluffy_alien"
 		on board
 		conversation
-			`Due to the severe damage, parts of the ship are exposed to the vacuum of space, so you have to wear a spacesuit. It doesn't look like a spaceship battle happend here. The corridors are partially barricaded, there are signs of firefights and apparently someone spilled acid on the corridors floors. Must have been a hard fight in here.`
-			`The ship is completely silent, it seems like no one survived. You pass some rooms, complete devastated by explosions.`
+			`Due to the severe damage, parts of the ship are exposed to the vacuum of space, so you have to wear a spacesuit. It doesn't look like a spaceship battle happened here. The corridors are partially barricaded, there are signs of firefights and apparently someone spilled acid on the corridors floors. Must have been a hard fight in here.`
+			`The ship is completely silent, it seems like no one survived. You pass some rooms, completely devastated by explosions.`
 			choice 
-				`	continue investigation`
+				`	(Continue investigating.)`
 					goto "continue investigation 1"
-				`	head back to your ship`
+				`	(Head back to your ship.)`
 					goto "continue investigation 1"
 			label "continue investigation 1"
 			scene "scene/alien_eggs"
 			`On your way you find one of the starboard cargo holds. Something organic has grown over the walls. The cargo hold almost looks like the inside of a strange body, and there are several cocoons or eggs spread out on the floor.`
 			choice
-				`	examine the eggs`
+				`	(Examine the eggs.)`
 					goto "examine eggs"
-				`	go further`
+				`	(Go further.)`
 					goto "continue investigation 2"
 			label "examine eggs"
 			`You take off your helmet and approach the eggs. However, a bad smell convinces you to keep your distance again. Well whatever, you decide to move on.`
 				goto "continue investigation 2"
 			label "continue investigation 2"
-			`Searching the ship takes half an hour and you find nothing. No bodies, all valuable cargo seems to have been blown into space by several explosions, there is nothing to find here and nothing to report.`
+			`Searching the ship takes half an hour and you find nothing. No bodies, and all the valuable cargo seems to have been blown into space by several explosions, so there is nothing to find here and nothing to report.`
 			choice
-				`	get out of this ghost ship as fast as possible`
+				`	(Get out of this ghost ship as fast as possible.)`
 					goto findalien
-				`	keep looking for valueables on your way out`
+				`	(Keep looking for valueables on your way out.)`
 					goto findalien
 			label findalien
 			`You make your way back to your ship. Shortly before you reach the lock, a small, almost black, extremely strange-looking animal shoots towards you. Quickly you grab it and lift it up. It tries to bite you, but you don't have a hard time dodging each bite. After a while the animal seems to realize that you are in advantage and stops its attacks. You've never seen anything like this animal before.`
 			choice
-				`	adopt the creature`
+				`	(Adopt the creature.)`
 					goto adopt
-				`	don't adopt the creature`
+				`	(Don't adopt the creature.)`
 					goto shelter
 			label shelter
 			`You release the strange animal back into the ship.`
@@ -263,7 +263,7 @@ mission "alien mission 1"
 mission "ferret mission 1"
 	minor
 	name "Cargo full of ferrets"
-	description "Transport 750 ferrets to <destination>."
+	description "Transport seven hundred and fifty ferrets to <destination> for a reward if <payment>."
 	cargo "Ferrets" 12
 	blocked "You don't have enough cargo space for this mission."
 	source "Bivrost"
@@ -272,19 +272,19 @@ mission "ferret mission 1"
 		random > 79
 	on offer
 		conversation
-			`After landing on 'Bivrost', a local animal breeder contacts you. He needs transport to <destination> for 750 ferrets. The ferrets and their cages require 12 tons of cargo space and you will receive 76,000 credits on delivery.`
+			`After landing on 'Bivrost', a local animal breeder contacts you. He needs transport to <destination> for 750 ferrets. The ferrets and their cages require 12 tons of cargo space and you will receive <payment> on delivery.`
 			choice
-				`	accept`
+				`	(Accept.)`
 					goto accept
-				`	decline`
+				`	(Decline.)`
 					defer
 			label accept
-			`Two hours later the animals are loaded and you are ready to leave to <destination>. `
+			`Two hours later the animals are loaded and you are ready to leave to <destination>.`
 				accept
 	on complete
 		payment 76000
 		conversation
-			`The ferrets are unloaded quickly. After you see the 76,000 credits appear in your account, you are happy about this profitable and problem-free job.`
+			`The ferrets are unloaded quickly. After you see the <payment> appear in your account, you are happy about this profitable and problem-free job.`
 
 mission "ferret mission 2"
 	landing
@@ -298,18 +298,18 @@ mission "ferret mission 2"
 			`While inspecting the cargo hold, you hear noises and investigate. In a corner of the cargo hold, behind a few boxes of spare parts, you find a ferret playing with an electronic component lying around. The animal must have escaped from its cage somehow.`
 			`When the ferret sees you, it runs towards you and climbs up your leg. At first the animal's behavior frightens you, but since it doesn't bite you but rather tries to play with you, you quickly calm down again.`
 			choice
-				`	adopt the ferret`
+				`	(Adopt the ferret.)`
 					goto adopt
-				`	don't adopt the ferret`
+				`	(Don't adopt the ferret.)`
 					goto shelter
 			label shelter
-			`You take the ferret to an animal shelter. You aren't really an 'ferret person'.`
+			`You take the ferret to an animal shelter. You aren't really a 'ferret person'.`
 				decline
 			label adopt
 			scene "outfit/fluffy_ferret"
 			action
 				outfit "fluffy_ferret"
-			`The tamed, playful ferret quickly grows on you. Of course, your first thought was to hand it over to the recipient of the ferret charge, but the more you play with it, the more you want to keep it. One less ferret out of 750 animals does not seem particularly serious. The more you think about it the clearer it becomes.`
+			`The tamed, playful ferret quickly grows on you. Of course, your first thought was to hand it over to the recipient of the ferret charge, but the more you play with it, the more you want to keep it. One less ferret out of seven hundred and fifty animals does not seem particularly serious. The more you think about it the clearer it becomes.`
 			`You now have a new pet! You name the ferret 'Gummi Bear'.`
 				decline
 
@@ -344,12 +344,12 @@ mission "koala mission 1"
 			`The zoo director who observed the process with you turns to you.`
 			`"Now we have a problem. We cannot accommodate the koala here. And since such a significant amount of credits have already been spent on the transport, we cannot afford a second transport. Captain <last>, it is not by chance that you are interested in taking over the koala and look after him? Otherwise we would have to put him down. I'm only asking because you've already proven on the way here that you are able to look after him."`
 			choice
-				`	adopt the koala`
+				`	(Adopt the koala.)`
 					goto adopt
-				`	don't adopt the koala`
+				`	(Don't adopt the koala.)`
 					goto shelter
 			label shelter
-			`You say to yourself, that you won't have the time to care for the koala. It's better to bring it to a clean end. It's not your problem.`
+			`You say to yourself that you won't have the time to care for the koala. It's better to bring it to a clean end. It's not your problem.`
 				goto end
 			label adopt
 			scene "outfit/fluffy_koala"
@@ -399,12 +399,12 @@ mission "rabbit mission 2"
 			`Half an hour later, Owen appears in front of your ship again.`
 			`  "Hello, Captain <first>, we have a little problem. Customs won't let us enter with the rabbit. They say that an invasive population of rabbits, which has displaced the local animals, has just been eradicated on 'Clark'. We have to put poor 'Thumper' to sleep. Sophie then came up with the idea that maybe you could look after him. I would of course understand if you refuse."`
 			choice
-				`	adopt the rabbit`
+				`	(Adopt the rabbit.)`
 					goto adopt
-				`	don't adopt the rabbit`
+				`	(Don't adopt the rabbit.)`
 					goto shelter
 			label shelter
-			`You explain Owen that you can't take care for the rabbit.`
+			`You explain Owen that you can't take care of the rabbit.`
 				decline
 			label adopt
 			scene "outfit/fluffy_rabbit"
@@ -431,12 +431,12 @@ mission "hamster mission 1"
 			`  "We have just unloaded a freighter whose cargo is destined for an animal wholesale company. When we opened the hold, a veritable flood of hamsters rushed out and scurried away in every direction. We've been trying to catch these bastards for two hours. And this little monster just bit me in the finger. Here, take him, I have to get some healing spray now."` 
 			`He pushes the hamster into your hands and you practically have no choice but to accept it. As you look at the hamster and gently pet him, you notice how the animal relaxes.`
 			choice
-				`	adopt the hamster`
+				`	(Adopt the hamster.)`
 					goto adopt
-				`	don't adopt the hamster`
+				`	(Don't adopt the hamster.)`
 					goto shelter
 			label shelter
-			`You release the hamster back to his brothers and sisters on the spaceport. You aren't really an 'hamster person'.`
+			`You release the hamster back to his brothers and sisters on the spaceport. You aren't really a 'hamster person'.`
 				decline
 			label adopt
 			scene "outfit/fluffy_hamster"
@@ -458,15 +458,15 @@ mission "squirrel mission 1"
 		conversation
 			`As you make final checks for launching your ship, an elderly female Hai approaches.`
 			`  "Hello, is that your ship? Do you know your way around in human space? How much would a special procurement from human space cost me?"`
-			`  "Hello, a lot of questions at once." you say "The answers are: yes, yes and it depends from where and what."`
-			`The Hai woman, whose name is Xanua, tells you how years ago she heard a story that there is a species of animal among humans that looks similar to the Hai, only much smaller. Since then Xanua has become very wealthy and would like to score points with high society by something exotic like that. Are you willing to get such an animal for her?`
+			`  "Hello, that is a lot of questions at once." you say "The answers are: yes, yes and it depends from where and what."`
+			`The Hai woman, whose name is Xanua, tells you how years ago she heard a story that there is a species of animal among humans that looks similar to the Hai, only much smaller. Since then, Xanua has become very wealthy, and would like to score points with high society by having something exotic like that. Are you willing to get such an animal for her?`
 			choice
-				`	agree`
+				`	(Agree.)`
 					goto accept
-				`	decline`
+				`	(Decline.)`
 					defer
 			label accept
-			`You agree on a fixed amount of 500,000 credits. Now all you have to do is figure out how to get a squirrel. You've never seen a squirrel yourself and you don't even know what world they come from. You decide to search informations on the next human world.`
+			`You agree on a fixed amount of 500,000 credits. Now all you have to do is figure out how to get a squirrel. You've never seen a squirrel yourself and you don't even know what world they come from. You decide to search for information on the next human world.`
 				accept
 	on complete
 		conversation
@@ -493,15 +493,14 @@ mission "squirrel mission 3"
 	landing
 	name "Are squirrels real?."
 	description "Go to <destination> to buy a squirrel, if they really exist."
-	source
-		planet "Earth"
+	source "Earth"
 	destination "Amazon"
 	to offer
 		has "squirrel mission 2: done"
 	on offer
 		conversation
 			scene "scene/pet_store"
-			`After questioning around for squirrels, the Spaceport Information Center directs you to a local pet store. Once there, you learn that squirrels have been extinct on earth for over 600 years. When Xanua quickly agreed to pay 500,000 credits, you were happy about the easy money to earn. But if this is going to be a galaxy-wide quest, then that probably wasn't enough. The pet dealer offers you to get a squirrel within two months. After some discussion, he gives you the contact details of his supplier. Off to Amazon in the Shedar system!`
+			`After questioning around for squirrels, the Spaceport Information Center directs you to a local pet store. Once there, you learn that squirrels have been extinct on Earth for over 600 years. When Xanua quickly agreed to pay 500,000 credits, you were happy about the easy money to earn. But if this is going to be a galaxy-wide quest, then that probably wasn't enough. The pet dealer offers you to get a squirrel within two months. After some discussion, he gives you the contact details of his supplier. Off to <planet> in the <system> system!`
 				accept
 	on complete
 		conversation
@@ -518,11 +517,11 @@ mission "squirrel mission 4"
 		has "squirrel mission 3: done"
 	on offer
 		conversation
-			`You find the animal dealer whose name you found out on earth easily. This time everything is unusually unproblematic. When you see the little squirrels you realize that they are even cuter than the Hai. You decide to buy a squirrel for Xanua.`
+			`You find the animal dealer whose name you found out on Earth very easily. This time everything is unusually unproblematic. When you see the little squirrels you realize that they are even cuter than the Hai. You decide to buy a squirrel for Xanua.`
 			choice
-				`	also buy a squirrel for you`
+				`	(Also buy a squirrel for yourself.)`
 					goto adopt
-				`	don't buy a second squirrel`
+				`	(Don't buy a second squirrel.)`
 					goto dontbuy
 			label dontbuy
 			action
@@ -534,7 +533,7 @@ mission "squirrel mission 4"
 			action
 				payment -5000
 				outfit "fluffy_squirrel"
-			`Back on the ship, 5.000 credits poorer, you set a course to Heartvalley. `
+			`Back on the ship, 5,000 credits poorer, you set a course to Heartvalley. `
 				accept
 	on complete
 		payment 750000

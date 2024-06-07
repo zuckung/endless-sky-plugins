@@ -17,7 +17,7 @@ ship "Colony Ship"
 		"cost" 10800000
 		"shields" 7600
 		"hull" 6300
-		"required crew" 1000
+		"required crew" 120
 		"bunks" 1000
 		"mass" 540
 		"drag" 11.7

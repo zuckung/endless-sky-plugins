@@ -3,19 +3,19 @@
 <br>
 A bunch of side missions which reward unique pets. <br>
 <br>
-Lore-friendly, total useless, but cute pet outfits, with storylines. All missions have a 20% chance of appearing, except alien mission which has 100%.<br>
+Lore-friendly, totally useless, but cute pet outfits, with storylines. All missions have a 20% chance of appearing, except alien mission which has 100%.<br>
 <ul>
 <li>Alien - land somewhere in human space, hidden destination is Danoa system</li>
 <li>Cat - mission found on Deadman's Cove (Almach)</li>
 <li>Ferret - mission found on Bivrost (Markeb)</li>
 <li>Hamster - mission found on Twinstar (Alniyat)</li>
 <li>Koala - mission found on New Portland (Delta Sagittarii)</li>
-<li>Ocelot - mission found on Farpoint (Alnitak) needs 1000 combat xp</li>
+<li>Ocelot - mission found on Farpoint (Alnitak) needs 1000 combat rating</li>
 <li>Rabbit - mission found on Starcross (Acrux)</li>
 <li>Raccoon - mission found on Foundry (Achernar)</li>
 <li>Squirrel - mission found on Heartvalley (Io Lowe, Hai space)</li>
 </ul>
-After collecting them all, you get a missions (20%) with unique rewards.<br>
+After collecting them all, you get a mission (20%) with unique rewards.<br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/real.fluff/screenshot.jpg' width='400'>
 <br>
 <br>

@@ -41,7 +41,7 @@ re-added the ammo box to main buttons (latest mobile game version needed)<br>
 added plugin.txt<br>
 <br>
 2023-08-24<br>
-fixed non-fireing attack button<br>
+fixed non-firing attack button<br>
 <br>
 2023-08-05<br>
 moved the hidden ammo box to a visible place<br>

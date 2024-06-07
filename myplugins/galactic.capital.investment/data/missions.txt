@@ -39,15 +39,15 @@ mission "Galactic Capital Intro A"
 				goto toearth
 			label robbery
 			`Warren Goulding looks irritated, then he starts laughing out loud.`
-			`"Captain <last>, your are a very funny person. Sure you know you can't rob a pure digital bank."`
-			`"But..." he looks around conspiratorially "we can fund a pirate fleet for you." He starts laughing again. After a while he calms down, still smiling.`
+			`"Captain <last>, you are a very funny person. Sure you know you can't rob a purely digital bank."`
+			`"But..." he looks around conspiratorially, "we can fund a pirate fleet for you." He starts laughing again. After a while he calms down, still smiling.`
 				goto toearth
 			label toearth
-			`"With your enourmous financial ressources, you are now a premium customer. We would like to offer you highly profitable investment opportunities. Unfortunately I'm in a rush at the moment. Please meet me at 'Galactic Capital Investment' headquaters on Earth."`
+			`"With your enourmous financial ressources, you are now a premium customer. We would like to offer you highly profitable investment opportunities. Unfortunately, I'm in a rush at the moment. Please meet me at 'Galactic Capital Investment' headquaters on Earth."`
 				accept
 	on complete
 		conversation
-			`When you land on Earth you remind yourself visiting the spaceport information center to find the headquaters of 'Galactic Capital' for your meeting with Warren Goulding.`
+			`When you land on Earth, you remind yourself to visit the spaceport information center to find the headquaters of 'Galactic Capital' for your meeting with Warren Goulding.`
 
 
 mission "Galactic Capital Intro B"
@@ -59,9 +59,9 @@ mission "Galactic Capital Intro B"
 	on offer
 		conversation
 			scene "scene/galactic_capital"
-			`After a ten minute train ride you arrive at 'Galactic Capital Investment'. It is the largest bank in human space, and their headquaters reflect that very well. You see six skyscrapers distributed over several squarekilometers and a giant glass pyramid dominates the center of that complex. Everywhere are parks, paths through it, modern weatherproof art installations and thausands of people, mostly in business dresses.`
-			`Twenty minutes later you reach the office of Warren Goulding. "Captain <last>, welcome to our headquaters. Please take a seat."`
-			`"We offer our premium customers regularly investment possibilities in small but established companies. With an investment of one to several million credits you can generate a daily income which pays off the investment in around four years. Our analysts check these companies and their business plans very carefully, so that there is no risk for you. Of course we take a small part of the profit for us. Your success is our success. Our services are available in human, quarg and hai space."`
+			`After a ten minute train ride you arrive at 'Galactic Capital Investment'. It is the largest bank in human space, and their headquarters reflect that very well. You see six skyscrapers distributed over several square kilometers and a giant glass pyramid that dominates the center of the complex. Everywhere are parks, paths through it, modern weatherproof art installations and thousands of people, mostly in business dresses.`
+			`Twenty minutes later, you reach the office of Warren Goulding. "Captain <last>, welcome to our headquaters. Please take a seat."`
+			`"We offer our premium customers regularly investment possibilities in small but established companies. With an investment of one to several million credits you can generate a daily income which pays off the investment in around four years. Our analysts check these companies and their business plans very carefully, so that there is no risk for you. Of course we take a small part of the profit for us. Your success is our success. Our services are available in human, Quarg and Hai space."`
 			choice
 				`	"That sounds great."`
 					goto letscontinue
@@ -70,13 +70,13 @@ mission "Galactic Capital Intro B"
 				`	"Hands up, this is a bank robbery!"`
 					goto robbery
 			label haispace
-			`"Ehm...errr... did i say 'Hai space'? Hmmm that's the german word for 'shark' and I ment the core worlds with that. You know, where the hard business happends." Nervously, he continues doing business.`
+			`"Ehm...errr... did i say 'Hai space'? Hmmm that's the german word for 'shark' and I ment the core worlds with that. You know, where the hard business happens." Nervously, he continues doing business.`
 				goto letscontinue
 			label robbery
 			`Goulding starts to laugh, he really seems to like this joke. After he calms down he continues doing business. `
 				goto letscontinue
 			label letscontinue
-			`"I allready prepared an investment plan for you. Please take a look."`
+			`"I already prepared an investment plan for you. Please take a look."`
 			` `
 			`Investment:	`
 			`	1.000.000 credits`
@@ -85,17 +85,17 @@ mission "Galactic Capital Intro B"
 			`First profit after:`
 			`	4,6 years`
 			` `
-			`"You don't have to take this investment, we'll offer you more opportunities in the future. So, you want to invest now?"`
+			`"You don't have to take this investment, because we'll offer you more opportunities in the future. So, do you want to invest now?"`
 			choice
-				`		sign the contract`
+				`	(Sign the contract.)`
 					goto money
-				`		dont sign the contract`
+				`	(Don't sign the contract.)`
 					goto nomoney
 			label money
-			`"Great. I will send a message when I have another investment for you. Remember checking the job board." You say goodbye to Mr. Goulding and leave his office.`
+			`"Great. I will send a message when I have another investment for you. Remember to check the job board." You say goodbye to Mr. Goulding and leave his office.`
 				accept
 			label nomoney
-			`"Yes, it is a lot of money. I can understand that. I will send a message when I have other investments for you, maybe you change your mind. Remember checking the job board." You say goodbye to Mr. Goulding and leave his office.`
+			`"Yes, it is a lot of money. I can understand that. I will send a message when I have other investments for you.  Maybe you will change your mind. Remember to check the job board." You say goodbye to Mr. Goulding and leave his office.`
 				decline
 	on accept
 		payment -1000000
@@ -118,8 +118,7 @@ mission "Galactic Capital Colonize 1"
 	on accept
 		event "GCI add planet"
 	on complete
-		conversation
-			`You arrived at Earth.`
+		dialog `You arrived at Earth.`
 
 
 event "GCI add planet"
@@ -137,7 +136,7 @@ event "GCI add planet"
 mission "Galactic Capital Colonize 2"
 	landing
 	name "Escort colony ships"
-	description "Escort 3 colony ships to <destination>."
+	description "Escort three colony ships to <destination> for Warren Goulding. If they arrive safely, you will be paid <payment>."
 	source "Earth"
 	destination "Sapphire"
 	to offer
@@ -154,19 +153,19 @@ mission "Galactic Capital Colonize 2"
 			`"To participate in this venture we need 500 million credits from you."`
 			`He's actually sweating a lot now.`
 			choice
-				`	accept`
+				`	(Accept.)`
 					goto omgyes
-				`	decline`
+				`	(Decline.)`
 					goto hellno
 			label hellno
 			`It seems that Goulding expected your reaction.`
-			`"Yes, it is a lot of money. Before you say no, take some time and think about it. This is a great opportunity, and you can come back at any time to accept it"`
+			`"Yes, it is a lot of money. Before you say no, please take some time and think about it. This is a great opportunity, and you can come back at any time to accept it."`
 				defer
 			label omgyes
 			`For a moment Goulding looks a little bit like he is having a stroke, then he recovers, smiling.`
 			`"You're one hell of a guy Mr. <last>! How could I assume anything else? Great! Then let's sign the papers."`
 			`After signing dozens of pages and doing a DNA identification, Goulding continues.`
-			`"To be honest, before this project is completed, you will have to invest nearly the same amount of credits again, but lets keep this discussion for later."`
+			`"To be honest, before this project is completed, you will have to invest nearly the same amount of credits again, but let's keep that discussion for later."`
 			`"Everything is already prepared for the first phase. We have purchased 3 colony ships and loaded them with enough colonists and equipment. We would welcome it, if you, as a battle-hardened fleet captain, would take over the leadership of the armada. We can start in a few hours."`
 			`After more small talk and many enthusiastic farewells, you and Goulding make your way to the spaceport. The destination is <destination>.`
 				accept
@@ -191,6 +190,7 @@ mission "Galactic Capital Colonize 2"
 			variant
 				"Leviathan" 4
 				"Bactrian" 1
+				"Dagger" 3
 	npc accompany save
 		government "Merchant"
 		personality escort timid
@@ -204,7 +204,7 @@ mission "Galactic Capital Colonize 2"
 		event "GCI wait colonization" 120
 		conversation
 			scene "scene/colonists"
-			`You have reached Sapphire safely. While Golding oversees the unloading, you study the surrounding area. It's a wonderful sunny day, lush green vegetation is everywhere. This is actually a very welcoming planet. Teams of engineers, workers, and researchers travel around to plan the building process. The 3 landed colony ships will serve as living space for the colonists in the transition period until the first buildings are build. In about 4 months the spaceport and a small city will be constructed.`
+			`You have reached Sapphire safely. While Golding oversees the unloading, you study the surrounding area. It's a wonderful sunny day, with lush green vegetation everywhere. This is actually a very welcoming planet. Teams of engineers, workers, and researchers travel around to plan the building process. The 3 landed colony ships will serve as living space for the colonists in the transition period until the first buildings are build. In about 4 months the spaceport and a small city will be constructed.`
 
 
 event "GCI wait colonization"
@@ -224,7 +224,7 @@ mission "Galactic Capital Colonize 3"
 		has "Galactic Capital Colonize 2: done"
 	on offer
 		conversation
-			`On the evening of the first day of colonization, you and Goulding set off again. The colonists now assume responsibility for the success or failure of this venture. Goulding has to go back to Earth and you have to do other things for the next months afterwards. But first, let's get to Earth.`
+			`On the evening of the first day of colonization, you and Goulding set off again. The colonists now assume responsibility for the success or failure of this venture. Goulding has to go back to Earth and you have to do other things for the next few months afterwards. But first, let's get to Earth.`
 				accept
 	on complete
 		conversation
@@ -259,9 +259,9 @@ mission "Galactic Capital Colonize 5"
 			`Warren Goulding is already waiting for you at the newly built spaceport. This place is almost unrecognizable. Lots of asphalt, roads, lots of multi-storied buildings, and construction is going on everywhere. Goulding greets you and leads you to the local headquarters of Galactic Capital Investment. The building is not as impressive as the one on Earth, but it is still a magnificent five-storied building.`
 			`"<first>, we need to talk about the second phase of the project. The colonization was very successful and thousands of new settlers are now arriving every day. In order to guarantee the prosperity of this colony, we need to improve the infrastructure and attract more colonists. That is subsidizing merchant fleets, expanding the administration, advertising this world everywhere in the Republic, etc. All of this costs credits. As mentioned when the contract was signed, a second transaction is now necessary. Are you ready to invest another 250 million?"`
 			choice
-				` invest`
+				` (Invest.)`
 					goto invest
-				` don't invest now`
+				` (Don't invest now.)`
 					goto noinvest
 			label noinvest
 			`That will slow colony development significantly. Please come back when you have acquired the necessary credits.`
@@ -269,7 +269,7 @@ mission "Galactic Capital Colonize 5"
 			label invest
 			`Goulding is delighted. You sign further contracts and complete the transaction.`
 			`"I think we can expect significant progress in about 4 months. I will contact you then."`
-			`Golding walks you to your ship and then says goodbye. You are already looking forward to seeing the colony's progress in a few months.`
+			`Goulding walks you to your ship and then says goodbye. You are already looking forward to seeing the colony's progress in a few months.`
 				decline
 	on decline
 		payment -250000000
@@ -319,12 +319,12 @@ mission "Galactic Capital Colonize 7"
 			`After landing, you head straight to the Galactic Capital Investment headquarters. When you arrive in Goulding's office, you immediately notice Goulding's displeased expression and ask what happened.`
 			`"We have problems on Sapphire. Since the planet is on the edge of the Dirt Belt, Republic patrols are rather sparse, which leads to increased pirate activity. The pirates not only rob the merchant spaceships, but often land on the planet to attack the smaller communities that are now sprouting up in numbers. We have to build planetary defense fleets and that will be expensive. I need a new investment of 250 million credits to solve this problem. But that should be the last investment necessary. Are you ready to transfer the credits now?"`
 			choice
-				` yes`
+				` "Yes."`
 					goto yes
-				` no`
+				` "No."`
 					goto no
 			label no
-			`"Too bad, waiting will make the problem worse. Please hurry up and get the credits."`
+			`"Too bad, because waiting will make the problem worse. Please hurry up and get the credits."`
 				defer
 			label yes
 			`"Very good, here are the papers. Sign here, there and there. Excellent. In a few months the fleet will be strong enough to keep the pirates at bay. A part of the credits will also flow into a defense fund to keep the fleets operational. Once this is achieved, nothing will stand in the way of growth. I'll let know you when there's anything new."`

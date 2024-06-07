@@ -1,9 +1,9 @@
 # **my endless-sky-plugins**
 I aim at developing small, modular and maximal compatible plugins that don't break vanilla lore too much. <br>
-Please excuse bad english, spelling, grammar, etc... english isn't my mother tongue. Feel free to correct me.<br>
+Please excuse bad English, spelling, grammar, etc... English isn't my mother tongue. Feel free to correct me.<br>
 <a href="https://github.com/zuckung/endless-sky-plugins/pulls">Pull requests</a>, <a href="https://github.com/zuckung/endless-sky-plugins/discussions">discussions</a> and <a href="https://github.com/zuckung/endless-sky-plugins/issues">Issue reports</a> are welcome! <br>
 <br>
-Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators or people who seek informations inside the data folder. Basically it is a very fast website to view every object of the data folder, especially when you don't know where to find something. Easy browsing of missions, ships, outfits, systems etc.<br>
+Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators, or people who seek information inside the data folder. Basically, it is a very fast website to view every object of the data folder, especially when you don't know where to find something. Easy browsing of missions, ships, outfits, systems etc.<br>
 <br>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzuckung%2Fendless-sky-plugins&count_bg=%2395c20e&title_bg=%235a5a5a&icon=&icon_color=%235A5A5A&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
@@ -123,7 +123,7 @@ and
 
 <br>
 
-(inspired by theweirednut) <br>
+(inspired by thewierdnut) <br>
 
 <br>
 
@@ -167,7 +167,7 @@ added plugin.txt<br>
 
 2023-08-24<br>
 
-fixed non-fireing attack button<br>
+fixed non-firing attack button<br>
 
 <br>
 
@@ -185,7 +185,7 @@ added new icon and reworked readme<br>
 
 2023-07-26<br>
 
-added 3 more buttons to a total of 10<br>
+added 3 more buttons making a total of 10<br>
 
 added descriptions inside script to exchange buttons functions<br>
 

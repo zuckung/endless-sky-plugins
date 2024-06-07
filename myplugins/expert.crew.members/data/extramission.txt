@@ -97,7 +97,7 @@ mission "all crew members hired"
 			`"Your crew agrees that the experience of serving under someone who ventures so far into unknown reaches of the galaxy is something very special. We have met many members of a wide variety of species here on the ship. We have explored rare space anomalies, nebulae, and we've seen so many stars. Each of us joined your crew to see more of space, but the journey so far has exceeded our wildest expectations. And we want to thank you for that."`
 			`"Many of us contributed our engineering skills to a gift, others added ideas or suggested improvements. And now it's finished."`
 			choice
-				`	smile at Touna`
+				`	(Smile at Touna.)`
 			label hologram
 			scene "outfit/galaxy_hologram"
 			`Touna hands you a dark gray disc. "On behalf of the crew, thank you for the opportunity to learn so much." She presses a small button on the side of the disk and a hologram appears above it. It shows our galaxy, but with a level of detail that is far beyond the standard holograms. The disk is also quite small, so it must have a very strong energy source.`
