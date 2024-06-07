@@ -21,6 +21,9 @@ After collecting them all, you get a mission (20%) with unique rewards.<br>
 <br>
 Changelog:<br>
 <br>
+2024-06-07<br>
+text corrections (thx to TheGiraffe3)<br>
+<br>
 2024-04-21<br>
 changed size of alien.png to prevent error.txt mentioning<br>
 added 4 more scene images<br>
