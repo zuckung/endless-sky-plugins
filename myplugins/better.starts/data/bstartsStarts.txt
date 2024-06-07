@@ -3,7 +3,7 @@ start "z_trader1"
 	description `Ship: Freighter`
 	description `Special: 165t Cargo`
 	description `You grew up on New China in the Merak system, an overpopulated, dirty and poor world, dreaming of an escape.`
-	description `Your neighbor, who a space trader, is going into pension. He offers you a chance to buy his "Freighter". This can be your chance.`
+	description `Your neighbor, who is a space trader, is going into pension. He offers you a chance to buy his "Freighter". This can be your chance.`
 	thumbnail "scene/lobby"
 	date 16 11 3013
 	system "Merak"
