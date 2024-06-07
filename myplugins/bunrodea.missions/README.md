@@ -20,6 +20,9 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 Changelog:<br>
 <br>
+2024-06-07<br>
+text corrections (thx to TheGiraffe3)<br>
+<br>
 2024-04-30<br>
 fixed error on natural spawning korath fleets<br>
 changed some space port news and jobs to require culture conversations<br>
