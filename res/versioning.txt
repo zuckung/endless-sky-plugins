@@ -28,4 +28,4 @@ hai.side.mission.unlocker|1.1.3
 space.fauna|1.1.2
 additional.command.buttons|1.0.1
 control.station|1.0.1
-quarg.farm|1.0.0
+quarg.farm|1.0.1

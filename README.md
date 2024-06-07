@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: navy.licenses<br>
+<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: quarg.farm<br>
+2024-06-07 | update: navy.licenses<br>
 2024-06-07 | update: galactic.capital.investment<br>
 2024-06-07 | update: expert.crew.members<br>
 2024-06-07 | update: captureable.person.ships<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-06-07 | update: automata.destruction.0percent<br>
 2024-06-07 | update: additional.command.buttons<br>
 2024-05-28 | update: captureable.person.ships<br>
-2024-05-27 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2394,7 +2394,7 @@ initial release<br>
 
 <img src="myplugins/quarg.farm/icon.png" height="100">
 
-[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/quarg.farm.zip) | 26.78 kb | 2024-05-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <br>
+[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/quarg.farm.zip) | 26.81 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <br>
 <br>
 >Adds a new system "Saquerver" (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the readme for details.
 
@@ -2417,6 +2417,12 @@ The system "Saquerver" lies between "Saquergen" and "Ablub". The usual-sized Qua
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-06-07<br>
+
+text corrections (thx to TheGiraffe3)<br>
 
 <br>
 
