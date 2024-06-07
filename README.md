@@ -15,7 +15,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-05-28 | lots of text corrections(thx TheGiraffe3)<br>
+<table><tr><td><img width="882" height="1"><br>2024-06-07 | lots of text corrections(thx TheGiraffe3)<br>
 2024-06-07 | update: too.many.asteroids<br>
 2024-06-07 | update: real.fluff<br>
 2024-06-07 | update: quarg.farm<br>
@@ -2803,7 +2803,7 @@ initial release<br>
 
 <img src="myplugins/too.many.asteroids/icon.png" height="100">
 
-[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) | 18.41 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <br>
+[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/too.many.asteroids.zip) | 18.42 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <br>
 <br>
 >Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. Increases game performance. See the readme for details.
 
@@ -2823,7 +2823,7 @@ Increases game performance.<br>
 
 <br>
 
-Every of the 558 base game systems (0.10.5) is edited via a remove command for full compatibility with other system altering plugins. A total of 2663 asteroid entries got removed.<br>
+Every of the 558 base game systems (0.10.7) is edited via a remove command for full compatibility with other system altering plugins. A total of 2663 asteroid entries got removed.<br>
 
 In case I don't update this plugin to the newest game version, a python script for generating an updated plugin can be found <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/tools/ES_plugin_script_too_many_asteroids">here</a>.<br>
 
@@ -2838,6 +2838,8 @@ Changelog:<br>
 2024-06-07<br>
 
 text corrections (thx to TheGiraffe3)<br>
+
+updated to 0.10.7<br>
 
 <br>
 

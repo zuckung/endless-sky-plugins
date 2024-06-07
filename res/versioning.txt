@@ -22,7 +22,7 @@ planet.map|1.0.0
 real.fluff|1.0.4
 show.reputation|1.0.0
 snowfeather.robotics|1.0.3
-too.many.asteroids|1.0.1
+too.many.asteroids|1.0.2
 unique.fix|1.0.0
 hai.side.mission.unlocker|1.1.3
 space.fauna|1.1.2
