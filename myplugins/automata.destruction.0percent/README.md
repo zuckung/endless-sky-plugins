@@ -1,4 +1,4 @@
-### automata.destruction.0%
+### automata.destruction.0percent
 <br>
 <br>
 Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%).<br>
