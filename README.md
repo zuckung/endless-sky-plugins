@@ -15,7 +15,8 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: automata.destruction.0percent<br>
+<table><tr><td><img width="882" height="1"><br>2024-06-07 | update: better.starts<br>
+2024-06-07 | update: automata.destruction.0percent<br>
 2024-06-07 | update: additional.command.buttons<br>
 2024-05-28 | update: captureable.person.ships<br>
 2024-05-27 | update: captureable.person.ships<br>
@@ -24,7 +25,6 @@ Furthermore i'd like to present <a href="https://zuckung.github.io/ES-DataParser
 2024-05-26 | update: disable.spaceport.repeatables<br>
 2024-05-14 | update: control.station<br>
 2024-05-09 | update: control.station<br>
-2024-05-09 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -384,7 +384,7 @@ changed icon.png<br>
 
 <img src="myplugins/better.starts/icon.png" height="100">
 
-[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 22.34 kb | 2024-03-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
+[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/better.starts.zip) | 22.4 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
 <br>
 >Adds several new start options with different ships, background storys, credits and debts. See the readme for details.
 
@@ -429,6 +429,12 @@ Beside the cheater start option, all others are balanced and lore friendly. A bi
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-06-07<br>
+
+text corrections (thx to TheGiraffe3)<br>
 
 <br>
 
