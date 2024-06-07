@@ -193,7 +193,7 @@ conversation "z_miner"
 	scene "scene/lobby"
 	`You were quite surprised when you heard of your childhood friend Ted a month ago. When his parents died, he took his legacy and disappeared from this planet.`
 	`Ted made a fortune with asteroid mining, and now he came back to help you.`
-	`He vouched for you at the bank so you could take a pretty big loan. He took you to Tarazed to buy a 'Sunder', equipped for asteroid mining. You felt like back in school, when Ted helped you learn to get your pilot's license.`
+	`He vouched for you at the bank so you could take a pretty big loan. He took you to Tarazed to buy a 'Sunder', equipped for asteroid mining. You felt like back in school, when Ted helped you learn enough to qualify for your pilot's license.`
 	`While you sign the paperwork at the bank, you are still astonished how fast the things went over the last month.`
 	name
 	`With a smile on your face, you head over to the landing pad, where your new 'Sunder' is parked. Ted gave you a lot of hints how to be a successful asteroid miner. The asteroid belt of Rasalhague is rich on aluminium and iron. Not two of the more expensive metals, but it is a start. For better ores you could check other near systems, the Ascella system should have more expensive ores. `
