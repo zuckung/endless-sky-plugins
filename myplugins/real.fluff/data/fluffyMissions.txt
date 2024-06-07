@@ -431,12 +431,12 @@ mission "hamster mission 1"
 			`  "We have just unloaded a freighter whose cargo is destined for an animal wholesale company. When we opened the hold, a veritable flood of hamsters rushed out and scurried away in every direction. We've been trying to catch these bastards for two hours. And this little monster just bit me in the finger. Here, take him, I have to get some healing spray now."` 
 			`He pushes the hamster into your hands and you practically have no choice but to accept it. As you look at the hamster and gently pet him, you notice how the animal relaxes.`
 			choice
-				`	adopt the hamster`
+				`	(Adopt the hamster.)`
 					goto adopt
-				`	don't adopt the hamster`
+				`	(Don't adopt the hamster.)`
 					goto shelter
 			label shelter
-			`You release the hamster back to his brothers and sisters on the spaceport. You aren't really an 'hamster person'.`
+			`You release the hamster back to his brothers and sisters on the spaceport. You aren't really a 'hamster person'.`
 				decline
 			label adopt
 			scene "outfit/fluffy_hamster"
@@ -458,15 +458,15 @@ mission "squirrel mission 1"
 		conversation
 			`As you make final checks for launching your ship, an elderly female Hai approaches.`
 			`  "Hello, is that your ship? Do you know your way around in human space? How much would a special procurement from human space cost me?"`
-			`  "Hello, a lot of questions at once." you say "The answers are: yes, yes and it depends from where and what."`
-			`The Hai woman, whose name is Xanua, tells you how years ago she heard a story that there is a species of animal among humans that looks similar to the Hai, only much smaller. Since then Xanua has become very wealthy and would like to score points with high society by something exotic like that. Are you willing to get such an animal for her?`
+			`  "Hello, that is a lot of questions at once." you say "The answers are: yes, yes and it depends from where and what."`
+			`The Hai woman, whose name is Xanua, tells you how years ago she heard a story that there is a species of animal among humans that looks similar to the Hai, only much smaller. Since then, Xanua has become very wealthy, and would like to score points with high society by having something exotic like that. Are you willing to get such an animal for her?`
 			choice
-				`	agree`
+				`	(Agree.)`
 					goto accept
-				`	decline`
+				`	(Decline.)`
 					defer
 			label accept
-			`You agree on a fixed amount of 500,000 credits. Now all you have to do is figure out how to get a squirrel. You've never seen a squirrel yourself and you don't even know what world they come from. You decide to search informations on the next human world.`
+			`You agree on a fixed amount of 500,000 credits. Now all you have to do is figure out how to get a squirrel. You've never seen a squirrel yourself and you don't even know what world they come from. You decide to search for information on the next human world.`
 				accept
 	on complete
 		conversation
@@ -493,15 +493,14 @@ mission "squirrel mission 3"
 	landing
 	name "Are squirrels real?."
 	description "Go to <destination> to buy a squirrel, if they really exist."
-	source
-		planet "Earth"
+	source "Earth"
 	destination "Amazon"
 	to offer
 		has "squirrel mission 2: done"
 	on offer
 		conversation
 			scene "scene/pet_store"
-			`After questioning around for squirrels, the Spaceport Information Center directs you to a local pet store. Once there, you learn that squirrels have been extinct on earth for over 600 years. When Xanua quickly agreed to pay 500,000 credits, you were happy about the easy money to earn. But if this is going to be a galaxy-wide quest, then that probably wasn't enough. The pet dealer offers you to get a squirrel within two months. After some discussion, he gives you the contact details of his supplier. Off to Amazon in the Shedar system!`
+			`After questioning around for squirrels, the Spaceport Information Center directs you to a local pet store. Once there, you learn that squirrels have been extinct on Earth for over 600 years. When Xanua quickly agreed to pay 500,000 credits, you were happy about the easy money to earn. But if this is going to be a galaxy-wide quest, then that probably wasn't enough. The pet dealer offers you to get a squirrel within two months. After some discussion, he gives you the contact details of his supplier. Off to <planet> in the <system> system!`
 				accept
 	on complete
 		conversation
@@ -518,11 +517,11 @@ mission "squirrel mission 4"
 		has "squirrel mission 3: done"
 	on offer
 		conversation
-			`You find the animal dealer whose name you found out on earth easily. This time everything is unusually unproblematic. When you see the little squirrels you realize that they are even cuter than the Hai. You decide to buy a squirrel for Xanua.`
+			`You find the animal dealer whose name you found out on Earth very easily. This time everything is unusually unproblematic. When you see the little squirrels you realize that they are even cuter than the Hai. You decide to buy a squirrel for Xanua.`
 			choice
-				`	also buy a squirrel for you`
+				`	(Also buy a squirrel for yourself.)`
 					goto adopt
-				`	don't buy a second squirrel`
+				`	(Don't buy a second squirrel.)`
 					goto dontbuy
 			label dontbuy
 			action
@@ -534,7 +533,7 @@ mission "squirrel mission 4"
 			action
 				payment -5000
 				outfit "fluffy_squirrel"
-			`Back on the ship, 5.000 credits poorer, you set a course to Heartvalley. `
+			`Back on the ship, 5,000 credits poorer, you set a course to Heartvalley. `
 				accept
 	on complete
 		payment 750000
