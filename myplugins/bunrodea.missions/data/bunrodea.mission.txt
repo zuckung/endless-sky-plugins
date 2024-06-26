@@ -593,7 +593,7 @@ mission "bunrodea side archeology 1"
 		random > 49
 	on offer
 		conversation
-			`Before you leave your ship to look for new contracts, your holovid reports a call. An older Bubrodean appears on the screen.`
+			`Before you leave your ship to look for new contracts, your holovid reports a call. An older Bunrodean appears on the screen.`
 			`"Hello Captain <last>, I am Professor Hideki from the Deli Kat Archaeological Research Center and I am looking for transport of an expedition to <destination>. As you can imagine, it is not easy to persuade civilian captains to travel into Korath infested system. It has come to my attention that you could be the right captain for this venture. Our expedition consists of 12 participants and 20 tons of equipment. We would pay <payment> for the outward journey and twenty days later <payment> for bringing us back home. "`
 			choice
 				`	I can do that.`
