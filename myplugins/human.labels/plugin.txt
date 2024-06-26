@@ -1,0 +1,2 @@
+name "human.labels"
+about "Reworks the human area labels and adds area borders. See the readme for details."

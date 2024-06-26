@@ -1,0 +1,90 @@
+# galaxy "border deep"
+# galaxy "border dirt belt"
+# galaxy "border rim"
+# galaxy "border south"
+# galaxy "border earth"
+# galaxy "border core"
+# galaxy "border paradise"
+# galaxy "border north"
+# galaxy "label deep"
+# galaxy "label dirt belt"
+# galaxy "label rim"
+# galaxy "label south"
+# galaxy "label earth"
+# galaxy "label core"
+# galaxy "label paradise"
+# galaxy "label north"
+
+
+
+galaxy "border deep"
+	pos -670 -270
+	sprite label/border_deep
+
+galaxy "border dirt belt"
+	pos -515 145
+	sprite "label/border_dirt belt"
+
+galaxy "border rim"
+	pos -778 228
+	sprite label/border_rim
+
+galaxy "border south"
+	pos -566 370
+	sprite label/border_south
+
+galaxy "border earth"
+	pos -400 115
+	sprite label/border_earth
+
+galaxy "border core"
+	pos -145 107
+	sprite label/border_core
+
+galaxy "border paradise"
+	pos -418 -95
+	sprite label/border_paradise
+
+galaxy "border north"
+	pos -350 -400
+	sprite label/border_north
+
+
+
+galaxy "label deep"
+	pos -590 -260
+	sprite label/deep
+
+galaxy "label dirt belt"
+	pos -480 250
+	sprite "label/dirt belt"
+
+galaxy "label rim"
+	pos -850 235
+	sprite label/rim
+
+galaxy "label south"
+	pos -600 470
+	sprite label/south
+
+galaxy "label earth"
+	pos -360 70
+	sprite label/earth
+
+galaxy "label core"
+	pos -136 -10
+	sprite label/core
+
+galaxy "label paradise"
+	pos -420 -110
+	sprite label/paradise
+
+galaxy "label north"
+	pos -385 -460
+	sprite label/north
+
+
+
+
+
+
