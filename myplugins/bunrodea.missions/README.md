@@ -21,6 +21,9 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 Changelog:<br>
 <br>
 2024-06-07<br>
+text correction (thx to Dagroth)<br>
+<br>
+2024-06-07<br>
 text corrections (thx to TheGiraffe3)<br>
 <br>
 2024-04-30<br>
