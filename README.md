@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-06-07 | lots of text corrections(thx TheGiraffe3)<br>
+<table><tr><td><img width="882" height="1"><br>2024-06-26 | update: human.labels<br>
+2024-06-07 | lots of text corrections(thx TheGiraffe3)<br>
 2024-06-07 | update: too.many.asteroids<br>
 2024-06-07 | update: real.fluff<br>
 2024-06-07 | update: quarg.farm<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-06-07 | update: expert.crew.members<br>
 2024-06-07 | update: captureable.person.ships<br>
 2024-06-07 | update: bunrodea.missions<br>
-2024-06-07 | update: better.starts<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -47,6 +47,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
+<a href="README.md#humanlabels">human.labels</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
@@ -1763,6 +1764,53 @@ bug fixes<br>
 <br>
 
 2024-04-16<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### human.labels
+
+<img src="myplugins/human.labels/icon.png" height="100">
+
+[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/human.labels.zip) | 176.04 kb | 2024-06-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) <br>
+<br>
+>Reworks the human area labels and adds area borders. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### human.labels
+
+<br>
+
+<br>
+
+Reworks the human area labels and adds area borders. See the readme for details.<br>
+
+<br>
+
+The area labels of human space are now smaller and better to see. Also there is a border drawn around each area.<br>
+
+Feel free to rework this plugin with better graphics skills.<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels01.jpg' width='400'>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-06-26<br>
 
 initial release<br>
 
