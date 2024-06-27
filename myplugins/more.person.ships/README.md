@@ -4,7 +4,7 @@
 This plugin adds more person ships.<br>
 <br>
 I renamed my plugin pirate.warlords and added more person ships.<br>
-These ships have a frequency of 1000 and are all captureable.<br>
+These ships have a frequency of 1000 and they are all captureable.<br>
 <br>
 List of new person ships:<br>
 <br>

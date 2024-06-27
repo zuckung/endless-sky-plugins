@@ -17,7 +17,6 @@ more.arfectas|1.0.2
 more.boarding.missions|1.1.3
 navy.licenses|1.0.2
 no.more.mereti.mines|1.0.0
-pirate.warlords|1.0.0
 planet.map|1.0.0
 real.fluff|1.0.4
 show.reputation|1.0.0
