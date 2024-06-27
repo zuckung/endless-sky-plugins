@@ -15,7 +15,9 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-06-26 | update: bunrodea.missions<br>
+<table><tr><td><img width="882" height="1"><br>2024-06-27 | update: more.person.ships<br>
+2024-06-27 | renamed pirate.warlords to more.person.ships<br>
+2024-06-26 | update: bunrodea.missions<br>
 2024-06-26 | update: human.labels<br>
 2024-06-07 | lots of text corrections(thx TheGiraffe3)<br>
 2024-06-07 | update: too.many.asteroids<br>
@@ -23,8 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-06-07 | update: quarg.farm<br>
 2024-06-07 | update: navy.licenses<br>
 2024-06-07 | update: galactic.capital.investment<br>
-2024-06-07 | update: expert.crew.members<br>
-2024-06-07 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -51,10 +51,10 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
-<a href="README.md#navylicenses">navy.licenses</a><br>
+<a href="README.md#morepersonships">more.person.ships</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
-<a href="README.md#piratewarlords">pirate.warlords</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
 <a href="README.md#quargfarm">quarg.farm</a><br>
 <a href="README.md#realfluff">real.fluff</a><br>
@@ -2227,6 +2227,85 @@ added icon and reworked readme<br>
 
 ---
 
+### more.person.ships
+
+<img src="myplugins/more.person.ships/icon.png" height="100">
+
+[more.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/more.person.ships.zip) | 570.94 kb | 2024-06-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/) <br>
+<br>
+>This plugin adds more person ships to the different regions of the galaxy. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### more.person.ships
+
+<br>
+
+<br>
+
+This plugin adds more person ships.<br>
+
+<br>
+
+I renamed my plugin pirate.warlords and added more person ships.<br>
+
+These ships have a frequency of 1000 and they are all captureable.<br>
+
+<br>
+
+List of new person ships:<br>
+
+<br>
+
+North Pirate Warlord | Human northern pirate territory | Modified Bactrian<br>
+
+Core Pirate Warlord | Human core pirate territory | Modified Bactrian<br>
+
+South Pirate Warlord | Human southern pirate territory | Modified Bactrian<br>
+
+The Emperor | Unfettered Hai Territory | Emperor Beetle (unused vanilla ship)<br>
+
+Eco-One | Human Territory | Eco (new ship)<br>
+
+Explorer Corps | Human Territory | 3xBadger (new ship)<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships01.jpg' width='400'>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-06-27<br>
+
+renamed plugin from pirate.warlords to more.person.ships<br>
+
+changed mass and drag to rebalanced values<br>
+
+added The Emperor<br>
+
+added Eco-One<br>
+
+added Explorer Corps<br>
+
+<br>
+
+2024-02-15<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
 ### navy.licenses
 
 <img src="myplugins/navy.licenses/icon.png" height="100">
@@ -2323,57 +2402,6 @@ Changelog:<br>
 <br>
 
 2024-02-04<br>
-
-initial release<br>
-
-
-
-</blockquote>
-</details>
-<br>
-
-
----
-
-### pirate.warlords
-
-<img src="myplugins/pirate.warlords/icon.png" height="100">
-
-[pirate.warlords.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/pirate.warlords.zip) | 47.06 kb | 2024-02-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/pirate.warlords/) <br>
-<br>
->This plugin adds 3 pirate person ships to the 3 pirate regions. See the readme for details.
-
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### pirate.warlords
-
-<br>
-
-<br>
-
-This plugin adds 3 pirate person ships to the 3 pirate regions.<br>
-
-<br>
-
-The north, core and south pirates each get a pirate warlord person ship. Like other person ships, the average spawn time is like 10 minutes, and the chance of appearing if no other person ships exist for this region is 50%. All 3 ships are captureable Bactrians with mixed Human and Korath equipment, a Jump Drive, 5 Androids and some attribute improvements. <br>
-
-<br>
-
-North Pirate Warlord found in: Arneb, Alnilam, Almaaz <br>
-
-Core Pirate Warlord found in: Alcyone, Misam, Almach, Algenib, Gienah <br>
-
-South Pirate Warlord found in: Shaula, Antares, Nunki, Men, Alpherg, Citadelle, Belenos <br>
-
-<br>
-
-<br>
-
-Changelog:<br>
-
-<br>
-
-2024-02-15<br>
 
 initial release<br>
 

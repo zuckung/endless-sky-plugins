@@ -29,3 +29,4 @@ additional.command.buttons|1.0.2
 control.station|1.0.1
 quarg.farm|1.0.1
 human.labels|1.0.0
+more.person.ships|1.0.0
