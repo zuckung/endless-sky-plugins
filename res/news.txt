@@ -1,3 +1,4 @@
+2024-06-27 | renamed pirate.warlords to more.person.ships
 2024-06-26 | update: bunrodea.missions
 2024-06-26 | update: human.labels
 2024-06-07 | lots of text corrections(thx TheGiraffe3)
