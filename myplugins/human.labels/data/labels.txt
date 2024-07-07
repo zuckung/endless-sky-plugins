@@ -14,77 +14,185 @@
 # galaxy "label core"
 # galaxy "label paradise"
 # galaxy "label north"
+# mission "change label color"
+# event "change light blue"
+# event "change light gray"
+# event "change yellow"
+# event "change dark red"
 
 
 
 galaxy "border deep"
 	pos -670 -270
 	sprite label/border_deep
-
 galaxy "border dirt belt"
 	pos -515 145
 	sprite "label/border_dirt belt"
-
 galaxy "border rim"
 	pos -778 228
 	sprite label/border_rim
-
 galaxy "border south"
 	pos -566 370
 	sprite label/border_south
-
 galaxy "border earth"
 	pos -400 115
 	sprite label/border_earth
-
 galaxy "border core"
 	pos -145 107
 	sprite label/border_core
-
 galaxy "border paradise"
 	pos -418 -95
 	sprite label/border_paradise
-
 galaxy "border north"
 	pos -350 -400
 	sprite label/border_north
 
 
-
 galaxy "label deep"
 	pos -590 -260
-	sprite label/deep
-
+	sprite label/blue/deep
 galaxy "label dirt belt"
 	pos -480 250
-	sprite "label/dirt belt"
-
+	sprite "label/blue/dirt belt"
 galaxy "label rim"
 	pos -850 235
-	sprite label/rim
-
+	sprite label/blue/rim
 galaxy "label south"
 	pos -600 470
-	sprite label/south
-
+	sprite label/blue/south
 galaxy "label earth"
 	pos -360 70
-	sprite label/earth
-
+	sprite label/blue/earth
 galaxy "label core"
 	pos -136 -10
-	sprite label/core
-
+	sprite label/blue/core
 galaxy "label paradise"
 	pos -420 -110
-	sprite label/paradise
-
+	sprite label/blue/paradise
 galaxy "label north"
 	pos -385 -460
-	sprite label/north
+	sprite label/blue/north
 
 
+mission "change label color"
+	job
+	repeat
+	name "(Change Human Label Color)"
+	description "Changes the color of the map area labels in Human space. Possible colors are: light blue, light gray, yellow and dark red."
+	source "Earth"
+	on accept
+		conversation
+			scene "scene/colors"
+			`Choose a color for the Human map area labels:`
+			choice
+				`	light blue`
+					goto "light blue"
+				`	light gray`
+					goto "light gray"
+				`	yellow`
+					goto yellow
+				`	dark red`
+					goto "dark red"
+			label "light blue"
+			action
+				event "change light blue"
+			`Label color changed to light blue!`
+				goto end
+			label yellow
+			action
+				event "change yellow"
+			`Label color changed to yellow!`
+				goto end
+			label "light gray"
+			action
+				event "change light gray"
+			`Label color changed to light gray!`
+				goto end
+			label "dark red"
+			action
+				event "change dark red"
+			`Label color changed to dark red!`
+				goto end
+			label end
+			`Leave the planet to see the map change.`
+				decline
+	on daily
+		fail
 
 
+event "change light blue"
+	galaxy "label deep"
+		sprite label/blue/deep
+	galaxy "label dirt belt"
+		sprite "label/blue/dirt belt"
+	galaxy "label rim"
+		sprite label/blue/rim
+	galaxy "label south"
+		sprite label/blue/south
+	galaxy "label earth"
+		sprite label/blue/earth
+	galaxy "label core"
+		sprite label/blue/core
+	galaxy "label paradise"
+		sprite label/blue/paradise
+	galaxy "label north"
+		sprite label/blue/north
+
+
+event "change light gray"
+	galaxy "label deep"
+		sprite label/gray/deep
+	galaxy "label dirt belt"
+		sprite "label/gray/dirt belt"
+	galaxy "label rim"
+		sprite label/gray/rim
+	galaxy "label south
+		sprite label/gray/south
+	galaxy "label earth"
+		sprite label/gray/earth
+	galaxy "label core"
+		sprite label/gray/core
+	galaxy "label paradise"
+		sprite label/gray/paradise
+	galaxy "label north"
+		sprite label/gray/north
+
+
+event "change yellow"
+	galaxy "label deep"
+		sprite label/yellow/deep
+	galaxy "label dirt belt"
+		sprite "label/yellow/dirt belt"
+	galaxy "label rim"
+		sprite label/yellow/rim
+	galaxy "label south"
+		sprite label/yellow/south
+	galaxy "label earth"
+		sprite label/yellow/earth
+	galaxy "label core"
+		sprite label/yellow/core
+	galaxy "label paradise"
+		sprite label/yellow/paradise
+	galaxy "label north"
+		sprite label/yellow/north
+
+
+event "change dark red"
+	galaxy "label deep"
+		sprite label/red/deep
+	galaxy "label dirt belt"
+		sprite "label/red/dirt belt"
+	galaxy "label rim"
+		sprite label/red/rim
+	galaxy "label south"
+		sprite label/red/south
+	galaxy "label earth"
+		sprite label/red/earth
+	galaxy "label core"
+		sprite label/red/core
+	galaxy "label paradise"
+		sprite label/red/paradise
+	galaxy "label north"
+		sprite label/red/north
 
 
