@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-06-27 | update: more.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-07-07 | update: human.labels<br>
+2024-06-27 | update: more.person.ships<br>
 2024-06-27 | renamed pirate.warlords to more.person.ships<br>
 2024-06-26 | update: bunrodea.missions<br>
 2024-06-26 | update: human.labels<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-06-07 | update: real.fluff<br>
 2024-06-07 | update: quarg.farm<br>
 2024-06-07 | update: navy.licenses<br>
-2024-06-07 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1786,7 +1786,7 @@ initial release<br>
 
 <img src="myplugins/human.labels/icon.png" height="100">
 
-[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/human.labels.zip) | 176.04 kb | 2024-06-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) <br>
+[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/human.labels.zip) | 256.8 kb | 2024-07-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) <br>
 <br>
 >Reworks the human area labels and adds area borders. See the readme for details.
 
@@ -1804,15 +1804,25 @@ Reworks the human area labels and adds area borders. See the readme for details.
 
 The area labels of human space are now smaller and better to see. Also there is a border drawn around each area.<br>
 
-Feel free to rework this plugin with better graphics skills.<br>
+On Earth's job board you can find a mission to change the color of the labels(light blue, light gray, yellow, dark red).<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels01.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels02.jpg' width='400'>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-07-07<br>
+
+added 3 more label colors to choose of (light blue, light gray, dark red)<br>
+
+added job on Earth to change the label colors<br>
 
 <br>
 
