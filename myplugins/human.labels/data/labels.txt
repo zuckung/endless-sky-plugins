@@ -19,6 +19,10 @@
 # event "change light gray"
 # event "change yellow"
 # event "change dark red"
+# event "change green"
+# event "change dark gray"
+# event "change orange"
+# event "change purple"
 
 
 
@@ -78,7 +82,7 @@ mission "change label color"
 	job
 	repeat
 	name "(Change Human Label Color)"
-	description "Changes the color of the map area labels in Human space. Possible colors are: light blue, light gray, yellow and dark red."
+	description "Changes the color of the map area labels in Human space. Possible colors are: light blue, light gray, yellow, dark red, green, dark gray, orange and purple."
 	source "Earth"
 	on accept
 		conversation
@@ -90,15 +94,23 @@ mission "change label color"
 				`	light gray`
 					goto "light gray"
 				`	yellow`
-					goto yellow
+					goto "yellow"
 				`	dark red`
 					goto "dark red"
+				`	green`
+					goto "green"
+				`	dark gray`
+					goto "dark gray"
+				`	orange`
+					goto "orange"
+				`	dark purple`
+					goto "purple"
 			label "light blue"
 			action
 				event "change light blue"
 			`Label color changed to light blue!`
 				goto end
-			label yellow
+			label "yellow"
 			action
 				event "change yellow"
 			`Label color changed to yellow!`
@@ -112,6 +124,26 @@ mission "change label color"
 			action
 				event "change dark red"
 			`Label color changed to dark red!`
+				goto end
+			label "green"
+			action
+				event "change green"
+			`Label color changed to green!`
+				goto end
+			label "dark gray"
+			action
+				event "change dark gray"
+			`Label color changed to dark gray!`
+				goto end
+			label "orange"
+			action
+				event "change orange"
+			`Label color changed to orange!`
+				goto end
+			label "purple"
+			action
+				event "change purple"
+			`Label color changed to purple!`
 				goto end
 			label end
 			`Leave the planet to see the map change.`
@@ -196,3 +228,77 @@ event "change dark red"
 		sprite label/red/north
 
 
+event "change green"
+	galaxy "label deep"
+		sprite label/green/deep
+	galaxy "label dirt belt"
+		sprite "label/green/dirt belt"
+	galaxy "label rim"
+		sprite label/green/rim
+	galaxy "label south"
+		sprite label/green/south
+	galaxy "label earth"
+		sprite label/green/earth
+	galaxy "label core"
+		sprite label/green/core
+	galaxy "label paradise"
+		sprite label/green/paradise
+	galaxy "label north"
+		sprite label/green/north
+
+
+event "change dark gray"
+	galaxy "label deep"
+		sprite label/darkgray/deep
+	galaxy "label dirt belt"
+		sprite "label/darkgray/dirt belt"
+	galaxy "label rim"
+		sprite label/darkgray/rim
+	galaxy "label south"
+		sprite label/darkgray/south
+	galaxy "label earth"
+		sprite label/darkgray/earth
+	galaxy "label core"
+		sprite label/darkgray/core
+	galaxy "label paradise"
+		sprite label/darkgray/paradise
+	galaxy "label north"
+		sprite label/darkgray/north
+
+
+event "change orange"
+	galaxy "label deep"
+		sprite label/orange/deep
+	galaxy "label dirt belt"
+		sprite "label/orange/dirt belt"
+	galaxy "label rim"
+		sprite label/orange/rim
+	galaxy "label south"
+		sprite label/orange/south
+	galaxy "label earth"
+		sprite label/orange/earth
+	galaxy "label core"
+		sprite label/orange/core
+	galaxy "label paradise"
+		sprite label/orange/paradise
+	galaxy "label north"
+		sprite label/orange/north
+
+
+event "change purple"
+	galaxy "label deep"
+		sprite label/purple/deep
+	galaxy "label dirt belt"
+		sprite "label/purple/dirt belt"
+	galaxy "label rim"
+		sprite label/purple/rim
+	galaxy "label south"
+		sprite label/purple/south
+	galaxy "label earth"
+		sprite label/purple/earth
+	galaxy "label core"
+		sprite label/purple/core
+	galaxy "label paradise"
+		sprite label/purple/paradise
+	galaxy "label north"
+		sprite label/purple/north
