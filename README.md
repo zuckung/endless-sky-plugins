@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-07-08 | update: human.labels<br>
+<table><tr><td><img width="882" height="1"><br>2024-07-09 | update: human.labels<br>
+2024-07-08 | update: human.labels<br>
 2024-07-07 | update: human.labels<br>
 2024-06-27 | update: more.person.ships<br>
 2024-06-27 | renamed pirate.warlords to more.person.ships<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-06-07 | lots of text corrections(thx TheGiraffe3)<br>
 2024-06-07 | update: too.many.asteroids<br>
 2024-06-07 | update: real.fluff<br>
-2024-06-07 | update: quarg.farm<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1786,7 +1786,7 @@ initial release<br>
 
 <img src="myplugins/human.labels/icon.png" height="100">
 
-[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/human.labels.zip) | 338.76 kb | 2024-07-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) <br>
+[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/human.labels.zip) | 338.77 kb | 2024-07-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) <br>
 <br>
 >Reworks the Human area labels and adds area borders. See the readme for details.
 
@@ -1815,6 +1815,12 @@ On Earth's job board you can find a mission to change the color of the labels(li
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-07-09<br>
+
+text correction<br>
 
 <br>
 

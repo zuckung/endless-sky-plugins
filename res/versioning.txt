@@ -28,5 +28,5 @@ space.fauna|1.1.2
 additional.command.buttons|1.0.2
 control.station|1.0.1
 quarg.farm|1.0.1
-human.labels|1.0.2
+human.labels|1.0.3
 more.person.ships|1.0.0
