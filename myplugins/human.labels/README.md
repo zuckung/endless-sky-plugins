@@ -11,6 +11,9 @@ On Earth's job board you can find a mission to change the color of the labels(li
 <br>
 Changelog:<br>
 <br>
+2024-07-09<br>
+text correction<br>
+<br>
 2024-07-08<br>
 added 4 more label colors to choose of (green, dark gray, orange, purple)<br>
 <br>

@@ -103,7 +103,7 @@ mission "change label color"
 					goto "dark gray"
 				`	orange`
 					goto "orange"
-				`	dark purple`
+				`	purple`
 					goto "purple"
 			label "light blue"
 			action
