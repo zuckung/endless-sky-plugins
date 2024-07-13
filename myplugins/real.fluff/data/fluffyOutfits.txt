@@ -1,5 +1,5 @@
 # category pets
-# ship argosy for alien mission
+# ship Mega Freighter for alien mission
 # outfit glass cat
 # outfit puny modified
 # outfit cat
@@ -16,20 +16,62 @@
 category "outfit"
 	"Pets"
 
-ship "Argosy" "Nostromo"
-	add attributes
-		"drag" 100
-		"cargo space" 20
-		"outfit space" 134
-		"engine capacity" 34
+ship "Mega Freighter"
+	sprite "ship/nostromo"
+	thumbnail "thumbnail/argosy"
 	attributes
-		"bunks" 0
+		category "Light Freighter"
+		"cost" 1960000
+		"shields" 4200
+		"hull" 2600
+		"required crew" 0
+		"automaton" 1
+		"bunks" 14
+		"mass" 480
+		"drag" 7.4
+		"heat dissipation" .56
+		"fuel capacity" 400
+		"cargo space" 120
+		"outfit space" 270
+		"weapon capacity" 90
+		"engine capacity" 80
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
 	outfits
-		"Fission Reactor"
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		"RT-I Radiothermal"
 		"LP072a Battery Pack"
-		"D41-HY Shield Generator"
-		"Outfits Expansion"
+		"D23-QP Shield Generator"
 		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Hyperdrive"
+	engine -25 91 0.6
+	engine -14 91 0.8
+	engine 14 91 0.8
+	engine 25 91 0.6
+	gun -22 -37 "Energy Blaster"
+	gun -22 -37 "Meteor Missile Launcher"
+	gun 22 -37 "Energy Blaster"
+	gun 22 -37 "Meteor Missile Launcher"
+	turret 0 -12.5 "Blaster Turret"
+	turret 0 9.5 "Anti-Missile Turret"
+	leak "leak" 60 50
+	leak "flame" 60 80
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Argosy from Southbound Shipyards is very popular with merchants not because of its capacity, which is actually slightly smaller than the Syndicate Freighter, but because it can hold its own in combat even against a small pirate fleet."
+	description "	The Argosy is also a very easy ship to upgrade with faster engines or more powerful weapons as needed, so many privately owned Argosies have very different capabilities than the stock model."
 
 outfit "Glass Cat"
 	category "Unique"

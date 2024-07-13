@@ -213,7 +213,7 @@ mission "alien mission 1"
 		government "Pirate"
 		personality waiting derelict target mute
 		system "Danoa"
-		ship "Nostromo"
+		ship "Mega Freighter" "Nostromo"
 		to despawn
 			has "outfit (installed): fluffy_alien"
 		on board

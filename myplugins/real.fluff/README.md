@@ -17,9 +17,17 @@ Lore-friendly, totally useless, but cute pet outfits, with storylines. All missi
 </ul>
 After collecting them all, you get a mission (20%) with unique rewards.<br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff01.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff02.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff03.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff04.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff05.jpg' width='400'>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-07-13<br>
+changed nostromo from the alien mission to a bigger ship (as criticized by timeout.fu)<br>
+added four mission screenshots<br>
 <br>
 2024-06-07<br>
 text corrections (thx to TheGiraffe3)<br>
