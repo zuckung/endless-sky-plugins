@@ -178,7 +178,7 @@ event "change light gray"
 		sprite "label/gray/dirt belt"
 	galaxy "label rim"
 		sprite label/gray/rim
-	galaxy "label south
+	galaxy "label south"
 		sprite label/gray/south
 	galaxy "label earth"
 		sprite label/gray/earth
