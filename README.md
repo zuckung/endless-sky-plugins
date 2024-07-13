@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-07-13 | update: human.labels<br>
+<table><tr><td><img width="882" height="1"><br>2024-07-13 | update: real.fluff<br>
+2024-07-13 | update: human.labels<br>
 2024-07-09 | update: human.labels<br>
 2024-07-08 | update: human.labels<br>
 2024-07-07 | update: human.labels<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-06-26 | update: bunrodea.missions<br>
 2024-06-26 | update: human.labels<br>
 2024-06-07 | lots of text corrections(thx TheGiraffe3)<br>
-2024-06-07 | update: too.many.asteroids<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2559,7 +2559,7 @@ initial release<br>
 
 <img src="myplugins/real.fluff/icon.png" height="100">
 
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 1.75 mb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
+[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 1.82 mb | 2024-07-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
 <br>
 >A bunch of side missions which reward unique fluffy pets. See the readme for details.
 <details>
@@ -2602,11 +2602,27 @@ After collecting them all, you get a mission (20%) with unique rewards.<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff01.jpg' width='400'>
 
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff02.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff03.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff04.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff05.jpg' width='400'>
+
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-07-13<br>
+
+changed nostromo from the alien mission to a bigger ship (as criticized by timeout.fu)<br>
+
+added four mission screenshots<br>
 
 <br>
 
