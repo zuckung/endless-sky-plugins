@@ -3,6 +3,7 @@
 # mission show person status
 # mission kill em all reward
 # outfit author slaughtering trophy
+# government "Author"
 
 
 substitutions
@@ -139,3 +140,7 @@ outfit "Author Slaughtering Trophy"
 	thumbnail "outfit/gold_trophy"
 	cost 60000
 	description `A wonderful trophy for slaughtering all Author ship captains. It is a gift by a mysterious man named 'Zuckung', who wanted to see them dead. It looks like he was jealous because they didn't let him join their ranks. Or something like that.`
+
+
+government "Author"
+	"fine" 0 

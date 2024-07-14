@@ -411,6 +411,7 @@ ship "Lampyrid-Class Transport"
 		"cargo space" 160
 		"outfit space" 260
 		"engine capacity" 105
+		"weapon capacity" 5
 		weapon
 			"blast radius" 100
 			"shield damage" 1000
