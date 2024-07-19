@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-07-19 | update: jump.gates<br>
+<table><tr><td><img width="882" height="1"><br>2024-07-19 | update: real.fluff<br>
+2024-07-19 | update: jump.gates<br>
 2024-07-14 | update: captureable.person.ships<br>
 2024-07-13 | update: galactic.capital.investment<br>
 2024-07-13 | update: real.fluff<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-07-08 | update: human.labels<br>
 2024-07-07 | update: human.labels<br>
 2024-06-27 | update: more.person.ships<br>
-2024-06-27 | renamed pirate.warlords to more.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2629,9 +2629,9 @@ initial release<br>
 
 <img src="myplugins/real.fluff/icon.png" height="100">
 
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 1.82 mb | 2024-07-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
+[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 2.05 mb | 2024-07-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
 <br>
->A bunch of side missions which reward unique fluffy pets. See the readme for details.
+>A bunch of side missions which reward unique fluffy pets. See the README for details.
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### real.fluff
@@ -2644,11 +2644,13 @@ A bunch of side missions which reward unique pets. <br>
 
 <br>
 
-Lore-friendly, totally useless, but cute pet outfits, with storylines. All missions have a 20% chance of appearing, except alien mission which has 100%.<br>
+Lore-friendly, totally useless, but cute pet outfits, with storylines. All missions have a 20% chance of appearing, except xenomorph and exotic mission which have 100%.<br>
 
 <ul>
 
-<li>Alien - land somewhere in human space, hidden destination is Danoa system</li>
+<li>Xenomorph - land somewhere in human space, hidden destination is Danoa system (based on the Alien movies)</li>
+
+<li>The Exotic - land somewhere in human space, hidden destination is Unagi system (based on the Dark Star movie)</li>
 
 <li>Cat - mission found on Deadman's Cove (Almach)</li>
 
@@ -2668,7 +2670,7 @@ Lore-friendly, totally useless, but cute pet outfits, with storylines. All missi
 
 </ul>
 
-After collecting them all, you get a mission (20%) with unique rewards.<br>
+After collecting them all(except the two movie pets), you get a mission (20%) with unique reward.<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff01.jpg' width='400'>
 
@@ -2685,6 +2687,18 @@ After collecting them all, you get a mission (20%) with unique rewards.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-07-19<br>
+
+added exotic pet,bawdy magazines unique, with dark star mission(thx to timeout.fu for brainstorming)<br>
+
+renamed alien to xenomorph<br>
+
+resized nostromo<br>
+
+made all pets unplunderable<br>
 
 <br>
 
