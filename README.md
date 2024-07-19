@@ -16,7 +16,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 
 ## Latest News:
 <table><tr><td><img width="882" height="1"><br>2024-07-19 | update: jump.gates<br>
-2024-07-19 | update:jump.gates<br>
 2024-07-14 | update: captureable.person.ships<br>
 2024-07-13 | update: galactic.capital.investment<br>
 2024-07-13 | update: real.fluff<br>
@@ -1881,7 +1880,7 @@ initial release<br>
 
 [jump.gates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/jump.gates.zip) | 1.24 mb | 2024-07-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/) <br>
 <br>
->Adds a ring of "jump gates" at the borders of Human space to create shortcuts inside the Human space. See the readme for details.
+>Adds a ring of "jump gates" at the borders of human space to create shortcuts inside human space. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1895,9 +1894,9 @@ Adds a ring of "jump gates" at the borders of Human space to create shortcuts in
 
 <br>
 
-A month after the game starts, the player gets a spaceport info mission about a new discovered technology, that enables the building of jump gates(if your savegame is beyond that point, these info mission starts on the next planet landing). Over the next 5 months there are regularly spaceport info missions of how far the process of building these gates has come. At the end of this period all jump gates have been build and are usable.<br>
+A month after the game starts, the player gets a spaceport info mission about a new discovered technology, that enables the building of jump gates (if your savegame is beyond that point, this info mission starts on the next planet landing). Over the next 5 months there are regularly spaceport info missions telling you things about how far the process of building these gates has come. At the end of this period all jump gates have been built and are usable.<br>
 
-These jump gates are technically just wormholes with new sprites. The jump gate ring around Human space is made of two gates in every of these systems: Naos(Deep) - Spica(Dirt Belt) - Alniyat(South) - Tarazed(South) - Sheratan(Core) - Alnitak(North) and from there back to Naos. Two gates, so you can move forward and backward on the ring.<br>
+These jump gates are technically just wormholes with new sprites. The jump gate ring around human space is made of two gates in every of these systems: Naos (Deep) - Spica (Dirt Belt) - Alniyat (South) - Tarazed (South) - Sheratan (Core) - Alnitak (North) and from there back to Naos. Two gates, so you can move forward and backward on the ring.<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/jump.gates01.jpg' width='400'>
 
@@ -1916,6 +1915,7 @@ Changelog:<br>
 2024-07-19<br>
 
 initial release<br>
+
 text corrections (thx to TheGiraffe3)<br>
 
 

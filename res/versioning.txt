@@ -30,4 +30,4 @@ control.station|1.0.1
 quarg.farm|1.0.1
 human.labels|1.0.4
 more.person.ships|1.0.0
-jump.gates|1.0.0
+jump.gates|1.0.1
