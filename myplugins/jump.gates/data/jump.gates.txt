@@ -1,0 +1,1016 @@
+# mission "jump gates announcement" 3014 11 16 or 1 month after gamestart
+# mission "jump gates building 0" 14 days later
+# mission "jump gates building 25" 1 month later
+# mission "jump gates building 50" 1 month later
+# mission "jump gates building 75" 1 month later
+# mission "jump gates building 99" 1 month later
+# mission "jump gates done" 1 month later
+# event "jump gate research"
+# event "wait for start"
+# event "wait for 25"
+# event "wait for 50"
+# event "wait for 75"
+# event "wait for 99"
+# event "wait for active"
+# wormhole "Jump Gate Naos-Spica"
+# wormhole "Jump Gate Spica-Alniyat"
+# wormhole "Jump Gate Alniyat-Tarazed"
+# wormhole "Jump Gate Tarazed-Sheratan"
+# wormhole "Jump Gate Sheratan-Alnitak"
+# wormhole "Jump Gate Alnitak-Naos"
+# planet "Jump Gate Naos-Spica"
+# planet "Jump Gate Spica-Alniyat"
+# planet "Jump Gate Alniyat-Tarazed"
+# planet "Jump Gate Tarazed-Sheratan"
+# planet "Jump Gate Sheratan-Alnitak"
+# planet "Jump Gate Alnitak-Naos"
+# government "Jump Gates"
+
+
+
+mission "jump gates announcement"
+	invisible
+	landing
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
+	to offer
+		or
+			has "event: jump gate research"
+			"days since start" > 30
+	on offer
+		event "wait for start" 14
+		conversation
+			scene "scene/holonews_0"
+			`As you enter the spaceport, you immediately notice several groups who are attentively following the holonews. Something seems to have happened. You join a group and study the holoprojector. A news anchor explains the situation.`
+			`"... and that is why the Republic Secret Service has turned to parliament, which has decided to make this technology available immediately. Due to the immense costs, investors are already being sought so that construction can begin as soon as possible. Experts believe that the construction of the jump gates requires the financial participation of the Republic, the Syndicate and various large companies. Progress is expected in several weeks."`
+			`"We are now talking to Dr. Gershwin, the leading economic expert at the GalPol Institute, about the implications of this project."`
+			`"Dr. Gershwin, thank you very much for making time for us. You found out about the government's plans a little earlier than we did and have already set up and consolidated an expert council. What changes can we expect?"`
+			`"Thank you for the invitation. The effects are likely to be huge. We don't yet know when and where the jump gates will be built, but it can be assumed that a ring on the outer borders of human space will be the most effective and cost-efficient. In addition to the general expansion of trade, this will strengthen the peripheral areas in particular and increase prosperity. Longer space travels will probably be at least halved in duration and this will boost trade and tourism. We will have to watch how large banks, such as Galactic Capital Investment, react to the changing financial flows. Positive economic changes can definitely be expected."`
+			`You have heard enough to understand what is going on and decide to take care of your own finances again. Now to the job board.`
+				decline
+
+
+mission "jump gates building 0"
+	invisible
+	landing
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
+	to offer
+		has "event: wait for start"
+	on offer
+		event "wait for 25" 30
+		conversation
+			scene "scene/holonews_0"
+			`In a spaceport bar, you notice a few people staring intensely at a holoprojector and join them. News is being broadcast about the planned construction of the jump gates.`
+			`"The expert council has agreed to build twelve jump gates in six systems. They decided against building just six jump gates so that space traffic can flow in both directions between the six ring systems. This doubles the costs, but saves money in the long run. Parallel construction has already started in Naos, Spica, Alniyat, Tarazed, Sheratan and Alnitak. The construction time is estimated at five to six months. In fact, the number of investors required has been exceeded by the number of offers, which shortens the construction time considerably. We are now listening to the stock market news. As expected, there are great turbulences."`
+			`You turn away from the holoprojector. With a small trading fleet, you could explore new trade routes and use them profitably, especially when the jump gate ring opens. Perhaps it's time to think about expanding your cargo transport capacity.`
+				decline
+
+
+mission "jump gates building 25"
+	invisible
+	landing
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
+	to offer
+		has "event: wait for 25"
+	on offer
+		event "wait for 50" 30
+		conversation
+			scene "scene/holonews_25"
+			`On the way through the spaceport you see a holoprojector showing the news. Since it's about the jump gates, you stop and watch it.`
+			`"The twelve jump gates are about a quarter finished. We see a live image of one of the Spica gates here. Interested observers can see similar progress at the other space construction sites. A real business boom has developed on the worlds of the six systems. Manufacturing plants have been built and material distribution centers set up. As the construction industry has grown stronger, all other industries and service providers have also grown. Tourism has also grown; tours to view the space construction site are already being offered and taken. There is a significant economic upturn on neighboring worlds."`
+			`You continue on your way and remember that you still have preparations to make before the gates are completed. You definitely don't want to miss the big 'gold rush'.`
+				decline
+
+
+mission "jump gates building 50"
+	invisible
+	landing
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
+	to offer
+		has "event: wait for 50"
+	on offer
+		event "wait for 75" 30
+		conversation
+			scene "scene/holonews_50"
+			`After landing, you look at the local holonet in search of work and find a news report about the progress of the jump gates.`
+			`"About half of the work required on the jump gates has been completed. We see here a picture of one of the space construction sites in the Alniyat system. For this occasion, the Quarg sent a delegation to the Tarazed gate to meet with the engineers and scientists involved. An anonymous source reports that the Quarg were very impressed by the progress of human technology during their visit. And now for the stock market news."`
+			`You continue your search for work.`
+				decline
+
+
+mission "jump gates building 75"
+	invisible
+	landing
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
+	to offer
+		has "event: wait for 75"
+	on offer
+		event "wait for 99" 30
+		conversation
+			scene "scene/holonews_75"
+			`On the way through the spaceport, you hear several passersby talking about a terrorist attack and decide to check the news at the next holoprojector.`
+			`"The anti-government terrorist organization known as 'Project 3025' has not yet claimed responsibility for the failed terrorist attack on the Naos-Alnitak jump gate, but we have heard from government circles that some of the few surviving terrorists have already confessed. Here on the screen we see the gate in the Naos system, shortly after the foiled attack. According to this, the Jump Gate was to be destroyed in order to advance the political agenda of 'Project 3025', above all: the demonization of educational sites and organizations, such as in this case the large library on the space station 'Alexandria' in the Markeb system. Since the announcement of the Jump Gates, Alexandria has invested enormously in expanding the capacities of the neighboring elite universities and research centers and expects a significant increase in importance as the repository of human knowledge after the activation of the jump gates."`
+			`"A government spokesman has already announced an increase in security personnel at the jump gates, noting that despite the security team's success, they must be prepared for further threats, especially at such an advanced construction stage, which is currently at 75%."`
+			`"And now for the sports news."`
+			`You are very happy that those backward terrorists did not win. It won't be very long before the jump gate ring gets activated, bringing humanity closer together again, with so many advantages. You set off again and back to business.`
+				decline
+
+
+mission "jump gates building 99"
+	invisible
+	landing
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
+	to offer
+		has "event: wait for 99"
+	on offer
+		event "wait for active" 30
+		conversation
+			scene "scene/holonews_99"
+			`When you arrive at the spaceport, you notice a news broadcast on one of the holoprojectors you pass. It's about the jump gates and you decide to stop and watch it.`
+			`"We see a current picture of one of the Sheratan jump gates and it is completely finished on the outside. The internal technology will be installed in the next few weeks. Then it's just a matter of fine-tuning and error fixing. We've heard from the project's press office that progress is very satisfactory. We can expect the jump gate ring to be finished in about a month."`
+			`You set off again. Everything is going according to plan.`
+				decline
+
+
+
+
+mission "jump gates done"
+	invisible
+	landing
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
+	to offer
+		has "event: wait for active"
+	on offer
+		conversation
+			scene "scene/holonews_100"
+			`After leaving the spaceship, you immediately notice a huge crowd of people in front of every holoprojector within sight. Since you won't see or understand anything in the dense crowd, you go back to your spaceship and start a holofeed on your bridge. As expected, it's about the jump gates.`
+			`"Dear viewers, we see the fully activated Naos-Alnitak jump gate here, from which the president's ship, complete with military escort, will soon fly. It was in this very system that the president started his journey six days ago with his escort ships and a seemingly endless mass of civilian spaceships. And today, after a journey of many hundreds of light years around the human settlement area, they are arriving back here."`
+			`You can see how much this idea moves the newsreader.`
+			`"It may still be hours before this large procession of spaceships arrives here, but the result is already certain. The jump gates are working perfectly! This is another milestone for humanity."`
+			`Since you don't feel like waiting for hours and being bombarded with constant repetitions of what has already happened, you turn off the feed. What now? You should perhaps make your way to one of the gates and explore new trade routes.`
+				decline
+
+
+
+
+event "jump gate research"
+	date 16 12 3013
+
+
+event "wait for start"
+
+
+event "wait for 25"
+	system "Naos"
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2000
+			period 1
+			offset 90
+	system "Spica"
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 1500
+			period 1
+			offset 150
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 1500
+			period 1
+			offset 30
+	system "Alniyat"
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 1500
+			period 1
+			offset 70
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 1500
+			period 1
+			offset 330
+	system "Tarazed"
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2200
+			period 1
+			offset 30
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2200
+			period 1
+			offset 260
+	system "Sheratan"
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2000
+			period 1
+			offset 315
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+	system "Alnitak"
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 800
+			period 1
+			offset 270
+		add object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 800
+			period 1
+			offset 135
+
+
+event "wait for 50"
+	system "Naos"
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2000
+			period 1
+			offset 90
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2000
+			period 1
+			offset 90
+	system "Spica"
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 1500
+			period 1
+			offset 150
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 1500
+			period 1
+			offset 30
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 1500
+			period 1
+			offset 150
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 1500
+			period 1
+			offset 30
+	system "Alniyat"
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 1500
+			period 1
+			offset 70
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 1500
+			period 1
+			offset 330
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 1500
+			period 1
+			offset 70
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 1500
+			period 1
+			offset 330
+	system "Tarazed"
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2200
+			period 1
+			offset 30
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2200
+			period 1
+			offset 260
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2200
+			period 1
+			offset 30
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2200
+			period 1
+			offset 260
+	system "Sheratan"
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2000
+			period 1
+			offset 315
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2000
+			period 1
+			offset 315
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+	system "Alnitak"
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 800
+			period 1
+			offset 270
+		remove object
+			sprite planet/gate_build25
+				scale 0.5
+			distance 800
+			period 1
+			offset 135
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 800
+			period 1
+			offset 270
+		add object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 800
+			period 1
+			offset 135
+
+
+event "wait for 75"
+	system "Naos"
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2000
+			period 1
+			offset 90
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2000
+			period 1
+			offset 90
+	system "Spica"
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 1500
+			period 1
+			offset 150
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 1500
+			period 1
+			offset 30
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 1500
+			period 1
+			offset 150
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 1500
+			period 1
+			offset 30
+	system "Alniyat"
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 1500
+			period 1
+			offset 70
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 1500
+			period 1
+			offset 330
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 1500
+			period 1
+			offset 70
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 1500
+			period 1
+			offset 330
+	system "Tarazed"
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2200
+			period 1
+			offset 30
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2200
+			period 1
+			offset 260
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2200
+			period 1
+			offset 30
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2200
+			period 1
+			offset 260
+	system "Sheratan"
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2000
+			period 1
+			offset 315
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2000
+			period 1
+			offset 315
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+	system "Alnitak"
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 800
+			period 1
+			offset 270
+		remove object
+			sprite planet/gate_build50
+				scale 0.5
+			distance 800
+			period 1
+			offset 135
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 800
+			period 1
+			offset 270
+		add object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 800
+			period 1
+			offset 135
+
+
+event "wait for 99"
+	system "Naos"
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2000
+			period 1
+			offset 90
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2000
+			period 1
+			offset 90
+	system "Spica"
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 1500
+			period 1
+			offset 150
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 1500
+			period 1
+			offset 30
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 1500
+			period 1
+			offset 150
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 1500
+			period 1
+			offset 30
+	system "Alniyat"
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 1500
+			period 1
+			offset 70
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 1500
+			period 1
+			offset 330
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 1500
+			period 1
+			offset 70
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 1500
+			period 1
+			offset 330
+	system "Tarazed"
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2200
+			period 1
+			offset 30
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2200
+			period 1
+			offset 260
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2200
+			period 1
+			offset 30
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2200
+			period 1
+			offset 260
+	system "Sheratan"
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2000
+			period 1
+			offset 315
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2000
+			period 1
+			offset 315
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+	system "Alnitak"
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 800
+			period 1
+			offset 270
+		remove object
+			sprite planet/gate_build75
+				scale 0.5
+			distance 800
+			period 1
+			offset 135
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 800
+			period 1
+			offset 270
+		add object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 800
+			period 1
+			offset 135
+
+
+event "wait for active"
+	system "Naos"
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2000
+			period 1
+			offset 90
+		add object "Jump Gate Naos-Spica"
+			sprite planet/gate_active
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+			object
+				sprite planet/board_spica
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+		add object "Jump Gate Alnitak-Naos"
+			sprite planet/gate_active
+				scale 0.5
+			distance 2000
+			period 1
+			offset 90
+			object
+				sprite planet/board_alnitak_b
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+	system "Spica"
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 1500
+			period 1
+			offset 150
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 1500
+			period 1
+			offset 30
+		add object "Jump Gate Spica-Alniyat"
+			sprite planet/gate_active
+				scale 0.5
+			distance 1500
+			period 1
+			offset 150
+			object
+				sprite planet/board_alniyat
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+		add object "Jump Gate Naos-Spica"
+			sprite planet/gate_active
+				scale 0.5
+			distance 1500
+			period 1
+			offset 30
+			object
+				sprite planet/board_naos_b
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+	system "Alniyat"
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 1500
+			period 1
+			offset 70
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 1500
+			period 1
+			offset 330
+		add object "Jump Gate Alniyat-Tarazed"
+			sprite planet/gate_active
+				scale 0.5
+			distance 1500
+			period 1
+			offset 70
+			object
+				sprite planet/board_tarazed
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+		add object "Jump Gate Spica-Alniyat"
+			sprite planet/gate_active
+				scale 0.5
+			distance 1500
+			period 1
+			offset 330
+			object
+				sprite planet/board_spica_b
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+	system "Tarazed"
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2200
+			period 1
+			offset 30
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2200
+			period 1
+			offset 260
+		add object "Jump Gate Tarazed-Sheratan"
+			sprite planet/gate_active
+				scale 0.5
+			distance 2200
+			period 1
+			offset 30
+			object
+				sprite planet/board_sheratan
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+		add object "Jump Gate Alniyat-Tarazed"
+			sprite planet/gate_active
+				scale 0.5
+			distance 2200
+			period 1
+			offset 260
+			object
+				sprite planet/board_alniyat_b
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+	system "Sheratan"
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2000
+			period 1
+			offset 315
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+		add object "Jump Gate Sheratan-Alnitak"
+			sprite planet/gate_active
+				scale 0.5
+			distance 2000
+			period 1
+			offset 315
+			object
+				sprite planet/board_alnitak
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+		add object "Jump Gate Tarazed-Sheratan"
+			sprite planet/gate_active
+				scale 0.5
+			distance 2000
+			period 1
+			offset 210
+			object
+				sprite planet/board_tarazed_b
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+	system "Alnitak"
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 800
+			period 1
+			offset 270
+		remove object
+			sprite planet/gate_build99
+				scale 0.5
+			distance 800
+			period 1
+			offset 135
+		add object "Jump Gate Alnitak-Naos"
+			sprite planet/gate_active
+				scale 0.5
+			distance 800
+			period 1
+			offset 270
+			object
+				sprite planet/board_naos
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+		add object "Jump Gate Sheratan-Alnitak"
+			sprite planet/gate_active
+				scale 0.5
+			distance 800
+			period 1
+			offset 135
+			object
+				sprite planet/board_sheratan_b
+					scale 0.5
+				distance 100
+				period 1
+				offset 0
+
+
+wormhole "Jump Gate Naos-Spica"
+	mappable
+	link "Naos" "Spica"
+	link "Spica" "Naos" 
+	color "wormholes: Jump Gates"
+
+
+wormhole "Jump Gate Spica-Alniyat"
+	mappable
+	link "Spica" "Alniyat"
+	link "Alniyat" "Spica"
+	color "wormholes: Jump Gates"
+
+
+wormhole "Jump Gate Alniyat-Tarazed"
+	mappable
+	link "Alniyat" "Tarazed"
+	link "Tarazed" "Alniyat"
+	color "wormholes: Jump Gates"
+
+
+wormhole "Jump Gate Tarazed-Sheratan"
+	mappable
+	link "Tarazed" "Sheratan"
+	link "Sheratan" "Tarazed"
+	color "wormholes: Jump Gates"
+
+
+wormhole "Jump Gate Sheratan-Alnitak"
+	mappable
+	link "Sheratan" "Alnitak"
+	link "Alnitak" "Sheratan"
+	color "wormholes: Jump Gates"
+
+
+wormhole "Jump Gate Alnitak-Naos"
+	mappable
+	link "Alnitak" "Naos"
+	link "Naos" "Alnitak"
+	color "wormholes: Jump Gates"
+
+
+planet "Jump Gate Naos-Spica"
+	spaceport ``
+	government "Jump Gates"
+	wormhole "Jump Gate Naos-Spica"
+
+
+planet "Jump Gate Spica-Alniyat"
+	spaceport ``
+	government "Jump Gates"
+	wormhole "Jump Gate Spica-Alniyat"
+
+
+planet "Jump Gate Alniyat-Tarazed"
+	spaceport ``
+	government "Jump Gates"
+	wormhole "Jump Gate Alniyat-Tarazed"
+
+
+planet "Jump Gate Tarazed-Sheratan"
+	spaceport ``
+	government "Jump Gates"
+	wormhole "Jump Gate Tarazed-Sheratan"
+
+
+planet "Jump Gate Sheratan-Alnitak"
+	spaceport ``
+	government "Jump Gates"
+	wormhole "Jump Gate Sheratan-Alnitak"
+
+
+planet "Jump Gate Alnitak-Naos"
+	spaceport ``
+	government "Jump Gates"
+	wormhole "Jump Gate Alnitak-Naos"
+
+
+government "Jump Gates"
+	"bribe" 0
+	"fine" 0
+
+color "wormholes: Jump Gates" .9 .4 .0

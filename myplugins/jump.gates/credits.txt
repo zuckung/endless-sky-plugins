@@ -1,0 +1,9 @@
+jump.gates
+author:
+	zuckung 
+	https://github.com/zuckung/endless-sky-plugins
+images:
+	planet
+		ai generated at https://www.craiyon.com/
+	scene
+		ai generated at https://perchance.org/ai-text-to-image-generator
