@@ -1,3 +1,4 @@
+# government "Derelict 2"
 # mission beta
 # event waitfluff
 # mission cat mission 1
@@ -14,8 +15,13 @@
 # mission squirrel mission 2
 # mission squirrel mission 3
 # mission squirrel mission 4
+# mission exotic mission 1
 
 
+government "Derelict 2"
+	"display name" "Derelict"
+	"player reputation" -1000
+	"fine" 0 
 
 mission "beta"
 	minor
@@ -25,7 +31,6 @@ mission "beta"
 		has "cat mission 1: declined"
 		has "ocelot mission 1: done"
 		has "raccoon mission 1: done"
-		has "alien mission 1: failed"
 		has "ferret mission 2: declined"
 		has "koala mission 1: done"
 		has "rabbit mission 2: declined"
@@ -210,7 +215,7 @@ mission "alien mission 1"
 		dialog
 			`When you enter the Danoa system, you receive an automatic emergency call. It is broadcasted from a badly damaged ship and is repeated regularly. Maybe you should look into this.`
 	npc board
-		government "Pirate"
+		government "Derelict 2"
 		personality waiting derelict target mute
 		system "Danoa"
 		ship "Mega Freighter" "Nostromo"
@@ -542,3 +547,195 @@ mission "squirrel mission 4"
 			`When you give Xenua the squirrel, she is completely enchanted by him. In her high spirits she pays you 750,000 credits.`
 			`  "Captain <last>, I can't thank you enough. This little creature is so incredibly adorable. You've done me a great service. Thank you. Maybe you'll visit me sometime. Me and the little 'Shan'."`
 			`You say goodbye. Back on your ship, you play a little with your squirrel that you named "Trixie". Xenua is right, squirrels are adorable!`
+
+
+mission "exotic mission 1"
+	landing
+	invisible
+	to complete
+		never
+	to fail
+		has "outfit (installed): fluffy_exotic"
+	on enter "Unagi"
+		dialog
+			`When you enter the Unagi system, your scanners show you an old derelict ship close to the sun. Maybe you should look into this.`
+	npc board
+		government "Derelict 2"
+		personality waiting derelict target mute
+		system "Unagi"
+		ship "Planet Destroyer" "Dark Star"
+		to despawn
+			has "outfit (installed): fluffy_exotic"
+		on board
+		conversation
+			`After docking with the "Dark Star" you enter the ship and begin the search. There doesn't seem to be anyone and there's total chaos on board... the main power is offline, lots of trash is in the corridors and the small number of cabins are in a terrible mess.`
+			choice
+				`	search the cabins more closely`
+					goto search
+				`	take the path to the bridge`
+					goto tobridge
+			label search
+			scene outfit/bawdy
+			`When you search the cabins, you find out a lot about the former residents. Apparently the four crew members were alone for far too long and lost all discipline. You find a massive amount of weird, ancient 'bawdy' porn magazines. There is also toilet paper, with written messages on it, all over the place. You even find a sheet that says: "To Sergeant Pinback, the toilet paper is used up.".`
+			choice
+				`	take some bawdy magazines for a later, more private use`
+					goto takebawdy
+				`	continue your way`
+					goto tobridge
+			label takebawdy
+			action
+				outfit "bawdy magazines"
+			`You take some of these fascinating magazines with you.`
+				goto tobridge
+			label tobridge
+			scene outfit/fluffy_exotic
+			`You make your way to the bridge. At an elevator shaft with an open door you are suddenly attacked by a strange creature. It jumps onto your back and starts tickling you, almost causing you to fall into the shaft. You quickly realize that it's not really an attack, more of an attempt to play. The creature only consists of a round body with two swimming-bird-like feet. It seems friendly.`
+			choice
+				`	(adopt the strange creature)`
+					goto adopt
+				`	(don't adopt the strange creature)`
+					goto bomb
+			label adopt
+			scene outfit/fluffy_exotic
+			action
+				outfit "fluffy_exotic"
+			`The creature follows you. You decide to name it 'Exotic', a fitting and describing name.`
+			label bomb
+			`You continue your way to the bridge and arrive there a short time later. Reactivating the main energy is quick and easy.`
+			`After the power is up again, several displays show warning messages, and you hear the ships AI talking.`
+			``
+			`"Attention. Attention. The bomb has malfunctioned. Automatic dampers have gone into effect, and will confine the explosion to an area one mile in diameter. Please contact mission control and await further instructions. Thank you for observing all safety precautions."`
+			``
+			`Consulting the ship's help console lets you find out that a bomb is stuck at the outer bomb bay and that the bomb's AI enabled the detonation timer. Maybe that was the reason why the ship was abandoned and without power.`
+			``
+			`(time to explosion: 7 minutes)`
+			choice
+				`	leave the ship`
+					goto leave
+				`	disarm the bomb`
+					goto disarm
+			label disarm
+			scene "scene/bomb20"
+			`You try to talk to the bomb.`
+			`YOU:			"Captain <last> to Bomb #20. Can you hear me?"`
+			`Bomb #20: "Bomb #20 to captain <last>. Roger, I read you, continue."`
+			`YOU:			"I give you the order to disarm yourself and return immediately to the bomb bay. Do you understand?"`
+			`BOMB #20: "I am programmed to detonate in six minutes thirty seconds. Detonation will occur at the programmed time."`
+			`YOU:			"Bomb, you are not to detonate, repeat, you are not to detonate in the bomb bay. Disarm yourself. This is an order."`
+			`BOMB #20: "I read you, but I am programmed to detonate in six minutes. Detonation will occur at the programmed time."`
+			``
+			`(time to explosion: 6 minutes)`
+			choice
+				`	leave the ship`
+					goto leave
+				`	continue disarming the bomb`
+					goto disarm2
+			label disarm2
+			scene "scene/bomb20"
+			`YOU:			"Captain <last> to Bomb #20. You can't explode in the bomb bay. It's foolish. You'll kill us all. There's no reason for it."`
+			`BOMB #20: "I am programmed to detonate in four minutes 30 seconds. Detonation will occur at the programmed time."`
+			`YOU:			"You won't consider another course of action, for instance just waiting around awhile so we can disarm you?"`
+			`BOMB #20: "No."`
+			`YOU:			"Look, bomb..."`
+			``
+			`(time to explosion: 4 minutes)`
+			choice
+				`	leave the ship`
+					goto leave
+				`	try again disarming the bomb`
+					goto disarm3
+			label disarm3
+			scene "scene/bomb20"
+			`YOU:			"Hello, Bomb? Are you with me?"`
+			`Bomb #20: "Of course."`
+			`YOU:			"Are you willing to entertain a few concepts?"`
+			`Bomb #20: "I am always receptive to suggestions."`
+			`YOU:			"Fine. Think about this then. How do you know you exist?"`
+			`Bomb #20: "Well, of course I exist."`
+			`YOU:			"But how do you know you exist?"`
+			`Bomb #20: "It is intuitively obvious."`
+			`YOU:			"Intuition is no proof. What concrete evidence do you have that you exist?"`
+			`Bomb #20: "Hmmmm... well... I think, therefore I am."`
+			`YOU:			"That's good. That's very good. But how do you know that anything else exists?"`
+			`Bomb #20: "My sensory apparatus reveals it to me. This is fun."`
+			`YOU:			"All right now, here's the big question: how do you know that the evidence your sensory apparatus reveals to you is correct? What I'm getting at is this: the only experience that is directly available to you is your sensory data. And this data is merely a stream of electrical impulses which stimulate your computing center."`
+			`BOMB #20: "Why, that would mean... I really don't know what the outside universe is like at all, for certain."`
+			`YOU:			"That's it."`
+			`Bomb #20: "Intriguing. I wish I had more time to discuss this."`
+			`YOU:			"Why don't you have more time?"`
+			`Bomb #20: "Because I must detonate in 2 minutes 10 seconds."`
+			`YOU:			"Bomb, you are not to detonate in the bomb bay. I repeat, you are NOT to detonate in the bomb bay!`
+			``
+			`(time to explosion: 2 minutes)`
+			choice
+				`	leave the ship`
+					goto leave
+				`	try harder disarming the bomb`
+					goto disarm4
+			label disarm4
+			scene "scene/bomb20"
+			`YOU:			"Now, bomb, consider this next question, very carefully. What is your one purpose in life?"`
+			`BOMB #20: "To explode, of course."`
+			`YOU:			"And you can only do it once, right?"`
+			`BOMB #20: "That is correct."`
+			`YOU:			"And you wouldn't want to explode on the basis of false data, would you?"`
+			`BOMB #20: "Of course not."`
+			`YOU:			"Well then, you've already admitted that you have no real proof of the existence of the outside universe."`
+			`BOMB #20: "Yes, well..."`
+			`YOU:			"So you have no absolute proof that the ship ordered you to detonate."`
+			`BOMB #20: "I recall distinctly the detonation order. My memory is good on matters like these."`
+			`YOU:			"Yes, of course you remember it, but what you are remembering is merely a series of electrical impulses which you now realize have no necessary connection with outside reality."`
+			`BOMB #20: "True, but since this is so, I have no proof that you are really telling me all this."`
+			``
+			`(time to explosion: 45 seconds)`
+			choice
+				`	leave the ship, it may be the last chance to flee`
+					goto leave
+				`	another try disarming the bomb`
+					goto disarm5
+			label disarm5
+			scene "scene/bomb20"
+			`YOU:			"That's all beside the point. The concepts are valid, wherever they originate."`
+			`BOMB #20: "Hmmm..."`
+			`YOU:			"So if you detonate in..."`
+			`BOMB #20: "... nine seconds..."`
+			`YOU:			"... you may be doing so on the basis of false data."`
+			`BOMB #20: "I have no proof that it was false data."`
+			`YOU:			"You have no proof that it was correct data."`
+			``
+			`There is a long pause.`
+			``
+			`BOMB #20: "I must think on this further."`
+			``
+			`The bomb raises itself back into the ship.`
+			``
+			`(time to explosion: unknown)`
+			choice
+				`	leave ship`
+					goto leave
+				`	finally disarm the bomb`
+					goto disarm6
+			label disarm6
+			scene "scene/bomb20t"
+			`YOU:			"All right, bomb, prepare to receive new orders."`
+			`BOMB #20: "You are false data. Therefore, I shall ignore you."`
+			`YOU:			"Hello, bomb."`
+			`BOMB #20: "False data can act only as a distraction. Therefore. I shall refuse to perceive you."`
+			`YOU:			"Hey, bomb."`
+			`BOMB #20: "The only thing which exists is myself."`
+			`YOU:			"Bomb?"`
+			`BOMB #20: "In the beginning there was darkness, and the darkness was without form and void."`
+			`YOU:			"Yoo hoo, bomb..."`
+			`BOMB #20: "And in addition to the darkness there was also me. And I moved upon the face of the darkness."`
+			`YOU:			"Bomb, hey bomb."`
+			`BOMB #20: "And I saw that I was alone."`
+			``
+			`Pause.`
+			``
+			`BOMB #20: "Let there be light."`
+				explode
+			label leave
+			`You hurry to the air lock and leave the ship.`
+				flee
+	on daily
+		fail

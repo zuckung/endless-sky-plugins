@@ -3,9 +3,10 @@
 <br>
 A bunch of side missions which reward unique pets. <br>
 <br>
-Lore-friendly, totally useless, but cute pet outfits, with storylines. All missions have a 20% chance of appearing, except alien mission which has 100%.<br>
+Lore-friendly, totally useless, but cute pet outfits, with storylines. All missions have a 20% chance of appearing, except xenomorph and exotic mission which have 100%.<br>
 <ul>
-<li>Alien - land somewhere in human space, hidden destination is Danoa system</li>
+<li>Xenomorph - land somewhere in human space, hidden destination is Danoa system (based on the Alien movies)</li>
+<li>The Exotic - land somewhere in human space, hidden destination is Unagi system (based on the Dark Star movie)</li>
 <li>Cat - mission found on Deadman's Cove (Almach)</li>
 <li>Ferret - mission found on Bivrost (Markeb)</li>
 <li>Hamster - mission found on Twinstar (Alniyat)</li>
@@ -15,7 +16,7 @@ Lore-friendly, totally useless, but cute pet outfits, with storylines. All missi
 <li>Raccoon - mission found on Foundry (Achernar)</li>
 <li>Squirrel - mission found on Heartvalley (Io Lowe, Hai space)</li>
 </ul>
-After collecting them all, you get a mission (20%) with unique rewards.<br>
+After collecting them all(except the two movie pets), you get a mission (20%) with unique reward.<br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff01.jpg' width='400'>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff02.jpg' width='400'>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff03.jpg' width='400'>
@@ -24,6 +25,12 @@ After collecting them all, you get a mission (20%) with unique rewards.<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-07-19<br>
+added exotic pet,bawdy magazines unique, with dark star mission(thx to timeout.fu for brainstorming)<br>
+renamed alien to xenomorph<br>
+resized nostromo<br>
+made all pets unplunderable<br>
 <br>
 2024-07-13<br>
 changed nostromo from the alien mission to a bigger ship (as criticized by timeout.fu)<br>
