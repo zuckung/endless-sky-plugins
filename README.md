@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-07-14 | update: captureable.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-07-19 | update: jump.gates<br>
+2024-07-14 | update: captureable.person.ships<br>
 2024-07-13 | update: galactic.capital.investment<br>
 2024-07-13 | update: real.fluff<br>
 2024-07-13 | update: human.labels<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-07-07 | update: human.labels<br>
 2024-06-27 | update: more.person.ships<br>
 2024-06-27 | renamed pirate.warlords to more.person.ships<br>
-2024-06-26 | update: bunrodea.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -48,11 +48,12 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#humanlabels">human.labels</a><br>
+<a href="README.md#jumpgates">jump.gates</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
-<a href="README.md#morepersonships">more.person.ships</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#morepersonships">more.person.ships</a><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
@@ -1873,6 +1874,57 @@ initial release<br>
 
 ---
 
+### jump.gates
+
+<img src="myplugins/jump.gates/icon.png" height="100">
+
+[jump.gates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/jump.gates.zip) | 1.24 mb | 2024-07-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/) <br>
+<br>
+>Adds a ring of "jump gates" at the borders of Human space to create shortcuts inside the Human space. See the readme for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### jump.gates
+
+<br>
+
+<br>
+
+Adds a ring of "jump gates" at the borders of Human space to create shortcuts inside the Human space.<br>
+
+<br>
+
+A month after the game starts, the player gets a spaceport info mission about a new discovered technology, that enables the building of jump gates(if your savegame is beyond that point, these info mission starts on the next planet landing). Over the next 5 months there are regularly spaceport info missions of how far the process of building these gates has come. At the end of this period all jump gates have been build and are usable.<br>
+
+These jump gates are technically just wormholes with new sprites. The jump gate ring around Human space is made of two gates in every of these systems: Naos(Deep) - Spica(Dirt Belt) - Alniyat(South) - Tarazed(South) - Sheratan(Core) - Alnitak(North) and from there back to Naos. Two gates, so you can move forward and backward on the ring.<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/jump.gates01.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/jump.gates02.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/jump.gates03.jpg' width='400'>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-07-19<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
 ### kor.efret.shipyard
 
 <img src="myplugins/kor.efret.shipyard/icon.png" height="100">
@@ -2798,7 +2850,7 @@ initial release<br>
 
 <img src="myplugins/snowfeather.robotics/icon.png" height="100">
 
-[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) | N/A | N/A | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) <br>
+[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/snowfeather.robotics.zip) | 1.09 mb | 2024-05-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) <br>
 <br>
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). Starts on Snowfeather(Bore Fah) when having at least one android installed. See the readme for details.
 
