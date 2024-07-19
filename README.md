@@ -1915,7 +1915,6 @@ Changelog:<br>
 
 2024-07-19<br>
 
-
 initial release<br>
 text corrections (thx to TheGiraffe3)<br>
 
