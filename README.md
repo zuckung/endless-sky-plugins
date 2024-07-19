@@ -16,6 +16,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 
 ## Latest News:
 <table><tr><td><img width="882" height="1"><br>2024-07-19 | update: jump.gates<br>
+2024-07-19 | update:jump.gates<br>
 2024-07-14 | update: captureable.person.ships<br>
 2024-07-13 | update: galactic.capital.investment<br>
 2024-07-13 | update: real.fluff<br>
@@ -1911,6 +1912,10 @@ These jump gates are technically just wormholes with new sprites. The jump gate 
 Changelog:<br>
 
 <br>
+
+2024-07-19<br>
+
+text corrections (thx to TheGiraffe3)<br>
 
 2024-07-19<br>
 
