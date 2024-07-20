@@ -39,10 +39,10 @@ ship "Planet Destroyer"
 		"weapon capacity" 90
 		"engine capacity" 80
 		weapon
-			"blast radius" 60
-			"shield damage" 600
-			"hull damage" 300
-			"hit force" 900
+			"blast radius" 20000
+			"hull damage" 79999
+			"piercing" 1
+			"hit force" -8200
 	outfits
 		"Energy Blaster" 2
 		"Meteor Missile Launcher" 2
@@ -73,8 +73,7 @@ ship "Planet Destroyer"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Argosy from Southbound Shipyards is very popular with merchants not because of its capacity, which is actually slightly smaller than the Syndicate Freighter, but because it can hold its own in combat even against a small pirate fleet."
-	description "	The Argosy is also a very easy ship to upgrade with faster engines or more powerful weapons as needed, so many privately owned Argosies have very different capabilities than the stock model."
+	description "You should not be seeing the description of this ship."
 
 ship "Mega Freighter"
 	sprite "ship/nostromo"
@@ -130,8 +129,7 @@ ship "Mega Freighter"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Argosy from Southbound Shipyards is very popular with merchants not because of its capacity, which is actually slightly smaller than the Syndicate Freighter, but because it can hold its own in combat even against a small pirate fleet."
-	description "	The Argosy is also a very easy ship to upgrade with faster engines or more powerful weapons as needed, so many privately owned Argosies have very different capabilities than the stock model."
+	description "You should not be seeing the description of this ship."
 
 outfit "bawdy magazines"
 	plural "bawdy magazines"
@@ -146,7 +144,7 @@ outfit "Glass Cat"
 	"unique" 1
 	"unplunderable" 1
 	thumbnail "outfit/cat_figurine"
-	description `A modern art figurine of a cat, made of glass. It is a gift by 'Beings for Ethical Treatment of Animals' (BETA) for your work in the field of animal protection. You just wonder how this Organisation found out of your pet rescues. Do they have some kind of intelligence service?`
+	description `A modern art figurine of a cat, made of glass. It is a gift by 'Beings for Ethical Treatment of Animals' (BETA) for your work in the field of animal protection. You just wonder how this Organization found out of your pet rescues. Do they have some kind of intelligence service?`
 
 outfit "Puny"
 	category "Pets"
@@ -158,7 +156,7 @@ outfit "fluffy_cat"
 	"unplunderable" 1
 	"display name" `"Cleo"`
 	thumbnail "outfit/fluffy_cat"
-	description `Once "Cleo" was a collateral victim of a gun shooting, now she is the queen of a star ship bridge! One rank above the captain.`
+	description `Once "Cleo" was a collateral victim of a gun shooting, but now she is the queen of a star ship bridge! One rank above the captain.`
 
 outfit "fluffy_ocelot"
 	category "Pets"
@@ -174,7 +172,7 @@ outfit "fluffy_raccoon"
 	"unplunderable" 1
 	"display name" `"Bandit"`
 	thumbnail "outfit/fluffy_raccoon"
-	description `This little raccoon is always at your side, at least at lunch time. `
+	description `This little raccoon is always at your side, at least at lunch time.`
 
 outfit "fluffy_alien"
 	category "Pets"
@@ -230,4 +228,4 @@ outfit "fluffy_exotic"
 	"unplunderable" 1
 	"display name" `"Exotic"`
 	thumbnail "outfit/fluffy_exotic"
-	description `An alien animal of unknown origin found in an old derelict ship. It is a gas filled Ball with feet. Very strange but funny looking. You like it.`
+	description `An alien animal of unknown origin found in an old derelict ship. It is a gas filled ball with feet. Very strange but funny looking. You like it.`

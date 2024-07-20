@@ -26,6 +26,11 @@ After collecting them all(except the two movie pets), you get a mission (20%) wi
 <br>
 Changelog:<br>
 <br>
+2024-07-20<br>
+bug fixing (thx to timeout.fu for testing)<br>
+text corrections (thx to TheGiraffe3)<br>
+text
+<br>
 2024-07-19<br>
 added exotic pet,bawdy magazines unique, with dark star mission(thx to timeout.fu for brainstorming)<br>
 renamed alien to xenomorph<br>
