@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-07-19 | update: real.fluff<br>
+<table><tr><td><img width="882" height="1"><br>2024-07-20 | update: real.fluff<br>
+2024-07-19 | update: real.fluff<br>
 2024-07-19 | update: jump.gates<br>
 2024-07-14 | update: captureable.person.ships<br>
 2024-07-13 | update: galactic.capital.investment<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-07-09 | update: human.labels<br>
 2024-07-08 | update: human.labels<br>
 2024-07-07 | update: human.labels<br>
-2024-06-27 | update: more.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2629,7 +2629,7 @@ initial release<br>
 
 <img src="myplugins/real.fluff/icon.png" height="100">
 
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 2.05 mb | 2024-07-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
+[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/real.fluff.zip) | 2.05 mb | 2024-07-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
 <br>
 >A bunch of side missions which reward unique fluffy pets. See the README for details.
 <details>
@@ -2687,6 +2687,16 @@ After collecting them all(except the two movie pets), you get a mission (20%) wi
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-07-20<br>
+
+bug fixing (thx to timeout.fu for testing)<br>
+
+text corrections (thx to TheGiraffe3)<br>
+
+text
 
 <br>
 
