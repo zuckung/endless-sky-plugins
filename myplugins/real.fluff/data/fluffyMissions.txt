@@ -570,7 +570,7 @@ mission "exotic mission 1"
 		conversation
 			`After docking with the "Dark Star" you enter the ship and begin the search. There doesn't seem to be anyone and there's total chaos on board... the main power is offline, lots of trash is in the corridors and the small number of cabins are in a terrible mess.`
 			choice
-				`	(search the cabins more closely.)`
+				`	(Search the cabins more closely.)`
 					goto search
 				`	(Take the path to the bridge.)`
 					goto tobridge
