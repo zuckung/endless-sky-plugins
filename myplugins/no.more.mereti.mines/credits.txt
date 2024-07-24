@@ -2,3 +2,4 @@ no.more.mereti.mines
 author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
+	swarm pod fix by timeout.fu

@@ -1,0 +1,6 @@
+outfit "Swarm Pod"
+     weapon
+        "reload" 30
+        "shield damage" 138
+        "hull damage" 72
+        "missile strength" 24

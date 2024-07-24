@@ -1,14 +1,10 @@
-# 2do:
-#	better wormhole links, reduced length, arrows, color
-#	better map legend
-#	info, titel etc
-#	better hyperlinks, get reduced length
-
 
 import sys
 import os
 import glob
 from PIL import Image, ImageDraw, ImageFont
+import numpy as np
+import math
 
 
 def setVar():
@@ -28,7 +24,7 @@ def setVar():
 	global inhabited
 	global governments
 	global govColor
-	dataFolder = '/storage/9C33-6BBD/endless sky/data_0.10.5/' # change to your data folder
+	dataFolder = '/storage/9C33-6BBD/endless sky/data/' # change to your data folder
 	backgroundImage = '/storage/9C33-6BBD/endless sky/images/' # change to your images folder
 	iFont = '/system/fonts/Roboto-Regular.ttf' # causes error if it doesnt exist, change to your choice
 	wormBlacklist = ['Over the Rainbow'] # dont draw these links
@@ -221,63 +217,65 @@ def getColor(faction): # input government > output rgb color
 		color = govColor[gIndex]
 		return color
 
+
 '''
-# 2do test this
-def xiaoline(x0, y0, x1, y1):
+def line_points(m, b, x_range):
+    """
+    Args:
+    m (float): Steigung der Linie.
+    b (float): y-Achsenabschnitt der Linie.
+    x_range (tuple): Ein Tupel mit dem Start- und Endwert von x (start, end).
+    
+    Returns:
+    list of tuples: Eine Liste von Punkten (x, y) auf der Linie.
+    """
+    x_values = np.linspace(x_range[0], x_range[1], num=100)  # 100 Punkte in der x-Range
+    points = [(x, m*x + b) for x in x_values]
+    return points
+# Beispielaufruf der Funktion
+m = 2  # Steigung
+b = 1  # y-Achsenabschnitt
+x_range = (0, 10)  # Bereich für x-Werte
+punkte = line_points(m, b, x_range)
+print(punkte)
 
-        x=[]
-        y=[]
-        dx = x1-x0
-        dy = y1-y0
-        steep = abs(dx) < abs(dy)
+def line_points2(start, end, num_points=100):
+    """
+    Args:
+    start (tuple): Ein Tupel (x1, y1) für den Startpunkt.
+    end (tuple): Ein Tupel (x2, y2) für den Zielpunkt.
+    num_points (int): Anzahl der Punkte auf der Linie. Standard ist 100.
+    Returns:
+    list of tuples: Eine Liste von Punkten (x, y) auf der Linie.
+    """
+    x1, y1 = start
+    x2, y2 = end
+    if x1 == x2:
+        # Vertikale Linie: y-Werte gleichmäßig zwischen y1 und y2 verteilen
+        y_values = np.linspace(y1, y2, num=num_points)
+        points = [(x1, y) for y in y_values]
+    else:
+        # Berechnung der Steigung und des y-Achsenabschnitts
+        m = (y2 - y1) / (x2 - x1)
+        b = y1 - m * x1
+        # Erzeuge x-Werte gleichmäßig verteilt zwischen x1 und x2
+        x_values = np.linspace(x1, x2, num=num_points)
+        points = [(x, m * x + b) for x in x_values]
+    return points
 
-        if steep:
-            x0,y0 = y0,x0
-            x1,y1 = y1,x1
-            dy,dx = dx,dy
-
-        if x0 > x1:
-            x0,x1 = x1,x0
-            y0,y1 = y1,y0
-
-        gradient = float(dy) / float(dx)  # slope
-
-        # handle first endpoint
-        xend = round(x0)
-        yend = y0 + gradient * (xend - x0)
-        xpxl0 = int(xend)
-        ypxl0 = int(yend)
-        x.append(xpxl0)
-        y.append(ypxl0) 
-        x.append(xpxl0)
-        y.append(ypxl0+1)
-        intery = yend + gradient
-
-        # handles the second point
-        xend = round (x1);
-        yend = y1 + gradient * (xend - x1);
-        xpxl1 = int(xend)
-        ypxl1 = int (yend)
-        x.append(xpxl1)
-        y.append(ypxl1) 
-        x.append(xpxl1)
-        y.append(ypxl1 + 1)
-
-        # main loop 
-        for px in range(xpxl0 + 1 , xpxl1):
-            x.append(px)
-            y.append(int(intery))
-            x.append(px)
-            y.append(int(intery) + 1)
-            intery = intery + gradient;
-
-        if steep:
-            y,x = x,y
-
-        coords=zip(x,y)
-
-        return coords
-'''
+def line_length(start, end):
+    """
+    Args:
+    start (tuple): Ein Tupel (x1, y1) für den Startpunkt.
+    end (tuple): Ein Tupel (x2, y2) für den Zielpunkt.
+    Returns:
+    float: Die Länge der Linie.
+    """
+    x1, y1 = start
+    x2, y2 = end
+    # Berechnung der Länge mit dem Satz des Pythagoras
+    length = math.sqrt((x2 - x1)**2 + (y2 - y1)**2) 
+    return length'''
 
 					
 def createImage():
@@ -341,8 +339,6 @@ def createImage():
 		draw.ellipse((startX-7, startY-7, startX+7, startY+7), fill=(0,0,0,0), outline=(getColor(each)), width=3)
 		draw.text((startX+15, startY-14) , each, fill=(255,255,255), font=font)
 		startY += 25
-	
-	
 	# crop image
 	print('  cropping image')
 	left = 200 # - 200
