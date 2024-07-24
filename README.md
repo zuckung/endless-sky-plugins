@@ -15,7 +15,9 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-07-20 | update: real.fluff<br>
+<table><tr><td><img width="882" height="1"><br>2024-07-24 | update: no.more.mereti.mines<br>
+2024-07-24 | updated tools folder with new and changed ES scripts<br>
+2024-07-20 | update: real.fluff<br>
 2024-07-19 | update: real.fluff<br>
 2024-07-19 | update: jump.gates<br>
 2024-07-14 | update: captureable.person.ships<br>
@@ -23,8 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-07-13 | update: real.fluff<br>
 2024-07-13 | update: human.labels<br>
 2024-07-09 | update: human.labels<br>
-2024-07-08 | update: human.labels<br>
-2024-07-07 | update: human.labels<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2473,9 +2473,9 @@ initial release<br>
 
 <img src="myplugins/no.more.mereti.mines/icon.png" height="100">
 
-[no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/no.more.mereti.mines.zip) | 34.02 kb | 2024-02-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) <br>
+[no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/no.more.mereti.mines.zip) | 34.41 kb | 2024-07-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) <br>
 <br>
->Removes the mines from Mereti ships and replaces them with Husk-Slice to increase game performance. See the readme for details.
+>Removes the mines from Mereti ships and replaces them with Husk-Slice to increase game performance. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2491,11 +2491,19 @@ Removes the mines from Mereti ships and replaces them with Husk-Slice to increas
 
 Replaces Cluster Mine Layer, Cluster Mine Racks and Cluster Mines with Husk-Slice cannons, on Model 16/32/64/128/256/512. For every removed mine layer a cannon got added. That increases game performance in mass fights, like in Mesuket system.<br>
 
+Added bunrodean swarm pods change by timeout.fu. Now it fires less, but with more damage.br>
+
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-07-24<br>
+
+added better performance to bunrodea swarm pods (by timeout.fu)<br>
 
 <br>
 
