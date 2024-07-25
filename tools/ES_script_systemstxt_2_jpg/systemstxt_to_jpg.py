@@ -218,66 +218,30 @@ def getColor(faction): # input government > output rgb color
 		return color
 
 
-'''
-def line_points(m, b, x_range):
-    """
-    Args:
-    m (float): Steigung der Linie.
-    b (float): y-Achsenabschnitt der Linie.
-    x_range (tuple): Ein Tupel mit dem Start- und Endwert von x (start, end).
-    
-    Returns:
-    list of tuples: Eine Liste von Punkten (x, y) auf der Linie.
-    """
-    x_values = np.linspace(x_range[0], x_range[1], num=100)  # 100 Punkte in der x-Range
-    points = [(x, m*x + b) for x in x_values]
-    return points
-# Beispielaufruf der Funktion
-m = 2  # Steigung
-b = 1  # y-Achsenabschnitt
-x_range = (0, 10)  # Bereich für x-Werte
-punkte = line_points(m, b, x_range)
-print(punkte)
+def line_points(start, end, num_points): # start (tuple): l(x1, y1) startpoint, end (tuple): (x2, y2) endpoint, num_points (int): amount of pixels to show on the line
+	x1, y1 = start
+	x2, y2 = end
+	if x1 == x2:
+		# distribute the pixels on the line
+		y_values = np.linspace(y1, y2, num=num_points)
+		points = [(x1, y) for y in y_values]
+	else:
+		# calculate the rising of the line
+		m = (y2 - y1) / (x2 - x1)
+		b = y1 - m * x1
+		# distribute the pixels on the line
+		x_values = np.linspace(x1, x2, num=num_points)
+		points = [(x, m * x + b) for x in x_values]
+	return points # list of pixel on the line (x, y)
 
-def line_points2(start, end, num_points=100):
-    """
-    Args:
-    start (tuple): Ein Tupel (x1, y1) für den Startpunkt.
-    end (tuple): Ein Tupel (x2, y2) für den Zielpunkt.
-    num_points (int): Anzahl der Punkte auf der Linie. Standard ist 100.
-    Returns:
-    list of tuples: Eine Liste von Punkten (x, y) auf der Linie.
-    """
-    x1, y1 = start
-    x2, y2 = end
-    if x1 == x2:
-        # Vertikale Linie: y-Werte gleichmäßig zwischen y1 und y2 verteilen
-        y_values = np.linspace(y1, y2, num=num_points)
-        points = [(x1, y) for y in y_values]
-    else:
-        # Berechnung der Steigung und des y-Achsenabschnitts
-        m = (y2 - y1) / (x2 - x1)
-        b = y1 - m * x1
-        # Erzeuge x-Werte gleichmäßig verteilt zwischen x1 und x2
-        x_values = np.linspace(x1, x2, num=num_points)
-        points = [(x, m * x + b) for x in x_values]
-    return points
 
-def line_length(start, end):
-    """
-    Args:
-    start (tuple): Ein Tupel (x1, y1) für den Startpunkt.
-    end (tuple): Ein Tupel (x2, y2) für den Zielpunkt.
-    Returns:
-    float: Die Länge der Linie.
-    """
-    x1, y1 = start
-    x2, y2 = end
-    # Berechnung der Länge mit dem Satz des Pythagoras
-    length = math.sqrt((x2 - x1)**2 + (y2 - y1)**2) 
-    return length'''
+def line_length(start, end): # start (tuple): l(x1, y1) startpoint, end (tuple): (x2, y2) endpoint
+	x1, y1 = start
+	x2, y2 = end
+	length = math.sqrt((x2 - x1)**2 + (y2 - y1)**2) 
+	return length # float line length
 
-					
+				
 def createImage():
 	print('creating image')
 	im = Image.open(backgroundImage + 'ui/milky way.jpg', 'r')
@@ -290,10 +254,17 @@ def createImage():
 			if link != ' ':
 				# drawing system link
 				targetIndex = systemNames.index(link)
-				#x, y = xiaoline(systemPosX[sysIndex], systemPosY[sysIndex], systemPosX[targetIndex], systemPosY[targetIndex])
-				#draw.line(x[6], y[6], x[len(x)-6], y[len(y)-6], fill=(128,128,128))
-				draw.line((systemPosX[sysIndex], systemPosY[sysIndex], systemPosX[targetIndex], systemPosY[targetIndex]), fill=(128,128,128))
+				# remove some pixels to not overlap the system circles
+				start = (systemPosX[sysIndex], systemPosY[sysIndex]) 
+				end = (systemPosX[targetIndex], systemPosY[targetIndex])
+				linelength = line_length(start, end)
+				linepoints = line_points(start, end, int(linelength))
+				points = len(linepoints)
+				start = linepoints[5]
+				end = linepoints[len(linepoints) - 6]
+				draw.line((start, end), fill=(128,128,128))
 		for link in wormholes:
+			# drawing wormhole link
 			first = link.split('|')[0]
 			if each == first:
 				second = link.split('|')[1]
@@ -304,7 +275,21 @@ def createImage():
 				if blacklisted == False:
 					# drawing purple wormhole line
 					targetIndex = systemNames.index(second)
-					draw.line((systemPosX[sysIndex], systemPosY[sysIndex], systemPosX[targetIndex], systemPosY[targetIndex]), fill=(204,0,204))
+					# remove some pixels to not overlap the system circles
+					start = (systemPosX[sysIndex], systemPosY[sysIndex]) 
+					end = (systemPosX[targetIndex], systemPosY[targetIndex])
+					linelength = line_length(start, end)
+					linepoints = line_points(start, end, int(linelength))
+					points = len(linepoints)
+					start = linepoints[5]
+					end = linepoints[len(linepoints) - 6]
+					draw.line((start, end), fill=(204,0,204))
+					
+					# create code for wormhole direction here
+					# draw.polygon([(20,10), (200, 200), (100,20)], fill = (204,0,204))
+					# https://stackoverflow.com/questions/63671018/how-can-i-draw-an-arrow-using-pil
+					# opencv arrowedLine() ?
+					
 	print('  drawing systems')
 	for each in systemNames:
 		inhab = False
