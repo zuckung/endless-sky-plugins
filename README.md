@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-07-24 | update: no.more.mereti.mines<br>
+<table><tr><td><img width="882" height="1"><br>2024-07-31 | update: landing.images<br>
+2024-07-24 | update: no.more.mereti.mines<br>
 2024-07-24 | updated tools folder with new and changed ES scripts<br>
 2024-07-20 | update: real.fluff<br>
 2024-07-19 | update: real.fluff<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-07-13 | update: galactic.capital.investment<br>
 2024-07-13 | update: real.fluff<br>
 2024-07-13 | update: human.labels<br>
-2024-07-09 | update: human.labels<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -40,8 +40,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#controlstation">control.station</a><br>
 <a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
@@ -50,6 +50,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#humanlabels">human.labels</a><br>
 <a href="README.md#jumpgates">jump.gates</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
+<a href="README.md#landingimages">landing.images</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
@@ -2082,6 +2083,53 @@ added 28 korath outfits(no weapons)<br>
 added new icon.png<br>
 
 reworked readme<br>
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### landing.images
+
+<img src="myplugins/landing.images/icon.png" height="100">
+
+[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/landing.images.zip) | 13.98 mb | 2024-07-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
+<br>
+>Replaces all planet landing images with better fitting ones. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### landing.images
+
+<br>
+
+<br>
+
+Replaces all planet landing images with better fitting ones.<br>
+
+<br>
+
+These images replace the boring vanilla images you see when you've landed on a planet with new, AI generated, better fitting ones. The old ones look like photos from earth or taken from public NASA archives(which they are). According to the description of the planets I tried to generate better fitting, more futuristic, more alien-looking images. And I think that went well :) <br>
+
+0.10.8 with 472 planets<br>
+
+See all images <a href='https://github.com/zuckung/endless-sky-plugins-graphics/blob/main/res/md/landing.images.md'>here</a>.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-07-31<br>
+
+initial release<br>
+
+
+
 </blockquote>
 </details>
 <br>
