@@ -1,0 +1,1888 @@
+# Builder(system Fereti)
+planet "Parii'het"
+	landscape "land/pariihet"
+
+# Builder(system Giribea)
+planet "Seli'het"
+	landscape "land/selihet"
+
+# Bunrodea (Guard)(system Bosuno Le)
+planet "Bosunothro"
+	landscape "land/bosunothro"
+
+# Bunrodea (Guard)(system Bunri Lemeta)
+planet "Bunthro"
+	landscape "land/bunthro"
+
+# Bunrodea (Guard)(system Erabu Lemeta)
+planet "Erabuthro"
+	landscape "land/erabuthro"
+
+# Bunrodea (Guard)(system Eragaru Le)
+planet "Eragarthro"
+	landscape "land/eragarthro"
+
+# Bunrodea (Guard)(system Avo Chigo)
+planet "Illbo Avo"
+	landscape "land/illboavo"
+
+# Bunrodea (Guard)(system Jentu Le)
+planet "Jentuthro"
+	landscape "land/jentuthro"
+
+# Bunrodea (Guard)(system Shini Bori)
+planet "Sardva"
+	landscape "land/sardva"
+
+# Bunrodea (Guard)(system Thshybo Le)
+planet "Thshybothro"
+	landscape "land/thshybothro"
+
+# Bunrodea(system Mego Inito)
+planet "Angko"
+	landscape "land/angko"
+
+# Bunrodea(system Era Natta)
+planet "Byruca"
+	landscape "land/byruca"
+
+# Bunrodea(system Mego Seo)
+planet "Deli Kasi"
+	landscape "land/delikasi"
+
+# Bunrodea(system Mego Faro)
+planet "Deli Kat"
+	landscape "land/delikat"
+
+# Bunrodea(system Piadenli)
+planet "Disara"
+	landscape "land/disara"
+
+# Bunrodea(system Elabi Choati)
+planet "Iddesato"
+	landscape "land/iddesato"
+
+# Bunrodea(system Elo Chigo)
+planet "Illbo Elo"
+	landscape "land/illboelo"
+
+# Bunrodea(system Eneva Katta)
+planet "Kalbai"
+	landscape "land/kalbai"
+
+# Bunrodea(system Kifrana Terberah)
+planet "Kisarra"
+	landscape "land/kisarra"
+
+# Bunrodea(system Jentu Centi)
+planet "Melenci"
+	landscape "land/melenci"
+
+# Bunrodea(system Urba Pest)
+planet "Okoity"
+	landscape "land/okoity"
+
+# Bunrodea(system Sera Natta)
+planet "Olohoa"
+	landscape "land/olohoa"
+
+# Bunrodea(system Ravu Kon)
+planet "Sopoyra"
+	landscape "land/sopoyra"
+
+# Coalition(system Ablub)
+planet "Ablub's Invention"
+	landscape "land/ablubsinvention"
+
+# Coalition(system Sol Arach)
+planet "Ahr"
+	landscape "land/ahr"
+
+# Coalition(system 3 Axis)
+planet "Ashy Reach"
+	landscape "land/ashyreach"
+
+# Coalition(system Blugtad)
+planet "Bank of Blugtad"
+	landscape "land/bankofblugtad"
+
+# Coalition(system Belug)
+planet "Belug's Plunge"
+	landscape "land/belugsplunge"
+
+# Coalition(system Bloptab)
+planet "Bloptab's Furnace"
+	landscape "land/bloptabsfurnace"
+
+# Coalition(system Blubipad)
+planet "Blubipad's Workshop"
+	landscape "land/blubipadsworkshop"
+
+# Coalition(system 4 Spring Rising)
+planet "Blue Interior"
+	landscape "land/blueinterior"
+
+# Coalition(system 3 Pole)
+planet "Brass Second"
+	landscape "land/brasssecond"
+
+# Coalition(system Ancient Hope)
+planet "Bright Echo"
+	landscape "land/brightecho"
+
+# Coalition(system Steep Roof)
+planet "Ceaseless Toil"
+	landscape "land/ceaselesstoil"
+
+# Coalition(system 1 Axis)
+planet "Celestial Third"
+	landscape "land/celestialthird"
+
+# Coalition(system Silver Bell)
+planet "Chosen Nexus"
+	landscape "land/chosennexus"
+
+# Coalition(system Fell Omen)
+planet "Cold Horizon"
+	landscape "land/coldhorizon"
+
+# Coalition(system Belonging)
+planet "Cool Forest"
+	landscape "land/coolforest"
+
+# Coalition(system Meblumem)
+planet "Corral of Meblumem"
+	landscape "land/corralofmeblumem"
+
+# Coalition(system Silver String)
+planet "Deep Treasure"
+	landscape "land/deeptreasure"
+
+# Coalition(system Remembrance)
+planet "Deep Water"
+	landscape "land/deepwater"
+
+# Coalition(system Bloptab)
+planet "Delve of Bloptab"
+	landscape "land/delveofbloptab"
+
+# Coalition(system Bloptab)
+planet "Delve"
+	landscape "land/delve"
+
+# Coalition(system Belonging)
+planet "Diligent Hand"
+	landscape "land/diligenthand"
+
+# Coalition(system 4 Summer Rising)
+planet "Double Haze"
+	landscape "land/doublehaze"
+
+# Coalition(system 8 Winter Below)
+planet "Dusk Companion"
+	landscape "land/duskcompanion"
+
+# Coalition(system Speloog)
+planet "Dwelling of Speloog"
+	landscape "land/dwellingofspeloog"
+
+# Coalition(system Eblumab)
+planet "Factory of Eblumab"
+	landscape "land/factoryofeblumab"
+
+# Coalition(system Companion)
+planet "Far Garden"
+	landscape "land/fargarden"
+
+# Coalition(system Homeward)
+planet "Far Home"
+	landscape "land/farhome"
+
+# Coalition(system Four Pillars)
+planet "Flowing Fields"
+	landscape "land/flowingfields"
+
+# Coalition(system 3 Spring Rising)
+planet "Fourth Shadow"
+	landscape "land/fourthshadow"
+
+# Coalition(system 9 Spring Above)
+planet "Garden Empyreal"
+	landscape "land/gardenempyreal"
+
+# Coalition(system Last Word)
+planet "Gentle Rain"
+	landscape "land/gentlerain"
+
+# Coalition(system Beginning)
+planet "Glittering Ice"
+	landscape "land/glitteringice"
+
+# Coalition(system Ablodab)
+planet "Guardian Array Sapphire"
+	landscape "land/guardianarraysapphire"
+
+# Coalition(system Debrugt)
+planet "Hammer of Debrugt"
+	landscape "land/hammerofdebrugt"
+
+# Coalition(system 4 Winter Rising)
+planet "Inmost Blue"
+	landscape "land/inmostblue"
+
+# Coalition(system 5 Winter Above)
+planet "Into White"
+	landscape "land/intowhite"
+
+# Coalition(system Sol Kimek)
+planet "Ki Patek Ka"
+	landscape "land/kipatekka"
+
+# Coalition(system Gupta)
+planet "Market of Gupta"
+	landscape "land/marketofgupta"
+
+# Coalition(system Mebla)
+planet "Mebla's Portion"
+	landscape "land/meblasportion"
+
+# Coalition(system Miblulub)
+planet "Miblulub's Plenty"
+	landscape "land/miblulubsplenty"
+
+# Coalition(system 14 Winter Below)
+planet "Midway Emerald"
+	landscape "land/midwayemerald"
+
+# Coalition(system Sol Saryd)
+planet "Mystery"
+	landscape "land/mystery"
+
+# Coalition(system 5 Summer Above)
+planet "Nearby Jade"
+	landscape "land/nearbyjade"
+
+# Coalition(system Answer)
+planet "New Finding"
+	landscape "land/newfinding"
+
+# Coalition(system Ablodab)
+planet "Ogmur's Siphon"
+	landscape "land/ogmurssiphon"
+
+# Coalition(system Pelubta)
+planet "Pelubta Station"
+	landscape "land/pelubtastation"
+
+# Coalition(system Silver Bell)
+planet "Periaxle Circuit"
+	landscape "land/periaxlecircuit"
+
+# Coalition(system Plort)
+planet "Plort's Water"
+	landscape "land/plortswater"
+
+# Coalition(system Belugt)
+planet "Refuge of Belugt"
+	landscape "land/refugeofbelugt"
+
+# Coalition(system 14 Pole)
+planet "Remote Blue"
+	landscape "land/remoteblue"
+
+# Coalition(system Sol Saryd)
+planet "Revelation"
+	landscape "land/revelation"
+
+# Coalition(system 4 Axis)
+planet "Rusty Second"
+	landscape "land/rustysecond"
+
+# Coalition(system 7 Autumn Rising)
+planet "Sandy Two"
+	landscape "land/sandytwo"
+
+# Coalition(system Sol Saryd)
+planet "Saros"
+	landscape "land/saros"
+
+# Coalition(system 5 Axis)
+planet "Second Cerulean"
+	landscape "land/secondcerulean"
+
+# Coalition(system 10 Pole)
+planet "Second Rose"
+	landscape "land/secondrose"
+
+# Coalition(system 14 Summer Above)
+planet "Second Viridian"
+	landscape "land/secondviridian"
+
+# Coalition(system Far Horizon)
+planet "Secret Sky"
+	landscape "land/secretsky"
+
+# Coalition(system Hunter)
+planet "Shadow of Leaves"
+	landscape "land/shadowofleaves"
+
+# Coalition(system Fallen Leaf)
+planet "Shadowed Valley"
+	landscape "land/shadowedvalley"
+
+# Coalition(system Good Omen)
+planet "Shifting Sand"
+	landscape "land/shiftingsand"
+
+# Coalition(system Ablodab)
+planet "Silo of Ablodab"
+	landscape "land/siloofablodab"
+
+# Coalition(system Sol Kimek)
+planet "Starting Rubin"
+	landscape "land/startingrubin"
+
+# Coalition(system 12 Autumn Above)
+planet "Station Cian"
+	landscape "land/stationcian"
+
+# Coalition(system Flugbu)
+planet "Stronghold of Flugbu"
+	landscape "land/strongholdofflugbu"
+
+# Coalition(system Tebuteb)
+planet "Tebuteb's Table"
+	landscape "land/tebutebstable"
+
+# Coalition(system 11 Spring Below)
+planet "Third Umber"
+	landscape "land/thirdumber"
+
+# Coalition(system 9 Spring Above)
+planet "Turquoise Four"
+	landscape "land/turquoisefour"
+
+# Coalition(system Lone Cloud)
+planet "Vibrant Water"
+	landscape "land/vibrantwater"
+
+# Coalition(system Steep Roof)
+planet "Warm Slope"
+	landscape "land/warmslope"
+
+# Coalition(system Broken Bowl)
+planet "Warm Wind"
+	landscape "land/warmwind"
+
+# Coalition(system Glubatub)
+planet "Weir of Glubatub"
+	landscape "land/weirofglubatub"
+
+# Gegno Scin(system Kilema)
+planet "Beryl"
+	landscape "land/beryl"
+
+# Gegno Scin(system Zeinar)
+planet "Cipi"
+	landscape "land/cipi"
+
+# Gegno Scin(system Zeinar)
+planet "Dueitch Ae"
+	landscape "land/dueitchae"
+
+# Gegno Scin(system Pbelnep)
+planet "Ef Osch"
+	landscape "land/efosch"
+
+# Gegno Scin(system Iliniza)
+planet "Enn Bue"
+	landscape "land/ennbue"
+
+# Gegno Scin(system Erba Yle)
+planet "Gue Faur"
+	landscape "land/guefaur"
+
+# Gegno Scin(system Auhru)
+planet "Oup Je"
+	landscape "land/oupje"
+
+# Gegno Vi(system Kiluit)
+planet "Enbye"
+	landscape "land/enbye"
+
+# Gegno Vi(system Ptetubo)
+planet "Essime"
+	landscape "land/essime"
+
+# Gegno Vi(system Scija)
+planet "Graede"
+	landscape "land/graede"
+
+# Gegno Vi(system Scija)
+planet "Siedi"
+	landscape "land/siedi"
+
+# Gegno Vi(system Nnaug)
+planet "Sies Upi"
+	landscape "land/siesupi"
+
+# Gegno Vi(system Ookmya)
+planet "Ternituul"
+	landscape "land/ternituul"
+
+# Gegno(system Heutesl)
+planet "Dueyu Eitch"
+	landscape "land/dueyueitch"
+
+# Gegno(system Asio)
+planet "Ef Aourtdye"
+	landscape "land/efaourtdye"
+
+# Gegno(system Heutesl)
+planet "Iemn Eitch"
+	landscape "land/iemneitch"
+
+# Gegno(system Oosuoro)
+planet "Tschyss"
+	landscape "land/tschyss"
+
+# Hai (Unfettered)(system Wah Yoot)
+planet "Darkcloak"
+	landscape "land/darkcloak"
+
+# Hai (Unfettered)(system Ehma Ti)
+planet "Firelode"
+	landscape "land/firelode"
+
+# Hai (Unfettered)(system Hi Yahr)
+planet "Warfeed"
+	landscape "land/warfeed"
+
+# Hai(system Heia Due)
+planet "Allhome"
+	landscape "land/allhome"
+
+# Hai(system Wah Ki)
+planet "Cloudfire"
+	landscape "land/cloudfire"
+
+# Hai(system Mei Yohn)
+planet "Darkmetal"
+	landscape "land/darkmetal"
+
+# Hai(system Fah Root)
+planet "Darkwaste"
+	landscape "land/darkwaste"
+
+# Hai(system Rati Cal)
+planet "Dustmaker"
+	landscape "land/dustmaker"
+
+# Hai(system Da Lest)
+planet "Eldergrasp"
+	landscape "land/eldergrasp"
+
+# Hai(system Bote Asu)
+planet "Everhope"
+	landscape "land/everhope"
+
+# Hai(system Wah Oh)
+planet "Farwater"
+	landscape "land/farwater"
+
+# Hai(system Da Lest)
+planet "Frostmark"
+	landscape "land/frostmark"
+
+# Hai(system Zuba Zub)
+planet "Giverstone"
+	landscape "land/giverstone"
+
+# Hai(system Ula Mon)
+planet "Goldcrawl"
+	landscape "land/goldcrawl"
+
+# Hai(system Due Yoot)
+planet "Greenbloom"
+	landscape "land/greenbloom"
+
+# Hai(system Due Yoot)
+planet "Greenview"
+	landscape "land/greenview"
+
+# Hai(system Fah Soom)
+planet "Greenwater"
+	landscape "land/greenwater"
+
+# Hai(system Io Lowe)
+planet "Greymoon"
+	landscape "land/greymoon"
+
+# Hai(system Ya Hai)
+planet "Hai-home"
+	landscape "land/hai-home"
+
+# Hai(system Io Lowe)
+planet "Heartvalley"
+	landscape "land/heartvalley"
+
+# Hai(system Uwa Fahn)
+planet "Icelake"
+	landscape "land/icelake"
+
+# Hai(system Ya Hai)
+planet "Mahoganybox"
+	landscape "land/mahoganybox"
+
+# Hai(system Ula Mon)
+planet "Makerplace"
+	landscape "land/makerplace"
+
+# Hai(system Ya Hai)
+planet "Mirrorlake"
+	landscape "land/mirrorlake"
+
+# Hai(system Da Ent)
+planet "Newhome"
+	landscape "land/newhome"
+
+# Hai(system Wah Oh)
+planet "Ochrescoop"
+	landscape "land/ochrescoop"
+
+# Hai(system Io Mann)
+planet "Skyfarm"
+	landscape "land/skyfarm"
+
+# Hai(system Bore Fah)
+planet "Snowfeather"
+	landscape "land/snowfeather"
+
+# Hai(system Imo Dep)
+planet "Stonebreak"
+	landscape "land/stonebreak"
+
+# Hai(system Uwa Fahn)
+planet "Swiftsong"
+	landscape "land/swiftsong"
+
+# Hai(system Io Mann)
+planet "Thornlight"
+	landscape "land/thornlight"
+
+# Heliarch(system Quaru)
+planet "Ring of Friendship"
+	landscape "land/ringoffriendship"
+
+# Heliarch(system Ki War Ek)
+planet "Ring of Power"
+	landscape "land/ringofpower"
+
+# Heliarch(system Ekuarik)
+planet "Ring of Wisdom"
+	landscape "land/ringofwisdom"
+
+# Kor Efret(system Sumprast)
+planet "Karek Fornati"
+	landscape "land/karekfornati"
+
+# Kor Efret(system Dokdobaru)
+planet "Korati Efreti"
+	landscape "land/koratiefreti"
+
+# Kor Efret(system Kashikt)
+planet "Laki Nemparu"
+	landscape "land/lakinemparu"
+
+# Kor Efret(system Sevrelect)
+planet "Setar Fort"
+	landscape "land/setarfort"
+
+# Kor Efret(system Kashikt)
+planet "Tefkar Ret"
+	landscape "land/tefkarret"
+
+# Kor Mereti(system Mekislepti)
+planet "Aresepru Nat"
+	landscape "land/areseprunat"
+
+# Kor Mereti(system Eshkoshtar)
+planet "Esayaku Fen"
+	landscape "land/esayakufen"
+
+# Kor Mereti(system Sepetrosk)
+planet "Esek Stovar"
+	landscape "land/esekstovar"
+
+# Kor Mereti(system Faronektu)
+planet "Fara Skaeruti"
+	landscape "land/faraskaeruti"
+
+# Kor Mereti(system Sepetrosk)
+planet "Fek Rembatu"
+	landscape "land/fekrembatu"
+
+# Kor Mereti(system Chimitarp)
+planet "Korbatri Eska"
+	landscape "land/korbatrieska"
+
+# Kor Mereti(system Mekislepti)
+planet "Merask Fortuno"
+	landscape "land/meraskfortuno"
+
+# Kor Mereti(system Similisti)
+planet "Mereti Station"
+	landscape "land/meretistation"
+
+# Kor Mereti(system Chimitarp)
+planet "Rekat Moraski"
+	landscape "land/rekatmoraski"
+
+# Kor Mereti(system Similisti)
+planet "Sapira Mereti"
+	landscape "land/sapiramereti"
+
+# Kor Sestor(system Sobarati)
+planet "Devru Kaska"
+	landscape "land/devrukaska"
+
+# Kor Sestor(system Makferuti)
+planet "Drekag Firask"
+	landscape "land/drekagfirask"
+
+# Kor Sestor(system Celeborim)
+planet "Firka Tesk"
+	landscape "land/firkatesk"
+
+# Kor Sestor(system Ferukistek)
+planet "Keneska Fek"
+	landscape "land/keneskafek"
+
+# Kor Sestor(system Silikatakfar)
+planet "Sasirka Gatru"
+	landscape "land/sasirkagatru"
+
+# Kor Sestor(system Silikatakfar)
+planet "Sebra Skira"
+	landscape "land/sebraskira"
+
+# Kor Sestor(system Asikafarnut)
+planet "Sestor Ikfar"
+	landscape "land/sestorikfar"
+
+# Kor Sestor(system Eneremprukt)
+planet "Sopi Lefarkata"
+	landscape "land/sopilefarkata"
+
+# Korath(system Kor Men)
+planet "Gresku Fodar"
+	landscape "land/greskufodar"
+
+# Korath(system Kor En'lakfar)
+planet "Kessel Sepret"
+	landscape "land/kesselsepret"
+
+# Korath(system Kor Nor'peli)
+planet "Safaresk Enlai"
+	landscape "land/safareskenlai"
+
+# Korath(system Kor Zena'i)
+planet "Separa Tiklar"
+	landscape "land/separatiklar"
+
+# Korath(system Kor Fel'tar)
+planet "Septar Lorku"
+	landscape "land/septarlorku"
+
+# Korath(system Kor Tar'bei)
+planet "Sessiliki Far"
+	landscape "land/sessilikifar"
+
+# Pirate (Devil-Run Gang)(system Devil-Hide)
+planet "Devil-Eye"
+	landscape "land/devil-eye"
+
+# Pirate (Devil-Run Gang)(system Devil-Hide)
+planet "Elenchus"
+	landscape "land/elenchus"
+
+# Pirate(system Nunki)
+planet "Albatross"
+	landscape "land/albatross"
+
+# Pirate(system Citadelle)
+planet "Alvorada"
+	landscape "land/alvorada"
+
+# Pirate(system Citadelle)
+planet "Bailey"
+	landscape "land/bailey"
+
+# Pirate(system Antares)
+planet "Bloodsea"
+	landscape "land/bloodsea"
+
+# Pirate(system Algenib)
+planet "Buccaneer Bay"
+	landscape "land/buccaneerbay"
+
+# Pirate(system Gienah)
+planet "Covert"
+	landscape "land/covert"
+
+# Pirate(system Almach)
+planet "Deadman's Cove"
+	landscape "land/deadmanscove"
+
+# Pirate(system Almaaz)
+planet "Freedom"
+	landscape "land/freedom"
+
+# Pirate(system Belenos)
+planet "Gagarin"
+	landscape "land/gagarin"
+
+# Pirate(system Shaula)
+planet "Greenrock"
+	landscape "land/greenrock"
+
+# Pirate(system Arneb)
+planet "Haven"
+	landscape "land/haven"
+
+# Pirate(system Alpherg)
+planet "Jakobsen"
+	landscape "land/jakobsen"
+
+# Pirate(system Belenos)
+planet "Mordente-Bridi"
+	landscape "land/mordente-bridi"
+
+# Pirate(system Gienah)
+planet "Mutiny"
+	landscape "land/mutiny"
+
+# Pirate(system Misam)
+planet "New Tortuga"
+	landscape "land/newtortuga"
+
+# Pirate(system Men)
+planet "Smuggler's Den"
+	landscape "land/smugglersden"
+
+# Pirate(system Alcyone)
+planet "Stormhold"
+	landscape "land/stormhold"
+
+# Pirate(system Men)
+planet "Thule"
+	landscape "land/thule"
+
+# Pirate(system Alnilam)
+planet "Zenith"
+	landscape "land/zenith"
+
+# Pug (Wanderer)(system Pug Iyik)
+planet "Vara Pug"
+	landscape "land/varapug"
+
+# Pug(system Deneb)
+planet "Pugglemug"
+	landscape "land/pugglemug"
+
+# Pug(system Deneb)
+planet "Pugglequat"
+	landscape "land/pugglequat"
+
+# Quarg (Gegno)(system Actannka)
+planet "Arroharg"
+	landscape "land/arroharg"
+
+# Quarg (Gegno)(system Aleit)
+planet "Giaru Gegno"
+	landscape "land/giarugegno"
+
+# Quarg (Gegno)(system Ghhil)
+planet "Ruelogakk"
+	landscape "land/ruelogakk"
+
+# Quarg (Gegno)(system Actannka)
+planet "Truklar"
+	landscape "land/truklar"
+
+# Quarg (Hai)(system Hevru Hai)
+planet "Alta Hai"
+	landscape "land/altahai"
+
+# Quarg (Kor Efret)(system Dokdobaru)
+planet "Kuwaru Efreti"
+	landscape "land/kuwaruefreti"
+
+# Quarg(system Tarazed)
+planet "Echo"
+	landscape "land/echo"
+
+# Quarg(system Sadalsuud)
+planet "Forpelog"
+	landscape "land/forpelog"
+
+# Quarg(system Sadalmelik)
+planet "Grakhord"
+	landscape "land/grakhord"
+
+# Quarg(system Sadalmelik)
+planet "Humanika"
+	landscape "land/humanika"
+
+# Quarg(system Enif)
+planet "Lagrange"
+	landscape "land/lagrange"
+
+# Remnant(system Pantica)
+planet "Aventine"
+	landscape "land/aventine"
+
+# Remnant(system Cinxia)
+planet "Caelian"
+	landscape "land/caelian"
+
+# Remnant(system Arculus)
+planet "Viminal"
+	landscape "land/viminal"
+
+# Republic(system Aldebaran)
+planet "Ada"
+	landscape "land/ada"
+
+# Republic(system Markeb)
+planet "Alexandria"
+	landscape "land/alexandria"
+
+# Republic(system Wezen)
+planet "Alfheim"
+	landscape "land/alfheim"
+
+# Republic(system Ascella)
+planet "Arabia"
+	landscape "land/arabia"
+
+# Republic(system Tarazed)
+planet "Arachne Station"
+	landscape "land/arachnestation"
+
+# Republic(system Naos)
+planet "Asgard"
+	landscape "land/asgard"
+
+# Republic(system Nocte)
+planet "Asterus"
+	landscape "land/asterus"
+
+# Republic(system Sarin)
+planet "Big Sky"
+	landscape "land/bigsky"
+
+# Republic(system Markeb)
+planet "Bivrost"
+	landscape "land/bivrost"
+
+# Republic(system Delta Velorum)
+planet "Bounty"
+	landscape "land/bounty"
+
+# Republic(system Gamma Corvi)
+planet "Bourne"
+	landscape "land/bourne"
+
+# Republic(system Tejat)
+planet "Calda"
+	landscape "land/calda"
+
+# Republic(system Elnath)
+planet "Carbuncle Station"
+	landscape "land/carbunclestation"
+
+# Republic(system Procyon)
+planet "Cassandra"
+	landscape "land/cassandra"
+
+# Republic(system Aldhibain)
+planet "Charon Station"
+	landscape "land/charonstation"
+
+# Republic(system Alpha Centauri)
+planet "Chiron"
+	landscape "land/chiron"
+
+# Republic(system Seginus)
+planet "Clark"
+	landscape "land/clark"
+
+# Republic(system Kornephoros)
+planet "Clink"
+	landscape "land/clink"
+
+# Republic(system Kappa Centauri)
+planet "Cornucopia"
+	landscape "land/cornucopia"
+
+# Republic(system Rastaban)
+planet "Dancer"
+	landscape "land/dancer"
+
+# Republic(system Han)
+planet "Darkstone"
+	landscape "land/darkstone"
+
+# Republic(system Kornephoros)
+planet "Deep"
+	landscape "land/deep"
+
+# Republic(system Zeta Centauri)
+planet "Dune"
+	landscape "land/dune"
+
+# Republic(system Sol)
+planet "Earth"
+	landscape "land/earth"
+
+# Republic(system Alnitak)
+planet "Farpoint"
+	landscape "land/farpoint"
+
+# Republic(system Kursa)
+planet "Farseer"
+	landscape "land/farseer"
+
+# Republic(system Mebsuta)
+planet "Featherweight"
+	landscape "land/featherweight"
+
+# Republic(system Avior)
+planet "Fenrir Station"
+	landscape "land/fenrirstation"
+
+# Republic(system Unukalhai)
+planet "Flood"
+	landscape "land/flood"
+
+# Republic(system Alphard)
+planet "Follower"
+	landscape "land/follower"
+
+# Republic(system Castor)
+planet "Geminus"
+	landscape "land/geminus"
+
+# Republic(system Turais)
+planet "Gemstone"
+	landscape "land/gemstone"
+
+# Republic(system Denebola)
+planet "Geyser"
+	landscape "land/geyser"
+
+# Republic(system Aldhibain)
+planet "Glaze"
+	landscape "land/glaze"
+
+# Republic(system Wazn)
+planet "Glory"
+	landscape "land/glory"
+
+# Republic(system Girtab)
+planet "Harmony"
+	landscape "land/harmony"
+
+# Republic(system Dubhe)
+planet "Haze"
+	landscape "land/haze"
+
+# Republic(system Cor Caroli)
+planet "Heartland"
+	landscape "land/heartland"
+
+# Republic(system Suhail)
+planet "Helheim"
+	landscape "land/helheim"
+
+# Republic(system Capella)
+planet "Hermes"
+	landscape "land/hermes"
+
+# Republic(system Talita)
+planet "Hestia"
+	landscape "land/hestia"
+
+# Republic(system Wei)
+planet "Hope"
+	landscape "land/hope"
+
+# Republic(system Kaus Australis)
+planet "Hopper"
+	landscape "land/hopper"
+
+# Republic(system Zosma)
+planet "Huginn Station"
+	landscape "land/huginnstation"
+
+# Republic(system Algorel)
+planet "Hydra Station"
+	landscape "land/hydrastation"
+
+# Republic(system Tania Australis)
+planet "Ingot"
+	landscape "land/ingot"
+
+# Republic(system Suhail)
+planet "Leviathan Station"
+	landscape "land/leviathanstation"
+
+# Republic(system Atria)
+planet "Lichen"
+	landscape "land/lichen"
+
+# Republic(system Sabik)
+planet "Longjump"
+	landscape "land/longjump"
+
+# Republic(system Sol)
+planet "Luna"
+	landscape "land/luna"
+
+# Republic(system Nihal)
+planet "Maelstrom"
+	landscape "land/maelstrom"
+
+# Republic(system Alhena)
+planet "Mainsail"
+	landscape "land/mainsail"
+
+# Republic(system Avior)
+planet "Mani"
+	landscape "land/mani"
+
+# Republic(system Sol)
+planet "Mars"
+	landscape "land/mars"
+
+# Republic(system Pollux)
+planet "Martini"
+	landscape "land/martini"
+
+# Republic(system Zosma)
+planet "Memory"
+	landscape "land/memory"
+
+# Republic(system Kochab)
+planet "Mere"
+	landscape "land/mere"
+
+# Republic(system Aludra)
+planet "Midgard"
+	landscape "land/midgard"
+
+# Republic(system Zosma)
+planet "Muninn Station"
+	landscape "land/muninnstation"
+
+# Republic(system Adhara)
+planet "Muspel"
+	landscape "land/muspel"
+
+# Republic(system Vindemiatrix)
+planet "New Argentina"
+	landscape "land/newargentina"
+
+# Republic(system Menkent)
+planet "New Austria"
+	landscape "land/newaustria"
+
+# Republic(system Rutilicus)
+planet "New Boston"
+	landscape "land/newboston"
+
+# Republic(system Dabih)
+planet "New Britain"
+	landscape "land/newbritain"
+
+# Republic(system Merak)
+planet "New China"
+	landscape "land/newchina"
+
+# Republic(system Arcturus)
+planet "New Greenland"
+	landscape "land/newgreenland"
+
+# Republic(system Alphecca)
+planet "New Holland"
+	landscape "land/newholland"
+
+# Republic(system Kaus Borealis)
+planet "New Iceland"
+	landscape "land/newiceland"
+
+# Republic(system Albaldah)
+planet "New India"
+	landscape "land/newindia"
+
+# Republic(system Muhlifain)
+planet "New Kansas"
+	landscape "land/newkansas"
+
+# Republic(system Delta Sagittarii)
+planet "New Portland"
+	landscape "land/newportland"
+
+# Republic(system Phecda)
+planet "New Sahara"
+	landscape "land/newsahara"
+
+# Republic(system Porrima)
+planet "New Switzerland"
+	landscape "land/newswitzerland"
+
+# Republic(system Alioth)
+planet "New Tibet"
+	landscape "land/newtibet"
+
+# Republic(system Algorel)
+planet "New Wales"
+	landscape "land/newwales"
+
+# Republic(system Peacock)
+planet "New Washington"
+	landscape "land/newwashington"
+
+# Republic(system Gomeisa)
+planet "Nifel"
+	landscape "land/nifel"
+
+# Republic(system Adhara)
+planet "Norn"
+	landscape "land/norn"
+
+# Republic(system Spica)
+planet "Oasis"
+	landscape "land/oasis"
+
+# Republic(system Rasalhague)
+planet "Oblivion"
+	landscape "land/oblivion"
+
+# Republic(system Phurad)
+planet "Pearl"
+	landscape "land/pearl"
+
+# Republic(system Wezen)
+planet "Phoenix Station"
+	landscape "land/phoenixstation"
+
+# Republic(system Elnath)
+planet "Pilot"
+	landscape "land/pilot"
+
+# Republic(system Graffias)
+planet "Poisonwood"
+	landscape "land/poisonwood"
+
+# Republic(system Izar)
+planet "Poseidos"
+	landscape "land/poseidos"
+
+# Republic(system Betelgeuse)
+planet "Prime"
+	landscape "land/prime"
+
+# Republic(system Zeta Aquilae)
+planet "Rand"
+	landscape "land/rand"
+
+# Republic(system Sirius)
+planet "Relic"
+	landscape "land/relic"
+
+# Republic(system Kraz)
+planet "Rust"
+	landscape "land/rust"
+
+# Republic(system Phact)
+planet "Serpens"
+	landscape "land/serpens"
+
+# Republic(system Altair)
+planet "Shiver"
+	landscape "land/shiver"
+
+# Republic(system Mimosa)
+planet "Shorebreak"
+	landscape "land/shorebreak"
+
+# Republic(system Alheka)
+planet "Shroud"
+	landscape "land/shroud"
+
+# Republic(system Vega)
+planet "Silver"
+	landscape "land/silver"
+
+# Republic(system Albireo)
+planet "Sinter"
+	landscape "land/sinter"
+
+# Republic(system Saiph)
+planet "Skillet"
+	landscape "land/skillet"
+
+# Republic(system Hadar)
+planet "Skymoot"
+	landscape "land/skymoot"
+
+# Republic(system Pherkad)
+planet "Solace"
+	landscape "land/solace"
+
+# Republic(system Canopus)
+planet "Splashdown"
+	landscape "land/splashdown"
+
+# Republic(system Acrux)
+planet "Starcross"
+	landscape "land/starcross"
+
+# Republic(system Dschubba)
+planet "Sundrinker"
+	landscape "land/sundrinker"
+
+# Republic(system Pollux)
+planet "Thrall"
+	landscape "land/thrall"
+
+# Republic(system Alkaid)
+planet "Thunder"
+	landscape "land/thunder"
+
+# Republic(system Sargas)
+planet "Trinket"
+	landscape "land/trinket"
+
+# Republic(system Alheka)
+planet "Triton Station"
+	landscape "land/tritonstation"
+
+# Republic(system Cebalrai)
+planet "Tundra"
+	landscape "land/tundra"
+
+# Republic(system Alniyat)
+planet "Twinstar"
+	landscape "land/twinstar"
+
+# Republic(system Hadar)
+planet "Typhon Station"
+	landscape "land/typhonstation"
+
+# Republic(system Tejat)
+planet "Vail"
+	landscape "land/vail"
+
+# Republic(system Epsilon Leonis)
+planet "Valhalla"
+	landscape "land/valhalla"
+
+# Republic(system Miaplacidus)
+planet "Vinci"
+	landscape "land/vinci"
+
+# Republic(system Algieba)
+planet "Watcher"
+	landscape "land/watcher"
+
+# Republic(system Tarazed)
+planet "Wayfarer"
+	landscape "land/wayfarer"
+
+# Republic(system Regor)
+planet "Windblain"
+	landscape "land/windblain"
+
+# Republic(system Yed Prior)
+planet "Winter"
+	landscape "land/winter"
+
+# Republic(system Izar)
+planet "Wyvern Station"
+	landscape "land/wyvernstation"
+
+# Republic(system Zubeneschamali)
+planet "Zug"
+	landscape "land/zug"
+
+# Scar's Legion(system Kneirc)
+planet "Scar's Hideout"
+	landscape "land/scarshideout"
+
+# Syndicate(system Schedar)
+planet "Amazon"
+	landscape "land/amazon"
+
+# Syndicate(system Matar)
+planet "Antipode"
+	landscape "land/antipode"
+
+# Syndicate(system Bellatrix)
+planet "Bluestone"
+	landscape "land/bluestone"
+
+# Syndicate(system Al Dhanab)
+planet "Burthen"
+	landscape "land/burthen"
+
+# Syndicate(system Zaurak)
+planet "Canyon"
+	landscape "land/canyon"
+
+# Syndicate(system Scheat)
+planet "Charybdis Station"
+	landscape "land/charybdisstation"
+
+# Syndicate(system Ruchbah)
+planet "Crossroads"
+	landscape "land/crossroads"
+
+# Syndicate(system Fomalhaut)
+planet "Dagon Station"
+	landscape "land/dagonstation"
+
+# Syndicate(system Achernar)
+planet "Foundry"
+	landscape "land/foundry"
+
+# Syndicate(system Alderamin)
+planet "Furnace"
+	landscape "land/furnace"
+
+# Syndicate(system Markab)
+planet "Hephaestus"
+	landscape "land/hephaestus"
+
+# Syndicate(system Alnair)
+planet "Hippocrates"
+	landscape "land/hippocrates"
+
+# Syndicate(system Menkar)
+planet "Icefall"
+	landscape "land/icefall"
+
+# Syndicate(system Caph)
+planet "Kraken Station"
+	landscape "land/krakenstation"
+
+# Syndicate(system Ankaa)
+planet "Lodestone"
+	landscape "land/lodestone"
+
+# Syndicate(system Delta Capricorni)
+planet "Maker"
+	landscape "land/maker"
+
+# Syndicate(system Fomalhaut)
+planet "Millrace"
+	landscape "land/millrace"
+
+# Syndicate(system Alpheratz)
+planet "Moonshake"
+	landscape "land/moonshake"
+
+# Syndicate(system Alpha Hydri)
+planet "Nimbus"
+	landscape "land/nimbus"
+
+# Syndicate(system Menkar)
+planet "Oberon Station"
+	landscape "land/oberonstation"
+
+# Syndicate(system Mirach)
+planet "Placer"
+	landscape "land/placer"
+
+# Syndicate(system Algol)
+planet "Quicksilver"
+	landscape "land/quicksilver"
+
+# Syndicate(system Caph)
+planet "Reunion"
+	landscape "land/reunion"
+
+# Syndicate(system Polaris)
+planet "Shangri-La"
+	landscape "land/shangri-la"
+
+# Syndicate(system Sheratan)
+planet "Sundive"
+	landscape "land/sundive"
+
+# Syndicate(system Mirfak)
+planet "Sunracer"
+	landscape "land/sunracer"
+
+# Syndicate(system Sheratan)
+planet "Taylor"
+	landscape "land/taylor"
+
+# Syndicate(system Diphda)
+planet "Tinker"
+	landscape "land/tinker"
+
+# Syndicate(system Hamal)
+planet "Trove"
+	landscape "land/trove"
+
+# Uninhabited(system Ae Il M-77)
+planet "Aetuah"
+	landscape "land/aetuah"
+
+# Uninhabited(system Arculus)
+planet "Aksaray"
+	landscape "land/aksaray"
+
+# Uninhabited(system Fereti)
+planet "Alix"
+	landscape "land/alix"
+
+# Uninhabited(system Gacrux)
+planet "Asphodel"
+	landscape "land/asphodel"
+
+# Uninhabited(system Al Hurr)
+planet "Aspiration"
+	landscape "land/aspiration"
+
+# Uninhabited(system Host)
+planet "Avalon"
+	landscape "land/avalon"
+
+# Uninhabited(system Arculus)
+planet "Babiali"
+	landscape "land/babiali"
+
+# Uninhabited(system Parca)
+planet "Baianus"
+	landscape "land/baianus"
+
+# Uninhabited(system Imo Dep)
+planet "Bluerun"
+	landscape "land/bluerun"
+
+# Uninhabited(system Patir)
+planet "Builder Settlement"
+	landscape "land/buildersettlement"
+
+# Uninhabited(system Pantica)
+planet "Capitoline"
+	landscape "land/capitoline"
+
+# Uninhabited(system Polerius)
+planet "Ceilia'sei"
+	landscape "land/ceiliasei"
+
+# Uninhabited(system Polerius)
+planet "Celeatis"
+	landscape "land/celeatis"
+
+# Uninhabited(system Cardea)
+planet "Crataegusa"
+	landscape "land/crataegusa"
+
+# Uninhabited(system Wreoul)
+planet "Cyife"
+	landscape "land/cyife"
+
+# Uninhabited(system Da Ent)
+planet "Darkrest"
+	landscape "land/darkrest"
+
+# Uninhabited(system Asikafarnut)
+planet "Deka Dathnak"
+	landscape "land/dekadathnak"
+
+# Uninhabited(system Solifar)
+planet "Desi Seledrak"
+	landscape "land/desiseledrak"
+
+# Uninhabited(system Yli)
+planet "Dlia Jzaur"
+	landscape "land/dliajzaur"
+
+# Uninhabited(system Paeli)
+planet "Eavine"
+	landscape "land/eavine"
+
+# Uninhabited(system Mnashyu)
+planet "Eeu Mnai"
+	landscape "land/eeumnai"
+
+# Uninhabited(system Furmeliki)
+planet "Elek Kartanu"
+	landscape "land/elekkartanu"
+
+# Uninhabited(system Arculus)
+planet "Eminonu"
+	landscape "land/eminonu"
+
+# Uninhabited(system Chornifath)
+planet "Eskar Kortuka"
+	landscape "land/eskarkortuka"
+
+
+# Uninhabited(system Feroteri)
+planet "Esperaktu Station"
+	landscape "land/esperaktustation"
+
+# Uninhabited(system Pantica)
+planet "Esquiline"
+	landscape "land/esquiline"
+
+# Uninhabited(system Heutesl)
+planet "Esstch"
+	landscape "land/esstch"
+
+# Uninhabited(system Lucina)
+planet "Far Monad"
+	landscape "land/farmonad"
+
+# Uninhabited(system Kor Nor'peli)
+planet "Far'en Lai"
+	landscape "land/farenlai"
+
+# Uninhabited(system Postverta)
+planet "Fertriery"
+	landscape "land/fertriery"
+
+# Uninhabited(system Fah Soom)
+planet "Firefall"
+	landscape "land/firefall"
+
+# Uninhabited(system Jyeg Pvu)
+planet "Gara Pvu"
+	landscape "land/garapvu"
+
+# Uninhabited(system Kneirc)
+planet "Ghneoe"
+	landscape "land/ghneoe"
+
+# Uninhabited(system Citadelle)
+planet "Independance"
+	landscape "land/independance"
+
+# Uninhabited(system Lom Tahr)
+planet "Iritoroost"
+	landscape "land/iritoroost"
+
+# Uninhabited(system Ula Mon)
+planet "Ironfirth"
+	landscape "land/ironfirth"
+
+# Uninhabited(system Cinxia)
+planet "Janiculum"
+	landscape "land/janiculum"
+
+# Uninhabited(system Sol)
+planet "Jupiter"
+	landscape "land/jupiter"
+
+# Uninhabited(system Aki'il)
+planet "Kaeyin"
+	landscape "land/kaeyin"
+
+# Uninhabited(system Korsmanath)
+planet "Kasichara Fet"
+	landscape "land/kasicharafet"
+
+# Uninhabited(system Arculus)
+planet "Kumkapi"
+	landscape "land/kumkapi"
+
+# Uninhabited(system Kochab)
+planet "Lenz's Loop"
+	landscape "land/lenzsloop"
+
+# Uninhabited(system Fearis)
+planet "Letis'sei"
+	landscape "land/letissei"
+
+# Uninhabited(system Rati Cal)
+planet "Limejog"
+	landscape "land/limejog"
+
+# Uninhabited(system Alpherg)
+planet "Mendez Station"
+	landscape "land/mendezstation"
+
+# Uninhabited(system Mnashyu)
+planet "Mnai"
+	landscape "land/mnai"
+
+# Uninhabited(system Nenia)
+planet "Nasqueron"
+	landscape "land/nasqueron"
+
+# Uninhabited(system Alhena)
+planet "Nepheritis"
+	landscape "land/nepheritis"
+
+# Uninhabited(system Alpheratz)
+planet "Neriene"
+	landscape "land/neriene"
+
+# Uninhabited(system Giribea)
+planet "Osaeli"
+	landscape "land/osaeli"
+
+# Uninhabited(system Gerenus)
+planet "Palarei"
+	landscape "land/palarei"
+
+# Uninhabited(system Cinxia)
+planet "Palatine"
+	landscape "land/palatine"
+
+# Uninhabited(system Aspidiske)
+planet "Passaritus"
+	landscape "land/passaritus"
+
+# Uninhabited(system Cinxia)
+planet "Pincian"
+	landscape "land/pincian"
+
+# Uninhabited(system Markab)
+planet "Placatious"
+	landscape "land/placatious"
+
+# Uninhabited(system Fingol)
+planet "Pyriphlegethon"
+	landscape "land/pyriphlegethon"
+
+# Uninhabited(system Pantica)
+planet "Quirinal"
+	landscape "land/quirinal"
+
+# Uninhabited(system Zuba Zub)
+planet "Redwatch"
+	landscape "land/redwatch"
+
+# Uninhabited(system Lire)
+planet "Retilie"
+	landscape "land/retilie"
+
+# Uninhabited(system Alkaid)
+planet "Rowark's Roost"
+	landscape "land/rowarksroost"
+
+# Uninhabited(system Terra Incognita)
+planet "Ruin"
+	landscape "land/ruin"
+
+# Uninhabited(system Skeruto)
+planet "Sabira Eseskrai"
+	landscape "land/sabiraeseskrai"
+
+# Uninhabited(system Heia Due)
+planet "Sandsnap"
+	landscape "land/sandsnap"
+
+# Uninhabited(system Hesselpost)
+planet "Sarisa Fentra"
+	landscape "land/sarisafentra"
+
+# Uninhabited(system Hesselpost)
+planet "Sebarep Atarkis"
+	landscape "land/sebarepatarkis"
+
+# Uninhabited(system Fornarep)
+planet "Sek Alarfarat"
+	landscape "land/sekalarfarat"
+
+# Uninhabited(system Chikatip)
+planet "Selefkar Refinery"
+	landscape "land/selefkarrefinery"
+
+# Uninhabited(system Seketra)
+planet "Seleptra Nak"
+	landscape "land/seleptranak"
+
+# Uninhabited(system Arculus)
+planet "Seraglio"
+	landscape "land/seraglio"
+
+# Uninhabited(system Pantica)
+planet "Servian"
+	landscape "land/servian"
+
+# Uninhabited(system Shaula)
+planet "Shih's Locker"
+	landscape "land/shihslocker"
+
+# Uninhabited(system Nona)
+planet "Siteria"
+	landscape "land/siteria"
+
+# Uninhabited(system Nenia)
+planet "Slylandro"
+	landscape "land/slylandro"
+
+# Uninhabited(system Farbutero)
+planet "Solima Skarati"
+	landscape "land/solimaskarati"
+
+# Uninhabited(system Kaliptari)
+planet "Spera Anatrusk"
+	landscape "land/speraanatrusk"
+
+# Uninhabited(system Postverta)
+planet "Ssil Vida"
+	landscape "land/ssilvida"
+
+# Uninhabited(system Lom Tahr)
+planet "Steamwater"
+	landscape "land/steamwater"
+
+# Uninhabited(system Cinxia)
+planet "Tibernia"
+	landscape "land/tibernia"
+
+# Uninhabited(system Arculus)
+planet "Topkapi"
+	landscape "land/topkapi"
+
+# Uninhabited(system Zubenelhakrabi)
+planet "Valley of the Damned"
+	landscape "land/valleyofthedamned"
+
+# Uninhabited(system Nssryos)
+planet "Var Oti"
+	landscape "land/varoti"
+
+# Uninhabited(system Cinxia)
+planet "Vatican"
+	landscape "land/vatican"
+
+# Uninhabited(system Evrae)
+planet "Veiuye"
+	landscape "land/veiuye"
+
+# Uninhabited(system Dixere)
+planet "Veliante"
+	landscape "land/veliante"
+
+# Uninhabited(system Vorsuke)
+planet "Vigales"
+	landscape "land/vigales"
+
+# Uninhabited(system Da Ent)
+planet "Violetwake"
+	landscape "land/violetwake"
+
+# Uninhabited(system Answer)
+planet "Vivid Aether"
+	landscape "land/vividaether"
+
+# Uninhabited(system Pukako)
+planet "Wye Tzeou"
+	landscape "land/wyetzeou"
+
+# Uninhabited(system Arculus)
+planet "Xerolophos"
+	landscape "land/xerolophos"
+
+# Uninhabited(system Huud)
+planet "Xurelei"
+	landscape "land/xurelei"
+
+# Uninhabited(system Arculus)
+planet "Yedikule"
+	landscape "land/yedikule"
+
+# Uninhabited(system Ilirco)
+planet "Yiia Iyr"
+	landscape "land/yiiaiyr"
+
+# Uninhabited(system Kanguwa)
+planet "Yniu Eiu"
+	landscape "land/yniueiu"
+
+# Uninhabited(system Kanguwa)
+planet "Yniu Ena"
+	landscape "land/yniuena"
+
+# Uninhabited(system Kneirc)
+planet "Zydee"
+	landscape "land/zydee"
+
+# Wanderer(system Ek'kek'ru)
+planet "Kort Kehai"
+	landscape "land/kortkehai"
+
+# Wanderer(system Chirr'ay'akai)
+planet "Kort Vek'kri"
+	landscape "land/kortvekkri"
+
+# Wanderer(system Iyech'yek)
+planet "Tik Klai"
+	landscape "land/tikklai"
+
+# Wanderer(system Kiro'ku)
+planet "Var' Kar'i'i"
+	landscape "land/varkarii"
+
+# Wanderer(system Pik'ro'iyak)
+planet "Var' Kayi"
+	landscape "land/varkayi"
+
+# Wanderer(system Si'yak'ku)
+planet "Var' Roi"
+	landscape "land/varroi"
+
+# Wanderer(system Ka'ch'chrai)
+planet "Vara K'chrai"
+	landscape "land/varakchrai"
+
+# Wanderer(system Sich'ka'ara)
+planet "Vara Ke'sok"
+	landscape "land/varakesok"
+
+# Wanderer(system Ka'pru)
+planet "Vara Ke'stai"
+	landscape "land/varakestai"
+
+# Wanderer(system Iyech'yek)
+planet "Vara Kehi'ki"
+	landscape "land/varakehiki"
+
+# Wanderer(system Es'sprak'ai)
+planet "Vara Rakak"
+	landscape "land/vararakak"
+
+# Wanderer(system Kiru'kichi)
+planet "Varu Ek'lak'lai"
+	landscape "land/varueklaklai"
+
+# Wanderer(system Chy'chra)
+planet "Varu K'est"
+	landscape "land/varukest"
+
+# Wanderer(system Aya'k'k)
+planet "Varu K'prai"
+	landscape "land/varukprai"
+
+# Wanderer(system Ik'kara'ka)
+planet "Varu Mer'ek"
+	landscape "land/varumerek"
+
+# Wanderer(system Si'yak'ku)
+planet "Varu Tek'kai"
+	landscape "land/varutekkai"
+
+# Wanderer(system Ap'arak)
+planet "Varu Tev'kei"
+	landscape "land/varutevkei"

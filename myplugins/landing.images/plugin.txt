@@ -1,0 +1,2 @@
+name "landing.images"
+about "Replaces all planet landing images with better fitting ones. See the README for details."
