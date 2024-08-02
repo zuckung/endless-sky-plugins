@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-02 | update: landing.images<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-02 | update: landing.images.android<br>
+2024-08-02 | update: landing.images<br>
 2024-07-31 | update: landing.images<br>
 2024-07-24 | update: no.more.mereti.mines<br>
 2024-07-24 | updated tools folder with new and changed ES scripts<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-07-19 | update: jump.gates<br>
 2024-07-14 | update: captureable.person.ships<br>
 2024-07-13 | update: galactic.capital.investment<br>
-2024-07-13 | update: real.fluff<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -51,6 +51,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#jumpgates">jump.gates</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#landingimages">landing.images</a><br>
+<a href="README.md#landingimagesandroid">landing.images.android</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
@@ -2133,6 +2134,61 @@ fixed wrong size of ahr.jpg<br>
 <br>
 
 2024-07-31<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### landing.images.android
+
+<img src="myplugins/landing.images.android/icon.png" height="100">
+
+[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/landing.images.android.zip) | 76.95 kb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <br>
+<br>
+>Moves the landing image above the textbox, instead of behind the textbox (for ES mobile). See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### landing.images.android 
+
+<br>
+
+<br>
+
+Moves the landing image above the textbox, instead of behind the textbox (for ES mobile).<br>
+
+<br>
+
+Changed the UI image during a landing, scaled and moved the UI elements.<br>
+
+<br>
+
+Before:<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android01.jpg' width='400'>
+
+<br>
+
+After:<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android02.jpg' width='400'>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-08-02<br>
 
 initial release<br>
 
