@@ -3,3 +3,4 @@ author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
 	swarm pod fix by timeout.fu
+	shield disruptor gun by Darcy Manoel

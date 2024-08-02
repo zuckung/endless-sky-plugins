@@ -3,7 +3,7 @@
 ship "Model 16"
 	outfits
 		"Husk-Slice"
-		"Shield Disruptor Turret" 1
+		"Shield Disruptor Turret"
 		"Husk-Slice Turret"
 		"Plasma Core"
 		"Generator (Inferno Class)"
@@ -30,8 +30,8 @@ ship "Model 32"
 		"Steering (Lunar Class)"
 		Hyperdrive
 
-# removed 1x cluster mine layer, 35x cluster mine, 2x cluster mine rack = 66t outfit
-# added 1x husk slice = 46t outfit
+# removed 1x cluster mine layer, 35x cluster mine, 2x cluster mine rack, 1x reasoning node = 67t outfit
+# added 1x husk slice, 2x small heat shunt = 62t outfit
 ship "Model 64"
 	outfits
 		"Husk-Slice"
@@ -40,57 +40,89 @@ ship "Model 64"
 		"Double Plasma Core"
 		"Generator (Furnace Class)"
 		"Systems Core (Medium)"
-		"Reasoning Node" 2
+		"Small Heat Shunt" 2
+		"Reasoning Node"
 		"Thruster (Lunar Class)"
 		"Thruster (Asteroid Class)"
 		"Steering (Planetary Class)"
 		Hyperdrive
 
-# removed 2x cluster mine layer, 34x cluster mine = 96t outfit
-# added 2x husk slice = 92t outfit
+# removed 2x cluster mine layer, 34x cluster mine, 1x reasoning node = 97t outfit
+# added 1x husk slice, 2x disruptor gun = 92t outfit
 ship "Model 128"
 	outfits
-		"Husk-Slice" 2
+		"Husk-Slice"
+		"Shield Disruptor Gun" 2
 		"Shield Disruptor Turret" 2
 		"Husk-Slice Turret" 3
 		"Double Plasma Core"
 		"Generator (Inferno Class)"
 		"Systems Core (Medium)"
-		"Reasoning Node" 2
+		"Reasoning Node"
 		"Thruster (Planetary Class)"
 		"Steering (Planetary Class)"
 		"Steering (Asteroid Class)"
 		Hyperdrive
+	gun -11 -166 "Shield Disruptor Gun"
+	gun 0 -166 "Husk-Slice"
+	gun 11 -166 "Shield Disruptor Gun"
+	turret 29 -83 "Husk-Slice Turret"
+	turret -26 -53 "Shield Disruptor Turret"
+	turret 56 35 "Husk-Slice Turret"
+	turret 50 84 "Shield Disruptor Turret"
+	turret -24 115 "Husk-Slice Turret"
 
-# removed 2x cluster mine layer, 61x cluster mine, 3x cluster mine rack = 123t outfit
-# added 2x husk slice = 92t outfit
+# removed 2x cluster mine layer, 61x cluster mine, 3x cluster mine rack, 2x reasoning node = 125t outfit
+# added 2x husk slice, 1x disruptor gun, 1x small heat shunt = 123t outfit
 ship "Model 256"
 	outfits
 		"Husk-Slice" 2
+		"Shield Disruptor Gun"
 		"Shield Disruptor Turret" 3
 		"Husk-Slice Turret" 3
 		"Triple Plasma Core"
 		"Systems Core (Large)"
 		"Large Heat Shunt"
-		"Reasoning Node" 3
+		"Small Heat Shunt"
+		"Reasoning Node"
 		"Thruster (Planetary Class)"
 		"Steering (Planetary Class)"
 		"Steering (Comet Class)"
 		Hyperdrive
+	gun -22 -148 "Husk-Slice"
+	gun 0 -148 "Shield Disruptor Gun"
+	gun 22 -148 "Husk-Slice"
+	turret 36 -85 "Shield Disruptor Turret"
+	turret -56 -45 "Husk-Slice Turret"
+	turret 69 3 "Shield Disruptor Turret"
+	turret -73 38 "Husk-Slice Turret"
+	turret 66 64 "Husk-Slice Turret"
+	turret -56 101 "Shield Disruptor Turret"
 
-# removed 2x cluster mine layer, 52x cluster mine, 2x cluster mine rack = 114t outfit
-# added 2x husk slice = 92t outfit
+# removed 2x cluster mine layer, 52x cluster mine, 2x cluster mine rack, 2x reasoning node = 116t outfit
+# added 1x husk slice, 2x disruptor gun, 1x large heat shunt = 116t outfit
 ship "Model 512"
 	outfits
-		"Husk-Slice" 2
+		"Husk-Slice"
+		"Shield Disruptor Gun" 2
 		"Shield Disruptor Turret" 3
 		"Husk-Slice Turret" 4
 		"Triple Plasma Core"
 		"Plasma Core"
 		"Systems Core (Large)"
-		"Large Heat Shunt"
+		"Large Heat Shunt" 2
 		"Small Heat Shunt" 2
-		"Reasoning Node" 3
+		"Reasoning Node"
 		"Thruster (Planetary Class)"
 		"Steering (Stellar Class)"
 		Hyperdrive
+	gun -22 -143 "Shield Disruptor Gun"
+	gun 0 -143 "Husk-Slice"
+	gun 22 -143 "Shield Disruptor Gun"
+	turret -23 -134 "Husk-Slice Turret"
+	turret 91 -102 "Shield Disruptor Turret"
+	turret 124 -57 "Husk-Slice Turret"
+	turret -130 -33 "Shield Disruptor Turret"
+	turret 138 20 "Husk-Slice Turret"
+	turret -121 86 "Husk-Slice Turret"
+	turret 54 138 "Shield Disruptor Turret"

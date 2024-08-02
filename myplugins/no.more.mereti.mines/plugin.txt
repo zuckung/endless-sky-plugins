@@ -1,2 +1,2 @@
 name "no.more.mereti.mines"
-about "Removes the mines from Mereti ships and replaces them with Husk-Slice to increase game performance. See the README for details."
+about "Removes the mines from Mereti ships and replaces them with Mereti-typical guns to increase game performance. See the README for details."
