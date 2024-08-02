@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-02 | update: no.more.mereti.mines<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-02 | update: landing.images.highres<br>
+2024-08-02 | update: no.more.mereti.mines<br>
 2024-08-02 | update: landing.images.android<br>
 2024-08-02 | update: landing.images<br>
 2024-07-31 | update: landing.images<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-07-20 | update: real.fluff<br>
 2024-07-19 | update: real.fluff<br>
 2024-07-19 | update: jump.gates<br>
-2024-07-14 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -52,9 +52,10 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#landingimages">landing.images</a><br>
 <a href="README.md#landingimagesandroid">landing.images.android</a><br>
+<a href="README.md#landingimageshighres">landing.images.highres</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
-<a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
@@ -2179,6 +2180,49 @@ Before:<br>
 After:<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android02.jpg' width='400'>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-08-02<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### landing.images.highres
+
+<img src="myplugins/landing.images.highres/icon.png" height="100">
+
+[landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/landing.images.highres.zip) | 61.57 mb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) <br>
+<br>
+>High resolution files for landing.images plugin. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### landing.images.highres
+
+<br>
+
+<br>
+
+High resolution files for landing.images plugin.<br>
+
+<br>
+
+Adds images with 1440x720 resolution. Landing.images plugin is still needed.<br>
 
 <br>
 
