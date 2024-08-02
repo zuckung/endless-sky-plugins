@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-07-31 | update: landing.images<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-02 | update: landing.images<br>
+2024-07-31 | update: landing.images<br>
 2024-07-24 | update: no.more.mereti.mines<br>
 2024-07-24 | updated tools folder with new and changed ES scripts<br>
 2024-07-20 | update: real.fluff<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-07-14 | update: captureable.person.ships<br>
 2024-07-13 | update: galactic.capital.investment<br>
 2024-07-13 | update: real.fluff<br>
-2024-07-13 | update: human.labels<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2094,7 +2094,7 @@ reworked readme<br>
 
 <img src="myplugins/landing.images/icon.png" height="100">
 
-[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/landing.images.zip) | 13.98 mb | 2024-07-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
+[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/landing.images.zip) | 13.96 mb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
 <br>
 >Replaces all planet landing images with better fitting ones. See the README for details.
 
@@ -2123,6 +2123,12 @@ See all images <a href='https://github.com/zuckung/endless-sky-plugins-graphics/
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-08-02<br>
+
+fixed wrong size of ahr.jpg<br>
 
 <br>
 

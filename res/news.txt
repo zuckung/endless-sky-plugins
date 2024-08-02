@@ -1,3 +1,4 @@
+2024-08-02 | update: landing.images
 2024-07-31 | update: landing.images
 2024-07-24 | update: no.more.mereti.mines
 2024-07-24 | updated tools folder with new and changed ES scripts
