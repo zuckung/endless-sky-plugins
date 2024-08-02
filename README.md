@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-02 | update: landing.images.android<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-02 | update: no.more.mereti.mines<br>
+2024-08-02 | update: landing.images.android<br>
 2024-08-02 | update: landing.images<br>
 2024-07-31 | update: landing.images<br>
 2024-07-24 | update: no.more.mereti.mines<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-07-19 | update: real.fluff<br>
 2024-07-19 | update: jump.gates<br>
 2024-07-14 | update: captureable.person.ships<br>
-2024-07-13 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2585,9 +2585,9 @@ initial release<br>
 
 <img src="myplugins/no.more.mereti.mines/icon.png" height="100">
 
-[no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/no.more.mereti.mines.zip) | 34.41 kb | 2024-07-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) <br>
+[no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/no.more.mereti.mines.zip) | 81.51 kb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) <br>
 <br>
->Removes the mines from Mereti ships and replaces them with Husk-Slice to increase game performance. See the README for details.
+>Removes the mines from Mereti ships and replaces them with Mereti-typical guns to increase game performance. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2597,11 +2597,11 @@ initial release<br>
 
 <br>
 
-Removes the mines from Mereti ships and replaces them with Husk-Slice to increase game performance.<br>
+Removes the mines from Mereti ships and replaces them with Mereti-typical guns to increase game performance.<br>
 
 <br>
 
-Replaces Cluster Mine Layer, Cluster Mine Racks and Cluster Mines with Husk-Slice cannons, on Model 16/32/64/128/256/512. For every removed mine layer a cannon got added. That increases game performance in mass fights, like in Mesuket system.<br>
+Replaces Cluster Mine Layer, Cluster Mine Racks and Cluster Mines with Husk-Slice and Shield Disruptor guns, and if need be Heat Shunts, on Model 16/32/64/128/256/512. For every removed mine layer guns and heat shunts got added. That increases game performance in mass fights, like in Mesuket system.<br>
 
 Added bunrodean swarm pods change by timeout.fu. Now it fires less, but with more damage.br>
 
@@ -2610,6 +2610,12 @@ Added bunrodean swarm pods change by timeout.fu. Now it fires less, but with mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-08-02<br>
+
+added shield disruptor guns (by Darcy Manoel) and heat shunts to the Mereti ships (by timeout.fu)<br>
 
 <br>
 
