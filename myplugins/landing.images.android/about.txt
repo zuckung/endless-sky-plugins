@@ -1,0 +1,1 @@
+Moves the landing image above the textbox, instead of behind the textbox (for ES mobile). See the README for details.
