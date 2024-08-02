@@ -11,6 +11,9 @@ See all images <a href='https://github.com/zuckung/endless-sky-plugins-graphics/
 <br>
 Changelog:<br>
 <br>
+2024-08-02<br>
+fixed wrong size of ahr.jpg<br>
+<br>
 2024-07-31<br>
 initial release<br>
 
