@@ -32,5 +32,5 @@ human.labels|1.0.4
 more.person.ships|1.0.0
 jump.gates|1.0.1
 landing.images|1.0.2
-landing.images.android|1.0.0
+landing.images.android|1.0.1
 landing.images.highres|1.0.0
