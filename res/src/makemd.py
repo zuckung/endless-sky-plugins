@@ -76,8 +76,9 @@ for entry in entries:
 	withdots = entry.replace(" ", ".")
 	forweb  = entry.replace(" ", "%20")
 	pa_template = p_template
+	
 	# get version number
-	with open('/res/versioning.txt', 'r') as read_version:
+	with open('res/versioning.txt', 'r') as read_version:
 		version_lines = read_version.readlines()
 	for vline in version_lines:
 		split = vline.split('|')
