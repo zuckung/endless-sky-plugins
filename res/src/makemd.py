@@ -107,7 +107,11 @@ for entry in entries:
           
 	# get last modified date from the assetfiles
 	try:
-		response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
+		try:
+			response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
+		except:
+			assetfiles = assetfiles.replace('1.0.0', '1.0')
+			response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
 		modif = response.headers['Last-Modified']
 		datetime_object = datetime.strptime(modif, '%a, %d %b %Y %H:%M:%S %Z')
 		modif = str(datetime_object.date())
