@@ -76,22 +76,8 @@ for entry in entries:
 	withdots = entry.replace(" ", ".")
 	forweb  = entry.replace(" ", "%20")
 	pa_template = p_template
-	
-	# get version number
-	with open('res/versioning.txt', 'r') as read_version:
-		version_lines = read_version.readlines()
-	found = 0
-	for vline in version_lines:
-		split = vline.split('|')
-		if split[0] == withdots:
-			version_number = split[1].replace('\n', '')
-			found = 1
-			break
-	if found == 0:
-		version_number = '1.0.0'
+
 	# get description out of about.txt
-	# https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-landing.images.android/landing.images.android.zip
-	assetfiles = 'https://github.com/zuckung/endless-sky-plugins/releases/download/v' + version_number + '-' + withdots + '/'
 	with open(pathtoplugins + entry + "/about.txt" , "r") as file1:
 		description_list = file1.readlines()
 	description = ""
@@ -107,11 +93,7 @@ for entry in entries:
           
 	# get last modified date from the assetfiles
 	try:
-		try:
-			response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
-		except:
-			assetfiles = assetfiles.replace('1.0.0', '1.0')
-			response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
+		response = requests.head(assetfiles + withdots + ".zip", allow_redirects=True)
 		modif = response.headers['Last-Modified']
 		datetime_object = datetime.strptime(modif, '%a, %d %b %Y %H:%M:%S %Z')
 		modif = str(datetime_object.date())
