@@ -76,8 +76,18 @@ for entry in entries:
 	withdots = entry.replace(" ", ".")
 	forweb  = entry.replace(" ", "%20")
 	pa_template = p_template
+	# get version number
+	with open('/res/versioning.txt', 'r') as read_version:
+		version_lines = read_version.readlines()
+	for vline in version_lines:
+		split = vline.split('|')
+		if split[0] == withdots:
+			version_number = split[1].replace('\n', '')
+			break
 
 	# get description out of about.txt
+	# https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-landing.images.android/landing.images.android.zip
+	assetfiles = 'https://github.com/zuckung/endless-sky-plugins/releases/download/' + version_number + '-' + withdots + '/'
 	with open(pathtoplugins + entry + "/about.txt" , "r") as file1:
 		description_list = file1.readlines()
 	description = ""
