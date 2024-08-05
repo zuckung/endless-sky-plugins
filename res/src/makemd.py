@@ -88,7 +88,7 @@ for entry in entries:
 			found = 1
 			break
 	if found == 0:
-		version_number = 1.0.0
+		version_number = '1.0.0'
 	# get description out of about.txt
 	# https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-landing.images.android/landing.images.android.zip
 	assetfiles = 'https://github.com/zuckung/endless-sky-plugins/releases/download/v' + version_number + '-' + withdots + '/'
