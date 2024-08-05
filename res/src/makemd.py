@@ -88,7 +88,7 @@ for entry in entries:
 
 	# get description out of about.txt
 	# https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-landing.images.android/landing.images.android.zip
-	assetfiles = 'https://github.com/zuckung/endless-sky-plugins/releases/download/' + version_number + '-' + withdots + '/'
+	assetfiles = 'https://github.com/zuckung/endless-sky-plugins/releases/download/v' + version_number + '-' + withdots + '/'
 	with open(pathtoplugins + entry + "/about.txt" , "r") as file1:
 		description_list = file1.readlines()
 	description = ""
