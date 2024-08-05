@@ -217,7 +217,7 @@ changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-additional.command.buttons.radial/additional.command.buttons.radial.zip) | N/A | N/A | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 32.39 kb | 2024-05-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the mobile version. See the readme for details.
 
