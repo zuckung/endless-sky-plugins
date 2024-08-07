@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-03 | update: landing.images.android<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-07 | update: landing.images.android<br>
+2024-08-03 | update: landing.images.android<br>
 2024-08-02 | update: landing.images.highres<br>
 2024-08-02 | update: no.more.mereti.mines<br>
 2024-08-02 | update: landing.images.android<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-07-24 | update: no.more.mereti.mines<br>
 2024-07-24 | updated tools folder with new and changed ES scripts<br>
 2024-07-20 | update: real.fluff<br>
-2024-07-19 | update: real.fluff<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2151,7 +2151,7 @@ initial release<br>
 
 <img src="myplugins/landing.images.android/icon.png" height="100">
 
-[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-landing.images.android/landing.images.android.zip) | 17.65 kb | 2024-08-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <br>
+[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-landing.images.android/landing.images.android.zip) | 32.09 kb | 2024-08-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <br>
 <br>
 >Moves the landing image above the textbox, instead of behind the textbox (for ES mobile). See the README for details.
 
@@ -2169,13 +2169,21 @@ Moves the landing image above the textbox, instead of behind the textbox (for ES
 
 In case parts if the UI/the buttons are outside the screen, try rescaling your UI in the ES options<br>
 
-If that doesnt help, open the zip, edit 'landing.images.android/data/interface.txt' and change line 3 and 4 to:<br>
+If that doesnt help, open the zip, edit 'landing.images.android/data/interface.txt' and change line 2 to 7 to:<br>
+
+	image "land"<br>
 
 		center -60 -150<br>
 
 		dimensions 250 135<br>
 
-that resizes the landing image to it's half<br>
+	sprite "ui/frame"<br>
+
+		center -60 -150<br>
+
+		dimensions 265 150<br>
+
+That resizes the landing image and the frame to their half.<br>
 
 <br>
 
@@ -2194,6 +2202,14 @@ After:<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-08-07<br>
+
+added a frame for the image<br>
+
+finetuned position<br>
 
 <br>
 
