@@ -1,7 +1,10 @@
 interface "planet"
 	image "land"
-		center -60 -220
+		center -60 -210
 		dimensions 500 270
+	sprite "ui/frame"
+		center -60 -210
+		dimensions 525 295
 	sprite "ui/planet dialog compact"
 		center -60 60
 	#button l
