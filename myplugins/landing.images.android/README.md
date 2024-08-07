@@ -5,12 +5,12 @@ Moves the landing image above the textbox, instead of behind the textbox (for ES
 <br>
 In case parts if the UI/the buttons are outside the screen, try rescaling your UI in the ES options<br>
 If that doesnt help, open the zip, edit 'landing.images.android/data/interface.txt' and change line 2 to 7 to:<br>
-	image "land"<br>
-		center -60 -150<br>
-		dimensions 250 135<br>
-	sprite "ui/frame"<br>
-		center -60 -150<br>
-		dimensions 265 150<br>
+	image "land"
+		center -60 -150
+		dimensions 250 135
+	sprite "ui/frame"
+		center -60 -150
+		dimensions 265 150
 That resizes the landing image and the frame to their half.<br>
 <br>
 Before:<br>
