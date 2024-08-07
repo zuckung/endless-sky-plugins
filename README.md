@@ -2151,7 +2151,7 @@ initial release<br>
 
 <img src="myplugins/landing.images.android/icon.png" height="100">
 
-[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-landing.images.android/landing.images.android.zip) | 32.09 kb | 2024-08-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <br>
+[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images.android/landing.images.android.zip) | 32.09 kb | 2024-08-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <br>
 <br>
 >Moves the landing image above the textbox, instead of behind the textbox (for ES mobile). See the README for details.
 
@@ -2171,17 +2171,17 @@ In case parts if the UI/the buttons are outside the screen, try rescaling your U
 
 If that doesnt help, open the zip, edit 'landing.images.android/data/interface.txt' and change line 2 to 7 to:<br>
 
-	image "land"<br>
+	image "land"
 
-		center -60 -150<br>
+		center -60 -150
 
-		dimensions 250 135<br>
+		dimensions 250 135
 
-	sprite "ui/frame"<br>
+	sprite "ui/frame"
 
-		center -60 -150<br>
+		center -60 -150
 
-		dimensions 265 150<br>
+		dimensions 265 150
 
 That resizes the landing image and the frame to their half.<br>
 

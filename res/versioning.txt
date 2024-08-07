@@ -19,7 +19,7 @@ human.labels|1.0.4
 jump.gates|1.0.1
 kor.efret.shipyard|1.0.0
 landing.images|1.0.2
-landing.images.android|1.0.2
+landing.images.android|1.0.3
 landing.images.highres|1.0.0
 more.arfectas|1.0.2
 more.boarding.missions|1.1.3
