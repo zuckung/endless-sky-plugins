@@ -1,0 +1,290 @@
+# planet Haze                 Dubhe
+# planet Memory               Zosma
+# planet "Huginn Station"     Zosma
+# planet "Muninn Station"     Zosma
+# planet Nifel                Gomeisa
+# planet Norn                 Adhara
+# planet Muspel               Adhara
+# planet Valhalla             Epsilon Leonis
+# planet Bivrost              Markeb
+# planet Mani                 Avior
+# planet "Fenrir Station"     Avior
+# planet Windblain            Regor
+# planet Helheim              Suhail
+# planet "Leviathan Station"  Suhail
+# planet Midgard              Aludra
+# planet Asgard               Naos
+# planet Alfheim              Wezen
+# planet "Phoenix Station"    Wezen
+# planet Deep                 Kornephoros
+# planet Clink                Kornephoros
+# planet Ingot                Tania Australis
+# planet "New Sahara"         Phecda
+# planet Bounty               Delta Velorum
+# planet Gemstone             Turais
+# planet "New Wales"          Algorel
+# planet "Hydra Station"      Algorel
+# planet "New Kansas"         Muhlifain
+# planet "Big Sky"            Sarin
+# planet "New Greenland"      Arcturus
+# planet "New Tibet"          Alioth
+# planet "New Holland"        Alphecca
+# planet "New Boston"         Retilicus
+# planet "New Austria"        Menkent
+# planet Clark                Segenius
+# planet "New Iceland"        Kaus Borealis
+# planet Tundra               Cebalrai
+# planet Dancer               Rastaban
+# planet Harmony              Girtab
+# planet "New Portland"       Delta Sagittarii
+# planet Oblivion             Rasalhague
+# planet Rand                 Zeta Aquilae
+# planet Arabia               Ascella
+# planet "New India"          Albaldah
+# planet "New Washington"     Peacock
+# planet Hopper               Kaus Borealis
+# planet "New Britain"        Dabih
+# planet Sinter               Albireo
+# planet Poisonwood           Graffias
+
+
+
+planet Haze
+	tribute 2600
+		threshold 5500
+		fleet "Large Deep Security Rep" 26
+
+planet Memory
+	tribute 700
+		threshold 4000
+		fleet "Small Deep Security Rep" 16
+
+planet "Huginn Station"
+	tribute 1800
+		threshold 5500
+		fleet "Large Deep Security Rep" 18
+
+planet "Muninn Station"
+	tribute 1100
+		threshold 5500
+		fleet "Small Deep Security Rep" 25
+
+planet Nifel
+	tribute 1500
+		threshold 4000
+		fleet "Large Deep Security Rep" 16
+
+planet Norn
+	tribute 500
+		threshold 3000
+		fleet "Small Deep Security Rep" 12
+
+planet Muspel
+	tribute 600
+		threshold 3000
+		fleet "Small Deep Security Rep" 14
+
+planet Valhalla
+	tribute 3600
+		threshold 7000
+		fleet "Large Deep Security Rep" 35
+
+planet Bivrost
+	tribute 3600
+		threshold 7000
+		fleet "Large Deep Security Rep" 35
+
+planet Mani
+	tribute 500
+		threshold 3000
+		fleet "Small Deep Security Rep" 11
+
+planet "Fenrir Station"
+	tribute 600
+		threshold 3000
+		fleet "Small Deep Security Rep" 14
+
+planet Windblain
+	tribute 800
+		threshold 3500
+		fleet "Small Deep Security Rep" 18
+
+planet Helheim
+	tribute 700
+		threshold 3000
+		fleet "Small Deep Security Rep" 15
+
+planet "Leviathan Station"
+	tribute 1200
+		threshold 3500
+		fleet "Small Deep Security Rep" 27
+
+planet Midgard
+	tribute 3000
+		threshold 6000
+		fleet "Large Deep Security Rep" 30
+
+planet Asgard
+	tribute 4000
+		threshold 7000
+		fleet "Large Deep Security Rep" 39
+
+planet Alfheim
+	tribute 1200
+		threshold 5000
+		fleet "Small Deep Security Rep" 27
+
+planet "Phoenix Station"
+	tribute 500
+		threshold 2000
+		fleet "Large Deep Security Rep" 5
+
+planet Deep
+	tribute 500
+		threshold 3000
+		fleet "Small Militia Rep" 37
+
+planet Clink
+	tribute 200
+		threshold 1500
+		fleet "Small Militia Rep" 15
+
+planet Ingot
+	tribute 200
+		threshold 1500
+		fleet "Small Militia Rep" 15
+
+planet "New Sahara"
+	tribute 400
+		threshold 3000
+		fleet "Small Militia Rep" 30
+
+planet Bounty
+	tribute 700
+		threshold 3000
+		fleet "Large Militia Rep" 11
+
+planet Gemstone
+	tribute 500
+		threshold 2500
+		fleet "Large Militia Rep" 8
+
+planet "New Wales"
+	tribute 400
+		threshold 3000
+		fleet "Large Militia Rep" 6
+
+planet "Hydra Station"
+	tribute 100
+		threshold 3500
+		fleet "Small Militia Rep" 8
+
+planet "New Kansas"
+	tribute 300
+		threshold 2500
+		fleet "Small Militia Rep" 22
+
+planet "Big Sky"
+	tribute 600
+		threshold 3000
+		fleet "Small Militia Rep" 50
+
+planet "New Greenland"
+	tribute 200
+		threshold 2000
+		fleet "Small Militia Rep" 15
+
+planet "New Tibet"
+	tribute 300
+		threshold 2500
+		fleet "Small Militia Rep" 21
+
+planet "New Holland"
+	tribute 700
+		threshold 3000
+		fleet "Large Militia Rep" 11
+
+planet "New Boston"
+	tribute 300
+		threshold 2500
+		fleet "Small Militia Rep" 23
+
+planet "New Austria"
+	tribute 500
+		threshold 3000
+		fleet "Large Militia Rep" 5
+
+planet Clark
+	tribute 400
+		threshold 2500
+		fleet "Small Militia Rep" 30
+
+planet "New Iceland"
+	tribute 300
+		threshold 2000
+		fleet "Small Militia Rep" 24
+
+planet Tundra
+	tribute 400
+		threshold 3000
+		fleet "Large Militia Rep" 6
+
+planet Dancer
+	tribute 300
+		threshold 2000
+		fleet "Small Militia Rep" 23
+
+planet Harmony
+	tribute 200
+		threshold 2000
+		fleet "Small Militia Rep" 12
+
+planet "New Portland"
+	tribute 200
+		threshold 2000
+		fleet "Small Militia Rep" 12
+
+planet Oblivion
+	tribute 500
+		threshold 3000
+		fleet "Large Militia Rep" 8
+
+planet Rand
+	tribute 500
+		threshold 3000
+		fleet "Large Militia Rep" 8
+
+planet Arabia
+	tribute 600
+		threshold 2500
+		fleet "Small Militia Rep" 45
+
+planet "New India"
+	tribute 200
+		threshold 2000
+		fleet "Small Militia Rep" 16
+
+planet "New Washington"
+	tribute 200
+		threshold 2000
+		fleet "Large Militia Rep" 3
+
+planet Hopper
+	tribute 300
+		threshold 2000
+		fleet "Large Militia Rep" 5
+
+planet "New Britain"
+	tribute 1300
+		threshold 4500
+		fleet "Large Militia Rep" 20
+
+planet Sinter
+	tribute 400
+		threshold 3000
+		fleet "Small Militia Rep" 28
+
+planet Poisonwood
+	tribute 300
+		threshold 2000
+		fleet "Large Militia Rep" 7
