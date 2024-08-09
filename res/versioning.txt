@@ -34,3 +34,4 @@ snowfeather.robotics|1.0.3
 space.fauna|1.1.2
 too.many.asteroids|1.0.2
 unique.fix|1.0.0landing.images.android|1.0.0
+tribute.republic|1.0.0

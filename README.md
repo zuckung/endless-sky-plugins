@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-09 | update: landing.images.android<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-09 | update: tribute.republic<br>
+2024-08-09 | update: landing.images.android<br>
 2024-08-09 | update: landing.images<br>
 2024-08-09 | update: landing.images.highres<br>
 2024-08-07 | update: landing.images.android<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-02 | update: no.more.mereti.mines<br>
 2024-08-02 | update: landing.images.android<br>
 2024-08-02 | update: landing.images<br>
-2024-07-31 | update: landing.images<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -41,8 +41,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
@@ -54,8 +54,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#landingimagesandroid">landing.images.android</a><br>
 <a href="README.md#landingimageshighres">landing.images.highres</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
@@ -66,6 +66,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
 <a href="README.md#spacefauna">space.fauna</a><br>
 <a href="README.md#toomanyasteroids">too.many.asteroids</a><br>
+<a href="README.md#tributerepublic">tribute.republic</a><br>
 <a href="README.md#uniquefix">unique.fix</a><br>
 <img width="294" height="1"><br></td></tr></table>
 
@@ -3316,6 +3317,53 @@ removed py script<br>
 updated to 0.10.1<br>
 
 added a python script which generates the asteroids.txt(in case I don't update this mod, everyone can do it in no time.)<br>
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### tribute.republic
+
+<img src="myplugins/tribute.republic/icon.png" height="100">
+
+[tribute.republic.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-tribute.republic/tribute.republic.zip) | 22.0 kb | 2024-08-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/tribute.republic/) <br>
+<br>
+>Allows you to tribute all Republic planets, without losing Free Worlds or Deep Security reputation. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### tribute.republic
+
+<br>
+
+<br>
+
+Allows you to tribute all Republic planets, without losing Free Worlds or Deep Security reputation.<br>
+
+<br>
+
+This plugin replaces Militia and Deep Security defense fleets of all hostile Republic planets (during the Free Worlds war), with Republic fleets.<br>
+
+To prevent mission-related changes overwriting this plugin, activate it, when you are ready to tribute the Republic planets. When you are done, you can deactivate it again, if you want.<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/tribute.republic01.jpg' width='400'>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-08-09<br>
+
+initial release<br>
+
+
 
 </blockquote>
 </details>
