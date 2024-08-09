@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-09 | update: landing.images<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-09 | update: landing.images.android<br>
+2024-08-09 | update: landing.images<br>
 2024-08-09 | update: landing.images.highres<br>
 2024-08-07 | update: landing.images.android<br>
 2024-08-03 | update: landing.images.android<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-02 | update: landing.images.android<br>
 2024-08-02 | update: landing.images<br>
 2024-07-31 | update: landing.images<br>
-2024-07-24 | update: no.more.mereti.mines<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2157,7 +2157,7 @@ initial release<br>
 
 <img src="myplugins/landing.images.android/icon.png" height="100">
 
-[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-landing.images.android/landing.images.android.zip) | 76.95 kb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <br>
+[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-landing.images.android/landing.images.android.zip) | 32.12 kb | 2024-08-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <br>
 <br>
 >Moves the landing image above the textbox, instead of behind the textbox (for ES mobile). See the README for details.
 
@@ -2173,9 +2173,9 @@ Moves the landing image above the textbox, instead of behind the textbox (for ES
 
 <br>
 
-In case parts if the UI/the buttons are outside the screen, try rescaling your UI in the ES options<br>
+In case parts of the UI/the buttons are outside the screen, try rescaling your UI in the ES options<br>
 
-If that doesnt help, open the zip, edit 'landing.images.android/data/interface.txt' and change line 2 to 7 to:<br>
+If that doesn't help, open the zip, edit 'landing.images.android/data/interface.txt' and change line 2 to 7 to:<br>
 
 	image "land"
 
@@ -2208,6 +2208,12 @@ After:<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-08-09<br>
+
+minor text changes (thx to TheGiraffe3)<br>
 
 <br>
 
@@ -3322,7 +3328,7 @@ added a python script which generates the asteroids.txt(in case I don't update t
 
 <img src="myplugins/unique.fix/icon.png" height="100">
 
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-unique.fix/unique.fix.zip) | 429.04 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
+[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0landing.images.android-unique.fix/unique.fix.zip) | N/A | N/A | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.
 
