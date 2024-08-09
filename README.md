@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-07 | update: landing.images.android<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-09 | update: landing.images.highres<br>
+2024-08-07 | update: landing.images.android<br>
 2024-08-03 | update: landing.images.android<br>
 2024-08-02 | update: landing.images.highres<br>
 2024-08-02 | update: no.more.mereti.mines<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-07-31 | update: landing.images<br>
 2024-07-24 | update: no.more.mereti.mines<br>
 2024-07-24 | updated tools folder with new and changed ES scripts<br>
-2024-07-20 | update: real.fluff<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2238,7 +2238,7 @@ initial release<br>
 
 <img src="myplugins/landing.images.highres/icon.png" height="100">
 
-[landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-landing.images.highres/landing.images.highres.zip) | 61.57 mb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) <br>
+[landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-landing.images.highres/landing.images.highres.zip) | 61.57 mb | 2024-08-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) <br>
 <br>
 >High resolution files for landing.images plugin. See the README for details.
 
@@ -2254,13 +2254,19 @@ High resolution files for landing.images plugin.<br>
 
 <br>
 
-Adds images with 1440x720 resolution. Landing.images plugin is still needed.<br>
+Adds images with 1440x720 resolution. The landing.images plugin is still needed.<br>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-08-09<br>
+
+minor text changes (thx to TheGiraffe3)<br>
 
 <br>
 
