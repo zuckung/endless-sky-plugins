@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-09 | update: landing.images.highres<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-09 | update: landing.images<br>
+2024-08-09 | update: landing.images.highres<br>
 2024-08-07 | update: landing.images.android<br>
 2024-08-03 | update: landing.images.android<br>
 2024-08-02 | update: landing.images.highres<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-02 | update: landing.images<br>
 2024-07-31 | update: landing.images<br>
 2024-07-24 | update: no.more.mereti.mines<br>
-2024-07-24 | updated tools folder with new and changed ES scripts<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2096,7 +2096,7 @@ reworked readme<br>
 
 <img src="myplugins/landing.images/icon.png" height="100">
 
-[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-landing.images/landing.images.zip) | 13.96 mb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
+[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images/landing.images.zip) | N/A | N/A | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
 <br>
 >Replaces all planet landing images with better fitting ones. See the README for details.
 
@@ -2112,7 +2112,7 @@ Replaces all planet landing images with better fitting ones.<br>
 
 <br>
 
-These images replace the boring vanilla images you see when you've landed on a planet with new, AI generated, better fitting ones. The old ones look like photos from earth or taken from public NASA archives(which they are). According to the description of the planets I tried to generate better fitting, more futuristic, more alien-looking images.<br>
+These images replace the boring vanilla images you see when you've landed on a planet with new, AI generated, better fitting ones. The old ones look like photos from earth or taken from public NASA archives (which they are). According to the description of the planets I tried to generate better fitting, more futuristic, more alien-looking images.<br>
 
 0.10.8 with 472 planets<br>
 
@@ -2125,6 +2125,12 @@ See all images <a href='https://github.com/zuckung/endless-sky-plugins-graphics/
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-08-09<br>
+
+minor text changes (thx to TheGiraffe3)<br>
 
 <br>
 
@@ -2151,7 +2157,7 @@ initial release<br>
 
 <img src="myplugins/landing.images.android/icon.png" height="100">
 
-[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images.android/landing.images.android.zip) | 32.09 kb | 2024-08-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <br>
+[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-landing.images.android/landing.images.android.zip) | 76.95 kb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <br>
 <br>
 >Moves the landing image above the textbox, instead of behind the textbox (for ES mobile). See the README for details.
 
@@ -2238,7 +2244,7 @@ initial release<br>
 
 <img src="myplugins/landing.images.highres/icon.png" height="100">
 
-[landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-landing.images.highres/landing.images.highres.zip) | 61.57 mb | 2024-08-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) <br>
+[landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-landing.images.highres/landing.images.highres.zip) | 61.57 mb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) <br>
 <br>
 >High resolution files for landing.images plugin. See the README for details.
 
