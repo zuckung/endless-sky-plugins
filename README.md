@@ -2097,7 +2097,7 @@ reworked readme<br>
 
 <img src="myplugins/landing.images/icon.png" height="100">
 
-[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images/landing.images.zip) | N/A | N/A | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
+[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-landing.images/landing.images.zip) | 13.96 mb | 2024-08-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
 <br>
 >Replaces all planet landing images with better fitting ones. See the README for details.
 
@@ -2158,7 +2158,7 @@ initial release<br>
 
 <img src="myplugins/landing.images.android/icon.png" height="100">
 
-[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-landing.images.android/landing.images.android.zip) | 32.12 kb | 2024-08-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <br>
+[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images.android/landing.images.android.zip) | 32.09 kb | 2024-08-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <br>
 <br>
 >Moves the landing image above the textbox, instead of behind the textbox (for ES mobile). See the README for details.
 
@@ -2251,7 +2251,7 @@ initial release<br>
 
 <img src="myplugins/landing.images.highres/icon.png" height="100">
 
-[landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-landing.images.highres/landing.images.highres.zip) | 61.57 mb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) <br>
+[landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-landing.images.highres/landing.images.highres.zip) | 61.57 mb | 2024-08-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) <br>
 <br>
 >High resolution files for landing.images plugin. See the README for details.
 
@@ -3380,7 +3380,7 @@ initial release<br>
 
 <img src="myplugins/unique.fix/icon.png" height="100">
 
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0landing.images.android-unique.fix/unique.fix.zip) | N/A | N/A | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
+[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-unique.fix/unique.fix.zip) | 429.04 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.
 
