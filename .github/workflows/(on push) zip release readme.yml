@@ -1,0 +1,51 @@
+name: (on push) zip release readme
+on:
+  push:
+    paths:
+      - 'myplugins/**'
+jobs:
+  zip-files:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: Analyse changed plugins
+        id: files
+        uses: tj-actions/changed-files@v41.0.1
+        with:
+          separator: '%%%'
+      - name: Zip changed plugins
+        run: python3 res/src/zip.py "${{ steps.files.outputs.all_changed_and_modified_files }}"
+      - name: Upload plugins to release (versioning)
+        uses: ncipollo/release-action@v1.11.1
+        with:
+          name: ${{ env.UPDATE_TAG2 }}
+          tag: ${{ env.UPDATE_TAG }}
+          allowUpdates: true
+          replacesArtifacts: true
+          updateOnlyUnreleased: false
+          artifacts: "versioning/*.zip"
+      - name: Upload plugins to release
+        uses: ncipollo/release-action@v1.11.1
+        with:
+          name: Downloads
+          tag: Latest
+          allowUpdates: true
+          replacesArtifacts: true
+          updateOnlyUnreleased: false
+          artifacts: "*.zip"
+      - name: Make README.md
+        run: python res/src/makemd.py
+      - name: Commit file
+        run: |
+          git config user.name "zuckung" 
+          git config user.email "zuckung@gmx.de"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "README.md updated"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
