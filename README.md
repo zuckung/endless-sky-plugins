@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-10 | update: tribute.republic<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-17 | update: tribute.republic<br>
+2024-08-10 | update: tribute.republic<br>
 2024-08-09 | update: tribute.republic<br>
 2024-08-09 | update: landing.images.android<br>
 2024-08-09 | update: landing.images<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-03 | update: landing.images.android<br>
 2024-08-02 | update: landing.images.highres<br>
 2024-08-02 | update: no.more.mereti.mines<br>
-2024-08-02 | update: landing.images.android<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3329,7 +3329,7 @@ added a python script which generates the asteroids.txt(in case I don't update t
 
 <img src="myplugins/tribute.republic/icon.png" height="100">
 
-[tribute.republic.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-tribute.republic/tribute.republic.zip) | 8.25 kb | 2024-08-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/tribute.republic/) <br>
+[tribute.republic.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-tribute.republic/tribute.republic.zip) | 22.07 kb | 2024-08-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/tribute.republic/) <br>
 <br>
 >Allows you to tribute all Republic planets, without losing Free Worlds or Deep Security reputation. See the README for details.
 
@@ -3359,9 +3359,11 @@ Changelog:<br>
 
 <br>
 
-2024-08-10<br>
+2024-08-17<br>
 
-different icon<br>
+added Wayfarer and Arachne Station<br>
+
+<br>
 
 2024-08-09<br>
 
