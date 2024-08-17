@@ -10,8 +10,9 @@ To prevent mission-related changes overwriting this plugin, activate it, when yo
 <br>
 Changelog:<br>
 <br>
-2024-08-10<br>
-different icon<br>
+2024-08-17<br>
+added Wayfarer and Arachne Station<br>
+<br>
 2024-08-09<br>
 initial release<br>
 

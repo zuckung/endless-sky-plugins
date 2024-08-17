@@ -46,6 +46,8 @@
 # planet "New Britain"        Dabih
 # planet Sinter               Albireo
 # planet Poisonwood           Graffias
+# planet Wayfarer             Tarazed
+# planet "Arachne Station"    Tarazed
 
 
 
@@ -288,3 +290,13 @@ planet Poisonwood
 	tribute 300
 		threshold 2000
 		fleet "Large Militia Rep" 7
+
+planet Wayfarer
+	tribute 1700
+		threshold 5000
+		fleet "Large Militia Rep" 26
+
+planet "Arachne Station"
+	tribute 900
+		threshold 3000
+		fleet "Large Militia Rep" 14
