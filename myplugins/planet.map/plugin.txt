@@ -1,2 +1,2 @@
 name "planet.map"
-about "planetary map travelling concept : start a new pilot, use 'start: planet.map'"
+about "Planetary map travelling concept : Land on Memory, visit the outfitter and follow the small story line. See the README for details."

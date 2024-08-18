@@ -1,38 +1,49 @@
-# galaxy planet new avalon
-# wormhole new avalon map
-# planet new avalon
-# planet center (city)
-# planet lightfall (city)
-# planet warsong (city)
-# planet ember (city)
-# planet mysterious object
-# planet expedition ship
-# system the eastern sea
-# system tropical forests of the south
-# system the northern tundra
-# system the great desert
-# system the landing site
-# system theben
-# system zosma
+# galaxy "Planet New Avalon"
+# wormhole "New Avalon Map"
+# planet "New Avalon"
+# planet "Center (City)"
+# planet "Lightfall (City)"
+# planet "Warsong (City)"
+# planet "Ember (City)"
+# planet "Mysterious Object"
+# planet "Expedition Ship"
+# planet "Green Hell (Lumberjack Camp)"
+# planet "Black Gold (Oil Rig)"
+# planet "Morgana (Village)"
+# system "The Eastern Sea"
+# system "Tropical Forests of the South"
+# system "The Northern Tundra"
+# system "North Woods"
+# system "Eastern Desert"
+# system "The Great Desert"
+# system "Dunes"
+# system "North Cape"
+# system "The Landing Site"
+# system "Theben"
+
+
 
 galaxy "Planet New Avalon"
 	pos -5000 -5000
 	sprite "ui/planetgalaxy"
 		scale 2
 
+
 wormhole "New Avalon Map"
+	"display name" "New Avalon"
 	link "Theben" "The Landing Site"
 	link "The Landing Site" "Theben"
+	color "wormholes: Planet Map"
+
 
 planet "New Avalon"
-	attributes "worm hole" uninhabited
-	description `wormhole`
 	wormhole "New Avalon Map"
-	government "Neutral"
+	government "Planet Map"
+
 
 planet "Center (City)"
 	attributes factory research urban
-	landscape land/city23
+	landscape land/ava_city03
 	government "Avalonian"
 	description `This is a city.`
 	spaceport `This is the landing area`
@@ -44,9 +55,10 @@ planet "Center (City)"
 		threshold 7000
 		fleet "Avalonian Fleet" 39
 
+
 planet "Lightfall (City)"
 	attributes factory research urban
-	landscape land/city23
+	landscape land/ava_city04
 	description `This is a city.`
 	government "Avalonian"
 	spaceport `This is the landing area`
@@ -56,10 +68,11 @@ planet "Lightfall (City)"
 	tribute 1000
 		threshold 7000
 		fleet "Avalonian Fleet" 39
+
 
 planet "Warsong (City)"
 	attributes factory research urban
-	landscape land/city23
+	landscape land/ava_city01
 	government "Avalonian"
 	description `This is a city.`
 	spaceport `This is the landing area`
@@ -69,10 +82,11 @@ planet "Warsong (City)"
 	tribute 1000
 		threshold 7000
 		fleet "Avalonian Fleet" 39
+
 
 planet "Ember (City)"
 	attributes factory research urban
-	landscape land/city23
+	landscape land/ava_city02
 	government "Avalonian"
 	description `This is a city.`
 	spaceport `This is the landing area`
@@ -83,15 +97,16 @@ planet "Ember (City)"
 		threshold 7000
 		fleet "Avalonian Fleet" 39
 
+
 planet "Mysterious Object"
-	landscape land/city23
+	landscape land/ava_metallic
 	government "Uninhabited"
 	description `This is a very mysterious object.`
 	spaceport `This is the landing area`
 
 planet "Expedition Ship"
 	attributes research
-	landscape land/sivael2
+	landscape land/ava_ship
 	government "Avalonian"
 	description `This is a big expedition ship.`
 	spaceport `This is the landing area`
@@ -100,6 +115,31 @@ planet "Expedition Ship"
 	tribute 1000
 		threshold 7000
 		fleet "Avalonian Fleet" 39
+
+
+planet "Green Hell (Lumberjack Camp)"
+	attributes lumberjack
+	landscape land/ava_lumberjack
+	government "Avalonian"
+	description `This is a small lumberjack camp.`
+	spaceport `This is the landing area.`
+
+
+planet "Black Gold (Oil Rig)"
+	attributes "oil rig"
+	landscape land/ava_oilrig
+	government "Avalonian"
+	description `This is a oil rig.`
+	spaceport `This is the landing area.`
+
+
+planet "Morgana (Village)"
+	attributes oasis
+	landscape land/ava_oasis
+	government "Avalonian"
+	description `This is a small oasis village.`
+	spaceport `This is the landing area.`
+
 
 system "The Eastern Sea"
 	pos -4750 -4900
@@ -120,9 +160,10 @@ system "The Eastern Sea"
 	trade Plastic 270
 	object "Expedition Ship"
 		sprite planet/expedition
-			scale 3
+			scale 1
 		distance 0
 		period 1
+
 
 system "Tropical Forests of the South"
 	pos -5080 -4750
@@ -142,12 +183,61 @@ system "Tropical Forests of the South"
 	trade Metal 367
 	trade Plastic 270
 
+
 system "The Northern Tundra"
 	pos -4850 -5310
 	government "Avalonian"
 	arrival 1000
 	habitable 3000
 	haze _menu/haze-forest
+	link "The Landing Site"
+	link "North Woods"
+	link "North Cape"
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
+
+
+system "North Woods"
+	pos -4740 -5220
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-forest
+	link "The Northern Tundra"
+	link "Eastern Desert"
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
+	object "Green Hell (Lumberjack Camp)"
+		sprite planet/hut
+			scale 1
+		distance 100
+		period 1
+		offset 0
+
+
+system "Eastern Desert"
+	pos -4850 -5070
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-desert
+	link "North Woods"
 	link "The Landing Site"
 	trade Clothing 240
 	trade Electronics 611
@@ -160,6 +250,7 @@ system "The Northern Tundra"
 	trade Metal 367
 	trade Plastic 270
 
+
 system "The Great Desert"
 	pos -5270 -5100
 	government "Avalonian"
@@ -167,6 +258,7 @@ system "The Great Desert"
 	habitable 3000
 	haze _menu/haze-desert
 	link "The Landing Site"
+	link "Dunes"
 	trade Clothing 240
 	trade Electronics 611
 	trade Equipment 455
@@ -177,12 +269,56 @@ system "The Great Desert"
 	trade Medical 520
 	trade Metal 367
 	trade Plastic 270
-	object "Mysterious Object"
-		sprite planet/metalobject
+
+
+system "Dunes"
+	pos -5170 -5130
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-desert
+	link "The Great Desert"
+	link "North Cape"
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
+	object "Black Gold (Oil Rig)"
+		sprite planet/oilrig
 			scale 1
-		distance 2000
+		distance 700
 		period 1
-		offset 270
+	object "Morgana (Village)"
+		sprite planet/oasis
+			scale 1
+		distance 0
+		period 1
+
+
+system "North Cape"
+	pos -5080 -5320
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-forest
+	link "The Northern Tundra"
+	link "Dunes"
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
 
 
 system "The Landing Site"
@@ -195,6 +331,7 @@ system "The Landing Site"
 	link "The Northern Tundra"
 	link "Tropical Forests of the South"
 	link "The Eastern Sea"
+	link "Eastern Desert"
 	trade Clothing 240
 	trade Electronics 611
 	trade Equipment 455
@@ -242,16 +379,16 @@ system "The Landing Site"
 		period 1
 		offset 0
 
+
 system Theben
+	hidden
 	pos -740 -123
 	government "Republic"
 	attributes "bright star" "notable star"
 	arrival 1000
 	habitable 2000
-	link "Zosma"
 	belt 1748
 	haze _menu/haze-67
-	link Asio
 	minables uranium 3 9.1
 	minables platinum 3 7.8
 	minables copper 3 5.3
@@ -272,6 +409,3 @@ system Theben
 		sprite planet/earth
 		distance 2008.63
 		period 1
-
-system "Zosma"
-	add link "Theben"

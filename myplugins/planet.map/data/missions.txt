@@ -1,66 +1,54 @@
-# start z_planet_map
-# conversation z_planetmap
-# mission start story
-# event close wormhole
-# mission whats going on
-# mission linus knows
-# event open wormhole
+# mission "ava start story"
+# event "unhide theben"
+# event "close wormhole"
+# mission "whats going on"
+# mission "whats going on 2"
+# event "spawn object"
+# mission "linus knows"
+# event "open wormhole"
+# mission "back to linus"
+# mission "ava dragon attack"
 
-start "z_planet_map"
-	name "Start: planet.map"
-	description `Ship: Argosy`
-	description `Use this start option to begin the plugin.`
-	thumbnail "scene/lobby"
-	date 16 11 3013
-	system "Zosma"
-	planet "Memory"
-	conversation "z_planetmap"
-	account
-		credits 10000000
-		score 800
-	set "license: Pilot's"
-	set "Intro [0]: offered"
-	set "Intro [0]: done"
-	set "Intro [1 Transport]: offered"
-	set "Intro [1 Transport]: done"
-	set "Intro [2 Transport]: offered"
-	set "Intro [2 Transport]: done"
-	set "Intro [3 Transport]: offered"
-	set "Intro [3 Transport]: done"
-	set "give map"
-	ship "Argosy" "Argosy"
-		"name" "Voyager"
-	
-conversation "z_planetmap"
-	scene "scene/lobby"
-	`	Enter your name: `
-	name
-	`Hello captain <first> <last>, please enjoy this proof of concept plugin :)`
-	`To start the mission, visit the local outfitter`
 
-mission "start story"
+
+mission "ava start story"
 	outfitter
 	name "Search for the colony ship"
 	description "Investigate the Theben system, to search for clues on the disappearing of a colony ship, 200 years ago."
 	source "Memory"
+	destination "Memory"
 	waypoint "Theben"
+	waypoint "The Landing Site"
 	on offer
 		outfit "Local Map"
 		conversation
+			scene "scene/ava_outfitter"
 			`At the outfitter you hear a story about a colony ship lost a few centuries ago. It appears, that it was last seen in this system, heading west. There is just one system to the west, so why not do a little sightseeing there?`
 				accept
+	on accept
+		event "ava unhide theben"
 	on enter "Theben"
 		dialog `After a long time scan of the Theben system, your improved scanner finds a planet. You should go for a visit.`
 	on enter "The Landing Site"
 		outfit "Local Map"
-		event "close wormhole"
+		event "ava close wormhole"
 		conversation
 			`While landing your whole ship shakes. As you try to leave the planet again, you can feel an invisible force pulling your ship down. You can't  escape. Well, maybe the people in the big city right in front of you can help?`
 	on complete
+		payment 2000000
 		conversation
-			`You tell the administration of Memory what you find out about the colony ship. With the exact position of the hard to find planet, the'll send ships to include the planet to the Republic.`
+			`You tell the administration of Memory what you found out about the colony ship. With the exact position of the hard to find planet, the'll send ships to include the planet to the Republic. Because you solved the mystery of the disappeared colony ship, the government pays you two million credits.`
 
-event "close wormhole"
+
+event "ava unhide theben"
+	system "Zosma"
+		add link "Theben"
+	system Theben
+		remove hidden
+		add link "Zosma"
+
+
+event "ava close wormhole"
 	system "The Landing Site"
 		remove object "New Avalon"
 			sprite planet/cloud
@@ -68,53 +56,70 @@ event "close wormhole"
 			distance 3500
 			period 1
 			offset 0
-	set "mission: start story: done"
+	set "mission: ava start story: done"
 
-mission "whats going on"
+
+mission "ava whats going on"
 	landing
 	name "Contact Linus Rane"
 	description "Contact a local inhabitant named Linus Rane. He lives in Ember (City)"
 	source "Center (City)"
 	destination "Ember (City)"
 	to offer
-		has "start story: offered"
+		has "ava start story: offered"
 	on offer
 		conversation
-			`After the landing you seek contact to find out what's going on here. After an hour you know a lot more. This planet is called New Avalon, a forest planet, and yes, the inhabitants are mostly from the disappeared colony ship. Some other came with there own ships, and can't leave because an invisible force hinders the ships from breaking through the athmosphere. The biggest city, named Center, and 3 other cities were build around a lake. After questioning your way up, you finally reach the city council, which, like expected, can't help escaping this planet.`
-			`After 2 more hours of talking to strangers, you hear of a guy, who might know some more. Travel to Ember (City) to meet a guy named Linus Rane.`
+			scene "scene/ava_city_plaza"
+			`After the landing you seek contact to find out what's going on here. After an hour you know a lot more. This planet is called New Avalon, a forest planet, and yes, the inhabitants are mostly from the disappeared colony ship. Some other came with there own ships, and can't leave because an invisible force hinders the ships from breaking through the athmosphere. The biggest city, named Center, and three other cities were build around a lake. After questioning your way up, you finally reach the city council, which, like expected, can't help escaping this planet.`
+			`After two more hours of talking to strangers, you hear of a guy, who might know some more. Travel to Ember (City) to meet a guy named Linus Rane.`
 				accept
 
-mission "whats going on 2"
+
+mission "ava whats going on 2"
 	landing
 	name "Contact Linus Rane"
 	description "Find Linus Rane. He is on an expedition to the eastern sea."
 	source "Ember (City)"
 	destination "Expedition Ship"
 	to offer
-		has "whats going on: done"
+		has "ava whats going on: done"
 	on offer
 		conversation
+			scene "scene/ava_city_woman"
 			`In Ember you ask around for hours to find Linus Rane. And finally you meet someone who knows where to find him. Unfortunately Linus went to an expedition to the eastern sea, so you have to fly there.`
 				accept
+	on accept
+		event "ava spawn object"
 
-mission "linus knows"
+
+event "ava spawn object"
+	system "The Great Desert"
+		add object "Mysterious Object"
+			sprite planet/metalobject
+				scale 1
+			distance 2000
+			period 1
+			offset 270
+
+
+mission "ava linus knows"
 	landing
-	name "Fly north"
+	name "Fly west"
 	description "Fly west to find the mysterious object Linus Rane was talking about."
 	source "Expedition Ship"
 	destination "Mysterious Object"
 	to offer
-		has "whats going on 2: done"
+		has "ava whats going on 2: done"
 	on offer
 		conversation
-			`It takes some time to find Linus Rane, but it was worth it.`
+			scene "scene/ava_expedition01"
+			`It took some time to find Linus Rane, but it was worth it.`
 			`Linus tells a story, about when he was leading an expedition to the far west. At some point they discovered a big metallic object. They couldn't analyze it, because it was made of an unknown metal. Nothing worked. The expedition came home again to get help with their discovery. But when the expedition, grown with dozens of people, returned to where the object was, it was gone. The members of the expedition and Linus got called liars and nothing more was done. Thats the story.`
 			`You decide to fly west, into the great desert, to find out more.`
 				accept
-	on complete
-		event "open wormhole"
 
-event "open wormhole"
+
+event "ava open wormhole"
 	system "The Landing Site"
 		add object "New Avalon"
 			sprite planet/cloud
@@ -123,19 +128,52 @@ event "open wormhole"
 			period 1
 			offset 0
 
-mission "back to linus"
+
+mission "ava back to linus"
 	landing
 	name "Fly back to Linus"
 	description "Fly back to the Expedition Ship, to tell Linus about what happend inside the mysterious object."
 	source "Mysterious Object"
 	destination "Expedition Ship"
 	to offer
-		has "linus knows: done"
+		has "ava linus knows: done"
 	on offer
+		event "ava open wormhole"
 		conversation
+			scene "scene/ava_demolished_metallic"
 			`You found the mysterious object! As you examine it with your modern scanning equipment, you find an entrance. Then the things happen really fast.`
 			`A group of robots appear, they shoot, you shoot back, things explode, smoke, heat, flames. After like 2 minutes everything's finished. You overlook a scene of burning trash. All robots are destroyed, the computers and consoles too. You don't know what this object was, or what it was doing, but you know with this kind of destruction it won't continue doing what it did. You decide to head back to Linus`
 				accept
 	on complete
 		conversation
-			`Linus has hard times believing your story. Strange robots, and the people aren't trapped here anymore? Well he, you, and all others can test that now.`
+			scene "scene/ava_expedition02"
+			`Linus has hard times believing your story. Strange robots, and the people aren't trapped here anymore? Well, he, you, and all others can test that now.`
+
+
+mission "ava dragon attack"
+	landing
+	repeat
+	name "Defend <planet>."
+	description "Defeat an animal attack on <planet>."
+	source 
+		government "Avalonian"
+	to offer
+		random < 20
+	on offer
+		conversation
+			scene "scene/ava_red_dragons"
+			`A group of Avalonian Red Dragons are attacking this settlement. Although these animals are no threat to modern spaceships, they can badly harm exposed humans.`
+			choice
+				`	help defending`
+					accept
+				`	don't help defending`
+					decline
+	npc kill
+		government "Avalonian Fauna"
+		personality heroic staying target
+		fleet "Avalonian Dragons" 3
+	on complete
+		set "ava dragon attacked" ++ 
+		payment 80000
+		conversation
+			`For your help defeating the Red Dragons, the local administration pays you 80,000 credits.`
