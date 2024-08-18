@@ -1,0 +1,1 @@
+Unlocks all Kestrel variants after you have unlocked the first one. See the README for details.

@@ -1,0 +1,145 @@
+# ship "Kestrel" "Kestrel (More Engines)"
+# ship "Kestrel" "Kestrel (More Shields)"
+# ship "Kestrel" "Kestrel (More Weapons)"
+# ship "Kestrel" "Kestrel (More Bays)"
+# mission "kestrel unlock timer"
+# mission "kestrel unlock engines"
+# mission "kestrel unlock weapons"
+# mission "kestrel unlock shields"
+# mission "kestrel unlock bays"
+
+
+
+ship "Kestrel" "Kestrel (More Engines)"
+	"display name" "Kestrel (Engines)"
+
+
+ship "Kestrel" "Kestrel (More Shields)"
+	"display name" "Kestrel (Shields)"
+
+
+ship "Kestrel" "Kestrel (More Weapons)"
+	"display name" "Kestrel (Weapons)"
+
+
+ship "Kestrel" "Kestrel (More Bays)"
+	"display name" "Kestrel (Bays)"
+
+
+mission "kestrel unlock timer"
+	invisible
+	landing
+	source
+		near "Tarazed" 100
+	to offer
+		has "Kestrel Available: declined"
+	on offer
+		conversation
+			branch engines
+				has "kestrel: more engines"
+			branch weapons
+				has "kestrel: more weapons"
+			branch shields
+				has "kestrel: more shields"
+			branch bays
+				has "kestrel: more bays"
+			label engines
+			action
+				set "first kestrel engines"
+				event "kestrel available: more weapons" 30
+				event "kestrel available: more shields" 60
+				event "kestrel available: more bays" 90
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deep involved in the development of the Kestrel, we decided to inform you that we develope more variants of the Kestrel now. Stay tuned.`
+				decline
+			label weapons
+			action
+				set "first kestrel weapons"
+				event "kestrel available: more engines" 30
+				event "kestrel available: more shields" 60
+				event "kestrel available: more bays" 90
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deep involved in the development of the Kestrel, we decided to inform you that we develope more variants of the Kestrel now. Stay tuned.`
+				decline
+			label shields
+			action
+				set "first kestrel shields"
+				event "kestrel available: more weapons" 30
+				event "kestrel available: more engines" 60
+				event "kestrel available: more bays" 90
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deep involved in the development of the Kestrel, we decided to inform you that we develope more variants of the Kestrel now. Stay tuned.`
+				decline
+			label bays
+			action
+				set "first kestrel bays"
+				event "kestrel available: more weapons" 30
+				event "kestrel available: more engines" 60
+				event "kestrel available: more shields" 90
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deep involved in the development of the Kestrel, we decided to inform you that we develope more variants of the Kestrel now. Stay tuned.`
+				decline
+
+
+mission "kestrel unlock engines"
+	invisible
+	landing
+	source
+		near "Tarazed" 100
+	to offer
+		has "kestrel unlock timer: declined"
+		has "event: kestrel available: more engines"
+		not "first kestrel engines"
+	destination "Wayfarer"
+	on offer
+		conversation
+			scene "thumbnail/kestrele"
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, we are pleased to inform you that we developed a new Version of the Kestrel with better engines and that it is now available for sale here on Wayfarer. "`
+				decline
+
+
+mission "kestrel unlock weapons"
+	invisible
+	landing
+	source
+		near "Tarazed" 100
+	to offer
+		has "kestrel unlock timer: declined"
+		has "event: kestrel available: more weapons"
+		not "first kestrel weapons"
+	destination "Wayfarer"
+	on offer
+		conversation
+			scene "thumbnail/kestrelw"
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, we are pleased to inform you that we developed a new Version of the Kestrel with more weapons and that it is now available for sale here on Wayfarer. "`
+				decline
+
+
+mission "kestrel unlock shields"
+	invisible
+	landing
+	source
+		near "Tarazed" 100
+	to offer
+		has "kestrel unlock timer: declined"
+		has "event: kestrel available: more shields"
+		not "first kestrel shields"
+	destination "Wayfarer"
+	on offer
+		conversation
+			scene "thumbnail/kestrels"
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, we are pleased to inform you that we developed a new Version of the Kestrel with better shields and that it is now available for sale here on Wayfarer. "`
+				decline
+
+
+mission "kestrel unlock bays"
+	invisible
+	landing
+	source
+		near "Tarazed" 100
+	to offer
+		has "kestrel unlock timer: declined"
+		has "event: kestrel available: more bays"
+		not "first kestrel bays"
+	destination "Wayfarer"
+	on offer
+		conversation
+			scene "thumbnail/kestrelc"
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, we are pleased to inform you that we developed a new Version of the Kestrel with more bays and that it is now available for sale here on Wayfarer. "`
+				decline
