@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-17 | update: tribute.republic<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-18 | update: planet.map<br>
+2024-08-17 | update: tribute.republic<br>
 2024-08-10 | update: tribute.republic<br>
 2024-08-09 | update: tribute.republic<br>
 2024-08-09 | update: landing.images.android<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-07 | update: landing.images.android<br>
 2024-08-03 | update: landing.images.android<br>
 2024-08-02 | update: landing.images.highres<br>
-2024-08-02 | update: no.more.mereti.mines<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2737,9 +2737,9 @@ initial release<br>
 
 <img src="myplugins/planet.map/icon.png" height="100">
 
-[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-planet.map/planet.map.zip) | 5.13 mb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) <br>
+[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-planet.map/planet.map.zip) | 5.0 mb | 2024-08-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) <br>
 <br>
->planetary map travelling concept : start a new pilot, use 'start: planet.map'
+>Planetary map travelling concept : Land on Memory, visit the outfitter and follow the small story line. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2749,7 +2749,7 @@ initial release<br>
 
 <br>
 
-Planetary map travelling concept : start a new pilot, use 'start: planet.map' and follow the small story line. See the readme for details.<br>
+Planetary map travelling concept : Land on Memory, visit the outfitter and follow the small story line.<br>
 
 <br>
 
@@ -2765,15 +2765,33 @@ As in the spirit of Epsil-Astra, feel free to modify/use this plugin for your ow
 
 <br>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/planet.map/screenshot.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map01.jpg' width='400'>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/planet.map/screenshot1.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map02.jpg' width='400'>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-08-18<br>
+
+removed the start<br>
+
+adjustments and finetuning<br>
+
+added new map locations (4 'areas', 3 'cities')<br>
+
+added 9 new landing images<br>
+
+added 7 scene images<br>
+
+added 6 standard jobs<br>
+
+added a repeatable local fauna defense mission<br>
 
 <br>
 
