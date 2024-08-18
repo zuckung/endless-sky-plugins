@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-18 | update: planet.map<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-18 | update: kestrel.unlocks<br>
+2024-08-18 | update: planet.map<br>
 2024-08-17 | update: tribute.republic<br>
 2024-08-10 | update: tribute.republic<br>
 2024-08-09 | update: tribute.republic<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-09 | update: landing.images.highres<br>
 2024-08-07 | update: landing.images.android<br>
 2024-08-03 | update: landing.images.android<br>
-2024-08-02 | update: landing.images.highres<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -49,6 +49,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#humanlabels">human.labels</a><br>
 <a href="README.md#jumpgates">jump.gates</a><br>
+<a href="README.md#kestrelunlocks">kestrel.unlocks</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#landingimages">landing.images</a><br>
 <a href="README.md#landingimagesandroid">landing.images.android</a><br>
@@ -1921,6 +1922,49 @@ Changelog:<br>
 initial release<br>
 
 text corrections (thx to TheGiraffe3)<br>
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### kestrel.unlocks
+
+<img src="myplugins/kestrel.unlocks/icon.png" height="100">
+
+[kestrel.unlocks.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-kestrel.unlocks/kestrel.unlocks.zip) | 6.64 kb | 2024-08-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kestrel.unlocks/) <br>
+<br>
+>Unlocks all Kestrel variants after you have unlocked the first one. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### kestrel.unlocks
+
+<br>
+
+<br>
+
+Unlocks all Kestrel variants after you have unlocked the first one.<br>
+
+<br>
+
+After completing the Kestrel mission chain, every 30 days a new variant is unlocked and you get notified about that. If you activate this plugin after you have already completed the missions, the 30 days timer starts from then.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-08-18<br>
+
+initial release<br>
 
 
 
