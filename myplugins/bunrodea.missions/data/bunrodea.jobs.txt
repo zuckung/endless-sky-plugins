@@ -28,7 +28,7 @@ mission "bunrodea defense job 1"
 	job
 	repeat
 	name "Destroy a Korath ship"
-	description "A Korath ship entered Bunrodea territory at Genta Bo. Destroy it. The payment is <payment>."
+	description "A Korath ship has entered Bunrodea territory at Genta Bo. Destroy it. The payment is <payment>."
 	source 
 		government "Bunrodea" "Bunrodea (Guard)"
 	waypoint "Genta Bo"
@@ -50,7 +50,7 @@ mission "bunrodea defense job 1"
 				"'olofez" 2
 		dialog "You have destroyed the Korath ship."
 	on complete
-		dialog `You receive a message from the Bunrodea authorities, gratulating for your victory over the Korath ship.`
+		dialog `You receive a message from the Bunrodean authorities, congratulating for your victory over the Korath ship.`
 		payment 100000
 		"reputation: Bunrodea" += 10
 		"reputation: Bunrodea (Erabu)" += 10
@@ -62,7 +62,7 @@ mission "bunrodea defense job 2"
 	job
 	repeat
 	name "Destroy a Korath fleet"
-	description "A Korath fleet entered Bunrodea territory at Era Natta. Destroy it. The payment is <payment>."
+	description "A Korath fleet has entered Bunrodean territory at Era Natta. Destroy it. The payment is <payment>."
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
 	waypoint "Era Natta"
@@ -89,7 +89,7 @@ mission "bunrodea defense job 2"
 		dialog "You have destroyed the Korath fleet."
 	on complete
 		payment 200000
-		dialog `You receive a message from the Bunrodea authorities, gratulating for your victory over the Korath fleet.`
+		dialog `You receive a message from the Bunrodea authorities, congratulating for your victory over the Korath fleet.`
 		"reputation: Bunrodea" += 30
 		"reputation: Bunrodea (Erabu)" += 30
 		"reputation: Bunrodea (Guard)" += 30
@@ -100,7 +100,7 @@ mission "bunrodea defense job 3"
 	job
 	repeat
 	name "Destroy a Korath worldship"
-	description "A Korath worldship entered Bunrodea territory at Eneva Katta. Destroy it. The payment is <payment>."
+	description "A Korath worldship entered Bunrodean territory at Eneva Katta. Destroy it. The payment is <payment>."
 	source
 		government "Bunrodea" "Bunrodea (Guard)"
 	waypoint "Eneva Katta"
@@ -129,7 +129,7 @@ mission "bunrodea defense job 3"
 		dialog "You have destroyed the Korath worldship."
 	on complete
 		payment 300000
-		dialog `You receive a message from the Bunrodea authorities, gratulating for your victory over the Korath worldship.`
+		dialog `You receive a message from the Bunrodea authorities, congratulating for your victory over the Korath worldship.`
 		"reputation: Bunrodea" += 40
 		"reputation: Bunrodea (Erabu)" += 40
 		"reputation: Bunrodea (Guard)" += 40
@@ -445,8 +445,8 @@ mission "bunrodea passengers 4"
 
 
 mission "bunrodea criminal 1"
-	name "Execute a convicted criminal"
-	description "Search and execute a convicted criminal in the nearby systems by <day>. The payment is <payment>."
+	name "Track down and execute a convicted criminal"
+	description "Locate and execute a convicted criminal in the nearby systems by <day>. The payment is <payment>."
 	repeat
 	job
 	deadline 25
@@ -468,7 +468,7 @@ mission "bunrodea criminal 1"
 		dialog "You have killed the criminal."
 	on complete
 		payment 75000
-		dialog `You receive the payment from the Bunrodea authorities for the execution of the criminal.`
+		dialog `You receive the payment from the Bunrodean authorities for the execution of the criminal.`
 		"reputation: Bunrodea" += 12
 		"reputation: Bunrodea (Erabu)" += 12
 		"reputation: Bunrodea (Guard)" += 12
@@ -476,8 +476,8 @@ mission "bunrodea criminal 1"
 
 
 mission "bunrodea criminal 2"
-	name "Execute convicted criminals"
-	description "Search and execute a group of convicted criminals in the nearby systems by <day>. The payment is <payment>."
+	name "Track down and execute convicted criminals"
+	description "Locate and execute a group of convicted criminals in the nearby systems by <day>. The payment is <payment>."
 	repeat
 	job
 	deadline 25
@@ -496,10 +496,10 @@ mission "bunrodea criminal 2"
 			cargo 1
 			variant 1
 				"Tanto"
-		dialog "You have killed the criminal."
+		dialog "You have killed the criminals."
 	on complete
 		payment 100000
-		dialog `You receive the payment from the Bunrodea authorities for the execution of the criminal.`
+		dialog `You receive the payment from the Bunrodean authorities for the execution of the criminal.`
 		"reputation: Bunrodea" += 13
 		"reputation: Bunrodea (Erabu)" += 13
 		"reputation: Bunrodea (Guard)" += 13
@@ -507,8 +507,8 @@ mission "bunrodea criminal 2"
 
 
 mission "bunrodea criminal 3"
-	name "Execute convicted criminals"
-	description "Search and execute a group of convicted criminals in the nearby systems by <day>. The payment is <payment>."
+	name "Locate and execute convicted criminals"
+	description "Locate and execute a group of convicted criminals in the nearby systems by <day>. The payment is <payment>."
 	repeat
 	job
 	deadline 25
@@ -530,7 +530,7 @@ mission "bunrodea criminal 3"
 		dialog "You have killed the criminal."
 	on complete
 		payment 125000
-		dialog `You receive the payment from the Bunrodea authorities for the execution of the criminal.`
+		dialog `You receive the payment from the Bunrodean authorities for the execution of the criminal.`
 		"reputation: Bunrodea" += 14
 		"reputation: Bunrodea (Erabu)" += 14
 		"reputation: Bunrodea (Guard)" += 14
