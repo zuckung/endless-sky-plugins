@@ -1,0 +1,168 @@
+# government "Pirate Warlords"
+# government "Unfettered Noble"
+# person "North Pirate Warlord"
+# person "Core Pirate Warlord"
+# person "South Pirate Warlord"
+# person "The Emperor"
+# person "Eco-One"
+# person "Explorer Corps"
+# person "Coinin"
+# person "Sesk Lem"
+
+
+
+government "Pirate Warlords"
+	swizzle 6
+	"player reputation" -1000
+	"fine" 0
+
+
+government "Unfettered Noble"
+	swizzle 4
+	"player reputation" -1000
+	"fine" 0
+
+
+person "North Pirate Warlord"
+	frequency 1000
+	government "Pirate Warlords"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		government "Pirate"
+		attributes "north"
+	phrase
+		word
+			"Who dares to invade my empire?"
+			"Your ship will let my fleet grow!"
+	ship "Modified Bactrian" "Fist of the North"
+
+
+person "Core Pirate Warlord"
+	frequency 1000
+	government "Pirate Warlords"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		government "Pirate"
+		attributes "core"
+	phrase
+		word
+			"Prepare to meet your maker!"
+			"Flee or die!"
+	ship "Modified Bactrian" "Fist of the Core"
+
+
+person "South Pirate Warlord"
+	frequency 1000
+	government "Pirate Warlords"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		government "Pirate"
+		attributes "south"
+	phrase
+		word
+			"Soon your ship is mine!"
+			"This will be your end!"
+	ship "Modified Bactrian" "Fist of the South"
+
+
+person "The Emperor"
+	frequency 1000
+	government "Unfettered Noble"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		government "Hai (Unfettered)"
+	phrase
+		word
+			"Bow before the Emperor!"
+			"Out of the way of the Emperor!"
+	ship "Emperor Beetle" "Royalty"
+
+
+person "Eco-One"
+	frequency 1000
+	government "Author"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		government "Free Worlds" "Republic" "Syndicate" "Independent" "Pirate"
+	phrase
+		word
+			"Don't mess with Eco-One!"
+			"Fighting for a cleaner future!"
+	ship "Eco" "Eco-One"
+
+
+person "Explorer Corps"
+	frequency 1000
+	government "Author"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		government "Free Worlds" "Republic" "Syndicate" "Independent" "Pirate"
+	phrase
+		word
+			"We are here to hunt the bad boys!"
+	ship "Badger" "Etna"
+	ship "Badger" "Teide"
+	ship "Badger" "Agrihan"
+
+
+person "Coinin Tapa"
+	frequency 1000
+	government "Author"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		system
+			"Zolpulti"
+			"Lloloi"
+			"Vanguwo"
+			"Msalbit"
+			"Kanguwa"
+			"Yranjiu"
+			"Vulcuja"
+			"Gaungu"
+			"Aierena"
+			"G-3191"
+			"L-118"
+			"W-3197"
+			"G-719"
+			"H-9187"
+			"G-819"
+			"H-8188"
+			"MC-42"
+			"L-6181"
+			"MS-219"
+			"M-1188"
+			"E-4183"
+			"E-9182"
+			"O-3184"
+			"U-5188"
+			"V-2189"
+	phrase
+		word
+			"Ta tu ag fail bhais anois!"
+			"Teith no beo leis na hiarmhairti!"
+			"Tar nios gaire chreiche!"
+	ship "ESS Essess" "Coinin Tapa"
+
+
+person "Sesk Lem"
+	frequency 1000
+	government "Author"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		system
+			"Kor Fel'tar"
+			"Kor En'lakfar"
+			"Kor Men"
+			"Kor Zena'i"
+			"Kor Tar'bei"
+			"Kor Nor'peli"
+			"Kor Ak'Mari"
+	ship "Korath Ikatila'ej" "Sesk Lem"

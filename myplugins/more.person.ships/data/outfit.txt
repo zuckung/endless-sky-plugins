@@ -1,0 +1,170 @@
+# outfit "ESS Thruster"
+# outfit "ESS Steering"
+# outfit "ESS Small Cooler"
+# outfit "ESS Large Cooler"
+# outfit "ESS Generator"
+# outfit "ESS Repair"
+# outfit "ESS Jump Drive"
+# outfit "ESS Gun"
+# outfit "ESS Turret"
+
+
+
+outfit "ESS Thruster"
+	"display name" "Tiomaint"
+	category "Engines"
+	"cost" 5000000
+	thumbnail "outfit/ess_thruster"
+	"mass" 100
+	"outfit space" -100
+	"engine capacity" -100
+	"thrust" 250
+	"thrusting energy" 14.2
+	"thrusting heat" 43.5
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 6
+	"flare sound" "plasma huge"
+	description "An alien thruster outfit of unknown origin."
+
+
+outfit "ESS Steering"
+	"display name" "Stiurtha"
+	category "Engines"
+	"cost" 5000000
+	thumbnail "outfit/ess_steering"
+	"mass" 80
+	"outfit space" -80
+	"engine capacity" -80
+	"turn" 6220.5
+	"turning energy" 7.5
+	"turning heat" 25.8
+	"steering flare sprite" "effect/remnant flare/large"
+		"frame rate" 6
+	"steering flare sound" "plasma huge"
+	description "An alien steering outfit of unknown origin."
+
+
+outfit "ESS Small Cooler"
+	"display name" "Fuara Beag"
+	category "Systems"
+	cost 1000000
+	thumbnail "outfit/ess_heat_small"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 15
+	description "An alien cooling outfit of unknown origin."
+
+
+outfit "ESS Large Cooler"
+	"display name" "Fuara Mor"
+	category "Systems"
+	cost 2500000
+	thumbnail "outfit/ess_heat_big"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 65
+	description "An alien cooling outfit of unknown origin."
+
+
+outfit "ESS Generator"
+	"display name" "Gineadoir"
+	category "Power"
+	cost 30000000
+	thumbnail "outfit/ess_generator"
+	"mass" 135
+	"outfit space" -135
+	"energy generation" 50.0
+	"heat generation" 150.0
+	description "An alien generator outfit of unknown origin."
+
+
+outfit "ESS Repair"
+	"display name" "Deisiu"
+	category "Systems"
+	cost 10000000
+	thumbnail "outfit/ess_repair"
+	"mass" 100
+	"outfit space" -100
+	"energy capacity" 12500
+	"shield generation" 7.2
+	"shield energy" 9.0
+	"hull repair rate" 1.0
+	"hull energy" 1.0
+	"hull heat" 1.4
+	description "An alien repair outfit of unknown origin."
+
+
+outfit "ESS Jump Drive"
+	"display name" "Tiomaint Leim"
+	category "Systems"
+	cost 3000000 
+	thumbnail "outfit/ess_jump_drive"
+	"mass" 25
+	"outfit space" -25
+	"jump speed" .4
+	"jump fuel" 125
+	"jump drive" 1
+	"scram drive" .4
+	"hyperdrive" 1
+	description "An alien jump drive outfit of unknown origin."
+
+outfit "ESS Gun"
+	"display name" "Gunna"
+	category "Guns"
+	cost 1200000
+	thumbnail "outfit/ess_gun"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/repulsor"
+			"random start frame"
+		sound "moonbeam"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "repulsor impact"
+		"inaccuracy" 2.0
+		"velocity" 550
+		"lifetime" 1
+		"reload" 1
+		"burst count" 25
+		"burst reload" 1
+		"firing energy" 5.5
+		"firing heat" 1.9
+		"shield damage" 10
+		"hull damage" 15
+	description "An alien gun outfit of unknown origin."
+
+
+outfit "ESS Turret"
+	"display name" "Tuiread"
+	category "Turrets"
+	licenses
+		"Wanderer Outfits"
+	cost 2500000
+	thumbnail "outfit/ess_turret"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/repulsor"
+			"random start frame"
+		"hardpoint sprite" "hardpoint/heliarch repulsor"
+		"hardpoint offset" 9.
+		sound "moonbeam"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "repulsor impact"
+		"inaccuracy" 2.0
+		"turret turn" 3.6
+		"velocity" 550
+		"lifetime" 1
+		"reload" 1
+		"burst count" 30
+		"burst reload" 1
+		"firing energy" 5.5
+		"firing heat" 1.9
+		"shield damage" 15
+		"hull damage" 22.5
+	description "An alien turret outfit of unknown origin."

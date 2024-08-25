@@ -1,0 +1,325 @@
+# testing
+# ship "Modified Bactrian"
+# ship "Badger"
+# ship "Eco"
+# ship "ESS Essess"
+# ship "Korath Ikatila'ej"
+
+
+
+# For testing
+#planet "Earth"
+#	add shipyard "ESS test"
+#shipyard "ESS test"
+#	"Modified Bactrian"
+#	"Badger"
+#	"Eco"
+#	"ESS Essess"
+#	"Korath Ikatila'ej"
+
+
+ship "Modified Bactrian"
+	sprite "ship/bactrian"
+	attributes
+		category "Utility"
+		"cost" 20000000
+		"shields" 17500
+		"hull" 8600
+		"required crew" 45
+		"bunks" 245
+		"mass" 2450
+		"drag" 30.6
+		"heat dissipation" .4
+		"fuel capacity" 1000
+		"cargo space" 650
+		"outfit space" 850
+		"weapon capacity" 300
+		"engine capacity" 180
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Heavy Laser" 4
+		"Heavy Laser Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		"LP144a Battery Pack"
+		"Laser Rifle" 100
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Tactical Scanner"
+		"A520 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Jump Drive"
+		"Fuel Processor"
+		"Triple Plasma Core"
+		"Large Heat Shunt" 2
+		"Systems Core (Large)"
+		"NDR-114 Android" 5
+	engine 18.5 232
+	engine -15 232
+	gun -9 -231.5 "Heavy Laser"
+	gun 13.5 -231.5 "Heavy Laser"
+	gun 36.5 -197 "Heavy Laser"
+	gun 42 -193 "Heavy Laser"
+	turret 37 -132.5 "Heavy Anti-Missile Turret"
+	turret -39 -39 "Heavy Laser Turret"
+	turret 31.5 -26 "Heavy Laser Turret"
+	turret -42.5 75 "Heavy Laser Turret"
+	turret 32.5 132 "Heavy Laser Turret"
+	turret -33.5 192.5 "Heavy Anti-Missile Turret"
+	bay "Fighter" -43.5 -125
+		"launch effect" "human internal"
+	bay "Fighter" 53 -72.5
+		"launch effect" "human internal"
+	bay "Fighter" -50 103.5
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "The Lionheart Bactrian is the last of the great city-ships, a design hearkening back to the early days of space colonization when a long-distance vessel needed to be a self-contained world, able to survive for weeks at a time without encountering an inhabited planet. It is not only a freighter, but a carrier, and a capable warship either at short range or at a distance."
+	description "	Naturally, this versatility also makes it extremely expensive, and the Bactrian is normally only for sale to citizens who have been vetted by the local government of the Deep. This is a stolen and heavily modified version."
+
+
+ship "Badger"
+	sprite "ship/badger"
+	attributes
+		category "Light Warship"
+		"cost" 5500000
+		"shields" 8000
+		"hull" 5000
+		"required crew" 5
+		"bunks" 10
+		"mass" 480
+		"drag" 7.4
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 100
+		"outfit space" 410
+		"weapon capacity" 180
+		"engine capacity" 100
+		"Tear of Skade" 2
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Electron Beam" 4
+		"Electron Turret"
+		"Anti-Missile Turret"
+		"RT-I Radiothermal" 2
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+	engine -12 86
+	engine 14 86
+	gun -55 45 "Electron Beam"
+	gun 55 45 "Electron Beam"
+	gun 2 -90 "Electron Beam"
+	gun -2 -90 "Electron Beam"
+	turret -2 -30 "Anti-Missile Turret"
+	turret -2 3 "Electron Turret"
+	leak "leak" 20 -13
+	leak "flame" -17 83
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Badger is a heavy armed, but light, warship designed for police duties. Only a few Badgers were produced."
+
+
+ship "Eco"
+	sprite "ship/eco"
+	attributes
+		category "Utility"
+		"cost" 80000000
+		"shields" 28000
+		"hull" 17000
+		"required crew" 50
+		"bunks" 300
+		"mass" 2250
+		"drag" 30.6
+		"heat dissipation" .5
+		"fuel capacity" 1200
+		"cargo space" 800
+		"outfit space" 950
+		"weapon capacity" 360
+		"engine capacity" 220
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Heavy Laser" 4
+		"Heavy Laser Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		"LP144a Battery Pack"
+		"Laser Rifle" 100
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Tactical Scanner"
+		"A520 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Jump Drive"
+		"Fuel Processor"
+		"Triple Plasma Core"
+		"Large Heat Shunt" 2
+		"Systems Core (Large)"
+		"Tear of Skade" 2
+	engine -74 410
+	engine 24 378
+	engine 104 358
+	gun 51 -402 "Heavy Laser"
+	gun 48 -402 "Heavy Laser"
+	gun 23 -413 "Heavy Laser"
+	gun 20 -413 "Heavy Laser"
+	turret 131 -233 "Heavy Laser Turret"
+	turret 131 -220 "Heavy Laser Turret"
+	turret -98 -55 "Heavy Laser Turret"
+	turret -98 -42 "Heavy Anti-Missile Turret"
+	turret 125 -58 "Heavy Laser Turret"
+	turret 125 -45 "Heavy Anti-Missile Turret"
+	leak "leak" 120 146
+	leak "flame" -113 327
+	leak "big leak" 129 -253
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "This ecological spaceship, owned by an environmental protection organization, is a massive and self-sustaining marvel. Shielded by advanced energy barriers, it houses extensive agricultural areas. These green spaces are dedicated to growing a variety of crops, fruits, and vegetables, utilizing cutting-edge hydroponic and aeroponic systems."
+	description "The crew, consisting of environmental scientists, agronomists, and engineers, work tirelessly to maintain the spaceship's delicate balance, conducting research to develop sustainable agricultural practices that could be implemented on Earth. This floating sanctuary symbolizes the fusion of technology and nature, a beacon of hope for a greener future."
+
+
+ship "ESS Essess"
+	"display name" "Coinin"
+	plural "ESS Essesses"
+	sprite "ship/essess"
+	attributes
+		category "Heavy Warship"
+		"cost" 80000000
+		"shields" 60000
+		"hull" 70000
+		"required crew" 42
+		"bunks" 200
+		"mass" 3754
+		"drag" 33.6
+		"heat dissipation" .25
+		"fuel capacity" 1250
+		"cargo space" 200
+		"outfit space" 1185
+		"weapon capacity" 350
+		"engine capacity" 200
+		"ramscoop" 5
+		weapon
+			"blast radius" 450
+			"shield damage" 6400
+			"hull damage" 3200
+			"hit force" 9600
+	outfits
+		"ESS Gun" 4
+		"ESS Turret" 8
+		"ESS Generator" 2
+		"ESS Repair" 2
+		"ESS Large Cooler" 4
+		"ESS Small Cooler" 4
+		"ESS Thruster"
+		"ESS Steering"
+		"ESS Jump Drive"
+	gun -11 -257 "ESS Gun"
+	gun 11 -257 "ESS Gun"
+	gun -7 -257 "ESS Gun"
+	gun 7 -257 "ESS Gun"
+	turret -17 -210 "ESS Turret"
+	turret 17 -210 "ESS Turret"
+	turret -14 -210 "ESS Turret"
+	turret 14 -210 "ESS Turret"
+	turret -11 -210 "ESS Turret"
+	turret 11 -210 "ESS Turret"
+	turret -8 -210 "ESS Turret"
+	turret 8 -210 "ESS Turret"
+	engine -11 260 1.5
+	engine 11 260 1.5
+	engine -3 260 1.5
+	engine 3 260 1.5
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "An alien ship of unknown origin."
+
+
+ship "Korath Ikatila'ej"
+	"display name" "Ikatila'ej"
+	sprite "ship/ikatila-ej"
+	attributes
+		category "Utility"
+		"cost" 35500000
+		"shields" 38000
+		"hull" 20000
+		"required crew" 150
+		"bunks" 300
+		"mass" 3542
+		"drag" 32.5
+		"heat dissipation" .24
+		"fuel capacity" 800
+		"cargo space" 250
+		"outfit space" 1050
+		"weapon capacity" 380
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 4600
+			"hull damage" 2300
+			"hit force" 5900
+	outfits
+		"Digger Mining Beam" 2
+		"Grab-Strike Turret" 2
+		"Langrage Hyper-Heaver" 2
+		"Warder Anti-Missile" 2
+		"Blaze-Pike Turret" 2
+		"Systems Core (Large)"
+		"Plasma Core"
+		"Triple Plasma Core"
+		"Large Heat Shunt" 4
+		"Fuel Processor" 2
+		"Thermal Repeater Rifle" 200
+		"Steering (Stellar Class)"
+		"Thruster (Stellar Class)"
+		"Jump Drive"
+	gun -50 -257 "Digger Mining Beam"
+	gun 50 -257 "Digger Mining Beam"
+	turret -89 -168 "Grab-Strike Turret"
+	turret 89 -168 "Grab-Strike Turret"
+	turret -55 -95 "Langrage Hyper-Heaver"
+	turret 55 -95 "Langrage Hyper-Heaver"
+	turret -146 83 "Warder Anti-Missile"
+	turret 146 83 "Warder Anti-Missile"
+	turret -141 176 "Blaze-Pike Turret"
+	turret 141 176 "Blaze-Pike Turret"
+	engine -61 252
+	engine 61 252
+	engine -24 238
+	engine 24 238
+	engine 85 221
+	engine -85 221
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "This seems to be an experimental Korath ship. The usual Korath fighter bays are missing and it has more weapons."

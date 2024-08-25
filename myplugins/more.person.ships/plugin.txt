@@ -1,2 +1,2 @@
 name "more.person.ships"
-about "This plugin adds more person ships to the different regions of the galaxy. See the readme for details."
+about "This plugin adds more person ships to the different regions of the galaxy. See the README for details."
