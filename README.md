@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-25 | update: more.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-25 | update: additional.command.buttons.radial<br>
+2024-08-25 | update: more.person.ships<br>
 2024-08-18 | update: kestrel.unlocks<br>
 2024-08-18 | update: planet.map<br>
 2024-08-17 | update: tribute.republic<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-09 | update: landing.images.android<br>
 2024-08-09 | update: landing.images<br>
 2024-08-09 | update: landing.images.highres<br>
-2024-08-07 | update: landing.images.android<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -219,9 +219,9 @@ changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 32.39 kb | 2024-05-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 42.16 kb | 2024-08-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
 <br>
->Reworks the main buttons ui on the lower right side. Made for the mobile version. See the readme for details.
+>Reworks the main buttons ui on the lower right side. Made for the mobile version. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -235,7 +235,19 @@ Reworks the main buttons ui on the lower right side. Made for the mobile version
 
 <br>
 
-This plugin rearranges and resizes some of the buttons, adds two easy accessible buttons and puts an image behind them.<br>
+This plugin<br>
+
+- rearranges and resizes some of the buttons<br>
+
+- adds more permanent buttons from the radial menus to make them easy accessible<br>
+
+- removes the radial menus<br>
+
+- adds a new panel to the top center for the fleet commands<br>
+
+- hides unnecessary buttons/panel when they are inactive<br>
+
+- puts images behind the buttons.<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial01.jpg' width='400'>
 
@@ -246,6 +258,18 @@ This plugin rearranges and resizes some of the buttons, adds two easy accessible
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-08-25<br>
+
+added a new panel for the fleet commands to the top center<br>
+
+reworked the toggle ammo button<br>
+
+removed the expandable radial menus, because all buttons are on the screen now<br>
+
+exchanged some of the button positions<br>
 
 <br>
 
