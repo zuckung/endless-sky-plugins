@@ -1,32 +1,67 @@
 interface "main buttons" bottom right
 
+# LAYOUT
+#
+# Fleet commands in top center
+#
+# cloak  hail    secondary    primary
+# stop   scan    secondary    primary
+# land   board   deploy   jump    map
+
+
+
 	anchor bottom right
 	sprite "ui/buttonbox"
 		from 0 0 to -325 -200
 
-
 # UPPER ROW
 
+	visible if "can hail"
 	active
 	sprite "ui/round_button_bg"
 		center -208 -139
 		dimensions 50 50
-	sprite "ui/icon_fleet_stop"
+	sprite "ui/icon_talk"
 		center -208 -139
 		dimensions 40 40
-	button "Stop"
+	button "Talk to selected ship"
 		center -208 -139
 		radius 22
 
-	active
+	visible if "can cloak"
 	sprite "ui/round_button_bg"
 		center -264 -139
 		dimensions 50 50
-	sprite "ui/icon_board"
+	sprite "ui/icon_cloak"
 		center -264 -139
 		dimensions 40 40
-	button "Board selected ship"
+	button "Toggle cloaking device"
 		center -264 -139
+		radius 22
+
+# MIDDLE ROW
+
+	visible if "can scan"
+	sprite "ui/round_button_bg"
+		center -208 -86
+		dimensions 50 50
+	sprite "ui/icon_scan"
+		center -208 -86
+		dimensions 40 40
+	button "Scan selected ship"
+		center -208 -86
+		radius 22
+
+	active
+	visible
+	sprite "ui/round_button_bg"
+		center -264 -86
+		dimensions 50 50
+	sprite "ui/icon_fleet_stop"
+		center -264 -86
+		dimensions 40 40
+	button "Stop"
+		center -264 -86
 		radius 22
 
 # LOWER ROW
@@ -75,44 +110,29 @@ interface "main buttons" bottom right
 		center -152 -30
 		radius 22
 
+	active
 	visible
 	sprite "ui/round_button_bg"
 		center -208 -30
 		dimensions 50 50
-	sprite "ui/icon_menu"
+	sprite "ui/icon_board"
 		center -208 -30
-		dimensions 44 44
-	radial
+		dimensions 40 40
+	button "Board selected ship"
 		center -208 -30
 		radius 22
-		selection_angles -1.5 1.1
-		selection_radius 175
-		"Land on planet / station"
-		"Toggle fast-forward"
-		"View player info"
-		"Show main menu"
-		visible if "can hail"
-		"Talk to selected ship"
-		visible if "can scan asteroids"
-		"Select nearest asteroid" "asteroid/small rock/spin"
 
-	visible if "has fleet"
+	active
+	visible
 	sprite "ui/round_button_bg"
 		center -264 -30
 		dimensions 50 50
-	sprite "ui/icon_fleet"
+	sprite "ui/icon_land"
 		center -264 -30
 		dimensions 40 40
-	radial
+	button "Land on planet / station"
 		center -264 -30
 		radius 22
-		selection_angles -1.5 1.1
-		selection_radius 175
-		"Fleet: Gather around me"
-		"Fleet: Hold position"
-		"Fleet: Harvest flotsam"
-		"Fleet: Fight my target"
-		"Fleet: Toggle ammo usage"
 
 # BIG ATTACK BUTTONS
 
@@ -149,32 +169,74 @@ interface "main buttons" bottom right
 		from -160 -180 to -70 -335
 	# from -200 -145 to -110 -300
 
-# MIDDLE ROW
+# UPPER SCREEN CENTER (FLEET COMMANDS)
 
-	visible if "can scan"
+	anchor top center
+	visible if "has fleet"
+	sprite "ui/buttonbox2"
+		from 162 -70 to -163 130
+
+	anchor top center
+	visible if "has fleet"
 	sprite "ui/round_button_bg"
-		center -208 -86
+		center 112 30
 		dimensions 50 50
-	sprite "ui/icon_scan"
-		center -208 -86
+	sprite "ui/icon_fleet_gather"
+		center 112 30
 		dimensions 40 40
-	button "Scan selected ship"
-		center -208 -86
+	button "Fleet: Gather around me"
+		center 56 30
+		radius 112
+
+	anchor top center
+	visible if "has fleet"
+	sprite "ui/round_button_bg"
+		center 56 30
+		dimensions 50 50
+	sprite "ui/icon_fleet_stop"
+		center 56 30
+		dimensions 40 40
+	button "Fleet: Hold position"
+		center 56 30
 		radius 22
 
-	visible if "can cloak"
+	anchor top center
+	visible if "has fleet"
 	sprite "ui/round_button_bg"
-		center -264 -86
+		center 0 30
 		dimensions 50 50
-	sprite "ui/icon_cloak"
-		center -264 -86
+	sprite "ui/icon_fleet_fight"
+		center 0 30
 		dimensions 40 40
-	button "Toggle cloaking device"
-		center -264 -86
+	button "Fleet: Fight my target"
+		center 0 30
 		radius 22
 
+	anchor top center
+	visible if "has fleet"
+	sprite "ui/round_button_bg"
+		center -56 30
+		dimensions 50 50
+	sprite "ui/icon_fleet_harvest
+		center -56 30
+		dimensions 40 40
+	button "Fleet: Harvest flotsam"
+		center -56 30
+		radius 22
 
+	anchor top center
+	visible if "has fleet"
+	sprite "ui/round_button_bg"
+		center -112 30
+		dimensions 50 50
+	sprite "ui/icon_fleet_ammo"
+		center -112 30
+		dimensions 40 40
+	button "Fleet: Toggle ammo usage"
+		center -112 30
+		radius 22
 
+# OTHER CONTROL ELEMENTS
 
 	# Overlayed on target display, but the hud doesn't have a panel, so to
 	# handle input, we put it here instead.

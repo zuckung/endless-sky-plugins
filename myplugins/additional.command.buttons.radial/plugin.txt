@@ -1,2 +1,2 @@
 name "additional.command.buttons.radial"
-about "Reworks the main buttons ui on the lower right side. Made for the mobile version. See the readme for details."
+about "Reworks the main buttons ui on the lower right side. Made for the mobile version. See the README for details."
