@@ -1,23 +1,25 @@
-name: (on push) zip release readme
-on:
-  push:
-    paths:
-      - 'myplugins/**'
+name: (manual) create release
+on: 
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'which plugin?'
+        required: true
+        type: string
 jobs:
-  zip-files:
+  deploy:
+    name: First job
     runs-on: ubuntu-latest
     permissions: write-all
+    env:
+      INPUT_STORE: ${{ github.event.inputs.tags }}
+      CUR_REPO: ${{ github.repository }}
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 2
-      - name: Analyse changed plugins
-        id: files
-        uses: tj-actions/changed-files@v41.0.1
-        with:
-          separator: '%%%'
-      - name: Zip changed plugins
-        run: python3 res/src/zip.py "${{ steps.files.outputs.all_changed_and_modified_files }}"
+      - name: plugin release
+        run: python3 res/src/release.py
       - name: Upload plugins to release (versioning)
         uses: ncipollo/release-action@v1.11.1
         with:

@@ -1,7 +1,0 @@
-# fix paths
-pathtoplugins = myplugins/
-indexfile = README.md
-assetfiles = https://github.com/zuckung/endless-sky-plugins/releases/download/Latest/
-pluginurl = https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/
-template = res/template.txt
-picturefile = res/icon.png

@@ -5,6 +5,8 @@ jobs:
   deploy:
     name: First job
     runs-on: ubuntu-latest
+    env:
+      CUR_REPO: ${{ github.repository }}
     permissions: write-all
     steps:
       - uses: actions/checkout@v3

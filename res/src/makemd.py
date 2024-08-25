@@ -3,26 +3,15 @@ import shutil
 import requests
 from datetime import datetime, date
 
-# for local testing
-if os.getcwd() == '/storage/emulated/0/Download/mgit/test/res/src': # check for local testing
-	os.chdir('../../')
 
-# read paths and files
-with open('res/paths.txt') as f:
-	for line in f:
-		line = str((line.strip()))
-		if line.find('pathtoplugins') == 0:	# i.e. pathtoplugins = myplugins/
-			pathtoplugins = line.split(' = ')[1]
-		elif line.find('indexfile') == 0: 		# i.e.indexfile = README.md
-			indexfile = line.split(' = ')[1]
-		elif line.find('assetfiles') == 0:	   # i.e. assetfiles = https://github.com/zuckung/test/releases/download/Latest/
- 			assetfiles = line.split(' = ')[1]
-		elif line.find('pluginurl') == 0:		 # i.e pluginurl = https://github.com/zuckung/test/tree/main/myplugins/
-			pluginurl = line.split(' = ')[1]
-		elif line.find('template') == 0:			# i.e. template = res/template.txt
-			templatefile = line.split(' = ')[1]
-		elif line.find('picturefile') == 0:	  # i.e picturefile = res/icon.png
-			picturefile = line.split(' = ')[1]
+
+current_repo = os.environ['CUR_REPO']
+pathtoplugins = 'myplugins/'
+indexfile = 'README.md'
+assetfiles = 'https://github.com/' + current_repo + '/releases/download/Latest/'
+pluginurl = 'https://github.com/' + current_repo + '/tree/main/myplugins/'
+templatefile = 'res/template.txt'
+
 
 # read templates
 with open(templatefile, 'r') as file1:
@@ -154,7 +143,7 @@ for entry in entries:
 	
 	print(entry + ' WRITTEN')
 	
-# deleting zip from workflow
+# deleting zip from runner
 files = os.listdir()
 for file in files:
 	if file[len (file)  -3:] == 'zip':
