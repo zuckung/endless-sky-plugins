@@ -24,7 +24,7 @@ landing.images.highres|1.0.1
 landing.images|1.0.2
 more.arfectas|1.0.2
 more.boarding.missions|1.1.3
-more.person.ships|1.0.0
+more.person.ships|1.0.1
 navy.licenses|1.0.2
 no.more.mereti.mines|1.0.2
 planet.map|1.0.1

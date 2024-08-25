@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-18 | update: kestrel.unlocks<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-25 | update: more.person.ships<br>
+2024-08-18 | update: kestrel.unlocks<br>
 2024-08-18 | update: planet.map<br>
 2024-08-17 | update: tribute.republic<br>
 2024-08-10 | update: tribute.republic<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-09 | update: landing.images<br>
 2024-08-09 | update: landing.images.highres<br>
 2024-08-07 | update: landing.images.android<br>
-2024-08-03 | update: landing.images.android<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2580,9 +2580,9 @@ added icon and reworked readme<br>
 
 <img src="myplugins/more.person.ships/icon.png" height="100">
 
-[more.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-more.person.ships/more.person.ships.zip) | 570.94 kb | 2024-06-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/) <br>
+[more.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-more.person.ships/more.person.ships.zip) | 4.18 mb | 2024-08-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/) <br>
 <br>
->This plugin adds more person ships to the different regions of the galaxy. See the readme for details.
+>This plugin adds more person ships to the different regions of the galaxy. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2598,7 +2598,7 @@ This plugin adds more person ships.<br>
 
 I renamed my plugin pirate.warlords and added more person ships.<br>
 
-These ships have a frequency of 1000 and they are all captureable.<br>
+These ships have a frequency of 1000, are all captureable and currently there are 8 persons.<br>
 
 <br>
 
@@ -2612,13 +2612,21 @@ Core Pirate Warlord | Human core pirate territory | Modified Bactrian<br>
 
 South Pirate Warlord | Human southern pirate territory | Modified Bactrian<br>
 
-The Emperor | Unfettered Hai Territory | Emperor Beetle (unused vanilla ship)<br>
+The Emperor | Unfettered Hai territory | Emperor Beetle (unused vanilla ship)(@2x in official hdpi plugin)<br>
 
-Eco-One | Human Territory | Eco (new ship)<br>
+Eco-One | Human territory | Eco (new ship)<br>
 
-Explorer Corps | Human Territory | 3xBadger (new ship)<br>
+Explorer Corps | Human territory | 3xBadger (new ship)<br>
+
+Coinin Tapa | east of Gegno territory| Coinin (new ship with new outfits)<br>
+
+Sesk Lem | Korath territory | Ikatila'ej (new ship, unused vanilla sprites)(@2x in official hdpi plugin)<br>
+
+<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships01.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships02.jpg' width='400'>
 
 <br>
 
@@ -2628,17 +2636,25 @@ Changelog:<br>
 
 <br>
 
+2024-08-25<br>
+
+added person Sesk Lem<br>
+
+added person Coinin Tapa<br>
+
+<br>
+
 2024-06-27<br>
 
 renamed plugin from pirate.warlords to more.person.ships<br>
 
 changed mass and drag to rebalanced values<br>
 
-added The Emperor<br>
+added person The Emperor<br>
 
-added Eco-One<br>
+added person Eco-One<br>
 
-added Explorer Corps<br>
+added person Explorer Corps<br>
 
 <br>
 
