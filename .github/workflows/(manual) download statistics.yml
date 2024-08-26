@@ -1,0 +1,28 @@
+name: (manual) download statistics
+on: 
+  workflow_dispatch:
+env:
+  github_token: ${{ secrets.GITHUB_TOKEN }}
+  CUR_REPO: ${{ github.repository }}
+jobs:
+  First:
+    name: gather statistics
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: write statistics
+        run: python res/src/download_statistics.py
+      - name: Commit file
+        run: |
+          git config user.name "script" 
+          git config user.email "<>"
+          git add 'res/dl_log/'
+          git commit -m "dl log written" || true
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true

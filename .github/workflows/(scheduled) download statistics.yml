@@ -1,0 +1,31 @@
+name: (scheduled) download statistics
+env:
+  github_token: ${{ secrets.GITHUB_TOKEN }}
+  CUR_REPO: ${{ github.repository }}
+on: 
+  schedule: 
+    - cron: '30 23 * * *' 
+    # runs at 23:30 utc every day
+    # minute(0-59) / hour(0-23) / day of month(1-31) / month(1-12) / day of week(0-6)
+jobs:
+  First:
+    name: gather statistics
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: write statistics file
+        run: python res/src/download_statistics.py
+      - name: Commit file
+        run: |
+          git config user.name "script" 
+          git config user.email "<>"
+          git add 'res/dl_log/'
+          git commit -m "dl log written" || true
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
