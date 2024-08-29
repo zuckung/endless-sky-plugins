@@ -13,6 +13,30 @@ pluginurl = 'https://github.com/' + current_repo + '/tree/main/myplugins/'
 templatefile = 'res/template.txt'
 
 
+def make_download_md():
+	plugins = os.listdir('myplugins/')
+	plugins.sort()
+	with open('res/downloads.md', 'w') as target:
+		target.writelines('TOTAL DOWNLOADS<br>\n')
+		target.writelines('  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/' + current_repo + '/total?color=008000"></a><br>\n')
+		target.writelines('<br>\n')
+		target.writelines('TOTAL DOWNLOADS FOR EACH PLUGIN<br>\n')
+		for plugin in plugins:
+			target.writelines('  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/' + current_repo + '/' + 
+				plugin + '.zip?color=008000"></a><br>\n')
+		target.writelines('<br>\n')
+		target.writelines('DOWNLOADS FOR EACH RELEASE<br>\n')
+		for i in range(1, 100):
+			response = requests.get('https://api.github.com/repos/' + current_repo + '/releases?page=' + str(i) + '&per_page=100')
+			data = response.json()
+			if len(data) == 0:
+				break
+			for obj in data:
+				rname = obj['tag_name']
+				target.writelines('  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/' + current_repo + 
+					'/' + rname + '/total?color=008000"></a><br>\n')
+				
+
 # read templates
 with open(templatefile, 'r') as file1:
 	template = file1.read()
@@ -152,3 +176,5 @@ for file in files:
 
 if os.path.isdir('versioning'):
 	shutil.rmtree('versioning')
+
+make_download_md()
