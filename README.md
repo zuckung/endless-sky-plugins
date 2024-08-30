@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-25 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-30 | update: outfits.weapon.slot<br>
+2024-08-25 | update: additional.command.buttons.radial<br>
 2024-08-25 | update: more.person.ships<br>
 2024-08-18 | update: kestrel.unlocks<br>
 2024-08-18 | update: planet.map<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-09 | update: tribute.republic<br>
 2024-08-09 | update: landing.images.android<br>
 2024-08-09 | update: landing.images<br>
-2024-08-09 | update: landing.images.highres<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -60,6 +60,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#morepersonships">more.person.ships</a><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
+<a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
 <a href="README.md#quargfarm">quarg.farm</a><br>
 <a href="README.md#realfluff">real.fluff</a><br>
@@ -2805,6 +2806,57 @@ added better performance to bunrodea swarm pods (by timeout.fu)<br>
 <br>
 
 2024-02-04<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### outfits.weapon.slot
+
+<img src="myplugins/outfits.weapon.slot/icon.png" height="100">
+
+[outfits.weapon.slot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-outfits.weapon.slot/outfits.weapon.slot.zip) | 885.35 kb | 2024-08-30 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/outfits.weapon.slot/) <br>
+<br>
+>Adds several non-weapon outfits for gun and turret ports. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### outfits.weapon.slot
+
+<br>
+
+<br>
+
+Adds several non-weapon outfits for gun and turret ports. See the README for details.<br>
+
+<br>
+
+These outfits use an empty gun or turret port and add stats like fuel, cargo, bunks etc.<br>
+
+Half the outfits are designed by timeout.fu and he did an overall balancing of all outfits (thx).<br>
+
+Currently there are 7 gun port outfits and 6 turret port outfits. Available on Glaze, Valhalla, Wayfarer, Luna and Sunracer.<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/outfits.weapon.slot01.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/outfits.weapon.slot02.jpg' width='400'>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-08-30<br>
 
 initial release<br>
 

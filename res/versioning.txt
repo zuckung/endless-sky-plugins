@@ -27,6 +27,7 @@ more.boarding.missions|1.1.3
 more.person.ships|1.0.1
 navy.licenses|1.0.2
 no.more.mereti.mines|1.0.2
+outfits.weapon.slot|1.0.0
 planet.map|1.0.1
 quarg.farm|1.0.1
 real.fluff|1.0.8

@@ -31,6 +31,7 @@ TOTAL DOWNLOADS FOR EACH PLUGIN<br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/more.person.ships.zip?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/navy.licenses.zip?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/no.more.mereti.mines.zip?color=008000"></a><br>
+  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/outfits.weapon.slot.zip?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/planet.map.zip?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/quarg.farm.zip?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/real.fluff.zip?color=008000"></a><br>
@@ -42,6 +43,7 @@ TOTAL DOWNLOADS FOR EACH PLUGIN<br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/unique.fix.zip?color=008000"></a><br>
 <br>
 DOWNLOADS FOR EACH RELEASE<br>
+  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.0-outfits.weapon.slot/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.1-more.person.ships/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.1-additional.command.buttons.radial/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.1-planet.map/total?color=008000"></a><br>
