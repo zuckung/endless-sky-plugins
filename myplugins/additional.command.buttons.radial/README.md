@@ -16,6 +16,13 @@ This plugin<br>
 <br>
 Changelog:<br>
 <br>
+2024-08-30<br>
+fixed an error<br>
+adjusted positions<br>
+all buttons are visible now, but greyed out if you can't use them<br>
+reworked all buttons to display a ring around them<br>
+resized the fast forward button in the upper left corner, and added a greyed out version<br>
+<br>
 2024-08-25<br>
 added a new panel for the fleet commands to the top center<br>
 reworked the toggle ammo button<br>
