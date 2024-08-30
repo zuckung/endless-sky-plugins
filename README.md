@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-30 | update: outfits.weapon.slot<br>
+<table><tr><td><img width="882" height="1"><br>2024-08-30 | update: additional.command.buttons.radial<br>
+2024-08-30 | update: outfits.weapon.slot<br>
 2024-08-25 | update: additional.command.buttons.radial<br>
 2024-08-25 | update: more.person.ships<br>
 2024-08-18 | update: kestrel.unlocks<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-10 | update: tribute.republic<br>
 2024-08-09 | update: tribute.republic<br>
 2024-08-09 | update: landing.images.android<br>
-2024-08-09 | update: landing.images<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -220,7 +220,7 @@ changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 42.16 kb | 2024-08-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 119.88 kb | 2024-08-30 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the mobile version. See the README for details.
 
@@ -259,6 +259,20 @@ This plugin<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-08-30<br>
+
+fixed an error<br>
+
+adjusted positions<br>
+
+all buttons are visible now, but greyed out if you can't use them<br>
+
+reworked all buttons to display a ring around them<br>
+
+resized the fast forward button in the upper left corner, and added a greyed out version<br>
 
 <br>
 
