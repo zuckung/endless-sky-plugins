@@ -1,0 +1,216 @@
+# outfitter "Weyland Limited"
+# planet "Wayfarer"
+# planet "Valhalla"
+# planet "Glaze"
+# planet "Luna"
+# planet "Sunracer"
+# outfit "Gun Slot Cargo"
+# outfit "Gun Slot Cabin"
+# outfit "Gun Slot Tank"
+# outfit "Gun Slot Battery"
+# outfit "Gun Slot Generator"
+# outfit "Gun Slot Ramscoop"
+# outfit "Gun Slot Ramscoop Mk II"
+# outfit "Turret Slot Cargo"
+# outfit "Turret Slot Cabin"
+# outfit "Turret Slot Tank"
+# outfit "Turret Slot Battery"
+# outfit "Turret Slot Generator"
+# outfit "Turret Slot Sensor"
+
+
+
+outfitter "Weyland Industries"
+	"Gun Slot Cargo"
+	"Gun Slot Cabin"
+	"Gun Slot Tank"
+	"Gun Slot Battery"
+	"Gun Slot Generator"
+	"Gun Slot Ramscoop"
+	"Gun Slot Ramscoop Mk II"
+	"Turret Slot Cargo"
+	"Turret Slot Cabin"
+	"Turret Slot Tank"
+	"Turret Slot Battery"
+	"Turret Slot Generator"
+	"Turret Slot Sensor"
+
+
+planet "Wayfarer"
+	add outfitter "Weyland Industries"
+
+
+planet "Valhalla"
+	add outfitter "Weyland Industries"
+
+
+planet "Glaze"
+	add outfitter "Weyland Industries"
+
+
+planet "Luna"
+	add outfitter "Weyland Industries"
+
+
+planet "Sunracer"
+	add outfitter "Weyland Industries"
+
+
+outfit "Gun Slot Cargo"
+	"display name" "Ext. Cargo (Gun)"
+	category "Guns"
+	cost 450000
+	thumbnail "outfit/extcargo_sml"
+	"mass" 20
+	"cargo space" 20
+	"gun ports" -1
+	"energy consumption" 0.1
+	description "This is an external cargo container, installable into an empty gun port."
+
+
+outfit "Gun Slot Cabin"
+	"display name" "Ext. Cabin (Gun)"
+	category "Guns"
+	cost 600000
+	thumbnail "outfit/extcabin_sml"
+	"mass" 20
+	"bunks" 4
+	"gun ports" -1
+	"energy consumption" 0.2
+	description "This is an external passenger cabin, installable into an empty gun port."
+
+
+outfit "Gun Slot Tank"
+	"display name" "Ext. Tank (Gun)"
+	category "Guns"
+	cost 300000
+	thumbnail "outfit/exttank_sml"
+	"mass" 20
+	"fuel capacity" 250
+	"gun ports" -1
+	"energy consumption" 0.1
+	description "This is an external fuel tank, installable into an empty gun port."
+
+
+outfit "Gun Slot Battery"
+	"display name" "Ext. Battery (Gun)"
+	category "Guns"
+	cost 210000
+	thumbnail "outfit/extbattery_sml"
+	"mass" 20
+	"gun ports" -1
+	"energy capacity" 8800
+	"energy consumption" 0.1
+	description "This is an external battery, installable into an empty gun port."
+
+
+outfit "Gun Slot Generator"
+	"display name" "Ext. Generator (Gun)"
+	category "Guns"
+	cost 525000
+	thumbnail "outfit/extgenerator_sml"
+	"mass" 20
+	"gun ports" -1
+	"energy generation" 1.1
+	description "This is an external fuel cell generator, installable into an empty gun port."
+
+
+outfit "Gun Slot Ramscoop"
+	"display name" "Ext. Ramscoop (Gun)"
+	category "Guns"
+	cost 1200000
+	thumbnail "outfit/extsmlramscoop"
+	"mass" 20
+	"gun ports" -1
+	"ramscoop" 2
+	"energy consumption" 0.1
+	description "This is an external ramscoop, installable into an empty gun port."
+
+outfit "Gun Slot Ramscoop Mk II"
+	"display name" "Ext. Ramscoop Mk II (Gun)"
+	category "Guns"
+	cost 3700000
+	thumbnail "outfit/extlrgramscoop"
+	"mass" 20
+	"gun ports" -1
+	"ramscoop" 8
+	"energy consumption" 0.15
+	description "This is an external catalytic ramscoop, installable into an empty gun port."
+
+
+outfit "Turret Slot Cargo"
+	"display name" "Ext. Cargo (Turret)"
+	category "Turrets"
+	cost 675000
+	thumbnail "outfit/extcargo"
+	"mass" 30
+	"cargo space" 30
+	"turret mounts" -1
+	"energy consumption" 0.15
+	description "This is an external cargo container, installable into an empty turret port."
+
+
+outfit "Turret Slot Cabin"
+	"display name" "Ext. Cabin (Turret)"
+	category "Turrets"
+	cost 900000
+	thumbnail "outfit/extcabin"
+	"mass" 30
+	"bunks" 6
+	"turret mounts" -1
+	"energy consumption" 0.3
+	description "This is an external passenger cabin, installable into an empty turret port."
+
+
+outfit "Turret Slot Tank"
+	"display name" "Ext. Tank (Turret)"
+	category "Turrets"
+	cost 450000
+	thumbnail "outfit/exttank"
+	"mass" 30
+	"fuel capacity" 375
+	"turret mounts" -1
+	"energy consumption" 0.15
+	description "This is an external fuel tank, installable into an empty turret port."
+
+
+outfit "Turret Slot Battery"
+	"display name" "Ext. Battery (Turret)"
+	category "Turrets"
+	cost 375000
+	thumbnail "outfit/extbattery"
+	"mass" 30
+	"energy capacity" 15000
+	"turret mounts" -1
+	"energy consumption" 0.15
+	description "This is an external battery, installable into an empty turret port."
+
+
+outfit "Turret Slot Generator"
+	"display name" "Ext. Generator (Turret)"
+	category "Turrets"
+	cost 705000
+	thumbnail "outfit/extgenerator"
+	"mass" 30
+	"turret mounts" -1
+	"energy generation" 1.9
+	description "This is an external fuel cell generator, installable into an empty turret port."
+
+
+outfit "Turret Slot Sensor"
+	"display name" "Ext. Sensors (Turret)"
+	category "Turrets"
+	cost 685000
+	thumbnail "outfit/extsensor"
+	"mass" 30
+	"turret mounts" -1
+	"cargo scan power" 20
+	"cargo scan efficiency" 10
+	"outfit scan power" 52
+	"outfit scan efficiency" 30
+	"asteroid scan power" 82
+	"tactical scan power" 100
+	"energy consumption" 0.3
+	description "This is an external sensor array, installable into an empty turret port."
+
+

@@ -1,0 +1,2 @@
+name "outfits.weapon.slot"
+about "Adds several non-weapon outfits for gun and turret ports. See the README for details."

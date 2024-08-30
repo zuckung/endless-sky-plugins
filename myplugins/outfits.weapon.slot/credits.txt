@@ -1,0 +1,8 @@
+outfits.weapon.slot
+author:
+	zuckung
+	timeout.fu
+	https://github.com/zuckung/endless-sky-plugins
+images:
+	outfits
+		ai generated at https://perchance.org/ai-text-to-image-generator
