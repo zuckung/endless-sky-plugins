@@ -5,10 +5,12 @@ Reworks the main buttons ui on the lower right side. Made for the mobile version
 <br>
 This plugin<br>
 - rearranges and resizes some of the buttons<br>
+- changes most icons (make ring around as a standart)
 - adds more permanent buttons from the radial menus to make them easy accessible<br>
 - removes the radial menus<br>
-- adds a new panel to the top center for the fleet commands<br>
-- hides unnecessary buttons/panel when they are inactive<br>
+- adds a new button row to the top center for the fleet commands<br>
+- adds zoom buttons
+- greyes out inactive buttons<br>
 - puts images behind the buttons.<br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial01.jpg' width='400'>
 <br>
@@ -19,6 +21,7 @@ Changelog:<br>
 2024-08-30<br>
 fixed an error<br>
 adjusted positions<br>
+added zoom buttons<br>
 all buttons are visible now, but greyed out if you can't use them<br>
 reworked all buttons to display a ring around them<br>
 resized the fast forward button in the upper left corner, and added a greyed out version<br>
