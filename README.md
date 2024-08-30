@@ -220,7 +220,7 @@ changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 119.88 kb | 2024-08-30 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 118.14 kb | 2024-08-30 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the mobile version. See the README for details.
 
@@ -240,13 +240,17 @@ This plugin<br>
 
 - rearranges and resizes some of the buttons<br>
 
+- changes most icons (make ring around as a standart)
+
 - adds more permanent buttons from the radial menus to make them easy accessible<br>
 
 - removes the radial menus<br>
 
-- adds a new panel to the top center for the fleet commands<br>
+- adds a new button row to the top center for the fleet commands<br>
 
-- hides unnecessary buttons/panel when they are inactive<br>
+- adds zoom buttons
+
+- greyes out inactive buttons<br>
 
 - puts images behind the buttons.<br>
 
@@ -267,6 +271,8 @@ Changelog:<br>
 fixed an error<br>
 
 adjusted positions<br>
+
+added zoom buttons<br>
 
 all buttons are visible now, but greyed out if you can't use them<br>
 
