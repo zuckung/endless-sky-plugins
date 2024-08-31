@@ -12,18 +12,18 @@ interface "main buttons" bottom right
 	# lower right button box
 	anchor bottom right
 	sprite "ui/buttonbox"
-		from 35 30 to -290 -190
+		from 100 20 to -358 -191
 
 	# lower right zoom buttons
 	sprite "ui/zoom"
-		from 0 -134 to -90 -194
+		from 0 -124 to -90 -184
 	active if "!max zoom"
 	button + "_+"
-		from -10 -134 to -40 -194
+		from -10 -124 to -40 -184
 		size 18
 	active if "!min zoom"
 	button - "_-"
-		from -50 -134 to -80 -194
+		from -50 -124 to -80 -184
 		size 18
 
 # UPPER ROW
@@ -210,7 +210,7 @@ interface "main buttons" bottom right
 	# The engine will draw the secondary weapons list here.
 	visible if "has secondary"
 	box "ammo"
-		from -166 -160 to -76 -315
+		from -166 -150 to -76 -305
 
 # UPPER SCREEN CENTER (FLEET COMMANDS)
 
@@ -218,7 +218,7 @@ interface "main buttons" bottom right
 	anchor top center
 	visible
 	sprite "ui/buttonbox2"
-		from 163 -70 to -163 130
+		from 195 -20 to -195 76
 
 	# top center fleet ammo switch button
 	visible

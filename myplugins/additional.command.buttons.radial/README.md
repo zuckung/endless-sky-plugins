@@ -5,7 +5,7 @@ Reworks the main buttons ui on the lower right side. Made for the mobile version
 <br>
 This plugin<br>
 - rearranges and resizes some of the buttons<br>
-- changes most icons (make ring around as a standart)
+- changes most icons (making a ring around as a standart)
 - adds more permanent buttons from the radial menus to make them easy accessible<br>
 - removes the radial menus<br>
 - adds a new button row to the top center for the fleet commands<br>
@@ -17,6 +17,9 @@ This plugin<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-08-31<br>
+changed button background to look more natural<br>
 <br>
 2024-08-30<br>
 fixed an error<br>
