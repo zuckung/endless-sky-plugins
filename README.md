@@ -15,7 +15,9 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-08-31 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2024-09-02 | update: uniques<br>
+2024-09-02 | renamed unique.fix to uniques<br>
+2024-08-31 | update: additional.command.buttons.radial<br>
 2024-08-30 | update: additional.command.buttons.radial<br>
 2024-08-30 | update: outfits.weapon.slot<br>
 2024-08-25 | update: additional.command.buttons.radial<br>
@@ -23,8 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-18 | update: kestrel.unlocks<br>
 2024-08-18 | update: planet.map<br>
 2024-08-17 | update: tribute.republic<br>
-2024-08-10 | update: tribute.republic<br>
-2024-08-09 | update: tribute.republic<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -69,7 +69,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#spacefauna">space.fauna</a><br>
 <a href="README.md#toomanyasteroids">too.many.asteroids</a><br>
 <a href="README.md#tributerepublic">tribute.republic</a><br>
-<a href="README.md#uniquefix">unique.fix</a><br>
+<a href="README.md#uniques">uniques</a><br>
 <img width="294" height="1"><br></td></tr></table>
 
 
@@ -246,7 +246,7 @@ This plugin<br>
 
 - removes the radial menus<br>
 
-- adds a new button row to the top center for the fleet commands<br>
+- adds a new button row to the top right for the fleet commands<br>
 
 - adds zoom buttons
 
@@ -263,6 +263,14 @@ This plugin<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-09-02<br>
+
+fixed button radius typo on fleet gather<br>
+
+moved the fleet commands to the right side, so the jump systems are better seen<br>
 
 <br>
 
@@ -3558,45 +3566,105 @@ initial release<br>
 
 ---
 
-### unique.fix
+### uniques
 
-<img src="myplugins/unique.fix/icon.png" height="100">
+<img src="myplugins/uniques/icon.png" height="100">
 
-[unique.fix.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-unique.fix/unique.fix.zip) | 429.04 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/unique.fix/) <br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-uniques/uniques.zip) | 3.47 mb | 2024-09-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <br>
 <br>
->Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.
+>Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds some new uniques. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>### unique.fix
+<blockquote>### uniques
 
 <br>
 
 <br>
 
-Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. See the readme for details.<br>
+Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds some new uniques.<br>
 
 <br>
 
 <br>
+
+Uniques are great! Why aren't more ingame?<br>
+
+Former plugin "unique.fix", containing just some adjustment to the few vanilla uniques, got renamed to "uniques". This new version adds more useful and useless unique outfits.<br>
 
 <ul>
 
-<li> Removes mass and outfit space from the cloaking device. </li>
+<li> Removes mass and outfit space from the cloaking device</li>
 
-<li> Removes mass and outfit space from outskirts gauger and puts it in unique category. </li>
+<li> Removes mass and outfit space from outskirts gauger and puts it in unique category</li>
 
-<li> Gives outfit '"Puny"' a portrait. </li>
+<li> Gives outfit '"Puny"' a picture</li>
 
-<li> Puts outfit 'Mug' into unique category </li>
+<li> Puts outfit 'Mug' into unique category</li>
+
+<li> Puts outfit 'Antigrav Glass' into unique category and gives a picture</li>
+
+<li> Adds a new unique, "Bioluminescent Plant" (Aesila, 10% chance)</li>
+
+<li> Adds a new unique, "Spaceship Figurine" (Sunracer, 3% chance)</li>
+
+<li> Adds a new unique, "Alien Handgun" (Alix, 10% chance)</li>
+
+<li> Adds a new unique, "Quantum Ring" (Charon Station, 3% chance)</li>
+
+<li> Adds a new unique, "Old Whisky Bottles" (Socket, 10% chance)</li>
+
+<li> Adds a new unique, "Scanning Computer" (Overseer, 10% chance)</li>
+
+<li> Adds a new unique, "Hai Survival Rations" (Hai space, 3% chance)</li>
+
+<li> Adds a new unique, "Piloting For Dummies" (Paradise worlds, 3% chance)</li>
+
+<li> Adds a new unique, "External Holo Emitter" (Luna, 6% chance)</li>
 
 </ul>
+
+vanilla uniques<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques01.jpg' width='400'>
+
+<br>
+
+added uniques<br>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques02.jpg' width='400'>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-09-xx<br>
+
+renamed plugin from "unique.fix" to "uniques"<br>
+
+gave Antigrav Glass a sprite and moved it to unique<br>
+
+added bioluminescent plant unique, and a new planet<br>
+
+added spaceship figurine unique<br>
+
+added alien handgun unique<br>
+
+added quantum ring unique<br>
+
+added old whisky bottles unique, and a new planet<br>
+
+added scanning computer unique, and a new planet<br>
+
+added hai survival rartions<br>
+
+added piloting for dummies<br>
+
+added external holo emitter and 8 advertising missions<br>
 
 <br>
 

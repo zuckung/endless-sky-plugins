@@ -40,9 +40,10 @@ TOTAL DOWNLOADS FOR EACH PLUGIN<br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/space.fauna.zip?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/too.many.asteroids.zip?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/tribute.republic.zip?color=008000"></a><br>
-  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/unique.fix.zip?color=008000"></a><br>
+  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/uniques.zip?color=008000"></a><br>
 <br>
 DOWNLOADS FOR EACH RELEASE<br>
+  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.1-uniques/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.4-additional.command.buttons.radial/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.3-additional.command.buttons.radial/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.2-additional.command.buttons.radial/total?color=008000"></a><br>
