@@ -1,0 +1,64 @@
+# system "Han"
+# planet "Overseer"
+# outfit "unq_scanner"
+# mission "unq_alien_probe"
+
+
+system "Han"
+	add object "Overseer"
+		sprite planet/gas3-b
+		distance 1982
+		period 1036
+
+
+planet "Overseer"
+	attributes "gas giant" "requires: gaslining" uninhabited
+	landscape land/unq_overseer
+	description `This special gas giant, known for its massive size, exhibits unique atmospheric characteristics. Its swirling clouds of various colors and patterns are a result of complex chemical reactions in the upper layers. The planet's strong magnetic field interacts with solar winds, creating mesmerizing auroras that dance across the sky.`
+	government Uninhabited
+
+
+outfit "unq_scanner"
+	"display name" "Scanning Computer"
+	category "Unique"
+	thumbnail "outfit/unq_scanner"
+	"unique" 1
+	"unplunderable" 1
+	"cargo scan power" 29
+	"cargo scan efficiency" 13
+	"outfit scan power" 37
+	"outfit scan efficiency" 21
+	cost 800000
+	description `You've found this high tech scanning computer inside an old alien probe drifting in the athmosphere of a gas giant.`
+	description `It's technology and complex algorithms are superior to what Humanity can do. Also it is very small and easy to install.`
+
+
+mission "unq_alien_probe"
+	invisible
+	landing
+	source "Overseer"
+	to offer
+		random < 10
+	on offer
+		outfit "unq_scanner" 1
+		conversation
+			scene "scene/unq_alien_probe"
+			`While conducting a routine scan of the atmosphere of a gas giant in the Han system, your ship's sensors pick up an unusual signal. Upon further investigation, you locate a derelict probe of unknown origin, floating amidst the turbulent gases. The probe appears to be of advanced design, incorporating technology far beyond anything you've encountered before.`
+			`Despite being heavily weathered and covered in the residue from the gas giant's atmosphere, the probe's antigravity systems are still functioning, keeping it suspended in the dense clouds. However, its thrusters are completely inoperable, leaving it adrift and abandoned. Intrigued by the potential for advanced technology, you decide to take the probe on board for further analysis.`
+			`After careful examination in your ship's lab, you discover that most of the probe's systems are either too damaged or too complex to salvage. However, one component stands out: an advanced scanning computer. This computer appears to utilize a combination of cutting-edge algorithms and exotic materials to significantly enhance scanning capabilities.`
+			`Integrating the computer into your ship's systems, immediately yielding improvements. The probe's algorithms allow for faster and more detailed scans of planetary bodies, revealing finer details of atmospheric composition, surface structures, and potential resource deposits. The technology also enables better identification of anomalies, making future explorations safer and more efficient.`
+			`This discovery not only enhances your ship's capabilities but also raises questions about the origins of the probe. Who created it? What was its purpose? And are there more such probes waiting to be found in the vastness of space?`
+				decline
+
+
+
+
+
+
+
+
+
+
+
+
+

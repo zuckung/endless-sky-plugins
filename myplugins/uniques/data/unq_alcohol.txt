@@ -1,0 +1,55 @@
+# system "Atik"
+# planet "Socket"
+# outfit "unq_alcohol"
+# mission "unq_pirate_base"
+
+
+
+system "Atik"
+	add object "Socket"
+		sprite planet/desert3-b
+		distance 12570
+		period 1810
+
+
+planet "Socket"
+	attributes uninhabited
+	landscape land/unq_socket
+	description `This special hot desert world is a place of extremes. The scorching surface is barren, with little relief from the relentless sun. However, beneath the sandy dunes lies a hidden world teeming with life. Subterranean creatures have adapted to the harsh conditions, carving out intricate networks of tunnels and chambers. These resilient beings have evolved unique features to survive in the darkness, utilizing senses beyond sight to navigate their sunless world. The contrast between the desolate surface and the vibrant subterranean realm creates a fascinating and mysterious ecosystem.`
+	government Uninhabited
+
+
+outfit "unq_alcohol"
+	"plural" "Old Whisky Bottles"
+	"display name" "Old Whisky Bottles"
+	category "Unique"
+	thumbnail "outfit/unq_alcohol"
+	"unique" 1
+	"unplunderable" 1
+	cost 25000
+	description `Four bottles of old and well-aged whisky. You've found them in an abandoned pirate base.`
+
+
+mission "unq_pirate_base"
+	invisible
+	landing
+	source "Socket"
+	to offer
+		random < 10
+	on offer
+		outfit "unq_alcohol" 1
+		conversation
+			scene "scene/unq_desert_ruin"
+			`Upon landing on the uninhabited desert planet Socket, you step out into the blistering heat, wondering why you didn't pick a more tropical destination. The endless sand dunes stretch out before you, interrupted only by a peculiar set of tracks, something with wheels has rolled through here recently. Curiosity piqued, you decide to follow the tracks, hoping they lead to something more exciting than another sand dune.`
+			`After what feels like an eternity of trudging through the sand (did you remember to bring water?), you stumble upon an old, half-buried pirate base. Clearly, these pirates weren't big on housekeeping; the place looks like it hasn't seen a dustpan in decades. But your treasure-hunting instincts kick in, where there's an abandoned pirate base, there's bound to be something valuable left behind.`
+			`You start rummaging through the debris, pushing aside rusted weaponry, crumbling maps, and a rather suspicious-looking skeleton (who clearly lost a game of cards). Just when you're about to give up, you notice a loose wooden plank in the floor. With a satisfying creak, it lifts to reveal... a stash of ancient whisky bottles, hidden away like a pirate's forgotten treasure.`
+			`The pirates must have left in a hurry, or maybe they had a bit too much to drink and forgot where they stashed their prized spirits. Either way, it's your lucky day! You stash the bottles in your cargo hold, thinking maybe this desert planet wasn't so bad after all. It might not fetch much on the market, but hey, at least it's aged well!`
+				decline
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+# system "Ae Il M-77"
+# planet "Aesila"
+# outfit "unq_bioluminescent_plant"
+# mission "unq_aesilas_plant"
+# event "unq_wait_bioluminescent_offspring"
+# mission "unq_bioluminescent_offspring"
+
+
+
+system "Ae Il M-77"
+	add object Aesila
+		sprite planet/forest2-b
+		distance 17159
+		period 6720
+
+
+planet "Aesila"
+	attributes uninhabited
+	landscape land/unq_aesila
+	description `The planet's atmosphere is rich with oxygen, and the terrain is dominated by dense jungles, towering trees, and vibrant vegetation that stretches as far as the eye can see. The air is thick with the scent of unknown flora.`
+	government Uninhabited
+
+
+outfit "unq_bioluminescent_plant"
+	"display name" "Bioluminescent Plant"
+	category "Unique"
+	thumbnail "outfit/unq_bioluminescent_plant"
+	"unique" 1
+	"unplunderable" 1
+	cost 2000000
+	description `A bioluminescent plant you have found on jungle world. It may be very valuable for science, but it looks too good on you bridge. Maybe someday it gifts you with an offspring.`
+
+
+mission "unq_aesilas_plant"
+	invisible
+	landing
+	source "Aesila"
+	to offer
+		random < 10
+	on offer
+		conversation
+			scene "scene/unq_bioluminescent_alien_jungle01"
+			`You touch down on the surface of planet Aesila, a lush, uninhabited world that's been on your radar for some time. The planet's atmosphere is rich with oxygen, and the terrain is dominated by dense jungles, towering trees, and vibrant vegetation that stretches as far as the eye can see. The air is thick with the scent of unknown flora, and as you step out of your aircraft, you feel the ground pulse gently beneath your feet, almost as if the planet itself is alive.`
+			`As you venture deeper into the jungle, your eyes catch a strange glow emanating from between the trees. Pushing aside the thick foliage, you come across something extraordinary: a tall, bioluminescent plant, its leaves shimmering with an otherworldly light. The plant's structure is unlike anything you've seen before, with its glowing tendrils weaving a delicate pattern that pulses rhythmically, as if the plant is communicating in some ancient, silent language.`
+			`Intrigued, you approach the plant cautiously. It stands about two meters tall, with broad, flat leaves that emit a soft, steady blue glow. The light is mesmerizing, and as you move closer, you notice that the plant isn't just glowing for show-it's absorbing the ambient energy from its surroundings and converting it into light. This discovery could revolutionize energy sources for outposts and colonies on planets where conventional power generation is challenging.`
+			`Now, you face a decision. The plant is clearly valuable, both scientifically and practically. You could cut off an offspring carefully and take it back to your ship, where further analysis could unlock its secrets. This would be a significant find, potentially leading to breakthroughs in sustainable energy. Alternatively, you could choose to leave the plant undisturbed, allowing it to continue thriving in its natural habitat while you document its existence for future study.`
+			choice
+				`	Take the offspring.`
+					goto "take"
+				`	Don't disturb the plant.`
+					goto "dont_take"
+			label "take"
+			action
+				outfit "unq_bioluminescent_plant" 1
+				event "unq_wait_bioluminescent_offspring" 180
+			scene "scene/unq_bioluminescent_alien_jungle02"
+			`You decide that the potential benefits of studying this plant in a controlled environment are too great to pass up. Using the specialized tools in your exploration kit, you carefully cut a young offspring off the plant, ensuring that its delicate leaves remains intact. As you secure the plant in your ship's botanical bay, you can't help but wonder how this discovery will impact the future of interstellar exploration and colonization.`
+				goto "go_on"
+			label "dont_take"
+			scene "scene/unq_bioluminescent_alien_jungle02"
+			`Respecting the integrity of the planet's ecosystem, you choose to leave the plant where it is. You take extensive scans and notes, capturing every detail for your report. As you prepare to leave Aesila, you feel a sense of satisfaction in knowing that you've left this rare, beautiful species undisturbed. The plant continues to glow softly behind you as you head back to your ship, ready to explore the next mystery the universe has to offer.`
+				goto "go_on"
+			label "go_on"
+			`With your decision made, you lift off from Aesila, the glowing jungle receding below you as you ascend into the endless sky. Whether you chose to take the plant or leave it behind, the knowledge you've gained today is invaluable. The universe is vast, filled with wonders waiting to be discovered, and you, the ever-curious explorer, are just getting started.`
+				decline
+
+
+event "unq_wait_bioluminescent_offspring"
+
+
+mission "unq_bioluminescent_offspring"
+	repeat
+	invisible
+	landing
+	to offer
+		has "event: unq_wait_bioluminescent_offspring"
+		has "outfit (flagship installed): unq_bioluminescent_plant"
+	on offer
+		clear "event: unq_wait_bioluminescent_offspring"
+		conversation
+			scene "outfit/unq_bioluminescent_plant"
+			`Your valueable bioluminescent plant has an offspring! Maybe you get a good price when selling it.`
+			choice
+				`	Cut it off to grow a new plant.`
+					goto "cut"
+				`	Don't hurt the plant.`
+					decline
+			label "cut"
+			action
+				outfit "unq_bioluminescent_plant" 1
+				event "unq_wait_bioluminescent_offspring" 180
+			`It seems that your plant will give offsprings regularly and without botanical problems. That may be a stable source of credits if you sell them.`
+				decline

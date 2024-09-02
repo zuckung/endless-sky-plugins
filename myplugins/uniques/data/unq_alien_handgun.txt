@@ -1,0 +1,39 @@
+# outfit "unq_alien_handgun"
+# mission "unq_crashed_alien_ship"
+
+
+
+outfit "unq_alien_handgun"
+	"display name" "Alien Handgun"
+	category "Unique"
+	thumbnail "outfit/unq_alien_handgun"
+	"unique" 1
+	"unplunderable" 1
+	"capture attack" 19.6
+	"capture defense" 14.8
+	cost 250000
+	description `A powerful alien handgun you've found in an ancient crashed alien ship. Although this handgun went a very long way into your hands, it is still working perfectly.`
+
+
+mission "unq_crashed_alien_ship"
+	invisible
+	landing
+	source "Alix"
+	to offer
+		random < 10
+	on offer
+		outfit "unq_alien_handgun" 1
+		conversation
+			scene "scene/unq_crashsite"
+			`You touch down on the desolate surface of Alix, a barren planet orbiting a dying sun. The atmosphere is thin, and the landscape stretches out in a monotonous expanse of cracked earth and jagged rock formations. As you exit your ship, the eerie silence of this uninhabited world envelops you.`
+			`After hours of trudging through the wasteland, you spot something in the distance, a faint glint under the pale light of the distant star. As you approach, the shape becomes clear: the wreckage of an ancient alien ship, half-buried in the dust. The ship is rather small, its hull scarred and torn from whatever catastrophe brought it down. Time has not been kind to this relic; rust and decay have eaten away at the metal, and the once-advanced technology within has long since withered into useless scraps.`
+			`You carefully explore the wreckage, but most of it has been rendered useless by time and the elements. Just when you're about to give up, a faint energy signature catches your attention. Digging through a pile of debris, you uncover a weapon, an alien handgun, surprisingly intact despite the destruction around it. Its design is unlike anything you've ever seen, sleek and menacing, with a faint glow emanating from its core.`
+			`As you grip the weapon, you feel a surge of power, unlike any human technology you've encountered. It hums softly in your hand, ready to unleash its unknown potential. You pocket the weapon, knowing it could be both a valuable asset and a dangerous enigma. With no other options, you turn back to your ship, the barren planet offering no further answers. The mystery of the alien ship lingers, but for now, you have more than what you came for.`
+				decline
+
+
+
+
+
+
+

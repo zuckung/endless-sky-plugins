@@ -1,0 +1,58 @@
+# outfit "unq_survival_rations"
+# mission "unq_survival_rations"
+
+
+
+outfit "unq_survival_rations"
+	"plural" "Hai Survival Rations"
+	"display name" "Hai Survival Rations"
+	category "Unique"
+	thumbnail "outfit/unq_survival"
+	"unique" 1
+	"unplunderable" 1
+	cost 4000
+	description `Several boxes of Hai survival rations and all of them made out of nuts. Nut pasta, sweet nut creme, baked nuts with other nuts, big nuts filled with smaller nuts ... and so on.`
+
+
+mission "unq_survival_rations"
+	invisible
+	landing
+	source
+		government "Hai"
+	to offer
+		random < 3
+	on offer
+		conversation
+			scene "scene/unq_hai_delivery"
+			`As you disembark your ship on the bustling Hai planet, a peculiar sight greets you, a cheerful Hai parcel carrier scurrying towards you, balancing four packages on her arms. She stops in front of you, panting slightly, and with a flick of hers arms, the packages land with a soft *thud* at your feet.`
+			`"Delivery for you, esteemed traveler!" the carrier chirps.`
+			`You scratch your head in confusion. "Uh, I didn't order anything..."`
+			`The carrier waves off your protest with a friendly whistle. "No worries, it's all correct! Just sign here, and it's all yours!"`
+			`With a shrug and a squiggle of your signature, you accept the parcels. Curiosity piqued, you tear into the packaging as soon as you're back on your ship. Inside, you find... Hai snacks?`
+			`As the realization dawns that you are not the intended recipient, you make your way to the spaceport office. The organizer there chuckles as you explain the mix-up.`
+			`"Oh, them's just old Spindle's packages. He's been gone for hours. If you don't want 'em, we'll just toss 'em. But hey, those survival rations are top-notch!"`
+			`You now face a decision: Keep the oddball haul or leave it to gather dust at the spaceport. The choice is yours!`
+			choice
+				`	Keep the parcels - Who knows? Those snacks might be tasty!`
+					goto "keep"
+				`	Leave it behind - You're not into nut snacks.`
+					decline
+			label "keep"
+			action
+				outfit "unq_survival_rations" 1
+			`You are now the proud owner of four parcels full of Hai survival rations!`
+				decline
+
+
+
+
+
+
+
+
+
+
+
+
+
+

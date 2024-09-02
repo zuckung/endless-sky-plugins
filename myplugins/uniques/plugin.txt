@@ -1,0 +1,2 @@
+name "uniques"
+about "Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds some new uniques. See the README for details."

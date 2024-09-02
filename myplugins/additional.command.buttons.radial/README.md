@@ -8,7 +8,7 @@ This plugin<br>
 - changes most icons (making a ring around as a standart)
 - adds more permanent buttons from the radial menus to make them easy accessible<br>
 - removes the radial menus<br>
-- adds a new button row to the top center for the fleet commands<br>
+- adds a new button row to the top right for the fleet commands<br>
 - adds zoom buttons
 - greyes out inactive buttons<br>
 - puts images behind the buttons.<br>
@@ -17,6 +17,10 @@ This plugin<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-09-02<br>
+fixed button radius typo on fleet gather<br>
+moved the fleet commands to the right side, so the jump systems are better seen<br>
 <br>
 2024-08-31<br>
 changed button background to look more natural<br>

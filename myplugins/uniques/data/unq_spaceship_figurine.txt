@@ -1,0 +1,44 @@
+# outfit "unq_spaceship_figurine"
+# mission "unq_shipyard"
+
+
+
+outfit "unq_spaceship_figurine"
+	"display name" "Spaceship Figurine"
+	category "Unique"
+	thumbnail "outfit/unq_spaceship_figurine"
+	"unique" 1
+	"unplunderable" 1
+	cost 200
+	description `A spaceship figurine of Megaparsec's newest project. Maybe you can buy one of these lovely ships in a few years.`
+
+
+mission "unq_shipyard"
+	invisible
+	landing
+	source "Sunracer"
+	to offer
+		"credits" > 1000
+		random < 3
+	on offer
+		conversation
+			scene "scene/unq_shipyard"
+			`As you dock your ship at the bustling hub of Megaparsec Inc., the heart of shipbuilding in this sector, you're immediately struck by the scale of operations. Colossal hulls of unfinished starships standing around in the massive drydock halls, while robotic arms weld plates with precision. The air buzzes with the hum of heavy machinery and the chatter of engineers.`
+			`You make your way to the shipyard's main office, a sleek building overlooking the docks, to take a look of the newest developments. Inside, the decor is as polished as the ships they produce, walls adorned with holographic displays showcasing the latest models, while floor-to-ceiling windows offer a panoramic view of the shipyard.`
+			`A well-dressed receptionist greets you, handing you a visitor's badge. You're escorted through a series of security checks before being introduced to an engineer, who will lead the tour. They take you on a brief tour, explaining the innovative technologies being integrated into the next generation of starships.`
+			`As the tour concludes, you notice a small display case near the exit. It's filled with meticulously crafted spaceship figurines, each representing a different model built by the shipyard. A particularly detailed replica of a ship, you've never seen before, catches your eye. The engineer notices your interest and mentions that these figurines are available for purchase as souvenirs and that this special ship is still in development process, but probably comes to main production line within a few years.`
+			choice
+				`	Buy the figurine (200 credits)`
+					goto "buyfigurine"
+				`	Don't buy the figurine`
+					goto "dontbuy"
+			label "buyfigurine"
+			action
+				payment -200
+				outfit "unq_spaceship_figurine" 1
+			scene "outfit/unq_spaceship_figurine"
+			`Before you leave, you decide to buy the figurine as a memento of your visit to the heart of shipbuilding excellence.`
+				decline
+			label "dontbuy"
+			`Still impressed, you make your way back to your ship.`
+				decline

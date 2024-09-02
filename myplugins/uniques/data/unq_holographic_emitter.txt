@@ -1,0 +1,165 @@
+# outfit "unq_holographic_emitter"
+# mission "unq_install_holo"
+# mission "unq_holo_southbound"
+# mission "unq_holo_lionheart"
+# mission "unq_holo_megaparsec"
+# mission "unq_holo_syndicate"
+# mission "unq_holo_kraz"
+# mission "unq_holo_deepsky"
+# mission "unq_holo_lovelace"
+# mission "unq_holo_deltav"
+
+
+outfit "unq_holographic_emitter"
+	"display name" "External Holo Emitter"
+	category "Unique"
+	thumbnail "outfit/unq_holographic_emitter"
+	"unique" 1
+	"unplunderable" 1
+	cost 50000
+	description `This is a holo emitter made for displaying advertisements on your ship hull. It wasn't cheap, but with customers for this service it generates free credits.`
+	description `You should keep an eye open for customers, like the big ship and outfit manufacturers.`
+
+
+mission "unq_install_holo"
+	invisible
+	landing
+	source "Luna"
+	to offer
+		"credits" > 10000
+		random < 6
+	on offer
+		conversation
+			scene "scene/unq_outfitter_holo"
+			`After touching down on the bustling spaceport of Luna, the hum of activity surrounds you, ships of all sizes dock and depart, traders haggle over goods, and travelers bustle through the crowded corridors. You descend the ramp of your ship and head toward the local outfitter, a shop tucked away in the shadow of a massive freighter.`
+			`The outfitter's sign flickers with neon light, and as you enter, the door slides open with a soft hiss. Inside, the space is crammed with an eclectic mix of gear: shiny new parts, weathered tools, and curious gadgets from across the galaxy. The air is tinged with the scent of lubricants and metal.`
+			`Behind the counter stands a woman. When she sees you, she sets her tools aside and gives a nod. "Looking to upgrade your ship?" she asks, her voice smooth and confident.`
+			`You mention your interest in finding ways to supplement your income on long voyages. Her eyes light up, and she reaches under the counter, producing a sleek device.`
+			`"This is an external holo emitter," she explains. "install it on your hull, and you can project ads while you travel. Companies pay a fortune to reach remote systems."`
+			`She smirks. "Interested? This could turn those empty skies into easy credits."`
+			choice
+				`	Buy the Holo Emitter for 50,000 credits.`
+					goto "buyholo"
+				`	Don't  buy it, you don't need that.`
+					decline
+			label "buyholo"
+			action
+				payment - 50000
+				outfit "unq_holographic_emitter" 1
+			scene "scene/unq_outfitter_holo"
+			`You agree, sealing the deal as she rings up the purchase.`
+			`Now you just need to find paying customers. Let's see, the big shipyards are probably a good place to start, there's Southbound, Lionheart, Megaparsec and of cause the Syndicate.`
+			`Also big outfit manufacturer might be interested, like Kraz Cybernatics, Deep Sky, Lovelace Labs and Delta V. We will see.`
+				decline
+
+
+mission "unq_holo_southbound"
+	invisible
+	landing
+	source "Wayfarer"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_southbound"
+			`Upon landing the neon ads remind you that this world is the home of "Southbound" shipyards. So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline
+
+
+mission "unq_holo_lionheart"
+	invisible
+	landing
+	source "Valhalla"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_lionheart"
+			`Upon landing the neon ads remind you that this world is the home of "Lionheart" shipyards. So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline
+
+
+mission "unq_holo_megaparsec"
+	invisible
+	landing
+	source "Sunracer"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_megaparsec"
+			`Upon landing the neon ads remind you that this world is the home of "Megaparsec" shipyards. So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline
+
+
+mission "unq_holo_syndicate"
+	invisible
+	landing
+	source "Foundry"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_syndicate"
+			`Upon landing the neon ads remind you that this world is the home of the Syndicate shipyards. So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline
+
+
+mission "unq_holo_kraz"
+	invisible
+	landing
+	source "Rust"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_kraz"
+			`Upon landing the neon ads remind you that this world is the home of "Kraz Cybernetics". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline
+
+
+mission "unq_holo_deepsky"
+	invisible
+	landing
+	source "Asgard"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_deepsky"
+			`Upon landing the neon ads remind you that this world is the home of "Deep Sky". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline
+
+
+mission "unq_holo_lovelace"
+	invisible
+	landing
+	source "Ada"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_lovelace"
+			`Upon landing the neon ads remind you that this world is the home of "Lovelace Labs". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline
+
+
+mission "unq_holo_deltav"
+	invisible
+	landing
+	source "Solace"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_deltav"
+			`Upon landing the neon ads remind you that this world is the home of "Delta V". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline

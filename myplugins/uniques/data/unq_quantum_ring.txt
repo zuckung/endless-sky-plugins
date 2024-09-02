@@ -1,0 +1,34 @@
+# outfit "unq_quantum_ring"
+# mission "unq_quantum_ring"
+
+
+
+outfit "unq_quantum_ring"
+	"display name" "Quantum Ring"
+	category "Unique"
+	thumbnail "outfit/unq_quantum_ring"
+	"unique" 1
+	"unplunderable" 1
+	"quantum keystone" 1
+	cost 2000
+	description `A ring made of blue crystalline rock. You have won it during a poker game with some shady characters on ... You forgot where that was, you just remember the headache on the next morning. When pressing a little button at the side of it, a holographic cat shows up and reads your fortune.`
+
+
+mission "unq_quantum_ring"
+	invisible
+	landing
+	source "Charon Station"
+	to offer
+		"credits" > 5000
+		random < 3
+	on offer
+		outfit "unq_quantum_ring" 1
+		payment 5000
+		conversation
+			scene "scene/unq_bar"
+			`After a long, turbulent journey, your ship finally touches down at the bustling spaceport of Charon Station. The flickering neon signs and the thrumming hum of the crowds draw you into the heart of the station. After checking into a dingy motel, you decide to unwind with a drink. You wander into a dimly lit bar called "The Itchy Trigger Finger", where the air is thick with smoke and questionable life choices.`
+			`As you sip your drink, you're approached by a group of shady-looking characters sitting around a poker table right beside you. One of them, a grizzled Dirt-Belter with a scar running down his neck, grins at you. "Care for a game, traveler? New faces bring good luck."`
+			`You've never been one to back down from a challenge, so you pull up a chair. The stakes are high, the rules ambiguous, and your opponents have more tricks up their sleeves than cards. Yet somehow, you hold your own, more through blind luck than skill.`
+			`After several rounds of increasingly bizarre hands (including one where you won with something called a "Galactic Flush"), you realize it's well past midnight. When you wake up the next morning in your motel room, you're pleasantly surprised to find your wallet heavier by 5,000 credits. However, there's also a strange blue ring on your finger that you don't remember winning.`
+			`You stare at it, puzzled. Just as you're trying to recall the details, the ring emits a tiny, cheerful beep and a holographic cat materializes, purring and asking if you'd like your fortune read. You might need another drink.`
+				decline

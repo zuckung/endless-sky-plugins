@@ -1,0 +1,32 @@
+# outfit "Cloaking Device"
+# outfit "Outskirts Gauger"	
+# outfit "Puny"
+# outfit "Mug"
+# outfit "Antigrav Glass"
+
+
+
+outfit "Cloaking Device"	
+	"mass" 0
+	"outfit space" 0	
+
+
+outfit "Outskirts Gauger"	
+	category "Unique"
+	"mass" 0	
+	"outfit space" 0
+	"unique" 1
+	"unplunderable" 1
+
+
+outfit "Puny"
+	thumbnail "outfit/unq_puny"
+
+
+outfit "Mug"
+	category "Unique"
+
+
+outfit "Antigrav Glass"
+	thumbnail "outfit/unq_antigravglass"
+	category "Unique"

@@ -1,0 +1,44 @@
+# outfit "unq_book"
+# mission "unq_book store"
+
+
+outfit "unq_book"
+	"plural" "Piloting For Dummies"
+	"display name" "Piloting For Dummies"
+	category "Unique"
+	thumbnail "outfit/unq_book"
+	"unique" 1
+	"unplunderable" 1
+	"turn" 60
+	"thrust" 1
+	cost 8800
+	description `A book like this, made out of paper, is nowadays a rarity. You have bought it in a small store on Glory.`
+	description `Although you considering yourself as an expert in piloting, you really learned one or two tricks from this book.`
+
+
+mission "unq_book store"
+	invisible
+	landing
+	source
+		attributes "paradise"
+	to offer
+		"credits" > 10000
+		random < 3
+	on offer
+		conversation
+			scene "scene/unq_bookstore"
+			`As you step off your ship onto the spaceport, the vastness of the galaxy feels a little smaller. The spaceport city is a bustling hive of activity, with sleek ships zipping in and out, and the smell of exotic spices waft3ing through the air. But something more grounded catches your eye, a small, unassuming bookstore nestled between two towering holo-ad displays. A relic from another time, it seems almost out of place here.`
+			`Drawn by a strange sense of nostalgia, you step inside. The scent of old paper and ink greets you, a stark contrast to the sterile, digitized world outside. Shelves creak under the weight of real, physical books, each one a treasure, a link to a past long gone. Your fingers brush against the spines, feeling the texture of aged leather and cloth.`
+			`Then, you see it: an old, leather-bound volume titled "Piloting For Dummies". The price is steep, worth a small fortune in credits.`
+			choice
+				`	Buy this book for 8800 credits.`
+					goto "buybook"
+				`	You don't really need a book made out of paper.`
+					decline
+			label "buybook"
+			action
+				payment -8800
+				outfit "unq_book" 1
+			`You don't hesitate. You purchase the book, feeling the weight of it in your hands, solid and real.`
+			`As you walk out, you can't help but marvel at what you've just done. In this digital age, you've bought a real book. It's not just an acquisition, it's a connection to a simpler, more tangible past.`
+				decline

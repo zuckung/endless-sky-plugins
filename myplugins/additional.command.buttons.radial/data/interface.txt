@@ -2,7 +2,8 @@ interface "main buttons" bottom right
 
 # LAYOUT
 #
-# 5 Fleet commands in top center
+# 5 Fleet commands in top right
+#
 #                             zoom +-
 # stop   hail    secondary    primary
 # board  scan    secondary    primary
@@ -214,91 +215,91 @@ interface "main buttons" bottom right
 
 # UPPER SCREEN CENTER (FLEET COMMANDS)
 
-	# top center buttonbox
-	anchor top center
+	# top right buttonbox
+	anchor top right
 	visible
 	sprite "ui/buttonbox2"
-		from 195 -20 to -195 76
+		from -205 -15 to -540 81
 
 	# top center fleet ammo switch button
 	visible
 	sprite "ui/round_button_bg"
-		center -112 30
+		center -266 30
 		dimensions 50 50
 	sprite "ui/icon_fleet_ammo_d"
-		center -112 30
+		center -266 30
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_ammo"
-		center -112 30
+		center -266 30
 		dimensions 40 40
 	button "Fleet: Toggle ammo usage"
-		center -112 30
+		center -266 30
 		radius 22
 
 	# top center fleet harvest button
 	visible
 	sprite "ui/round_button_bg"
-		center -56 30
+		center -319 30
 		dimensions 50 50
 	sprite "ui/icon_fleet_harvest_d"
-		center -56 30
+		center -319 30
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_harvest"
-		center -56 30
+		center -319 30
 		dimensions 40 40
 	button "Fleet: Harvest flotsam"
-		center -56 30
+		center -319 30
 		radius 22
 
 	# top center fleet attack button
 	visible
 	sprite "ui/round_button_bg"
-		center 0 30
+		center -372 30
 		dimensions 50 50
 	sprite "ui/icon_fleet_fight_d"
-		center 0 30
+		center -372 30
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_fight"
-		center 0 30
+		center -372 30
 		dimensions 40 40
 	button "Fleet: Fight my target"
-		center 0 30
+		center -372 30
 		radius 22
 
 	# top center fleet stop button
 	visible
 	sprite "ui/round_button_bg"
-		center 56 30
+		center -425 30
 		dimensions 50 50
 	sprite "ui/icon_fleet_stop_d"
-		center 56 30
+		center -425 30
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_stop"
-		center 56 30
+		center -425 30
 		dimensions 40 40
 	button "Fleet: Hold position"
-		center 56 30
+		center -425 30
 		radius 22
 
 	# top center fleet gather button
 	visible
 	sprite "ui/round_button_bg"
-		center 112 30
+		center -478 30
 		dimensions 50 50
 	sprite "ui/icon_fleet_gather_d"
-		center 112 30
+		center -478 30
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_gather"
-		center 112 30
+		center -478 30
 		dimensions 40 40
 	button "Fleet: Gather around me"
-		center 56 30
-		radius 112
+		center -478 30
+		radius 22
 
 # OTHER CONTROL ELEMENTS
 
