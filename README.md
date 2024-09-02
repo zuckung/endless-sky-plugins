@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-09-02 | update: uniques<br>
+<table><tr><td><img width="882" height="1"><br>2024-09-02 | update: additional.command.buttons.radial<br>
+2024-09-02 | update: uniques<br>
 2024-09-02 | renamed unique.fix to uniques<br>
 2024-08-31 | update: additional.command.buttons.radial<br>
 2024-08-30 | update: additional.command.buttons.radial<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-25 | update: more.person.ships<br>
 2024-08-18 | update: kestrel.unlocks<br>
 2024-08-18 | update: planet.map<br>
-2024-08-17 | update: tribute.republic<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -220,7 +220,7 @@ changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 224.33 kb | 2024-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 224.43 kb | 2024-09-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the mobile version. See the README for details.
 
