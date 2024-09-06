@@ -75,6 +75,8 @@ ship "Model 128"
 # removed 2x cluster mine layer, 61x cluster mine, 3x cluster mine rack, 2x reasoning node = 125t outfit
 # added 2x husk slice, 1x disruptor gun, 1x small heat shunt = 123t outfit
 ship "Model 256"
+	attributes
+		"weapon capacity" 397
 	outfits
 		"Husk-Slice" 2
 		"Shield Disruptor Gun"

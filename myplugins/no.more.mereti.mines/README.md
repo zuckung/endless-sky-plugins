@@ -9,8 +9,11 @@ Added bunrodean swarm pods change by timeout.fu. Now it fires less, but with mor
 <br>
 Changelog:<br>
 <br>
+2024-09-06<br>
+fixed weapon space bug of Model 256<br>
+<br>
 2024-08-02<br>
-added shield disruptor guns (by Darcy Manoel) and heat shunts to the Mereti ships (by timeout.fu)<br>
+added shield disruptor guns (by Darcy Manoel) and heat shunts to the Mereti ships<br>
 <br>
 2024-07-24<br>
 added better performance to bunrodea swarm pods (by timeout.fu)<br>
