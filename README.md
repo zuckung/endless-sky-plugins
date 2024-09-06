@@ -15,7 +15,9 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-09-02 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2024-09-06 | update: paint.your.ships<br>
+2024-09-06 | merged devil-run.unhidden into hai.side.mission.unlocker<br>
+2024-09-02 | update: additional.command.buttons.radial<br>
 2024-09-02 | update: uniques<br>
 2024-09-02 | renamed unique.fix to uniques<br>
 2024-08-31 | update: additional.command.buttons.radial<br>
@@ -23,8 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-30 | update: outfits.weapon.slot<br>
 2024-08-25 | update: additional.command.buttons.radial<br>
 2024-08-25 | update: more.person.ships<br>
-2024-08-18 | update: kestrel.unlocks<br>
-2024-08-18 | update: planet.map<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -38,12 +38,11 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#captureablepersonships">captureable.person.ships</a><br>
 <a href="README.md#coalitionshopping">coalition.shopping</a><br>
 <a href="README.md#controlstation">control.station</a><br>
-<a href="README.md#devil-rununhidden">devil-run.unhidden</a><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
@@ -56,11 +55,12 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#landingimageshighres">landing.images.highres</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
+<a href="README.md#paintyourships">paint.your.ships</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
 <a href="README.md#quargfarm">quarg.farm</a><br>
 <a href="README.md#realfluff">real.fluff</a><br>
@@ -263,6 +263,12 @@ This plugin<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-09-06<br>
+
+fine tuning for the graphics<br>
 
 <br>
 
@@ -1092,61 +1098,6 @@ initial release<br>
 
 ---
 
-### devil-run.unhidden
-
-<img src="myplugins/devil-run.unhidden/icon.png" height="100">
-
-[devil-run.unhidden.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-devil-run.unhidden/devil-run.unhidden.zip) | 40.12 kb | 2024-04-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/devil-run.unhidden/) <br>
-<br>
->Removes the hidden tag from system Devil-Run. It can be found near the core and opens the path to the Deep Space systems and the Devil-Hide system via wormhole. See the readme for details.
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### devil-run.unhidden
-
-<br>
-
-<br>
-
-Removes the hidden tag from system Devil-Run. It can be found near the core and opens the path to the Deep Space systems and the Devil-Hide system via wormhole.<br>
-
-<br>
-
-Originally this system opens during hai reveal storyline, which is disabled because of a rework. This plugin makes this system visible and reachable(by jump drive) in eastern syndicate. Also removes hidden tag from "Devil-Hide" and "Al Hurr", both hai reveal systems. And the planets in Devil-Hide got a new spaceport, bribe and tribute.<br>
-
-<br>
-
-<br>
-
-Changelog:<br>
-
-<br>
-
-2024-04-13<br>
-
-removed hidden tag from Devil-Hide, which got added there unnoticed by me<br>
-
-removed hidden tag from "Al Hurr" (at the northern pirates)<br>
-
-added spaceport, bribe and tribute to "Devil-Eye" and "Elenchus"<br>
-
-<br>
-
-2023-10-17<br>
-
-added plugin.txt<br>
-
-<br>
-
-2023-08-31<br>
-
-added icon.png<br>
-</blockquote>
-</details>
-<br>
-
-
----
-
 ### disable.person.ships
 
 <img src="myplugins/disable.person.ships/icon.png" height="100">
@@ -1800,7 +1751,7 @@ initial release<br>
 
 [hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.3-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) | 29.71 kb | 2024-05-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) <br>
 <br>
->Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. See the readme for details.
+>Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1810,7 +1761,7 @@ initial release<br>
 
 <br>
 
-Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too.<br>
+Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1, Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now.<br>
 
 <br>
 
@@ -1830,17 +1781,25 @@ mission "Hai Reveal: Pirate Troubles [0]" (Scars Legion cut out of campaign)<br>
 
 <br>
 
+Also removes the hidden tag from system Devil-Run. It can be found near the core and opens the path to the Deep Space systems and the Devil-Hide system via wormhole.<br>
+
+And removes hidden tag from "Devil-Hide" and "Al Hurr", both Hai Reveal systems.<br>
+
+<br>
+
 <br>
 
 Changelog:<br>
 
 <br>
 
-2024-05-26<br>
+2024-09-06<br>
 
-replaced expanding business with old version(thx ziproot)<br>
+removed HR status message from Pirate Troubles [1]<br>
 
-added set mission: done/offered to all missions<br>
+disabled the original missions, instead of a workaround<br>
+
+merged this plugin with the plugin devil-run.unhidden<br>
 
 <br>
 
@@ -2801,7 +2760,7 @@ initial release<br>
 
 [no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-no.more.mereti.mines/no.more.mereti.mines.zip) | 81.51 kb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) <br>
 <br>
->Removes the mines from Mereti ships and replaces them with Mereti-typical guns to increase game performance. See the README for details.
+>Removes the mines from Mereti ships and replaces them with Husk-Slice and Shield Disruptor guns, as well as Heat Shunts to increase game performance. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2827,9 +2786,15 @@ Changelog:<br>
 
 <br>
 
+2024-09-06<br>
+
+fixed weapon space bug of Model 256<br>
+
+<br>
+
 2024-08-02<br>
 
-added shield disruptor guns (by Darcy Manoel) and heat shunts to the Mereti ships (by timeout.fu)<br>
+added shield disruptor guns (by Darcy Manoel) and heat shunts to the Mereti ships<br>
 
 <br>
 
@@ -2891,6 +2856,49 @@ Changelog:<br>
 <br>
 
 2024-08-30<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### paint.your.ships
+
+<img src="myplugins/paint.your.ships/icon.png" height="100">
+
+[paint.your.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-paint.your.ships/paint.your.ships.zip) | 134.22 kb | 2024-09-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/paint.your.ships/) <br>
+<br>
+>Offers a job on Earth to paint your ships. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### paint.your.ships
+
+<br>
+
+<br>
+
+Offers a job on Earth to paint your ships.<br>
+
+<br>
+
+There are already like five plugins that change the swizzle color, but this one has the colors displayed ingame (image by amazinite).<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-09-06<br>
 
 initial release<br>
 
