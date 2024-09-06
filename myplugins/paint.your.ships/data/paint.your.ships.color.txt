@@ -1,0 +1,316 @@
+mission "Change paint #00"
+	job
+	repeat
+	source "Earth"
+	name "(Paint your ships)"
+	description "Change ship color."
+	on accept
+		conversation
+			scene "scene/paint.your.ships.swizzle"
+			`Choose color:`
+			choice
+				`	faded green`
+					goto 20
+				`	pure green`
+					goto 19
+				`	darkened green`
+					goto 18
+				`	faded cyan`
+					goto 17
+				`	pure cyan`
+					goto 16
+				`	darkened cyan`
+					goto 15
+				`	faded red`
+					goto 08
+				`	pure red`
+					goto 07
+				`	darkened red`
+					goto 06
+				`	faded blue`
+					goto 14
+				`	pure blue`
+					goto 13
+				`	darkened blue`
+					goto 12
+				`	faded yellow`
+					goto 23	
+				`	pure yellow`
+					goto 22
+				`	darkened yellow`
+					goto 21
+				`	pure white`
+					goto 11
+				`	faded black`
+					goto 10
+				`	pure black`
+					goto 09
+				`	red + yellow`
+					goto 00
+				`	green + cyan`
+					goto 03
+				`	green + yellow`
+					goto 02
+				`	blue + cyan`
+					goto 05
+				`	red + magenta`
+					goto 01
+				`	blue + magenta`
+					goto 04
+				`	faded magenta`
+					goto 26
+				`	pure magenta`
+					goto 25
+				`	darkened magenta`
+					goto 24
+			label 00
+			action
+				event "swizzle00"
+			`red + yellow chosen`
+				goto end
+			label 01
+			action
+				event "swizzle01"
+			`red + magenta chosen`
+				goto end
+			label 02
+			action
+				event "swizzle02"
+			`green + yellow chosen`
+				goto end
+			label 03
+			action
+				event "swizzle03"
+			`green + cyan chosen`
+				goto end
+			label 04
+			action
+				event "swizzle04"
+			`blue + magenta chosen`
+				goto end
+			label 05
+			action
+				event "swizzle05"
+			`blue + cyan chosen`
+				goto end
+			label 06
+			action
+				event "swizzle06"
+			`darkened red chosen`
+				goto end
+			label 07
+			action
+				event "swizzle07"
+			`pure red chosen`
+				goto end
+			label 08
+			action
+				event "swizzle08"
+			`faded red chosen`
+				goto end
+			label 09
+			action
+				event "swizzle09"
+			`pure black chosen`
+				goto end
+			label 10
+			action
+				event "swizzle10"
+			`faded black chosen`
+				goto end
+			label 11
+			action
+				event "swizzle11"
+			`pure white chosen`
+				goto end
+			label 12
+			action
+				event "swizzle12"
+			`darkened blue chosen`
+				goto end
+			label 13
+			action
+				event "swizzle13"
+			`pure blue chosen`
+				goto end
+			label 14
+			action
+				event "swizzle14"
+			`faded blue chosen`
+				goto end
+			label 15
+			action
+				event "swizzle15"
+			`darkened cyan chosen`
+				goto end
+			label 16
+			action
+				event "swizzle16"
+			`pure cyan chosen`
+				goto end
+			label 17
+			action
+				event "swizzle17"
+			`faded cyan chosen`
+				goto end
+			label 18
+			action
+				event "swizzle18"
+			`darkened green chosen`
+				goto end
+			label 19
+			action
+				event "swizzle19"
+			`pure green chosen`
+				goto end
+			label 20
+			action
+				event "swizzle20"
+			`faded green chosen`
+				goto end
+			label 21
+			action
+				event "swizzle21"
+			`darkened yellow chosen`
+				goto end
+			label 22
+			action
+				event "swizzle22"
+			`pure yellow chosen`
+				goto end
+			label 23
+			action
+				event "swizzle23"
+			`faded yellow chosen`
+				goto end
+			label 24
+			action
+				event "swizzle24"
+			`darkened magenta chosen`
+				goto end
+			label 25
+			action
+				event "swizzle25"
+			`pure magenta chosen`
+				goto end
+			label 26
+			action
+				event "swizzle26"
+			`faded magenta chosen`
+				goto end
+			label end
+			``
+	on daily
+		fail
+
+	
+
+event "swizzle00"
+	government "Escort"
+		swizzle 0
+	
+event "swizzle01"
+	government "Escort"
+		swizzle 1
+
+event "swizzle02"
+	government "Escort"
+		swizzle 2
+
+event "swizzle03"
+	government "Escort"
+		swizzle 3
+
+event "swizzle04"
+	government "Escort"
+		swizzle 4
+
+event "swizzle05"
+	government "Escort"
+		swizzle 5
+
+event "swizzle06"
+	government "Escort"
+		swizzle 6
+
+event "swizzle07"
+	government "Escort"
+		swizzle 7
+
+event "swizzle08"
+	government "Escort"
+		swizzle 8
+
+event "swizzle09"
+	government "Escort"
+		swizzle 9
+	
+event "swizzle10"
+	government "Escort"
+		swizzle 10
+
+event "swizzle11"
+	government "Escort"
+		swizzle 11
+
+event "swizzle12"
+	government "Escort"
+		swizzle 12
+
+event "swizzle13"
+	government "Escort"
+		swizzle 13
+
+event "swizzle14"
+	government "Escort"
+		swizzle 14
+
+event "swizzle15"
+	government "Escort"
+		swizzle 15
+
+event "swizzle16"
+	government "Escort"
+		swizzle 16
+
+
+event "swizzle17"
+	government "Escort"
+		swizzle 17
+
+event "swizzle18"
+	government "Escort"
+		swizzle 18
+
+event "swizzle19"
+	government "Escort"
+		swizzle 19
+
+event "swizzle20"
+	government "Escort"
+		swizzle 20
+
+event "swizzle21"
+	government "Escort"
+		swizzle 21
+
+event "swizzle22"
+	government "Escort"
+		swizzle 22
+
+event "swizzle23"
+	government "Escort"
+		swizzle 23
+
+event "swizzle24"
+	government "Escort"
+		swizzle 24
+
+event "swizzle25"
+	government "Escort"
+		swizzle 25
+
+event "swizzle26"
+	government "Escort"
+		swizzle 26
+		

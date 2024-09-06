@@ -1,0 +1,9 @@
+paint.your.ships
+author:
+	zuckung 
+	https://github.com/zuckung/endless-sky-plugins
+images:
+	scene swizzle image
+		by amazinite (https://github.com/endless-sky/endless-sky/issues/1779)
+	icon
+		ai generated at https://perchance.org/ai-text-to-image-generator
