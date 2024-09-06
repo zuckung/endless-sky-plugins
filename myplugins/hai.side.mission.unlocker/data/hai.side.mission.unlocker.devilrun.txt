@@ -1,11 +1,22 @@
+# system Devil-Run
+# system Devil-Hide
+# system "Al Hurr"
+# planet Devil-Eye
+# planet Elenchus
+
+
+
 system Devil-Run
 	remove hidden
+
 
 system Devil-Hide
 	remove hidden
 
+
 system "Al Hurr"
 	remove hidden
+
 
 planet Devil-Eye
 	spaceport `Calling this a spaceport is too much, but you can land and refuel here.`
@@ -14,9 +25,10 @@ planet Devil-Eye
 		threshold 2500
 		fleet "Small Northern Pirates" 20
 
+
 planet Elenchus
 	spaceport `Calling this a spaceport is too much, but you can land and refuel here.`
 	bribe 0.03
-	tribute 500
+	tribute 5000
 		threshold 2500
 		fleet "Small Northern Pirates" 15

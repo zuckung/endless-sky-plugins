@@ -1,3 +1,4 @@
+2024-09-06 | merged devil-run.unhidden into hai.side.mission.unlocker
 2024-09-02 | update: additional.command.buttons.radial
 2024-09-02 | update: uniques
 2024-09-02 | renamed unique.fix to uniques
