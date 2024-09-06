@@ -18,6 +18,9 @@ This plugin<br>
 <br>
 Changelog:<br>
 <br>
+2024-09-06<br>
+fine tuning for the graphics<br>
+<br>
 2024-09-02<br>
 fixed button radius typo on fleet gather<br>
 moved the fleet commands to the right side, so the jump systems are better seen<br>

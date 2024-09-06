@@ -13,18 +13,18 @@ interface "main buttons" bottom right
 	# lower right button box
 	anchor bottom right
 	sprite "ui/buttonbox"
-		from 100 20 to -358 -191
+		from 90 2 to -313 -158
 
 	# lower right zoom buttons
 	sprite "ui/zoom"
-		from 0 -124 to -90 -184
+		from 0 -126 to -90 -186
 	active if "!max zoom"
 	button + "_+"
-		from -10 -124 to -40 -184
+		from -10 -126 to -40 -186
 		size 18
 	active if "!min zoom"
 	button - "_-"
-		from -50 -124 to -80 -184
+		from -50 -126 to -80 -186
 		size 18
 
 # UPPER ROW
@@ -211,94 +211,97 @@ interface "main buttons" bottom right
 	# The engine will draw the secondary weapons list here.
 	visible if "has secondary"
 	box "ammo"
-		from -166 -150 to -76 -305
+		from -166 -153 to -76 -308
 
-# UPPER SCREEN CENTER (FLEET COMMANDS)
+# UPPER SCREEN RIGHT (FLEET COMMANDS)
 
 	# top right buttonbox
 	anchor top right
 	visible
 	sprite "ui/buttonbox2"
-		from -205 -15 to -540 81
+		from -162 0 to -496 80
+	label "Fleet Commands"
+		from -326 20
+		size 14
 
-	# top center fleet ammo switch button
+	# top right fleet ammo switch button
 	visible
 	sprite "ui/round_button_bg"
-		center -266 30
+		center -222 52
 		dimensions 50 50
 	sprite "ui/icon_fleet_ammo_d"
-		center -266 30
+		center -222 52
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_ammo"
-		center -266 30
+		center -222 52
 		dimensions 40 40
 	button "Fleet: Toggle ammo usage"
-		center -266 30
+		center -222 52
 		radius 22
 
-	# top center fleet harvest button
+	# top right fleet harvest button
 	visible
 	sprite "ui/round_button_bg"
-		center -319 30
+		center -274 52
 		dimensions 50 50
 	sprite "ui/icon_fleet_harvest_d"
-		center -319 30
+		center -274 52
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_harvest"
-		center -319 30
+		center -274 52
 		dimensions 40 40
 	button "Fleet: Harvest flotsam"
-		center -319 30
+		center -274 52
 		radius 22
 
-	# top center fleet attack button
+	# top right fleet attack button
 	visible
 	sprite "ui/round_button_bg"
-		center -372 30
+		center -326 52
 		dimensions 50 50
 	sprite "ui/icon_fleet_fight_d"
-		center -372 30
+		center -326 52
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_fight"
-		center -372 30
+		center -326 52
 		dimensions 40 40
 	button "Fleet: Fight my target"
-		center -372 30
+		center -326 52
 		radius 22
 
-	# top center fleet stop button
+	# top right fleet stop button
 	visible
 	sprite "ui/round_button_bg"
-		center -425 30
+		center -378 52
 		dimensions 50 50
 	sprite "ui/icon_fleet_stop_d"
-		center -425 30
+		center -378 52
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_stop"
-		center -425 30
+		center -378 52
 		dimensions 40 40
 	button "Fleet: Hold position"
-		center -425 30
+		center -378 52
 		radius 22
 
-	# top center fleet gather button
+	# top right fleet gather button
 	visible
 	sprite "ui/round_button_bg"
-		center -478 30
+		center -430 52
 		dimensions 50 50
 	sprite "ui/icon_fleet_gather_d"
-		center -478 30
+		center -430 52
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_gather"
-		center -478 30
+		center -430 52
 		dimensions 40 40
 	button "Fleet: Gather around me"
-		center -478 30
+		center -430 52
 		radius 22
 
 # OTHER CONTROL ELEMENTS
@@ -324,7 +327,7 @@ interface "main buttons" bottom right
 	active
 	anchor top left
 	sprite "ui/fast forward_d"
-		from 0 0 to 24 24
+		from 3 3 to 16 16
 	button "Toggle fast-forward"
 		from 0 0 to 48 48
 
