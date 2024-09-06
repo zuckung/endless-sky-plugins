@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-09-06 | update: hai.side.mission.unlocker<br>
+<table><tr><td><img width="882" height="1"><br>2024-09-06 | update: no.more.mereti.mines<br>
+2024-09-06 | update: hai.side.mission.unlocker<br>
 2024-09-06 | update: paint.your.ships<br>
 2024-09-06 | merged devil-run.unhidden into hai.side.mission.unlocker<br>
 2024-09-02 | update: additional.command.buttons.radial<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-31 | update: additional.command.buttons.radial<br>
 2024-08-30 | update: additional.command.buttons.radial<br>
 2024-08-30 | update: outfits.weapon.slot<br>
-2024-08-25 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2758,7 +2758,7 @@ initial release<br>
 
 <img src="myplugins/no.more.mereti.mines/icon.png" height="100">
 
-[no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-no.more.mereti.mines/no.more.mereti.mines.zip) | 81.51 kb | 2024-08-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) <br>
+[no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-no.more.mereti.mines/no.more.mereti.mines.zip) | 81.6 kb | 2024-09-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) <br>
 <br>
 >Removes the mines from Mereti ships and replaces them with Husk-Slice and Shield Disruptor guns, as well as Heat Shunts to increase game performance. See the README for details.
 

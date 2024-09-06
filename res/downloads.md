@@ -44,6 +44,7 @@ TOTAL DOWNLOADS FOR EACH PLUGIN<br>
 <br>
 DOWNLOADS FOR EACH RELEASE<br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.1.4-hai.side.mission.unlocker/total?color=008000"></a><br>
+  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.3-no.more.mereti.mines/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.0-paint.your.ships/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.5-additional.command.buttons.radial/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.1-uniques/total?color=008000"></a><br>
