@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-09-06 | update: paint.your.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-09-06 | update: hai.side.mission.unlocker<br>
+2024-09-06 | update: paint.your.ships<br>
 2024-09-06 | merged devil-run.unhidden into hai.side.mission.unlocker<br>
 2024-09-02 | update: additional.command.buttons.radial<br>
 2024-09-02 | update: uniques<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-08-30 | update: additional.command.buttons.radial<br>
 2024-08-30 | update: outfits.weapon.slot<br>
 2024-08-25 | update: additional.command.buttons.radial<br>
-2024-08-25 | update: more.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1749,7 +1749,7 @@ initial release<br>
 
 <img src="myplugins/hai.side.mission.unlocker/icon.png" height="100">
 
-[hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.3-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) | 29.71 kb | 2024-05-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) <br>
+[hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) | 32.52 kb | 2024-09-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) <br>
 <br>
 >Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now. See the readme for details.
 
