@@ -1,0 +1,44 @@
+# outfit "unq_toolbox"
+# mission "unq toolbox"
+
+
+
+outfit "unq_toolbox"
+	"display name" "Toolbox"
+	category "Unique"
+	thumbnail "outfit/unq_toolbox"
+	"unique" 1
+	"unplunderable" 1
+	"disabled recovery time" 900
+	"hull repair rate" 0.1
+	cost 600
+	description `A toolbox you've bought during an spaceship engineering seminar. In your skilled hands it can make a difference.`
+
+
+mission "unq toolbox"
+	invisible
+	landing
+	source "Clark"
+	to offer
+		random < 3
+	on offer
+		conversation
+			`You're wandering through the bustling spaceport, sipping a dubious cup of synthetic coffee, when a colorful note on the bulletin board catches your eye: "Engineering Course for Starship Captains! Learn emergency repairs! Only 2000 credits! Free toolbox included!"`
+			`The "free toolbox" part gets your attention. You've had your share of mid-flight malfunctions, and let's be honest, your repair skills start and end with hitting things until they stop sparking. So, 2000 credits for not dying in deep space? Seems like a bargain.`
+			choice
+				`	Sign up!`
+					goto signup
+				`	You don't need a toolbox nor someone teaching you how to repair a ship!`
+					decline
+			label signup
+			action
+				payment -2000
+				outfit "unq_toolbox" 1
+			scene "scene/unq_toolbox"
+			`You sign up for the today's course, and a few hours later, you find yourself in a cramped, slightly suspicious-looking workshop surrounded by other captains who also have no idea what they're doing. The instructor, a grizzled veteran mechanic named Zeke, kicks off the class by introducing himself with the enthusiasm of a droid with a low battery.`
+			`"Welcome, pilots. In this course, we'll teach you the basics of 'why is my ship on fire' and 'how not to die in vacuum'."`
+			`You spend the next few hours fiddling with worn-out engine parts, sealing imaginary hull breaches with space duct tape (Zeke swears by it), and trying not to mix up wires that could lead to... "unfortunate explosions". There's a lot of talk about torque wrenches, flux capacitors (which apparently aren't real), and the importance of "not forgetting the spanner like an idiot".`
+			`By the end of the day, you've patched together a working fusion drive (mostly), and Zeke claps you on the shoulder.`
+			`"Well, you didn't blow anything up. Good enough. Here's your toolbox."`
+			`It's a solid, well-used box filled with tools you can actually name now! You walk out 2000 credits poorer, but feeling like you might just survive your next emergency mid-flight... as long as you remember where you put that space duct tape.`
+				decline

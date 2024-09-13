@@ -1,7 +1,7 @@
 ### uniques
 <br>
 <br>
-Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds some new uniques.<br>
+Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques.<br>
 <br>
 <br>
 Uniques are great! Why aren't more ingame?<br>
@@ -12,7 +12,11 @@ Former plugin "unique.fix", containing just some adjustment to the few vanilla u
 <li> Gives outfit '"Puny"' a picture</li>
 <li> Puts outfit 'Mug' into unique category</li>
 <li> Puts outfit 'Antigrav Glass' into unique category and gives a picture</li>
+<li> rewrote Skadenga book mission, so you can buy the unique book</li>
+<li> rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique chip</li>
 <li> Adds a new unique, "Bioluminescent Plant" (Aesila, 10% chance)</li>
+<li> Adds a new unique, "Bioluminiscent Offspring" (followup)</li>
+<li> Adds a new unique, "Bio Reactor" (followup)</li>
 <li> Adds a new unique, "Spaceship Figurine" (Sunracer, 3% chance)</li>
 <li> Adds a new unique, "Alien Handgun" (Alix, 10% chance)</li>
 <li> Adds a new unique, "Quantum Ring" (Charon Station, 3% chance)</li>
@@ -21,17 +25,31 @@ Former plugin "unique.fix", containing just some adjustment to the few vanilla u
 <li> Adds a new unique, "Hai Survival Rations" (Hai space, 3% chance)</li>
 <li> Adds a new unique, "Piloting For Dummies" (Paradise worlds, 3% chance)</li>
 <li> Adds a new unique, "External Holo Emitter" (Luna, 6% chance)</li>
+<li> Adds a new unique, "Toby the Teddy Bear" (Featherweight, 3% chance)</li>
+<li> Adds a new unique, "Toolbox" (Clark, 3% chance)</li>
+<li> Adds a new unique, "Korath Pillow" (Laki Nemparu, 3% chance)</li>
+<li> Adds a new unique, "Gegno Starmap" (Wye Tzeou, 10% chance)</li>
 </ul>
 vanilla uniques<br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques01.jpg' width='400'>
 <br>
 added uniques<br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques02.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques03.jpg' width='400'>
 <br>
 <br>
 Changelog:<br>
 <br>
-2024-09-xx<br>
+2024-09-13<br>
+rewrote skadenga book mission, so you can buy the unique book<br>
+rewrote wanderer and remnant mission for cultural archive, so you get the unique chip<br>
+added toby the teddy bear unique<br>
+added toolbox unique<br>
+added korath pillow unique<br>
+added gegno starmap unique<br>
+added bioluminescent offspring and bio reactor uniques, and more missions<br>
+<br>
+2024-09-02<br>
 renamed plugin from "unique.fix" to "uniques"<br>
 gave Antigrav Glass a sprite and moved it to unique<br>
 added bioluminescent plant unique, and a new planet<br>

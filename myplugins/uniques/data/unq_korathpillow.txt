@@ -1,0 +1,48 @@
+# outfit "unq_korathpillow"
+# mission "unq_korathpillow"
+
+
+
+outfit "unq_korathpillow"
+	"display name" "Korath Pillow"
+	category "Unique"
+	thumbnail "outfit/unq_stone"
+	"unique" 1
+	"unplunderable" 1
+	cost 1000
+	description `This is a round flat engraved stone. It seems to be some kind of pillow for Korath, maybe ceremonial?`
+
+
+mission "unq_korathpillow"
+	minor
+	name "Deliver Korath Stones"
+	description "Deliver 50 tons of stones to <destination>. Payment will be <payment>."
+	landing
+	source "Laki Nemparu"
+	destination "Karek Fornati"
+	cargo "Korath Stones" 50
+	to offer
+		random < 3
+	on offer
+		conversation
+			`You land your ship at a bustling spaceport of Laki Nemparu, a planet of the Korath Efreti, a reptilian race known for their rugged appearance and enigmatic customs. Their skin shimmers in hues of light green to gray, matching the barren landscapes of their planet. The Efreti are friendly, though communication is a challenge. No one here speaks your language, nor do you speak theirs.`
+			`After an awkward exchange of gestures, you're approached by a Korath merchant. He points towards a cargo of round, smooth stones arranged neatly in crates. You catch on as the merchant signals for your ship's cargo bay. Using crude drawings and gestures, he makes it clear, he wants you to transport 50 tons of these stones to another planet. The destination is  <destination>, not far from here. In exchange, he offers a generous sum of 17,500 credits.`
+			choice
+				`	Decline the job, you have better to do.`
+					decline
+				`	Accept the job.`
+					goto accept
+			label accept
+			scene "outfit/unq_stone"
+			`Though curious about the strange cargo of stones, you accept the job.`
+			`As you prepare for takeoff, the Efriti merchant gives you a final nod of approval, accompanied by what you assume is a friendly gesture. The mission is clear: deliver the stones safely. The rest? That's a mystery waiting to be unraveled on the distant planet.`
+				accept
+	on complete
+		payment 17500
+		outfit "unq_korathpillow" 1
+		conversation
+			`Your ship touches down on the sands of the desert world, its sun glaring overhead. The spaceport is simple but efficient. Waiting for you is a group of beings similar to the Korath Efriti, their features equally reptilian but distinguished by lighter scales and ceremonial robes. They approach your ship, inspecting the stone crates as you lower them from the cargo hold.`
+			`With polite nods and appreciative gestures, they hand you the promised payment, an ample sum of credits. You're about to leave when one of them approaches, holding one of the round stones. They motion toward the stone, then rest their head on their hands as if in sleep. It dawns on you that these stones must serve as some kind of pillows for the Efriti, a cultural artifact of comfort.`
+			`Amused by the thought, you accept the gift with a respectful nod. The stones, it seems, are more than mere cargo, they hold a significance you still don't quite grasp, but for now, the mystery adds to your growing collection of alien curiosities.`
+
+

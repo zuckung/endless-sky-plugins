@@ -1,0 +1,87 @@
+# disable mission
+# outfit "unq_archive"
+# mission "unq Human Cultural Archives"
+# mission "unq Remnant: Salvage 1"
+# mission "unq archige patch"
+
+
+
+disable mission
+	"Human Cultural Archives"
+	"Remnant: Salvage 1"
+
+
+outfit "unq_archive"
+	"display name" "Human Cultural Data Chip"
+	category "Unique"
+	thumbnail "outfit/unq_archive"
+	"unique" 1
+	"unplunderable" 1
+	cost 40
+	description `This is a copy of the "Human Cultural Archive". You bought it at the souvenir shop of the great library of Alexandria, a space station dedicated to the conservation of human knowledge.`
+
+
+mission "unq Human Cultural Archives"
+	description "Eruk, the Hai technologist on <origin>, has agreed to give you a translation machine if you can somehow get him a copy of the human cultural data from <destination>."
+	landing
+	source "Greenwater"
+	destination "Alexandria"
+	to offer
+		has "Wanderers: Translation Machine: done"
+		not "human cultural data"
+	on offer
+		conversation "eruk cultural data"
+	on visit
+		dialog
+			`The station has a small museum gift shop that sells a copy of the entire archive on a data card. It only costs 40 credits, but because you have done a horrible job at managing your finances you do not have even that much cash on hand right now.`
+			`	Go earn some money, then return here.`
+	on complete
+		set "human cultural data"
+		set "Human Cultural Archives: offered"
+		set "Human Cultural Archives: done"
+		outfit "unq_archive" 1
+		payment -40
+		
+		
+mission "unq Remnant: Salvage 1"
+	name "Remnant History Updates"
+	description `The Remnant are interested in learning about what has happened in human space since they left. Find a copy of human history on <destination>.`
+	minor
+	source "Viminal"
+	destination "Alexandria"
+	to offer
+		not "human cultural data"
+		has "Remnant: Learn Sign Follow Up: offered"
+		random < 50
+		or
+			has "Remnant: Catalytic Ramscoop: done"
+			has "Remnant: Plasma Cannon: done"
+			has "Remnant: Heavy Laser: done"
+			has "Remnant: Tech Retrieval: done"
+	on offer
+		conversation "taely cultural data"
+	on visit
+		dialog
+			`The station has a small museum gift shop that sells a copy of the entire archive on a data card. It only costs 40 credits, but because you have done a horrible job at managing your finances you do not have even that much cash on hand right now.`
+			`	Go earn some money, then return here.`
+	on complete
+		set "human cultural data"
+		set "Remnant: Salvage 1: offered"
+		set "Remnant: Salvage 1: done"
+		outfit "unq_archive" 1
+		payment -40
+
+
+mission "unq archige patch"
+	invisible
+	landing
+	to offer
+		or
+			has "Remnant: Salvage 1: done"
+			has "Human Cultural Archives: done"
+		has "human cultural data"
+		not "unq Remnant: Salvage 1: done"
+		not "unq Human Cultural Archives: done"
+	on offer
+		outfit "unq_archive" 1
+		fail

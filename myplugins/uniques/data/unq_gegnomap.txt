@@ -1,0 +1,41 @@
+# outfit "unq_gegnotablet"
+# mission "unq_crashedgegno"
+
+
+
+outfit "unq_gegnotablet"
+	"display name" "Gegno Starmap"
+	category "Unique"
+	thumbnail "outfit/unq_gegnotablet"
+	cost 10000
+	"unique" 1
+	"unplunderable" 1
+	description `This is a data pad you've found in a crashed spaceship. It contains detailed astronomical information of a region called Gegno Space.`
+
+outfit "unq_gegnomap"
+	"display name" "Gegno Starmap"
+	category "Special"
+	thumbnail "outfit/map"
+	"map" 100
+	"unique" 1
+	"unplunderable" 1
+	description `This is a data pad you've found in a crashed spaceship. It contains detailed astronomical information of a region called Gegno Space.`
+
+
+mission "unq_crashedgegno"
+	invisible
+	landing
+	source "Wye Tzeou"
+	to offer
+		random < 10
+	on offer
+		outfit "unq_gegnotablet" 1
+		outfit "unq_gegnomap" 1
+		conversation
+			scene "scene/unq_crashedgegno"
+			`You touch down on the planet, expecting a barren wasteland or maybe some odd-looking rocks. Instead, you find yourself surrounded by a forest made entirely of giant, glittering crystal pillars. It's beautiful in a "disco ball meets nature" kind of way, but definitely unsettling.`
+			`Wandering through the crystal pillars, you spot a small, crashed ship. It's seen better days, like someone tried to park it blindfolded. Inside, you find a large humanoid skeleton slumped over in the pilot seat. You give it a poke, just to be sure. "Yep, definitely not going anywhere" you mutter to yourself.`
+			`Most of the gear is junk, burnt wires, smashed panels, and what looks like the remnants of an alien snack. Nothing useful. But then you spot a data pad, still functioning. Bingo.`
+			`Back on your ship, you wrestle with decrypting the thing. It takes a few hours, okay, more than a few, but eventually, you crack it. Turns out it's a starmap. A very detailed one, marking a region called "Gegno Space". The map's got notes and routes to strange-sounding places like "Uttna" and one ominously marked "Do Not Enter".`
+			`Looks like Gegno Space is your next destination. What could possibly go wrong?`
+				decline

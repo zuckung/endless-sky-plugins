@@ -44,7 +44,7 @@ mission "unq_install_holo"
 					decline
 			label "buyholo"
 			action
-				payment - 50000
+				payment -50000
 				outfit "unq_holographic_emitter" 1
 			scene "scene/unq_outfitter_holo"
 			`You agree, sealing the deal as she rings up the purchase.`

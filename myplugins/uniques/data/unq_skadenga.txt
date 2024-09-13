@@ -1,0 +1,84 @@
+# disable mission
+# outfit "unq_skadenga"
+# mission "unq The Book of Skadenga"
+# mission "unq skadenga patch"
+
+
+disable mission
+	"The Book of Skadenga"
+
+
+outfit "unq_skadenga"
+	"display name" "Skadenga Book"
+	category "Unique"
+	thumbnail "outfit/unq_skadenga"
+	"unique" 1
+	"unplunderable" 1
+	cost 200
+	description `This is an old-style book, bound up in an green cover, titled: "The Skadenga Saga: Against All Odds, by Hjlod Hrimnirsdottir". It is the story of the Skadenge and how you've helped them. Reading it lets you feel very nostalgic.`
+
+
+mission "unq The Book of Skadenga"
+	minor
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	to offer
+		random < 10
+		has "event: the book"
+	on offer
+		set "The Book of Skadenga: offered"
+		set "The Book of Skadenga: declined"
+		conversation
+			`As you wander through the spaceport, something catches your eye at a kiosk selling gifts, trinkets, and other odds and ends.`
+			`	There's an old-style book there, bound up in an green cover, titled: "The Skadenga Saga: Against All Odds, by Hjlod Hrimnirsdottir."`
+			choice
+				`	(Ignore the book and move on.)`
+					goto ignore
+				`	(Pick the book up.)`
+			branch windblain
+				has "Home for Skadenga 13: offered"
+			`	The book feels solid in your hands, and you scan through it. There are chapters about near death survival on Nifel, the subtle hostility of Asgard, the sudden death of the old Ondurdis, who you learn was named Eymani, and the triumph of Hjlod and the survivors on Nifel.`
+				goto end
+			label windblain
+			branch captain
+				has "Home for Skadenga Captain: done"
+			`	The book feels solid in your hands, and you scan through it. There are chapters about near death survival on Nifel, corrupt Deep officials, the colorful haulers on Muspel, and the ultimate triumph on Windblain.`
+				goto end
+			label captain
+			`	The book feels solid in your hands, and you scan through it. There are chapters about near death survival on Nifel, corrupt Deep officials, and the ultimate triumph on Windblain.`
+			label end
+			`	You place the book back on its stand as the attendant notices you. "It's pretty popular, that one. I hear it started this whole 'back-to-nature' primalism cult." He shrugs. "Whatever sells, ya know. Anyways, you buying?"`
+			choice
+				`	You decline. You already know that story.`
+					goto nope
+				`	It's also your story, so buy it.`
+					goto buy
+			label buy
+			action
+				payment -40
+				outfit "unq_skadenga" 1
+				set "bought skadenga book"
+			``
+				decline
+			label nope
+			action
+				set "declined skadenga book"
+			``
+				decline
+			label ignore
+			action
+				set "declined skadenga book"
+			`	You keep walking. You already know that story.`
+				decline
+
+
+mission "unq skadenga patch"
+	invisible
+	landing
+	to offer
+		has "The Book of Skadenga: declined"
+		not "bought skadenga book"
+		not "declined skadenga book"
+	on offer
+		outfit "unq_skadenga" 1
+		fail

@@ -1,9 +1,14 @@
 # system "Ae Il M-77"
 # planet "Aesila"
 # outfit "unq_bioluminescent_plant"
+# outfit "unq_bioluminescent_offspring"
+# outfit "unq_bioreactor"
 # mission "unq_aesilas_plant"
 # event "unq_wait_bioluminescent_offspring"
 # mission "unq_bioluminescent_offspring"
+# mission "unq_bioluminescent_offspring_science01"
+# mission "unq_bioluminescent_offspring_science02"
+# mission "unq_bioluminescent_offspring_science03"
 
 
 
@@ -29,6 +34,27 @@ outfit "unq_bioluminescent_plant"
 	"unplunderable" 1
 	cost 2000000
 	description `A bioluminescent plant you have found on jungle world. It may be very valuable for science, but it looks too good on you bridge. Maybe someday it gifts you with an offspring.`
+
+
+outfit "unq_bioluminescent_offspring"
+	"display name" "Bioluminescent Offspring"
+	category "Unique"
+	thumbnail "outfit/unq_bioluminescent_offspring"
+	"unique" 1
+	"unplunderable" 1
+	cost 2000000
+	description `An offspring of your bioluminiscent plant. You don't know why, but unfortunately it can't get own offsprings.`
+
+
+outfit "unq_bioreactor"
+	"display name" "Mini Bio Reactor"
+	category "Unique"
+	thumbnail "outfit/unq_bioreactor"
+	"unique" 1
+	"unplunderable" 1
+	"energy generation" 1.0
+	cost 2000000
+	description `A very small bio reactor for generating energy. It is made out of an offspring of the bioluminescent plant you've discovered.`
 
 
 mission "unq_aesilas_plant"
@@ -87,7 +113,75 @@ mission "unq_bioluminescent_offspring"
 					decline
 			label "cut"
 			action
-				outfit "unq_bioluminescent_plant" 1
+				outfit "unq_bioluminescent_offspring" 1
 				event "unq_wait_bioluminescent_offspring" 180
 			`It seems that your plant will give offsprings regularly and without botanical problems. That may be a stable source of credits if you sell them.`
 				decline
+
+
+mission "unq_bioluminescent_offspring_science01"
+	landing
+	name "Transport a scientist"
+	description "Transport a scientist from a conference back to <destination>. Payment will be <payment>."
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Independent"
+	destination "Geyser"
+	to offer
+		has "outfit (flagship installed): unq_bioluminescent_offspring" > 1
+	on offer
+		conversation
+			`After landing you quickly get a job offer by a hotel which want to book a passage for a guest. You are offered to transport the renowned biochemist, Dr. Carl Neuberg, back to his laboratory on planet <destination> after attending a major conference in biochemistry. The payment will be 95,000 credits.`
+			choice
+				`	You don't have time at the moment.`
+					decline
+				`	You accept the job.`
+			`Eager to make some quick credits, you accept the offer.`
+				accept
+	on complete
+		payment 95000
+		outfit "unq_bioluminescent_offspring" -2
+		event "wait for bio scientist" 35
+		conversation
+			`During the journey, Dr. Neuberg noticed your potted, bioluminescent plant you collected during your expedition to an uninhabited and unknown planet. Intrigued, he asked to study it. After conducting some tests, he realized the plant has remarkable energy generation potential due to its bio-luminescent properties and unique metabolic pathways. Excited by the discovery, the scientist proposes an idea: to construct a bio-reactor harnessing the energy produced by the plant.`
+			`You have two offspring of the plant, grown from cuttings. If you agree to the proposal, the scientist promises to create a working prototype reactor within a month or two.`
+			`You accept the deal, giving him both offsprings for his experiments. He leaves, confident that his project will succeed and promises to contact you as soon as the work is done.`
+
+
+event "wait for bio scientist"
+
+
+mission "unq_bioluminescent_offspring_science02"
+	landing
+	name "Visit Dr. Neuberg"
+	description "Visit Dr Neuberg, the bio chemistry scientist who researches you plant offsprings, at <destination>."
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Independent"
+	destination "Geyser"
+	to offer
+		has "event: wait for bio scientist"
+	on offer
+		dialog `You receive a message from the Dr. Neuberg, requesting your presence at his lab.`
+	on complete
+		outfit "unq_bioreactor" 1
+		conversation
+			`When you arrive at Geyser, you get escorted by an assistant of Dr. Neuberg to his lab. There, Dr. Neuberg presents you a small, functional bio-reactor powered by the plant's bioluminescent energy. He offers to create more reactors if you supply him with additional offsprings. He takes one offspring as payment and the other as material for the next reactor. You can find this offer on the Geyser job board, as soon as you have two offsprings.`
+
+
+mission "unq_bioluminescent_offspring_science03"
+	repeat
+	job
+	name "Dr. Neuberg's Bio Reactor"
+	description "Dr. Neuberg, the scientist you've transported some time ago, can create a bio reactor out of two bioluminescent plant offsprings."
+	source "Geyser"
+	to offer
+		has "unq_bioluminescent_offspring_science02: done"
+		has "outfit (flagship installed): unq_bioluminescent_offspring" > 1
+	on accept
+		outfit "unq_bioreactor" 1
+		outfit "unq_bioluminescent_offspring" -2
+		conversation
+			scene "outfit/unq_bioreactor"
+			`You visit Dr. Neuberg at his laboratory. He already created a bio reactor out of the last plant offspring and sells it to you for two new offsprings.`
+				decline
+	on daily
+		fail
