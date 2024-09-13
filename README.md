@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-09-06 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2024-09-13 | update: uniques<br>
+2024-09-06 | update: additional.command.buttons.radial<br>
 2024-09-06 | update: no.more.mereti.mines<br>
 2024-09-06 | update: hai.side.mission.unlocker<br>
 2024-09-06 | update: paint.your.ships<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-02 | update: uniques<br>
 2024-09-02 | renamed unique.fix to uniques<br>
 2024-08-31 | update: additional.command.buttons.radial<br>
-2024-08-30 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3580,9 +3580,9 @@ initial release<br>
 
 <img src="myplugins/uniques/icon.png" height="100">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-uniques/uniques.zip) | 3.47 mb | 2024-09-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-uniques/uniques.zip) | 5.0 mb | 2024-09-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <br>
 <br>
->Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds some new uniques. See the README for details.
+>Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -3592,7 +3592,7 @@ initial release<br>
 
 <br>
 
-Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds some new uniques.<br>
+Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques.<br>
 
 <br>
 
@@ -3614,7 +3614,15 @@ Former plugin "unique.fix", containing just some adjustment to the few vanilla u
 
 <li> Puts outfit 'Antigrav Glass' into unique category and gives a picture</li>
 
+<li> rewrote Skadenga book mission, so you can buy the unique book</li>
+
+<li> rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique chip</li>
+
 <li> Adds a new unique, "Bioluminescent Plant" (Aesila, 10% chance)</li>
+
+<li> Adds a new unique, "Bioluminiscent Offspring" (followup)</li>
+
+<li> Adds a new unique, "Bio Reactor" (followup)</li>
 
 <li> Adds a new unique, "Spaceship Figurine" (Sunracer, 3% chance)</li>
 
@@ -3632,6 +3640,14 @@ Former plugin "unique.fix", containing just some adjustment to the few vanilla u
 
 <li> Adds a new unique, "External Holo Emitter" (Luna, 6% chance)</li>
 
+<li> Adds a new unique, "Toby the Teddy Bear" (Featherweight, 3% chance)</li>
+
+<li> Adds a new unique, "Toolbox" (Clark, 3% chance)</li>
+
+<li> Adds a new unique, "Korath Pillow" (Laki Nemparu, 3% chance)</li>
+
+<li> Adds a new unique, "Gegno Starmap" (Wye Tzeou, 10% chance)</li>
+
 </ul>
 
 vanilla uniques<br>
@@ -3644,6 +3660,8 @@ added uniques<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques02.jpg' width='400'>
 
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques03.jpg' width='400'>
+
 <br>
 
 <br>
@@ -3652,7 +3670,25 @@ Changelog:<br>
 
 <br>
 
-2024-09-xx<br>
+2024-09-13<br>
+
+rewrote skadenga book mission, so you can buy the unique book<br>
+
+rewrote wanderer and remnant mission for cultural archive, so you get the unique chip<br>
+
+added toby the teddy bear unique<br>
+
+added toolbox unique<br>
+
+added korath pillow unique<br>
+
+added gegno starmap unique<br>
+
+added bioluminescent offspring and bio reactor uniques, and more missions<br>
+
+<br>
+
+2024-09-02<br>
 
 renamed plugin from "unique.fix" to "uniques"<br>
 
