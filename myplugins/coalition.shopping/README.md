@@ -13,6 +13,7 @@ Changelog:<br>
 <br>
 2024-09-15<br>
 some error fixing, adjustments and text improvements (thx to timeout.fu)<br>
+more text adjustments (from TheGiraffe3)<br>
 <br>
 2024-05-04<br>
 added 2 scene images<br>

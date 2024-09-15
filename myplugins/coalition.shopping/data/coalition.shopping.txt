@@ -47,7 +47,7 @@ event "both sides"
 
 mission "get heliarch"
 	landing
-	name "New equipment"
+	name "New Equipment"
 	description "Head to <destination> to check out the shipyards and outfitter you've paid to get access to."
 	source
 		government "Coalition"
@@ -60,23 +60,23 @@ mission "get heliarch"
 	on offer
 		conversation
 			scene "scene/kimek_spaceport"
-			`As you enter <origin>'s spaceport, a suspiciously nervous Kimek approaches. "Hello Captain <last>. Interesting offer, I like to make you. Inside your ship, we talk maybe?"`
+			`As you enter <origin>'s spaceport, a suspiciously nervous Kimek approaches. "Hello Captain <last>. Interesting offer, I would like to make you. Inside your ship we talk maybe?"`
 			choice
-				`	Sure.`
+				`	"Sure."`
 					goto yes
-				`	I'm not interested.`
+				`	"I'm not interested."`
 					decline
 			label yes
 			scene "scene/kimek_sitting"
-			`Once in the ship, the Kimek begins to relax. "A few shipyards and outfitters in the 'Far Home' system, my client has already built. Some with unlicensed ships and equipment, and now looking for paying customers, he is. Granted with access to these difficult-to-access technologies, you would be, for a small fee of five million credits. More precisely, about Heliarch and Lunarium technologies, it is. The payment would be made now and with a Heliarch license, you would also be provided. Are you interested?"`
+			`	Once in the ship, the Kimek begins to relax. "A few shipyards and outfitters in the 'Far Home' system, my client has already built. Some with unlicensed ships and equipment, and now looking for paying customers, he is. Granted with access to these difficult-to-access technologies, you would be, for a small fee of five million credits. More precisely, about Heliarch and Lunarium technologies, it is. The payment would be made now and with a Heliarch license, you would also be provided. Are you interested?"`
 			choice
-				`	Sure, I just fetch my bribery suitcase.`
+				`	"Sure, I'll just fetch my bribery suitcase."`
 					goto yesyes
-				`	Get out or I call the cops... Uhm, what number do I have to dial?`
+				`	"Get out or I'll call the Heliarch... umm, what number do I have to dial?"`
 					decline
 			label yesyes
 			scene "scene/kimek_sitting"
-			`Some minutes later the Kimek puts the credit transfer chip into his pad, and confirms the payment. "Keep the suitcase", you say. Without an answer he pulls a golden Heliarch circlet out of his pocket, puts it on your head and connects it to a small electronic box with a cable. After about 20 seconds the whole procedure is over and the Heliarch license is activated. "It, that is" he says, and leaves your ship. You should head to <destination> to take a look at the new equipment.`
+			`	Some minutes later the Kimek puts the credit transfer chip into his pad, and confirms the payment. "Keep the suitcase," you say. Without an answer he pulls a golden Heliarch circlet out of his pocket, puts it on your head and connects it to a small electronic box with a cable. After about twenty seconds the whole procedure is over and the Heliarch license is activated. "That is it," he says, and leaves your ship. You should head to <destination> to take a look at the new equipment.`
 				accept
 	on accept
 		payment -5000000
@@ -84,12 +84,12 @@ mission "get heliarch"
 		set "license: Heliarch"
 	on complete
 		conversation
-			`You've reached <planet>. The local outfitters and shipyards should have all equipment the Coalition, the Heliarchs and the Lunarium can offer. `
+			`You've reached <planet>. The local outfitters and shipyards should have all the equipment the Coalition, the Heliarch, and the Lunarium can offer.`
 
 
 mission "get lunarium"
 	landing
-	name "New equipment"
+	name "New Equipment"
 	description "Head to <destination> to check out the shipyards and outfitter you've paid to get access to."
 	source
 		government "Coalition"
@@ -102,27 +102,27 @@ mission "get lunarium"
 	on offer
 		conversation
 			scene "scene/kimek_spaceport"
-			`As you enter <origin>'s spaceport, a suspiciously nervous Kimek approaches. "Hello Captain <last>. Interesting offer, I like to make you. Inside your ship, we talk maybe?"`
+			`As you enter <origin>'s spaceport, a suspiciously nervous Kimek approaches. "Hello Captain <last>. Interesting offer, I would like to make you. Inside your ship we talk maybe?"`
 			choice
-				`	Sure.`
+				`	"Sure."`
 					goto yes
-				`	I'm not interested.`
+				`	"I'm not interested."`
 					decline
 			label yes
 			scene "scene/kimek_sitting"
-			`Once in the ship, the Kimek begins to relax. "A few shipyards and outfitters in the 'Far Home' system, my client has already built. Some with unlicensed ships and equipment, and now looking for paying customers, he is. Granted with access to these difficult-to-access technologies, you would be, for a small fee of five million credits. More precisely, about Heliarch and Lunarium technologies, it is. Now, the payment would be made. Are you interested?"`
+			`	Once in the ship, the Kimek begins to relax. "A few shipyards and outfitters in the 'Far Home' system, my client has already built. Some with unlicensed ships and equipment, and now looking for paying customers, he is. Granted with access to these difficult-to-access technologies, you would be, for a small fee of five million credits. More precisely, about Heliarch and Lunarium technologies, it is. Now, the payment would be made. Are you interested?"`
 			choice
-				`	Sure, I just fetch my bribery suitcase.`
+				`	"Sure, I'll just fetch my bribery suitcase."`
 					goto yesyes
-				`	Get out or I call the cops... Uhm, what number do I have to dial?`
+				`	"Get out or I'll call the Heliarch... umm, what number do I have to dial?"`
 					decline
 			label yesyes
 			scene "scene/kimek_sitting"
-			`Some minutes later the Kimek puts the credit transfer chip into his pad, and confirms the payment. "Keep the suitcase", you say. Without an answer he pulls a golden Heliarch circlet out of his pocket, puts it on your head and connects it to a small electronic box with a cable. After about 20 seconds the whole procedure is over and the Heliarch license is activated. "It, that is" he says, and leaves your ship. You should head to <destination> to take a look at the new equipment.`
+			`	Some minutes later the Kimek puts the credit transfer chip into his pad, and confirms the payment. "Keep the suitcase," you say. Without an answer he pulls a golden Heliarch circlet out of his pocket, puts it on your head and connects it to a small electronic box with a cable. After about twenty seconds the whole procedure is over and the Heliarch license is activated. "That is it," he says, and leaves your ship. You should head to <destination> to take a look at the new equipment.`
 				accept
 	on accept
 		payment -5000000
 		event "both sides"
 	on complete
 		conversation
-			`You've reached <planet>. The local outfitters and shipyards should have all equipment the Coalition, the Heliarchs and the Lunarium can offer.`
+			`You've reached <planet>. The local outfitters and shipyards should have all equipment the Coalition, the Heliarch, and the Lunarium can offer.`
