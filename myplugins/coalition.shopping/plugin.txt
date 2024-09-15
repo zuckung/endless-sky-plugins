@@ -1,2 +1,2 @@
 name "coalition.shopping"
-about "Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in 'Homeward' system. See the readme for details."
+about "Adds all Coalition/Heliarch/Lunarium outfits and ships to "Far Home" in the "Homeward" system. See the README for details."
