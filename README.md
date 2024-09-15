@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-09-13 | update: uniques<br>
+<table><tr><td><img width="882" height="1"><br>2024-09-15 | update: coalition.shopping<br>
+2024-09-13 | update: uniques<br>
 2024-09-06 | update: additional.command.buttons.radial<br>
 2024-09-06 | update: no.more.mereti.mines<br>
 2024-09-06 | update: hai.side.mission.unlocker<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-02 | update: additional.command.buttons.radial<br>
 2024-09-02 | update: uniques<br>
 2024-09-02 | renamed unique.fix to uniques<br>
-2024-08-31 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -940,7 +940,7 @@ initial release<br>
 
 <img src="myplugins/coalition.shopping/icon.png" height="100">
 
-[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-coalition.shopping/coalition.shopping.zip) | 88.53 kb | 2024-05-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <br>
+[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-coalition.shopping/coalition.shopping.zip) | 88.58 kb | 2024-09-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <br>
 <br>
 >Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in 'Homeward' system. See the readme for details.
 
@@ -958,7 +958,7 @@ Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in 'Homewar
 
 Adds all existing coalition outfitters and shipyards to 'Far Home'. Also adds a new shipyard and a new outfitter with missing ships/outfits.<br>
 
-To start the mission to enable these outfitters and shipyards, you have to join Heliarch or Lunarium (complete the first chapter of these storylines) and own/pay 5 million credits. The mission starts anywhere in coalition space. I added this plausible mission to make the plugin feel less cheaty.<br>
+To start the mission to enable these outfitters and shipyards, you have to join Heliarch or Lunarium (complete the first chapter of these storylines) and own/pay 6/5 million credits. The mission starts anywhere in coalition space. I added this plausible mission to make the plugin feel less cheaty.<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/coalition.shopping01.jpg' width='400'>
 
@@ -969,6 +969,12 @@ To start the mission to enable these outfitters and shipyards, you have to join 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-09-15<br>
+
+some error fixing, adjustments and text improvements (thx to timeout.fu)<br>
 
 <br>
 
