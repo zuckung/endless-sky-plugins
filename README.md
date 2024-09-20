@@ -15,7 +15,9 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-09-15 | update: coalition.shopping<br>
+<table><tr><td><img width="882" height="1"><br>2024-09-20 | update: uniques<br>
+2024-09-20 | merged real.fluff into uniques<br>
+2024-09-15 | update: coalition.shopping<br>
 2024-09-13 | update: uniques<br>
 2024-09-06 | update: additional.command.buttons.radial<br>
 2024-09-06 | update: no.more.mereti.mines<br>
@@ -23,8 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-06 | update: paint.your.ships<br>
 2024-09-06 | merged devil-run.unhidden into hai.side.mission.unlocker<br>
 2024-09-02 | update: additional.command.buttons.radial<br>
-2024-09-02 | update: uniques<br>
-2024-09-02 | renamed unique.fix to uniques<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -63,7 +63,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#paintyourships">paint.your.ships</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
 <a href="README.md#quargfarm">quarg.farm</a><br>
-<a href="README.md#realfluff">real.fluff</a><br>
 <a href="README.md#showreputation">show.reputation</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
 <a href="README.md#spacefauna">space.fauna</a><br>
@@ -3052,192 +3051,6 @@ initial release<br>
 
 ---
 
-### real.fluff
-
-<img src="myplugins/real.fluff/icon.png" height="100">
-
-[real.fluff.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-real.fluff/real.fluff.zip) | 2.05 mb | 2024-07-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/real.fluff/) <br>
-<br>
->A bunch of side missions which reward unique fluffy pets. See the README for details.
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### real.fluff
-
-<br>
-
-<br>
-
-A bunch of side missions which reward unique pets. <br>
-
-<br>
-
-Lore-friendly, totally useless, but cute pet outfits, with storylines. All missions have a 20% chance of appearing, except xenomorph and exotic mission which have 100%.<br>
-
-<ul>
-
-<li>Xenomorph - land somewhere in human space, hidden destination is Danoa system (based on the Alien movies)</li>
-
-<li>The Exotic - land somewhere in human space, hidden destination is Unagi system (based on the Dark Star movie)</li>
-
-<li>Cat - mission found on Deadman's Cove (Almach)</li>
-
-<li>Ferret - mission found on Bivrost (Markeb)</li>
-
-<li>Hamster - mission found on Twinstar (Alniyat)</li>
-
-<li>Koala - mission found on New Portland (Delta Sagittarii)</li>
-
-<li>Ocelot - mission found on Farpoint (Alnitak) needs 1000 combat rating</li>
-
-<li>Rabbit - mission found on Starcross (Acrux)</li>
-
-<li>Raccoon - mission found on Foundry (Achernar)</li>
-
-<li>Squirrel - mission found on Heartvalley (Io Lowe, Hai space)</li>
-
-</ul>
-
-After collecting them all(except the two movie pets), you get a mission (20%) with unique reward.<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff02.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff03.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff04.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/real.fluff05.jpg' width='400'>
-
-<br>
-
-<br>
-
-Changelog:<br>
-
-<br>
-
-2024-07-20<br>
-
-bug fixing (thx to timeout.fu for testing)<br>
-
-text corrections (thx to TheGiraffe3)<br>
-
-text
-
-<br>
-
-2024-07-19<br>
-
-added exotic pet,bawdy magazines unique, with dark star mission(thx to timeout.fu for brainstorming)<br>
-
-renamed alien to xenomorph<br>
-
-resized nostromo<br>
-
-made all pets unplunderable<br>
-
-<br>
-
-2024-07-13<br>
-
-changed nostromo from the alien mission to a bigger ship (as criticized by timeout.fu)<br>
-
-added four mission screenshots<br>
-
-<br>
-
-2024-06-07<br>
-
-text corrections (thx to TheGiraffe3)<br>
-
-<br>
-
-2024-04-21<br>
-
-changed size of alien.png to prevent error.txt mentioning<br>
-
-added 4 more scene images<br>
-
-<br>
-
-2024-03-13<br>
-
-added the choice to defer missions<br>
-
-added the choice to take a pet or not(doesnt influence the final mission)<br>
-
-<br>
-
-2024-03-31<br>
-
-new category pets<br>
-
-gave puny an image and added to pets<br>
-
-a new missions, after collecting all pets, with a unique reward<br>
-
-converted scene pngs to jpg<br>
-
-minor tweaks<br>
-
-<br>
-
-2024-03-15<br>
-
-bugfixes<br>
-
-added cat mission<br>
-
-added 4 new scene images<br>
-
-changed images to ai generated<br>
-
-<br>
-
-2023-10-17<br>
-
-added plugin.txt<br>
-
-<br>
-
-2023-10-03<br>
-
-added ocelot mission<br>
-
-added raccoon mission<br>
-
-added alien mission<br>
-
-<br>
-
-2023-09-23<br>
-
-added ferret mission
-
-added koala mission<br>
-
-added rabbit mission<br>
-
-added hamster mission<br>
-
-<br>
-
-2023-09-20<br>
-
-added squirrel mission chain<br>
-
-added 5 pet outfits with images<br>
-
-initial release<br>
-
-</blockquote>
-</details>
-<br>
-
-
----
-
 ### show.reputation
 
 <img src="myplugins/show.reputation/icon.png" height="100">
@@ -3588,7 +3401,7 @@ initial release<br>
 
 <img src="myplugins/uniques/icon.png" height="100">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-uniques/uniques.zip) | 5.0 mb | 2024-09-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-uniques/uniques.zip) | 9.21 mb | 2024-09-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -3608,7 +3421,9 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 
 Uniques are great! Why aren't more ingame?<br>
 
-Former plugin "unique.fix", containing just some adjustment to the few vanilla uniques, got renamed to "uniques". This new version adds more useful and useless unique outfits.<br>
+This plugin contains my former plugins unque.fix (just some vanilla unique adjustments), real.fluff (10 unique pets) and lots of new uniques with storylines.<br>
+
+<br>
 
 <ul>
 
@@ -3616,45 +3431,69 @@ Former plugin "unique.fix", containing just some adjustment to the few vanilla u
 
 <li> Removes mass and outfit space from outskirts gauger and puts it in unique category</li>
 
-<li> Gives outfit '"Puny"' a picture</li>
+<li> Gives outfit '"Puny"' a picture and puts it into pets category</li>
+
+<li> Gives outfit 'Antigrav Glass'  a picture and puts it into unique category</li>
 
 <li> Puts outfit 'Mug' into unique category</li>
 
-<li> Puts outfit 'Antigrav Glass' into unique category and gives a picture</li>
-
 <li> rewrote Skadenga book mission, so you can buy the unique book</li>
 
-<li> rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique chip</li>
+<li> rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique archive chip</li>
 
-<li> Adds a new unique, "Bioluminescent Plant" (Aesila, 10% chance)</li>
+<li> unique pet, "Xenomorph" (land somewhere in human space, hidden destination is Danoa system (based on the Alien movies))</li>
 
-<li> Adds a new unique, "Bioluminiscent Offspring" (followup)</li>
+<li> unique pet, "The Exotic" (land somewhere in human space, hidden destination is Unagi system (based on the Dark Star movie))</li>
 
-<li> Adds a new unique, "Bio Reactor" (followup)</li>
+<li> unique pet, Cat "Cleo" (Deadman's Cove, 20% chance)</li>
 
-<li> Adds a new unique, "Spaceship Figurine" (Sunracer, 3% chance)</li>
+<li> unique pet, Ferret "Gummi Bear" (Bivrost, 20% chance)</li>
 
-<li> Adds a new unique, "Alien Handgun" (Alix, 10% chance)</li>
+<li> unique pet, Hamster "Peanut" (Twinstar, 20% chance)</li>
 
-<li> Adds a new unique, "Quantum Ring" (Charon Station, 3% chance)</li>
+<li> unique pet, Koala "Archie" (New Portland, 20% chance)</li>
 
-<li> Adds a new unique, "Old Whisky Bottles" (Socket, 10% chance)</li>
+<li> unique pet, Ocelot "Babou" (Farpoint, 20% chance, needs 1000 combat rating)</li>
 
-<li> Adds a new unique, "Scanning Computer" (Overseer, 10% chance)</li>
+<li> unique pet, Rabbit "Thumper" (Starcross, 20% chance)</li>
 
-<li> Adds a new unique, "Hai Survival Rations" (Hai space, 3% chance)</li>
+<li> unique pet, Raccoon "Bandit" (Foundry, 20% chance)</li>
 
-<li> Adds a new unique, "Piloting For Dummies" (Paradise worlds, 3% chance)</li>
+<li> unique pet, Squirrel "Trixie" (Heartvalley, 20% chance)</li>
 
-<li> Adds a new unique, "External Holo Emitter" (Luna, 6% chance)</li>
+<li> new unique, "Bawdy Magazines" (during "The Exotic" mission)</li>
 
-<li> Adds a new unique, "Toby the Teddy Bear" (Featherweight, 3% chance)</li>
+<li> new unique, "Glass Cat" (after collecting all pets)</li>
 
-<li> Adds a new unique, "Toolbox" (Clark, 3% chance)</li>
+<li> new unique, "Bioluminescent Plant" (Aesila, 10% chance)</li>
 
-<li> Adds a new unique, "Korath Pillow" (Laki Nemparu, 3% chance)</li>
+<li> new unique, "Bioluminiscent Offspring" (plant followup)</li>
 
-<li> Adds a new unique, "Gegno Starmap" (Wye Tzeou, 10% chance)</li>
+<li> new unique, "Bio Reactor" (plant followup)</li>
+
+<li> new unique, "Spaceship Figurine" (Sunracer, 3% chance)</li>
+
+<li> new unique, "Alien Handgun" (Alix, 10% chance)</li>
+
+<li> new unique, "Quantum Ring" (Charon Station, 3% chance)</li>
+
+<li> new unique, "Old Whisky Bottles" (Socket, 10% chance)</li>
+
+<li> new unique, "Scanning Computer" (Overseer, 10% chance)</li>
+
+<li> new unique, "Hai Survival Rations" (Hai space, 3% chance)</li>
+
+<li> new unique, "Piloting For Dummies" (Paradise worlds, 3% chance)</li>
+
+<li> new unique, "External Holo Emitter" (Luna, 6% chance)</li>
+
+<li> new unique, "Toby the Teddy Bear" (Featherweight, 3% chance)</li>
+
+<li> new unique, "Toolbox" (Clark, 3% chance)</li>
+
+<li> new unique, "Korath Pillow" (Laki Nemparu, 3% chance)</li>
+
+<li> new unique, "Gegno Starmap" (Wye Tzeou, 10% chance)</li>
 
 </ul>
 
@@ -3670,11 +3509,23 @@ added uniques<br>
 
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques03.jpg' width='400'>
 
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques04.jpg' width='400'>
+
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-09-20<br>
+
+merged plugin with real.fluff<br>
+
+added @2x images for real.fluff<br>
+
+fixed skadenga and human archive missions pops up a second time<br>
 
 <br>
 
