@@ -5,7 +5,13 @@ author:
 images:
 	outfit, land, scene
 		ai generated at https://perchance.org/ai-text-to-image-generator
-	unq_alien_handgun
+	unq_alien_handgun, fluffy pets
 		ai generated at https://www.craiyon.com/
+	alien art
+		https://www.pngfind.com/mpng/hwmwhii_image-alien-isolation-alien-png-transparent-png/
+		https://www.worldofreel.com/blog//2016/12/in-alien-light-effects-in-egg-chamber.html
+	dark star art
+		screenshotted from the movie
+		ship from https://ru.pinterest.com/pin/dark-star-star-wars-ships-sci-fi--737183032726064284/
 	
 	

@@ -80,5 +80,7 @@ mission "unq skadenga patch"
 		not "bought skadenga book"
 		not "declined skadenga book"
 	on offer
+		set "unq The Book of Skadenga: offered"
+		set "unq The Book of Skadenga: done"
 		outfit "unq_skadenga" 1
 		fail

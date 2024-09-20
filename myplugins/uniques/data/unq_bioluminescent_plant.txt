@@ -105,7 +105,7 @@ mission "unq_bioluminescent_offspring"
 		clear "event: unq_wait_bioluminescent_offspring"
 		conversation
 			scene "outfit/unq_bioluminescent_plant"
-			`Your valueable bioluminescent plant has an offspring! Maybe you get a good price when selling it.`
+			`Your valuable bioluminescent plant has an offspring! Maybe you get a good price when selling it.`
 			choice
 				`	Cut it off to grow a new plant.`
 					goto "cut"

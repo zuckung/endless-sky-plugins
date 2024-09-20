@@ -1,9 +1,52 @@
+# TEST planet "Earth"
+# TEST outfitter "uniques"
+# category "Pets"
 # outfit "Cloaking Device"
 # outfit "Outskirts Gauger"	
 # outfit "Puny"
 # outfit "Mug"
 # outfit "Antigrav Glass"
 
+
+
+planet "Earth"
+	add outfitter "uniques"
+
+
+outfitter "uniques"
+	"bawdy magazines"
+	"Glass Cat"
+	"fluffy_cat"
+	"fluffy_ocelot"
+	"fluffy_raccoon"
+	"fluffy_alien"
+	"fluffy_ferret"
+	"fluffy_koala"
+	"fluffy_rabbit"
+	"fluffy_hamster"
+	"fluffy_squirrel"
+	"fluffy_exotic"
+	"unq_bioluminescent_plant"
+	"unq_spaceship_figurine"
+	"unq_alien_handgun"
+	"unq_quantum_ring"
+	"unq_alcohol"
+	"unq_scanner"
+	"unq_survival_rations"
+	"unq_book"
+	"unq_holographic_emitter"
+	"unq_skadenga"
+	"unq_archive"
+	"unq_teddy"
+	"unq_toolbox"
+	"unq_korathpillow"
+	"unq_gegnotablet"
+	"unq_bioreactor"
+	"unq_bioluminescent_offspring"
+
+
+category
+	"Pets"
 
 
 outfit "Cloaking Device"	
@@ -20,6 +63,7 @@ outfit "Outskirts Gauger"
 
 
 outfit "Puny"
+	category "Pets"
 	thumbnail "outfit/unq_puny"
 
 

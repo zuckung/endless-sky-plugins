@@ -3,7 +3,6 @@
 # ship Mega Freighter for alien mission
 # outfit Bawdy Magazine
 # outfit Glass Cat
-# outfit puny modified
 # outfit fluffy_cat
 # outfit fluffy_ocelot
 # outfit fluffy_raccoon
@@ -18,6 +17,7 @@
 
 category "outfit"
 	"Pets"
+
 
 ship "Planet Destroyer"
 	sprite "ship/darkstar"
@@ -75,6 +75,7 @@ ship "Planet Destroyer"
 	"final explode" "final explosion medium"
 	description "You should not be seeing the description of this ship."
 
+
 ship "Mega Freighter"
 	sprite "ship/nostromo"
 	thumbnail "thumbnail/argosy"
@@ -131,24 +132,24 @@ ship "Mega Freighter"
 	"final explode" "final explosion medium"
 	description "You should not be seeing the description of this ship."
 
+
 outfit "bawdy magazines"
 	plural "bawdy magazines"
+	"display name" "Bawdy Magazines"
 	category "Unique"
 	"unique" 1
 	"unplunderable" 1
-	thumbnail "outfit/bawdy"
+	thumbnail "outfit/fluffy_bawdy"
 	description `Several strange ancient porn magazines, found in an old derelict ship. Somehow you really like the style. You shouldn't tell anyone about this.`
+
 
 outfit "Glass Cat"
 	category "Unique"
 	"unique" 1
 	"unplunderable" 1
-	thumbnail "outfit/cat_figurine"
+	thumbnail "outfit/fluffy_cat_figurine"
 	description `A modern art figurine of a cat, made of glass. It is a gift by 'Beings for Ethical Treatment of Animals' (BETA) for your work in the field of animal protection. You just wonder how this Organization found out of your pet rescues. Do they have some kind of intelligence service?`
 
-outfit "Puny"
-	category "Pets"
-	thumbnail "outfit/puny"
 
 outfit "fluffy_cat"
 	category "Pets"
@@ -158,6 +159,7 @@ outfit "fluffy_cat"
 	thumbnail "outfit/fluffy_cat"
 	description `Once "Cleo" was a collateral victim of a gun shooting, but now she is the queen of a star ship bridge! One rank above the captain.`
 
+
 outfit "fluffy_ocelot"
 	category "Pets"
 	"unique" 1
@@ -165,6 +167,7 @@ outfit "fluffy_ocelot"
 	"display name" `"Babou"`
 	thumbnail "outfit/fluffy_ocelot"
 	description `"Babou", former pirate ocelot, fights for the good side now!`
+
 
 outfit "fluffy_raccoon"
 	category "Pets"
@@ -174,13 +177,15 @@ outfit "fluffy_raccoon"
 	thumbnail "outfit/fluffy_raccoon"
 	description `This little raccoon is always at your side, at least at lunch time.`
 
+
 outfit "fluffy_alien"
 	category "Pets"
 	"unique" 1
 	"unplunderable" 1
 	"display name" `"Xenomorph"`
-	thumbnail "outfit/alien"
+	thumbnail "outfit/fluffy_alien"
 	description `Some kind of strange animal you've found on a derelict ship. Although it tries to bite you regularly, you keep it as a pet.`
+
 
 outfit "fluffy_ferret"
 	category "Pets"
@@ -190,6 +195,7 @@ outfit "fluffy_ferret"
 	thumbnail "outfit/fluffy_ferret"
 	description `"Gummi Bear" is a hyperactive ferret. He is always wherever the action is. It looks like he particularly enjoys space battles.`
 
+
 outfit "fluffy_koala"
 	category "Pets"
 	"unique" 1
@@ -197,6 +203,7 @@ outfit "fluffy_koala"
 	"display name" `"Archie"`
 	thumbnail "outfit/fluffy_koala"
 	description `You installed half a tree on the bridge for "Archie." And now he sleeps almost all day, only interrupted by breaks to eat. At least he is fluffy.`
+
 
 outfit "fluffy_rabbit"
 	category "Pets"
@@ -206,6 +213,7 @@ outfit "fluffy_rabbit"
 	thumbnail "outfit/fluffy_rabbit"
 	description `Unfortunately, "Thumper" constantly gnaws at all exposed cables. It took some effort to make the bridge of your ship rabbit-proof. If only he wasn't so cute.`
 
+
 outfit "fluffy_hamster"
 	category "Pets"
 	"unique" 1
@@ -214,6 +222,7 @@ outfit "fluffy_hamster"
 	thumbnail "outfit/fluffy_hamster"
 	description `As a real spacefaring hamster, "Peanut" knows how to transport a large cargo of nuts to his house.`
 
+
 outfit "fluffy_squirrel"
 	category "Pets"
 	"unique" 1
@@ -221,6 +230,7 @@ outfit "fluffy_squirrel"
 	"display name" `"Trixie"`
 	thumbnail "outfit/fluffy_squirrel"
 	description `A little squirrel girl named "Trixie". She is now your friend.`
+
 
 outfit "fluffy_exotic"
 	category "Pets"

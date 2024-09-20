@@ -23,6 +23,7 @@ government "Derelict 2"
 	"player reputation" -1000
 	"fine" 0 
 
+
 mission "beta"
 	minor
 	source
@@ -41,14 +42,16 @@ mission "beta"
 		outfit "Glass Cat"
 		event "waitfluff" 30
 		conversation
-			scene "outfit/cat_figurine"
+			scene "outfit/fluffy_cat_figurine"
 			`When you leave the ship, a courier with a package is waiting for you. It contains a strange glass cat statue and a letter.`
 			`"Dear Captain <first> <last>, in consideration of your achievements in the field of animal protection, we, the organization "Beings for Ethical Treatment of Animals" (BETA), award you the "Glass Cat". As an honorary member you are at any time welcome to our branches."`
 			`"Best regards,"`
 			`"	BETA"`
 				decline
 
+
 event "waitfluff"
+
 
 mission "cat mission 1"
 	invisible
@@ -65,7 +68,7 @@ mission "cat mission 1"
 				`	(Visit some of the neighborhoods of this big pirate city first.)`
 					goto darkalley
 			label darkalley
-			scene "scene/dark_alley"
+			scene "scene/fluffy_dark_alley"
 			`In a dark alley you see two men arguing. The taller of the two suddenly runs away while the other pulls out a gun and shoots. He misses but runs after the man. You're glad you didn't get involved in this. As you continue your way, you hear pained meows and decide to investigate. Next to a pile of rubbish lies a small cat, grazed by a bullet during the shooting. You decide to help and fully expect to be scratched and bitten by the frightened cat, but the cat seems to understand your intentions and willingly lets you take her with you. Back in the ship you treat the poor animal. The wound in her leg is not too serious.`
 			choice
 				`	(Apply a painkiller and then bandage her (longer, less pain))`
@@ -116,7 +119,7 @@ mission "ocelot mission 1"
 		on board
 			payment 50000
 		conversation
-			scene "scene/piratecabin"
+			scene "scene/fluffy_piratecabin"
 			`When you enter the 'Lootbox' you quickly come across dead pirates. The battle was quick and brutal, leaving most of the pirates dead. A small group of survivors have barricaded themselves on the bridge. You decide to search the quarters and quickly discover the captain's cabin. Among the captain's useless belongings you find the stolen jewelry and 50,000 credits.`
 			`As you continue to look for valuablex, something behind a sofa hisses at you. It is a slightly larger cat with a spotted pattern. That must be an ocelot. You courageously try to convince the animal of your friendliness, which you quickly succeed in with a few strokes of petting. A plaque on his neck reads 'Babou'. You decide to take the ocelot with you.`
 			`Half an hour later you are back on your ship. Mission accomplished. Very successful actually. 50,000 extra credits.`
@@ -170,7 +173,7 @@ mission "raccoon mission 1"
 				`	(Stay near my ship.)`
 					goto ship
 			label walk
-			scene "scene/rainforest"
+			scene "scene/fluffy_rainforest"
 			`The forest has something primal about it. Smaller animals are scurrying around everywhere and twice you see something like a deer darting through the forest. You should treat yourself to some time in nature more often.`
 			choice
 				`	(Stay for half an hour then head back to the ship.)`
@@ -204,6 +207,7 @@ mission "raccoon mission 1"
 			`A short time later the work is done and the 80,000 credits payment has arrived in your account. "Bandit" seems as happy as you are.`
 			label end
 
+
 mission "alien mission 1"
 	landing
 	invisible
@@ -231,7 +235,7 @@ mission "alien mission 1"
 				`	(Head back to your ship.)`
 					goto "continue investigation 1"
 			label "continue investigation 1"
-			scene "scene/alien_eggs"
+			scene "scene/fluffy_alien_eggs"
 			`On your way you find one of the starboard cargo holds. Something organic has grown over the walls. The cargo hold almost looks like the inside of a strange body, and there are several cocoons or eggs spread out on the floor.`
 			choice
 				`	(Examine the eggs.)`
@@ -259,11 +263,12 @@ mission "alien mission 1"
 			`You release the strange animal back into the ship.`
 				launch
 			label adopt
-			scene "outfit/alien"
+			scene "outfit/fluffy_alien"
 			action
 				outfit "fluffy_alien"			
 			`You decide to take it with you.`
 				launch
+
 
 mission "ferret mission 1"
 	minor
@@ -291,6 +296,7 @@ mission "ferret mission 1"
 		conversation
 			`The ferrets are unloaded quickly. After you see the <payment> appear in your account, you are happy about this profitable and problem-free job.`
 
+
 mission "ferret mission 2"
 	landing
 	invisible
@@ -299,7 +305,7 @@ mission "ferret mission 2"
 				has "ferret mission 1: done"
 	on offer
 		conversation
-			scene "scene/ferret_cargo"
+			scene "scene/fluffy_ferret_cargo"
 			`While inspecting the cargo hold, you hear noises and investigate. In a corner of the cargo hold, behind a few boxes of spare parts, you find a ferret playing with an electronic component lying around. The animal must have escaped from its cage somehow.`
 			`When the ferret sees you, it runs towards you and climbs up your leg. At first the animal's behavior frightens you, but since it doesn't bite you but rather tries to play with you, you quickly calm down again.`
 			choice
@@ -318,6 +324,7 @@ mission "ferret mission 2"
 			`You now have a new pet! You name the ferret 'Gummi Bear'.`
 				decline
 
+
 mission "koala mission 1"
 	minor
 	name "Transport a koala"
@@ -330,7 +337,7 @@ mission "koala mission 1"
 		random > 79
 	on offer
 		conversation
-			`After completeing your routine checks, you head out to find new work, when your comm-link flashes. You accept the holo transmission on the bridge.`
+			`After completing your routine checks, you head out to find new work, when your comm-link flashes. You accept the holo transmission on the bridge.`
 			`"Hello captain <last>. My name is Mordin, senior inspector in the criminal investigation department. Don't worry, you don't have any problems. Yesterday we busted an illegal animal smuggling organization and are now looking for lots of cargo captains to distribute the many rare animals to the zoos of other planets. Are you interested?"`
 			choice
 				`	"Yes, I'm interested."`
@@ -343,7 +350,7 @@ mission "koala mission 1"
 	on complete
 		payment 120000
 		conversation
-			scene "scene/koalas_zoo"
+			scene "scene/fluffy_koalas_zoo"
 			`After landing on 'Shroud', the koala gets picked up directly by local zoo staff. A friendly young animal caretaker offers you to accompany the transport and see 'Archie' the koala in his new home. Since you still have to get some papers signed by the zoo management, you agree.`
 			`When 'Archie' is released into his new enclosure, you see a terrible picture. The otherwise sluggish koalas rush towards 'Archie' and bite him. The young animal caretaker bravely intervenes and carries him out of the enclosure, away from the other koalas.`
 			`The zoo director who observed the process with you turns to you.`
@@ -362,6 +369,7 @@ mission "koala mission 1"
 				outfit "fluffy_koala"
 			`Since the koala's death would put too much strain on you, you accept the offer. After a little paperwork, you are now the proud owner of 'Archie' the koala!`
 			label end
+
 
 mission "rabbit mission 1"
 	minor
@@ -393,6 +401,7 @@ mission "rabbit mission 1"
 			`You got along really well with the family during the flight to Clark. Rita and Owen tried to be as good and useful passengers as possible on your spaceship since you accepted the rather meager payment. Owen, who used to work in machine maintenance, even made tweaks to your reactor and Rita served you excellent tea a few times. They barely got little Sophie off the bridge; she now wants to become a spaceship captain.`
 			`As you say goodbye, Owen hands you the agreed 35,000 credits. You accept the payment and wish the family good luck.`
 
+
 mission "rabbit mission 2"
 	landing
 	invisible
@@ -400,7 +409,7 @@ mission "rabbit mission 2"
 				has "rabbit mission 1: done"
 	on offer
 		conversation
-			scene "scene/man_rabbit"
+			scene "scene/fluffy_man_rabbit"
 			`Half an hour later, Owen appears in front of your ship again.`
 			`  "Hello, Captain <first>, we have a little problem. Customs won't let us enter with the rabbit. They say that an invasive population of rabbits, which has displaced the local animals, has just been eradicated on 'Clark'. We have to put poor 'Thumper' to sleep. Sophie then came up with the idea that maybe you could look after him. I would of course understand if you refuse."`
 			choice
@@ -418,6 +427,7 @@ mission "rabbit mission 2"
 			`Just the idea of seeing little Sophie cry forces you to accept the rabbit. After instructions on how to care for a rabbit and a second warm farewell, you now have a new pet.`
 				decline
 
+
 mission "hamster mission 1"
 	minor
 	invisible
@@ -428,7 +438,7 @@ mission "hamster mission 1"
 		random > 79
 	on offer
 		conversation
-			scene "scene/hamsterport"
+			scene "scene/fluffy_hamsterport"
 			`When you enter the spaceport of 'Twinstar', you can't believe your eyes. Hundreds of little furry rodents are running around everywhere. It is truly an amazing view. Several crews of spaceport personnel are desperately trying to capture these rat-like animals. You stroll over to one of the foremen, careful not to step on any of the animals.`
 			`The worker holds one of the creatures in his hand and sucks on one of the fingers of his other hand.`
 			`  "Excuse me, but what the hell is going on here?" you ask.`
@@ -449,6 +459,7 @@ mission "hamster mission 1"
 				outfit "fluffy_hamster"
 			`You decide to keep the hamster and name him 'Peanut.'`
 				decline
+
 
 mission "squirrel mission 1"
 	minor
@@ -477,6 +488,7 @@ mission "squirrel mission 1"
 		conversation
 			`You reached <destination>. Here you might find more information where to buy a squirrel.`
 
+
 mission "squirrel mission 2"
 	landing
 	name "Buy a squirrel."
@@ -494,6 +506,7 @@ mission "squirrel mission 2"
 		conversation
 			`You are coming closer buying a squirrel for that nice lady on Heartvalley. You should ask around at the spaceport.`
 
+
 mission "squirrel mission 3"
 	landing
 	name "Are squirrels real?."
@@ -504,12 +517,13 @@ mission "squirrel mission 3"
 		has "squirrel mission 2: done"
 	on offer
 		conversation
-			scene "scene/pet_store"
+			scene "scene/fluffy_pet_store"
 			`After questioning around for squirrels, the Spaceport Information Center directs you to a local pet store. Once there, you learn that squirrels have been extinct on Earth for over 600 years. When Xanua quickly agreed to pay 500,000 credits, you were happy about the easy money to earn. But if this is going to be a galaxy-wide quest, then that probably wasn't enough. The pet dealer offers you to get a squirrel within two months. After some discussion, he gives you the contact details of his supplier. Off to <planet> in the <system> system!`
 				accept
 	on complete
 		conversation
 			`You reached <destination>. According to your contact on Earth, one of the biggest squirrel populations live in the wide forrests of this world. You should check the spaceport to find your local contact.`
+
 
 mission "squirrel mission 4"
 	landing
@@ -570,12 +584,12 @@ mission "exotic mission 1"
 		conversation
 			`After docking with the "Dark Star" you enter the ship and begin the search. There doesn't seem to be anyone and there's total chaos on board... the main power is offline, lots of trash is in the corridors and the small number of cabins are in a terrible mess.`
 			choice
-				`	(Search the cabins more closely.)`
+				`	(search the cabins more closely.)`
 					goto search
 				`	(Take the path to the bridge.)`
 					goto tobridge
 			label search
-			scene outfit/bawdy
+			scene outfit/fluffy_bawdy
 			`When you search the cabins, you find out a lot about the former residents. Apparently the four crew members were alone for far too long and lost all discipline. You find a massive amount of weird, ancient 'bawdy' porn magazines. There is also toilet paper, with written messages on it, all over the place. You even find a sheet that says: "To Sergeant Pinback, the toilet paper is used up.".`
 			choice
 				`	(Take some bawdy magazines for a later, more private use.)`
@@ -615,7 +629,7 @@ mission "exotic mission 1"
 				`	(Disarm the bomb.)`
 					goto disarm
 			label disarm
-			scene "scene/bomb20"
+			scene "scene/fluffy_bomb20"
 			`You try to talk to the bomb.`
 			`YOU:			"Captain <last> to Bomb #20. Can you hear me?"`
 			`Bomb #20: "Bomb #20 to captain <last>. Roger, I read you, continue."`
@@ -631,7 +645,7 @@ mission "exotic mission 1"
 				`	(Continue disarming the bomb.)`
 					goto disarm2
 			label disarm2
-			scene "scene/bomb20"
+			scene "scene/fluffy_bomb20"
 			`YOU:			"Captain <last> to Bomb #20. You can't explode in the bomb bay. It's foolish. You'll kill us all. There's no reason for it."`
 			`BOMB #20: "I am programmed to detonate in four minutes 30 seconds. Detonation will occur at the programmed time."`
 			`YOU:			"You won't consider another course of action, for instance just waiting around awhile so we can disarm you?"`
@@ -645,7 +659,7 @@ mission "exotic mission 1"
 				`	(Continue trying to disarm the bomb.)`
 					goto disarm3
 			label disarm3
-			scene "scene/bomb20"
+			scene "scene/fluffy_bomb20"
 			`YOU:			"Hello, Bomb? Are you with me?"`
 			`Bomb #20: "Of course."`
 			`YOU:			"Are you willing to entertain a few concepts?"`
@@ -673,7 +687,7 @@ mission "exotic mission 1"
 				`	(Try harder to disarm the bomb.)`
 					goto disarm4
 			label disarm4
-			scene "scene/bomb20"
+			scene "scene/fluffy_bomb20"
 			`YOU:			"Now, bomb, consider this next question, very carefully. What is your one purpose in life?"`
 			`BOMB #20: "To explode, of course."`
 			`YOU:			"And you can only do it once, right?"`
@@ -694,7 +708,7 @@ mission "exotic mission 1"
 				`	(Take another try disarming the bomb.)`
 					goto disarm5
 			label disarm5
-			scene "scene/bomb20"
+			scene "scene/fluffy_bomb20"
 			`YOU:			"That's all beside the point. The concepts are valid, wherever they originate."`
 			`BOMB #20: "Hmmm..."`
 			`YOU:			"So if you detonate in..."`
@@ -719,7 +733,7 @@ mission "exotic mission 1"
 			label disarm6
 			action
 				set "the exotic done"
-			scene "scene/bomb20t"
+			scene "scene/fluffy_bomb20t"
 			`YOU:			"All right, bomb, prepare to receive new orders."`
 			`BOMB #20: "You are false data. Therefore, I shall ignore you."`
 			`YOU:			"Hello, bomb."`

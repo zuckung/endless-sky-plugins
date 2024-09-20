@@ -28,6 +28,7 @@ mission "unq Human Cultural Archives"
 	destination "Alexandria"
 	to offer
 		has "Wanderers: Translation Machine: done"
+		not "unq archive patch: offered"
 		not "human cultural data"
 	on offer
 		conversation "eruk cultural data"
@@ -51,6 +52,7 @@ mission "unq Remnant: Salvage 1"
 	destination "Alexandria"
 	to offer
 		not "human cultural data"
+		not "unq archive patch: offered"
 		has "Remnant: Learn Sign Follow Up: offered"
 		random < 50
 		or
@@ -72,7 +74,7 @@ mission "unq Remnant: Salvage 1"
 		payment -40
 
 
-mission "unq archige patch"
+mission "unq archive patch"
 	invisible
 	landing
 	to offer
