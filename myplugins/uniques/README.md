@@ -5,7 +5,7 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 <br>
 <br>
 Uniques are great! Why aren't more ingame?<br>
-This plugin contains my former plugins unque.fix (just some vanilla unique adjustments), real.fluff (10 unique pets) and lots of new uniques with storylines.<br>
+This plugin contains my former plugins unique.fix (just some vanilla unique adjustments), real.fluff (10 unique pets) and lots of new uniques with storylines.<br>
 <br>
 <ul>
 <li> Removes mass and outfit space from the cloaking device</li>
@@ -53,6 +53,10 @@ added uniques<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-09-23<br>
+removed forgotten test outfitter from earth<br>
+added 2 new holo emitter missions (Snowfeather, Earth)<br>
 <br>
 2024-09-20<br>
 merged plugin with real.fluff<br>

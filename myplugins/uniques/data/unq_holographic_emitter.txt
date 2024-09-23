@@ -8,6 +8,9 @@
 # mission "unq_holo_deepsky"
 # mission "unq_holo_lovelace"
 # mission "unq_holo_deltav"
+# mission "unq_holo_gci"
+# mission "unq_holo_sr"
+
 
 
 outfit "unq_holographic_emitter"
@@ -163,3 +166,34 @@ mission "unq_holo_deltav"
 			scene "outfit/logo/unq_deltav"
 			`Upon landing the neon ads remind you that this world is the home of "Delta V". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
 				decline
+
+
+mission "unq_holo_gci"
+	invisible
+	landing
+	source "Earth"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_gci"
+			`Upon landing the neon ads remind you that this world is the home of "Galactic Capital Investment". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline
+
+
+mission "unq_holo_sr"
+	invisible
+	landing
+	source "Snowfeather"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+		has "event: hr: exploration period"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_sr"
+			`Upon landing the neon ads remind you that this world is the home of "Snowfeather Robotics". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline
+
+
