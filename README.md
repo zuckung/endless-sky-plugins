@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-09-20 | update: uniques<br>
+<table><tr><td><img width="882" height="1"><br>2024-09-23 | update: uniques<br>
+2024-09-20 | update: uniques<br>
 2024-09-20 | merged real.fluff into uniques<br>
 2024-09-15 | update: coalition.shopping<br>
 2024-09-13 | update: uniques<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-06 | update: hai.side.mission.unlocker<br>
 2024-09-06 | update: paint.your.ships<br>
 2024-09-06 | merged devil-run.unhidden into hai.side.mission.unlocker<br>
-2024-09-02 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3401,7 +3401,7 @@ initial release<br>
 
 <img src="myplugins/uniques/icon.png" height="100">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-uniques/uniques.zip) | 9.21 mb | 2024-09-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-uniques/uniques.zip) | 9.3 mb | 2024-09-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -3421,7 +3421,7 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 
 Uniques are great! Why aren't more ingame?<br>
 
-This plugin contains my former plugins unque.fix (just some vanilla unique adjustments), real.fluff (10 unique pets) and lots of new uniques with storylines.<br>
+This plugin contains my former plugins unique.fix (just some vanilla unique adjustments), real.fluff (10 unique pets) and lots of new uniques with storylines.<br>
 
 <br>
 
@@ -3516,6 +3516,14 @@ added uniques<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-09-23<br>
+
+removed forgotten test outfitter from earth<br>
+
+added 2 new holo emitter missions (Snowfeather, Earth)<br>
 
 <br>
 
