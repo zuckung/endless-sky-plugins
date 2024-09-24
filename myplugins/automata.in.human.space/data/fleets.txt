@@ -1,3 +1,12 @@
+# mission "automata to human space"
+# event "automatahuman"
+#   fleet "Korath Ember Waste Raid"
+#   fleet "Korath Raid"
+#   fleet "Korath Large Raid"
+#   fleet "Korath Miners"
+
+
+
 mission "automata to human space"
 	landing
 	invisible
@@ -7,20 +16,23 @@ mission "automata to human space"
 		event "automatahuman"
 		fail
 
+
 event "automatahuman"
 
 	# original korath variants 25
 	fleet "Korath Ember Waste Raid"
 		add variant 4
-			"Far Lek 14 (Jump)" 3
-			"Met Par Tek 53 (Jump)" 2
+			"Met Par Tek 53 (Jump)" 3
 			"Tek Far 78 - Osk (Jump)" 1
+			"Far Osk 27" 9
 			"Kar Ik Vot 349 (Jump)" 1
 		add variant 4
-			"Far Osk 27 (Jump)" 3
-			"Tek Far 71 - Lek (Jump)" 2
+			"Tek Far 71 - Lek (Jump)" 1
+			"Far Lek 14" 10
 			"Tek Far 109 (Jump)" 1
-			"Kar Ik Vot 349 (Jump)" 1
+			"Far Lek 14" 9
+			"Far Osk 27" 7
+			"Kar Ik Vot 349 (Jump)" 2
 		add variant 4
 			"Model 8 (Jump)" 3
 			"Model 32 (Jump)" 2
@@ -32,28 +44,34 @@ event "automatahuman"
 			"Model 256 (Jump)" 1
 			"Model 512 (Jump)" 1
 		add variant 4
-			"Far Osk 27 (Jump)" 3
-			"Tek Far 71 - Lek (Jump)" 2
+			"Met Par Tek 53 (Jump)" 2
+			"Tek Far 71 - Lek (Jump)" 1
+			"Far Lek 14" 10
 			"Model 256 (Jump)" 1
 			"Model 512 (Jump)" 1
 		add variant 4
 			"Model 16 (Jump)" 3
 			"Model 64 (Jump)" 2
+			"Met Par Tek 53 (Jump)" 1
 			"Tek Far 109 (Jump)" 1
+			"Far Lek 14" 9
+			"Far Osk 27" 7
 			"Kar Ik Vot 349 (Jump)" 1
 
 	# original korath variants 5
 	fleet "Korath Raid"
 		add variant 1
-			"Far Lek 14 (Jump)" 3
-			"Met Par Tek 53 (Jump)" 2
+			"Met Par Tek 53 (Jump)" 3
 			"Tek Far 78 - Osk (Jump)" 1
+			"Far Osk 27" 9
 			"Kar Ik Vot 349 (Jump)" 1
 		add variant 1
-			"Far Osk 27 (Jump)" 3
-			"Tek Far 71 - Lek (Jump)" 2
+			"Tek Far 71 - Lek (Jump)" 1
+			"Far Lek 14" 10
 			"Tek Far 109 (Jump)" 1
-			"Kar Ik Vot 349 (Jump)" 1
+			"Far Lek 14" 9
+			"Far Osk 27" 7
+			"Kar Ik Vot 349 (Jump)" 2
 		add variant 1
 			"Model 8 (Jump)" 3
 			"Model 32 (Jump)" 2
@@ -65,28 +83,34 @@ event "automatahuman"
 			"Model 256 (Jump)" 1
 			"Model 512 (Jump)" 1
 		add variant 1
-			"Far Osk 27 (Jump)" 3
-			"Tek Far 71 - Lek (Jump)" 2
+			"Met Par Tek 53 (Jump)" 3
+			"Tek Far 71 - Lek (Jump)" 1
+			"Far Lek 14" 10
 			"Model 256 (Jump)" 1
 			"Model 512 (Jump)" 1
 		add variant 1
 			"Model 16 (Jump)" 3
 			"Model 64 (Jump)" 2
+			"Met Par Tek 53 (Jump)" 2
 			"Tek Far 109 (Jump)" 1
+			"Far Lek 14" 9
+			"Far Osk 27" 7
 			"Kar Ik Vot 349 (Jump)" 1
 
 	# original korath variants 12
 	fleet "Korath Large Raid"
 		add variant 2
-			"Far Lek 14 (Jump)" 3
-			"Met Par Tek 53 (Jump)" 2
+			"Met Par Tek 53 (Jump)" 3
 			"Tek Far 78 - Osk (Jump)" 1
+			"Far Osk 27" 9
 			"Kar Ik Vot 349 (Jump)" 1
 		add variant 2
-			"Far Osk 27 (Jump)" 3
-			"Tek Far 71 - Lek (Jump)" 2
+			"Tek Far 71 - Lek (Jump)" 1
+			"Far Lek 14" 10
 			"Tek Far 109 (Jump)" 1
-			"Kar Ik Vot 349 (Jump)" 1
+			"Far Lek 14" 9
+			"Far Osk 27" 7
+			"Kar Ik Vot 349 (Jump)" 2
 		add variant 2
 			"Model 8 (Jump)" 3
 			"Model 32 (Jump)" 2
@@ -98,28 +122,33 @@ event "automatahuman"
 			"Model 256 (Jump)" 1
 			"Model 512 (Jump)" 1
 		add variant 2
-			"Far Osk 27 (Jump)" 3
-			"Tek Far 71 - Lek (Jump)" 2
+			"Met Par Tek 53 (Jump)" 3
+			"Tek Far 71 - Lek (Jump)" 1
+			"Far Lek 14" 10
 			"Model 256 (Jump)" 1
 			"Model 512 (Jump)" 1
 		add variant 2
 			"Model 16 (Jump)" 3
 			"Model 64 (Jump)" 2
 			"Tek Far 109 (Jump)" 1
-			"Kar Ik Vot 349 (Jump)" 1
+			"Far Lek 14" 9
+			"Far Osk 27" 7
+			"Kar Ik Vot 349 (Jump)" 2
 
 	# original korath variants 1
 	fleet "Korath Miners"
 		add variant 1
-			"Far Lek 14 (Jump)" 3
-			"Met Par Tek 53 (Jump)" 2
+			"Met Par Tek 53 (Jump)" 3
 			"Tek Far 78 - Osk (Jump)" 1
+			"Far Osk 27" 9
 			"Kar Ik Vot 349 (Jump)" 1
 		add variant 1
-			"Far Osk 27 (Jump)" 3
-			"Tek Far 71 - Lek (Jump)" 2
+			"Tek Far 71 - Lek (Jump)" 1
+			"Far Lek 14" 10
 			"Tek Far 109 (Jump)" 1
-			"Kar Ik Vot 349 (Jump)" 1
+			"Far Lek 14" 9
+			"Far Osk 27" 7
+			"Kar Ik Vot 349 (Jump)" 2
 		add variant 1
 			"Model 8 (Jump)" 3
 			"Model 32 (Jump)" 2
@@ -130,13 +159,16 @@ event "automatahuman"
 			"Model 64 (Jump)" 2
 			"Model 256 (Jump)" 1
 		add variant 1
-			"Far Osk 27 (Jump)" 3
-			"Tek Far 71 - Lek (Jump)" 2
+			"Met Par Tek 53 (Jump)" 3
+			"Tek Far 71 - Lek (Jump)" 1
+			"Far Lek 14" 10
 			"Model 256 (Jump)" 1
 			"Model 512 (Jump)" 1
 		add variant 1
 			"Model 16 (Jump)" 3
 			"Model 64 (Jump)" 2
 			"Tek Far 109 (Jump)" 1
+			"Far Lek 14" 9
+			"Far Osk 27" 7
 			"Kar Ik Vot 349 (Jump)" 1
 			"Model 512 (Jump)" 1

@@ -1,3 +1,18 @@
+# ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Jump)"
+# ship "Tek Far 71 - Lek" "Tek Far 71 - Lek (Jump)"
+# ship "Tek Far 78 - Osk" "Tek Far 78 - Osk (Jump)"
+# ship "Tek Far 109" "Tek Far 109 (Jump)"
+# ship "Met Par Tek 53" "Met Par Tek 53 (Jump)"
+# ship "Model 8" "Model 8 (Jump)"
+# ship "Model 16" "Model 16 (Jump)"
+# ship "Model 32" "Model 32 (Jump)"
+# ship "Model 64" "Model 64 (Jump)"
+# ship "Model 128" "Model 128 (Jump)"
+# ship "Model 256" "Model 256 (Jump)"
+# ship "Model 512" "Model 512 (Jump)"
+
+
+
 ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Jump)"
 	outfits
 		"Korath Detainer" 2
@@ -18,6 +33,7 @@ ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Jump)"
 		"Steering (Stellar Class)"
 		"Jump Drive"
 
+
 ship "Tek Far 71 - Lek" "Tek Far 71 - Lek (Jump)"
 	outfits
 		"Korath Detainer"
@@ -35,6 +51,7 @@ ship "Tek Far 71 - Lek" "Tek Far 71 - Lek (Jump)"
 		"Thruster (Lunar Class)"
 		"Steering (Lunar Class)"
 		"Jump Drive"
+
 
 ship "Tek Far 78 - Osk" "Tek Far 78 - Osk (Jump)"
 	outfits
@@ -54,6 +71,7 @@ ship "Tek Far 78 - Osk" "Tek Far 78 - Osk (Jump)"
 		"Steering (Planetary Class)"
 		"Jump Drive"
 
+
 ship "Tek Far 109" "Tek Far 109 (Jump)"
 	outfits
 		"Korath Detainer"
@@ -69,6 +87,7 @@ ship "Tek Far 109" "Tek Far 109 (Jump)"
 		"Thruster (Lunar Class)"
 		"Steering (Planetary Class)"
 		"Jump Drive"
+
 	
 ship "Met Par Tek 53" "Met Par Tek 53 (Jump)"
 	outfits
@@ -84,28 +103,7 @@ ship "Met Par Tek 53" "Met Par Tek 53 (Jump)"
 		"Thruster (Lunar Class)"
 		"Steering (Planetary Class)"
 		"Jump Drive"
-	
-ship "Far Lek 14" "Far Lek 14 (Jump)"
-	outfits
-		"Thermal Repeater"
-		
-		"Generator (Candle Class)"
-		"Small Heat Shunt"
-		
-		"Thruster (Asteroid Class)"
-		"Steering (Asteroid Class)"
-		"Jump Drive"
 
-ship "Far Osk 27" "Far Osk 27 (Jump)"
-	outfits
-		"Thermal Repeater" 2
-		
-		"Generator (Furnace Class)"
-		"Small Heat Shunt" 2
-		
-		"Thruster (Asteroid Class)"
-		"Steering (Asteroid Class)"
-		"Jump Drive"
 		
 ship "Model 8" "Model 8 (Jump)"
 	outfits
@@ -119,6 +117,7 @@ ship "Model 8" "Model 8 (Jump)"
 		"Thruster (Comet Class)"
 		"Steering (Lunar Class)"
 		"Jump Drive"
+
 
 ship "Model 16" "Model 16 (Jump)"
 	outfits
@@ -137,6 +136,7 @@ ship "Model 16" "Model 16 (Jump)"
 		"Steering (Lunar Class)"
 		"Jump Drive"
 
+
 ship "Model 32" "Model 32 (Jump)"
 	outfits
 		"Cluster Mine Layer"
@@ -153,6 +153,7 @@ ship "Model 32" "Model 32 (Jump)"
 		"Thruster (Planetary Class)"
 		"Steering (Lunar Class)"
 		"Jump Drive"
+
 
 ship "Model 64" "Model 64 (Jump)"
 	outfits
@@ -171,6 +172,7 @@ ship "Model 64" "Model 64 (Jump)"
 		"Thruster (Asteroid Class)"
 		"Steering (Planetary Class)"
 		"Jump Drive"
+
 	
 ship "Model 128" "Model 128 (Jump)"
 	outfits
@@ -189,6 +191,7 @@ ship "Model 128" "Model 128 (Jump)"
 		"Steering (Asteroid Class)"
 		"Jump Drive"
 
+
 ship "Model 256" "Model 256 (Jump)"
 	outfits
 		"Cluster Mine Layer" 2
@@ -206,6 +209,7 @@ ship "Model 256" "Model 256 (Jump)"
 		"Steering (Planetary Class)"
 		"Steering (Comet Class)"
 		"Jump Drive"
+
 
 ship "Model 512" "Model 512 (Jump)"
 	outfits
