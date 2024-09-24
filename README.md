@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-09-23 | update: uniques<br>
+<table><tr><td><img width="882" height="1"><br>2024-09-24 | update: automata.in.human.space<br>
+2024-09-23 | update: uniques<br>
 2024-09-20 | update: uniques<br>
 2024-09-20 | merged real.fluff into uniques<br>
 2024-09-15 | update: coalition.shopping<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-06 | update: no.more.mereti.mines<br>
 2024-09-06 | update: hai.side.mission.unlocker<br>
 2024-09-06 | update: paint.your.ships<br>
-2024-09-06 | merged devil-run.unhidden into hai.side.mission.unlocker<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -402,7 +402,7 @@ changed readme<br>
 
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
 
-[automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-automata.in.human.space/automata.in.human.space.zip) | 35.74 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) <br>
+[automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.in.human.space/automata.in.human.space.zip) | 35.86 kb | 2024-09-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) <br>
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the readme for details.
 
@@ -427,6 +427,14 @@ The chance to encounter previous Korath ships or automata is like 50/50. <br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-09-24<br>
+
+removed jumpdrive from fighters and drones and put them correctly into the carriers<br>
+
+adjusted some fleet variants<br>
 
 <br>
 
