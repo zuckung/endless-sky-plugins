@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-09-24 | update: automata.in.human.space<br>
+<table><tr><td><img width="882" height="1"><br>2024-09-29 | update: too.many.asteroids<br>
+2024-09-24 | update: automata.in.human.space<br>
 2024-09-23 | update: uniques<br>
 2024-09-20 | update: uniques<br>
 2024-09-20 | merged real.fluff into uniques<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-06 | update: additional.command.buttons.radial<br>
 2024-09-06 | update: no.more.mereti.mines<br>
 2024-09-06 | update: hai.side.mission.unlocker<br>
-2024-09-06 | update: paint.your.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3277,9 +3277,9 @@ initial release<br>
 
 <img src="myplugins/too.many.asteroids/icon.png" height="100">
 
-[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-too.many.asteroids/too.many.asteroids.zip) | 18.42 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <br>
+[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-too.many.asteroids/too.many.asteroids.zip) | 18.88 kb | 2024-09-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <br>
 <br>
->Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. Increases game performance. See the readme for details.
+>Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. Increases game performance. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -3297,7 +3297,7 @@ Increases game performance.<br>
 
 <br>
 
-Every of the 558 base game systems (0.10.7) is edited via a remove command for full compatibility with other system altering plugins. A total of 2663 asteroid entries got removed.<br>
+Every of the 604 base game systems (0.10.9) is edited via a remove command for full compatibility with other system altering plugins. A total of 2788 asteroid entries got removed.<br>
 
 In case I don't update this plugin to the newest game version, a python script for generating an updated plugin can be found <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/tools/ES_plugin_script_too_many_asteroids">here</a>.<br>
 
@@ -3309,6 +3309,12 @@ Changelog:<br>
 
 <br>
 
+2024-09-29<br>
+
+added the 0.10.9 systems<br>
+
+<br>
+
 2024-06-07<br>
 
 text corrections (thx to TheGiraffe3)<br>
@@ -3317,7 +3323,7 @@ updated to 0.10.7<br>
 
 <br>
 
-2024-02-4<br>
+2024-02-04<br>
 
 added the 0.10.5 systems<br>
 
