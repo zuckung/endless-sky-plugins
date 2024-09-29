@@ -61,14 +61,17 @@ def readSystems():
 		if line == '\n':
 			if started == True:
 				systemPlanets.append(planet)
-				planet = '' 
+				planet = ''					
 				if startedLink == True:
 					systemLinks.append(links[:-1])
 					startedLink = False
 				elif startedLink == False:
 					systemLinks.append(' ')
 				started = False
+				if factionsadded == False:
+					systemFactions.append('Uninhabited') # new
 		elif line.startswith('system'):
+			factionsadded = False
 			line = line.replace('\n', '').replace('system ', '').replace('"', '')
 			systemNames.append(line)
 			started = True
@@ -82,6 +85,7 @@ def readSystems():
 		elif line.startswith('\tgovernment'):
 			line = line.replace('\n', '').replace('government ', '').replace('\t', '').replace('"', '')
 			systemFactions.append(line)
+			factionsadded = True
 		elif line.startswith('\tlink'):
 			line = line.replace('\n', '').replace('link ', '').replace('\t', '').replace('"', '')
 			if startedLink == False:
@@ -184,7 +188,7 @@ def readColors(): # get colors for all factions
 					gov = ''
 					color = ''
 		if line.startswith('government '): # gets gov, if not allready in list
-			gov = line.strip().replace('government "', '')[:-1]
+			gov = line.strip().replace('government ', '').replace('"', '')
 			if gov in governments:
 				gov = ''
 		elif line.startswith('\tcolor "gov'): # link to color difinition of parent government
@@ -329,7 +333,7 @@ def createImage():
 	left = 200 # - 200
 	top = 800 # - 800
 	right = 3596 # -500
-	bottom = 3096 # -1000
+	bottom = 4096 # -0
 	im = im.crop((left, top, right, bottom))
 	# save now
 	im = im.convert('RGB')
