@@ -1,6 +1,6 @@
 # category pets
-# ship "Planet Destroyer" for dark star mission
-# ship Mega Freighter for alien mission
+# ship "fluffy Planet Destroyer" for dark star mission
+# ship "fluffy Mega Freighter" for alien mission
 # outfit Bawdy Magazine
 # outfit Glass Cat
 # outfit fluffy_cat
@@ -19,7 +19,8 @@ category "outfit"
 	"Pets"
 
 
-ship "Planet Destroyer"
+ship "fluffy Planet Destroyer"
+	"display name" "Planet Destroyer"
 	sprite "ship/darkstar"
 	thumbnail "thumbnail/argosy"
 	attributes
@@ -76,7 +77,8 @@ ship "Planet Destroyer"
 	description "You should not be seeing the description of this ship."
 
 
-ship "Mega Freighter"
+ship "fluffy Mega Freighter"
+	"display name" "CM-88B"
 	sprite "ship/nostromo"
 	thumbnail "thumbnail/argosy"
 	attributes

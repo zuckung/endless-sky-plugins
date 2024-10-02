@@ -222,7 +222,7 @@ mission "alien mission 1"
 		government "Derelict 2"
 		personality waiting derelict target mute
 		system "Danoa"
-		ship "Mega Freighter" "Nostromo"
+		ship "fluffy Mega Freighter" "Nostromo"
 		to despawn
 			has "outfit (installed): fluffy_alien"
 		on board
@@ -577,7 +577,7 @@ mission "exotic mission 1"
 		government "Derelict 2"
 		personality waiting derelict target mute
 		system "Unagi"
-		ship "Planet Destroyer" "Dark Star"
+		ship "fluffy Planet Destroyer" "Dark Star"
 		to despawn
 			has "the exotic done"
 		on board
