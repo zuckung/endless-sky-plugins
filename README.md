@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-09-29 | update: too.many.asteroids<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-02 | update: uniques<br>
+2024-09-29 | update: too.many.asteroids<br>
 2024-09-24 | update: automata.in.human.space<br>
 2024-09-23 | update: uniques<br>
 2024-09-20 | update: uniques<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-13 | update: uniques<br>
 2024-09-06 | update: additional.command.buttons.radial<br>
 2024-09-06 | update: no.more.mereti.mines<br>
-2024-09-06 | update: hai.side.mission.unlocker<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3415,7 +3415,7 @@ initial release<br>
 
 <img src="myplugins/uniques/icon.png" height="100">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-uniques/uniques.zip) | 9.3 mb | 2024-09-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-uniques/uniques.zip) | 9.3 mb | 2024-10-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -3530,6 +3530,12 @@ added uniques<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-02<br>
+
+renamed nostromo and dark star shiptypes, because of a conflict with midnight plugins (thx timeout.fu)<br>
 
 <br>
 
