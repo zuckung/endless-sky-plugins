@@ -55,7 +55,7 @@ added uniques<br>
 Changelog:<br>
 <br>
 2024-10-02<br>
-renamed nostromo and dark star shiptypes, because of a conflict with midnight plugins (thx timeout.fu)<br>
+renamed nostromo and dark star ship types, because of a conflict with midnight plugins (thx timeout.fu)<br>
 <br>
 2024-09-23<br>
 removed forgotten test outfitter from earth<br>
