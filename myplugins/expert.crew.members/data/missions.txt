@@ -916,6 +916,26 @@ mission "hire fuel comseci"
 				`hire him`
 					decline
 
+mission "hire fuel boudaa"
+	minor
+	invisible
+	source
+		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "fuel boudaa" 1
+	on offer
+		conversation
+			scene "portrait/successor01"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work. His name is Boudaa, he is a Successor, and he demands a daily wage of 4600 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
 mission "hire hull anuradha talin"
 	minor
 	invisible
@@ -1085,6 +1105,26 @@ mission "hire hull potamog"
 				`hire him`
 					decline
 
+mission "hire hull kinmi"
+	minor
+	invisible
+	source
+		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "hull kinmi" 1
+	on offer
+		conversation
+			scene "portrait/successor02"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. She is looking for work. Her name is Kinmi, she is a Successor, and she demands a daily wage of 4800 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
 mission "hire jamming aline mai"
 	minor
 	invisible
@@ -1247,6 +1287,26 @@ mission "hire jamming plortab"
 		conversation
 			scene "portrait/arachi02"
 			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Plortab, he is an Arach, and he demands a daily wage of 4900 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire jamming naaq"
+	minor
+	invisible
+	source
+		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "jamming naaq" 1
+	on offer
+		conversation
+			scene "portrait/successor03"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Naaq, he is a Successor, and he demands a daily wage of 5000 credits.`
 			choice
 				`don't hire him (maybe you will meet him again)`
 					defer
@@ -1422,6 +1482,26 @@ mission "hire scanner tugrup"
 				`hire him`
 					decline
 
+mission "hire scanner oublaa"
+	minor
+	invisible
+	source
+		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "scanner oublaa" 1
+	on offer
+		conversation
+			scene "portrait/successor04"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work. Her name is Oublaa, she is a Successor, and she demands a daily wage of 4500 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
 mission "hire shield lucille meritites"
 	minor
 	invisible
@@ -1589,6 +1669,26 @@ mission "hire shield chi'a"
 				`don't hire her (maybe you will meet her again)`
 					defer
 				`hire her`
+					decline
+
+mission "hire shield uondi"
+	minor
+	invisible
+	source
+		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "shield uondi" 1
+	on offer
+		conversation
+			scene "portrait/successor05"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. He is looking for work. His name is Uondi, he is a Successor, and he demands a daily wage of 4600 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
 					decline
 
 mission "hire storage darius hasegawa"

@@ -531,6 +531,18 @@ outfit "fuel comseci"
 	"ramscoop" 1.5 
 	description `This is a highly educated employee focused on fuel technologies. He is a Saryd.`
 
+outfit "fuel boudaa"
+	category "Crew"
+	"display name" "(Fuel) Boudaa"
+	thumbnail "portrait/successor01"
+	"operating costs" 4600
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"ramscoop" 1.4 
+	"fuel capacity" 400 
+	description `This is a highly educated employee focused on fuel technologies. He is a Successor.`
+
 outfit "hull anuradha talin"
 	category "Crew"
 	"display name" "(Hull) Anuradha Talin"
@@ -626,6 +638,18 @@ outfit "hull potamog"
 	"hull repair rate" .18 
 	"hull" 1000 
 	description `This is a highly educated employee focused on hull effectivity. He is an Arach.`
+
+outfit "hull kinmi"
+	category "Crew"
+	"display name" "(Hull) Kinmi"
+	thumbnail "portrait/successor02"
+	"operating costs" 4800
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"hull repair rate" .17 
+	"hull" 1200 
+	description `This is a highly educated employee focused on hull effectivity. She is a Successor.`
 
 outfit "jamming aline mai"
 	category "Crew"
@@ -724,6 +748,18 @@ outfit "jamming plortab"
 	"scan concealment" 12 
 	description `This is a highly educated employee focused on jamming technologies. He is an Arach.`
 
+outfit "jamming naaq"
+	category "Crew"
+	"display name" "(Jamming) Naaq"
+	thumbnail "portrait/successor03"
+	"operating costs" 5000
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"scan interference" .7 
+	"radar jamming" 14 
+	description `This is a highly educated employee focused on jamming technologies. He is a Successor.`
+
 outfit "scanner ivanus kozlov"
 	category "Crew"
 	"display name" "(Scanner) Ivanus Kozlov"
@@ -819,6 +855,18 @@ outfit "scanner tugrup"
 	"asteroid scan power" 44 
 	"cargo scan efficiency" 15 
 	description `This is a highly educated employee focused on scanner technologies. He is an Arach.`
+
+outfit "scanner oublaa"
+	category "Crew"
+	"display name" "(Scanner) Oublaa"
+	thumbnail "portrait/successor04"
+	"operating costs" 4500
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"tactical scan power" 40 
+	"cargo scan power" 43 
+	description `This is a highly educated employee focused on scanner technologies. She is a Successor.`
 
 outfit "shield lucille meritites"
 	plural "(Shield) Lucille Meritites"
@@ -917,6 +965,18 @@ outfit "shield chi'a"
 	"shield generation" .17 
 	"shields" 1500 
 	description `This is a highly educated employee focused on shield effectivity. She is a Kimek.`
+
+outfit "shield uondi"
+	category "Crew"
+	"display name" "(Shield) Uondi"
+	thumbnail "portrait/successor05"
+	"operating costs" 4600
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"shield generation" .16 
+	"shields" 1500 
+	description `This is a highly educated employee focused on shield effectivity. He is a Successor.`
 
 outfit "storage darius hasegawa"
 	category "Crew"
