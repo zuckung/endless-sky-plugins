@@ -1,3 +1,4 @@
+2024-10-06 | update: landing.images
 2024-10-02 | update: uniques
 2024-09-29 | update: too.many.asteroids
 2024-09-24 | update: automata.in.human.space

@@ -21,7 +21,7 @@ kestrel.unlocks|1.0.0
 kor.efret.shipyard|1.0.0
 landing.images.android|1.0.3
 landing.images.highres|1.0.1
-landing.images|1.0.2
+landing.images|1.0.3
 more.arfectas|1.0.2
 more.boarding.missions|1.1.3
 more.person.ships|1.0.1

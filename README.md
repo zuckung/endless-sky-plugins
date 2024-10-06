@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-02 | update: uniques<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-06 | update: landing.images<br>
+2024-10-02 | update: uniques<br>
 2024-09-29 | update: too.many.asteroids<br>
 2024-09-24 | update: automata.in.human.space<br>
 2024-09-23 | update: uniques<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-15 | update: coalition.shopping<br>
 2024-09-13 | update: uniques<br>
 2024-09-06 | update: additional.command.buttons.radial<br>
-2024-09-06 | update: no.more.mereti.mines<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2174,9 +2174,9 @@ reworked readme<br>
 
 <img src="myplugins/landing.images/icon.png" height="100">
 
-[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-landing.images/landing.images.zip) | 13.96 mb | 2024-08-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
+[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images/landing.images.zip) | 15.32 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
 <br>
->Replaces all planet landing images with better fitting ones. See the README for details.
+>Moves the landing image above the text, instead of the vanilla behind the text (for the android version). See the README
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2190,11 +2190,9 @@ Replaces all planet landing images with better fitting ones.<br>
 
 <br>
 
-These images replace the boring vanilla images you see when you've landed on a planet with new, AI generated, better fitting ones. The old ones look like photos from earth or taken from public NASA archives (which they are). According to the description of the planets I tried to generate better fitting, more futuristic, more alien-looking images.<br>
+These images replace the boring vanilla images you see when you've landed on a planet with new, AI generated, better fitting ones. The old ones look like photos from earth or taken from public NASA archives(which they are). According to the description of the planets I tried to generate better fitting, more futuristic, more alien-looking images. And I think that went well :) <br>
 
 0.10.8 with 472 planets<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images01.jpg' width='400'>
 
 See all images <a href='https://github.com/zuckung/endless-sky-plugins-graphics/blob/main/res/md/landing.images.md'>here</a>.<br>
 
@@ -2206,15 +2204,9 @@ Changelog:<br>
 
 <br>
 
-2024-08-09<br>
+2024-10-06<br>
 
-minor text changes (thx to TheGiraffe3)<br>
-
-<br>
-
-2024-08-02<br>
-
-fixed wrong size of ahr.jpg<br>
+added 53 landing images for 0.10.9 update<br>
 
 <br>
 
@@ -2351,6 +2343,12 @@ Adds images with 1440x720 resolution. The landing.images plugin is still needed.
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-06<br>
+
+added 53 landing images for 0.10.9 update<br>
 
 <br>
 
@@ -3535,7 +3533,7 @@ Changelog:<br>
 
 2024-10-02<br>
 
-renamed nostromo and dark star shiptypes, because of a conflict with midnight plugins (thx timeout.fu)<br>
+renamed nostromo and dark star ship types, because of a conflict with midnight plugins (thx timeout.fu)<br>
 
 <br>
 
