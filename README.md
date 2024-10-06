@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-06 | update: quarg.farm<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-06 | update: expert.crew.members<br>
+2024-10-06 | update: quarg.farm<br>
 2024-10-06 | update: landing.images.highres<br>
 2024-10-06 | update: landing.images<br>
 2024-10-02 | update: uniques<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-23 | update: uniques<br>
 2024-09-20 | update: uniques<br>
 2024-09-20 | merged real.fluff into uniques<br>
-2024-09-15 | update: coalition.shopping<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1313,7 +1313,7 @@ added icon.png<br>
 
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-expert.crew.members/expert.crew.members.zip) | 7.19 mb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-expert.crew.members/expert.crew.members.zip) | 7.94 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the readme for details.
 <details>
@@ -1328,23 +1328,21 @@ Adds unique crew members, aquireable through spaceport missions. These crew memb
 
 <br>
 
-Currently there are 85 expert crew members. Visit spaceports with an outfitter to find the missions(1% chance). In every of the following regions  you can find 5 experts: Rim, South, Dirt Belt, Deep, Near Earth, Core, North, Paradise, Hai, Bunrodea(after first contact), Remnant, Wanderer(after translation device), Kor Efret(after Rek went to the Kor Efret), Gegno, Arachi, Kimek, Saryd(last 3 after coalition first contact).<br>
+Currently there are 90 expert crew members. Visit spaceports with an outfitter to find the missions(1% chance). In every of the following regions  you can find 5 experts: Rim, South, Dirt Belt, Deep, Near Earth, Core, North, Paradise, Hai, Bunrodea(after first contact), Remnant, Wanderer(after translation device), Kor Efret(after Rek went to the Kor Efret), Gegno, Successor, Arachi, Kimek, Saryd(last 3 after coalition first contact).<br>
 
-Their technology fields are: combat(8) cooling(8) energy(8) engine(8) fuel(8) hull(8) jamming(8) scanner(8) shield(8) storage(8).<br>
+Their technology fields are: combat(9) cooling(9) energy(9) engine(9) fuel(9) hull(9) jamming(9) scanner(9) shield(9) storage(9).<br>
 
 In case you can't afford their daily wage you can store them at the outfitter without daily costs.<br>
 
-They have the positive stats of a small human outfit, at the cost of a bunk and a daily salery of 2.000 to 5.000 credits. On a small ship they make a huge difference, while on a heavy warship the stats are minor.<br>
+They have the positive stats of a small human outfit, at the cost of a bunk and a daily salary of 2.000 to 5.000 credits. On a small ship they make a huge difference, while on a heavy warship the stats are minor.<br>
 
-If you collect them all, you'll get a special mission<br>
+If you collect them all, you'll get a special mission.<br>
 
 See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/expert.crew.members/crew.list.txt'>crew.list.txt</a> of this plugin for locations, and stat infos.<br>
 
 <br>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members02.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/expert.crew.members/screenshot.jpg' width='400'>
 
 <br>
 
@@ -1354,9 +1352,9 @@ Changelog:<br>
 
 <br>
 
-2024-06-07<br>
+2024-10-06<br>
 
-text corrections (thx to TheGiraffe3)<br>
+added 5 successor experts<br>
 
 <br>
 
@@ -1406,7 +1404,7 @@ changed outfit descriptions to show race and source<br>
 
 changed chance from 5% to 3%<br>
 
-generated 25 alien portaits<br>
+generated 25 alien portraits<br>
 
 added 5 Hai experts<br>
 
@@ -3028,7 +3026,7 @@ Adds a new system "Saquerver" (between human and coalition space) where you can 
 
 <br>
 
-The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Quarg fleets spawn there. Killing/plundering them doesn't make the other Quarg angry. Landing on the four other Quarg faction's worlds doesn't end with a death sentence when you have their ships/outfits.<br>
+The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Quarg fleets spawn there. Killing/plundering them doesn't make the other Quarg angry. Landing on the other Quarg faction's worlds doesn't end with a death sentence when you have their ships/outfits.<br>
 
 <br>
 
