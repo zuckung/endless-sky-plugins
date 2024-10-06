@@ -1,0 +1,238 @@
+# 6 Successor Houses
+# 13 Successor
+# 15 Uninhabited Successor
+# 5 Uninhabited Predecessor
+# 2 Uninhabited
+# 8 Uninhabited Incipias
+# 2 Hicemus
+# 2 Quarg (Incipias)
+
+# total planets: 53
+
+
+
+# Successor Old Houses (system Uuoru-Kella)
+planet "Aava-Aasa-Khora"
+	landscape "land/aava-aasa-khora"
+
+# Successor Old Houses (system Uuoru-Kella)
+planet "Kua-Oa-Aava"
+	landscape "land/kua-oa-aava"
+
+# Successor People's Houses (system Kella-Uoasa)
+planet "Giiq-Sou-Kella"
+	landscape "land/giiq-sou-kella"
+
+# Successor People's Houses (system Kella-Uoasa)
+planet "Kasii-Tuur-Saqru"
+	landscape "land/kasii-tuur-saqru"
+
+# Successor New Houses (system Myiara-Nnesa)
+planet "O-Vasa-Oa"
+	landscape "land/o-vasa-oa"
+
+# Successor New Houses (system Myiara-Nnesa)
+planet "Yoqqa-Vasa-Vasa"
+	landscape "land/yoqqa-vasa-vasa"
+
+
+
+# Successor (system Mosaa-Iyra)
+planet "Iyra-Ijasa-Iret"
+	landscape "land/iyra-ijasa-iret"
+
+# Successor (system Chyyra-Osolaa)
+planet "Kasii-Cavasaa-Oa"
+	landscape "land/kasii-cavasaa-oa"
+
+# Successor (system Maspa-Cavaasa)
+planet "Kasi-Osolaa-Sossa"
+	landscape "land/kasi-osolaa-sossa"
+
+# Successor (system Valkraa-Uuoru)
+planet "Khora-Vasa-Reyyaa"
+	landscape "land/khora-vasa-reyyaa"
+
+# Successor (system Stiidej-Nnesa)
+planet "Mavra-Sol-Kvel"
+	landscape "land/mavra-sol-kvel"
+
+# Successor (system Aaura-Kaska)
+planet "Mosaa-Oa-Vyret"
+	landscape "land/mosaa-oa-vyret"
+
+# Successor (system Ojstaan-Sola)
+planet "Raaqa-Kvelq-Ryuit"
+	landscape "land/raaqa-kvelq-ryuit"
+
+# Successor (system Raaqa-Ryuit)
+planet "Raaqa-Puan-Uuoru"
+	landscape "land/raaqa-puan-uuoru"
+
+# Successor (system Ojstaan-Sola)
+planet "Saska-Aa-Noorr"
+	landscape "land/saska-aa-noorr"
+
+# Successor (system Pelaa-Muora)
+planet "Shassa-Wyra-Orrou"
+	landscape "land/shassa-wyra-orrou"
+
+# Successor (system Vade-Staja)
+planet "Staja-Kella-Oa"
+	landscape "land/staja-kella-oa"
+
+# Successor (system Tuur-Kella)
+planet "Tuur-Aasa-Kaska"
+	landscape "land/tuur-aasa-kaska"
+
+# Successor (system Pelaa-Muora)
+planet "Uo-Oraa-Vayya"
+	landscape "land/uo-oraa-vayya"
+
+
+
+# Uninhabited Successor (system Tuur-Kella)
+planet "Tuur-Oa-Sola"
+	landscape "land/tuur-oa-sola"
+
+# Uninhabited Successor (system Myruet-Kvelq)
+planet "Uuoru-Veldt-Stir"
+	landscape "land/uuoru-veldt-stir"
+
+# Uninhabited Successor (system Luue-Saqru)
+planet "Vade-Osolaa-Kaska"
+	landscape "land/vade-osolaa-kaska"
+
+# Uninhabited Successor (system Maspa-Cavaasa)
+planet "Vyraa-Giiq-Sora"
+	landscape "land/vyraa-giiq-sora"
+
+# Uninhabited Successor (system Chyyra-Osolaa)
+planet "Vyraa-Viir-Kella"
+	landscape "land/vyraa-viir-kella"
+
+# Uninhabited Successor (system Maspa-Raaqa)
+planet "Myiara-Sola-Tej"
+	landscape "land/myiara-sola-tej"
+
+# Uninhabited Successor (system Valkraa-Uuoru)
+planet "Naph-Naap-Kella"
+	landscape "land/naph-naap-kella"
+
+# Uninhabited Successor (system Raaqa-Ryuit)
+planet "Qasa-Sija-Iri"
+	landscape "land/qasa-sija-iri"
+
+# Uninhabited Successor (system Raaqa-Ryuit)
+planet "Aqra-Kvel-Taaq"
+	landscape "land/aqra-kvel-taaq"
+
+# Uninhabited Successor (system Valkraa-Uuoru)
+planet "Khora-Uurau-Uuoru"
+	landscape "land/khora-uurau-uuoru"
+
+# Uninhabited Successor (system Khosa-Kaska)
+planet "Kuj-Sol-Nnesa"
+	landscape "land/kuj-sol-nnesa"
+
+# Uninhabited Successor (system Osolaa-Uuoru)
+planet "Maspa-Viir-Kella"
+	landscape "land/maspa-viir-kella"
+
+# Uninhabited Successor (system Luue-Saqru)
+planet "Chyyra-Raaqa-Tuur"
+	landscape "land/chyyra-raaqa-tuur"
+
+# Uninhabited Successor (system Maspa-Raqqa)
+planet "Giiq-Oj-Sol"
+	landscape "land/giiq-oj-sol"
+
+# Uninhabited Successor (system Maspa-Mavra)
+planet "Khosa-Kella-Oa"
+	landscape "land/khosa-kella-oa"
+
+
+
+# Uninhabited Predecessor (system Kasii-Cavaasa)
+planet "Cavaasa-Vasa-Tej"
+	landscape "land/cavaasa-vasa-tej"
+
+# Uninhabited Predecessor (system Uuoru-Sossa)
+planet "Kella-Uuoru-Sossa"
+	landscape "land/kella-uuoru-sossa"
+
+# Uninhabited Predecessor (system Oublaa-Khora)
+planet "Myiara-Aret-Iir"
+	landscape "land/myiara-aret-iir"
+
+# Uninhabited Predecessor (system Vasa-Oorua)
+planet "Osolaa-Val-Mavra"
+	landscape "land/osolaa-val-mavra"
+
+# Uninhabited Predecessor (system Kasii-Sola)
+planet "Raaqa-Uur-Kaav"
+	landscape "land/raaqa-uur-kaav"
+
+
+
+# Uninhabited (system Il'le)
+planet "Occupas"
+	landscape "land/occupas"
+
+# Uninhabited (system Jyelio)
+planet "Uye Mpi"
+	landscape "land/uyempi"
+
+
+
+ # Uninhabited Incipias? (system Porta Terra)
+planet "Aera"
+	landscape "land/aera"
+
+# Uninhabited Incipias? (system Pedita Pri)
+planet "Gliese"
+	landscape "land/gliese"
+
+# Uninhabited Incipias? (system Supra)
+planet "Humo"
+	landscape "land/humo"
+
+# Uninhabited Incipias? (system Porta Terra)
+planet "Igna"
+	landscape "land/igna"
+
+# Uninhabited Incipias? (system Equus)
+planet "Methuselah"
+	landscape "land/methuselah"
+
+# Uninhabited Incipias? (system Pedita Sec)
+planet "Treser"
+	landscape "land/treser"
+
+# Uninhabited Incipias? (system Hui'uc)
+planet "Turra"
+	landscape "land/turra"
+
+# Uninhabited Incipias? (system Rota)
+planet "Vulpa"
+	landscape "land/vulpa"
+
+
+
+# Hicemus (system Dom'us)
+planet "Pon'tes"
+	landscape "land/pontes"
+
+# Hicemus (system Dom'us)
+planet "Redias"
+	landscape "land/redias"
+
+
+
+# Quarg (Incipias) (system Cura Dic)
+planet "Spec Inci"
+	landscape "land/specinci"
+
+# Quarg (Incipias) (system Cura Dic)
+planet "Ut Divitas"
+	landscape "land/utdivitas"
