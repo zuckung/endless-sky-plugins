@@ -104,7 +104,7 @@ system "Saquerver"
 planet "Ver"
 	attributes quarg
 	landscape land/bwerner5
-	description `Ver is a military Quarg outpost for spying the coalition.`
+	description `Ver is a military Quarg outpost for spying on the coalition.`
 	spaceport `The Quarg let you know that you aren't welcome here.`
 	bribe 0
 	security 0.9
