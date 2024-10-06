@@ -185,7 +185,7 @@ planet "Uye Mpi"
 
 
 
- # Uninhabited Incipias? (system Porta Terra)
+# Uninhabited Incipias? (system Porta Terra)
 planet "Aera"
 	landscape "land/aera"
 
