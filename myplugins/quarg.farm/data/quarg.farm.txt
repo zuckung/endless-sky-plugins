@@ -3,6 +3,7 @@
 # government "Quarg (Kor Efret)"
 # government "Quarg (Gegno)"
 # government "Quarg (Secret)"
+# government "Quarg (Incipias)"
 # mission "Quarg Warning Saquerver"
 # system "Saquerver"
 # planet "Ver"
@@ -32,6 +33,11 @@ government "Quarg (Gegno)"
 		"Stub"
 
 
+government "Quarg (Incipias)"
+	atrocities
+		"Stub"
+
+
 government "Quarg (Evil)"
 	swizzle 0
 	color .88 .77 0
@@ -49,7 +55,7 @@ mission "Quarg Warning Saquerver"
 	to complete
 		never
 	on enter "Saquerver"
-		dialog `When you enter the Saquerver system you receive a transmition: "Human, this is a restrictected military system, leave immediately or we will attack. You are not welcome here."`
+		dialog `When you enter the Saquerver system you receive a transmission: "Human, this is a restrictected military system, leave immediately or we will attack. You are not welcome here."`
 		fail
 
 
