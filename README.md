@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-06 | update: landing.images<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-06 | update: landing.images.highres<br>
+2024-10-06 | update: landing.images<br>
 2024-10-02 | update: uniques<br>
 2024-09-29 | update: too.many.asteroids<br>
 2024-09-24 | update: automata.in.human.space<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-20 | merged real.fluff into uniques<br>
 2024-09-15 | update: coalition.shopping<br>
 2024-09-13 | update: uniques<br>
-2024-09-06 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2320,7 +2320,7 @@ initial release<br>
 
 <img src="myplugins/landing.images.highres/icon.png" height="100">
 
-[landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-landing.images.highres/landing.images.highres.zip) | 61.57 mb | 2024-08-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) <br>
+[landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-landing.images.highres/landing.images.highres.zip) | 67.11 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) <br>
 <br>
 >High resolution files for landing.images plugin. See the README for details.
 
