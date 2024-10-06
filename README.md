@@ -2174,7 +2174,7 @@ reworked readme<br>
 
 <img src="myplugins/landing.images/icon.png" height="100">
 
-[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images/landing.images.zip) | 15.32 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
+[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-landing.images/landing.images.zip) | 15.32 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
 <br>
 >Moves the landing image above the text, instead of the vanilla behind the text (for the android version). See the README
 
@@ -3028,7 +3028,7 @@ Adds a new system "Saquerver" (between human and coalition space) where you can 
 
 <br>
 
-The system "Saquerver" lies between "Saquergen" and "Ablub". The usual-sized Quarg fleets spawn there. Killing/plundering them doesn't make the other Quarg angry. Landing on the four other Quarg faction's worlds doesn't end with a death sentence when you have their ships/outfits.<br>
+The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Quarg fleets spawn there. Killing/plundering them doesn't make the other Quarg angry. Landing on the four other Quarg faction's worlds doesn't end with a death sentence when you have their ships/outfits.<br>
 
 <br>
 
@@ -3038,9 +3038,9 @@ Changelog:<br>
 
 <br>
 
-2024-06-07<br>
+2024-10-06<br>
 
-text corrections (thx to TheGiraffe3)<br>
+removed death sentence from government "Quarg (Incipias)"<br>
 
 <br>
 
