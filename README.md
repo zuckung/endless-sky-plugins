@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-06 | update: landing.images.highres<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-06 | update: quarg.farm<br>
+2024-10-06 | update: landing.images.highres<br>
 2024-10-06 | update: landing.images<br>
 2024-10-02 | update: uniques<br>
 2024-09-29 | update: too.many.asteroids<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-20 | update: uniques<br>
 2024-09-20 | merged real.fluff into uniques<br>
 2024-09-15 | update: coalition.shopping<br>
-2024-09-13 | update: uniques<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3012,7 +3012,7 @@ initial release<br>
 
 <img src="myplugins/quarg.farm/icon.png" height="100">
 
-[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-quarg.farm/quarg.farm.zip) | 26.81 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <br>
+[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-quarg.farm/quarg.farm.zip) | 26.82 kb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <br>
 <br>
 >Adds a new system "Saquerver" (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the readme for details.
 
