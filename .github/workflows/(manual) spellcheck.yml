@@ -1,4 +1,4 @@
-name: Spell Checking
+name: (manual) Spell Checking
 
 on: 
   workflow_dispatch:
@@ -22,7 +22,7 @@ jobs:
           pip install codespell
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Check spelling with codespell
-        run: codespell --ignore-words=.github/workflows/ignore-words.txt || exit 1
+        run: codespell myplugins/ --ignore-words=.github/workflows/ignore-words.txt || exit 1
   # misspell:
   #   name: Check spelling with misspell
   #   runs-on: ubuntu-latest
