@@ -1,11 +1,11 @@
 ### additional.command.buttons <br>
 <br>
-Reworks the main buttons ui on the lower right side. Made for the mobile version.<br> 
+Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES.<br> 
 <br>
 <br>
 This plugin<br>
 - rearranges and resizes some of the buttons<br>
-- changes most icons (making a ring around as a standart)
+- changes most icons (making a ring around as a standard)
 - adds more permanent buttons from the radial menus to make them easy accessible<br>
 - removes the radial menus<br>
 - adds a new button row to the top right for the fleet commands<br>
@@ -17,6 +17,9 @@ This plugin<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-10-07<br>
+added fleet hold fire button<br>
 <br>
 2024-09-06<br>
 fine tuning for the graphics<br>
