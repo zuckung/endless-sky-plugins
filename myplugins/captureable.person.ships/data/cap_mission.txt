@@ -97,7 +97,7 @@ mission "show person status"
 			`<mast>	"MasterOfGrey" (found in Hai space | Modified Ladybug)`
 			`<patr>	"Patrol Team" (found everywhere | 6x Waverider)`
 			``
-			`captureable.person.ships disables the old person ships, and creates nearly identically new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(C)" behind their names. So persons ships killed prior installing this plugin got re-added. The maximal spawn time, for a person ship in the system you are in, is 10 minutes.`
+			`captureable.person.ships disables the old person ships, and creates nearly identical new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(C)" behind their names. So persons ships killed prior installing this plugin got re-added. The maximum spawn time, for a person ship in the system you are in, is 10 minutes.`
 	on daily
 		fail
 
