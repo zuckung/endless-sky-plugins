@@ -23,21 +23,21 @@ substitutions
 		"person destroyed: Sesk Lem" == 0
 
 
-	"<p01>" "daed"
+	"<p01>" "dead"
 		"person destroyed: North Pirate Warlord" == 1
-	"<p02>" "daed"
+	"<p02>" "dead"
 		"person destroyed: Core Pirate Warlord" == 1
-	"<p03>" "daed"
+	"<p03>" "dead"
 		"person destroyed: South Pirate Warlord" == 1
-	"<p04>" "daed"
+	"<p04>" "dead"
 		"person destroyed: The Emperor" == 1
-	"<p05>" "daed"
+	"<p05>" "dead"
 		"person destroyed: Eco-One" == 1
-	"<p06>" "daed"
+	"<p06>" "dead"
 		"person destroyed: Explorer Corps" == 1
-	"<p07>" "daed"
+	"<p07>" "dead"
 		"person destroyed: Coinin Tapa" == 1
-	"<p08>" "daed"
+	"<p08>" "dead"
 		"person destroyed: Sesk Lem" == 1
 
 
