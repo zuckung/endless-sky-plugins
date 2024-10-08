@@ -15,6 +15,9 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 Changelog:<br>
 <br>
+2024-10-08 <br>
+proofreading and minor text changes (Vemenous-Repentile)<br>
+<br>
 2024-10-06<br>
 added 5 successor experts<br>
 <br>

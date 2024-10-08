@@ -20,6 +20,9 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 Changelog:<br>
 <br>
+2024-10-08 <br>
+proofreading and minor text changes (Vemenous-Repentile)<br>
+<br>
 2024-06-07<br>
 text correction (thx to Dagroth)<br>
 <br>

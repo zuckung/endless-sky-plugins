@@ -19,6 +19,9 @@ Beside the cheater start option, all others are balanced and lore friendly. A bi
 <br>
 Changelog:<br>
 <br>
+2024-10-08 <br>
+proofreading and minor text changes (Vemenous-Repentile)<br>
+<br>
 2024-06-07<br>
 text corrections (thx to TheGiraffe3)<br>
 <br>
