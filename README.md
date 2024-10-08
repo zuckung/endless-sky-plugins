@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-06 | update: expert.crew.members<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-08 | update: additional.command.buttons.radial<br>
+2024-10-06 | update: expert.crew.members<br>
 2024-10-06 | update: quarg.farm<br>
 2024-10-06 | update: landing.images.highres<br>
 2024-10-06 | update: landing.images<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-24 | update: automata.in.human.space<br>
 2024-09-23 | update: uniques<br>
 2024-09-20 | update: uniques<br>
-2024-09-20 | merged real.fluff into uniques<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -219,9 +219,9 @@ changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 144.27 kb | 2024-09-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 158.43 kb | 2024-10-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
 <br>
->Reworks the main buttons ui on the lower right side. Made for the mobile version. See the README for details.
+>Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -229,7 +229,7 @@ changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner 
 
 <br>
 
-Reworks the main buttons ui on the lower right side. Made for the mobile version.<br> 
+Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES.<br> 
 
 <br>
 
@@ -239,7 +239,7 @@ This plugin<br>
 
 - rearranges and resizes some of the buttons<br>
 
-- changes most icons (making a ring around as a standart)
+- changes most icons (making a ring around as a standard)
 
 - adds more permanent buttons from the radial menus to make them easy accessible<br>
 
@@ -262,6 +262,12 @@ This plugin<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-07<br>
+
+added fleet hold fire button<br>
 
 <br>
 
