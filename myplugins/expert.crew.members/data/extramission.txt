@@ -96,16 +96,16 @@ mission "all crew members hired"
 		outfit "Galaxy Hologram"
 		conversation
 			scene "portrait/hai07"
-			`As you land, you hear the bridge door open and you turn around. Touna Fachi, a crew member from the storage optimization, enters the bridge and stands quietly to the side. You turn around again, back to the landing monitor screens. Despite modern technology, every landing requires the utmost concentration, after all, you don't want to crash. You give orders to your crew and check position data. Everything goes well and a few minutes later your ship is safely on the ground.`
+			`As you land, you hear the bridge door open and you turn around. Touna Fachi, a crew member from storage optimization, enters the bridge and stands quietly to the side. You turn around again, back to the landing monitor screens. Despite modern technology, every landing requires the utmost concentration, after all, you don't want to crash. You give orders to your crew and check position data. Everything goes well and a few minutes later your ship is safely on the ground.`
 			`You turn to Touna and ask "Touna, I thought you had the late shift today? What brings you here?"`
-			`Touna adopts a respectful attitude and begins to talk. "Captain <first>, I am here on behalf of the crew. There was a meeting among us recently and I was given the honor of informing you of it."`
-			`"Your crew agrees that the experience of serving under someone who ventures so far into unknown reaches of the galaxy is something very special. We have met many members of a wide variety of species here on the ship. We have explored rare space anomalies, nebulae, and we've seen so many stars. Each of us joined your crew to see more of space, but the journey so far has exceeded our wildest expectations. And we want to thank you for that."`
+			`Touna adopts a respectful attitude and begins to speak. "Captain <first>, I am here on behalf of the crew. There was a meeting among us recently and I was given the honor of informing you about it."`
+			`"Your crew agrees that the experience of serving under someone who ventures so far into unknown reaches of the galaxy is something very special. We have met many members of a wide variety of species here on the ship. We have explored rare space anomalies, nebulae and black holes, and we've seen so many stars. Each of us joined your crew to see more of space, but the journey so far has exceeded our wildest expectations. And we want to thank you for that."`
 			`"Many of us contributed our engineering skills to a gift, others added ideas or suggested improvements. And now it's finished."`
 			choice
 				`	(smile at Touna)`
 			label hologram
 			scene "outfit/galaxy_hologram"
-			`Touna hands you a dark gray disc. "On behalf of the crew, thank you for the opportunity to learn so much." She presses a small button on the side of the disk and a hologram appears above it. It shows our galaxy, but with a level of detail that is far beyond the standard holograms. The disk is also quite small, so it must have a very strong energy source.`
+			`Touna hands you a dark gray disc. "On behalf of the crew, thank you for the opportunity to learn so much." She presses a small button on the side of the disk and a hologram appears above it. It shows the Milky Way galaxy, but with a level of detail that is far beyond that seen in standard holograms. The disk is also quite small, so it must have a very efficient power source.`
 			`You are delighted with the hologram, and when Touna sees your smile, she smiles too. You thank her profusely and tell her to also thank the crew. Touna leaves the bridge very satisfied. You are delighted with the gift. How could you ask for a better crew?`
 				decline
 
@@ -115,4 +115,4 @@ outfit "Galaxy Hologram"
 	thumbnail "outfit/galaxy_hologram"
 	"unique" 1
 	cost 50000
-	description `A gift of your crew members. With it, they thank you for the unique experience to see so much of the galaxy.`
+	description `A gift from your crew members. With it, they thank you for the unique opportunity to see so much of the galaxy.`
