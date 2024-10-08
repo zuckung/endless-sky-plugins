@@ -13,7 +13,7 @@ mission "add full map"
 	on offer
 		outfit "Full Human Space Map"
 		conversation
-			`As soon as you appear at the local outfitter, the technicians copy every information they have about the Human space to your navigation computer! It's nice to be a premium customer.`
+			`As soon as you arrive at the local outfitter, the technicians copy all the information they have about Human space to your navigation computer! It's nice to be a premium customer.`
 				decline
 
 
@@ -22,7 +22,7 @@ outfit "Full Human Space Map"
 	cost 100000
 	thumbnail "outfit/map"
 	"map" 300
-	description "This Table computer contains complete information on all star systems within the human space: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+	description "This tablet computer contains data on all star systems within human space: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
 
 
 ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Disabler)"
