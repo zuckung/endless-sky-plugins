@@ -74,7 +74,7 @@ mission "show person status"
 	job
 	repeat
 	name "(Show Person Ship List)"	
-	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships. Accept, start and land again to show the list."
+	description "Shows a list of all Person Ships and whether or not they have been destroyed. Also shows where to find them and with which ships. Accept, start and land again to show the list."
 	source Earth
 	on complete
 		conversation
@@ -97,7 +97,7 @@ mission "show person status"
 			`<mast>	"MasterOfGrey" (found in Hai space | Modified Ladybug)`
 			`<patr>	"Patrol Team" (found everywhere | 6x Waverider)`
 			``
-			`captureable.person.ships disables the old person ships, and creates nearly identically new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(C)" behind their names. So persons ships killed prior installing this plugin got re-added. The maximal spawn time, for a person ship in the system you are in, is 10 minutes.`
+			`captureable.person.ships disables the old person ships and creates nearly identically new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(C)" behind their names. So Person ships destroyed prior to installing this plugin got re-added. The maximal spawn time, for a person ship in the system you are in, is 10 minutes.`
 
 
 mission "kill em all reward"
@@ -127,8 +127,8 @@ mission "kill em all reward"
 			scene "outfit/gold_trophy"
 			`As you leave your ship at the spaceport, you see a courier ship land nearby at suicidal speed. Before the engines have even completely shut down, a man jumps out of the airlock and walks purposefully towards you.`
 			`"Captain <last>, I have a package for you. Would you please sign here."`
-			`You have barely finished the last letter of your name when the courier pushes the package into your arms and hurries back to his ship. When you open the package, the first thing you see is a large, massive, golden trophy, which distracts you so much that you almost miss the enclosed letter. Who would send you something like that?`
-			`"Dear captain <last>, with great joy I heard about your victories over the Author captains. These scoundrels don't deserve any better. They never wanted to take me in! Just thinking about that evening in the bar on Starcross makes me think that my blood is boiling over. Well, the matter is now settled. Enclosed is a token of my appreciation. I wish you all the best. Kind regards, Captain Zuckung"`
+			`You have barely finished signing the last letter of your name when the courier pushes the package into your arms and hurries back to his ship. When you open the package, the first thing you see is a massive, golden trophy, which distracts you so much that you almost miss the enclosed letter. Who would send you something like this?`
+			`"Dear captain <last>, it was with great joy that I heard about your victories over the Author captains. Those scoundrels don't deserve any better. They never wanted to take me in! Just thinking about that evening in the bar on Starcross makes my blood boil. Well, the matter is now settled. Enclosed is a token of my appreciation. I wish you all the best. Kind regards, Captain Zuckung"`
 			`Even though the sender of the package seems crazy to you, you decide to keep this wonderful trophy.`
 				decline
 
