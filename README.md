@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-08 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-08 | update: captureable.person.ships<br>
+2024-10-08 | update: additional.command.buttons.radial<br>
 2024-10-06 | update: expert.crew.members<br>
 2024-10-06 | update: quarg.farm<br>
 2024-10-06 | update: landing.images.highres<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-09-29 | update: too.many.asteroids<br>
 2024-09-24 | update: automata.in.human.space<br>
 2024-09-23 | update: uniques<br>
-2024-09-20 | update: uniques<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -138,7 +138,7 @@ and
 
 <br>
 
-Allthough most of these commands are now implemented in other parts to the original mobile user interface or can be accessed by gestures, I personally prefer these buttons on the lower right corner.<br>
+Although most of these commands are now implemented in other parts to the original mobile user interface or can be accessed by gestures, I personally prefer these buttons on the lower right corner.<br>
 
 <br>
 
@@ -471,7 +471,7 @@ changed icon.png<br>
 
 [better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-better.starts/better.starts.zip) | 22.4 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
 <br>
->Adds several new start options with different ships, background storys, credits and debts. See the readme for details.
+>Adds several new start options with different ships, background stories, credits and debts. See the readme for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -479,7 +479,7 @@ changed icon.png<br>
 
 <br>
 
-Adds 9 new start options with different ships, background storys, credits and debts.<br>
+Adds 9 new start options with different ships, background stories, credits and debts.<br>
 
 <br>
 
@@ -514,6 +514,12 @@ Beside the cheater start option, all others are balanced and lore friendly. A bi
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-08 <br>
+
+proofreading and minor text changes (Vemenous-Repentile)<br>
 
 <br>
 
@@ -626,6 +632,12 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-08 <br>
+
+proofreading and minor text changes (Vemenous-Repentile)<br>
 
 <br>
 
@@ -763,7 +775,7 @@ added a 2nd mission and a 2nd repeatable job<br>
 
 2023-08-26<br>
 
-intial release<br>
+initial release<br>
 
 
 
@@ -778,7 +790,7 @@ intial release<br>
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-captureable.person.ships/captureable.person.ships.zip) | 138.76 kb | 2024-07-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.5-captureable.person.ships/captureable.person.ships.zip) | 138.87 kb | 2024-10-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
 <br>
 >Makes person ships capturable. See the readme for details.
 
@@ -855,6 +867,16 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-08 <br>
+
+proofreading and minor text changes (Vemenous-Repentile)<br>
+
+changed status mission to fail on daily<br>
+
+changed subsidural (1 outfit space, keystone and 300 fuel)<br>
 
 <br>
 
@@ -1355,6 +1377,12 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-08 <br>
+
+proofreading and minor text changes (Vemenous-Repentile)<br>
 
 <br>
 
@@ -2668,6 +2696,12 @@ Sesk Lem | Korath territory | Ikatila'ej (new ship, unused vanilla sprites)(@2x 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-08<br>
+
+added status mission to Earth<br>
 
 <br>
 

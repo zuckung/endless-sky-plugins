@@ -1,3 +1,4 @@
+2024-10-08 | update: captureable.person.ships
 2024-10-08 | update: additional.command.buttons.radial
 2024-10-06 | update: expert.crew.members
 2024-10-06 | update: quarg.farm
