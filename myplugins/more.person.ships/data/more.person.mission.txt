@@ -1,0 +1,65 @@
+# substitutions for alive
+# substitutions for dead
+# mission "show more.person status"
+
+
+
+substitutions
+	"<p01>" "alive"
+		"person destroyed: North Pirate Warlord" == 0
+	"<p02>" "alive"
+		"person destroyed: Core Pirate Warlord" == 0
+	"<p03>" "alive"
+		"person destroyed: South Pirate Warlord" == 0
+	"<p04>" "alive"
+		"person destroyed: The Emperor" == 0
+	"<p05>" "alive"
+		"person destroyed: Eco-One" == 0
+	"<p06>" "alive"
+		"person destroyed: Explorer Corps" == 0
+	"<p07>" "alive"
+		"person destroyed: Coinin Tapa" == 0
+	"<p08>" "alive"
+		"person destroyed: Sesk Lem" == 0
+
+
+	"<p01>" "daed"
+		"person destroyed: North Pirate Warlord" == 1
+	"<p02>" "daed"
+		"person destroyed: Core Pirate Warlord" == 1
+	"<p03>" "daed"
+		"person destroyed: South Pirate Warlord" == 1
+	"<p04>" "daed"
+		"person destroyed: The Emperor" == 1
+	"<p05>" "daed"
+		"person destroyed: Eco-One" == 1
+	"<p06>" "daed"
+		"person destroyed: Explorer Corps" == 1
+	"<p07>" "daed"
+		"person destroyed: Coinin Tapa" == 1
+	"<p08>" "daed"
+		"person destroyed: Sesk Lem" == 1
+
+
+mission "show more.person status"
+	job
+	repeat
+	name "(Show more.person.ships Ship List)"	
+	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships."
+	source Earth
+	on accept
+		conversation
+			`Person Ship List`
+			``
+			`Status	"Name" (Source | Shiptype/s)`
+			`<p01>	"North Pirate Warlord" (found in north pirate territory | Modified Bactrian)`
+			`<p02>	"Core Pirate Warlord" (found in core pirate territory | Modified Bactrian)`
+			`<p03>	"South Pirate Warlord" (found in south pirate territory | Modified Bactrian)`
+			`<p04>	"The Emperor" (found Unfettered Hai territory | Emperor Beetle)`
+			`<p05>	"Eco-One" (found in human territory | Eco)	`
+			`<p06>	"Explorer Corps" (found in human territory | 3xBadger)`
+			`<p07>	"Coinin Tapa" (found east of Gegno territory | Coinin)`
+			`<p08>	"Sesk Lem" (found in Korath territory | Ikatila'ej)`
+			``
+	on daily
+		fail

@@ -74,9 +74,9 @@ mission "show person status"
 	job
 	repeat
 	name "(Show Person Ship List)"	
-	description "Shows a list of all Person Ships and whether or not they have been destroyed. Also shows where to find them and with which ships. Accept, start and land again to show the list."
+	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships."
 	source Earth
-	on complete
+	on accept
 		conversation
 			`Person Ship List`
 			``
@@ -97,7 +97,9 @@ mission "show person status"
 			`<mast>	"MasterOfGrey" (found in Hai space | Modified Ladybug)`
 			`<patr>	"Patrol Team" (found everywhere | 6x Waverider)`
 			``
-			`captureable.person.ships disables the old person ships and creates nearly identically new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(C)" behind their names. So Person ships destroyed prior to installing this plugin got re-added. The maximal spawn time, for a person ship in the system you are in, is 10 minutes.`
+			`captureable.person.ships disables the old person ships, and creates nearly identically new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(C)" behind their names. So persons ships killed prior installing this plugin got re-added. The maximal spawn time, for a person ship in the system you are in, is 10 minutes.`
+	on daily
+		fail
 
 
 mission "kill em all reward"

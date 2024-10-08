@@ -23,6 +23,9 @@ Sesk Lem | Korath territory | Ikatila'ej (new ship, unused vanilla sprites)(@2x 
 <br>
 Changelog:<br>
 <br>
+2024-10-08<br>
+added status mission to Earth<br>
+<br>
 2024-08-25<br>
 added person Sesk Lem<br>
 added person Coinin Tapa<br>
