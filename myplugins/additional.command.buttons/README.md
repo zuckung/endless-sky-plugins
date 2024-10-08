@@ -23,7 +23,7 @@ and
 <br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons01.jpg' width='400'>
 <br>
-Allthough most of these commands are now implemented in other parts to the original mobile user interface or can be accessed by gestures, I personally prefer these buttons on the lower right corner.<br>
+Although most of these commands are now implemented in other parts to the original mobile user interface or can be accessed by gestures, I personally prefer these buttons on the lower right corner.<br>
 <br>
 Additional there are some functions in this plugin that the original mobile ui can't do at the moment:<br>
 - board button cycles through the possibilities <br>

@@ -1,1 +1,1 @@
-Adds several new start options with different ships, background storys, credits and debts. See the readme for details.
+Adds several new start options with different ships, background stories, credits and debts. See the readme for details.

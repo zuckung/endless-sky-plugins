@@ -509,7 +509,7 @@ mission "culture bunrodea flonkball"
 			label started
 			scene "scene/stadium"
 			`"The battles between the rival teams are part of the game and allowed. The actual game revolves around the 'Flonk', a flightless pterodactyl, that is used as a ball. The flonk must be brought into a basket in the opponent's end zone, which results in a 'Flopp' (for a distance throw) or a 'double Flopp' (by jumping to the basket). The game ends when the seventh Flonk is placed in the basket. If both teams have the same number of Flopps, an eighth Flonk is played. Another method to end the game successfully is to decimate the opposing team through hard play to such an extent that they no longer have enough players available. The game is led by a referee. He punishes fouls with giving the Flonk to the opposing team. Since fighting is permitted, it is only considered a foul if hidden weapons are drawn and used. "`
-			`You thank the young Bunrodea for that enlightening explaination. Now that you know the rules, you enjoy the game to the fullest. A lot of blood flows over the next hour. Players are carried off the field with serious injuries. And then the blue team wins because all of the red team's players leave the field, most of them carried by medics. On your way out of the stadium, you're still thinking about the game. That was a really strange experience.`
+			`You thank the young Bunrodea for that enlightening explanation. Now that you know the rules, you enjoy the game to the fullest. A lot of blood flows over the next hour. Players are carried off the field with serious injuries. And then the blue team wins because all of the red team's players leave the field, most of them carried by medics. On your way out of the stadium, you're still thinking about the game. That was a really strange experience.`
 				decline
 
 
@@ -556,7 +556,7 @@ mission "bunrodea side supernova"
 		conversation
 			`As you study the job board, a group Bunrodeans approaches. The leader speaks to you: "Greetings. It's actually a remarkable experience to meet a real human being. Your body is so different. Sorry, I'm Ren and this is my research team, we're looking for a transport to a supernova remnant just outside the Empire. It's quite difficult to convince captains to leave the safe space, but I don't think you have any problems with that?"`
 			choice
-				`	Thats no problem for me.`
+				`	That's no problem for me.`
 					goto noproblem
 				`	I'm sorry, I don't have time now. Maybe later.`
 					defer

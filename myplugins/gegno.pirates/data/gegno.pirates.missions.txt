@@ -69,7 +69,7 @@ mission "gegno.pirates complete"
 	on offer
 		event "reveal gegno outfitter"
 		conversation
-			`After refuelling you notice a Gegno starring at you and your ship. The eye contact brings motion into his legs, he approaches and hands over a small star map with a marked system. You examine the star map and when you look up again the Gegno allready disappeared. The map shows a marked system you don't know. Maybe you should go there and find out what's there.`
+			`After refuelling you notice a Gegno starring at you and your ship. The eye contact brings motion into his legs, he approaches and hands over a small star map with a marked system. You examine the star map and when you look up again the Gegno already disappeared. The map shows a marked system you don't know. Maybe you should go there and find out what's there.`
 				accept
 	on complete
 		conversation

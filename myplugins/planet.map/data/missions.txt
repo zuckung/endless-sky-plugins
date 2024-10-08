@@ -1,8 +1,8 @@
 # mission "ava start story"
 # event "unhide theben"
 # event "close wormhole"
-# mission "whats going on"
-# mission "whats going on 2"
+# mission "what is going on"
+# mission "what is going on 2"
 # event "spawn object"
 # mission "linus knows"
 # event "open wormhole"
@@ -59,7 +59,7 @@ event "ava close wormhole"
 	set "mission: ava start story: done"
 
 
-mission "ava whats going on"
+mission "ava what is going on"
 	landing
 	name "Contact Linus Rane"
 	description "Contact a local inhabitant named Linus Rane. He lives in Ember (City)"
@@ -75,14 +75,14 @@ mission "ava whats going on"
 				accept
 
 
-mission "ava whats going on 2"
+mission "ava what is going on 2"
 	landing
 	name "Contact Linus Rane"
 	description "Find Linus Rane. He is on an expedition to the eastern sea."
 	source "Ember (City)"
 	destination "Expedition Ship"
 	to offer
-		has "ava whats going on: done"
+		has "ava what is going on: done"
 	on offer
 		conversation
 			scene "scene/ava_city_woman"
@@ -109,12 +109,12 @@ mission "ava linus knows"
 	source "Expedition Ship"
 	destination "Mysterious Object"
 	to offer
-		has "ava whats going on 2: done"
+		has "ava what is going on 2: done"
 	on offer
 		conversation
 			scene "scene/ava_expedition01"
 			`It took some time to find Linus Rane, but it was worth it.`
-			`Linus tells a story, about when he was leading an expedition to the far west. At some point they discovered a big metallic object. They couldn't analyze it, because it was made of an unknown metal. Nothing worked. The expedition came home again to get help with their discovery. But when the expedition, grown with dozens of people, returned to where the object was, it was gone. The members of the expedition and Linus got called liars and nothing more was done. Thats the story.`
+			`Linus tells a story, about when he was leading an expedition to the far west. At some point they discovered a big metallic object. They couldn't analyze it, because it was made of an unknown metal. Nothing worked. The expedition came home again to get help with their discovery. But when the expedition, grown with dozens of people, returned to where the object was, it was gone. The members of the expedition and Linus got called liars and nothing more was done. That's the story.`
 			`You decide to fly west, into the great desert, to find out more.`
 				accept
 
@@ -132,7 +132,7 @@ event "ava open wormhole"
 mission "ava back to linus"
 	landing
 	name "Fly back to Linus"
-	description "Fly back to the Expedition Ship, to tell Linus about what happend inside the mysterious object."
+	description "Fly back to the Expedition Ship, to tell Linus about what happened inside the mysterious object."
 	source "Mysterious Object"
 	destination "Expedition Ship"
 	to offer

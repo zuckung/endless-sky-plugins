@@ -348,7 +348,7 @@ start "z_explorer1"
 conversation "z_explorer1"
 	scene "scene/lobby"
 	`It's been half a year since you've met that guy in a bar, but you still think about the story he told you.` 
-	`He travelled through the uninhabited systems west of here, when he discovered a strange red glowing object. While getting closer to examine, his ship got somehow sucked into it. In the next moment all stars around him have changed. After recovering from the shock, he explored some unknown nearby systems. In one of the systems, he found some big space amoeba eating asteroids, and a damaged and disabled strange spaceship. He helped the crew of that ship make it fly again and for his effort and the promise to tell no-one, they payed him a lot of credits.`
+	`He travelled through the uninhabited systems west of here, when he discovered a strange red glowing object. While getting closer to examine, his ship got somehow sucked into it. In the next moment all stars around him have changed. After recovering from the shock, he explored some unknown nearby systems. In one of the systems, he found some big space amoeba eating asteroids, and a damaged and disabled strange spaceship. He helped the crew of that ship make it fly again and for his effort and the promise to tell no-one, they paid him a lot of credits.`
 	`That story sounded unbelievable, but something about the way he told it, made you feel it was true.`
 	`And here are you now, half a year later, signing the papers for your new ship. No-one would believe or support what you are planning.`
 	name

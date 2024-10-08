@@ -1,6 +1,6 @@
 ### better.starts <br>
 <br>
-Adds 9 new start options with different ships, background storys, credits and debts.<br>
+Adds 9 new start options with different ships, background stories, credits and debts.<br>
 <br>
 <ul>
 <li>Start: Trader | Freighter: equipped for cargo transport, in Merak system</li>

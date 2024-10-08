@@ -87,7 +87,7 @@ mission "Snowfeather Robotics 3"
 	to offer
 		has "event: add snowfeather robotics"
 	on offer
-		dialog `You recieve a message from Dr. Lufbin, the robotics scientist, who rented one of your androids. The work is done, and you can get your android back.`
+		dialog `You receive a message from Dr. Lufbin, the robotics scientist, who rented one of your androids. The work is done, and you can get your android back.`
 	on complete
 		outfit "NDR-114 Android" 1
 		payment 300000

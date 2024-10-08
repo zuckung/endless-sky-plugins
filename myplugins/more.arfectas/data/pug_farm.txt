@@ -30,7 +30,7 @@ mission "Pug Warning Mego Pug"
 	to complete
 		never
 	on enter "Mego Pug"
-		dialog `When you enter the Mego Pug system you receive a transmition: "Human, leave this system immediately or we will attack. You are not welcome here."`
+		dialog `When you enter the Mego Pug system you receive a transmission: "Human, leave this system immediately or we will attack. You are not welcome here."`
 		fail
 
 system "Mego Pug"

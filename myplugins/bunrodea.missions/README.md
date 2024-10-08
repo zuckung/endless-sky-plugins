@@ -87,5 +87,5 @@ added 6 transport/passenger jobs<br>
 added a 2nd mission and a 2nd repeatable job<br>
 <br>
 2023-08-26<br>
-intial release<br>
+initial release<br>
 

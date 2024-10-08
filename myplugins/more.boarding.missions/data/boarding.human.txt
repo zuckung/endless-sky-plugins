@@ -467,7 +467,7 @@ mission "Boarding Pirate AD (Interceptor)"
 		outfit "NDR-114 Android" 1
 		conversation
 			scene "outfit/android"
-			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approches from the machine room. You decide to take the android to your ship.`
+			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approaches from the machine room. You decide to take the android to your ship.`
 				decline
 
 
@@ -485,7 +485,7 @@ mission "Boarding Pirate AD (Light Warship)"
 		outfit "NDR-114 Android" 1
 		conversation
 			scene "outfit/android"
-			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approches from the machine room. You decide to take the android to your ship.`
+			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approaches from the machine room. You decide to take the android to your ship.`
 				decline
 
 
@@ -503,7 +503,7 @@ mission "Boarding Pirate AD (Medium Warship)"
 		outfit "NDR-114 Android" 1
 		conversation
 			scene "outfit/android"
-			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approches from the machine room. You decide to take the android to your ship.`
+			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approaches from the machine room. You decide to take the android to your ship.`
 				decline
 
 
@@ -521,5 +521,5 @@ mission "Boarding Pirate AD (Heavy Warship)"
 		outfit "NDR-114 Android" 1
 		conversation
 			scene "outfit/android"
-			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approches from the machine room. You decide to take the android to your ship.`
+			`As you board the "<origin>", the crew entrenches on the bridge. While calculating your chances, an old working android approaches from the machine room. You decide to take the android to your ship.`
 				decline
