@@ -15,7 +15,7 @@ Adds several new start options with different ships, background stories, credits
 <li>Start: Cheater 2 | Heron + 10xSkylark: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
 </ul>
 <br>
-Beside the cheater start options, all others are balanced and lore friendly. A bigger ship means a bigger bank loan. All starts come with 200.000 credits cash and a bank loan between 600.000 and 4,5 million credits. The ships outfits are changed to fit the role. The intro missions on New Bosten are set as completed. Same goes for the Hai start with the Hai first contact mission.<br>
+Beside the cheater start options, all others are balanced and lore friendly. A bigger ship means a bigger bank loan. All starts come with 200.000 credits cash and a bank loan between 600.000 and 4,5 million credits. The ships outfits are changed to fit the role. The intro missions on New Boston are set as completed. Same goes for the Hai start with the Hai first contact mission.<br>
 <br>
 <br>
 Changelog:<br>
