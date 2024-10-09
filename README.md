@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-08 | update: captureable.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-09 | update: better.starts<br>
+2024-10-08 | update: captureable.person.ships<br>
 2024-10-08 | update: additional.command.buttons.radial<br>
 2024-10-06 | update: expert.crew.members<br>
 2024-10-06 | update: quarg.farm<br>
@@ -24,12 +25,10 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-10-02 | update: uniques<br>
 2024-09-29 | update: too.many.asteroids<br>
 2024-09-24 | update: automata.in.human.space<br>
-2024-09-23 | update: uniques<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
 <table><tr valign="top"><td><img width="294" height="1"><br>
-<a href="README.md#additionalcommandbuttons">additional.command.buttons</a><br>
 <a href="README.md#additionalcommandbuttonsradial">additional.command.buttons.radial</a><br>
 <a href="README.md#automatadestruction0percent">automata.destruction.0percent</a><br>
 <a href="README.md#automatainhumanspace">automata.in.human.space</a><br>
@@ -42,8 +41,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#humanlabels">human.labels</a><br>
@@ -73,144 +72,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 
 
 
-
-
----
-
-### additional.command.buttons
-
-<img src="myplugins/additional.command.buttons/icon.png" height="100">
-
-[additional.command.buttons.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-additional.command.buttons/additional.command.buttons.zip) | 18.1 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons/) <br>
-<br>
->Made for the mobile version and adds several new buttons to the lower right corner. See the readme for details.
->(inspired by theweirednut)
-
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### additional.command.buttons <br>
-
-<br>
-
-Made for the mobile version and changes the interface by adding the following 10 buttons: <br> 
-
-<ul>
-
-<li>full stop</li>
-
-<li>board ship</li>
-
-<li>land on planet</li>
-
-<li>fleet: harvest flotsam</li>
-
-<li>fleet: hold position</li>
-
-<li>fleet: gather around me</li>
-
-<li>fleet: attack my target</li>
-
-<li>fleet: toggle ammo usage</li>
-
-<li>view player info</li>
-
-<li>fast forward</li>
-
-</ul>
-
-and
-
-<ul>
-
-<li>adjusts the message box to not overlap</li>
-
-<li>moved the hidden ammo box to a visible place</li>
-
-</ul>
-
-<br>
-
-(inspired by theweirednut) <br>
-
-<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons01.jpg' width='400'>
-
-<br>
-
-Although most of these commands are now implemented in other parts to the original mobile user interface or can be accessed by gestures, I personally prefer these buttons on the lower right corner.<br>
-
-<br>
-
-Additional there are some functions in this plugin that the original mobile ui can't do at the moment:<br>
-
-- board button cycles through the possibilities <br>
-
-- fleet commands can be used for single ships when selected <br>
-
-<br>
-
-This plugin overwrites `interface "main buttons"` and `interface "hud"`, so it isn't compatible with other plugins modifying these.<br>
-
-<br>
-
-<br>
-
-Changelog:<br>
-
-<br>
-
-2024-06-07<br>
-
-text corrections (thx to TheGiraffe3)<br>
-
-<br>
-
-2024-02-20<br>
-
-re-added the ammo box to main buttons (latest mobile game version needed)<br>
-
-<br>
-
-2023-10-17<br>
-
-added plugin.txt<br>
-
-<br>
-
-2023-08-24<br>
-
-fixed non-firing attack button<br>
-
-<br>
-
-2023-08-05<br>
-
-moved the hidden ammo box to a visible place<br>
-
-<br>
-
-2023-08-02<br>
-
-added new icon and reworked readme<br>
-
-<br>
-
-2023-07-26<br>
-
-added 3 more buttons to a total of 10<br>
-
-added descriptions inside script to exchange buttons functions<br>
-
-<br>
-
-2023-07-06<br>
-
-changed 'fire afterburner' to new 'fleet: harvest flotsam', because afterburner can easily toggled by double tapping<br>
-
-</blockquote>
-</details>
-<br>
 
 
 ---
@@ -469,7 +330,7 @@ changed icon.png<br>
 
 <img src="myplugins/better.starts/icon.png" height="100">
 
-[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-better.starts/better.starts.zip) | 22.4 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
+[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-better.starts/better.starts.zip) | 22.9 kb | 2024-10-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the readme for details.
 
@@ -479,7 +340,7 @@ changed icon.png<br>
 
 <br>
 
-Adds 9 new start options with different ships, background stories, credits and debts.<br>
+Adds several new start options with different ships, background stories, credits and debts.<br>
 
 <br>
 
@@ -501,13 +362,15 @@ Adds 9 new start options with different ships, background stories, credits and d
 
 <li>Start: Explorer to Automata | Bounder: equipped for exploring the Kor Automata, in Mirfak system</li>
 
-<li>Start: Cheater | Heron + 10xKIV: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
+<li>Start: Cheater 1 | Heron + 10xKIV: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
+
+<li>Start: Cheater 2 | Heron + 10xSkylark: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
 
 </ul>
 
 <br>
 
-Beside the cheater start option, all others are balanced and lore friendly. A bigger ship means a bigger bank loan. All starts come with 200.000 credits cash and a bank loan between 600.000 and 4,5 million credits. The ships outfits are changed to fit the role. The intro missions on New Bosten are set as completed. Same goes for the Hai start with the Hai first contact mission.<br>
+Beside the cheater start options, all others are balanced and lore friendly. A bigger ship means a bigger bank loan. All starts come with 200.000 credits cash and a bank loan between 600.000 and 4,5 million credits. The ships outfits are changed to fit the role. The intro missions on New Boston are set as completed. Same goes for the Hai start with the Hai first contact mission.<br>
 
 <br>
 
@@ -520,6 +383,8 @@ Changelog:<br>
 2024-10-08 <br>
 
 proofreading and minor text changes (Vemenous-Repentile)<br>
+
+added a new cheater start with Quarg outfits, ships and more credits<br>
 
 <br>
 
