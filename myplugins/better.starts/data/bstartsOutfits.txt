@@ -1,7 +1,9 @@
-# mission to add human space map
-# outfit tablet computer
-# ship kar ik vot 349 (disabler)
-# ship heron (disabler)
+# mission "add full map"
+# outfit "Full Human Space Map"
+# ship "Quarg Skylark" "Quarg Skylark (Explorer)"
+# ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Disabler)"
+# ship "Heron" "Heron (Disabler)"
+# ship "Heron" "Heron (Quarg)"
 
 
 mission "add full map"
@@ -23,6 +25,23 @@ outfit "Full Human Space Map"
 	thumbnail "outfit/map"
 	"map" 300
 	description "This tablet computer contains data on all star systems within human space: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+
+
+ship "Quarg Skylark" "Quarg Skylark (Explorer)"
+	outfits
+		"Antimatter Core"
+		"Fuel Module" 2
+		"Intrusion Countermeasures" 120
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Nanotech Battery"
+		"Outfits Expansion" 4
+		"Quantum Keystone"
+		"Quantum Shield Generator"
+		"Quarg Anti-Missile" 2
+		"Quarg Skylance" 2
+		"Wanderer Ramscoop" 3
 
 
 ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Disabler)"
@@ -62,3 +81,24 @@ ship "Heron" "Heron (Disabler)"
 		"Smelter-Class Thruster" 4
 		"Thermoelectric Cooler" 5
 
+
+ship "Heron" "Heron (Quarg)"
+	add attributes
+		"weapon capacity" 30
+		"engine capacity" 40
+		"outfit space" 220
+	outfits
+		"Antimatter Core" 6
+		"Bunk Room" 7
+		"Emergency Ramscoop" 10
+		"Fragmentation Grenades" 3000
+		"Jump Drive"
+		"NDR-114 Android" 990
+		"Nanotech Battery" 2
+		"Quantum Shield Generator" 2
+		"Quantum Key Stone"
+		"Quarg Anti-Missile" 2
+		"Quarg Skylance" 7
+		"Medium Graviton Steering" 7
+		"Medium Graviton Thruster" 7
+		"Research Laboratory"

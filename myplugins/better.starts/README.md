@@ -1,6 +1,6 @@
 ### better.starts <br>
 <br>
-Adds 9 new start options with different ships, background stories, credits and debts.<br>
+Adds several new start options with different ships, background stories, credits and debts.<br>
 <br>
 <ul>
 <li>Start: Trader | Freighter: equipped for cargo transport, in Merak system</li>
@@ -11,16 +11,18 @@ Adds 9 new start options with different ships, background stories, credits and d
 <li>Start: Salvager(big) | Argosy: equipped for boarding, in Aldhibain system</li>
 <li>Start: Explorer to Remnant | Heavy Shuttle: equipped for exploring the Remnant, in Tania Australis system</li>
 <li>Start: Explorer to Automata | Bounder: equipped for exploring the Kor Automata, in Mirfak system</li>
-<li>Start: Cheater | Heron + 10xKIV: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
+<li>Start: Cheater 1 | Heron + 10xKIV: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
+<li>Start: Cheater 2 | Heron + 10xSkylark: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
 </ul>
 <br>
-Beside the cheater start option, all others are balanced and lore friendly. A bigger ship means a bigger bank loan. All starts come with 200.000 credits cash and a bank loan between 600.000 and 4,5 million credits. The ships outfits are changed to fit the role. The intro missions on New Bosten are set as completed. Same goes for the Hai start with the Hai first contact mission.<br>
+Beside the cheater start options, all others are balanced and lore friendly. A bigger ship means a bigger bank loan. All starts come with 200.000 credits cash and a bank loan between 600.000 and 4,5 million credits. The ships outfits are changed to fit the role. The intro missions on New Bosten are set as completed. Same goes for the Hai start with the Hai first contact mission.<br>
 <br>
 <br>
 Changelog:<br>
 <br>
 2024-10-08 <br>
 proofreading and minor text changes (Vemenous-Repentile)<br>
+added a new cheater start with Quarg outfits, ships and more credits<br>
 <br>
 2024-06-07<br>
 text corrections (thx to TheGiraffe3)<br>

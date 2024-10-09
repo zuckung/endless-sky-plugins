@@ -1,3 +1,26 @@
+# start "z_trader1"
+#   conversation "z_trader1"
+# start "z_trader2"
+#  conversation "z_trader2"
+# start "z_passenger1"
+#   conversation "z_passenger1"
+# start "z_miner"
+#   conversation "z_miner"
+# start "z_salvager1"
+#   conversation "z_salvager1"
+# start "z_salvager2"
+#   conversation "z_salvager2"
+# start "z_explorer1"
+#   conversation "z_explorer1"
+# start "z_explorer2"
+#   conversation "z_explorer2"
+# start "z_cheater1"
+#  conversation "z_cheater1"
+# start "z_cheater2"
+#  conversation "z_cheater2"
+
+
+
 start "z_trader1"
 	name "Start: Trader"
 	description `Ship: Freighter`
@@ -40,6 +63,7 @@ start "z_trader1"
 			"nGVF-BB Fuel Cell"
 			"nGVF-CC Fuel Cell"
 
+
 conversation "z_trader1"
 	scene "scene/lobby"
 	`Your family is more wealthy than most of New China's inhabitants, but less wealthy than your neighbour Phil. He is the most lazy and annoying person you know. Amazingly how good he is standing with doing his trading job. Most of the year he does nothing, just hanging around in bars. And that is why you decided to become a space trader. With your talent, charm, and ambitions, you can get really really rich.` 
@@ -47,7 +71,6 @@ conversation "z_trader1"
 	name
 	`It won't be easy yo pay off 1.8 million credits, but you think positive. You have a great ship, a customized "Freighter", with engine upgrades and a bigger cargo. No weapons, but with that engine you are faster than the pirates. Also the Paradise Worlds are in the near north, which are safer for traders.`
 	`Nothing stands in your way. Your future begins now!`
-
 
 
 start "z_trader2"
@@ -92,6 +115,7 @@ start "z_trader2"
 			"Sand Cell" 2
 			"Supercapacitor"
 
+
 conversation "z_trader2"
 	scene "scene/lobby"
 	`You just reached the bank to sign all final papers. You took a pretty big loan of 1.5 million credits and spent weeks looking for a nice ship. And now you are here, signing papers for a last time. And then ... you aren't sure what's then. Time to find out.` 
@@ -100,7 +124,6 @@ conversation "z_trader2"
 	`You always dreamed of this moment. This ship is amazing. You took some special equipment, raised the cargo hold and removed weapons, since Hai space is mostly save for traders. You even installed a "Quantum Keystone", because the Hai believe that it brings luck.`
 	`You are sure that you will spend some time trading here in Hai space, to pay off your debts, and then explore more of the galaxy.`
 	`Now your adventure starts!`
-
 
 
 start "z_passenger1"
@@ -144,6 +167,7 @@ start "z_passenger1"
 			"RT-I Radiothermal"
 			"X3200 Ion Steering"
 			"X3700 Ion Thruster"
+
 	
 conversation "z_passenger1"
 	scene "scene/lobby"
@@ -152,7 +176,6 @@ conversation "z_passenger1"
 	name
 	`Your "Scout" is optimized for passenger transport. It is equipped with extra passenger bunks, luxury accommodations and some extra fuel pods. Even a brig is installed, just in case you can get a contract for prisoner transport.`
 	`Now you can get started. If you look for some lucrative, long range transport jobs, your loan will be paid off very quickly.`
-
 
 
 start "z_miner"
@@ -189,6 +212,7 @@ start "z_miner"
 	ship "Mining Drone" "Mining Drone (Modified)"
 		"name" "Beta"
 
+
 conversation "z_miner"
 	scene "scene/lobby"
 	`You were quite surprised when you heard of your childhood friend Ted a month ago. When his parents died, he took his legacy and disappeared from this planet.`
@@ -198,7 +222,6 @@ conversation "z_miner"
 	name
 	`With a smile on your face, you head over to the landing pad, where your new 'Sunder' is parked. Ted gave you a lot of hints how to be a successful asteroid miner. The asteroid belt of Rasalhague is rich on aluminium and iron. Not two of the more expensive metals, but it is a start. For better ores you could check other near systems, the Ascella system should have more expensive ores. `
 	`The future looks great.`
-
 
 
 start "z_salvager1"
@@ -240,6 +263,7 @@ start "z_salvager1"
 			"X1700 Ion Thruster"
 			"nGVF-AA Fuel Cell"
 			"Tactical Scanner"
+
 	
 conversation "z_salvager1"
 	scene "scene/lobby"
@@ -249,7 +273,6 @@ conversation "z_salvager1"
 	`You are very happy when you enter the dock. Although you often visited your uncle Tiberius here, where he worked on his old 'Shuttle', it feels so different. Owning an space ship opens up so many possibilities. `
 	`You can continue your uncle's business, by boarding pirate ships, disabled in fights with the Republic. His 'Shuttle' is equipped for that purpose. Weaponless, it gives the pirates fewer reasons to attack. Also it is outfitted with additional bunks for a bigger crew and some laser rifles. You just need to hire a bigger crew.`
 	`Or you can travel into the Endless Sky.`
-
 
 
 start "z_salvager2"
@@ -293,6 +316,7 @@ start "z_salvager2"
 			"Outfits Expansion" 6
 			"RT-I Radiothermal"
 			"Tactical Scanner" 2
+
 	
 conversation "z_salvager2"
 	scene "scene/lobby"
@@ -302,7 +326,6 @@ conversation "z_salvager2"
 	`You are very happy when you enter the dock. Although you often visited your uncle Tiberius here, where he lived in his old 'Argosy', it feels so different. Owning an space ship opens up so many possibilities. `
 	`You can continue your uncle's business, by boarding pirate ships, disabled in fights with the Republic. His 'Argosy' is equipped for that purpose. Weaponless, it gives the pirates fewer reasons to attack. Also it is outfitted with many bunks for a big crew and lots of laser rifles. You just need to hire a bigger crew.`
 	`Or you can travel into the Endless Sky.`
-
 
 
 start "z_explorer1"
@@ -345,6 +368,7 @@ start "z_explorer1"
 			"nGVF-AA Fuel Cell"
 			"Quantum Keystone"
 
+
 conversation "z_explorer1"
 	scene "scene/lobby"
 	`It's been half a year since you've met that guy in a bar, but you still think about the story he told you.` 
@@ -355,7 +379,6 @@ conversation "z_explorer1"
 	`An hour later, you are sitting in the cockpit of your new "Heavy Shuttle", equipped with a ramscoop for long range exploration. You also have the strange stone that the guy gave you. He told you that these human-like creatures installed one in their ship, and later he experimented a bit with another one that he stole from them, only to find out that it is needed for the travel through the red anomaly. Seems like you are ready now.`
 	`Maybe it was a lie, or it will be extremely dangerous. Maybe you will die. You smile when thinking of the big bank loan you can't pay off, because you are dead. Destroy that bank! You laugh. Another gulp from the whisky bottle and you are ready to start.`
 	`The target is north-west of here, the Terminus system!`
-
 
 
 start "z_explorer2"
@@ -398,6 +421,7 @@ start "z_explorer2"
 			"Outfits Expansion" 2
 			"Ramscoop" 4
 
+
 conversation "z_explorer2"
 	scene "scene/lobby"
 	`You are handling the last steps for your journey. You never dreamed of getting hands on a "Jump Drive". These horrible Quarg guard "Jump Drives" like a treasure. The big question is how that pirate captain got it.`
@@ -407,9 +431,8 @@ conversation "z_explorer2"
 	`Heading north-east will bring you into unknown space. Let the journey begin!`
 
 
-
-start "z_cheater"
-	name "Start: Cheater"
+start "z_cheater1"
+	name "Start: Cheater 1"
 	description `Ship: Heron + 10xKIV`
 	description `Start with:`
 	description ` Jump Drive`
@@ -419,7 +442,7 @@ start "z_cheater"
 	date 16 11 3013
 	system "Sol"
 	planet "Earth"
-	conversation "z_cheater"
+	conversation "z_cheater1"
 	account
 		credits 1000000000
 		score 800
@@ -460,7 +483,70 @@ start "z_cheater"
 	ship "Kar Ik Vot 349 (Disabler)" "KIV"
 		"name" "KIV 10"
 
-conversation "z_cheater"
+
+conversation "z_cheater1"
+	scene "scene/lobby"
+	`	Enter your name: `
+	name
+	`Hello captain <first> <last>, please enjoy your easy start :)`
+	`For full visible human space map visit the local outfitter.`
+
+
+start "z_cheater2"
+	name "Start: Cheater 2"
+	description `Ship: Heron + 10xSkylark`
+	description `Start with:`
+	description ` Quarg outfits`
+	description ` Jump Drive`
+	description ` 10 billion credits`
+	description ` full visible human space`
+	thumbnail "scene/lobby"
+	date 16 11 3013
+	system "Sol"
+	planet "Earth"
+	conversation "z_cheater2"
+	account
+		credits 10000000000
+		score 800
+		mortgage Mortgage
+			principal 0
+			interest 0.008
+			term 365
+	set "license: Pilot's"
+	set "Intro [0]: offered"
+	set "Intro [0]: done"
+	set "Intro [1 Transport]: offered"
+	set "Intro [1 Transport]: done"
+	set "Intro [2 Transport]: offered"
+	set "Intro [2 Transport]: done"
+	set "Intro [3 Transport]: offered"
+	set "Intro [3 Transport]: done"
+	set "give map"
+	ship "Heron (Quarg)" "Heron (Customized)"
+		"name" "Voyager"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 01"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 02"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 03"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 04"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 05"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 06"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 07"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 08"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 09"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 10"
+
+
+conversation "z_cheater2"
 	scene "scene/lobby"
 	`	Enter your name: `
 	name
