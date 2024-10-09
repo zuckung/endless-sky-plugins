@@ -1,4 +1,0 @@
-additional.command.buttons
-author:
-	zuckung 
-	https://github.com/zuckung/endless-sky-plugins

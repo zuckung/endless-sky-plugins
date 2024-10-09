@@ -1,2 +1,0 @@
-Made for the mobile version and adds several new buttons to the lower right corner. See the readme for details.
-(inspired by theweirednut)
