@@ -1,7 +1,9 @@
-name: (manual) Spell Checking
+name: (on push) Spell Checking
 
-on: 
-  workflow_dispatch:
+on:
+  push:
+    paths:
+      - 'myplugins/**'
 
 jobs:
   codespell:
