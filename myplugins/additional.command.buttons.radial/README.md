@@ -18,6 +18,9 @@ This plugin<br>
 <br>
 Changelog:<br>
 <br>
+2024-10-11<br>
+added fleet formations button<br>
+<br>
 2024-10-07<br>
 added fleet hold fire button<br>
 <br>
