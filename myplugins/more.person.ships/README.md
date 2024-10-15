@@ -15,13 +15,17 @@ The Emperor | Unfettered Hai territory | Emperor Beetle (unused vanilla ship)(@2
 Eco-One | Human territory | Eco (new ship)<br>
 Explorer Corps | Human territory | 3xBadger (new ship)<br>
 Coinin Tapa | east of Gegno territory| Coinin (new ship with new outfits)<br>
-Sesk Lem | Korath territory | Ikatila'ej (new ship, unused vanilla sprites)(@2x in official hdpi plugin)<br>
+Sesk Lem | Korath territory | Ikatila'ej (new ship, vanilla sprites)(@2x in official hdpi plugin)<br>
+Planet Express | everywhere | Old Bessie (new ship, stats by timeout.fu)
 <br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships01.jpg' width='400'>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships02.jpg' width='400'>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-10-15<br>
+added Futurama person ship (thx timeout.fu for stats and texts)<br>
 <br>
 2024-10-08<br>
 added status mission to Earth<br>

@@ -1,0 +1,130 @@
+# shipyard "Futurama"
+# planet "Prime"
+# outfit "mps_elephant_detector"
+# outfit "mps_giraffe_3_net"
+# ship "mps_old_bessie"
+# person "Planet Express"
+
+
+
+outfit "mps_elephant_detector"
+	"display name" "Elephant Detector"
+	category "Systems"
+	cost 610000
+	thumbnail "outfit/elephant_detector"
+	"mass" 10
+	"outfit space" -10
+	"cargo scan power" 75
+	"cargo scan efficiency" 10
+	"outfit scan power" 13
+	"outfit scan efficiency" 12
+	"tactical scan power" 84
+	"heat generation" 2
+	description "Detects elephants, can be set to ‘large and woolly‘ to locate mammoths. As there are neither elephants nor mammoths in ES, it is limited to the detection of Subsidurials instead. Or ships, cargo, outfits and other useless stuff."
+
+
+outfit "mps_giraffe_3_net"
+	"display name" "Giraffe 3 Net"
+	category "Turrets"
+	cost 85000
+	thumbnail "outfit/giraffe_net"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/tractor beam"
+		"hardpoint offset" 4.
+		sound "tractor beam"
+		"hit effect" "tractor beam"
+		"tractor beam" 8
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.4
+		"firing heat" .9
+	description "Net launcher to catch giraffes. But if one insists, it can be applied on asteroids and stuff, being more effective than a tractor beam, until the ES team finally implements giraffes, a request made long ago and totally ignored without any reason."
+
+
+ship "mps_old_bessie"
+	"display name" "Old Bessie"
+	sprite "ship/planetexpress"
+	attributes
+		category "Transport"
+		"cost" 9100000
+		"shields" 9200
+		"hull" 3800
+		"automaton" 1
+		"crew equivalent" 1
+		"bunks" 7
+		"mass" 1025
+		"drag" 7.3
+		"heat dissipation" .44
+		"fuel capacity" 1000
+		"cargo space" 160
+		"outfit space" 600
+		"weapon capacity" 190
+		"engine capacity" 120
+		"drill port" 1
+		"drill lock" -1
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Asteroid Scanner"
+		"mps_elephant_detector"
+		"mps_giraffe_3_net"
+		"Liquid Helium Cooler"
+		"Shield Disruptor Turret"
+		Torpedo 60
+		"Torpedo Launcher" 2
+		"Excavator"
+		"Command Center"
+		"Dark Reactor"
+		"Systems Core (Small)"
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Jump Drive"
+		"Scram Drive"
+		"Quantum Keystone"
+	engine -9 132.5
+	engine 9 132.5
+	gun 0 -177
+	gun 13 -166
+	gun -13 -166
+	turret 0 -34
+	turret 0 -34
+	leak "leak" 34 -113
+	leak "big leak" 33 110
+	explode "tiny explosion" 15
+	explode "small explosion" 30
+	explode "medium explosion" 30
+	explode "large explosion" 15
+	"final explode" "final explosion large"
+	description "The ‘Old Bessie‘, also known as ‘USS Planet Express Ship‘, is an robotic intergalactic delivery spacecraft designed and built by Prof. Farnsworth, painted in electric mucus and owned by Planet Express."
+
+
+person "Planet Express"
+	frequency 1000
+	government "Author"
+	personality
+		plunders heroic disables unconstrained surveillance
+	phrase
+		word
+			"This is it. The moment we should have trained for."
+			"Hey sexy mama. Wanna kill all humans?"
+			"Blackmail is such an ugly word. I prefer extortion. The ‘x’ makes it sound cool"
+			"My story is a lot like yours, only more interesting ‘cause it involves robots."
+			"Everyone, I have a very dramatic announcement. So anyone with a weak heart should leave now. Goodbye."
+			"I'm going to build my own star system with blackjack and hookers."
+			"Woah, woah! Why should my tax-money pay for art I find offensive?"
+			"NOOOOOOOOOOOOO!!!!!!"
+			"I'm afraid I can't do that, Leela."
+			"Fire detected in the vicinity of Leela."
+			"Me...want...engulf...Bender! Raaaaaaaaa!!"
+			"We're gonna love being each other, you sexy ion."
+			"Bender! Are you looking at other women?"
+	ship "mps_old_bessie" "Planet Express"
