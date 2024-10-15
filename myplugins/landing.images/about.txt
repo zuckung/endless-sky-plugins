@@ -1,1 +1,1 @@
-Moves the landing image above the text, instead of the vanilla behind the text (for the android version). See the README
+Moves the landing image above the text, instead of the vanilla behind the text (for the android version). See the README for details.

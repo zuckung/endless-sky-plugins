@@ -1,1 +1,1 @@
-Reworks the Human area labels and adds area borders. See the readme for details.
+Reworks the Human area labels and adds area borders. See the README for details.

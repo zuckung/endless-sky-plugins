@@ -1,1 +1,1 @@
-Brings jump drive equipped automata into human space after the wanderer campaign. See the readme for details.
+Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.

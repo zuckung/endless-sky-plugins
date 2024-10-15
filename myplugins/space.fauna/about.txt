@@ -1,1 +1,1 @@
-Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive. See the readme for details.
+Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive. See the README for details.

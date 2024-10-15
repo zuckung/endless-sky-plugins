@@ -1,1 +1,1 @@
-Makes person ships capturable. See the readme for details.
+Makes person ships capturable. See the README for details.

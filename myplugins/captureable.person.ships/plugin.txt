@@ -1,2 +1,2 @@
 name "captureable.person.ships"
-about "Makes person ships capturable. See the readme for details."
+about "Makes person ships capturable. See the README for details."

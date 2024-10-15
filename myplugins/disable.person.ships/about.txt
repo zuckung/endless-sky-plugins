@@ -1,1 +1,1 @@
-Disables all person ships. See the readme for details.
+Disables all person ships. See the README for details.
