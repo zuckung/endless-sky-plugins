@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-11 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-15 | update: more.person.ships<br>
+2024-10-11 | update: additional.command.buttons.radial<br>
 2024-10-09 | update: better.starts<br>
 2024-10-08 | update: captureable.person.ships<br>
 2024-10-08 | update: additional.command.buttons.radial<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-10-06 | update: landing.images.highres<br>
 2024-10-06 | update: landing.images<br>
 2024-10-02 | update: uniques<br>
-2024-09-29 | update: too.many.asteroids<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2514,7 +2514,7 @@ added icon and reworked readme<br>
 
 <img src="myplugins/more.person.ships/icon.png" height="100">
 
-[more.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-more.person.ships/more.person.ships.zip) | 4.18 mb | 2024-08-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/) <br>
+[more.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-more.person.ships/more.person.ships.zip) | 4.6 mb | 2024-10-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/) <br>
 <br>
 >This plugin adds more person ships to the different regions of the galaxy. See the README for details.
 
@@ -2554,7 +2554,9 @@ Explorer Corps | Human territory | 3xBadger (new ship)<br>
 
 Coinin Tapa | east of Gegno territory| Coinin (new ship with new outfits)<br>
 
-Sesk Lem | Korath territory | Ikatila'ej (new ship, unused vanilla sprites)(@2x in official hdpi plugin)<br>
+Sesk Lem | Korath territory | Ikatila'ej (new ship, vanilla sprites)(@2x in official hdpi plugin)<br>
+
+Planet Express | everywhere | Old Bessie (new ship, stats by timeout.fu)
 
 <br>
 
@@ -2567,6 +2569,12 @@ Sesk Lem | Korath territory | Ikatila'ej (new ship, unused vanilla sprites)(@2x 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-15<br>
+
+added Futurama person ship (thx timeout.fu for stats and texts)<br>
 
 <br>
 
