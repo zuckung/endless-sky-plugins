@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-29 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-29 | update: gegno.pirates<br>
+2024-10-29 | update: additional.command.buttons.radial<br>
 2024-10-29 | update: kor.efret.shipyard<br>
 2024-10-15 | update: more.person.ships<br>
 2024-10-11 | update: additional.command.buttons.radial<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-10-08 | update: additional.command.buttons.radial<br>
 2024-10-06 | update: expert.crew.members<br>
 2024-10-06 | update: quarg.farm<br>
-2024-10-06 | update: landing.images.highres<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1463,6 +1463,16 @@ Changelog:<br>
 
 <br>
 
+2024-10-29<br>
+
+fixed wrong outfitter at planet Sapphire<br>
+
+added @2x images<br>
+
+renamed files to be unique<br>
+
+<br>
+
 2024-07-13<br>
 
 removed the need to land on the same planet after accepting an investment job<br>
@@ -1530,7 +1540,7 @@ moved investment missions from spaceport mission to job board<br>
 
 <img src="myplugins/gegno.pirates/icon.png" height="100">
 
-[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-gegno.pirates/gegno.pirates.zip) | 238.11 kb | 2024-04-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
+[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-gegno.pirates/gegno.pirates.zip) | 238.14 kb | 2024-10-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
 <br>
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the README for details.
 
@@ -1605,6 +1615,12 @@ Remove the 8 lines containing: "Gegno Civilian" "Gegno Driller"	 "Scin Adjutant"
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-29<br>
+
+added ship Rhyolite to sale<br>
 
 <br>
 
