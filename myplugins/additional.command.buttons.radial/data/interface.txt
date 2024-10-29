@@ -281,13 +281,13 @@ interface "main buttons" bottom right
 	sprite "ui/icon_hold_fire_d"
 		center -378 52
 		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_hold_fire"
-		center -378 52
-		dimensions 40 40
-	button "Fleet: Toggle hold fire"
-		center -378 52
-		radius 22
+#	visible if "has fleet"
+#	sprite "ui/icon_hold_fire"
+#		center -378 52
+#		dimensions 40 40
+#	button "Fleet: Toggle hold fire"
+#		center -378 52
+#		radius 22
 
 	# top right fleet formations button
 	visible

@@ -25,6 +25,7 @@ Available outfits:<br>
 <li>System Core (Large)</li>
 <li>System Core (Medium)</li>
 <li>System Core (Small)</li>
+<li>System Core (Tiny)</li>
 <li>Plasma Core</li>
 <li>Double Plasma Core</li>
 <li>Triple Plasma Core</li>
@@ -63,6 +64,9 @@ Available outfits:<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-10-29<br>
+added System Core (Tiny), (thx timeout.fu)<br>
 <br>
 2023-10-17<br>
 added plugin.txt<br>

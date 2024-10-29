@@ -18,6 +18,9 @@ This plugin<br>
 <br>
 Changelog:<br>
 <br>
+2024-10-29<br>
+deactivated hold fire button, because it got removed in 0.10.10<br>
+<br>
 2024-10-11<br>
 added fleet formations button<br>
 <br>
