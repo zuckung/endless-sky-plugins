@@ -1,3 +1,4 @@
+2024-10-29 | update: kor.efret.shipyard
 2024-10-15 | update: more.person.ships
 2024-10-11 | update: additional.command.buttons.radial
 2024-10-09 | update: better.starts

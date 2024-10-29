@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-15 | update: more.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-29 | update: kor.efret.shipyard<br>
+2024-10-15 | update: more.person.ships<br>
 2024-10-11 | update: additional.command.buttons.radial<br>
 2024-10-09 | update: better.starts<br>
 2024-10-08 | update: captureable.person.ships<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-10-06 | update: quarg.farm<br>
 2024-10-06 | update: landing.images.highres<br>
 2024-10-06 | update: landing.images<br>
-2024-10-02 | update: uniques<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -126,6 +126,12 @@ Changelog:<br>
 
 <br>
 
+2024-10-29<br>
+
+deactivated hold fire button, because it got removed in 0.10.10<br>
+
+<br>
+
 2024-10-11<br>
 
 added fleet formations button<br>
@@ -202,7 +208,7 @@ initial release<br>
 
 [automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.08 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) <br>
 <br>
->Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the readme for details.
+>Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -277,7 +283,7 @@ changed readme<br>
 
 [automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.in.human.space/automata.in.human.space.zip) | 35.86 kb | 2024-09-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) <br>
 <br>
->Brings jump drive equipped automata into human space after the wanderer campaign. See the readme for details.
+>Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -338,7 +344,7 @@ changed icon.png<br>
 
 [better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-better.starts/better.starts.zip) | 22.9 kb | 2024-10-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
 <br>
->Adds several new start options with different ships, background stories, credits and debts. See the readme for details.
+>Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -459,7 +465,7 @@ added Start Explorer to Automata<br>
 
 [bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-bunrodea.missions/bunrodea.missions.zip) | 1.29 mb | 2024-06-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <br>
 <br>
->Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the readme for details.
+>Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the README for details.
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### bunrodea.missions
@@ -663,7 +669,7 @@ initial release<br>
 
 [captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.5-captureable.person.ships/captureable.person.ships.zip) | 138.87 kb | 2024-10-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <br>
 <br>
->Makes person ships capturable. See the readme for details.
+>Makes person ships capturable. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -925,7 +931,7 @@ initial release<br>
 
 [control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-control.station/control.station.zip) | 231.84 kb | 2024-05-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <br>
 <br>
->Adds a station to the Sol system that offers administrative functions started by the job board. See the readme for details.
+>Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1018,7 +1024,7 @@ initial release<br>
 
 [disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-disable.person.ships/disable.person.ships.zip) | 20.08 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <br>
 <br>
->Disables all person ships. See the readme for details.
+>Disables all person ships. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1102,7 +1108,7 @@ added icon.png<br>
 
 [disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.1-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) | 20.57 kb | 2024-05-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <br>
 <br>
->Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the readme for details.
+>Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1214,7 +1220,7 @@ added icon.png<br>
 
 [expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-expert.crew.members/expert.crew.members.zip) | 7.94 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <br>
 <br>
->Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the readme for details.
+>Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the README for details.
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### expert.crew.members
@@ -1359,7 +1365,7 @@ initial release<br>
 
 [free.worlds.5.years.later.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-free.worlds.5.years.later/free.worlds.5.years.later.zip) | 30.62 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/free.worlds.5.years.later/) <br>
 <br>
->Lets the free world war begin 5 years later. See the readme for details.
+>Lets the free world war begin 5 years later. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1411,7 +1417,7 @@ added plugin.txt<br>
 
 [galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.3-galactic.capital.investment/galactic.capital.investment.zip) | 691.06 kb | 2024-07-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
 <br>
->Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits. See the readme for details.
+>Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1526,7 +1532,7 @@ moved investment missions from spaceport mission to job board<br>
 
 [gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-gegno.pirates/gegno.pirates.zip) | 238.11 kb | 2024-04-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) <br>
 <br>
->Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the readme for details.
+>Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1669,7 +1675,7 @@ initial release<br>
 
 [hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) | 32.52 kb | 2024-09-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) <br>
 <br>
->Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now. See the readme for details.
+>Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1746,7 +1752,7 @@ initial release<br>
 
 [human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-human.labels/human.labels.zip) | 338.79 kb | 2024-07-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) <br>
 <br>
->Reworks the Human area labels and adds area borders. See the readme for details.
+>Reworks the Human area labels and adds area borders. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1915,9 +1921,9 @@ initial release<br>
 
 <img src="myplugins/kor.efret.shipyard/icon.png" height="100">
 
-[kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-kor.efret.shipyard/kor.efret.shipyard.zip) | 30.2 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor.efret.shipyard/) <br>
+[kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-kor.efret.shipyard/kor.efret.shipyard.zip) | 30.24 kb | 2024-10-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor.efret.shipyard/) <br>
 <br>
->Adds a shipyard with the three Kor Efret ships to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships and some Korath Exiles outfits. See the readme for details.
+>Adds a shipyard with the three Kor Efret ships to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships and some Korath Exiles outfits. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1974,6 +1980,8 @@ Available outfits:<br>
 <li>System Core (Medium)</li>
 
 <li>System Core (Small)</li>
+
+<li>System Core (Tiny)</li>
 
 <li>Plasma Core</li>
 
@@ -2053,6 +2061,12 @@ Changelog:<br>
 
 <br>
 
+2024-10-29<br>
+
+added System Core (Tiny), (thx timeout.fu)<br>
+
+<br>
+
 2023-10-17<br>
 
 added plugin.txt<br>
@@ -2079,7 +2093,7 @@ reworked readme<br>
 
 [landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-landing.images/landing.images.zip) | 15.32 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
 <br>
->Moves the landing image above the text, instead of the vanilla behind the text (for the android version). See the README
+>Moves the landing image above the text, instead of the vanilla behind the text (for the android version). See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2280,7 +2294,7 @@ initial release<br>
 
 [more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-more.arfectas/more.arfectas.zip) | 30.79 kb | 2024-04-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <br>
 <br>
->Adds the new system 'Mego Pug', in eastern Bunrodea space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the readme for details.
+>Adds the new system 'Mego Pug', in eastern Bunrodea space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2332,7 +2346,7 @@ added plugin.txt<br>
 
 [more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.3-more.boarding.missions/more.boarding.missions.zip) | 1.4 mb | 2024-05-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <br>
 <br>
->Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the readme for details.
+>Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the README for details.
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### more.boarding.missions <br>
@@ -2625,7 +2639,7 @@ initial release<br>
 
 [navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-navy.licenses/navy.licenses.zip) | 81.51 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) <br>
 <br>
->Adds a mission on Stormhold(Alcyone system) which leads you to Geminus(Castor system) to buy the four Navy licenses. See the readme for details.
+>Adds a mission on Stormhold (Alcyone system) which leads you to Geminus (Castor system) to buy the four Navy licenses. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2931,7 +2945,7 @@ initial release<br>
 
 [quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-quarg.farm/quarg.farm.zip) | 26.82 kb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <br>
 <br>
->Adds a new system "Saquerver" (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the readme for details.
+>Adds a new system "Saquerver" (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2980,7 +2994,7 @@ initial release<br>
 
 [show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-show.reputation/show.reputation.zip) | 40.47 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <br>
 <br>
->Enables a job on every planet's job board, that shows the reputation values. See the readme for details.
+>Enables a job on every planet's job board, that shows the reputation values. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -3041,7 +3055,7 @@ initial release<br>
 
 [snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-snowfeather.robotics/snowfeather.robotics.zip) | 1.09 mb | 2024-05-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) <br>
 <br>
->Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). Starts on Snowfeather(Bore Fah) when having at least one android installed. See the readme for details.
+>Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). Starts on Snowfeather(Bore Fah) when having at least one android installed. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -3129,7 +3143,7 @@ removed remnant mission requirement<br>
 
 [space.fauna.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.2-space.fauna/space.fauna.zip) | 1.67 mb | 2024-05-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/space.fauna/) <br>
 <br>
->Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive. See the readme for details.
+>Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
