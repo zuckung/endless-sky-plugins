@@ -19,6 +19,11 @@ These investments pay off after 2.3 to 4.5 years. Higher investments pay off fas
 <br>
 Changelog:<br>
 <br>
+2024-10-29<br>
+fixed wrong outfitter at planet Sapphire<br>
+added @2x images<br>
+renamed files to be unique<br>
+<br>
 2024-07-13<br>
 removed the need to land on the same planet after accepting an investment job<br>
 text corrections<br>

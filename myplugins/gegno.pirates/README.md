@@ -34,6 +34,9 @@ Remove the 8 lines containing: "Gegno Civilian" "Gegno Driller"	 "Scin Adjutant"
 <br>
 Changelog:<br>
 <br>
+2024-10-29<br>
+added ship Rhyolite to sale<br>
+<br>
 2024-03-20<br>
 fixed missing hyperlink from asio to uuba (thx isaias for reporting)<br>
 <br>
