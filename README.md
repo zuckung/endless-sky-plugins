@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-29 | update: gegno.pirates<br>
+<table><tr><td><img width="882" height="1"><br>2024-10-29 | update: galactic.capital.investment<br>
+2024-10-29 | update: gegno.pirates<br>
 2024-10-29 | update: additional.command.buttons.radial<br>
 2024-10-29 | update: kor.efret.shipyard<br>
 2024-10-15 | update: more.person.ships<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-10-08 | update: captureable.person.ships<br>
 2024-10-08 | update: additional.command.buttons.radial<br>
 2024-10-06 | update: expert.crew.members<br>
-2024-10-06 | update: quarg.farm<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1415,7 +1415,7 @@ added plugin.txt<br>
 
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.3-galactic.capital.investment/galactic.capital.investment.zip) | 691.06 kb | 2024-07-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-galactic.capital.investment/galactic.capital.investment.zip) | 2.0 mb | 2024-10-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <br>
 <br>
 >Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits. See the README for details.
 
