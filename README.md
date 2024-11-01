@@ -2109,7 +2109,7 @@ reworked readme<br>
 
 [landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-landing.images/landing.images.zip) | 15.32 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <br>
 <br>
->Moves the landing image above the text, instead of the vanilla behind the text (for the android version). See the README for details.
+>Replaces all planet landing images with better fitting ones. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
