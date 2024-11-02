@@ -32,7 +32,7 @@ paint.your.ships|1.0.1
 planet.map|1.0.1
 quarg.farm|1.0.2
 real.fluff|1.0.8
-show.reputation|1.0.0
+show.reputation|1.0.1
 snowfeather.robotics|1.0.3
 space.fauna|1.1.2
 too.many.asteroids|1.0.3

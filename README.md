@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-02 | update: better.starts<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-02 | update: show.reputation<br>
+2024-11-02 | update: better.starts<br>
 2024-10-29 | update: galactic.capital.investment<br>
 2024-10-29 | update: gegno.pirates<br>
 2024-10-29 | update: additional.command.buttons.radial<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-10-11 | update: additional.command.buttons.radial<br>
 2024-10-09 | update: better.starts<br>
 2024-10-08 | update: captureable.person.ships<br>
-2024-10-08 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3014,7 +3014,7 @@ initial release<br>
 
 <img src="myplugins/show.reputation/icon.png" height="100">
 
-[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-show.reputation/show.reputation.zip) | 40.47 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <br>
+[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-show.reputation/show.reputation.zip) | 40.72 kb | 2024-11-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <br>
 <br>
 >Enables a job on every planet's job board, that shows the reputation values. See the README for details.
 
