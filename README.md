@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-10-29 | update: galactic.capital.investment<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-02 | update: better.starts<br>
+2024-10-29 | update: galactic.capital.investment<br>
 2024-10-29 | update: gegno.pirates<br>
 2024-10-29 | update: additional.command.buttons.radial<br>
 2024-10-29 | update: kor.efret.shipyard<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-10-09 | update: better.starts<br>
 2024-10-08 | update: captureable.person.ships<br>
 2024-10-08 | update: additional.command.buttons.radial<br>
-2024-10-06 | update: expert.crew.members<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -342,7 +342,7 @@ changed icon.png<br>
 
 <img src="myplugins/better.starts/icon.png" height="100">
 
-[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-better.starts/better.starts.zip) | 22.9 kb | 2024-10-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
+[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-better.starts/better.starts.zip) | 23.21 kb | 2024-11-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
@@ -389,6 +389,12 @@ Beside the cheater start options, all others are balanced and lore friendly. A b
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-11-02 <br>
+
+changed cheater 2 start heron to have 20 heavy warship bays<br>
 
 <br>
 
@@ -3024,7 +3030,7 @@ Enables a job on every planet's job board, that shows the reputation values.<br>
 
 <br>
 
-Accept the job, start, land again, and the reputations conversation pops up. Then you can choose between viewing the 35 most useful or all.<br>
+Accept the job and the reputations conversation pops up. Then you can choose between viewing the 35 most useful or all.<br>
 
 <br>
 
@@ -3041,6 +3047,14 @@ Accept the job, start, land again, and the reputations conversation pops up. The
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-11-02<br>
+
+added 0.10.9 govs<br>
+
+changed to show on job accept instead of landing<br>
 
 <br>
 

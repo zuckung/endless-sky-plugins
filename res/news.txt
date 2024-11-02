@@ -1,3 +1,4 @@
+2024-11-02 | update: better.starts
 2024-10-29 | update: galactic.capital.investment
 2024-10-29 | update: gegno.pirates
 2024-10-29 | update: additional.command.buttons.radial
