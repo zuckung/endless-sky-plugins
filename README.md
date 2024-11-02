@@ -114,7 +114,15 @@ This plugin<br>
 
 - puts images behind the buttons.<br>
 
+<br>
+
+To change the colour of the buttons, copy the contents of your desired colour folder 'images/ui/color' to 'images/ui/' and overwrite the files there.<br>
+
+<br>
+
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial01.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial02.jpg' width='400'>
 
 <br>
 
@@ -123,6 +131,16 @@ This plugin<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-11-02<br>
+
+removed hold fire button, because it's unsure when/if it comes back<br>
+
+changed fast forward button back to small again, because it messed up the mission overview<br>
+
+added 5 colour schemes(red, green, blue, purple, orange)
 
 <br>
 
@@ -3014,7 +3032,7 @@ initial release<br>
 
 <img src="myplugins/show.reputation/icon.png" height="100">
 
-[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-show.reputation/show.reputation.zip) | 40.72 kb | 2024-11-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <br>
+[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-show.reputation/show.reputation.zip) | 40.71 kb | 2024-11-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <br>
 <br>
 >Enables a job on every planet's job board, that shows the reputation values. See the README for details.
 
