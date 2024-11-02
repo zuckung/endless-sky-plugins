@@ -1,9 +1,15 @@
+# category "bay type"
 # mission "add full map"
 # outfit "Full Human Space Map"
 # ship "Quarg Skylark" "Quarg Skylark (Explorer)"
 # ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Disabler)"
 # ship "Heron" "Heron (Disabler)"
 # ship "Heron" "Heron (Quarg)"
+
+
+
+category "bay type"
+	"Heavy Warship"
 
 
 mission "add full map"
@@ -102,3 +108,75 @@ ship "Heron" "Heron (Quarg)"
 		"Medium Graviton Steering" 7
 		"Medium Graviton Thruster" 7
 		"Research Laboratory"
+	bay "Heavy Warship" -124 -122.5
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" 124 -122.5
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" -176 -50.5
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" 176 -50.5
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" -148.5 4
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" 148.5 4
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" -56 -150
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" 56 -150
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" -37 -121.5
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" 37 -121.5
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" -33.5 -99
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" 33.5 -99
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" -27 -81
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" 27 -81
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" -24 -49.5
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" 24 -49.5
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" -40 -3
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" 40 -3
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" -28 22.5
+		"launch effect" "remnant internal"
+	bay "Heavy Warship" 28 22.5
+		"launch effect" "remnant internal"
+	bay "Drone" -77.5 71.5
+		"launch effect" "remnant internal"
+	bay "Drone" 77.5 71.5
+		"launch effect" "remnant internal"
+	bay "Drone" -89.5 114
+		"launch effect" "remnant internal"
+	bay "Drone" 89.5 114
+		"launch effect" "remnant internal"
+	bay "Drone" -138.5 152.5
+		"launch effect" "remnant internal"
+	bay "Drone" 138.5 152.5
+		"launch effect" "remnant internal"
+	bay "Drone" -171 165.5
+		"launch effect" "remnant internal"
+	bay "Drone" 171 165.5
+		"launch effect" "remnant internal"
+	bay "Drone" -190.5 197.5
+		"launch effect" "remnant internal"
+	bay "Drone" 190.5 197.5
+		"launch effect" "remnant internal"
+	bay "Drone" -105 229.5
+		"launch effect" "remnant internal"
+	bay "Drone" 105 229.5
+		"launch effect" "remnant internal"
+	bay "Fighter" -31 70.5
+		"launch effect" "remnant internal"
+	bay "Fighter" 31 70.5
+		"launch effect" "remnant internal"
+	bay "Fighter" -40 190
+		"launch effect" "remnant internal"
+	bay "Fighter" 40 190
+		"launch effect" "remnant internal"

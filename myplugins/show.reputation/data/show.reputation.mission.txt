@@ -3,7 +3,7 @@ mission "show reputation"
 	repeat
 	name "(Show Reputations)"
 	description "Shows a list of reputations. Accept mission, start and land again."
-	on complete
+	on accept
 		conversation
 			label menu
 			scene "outfit/icon"
@@ -14,7 +14,7 @@ mission "show reputation"
 					goto selrep
 				`	Reputation List (all)`
 					goto fullrep
-				`	close this`
+				`	close this conversation`
 					goto end
 			label selrep
 			`Reputation List (selected 35)`
@@ -71,11 +71,14 @@ mission "show reputation"
 			`&[reputation: Bounty Hunter]	Bounty Hunter`
 			`&[reputation: Bounty Hunter that Won't Enter Hai Space]	Bounty Hunter that Won't Enter Hai Space`
 			`&[reputation: Coalition]	Coalition`
+			`&[reputation: Conlatio]	Conlatio`
 			`&[reputation: Deep]	Deep`
 			`&[reputation: Deep Security]	Deep Security`
 			`&[reputation: Derelict]	Derelict`
+			`&[reputation: Derelict (Boardable)]	Derelict (Boardable)`
 			`&[reputation: Drak]	Drak`
 			`&[reputation: Drak (Hostile)]	Drak (Hostile)`
+			`&[reputation: Drak (Incipias)]	Drak (Incipias)`
 			`&[reputation: Elenctic Commune]	Elenctic Commune`
 			`&[reputation: Escort]	Escort`
 			`&[reputation: Escort (Betraying)]	Escort (Betraying)`
@@ -89,6 +92,8 @@ mission "show reputation"
 			`&[reputation: Gegno Vi (Neutral)]	Gegno Vi (Neutral)`
 			`&[reputation: Gegno Vi (Duelist A)]	Gegno Vi (Duelist A)`
 			`&[reputation: Gegno Vi (Duelist B)]	Gegno Vi (Duelist B)`
+			`&[reputation: Gegno Vi (Combative)]	Gegno Vi (Combative)`
+			`&[reputation: Gegno Scin (Combative)]	Gegno Scin (Combative)`
 			`&[reputation: Hai]	Hai`
 			`&[reputation: Hai (Wormhole Access)]	Hai (Wormhole Access)`
 			`&[reputation: Hai Merchant]	Hai Merchant`
@@ -100,6 +105,14 @@ mission "show reputation"
 			`&[reputation: Hai (Unfettered Civilians)]	Hai (Unfettered Civilians)`
 			`&[reputation: Heliarch]	Heliarch`
 			`&[reputation: Heliarch Test Dummy]	Heliarch Test Dummy`
+			`&[reputation: Hicemus]	Hicemus`
+			`&[reputation: House Aqrabe]	House Aqrabe`
+			`&[reputation: House Chydiyi]	House Chydiyi`
+			`&[reputation: House Kaatrij]	House Kaatrij`
+			`&[reputation: House Myurej]	House Myurej`
+			`&[reputation: House Seineq]	House Seineq`
+			`&[reputation: House Sioeora]	House Sioeora`
+			`&[reputation: Incipias Civilian]	Incipias Civilian`
 			`&[reputation: Independent]	Independent`
 			`&[reputation: Independent (Killable)]	Independent (Killable)`
 			`&[reputation: Indigenous Lifeform]	Indigenous Lifeform`
@@ -119,19 +132,24 @@ mission "show reputation"
 			`&[reputation: Lunarium (Hidden)]	Lunarium (Hidden)`
 			`&[reputation: Marauder]	Marauder`
 			`&[reputation: Merchant]	Merchant`
-			`&[reputation: Merchant (Hijacked)]	Merchant (Hijacked)`
 			`&[reputation: Militia]	Militia`
 			`&[reputation: Navy Intelligence]	Navy Intelligence`
 			`&[reputation: Navy (Oathkeeper)]	Navy (Oathkeeper)`
 			`&[reputation: Neutral]	Neutral`
+			`&[reputation: New Houses]	New Houses`
+			`&[reputation: Old Houses]	Old Houses`
 			`&[reputation: Parrot]	Parrot`
+			`&[reputation: People's Houses]	People's Houses`
+			`&[reputation: People's Houses (Hostile)]	People's Houses (Hostile)`
 			`&[reputation: Pirate]	Pirate`
 			`&[reputation: Pirate (Devil-Run Gang)]	Pirate (Devil-Run Gang)`
 			`&[reputation: Pirate (Rival)]	Pirate (Rival)`
+			`&[reputation: government Predecessor]	government Predecessor`
 			`&[reputation: Pug]	Pug`
 			`&[reputation: Pug (Wanderer)]	Pug (Wanderer)`
 			`&[reputation: Quarg]	Quarg`
 			`&[reputation: Quarg (Hai)]	Quarg (Hai)`
+			`&[reputation: Quarg (Incipias)]	Quarg (Incipias)`
 			`&[reputation: Quarg (Kor Efret)]	Quarg (Kor Efret)`
 			`&[reputation: Quarg (Gegno)]	Quarg (Gegno)`
 			`&[reputation: Remnant]	Remnant`
@@ -144,7 +162,9 @@ mission "show reputation"
 			`&[reputation: Scar's Legion]	Scar's Legion`
 			`&[reputation: Scar's Legion (Killable)]	Scar's Legion (Killable)`
 			`&[reputation: Sheragi]	Sheragi`
+			`&[reputation: Silent Ones]	Silent Ones`
 			`&[reputation: Smuggler (Hai Trafficker)]	Smuggler (Hai Trafficker)`
+			`&[reputation: government Successor]	government Successor`
 			`&[reputation: Syndicate]	Syndicate`
 			`&[reputation: Syndicate (Extremist)]	Syndicate (Extremist)`
 			`&[reputation: Team Blue]	Team Blue`
@@ -158,4 +178,6 @@ mission "show reputation"
 			`&[reputation: Syndicate (Hostile)]	Syndicate (Hostile)`
 				goto menu
 			label end
-				decline
+				accept
+	on daily
+		fail

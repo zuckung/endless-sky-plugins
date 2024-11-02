@@ -3,7 +3,7 @@
 <br>
 Enables a job on every planet's job board, that shows the reputation values.<br>
 <br>
-Accept the job, start, land again, and the reputations conversation pops up. Then you can choose between viewing the 35 most useful or all.<br>
+Accept the job and the reputations conversation pops up. Then you can choose between viewing the 35 most useful or all.<br>
 <br>
 <br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/show.reputation/screenshot.jpg' width='100'>
@@ -12,6 +12,10 @@ Accept the job, start, land again, and the reputations conversation pops up. The
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-11-02<br>
+added 0.10.9 govs<br>
+changed to show on job accept instead of landing<br>
 <br>
 2024-03-16<br>
 added option to show all rep values or just the 35 most useful<br>

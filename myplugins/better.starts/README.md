@@ -20,6 +20,9 @@ Beside the cheater start options, all others are balanced and lore friendly. A b
 <br>
 Changelog:<br>
 <br>
+2024-11-02 <br>
+changed cheater 2 start heron to have 20 heavy warship bays<br>
+<br>
 2024-10-08 <br>
 proofreading and minor text changes (Vemenous-Repentile)<br>
 added a new cheater start with Quarg outfits, ships and more credits<br>
