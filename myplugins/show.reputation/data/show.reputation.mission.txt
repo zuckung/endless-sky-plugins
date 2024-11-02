@@ -144,7 +144,7 @@ mission "show reputation"
 			`&[reputation: Pirate]	Pirate`
 			`&[reputation: Pirate (Devil-Run Gang)]	Pirate (Devil-Run Gang)`
 			`&[reputation: Pirate (Rival)]	Pirate (Rival)`
-			`&[reputation: government Predecessor]	government Predecessor`
+			`&[reputation: Predecessor]	Predecessor`
 			`&[reputation: Pug]	Pug`
 			`&[reputation: Pug (Wanderer)]	Pug (Wanderer)`
 			`&[reputation: Quarg]	Quarg`
@@ -164,7 +164,7 @@ mission "show reputation"
 			`&[reputation: Sheragi]	Sheragi`
 			`&[reputation: Silent Ones]	Silent Ones`
 			`&[reputation: Smuggler (Hai Trafficker)]	Smuggler (Hai Trafficker)`
-			`&[reputation: government Successor]	government Successor`
+			`&[reputation: Successor]	Successor`
 			`&[reputation: Syndicate]	Syndicate`
 			`&[reputation: Syndicate (Extremist)]	Syndicate (Extremist)`
 			`&[reputation: Team Blue]	Team Blue`

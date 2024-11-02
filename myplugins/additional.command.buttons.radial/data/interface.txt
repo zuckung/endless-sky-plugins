@@ -220,7 +220,7 @@ interface "main buttons" bottom right
 	anchor top right
 	visible
 	sprite "ui/buttonbox2"
-		from -162 0 to -600 80
+		from -162 0 to -547 80
 	label "Fleet Commands"
 		from -352 20
 		size 14
@@ -228,59 +228,59 @@ interface "main buttons" bottom right
 	# top right fleet attack button
 	visible
 	sprite "ui/round_button_bg"
-		center -534 52
+		center -482 52
 		dimensions 50 50
 	sprite "ui/icon_fleet_fight_d"
-		center -534 52
+		center -482 52
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_fight"
-		center -534 52
+		center -482 52
 		dimensions 40 40
 	button "Fleet: Fight my target"
-		center -534 52
+		center -482 52
 		radius 22
 
 	# top right fleet gather button
 	visible
 	sprite "ui/round_button_bg"
-		center -482 52
+		center -430 52
 		dimensions 50 50
 	sprite "ui/icon_fleet_gather_d"
-		center -482 52
+		center -430 52
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_gather"
-		center -482 52
+		center -430 52
 		dimensions 40 40
 	button "Fleet: Gather around me"
-		center -482 52
+		center -430 52
 		radius 22
 
 	# top right fleet stop button
 	visible
 	sprite "ui/round_button_bg"
-		center -430 52
+		center -378 52
 		dimensions 50 50
 	sprite "ui/icon_fleet_stop_d"
-		center -430 52
+		center -378 52
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_stop"
-		center -430 52
+		center -378 52
 		dimensions 40 40
 	button "Fleet: Hold position"
-		center -430 52
+		center -378 52
 		radius 22
 
 	# top right fleet hold fire button
-	visible
-	sprite "ui/round_button_bg"
-		center -378 52
-		dimensions 50 50
-	sprite "ui/icon_hold_fire_d"
-		center -378 52
-		dimensions 40 40
+#	visible
+#	sprite "ui/round_button_bg"
+#		center -378 52
+#		dimensions 50 50
+#	sprite "ui/icon_hold_fire_d"
+#		center -378 52
+#		dimensions 40 40
 #	visible if "has fleet"
 #	sprite "ui/icon_hold_fire"
 #		center -378 52

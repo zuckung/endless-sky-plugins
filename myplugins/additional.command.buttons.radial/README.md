@@ -12,11 +12,20 @@ This plugin<br>
 - adds zoom buttons
 - greyes out inactive buttons<br>
 - puts images behind the buttons.<br>
+<br>
+To change the colour of the buttons, copy the contents of your desired colour folder 'images/ui/color' to 'images/ui/' and overwrite the files there.<br>
+<br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial01.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial02.jpg' width='400'>
 <br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-11-02<br>
+removed hold fire button, because it's unsure when/if it comes back<br>
+changed fast forward button back to small again, because it messed up the mission overview<br>
+added 5 colour schemes(red, green, blue, purple, orange)
 <br>
 2024-10-29<br>
 deactivated hold fire button, because it got removed in 0.10.10<br>
