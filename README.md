@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-02 | update: show.reputation<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-02 | update: additional.command.buttons.radial<br>
+2024-11-02 | update: show.reputation<br>
 2024-11-02 | update: better.starts<br>
 2024-10-29 | update: galactic.capital.investment<br>
 2024-10-29 | update: gegno.pirates<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-10-15 | update: more.person.ships<br>
 2024-10-11 | update: additional.command.buttons.radial<br>
 2024-10-09 | update: better.starts<br>
-2024-10-08 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -80,7 +80,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 166.77 kb | 2024-10-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 919.46 kb | 2024-11-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
