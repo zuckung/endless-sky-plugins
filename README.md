@@ -15,7 +15,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-02 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-04 | update: kor.efret.shipyard<br>
+2024-11-02 | update: additional.command.buttons.radial<br>
 2024-11-02 | update: show.reputation<br>
 2024-11-02 | update: better.starts<br>
 2024-10-29 | update: galactic.capital.investment<br>
@@ -24,7 +25,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-10-29 | update: kor.efret.shipyard<br>
 2024-10-15 | update: more.person.ships<br>
 2024-10-11 | update: additional.command.buttons.radial<br>
-2024-10-09 | update: better.starts<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1961,7 +1961,7 @@ initial release<br>
 
 <img src="myplugins/kor.efret.shipyard/icon.png" height="100">
 
-[kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-kor.efret.shipyard/kor.efret.shipyard.zip) | 30.24 kb | 2024-10-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor.efret.shipyard/) <br>
+[kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-kor.efret.shipyard/kor.efret.shipyard.zip) | 30.38 kb | 2024-11-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor.efret.shipyard/) <br>
 <br>
 >Adds a shipyard with the three Kor Efret ships to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships and some Korath Exiles outfits. See the README for details.
 
@@ -1996,6 +1996,22 @@ Available ships:<br>
 Available outfits:<br>
 
 <ul>
+
+<li>"Cluster Mine Rack"</li>
+
+<li>"Cluster Mine"</li>
+
+<li>"Piercer Missile Rack"</li>
+
+<li>"Piercer Missile"</li>
+
+<li>"Firestorm Torpedo Rack"</li>
+
+<li>"Firestorm Torpedo"</li>
+
+<li>"Firelight Storage Rack"</li>
+
+<li>"Firelight Missile"</li>
 
 <li>Digger Mining Beam</li>
 
@@ -2098,6 +2114,12 @@ Available outfits:<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-11-04<br>
+
+added korath ammunition (thx to MeretiJane)<br>
 
 <br>
 
