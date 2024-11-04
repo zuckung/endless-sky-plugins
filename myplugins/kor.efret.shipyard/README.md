@@ -13,6 +13,14 @@ Available ships:<br>
 <br>
 Available outfits:<br>
 <ul>
+<li>"Cluster Mine Rack"</li>
+<li>"Cluster Mine"</li>
+<li>"Piercer Missile Rack"</li>
+<li>"Piercer Missile"</li>
+<li>"Firestorm Torpedo Rack"</li>
+<li>"Firestorm Torpedo"</li>
+<li>"Firelight Storage Rack"</li>
+<li>"Firelight Missile"</li>
 <li>Digger Mining Beam</li>
 <li>Banisher Grav-Turret</li>
 <li>Warder Anti-Missile</li>
@@ -64,6 +72,9 @@ Available outfits:<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-11-04<br>
+added korath ammunition (thx to MeretiJane)<br>
 <br>
 2024-10-29<br>
 added System Core (Tiny), (thx timeout.fu)<br>
