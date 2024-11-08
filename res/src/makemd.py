@@ -35,7 +35,53 @@ def make_download_md():
 				rname = obj['tag_name']
 				target.writelines('  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/' + current_repo + 
 					'/' + rname + '/total?color=008000"></a><br>\n')
-				
+
+
+def make_imagemd(name):
+	# get images
+	graphicFiles = []
+	for root, dirs, files in os.walk('myplugins/' + name + '/', topdown=True):
+		for file in files:
+			if file.endswith('.png') or file.endswith('.jpg'):
+				graphicFiles.append(os.path.join(root, file))
+	# write md
+	if len(graphicFiles) > 0:
+		if not os.path.isdir('res/imagemd/'):
+			os.mkdir('res/imagemd/')
+		with open('res/imagemd/' + name + '.md', 'w') as target:
+			pos = 0
+			target.writelines('graphic files for the plugin: ' + name + '<br>\n<br>\n')
+			target.writelines('<table>\n')
+			for file in graphicFiles:
+				last = file.split('/')[len(file.split('/')) - 1]
+				pic = '		<td><img src="https://github.com/zuckung/endless-sky-plugins/blob/main/' + file + '?raw=true"><br>\n'
+				pic2 = '		' + last + '</td>\n'
+				pos += 1
+				if pos%3 == 1%3:
+					target.writelines('	<tr>\n')
+					target.writelines(pic)
+					target.writelines(pic2)
+				elif pos%3 == 2%3:
+					target.writelines(pic)
+					target.writelines(pic2)
+				elif pos%3 == 3%3:
+					target.writelines(pic)
+					target.writelines(pic2)
+					target.writelines('	</tr>\n')
+			print(pos)
+			if pos%3 == 1%3:
+				target.writelines('		<td></td>\n')
+				target.writelines('		<td></td>\n')
+				target.writelines('	</tr>\n')
+			elif pos%3 == 2%3:
+				target.writelines('		<td></td>\n')
+				target.writelines('	</tr>\n')
+			target.writelines('</table>\n')
+		link = '| <a href="res/imagemd/' + name + '.md">view images</a>'
+	else:
+		link = ''
+	return link
+
 
 # read templates
 with open(templatefile, 'r') as file1:
@@ -89,7 +135,6 @@ for entry in entries:
 	withdots = entry.replace(' ', '.')
 	forweb  = entry.replace(' ', '%20')
 	pa_template = p_template
-	
 	# get version number
 	with open('res/versioning.txt', 'r') as read_version:
 		version_lines = read_version.readlines()
@@ -103,21 +148,18 @@ for entry in entries:
 	if found == 0:
 		version_number = '1.0.0'
 	assetfiles = 'https://github.com/zuckung/endless-sky-plugins/releases/download/v' + version_number + '-' + withdots + '/'
-	
 	# get description out of about.txt
 	with open(pathtoplugins + entry + '/about.txt' , 'r') as file1:
 		description_list = file1.readlines()
 	description = ''
 	for line in description_list:
-		description = description + '>' + line
-		
+		description = description + '>' + line	
 	# get readme.md
 	with open(pathtoplugins + entry + '/README.md' , 'r') as file1:
 		readme_list = file1.readlines()
 	readme = ''
 	for line in readme_list:
-		readme = readme + line + '\n'
-          
+		readme = readme + line + '\n' 
 	# get last modified date from the assetfiles
 	try:
 		response = requests.head(assetfiles + withdots + '.zip', allow_redirects=True)
@@ -127,7 +169,6 @@ for entry in entries:
 		modif = response.headers['Last-Modified']
 		datetime_object = datetime.strptime(modif, '%a, %d %b %Y %H:%M:%S %Z')
 		modif = str(datetime_object.date())
-
 	# get file size of the assetfiles in kb or mb
 		assetsize = int(response.headers['Content-Length']) / 1024
 		form = ' kb'
@@ -142,11 +183,9 @@ for entry in entries:
 		icon = '<img src="' + pathtoplugins + entry + '/icon.png" height="100">'
 	else:
 		icon = ''
-	# write the plugin informations to README.md
-	### %name%
-	# [%name%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) <br>
-	# %description% p_template
-
+	# create imagemd and return limk
+	imagemdlink = make_imagemd(entry)
+	# replace template with contents
 	pa_template = pa_template.replace('%name%', entry)
 	pa_template = pa_template.replace('%assetfullpath%', assetfiles)
 	pa_template = pa_template.replace('%assetfile%', withdots + '.zip')
@@ -157,14 +196,13 @@ for entry in entries:
 	pa_template = pa_template.replace('%lastmodified%', modif)
 	pa_template = pa_template.replace('%pluginurl%', pluginurl)
 	pa_template = pa_template.replace('%pluginnameurl%', forweb)
+	pa_template = pa_template.replace('%imagemd%', imagemdlink)
 	pa_template = pa_template.replace('%description%', description)
 	pa_template = pa_template.replace('%readme%', readme)
 	pa_template = pa_template.replace('%icon%', icon)
-	
-	
+	# write index file
 	with open(indexfile, 'a') as file1:
 		file1.writelines(pa_template)
-	
 	print(entry + ' WRITTEN')
 	
 # deleting zip from runner
