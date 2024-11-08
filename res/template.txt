@@ -29,7 +29,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 
 %icon%
 
-[%assetfile%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) <br>
+[%assetfile%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) %imagemd%<br>
 <br>
 %description%
 <details>
