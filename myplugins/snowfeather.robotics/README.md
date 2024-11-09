@@ -14,6 +14,7 @@ The new buyable worker androids are twice as expensive as the original ones, and
 Changelog:<br>
 <br>
 2024-11-09<br>
+corrected scene size<br>
 added @2x images<br>
 <br>
 2024-05-03<br>

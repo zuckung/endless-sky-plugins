@@ -12,6 +12,7 @@ To start the mission to enable these outfitters and shipyards, you have to join 
 Changelog:<br>
 <br>
 2024-11-09<br>
+corrected scene size<br>
 added @2x images<br>
 <br>
 2024-09-15<br>
