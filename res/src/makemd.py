@@ -44,6 +44,7 @@ def make_imagemd(name):
 		for file in files:
 			if file.endswith('.png') or file.endswith('.jpg'):
 				graphicFiles.append(os.path.join(root, file))
+	graphicFiles.sort()
 	# write md
 	if len(graphicFiles) > 0:
 		if not os.path.isdir('res/imagemd/'):
