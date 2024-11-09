@@ -13,6 +13,9 @@ The new buyable worker androids are twice as expensive as the original ones, and
 <br>
 Changelog:<br>
 <br>
+2024-11-09<br>
+added @2x images<br>
+<br>
 2024-05-03<br>
 added 6 combat androids<br>
 added new outfit category "Androids"<br>

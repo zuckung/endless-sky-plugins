@@ -12,6 +12,10 @@ You get the following licenses: Navy license, Navy Auxiliary license, Navy Cruis
 <br>
 Changelog:<br>
 <br>
+2024-11-09<br>
+corrected scene size<br>
+added @2x images <br>
+<br>
 2024-06-07<br>
 text corrections (thx to TheGiraffe3)<br>
 <br>

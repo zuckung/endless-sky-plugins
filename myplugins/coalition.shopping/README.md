@@ -11,6 +11,9 @@ To start the mission to enable these outfitters and shipyards, you have to join 
 <br>
 Changelog:<br>
 <br>
+2024-11-09<br>
+added @2x images<br>
+<br>
 2024-09-15<br>
 some error fixing, adjustments and text improvements (thx to timeout.fu)<br>
 more text adjustments (from TheGiraffe3)<br>
