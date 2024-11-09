@@ -16,7 +16,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-09 | update: navy.licences<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-09 | update: snowfeather.robotics<br>
+2024-11-09 | update: navy.licences<br>
 2024-11-04 | update: kor.efret.shipyard<br>
 2024-11-02 | update: additional.command.buttons.radial<br>
 2024-11-02 | update: show.reputation<br>
@@ -25,7 +26,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-10-29 | update: gegno.pirates<br>
 2024-10-29 | update: additional.command.buttons.radial<br>
 2024-10-29 | update: kor.efret.shipyard<br>
-2024-10-15 | update: more.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3138,7 +3138,7 @@ initial release<br>
 
 <img src="myplugins/snowfeather.robotics/icon.png" height="100">
 
-[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-snowfeather.robotics/snowfeather.robotics.zip) | 1.09 mb | 2024-05-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) | <a href="res/imagemd/snowfeather.robotics.md">view images</a> [21]<br>
+[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-snowfeather.robotics/snowfeather.robotics.zip) | 1.75 mb | 2024-11-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) | <a href="res/imagemd/snowfeather.robotics.md">view images</a> [21]<br>
 <br>
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). Starts on Snowfeather(Bore Fah) when having at least one android installed. See the README for details.
 

@@ -1,3 +1,4 @@
+2024-11-09 | update: snowfeather.robotics
 2024-11-09 | update: navy.licences
 2024-11-04 | update: kor.efret.shipyard
 2024-11-02 | update: additional.command.buttons.radial
