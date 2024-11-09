@@ -16,7 +16,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-04 | update: kor.efret.shipyard<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-09 | update: navy.licences<br>
+2024-11-04 | update: kor.efret.shipyard<br>
 2024-11-02 | update: additional.command.buttons.radial<br>
 2024-11-02 | update: show.reputation<br>
 2024-11-02 | update: better.starts<br>
@@ -25,7 +26,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-10-29 | update: additional.command.buttons.radial<br>
 2024-10-29 | update: kor.efret.shipyard<br>
 2024-10-15 | update: more.person.ships<br>
-2024-10-11 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -877,7 +877,7 @@ initial release<br>
 
 <img src="myplugins/coalition.shopping/icon.png" height="100">
 
-[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-coalition.shopping/coalition.shopping.zip) | 88.62 kb | 2024-09-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) | <a href="res/imagemd/coalition.shopping.md">view images</a> [3]<br>
+[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-coalition.shopping/coalition.shopping.zip) | 88.62 kb | 2024-09-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) | <a href="res/imagemd/coalition.shopping.md">view images</a> [5]<br>
 <br>
 >Adds all Coalition/Heliarch/Lunarium outfits and ships to "Far Home" in the "Homeward" system. See the README for details.
 
@@ -906,6 +906,12 @@ To start the mission to enable these outfitters and shipyards, you have to join 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-11-09<br>
+
+added @2x images<br>
 
 <br>
 
@@ -2700,7 +2706,7 @@ initial release<br>
 
 <img src="myplugins/navy.licenses/icon.png" height="100">
 
-[navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-navy.licenses/navy.licenses.zip) | 81.51 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) | <a href="res/imagemd/navy.licenses.md">view images</a> [3]<br>
+[navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-navy.licenses/navy.licenses.zip) | 81.51 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) | <a href="res/imagemd/navy.licenses.md">view images</a> [5]<br>
 <br>
 >Adds a mission on Stormhold (Alcyone system) which leads you to Geminus (Castor system) to buy the four Navy licenses. See the README for details.
 
@@ -2731,6 +2737,14 @@ You get the following licenses: Navy license, Navy Auxiliary license, Navy Cruis
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-11-09<br>
+
+corrected scene size<br>
+
+added @2x images <br>
 
 <br>
 
@@ -3124,7 +3138,7 @@ initial release<br>
 
 <img src="myplugins/snowfeather.robotics/icon.png" height="100">
 
-[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-snowfeather.robotics/snowfeather.robotics.zip) | 1.09 mb | 2024-05-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) | <a href="res/imagemd/snowfeather.robotics.md">view images</a> [18]<br>
+[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-snowfeather.robotics/snowfeather.robotics.zip) | 1.09 mb | 2024-05-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) | <a href="res/imagemd/snowfeather.robotics.md">view images</a> [21]<br>
 <br>
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). Starts on Snowfeather(Bore Fah) when having at least one android installed. See the README for details.
 
@@ -3157,6 +3171,12 @@ The new buyable worker androids are twice as expensive as the original ones, and
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-11-09<br>
+
+added @2x images<br>
 
 <br>
 

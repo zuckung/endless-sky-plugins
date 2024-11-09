@@ -44,9 +44,17 @@ graphic files for the plugin: snowfeather.robotics<br>
 	<tr>
 		<td><img src="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/snowfeather.robotics/images/scene/3hai.jpg?raw=true" width="200"><br>
 		3hai.jpg [540x360]</td>
+		<td><img src="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/snowfeather.robotics/images/scene/3hai@2x.jpg?raw=true" width="200"><br>
+		3hai@2x.jpg [1080x720]</td>
 		<td><img src="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/snowfeather.robotics/images/scene/3hai_park.jpg?raw=true" width="200"><br>
 		3hai_park.jpg [540x360]</td>
+	</tr>
+	<tr>
+		<td><img src="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/snowfeather.robotics/images/scene/3hai_park@2x.jpg?raw=true" width="200"><br>
+		3hai_park@2x.jpg [1080x720]</td>
 		<td><img src="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/snowfeather.robotics/images/scene/hai_in_lab.jpg?raw=true" width="200"><br>
 		hai_in_lab.jpg [540x360]</td>
+		<td><img src="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/snowfeather.robotics/images/scene/hai_in_lab@2x.jpg?raw=true" width="200"><br>
+		hai_in_lab@2x.jpg [1080x720]</td>
 	</tr>
 </table>

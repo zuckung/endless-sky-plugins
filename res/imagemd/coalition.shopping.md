@@ -6,7 +6,14 @@ graphic files for the plugin: coalition.shopping<br>
 		icon.png [142x180]</td>
 		<td><img src="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/coalition.shopping/images/scene/kimek_sitting.jpg?raw=true" width="200"><br>
 		kimek_sitting.jpg [560x373]</td>
+		<td><img src="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/coalition.shopping/images/scene/kimek_sitting@2x.jpg?raw=true" width="200"><br>
+		kimek_sitting@2x.jpg [1120x746]</td>
+	</tr>
+	<tr>
 		<td><img src="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/coalition.shopping/images/scene/kimek_spaceport.jpg?raw=true" width="200"><br>
 		kimek_spaceport.jpg [560x373]</td>
+		<td><img src="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/coalition.shopping/images/scene/kimek_spaceport@2x.jpg?raw=true" width="200"><br>
+		kimek_spaceport@2x.jpg [1120x746]</td>
+		<td></td>
 	</tr>
 </table>
