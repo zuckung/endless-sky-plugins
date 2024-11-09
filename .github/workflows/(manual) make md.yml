@@ -12,6 +12,9 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 2
+      - name: install libs
+        run: |
+          python3 -m pip install Pillow
       - name: Make README.md
         run: python res/src/makemd.py
       - name: Commit file
