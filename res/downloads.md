@@ -42,6 +42,7 @@ TOTAL DOWNLOADS FOR EACH PLUGIN<br>
 <br>
 DOWNLOADS FOR EACH RELEASE<br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.6-coalition.shopping/total?color=008000"></a><br>
+  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.5-snowfeather.robotics/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.4-snowfeather.robotics/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.0-navy.licences/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/v1.0.2-kor.efret.shipyard/total?color=008000"></a><br>
