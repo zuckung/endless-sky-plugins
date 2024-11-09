@@ -15,7 +15,7 @@ def check_local():
 	else:
 		current_repo = os.environ['CUR_REPO']
 		pluginurl = 'https://github.com/' + current_repo + '/tree/main/myplugins/'
-	return current_repo, pluginurl
+	return pluginurl, current_repo
 
 
 def make_download_md(current_repo):
@@ -39,7 +39,7 @@ def make_download_md(current_repo):
 			for obj in data:
 				rname = obj['tag_name']
 				target.writelines('  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/' + current_repo + 
-					'/' + rname + '/total?color=008000"></a><br>\n')
+					'/' + str(rname) + '/total?color=008000"></a><br>\n')
 
 
 def make_imagemd(name):
@@ -227,7 +227,6 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 def run():
 	pathtoplugins = 'myplugins/'
 	indexfile = 'README.md'
-	# assetfiles = 'https://github.com/' + current_repo + '/releases/download/Latest/'
 	templatefile = 'res/template.txt'
 	pluginurl, current_repo = check_local()
 	make_readme(templatefile, pathtoplugins, indexfile, pluginurl)
