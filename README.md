@@ -16,7 +16,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-09 | update: snowfeather.robotics<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-10 | update: navy.licenses<br>
+2024-11-09 | update: snowfeather.robotics<br>
 2024-11-09 | update: navy.licences<br>
 2024-11-09 | update: coalition.shopping<br>
 2024-11-09 | update site functionality: see plugin images<br>
@@ -25,7 +26,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-11-02 | update: show.reputation<br>
 2024-11-02 | update: better.starts<br>
 2024-10-29 | update: galactic.capital.investment<br>
-2024-10-29 | update: gegno.pirates<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2708,7 +2708,7 @@ initial release<br>
 
 <img src="myplugins/navy.licenses/icon.png" height="100">
 
-[navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-navy.licenses/navy.licenses.zip) | 81.51 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) | <a href="res/imagemd/navy.licenses.md">view images</a> [5]<br>
+[navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-navy.licenses/navy.licenses.zip) | 433.76 kb | 2024-11-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) | <a href="res/imagemd/navy.licenses.md">view images</a> [5]<br>
 <br>
 >Adds a mission on Stormhold (Alcyone system) which leads you to Geminus (Castor system) to buy the four Navy licenses. See the README for details.
 
