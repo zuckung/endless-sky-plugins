@@ -3,6 +3,13 @@ import subprocess
 from datetime import datetime
 
 
+def check_spelling(plugin):
+	if not os.path.isdir('myplugins/' + plugin):
+		print('There is no plugin: ' + plugin)
+		print('failing workflow now!')
+		fail_workflow
+
+
 def correct_characters(p):
 	corrected = p.replace(" ", ".")
 	corrected = corrected.replace("'", ".") 
@@ -75,6 +82,7 @@ def write_news(p):
 
 def main():
 	p = os.environ['INPUT_STORE'] # plugin.name
+	check_spelling(p)
 	corrected = correct_characters(p) # correct characters that get changed by guthub release
 	create_zip(p, corrected)
 	versioning(p, corrected)
