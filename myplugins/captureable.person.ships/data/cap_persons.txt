@@ -17,7 +17,7 @@
 
 gamerules
 	"no person spawn weight" 0
-	"person spawn period" 18000
+#	"person spawn period" 2000 # original 36000 which is 10 minutes
 
 disable person
 	"Michael Zahniser"

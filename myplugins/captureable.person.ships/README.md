@@ -15,6 +15,7 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/capturable.person.ships01.jpg' width='400'>
 <ul>
+<li>"vyu-Ir" (not a person ship, but unique | found south-western of Gegno)</li>
 <li>"Michael Zahniser" (found everywhere | Kestrel + Finch)</li>
 <li>"Cap'n Pester" (found everywhere | Quarg Wardragon)</li>
 <li>"Marauding Max" (found everywhere | Marauder Fury)</li>
@@ -35,7 +36,11 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 Changelog:<br>
 <br>
-2024-10-08 <br>
+2024-11-11<br>
+made vyu-Ir captureable (unique, but no person ship)<br>
+normalized the spawn speed<br>
+<br>
+2024-10-08<br>
 proofreading and minor text changes (Vemenous-Repentile)<br>
 changed status mission to fail on daily<br>
 changed subsidural (1 outfit space, keystone and 300 fuel)<br>
