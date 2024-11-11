@@ -16,7 +16,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-11 | update: captureable.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-11 | update: uniques<br>
+2024-11-11 | update: captureable.person.ships<br>
 2024-11-10 | update: navy.licenses<br>
 2024-11-09 | update: snowfeather.robotics<br>
 2024-11-09 | update: navy.licences<br>
@@ -25,7 +26,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-11-04 | update: kor.efret.shipyard<br>
 2024-11-02 | update: additional.command.buttons.radial<br>
 2024-11-02 | update: show.reputation<br>
-2024-11-02 | update: better.starts<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3449,7 +3449,7 @@ initial release<br>
 
 <img src="myplugins/uniques/icon.png" height="100">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-uniques/uniques.zip) | 9.3 mb | 2024-10-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [147]<br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-uniques/uniques.zip) | 9.61 mb | 2024-11-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [147]<br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
