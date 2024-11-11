@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 def check_spelling(plugin):
-	if not os.path.isdir('myplugins/' + plugin):
+	if not os.path.isdir('myplugins/' + plugin + '/'):
 		print('There is no plugin: ' + plugin)
 		print('failing workflow now!')
 		fail_workflow
