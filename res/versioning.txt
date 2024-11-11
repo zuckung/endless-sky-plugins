@@ -4,7 +4,7 @@ automata.destruction.0percent|1.0.1
 automata.in.human.space|1.0.1
 better.starts|1.0.3
 bunrodea.missions|1.0.4
-captureable.person.ships|1.1.5
+captureable.person.ships|1.1.6
 coalition.shopping|1.0.6
 control.station|1.0.1
 devil-run.unhidden|1.0.1

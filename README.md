@@ -16,7 +16,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-10 | update: navy.licenses<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-11 | update: captureable.person.ships<br>
+2024-11-10 | update: navy.licenses<br>
 2024-11-09 | update: snowfeather.robotics<br>
 2024-11-09 | update: navy.licences<br>
 2024-11-09 | update: coalition.shopping<br>
@@ -25,7 +26,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-11-02 | update: additional.command.buttons.radial<br>
 2024-11-02 | update: show.reputation<br>
 2024-11-02 | update: better.starts<br>
-2024-10-29 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -692,7 +692,7 @@ initial release<br>
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.5-captureable.person.ships/captureable.person.ships.zip) | 138.87 kb | 2024-10-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) | <a href="res/imagemd/captureable.person.ships.md">view images</a> [3]<br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.6-captureable.person.ships/captureable.person.ships.zip) | 140.1 kb | 2024-11-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) | <a href="res/imagemd/captureable.person.ships.md">view images</a> [3]<br>
 <br>
 >Makes person ships capturable. See the README for details.
 
@@ -731,6 +731,8 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/capturable.person.ships01.jpg' width='400'>
 
 <ul>
+
+<li>"vyu-Ir" (not a person ship, but unique | found south-western of Gegno)</li>
 
 <li>"Michael Zahniser" (found everywhere | Kestrel + Finch)</li>
 
@@ -772,7 +774,15 @@ Changelog:<br>
 
 <br>
 
-2024-10-08 <br>
+2024-11-11<br>
+
+made vyu-Ir captureable (unique, but no person ship)<br>
+
+normalized the spawn speed<br>
+
+<br>
+
+2024-10-08<br>
 
 proofreading and minor text changes (Vemenous-Repentile)<br>
 
@@ -3439,7 +3449,7 @@ initial release<br>
 
 <img src="myplugins/uniques/icon.png" height="100">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-uniques/uniques.zip) | 9.3 mb | 2024-10-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [143]<br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-uniques/uniques.zip) | 9.3 mb | 2024-10-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [147]<br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -3533,6 +3543,8 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 
 <li> new unique, "Gegno Starmap" (Wye Tzeou, 10% chance)</li>
 
+<li> new unique, "Nav Buoys" (human outfitter, after discovered shrouded systems, 10% chance)</li>
+
 </ul>
 
 vanilla uniques<br>
@@ -3554,6 +3566,14 @@ added uniques<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-11<br>
+
+fixed error<br>
+
+added nav buoys unique<br>
 
 <br>
 
