@@ -1,0 +1,246 @@
+# outfit "unq_navbuoys"
+# mission "unq_get_nav_buoys"
+# mission "unq_unshroud_gegno"
+# mission "unq_unshroud_successor"
+# 16 gegno unshroud events
+# 10 successor unshroud events
+
+
+
+outfit "unq_navbuoys"
+	"display name" "Box of Nav Buoys"
+	"plural" "Box of Nav Buoys"
+	category "Unique"
+	thumbnail "outfit/unq_nav_buoys"
+	"unique" 1
+	"unplunderable" 1
+	cost 25000
+	description `A box of old nav buoys. In past times these navigation buoys were used for marking safe flight paths. Maybe you can use them to cartograph shrouded systems?`
+
+
+mission "unq_get_nav_buoys"
+	invisible
+	outfitter
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Independent"
+	to offer
+		or
+			has "visited system: L-118"
+			has "visited system: Khasola-Ryuit"
+		"credits" > 25000
+		random < 10
+	on offer
+		payment -25000
+		outfit "unq_navbuoys" 1
+		conversation
+			scene "scene/unq_outfitter_buoys"
+			`The local outfitter is a tech junkie's paradise, shelves packed with the latest in starship enhancements, and rows of exotic gear that gleams under soft lights. You wander the aisles, brushing past display cases of anti-grav plates and next-gen scanners, until something in a dusty, nondescript box catches your eye: old navigation buoys.`
+			`These relics of early space exploration had been used to mark safe flight paths, the first signposts in the uncharted cosmos. You run a hand over one, feeling the wear and tear of time and countless journeys. A recent discovery comes to your mind, the shrouded star systems you'd stumbled upon, completely unchartable with your current equipment. But perhaps, just maybe, these buoys could be your solution.`
+			`Curious, you flag down the shop owner, a grizzled veteran with both hands cybernetically replaced. He glances at the buoys and raise an eyebrow. "Not many folks interested in the old stuff," he says with a smirk. After a few minutes of bargaining and a nostalgic story or two, he settles on a price: 25,000 credits.`
+			`You take them without a second thought, feeling that old thrill of exploration. These buoys might just light a path where there was none, guiding you through the stars, shrouded mysteries and leaving behind the first faint trails of discovery.`
+				decline
+
+
+mission "unq_unshroud_gegno"
+	invisible
+	landing
+	to offer
+		has "outfit (installed): unq_navbuoys"
+	to complete
+		has "event: navL-118"
+		has "event: navH-9187"
+		has "event: navMC-42"
+		has "event: navH-8188"
+		has "event: navG-819"
+		has "event: navG-719"
+		has "event: navW-3197"
+		has "event: navL-6181"
+		has "event: navMS-219"
+		has "event: navM-1188"
+		has "event: navE-4183"
+		has "event: navG-6183"
+		has "event: navE-9182"
+		has "event: navO-3184"
+		has "event: navU-5188"
+		has "event: navV-2189"
+	on enter "L-118"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navL-118"
+	on enter "H-9187"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navH-9187"
+	on enter "MC-42"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navMC-42"
+	on enter "H-8188"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navH-8188"
+	on enter "G-819"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navG-819"
+	on enter "G-719"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navG-719"
+	on enter "W-3197"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navW-3197"
+	on enter "L-6181"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navL-6181"
+	on enter "MS-219"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navMS-219"
+	on enter "M-1188"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navM-1188"
+	on enter "E-4183"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navE-4183"
+	on enter "G-6183"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navG-6183"
+	on enter "E-9182"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navE-9182"
+	on enter "O-3184"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navO-3184"
+	on enter "U-5188"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navU-5188"
+	on enter "V-2189"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navV-2189"
+
+
+mission "unq_unshroud_successor"
+	invisible
+	landing
+	to offer
+		has "outfit (installed): unq_navbuoys"
+	to complete
+		has "event: navKhasola-Ryuit"
+		has "event: navMavra-Ijsola"
+		has "event: navKasii-Cavaasa"
+		has "event: navAvasaa-Novaa"
+		has "event: navEta Carinae"
+		has "event: navKiiraj-Luue"
+		has "event: navKasi-Vasa-Novaa"
+		has "event: navUuoru-Sossa"
+		has "event: navVasa-Oorua"
+		has "event: navKasii-Sola"
+	on enter "Khasola-Ryuit"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navKhasola-Ryuit"
+	on enter "Mavra-Ijsola"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navMavra-Ijsola"
+	on enter "Kasii-Cavaasa"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navKasii-Cavaasa"
+	on enter "Avasaa-Novaa"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navAvasaa-Novaa"
+	on enter "Eta Carinae"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navEta Carinae"
+	on enter "Kiiraj-Luue"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navKiiraj-Luue"
+	on enter "Kasi-Vasa-Novaa"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navKasi-Vasa-Novaa"
+	on enter "Uuoru-Sossa"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navUuoru-Sossa"
+	on enter "Vasa-Oorua"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navVasa-Oorua"
+	on enter "Kasii-Sola"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navKasii-Sola"
+
+
+# unshroud systems west of gegno
+event "navL-118"
+	system "L-118"
+		remove shrouded
+event "navH-9187"
+	system "H-9187"
+		remove shrouded
+event "navMC-42"
+	system "MC-42"
+		remove shrouded
+event "navH-8188"
+	system "H-8188"
+		remove shrouded
+event "navG-819"
+	system "G-819"
+		remove shrouded
+event "navG-719"
+	system "G-719"
+		remove shrouded
+event "navW-3197"
+	system "W-3197"
+		remove shrouded
+event "navL-6181"
+	system "L-6181"
+		remove shrouded
+event "navMS-219"
+	system "MS-219"
+		remove shrouded
+event "navM-1188"
+	system "M-1188"
+		remove shrouded
+event "navE-4183"
+	system "E-4183"
+		remove shrouded
+event "navG-6183"
+	system "G-6183"
+		remove shrouded
+event "navE-9182"
+	system "E-9182"
+		remove shrouded
+event "navO-3184"
+	system "O-3184"
+		remove shrouded
+event "navU-5188"
+	system "U-5188"
+		remove shrouded
+event "navV-2189"
+	system "V-2189"
+		remove shrouded
+
+
+# unshroud successor systems
+event "navKhasola-Ryuit"
+	system "Khasola-Ryuit"
+		remove shrouded
+event "navMavra-Ijsola"
+	system "Mavra-Ijsola"
+		remove shrouded
+event "navKasii-Cavaasa"
+	system "Kasii-Cavaasa"
+		remove shrouded
+event "navAvasaa-Novaa"
+	system "Avasaa-Novaa"
+		remove shrouded
+event "navEta Carinae"
+	system "Eta Carinae"
+		remove shrouded
+event "navKiiraj-Luue"
+	system "Kiiraj-Luue"
+		remove shrouded
+event "navKasi-Vasa-Novaa"
+	system "Kasi-Vasa-Novaa"
+		remove shrouded
+event "navUuoru-Sossa"
+	system "Uuoru-Sossa"
+		remove shrouded
+event "navVasa-Oorua"
+	system "Vasa-Oorua"
+		remove shrouded
+event "navKasii-Sola"
+	system "Kasii-Sola"
+		remove shrouded
+

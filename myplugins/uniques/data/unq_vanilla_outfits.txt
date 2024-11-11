@@ -1,14 +1,9 @@
-# category "Pets"
 # outfit "Cloaking Device"
 # outfit "Outskirts Gauger"	
 # outfit "Puny"
 # outfit "Mug"
 # outfit "Antigrav Glass"
 
-
-
-category
-	"Pets"
 
 
 outfit "Cloaking Device"	

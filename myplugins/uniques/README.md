@@ -42,6 +42,7 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 <li> new unique, "Toolbox" (Clark, 3% chance)</li>
 <li> new unique, "Korath Pillow" (Laki Nemparu, 3% chance)</li>
 <li> new unique, "Gegno Starmap" (Wye Tzeou, 10% chance)</li>
+<li> new unique, "Nav Buoys" (human outfitter, after discovered shrouded systems, 10% chance)</li>
 </ul>
 vanilla uniques<br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques01.jpg' width='400'>
@@ -53,6 +54,10 @@ added uniques<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-10-11<br>
+fixed error<br>
+added nav buoys unique<br>
 <br>
 2024-10-02<br>
 renamed nostromo and dark star ship types, because of a conflict with midnight plugins (thx timeout.fu)<br>
