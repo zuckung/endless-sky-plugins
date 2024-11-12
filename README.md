@@ -20,12 +20,12 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-11-11 | update: captureable.person.ships<br>
 2024-11-10 | update: navy.licenses<br>
 2024-11-09 | update: snowfeather.robotics<br>
-2024-11-09 | update: navy.licences<br>
 2024-11-09 | update: coalition.shopping<br>
 2024-11-09 | update site functionality: see plugin images<br>
 2024-11-04 | update: kor.efret.shipyard<br>
 2024-11-02 | update: additional.command.buttons.radial<br>
 2024-11-02 | update: show.reputation<br>
+2024-11-02 | update: better.starts<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
