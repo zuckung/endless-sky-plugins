@@ -2,7 +2,6 @@
 2024-11-11 | update: captureable.person.ships
 2024-11-10 | update: navy.licenses
 2024-11-09 | update: snowfeather.robotics
-2024-11-09 | update: navy.licences
 2024-11-09 | update: coalition.shopping
 2024-11-09 | update site functionality: see plugin images
 2024-11-04 | update: kor.efret.shipyard
