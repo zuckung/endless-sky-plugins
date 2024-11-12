@@ -64,12 +64,11 @@ def make_imagemd(name):
 					width, height = im.size
 				if width > 200 or height > 200:
 					if width > height:
-# https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/icon.png
-						pic = '		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + ' width="200"><br>\n'
+						pic = '		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" width="200"><br>\n'
 					else:
-						pic = '		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '? height="200"><br>\n'
+						pic = '		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" height="200"><br>\n'
 				else:
-					pic = '		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + ' width="' + str(width) + '" height="' + str(height) + '"><br>\n'	
+					pic = '		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" width="' + str(width) + '" height="' + str(height) + '"><br>\n'	
 				pic2 = '		' + last + ' [' + str (width) + 'x' + str(height) + ']</td>\n'
 				pos += 1
 				if pos%3 == 1%3:
