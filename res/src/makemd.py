@@ -64,11 +64,15 @@ def make_imagemd(name):
 					width, height = im.size
 				if width > 200 or height > 200:
 					if width > height:
-						pic = '		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" width="200"><br>\n'
+						pic = '		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/' + file \
+						+ '"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" width="200"></a><br>\n'
 					else:
-						pic = '		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" height="200"><br>\n'
+						pic = '		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/' + file \
+						+ '"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" height="200"></a><br>\n'
 				else:
-					pic = '		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" width="' + str(width) + '" height="' + str(height) + '"><br>\n'	
+					pic = '		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/' + file \
+					+ '"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" width="' + str(width) \
+					+ '" height="' + str(height) + '"></a><br>\n'	
 				pic2 = '		' + last + ' [' + str (width) + 'x' + str(height) + ']</td>\n'
 				pos += 1
 				if pos%3 == 1%3:
