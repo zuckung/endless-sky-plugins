@@ -1,6 +1,4 @@
-# get_object_with_attribute.py.py
+### get_object_with_attribute.py<br>
 <br>
-<br>
-Script to search the data folder for objects with a special child attribute. Like planets which are uninhabited, or list all outfits with cooling, or ships with cloaking etc.<br>
-Gives out the name of the object that matches the first search and the line the 2nd search is found in.
+Lets you search the ES data folder for root node objects (like ships, missions, systems etc) with a matching attribute (everything that might show up inside the object).<br>
 Script comments explain use.<br>

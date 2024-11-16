@@ -1,3 +1,8 @@
+# change the path to your data_folder and run the script.
+# it generates space.fauna.map.txt with all system definitions 
+# and adds the fleet "space fauna 01" with a random spawn time.
+
+
 import os
 import random
 
@@ -24,15 +29,15 @@ def read_everything():
 			text_files = os.listdir(data_folder + folder)
 			text_files.sort()
 			for text_file in text_files:
-				if os.path.isfile(data_folder + folder + '/' + text_file) == False:
+				if os.path.isfile(data_folder + folder + os.sep + text_file) == False:
 					continue
 				if len(folder + text_file)  < 80: # just for displaying / max len = 44(currently)
 					count = 80 - len(folder + text_file)
 					spaces = ''
 					for i in range(0, count):
 						spaces += ' '
-				print('reading: ' + folder + '/' + text_file + spaces, end = '\r', flush= True)
-				with open(data_folder + folder + '/' + text_file, 'r') as source_file:
+				print('reading: ' + folder + os.sep + text_file + spaces, end = '\r', flush= True)
+				with open(data_folder + folder + os.sep + text_file, 'r') as source_file:
 					lines = source_file.readlines()
 				for line in lines:
 					if line[:1] == '#':
@@ -51,15 +56,16 @@ def read_everything():
 								started = False
 							txt = line
 							if folder != '':
-								folder_fix = folder + '/'
+								folder_fix = folder + os.sep
 							else:
 								folder_fix = folder
-							txt2 = 'data/' + folder_fix + text_file
+							txt2 = 'data' + os.sep + folder_fix + text_file
 							txt3 = line[:len(line)-1]
 							started = True
 					else:
 						if started == True:
 							txt += line
+
 
 def list_systems():
 	for each in obj_name:
@@ -76,8 +82,8 @@ def list_systems():
 		
 def write_list():
 	with open('space.fauna.map.txt', 'w') as target:
-		target.writelines('# for systems WITHOUT landable planets the fleet spawn is between 6.000 and 12.000\n')
-		target.writelines('# for systems WITH landable planets the fleet spawn is between 12.000 and 24.000\n')
+		target.writelines('# for systems WITHOUT landable planets the fleet spawn is between 6.000 and 12.000\n') # 100 - 200 seconds
+		target.writelines('# for systems WITH landable planets the fleet spawn is between 12.000 and 24.000\n') # 200 - 400 seconds
 		target.writelines('# systems without landable planets:\n')
 		for each in systems_empty:
 			target.writelines(each + '\n')
@@ -88,8 +94,12 @@ def write_list():
 			target.writelines('\tadd fleet "space fauna 01" ' + str(random.randrange(12000, 24000, 1)) + '\n')
 
 
+def run():
+	set_globals()
+	read_everything()
+	list_systems()
+	write_list()
 
-set_globals()
-read_everything()
-list_systems()
-write_list()
+
+if __name__ == "__main__":
+	run()

@@ -1,6 +1,7 @@
 # checks every object of the datafolder and writes every matching object to a text file
 # i.e seach='system' and attribute=''Large Kor Mereti'' gives all systems names, which have a large mereti fleet spawn
 
+
 import os
 
 
@@ -16,9 +17,10 @@ def set_globals():
 	global search
 	global attribute
 	obj, obj_path, obj_name, output, final_output = [], [], [], [], []
-	search = 'system' # first filter
-	attribute = 'Large Kor Mereti' # content filter
+	search = 'ship'  # first filter, always lowercase
+	attribute = "remnant capital" # content filter, gets converted to lowercase
 	data_folder = '/storage/9C33-6BBD/endless sky/data/' # change to your folder
+
 
 def read_everything():
 	started = False
@@ -30,15 +32,15 @@ def read_everything():
 			text_files = os.listdir(data_folder + folder)
 			text_files.sort()
 			for text_file in text_files:
-				if os.path.isfile(data_folder + folder + '/' + text_file) == False:
+				if os.path.isfile(data_folder + folder + os.sep + text_file) == False:
 					continue
 				if len(folder + text_file)  < 80: # just for displaying / max len = 44(currently)
 					count = 80 - len(folder + text_file)
 					spaces = ''
 					for i in range(0, count):
 						spaces += ' '
-				print('reading: ' + folder + '/' + text_file + spaces, end = '\r', flush= True)
-				with open(data_folder + folder + '/' + text_file, 'r') as source_file:
+				print('reading: ' + folder + os.sep + text_file + spaces, end = '\r', flush= True)
+				with open(data_folder + folder + os.sep + text_file, 'r') as source_file:
 					lines = source_file.readlines()
 				for line in lines:
 					if line[:1] == '#':
@@ -57,15 +59,16 @@ def read_everything():
 								started = False
 							txt = line
 							if folder != '':
-								folder_fix = folder + '/'
+								folder_fix = folder + os.sep
 							else:
 								folder_fix = folder
-							txt2 = 'data/' + folder_fix + text_file
+							txt2 = 'data' + os.sep + folder_fix + text_file
 							txt3 = line[:len(line)-1]
 							started = True
 					else:
 						if started == True:
 							txt += line
+
 
 def search_obj():
 	print('\nsearching object and attribute')
@@ -73,16 +76,17 @@ def search_obj():
 		pos = 0
 		if line.startswith(search): # checks for object
 			index = obj_name.index(line)
-			pos = obj[index].find(attribute, 0) # checks for attribute
+			pos = obj[index].lower().find(attribute.lower(), 0) # checks for attribute
 			if pos > 0:
 				output.append(obj_name[index])
 				objlines = obj[index].split('\n')
 				for objline in objlines:
-					if objline.find(attribute, 0) > 0:
+					if objline.lower().find(attribute.lower(), 0) > 0:
 						final_output.append(objline + '\n')
 				print(obj_name[index])
 				index2 = output.index(obj_name[index])
 				print(final_output[index2])
+
 
 def write_list():
 	with open('list.txt', 'w') as target:
@@ -90,8 +94,14 @@ def write_list():
 			index = output.index(each)
 			target.writelines(each + '\n')
 			target.writelines(final_output[index] + '\n')
-	
-set_globals()
-read_everything()
-search_obj()
-write_list()
+
+
+def run():
+	set_globals()
+	read_everything()
+	search_obj()
+	write_list()
+
+
+if __name__ == "__main__":
+	run()

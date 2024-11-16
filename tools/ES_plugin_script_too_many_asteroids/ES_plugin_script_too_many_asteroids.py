@@ -1,15 +1,15 @@
-# copy the file "map systems.txt" from your ES data folder to the same folder this py-file is in.
-# run this py-file
-# use the created asteroids.txt in your plugin
+# change the sourcefile to your data folder with "map systems.txt".
+# run this py-file.
+# use the created asteroids.txt in your plugin.
 # i.e. too.many.asteroids/data/asteroids.txt
+# with this python script you will allways get an up-to-date plugin.
 
-# with this python script you will allways get an up to date plugin
 
 def remove_asteroids():
 	systemcount = 0
 	asteroidcount = 0
 	wlines = []
-	sourcefile = "map systems.txt"
+	sourcefile = "/storage/9C33-6BBD/endless sky/data/map systems.txt"
 	targetfile = "asteroids.txt"
 	with open(sourcefile, "r") as sourcefile:
 		lines = sourcefile.readlines()
@@ -42,5 +42,6 @@ def remove_asteroids():
 		for line in wlines:
 			targetfile.writelines(line)
 
-			
-remove_asteroids()			
+
+if __name__ == "__main__":
+	remove_asteroids()

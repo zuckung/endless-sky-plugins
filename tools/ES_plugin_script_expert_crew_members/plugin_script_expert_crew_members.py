@@ -1,3 +1,8 @@
+# edit crew.list.txt to add new experts or change their values
+# for new races, edit 'def write_files' ('# setting source' block) in this python file
+# outfits.txt & missions.txt will get generates
+# also the save editing block in crew.list.txt will get generated
+
 
 def set_globals():
 	global names
@@ -12,19 +17,18 @@ def set_globals():
 	global prefield
 	global postfield
 	global fsource
-	global listfile
 	global foutfits
 	global fmissions
 	global percent
 	global saveedit1
 	global saveedit2
 	global saveedit3
-	fsource = 'experts.txt' # input
-	listfile = 'crew.list.txt' # overview
+	global sourcelines
+	fsource = 'crew.list.txt' # input
 	foutfits = 'outfits.txt' # output
 	fmissions = 'missions.txt' # output
 	percent = 1 # mission chance
-	names, fields, locations, races, sexes, images, money, stat1, stat2, saveedit1, saveedit2, saveedit3 = [], [], [], [], [], [], [], [], [], [], [], []
+	names, fields, locations, races, sexes, images, money, stat1, stat2, saveedit1, saveedit2, saveedit3, sourcelines = [], [], [], [], [], [], [], [], [], [], [], [], []
 
 
 def find_symbol(string, start, symbol):
@@ -35,63 +39,69 @@ def find_symbol(string, start, symbol):
 
 
 def read_experts():
-	with open(fsource) as source_file:
-		with open(listfile, 'w') as list_file:
-			lines = source_file.readlines()
-			for line in lines:
-				list_file.writelines(line)
-				if line.startswith('\n'):
-					continue
-				elif line.startswith('amount'):
-					continue
-				elif line.startswith('\t'):
-					continue
-				elif line.startswith('"'):
-					# create lists
-					x, pos = find_symbol(line,0, '"')
-					pos2 = x.find(' ', 0)
-					fields.append(x[0:pos2])
-					names.append(x[pos2+1:])
-					x, pos = find_symbol(line,pos + 1, '"')
-					locations.append(x)
-					x, pos = find_symbol(line,pos + 1, '"')
-					money.append(x)
-					x, pos = find_symbol(line,pos + 1, '"')
-					sexes.append(x)
-					x, pos = find_symbol(line,pos + 1, '"')
-					images.append(x)
-					if x.startswith('ecm'):
-						races.append('human')
-					elif x.startswith('arachi'): 
-						races.append('arach')
-					else:
-						races.append(x[:len(x)-2])
-					x, pos = find_symbol(line,pos + 1, '"')
-					xlist = x.split(' ')
-					xlen = len(xlist)
-					x = '"'
-					for i in range(0, xlen):
-						if i == xlen -1:
-							x += '" '
-						x += xlist[i]
-						if i != xlen-2:
-							x += ' '
-					stat1.append(x)
-					x, pos = find_symbol(line,pos + 1, '"')
-					xlist = x.split(' ')
-					xlen = len(xlist)
-					x = '"'
-					for i in range(0, xlen):
-						if i == xlen -1:
-							x += '" '
-						x += xlist[i]
-						if i != xlen-2:
-							x += ' '
-					stat2.append(x)
+	with open(fsource, 'r') as source_file:
+		lines = source_file.readlines()
+		for line in lines:
+			if line.startswith('\n'):
+				sourcelines.append(line)
+				continue
+			elif line.startswith('###'):
+				sourcelines.append(line)
+				break
+			elif line.startswith('#'):
+				sourcelines.append(line)
+				continue
+			elif line.startswith('\t'):
+				continue
+			elif line.startswith('"'):
+				sourcelines.append(line)
+				# create lists
+				x, pos = find_symbol(line,0, '"')
+				pos2 = x.find(' ', 0)
+				fields.append(x[0:pos2])
+				names.append(x[pos2+1:])
+				x, pos = find_symbol(line,pos + 1, '"')
+				locations.append(x)
+				x, pos = find_symbol(line,pos + 1, '"')
+				money.append(x)
+				x, pos = find_symbol(line,pos + 1, '"')
+				sexes.append(x)
+				x, pos = find_symbol(line,pos + 1, '"')
+				images.append(x)
+				if x.startswith('ecm'):
+					races.append('human')
+				elif x.startswith('arachi'): 
+					races.append('arach')
+				else:
+					races.append(x[:len(x)-2])
+				x, pos = find_symbol(line,pos + 1, '"')
+				xlist = x.split(' ')
+				xlen = len(xlist)
+				x = '"'
+				for i in range(0, xlen):
+					if i == xlen -1:
+						x += '" '
+					x += xlist[i]
+					if i != xlen-2:
+						x += ' '
+				stat1.append(x)
+				x, pos = find_symbol(line,pos + 1, '"')
+				xlist = x.split(' ')
+				xlen = len(xlist)
+				x = '"'
+				for i in range(0, xlen):
+					if i == xlen -1:
+						x += '" '
+					x += xlist[i]
+					if i != xlen-2:
+						x += ' '
+				stat2.append(x)
+			else:
+				continue
 
 			
 def write_files():
-	with open(listfile, 'a') as list_file:
+	with open(fsource, 'w') as list_file:
 		with open(foutfits, 'w') as outfits_file:
 			with open(fmissions, 'w') as missions_file:
 				# writing the category block
@@ -122,7 +132,7 @@ def write_files():
 						pronoun2 = 'her'
 						pronoun3 =  'her'
 					# setting articles
-					if races[index] == 'arach':
+					if races[index][:1] == 'a' or races[index][:1] == 'e' or races[index][:1] == 'i' or races[index][:1] == 'o' or races[index][:1] == 'u':
 						article = 'an'
 					else:
 						article = 'a'
@@ -203,7 +213,11 @@ def write_files():
 						source = '\t\tgovernment "Gegno" "Gegno Scin" "Gegno Vi"\n'
 						source2 = ''
 						tooffer = ''
-				
+					elif races[index] == 'successor':
+						source = '\t\tgovernment "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses"'
+						source += ' "' + "People's Houses" + '"\n'
+						source2 = ''
+						tooffer = ''
 					# writing the outfit
 					outfits_file.writelines('outfit "' + fields[index] + ' '  + names[index] + '"\n')
 					saveedit3.append('\t\t"' + fields[index] + ' '  + names[index] + '"\n')
@@ -218,7 +232,8 @@ def write_files():
 					outfits_file.writelines('\t"unique" 1\n')
 					outfits_file.writelines('\t' + stat1[index] + '\n')
 					outfits_file.writelines('\t' + stat2[index] + '\n')
-					outfits_file.writelines('\tdescription `This is a highly educated employee focused on '+ prefield + fields[index] + postfield + '. ' + pronoun.capitalize() + ' is ' + article + ' ' + races[index].capitalize() + locphrase + '.`\n')
+					outfits_file.writelines('\tdescription `This is a highly educated employee focused on '+ prefield + fields[index] + postfield \
+					+ '. ' + pronoun.capitalize() + ' is ' + article + ' ' + races[index].capitalize() + locphrase + '.`\n')
 					outfits_file.writelines('\n')	
 					# writing the mission
 					missions_file.writelines('mission "hire ' + fields[index] + ' ' + names[index] + '"\n')
@@ -240,15 +255,18 @@ def write_files():
 					missions_file.writelines('\ton offer\n')
 					missions_file.writelines('\t\tconversation\n')
 					missions_file.writelines('\t\t\tscene "portrait/' + images[index] + '"\n')
-					missions_file.writelines('\t\t\t`In a spaceport bar you get to know a highly qualified expert in ' + prefield + fields[index] + postfield + '. ' + pronoun.capitalize() + ' is looking for work. ' + pronoun3.capitalize() + ' name is ' + fullname + ', ' + pronoun + ' is ' + article + ' ' + races[index].capitalize() + ', and ' + pronoun + ' demands a daily wage of ' + money[index] + ' credits.`\n')
+					missions_file.writelines('\t\t\t`In a spaceport bar you get to know a highly qualified expert in ' + prefield + fields[index] \
+					+ postfield + '. ' + pronoun.capitalize() + ' is looking for work. ' + pronoun3.capitalize() + ' name is ' + fullname + ', ' + pronoun \
+					+ ' is ' + article + ' ' + races[index].capitalize() + ', and ' + pronoun + ' demands a daily wage of ' + money[index] + ' credits.`\n')
 					missions_file.writelines('\t\t\tchoice\n')
 					missions_file.writelines("\t\t\t\t`don't hire " + pronoun2 + " (maybe you will meet " + pronoun2 + " again)`\n")
 					missions_file.writelines('\t\t\t\t\tdefer\n')
 					missions_file.writelines('\t\t\t\t`hire ' + pronoun2 + '`\n')
 					missions_file.writelines('\t\t\t\t\tdecline\n')
 					missions_file.writelines('\n')
-		# writing additional infos
-		list_file.writelines('savegame editing:\n')
+		# writing additional infos to crew.list.txt / the save editing part
+		for line in sourcelines:
+			list_file.writelines(line)
 		list_file.writelines('\n')
 		list_file.writelines('outfits:\n')
 		list_file.writelines('\n')
@@ -263,7 +281,11 @@ def write_files():
 			list_file.writelines(saveedit2[index])
 
 
-# run
-set_globals()
-read_experts()
-write_files()
+def run():
+	set_globals()
+	read_experts()
+	write_files()
+
+
+if __name__ == "__main__":
+	run()
