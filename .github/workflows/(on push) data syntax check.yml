@@ -18,10 +18,10 @@ jobs:
         cd .\endless-sky
         mkdir plugins
         cd .\plugins
-        mkdir endless-sky-plugins
+        mkdir myplugins
     - uses: actions/checkout@v4
       with:
-        path: '.\endless-sky\plugins\endless-sky-plugins'
+        path: '.\endless-sky\plugins\myplugins'
     - name: Parse Datafiles
       run: "'.\\endless-sky\\Endless Sky.exe' -p"
       shell: bash
