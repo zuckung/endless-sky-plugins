@@ -29,7 +29,7 @@ event "automatahuman"
 		add variant 4
 			"Tek Far 71 - Lek (Jump)" 1
 			"Far Lek 14" 10
-			"Tek Far 109 (Shouldn't Jump)" 1
+			"Tek Far 109 (Jump)" 1
 			"Far Lek 14" 9
 			"Far Osk 27" 7
 			"Kar Ik Vot 349 (Jump)" 2
