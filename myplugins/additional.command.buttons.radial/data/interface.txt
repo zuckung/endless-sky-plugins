@@ -340,7 +340,7 @@ interface "main buttons" bottom right
 
 # OTHER CONTROL ELEMENTS
 
-	# Overlayed on target display, but the hud doesn't have a panel, so to
+	# Overlaid on target display, but the hud doesn't have a panel, so to
 	# handle input, we put it here instead.
 	visible
 	active
@@ -349,7 +349,7 @@ interface "main buttons" bottom right
 		center 75 315
 		radius 80
 
-	# Overlayed on the navigational panel, which displays something like
+	# Overlaid on the navigational panel, which displays something like
 	# "Can land on: Earth"
 	visible
 	active

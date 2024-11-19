@@ -1,7 +1,7 @@
 ### more.boarding.missions <br>
 <br>
 <br>
-Adds 87 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Remnant, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
+Adds 87 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independent, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Remnant, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
 <br>
 Only natural spawning ships can trigger these missions and ships spawned from jobs/missions or marauder hunting fleets doesn't trigger. Remnant assisting chances and Ka'het boarding chances are so high, cause of the rarity to find a boardable ship.<br>
 <br>
@@ -76,7 +76,7 @@ added new outfit "Pug War Staff"<br>
 added 5 hai unfettered assisting missions (credits)<br>
 added 5 hai unfettered boarding missions (credits)<br>
 added 3 hai unfettered boarding missions (outfit)<br>
-added "Merchant" and "Independant" to human assisting missions<br>
+added "Merchant" and "Independent" to human assisting missions<br>
 <br>
 2023-08-29<br>
 added 2 korath boarding missions (outfit)<br>

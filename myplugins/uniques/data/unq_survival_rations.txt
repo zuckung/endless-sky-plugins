@@ -24,7 +24,7 @@ mission "unq_survival_rations"
 	on offer
 		conversation
 			scene "scene/unq_hai_delivery"
-			`As you disembark your ship on the bustling Hai planet, a peculiar sight greets you, a cheerful Hai parcel carrier scurrying towards you, balancing four packages on her arms. She stops in front of you, panting slightly, and with a flick of hers arms, the packages land with a soft *thud* at your feet.`
+			`As you disembark your ship on the bustling Hai planet, a peculiar sight greets you, a cheerful Hai parcel carrier scurrying towards you, balancing four packages on her arms. She stops in front of you, panting slightly, and with a flick of her arms, the packages land with a soft *thud* at your feet.`
 			`"Delivery for you, esteemed traveler!" the carrier chirps.`
 			`You scratch your head in confusion. "Uh, I didn't order anything..."`
 			`The carrier waves off your protest with a friendly whistle. "No worries, it's all correct! Just sign here, and it's all yours!"`
@@ -42,17 +42,3 @@ mission "unq_survival_rations"
 				outfit "unq_survival_rations" 1
 			`You are now the proud owner of four parcels full of Hai survival rations!`
 				decline
-
-
-
-
-
-
-
-
-
-
-
-
-
-
