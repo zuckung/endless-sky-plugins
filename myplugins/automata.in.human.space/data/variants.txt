@@ -13,7 +13,7 @@
 
 
 
-ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Jump)"
+ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Jumpy)"
 	outfits
 		"Korath Detainer" 2
 		"Piercer Missile Launcher" 2
