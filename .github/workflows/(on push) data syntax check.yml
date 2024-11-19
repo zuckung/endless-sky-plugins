@@ -1,6 +1,11 @@
-name: Data Syntax Check
+name: CI
 
-on: [push, pull_request]
+on:
+  push:
+     branches:
+       - main
+  pull_request:
+     types: [opened, synchronize]
 
 jobs:
   test-parse:
@@ -10,7 +15,7 @@ jobs:
       CONTINUOUS: EndlessSky-win64-continuous.zip
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-    - name: Download latest continuous of Endless Sky
+    - name: Download latest continuous
       run: gh release download -R endless-sky/endless-sky continuous -p ${{ env.CONTINUOUS }}
     - name: Extract and prepare continuous
       run: |
@@ -18,10 +23,10 @@ jobs:
         cd .\endless-sky
         mkdir plugins
         cd .\plugins
-        mkdir myplugins
+        mkdir Omnis
     - uses: actions/checkout@v4
       with:
-        path: '.\endless-sky\plugins\myplugins'
+        path: '.\endless-sky\plugins\Omnis'
     - name: Parse Datafiles
       run: "'.\\endless-sky\\Endless Sky.exe' -p"
       shell: bash
