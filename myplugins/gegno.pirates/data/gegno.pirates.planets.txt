@@ -87,7 +87,7 @@ planet "Bantam"
 	attributes "Gegno Pirates" religious
 	landscape land/fog6
 	description `A planet of rough climate, hidden at the border of Gegno space and without any valuable resources. The perfect place for a pirate base.`
-	spaceport `	The mixed spaceships of the different Gegno groups clearly show that this is a pirate base.`
+	spaceport `The mixed spaceships of the different Gegno groups clearly show that this is a pirate base.`
 	security 0
 	outfitter "Gegno Basic"
 	shipyard "Gegno Basic"
@@ -96,7 +96,7 @@ planet "Uuta"
 	attributes "Gegno"
 	landscape land/city6
 	description `A highly populated and very wealthy planet hidden by the Gegno.`
-	spaceport `	On this enormous spaceport you see nearly every ship typ you've encountered during your travels through Gegno space.`
+	spaceport `On this enormous spaceport you see nearly every ship type you've encountered during your travels through Gegno space.`
 	security 0
 	outfitter "Gegno Basic"
 	outfitter "Gegno Intermediate"

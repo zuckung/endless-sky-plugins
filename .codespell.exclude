@@ -1,0 +1,40 @@
+planet "Sies Upi"
+planet "Covert"
+	landscape "land/covert"
+planet "Independance"
+	landscape "land/independance"
+# modified planet vi: Essime, Ternituul, Graede, Siedi, Enbye, Sies Upi
+			"te"
+			`As you disembark your ship on the bustling Hai planet, a peculiar sight greets you, a cheerful Hai parcel carrier scurrying towards you, balancing four packages on her arms. She stops in front of you, panting slightly, and with a flick of her arms, the packages land with a soft *thud* at your feet.`
+	"display name" "Fuara Mor"
+system Currus
+"combat isaac wirth"         "rim"        "2000" "m" "ecmbm03"     "capture attack 15"          "capture defense 16"
+"jamming aline mai"          "paradise"   "2200" "f" "ecmaf04"     "radar jamming 8"            "optical jamming 5"
+"jamming enver diefenbach"   "north"      "3200" "m" "ecmwm07"     "scan interference .5"       "optical jamming 10"
+		"combat isaac wirth"
+		"jamming aline mai"
+		"jamming enver diefenbach"
+	"hire combat isaac wirth: declined"
+	"hire combat isaac wirth: offered"
+	"hire jamming aline mai: declined"
+	"hire jamming aline mai: offered"
+	"hire jamming enver diefenbach: declined"
+	"hire jamming enver diefenbach: offered"
+		has "hire combat isaac wirth: declined"
+		has "hire jamming aline mai: declined"
+		has "hire jamming enver diefenbach: declined"
+mission "hire combat isaac wirth"
+		outfit "combat isaac wirth" 1
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Isaac Wirth, he is a Human, and he demands a daily wage of 2000 credits.`
+mission "hire jamming aline mai"
+		outfit "jamming aline mai" 1
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. She is looking for work. Her name is Aline Mai, she is a Human, and she demands a daily wage of 2200 credits.`
+mission "hire jamming enver diefenbach"
+		outfit "jamming enver diefenbach" 1
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Enver Diefenbach, he is a Human, and he demands a daily wage of 3200 credits.`
+outfit "combat isaac wirth"
+	"display name" "(Combat) Isaac Wirth"
+outfit "jamming aline mai"
+	"display name" "(Jamming) Aline Mai"
+outfit "jamming enver diefenbach"
+	"display name" "(Jamming) Enver Diefenbach"
