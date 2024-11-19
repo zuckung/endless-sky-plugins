@@ -14,7 +14,6 @@ jobs:
     runs-on: windows-2022
     env:
       CONTINUOUS: EndlessSky-win64-continuous.zip
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - name: Download latest continuous
       run: gh release download -R endless-sky/endless-sky continuous -p ${{ env.CONTINUOUS }}
