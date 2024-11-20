@@ -84,7 +84,7 @@ If you are familiar with Python, the scripts in the <a href="tools/README.md">to
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.11-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 919.78 kb | 2024-11-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [216]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.12-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 919.77 kb | 2024-11-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [216]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
