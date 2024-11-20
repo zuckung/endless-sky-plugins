@@ -340,7 +340,7 @@ interface "main buttons" bottom right
 
 # OTHER CONTROL ELEMENTS
 
-  # small button in top-left corner for main menu 
+	# small button in top-left corner for main menu 
 	visible
 	active
 	anchor top left
