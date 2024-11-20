@@ -340,6 +340,15 @@ interface "main buttons" bottom right
 
 # OTHER CONTROL ELEMENTS
 
+  # small button in top-left corner for main menu 
+	visible
+	active
+	anchor top left
+	sprite "ui/sort unacceptable include"
+		from 50 3 to 72 19
+	button "Show main menu"
+		from 36 0 to 84 35
+
 	# Overlaid on target display, but the hud doesn't have a panel, so to
 	# handle input, we put it here instead.
 	visible
@@ -363,7 +372,7 @@ interface "main buttons" bottom right
 	sprite "ui/fast forward_d"
 		from 3 3 to 16 16
 	button "Toggle fast-forward"
-		from 0 0 to 48 48
+		from 0 0 to 35 48      # was 0 0 to 48 48
 
 	# box in bottom left corner that defines a location for the onscreen joystick
 	anchor bottom left
@@ -377,3 +386,39 @@ interface "main buttons" bottom right
 	button ^ ""
 		center 128 -128
 		radius 96
+
+
+# LIST OF POSSIBLE BUTTON COMMANDS
+# "Show main menu"
+# "Forward thrust"
+# "Turn left"
+# "Turn right"
+# "Reverse"
+# "Mouse turning (hold)"
+# "Fire primary weapon"
+# "Toggle turret tracking"
+# "Fire secondary weapon"
+# "Select secondary weapon"
+# "Land on planet / station"
+# "Board selected ship"
+# "Talk to selected ship"
+# "Scan selected ship"
+# "Initiate hyperspace jump"
+# "Select next ship"
+# "Select nearest hostile ship"
+# "Select nearest asteroid"
+# "Deploy / recall fighters"
+# "Fire afterburner"
+# "Toggle cloaking device"
+# "View star map"
+# "View player info"
+# "View message log"
+# "Toggle fullscreen"
+# "Toggle fast-forward"
+# "Show help"
+# "Fleet: Fight my target"
+# "Fleet: Gather around me"
+# "Fleet: Hold position"
+# "Fleet: Harvest flotsam"
+# "Fleet: Toggle ammo usage"
+# "Auto steer"

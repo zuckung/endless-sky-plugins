@@ -22,6 +22,9 @@ To change the colour of the buttons, copy the contents of your desired colour fo
 <br>
 Changelog:<br>
 <br>
+2024-11-20<br>
+added small main menu button to the top left corner(for tarminu)<br>
+<br>
 2024-11-02<br>
 removed hold fire button, because it's unsure when/if it comes back<br>
 changed fast forward button back to small again, because it messed up the mission overview<br>
