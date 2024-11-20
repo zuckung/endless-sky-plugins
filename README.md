@@ -6,6 +6,9 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators or people who seek information inside the data folder. Basically it is a very fast website to view every object of the data folder, especially when you don't know where to find something. For an easier browsing and comparing of game objects, like missions, ships, systems, and others.<br>
 <a href="https://raw.githubusercontent.com/zuckung/ES-DataParser/master/res/parser1.jpg"><img src='https://raw.githubusercontent.com/zuckung/ES-DataParser/master/res/parser1.jpg' width='300'></a>    <a href="https://raw.githubusercontent.com/zuckung/ES-DataParser/master/res/parser2.jpg"><img src='https://raw.githubusercontent.com/zuckung/ES-DataParser/master/res/parser2.jpg' width='300'></a><br>
 <br>
+<br>
+If you are familiar with Python, the scripts in the <a href="tools/README.md">tools-folder</a> might be interesting. There are a few to generate some of my plugins (to keep them up-to-date). And others like an ES jpg map creator or a PR files downloader.<br>
+<br>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzuckung%2Fendless-sky-plugins&count_bg=%2395c20e&title_bg=%235a5a5a&icon=&icon_color=%235A5A5A&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
@@ -16,7 +19,8 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-11 | update: uniques<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-20 | update: additional.command.buttons.radial<br>
+2024-11-11 | update: uniques<br>
 2024-11-11 | update: captureable.person.ships<br>
 2024-11-10 | update: navy.licenses<br>
 2024-11-09 | update: snowfeather.robotics<br>
@@ -25,7 +29,6 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 2024-11-04 | update: kor.efret.shipyard<br>
 2024-11-02 | update: additional.command.buttons.radial<br>
 2024-11-02 | update: show.reputation<br>
-2024-11-02 | update: better.starts<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -81,7 +84,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 919.46 kb | 2024-11-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [216]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.11-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 919.78 kb | 2024-11-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [216]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -132,6 +135,12 @@ To change the colour of the buttons, copy the contents of your desired colour fo
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-11-20<br>
+
+added small main menu button to the top left corner (requested by tarminu)<br>
 
 <br>
 
@@ -2436,7 +2445,7 @@ added plugin.txt<br>
 
 <br>
 
-Adds 87 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independant, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Remnant, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
+Adds 87 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independent, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Remnant, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
 
 <br>
 
@@ -2586,7 +2595,7 @@ added 5 hai unfettered boarding missions (credits)<br>
 
 added 3 hai unfettered boarding missions (outfit)<br>
 
-added "Merchant" and "Independant" to human assisting missions<br>
+added "Merchant" and "Independent" to human assisting missions<br>
 
 <br>
 
