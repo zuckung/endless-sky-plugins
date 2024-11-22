@@ -1,0 +1,19 @@
+system "Sol"
+	add object "Mysterious Wormhole"
+		sprite planet/wormhole-red
+		distance 1000
+		period 1
+
+wormhole "Mysterious Wormhole"
+	link "Sol" "Alcor"
+	link "Alcor" "Sol"
+
+planet "Mysterious Wormhole"
+	spaceport ``
+	government "Republic"
+	wormhole "Mysterious Wormhole"
+
+galaxy "sculptor"
+	pos -7000 -7000
+	sprite "ui/sculptor"
+

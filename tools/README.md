@@ -18,6 +18,10 @@
 <td>generates the txt file, containing all systems cleaned of useless asteroids, for the plugin too.many.asteroids.</td>
 </tr>
 <tr>
+<td>ES_script_generate_galaxy</td>
+<td>generates the txt files, for a customizeable galaxy with up to 500 systems and planets.</td>
+</tr>
+<tr>
 <td></td>
 <td></td>
 </tr>
