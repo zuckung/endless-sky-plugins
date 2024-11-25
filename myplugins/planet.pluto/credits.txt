@@ -1,0 +1,9 @@
+planet.pluto
+author:
+	timeout.fu
+hosted by:
+	Zuckung
+	https://github.com/zuckung/endless-sky-plugins
+images:
+	Pluto and Charon
+		NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker
