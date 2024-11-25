@@ -19,7 +19,8 @@ If you are familiar with Python, the scripts in the <a href="tools/README.md">to
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-20 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-25 | update: planet.pluto<br>
+2024-11-20 | update: additional.command.buttons.radial<br>
 2024-11-11 | update: uniques<br>
 2024-11-11 | update: captureable.person.ships<br>
 2024-11-10 | update: navy.licenses<br>
@@ -28,7 +29,6 @@ If you are familiar with Python, the scripts in the <a href="tools/README.md">to
 2024-11-09 | update site functionality: see plugin images<br>
 2024-11-04 | update: kor.efret.shipyard<br>
 2024-11-02 | update: additional.command.buttons.radial<br>
-2024-11-02 | update: show.reputation<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -59,12 +59,13 @@ If you are familiar with Python, the scripts in the <a href="tools/README.md">to
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
 <a href="README.md#paintyourships">paint.your.ships</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
+<a href="README.md#planetpluto">planet.pluto</a><br>
 <a href="README.md#quargfarm">quarg.farm</a><br>
 <a href="README.md#showreputation">show.reputation</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
@@ -3030,6 +3031,48 @@ added 4 new locations, with 2 new backgrounds<br>
 2024-03-24<br>
 
 initial release<br>
+</blockquote>
+</details>
+<br>
+
+
+---
+
+### planet.pluto
+
+<img src="myplugins/planet.pluto/icon.png" height="100">
+
+[planet.pluto.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-planet.pluto/planet.pluto.zip) | 48.33 kb | 2024-11-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.pluto/) | <a href="res/imagemd/planet.pluto.md">view images</a> [3]<br>
+<br>
+>Adds Pluto and Charon to the Sol system, including a heartbreaking background story. (by timeout.fu)
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### planet.pluto
+
+<br>
+
+<br>
+
+Adds Pluto and Charon to the Sol system, including a heartbreaking background story.
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+Changelog:
+
+<br>
+
+<br>
+
+2024-11-25<br>
+
+initial release<br>
+
 </blockquote>
 </details>
 <br>
