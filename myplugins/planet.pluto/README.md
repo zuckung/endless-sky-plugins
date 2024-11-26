@@ -9,4 +9,4 @@ Changelog:
 <br>
 <br>
 2024-11-25<br>
-intial release<br>
+initial release<br>
