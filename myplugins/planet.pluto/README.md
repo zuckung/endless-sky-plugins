@@ -5,9 +5,8 @@ Adds Pluto and Charon to the Sol system, including a heartbreaking background st
 <br>
 <br>
 <br>
-<br>
 Changelog:
 <br>
 <br>
 2024-11-25<br>
-initial release<br>
+intial release<br>
