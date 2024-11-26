@@ -19,7 +19,8 @@ If you are familiar with Python, the scripts in the <a href="tools/README.md">to
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-25 | update: planet.pluto<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-26 | update: planet.pluto<br>
+2024-11-25 | update: planet.pluto<br>
 2024-11-20 | update: additional.command.buttons.radial<br>
 2024-11-11 | update: uniques<br>
 2024-11-11 | update: captureable.person.ships<br>
@@ -28,7 +29,6 @@ If you are familiar with Python, the scripts in the <a href="tools/README.md">to
 2024-11-09 | update: coalition.shopping<br>
 2024-11-09 | update site functionality: see plugin images<br>
 2024-11-04 | update: kor.efret.shipyard<br>
-2024-11-02 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3042,7 +3042,7 @@ initial release<br>
 
 <img src="myplugins/planet.pluto/icon.png" height="100">
 
-[planet.pluto.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-planet.pluto/planet.pluto.zip) | 48.33 kb | 2024-11-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.pluto/) | <a href="res/imagemd/planet.pluto.md">view images</a> [3]<br>
+[planet.pluto.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-planet.pluto/planet.pluto.zip) | 219.81 kb | 2024-11-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.pluto/) | <a href="res/imagemd/planet.pluto.md">view images</a> [5]<br>
 <br>
 >Adds Pluto and Charon to the Sol system, including a heartbreaking background story. (by timeout.fu)
 <details>
@@ -3054,8 +3054,6 @@ initial release<br>
 <br>
 
 Adds Pluto and Charon to the Sol system, including a heartbreaking background story.
-
-<br>
 
 <br>
 
