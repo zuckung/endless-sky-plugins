@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-26 | update: planet.pluto<br>
+<table><tr><td><img width="882" height="1"><br>2024-11-29 | update: expert.crew.members<br>
+2024-11-26 | update: planet.pluto<br>
 2024-11-25 | update: planet.pluto<br>
 2024-11-20 | update: additional.command.buttons.radial<br>
 2024-11-11 | update: uniques<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-11-09 | update: snowfeather.robotics<br>
 2024-11-09 | update: coalition.shopping<br>
 2024-11-09 | update site functionality: see plugin images<br>
-2024-11-04 | update: kor.efret.shipyard<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1273,7 +1273,7 @@ added icon.png<br>
 
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-expert.crew.members/expert.crew.members.zip) | 7.94 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) | <a href="res/imagemd/expert.crew.members.md">view images</a> [184]<br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-expert.crew.members/expert.crew.members.zip) | 7.55 mb | 2024-11-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) | <a href="res/imagemd/expert.crew.members.md">view images</a> [183]<br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the README for details.
 <details>
@@ -1302,13 +1302,21 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 
 <br>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/expert.crew.members/screenshot.jpg' width='400'>
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members01.jpg' width='400'>
+
+<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members02.jpg' width='400'>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-11-29 <br>
+
+changed images for wanderers, korath, hai and bunrodea (for more quality and consistency)<br>
 
 <br>
 

@@ -489,10 +489,4 @@ graphic files for the plugin: expert.crew.members<br>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/expert.crew.members/images/portrait/wanderer10@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/expert.crew.members/images/portrait/wanderer10@2x.png" height="200"></a><br>
 		wanderer10@2x.png [240x240]</td>
 	</tr>
-	<tr valign="bottom">
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/expert.crew.members/screenshot.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/expert.crew.members/screenshot.jpg" width="200"></a><br>
-		screenshot.jpg [1511x1200]</td>
-		<td></td>
-		<td></td>
-	</tr>
 </table>
