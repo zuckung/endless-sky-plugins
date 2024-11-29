@@ -3,4 +3,7 @@ author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
 images:
-	ai generated at https://www.craiyon.com/
+	wanderers, hai, korath, bunrodea
+		ai generated at https://perchance.org/ai-text-to-image-generator
+	all others
+		ai generated at https://www.craiyon.com/
