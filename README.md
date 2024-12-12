@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-12-12 | update: jump.gates<br>
+<table><tr><td><img width="882" height="1"><br>2024-12-12 | update: planet.map<br>
+2024-12-12 | update: jump.gates<br>
 2024-11-29 | update: expert.crew.members<br>
 2024-11-26 | update: planet.pluto<br>
 2024-11-25 | update: planet.pluto<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-11-11 | update: captureable.person.ships<br>
 2024-11-10 | update: navy.licenses<br>
 2024-11-09 | update: snowfeather.robotics<br>
-2024-11-09 | update: coalition.shopping<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2976,7 +2976,7 @@ initial release<br>
 
 <img src="myplugins/planet.map/icon.png" height="100">
 
-[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-planet.map/planet.map.zip) | 5.0 mb | 2024-08-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) | <a href="res/imagemd/planet.map.md">view images</a> [34]<br>
+[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-planet.map/planet.map.zip) | 5.0 mb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) | <a href="res/imagemd/planet.map.md">view images</a> [34]<br>
 <br>
 >Planetary map travelling concept : Land on Memory, visit the outfitter and follow the small story line. See the README for details.
 
