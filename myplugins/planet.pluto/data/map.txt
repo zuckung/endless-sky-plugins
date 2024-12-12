@@ -3,7 +3,7 @@
 		sprite planet/pluto
 		distance 59062
 		period 90498.1
-		object Charon
+		object
 			sprite planet/charon
 			distance 195
 			period 5.8
