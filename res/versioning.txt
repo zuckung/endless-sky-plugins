@@ -16,7 +16,7 @@ galactic.capital.investment|1.1.4
 gegno.pirates|1.0.2
 hai.side.mission.unlocker|1.1.4
 human.labels|1.0.4
-jump.gates|1.0.1
+jump.gates|1.0.2
 kestrel.unlocks|1.0.0
 kor.efret.shipyard|1.0.2
 landing.images.android|1.0.3

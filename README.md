@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-11-29 | update: expert.crew.members<br>
+<table><tr><td><img width="882" height="1"><br>2024-12-12 | update: jump.gates<br>
+2024-11-29 | update: expert.crew.members<br>
 2024-11-26 | update: planet.pluto<br>
 2024-11-25 | update: planet.pluto<br>
 2024-11-20 | update: additional.command.buttons.radial<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-11-10 | update: navy.licenses<br>
 2024-11-09 | update: snowfeather.robotics<br>
 2024-11-09 | update: coalition.shopping<br>
-2024-11-09 | update site functionality: see plugin images<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1904,7 +1904,7 @@ initial release<br>
 
 <img src="myplugins/jump.gates/icon.png" height="100">
 
-[jump.gates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-jump.gates/jump.gates.zip) | 1.24 mb | 2024-07-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/) | <a href="res/imagemd/jump.gates.md">view images</a> [24]<br>
+[jump.gates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-jump.gates/jump.gates.zip) | 1.24 mb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/) | <a href="res/imagemd/jump.gates.md">view images</a> [24]<br>
 <br>
 >Adds a ring of "jump gates" at the borders of human space to create shortcuts inside human space. See the README for details.
 
@@ -1935,6 +1935,12 @@ These jump gates are technically just wormholes with new sprites. The jump gate 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-11-11<br>
+
+fixed error<br>
 
 <br>
 
@@ -3007,6 +3013,12 @@ As in the spirit of Epsil-Astra, feel free to modify/use this plugin for your ow
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-11-11<br>
+
+fixed error<br>
 
 <br>
 
