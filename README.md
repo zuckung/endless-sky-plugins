@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-12-12 | update: planet.pluto<br>
+<table><tr><td><img width="882" height="1"><br>2024-12-12 | update: bunrodea.missions<br>
+2024-12-12 | update: planet.pluto<br>
 2024-12-12 | update: planet.map<br>
 2024-12-12 | update: jump.gates<br>
 2024-11-29 | update: expert.crew.members<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-11-20 | update: additional.command.buttons.radial<br>
 2024-11-11 | update: uniques<br>
 2024-11-11 | update: captureable.person.ships<br>
-2024-11-10 | update: navy.licenses<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -500,7 +500,7 @@ added Start Explorer to Automata<br>
 
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-bunrodea.missions/bunrodea.missions.zip) | 1.29 mb | 2024-06-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [36]<br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-bunrodea.missions/bunrodea.missions.zip) | 1.29 mb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [36]<br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the README for details.
 <details>
