@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-12-12 | update: planet.map<br>
+<table><tr><td><img width="882" height="1"><br>2024-12-12 | update: planet.pluto<br>
+2024-12-12 | update: planet.map<br>
 2024-12-12 | update: jump.gates<br>
 2024-11-29 | update: expert.crew.members<br>
 2024-11-26 | update: planet.pluto<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-11-11 | update: uniques<br>
 2024-11-11 | update: captureable.person.ships<br>
 2024-11-10 | update: navy.licenses<br>
-2024-11-09 | update: snowfeather.robotics<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3064,7 +3064,7 @@ initial release<br>
 
 <img src="myplugins/planet.pluto/icon.png" height="100">
 
-[planet.pluto.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-planet.pluto/planet.pluto.zip) | 219.81 kb | 2024-11-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.pluto/) | <a href="res/imagemd/planet.pluto.md">view images</a> [5]<br>
+[planet.pluto.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-planet.pluto/planet.pluto.zip) | 219.8 kb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.pluto/) | <a href="res/imagemd/planet.pluto.md">view images</a> [5]<br>
 <br>
 >Adds Pluto and Charon to the Sol system, including a heartbreaking background story. (by timeout.fu)
 <details>
