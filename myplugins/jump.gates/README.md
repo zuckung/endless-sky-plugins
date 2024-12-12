@@ -12,6 +12,9 @@ These jump gates are technically just wormholes with new sprites. The jump gate 
 <br>
 Changelog:<br>
 <br>
+2024-11-11<br>
+fixed error<br>
+<br>
 2024-07-19<br>
 initial release<br>
 text corrections (thx to TheGiraffe3)<br>

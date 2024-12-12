@@ -173,7 +173,7 @@ mission "ava dragon attack"
 		personality heroic staying target
 		fleet "Avalonian Dragons" 3
 	on complete
-		set "ava dragon attacked" ++ 
+		"ava dragon attacked" ++ 
 		payment 80000
 		conversation
 			`For your help defeating the Red Dragons, the local administration pays you 80,000 credits.`

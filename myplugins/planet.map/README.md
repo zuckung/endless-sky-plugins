@@ -15,6 +15,9 @@ As in the spirit of Epsil-Astra, feel free to modify/use this plugin for your ow
 <br>
 Changelog:<br>
 <br>
+2024-11-11<br>
+fixed error<br>
+<br>
 2024-08-18<br>
 removed the start<br>
 adjustments and finetuning<br>
