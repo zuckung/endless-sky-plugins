@@ -1,0 +1,28 @@
+name: (on push) data script check
+on:
+  push:
+    paths:
+      - 'myplugins/**'
+jobs:
+  test-parse:
+    name: Data Files
+    runs-on: windows-2022
+    env:
+      CONTINUOUS: EndlessSky-win64-continuous.zip
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 2
+    - name: Download
+      run: gh release download -R endless-sky/endless-sky continuous -p ${{ env.CONTINUOUS }}
+    - name: Extract & prepare continuous
+      run: |
+        mkdir endless-sky
+        Expand-Archive ${{ env.CONTINUOUS }} -DestinationPath endless-sky -Force
+        rmdir .\myplugins\additional.command.buttons.radial -Recurse -Force
+        move .\myplugins .\endless-sky\plugins
+#       delete additional.command.buttons.radial because it has android scripts
+    - name: Parse Datafiles
+      run: "'.\\endless-sky\\Endless Sky.exe' -p"
+      shell: bash

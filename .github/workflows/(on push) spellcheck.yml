@@ -1,4 +1,4 @@
-name: (on push) Spellcheck
+name: (on push) spellcheck
 
 on: [push, pull_request]
 
