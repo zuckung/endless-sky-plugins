@@ -20,6 +20,9 @@ Beside the cheater start options, all others are balanced and lore friendly. A b
 <br>
 Changelog:<br>
 <br>
+2024-12-19 <br>
+fixed bay type bug (thx to TheMerricat)<br>
+<br>
 2024-11-02 <br>
 changed cheater 2 start heron to have 20 heavy warship bays<br>
 <br>

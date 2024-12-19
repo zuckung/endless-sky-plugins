@@ -9,7 +9,7 @@
 
 
 category "bay type"
-	"Heavy Warship"
+	add "Heavy Warship"
 
 
 mission "add full map"
