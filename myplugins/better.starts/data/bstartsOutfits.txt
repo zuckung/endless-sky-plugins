@@ -1,15 +1,18 @@
 # category "bay type"
 # mission "add full map"
 # outfit "Full Human Space Map"
-# ship "Quarg Skylark" "Quarg Skylark (Explorer)"
+# ship "Quarg Skylark (Explorer)"
 # ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Disabler)"
 # ship "Heron" "Heron (Disabler)"
 # ship "Heron" "Heron (Quarg)"
 
 
+category "ship"
+	"modified Heavy Warship"
+
 
 category "bay type"
-	add "Heavy Warship"
+	"modified Heavy Warship"
 
 
 mission "add full map"
@@ -33,7 +36,32 @@ outfit "Full Human Space Map"
 	description "This tablet computer contains data on all star systems within human space: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
 
 
-ship "Quarg Skylark" "Quarg Skylark (Explorer)"
+ship "Quarg Skylark (Explorer)"
+	sprite "ship/skylark"
+	thumbnail "thumbnail/skylark"
+	attributes
+		category "modified Heavy Warship"
+		"cost" 5900000
+		"shields" 120000
+		"hull" 70000
+		"required crew" 120
+		"bunks" 210
+		"mass" 990
+		"drag" 18.5
+		"heat dissipation" .47
+		"fuel capacity" 1000
+		"cargo space" 200
+		"outfit space" 600
+		"weapon capacity" 200
+		"engine capacity" 120
+		"hull repair rate" 5
+		"hull energy" 5
+		"ramscoop" 10
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
 	outfits
 		"Antimatter Core"
 		"Fuel Module" 2
@@ -48,6 +76,19 @@ ship "Quarg Skylark" "Quarg Skylark (Explorer)"
 		"Quarg Anti-Missile" 2
 		"Quarg Skylance" 2
 		"Wanderer Ramscoop" 3
+	engine -15 117
+	engine 15 117
+	turret -12 -80 "Quarg Skylance"
+	turret 12 -80 "Quarg Skylance"
+	turret -34 24 "Quarg Anti-Missile"
+	turret 34 24 "Quarg Anti-Missile"
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description "The Skylark is used by the Quarg as a freighter and warship."
 
 
 ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Disabler)"
@@ -108,45 +149,45 @@ ship "Heron" "Heron (Quarg)"
 		"Medium Graviton Steering" 7
 		"Medium Graviton Thruster" 7
 		"Research Laboratory"
-	bay "Heavy Warship" -124 -122.5
+	bay "modified Heavy Warship" -124 -122.5
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" 124 -122.5
+	bay "modified Heavy Warship" 124 -122.5
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" -176 -50.5
+	bay "modified Heavy Warship" -176 -50.5
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" 176 -50.5
+	bay "modified Heavy Warship" 176 -50.5
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" -148.5 4
+	bay "modified Heavy Warship" -148.5 4
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" 148.5 4
+	bay "modified Heavy Warship" 148.5 4
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" -56 -150
+	bay "modified Heavy Warship" -56 -150
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" 56 -150
+	bay "modified Heavy Warship" 56 -150
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" -37 -121.5
+	bay "modified Heavy Warship" -37 -121.5
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" 37 -121.5
+	bay "modified Heavy Warship" 37 -121.5
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" -33.5 -99
+	bay "modified Heavy Warship" -33.5 -99
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" 33.5 -99
+	bay "modified Heavy Warship" 33.5 -99
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" -27 -81
+	bay "modified Heavy Warship" -27 -81
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" 27 -81
+	bay "modified Heavy Warship" 27 -81
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" -24 -49.5
+	bay "modified Heavy Warship" -24 -49.5
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" 24 -49.5
+	bay "modified Heavy Warship" 24 -49.5
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" -40 -3
+	bay "modified Heavy Warship" -40 -3
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" 40 -3
+	bay "modified Heavy Warship" 40 -3
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" -28 22.5
+	bay "modified Heavy Warship" -28 22.5
 		"launch effect" "remnant internal"
-	bay "Heavy Warship" 28 22.5
+	bay "modified Heavy Warship" 28 22.5
 		"launch effect" "remnant internal"
 	bay "Drone" -77.5 71.5
 		"launch effect" "remnant internal"

@@ -494,7 +494,7 @@ conversation "z_cheater1"
 
 start "z_cheater2"
 	name "Start: Cheater 2"
-	description `Ship: Heron + 10xSkylark`
+	description `Ship: Heron + 20xSkylark`
 	description `Start with:`
 	description ` Quarg outfits`
 	description ` Jump Drive`
@@ -544,6 +544,26 @@ start "z_cheater2"
 		"name" "Skylark 09"
 	ship "Quarg Skylark (Explorer)" "Skylark"
 		"name" "Skylark 10"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 11"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 12"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 13"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 14"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 15"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 16"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 17"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 18"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 19"
+	ship "Quarg Skylark (Explorer)" "Skylark"
+		"name" "Skylark 20"
 
 
 conversation "z_cheater2"
