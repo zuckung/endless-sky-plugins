@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-12-12 | update: bunrodea.missions<br>
+<table><tr><td><img width="882" height="1"><br>2024-12-19 | update: better.starts<br>
+2024-12-12 | update: bunrodea.missions<br>
 2024-12-12 | update: planet.pluto<br>
 2024-12-12 | update: planet.map<br>
 2024-12-12 | update: jump.gates<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-11-25 | update: planet.pluto<br>
 2024-11-20 | update: additional.command.buttons.radial<br>
 2024-11-11 | update: uniques<br>
-2024-11-11 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -373,7 +373,7 @@ changed icon.png<br>
 
 <img src="myplugins/better.starts/icon.png" height="100">
 
-[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-better.starts/better.starts.zip) | 23.21 kb | 2024-11-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
+[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-better.starts/better.starts.zip) | 23.58 kb | 2024-12-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
