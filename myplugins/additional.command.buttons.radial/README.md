@@ -22,6 +22,10 @@ To change the colour of the buttons, copy the contents of your desired colour fo
 <br>
 Changelog:<br>
 <br>
+2024-12-28<br>
+moved the ammo box to the left side if the lower buttons<br>
+added ship hud (inspired by Upmost Bsc | https://github.com/tobersj/Central-HUD)<br>
+<br>
 2024-11-20<br>
 added small main menu button to the top left corner (requested by tarminu)<br>
 <br>

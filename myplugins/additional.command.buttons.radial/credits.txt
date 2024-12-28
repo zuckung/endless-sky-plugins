@@ -3,3 +3,5 @@ author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
 	original button images and interface by theweirednut
+
+	ship hud inspired by https://github.com/tobersj/Central-HUD

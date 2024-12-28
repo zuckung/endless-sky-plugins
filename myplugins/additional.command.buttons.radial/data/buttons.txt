@@ -9,13 +9,13 @@ interface "main buttons" bottom right
 # board  scan    secondary    primary
 # land   cloak   deploy   jump    map
 
-
 	# lower right button box
 	anchor bottom right
 	sprite "ui/buttonbox"
 		from 90 2 to -313 -158
 
 	# lower right zoom buttons
+	anchor bottom right
 	sprite "ui/zoom"
 		from 0 -126 to -90 -186
 	active if "!max zoom"
@@ -211,9 +211,9 @@ interface "main buttons" bottom right
 	# The engine will draw the secondary weapons list here.
 	visible if "has secondary"
 	box "ammo"
-		from -166 -153 to -76 -308
+		from -275 -40 to -365 -195
 
-# UPPER SCREEN RIGHT (FLEET COMMANDS)
+# UPPER SCREEN RaIGHT (FLEET COMMANDS)
 # layout: attack | gather | stop | hold fire | formations | harvest | ammo switch
 
 	# top right buttonbox

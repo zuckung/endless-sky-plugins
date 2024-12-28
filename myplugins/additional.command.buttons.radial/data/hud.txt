@@ -1,0 +1,220 @@
+interface "hud"
+	# Player status.
+	anchor top right
+	sprite "ui/status"
+		from 3 0
+		align top right
+	string "location"
+		from -160 25
+		color "medium"
+		align right
+		width 140
+		truncate back
+	string "date"
+		from -20 45
+		color "medium"
+		align right
+	string "credits"
+		from -20 65
+		color "medium"
+		align right
+	
+	anchor bottom right
+	visible if "!fast hud sprites"
+	outline "player sprite"
+		center -135 -280
+		dimensions 100 100
+	visible if "fast hud sprites"
+	image "player sprite"
+		center -135 -280
+		dimensions 100 100
+	visible
+	ring "shields"
+		center -135 -280
+		dimensions 150 150
+		color "shields"
+		size 2
+		"start angle" 100
+		"span angle" 200
+	ring "hull"
+		center -135 -280
+		dimensions 140 140
+		color "hull"
+		size 2
+		"start angle" 100
+		"span angle" 200
+	ring "disabled hull"
+		center -135 -280
+		dimensions 140 140
+		color "disabled hull"
+		size 2
+		"start angle" 100
+		"span angle" 200
+	sprite "ui/bar_border"
+		from -35 -184
+		align bottom right
+	bar "fuel"
+		from -39 -190
+		to -230 -190
+		dimensions 123 0
+		color "fuel"
+		size 2
+		reversed
+	sprite "ui/bar_border"
+		from -35 -199
+		align bottom right
+	bar "energy"
+		from -39 -205
+		to -230 -205
+		dimensions 123 0
+		color "energy"
+		size 2
+		reversed
+	sprite "ui/bar_border"
+		from -35 -214
+		align bottom right
+	bar "heat"
+		from -39 -220
+		to -230 -220
+		dimensions 123 0
+		color "heat"
+		size 2
+		reversed
+	bar "overheat"
+		from -39 -220
+		to -230 -220
+		dimensions 123 0
+		color "overheat"
+		size 2
+		reversed
+	bar "overheat blink"
+		from -39 -220
+		to -230 -220
+		dimensions 123 0
+		color "dim"
+		size 2
+		reversed
+
+	# Targets.
+	anchor top left
+	visible if "red alert"
+	sprite "ui/red alert"
+		from 10 10
+		align top left
+	visible
+	sprite "ui/radar"
+		from 0 0
+		align top left
+	point "radar"
+		center 128 128
+	value "radar radius" 110
+	value "radar pointer radius" 130
+	
+	sprite "ui/navigation"
+		from 200 0
+		align top left
+	string "navigation mode"
+		from 215 20
+		align left
+		color "medium"
+	string "destination"
+		from 230 40
+		align left
+		color "medium"
+		width 135
+		truncate back
+	
+	sprite "ui/target"
+		from 0 240
+		align top left
+	point "target"
+		center 75 315
+		dimensions 140 140
+	value "target radius" 70
+	visible if "!fast hud sprites"
+	outline "target sprite"
+		center 75 315
+		dimensions 70 70
+		colored
+	visible if "fast hud sprites"
+	image "target sprite"
+		center 75 315
+		dimensions 70 70
+	visible
+	ring "target shields"
+		center 75 315
+		dimensions 120 120
+		color "shields"
+		size 1.5
+	ring "target hull"
+		center 75 315
+		dimensions 110 110
+		color "hull"
+		size 1.5
+	ring "target disabled hull"
+		center 75 315
+		dimensions 110 110
+		color "disabled hull"
+		size 1.5
+	
+	visible if "range display"
+	sprite "ui/range"
+		from 130 263
+		align top left
+	string "target range"
+		from 160 260
+		align top left
+	visible if "tactical display"
+	sprite "ui/tactical"
+		from 130 290
+		align top left
+	string "target crew"
+		from 162 298
+		align top left
+	string "target fuel"
+		from 162 318
+		align top left
+	string "target energy"
+		from 157 338
+		align top left
+	string "target heat"
+		from 147 358
+		align top left
+	visible
+	
+	string "target name"
+		center 75 395
+		color "bright"
+		width 150
+		truncate middle
+	string "target type"
+		center 75 415
+		color "medium"
+		width 150
+		truncate middle
+	string "target government"
+		center 75 435
+		color "medium"
+		width 150
+		truncate middle
+	point "faction markers"
+		center 75 435
+	string "mission target"
+		center 75 455
+		color "medium"
+	
+	# Other HUD elements:
+	box "escorts"
+		from 0 442 top left
+		to 160 0 bottom left
+	box "messages"
+		from 120 0 bottom left
+		to -370 -200 bottom right
+	box "ammo"
+		from -110 450 top right
+		to 0 0 bottom right
+	value "ammo icon height" 30
+	value "ammo icon width" 80
+	anchor top
+	point "mini-map"
+		center 0 100
