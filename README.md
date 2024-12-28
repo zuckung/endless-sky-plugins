@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-12-19 | update: better.starts<br>
+<table><tr><td><img width="882" height="1"><br>2024-12-28 | update: additional.command.buttons.radial<br>
+2024-12-19 | update: better.starts<br>
 2024-12-12 | update: bunrodea.missions<br>
 2024-12-12 | update: planet.pluto<br>
 2024-12-12 | update: planet.map<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-11-26 | update: planet.pluto<br>
 2024-11-25 | update: planet.pluto<br>
 2024-11-20 | update: additional.command.buttons.radial<br>
-2024-11-11 | update: uniques<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -87,7 +87,7 @@ I've got another new project, a github repository that lets you online generate 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.12-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 919.77 kb | 2024-11-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [216]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.13-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 898.63 kb | 2024-12-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [217]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -138,6 +138,14 @@ To change the colour of the buttons, copy the contents of your desired colour fo
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-12-28<br>
+
+moved the ammo box to the left side if the lower buttons<br>
+
+added ship hud (inspired by Upmost Bsc | https://github.com/tobersj/Central-HUD)<br>
 
 <br>
 
