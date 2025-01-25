@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2024-12-28 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2025-01-25 | update: uniques<br>
+2024-12-28 | update: additional.command.buttons.radial<br>
 2024-12-19 | update: better.starts<br>
 2024-12-12 | update: bunrodea.missions<br>
 2024-12-12 | update: planet.pluto<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-11-29 | update: expert.crew.members<br>
 2024-11-26 | update: planet.pluto<br>
 2024-11-25 | update: planet.pluto<br>
-2024-11-20 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3187,13 +3187,15 @@ Accept the job and the reputations conversation pops up. Then you can choose bet
 
 <br>
 
-<a href='https://github.com/zuckung/endless-sky-plugins/tree/main/tools/show_reputation_plugin_script'>python script</a> to generate the plugin<br>
-
-<br>
-
 <br>
 
 Changelog:<br>
+
+<br>
+
+22025-01-5<br>
+
+added 0.10.11 govs<br>
 
 <br>
 
@@ -3411,15 +3413,19 @@ Increases game performance.<br>
 
 <br>
 
-Every of the 604 base game systems (0.10.9) is edited via a remove command for full compatibility with other system altering plugins. A total of 2788 asteroid entries got removed.<br>
-
-In case I don't update this plugin to the newest game version, a python script for generating an updated plugin can be found <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/tools/ES_plugin_script_too_many_asteroids">here</a>.<br>
+Every of the 699 base game systems (0.10.11) is edited via a remove command for full compatibility with other system altering plugins. A total of 3149 asteroid entries got removed.<br>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-01-25<br>
+
+added the 0.10.11 systems<br>
 
 <br>
 
@@ -3529,7 +3535,7 @@ initial release<br>
 
 <img src="myplugins/uniques/icon.png" height="100">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-uniques/uniques.zip) | 9.61 mb | 2024-11-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [147]<br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-uniques/uniques.zip) | 9.61 mb | 2025-01-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [147]<br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -3646,6 +3652,12 @@ added uniques<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-01-25<br>
+
+added new 'non-blocking' to offspring mission<br>
 
 <br>
 
