@@ -55,6 +55,9 @@ added uniques<br>
 <br>
 Changelog:<br>
 <br>
+2025-01-25<br>
+added new 'non-blocking' to offspring mission<br>
+<br>
 2024-10-11<br>
 fixed error<br>
 added nav buoys unique<br>

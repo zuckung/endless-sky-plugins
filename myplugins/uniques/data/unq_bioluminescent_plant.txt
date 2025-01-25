@@ -98,6 +98,7 @@ mission "unq_bioluminescent_offspring"
 	repeat
 	invisible
 	landing
+	non-blocking
 	to offer
 		has "event: unq_wait_bioluminescent_offspring"
 		has "outfit (flagship installed): unq_bioluminescent_plant"

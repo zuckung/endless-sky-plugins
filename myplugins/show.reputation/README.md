@@ -8,10 +8,11 @@ Accept the job and the reputations conversation pops up. Then you can choose bet
 <br>
 <img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/show.reputation/screenshot.jpg' width='100'>
 <br>
-<a href='https://github.com/zuckung/endless-sky-plugins/tree/main/tools/show_reputation_plugin_script'>python script</a> to generate the plugin<br>
-<br>
 <br>
 Changelog:<br>
+<br>
+22025-01-5<br>
+added 0.10.11 govs<br>
 <br>
 2024-11-02<br>
 added 0.10.9 govs<br>

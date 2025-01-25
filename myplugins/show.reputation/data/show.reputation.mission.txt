@@ -58,8 +58,15 @@ mission "show reputation"
 			label fullrep
 			`Reputation List (all)`
 			``
+			`&[reputation: Aberrant]	Aberrant`
 			`&[reputation: Alpha]	Alpha`
 			`&[reputation: Author]	Author`
+			`&[reputation: Avgi]	Avgi`
+			`&[reputation: Avgi (Consonance)]	Avgi (Consonance)`
+			`&[reputation: Avgi (Twilight Guard)]	Avgi (Twilight Guard)`
+			`&[reputation: Avgi (Dissonance)]	Avgi (Dissonance)`
+			`&[reputation: Avgi (Dissonance Angry)]	Avgi (Dissonance Angry)`
+			`&[reputation: Avgi (Wandering Fleet)]	Avgi (Wandering Fleet)`
 			`&[reputation: Bad Trip]	Bad Trip`
 			`&[reputation: Builder]	Builder`
 			`&[reputation: Bunrodea]	Bunrodea`
@@ -100,6 +107,7 @@ mission "show reputation"
 			`&[reputation: Hai Merchant (Sympathizers)]	Hai Merchant (Sympathizers)`
 			`&[reputation: Hai Merchant (Human)]	Hai Merchant (Human)`
 			`&[reputation: Hai (Unfettered)]	Hai (Unfettered)`
+			`&[reputation: Hai (Unfettered Challenger)]	Hai (Unfettered Challenger)`
 			`&[reputation: Hai (Unfettered Wanderer Tribute)]	Hai (Unfettered Wanderer Tribute)`
 			`&[reputation: Hai (Friendly Unfettered)]	Hai (Friendly Unfettered)`
 			`&[reputation: Hai (Unfettered Civilians)]	Hai (Unfettered Civilians)`
@@ -118,6 +126,9 @@ mission "show reputation"
 			`&[reputation: Indigenous Lifeform]	Indigenous Lifeform`
 			`&[reputation: Indigenous Lifeform (Acheron)]	Indigenous Lifeform (Acheron)`
 			`&[reputation: Indigenous Lifeform (Astral)]	Indigenous Lifeform (Astral)`
+			`&[reputation: Indigenous Lifeform (Tree)]	Indigenous Lifeform (Tree)`
+			`&[reputation: Indigenous Lifeform (Tree Two)]	Indigenous Lifeform (Tree Two)`
+			`&[reputation: Indigenous Lifeform (Subsidurial)]	Indigenous Lifeform (Subsidurial)`
 			`&[reputation: Ka'het]	Ka'het`
 			`&[reputation: Ka'het (Infighting)]	Ka'het (Infighting)`
 			`&[reputation: Ka'sei]	Ka'sei`
@@ -178,6 +189,6 @@ mission "show reputation"
 			`&[reputation: Syndicate (Hostile)]	Syndicate (Hostile)`
 				goto menu
 			label end
-				accept
+				decline
 	on daily
 		fail
