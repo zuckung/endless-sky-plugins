@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-01-25 | update: show.reputation<br>
+<table><tr><td><img width="882" height="1"><br>2025-01-25 | update: too.many.asteroids<br>
+2025-01-25 | update: show.reputation<br>
 2025-01-25 | update: uniques<br>
 2024-12-28 | update: additional.command.buttons.radial<br>
 2024-12-19 | update: better.starts<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-12-12 | update: planet.map<br>
 2024-12-12 | update: jump.gates<br>
 2024-11-29 | update: expert.crew.members<br>
-2024-11-26 | update: planet.pluto<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3393,7 +3393,7 @@ initial release<br>
 
 <img src="myplugins/too.many.asteroids/icon.png" height="100">
 
-[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-too.many.asteroids/too.many.asteroids.zip) | 18.88 kb | 2024-09-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) | <a href="res/imagemd/too.many.asteroids.md">view images</a> [1]<br>
+[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-too.many.asteroids/too.many.asteroids.zip) | 19.47 kb | 2025-01-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) | <a href="res/imagemd/too.many.asteroids.md">view images</a> [1]<br>
 <br>
 >Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. Increases game performance. See the README for details.
 
