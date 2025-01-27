@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-01-27 | update: quarg.farm<br>
+<table><tr><td><img width="882" height="1"><br>2025-01-27 | update: captureable.person.ships<br>
+2025-01-27 | update: quarg.farm<br>
 2025-01-25 | update: too.many.asteroids<br>
 2025-01-25 | update: show.reputation<br>
 2025-01-25 | update: uniques<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-12-12 | update: bunrodea.missions<br>
 2024-12-12 | update: planet.pluto<br>
 2024-12-12 | update: planet.map<br>
-2024-12-12 | update: jump.gates<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -712,7 +712,7 @@ initial release<br>
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.6-captureable.person.ships/captureable.person.ships.zip) | 140.1 kb | 2024-11-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) | <a href="res/imagemd/captureable.person.ships.md">view images</a> [3]<br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.7-captureable.person.ships/captureable.person.ships.zip) | 140.92 kb | 2025-01-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) | <a href="res/imagemd/captureable.person.ships.md">view images</a> [3]<br>
 <br>
 >Makes person ships capturable. See the README for details.
 
