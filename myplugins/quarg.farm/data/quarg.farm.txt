@@ -60,7 +60,7 @@ mission "Quarg Warning Saquerver"
 
 
 system "Saquerver"
-	pos -532 599
+	pos -509 576
 	government "Quarg (Evil)"
 	arrival 600
 	habitable 600

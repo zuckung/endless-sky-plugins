@@ -8,6 +8,9 @@ The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Qu
 <br>
 Changelog:<br>
 <br>
+2025-01-27<br>
+adjusted system "Saquerver" position to not collide with 0.10.11 additions<br>
+<br>
 2024-10-06<br>
 removed death sentence from government "Quarg (Incipias)"<br>
 <br>

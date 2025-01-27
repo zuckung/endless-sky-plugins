@@ -14,10 +14,13 @@
 #	"Gefullte Taubenbrust" 1000  everywhere  modified battleship
 #	"MasterOfGrey"         1000  hai         modified ladybug
 # "Patrol Team"          1000  everywhere  5x waverider
+# "Danau"                1000  human space  1xmodified hauler IV, 2x hauler III, 2x hauler II, 2xhauler
+
 
 gamerules
 	"no person spawn weight" 0
 #	"person spawn period" 2000 # original 36000 which is 10 minutes
+
 
 disable person
 	"Michael Zahniser"
@@ -35,6 +38,8 @@ disable person
 	"Gefullte Taubenbrust"
 	"MasterOfGrey"
 	"Patrol Team"
+	"Danau"
+
 
 person "Michael Zahniser (C)"
 	government "Author"
@@ -1134,3 +1139,113 @@ person "Patrol Team (C)"
 			"shields" 12000
 			"hull" 5000
 			"mass" 100
+
+
+person "Danau (C)"
+	government "Author"
+	frequency 1000
+	personality
+		disables heroic surveillance
+	formation "Vic"
+	system
+		government "Syndicate"
+		government "Republic"
+		government "Free Worlds"
+	phrase
+		word
+			"When you want to stop your ship, press shift and reverse."
+			"Your hyperdrive doesn't work? Have you tried turning it off and on again?"
+	phrase
+		word
+			"Change the orientation of your"
+		word
+			" "
+		word
+			"drone"
+			"interceptor"
+			"fighter"
+		word
+			" "
+		word
+			"bays"
+			"docking ports"
+		word
+			" "
+		word
+			"just for the fun of it."
+			"for faster deployments."
+			"on your new Marauder ship."
+			"to improve atmospheric handling."
+	phrase
+		word
+			"I have a delivery for"
+			"I'm looking for"
+		word
+			" "
+		word
+			"Arrakis"
+			"Caladan"
+			"the Eaxaw"
+			"the Gyisache"
+			"the Happy Birthday"
+			"the Laenfa"
+			"the Muursh"
+			"the Ourbools"
+			"Tycho Magnetic Anomaly 2"
+		word
+			"; "
+		word
+			"is this the right game?"
+	phrase
+		word
+			"The Hauler VI is a nice ship, "
+		word
+			"as long as you don't activate the cargo refrigeration systems."
+			"but it hasn't gotten beyond the prototype stage yet."
+			"but it is not for sale on the regular market."
+			"but using two Hauler IIIs is probably more economical."
+	phrase
+		word
+			"Automate"
+			"Extend"
+			"Improve"
+			"Streamline"
+		word
+			" "
+		word
+			"our"
+			"the ES"
+			"your"
+		word
+			" "
+		word
+			"builds"
+			"builds and tests"
+			"CI jobs"
+			"coding style checks"
+			"integration processes"
+			"merge process"
+			"software tests"
+			"test and integration processes"
+			"test processes"
+			"tests"
+		word
+			"."
+			"!"
+		word
+			" "
+		word
+			"Avoid game crashes!"
+			"Improve the quality of our codebase!"
+			"Get new features into the game faster!"
+			"Have more time for good reviews!"
+			"Have more time for playing the game!"
+			"Prevent bugs!"
+
+	ship "Modified Hauler VI" "Bouldered Sea"
+	ship "Hauler III" "Gravelly Reservoir"
+	ship "Hauler III" "Stony Mere"
+	ship "Hauler II" "Rocky Lake"
+	ship "Hauler II" "Shingly Loch"
+	ship "Hauler" "Craggy Tarn"
+	ship "Hauler" "Pebbly Pond"
