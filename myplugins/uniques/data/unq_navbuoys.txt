@@ -1,9 +1,9 @@
 # outfit "unq_navbuoys"
 # mission "unq_get_nav_buoys"
-# mission "unq_unshroud_gegno"
+# mission "unq_unshroud_avgi"
 # mission "unq_unshroud_successor"
-# 16 gegno unshroud events
-# 10 successor unshroud events
+# 28 avgi unshroud events
+# 9 successor unshroud events
 
 
 
@@ -25,7 +25,7 @@ mission "unq_get_nav_buoys"
 		government "Free Worlds" "Republic" "Syndicate" "Independent"
 	to offer
 		or
-			has "visited system: L-118"
+			has "visited system: H-1"
 			has "visited system: Khasola-Ryuit"
 		"credits" > 25000
 		random < 10
@@ -41,76 +41,124 @@ mission "unq_get_nav_buoys"
 				decline
 
 
-mission "unq_unshroud_gegno"
+mission "unq_unshroud_avgi"
 	invisible
 	landing
 	to offer
 		has "outfit (installed): unq_navbuoys"
 	to complete
-		has "event: navL-118"
-		has "event: navH-9187"
-		has "event: navMC-42"
-		has "event: navH-8188"
-		has "event: navG-819"
-		has "event: navG-719"
-		has "event: navW-3197"
-		has "event: navL-6181"
-		has "event: navMS-219"
-		has "event: navM-1188"
-		has "event: navE-4183"
-		has "event: navG-6183"
-		has "event: navE-9182"
-		has "event: navO-3184"
-		has "event: navU-5188"
-		has "event: navV-2189"
-	on enter "L-118"
+		has "event: navAr-40"
+		has "event: navAs-75"
+		has "event: navB-11"
+		has "event: navBe-9"
+		has "event: navBr-80"
+		has "event: navC-12"
+		has "event: navCa-40"
+		has "event: navCl-35"
+		has "event: navDemilude"
+		has "event: navEnsemble"
+		has "event: navF-19"
+		has "event: navGe-73"
+		has "event: navH-1"
+		has "event: navHe-4"
+		has "event: navInterlude"
+		has "event: navK-39"
+		has "event: navKr-84"
+		has "event: navLi-7"
+		has "event: navMg-24"
+		has "event: navN-14"
+		has "event: navNa-23"
+		has "event: navNe-20"
+		has "event: navO-16"
+		has "event: navP-31"
+		has "event: navPostlude"
+		has "event: navPrelude"
+		has "event: navS-32"
+		has "event: navSi-28"
+	on enter "Ar-40"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navL-118"
-	on enter "H-9187"
+		event "navAr-40"
+	on enter "As-75"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navH-9187"
-	on enter "MC-42"
+		event "navAs-75"
+	on enter "B-11"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navMC-42"
-	on enter "H-8188"
+		event "navB-11"
+	on enter "Be-9"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navH-8188"
-	on enter "G-819"
+		event "navBe-9"
+	on enter "Br-80"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navG-819"
-	on enter "G-719"
+		event "navBr-80"
+	on enter "C-12"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navG-719"
-	on enter "W-3197"
+		event "navC-12"
+	on enter "Ca-40"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navW-3197"
-	on enter "L-6181"
+		event "navCa-40"
+	on enter "Cl-35"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navL-6181"
-	on enter "MS-219"
+		event "navCl-35"
+	on enter "Demilude"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navMS-219"
-	on enter "M-1188"
+		event "navDemilude"
+	on enter "Ensemble"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navM-1188"
-	on enter "E-4183"
+		event "navEnsemble"
+	on enter "F-19"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navE-4183"
-	on enter "G-6183"
+		event "navF-19"
+	on enter "Ge-73"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navG-6183"
-	on enter "E-9182"
+		event "navGe-73"
+	on enter "H-1"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navE-9182"
-	on enter "O-3184"
+		event "navH-1"
+	on enter "He-4"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navO-3184"
-	on enter "U-5188"
+		event "navHe-4"
+	on enter "Interlude"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navU-5188"
-	on enter "V-2189"
+		event "navInterlude"
+	on enter "K-39"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navV-2189"
+		event "navK-39"
+	on enter "Kr-84"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navKr-84"
+	on enter "Li-7"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navLi-7"
+	on enter "Mg-24"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navMg-24"
+	on enter "N-14"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navN-14"
+	on enter "Na-23"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navNa-23"
+	on enter "Ne-20"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navNe-20"
+	on enter "O-16"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navO-16"
+	on enter "P-31"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navP-31"
+	on enter "Postlude"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navPostlude"
+	on enter "Prelude"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navPrelude"
+	on enter "S-32"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navS-32"
+	on enter "Si-28"
+		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
+		event "navSi-28"
 
 
 mission "unq_unshroud_successor"
@@ -123,7 +171,6 @@ mission "unq_unshroud_successor"
 		has "event: navMavra-Ijsola"
 		has "event: navKasii-Cavaasa"
 		has "event: navAvasaa-Novaa"
-		has "event: navEta Carinae"
 		has "event: navKiiraj-Luue"
 		has "event: navKasi-Vasa-Novaa"
 		has "event: navUuoru-Sossa"
@@ -141,9 +188,6 @@ mission "unq_unshroud_successor"
 	on enter "Avasaa-Novaa"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
 		event "navAvasaa-Novaa"
-	on enter "Eta Carinae"
-		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
-		event "navEta Carinae"
 	on enter "Kiiraj-Luue"
 		dialog "This is a shrouded system! You release a 'Nav Buoy' to mark its position on your star map."
 		event "navKiiraj-Luue"
@@ -161,57 +205,6 @@ mission "unq_unshroud_successor"
 		event "navKasii-Sola"
 
 
-# unshroud systems west of gegno
-event "navL-118"
-	system "L-118"
-		remove shrouded
-event "navH-9187"
-	system "H-9187"
-		remove shrouded
-event "navMC-42"
-	system "MC-42"
-		remove shrouded
-event "navH-8188"
-	system "H-8188"
-		remove shrouded
-event "navG-819"
-	system "G-819"
-		remove shrouded
-event "navG-719"
-	system "G-719"
-		remove shrouded
-event "navW-3197"
-	system "W-3197"
-		remove shrouded
-event "navL-6181"
-	system "L-6181"
-		remove shrouded
-event "navMS-219"
-	system "MS-219"
-		remove shrouded
-event "navM-1188"
-	system "M-1188"
-		remove shrouded
-event "navE-4183"
-	system "E-4183"
-		remove shrouded
-event "navG-6183"
-	system "G-6183"
-		remove shrouded
-event "navE-9182"
-	system "E-9182"
-		remove shrouded
-event "navO-3184"
-	system "O-3184"
-		remove shrouded
-event "navU-5188"
-	system "U-5188"
-		remove shrouded
-event "navV-2189"
-	system "V-2189"
-		remove shrouded
-
-
 # unshroud successor systems
 event "navKhasola-Ryuit"
 	system "Khasola-Ryuit"
@@ -224,9 +217,6 @@ event "navKasii-Cavaasa"
 		remove shrouded
 event "navAvasaa-Novaa"
 	system "Avasaa-Novaa"
-		remove shrouded
-event "navEta Carinae"
-	system "Eta Carinae"
 		remove shrouded
 event "navKiiraj-Luue"
 	system "Kiiraj-Luue"
@@ -244,3 +234,89 @@ event "navKasii-Sola"
 	system "Kasii-Sola"
 		remove shrouded
 
+
+# unshroud avgi systems
+event "navAr-40"
+	system "Ar-40"
+		remove shrouded
+event "navAs-75"
+	system "As-75"
+		remove shrouded
+event "navB-11"
+	system "B-11"
+		remove shrouded
+event "navBe-9"
+	system "Be-9"
+		remove shrouded
+event "navBr-80"
+	system "Br-80"
+		remove shrouded
+event "navC-12"
+	system "C-12"
+		remove shrouded
+event "navCa-40"
+	system "Ca-40"
+		remove shrouded
+event "navCl-35"
+	system "Cl-35"
+		remove shrouded
+event "navDemilude"
+	system "Demilude"
+		remove shrouded
+event "navEnsemble"
+	system "Ensemble"
+		remove shrouded
+event "navF-19"
+	system "F-19"
+		remove shrouded
+event "navGe-73"
+	system "Ge-73"
+		remove shrouded
+event "navH-1"
+	system "H-1"
+		remove shrouded
+event "navHe-4"
+	system "He-4"
+		remove shrouded
+event "navInterlude"
+	system "Interlude"
+		remove shrouded
+event "navK-39"
+	system "K-39"
+		remove shrouded 
+event "navKr-84"
+	system "Kr-84"
+		remove shrouded
+event "navLi-7"
+	system "Li-7"
+		remove shrouded
+event "navMg-24"
+	system "Mg-24"
+		remove shrouded
+event "navN-14"
+	system "N-14"
+		remove shrouded
+event "navNa-23"
+	system "Na-23"
+		remove shrouded
+event "navNe-20"
+	system "Ne-20"
+		remove shrouded
+event "navO-16"
+	system "O-16"
+		remove shrouded
+event "navP-31"
+	system "P-31"
+		remove shrouded
+event "navPostlude"
+	system "Postlude"
+		remove shrouded
+event "navPrelude"
+	system "Prelude"
+		remove shrouded
+event "navS-32"
+	system "S-32"
+		remove shrouded
+event "navSi-28"
+	system "Si-28"
+		remove shrouded

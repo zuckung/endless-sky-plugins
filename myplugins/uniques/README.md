@@ -55,6 +55,10 @@ added uniques<br>
 <br>
 Changelog:<br>
 <br>
+2025-01-27<br>
+removed nav buoy mission and events for gegno space<br>
+added nav buoy mission and events for avgi space<br>
+<br>
 2025-01-25<br>
 added new 'non-blocking' to offspring mission<br>
 <br>
