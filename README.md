@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-01-27 | update: captureable.person.ships<br>
+<table><tr><td><img width="882" height="1"><br>2025-01-27 | update: uniques<br>
+2025-01-27 | update: captureable.person.ships<br>
 2025-01-27 | update: quarg.farm<br>
 2025-01-25 | update: too.many.asteroids<br>
 2025-01-25 | update: show.reputation<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-12-19 | update: better.starts<br>
 2024-12-12 | update: bunrodea.missions<br>
 2024-12-12 | update: planet.pluto<br>
-2024-12-12 | update: planet.map<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3549,7 +3549,7 @@ initial release<br>
 
 <img src="myplugins/uniques/icon.png" height="100">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-uniques/uniques.zip) | 9.61 mb | 2025-01-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [147]<br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-uniques/uniques.zip) | 9.61 mb | 2025-01-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [147]<br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -3666,6 +3666,14 @@ added uniques<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-01-27<br>
+
+removed nav buoy mission and events for gegno space<br>
+
+added nav buoy mission and events for avgi space<br>
 
 <br>
 
