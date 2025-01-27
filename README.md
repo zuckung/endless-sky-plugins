@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-01-25 | update: too.many.asteroids<br>
+<table><tr><td><img width="882" height="1"><br>2025-01-27 | update: quarg.farm<br>
+2025-01-25 | update: too.many.asteroids<br>
 2025-01-25 | update: show.reputation<br>
 2025-01-25 | update: uniques<br>
 2024-12-28 | update: additional.command.buttons.radial<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2024-12-12 | update: planet.pluto<br>
 2024-12-12 | update: planet.map<br>
 2024-12-12 | update: jump.gates<br>
-2024-11-29 | update: expert.crew.members<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -730,9 +730,9 @@ Makes person ships captureable.<br>
 
 <br>
 
-Well, technically this plugin disables the person ships, and creates new ones which are captureable (with changed names to "<name> (disable me)", due to limitations of changing parts of the originals). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesn't flee. And changed "Zitchas" personality to "decloaked", so it doesn'tflee and regenerate while cloaked.<br>
+Well, technically this plugin disables the person ships, and creates new ones which are captureable (with changed names to "<name> (disable me)", due to limitations of changing parts of the originals). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesn't flee. And changed "Zitchas" personality to "decloaked", so it doesn't flee and regenerate while cloaked.<br>
 
-So attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average within 10 minutes.<br>
+Attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average within 10 minutes.<br>
 
 <br>
 
@@ -744,7 +744,7 @@ After you've killed them all, you receive a small unique gift.<br>
 
 I tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and I tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
 
-In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in max a  minute.<br>
+In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in max a minute.<br>
 
 <br>
 
@@ -784,6 +784,8 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 
 <li>"Patrol Team" (found everywhere | 6x Waverider)</li>
 
+<li>"Danau" (found in human space | 1x mod. Hauler IV, 2x Hauler III, 2x Hauler II, 2x Hauler)</li>
+
 </ul>
 
 <br>
@@ -791,6 +793,12 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-01-27<br>
+
+added 0.10.11 person "Danau"<br>
 
 <br>
 
@@ -3112,7 +3120,7 @@ initial release<br>
 
 <img src="myplugins/quarg.farm/icon.png" height="100">
 
-[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-quarg.farm/quarg.farm.zip) | 26.82 kb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) | <a href="res/imagemd/quarg.farm.md">view images</a> [1]<br>
+[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-quarg.farm/quarg.farm.zip) | 26.87 kb | 2025-01-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) | <a href="res/imagemd/quarg.farm.md">view images</a> [1]<br>
 <br>
 >Adds a new system "Saquerver" (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the README for details.
 
@@ -3135,6 +3143,12 @@ The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Qu
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-01-27<br>
+
+adjusted system "Saquerver" position to not collide with 0.10.11 additions<br>
 
 <br>
 

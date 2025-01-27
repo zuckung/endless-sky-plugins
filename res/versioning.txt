@@ -31,7 +31,7 @@ outfits.weapon.slot|1.0.0
 paint.your.ships|1.0.1
 planet.map|1.0.2
 planet.pluto|1.0.2
-quarg.farm|1.0.2
+quarg.farm|1.0.3
 real.fluff|1.0.8
 show.reputation|1.0.3
 snowfeather.robotics|1.0.5
