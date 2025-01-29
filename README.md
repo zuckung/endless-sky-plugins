@@ -123,13 +123,7 @@ This plugin<br>
 
 <br>
 
-To change the colour of the buttons, copy the contents of your desired colour folder 'images/ui/color' to 'images/ui/' and overwrite the files there.<br>
-
-<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial02.jpg' width='400'>
+To change the color of the buttons, copy the contents of your desired color folder 'images/ui/color' to 'images/ui/' and overwrite the files there.<br>
 
 <br>
 
@@ -237,6 +231,16 @@ initial release<br>
 </blockquote>
 </details>
 <br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
 
 
 ---
@@ -311,6 +315,7 @@ changed readme<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -372,6 +377,7 @@ changed icon.png<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -499,6 +505,7 @@ added Start Explorer to Automata<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -534,20 +541,6 @@ Averagely you have to do like 50 jobs, less if you take the fighting jobs. Like 
 <br>
 
 Since it's often questioned, here is a guide to the bunrodea first contact mission. Travel through Bunrodea territory till you've killed at least one Bunrodea ship, then fly to a human system, land there and you get a mission that mission brings you back to the Bunrodea. You can land on 4 planets now, and at this point this plugin starts.<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions02.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions03.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions04.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions05.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions06.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions07.jpg' width='400'>
 
 <br>
 
@@ -704,6 +697,25 @@ initial release<br>
 </blockquote>
 </details>
 <br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions03.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions04.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions05.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions06.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions07.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
 
 
 ---
@@ -745,10 +757,6 @@ After you've killed them all, you receive a small unique gift.<br>
 I tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and I tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
 
 In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in max a minute.<br>
-
-<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/capturable.person.ships01.jpg' width='400'>
 
 <ul>
 
@@ -906,6 +914,7 @@ initial release<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -934,10 +943,6 @@ Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in 'Homewar
 Adds all existing coalition outfitters and shipyards to 'Far Home'. Also adds a new shipyard and a new outfitter with missing ships/outfits.<br>
 
 To start the mission to enable these outfitters and shipyards, you have to join Heliarch or Lunarium (complete the first chapter of these storylines) and own/pay 6/5 million credits. The mission starts anywhere in coalition space. I added this plausible mission to make the plugin feel less cheaty.<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/coalition.shopping01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/coalition.shopping02.jpg' width='400'>
 
 <br>
 
@@ -992,6 +997,16 @@ initial release<br>
 </blockquote>
 </details>
 <br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/coalition.shopping01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/coalition.shopping02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
 
 
 ---
@@ -1040,10 +1055,6 @@ Completing the campaigns might not exactly have the same result as if the campai
 
 So lets call this plugin EXPERIMENTAL for now.<br>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/control.station01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/control.station02.jpg' width='400'>
-
 <br>
 
 <br>
@@ -1084,6 +1095,16 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/control.station01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/control.station02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
 <br>
 
 
@@ -1168,6 +1189,7 @@ added plugin.txt<br>
 added icon.png<br>
 </blockquote>
 </details>
+
 <br>
 
 
@@ -1280,6 +1302,7 @@ added the 3 pirate occupation missions<br>
 added icon.png<br>
 </blockquote>
 </details>
+
 <br>
 
 
@@ -1315,12 +1338,6 @@ They have the positive stats of a small human outfit, at the cost of a bunk and 
 If you collect them all, you'll get a special mission.<br>
 
 See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/expert.crew.members/crew.list.txt'>crew.list.txt</a> of this plugin for locations, and stat infos.<br>
-
-<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members02.jpg' width='400'>
 
 <br>
 
@@ -1434,6 +1451,16 @@ initial release<br>
 </blockquote>
 </details>
 <br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
 
 
 ---
@@ -1485,6 +1512,7 @@ added plugin.txt<br>
 <br>
 </blockquote>
 </details>
+
 <br>
 
 
@@ -1511,10 +1539,6 @@ Implements a short mission chain that enables repeatable job board investment op
 There are missions for 1 million, 5 million, 10 million, 50 million, 100 million and 1 billion credits. The chance for the jobs to appear on the job board getting lower with the amount to invest.<br>
 
 At 1 billion credits a longer mission chain starts and enables a reapeatable job board investment of 1 billion credits. The chain has some breaks and finish after a year.<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/galactic.capital.investment01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/galactic.capital.investment02.jpg' width='400'>
 
 <br>
 
@@ -1610,6 +1634,16 @@ moved investment missions from spaceport mission to job board<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/galactic.capital.investment01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/galactic.capital.investment02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
 <br>
 
 
@@ -1759,6 +1793,7 @@ initial release<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -1836,6 +1871,7 @@ initial release<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -1864,10 +1900,6 @@ Reworks the Human area labels and adds area borders. See the readme for details.
 The area labels of Human space are now smaller and better to see. Also there is a border drawn around each area.<br>
 
 On Earth's job board you can find a mission to change the color of the labels(light blue, light gray, yellow, dark red, green, dark gray, orange, purple).<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels02.jpg' width='400'>
 
 <br>
 
@@ -1912,6 +1944,16 @@ initial release<br>
 </blockquote>
 </details>
 <br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
 
 
 ---
@@ -1940,12 +1982,6 @@ A month after the game starts, the player gets a spaceport info mission about a 
 
 These jump gates are technically just wormholes with new sprites. The jump gate ring around human space is made of two gates in every of these systems: Naos (Deep) - Spica (Dirt Belt) - Alniyat (South) - Tarazed (South) - Sheratan (Core) - Alnitak (North) and from there back to Naos. Two gates, so you can move forward and backward on the ring.<br>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/jump.gates01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/jump.gates02.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/jump.gates03.jpg' width='400'>
-
 <br>
 
 <br>
@@ -1970,6 +2006,17 @@ text corrections (thx to TheGiraffe3)<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/jump.gates01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/jump.gates02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/jump.gates03.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
 <br>
 
 
@@ -2013,6 +2060,7 @@ initial release<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -2205,6 +2253,7 @@ added new icon.png<br>
 reworked readme<br>
 </blockquote>
 </details>
+
 <br>
 
 
@@ -2234,7 +2283,7 @@ These images replace the boring vanilla images you see when you've landed on a p
 
 0.10.8 with 472 planets<br>
 
-See all images <a href='https://github.com/zuckung/endless-sky-plugins-graphics/blob/main/res/md/landing.images.md'>here</a>.<br>
+See all images by clicking the "view images link" on this site.<br>
 
 <br>
 
@@ -2258,6 +2307,17 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
 <br>
 
 
@@ -2303,18 +2363,6 @@ That resizes the landing image and the frame to their half.<br>
 
 <br>
 
-Before:<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android01.jpg' width='400'>
-
-<br>
-
-After:<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android02.jpg' width='400'>
-
-<br>
-
 <br>
 
 Changelog:<br>
@@ -2351,6 +2399,16 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
 <br>
 
 
@@ -2406,6 +2464,7 @@ initial release<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -2458,6 +2517,7 @@ added support for more.boarding.missions<br>
 added plugin.txt<br>
 </blockquote>
 </details>
+
 <br>
 
 
@@ -2527,26 +2587,6 @@ Only natural spawning ships can trigger these missions and ships spawned from jo
 <li> support for plugin more.arfectas(6 pug farm boarding missions)</li>
 
 </ul>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions02.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions03.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions04.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions05.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions06.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions07.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions08.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions09.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions10.jpg' width='400'>
 
 <br>
 
@@ -2643,6 +2683,30 @@ added icon and reworked readme<br>
 </blockquote>
 </details>
 <br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions03.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions04.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions05.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions06.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions07.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions08.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions09.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions10.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
 
 
 ---
@@ -2697,12 +2761,6 @@ Planet Express | everywhere | Old Bessie (new ship, stats by timeout.fu)
 
 <br>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships02.jpg' width='400'>
-
-<br>
-
 <br>
 
 Changelog:<br>
@@ -2752,6 +2810,16 @@ initial release<br>
 </blockquote>
 </details>
 <br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
 
 
 ---
@@ -2781,10 +2849,6 @@ The mission can get started with 550,000 credits cash available. You have to pay
 If you reject the mission, you can restart it on other visits. Also not buying all licenses lets the buying mission on Geminus restart on other landings (until all are bought).<br>
 
 You get the following licenses: Navy license, Navy Auxiliary license, Navy Cruiser license, Navy Carrier license.<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/navy.licenses01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/navy.licenses02.jpg' width='400'>
 
 <br>
 
@@ -2824,6 +2888,16 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/navy.licenses01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/navy.licenses02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
 <br>
 
 
@@ -2887,6 +2961,7 @@ initial release<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -2918,10 +2993,6 @@ Half the outfits are designed by timeout.fu and he did an overall balancing of a
 
 Currently there are 7 gun port outfits and 6 turret port outfits. Available on Glaze, Valhalla, Wayfarer, Luna and Sunracer.<br>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/outfits.weapon.slot01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/outfits.weapon.slot02.jpg' width='400'>
-
 <br>
 
 <br>
@@ -2938,6 +3009,16 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/outfits.weapon.slot01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/outfits.weapon.slot02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
 <br>
 
 
@@ -2965,8 +3046,6 @@ Offers a job on Earth to paint your ships.<br>
 
 There are already like five plugins that change the swizzle color, but this one has the colors displayed ingame (image by amazinite).<br>
 
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/paint.your.ships01.jpg' width='400'>
-
 <br>
 
 <br>
@@ -2983,6 +3062,15 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/paint.your.ships01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
 <br>
 
 
@@ -3017,12 +3105,6 @@ A small storyline got added.<br>
 <br>
 
 As in the spirit of Epsil-Astra, feel free to modify/use this plugin for your own content creation.<br> 
-
-<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map02.jpg' width='400'>
 
 <br>
 
@@ -3072,6 +3154,16 @@ initial release<br>
 </blockquote>
 </details>
 <br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
 
 
 ---
@@ -3111,6 +3203,7 @@ initial release<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -3166,6 +3259,7 @@ initial release<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -3192,12 +3286,6 @@ Enables a job on every planet's job board, that shows the reputation values.<br>
 <br>
 
 Accept the job and the reputations conversation pops up. Then you can choose between viewing the 35 most useful or all.<br>
-
-<br>
-
-<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/myplugins/show.reputation/screenshot.jpg' width='100'>
 
 <br>
 
@@ -3237,6 +3325,7 @@ initial release<br>
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -3267,12 +3356,6 @@ Starts on Snowfeather(Bore Fah) when having at least one android installed. <br>
 To get an android, which is needed to start this plugin, do the remnant mission 'shattered light 4'. Alternatively my plugin 'more.boarding.missions' gives androids as rare reward for boarding pirates.<br>
 
 The new buyable worker androids are twice as expensive as the original ones, and pay off after like 4 years. Also 6 fighting androids are added, technically they are h2h outfits (with attack/defense 2/2, 4/4, 6/6, 8/8, 10/10, 12/12). To keep all androids close a new outfit category "Androids" was made.<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/snowfeather.robotics01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/snowfeather.robotics02.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/snowfeather.robotics03.jpg' width='400'>
 
 <br>
 
@@ -3334,6 +3417,17 @@ removed remnant mission requirement<br>
 </blockquote>
 </details>
 <br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/snowfeather.robotics01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/snowfeather.robotics02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/snowfeather.robotics03.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
 
 
 ---
@@ -3359,12 +3453,6 @@ Adds space fauna fleets to all systems. Useless but pretty, to make the universe
 <br>
 
 There are 14 different organisms, 1 titan-sized, 3 superheavy-sized, 4 heavy-sized, 6 medium-sized. They are coming in fleet sized from 1 to 5 and aren't capturable/plunderable. There are 4 Hive planets around the galaxy, with increased spawn rates and a "queen". Uninhabited systems have a higher spawn chance than inhabited systems.<br>
-
-<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/space.fauna01.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/space.fauna02.jpg' width='400'>
 
 <br>
 
@@ -3398,6 +3486,16 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/space.fauna01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/space.fauna02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
 <br>
 
 
@@ -3487,6 +3585,7 @@ added a python script which generates the asteroids.txt(in case I don't update t
 
 </blockquote>
 </details>
+
 <br>
 
 
@@ -3540,6 +3639,15 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/tribute.republic01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
 <br>
 
 
@@ -3646,20 +3754,6 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 <li> new unique, "Nav Buoys" (human outfitter, after discovered shrouded systems, 10% chance)</li>
 
 </ul>
-
-vanilla uniques<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques01.jpg' width='400'>
-
-<br>
-
-added uniques<br>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques02.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques03.jpg' width='400'>
-
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques04.jpg' width='400'>
 
 <br>
 
@@ -3789,4 +3883,18 @@ changed icon.png<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques03.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques04.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
 <br>
