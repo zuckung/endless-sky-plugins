@@ -145,10 +145,38 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 	# read folders, and write to README.md
 	entries = os.listdir(pathtoplugins)
 	entries = sorted(entries)
+	screenshots = os.listdir('screenshots' + os.sep)
+	screenshots = sorted(screenshots)
 	for entry in entries:
 		withdots = entry.replace(' ', '.')
 		forweb  = entry.replace(' ', '%20')
 		pa_template = p_template
+		# checking for screenshots
+		screenshotlist = []
+		screenshotcode = ''
+		screenpos = 0
+		for screenshot in screenshots:
+			if screenshot.startswith(entry):
+				screenshotlist.append(screenshot)
+		if len(screenshotlist) > 0:
+			screenshotcode += '<br>\nscreenshots(click to enlarge):<br>\n<table>\n'
+			for screenshot in screenshotlist:
+				screenpos += 1
+				if screenpos%3 == 1%3:
+					screenshotcode += '\t<tr>\n\t\t<td>'
+					screenshotcode += '<img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/' + screenshot + '" width="200">'
+					screenshotcode += '</td>\n'
+				elif screenpos%3 == 2%3:
+					screenshotcode += '\t\t<td>'
+					screenshotcode += '<img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/' + screenshot + '" width="200">'
+					screenshotcode += '</td>\n'
+				elif screenpos%3 == 3%3:
+					screenshotcode += '\t\t<td>'
+					screenshotcode += '<img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/' + screenshot + '" width="200">'
+					screenshotcode += '</td>\n\t</tr>\n'
+			if not len(screenshotlist)%3 == 3%3:
+				screenshotcode = screenshotcode + '\t</tr>\n'
+			screenshotcode = screenshotcode + '</table>\n<br>\n'
 		# get version number
 		with open('res/versioning.txt', 'r') as read_version:
 			version_lines = read_version.readlines()
@@ -214,6 +242,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 		pa_template = pa_template.replace('%description%', description)
 		pa_template = pa_template.replace('%readme%', readme)
 		pa_template = pa_template.replace('%icon%', icon)
+		pa_template = pa_template.replace('%screenshots%', screenshotcode)
 		# write index file
 		with open(indexfile, 'a') as file1:
 			file1.writelines(pa_template)

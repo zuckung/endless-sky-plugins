@@ -41,4 +41,5 @@ I've got another new project, a github repository that lets you online generate 
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>%readme%</blockquote>
 </details>
+%screenshots%
 <br>
