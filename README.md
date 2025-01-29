@@ -505,6 +505,14 @@ added Start Explorer to Automata<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/better.starts01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
 
 <br>
 
@@ -914,6 +922,14 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/captureable.person.ships01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
 
 <br>
 
@@ -1456,6 +1472,10 @@ screenshots(click to enlarge):<br>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members01.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members03.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members04.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
@@ -1793,6 +1813,15 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/gegno.pirates01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/gegno.pirates02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
 
 <br>
 
@@ -2312,6 +2341,7 @@ screenshots(click to enlarge):<br>
 <table>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images02.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
@@ -2515,6 +2545,15 @@ added support for more.boarding.missions<br>
 added plugin.txt<br>
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.arfectas01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.arfectas02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
 
 <br>
 
@@ -2813,6 +2852,7 @@ screenshots(click to enlarge):<br>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships01.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships03.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
@@ -3157,6 +3197,10 @@ screenshots(click to enlarge):<br>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map01.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map03.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map04.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
@@ -3257,6 +3301,15 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/quarg.farm01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/quarg.farm02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
 
 <br>
 
@@ -3323,6 +3376,15 @@ initial release<br>
 
 </blockquote>
 </details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/show.reputation01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/show.reputation02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
 
 <br>
 
