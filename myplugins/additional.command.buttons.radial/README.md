@@ -13,10 +13,7 @@ This plugin<br>
 - greyes out inactive buttons<br>
 - puts images behind the buttons.<br>
 <br>
-To change the colour of the buttons, copy the contents of your desired colour folder 'images/ui/color' to 'images/ui/' and overwrite the files there.<br>
-<br>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial01.jpg' width='400'>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial02.jpg' width='400'>
+To change the color of the buttons, copy the contents of your desired color folder 'images/ui/color' to 'images/ui/' and overwrite the files there.<br>
 <br>
 <br>
 <br>

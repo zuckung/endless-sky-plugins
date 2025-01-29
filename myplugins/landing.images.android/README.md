@@ -13,12 +13,6 @@ If that doesn't help, open the zip, edit 'landing.images.android/data/interface.
 		dimensions 265 150
 That resizes the landing image and the frame to their half.<br>
 <br>
-Before:<br>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android01.jpg' width='400'>
-<br>
-After:<br>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android02.jpg' width='400'>
-<br>
 <br>
 Changelog:<br>
 <br>

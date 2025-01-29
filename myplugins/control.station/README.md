@@ -15,8 +15,6 @@ complete remnant campaign<br>
 <br>
 Completing the campaigns might not exactly have the same result as if the campaign was played. There is a massive amount of events, that might suppress other events, when done on the same day. It looks good now, but not sure if that's really the case.<br>
 So lets call this plugin EXPERIMENTAL for now.<br>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/control.station01.jpg' width='400'>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/control.station02.jpg' width='400'>
 <br>
 <br>
 Changelog:<br>

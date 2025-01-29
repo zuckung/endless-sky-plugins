@@ -44,13 +44,6 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 <li> new unique, "Gegno Starmap" (Wye Tzeou, 10% chance)</li>
 <li> new unique, "Nav Buoys" (human outfitter, after discovered shrouded systems, 10% chance)</li>
 </ul>
-vanilla uniques<br>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques01.jpg' width='400'>
-<br>
-added uniques<br>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques02.jpg' width='400'>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques03.jpg' width='400'>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques04.jpg' width='400'>
 <br>
 <br>
 Changelog:<br>

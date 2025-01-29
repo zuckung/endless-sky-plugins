@@ -9,9 +9,6 @@ A small storyline got added.<br>
 <br>
 As in the spirit of Epsil-Astra, feel free to modify/use this plugin for your own content creation.<br> 
 <br>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map01.jpg' width='400'>
-<img src='https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/planet.map02.jpg' width='400'>
-<br>
 <br>
 Changelog:<br>
 <br>
