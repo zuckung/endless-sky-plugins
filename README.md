@@ -2311,8 +2311,6 @@ initial release<br>
 screenshots(click to enlarge):<br>
 <table>
 	<tr>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android01.jpg" width="200"></td>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android02.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images01.jpg" width="200"></td>
 	</tr>
 </table>
