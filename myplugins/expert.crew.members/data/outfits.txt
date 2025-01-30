@@ -109,6 +109,18 @@ outfit "combat lugub"
 	"capture defense" 26 
 	description `This is a highly educated employee focused on hand to hand combat. She is an Arach.`
 
+outfit "combat biana"
+	category "Crew"
+	"display name" "(Combat) Biana"
+	thumbnail "portrait/avgi01"
+	"operating costs" 1900
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"capture attack" 14 
+	"capture defense" 15 
+	description `This is a highly educated employee focused on hand to hand combat. She is an Avgi.`
+
 outfit "cooling atreus bodilsen"
 	category "Crew"
 	"display name" "(Cooling) Atreus Bodilsen"
@@ -219,6 +231,18 @@ outfit "cooling lotura"
 	"heat capacity" 600 
 	description `This is a highly educated employee focused on cooling technologies. She is a Saryd.`
 
+outfit "cooling chana"
+	category "Crew"
+	"display name" "(Cooling) Chana"
+	thumbnail "portrait/avgi02"
+	"operating costs" 3300
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"cooling" 7 
+	"heat capacity" 350 
+	description `This is a highly educated employee focused on cooling technologies. She is an Avgi.`
+
 outfit "energy deirdre ciaran"
 	category "Crew"
 	"display name" "(Energy) Deirdre Ciaran"
@@ -326,6 +350,19 @@ outfit "energy paicha"
 	"energy generation" 3.25 
 	"energy capacity" 4000 
 	description `This is a highly educated employee focused on energy technologies. He is a Kimek.`
+
+outfit "energy pilos"
+	plural "(Energy) Pilos"
+	category "Crew"
+	"display name" "(Energy) Pilos"
+	thumbnail "portrait/avgi03"
+	"operating costs" 2400
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"energy generation" 2.5 
+	"energy capacity" 3000 
+	description `This is a highly educated employee focused on energy technologies. He is an Avgi.`
 
 outfit "engine anahit bodil"
 	category "Crew"
@@ -435,6 +472,19 @@ outfit "engine kyree"
 	"turn" 375 
 	description `This is a highly educated employee focused on engine technologies. She is a Kimek.`
 
+outfit "engine ulos"
+	plural "(Engine) Ulos"
+	category "Crew"
+	"display name" "(Engine) Ulos"
+	thumbnail "portrait/avgi04"
+	"operating costs" 4000
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"thrust" 10 
+	"turn" 350 
+	description `This is a highly educated employee focused on engine technologies. He is an Avgi.`
+
 outfit "fuel carl ahmad"
 	category "Crew"
 	"display name" "(Fuel) Carl Ahmad"
@@ -542,6 +592,18 @@ outfit "fuel boudaa"
 	"ramscoop" 1.4 
 	"fuel capacity" 400 
 	description `This is a highly educated employee focused on fuel technologies. He is a Successor.`
+
+outfit "fuel isi"
+	category "Crew"
+	"display name" "(Fuel) Isi"
+	thumbnail "portrait/avgi05"
+	"operating costs" 4700
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"fuel generation" .15 
+	"ramscoop" 1 
+	description `This is a highly educated employee focused on fuel technologies. She is an Avgi.`
 
 outfit "hull anuradha talin"
 	category "Crew"

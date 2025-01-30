@@ -218,6 +218,10 @@ def write_files():
 						source += ' "' + "People's Houses" + '"\n'
 						source2 = ''
 						tooffer = ''
+					elif races[index] == 'avgi':
+						source = '\t\tgovernment "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"\n'
+						source2 = ''
+						tooffer = '\t\thas "Avgi: First Contact: done"\n'
 					# writing the outfit
 					outfits_file.writelines('outfit "' + fields[index] + ' '  + names[index] + '"\n')
 					saveedit3.append('\t\t"' + fields[index] + ' '  + names[index] + '"\n')

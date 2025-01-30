@@ -1,4 +1,6 @@
-amount: 9
+# category name              source       wage   sex imagefile     stat1                        stat2
+
+# amount: 10
 "combat isaac wirth"         "rim"        "2000" "m" "ecmbm03"     "capture attack 15"          "capture defense 16"
 "combat jessy tuta"          "south"      "2600" "f" "ecmbf02"     "capture attack 17"          "capture defense 19"
 "combat kianoush royston"    "dirt belt"  "3100" "m" "ecmam03"     "capture attack 18"          "capture defense 20"
@@ -8,8 +10,9 @@ amount: 9
 "combat asvip rap"           "korath"     "4300" "f" "korath03"    "capture attack 23"          "capture defense 25"
 "combat ry'i"                "kimek"      "4600" "m" "kimek03"     "capture attack 25"          "capture defense 26"
 "combat lugub"               "arachi"     "5000" "f" "arachi04"    "capture attack 26"          "capture defense 26"
+"combat biana"               "avgi"       "1900" "f" "avgi01"      "capture attack 14"          "capture defense 15"
 
-amount: 9
+# amount: 10
 "cooling atreus bodilsen"    "south"      "2200" "m" "ecmwm01"     "cooling 4"                  "heat capacity 200"
 "cooling beckah feidhelm"    "deep"       "2900" "f" "ecmwf01"     "cooling 5"                  "heat capacity 250"
 "cooling caspar laurentinus" "rim"        "3000" "m" "ecmwm02"     "cooling 5"                  "heat capacity 350"
@@ -19,8 +22,9 @@ amount: 9
 "cooling krikey"             "wanderer"   "4100" "m" "wanderer10"  "cooling 8"                  "heat capacity 450"
 "cooling kemme ranris"       "korath"     "4200" "f" "korath04"    "cooling 9"                  "heat capacity 550"
 "cooling lotura"             "saryd"      "4900" "f" "saryd01"     "cooling 10"                 "heat capacity 600"
+"cooling chana"              "avgi"       "3300" "f" "avgi02"      "cooling 7"                  "heat capacity 350"
 
-amount: 9
+# amount: 10
 "energy deirdre ciaran"      "rim"        "2100" "f" "ecmwf02"     "energy generation 2.25"     "energy capacity 2500"
 "energy lisa zola"           "south"      "2500" "f" "ecmwf03"     "energy generation 2.5"      "energy capacity 3800"
 "energy normand kiran"       "near earth" "2900" "m" "ecmwm10"     "energy generation 2.5"      "energy capacity 4000"
@@ -30,8 +34,9 @@ amount: 9
 "energy aikach"              "wanderer"   "3900" "f" "wanderer01"  "energy generation 3.0"      "energy capacity 3300"
 "energy raindrop"            "remnant"    "4200" "f" "remnant04"   "energy generation 3.0"      "energy capacity 4000"
 "energy paicha"              "kimek"      "4600" "m" "kimek01"     "energy generation 3.25"     "energy capacity 4000"
+"energy pilos"               "avgi"       "2400" "m" "avgi03"      "energy generation 2.5"      "energy capacity 3000"
 
-amount: 9
+# amount: 10
 "engine anahit bodil"        "core"       "2000" "f" "ecmbf03"     "thrust 8"                   "turn 250"
 "engine chetana jaleh"       "deep"       "2800" "f" "ecmbf01"     "thrust 8"                   "turn 275"
 "engine neal fransson"       "south"      "3200" "m" "ecmwm03"     "thrust 9"                   "turn 275"
@@ -41,8 +46,9 @@ amount: 9
 "engine ifir rakik"          "korath"     "4200" "m" "korath05"    "thrust 12"                  "turn 325"
 "engine midnight"            "remnant"    "4400" "m" "remnant09"   "thrust 13"                  "turn 350"
 "engine kyree"               "kimek"      "4900" "f" "kimek04"     "thrust 13"                  "turn 375"
+"engine ulos"                "avgi"       "4000" "m" "avgi04"      "thrust 10"                  "turn 350"
 
-amount: 9
+# amount: 10
 "fuel carl ahmad"            "core"       "2300" "m" "ecmam04"     "ramscoop 1"                 "fuel capacity 100"
 "fuel kfir balam"            "dirt belt"  "2800" "m" "ecmbm01"     "ramscoop 1"                 "fuel capacity 200"
 "fuel kostis joona"          "near earth" "3100" "m" "ecmwm04"     "ramscoop 1.5"               "fuel capacity 200"
@@ -52,8 +58,9 @@ amount: 9
 "fuel ozon"                  "remnant"    "4500" "m" "remnant06"   "fuel generation .14"        "ramscoop 1"
 "fuel comseci"               "saryd"      "5000" "m" "saryd05"     "fuel generation .15"        "ramscoop 1.5"
 "fuel boudaa"                "successor"  "4600" "m" "successor01" "ramscoop 1.4"               "fuel capacity 400"
+"fuel isi"                   "avgi"       "4700" "f" "avgi05"      "fuel generation .15"        "ramscoop 1"
 
-amount: 9
+# amount: 9
 "hull anuradha talin"        "core"       "2100" "f" "ecmaf03"     "hull repair rate .1"        "hull 400"
 "hull julia grainne"         "paradise"   "2600" "f" "ecmwf06"     "hull repair rate .12"       "hull 500"
 "hull silvius hildegard"     "north"      "3200" "m" "ecmwm05"     "hull repair rate .14"       "hull 600"
@@ -64,7 +71,7 @@ amount: 9
 "hull potamog"               "arachi"     "4900" "m" "arachi01"    "hull repair rate .18"       "hull 1000"
 "hull kinmi"                 "successor"  "4800" "f" "successor02" "hull repair rate .17"       "hull 1200"
 
-amount: 9
+# amount: 9
 "jamming aline mai"          "paradise"   "2200" "f" "ecmaf04"     "radar jamming 8"            "optical jamming 5"
 "jamming dominik bullock"    "dirt belt"  "2800" "m" "ecmwm06"     "radar jamming 10"           "optical jamming 8"
 "jamming enver diefenbach"   "north"      "3200" "m" "ecmwm07"     "scan interference .5"       "optical jamming 10"
@@ -75,7 +82,7 @@ amount: 9
 "jamming plortab"            "arachi"     "4900" "m" "arachi02"    "scan interference .6"       "scan concealment 12"
 "jamming naaq"               "successor"  "5000" "m" "successor03" "scan interference .7"       "radar jamming 14"
 
-amount: 9
+# amount: 9
 "scanner ivanus kozlov"      "paradise"   "2000" "m" "ecmwm08"     "tactical scan power 30"     "outfit scan efficiency 10"
 "scanner mikmel wanjala"     "core"       "2500" "m" "ecmbm05"     "cargo scan power 31"        "cargo scan efficiency 9"
 "scanner saffira ivka"       "near earth" "2900" "f" "ecmaf05"     "outfit scan power 33"       "outfit scan efficiency 13"
@@ -86,7 +93,7 @@ amount: 9
 "scanner tugrup"             "arachi"     "5000" "m" "arachi03"    "asteroid scan power 44"     "cargo scan efficiency 15"
 "scanner oublaa"             "successor"  "4500" "f" "successor04" "tactical scan power 40"     "cargo scan power 43"
 
-amount: 9
+# amount: 9
 "shield lucille meritites"   "paradise"   "2200" "f" "ecmbf05"     "shield generation .11"      "shields 1100"
 "shield sonja halimah"       "north"      "2900" "f" "ecmwf10"     "shield generation .12"      "shields 1100"
 "shield taisto nithin"       "rim"        "3300" "m" "ecmam01"     "shield generation .13"      "shields 1200"
@@ -97,7 +104,7 @@ amount: 9
 "shield chi'a"               "kimek"      "4900" "f" "kimek05"     "shield generation .17"      "shields 1500"
 "shield uondi"               "successor"  "4600" "m" "successor05" "shield generation .16"      "shields 1500"
 
-amount: 9
+# amount: 9
 "storage darius hasegawa"    "deep"       "2300" "m" "ecmam02"    "outfit space 20"            "engine capacity 20"
 "storage eduardo wapasha"    "rim"        "2400" "m" "ecmbm02"    "outfit space 25"            "cargo space 20"
 "storage mani godefrid"      "dirt belt"  "3000" "m" "ecmwm09"    "outfit space 30"            "weapon capacity 25"
@@ -108,61 +115,7 @@ amount: 9
 "storage swift"              "remnant"    "4500" "f" "remnant02"  "outfit space 50"            "weapon capacity 35"
 "storage mupoop"             "arachi"     "5000" "f" "arachi05"   "outfit space 60"            "cargo space 35"
 
-
- shields
-  shields number
-  "shield generation" number per frame(x60). increases energy used
-  "shield generation multiplier": multiplies the shield generation value of other outfits.
-  "shield multiplier": multiplies the maximum shield value of the ship. (v. 0.10.3)
- hull
-  hull: an additional number of hull points added to a ship's base hull value.
-  "hull repair rate": the number of hull points regenerated per frame(x60). It takes 1 energy to repair 1 unit of hull.
-  "hull repair multiplier": multiplies the hull repair rate value of other outfits.
-  "hull multiplier": multiplies the maximum hull value of the ship. (v. 0.10.3)
- energy
-  "energy capacity": how much energy your ship can store.
-  "energy generation": energy generated each frame(x60). If you do not have any energy capacity, this energy does not carry over from frame to frame.
-  "solar collection": the amount of energy that this outfit provides when your ship is 1250 pixels from the system center. 
- fuel
-  ramscoop: fuel regeneration. Each frame, your ship gains fuel proportional to .03 * √("ramscoop").
-  "fuel capacity": the amount of fuel storage provided by this outfit.
-  "fuel generation": fuel produced per frame(x60). (v. 0.9.9)
- engine
-  thrust: your ship's acceleration per frame equals thrust / mass, and your ship's max speed is thrust / drag.
-  "reverse thrust": if your ship has reverse thrusters, the "back" button will apply reverse thrust instead of turning your ship around.
-  turn: your ship's turn rate is (turn / mass) degrees per frame.
-  "afterburner thrust": thrust produced each frame when using an afterburner.
- cooling
-  cooling: heat subtracted from your ship by this outfit, per frame(x60).
-  "active cooling": amount of cooling this outfit provides when heat is at 100%, at which level it will consume its entire "cooling energy". 
-  "heat capacity": adds to the ship's total mass where the ship's maximum heat capacity is concerned, but does not influence movement as mass 
- scanner
-  "cargo scan power": the cargo scanning range is 100 times the square root of this number. you need four scanners to get twice the range 
-  "cargo scan speed": the time it takes to complete a cargo scan is one second divided by the square root of this number. 
-  "cargo scan efficiency": the maximum cargo scanning speed is the square root of this number. 
-  "cargo scan opacity": increases the time required for other ships to perform a cargo scan on the ship with this attribute. 
-  "outfit scan power": the outfit scanning range is 100 times the square root of this number. 
-  "outfit scan speed": the time it takes to complete an outfit scan is one second divided by the square root of this number. 
-  "outfit scan efficiency": the maximum outfit scanning speed is the square root of this number. 
-  "outfit scan opacity": increases the time required for other ships to perform an outfit scan on the ship with this attribute. 
-  "scan interference": your odds of a scan of your ship discovering anything illegal you have are equal to 1 / (1 + scan interference). 
-  "scan concealment": prevents an equivalent mass of illegal goods from being scanned.
-  "asteroid scan power": the asteroid scanning range is 100 times the square root of this number.
-  "tactical scan power": the tactical scanning range is 100 times the square root of this number.
- storage
-  bunks: additional crew / passenger space.
-  "required crew": turrets (and maybe other high-end outfits) can increase your crew requirements.
-  "outfit space": if negative, how much generic outfit space (as opposed to weapon or engine space) this outfit takes up.
-  "engine capacity": if negative, how much engine space an outfit uses.
-  "weapon capacity": set this to a negative value (generally, the same value as "outfit space") for any outfit that is a weapon. 
-  "cargo space": amount of cargo space that this outfit adds (if positive) or removes (if negative) from your ship.
- other
-  capture attack": this outfit can be wielded by a crew member and adds this amount to their strength of 1 when attacking
-  "capture defense": this outfit can be wielded by a crew member and adds this amount to their strength of 2 when defending against boarders.
-  cloak: how quickly a cloaking device cloaks or uncloaks.
-  "landing speed": a value between 0 and 1, representing progress made per frame when landing or taking off. 
-  "radar jamming": how much resistance this ship has to radar tracking. 
-  "optical jamming": how much resistance this ship has to optical tracking.savegame editing:
+### the following lines are for save editing
 
 outfits:
 
@@ -175,6 +128,7 @@ outfits:
 		"combat asvip rap"
 		"combat ry'i"
 		"combat lugub"
+		"combat biana"
 		"cooling atreus bodilsen"
 		"cooling beckah feidhelm"
 		"cooling caspar laurentinus"
@@ -184,6 +138,7 @@ outfits:
 		"cooling krikey"
 		"cooling kemme ranris"
 		"cooling lotura"
+		"cooling chana"
 		"energy deirdre ciaran"
 		"energy lisa zola"
 		"energy normand kiran"
@@ -193,6 +148,7 @@ outfits:
 		"energy aikach"
 		"energy raindrop"
 		"energy paicha"
+		"energy pilos"
 		"engine anahit bodil"
 		"engine chetana jaleh"
 		"engine neal fransson"
@@ -202,6 +158,7 @@ outfits:
 		"engine ifir rakik"
 		"engine midnight"
 		"engine kyree"
+		"engine ulos"
 		"fuel carl ahmad"
 		"fuel kfir balam"
 		"fuel kostis joona"
@@ -211,6 +168,7 @@ outfits:
 		"fuel ozon"
 		"fuel comseci"
 		"fuel boudaa"
+		"fuel isi"
 		"hull anuradha talin"
 		"hull julia grainne"
 		"hull silvius hildegard"
@@ -277,6 +235,8 @@ missions:
 	"hire combat ry'i: offered"
 	"hire combat lugub: declined"
 	"hire combat lugub: offered"
+	"hire combat biana: declined"
+	"hire combat biana: offered"
 	"hire cooling atreus bodilsen: declined"
 	"hire cooling atreus bodilsen: offered"
 	"hire cooling beckah feidhelm: declined"
@@ -295,6 +255,8 @@ missions:
 	"hire cooling kemme ranris: offered"
 	"hire cooling lotura: declined"
 	"hire cooling lotura: offered"
+	"hire cooling chana: declined"
+	"hire cooling chana: offered"
 	"hire energy deirdre ciaran: declined"
 	"hire energy deirdre ciaran: offered"
 	"hire energy lisa zola: declined"
@@ -313,6 +275,8 @@ missions:
 	"hire energy raindrop: offered"
 	"hire energy paicha: declined"
 	"hire energy paicha: offered"
+	"hire energy pilos: declined"
+	"hire energy pilos: offered"
 	"hire engine anahit bodil: declined"
 	"hire engine anahit bodil: offered"
 	"hire engine chetana jaleh: declined"
@@ -331,6 +295,8 @@ missions:
 	"hire engine midnight: offered"
 	"hire engine kyree: declined"
 	"hire engine kyree: offered"
+	"hire engine ulos: declined"
+	"hire engine ulos: offered"
 	"hire fuel carl ahmad: declined"
 	"hire fuel carl ahmad: offered"
 	"hire fuel kfir balam: declined"
@@ -349,6 +315,8 @@ missions:
 	"hire fuel comseci: offered"
 	"hire fuel boudaa: declined"
 	"hire fuel boudaa: offered"
+	"hire fuel isi: declined"
+	"hire fuel isi: offered"
 	"hire hull anuradha talin: declined"
 	"hire hull anuradha talin: offered"
 	"hire hull julia grainne: declined"

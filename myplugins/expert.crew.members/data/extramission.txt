@@ -92,6 +92,11 @@ mission "all crew members hired"
 		has "hire jamming naaq: declined"
 		has "hire scanner oublaa: declined"
 		has "hire shield uondi: declined"
+		has "hire combat biana: declined"
+		has "hire cooling chana: declined"
+		has "hire energy pilos: declined"
+		has "hire engine ulos: declined"
+		has "hire fuel isi: declined"
 	on offer
 		outfit "Galaxy Hologram"
 		conversation

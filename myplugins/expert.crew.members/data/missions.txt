@@ -187,6 +187,27 @@ mission "hire combat lugub"
 				`hire her`
 					decline
 
+mission "hire combat biana"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		attributes "outfitter"
+	to offer
+		has "Avgi: First Contact: done"
+		random < 1
+	on decline
+		outfit "combat biana" 1
+	on offer
+		conversation
+			scene "portrait/avgi01"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. She is looking for work. Her name is Biana, she is an Avgi, and she demands a daily wage of 1900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
 mission "hire cooling atreus bodilsen"
 	minor
 	invisible
@@ -369,6 +390,27 @@ mission "hire cooling lotura"
 		conversation
 			scene "portrait/saryd01"
 			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work. Her name is Lotura, she is a Saryd, and she demands a daily wage of 4900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire cooling chana"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		attributes "outfitter"
+	to offer
+		has "Avgi: First Contact: done"
+		random < 1
+	on decline
+		outfit "cooling chana" 1
+	on offer
+		conversation
+			scene "portrait/avgi02"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work. Her name is Chana, she is an Avgi, and she demands a daily wage of 3300 credits.`
 			choice
 				`don't hire her (maybe you will meet her again)`
 					defer
@@ -562,6 +604,27 @@ mission "hire energy paicha"
 				`hire him`
 					decline
 
+mission "hire energy pilos"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		attributes "outfitter"
+	to offer
+		has "Avgi: First Contact: done"
+		random < 1
+	on decline
+		outfit "energy pilos" 1
+	on offer
+		conversation
+			scene "portrait/avgi03"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. He is looking for work. His name is Pilos, he is an Avgi, and he demands a daily wage of 2400 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
 mission "hire engine anahit bodil"
 	minor
 	invisible
@@ -749,6 +812,27 @@ mission "hire engine kyree"
 				`hire her`
 					decline
 
+mission "hire engine ulos"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		attributes "outfitter"
+	to offer
+		has "Avgi: First Contact: done"
+		random < 1
+	on decline
+		outfit "engine ulos" 1
+	on offer
+		conversation
+			scene "portrait/avgi04"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. He is looking for work. His name is Ulos, he is an Avgi, and he demands a daily wage of 4000 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
 mission "hire fuel carl ahmad"
 	minor
 	invisible
@@ -934,6 +1018,27 @@ mission "hire fuel boudaa"
 				`don't hire him (maybe you will meet him again)`
 					defer
 				`hire him`
+					decline
+
+mission "hire fuel isi"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		attributes "outfitter"
+	to offer
+		has "Avgi: First Contact: done"
+		random < 1
+	on decline
+		outfit "fuel isi" 1
+	on offer
+		conversation
+			scene "portrait/avgi05"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work. Her name is Isi, she is an Avgi, and she demands a daily wage of 4700 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
 					decline
 
 mission "hire hull anuradha talin"
