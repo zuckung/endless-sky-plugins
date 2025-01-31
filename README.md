@@ -717,9 +717,6 @@ screenshots(click to enlarge):<br>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions05.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions06.jpg" width="200"></td>
 	</tr>
-	<tr>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/bunrodea.missions07.jpg" width="200"></td>
-	</tr>
 </table>
 <br>
 
@@ -1482,6 +1479,8 @@ screenshots(click to enlarge):<br>
 	</tr>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members04.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members05.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members06.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
@@ -2348,6 +2347,12 @@ screenshots(click to enlarge):<br>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images01.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images03.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images04.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images05.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images06.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
@@ -2737,14 +2742,6 @@ screenshots(click to enlarge):<br>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions04.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions05.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions06.jpg" width="200"></td>
-	</tr>
-	<tr>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions07.jpg" width="200"></td>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions08.jpg" width="200"></td>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions09.jpg" width="200"></td>
-	</tr>
-	<tr>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.boarding.missions10.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
