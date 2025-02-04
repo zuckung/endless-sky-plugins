@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-01-30 | update: expert.crew.members<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-04 | update: additional.command.buttons.radial<br>
+2025-01-30 | update: expert.crew.members<br>
 2025-01-27 | update: uniques<br>
 2025-01-27 | update: captureable.person.ships<br>
 2025-01-27 | update: quarg.farm<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-01-25 | update: uniques<br>
 2024-12-28 | update: additional.command.buttons.radial<br>
 2024-12-19 | update: better.starts<br>
-2024-12-12 | update: bunrodea.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -87,7 +87,7 @@ I've got another new project, a github repository that lets you online generate 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.13-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 898.63 kb | 2024-12-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [217]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.14-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 179.81 kb | 2025-02-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [40]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -121,9 +121,7 @@ This plugin<br>
 
 - puts images behind the buttons.<br>
 
-<br>
-
-To change the color of the buttons, copy the contents of your desired color folder 'images/ui/color' to 'images/ui/' and overwrite the files there.<br>
+- changes the ship hud<br>
 
 <br>
 
@@ -132,6 +130,20 @@ To change the color of the buttons, copy the contents of your desired color fold
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-02-04<br>
+
+increased the size of the fuel, energy and heat bar to handle fuel up to 4400<br>
+
+resized message box to not overlap with 2 rows of escorts<br>
+
+restored the somehow missing tactical information display<br>
+
+added "target nearest enemy" and "target nearest asteroid" buttons<br>
+
+removed the color folders, white is enough<br>
 
 <br>
 
