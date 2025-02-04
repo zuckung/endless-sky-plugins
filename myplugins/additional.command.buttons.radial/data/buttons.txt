@@ -30,6 +30,7 @@ interface "main buttons" bottom right
 # UPPER ROW
 
 	# lower right stop button
+	anchor bottom right
 	active
 	visible
 	sprite "ui/round_button_bg"
@@ -213,7 +214,7 @@ interface "main buttons" bottom right
 	box "ammo"
 		from -275 -40 to -365 -195
 
-# UPPER SCREEN RaIGHT (FLEET COMMANDS)
+# UPPER SCREEN RIGHT (FLEET COMMANDS)
 # layout: attack | gather | stop | hold fire | formations | harvest | ammo switch
 
 	# top right buttonbox
@@ -357,6 +358,20 @@ interface "main buttons" bottom right
 	button "Select next ship"
 		center 75 315
 		radius 80
+	# target nearest enemy / target nearest asteroid
+	anchor top left
+	sprite "ui/target_asteroid"
+		center 16 217
+		radius 16
+	button "Select nearest asteroid"
+		center 16 217
+		radius 16
+	sprite "ui/target_ship"
+		center 16 254
+		radius 16
+	button "Select nearest hostile ship"
+		center 16 254
+		radius 16
 
 	# Overlaid on the navigational panel, which displays something like
 	# "Can land on: Earth"

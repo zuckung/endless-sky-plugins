@@ -12,12 +12,18 @@ This plugin<br>
 - adds zoom buttons
 - greyes out inactive buttons<br>
 - puts images behind the buttons.<br>
-<br>
-To change the color of the buttons, copy the contents of your desired color folder 'images/ui/color' to 'images/ui/' and overwrite the files there.<br>
+- changes the ship hud<br>
 <br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-02-04<br>
+increased the size of the fuel, energy and heat bar to handle fuel up to 4400<br>
+resized message box to not overlap with 2 rows of escorts<br>
+restored the somehow missing tactical information display<br>
+added "target nearest enemy" and "target nearest asteroid" buttons<br>
+removed the color folders, white is enough<br>
 <br>
 2024-12-28<br>
 moved the ammo box to the left side if the lower buttons<br>
