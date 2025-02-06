@@ -18,6 +18,10 @@ This plugin<br>
 <br>
 Changelog:<br>
 <br>
+2025-02-06<br>
+the targeting buttons blocked the new scanner attribute display, so i moved it up<br>
+hollowed and colorized the targeting buttons<br>
+<br>
 2025-02-04<br>
 increased the size of the fuel, energy and heat bar to handle fuel up to 4400<br>
 resized message box to not overlap with 2 rows of escorts<br>

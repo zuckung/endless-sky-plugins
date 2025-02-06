@@ -358,19 +358,29 @@ interface "main buttons" bottom right
 	button "Select next ship"
 		center 75 315
 		radius 80
-	# target nearest enemy / target nearest asteroid
+
+	# target nearest enemy / target nearest asteroid / target ship
 	anchor top left
+	sprite "ui/target_bg"
+		from 370 0
+		align top left
 	sprite "ui/target_asteroid"
-		center 16 217
+		center 400 29
 		radius 16
 	button "Select nearest asteroid"
-		center 16 217
+		center 400 29
 		radius 16
-	sprite "ui/target_ship"
-		center 16 254
+	sprite "ui/target_enemy"
+		center 436 29
 		radius 16
 	button "Select nearest hostile ship"
-		center 16 254
+		center 436 29
+		radius 16
+	sprite "ui/target_ship"
+		center 472 29
+		radius 16
+	button "Select next ship"
+		center 472 29
 		radius 16
 
 	# Overlaid on the navigational panel, which displays something like

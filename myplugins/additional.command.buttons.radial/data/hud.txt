@@ -176,6 +176,7 @@ interface "hud"
 	string "mission target"
 		center 75 455
 		color "medium"
+
 	visible if "range display"
 	sprite "ui/tactical/range"
 		from 130 263
@@ -191,13 +192,15 @@ interface "hud"
 	string "target range"
 		from 2 240
 		align top left
+
 	visible if "target crew display"
 	sprite "ui/tactical/crew"
 		from 148 286
 		align top left
 	string "target crew"
 		from 162 286
-		align top left	
+		align top left
+	
 	visible if "mobility crew display"
 	sprite "ui/tactical/crew"
 		from 13 354
@@ -205,6 +208,7 @@ interface "hud"
 	string "target crew"
 		from 17 372
 		align top center
+
 	visible if "target fuel display"
 	sprite "ui/tactical/fuel"
 		from 146 308
@@ -212,6 +216,7 @@ interface "hud"
 	string "target fuel"
 		from 162 306
 		align top left
+
 	visible if "target energy display"
 	sprite "ui/tactical/energy"
 		from 144 324
@@ -219,6 +224,7 @@ interface "hud"
 	string "target energy"
 		from 157 325
 		align top left
+
 	visible if "target thermal display"
 	sprite "ui/tactical/thermal"
 		from 136 343
@@ -226,6 +232,7 @@ interface "hud"
 	string "target heat"
 		from 147 346
 		align top left
+
 	visible if "target weapon range display"
 	sprite "ui/tactical/gun range"
 		from 154 252
@@ -239,6 +246,7 @@ interface "hud"
 	string "target turret"
 		from 190 268
 		align top center
+
 	visible if "turn while combined"
 	sprite "ui/tactical/turn"
 		from 118 370
@@ -246,6 +254,7 @@ interface "hud"
 	string "target turnrate"
 		from 139 370
 		align top left
+
 	visible if "turn while not combined"
 	sprite "ui/tactical/turn"
 		from 145 288
@@ -253,6 +262,7 @@ interface "hud"
 	string "target turnrate"
 		from 162 286
 		align top left
+
 	visible if "target velocity display"
 	sprite "ui/tactical/velocity"
 		from 142 288
@@ -260,6 +270,7 @@ interface "hud"
 	string "target velocity"
 		from 158 286
 		align top left
+
 	visible if "target acceleration display"
 	sprite "ui/tactical/acceleration"
 		from 194 286
