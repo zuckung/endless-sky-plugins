@@ -13,13 +13,16 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 Changelog:<br>
 <br>
-2025-01-30 <br>
+2025-02-06<br>
+added the new scanning attributes to the scanning experts<br>
+<br>
+2025-01-30<br>
 added 5 avgi experts<br>
 <br>
-2024-11-29 <br>
+2024-11-29<br>
 changed images for wanderers, korath, hai and bunrodea (for more quality and consistency)<br>
 <br>
-2024-10-08 <br>
+2024-10-08<br>
 proofreading and minor text changes (Vemenous-Repentile)<br>
 <br>
 2024-10-06<br>

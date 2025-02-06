@@ -83,15 +83,15 @@
 "jamming naaq"               "successor"  "5000" "m" "successor03" "scan interference .7"       "radar jamming 14"
 
 # amount: 9
-"scanner ivanus kozlov"      "paradise"   "2000" "m" "ecmwm08"     "tactical scan power 30"     "outfit scan efficiency 10"
-"scanner mikmel wanjala"     "core"       "2500" "m" "ecmbm05"     "cargo scan power 31"        "cargo scan efficiency 9"
-"scanner saffira ivka"       "near earth" "2900" "f" "ecmaf05"     "outfit scan power 33"       "outfit scan efficiency 13"
-"scanner tichaona yong"      "north"      "3400" "f" "ecmaf02"     "asteroid scan power 40"     "cargo scan efficiency 11"
-"scanner rashi vaitle"       "hai"        "4000" "m" "hai10"       "tactical scan power 41"     "outfit scan efficiency 16"
-"scanner kriik"              "wanderer"   "4200" "f" "wanderer05"  "cargo scan power 42"        "cargo scan efficiency 13"
-"scanner expari"             "saryd"      "4600" "f" "saryd03"     "outfit scan power 43"       "outfit scan efficiency 19"
-"scanner tugrup"             "arachi"     "5000" "m" "arachi03"    "asteroid scan power 44"     "cargo scan efficiency 15"
-"scanner oublaa"             "successor"  "4500" "f" "successor04" "tactical scan power 40"     "cargo scan power 43"
+"scanner ivanus kozlov"      "paradise"   "2000" "m" "ecmwm08"     "tactical scan power 30"     "outfit scan efficiency 10"     "strategic scan power 150"
+"scanner mikmel wanjala"     "core"       "2500" "m" "ecmbm05"     "cargo scan power 31"        "cargo scan efficiency 9"       "range finder power 1"
+"scanner saffira ivka"       "near earth" "2900" "f" "ecmaf05"     "outfit scan power 33"       "outfit scan efficiency 13"     "crew scan power 150"
+"scanner tichaona yong"      "north"      "3400" "f" "ecmaf02"     "asteroid scan power 40"     "cargo scan efficiency 11"      "thermal scan power 150"
+"scanner rashi vaitle"       "hai"        "4000" "m" "hai10"       "tactical scan power 41"     "outfit scan efficiency 16"     "energy scan power 150"
+"scanner kriik"              "wanderer"   "4200" "f" "wanderer05"  "cargo scan power 42"        "cargo scan efficiency 13"      "fuel scan power 150"
+"scanner expari"             "saryd"      "4600" "f" "saryd03"     "outfit scan power 43"       "outfit scan efficiency 19"     "weapon scan power 150"
+"scanner tugrup"             "arachi"     "5000" "m" "arachi03"    "asteroid scan power 44"     "cargo scan efficiency 15"      "maneuver scan power 150"
+"scanner oublaa"             "successor"  "4500" "f" "successor04" "tactical scan power 40"     "cargo scan power 43"           "strategic scan power 150"
 
 # amount: 9
 "shield lucille meritites"   "paradise"   "2200" "f" "ecmbf05"     "shield generation .11"      "shields 1100"

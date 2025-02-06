@@ -14,6 +14,7 @@ def set_globals():
 	global money
 	global stat1
 	global stat2
+	global stat3
 	global prefield
 	global postfield
 	global fsource
@@ -28,7 +29,7 @@ def set_globals():
 	foutfits = 'outfits.txt' # output
 	fmissions = 'missions.txt' # output
 	percent = 1 # mission chance
-	names, fields, locations, races, sexes, images, money, stat1, stat2, saveedit1, saveedit2, saveedit3, sourcelines = [], [], [], [], [], [], [], [], [], [], [], [], []
+	names, fields, locations, races, sexes, images, money, stat1, stat2, stat3, saveedit1, saveedit2, saveedit3, sourcelines = [], [], [], [], [], [], [], [], [], [], [], [], [], []
 
 
 def find_symbol(string, start, symbol):
@@ -96,6 +97,21 @@ def read_experts():
 					if i != xlen-2:
 						x += ' '
 				stat2.append(x)
+				x, pos = find_symbol(line,pos + 1, '"')
+				if x == '':
+					stat3.append('')
+				else:
+					xlist = x.split(' ')
+					xlen = len(xlist)
+					x = '"'
+					for i in range(0, xlen):
+						if i == xlen -1:
+							x += '" '
+						x += xlist[i]
+						if i != xlen-2:
+							x += ' '
+					stat3.append(x)
+					
 			else:
 				continue
 
@@ -236,6 +252,8 @@ def write_files():
 					outfits_file.writelines('\t"unique" 1\n')
 					outfits_file.writelines('\t' + stat1[index] + '\n')
 					outfits_file.writelines('\t' + stat2[index] + '\n')
+					if stat3[index] != '':
+						outfits_file.writelines('\t' + stat3[index] + '\n')
 					outfits_file.writelines('\tdescription `This is a highly educated employee focused on '+ prefield + fields[index] + postfield \
 					+ '. ' + pronoun.capitalize() + ' is ' + article + ' ' + races[index].capitalize() + locphrase + '.`\n')
 					outfits_file.writelines('\n')	

@@ -1,0 +1,1985 @@
+mission "hire combat isaac wirth"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "rim"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "combat isaac wirth" 1
+	on offer
+		conversation
+			scene "portrait/ecmbm03"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Isaac Wirth, he is a Human, and he demands a daily wage of 2000 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire combat jessy tuta"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "south"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "combat jessy tuta" 1
+	on offer
+		conversation
+			scene "portrait/ecmbf02"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. She is looking for work. Her name is Jessy Tuta, she is a Human, and she demands a daily wage of 2600 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire combat kianoush royston"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "dirt belt"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "combat kianoush royston" 1
+	on offer
+		conversation
+			scene "portrait/ecmam03"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Kianoush Royston, he is a Human, and he demands a daily wage of 3100 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire combat rodrigo bain"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "deep"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "combat rodrigo bain" 1
+	on offer
+		conversation
+			scene "portrait/ecmbm04"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Rodrigo Bain, he is a Human, and he demands a daily wage of 3500 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire combat tieeitch"
+	minor
+	invisible
+	source
+		government "Gegno" "Gegno Scin" "Gegno Vi"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "combat tieeitch" 1
+	on offer
+		conversation
+			scene "portrait/gegno01"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Tieeitch, he is a Gegno, and he demands a daily wage of 3600 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire combat ainem wahpip"
+	minor
+	invisible
+	source
+		government "Hai"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "combat ainem wahpip" 1
+	on offer
+		conversation
+			scene "portrait/hai02"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Ainem Wahpip, he is a Hai, and he demands a daily wage of 3800 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire combat asvip rap"
+	minor
+	invisible
+	source
+		government "Kor Efret"
+		attributes "outfitter"
+	to offer
+		has "Wanderers: Rek To Kor Efret: done"
+		random < 1
+	on decline
+		outfit "combat asvip rap" 1
+	on offer
+		conversation
+			scene "portrait/korath03"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. She is looking for work. Her name is Asvip Rap, she is a Korath, and she demands a daily wage of 4300 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire combat ry'i"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "kimek"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "combat ry'i" 1
+	on offer
+		conversation
+			scene "portrait/kimek03"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Ry'i, he is a Kimek, and he demands a daily wage of 4600 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire combat lugub"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "arach"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "combat lugub" 1
+	on offer
+		conversation
+			scene "portrait/arachi04"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. She is looking for work. Her name is Lugub, she is an Arach, and she demands a daily wage of 5000 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire combat biana"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		attributes "outfitter"
+	to offer
+		has "Avgi: First Contact: done"
+		random < 1
+	on decline
+		outfit "combat biana" 1
+	on offer
+		conversation
+			scene "portrait/avgi01"
+			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. She is looking for work. Her name is Biana, she is an Avgi, and she demands a daily wage of 1900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire cooling atreus bodilsen"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "south"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "cooling atreus bodilsen" 1
+	on offer
+		conversation
+			scene "portrait/ecmwm01"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work. His name is Atreus Bodilsen, he is a Human, and he demands a daily wage of 2200 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire cooling beckah feidhelm"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "deep"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "cooling beckah feidhelm" 1
+	on offer
+		conversation
+			scene "portrait/ecmwf01"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work. Her name is Beckah Feidhelm, she is a Human, and she demands a daily wage of 2900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire cooling caspar laurentinus"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "rim"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "cooling caspar laurentinus" 1
+	on offer
+		conversation
+			scene "portrait/ecmwm02"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work. His name is Caspar Laurentinus, he is a Human, and he demands a daily wage of 3000 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire cooling itoro signe"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "dirt belt"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "cooling itoro signe" 1
+	on offer
+		conversation
+			scene "portrait/ecmaf01"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work. Her name is Itoro Signe, she is a Human, and she demands a daily wage of 3600 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire cooling dyeisc"
+	minor
+	invisible
+	source
+		government "Gegno" "Gegno Scin" "Gegno Vi"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "cooling dyeisc" 1
+	on offer
+		conversation
+			scene "portrait/gegno05"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work. His name is Dyeisc, he is a Gegno, and he demands a daily wage of 3800 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire cooling lohmahow monuden"
+	minor
+	invisible
+	source
+		government "Hai"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "cooling lohmahow monuden" 1
+	on offer
+		conversation
+			scene "portrait/hai05"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work. Her name is Lohmahow Monuden, she is a Hai, and she demands a daily wage of 4000 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire cooling krikey"
+	minor
+	invisible
+	source
+		government "Wanderer"
+		attributes "outfitter"
+	to offer
+		has "language: Wanderer"
+		random < 1
+	on decline
+		outfit "cooling krikey" 1
+	on offer
+		conversation
+			scene "portrait/wanderer10"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. He is looking for work. His name is Krikey, he is a Wanderer, and he demands a daily wage of 4100 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire cooling kemme ranris"
+	minor
+	invisible
+	source
+		government "Kor Efret"
+		attributes "outfitter"
+	to offer
+		has "Wanderers: Rek To Kor Efret: done"
+		random < 1
+	on decline
+		outfit "cooling kemme ranris" 1
+	on offer
+		conversation
+			scene "portrait/korath04"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work. Her name is Kemme Ranris, she is a Korath, and she demands a daily wage of 4200 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire cooling lotura"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "saryd"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "cooling lotura" 1
+	on offer
+		conversation
+			scene "portrait/saryd01"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work. Her name is Lotura, she is a Saryd, and she demands a daily wage of 4900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire cooling chana"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		attributes "outfitter"
+	to offer
+		has "Avgi: First Contact: done"
+		random < 1
+	on decline
+		outfit "cooling chana" 1
+	on offer
+		conversation
+			scene "portrait/avgi02"
+			`In a spaceport bar you get to know a highly qualified expert in cooling technologies. She is looking for work. Her name is Chana, she is an Avgi, and she demands a daily wage of 3300 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire energy deirdre ciaran"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "rim"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "energy deirdre ciaran" 1
+	on offer
+		conversation
+			scene "portrait/ecmwf02"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work. Her name is Deirdre Ciaran, she is a Human, and she demands a daily wage of 2100 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire energy lisa zola"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "south"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "energy lisa zola" 1
+	on offer
+		conversation
+			scene "portrait/ecmwf03"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work. Her name is Lisa Zola, she is a Human, and she demands a daily wage of 2500 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire energy normand kiran"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "near earth"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "energy normand kiran" 1
+	on offer
+		conversation
+			scene "portrait/ecmwm10"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. He is looking for work. His name is Normand Kiran, he is a Human, and he demands a daily wage of 2900 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire energy simona branka"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "deep"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "energy simona branka" 1
+	on offer
+		conversation
+			scene "portrait/ecmwf04"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work. Her name is Simona Branka, she is a Human, and she demands a daily wage of 3400 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire energy auriiel"
+	minor
+	invisible
+	source
+		government "Gegno" "Gegno Scin" "Gegno Vi"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "energy auriiel" 1
+	on offer
+		conversation
+			scene "portrait/gegno02"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. He is looking for work. His name is Auriiel, he is a Gegno, and he demands a daily wage of 3600 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire energy akane sakai"
+	minor
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "energy akane sakai" 1
+	on offer
+		conversation
+			scene "portrait/bunrodea01"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work. Her name is Akane Sakai, she is a Bunrodea, and she demands a daily wage of 3700 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire energy aikach"
+	minor
+	invisible
+	source
+		government "Wanderer"
+		attributes "outfitter"
+	to offer
+		has "language: Wanderer"
+		random < 1
+	on decline
+		outfit "energy aikach" 1
+	on offer
+		conversation
+			scene "portrait/wanderer01"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work. Her name is Aikach, she is a Wanderer, and she demands a daily wage of 3900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire energy raindrop"
+	minor
+	invisible
+	source
+		government "Remnant"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "energy raindrop" 1
+	on offer
+		conversation
+			scene "portrait/remnant04"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. She is looking for work. Her name is Raindrop, she is a Remnant, and she demands a daily wage of 4200 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire energy paicha"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "kimek"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "energy paicha" 1
+	on offer
+		conversation
+			scene "portrait/kimek01"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. He is looking for work. His name is Paicha, he is a Kimek, and he demands a daily wage of 4600 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire energy pilos"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		attributes "outfitter"
+	to offer
+		has "Avgi: First Contact: done"
+		random < 1
+	on decline
+		outfit "energy pilos" 1
+	on offer
+		conversation
+			scene "portrait/avgi03"
+			`In a spaceport bar you get to know a highly qualified expert in energy technologies. He is looking for work. His name is Pilos, he is an Avgi, and he demands a daily wage of 2400 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire engine anahit bodil"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "core"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "engine anahit bodil" 1
+	on offer
+		conversation
+			scene "portrait/ecmbf03"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. She is looking for work. Her name is Anahit Bodil, she is a Human, and she demands a daily wage of 2000 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire engine chetana jaleh"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "deep"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "engine chetana jaleh" 1
+	on offer
+		conversation
+			scene "portrait/ecmbf01"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. She is looking for work. Her name is Chetana Jaleh, she is a Human, and she demands a daily wage of 2800 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire engine neal fransson"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "south"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "engine neal fransson" 1
+	on offer
+		conversation
+			scene "portrait/ecmwm03"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. He is looking for work. His name is Neal Fransson, he is a Human, and he demands a daily wage of 3200 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire engine valeriya jannick"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "near earth"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "engine valeriya jannick" 1
+	on offer
+		conversation
+			scene "portrait/ecmwf05"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. She is looking for work. Her name is Valeriya Jannick, she is a Human, and she demands a daily wage of 3600 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire engine efeduefyu"
+	minor
+	invisible
+	source
+		government "Gegno" "Gegno Scin" "Gegno Vi"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "engine efeduefyu" 1
+	on offer
+		conversation
+			scene "portrait/gegno04"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. He is looking for work. His name is Efeduefyu, he is a Gegno, and he demands a daily wage of 3700 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire engine riko ishii"
+	minor
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "engine riko ishii" 1
+	on offer
+		conversation
+			scene "portrait/bunrodea02"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. She is looking for work. Her name is Riko Ishii, she is a Bunrodea, and she demands a daily wage of 3900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire engine ifir rakik"
+	minor
+	invisible
+	source
+		government "Kor Efret"
+		attributes "outfitter"
+	to offer
+		has "Wanderers: Rek To Kor Efret: done"
+		random < 1
+	on decline
+		outfit "engine ifir rakik" 1
+	on offer
+		conversation
+			scene "portrait/korath05"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. He is looking for work. His name is Ifir Rakik, he is a Korath, and he demands a daily wage of 4200 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire engine midnight"
+	minor
+	invisible
+	source
+		government "Remnant"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "engine midnight" 1
+	on offer
+		conversation
+			scene "portrait/remnant09"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. He is looking for work. His name is Midnight, he is a Remnant, and he demands a daily wage of 4400 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire engine kyree"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "kimek"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "engine kyree" 1
+	on offer
+		conversation
+			scene "portrait/kimek04"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. She is looking for work. Her name is Kyree, she is a Kimek, and she demands a daily wage of 4900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire engine ulos"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		attributes "outfitter"
+	to offer
+		has "Avgi: First Contact: done"
+		random < 1
+	on decline
+		outfit "engine ulos" 1
+	on offer
+		conversation
+			scene "portrait/avgi04"
+			`In a spaceport bar you get to know a highly qualified expert in engine technologies. He is looking for work. His name is Ulos, he is an Avgi, and he demands a daily wage of 4000 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire fuel carl ahmad"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "core"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "fuel carl ahmad" 1
+	on offer
+		conversation
+			scene "portrait/ecmam04"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work. His name is Carl Ahmad, he is a Human, and he demands a daily wage of 2300 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire fuel kfir balam"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "dirt belt"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "fuel kfir balam" 1
+	on offer
+		conversation
+			scene "portrait/ecmbm01"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work. His name is Kfir Balam, he is a Human, and he demands a daily wage of 2800 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire fuel kostis joona"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "near earth"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "fuel kostis joona" 1
+	on offer
+		conversation
+			scene "portrait/ecmwm04"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work. His name is Kostis Joona, he is a Human, and he demands a daily wage of 3100 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire fuel nina sotiroula"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "north"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "fuel nina sotiroula" 1
+	on offer
+		conversation
+			scene "portrait/ecmbf04"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work. Her name is Nina Sotiroula, she is a Human, and she demands a daily wage of 3400 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire fuel sookot dulur"
+	minor
+	invisible
+	source
+		government "Hai"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "fuel sookot dulur" 1
+	on offer
+		conversation
+			scene "portrait/hai06"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work. Her name is Sookot Dulur, she is a Hai, and she demands a daily wage of 3800 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire fuel voriar"
+	minor
+	invisible
+	source
+		government "Wanderer"
+		attributes "outfitter"
+	to offer
+		has "language: Wanderer"
+		random < 1
+	on decline
+		outfit "fuel voriar" 1
+	on offer
+		conversation
+			scene "portrait/wanderer02"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work. Her name is Voriar, she is a Wanderer, and she demands a daily wage of 4000 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire fuel ozon"
+	minor
+	invisible
+	source
+		government "Remnant"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "fuel ozon" 1
+	on offer
+		conversation
+			scene "portrait/remnant06"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work. His name is Ozon, he is a Remnant, and he demands a daily wage of 4500 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire fuel comseci"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "saryd"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "fuel comseci" 1
+	on offer
+		conversation
+			scene "portrait/saryd05"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work. His name is Comseci, he is a Saryd, and he demands a daily wage of 5000 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire fuel boudaa"
+	minor
+	invisible
+	source
+		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "fuel boudaa" 1
+	on offer
+		conversation
+			scene "portrait/successor01"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. He is looking for work. His name is Boudaa, he is a Successor, and he demands a daily wage of 4600 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire fuel isi"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		attributes "outfitter"
+	to offer
+		has "Avgi: First Contact: done"
+		random < 1
+	on decline
+		outfit "fuel isi" 1
+	on offer
+		conversation
+			scene "portrait/avgi05"
+			`In a spaceport bar you get to know a highly qualified expert in fuel technologies. She is looking for work. Her name is Isi, she is an Avgi, and she demands a daily wage of 4700 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire hull anuradha talin"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "core"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "hull anuradha talin" 1
+	on offer
+		conversation
+			scene "portrait/ecmaf03"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. She is looking for work. Her name is Anuradha Talin, she is a Human, and she demands a daily wage of 2100 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire hull julia grainne"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "paradise"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "hull julia grainne" 1
+	on offer
+		conversation
+			scene "portrait/ecmwf06"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. She is looking for work. Her name is Julia Grainne, she is a Human, and she demands a daily wage of 2600 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire hull silvius hildegard"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "north"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "hull silvius hildegard" 1
+	on offer
+		conversation
+			scene "portrait/ecmwm05"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. He is looking for work. His name is Silvius Hildegard, he is a Human, and he demands a daily wage of 3200 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire hull sabina draga"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "south"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "hull sabina draga" 1
+	on offer
+		conversation
+			scene "portrait/ecmwf07"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. She is looking for work. Her name is Sabina Draga, she is a Human, and she demands a daily wage of 3500 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire hull shiro kan"
+	minor
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "hull shiro kan" 1
+	on offer
+		conversation
+			scene "portrait/bunrodea03"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. He is looking for work. His name is Shiro Kan, he is a Bunrodea, and he demands a daily wage of 3900 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire hull ak'en oaip"
+	minor
+	invisible
+	source
+		government "Kor Efret"
+		attributes "outfitter"
+	to offer
+		has "Wanderers: Rek To Kor Efret: done"
+		random < 1
+	on decline
+		outfit "hull ak'en oaip" 1
+	on offer
+		conversation
+			scene "portrait/korath07"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. He is looking for work. His name is Ak'en Oaip, he is a Korath, and he demands a daily wage of 4300 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire hull achee"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "kimek"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "hull achee" 1
+	on offer
+		conversation
+			scene "portrait/kimek02"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. He is looking for work. His name is Achee, he is a Kimek, and he demands a daily wage of 4700 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire hull potamog"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "arach"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "hull potamog" 1
+	on offer
+		conversation
+			scene "portrait/arachi01"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. He is looking for work. His name is Potamog, he is an Arach, and he demands a daily wage of 4900 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire hull kinmi"
+	minor
+	invisible
+	source
+		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "hull kinmi" 1
+	on offer
+		conversation
+			scene "portrait/successor02"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. She is looking for work. Her name is Kinmi, she is a Successor, and she demands a daily wage of 4800 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire jamming aline mai"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "paradise"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "jamming aline mai" 1
+	on offer
+		conversation
+			scene "portrait/ecmaf04"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. She is looking for work. Her name is Aline Mai, she is a Human, and she demands a daily wage of 2200 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire jamming dominik bullock"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "dirt belt"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "jamming dominik bullock" 1
+	on offer
+		conversation
+			scene "portrait/ecmwm06"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Dominik Bullock, he is a Human, and he demands a daily wage of 2800 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire jamming enver diefenbach"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "north"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "jamming enver diefenbach" 1
+	on offer
+		conversation
+			scene "portrait/ecmwm07"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Enver Diefenbach, he is a Human, and he demands a daily wage of 3200 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire jamming raban fields"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "core"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "jamming raban fields" 1
+	on offer
+		conversation
+			scene "portrait/ecmam05"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Raban Fields, he is a Human, and he demands a daily wage of 3600 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire jamming umeo ageta"
+	minor
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "jamming umeo ageta" 1
+	on offer
+		conversation
+			scene "portrait/bunrodea07"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Umeo Ageta, he is a Bunrodea, and he demands a daily wage of 3800 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire jamming snowfall"
+	minor
+	invisible
+	source
+		government "Remnant"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "jamming snowfall" 1
+	on offer
+		conversation
+			scene "portrait/remnant01"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. She is looking for work. Her name is Snowfall, she is a Remnant, and she demands a daily wage of 4100 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire jamming temtuor"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "saryd"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "jamming temtuor" 1
+	on offer
+		conversation
+			scene "portrait/saryd04"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Temtuor, he is a Saryd, and he demands a daily wage of 4600 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire jamming plortab"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "arach"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "jamming plortab" 1
+	on offer
+		conversation
+			scene "portrait/arachi02"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Plortab, he is an Arach, and he demands a daily wage of 4900 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire jamming naaq"
+	minor
+	invisible
+	source
+		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "jamming naaq" 1
+	on offer
+		conversation
+			scene "portrait/successor03"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Naaq, he is a Successor, and he demands a daily wage of 5000 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire scanner ivanus kozlov"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "paradise"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "scanner ivanus kozlov" 1
+	on offer
+		conversation
+			scene "portrait/ecmwm08"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work. His name is Ivanus Kozlov, he is a Human, and he demands a daily wage of 2000 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire scanner mikmel wanjala"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "core"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "scanner mikmel wanjala" 1
+	on offer
+		conversation
+			scene "portrait/ecmbm05"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work. His name is Mikmel Wanjala, he is a Human, and he demands a daily wage of 2500 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire scanner saffira ivka"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "near earth"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "scanner saffira ivka" 1
+	on offer
+		conversation
+			scene "portrait/ecmaf05"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work. Her name is Saffira Ivka, she is a Human, and she demands a daily wage of 2900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire scanner tichaona yong"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "north"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "scanner tichaona yong" 1
+	on offer
+		conversation
+			scene "portrait/ecmaf02"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work. Her name is Tichaona Yong, she is a Human, and she demands a daily wage of 3400 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire scanner rashi vaitle"
+	minor
+	invisible
+	source
+		government "Hai"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "scanner rashi vaitle" 1
+	on offer
+		conversation
+			scene "portrait/hai10"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work. His name is Rashi Vaitle, he is a Hai, and he demands a daily wage of 4000 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire scanner kriik"
+	minor
+	invisible
+	source
+		government "Wanderer"
+		attributes "outfitter"
+	to offer
+		has "language: Wanderer"
+		random < 1
+	on decline
+		outfit "scanner kriik" 1
+	on offer
+		conversation
+			scene "portrait/wanderer05"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work. Her name is Kriik, she is a Wanderer, and she demands a daily wage of 4200 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire scanner expari"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "saryd"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "scanner expari" 1
+	on offer
+		conversation
+			scene "portrait/saryd03"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work. Her name is Expari, she is a Saryd, and she demands a daily wage of 4600 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire scanner tugrup"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "arach"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "scanner tugrup" 1
+	on offer
+		conversation
+			scene "portrait/arachi03"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work. His name is Tugrup, he is an Arach, and he demands a daily wage of 5000 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire scanner oublaa"
+	minor
+	invisible
+	source
+		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "scanner oublaa" 1
+	on offer
+		conversation
+			scene "portrait/successor04"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. She is looking for work. Her name is Oublaa, she is a Successor, and she demands a daily wage of 4500 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire shield lucille meritites"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "paradise"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "shield lucille meritites" 1
+	on offer
+		conversation
+			scene "portrait/ecmbf05"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. She is looking for work. Her name is Lucille Meritites, she is a Human, and she demands a daily wage of 2200 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire shield sonja halimah"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "north"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "shield sonja halimah" 1
+	on offer
+		conversation
+			scene "portrait/ecmwf10"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. She is looking for work. Her name is Sonja Halimah, she is a Human, and she demands a daily wage of 2900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire shield taisto nithin"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "rim"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "shield taisto nithin" 1
+	on offer
+		conversation
+			scene "portrait/ecmam01"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. He is looking for work. His name is Taisto Nithin, he is a Human, and he demands a daily wage of 3300 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire shield monika raganhildis"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "near earth"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "shield monika raganhildis" 1
+	on offer
+		conversation
+			scene "portrait/ecmwf08"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. She is looking for work. Her name is Monika Raganhildis, she is a Human, and she demands a daily wage of 3600 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire shield saburo aoki"
+	minor
+	invisible
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "shield saburo aoki" 1
+	on offer
+		conversation
+			scene "portrait/bunrodea09"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. He is looking for work. His name is Saburo Aoki, he is a Bunrodea, and he demands a daily wage of 3800 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire shield ilesam bableh"
+	minor
+	invisible
+	source
+		government "Kor Efret"
+		attributes "outfitter"
+	to offer
+		has "Wanderers: Rek To Kor Efret: done"
+		random < 1
+	on decline
+		outfit "shield ilesam bableh" 1
+	on offer
+		conversation
+			scene "portrait/korath10"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. He is looking for work. His name is Ilesam Bableh, he is a Korath, and he demands a daily wage of 4100 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire shield nisieum"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "saryd"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "shield nisieum" 1
+	on offer
+		conversation
+			scene "portrait/saryd02"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. She is looking for work. Her name is Nisieum, she is a Saryd, and she demands a daily wage of 4400 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire shield chi'a"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "kimek"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "shield chi'a" 1
+	on offer
+		conversation
+			scene "portrait/kimek05"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. She is looking for work. Her name is Chi'a, she is a Kimek, and she demands a daily wage of 4900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire shield uondi"
+	minor
+	invisible
+	source
+		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "shield uondi" 1
+	on offer
+		conversation
+			scene "portrait/successor05"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. He is looking for work. His name is Uondi, he is a Successor, and he demands a daily wage of 4600 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire storage darius hasegawa"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "deep"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "storage darius hasegawa" 1
+	on offer
+		conversation
+			scene "portrait/ecmam02"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work. His name is Darius Hasegawa, he is a Human, and he demands a daily wage of 2300 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire storage eduardo wapasha"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "rim"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "storage eduardo wapasha" 1
+	on offer
+		conversation
+			scene "portrait/ecmbm02"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work. His name is Eduardo Wapasha, he is a Human, and he demands a daily wage of 2400 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire storage mani godefrid"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "dirt belt"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "storage mani godefrid" 1
+	on offer
+		conversation
+			scene "portrait/ecmwm09"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work. His name is Mani Godefrid, he is a Human, and he demands a daily wage of 3000 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire storage marie zohreh"
+	minor
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "paradise"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "storage marie zohreh" 1
+	on offer
+		conversation
+			scene "portrait/ecmwf09"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. She is looking for work. Her name is Marie Zohreh, she is a Human, and she demands a daily wage of 3600 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire storage yxoorevyt"
+	minor
+	invisible
+	source
+		government "Gegno" "Gegno Scin" "Gegno Vi"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "storage yxoorevyt" 1
+	on offer
+		conversation
+			scene "portrait/gegno03"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work. His name is Yxoorevyt, he is a Gegno, and he demands a daily wage of 3800 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire storage touna farchi"
+	minor
+	invisible
+	source
+		government "Hai"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "storage touna farchi" 1
+	on offer
+		conversation
+			scene "portrait/hai07"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. She is looking for work. Her name is Touna Farchi, she is a Hai, and she demands a daily wage of 3900 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire storage reisek"
+	minor
+	invisible
+	source
+		government "Wanderer"
+		attributes "outfitter"
+	to offer
+		has "language: Wanderer"
+		random < 1
+	on decline
+		outfit "storage reisek" 1
+	on offer
+		conversation
+			scene "portrait/wanderer06"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. He is looking for work. His name is Reisek, he is a Wanderer, and he demands a daily wage of 4200 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire storage swift"
+	minor
+	invisible
+	source
+		government "Remnant"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "storage swift" 1
+	on offer
+		conversation
+			scene "portrait/remnant02"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. She is looking for work. Her name is Swift, she is a Remnant, and she demands a daily wage of 4500 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
+mission "hire storage mupoop"
+	minor
+	invisible
+	source
+		government "Coalition"
+		attributes "arach"
+		attributes "outfitter"
+	to offer
+		has "Coalition: First Contact: done"
+		random < 1
+	on decline
+		outfit "storage mupoop" 1
+	on offer
+		conversation
+			scene "portrait/arachi05"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. She is looking for work. Her name is Mupoop, she is an Arach, and she demands a daily wage of 5000 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+
