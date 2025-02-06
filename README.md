@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-06 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-06 | update: avgi.licenses<br>
+2025-02-06 | update: additional.command.buttons.radial<br>
 2025-02-06 | update: expert.crew.members<br>
 2025-02-04 | update: additional.command.buttons.radial<br>
 2025-01-30 | update: expert.crew.members<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-01-27 | update: quarg.farm<br>
 2025-01-25 | update: too.many.asteroids<br>
 2025-01-25 | update: show.reputation<br>
-2025-01-25 | update: uniques<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -38,6 +38,7 @@ I've got another new project, a github repository that lets you online generate 
 <a href="README.md#additionalcommandbuttonsradial">additional.command.buttons.radial</a><br>
 <a href="README.md#automatadestruction0percent">automata.destruction.0percent</a><br>
 <a href="README.md#automatainhumanspace">automata.in.human.space</a><br>
+<a href="README.md#avgilicenses">avgi.licenses</a><br>
 <a href="README.md#betterstarts">better.starts</a><br>
 <a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
 <a href="README.md#captureablepersonships">captureable.person.ships</a><br>
@@ -47,8 +48,8 @@ I've got another new project, a github repository that lets you online generate 
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
-<a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#humanlabels">human.labels</a><br>
@@ -61,8 +62,8 @@ I've got another new project, a github repository that lets you online generate 
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
-<a href="README.md#navylicenses">navy.licenses</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
 <a href="README.md#paintyourships">paint.your.ships</a><br>
@@ -394,6 +395,48 @@ added more fleet variants <br>
 reworked readme <br>
 
 changed icon.png<br>
+
+</blockquote>
+</details>
+
+<br>
+
+
+---
+
+### avgi.licenses
+
+<img src="myplugins/avgi.licenses/icon.png" height="100">
+
+[avgi.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-avgi.licenses/avgi.licenses.zip) | 375.21 kb | 2025-02-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/avgi.licenses/) | <a href="res/imagemd/avgi.licenses.md">view images</a> [9]<br>
+<br>
+>Adds a mission on "Navigeo Yards" to get the 3 Avgi licenses. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### avgi.licenses<br>
+
+<br>
+
+Adds a mission on "Navigeo Yards" to get the 3 Avgi licenses.<br>
+
+<br>
+
+<br>
+
+When you have completed the Avgi Intro (Avgi: Twilight Escape 3: done), land on "Navigeo Yards". You have a 20% chance kn getting the licenses mission, which leads you to the Gossamer system, where you have to mine some stuff and bring it back. Licenses have new images. You also get an unassigned Avgi unique.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2025-02-06<br>
+
+initial release<br>
 
 </blockquote>
 </details>
