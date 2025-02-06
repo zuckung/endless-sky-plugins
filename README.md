@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-04 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-06 | update: expert.crew.members<br>
+2025-02-04 | update: additional.command.buttons.radial<br>
 2025-01-30 | update: expert.crew.members<br>
 2025-01-27 | update: uniques<br>
 2025-01-27 | update: captureable.person.ships<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-01-25 | update: show.reputation<br>
 2025-01-25 | update: uniques<br>
 2024-12-28 | update: additional.command.buttons.radial<br>
-2024-12-19 | update: better.starts<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -87,7 +87,7 @@ I've got another new project, a github repository that lets you online generate 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.14-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 179.81 kb | 2025-02-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [40]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.14-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 179.81 kb | 2025-02-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [41]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -130,6 +130,14 @@ This plugin<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-02-06<br>
+
+the targeting buttons blocked the new scanner attribute display, so i moved it up<br>
+
+hollowed and colorized the targeting buttons<br>
 
 <br>
 
@@ -535,7 +543,7 @@ screenshots(click to enlarge):<br>
 
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-bunrodea.missions/bunrodea.missions.zip) | 1.29 mb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [36]<br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-bunrodea.missions/bunrodea.missions.zip) | 1.29 mb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [67]<br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the README for details.
 <details>
@@ -1337,7 +1345,7 @@ added icon.png<br>
 
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-expert.crew.members/expert.crew.members.zip) | 7.75 mb | 2025-01-30 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) | <a href="res/imagemd/expert.crew.members.md">view images</a> [193]<br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-expert.crew.members/expert.crew.members.zip) | 7.75 mb | 2025-02-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) | <a href="res/imagemd/expert.crew.members.md">view images</a> [193]<br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the README for details.
 <details>
@@ -1372,19 +1380,25 @@ Changelog:<br>
 
 <br>
 
-2025-01-30 <br>
+2025-02-06<br>
+
+added the new scanning attributes to the scanning experts<br>
+
+<br>
+
+2025-01-30<br>
 
 added 5 avgi experts<br>
 
 <br>
 
-2024-11-29 <br>
+2024-11-29<br>
 
 changed images for wanderers, korath, hai and bunrodea (for more quality and consistency)<br>
 
 <br>
 
-2024-10-08 <br>
+2024-10-08<br>
 
 proofreading and minor text changes (Vemenous-Repentile)<br>
 
