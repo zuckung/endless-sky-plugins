@@ -1,0 +1,68 @@
+# outfit "Twilight Guard License"
+# outfit "Avgi Torch License"
+# outfit "Avgi Atomics License"
+# mission "getAvgiLicenses"
+
+
+outfit "Twilight Guard License"
+	thumbnail "outfit/avgi.licenses.1"
+
+
+outfit "Avgi Torch License"
+	thumbnail "outfit/avgi.licenses.2"
+
+
+outfit "Avgi Atomics License"
+	thumbnail "outfit/avgi.licenses.3"
+
+
+mission "getAvgiLicenses"
+	name "Get Avgi licenses"
+	description "Travel to <waypoints> to acquire 100 units of 'Voidfish' and 100 units of 'Integral Wood'. That is the payment for the Avgi licenses."
+	source
+		planet "Navigeo Yards"
+	destination "Navigeo Yards"
+	waypoint "Gossamer"
+	to offer
+		random < 20
+		has "Avgi: Twilight Escape 3: done"
+	on offer
+		conversation
+			scene "scene/avgi.licenses.general"
+			`You step off the docking ramp and into the vast, metallic corridors of Navigeo Yards. The scent of coolant and ionized air clings to the station, a testament to the relentless production happening deep within. A figure in polished Avgi armor strides toward you, General Azure himself.`
+			`"You're the newly arrived captain" he says, more statement than question. You nod. He gestures for you to walk with him. You follow, your boots echoing against the reinforced floor. As he guides you through the station, you see assembly lines churning out Avgi warframes, precision rifles, and shimmering energy shields. You watch, intrigued. You've wanted access to advanced Avgi tech, but their licensing is... selective.`
+			`"You're interested in our equipment," Azure says, eyeing you sideways. You don't deny it.`
+			`He stops, arms crossed. "Not possible."`
+			`You press on, making your case. You speak of efficiency, of mutual benefit. He listens, barely. But something in your persistence amuses him. Finally, he exhales, considering.`
+			`"There is... a way." he says. "A shipment of Voidfish and Integral Wood. We need it harvested from Gossamer and delivered here. 100 ton from each."`
+			`"You do this," Azure continues, "and I'll make an exception for you."`
+			choice
+				`	You are interested in this deal.`
+					goto interested
+				`	You don't want these licenses.`
+					defer
+			label interested
+			`You weigh the risks. Then you extend your hand. "Deal."`
+			`Azure grips it firmly. "Then get to work."`
+				accept
+	to complete
+		"outfit (cargo): Voidfish" > 99
+		"outfit (cargo): Integral Wood" > 99
+	on complete
+		outfit "Voidfish" -100
+		outfit "Integral Wood" -100
+		outfit "Lancet Adamant" 1
+		set "license: Avgi Torch"
+		set "license: Twilight Guard"
+		set "license: Avgi Atomics"
+		conversation 
+			`You stride into Navigeo Yards once more, this time smelling less like ambition and more like Voidfish guts. General Azure is waiting, arms crossed.`
+			`"You actually did it." he says, inspecting the cargo. "Impressive."`
+			`You grin. "So... licenses?"`
+			`"Azure hands over the data chips and papers, then, with a smirk, presents something else... a Sleek Shortspear, polished, ceremonial, and entirely unnecessary for your line of work.`
+			`"A token of respect" he says.`
+			`You twirl it dramatically. "Very pointy. I love it."`
+			`Azure chuckles. "Try not to stab yourself."`
+			`You salute. "Pleasure doing business."`
+			`Then, licenses in hand, spear in tow... you're off.`
+
