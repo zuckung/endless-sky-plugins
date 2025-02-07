@@ -1,3 +1,4 @@
+2025-02-07 | update: jump.gates
 2025-02-06 | update: avgi.licenses
 2025-02-06 | update: additional.command.buttons.radial
 2025-02-06 | update: expert.crew.members

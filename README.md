@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-06 | update: avgi.licenses<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-07 | update: jump.gates<br>
+2025-02-06 | update: avgi.licenses<br>
 2025-02-06 | update: additional.command.buttons.radial<br>
 2025-02-06 | update: expert.crew.members<br>
 2025-02-04 | update: additional.command.buttons.radial<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-01-27 | update: captureable.person.ships<br>
 2025-01-27 | update: quarg.farm<br>
 2025-01-25 | update: too.many.asteroids<br>
-2025-01-25 | update: show.reputation<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2065,7 +2065,7 @@ screenshots(click to enlarge):<br>
 
 <img src="myplugins/jump.gates/icon.png" height="100">
 
-[jump.gates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-jump.gates/jump.gates.zip) | 1.24 mb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/) | <a href="res/imagemd/jump.gates.md">view images</a> [24]<br>
+[jump.gates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-jump.gates/jump.gates.zip) | 1.99 mb | 2025-02-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/) | <a href="res/imagemd/jump.gates.md">view images</a> [23]<br>
 <br>
 >Adds a ring of "jump gates" at the borders of human space to create shortcuts inside human space. See the README for details.
 
@@ -2090,6 +2090,18 @@ These jump gates are technically just wormholes with new sprites. The jump gate 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-02-07<br>
+
+removed label images and added wormhole names <br>
+
+added @2x images<br>
+
+resized planet images and changed scale<br>
+
+added compatibility mission to handle the new image sizes<br>
 
 <br>
 
