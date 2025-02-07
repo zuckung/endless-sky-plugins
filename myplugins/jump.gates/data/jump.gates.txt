@@ -1,10 +1,12 @@
-# mission "jump gates announcement" 3014 11 16 or 1 month after gamestart
+# mission "jump gates announcement" 3014 11 16 or 1 month after pluginstart
 # mission "jump gates building 0" 14 days later
 # mission "jump gates building 25" 1 month later
 # mission "jump gates building 50" 1 month later
 # mission "jump gates building 75" 1 month later
 # mission "jump gates building 99" 1 month later
 # mission "jump gates done" 1 month later
+# mission "jump gates compatibility fix"
+# event "jump gates compatibility fix"
 # event "jump gate research"
 # event "wait for start"
 # event "wait for 25"
@@ -157,6 +159,167 @@ mission "jump gates done"
 				decline
 
 
+mission "jump gates compatibility fix"
+	invisible
+	landing
+	to offer
+		has "event: wait for active"
+	on offer
+		event "jump gates compatibility fix"
+		fail
+
+
+event "jump gates compatibility fix"
+	system "Naos"
+		remove object "Jump Gate Naos-Spica"
+			sprite planet/gate_active
+				scale 1
+			distance 2000
+			period 1
+			offset 210
+		add object "Jump Gate Naos-Spica"
+			sprite planet/gate_active
+				scale 1
+			distance 2000
+			period 1
+			offset 210
+		remove object "Jump Gate Alnitak-Naos"
+			sprite planet/gate_active
+				scale 1
+			distance 2000
+			period 1
+			offset 90
+		add object "Jump Gate Alnitak-Naos"
+			sprite planet/gate_active
+				scale 1
+			distance 2000
+			period 1
+			offset 90
+	system "Spica"
+		remove object "Jump Gate Spica-Alniyat"
+			sprite planet/gate_active
+				scale 1
+			distance 1500
+			period 1
+			offset 150
+		add object "Jump Gate Spica-Alniyat"
+			sprite planet/gate_active
+				scale 1
+			distance 1500
+			period 1
+			offset 150
+		remove object "Jump Gate Naos-Spica"
+			sprite planet/gate_active
+				scale 1
+			distance 1500
+			period 1
+			offset 30
+		add object "Jump Gate Naos-Spica"
+			sprite planet/gate_active
+				scale 1
+			distance 1500
+			period 1
+			offset 30
+	system "Alniyat"
+		remove object "Jump Gate Alniyat-Tarazed"
+			sprite planet/gate_active
+				scale 1
+			distance 1500
+			period 1
+			offset 70
+		add object "Jump Gate Alniyat-Tarazed"
+			sprite planet/gate_active
+				scale 1
+			distance 1500
+			period 1
+			offset 70
+		remove object "Jump Gate Spica-Alniyat"
+			sprite planet/gate_active
+				scale 1
+			distance 1500
+			period 1
+			offset 330
+		add object "Jump Gate Spica-Alniyat"
+			sprite planet/gate_active
+				scale 1
+			distance 1500
+			period 1
+			offset 330
+	system "Tarazed"
+		remove object "Jump Gate Tarazed-Sheratan"
+			sprite planet/gate_active
+				scale 1
+			distance 2200
+			period 1
+			offset 30
+		add object "Jump Gate Tarazed-Sheratan"
+			sprite planet/gate_active
+				scale 1
+			distance 2200
+			period 1
+			offset 30
+		remove object "Jump Gate Alniyat-Tarazed"
+			sprite planet/gate_active
+				scale 1
+			distance 2200
+			period 1
+			offset 260
+		add object "Jump Gate Alniyat-Tarazed"
+			sprite planet/gate_active
+				scale 1
+			distance 2200
+			period 1
+			offset 260
+	system "Sheratan"
+		remove object "Jump Gate Sheratan-Alnitak"
+			sprite planet/gate_active
+				scale 1
+			distance 2000
+			period 1
+			offset 315
+		add object "Jump Gate Sheratan-Alnitak"
+			sprite planet/gate_active
+				scale 1
+			distance 2000
+			period 1
+			offset 315
+		remove object "Jump Gate Tarazed-Sheratan"
+			sprite planet/gate_active
+				scale 1
+			distance 2000
+			period 1
+			offset 210
+		add object "Jump Gate Tarazed-Sheratan"
+			sprite planet/gate_active
+				scale 1
+			distance 2000
+			period 1
+			offset 210
+	system "Alnitak"
+		remove object "Jump Gate Alnitak-Naos"
+			sprite planet/gate_active
+				scale 1
+			distance 800
+			period 1
+			offset 270
+		add object "Jump Gate Alnitak-Naos"
+			sprite planet/gate_active
+				scale 1
+			distance 800
+			period 1
+			offset 270
+		remove object "Jump Gate Sheratan-Alnitak"
+			sprite planet/gate_active
+				scale 1
+			distance 800
+			period 1
+			offset 135
+		add object "Jump Gate Sheratan-Alnitak"
+			sprite planet/gate_active
+				scale 1
+			distance 800
+			period 1
+			offset 135
 
 
 event "jump gate research"
@@ -170,78 +333,78 @@ event "wait for 25"
 	system "Naos"
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 90
 	system "Spica"
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 150
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 30
 	system "Alniyat"
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 70
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 330
 	system "Tarazed"
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 30
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 260
 	system "Sheratan"
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 315
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 	system "Alnitak"
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 270
 		add object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 135
@@ -251,150 +414,150 @@ event "wait for 50"
 	system "Naos"
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 90
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 90
 	system "Spica"
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 150
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 30
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 150
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 30
 	system "Alniyat"
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 70
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 330
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 70
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 330
 	system "Tarazed"
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 30
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 260
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 30
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 260
 	system "Sheratan"
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 315
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 315
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 	system "Alnitak"
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 270
 		remove object
 			sprite planet/gate_build25
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 135
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 270
 		add object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 135
@@ -404,150 +567,150 @@ event "wait for 75"
 	system "Naos"
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 90
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 90
 	system "Spica"
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 150
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 30
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 150
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 30
 	system "Alniyat"
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 70
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 330
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 70
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 330
 	system "Tarazed"
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 30
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 260
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 30
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 260
 	system "Sheratan"
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 315
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 315
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 	system "Alnitak"
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 270
 		remove object
 			sprite planet/gate_build50
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 135
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 270
 		add object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 135
@@ -557,150 +720,150 @@ event "wait for 99"
 	system "Naos"
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 90
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 90
 	system "Spica"
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 150
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 30
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 150
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 30
 	system "Alniyat"
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 70
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 330
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 70
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 330
 	system "Tarazed"
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 30
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 260
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 30
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 260
 	system "Sheratan"
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 315
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 315
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 	system "Alnitak"
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 270
 		remove object
 			sprite planet/gate_build75
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 135
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 270
 		add object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 135
@@ -710,229 +873,158 @@ event "wait for active"
 	system "Naos"
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 90
 		add object "Jump Gate Naos-Spica"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
-			object
-				sprite planet/board_spica
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 		add object "Jump Gate Alnitak-Naos"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 90
-			object
-				sprite planet/board_alnitak_b
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 	system "Spica"
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 150
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 30
 		add object "Jump Gate Spica-Alniyat"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 150
-			object
-				sprite planet/board_alniyat
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 		add object "Jump Gate Naos-Spica"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 30
-			object
-				sprite planet/board_naos_b
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 	system "Alniyat"
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 70
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 330
 		add object "Jump Gate Alniyat-Tarazed"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 70
-			object
-				sprite planet/board_tarazed
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 		add object "Jump Gate Spica-Alniyat"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 1500
 			period 1
 			offset 330
-			object
-				sprite planet/board_spica_b
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 	system "Tarazed"
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 30
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 260
 		add object "Jump Gate Tarazed-Sheratan"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 30
-			object
-				sprite planet/board_sheratan
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 		add object "Jump Gate Alniyat-Tarazed"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 2200
 			period 1
 			offset 260
-			object
-				sprite planet/board_alniyat_b
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 	system "Sheratan"
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 315
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
 		add object "Jump Gate Sheratan-Alnitak"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 315
-			object
-				sprite planet/board_alnitak
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 		add object "Jump Gate Tarazed-Sheratan"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 2000
 			period 1
 			offset 210
-			object
-				sprite planet/board_tarazed_b
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 	system "Alnitak"
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 270
 		remove object
 			sprite planet/gate_build99
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 135
 		add object "Jump Gate Alnitak-Naos"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 270
-			object
-				sprite planet/board_naos
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 		add object "Jump Gate Sheratan-Alnitak"
 			sprite planet/gate_active
-				scale 0.5
+				scale 1
 			distance 800
 			period 1
 			offset 135
-			object
-				sprite planet/board_sheratan_b
-					scale 0.5
-				distance 100
-				period 1
-				offset 0
 
 
 wormhole "Jump Gate Naos-Spica"
 	mappable
+	"display name" "Naos - Spica"
 	link "Naos" "Spica"
 	link "Spica" "Naos" 
 	color "wormholes: Jump Gates"
@@ -940,6 +1032,7 @@ wormhole "Jump Gate Naos-Spica"
 
 wormhole "Jump Gate Spica-Alniyat"
 	mappable
+	"display name" "Spica - Alniyat"
 	link "Spica" "Alniyat"
 	link "Alniyat" "Spica"
 	color "wormholes: Jump Gates"
@@ -947,6 +1040,7 @@ wormhole "Jump Gate Spica-Alniyat"
 
 wormhole "Jump Gate Alniyat-Tarazed"
 	mappable
+	"display name" "Alniyat - Tarazed"
 	link "Alniyat" "Tarazed"
 	link "Tarazed" "Alniyat"
 	color "wormholes: Jump Gates"
@@ -954,6 +1048,7 @@ wormhole "Jump Gate Alniyat-Tarazed"
 
 wormhole "Jump Gate Tarazed-Sheratan"
 	mappable
+	"display name" "Tarazed - Sheratan"
 	link "Tarazed" "Sheratan"
 	link "Sheratan" "Tarazed"
 	color "wormholes: Jump Gates"
@@ -961,6 +1056,7 @@ wormhole "Jump Gate Tarazed-Sheratan"
 
 wormhole "Jump Gate Sheratan-Alnitak"
 	mappable
+	"display name" "Sheratan - Alnitak"
 	link "Sheratan" "Alnitak"
 	link "Alnitak" "Sheratan"
 	color "wormholes: Jump Gates"
@@ -968,6 +1064,7 @@ wormhole "Jump Gate Sheratan-Alnitak"
 
 wormhole "Jump Gate Alnitak-Naos"
 	mappable
+	"display name" "Alnitak - Naos"
 	link "Alnitak" "Naos"
 	link "Naos" "Alnitak"
 	color "wormholes: Jump Gates"

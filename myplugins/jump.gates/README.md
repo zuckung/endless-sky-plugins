@@ -9,6 +9,12 @@ These jump gates are technically just wormholes with new sprites. The jump gate 
 <br>
 Changelog:<br>
 <br>
+2025-02-07<br>
+removed label images and added wormhole names <br>
+added @2x images<br>
+resized planet images and changed scale<br>
+added compatibility mission to handle the new image sizes<br>
+<br>
 2024-11-11<br>
 fixed error<br>
 <br>
