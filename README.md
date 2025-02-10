@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-07 | update: jump.gates<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-10 | update: bunrodea.missions<br>
+2025-02-07 | update: jump.gates<br>
 2025-02-06 | update: avgi.licenses<br>
 2025-02-06 | update: additional.command.buttons.radial<br>
 2025-02-06 | update: expert.crew.members<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-01-27 | update: uniques<br>
 2025-01-27 | update: captureable.person.ships<br>
 2025-01-27 | update: quarg.farm<br>
-2025-01-25 | update: too.many.asteroids<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -586,7 +586,7 @@ screenshots(click to enlarge):<br>
 
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-bunrodea.missions/bunrodea.missions.zip) | 1.29 mb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [67]<br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-bunrodea.missions/bunrodea.missions.zip) | 1.29 mb | 2025-02-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [36]<br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the README for details.
 <details>
@@ -618,6 +618,14 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-02-10<br>
+
+added @2x images<br>
+
+changed news portraits, because of a conflict with expert.crew.members<br>
 
 <br>
 
@@ -2656,7 +2664,7 @@ screenshots(click to enlarge):<br>
 
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
 
-[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.3-more.boarding.missions/more.boarding.missions.zip) | 1.4 mb | 2024-05-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) | <a href="res/imagemd/more.boarding.missions.md">view images</a> [25]<br>
+[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.3-more.boarding.missions/more.boarding.missions.zip) | 1.4 mb | 2024-05-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) | <a href="res/imagemd/more.boarding.missions.md">view images</a> [49]<br>
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the README for details.
 <details>
@@ -2667,7 +2675,7 @@ screenshots(click to enlarge):<br>
 
 <br>
 
-Adds 87 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independent, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Remnant, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
+Adds 96 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independent, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Aberrant, Avgi, Remnant, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
 
 <br>
 
@@ -2694,6 +2702,10 @@ Only natural spawning ships can trigger these missions and ships spawned from jo
 <li> 7 Human boarding missions (by ship categories, 20% chance, 10.000 to 30.000 credits)</li>
 
 <li> 3 Ka'het boarding missions (by ship categories, 25-35% chance, 150.000 to 250.000 credits)</li>
+
+<li> 2 Aberrrant boarding missions (by ship categories, 15% chance, 150.000 to 200.000 credits)</li>
+
+<li> 7 Avgi assist8ng missions (by ship categories, 20% chance, 14.000 to 40.000 credits)</li>
 
 <li> 2 Korath boarding missions (for the bigger ship categories, 15% chance, 20.000 to 30.000 credits)</li>
 
@@ -2722,6 +2734,16 @@ Only natural spawning ships can trigger these missions and ships spawned from jo
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-02-10<br>
+
+added @2x images<br>
+
+added 2 aberrant boarding missions<br>
+
+added 7 avgi assisting missions<br>
 
 <br>
 
