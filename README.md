@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-10 | update: bunrodea.missions<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-10 | update: more.boarding.missions<br>
+2025-02-10 | update: bunrodea.missions<br>
 2025-02-07 | update: jump.gates<br>
 2025-02-06 | update: avgi.licenses<br>
 2025-02-06 | update: additional.command.buttons.radial<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-01-30 | update: expert.crew.members<br>
 2025-01-27 | update: uniques<br>
 2025-01-27 | update: captureable.person.ships<br>
-2025-01-27 | update: quarg.farm<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2664,7 +2664,7 @@ screenshots(click to enlarge):<br>
 
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
 
-[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.3-more.boarding.missions/more.boarding.missions.zip) | 1.4 mb | 2024-05-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) | <a href="res/imagemd/more.boarding.missions.md">view images</a> [49]<br>
+[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-more.boarding.missions/more.boarding.missions.zip) | 5.63 mb | 2025-02-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) | <a href="res/imagemd/more.boarding.missions.md">view images</a> [49]<br>
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the README for details.
 <details>
