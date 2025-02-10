@@ -13,6 +13,10 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 Changelog:<br>
 <br>
+2025-02-10<br>
+added @2x images<br>
+changed news portraits, because of a conflict with expert.crew.members<br>
+<br>
 2024-10-08 <br>
 proofreading and minor text changes (Vemenous-Repentile)<br>
 <br>

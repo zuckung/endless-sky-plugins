@@ -2,3 +2,6 @@ more.boarding.missions
 author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
+images:
+	scenes
+		ai generated at https://perchance.org/ai-text-to-image-generator

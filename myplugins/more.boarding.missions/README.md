@@ -1,7 +1,7 @@
 ### more.boarding.missions <br>
 <br>
 <br>
-Adds 87 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independent, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Remnant, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
+Adds 96 repeatable boarding and assisting missions. Boarding/assisting Free Worlds, Republic, Syndicate, Militia, Merchant, Independent, Pirates, Korath, Hai, Hai Unfettered, Pug, Pug (Wanderer), Wanderer, Ka'het, Aberrant, Avgi, Remnant, Gegno Vi and Gegno Scin can trigger them. Bigger ships give higher rewards.<br>
 <br>
 Only natural spawning ships can trigger these missions and ships spawned from jobs/missions or marauder hunting fleets doesn't trigger. Remnant assisting chances and Ka'het boarding chances are so high, cause of the rarity to find a boardable ship.<br>
 <br>
@@ -15,6 +15,8 @@ Only natural spawning ships can trigger these missions and ships spawned from jo
 <li> 7 Human assisting missions (by ship categories, 20% chance, 10.000 to 30.000 credits)</li>
 <li> 7 Human boarding missions (by ship categories, 20% chance, 10.000 to 30.000 credits)</li>
 <li> 3 Ka'het boarding missions (by ship categories, 25-35% chance, 150.000 to 250.000 credits)</li>
+<li> 2 Aberrrant boarding missions (by ship categories, 15% chance, 150.000 to 200.000 credits)</li>
+<li> 7 Avgi assist8ng missions (by ship categories, 20% chance, 14.000 to 40.000 credits)</li>
 <li> 2 Korath boarding missions (for the bigger ship categories, 15% chance, 20.000 to 30.000 credits)</li>
 <li> 2 Korath boarding missions (for the bigger ship categories, 2-3% chance, outfit "Cloaking Device")</li>
 <li> 7 Pirate boarding missions (by ship categories, 20% chance, 5.000 to 25.000 credits)</li>
@@ -29,6 +31,11 @@ Only natural spawning ships can trigger these missions and ships spawned from jo
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-02-10<br>
+added @2x images<br>
+added 2 aberrant boarding missions<br>
+added 7 avgi assisting missions<br>
 <br>
 2024-05-08<br>
 fixed hai assisting to include  "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"<br>

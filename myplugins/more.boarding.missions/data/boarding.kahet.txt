@@ -1,8 +1,10 @@
-# 3 boarding kahet
+# 5 boarding kahet/aberrant
 
 # mission "Boarding kahet (light)"
 # mission "Boarding kahet (medium)"
 # mission "Boarding kahet (heavy)"
+# mission "Boarding aberrant (light)"
+# mission "Boarding aberrant (medium)"
 
 
 
@@ -57,4 +59,40 @@ mission "Boarding kahet (heavy)"
 		conversation
 			scene "scene/kahetboarding03"
 			`Although you can't capture this Ka'het 'ship', there is nothing stopping you from searching for valuables. In a small room, probably some kind of side-stomach, you find lots of ores and even some valuable gems. Your loot is worth <payment>.`
+				decline
+
+
+mission "Boarding aberrant (light)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 84
+	source
+		government "Aberrant"
+		category "Light Warship" "Interceptor"
+	on offer
+		payment 150000
+		conversation
+			scene "scene/kahetboarding01"
+			`Although you can't capture this Aberrant 'ship', there is nothing stopping you from searching for valuables. In a small room, probably some kind of side-stomach, you find lots of ores and even some valuable gems. Your loot is worth <payment>.`
+				decline
+
+
+mission "Boarding aberrant (medium)"
+	boarding
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 84
+	source
+		government "Aberrant"
+		category "Medium Warship"
+	on offer
+		payment 200000
+		conversation
+			scene "scene/kahetboarding03"
+			`Although you can't capture this Aberrant 'ship', there is nothing stopping you from searching for valuables. In a small room, probably some kind of side-stomach, you find lots of ores and even some valuable gems. Your loot is worth <payment>.`
 				decline

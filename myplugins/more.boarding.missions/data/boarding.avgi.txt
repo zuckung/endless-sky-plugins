@@ -1,0 +1,136 @@
+# 7x avgi assisting missions
+
+# mission "Assisting Avgi (Interceptor)"
+# mission "Assisting Avgi (Light Warship)"
+# mission "Assisting Avgi (Transport)"
+# mission "Assisting Avgi (Light Freighter)"
+# mission "Assisting Avgi (Medium Warship)"
+# mission "Assisting Avgi (Heavy Freighter)"
+# mission "Assisting Avgi (Heavy Warship)"
+
+
+
+mission "Assisting Avgi (Interceptor)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Avgi" "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		category "Interceptor"
+	on offer
+		payment 12000
+		conversation
+			scene "scene/assisting03"
+			`When you repair the Avgi ship "<origin>", the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Avgi (Light Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Avgi" "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		category "Light Warship"
+	on offer
+		payment 14000
+		conversation
+			scene "scene/assisting04"
+			`When you repair the Avgi ship "<origin>", the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Avgi (Transport)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Avgi" "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		category "Transport"
+	on offer
+		payment 18000
+		conversation
+			scene "scene/assisting05"
+			`When you repair the Avgi ship "<origin>", the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Avgi (Light Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Avgi" "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		category "Light Freighter"
+	on offer
+		payment 22000
+		conversation
+			scene "scene/assisting06"
+			`When you repair the Avgi ship "<origin>", the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Avgi (Medium Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Avgi" "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		category "Medium Warship"
+	on offer
+		payment 27000
+		conversation
+			scene "scene/assisting07"
+			`When you repair the Avgi ship "<origin>", the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Avgi (Heavy Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Avgi" "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		category "Heavy Freighter"
+	on offer
+		payment 32000
+		conversation
+			scene "scene/assisting08"
+			`When you repair the Avgi ship "<origin>", the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Avgi (Heavy Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 79
+	source
+		government "Avgi" "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"
+		category "Heavy Warship"
+	on offer
+		payment 40000
+		conversation
+			scene "scene/assisting09"
+			`When you repair the Avgi ship "<origin>", the captain thanks you for your assistance and pays you <payment>.`
+				decline
