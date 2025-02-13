@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-13 | update: bunrodea.missions<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-13 | update: human.labels<br>
+2025-02-13 | update: bunrodea.missions<br>
 2025-02-10 | update: more.boarding.missions<br>
 2025-02-10 | update: bunrodea.missions<br>
 2025-02-07 | update: jump.gates<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-06 | update: expert.crew.members<br>
 2025-02-04 | update: additional.command.buttons.radial<br>
 2025-01-30 | update: expert.crew.members<br>
-2025-01-27 | update: uniques<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1998,7 +1998,7 @@ initial release<br>
 
 <img src="myplugins/human.labels/icon.png" height="100">
 
-[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-human.labels/human.labels.zip) | 338.79 kb | 2024-07-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) | <a href="res/imagemd/human.labels.md">view images</a> [410]<br>
+[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-human.labels/human.labels.zip) | 1.92 mb | 2025-02-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) | <a href="res/imagemd/human.labels.md">view images</a> [410]<br>
 <br>
 >Reworks the Human area labels and adds area borders. See the README for details.
 
