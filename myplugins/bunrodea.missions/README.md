@@ -13,6 +13,9 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 Changelog:<br>
 <br>
+2025-02-13<br>
+somehow i forgot the @2x images, now they are in<br>
+<br>
 2025-02-10<br>
 added @2x images<br>
 changed news portraits, because of a conflict with expert.crew.members<br>

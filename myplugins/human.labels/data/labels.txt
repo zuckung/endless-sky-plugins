@@ -28,54 +28,103 @@
 
 galaxy "border deep"
 	pos -670 -270
-	sprite label/border_deep
+	sprite label/borders/border_deep
 galaxy "border dirt belt"
 	pos -515 145
-	sprite "label/border_dirt belt"
+	sprite "label/borders/border_dirt belt"
 galaxy "border rim"
 	pos -778 228
-	sprite label/border_rim
+	sprite label/borders/border_rim
 galaxy "border south"
 	pos -566 370
-	sprite label/border_south
+	sprite label/borders/border_south
 galaxy "border earth"
 	pos -400 115
-	sprite label/border_earth
+	sprite label/borders/border_earth
 galaxy "border core"
 	pos -145 107
-	sprite label/border_core
+	sprite label/borders/border_core
 galaxy "border paradise"
 	pos -418 -95
-	sprite label/border_paradise
+	sprite label/borders/border_paradise
 galaxy "border north"
 	pos -350 -400
-	sprite label/border_north
+	sprite label/borders/border_north
 
 
 galaxy "label deep"
 	pos -590 -260
-	sprite label/blue/deep
+	sprite label/blue/thedeep
 galaxy "label dirt belt"
-	pos -480 250
-	sprite "label/blue/dirt belt"
+	pos -480 247
+	sprite "label/blue/thedirtbelt"
 galaxy "label rim"
 	pos -850 235
-	sprite label/blue/rim
+	sprite label/blue/therim
 galaxy "label south"
 	pos -600 470
-	sprite label/blue/south
+	sprite label/blue/thesouth
 galaxy "label earth"
-	pos -360 70
-	sprite label/blue/earth
+	pos -350 70
+	sprite label/blue/nearearth
 galaxy "label core"
 	pos -136 -10
-	sprite label/blue/core
+	sprite label/blue/thecore
 galaxy "label paradise"
 	pos -420 -110
-	sprite label/blue/paradise
+	sprite label/blue/paradiseworlds
 galaxy "label north"
 	pos -385 -460
-	sprite label/blue/north
+	sprite label/blue/thenorth
+galaxy "label haispace"
+	pos 12 -538
+	sprite label/blue/haispace
+galaxy "label theemberwaste"
+	pos 137 250
+	sprite label/blue/theemberwaste
+galaxy "label thegraveyard"
+	pos 132 589
+	sprite label/blue/thegraveyard
+galaxy "label korathspace"
+	pos 97 -370
+	sprite label/blue/korathspace
+galaxy "label bunrodea"
+	pos 328 -210
+	sprite label/blue/bunrodeaspace
+galaxy "label gegnospace"
+	pos 797 -492
+	sprite label/blue/gegnospace
+galaxy "label umbralreach"
+	pos 1187 -564
+	sprite label/blue/umbralreach
+galaxy "label wandererspace"
+	pos -165 -738
+	sprite label/blue/wandererspace
+galaxy "label incipiasspace"
+	pos 342 -911
+	sprite label/blue/incipiasspace
+galaxy "label arachispace"
+	pos -739 600
+	sprite label/blue/arachi
+galaxy "label kimekspace"
+	pos -1225 352
+	sprite label/blue/kimek
+galaxy "label sarydsspace"
+	pos -976 625
+	sprite label/blue/saryds
+galaxy "label outerlimits"
+	pos -416 1283
+	sprite label/blue/outerlimits
+galaxy "label tangledshroud"
+	pos -203 1051
+	sprite label/blue/tangledshroud
+galaxy "label thetwilight"
+	pos -521 850
+	sprite label/blue/thetwilight
+galaxy "label successorspace"
+	pos -210 1404
+	sprite label/blue/successorspace
+
 
 
 mission "change label color"
@@ -107,7 +156,7 @@ mission "change label color"
 					goto "purple"
 			label "light blue"
 			action
-				event "change light blue"
+				event "change light blue" 0
 			`Label color changed to light blue!`
 				goto end
 			label "yellow"
@@ -152,153 +201,409 @@ mission "change label color"
 		fail
 
 
-event "change light blue"
+event "change light blue" # folder blue
 	galaxy "label deep"
-		sprite label/blue/deep
+		sprite label/blue/thedeep
 	galaxy "label dirt belt"
-		sprite "label/blue/dirt belt"
+		sprite "label/blue/thedirtbelt"
 	galaxy "label rim"
-		sprite label/blue/rim
+		sprite label/blue/therim
 	galaxy "label south"
-		sprite label/blue/south
+		sprite label/blue/thesouth
 	galaxy "label earth"
-		sprite label/blue/earth
+		sprite label/blue/nearearth
 	galaxy "label core"
-		sprite label/blue/core
+		sprite label/blue/thecore
 	galaxy "label paradise"
-		sprite label/blue/paradise
+		sprite label/blue/paradiseworlds
 	galaxy "label north"
-		sprite label/blue/north
+		sprite label/blue/thenorth
+	galaxy "label haispace"
+		sprite label/blue/haispace
+	galaxy "label theemberwaste"
+		sprite label/blue/theemberwaste
+	galaxy "label thegraveyard"
+		sprite label/blue/thegraveyard
+	galaxy "label korathspace"
+		sprite label/blue/korathspace
+	galaxy "label bunrodea"
+		sprite label/blue/bunrodeaspace
+	galaxy "label gegnospace"
+		sprite label/blue/gegnospace
+	galaxy "label umbralreach"
+		sprite label/blue/umbralreach
+	galaxy "label wandererspace"
+		sprite label/blue/wandererspace
+	galaxy "label incipiasspace"
+		sprite label/blue/incipiasspace
+	galaxy "label arachispace"
+		sprite label/blue/arachi
+	galaxy "label kimekspace"
+		sprite label/blue/kimek
+	galaxy "label sarydsspace"
+		sprite label/blue/saryds
+	galaxy "label outerlimits"
+		sprite label/blue/outerlimits
+	galaxy "label tangledshroud"
+		sprite label/blue/tangledshroud
+	galaxy "label thetwilight"
+		sprite label/blue/thetwilight
+	galaxy "label successorspace"
+		sprite label/blue/successorspace
 
 
-event "change light gray"
+event "change light gray" # folder gray
 	galaxy "label deep"
-		sprite label/gray/deep
+		sprite label/gray/thedeep
 	galaxy "label dirt belt"
-		sprite "label/gray/dirt belt"
+		sprite "label/gray/thedirtbelt"
 	galaxy "label rim"
-		sprite label/gray/rim
+		sprite label/gray/therim
 	galaxy "label south"
-		sprite label/gray/south
+		sprite label/gray/thesouth
 	galaxy "label earth"
-		sprite label/gray/earth
+		sprite label/gray/nearearth
 	galaxy "label core"
-		sprite label/gray/core
+		sprite label/gray/thecore
 	galaxy "label paradise"
-		sprite label/gray/paradise
+		sprite label/gray/paradiseworlds
 	galaxy "label north"
-		sprite label/gray/north
+		sprite label/gray/thenorth
+	galaxy "label haispace"
+		sprite label/gray/haispace
+	galaxy "label theemberwaste"
+		sprite label/gray/theemberwaste
+	galaxy "label thegraveyard"
+		sprite label/gray/thegraveyard
+	galaxy "label korathspace"
+		sprite label/gray/korathspace
+	galaxy "label bunrodea"
+		sprite label/gray/bunrodeaspace
+	galaxy "label gegnospace"
+		sprite label/gray/gegnospace
+	galaxy "label umbralreach"
+		sprite label/gray/umbralreach
+	galaxy "label wandererspace"
+		sprite label/gray/wandererspace
+	galaxy "label incipiasspace"
+		sprite label/gray/incipiasspace
+	galaxy "label arachispace"
+		sprite label/gray/arachi
+	galaxy "label kimekspace"
+		sprite label/gray/kimek
+	galaxy "label sarydsspace"
+		sprite label/gray/saryds
+	galaxy "label outerlimits"
+		sprite label/gray/outerlimits
+	galaxy "label tangledshroud"
+		sprite label/gray/tangledshroud
+	galaxy "label thetwilight"
+		sprite label/gray/thetwilight
+	galaxy "label successorspace"
+		sprite label/gray/successorspace
 
 
-event "change yellow"
+event "change yellow" # folder yellow
 	galaxy "label deep"
-		sprite label/yellow/deep
+		sprite label/yellow/thedeep
 	galaxy "label dirt belt"
-		sprite "label/yellow/dirt belt"
+		sprite "label/yellow/thedirtbelt"
 	galaxy "label rim"
-		sprite label/yellow/rim
+		sprite label/yellow/therim
 	galaxy "label south"
-		sprite label/yellow/south
+		sprite label/yellow/thesouth
 	galaxy "label earth"
-		sprite label/yellow/earth
+		sprite label/yellow/nearearth
 	galaxy "label core"
-		sprite label/yellow/core
+		sprite label/yellow/thecore
 	galaxy "label paradise"
-		sprite label/yellow/paradise
+		sprite label/yellow/paradiseworlds
 	galaxy "label north"
-		sprite label/yellow/north
+		sprite label/yellow/thenorth
+	galaxy "label haispace"
+		sprite label/yellow/haispace
+	galaxy "label theemberwaste"
+		sprite label/yellow/theemberwaste
+	galaxy "label thegraveyard"
+		sprite label/yellow/thegraveyard
+	galaxy "label korathspace"
+		sprite label/yellow/korathspace
+	galaxy "label bunrodea"
+		sprite label/yellow/bunrodeaspace
+	galaxy "label gegnospace"
+		sprite label/yellow/gegnospace
+	galaxy "label umbralreach"
+		sprite label/yellow/umbralreach
+	galaxy "label wandererspace"
+		sprite label/yellow/wandererspace
+	galaxy "label incipiasspace"
+		sprite label/yellow/incipiasspace
+	galaxy "label arachispace"
+		sprite label/yellow/arachi
+	galaxy "label kimekspace"
+		sprite label/yellow/kimek
+	galaxy "label sarydsspace"
+		sprite label/yellow/saryds
+	galaxy "label outerlimits"
+		sprite label/yellow/outerlimits
+	galaxy "label tangledshroud"
+		sprite label/yellow/tangledshroud
+	galaxy "label thetwilight"
+		sprite label/yellow/thetwilight
+	galaxy "label successorspace"
+		sprite label/yellow/successorspace
 
 
-event "change dark red"
+event "change dark red" # folder red
 	galaxy "label deep"
-		sprite label/red/deep
+		sprite label/red/thedeep
 	galaxy "label dirt belt"
-		sprite "label/red/dirt belt"
+		sprite "label/red/thedirtbelt"
 	galaxy "label rim"
-		sprite label/red/rim
+		sprite label/red/therim
 	galaxy "label south"
-		sprite label/red/south
+		sprite label/red/thesouth
 	galaxy "label earth"
-		sprite label/red/earth
+		sprite label/red/nearearth
 	galaxy "label core"
-		sprite label/red/core
+		sprite label/red/thecore
 	galaxy "label paradise"
-		sprite label/red/paradise
+		sprite label/red/paradiseworlds
 	galaxy "label north"
-		sprite label/red/north
+		sprite label/red/thenorth
+	galaxy "label haispace"
+		sprite label/red/haispace
+	galaxy "label theemberwaste"
+		sprite label/red/theemberwaste
+	galaxy "label thegraveyard"
+		sprite label/red/thegraveyard
+	galaxy "label korathspace"
+		sprite label/red/korathspace
+	galaxy "label bunrodea"
+		sprite label/red/bunrodeaspace
+	galaxy "label gegnospace"
+		sprite label/red/gegnospace
+	galaxy "label umbralreach"
+		sprite label/red/umbralreach
+	galaxy "label wandererspace"
+		sprite label/red/wandererspace
+	galaxy "label incipiasspace"
+		sprite label/red/incipiasspace
+	galaxy "label arachispace"
+		sprite label/red/arachi
+	galaxy "label kimekspace"
+		sprite label/red/kimek
+	galaxy "label sarydsspace"
+		sprite label/red/saryds
+	galaxy "label outerlimits"
+		sprite label/red/outerlimits
+	galaxy "label tangledshroud"
+		sprite label/red/tangledshroud
+	galaxy "label thetwilight"
+		sprite label/red/thetwilight
+	galaxy "label successorspace"
+		sprite label/red/successorspace
 
 
-event "change green"
+event "change green" # folder green
 	galaxy "label deep"
-		sprite label/green/deep
+		sprite label/green/thedeep
 	galaxy "label dirt belt"
-		sprite "label/green/dirt belt"
+		sprite "label/green/thedirtbelt"
 	galaxy "label rim"
-		sprite label/green/rim
+		sprite label/green/therim
 	galaxy "label south"
-		sprite label/green/south
+		sprite label/green/thesouth
 	galaxy "label earth"
-		sprite label/green/earth
+		sprite label/green/nearearth
 	galaxy "label core"
-		sprite label/green/core
+		sprite label/green/thecore
 	galaxy "label paradise"
-		sprite label/green/paradise
+		sprite label/green/paradiseworlds
 	galaxy "label north"
-		sprite label/green/north
+		sprite label/green/thenorth
+	galaxy "label haispace"
+		sprite label/green/haispace
+	galaxy "label theemberwaste"
+		sprite label/green/theemberwaste
+	galaxy "label thegraveyard"
+		sprite label/green/thegraveyard
+	galaxy "label korathspace"
+		sprite label/green/korathspace
+	galaxy "label bunrodea"
+		sprite label/green/bunrodeaspace
+	galaxy "label gegnospace"
+		sprite label/green/gegnospace
+	galaxy "label umbralreach"
+		sprite label/green/umbralreach
+	galaxy "label wandererspace"
+		sprite label/green/wandererspace
+	galaxy "label incipiasspace"
+		sprite label/green/incipiasspace
+	galaxy "label arachispace"
+		sprite label/green/arachi
+	galaxy "label kimekspace"
+		sprite label/green/kimek
+	galaxy "label sarydsspace"
+		sprite label/green/saryds
+	galaxy "label outerlimits"
+		sprite label/green/outerlimits
+	galaxy "label tangledshroud"
+		sprite label/green/tangledshroud
+	galaxy "label thetwilight"
+		sprite label/green/thetwilight
+	galaxy "label successorspace"
+		sprite label/green/successorspace
 
 
-event "change dark gray"
+event "change dark gray" # folder darkgray
 	galaxy "label deep"
-		sprite label/darkgray/deep
+		sprite label/darkgray/thedeep
 	galaxy "label dirt belt"
-		sprite "label/darkgray/dirt belt"
+		sprite "label/darkgray/thedirtbelt"
 	galaxy "label rim"
-		sprite label/darkgray/rim
+		sprite label/darkgray/therim
 	galaxy "label south"
-		sprite label/darkgray/south
+		sprite label/darkgray/thesouth
 	galaxy "label earth"
-		sprite label/darkgray/earth
+		sprite label/darkgray/nearearth
 	galaxy "label core"
-		sprite label/darkgray/core
+		sprite label/darkgray/thecore
 	galaxy "label paradise"
-		sprite label/darkgray/paradise
+		sprite label/darkgray/paradiseworlds
 	galaxy "label north"
-		sprite label/darkgray/north
+		sprite label/darkgray/thenorth
+	galaxy "label haispace"
+		sprite label/darkgray/haispace
+	galaxy "label theemberwaste"
+		sprite label/darkgray/theemberwaste
+	galaxy "label thegraveyard"
+		sprite label/darkgray/thegraveyard
+	galaxy "label korathspace"
+		sprite label/darkgray/korathspace
+	galaxy "label bunrodea"
+		sprite label/darkgray/bunrodeaspace
+	galaxy "label gegnospace"
+		sprite label/darkgray/gegnospace
+	galaxy "label umbralreach"
+		sprite label/darkgray/umbralreach
+	galaxy "label wandererspace"
+		sprite label/darkgray/wandererspace
+	galaxy "label incipiasspace"
+		sprite label/darkgray/incipiasspace
+	galaxy "label arachispace"
+		sprite label/darkgray/arachi
+	galaxy "label kimekspace"
+		sprite label/darkgray/kimek
+	galaxy "label sarydsspace"
+		sprite label/darkgray/saryds
+	galaxy "label outerlimits"
+		sprite label/darkgray/outerlimits
+	galaxy "label tangledshroud"
+		sprite label/darkgray/tangledshroud
+	galaxy "label thetwilight"
+		sprite label/darkgray/thetwilight
+	galaxy "label successorspace"
+		sprite label/darkgray/successorspace
 
 
-event "change orange"
+event "change orange" # folder orange
 	galaxy "label deep"
-		sprite label/orange/deep
+		sprite label/orange/thedeep
 	galaxy "label dirt belt"
-		sprite "label/orange/dirt belt"
+		sprite "label/orange/thedirtbelt"
 	galaxy "label rim"
-		sprite label/orange/rim
+		sprite label/orange/therim
 	galaxy "label south"
-		sprite label/orange/south
+		sprite label/orange/thesouth
 	galaxy "label earth"
-		sprite label/orange/earth
+		sprite label/orange/nearearth
 	galaxy "label core"
-		sprite label/orange/core
+		sprite label/orange/thecore
 	galaxy "label paradise"
-		sprite label/orange/paradise
+		sprite label/orange/paradiseworlds
 	galaxy "label north"
-		sprite label/orange/north
+		sprite label/orange/thenorth
+	galaxy "label haispace"
+		sprite label/orange/haispace
+	galaxy "label theemberwaste"
+		sprite label/orange/theemberwaste
+	galaxy "label thegraveyard"
+		sprite label/orange/thegraveyard
+	galaxy "label korathspace"
+		sprite label/orange/korathspace
+	galaxy "label bunrodea"
+		sprite label/orange/bunrodeaspace
+	galaxy "label gegnospace"
+		sprite label/orange/gegnospace
+	galaxy "label umbralreach"
+		sprite label/orange/umbralreach
+	galaxy "label wandererspace"
+		sprite label/orange/wandererspace
+	galaxy "label incipiasspace"
+		sprite label/orange/incipiasspace
+	galaxy "label arachispace"
+		sprite label/orange/arachi
+	galaxy "label kimekspace"
+		sprite label/orange/kimek
+	galaxy "label sarydsspace"
+		sprite label/orange/saryds
+	galaxy "label outerlimits"
+		sprite label/orange/outerlimits
+	galaxy "label tangledshroud"
+		sprite label/orange/tangledshroud
+	galaxy "label thetwilight"
+		sprite label/orange/thetwilight
+	galaxy "label successorspace"
+		sprite label/orange/successorspace
 
 
-event "change purple"
+event "change purple" # folder purple
 	galaxy "label deep"
-		sprite label/purple/deep
+		sprite label/purple/thedeep
 	galaxy "label dirt belt"
-		sprite "label/purple/dirt belt"
+		sprite "label/purple/thedirtbelt"
 	galaxy "label rim"
-		sprite label/purple/rim
+		sprite label/purple/therim
 	galaxy "label south"
-		sprite label/purple/south
+		sprite label/purple/thesouth
 	galaxy "label earth"
-		sprite label/purple/earth
+		sprite label/purple/nearearth
 	galaxy "label core"
-		sprite label/purple/core
+		sprite label/purple/thecore
 	galaxy "label paradise"
-		sprite label/purple/paradise
+		sprite label/purple/paradiseworlds
 	galaxy "label north"
-		sprite label/purple/north
+		sprite label/purple/thenorth
+	galaxy "label haispace"
+		sprite label/purple/haispace
+	galaxy "label theemberwaste"
+		sprite label/purple/theemberwaste
+	galaxy "label thegraveyard"
+		sprite label/purple/thegraveyard
+	galaxy "label korathspace"
+		sprite label/purple/korathspace
+	galaxy "label bunrodea"
+		sprite label/purple/bunrodeaspace
+	galaxy "label gegnospace"
+		sprite label/purple/gegnospace
+	galaxy "label umbralreach"
+		sprite label/purple/umbralreach
+	galaxy "label wandererspace"
+		sprite label/purple/wandererspace
+	galaxy "label incipiasspace"
+		sprite label/purple/incipiasspace
+	galaxy "label arachispace"
+		sprite label/purple/arachi
+	galaxy "label kimekspace"
+		sprite label/purple/kimek
+	galaxy "label sarydsspace"
+		sprite label/purple/saryds
+	galaxy "label outerlimits"
+		sprite label/purple/outerlimits
+	galaxy "label tangledshroud"
+		sprite label/purple/tangledshroud
+	galaxy "label thetwilight"
+		sprite label/purple/thetwilight
+	galaxy "label successorspace"
+		sprite label/purple/successorspace

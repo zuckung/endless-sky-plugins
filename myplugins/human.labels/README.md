@@ -1,13 +1,17 @@
 ### human.labels
 <br>
 <br>
-Reworks the Human area labels and adds area borders. See the readme for details.<br>
+Reworks the map labels and adds area borders. See the readme for details.<br>
 <br>
-The area labels of Human space are now smaller and better to see. Also there is a border drawn around each area.<br>
-On Earth's job board you can find a mission to change the color of the labels(light blue, light gray, yellow, dark red, green, dark gray, orange, purple).<br>
+The area labels are now smaller and better to see. Also there is a border drawn around each human area.<br>
+On Earth's job board you can find a mission to change the color of the labels (light blue, light gray, yellow, dark red, green, dark gray, orange, purple).<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-02-13<br>
+added @2x images<br>
+added non-human labels<br>
 <br>
 2024-07-13<br>
 corrected script error<br>
