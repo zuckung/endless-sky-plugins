@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-10 | update: more.boarding.missions<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-13 | update: bunrodea.missions<br>
+2025-02-10 | update: more.boarding.missions<br>
 2025-02-10 | update: bunrodea.missions<br>
 2025-02-07 | update: jump.gates<br>
 2025-02-06 | update: avgi.licenses<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-04 | update: additional.command.buttons.radial<br>
 2025-01-30 | update: expert.crew.members<br>
 2025-01-27 | update: uniques<br>
-2025-01-27 | update: captureable.person.ships<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -586,7 +586,7 @@ screenshots(click to enlarge):<br>
 
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-bunrodea.missions/bunrodea.missions.zip) | 1.29 mb | 2025-02-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [36]<br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-bunrodea.missions/bunrodea.missions.zip) | 2.92 mb | 2025-02-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [45]<br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the README for details.
 <details>
@@ -618,6 +618,12 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-02-13<br>
+
+somehow i forgot the @2x images, now they are in<br>
 
 <br>
 
@@ -1992,7 +1998,7 @@ initial release<br>
 
 <img src="myplugins/human.labels/icon.png" height="100">
 
-[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-human.labels/human.labels.zip) | 338.79 kb | 2024-07-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) | <a href="res/imagemd/human.labels.md">view images</a> [74]<br>
+[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-human.labels/human.labels.zip) | 338.79 kb | 2024-07-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) | <a href="res/imagemd/human.labels.md">view images</a> [410]<br>
 <br>
 >Reworks the Human area labels and adds area borders. See the README for details.
 
@@ -2004,19 +2010,27 @@ initial release<br>
 
 <br>
 
-Reworks the Human area labels and adds area borders. See the readme for details.<br>
+Reworks the map labels and adds area borders. See the readme for details.<br>
 
 <br>
 
-The area labels of Human space are now smaller and better to see. Also there is a border drawn around each area.<br>
+The area labels are now smaller and better to see. Also there is a border drawn around each human area.<br>
 
-On Earth's job board you can find a mission to change the color of the labels(light blue, light gray, yellow, dark red, green, dark gray, orange, purple).<br>
+On Earth's job board you can find a mission to change the color of the labels (light blue, light gray, yellow, dark red, green, dark gray, orange, purple).<br>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-02-13<br>
+
+added @2x images<br>
+
+added non-human labels<br>
 
 <br>
 
@@ -2060,6 +2074,7 @@ screenshots(click to enlarge):<br>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels01.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels03.jpg" width="200"></td>
 	</tr>
 </table>
 <br>

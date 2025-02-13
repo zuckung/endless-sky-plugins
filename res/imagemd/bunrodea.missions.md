@@ -76,25 +76,49 @@ graphic files for the plugin: bunrodea.missions<br>
 	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_academy.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_academy.jpg" width="200"></a><br>
 		bun_academy.jpg [560x340]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_academy@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_academy@2x.jpg" width="200"></a><br>
+		bun_academy@2x.jpg [1120x680]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_archeology.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_archeology.jpg" width="200"></a><br>
 		bun_archeology.jpg [560x340]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_archeology@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_archeology@2x.jpg" width="200"></a><br>
+		bun_archeology@2x.jpg [1120x680]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_criminal.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_criminal.jpg" width="200"></a><br>
 		bun_criminal.jpg [560x340]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_criminal@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_criminal@2x.jpg" width="200"></a><br>
+		bun_criminal@2x.jpg [1120x680]</td>
 	</tr>
 	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_cybernetic.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_cybernetic.jpg" width="200"></a><br>
 		bun_cybernetic.jpg [560x340]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_cybernetic@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_cybernetic@2x.jpg" width="200"></a><br>
+		bun_cybernetic@2x.jpg [1120x680]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_queen.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_queen.jpg" width="200"></a><br>
 		bun_queen.jpg [540x360]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_queen@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_queen@2x.jpg" width="200"></a><br>
+		bun_queen@2x.jpg [1080x720]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_supernova.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_supernova.jpg" width="200"></a><br>
 		bun_supernova.jpg [560x340]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_supernova@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_supernova@2x.jpg" width="200"></a><br>
+		bun_supernova@2x.jpg [1120x680]</td>
 	</tr>
 	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_volcano.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_volcano.jpg" width="200"></a><br>
 		bun_volcano.jpg [560x340]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/bun_volcano@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/bun_volcano@2x.jpg" width="200"></a><br>
+		bun_volcano@2x.jpg [1120x680]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/snap_flies.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/snap_flies.jpg" width="200"></a><br>
 		snap_flies.jpg [560x340]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/snap_flies@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/snap_flies@2x.jpg" width="200"></a><br>
+		snap_flies@2x.jpg [1120x680]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/stadium.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/stadium.jpg" width="200"></a><br>
 		stadium.jpg [560x340]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/bunrodea.missions/images/scene/stadium@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/bunrodea.missions/images/scene/stadium@2x.jpg" width="200"></a><br>
+		stadium@2x.jpg [1120x680]</td>
 	</tr>
 </table>
