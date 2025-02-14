@@ -42,9 +42,11 @@ graphic files for the plugin: galactic.capital.investment<br>
 		gci_spaceport@2x.jpg [1080x720]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/scene/gci_terminal.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/scene/gci_terminal.jpg" width="200"></a><br>
+		gci_terminal.jpg [560x200]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship.png" height="200"></a><br>
 		gci_colonyship.png [380x830]</td>
-		<td></td>
-		<td></td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship@2x.png" height="200"></a><br>
+		gci_colonyship@2x.png [760x1660]</td>
 	</tr>
 </table>
