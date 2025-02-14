@@ -6,101 +6,102 @@
 # mission "Galactic Capital 1000M"
 
 
+
 mission "Galactic Capital 1M"
-	name "Galactic Capital Investment 1 million"
+	name "(Galactic Capital Investment) Invest 1m"
 	job
 	repeat
-	description "Daily yield: 600 credits, first profit after: 4,6 years"
+	description "Galactic Capital Investment offers an investment to a young startup. Invest 1 million, daily yield: 274 credits, 10% interest p.a."
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
 	to offer
 		has "Galactic Capital Intro B: offered"
 		"credits" > 1000000
-		random < 60
+		random < 12
 	on accept
 		payment -1000000
-		"salary: Galactic Capital" += 600
+		"salary: Galactic Capital" += 274
 	on daily
 		fail
 
 
 mission "Galactic Capital 5M"
-	name "Galactic Capital Investment 5 million"
+	name "(Galactic Capital Investment) Invest 5m"
 	job
 	repeat
-	description "Daily yield: 3.400 credits, first profit after: 4 years"
+	description "Galactic Capital Investment offers an investment to a young startup. Invest 5 million, daily yield: 1,520 credits, 11% interest p.a."
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
 	to offer
 		has "Galactic Capital Intro B: offered"
 		"credits" > 5000000
-		random < 50
+		random < 10
 	on accept
 		payment -5000000
-		"salary: Galactic Capital" += 3400
+		"salary: Galactic Capital" += 1520
 	on daily
 		fail
 
 
 mission "Galactic Capital 10M"
-	name "Galactic Capital Investment 10 million"
+	name "(Galactic Capital Investment) Invest 10m"
 	job
 	repeat
-	description "Daily yield: 7.200 credits, first profit after: 3,8 years"
+	description "Galactic Capital Investment offers an investment to a young startup. Invest 10 million, daily yield: 3,287 credits, 12% interest p.a."
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
 	to offer
 		has "Galactic Capital Intro B: offered"
 		"credits" > 10000000
-		random < 40
+		random < 8
 	on accept
 		payment -10000000
-		"salary: Galactic Capital" += 7200
+		"salary: Galactic Capital" += 3287
 	on daily
 		fail
 
 
 mission "Galactic Capital 50M"
-	name "Galactic Capital Investment 50 million"
+	name "(Galactic Capital Investment) Invest 50m"
 	job
 	repeat
-	description "Daily yield: 37.000 credits, first profit after: 3,7 years"
+	description "Galactic Capital Investment offers an investment to a young startup. Invest 50 million, daily yield: 17,808 credits, 13% interest p.a."
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
 	to offer
 		has "Galactic Capital Intro B: offered"
 		"credits" > 50000000
-		random < 30
+		random < 6
 	on accept
 		payment -50000000
-		"salary: Galactic Capital" += 37000
+		"salary: Galactic Capital" += 17808
 	on daily
 		fail
 
 
 mission "Galactic Capital 100M"
-	name "Galactic Capital Investment 100 million"
+	name "(Galactic Capital Investment) Invest 100m"
 	job
 	repeat
-	description "Daily yield: 76.100 credits, first profit after: 3,6 years"
+	description "Galactic Capital Investment offers an investment to a young startup. Invest 100 million, daily yield: 38,356 credits, 14% interest p.a."
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
 	to offer
 		has "Galactic Capital Intro B: offered"
 		"credits" > 100000000
-		random < 20
+		random < 4
 	on accept
 		payment -100000000
-		"salary: Galactic Capital" += 76100
+		"salary: Galactic Capital" += 38356
 	on daily
 		fail
 
 
 mission "Galactic Capital 1000M"
-	name "Galactic Capital Investment 1000 million"
+	name "(Galactic Capital Investment) Invest 1b"
 	job
 	repeat
-	description "This is a rare investment opportunity with high investment and high reward. Daily yield: 2 Million credits, first profit after: 2,3 years"
+	description "Galactic Capital Investment offers an investment to a young startup. Invest 1 billion, daily yield: 410,958 credits, 15% interest p.a."
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
 	to offer
@@ -109,6 +110,6 @@ mission "Galactic Capital 1000M"
 		random < 2
 	on accept
 		payment -1000000000
-		"salary: Galactic Capital" += 2000000
+		"salary: Galactic Capital" += 410958
 	on daily
 		fail

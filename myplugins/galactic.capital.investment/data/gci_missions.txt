@@ -81,9 +81,9 @@ mission "Galactic Capital Intro B"
 			`Investment:	`
 			`	1.000.000 credits`
 			`Daily yield:`
-			`	600 credits`
-			`First profit after:`
-			`	4,6 years`
+			`	274 credits`
+			`Interest:`
+			`	10% per year`
 			` `
 			`"You don't have to take this investment, because we'll offer you more opportunities in the future. So, do you want to invest now?"`
 			choice
@@ -99,7 +99,7 @@ mission "Galactic Capital Intro B"
 				decline
 	on accept
 		payment -1000000
-		"salary: Galactic Capital" += 600
+		"salary: Galactic Capital" += 274
 	on daily
 		fail
 
@@ -368,14 +368,14 @@ mission "Galactic Capital Colonize 9"
 	to offer
 		has "Galactic Capital Colonize 8: done"
 	on offer
-		"salary: Galactic Capital" += 2000000
+		"salary: Galactic Capital" += 410958
 		outfit "Golden Figurine"
 		conversation
 			scene "scene/gci_big_city"
 			`Sapphire has changed significantly. The spaceport has gotten bigger and it's filled with people. At an information stand you find out that there are twelve larger cities and hundreds of small settlements, and the population is approaching the 100 million mark. On the way to Galactic Capital Investment's planetary headquarters, you see a lot of activity everywhere. This is what a rising world looks like. The headquarters of Galactic Capital Investment is also very impressive and is one of the first few skyscrapers here. When you enter Goulding's office you are greeted warmly.`
 			`"<first>, I'm glad to see you here." Goulding smiles.`
 			`"Everything is developing splendidly. More than splendidly! We got this venture up and running in record time and now there's nothing left to do. We can enjoy the fruits of our labor. That's why I asked you here. Let's talk about the distribution of profits."`
-			`"The numbers are much better than our analysts predicted. As one of our first investors, you will also be the first to receive a share of the profits. From now on, the Planetary Government will transfer you two million credits every day! This means that in 1.3 years you've fully recovered your investment. After that, all that's left is profit!" Goulding smiles even wider.`
+			`"The numbers are much better than our analysts predicted. As one of our first investors, you will also be the first to receive a share of the profits. From now on, the planetary government will transfer you around 400 thausand credits every day! This means that in 5 years you've fully recovered your investment. After that, all that's left is profit!" Goulding smiles even wider.`
 			`"Please <first>, take some time and take a vacation, maybe even here. Sapphire has some really beautiful sights."`
 			`"Before you go, I have something for you, nothing special, just a small gift to celebrate our success here." he hands you a golden figurine of a credit symbol.` 
 			`After more small talk, you say goodbye. Before you head out, Goulding mentions that he may come back to you with more investments like this in the future. When you get to the ship, you ask yourself what you should do now.`
