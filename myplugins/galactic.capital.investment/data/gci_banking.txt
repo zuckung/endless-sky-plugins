@@ -54,7 +54,7 @@ mission "gci banking terminal"
 			`	&[dailyincome] credits daily interest (4% p.a.)`
 			`Daily transfer to you cash chip (already subtracted from the daily interest):`
 			`	&[salary: Galactic Capital Transfer]`
-			`Daily investment salery to your cash chip:`
+			`Daily investment salary to your cash chip:`
 			`	&[salary: Galactic Capital]`
 			`Family Trust:`
 			`	&[global: familytrust] credits (for all pilots, 0% p.a.)`
@@ -334,7 +334,7 @@ mission "gci banking terminal"
 			``
 			`Cash chip:`
 			`	&[credits] credits`
-			`Investment salery:`
+			`Investment salary:`
 			`	&[salary: Galactic Capital]`
 			``
 			choice
