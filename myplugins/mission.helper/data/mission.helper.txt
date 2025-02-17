@@ -34953,7 +34953,7 @@ mission "mission.helper"
 			`				has B`
 			`				has C`
 			`		has D`
-			`It is just a chain of requirements. The first "or" says that one of the deeper "childs" need to be true. So "A" or "and" (which has its own deeper "childs", which have both to be true). The first "or" needs "A" or "B and C". In the first depths it is always an "and", though not written. Which means in any case "D" is needed.`
+			`It is just a chain of requirements. The first "or" says that one of the deeper "children" need to be true. So "A" or "and" (which has its own deeper "children", which have both to be true). The first "or" needs "A" or "B and C". In the first depths it is always an "and", though not written. Which means in any case "D" is needed.`
 			`Overall it means: you need "D" and "A" or you need "D" and "B" and "C". Check the ES wiki to learn more about the to offer block.`
 			``
 			choice
