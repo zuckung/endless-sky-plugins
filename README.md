@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-14 | update: galactic.capital.investment<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-17 | update: mission.helper<br>
+2025-02-14 | update: galactic.capital.investment<br>
 2025-02-13 | update: human.labels<br>
 2025-02-13 | update: bunrodea.missions<br>
 2025-02-10 | update: more.boarding.missions<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-06 | update: avgi.licenses<br>
 2025-02-06 | update: additional.command.buttons.radial<br>
 2025-02-06 | update: expert.crew.members<br>
-2025-02-04 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -48,8 +48,8 @@ I've got another new project, a github repository that lets you online generate 
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#humanlabels">human.labels</a><br>
@@ -59,6 +59,7 @@ I've got another new project, a github repository that lets you online generate 
 <a href="README.md#landingimages">landing.images</a><br>
 <a href="README.md#landingimagesandroid">landing.images.android</a><br>
 <a href="README.md#landingimageshighres">landing.images.highres</a><br>
+<a href="README.md#missionhelper">mission.helper</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
@@ -2634,6 +2635,58 @@ initial release<br>
 
 </blockquote>
 </details>
+
+<br>
+
+
+---
+
+### mission.helper
+
+<img src="myplugins/mission.helper/icon.png" height="100">
+
+[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-mission.helper/mission.helper.zip) | 88.31 kb | 2025-02-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) | <a href="res/imagemd/mission.helper.md">view images</a> [1]<br>
+<br>
+>Enables a job on every planet's job board, that shows missions you haven't done. It also shows the "source" and "to offer" of these missions, so you can easily find them. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### mission.helper
+
+<br>
+
+<br>
+
+Enables a job on every planet's job board, that shows missions you haven't done. It also shows the "source" and "to offer" of these missions, so you can easily find them.<br>
+
+<br>
+
+Accept the job "(mission.helper)" and click your way to the mission you want more information about.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2025-02-17<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/mission.helper01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
 
 <br>
 
