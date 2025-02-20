@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-17 | update: mission.helper<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-20 | update: mission.helper<br>
+2025-02-17 | update: mission.helper<br>
 2025-02-14 | update: galactic.capital.investment<br>
 2025-02-13 | update: human.labels<br>
 2025-02-13 | update: bunrodea.missions<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-07 | update: jump.gates<br>
 2025-02-06 | update: avgi.licenses<br>
 2025-02-06 | update: additional.command.buttons.radial<br>
-2025-02-06 | update: expert.crew.members<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2645,7 +2645,7 @@ initial release<br>
 
 <img src="myplugins/mission.helper/icon.png" height="100">
 
-[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-mission.helper/mission.helper.zip) | 88.31 kb | 2025-02-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) | <a href="res/imagemd/mission.helper.md">view images</a> [1]<br>
+[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-mission.helper/mission.helper.zip) | 93.37 kb | 2025-02-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) | <a href="res/imagemd/mission.helper.md">view images</a> [1]<br>
 <br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the "source" and "to offer" of these missions, so you can easily find them. See the README for details.
 
@@ -2668,6 +2668,20 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-02-20<br>
+
+added passengers requirement<br>
+
+added cargo requirement<br>
+
+added to fail condition<br>
+
+added to complete condition<br>
+
+added to accept condition<br>
 
 <br>
 
