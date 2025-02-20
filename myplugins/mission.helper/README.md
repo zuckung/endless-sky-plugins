@@ -8,6 +8,13 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 Changelog:<br>
 <br>
+2025-02-20<br>
+added passengers requirement<br>
+added cargo requirement<br>
+added to fail condition<br>
+added to complete condition<br>
+added to accept condition<br>
+<br>
 2025-02-17<br>
 initial release<br>
 
