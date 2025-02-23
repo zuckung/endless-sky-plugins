@@ -3,8 +3,8 @@ interface "main buttons" bottom right
 # LAYOUT
 #
 # 5 Fleet commands in top right
-#
-#                             zoom +-
+# 3x targeting button         zoom +-
+#                             
 # stop   hail    secondary    primary
 # board  scan    secondary    primary
 # land   cloak   deploy   jump    map
@@ -12,20 +12,48 @@ interface "main buttons" bottom right
 	# lower right button box
 	anchor bottom right
 	sprite "ui/buttonbox"
-		from 90 2 to -313 -158
+		from 90 10 to -313 -210
+	sprite "ui/schnoerkel"
+		from -273 -2 to -311 -42
 
 	# lower right zoom buttons
 	anchor bottom right
 	sprite "ui/zoom"
-		from 0 -126 to -90 -186
+		from 0 -150 to -90 -210
 	active if "!max zoom"
 	button + "_+"
-		from -10 -126 to -40 -186
+		from -10 -150 to -40 -210
 		size 18
 	active if "!min zoom"
 	button - "_-"
-		from -50 -126 to -80 -186
+		from -50 -150 to -80 -210
 		size 18
+
+	# bottom right: target nearest enemy / target nearest asteroid / target ship
+	anchor bottom right
+	active
+	visible
+	sprite "ui/target_asteroid"
+		center -230 -178
+		dimensions 50 50
+		radius 16
+	button "Select nearest asteroid"
+		center -230 -178
+		radius 16
+	sprite "ui/target_enemy"
+		center -175 -178
+		dimensions 50 50
+		radius 16
+	button "Select nearest hostile ship"
+		center -175 -178
+		radius 16
+	sprite "ui/target_ship"
+		center -120 -178
+		dimensions 50 50
+		radius 16
+	button "Select next ship"
+		center -120 -178
+		radius 16
 
 # UPPER ROW
 
@@ -206,7 +234,6 @@ interface "main buttons" bottom right
 	button "Fire primary weapon"
 		center -42 -92
 		radius 40
-		command "Fleet: Fight my target"
 
 	# lower right ammo box
 	# The engine will draw the secondary weapons list here.
@@ -215,11 +242,7 @@ interface "main buttons" bottom right
 		from -275 -40 to -365 -195
 
 # UPPER SCREEN RIGHT (FLEET COMMANDS)
-# layout: attack | gather | stop | hold fire | formations | harvest | ammo switch
-
-# "Initiate fleet jump"
-# icon_fleet_jump
-# 438x80
+# layout: attack | gather | stop | hold fire | formations | harvest | ammo switch | fleet jump
 
 	# top right buttonbox
 	anchor top right
@@ -354,43 +377,11 @@ interface "main buttons" bottom right
 	button "Show main menu"
 		from 36 0 to 84 35
 
-	# Overlaid on target display, but the hud doesn't have a panel, so to
-	# handle input, we put it here instead.
-	visible
-	active
-	anchor top left
-	button "Select next ship"
-		center 75 315
-		radius 80
-
-	# target nearest enemy / target nearest asteroid / target ship
-	anchor top left
-	sprite "ui/target_bg"
-		from 370 0
-		align top left
-	sprite "ui/target_asteroid"
-		center 400 29
-		radius 16
-	button "Select nearest asteroid"
-		center 400 29
-		radius 16
-	sprite "ui/target_enemy"
-		center 436 29
-		radius 16
-	button "Select nearest hostile ship"
-		center 436 29
-		radius 16
-	sprite "ui/target_ship"
-		center 472 29
-		radius 16
-	button "Select next ship"
-		center 472 29
-		radius 16
-
 	# Overlaid on the navigational panel, which displays something like
 	# "Can land on: Earth"
 	visible
 	active
+	anchor top left
 	button "Land on planet / station"
 		from 200 0 to 380 60
 
@@ -433,6 +424,7 @@ interface "main buttons" bottom right
 # "Talk to selected ship"
 # "Scan selected ship"
 # "Initiate hyperspace jump"
+# "Initiate fleet jump"
 # "Select next ship"
 # "Select nearest hostile ship"
 # "Select nearest asteroid"

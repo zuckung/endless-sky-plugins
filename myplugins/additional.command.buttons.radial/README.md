@@ -21,6 +21,9 @@ Changelog:<br>
 <br>
 2025-02-23<br>
 added new fleet jump button<br>
+moved targeting buttons to the lower right<br>
+removed fleet attack from normal attack button<br>
+removed targeting button from target display<br>
 <br>
 2025-02-06<br>
 the targeting buttons blocked the new scanner attribute display, so i moved it up<br>

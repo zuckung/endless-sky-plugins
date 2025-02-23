@@ -18,78 +18,81 @@ interface "hud"
 		from -20 65
 		color "medium"
 		align right
-	
+
+# ship hud	
 	anchor bottom right
 	visible if "!fast hud sprites"
 	outline "player sprite"
-		center -135 -280
+		center -135 -310
 		dimensions 100 100
 	visible if "fast hud sprites"
 	image "player sprite"
-		center -135 -280
+		center -135 -310
 		dimensions 100 100
 	visible
 	ring "shields"
-		center -135 -280
+		center -135 -310
 		dimensions 150 150
 		color "shields"
 		size 2
 		"start angle" 100
 		"span angle" 200
 	ring "hull"
-		center -135 -280
+		center -135 -310
 		dimensions 140 140
 		color "hull"
 		size 2
 		"start angle" 100
 		"span angle" 200
 	ring "disabled hull"
-		center -135 -280
+		center -135 -310
 		dimensions 140 140
 		color "disabled hull"
 		size 2
 		"start angle" 100
 		"span angle" 200
+
+# heat, energy, fuel bars
 	sprite "ui/bar_border"
-		from -3 -184
+		from -3 -214
 		align bottom right
 	bar "fuel"
-		from -6 -190
-		to -269 -190
+		from -6 -220
+		to -269 -220
 		dimensions 123 0
 		color "fuel"
 		size 2
 		reversed
 	sprite "ui/bar_border"
-		from -3 -199
+		from -3 -230
 		align bottom right
 	bar "energy"
-		from -6 -205
-		to -269 -205
+		from -6 -236
+		to -269 -236
 		dimensions 123 0
 		color "energy"
 		size 2
 		reversed
 	sprite "ui/bar_border"
-		from -3 -214
+		from -3 -246
 		align bottom right
 	bar "heat"
-		from -6 -220
-		to -269 -220
+		from -6 -252
+		to -269 -252
 		dimensions 123 0
 		color "heat"
 		size 2
 		reversed
 	bar "overheat"
-		from -39 -220
-		to -230 -220
+		from -39 -252
+		to -230 -252
 		dimensions 123 0
 		color "overheat"
 		size 2
 		reversed
 	bar "overheat blink"
-		from -39 -220
-		to -230 -220
+		from -39 -252
+		to -230 -252
 		dimensions 123 0
 		color "dim"
 		size 2
