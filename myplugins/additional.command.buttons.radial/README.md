@@ -9,14 +9,18 @@ This plugin<br>
 - adds more permanent buttons from the radial menus to make them easy accessible<br>
 - removes the radial menus<br>
 - adds a new button row to the top right for the fleet commands<br>
-- adds zoom buttons
+- adds zoom buttons<br>
+- adds more targeting buttons<br>
 - greyes out inactive buttons<br>
-- puts images behind the buttons.<br>
+- puts images behind the buttons, to grey out unavailable.<br>
 - changes the ship hud<br>
 <br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-02-23<br>
+added new fleet jump button<br>
 <br>
 2025-02-06<br>
 the targeting buttons blocked the new scanner attribute display, so i moved it up<br>
