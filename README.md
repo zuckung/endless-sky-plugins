@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-20 | update: mission.helper<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-23 | update: additional.command.buttons.radial<br>
+2025-02-20 | update: mission.helper<br>
 2025-02-17 | update: mission.helper<br>
 2025-02-14 | update: galactic.capital.investment<br>
 2025-02-13 | update: human.labels<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-10 | update: bunrodea.missions<br>
 2025-02-07 | update: jump.gates<br>
 2025-02-06 | update: avgi.licenses<br>
-2025-02-06 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -89,7 +89,7 @@ I've got another new project, a github repository that lets you online generate 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.15-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 189.1 kb | 2025-02-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [41]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.16-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 191.39 kb | 2025-02-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [42]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -117,11 +117,13 @@ This plugin<br>
 
 - adds a new button row to the top right for the fleet commands<br>
 
-- adds zoom buttons
+- adds zoom buttons<br>
+
+- adds more targeting buttons<br>
 
 - greyes out inactive buttons<br>
 
-- puts images behind the buttons.<br>
+- puts images behind the buttons, to grey out unavailable.<br>
 
 - changes the ship hud<br>
 
@@ -132,6 +134,12 @@ This plugin<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-02-23<br>
+
+added new fleet jump button<br>
 
 <br>
 
