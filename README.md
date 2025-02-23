@@ -89,7 +89,7 @@ I've got another new project, a github repository that lets you online generate 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.16-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 191.39 kb | 2025-02-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [42]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.17-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 192.4 kb | 2025-02-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [43]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -140,6 +140,12 @@ Changelog:<br>
 2025-02-23<br>
 
 added new fleet jump button<br>
+
+moved targeting buttons to the lower right<br>
+
+removed fleet attack from normal attack button<br>
+
+removed targeting button from target display<br>
 
 <br>
 

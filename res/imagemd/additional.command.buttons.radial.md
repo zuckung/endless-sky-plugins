@@ -7,7 +7,7 @@ graphic files for the plugin: additional.command.buttons.radial<br>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/bar_border.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/bar_border.png" width="200"></a><br>
 		bar_border.png [270x11]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/buttonbox.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/buttonbox.png" width="200"></a><br>
-		buttonbox.png [403x160]</td>
+		buttonbox.png [403x220]</td>
 	</tr>
 	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/buttonbox2.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/buttonbox2.png" width="200"></a><br>
@@ -100,17 +100,23 @@ graphic files for the plugin: additional.command.buttons.radial<br>
 	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_talk_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_talk_d.png" width="64" height="64"></a><br>
 		icon_talk_d.png [64x64]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/schnoerkel.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/schnoerkel.png" width="38" height="40"></a><br>
+		schnoerkel.png [38x40]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/status.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/status.png" width="200"></a><br>
 		status.png [220x86]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/target_asteroid.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/target_asteroid.png" width="64" height="64"></a><br>
-		target_asteroid.png [64x64]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/target_asteroid.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/target_asteroid.png" width="64" height="64"></a><br>
+		target_asteroid.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/target_bg.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/target_bg.png" width="140" height="60"></a><br>
 		target_bg.png [140x60]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/target_enemy.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/target_enemy.png" width="64" height="64"></a><br>
 		target_enemy.png [64x64]</td>
+	</tr>
+	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/target_ship.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/target_ship.png" width="64" height="64"></a><br>
 		target_ship.png [64x64]</td>
+		<td></td>
+		<td></td>
 	</tr>
 </table>
