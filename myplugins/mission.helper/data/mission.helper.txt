@@ -6379,7 +6379,6 @@ mission "mission.helper"
 			label "Avgi: Dissonance Outreach 0.5"
 			`avgi/avgi 0 first contact.txt | mission "Avgi: Dissonance Outreach 0.5"`
 			`	passengers 2`
-			`	passengers 2`
 			`	source "Feo Platform"`
 			`	to offer`
 			`		has "Avgi: Frontline Combat: done"`
@@ -6658,7 +6657,7 @@ mission "mission.helper"
 			label "Avgi Culture: Doomed Korath"
 			`avgi/avgi culture conversations.txt | mission "Avgi Culture: Doomed Korath"`
 			`	source`
-			`		attributes "avgi siege"`
+			`		attributes "aberrant siege"`
 			`	to offer`
 			`		not "avgi: lost in twilight"`
 			`		random < 3`
@@ -6678,7 +6677,7 @@ mission "mission.helper"
 			label "Avgi Culture: General Ripper"
 			`avgi/avgi culture conversations.txt | mission "Avgi Culture: General Ripper"`
 			`	source`
-			`		attributes "avgi siege"`
+			`		attributes "aberrant siege"`
 			`	to offer`
 			`		not "avgi: lost in twilight"`
 			`		random < 3`
@@ -6740,13 +6739,13 @@ mission "mission.helper"
 			`	source`
 			`		planet "Peripheria"`
 			`	to offer`
-			`		not "avgi: lost in twilight"`
+			`		has "Avgi: Twilight Escape 3: done"`
 			`		random < 30`
 			``
 			`You have the following missions, events and conditions:`
-			`not "avgi: lost in twilight"`
+			`has "Avgi: Twilight Escape 3: done"`
 				to display
-					not "avgi: lost in twilight"
+					has "Avgi: Twilight Escape 3: done"
 			``
 			choice
 				`[back to "Avgi | Avgi side missions""]`
@@ -6760,13 +6759,13 @@ mission "mission.helper"
 			`	source`
 			`		government "Avgi (Consonance)"`
 			`	to offer`
-			`		not "avgi: lost in twilight"`
+			`		has "Avgi: Twilight Escape 3: done"`
 			`		random < 30`
 			``
 			`You have the following missions, events and conditions:`
-			`not "avgi: lost in twilight"`
+			`has "Avgi: Twilight Escape 3: done"`
 				to display
-					not "avgi: lost in twilight"
+					has "Avgi: Twilight Escape 3: done"
 			``
 			choice
 				`[back to "Avgi | Avgi side missions""]`
@@ -6780,12 +6779,12 @@ mission "mission.helper"
 			`	source`
 			`		planet "Aktina Cylinder"`
 			`	to offer`
-			`		not "avgi: lost in twilight"`
+			`		has "Avgi: Twilight Escape 3: done"`
 			``
 			`You have the following missions, events and conditions:`
-			`not "avgi: lost in twilight"`
+			`has "Avgi: Twilight Escape 3: done"`
 				to display
-					not "avgi: lost in twilight"
+					has "Avgi: Twilight Escape 3: done"
 			``
 			choice
 				`[back to "Avgi | Avgi side missions""]`
@@ -6799,13 +6798,13 @@ mission "mission.helper"
 			`	source`
 			`		government "Avgi (Consonance)"`
 			`	to offer`
-			`		not "avgi: lost in twilight"`
+			`		has "Avgi: Twilight Escape 3: done"`
 			`		random < 6`
 			``
 			`You have the following missions, events and conditions:`
-			`not "avgi: lost in twilight"`
+			`has "Avgi: Twilight Escape 3: done"`
 				to display
-					not "avgi: lost in twilight"
+					has "Avgi: Twilight Escape 3: done"
 			``
 			choice
 				`[back to "Avgi | Avgi side missions""]`
@@ -6819,13 +6818,13 @@ mission "mission.helper"
 			`	source`
 			`		attributes "twilight guard"`
 			`	to offer`
-			`		not "avgi: lost in twilight"`
+			`		has "Avgi: Twilight Escape 3: done"`
 			`		random < 30`
 			``
 			`You have the following missions, events and conditions:`
-			`not "avgi: lost in twilight"`
+			`has "Avgi: Twilight Escape 3: done"`
 				to display
-					not "avgi: lost in twilight"
+					has "Avgi: Twilight Escape 3: done"
 			``
 			choice
 				`[back to "Avgi | Avgi side missions""]`
@@ -6839,12 +6838,12 @@ mission "mission.helper"
 			`	passengers 3`
 			`	source "Ergastirio Station"`
 			`	to offer`
-			`		not "avgi: lost in twilight"`
+			`		has "Avgi: Twilight Escape 3: done"`
 			``
 			`You have the following missions, events and conditions:`
-			`not "avgi: lost in twilight"`
+			`has "Avgi: Twilight Escape 3: done"`
 				to display
-					not "avgi: lost in twilight"
+					has "Avgi: Twilight Escape 3: done"
 			``
 			choice
 				`[back to "Avgi | Avgi side missions""]`
@@ -25918,6 +25917,7 @@ mission "mission.helper"
 					goto "start"
 			label "Human to Hai Space"
 			`human/human missions.txt | mission "Human to Hai Space"`
+			`	passengers 1`
 			`	source`
 			`		government "Republic" "Syndicate" "Free Worlds"`
 			`		attributes "tourism" "urban"`
@@ -26291,7 +26291,7 @@ mission "mission.helper"
 			`	passengers 9`
 			`	source`
 			`		attributes "frontier" "pirate"`
-			`		government "Republic" "Free Worlds" "Syndicate" "Pirate"`
+			`		near "Hadar" 1 100`
 			`	to offer`
 			`		random < 15`
 			``
@@ -26310,6 +26310,7 @@ mission "mission.helper"
 			`	passengers 6`
 			`	source`
 			`		attributes "frontier" "pirate" "rim"`
+			`		near "Izar" 1 100`
 			`	to offer`
 			`		random < 15`
 			`		has "Dangerous Games 1: done"`
@@ -27136,12 +27137,12 @@ mission "mission.helper"
 			label "Timothy Radrickson 1a: Accepted"
 			`human/human missions.txt | mission "Timothy Radrickson 1a: Accepted"`
 			`	to offer`
-			`		has "Timothy Radrickson 1: Stowaway: active"`
+			`		has "timothy radrickson: agreed"`
 			``
 			`You have the following missions, events and conditions:`
-			`has "Timothy Radrickson 1: Stowaway: active"`
+			`has "timothy radrickson: agreed"`
 				to display
-					has "Timothy Radrickson 1: Stowaway: active"
+					has "timothy radrickson: agreed"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -36891,28 +36892,62 @@ mission "mission.helper"
 				`[back to "Races"]`
 					goto "start"
 			label help
-			`This is the help for reading the requirements to start a mission`
-			``
-			`The "source" block filters the planet where you can get the mission offered.`
-			`It can be a planet name, or it can be near system name 2, which mean up to 2 jumps away from that system, or it can be a government or many governments, so it is on one of the planets of these governments, or it can have attributes, these are phrases planets have, only seen in the planet data files. There are some other rare cases, see ES scripting wiki on github.`
-			``
-			`The "to offer block is sometimes harder to read and gives a list of conditions for offering the mission."`
-			`It can have missions, events, conditions, reptutation and other things as requirement for a mission to start. "has" and "not" just filter if the following condition has to be true or false.`
-			`If you see this:`
-			`	to offer`
-			`		or`
-			`			has A`
-			`			and`
-			`				has B`
-			`				has C`
-			`		has D`
-			`It is just a chain of requirements. The first "or" says that one of the deeper "children" need to be true. So "A" or "and" (which has its own deeper "children", which have both to be true). The first "or" needs "A" or "B and C". In the first depths it is always an "and", though not written. Which means in any case "D" is needed.`
-			`Overall it means: you need "D" and "A" or you need "D" and "B" and "C". Check the ES wiki to learn more about the to offer block.`
-			``
+			This is the help for reading the requirements to start a mission.
+
+			
+
+			The "passenger" and "cargo" requirements
+
+			"passenger 6" means you need 6 free bunks, "passengers 3 6" means you need 3 to 6 bunks, depending on the random generation of the mission.
+
+			With cargo, it is the same.
+
+			
+
+			The "source" requirement
+
+			The "source" block filters the planet where you can get the mission offered. It can be a planet name, or it can be "near system name 2", which mean up to 2 jumps away from that system, or it can be a government or many governments, so it is on one of the planets of these governments, or it can have attributes. Attributes are phrases planets have, only seen in the planet data files. There are some other rare cases of requirements that can be here.
+
+			
+
+			The "to offer", "to fail", "to complete", "to accept" requirements
+
+			These blocks give a list of requirements to handle the mission. "to offer" is the most used one, and the other 3 are much more rare.
+
+			These blocks are sometimes harder to read. They can have missions, events, conditions, reptutation and other things as requirement for a mission to start. "has" and "not" just filter if the following requirement  has to be true or false.
+
+			If you see this:
+
+				to offer
+
+					or
+
+						has A
+
+						and
+
+							has B
+
+							has C
+
+					has D
+
+			It is just a chain of requirements. The first "or" says that one of the deeper "children" need to be true. So "A" or "and" (which has its own deeper "children", which have both to be true). The first "or" needs "A", or "B and C". In the first depths it is always an "and", though not written. Which means in any case "D" is needed.
+
+			Overall it means: you need "A" and "D", or you need "B" and "C" and "D".
+
+			
+
+			For detailed information, see the ES scripting wiki for mission creating on github.
+
+			[https://github.com/endless-sky/endless-sky/wiki/CreatingMissions]
+
+			
+
 			choice
 				`[back to "Races"]`
 					goto "start"
 			label "close"
-			`bye`
+			`I hope that helped!`
 	on daily
 		fail

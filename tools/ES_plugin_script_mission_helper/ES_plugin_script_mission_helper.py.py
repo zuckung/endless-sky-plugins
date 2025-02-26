@@ -8,7 +8,7 @@ def set_globals():
 	data_folder = '/storage/9C33-6BBD/endless sky/data/' # change to your folder
 
 
-def read_everything():
+def read_everything(): # reading the data folder
 	started = False
 	folders = os.listdir(data_folder)
 	folders.append('')
@@ -57,7 +57,7 @@ def read_everything():
 	print('\n\n')
 
 
-def list_missions():
+def list_missions(): # lists the mission names, paths and relevant script texts
 	missions, mission_texts, mission_paths = [], [], []
 	for name in obj_name:
 		if not name.startswith('mission '):
@@ -141,15 +141,14 @@ def list_missions():
 					source += line.replace('&#60;','<').replace('&#62;', '>') + '\n'
 					continue
 				else:
-					started4 = 0
-					
+					started4 = 0			
 		missions.append(name)
 		mission_texts.append(source)
 		mission_paths.append(path)
-	return missions, mission_texts,mission_paths
+	return missions, mission_texts, mission_paths
 
 
-def write_mission(missions, mission_texts, mission_paths):
+def write_mission(missions, mission_texts, mission_paths): # write all to a single mission
 	with open('mission.helper.txt', 'w') as target:
 		target.writelines('mission "mission.helper"\n')
 		target.writelines('\tjob\n')
@@ -271,33 +270,18 @@ def write_mission(missions, mission_texts, mission_paths):
 			target.writelines('\t\t\t\t\tgoto "' + category + '"\n')
 			target.writelines('\t\t\t\t`[back to "Races"]`\n')
 			target.writelines('\t\t\t\t\tgoto "start"\n')
-			
-			
+		# write the help text
 		target.writelines('\t\t\tlabel help\n')
-		target.writelines('\t\t\t`This is the help for reading the requirements to start a mission`\n')
-		target.writelines('\t\t\t``\n')
-		target.writelines('\t\t\t`The "source" block filters the planet where you can get the mission offered.`\n')
-		target.writelines('\t\t\t`It can be a planet name, or it can be near system name 2, which mean up to 2 jumps away from that system, or it can be a government or many governments, so it is on one of the planets of these governments, or it can have attributes, these are phrases planets have, only seen in the planet data files. There are some other rare cases, see ES scripting wiki on github.`\n')
-		target.writelines('\t\t\t``\n')
-		target.writelines('\t\t\t`The "to offer block is sometimes harder to read and gives a list of conditions for offering the mission."`\n')
-		target.writelines('\t\t\t`It can have missions, events, conditions, reptutation and other things as requirement for a mission to start. "has" and "not" just filter if the following condition has to be true or false.`\n')
-		target.writelines('\t\t\t`If you see this:`\n')
-		target.writelines('\t\t\t`\tto offer`\n')
-		target.writelines('\t\t\t`\t\tor`\n')
-		target.writelines('\t\t\t`\t\t\thas A`\n')
-		target.writelines('\t\t\t`\t\t\tand`\n')
-		target.writelines('\t\t\t`\t\t\t\thas B`\n')
-		target.writelines('\t\t\t`\t\t\t\thas C`\n')
-		target.writelines('\t\t\t`\t\thas D`\n')
-		target.writelines('\t\t\t`It is just a chain of requirements. The first "or" says that one of the deeper "children" need to be true. So "A" or "and" (which has its own deeper "children", which have both to be true). The first "or" needs "A" or "B and C". In the first depths it is always an "and", though not written. Which means in any case "D" is needed.`\n')
-		target.writelines('\t\t\t`Overall it means: you need "D" and "A" or you need "D" and "B" and "C". Check the ES wiki to learn more about the to offer block.`\n')
-		target.writelines('\t\t\t``\n')
+		with open('template.txt', 'r') as source:
+			lines = source.readlines()
+		for line in lines:
+			target.writelines('\t\t\t' + line + '\n')
 		target.writelines('\t\t\tchoice\n')
 		target.writelines('\t\t\t\t`[back to "Races"]`\n')
 		target.writelines('\t\t\t\t\tgoto "start"\n')
-		
+		# when all is done write the mission end
 		target.writelines('\t\t\tlabel "close"\n')
-		target.writelines('\t\t\t`bye`\n')
+		target.writelines('\t\t\t`I hope that helped!`\n')
 		target.writelines('\ton daily\n')
 		target.writelines('\t\tfail\n')
 		
