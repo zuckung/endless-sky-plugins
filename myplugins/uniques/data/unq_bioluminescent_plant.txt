@@ -128,7 +128,7 @@ mission "unq_bioluminescent_offspring_science01"
 		government "Free Worlds" "Republic" "Syndicate" "Independent"
 	destination "Geyser"
 	to offer
-		has "outfit (flagship installed): unq_bioluminescent_offspring" > 1
+		"outfit (flagship installed): unq_bioluminescent_offspring" > 1
 	on offer
 		conversation
 			`After landing you quickly get a job offer by a hotel which want to book a passage for a guest. You are offered to transport the renowned biochemist, Dr. Carl Neuberg, back to his laboratory on planet <destination> after attending a major conference in biochemistry. The payment will be 95,000 credits.`
@@ -176,7 +176,7 @@ mission "unq_bioluminescent_offspring_science03"
 	source "Geyser"
 	to offer
 		has "unq_bioluminescent_offspring_science02: done"
-		has "outfit (flagship installed): unq_bioluminescent_offspring" > 1
+		"outfit (flagship installed): unq_bioluminescent_offspring" > 1
 	on accept
 		outfit "unq_bioreactor" 1
 		outfit "unq_bioluminescent_offspring" -2

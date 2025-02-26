@@ -275,7 +275,7 @@ def write_mission(missions, mission_texts, mission_paths): # write all to a sing
 		with open('template.txt', 'r') as source:
 			lines = source.readlines()
 		for line in lines:
-			target.writelines('\t\t\t' + line + '\n')
+			target.writelines('\t\t\t`' + line.replace('\n', '') + '`\n')
 		target.writelines('\t\t\tchoice\n')
 		target.writelines('\t\t\t\t`[back to "Races"]`\n')
 		target.writelines('\t\t\t\t\tgoto "start"\n')
