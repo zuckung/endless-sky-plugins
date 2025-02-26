@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-23 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2025-02-26 | update: mission.helper<br>
+2025-02-23 | update: additional.command.buttons.radial<br>
 2025-02-20 | update: mission.helper<br>
 2025-02-17 | update: mission.helper<br>
 2025-02-14 | update: galactic.capital.investment<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-10 | update: more.boarding.missions<br>
 2025-02-10 | update: bunrodea.missions<br>
 2025-02-07 | update: jump.gates<br>
-2025-02-06 | update: avgi.licenses<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -2659,7 +2659,7 @@ initial release<br>
 
 <img src="myplugins/mission.helper/icon.png" height="100">
 
-[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-mission.helper/mission.helper.zip) | 93.37 kb | 2025-02-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) | <a href="res/imagemd/mission.helper.md">view images</a> [1]<br>
+[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-mission.helper/mission.helper.zip) | 93.63 kb | 2025-02-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) | <a href="res/imagemd/mission.helper.md">view images</a> [1]<br>
 <br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the "source" and "to offer" of these missions, so you can easily find them. See the README for details.
 
@@ -2682,6 +2682,14 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-02-26<br>
+
+updated with 0.10.12 data<br>
+
+improved help text<br>
 
 <br>
 
