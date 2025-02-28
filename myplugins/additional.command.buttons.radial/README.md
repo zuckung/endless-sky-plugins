@@ -19,6 +19,10 @@ This plugin<br>
 <br>
 Changelog:<br>
 <br>
+2025-02-28<br>
+moved the fleet box below the text box<br>
+adjusted onscreen joystick size<br>
+<br>
 2025-02-23<br>
 added new fleet jump button<br>
 moved targeting buttons to the lower right<br>

@@ -282,13 +282,13 @@ interface "hud"
 		from 208 286
 		align top left
 	
-	# Other HUD elements:
+	# Other HUD elements
 	box "escorts"
-		from 0 442 top left
-		to 160 0 bottom left
+		from 255 0 bottom left
+		to -380 -55 bottom right
 	box "messages"
-		from 180 0 bottom left
-		to -370 -200 bottom right
+		from 255 -55 bottom left
+		to -395 -200 bottom right
 	box "ammo"
 		from -110 450 top right
 		to 0 0 bottom right
@@ -296,4 +296,4 @@ interface "hud"
 	value "ammo icon width" 80
 	anchor top
 	point "mini-map"
-		center 0 100
+		center -30 130
