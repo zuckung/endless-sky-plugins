@@ -1,0 +1,2 @@
+name "highrollers.ltd"
+about "This plugin adds some casino space stations where you can gamble. See the README for details."

@@ -1,0 +1,1653 @@
+# mission "set gamble level"
+# mission "playblackjack" | 47% win +5% max skill
+# mission "playroulette"  | 48% win +5% max skill
+# mission "playbaccarat"  | 49% win +5% max skill
+# mission "playpoker"     | 50% win +5% max skill
+# mission "playcraps"     | 49% win +5% max skill
+# mission "playsicbo"     | 48% win +5% max skill
+
+
+mission "set gamble level"
+	landing
+	invisible
+	on offer
+		event "set casinos"
+		blackjackplayer = 1
+		rouletteplayer = 1
+		baccaratplayer = 1
+		pokerplayer = 1
+		crapsplayer = 1
+		sicboplayer = 1
+		fail
+
+
+mission "playblackjack"
+	name "Casino: Blackjack"
+	description "Play Blackjack at the casino."
+	job
+	repeat
+	source
+		government "Highrollers Ltd."
+	to offer
+		credits >= 1000
+	on accept
+		conversation
+			label start
+			action
+				temp = 0
+				rounds = 0
+				rolling = "roll: 5"
+				tired = "roll: 25"
+				oldcredits = credits
+
+			label definetablelimit
+			branch roll1
+				rolling == 0
+			branch roll1
+				rolling == 1
+			branch roll2
+				rolling == 2
+			branch roll3
+				rolling == 3
+			branch roll4
+				rolling == 4
+			label roll0
+			action
+				tablelimit = 1000
+			``
+				goto limit
+			label roll1
+			action
+				tablelimit = 5000
+			``
+				goto limit
+			label roll2
+			action
+				tablelimit = 10000
+			``
+				goto limit
+			label roll3
+			action
+				tablelimit = 50000
+			``
+				goto limit
+			label roll4
+			action
+				tablelimit = 100000
+			``
+				goto limit
+			
+			label limit
+			branch limitplayer
+				blackjackplayer >= 500
+			label "menu"
+			scene outfit/playblackjack
+			branch "forceexit"
+				rounds > 150 + tired
+			action
+				result = credits - oldcredits
+			`You have &[credits] credits cash. Table limit is &[tablelimit].`
+			`(Blackjack Skill: &[blackjackplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			``
+			choice
+				`	Bet 1,000 credits`
+					to display
+						credits >= 1000
+					goto bet1,000
+				`	Bet 5,000 credits`
+					to display
+						credits >= 5000
+						tablelimit >= 5000
+					goto bet5,000
+				`	Bet 10,000 credits`
+					to display
+						credits >= 10000
+						tablelimit >= 10000
+					goto bet10,000
+				`	Bet 50,000 credits`
+					to display
+						credits >= 50000
+						tablelimit >= 50000
+					goto bet50,000
+				`	Bet 100,000 credits`
+					to display
+						credits >= 100000
+						tablelimit >= 100000
+					goto bet100,000
+				`	leave the Blackjack table`
+					goto leave
+
+			label bet1,000
+			action
+				rounds += 1
+			branch "win1,000"
+				random >= 53 - blackjackplayer / 100
+			label "lost1,000"
+			action
+				payment -1000
+			`You have lost this round. -1,000 credits`
+				goto "menu"
+			label "win1,000"
+			branch skillup1,000
+				random < 10
+			action
+				payment 1000
+			`You have won this round. +1,000 credits`
+				goto "menu"
+			label skillup1,000
+			branch max1,000
+				blackjackplayer == 500
+			action
+				payment 1000
+				blackjackplayer += 1
+				temp += 1
+			`You have won this round. +1,000 credits & +1 skillpoint`
+				goto "menu"
+			label max1,000
+			action
+				payment 1000
+			`You've won this round. +1,000 credits`
+				goto "menu"
+
+			label bet5,000
+			action
+				rounds += 1
+			branch "win5,000"
+				random >= 53 - blackjackplayer / 100
+			label "lost5,000"
+			action
+				payment -5000
+			`You have lost this round. -5,000 credits`
+				goto "menu"
+			label "win5,000"
+			branch skillup5,000
+				random < 10
+			action
+				payment 5000
+			`You have won this round. +5,000 credits`
+				goto "menu"
+			label skillup5,000
+			branch max5,000
+				blackjackplayer == 500
+			action
+				payment 5000
+				blackjackplayer += 1
+				temp += 1
+			`You have won this round. +5,000 credits & +1 skillpoint`
+				goto "menu"
+			label max5,000
+			action
+				payment 5000
+			`You've won this round. +5,000 credits`
+				goto "menu"
+
+			label bet10,000
+			action
+				rounds += 1
+			branch "win10,000"
+				random >= 53 - blackjackplayer / 100
+			label "lost10,000"
+			action
+				payment -10000
+			`You have lost this round. -10,000 credits`
+				goto "menu"
+			label "win10,000"
+			branch skillup10,000
+				random < 10
+			action
+				payment 10000
+			`You have won this round. +10,000 credits`
+				goto "menu"
+			label skillup10,000
+			branch max10,000
+				blackjackplayer == 500
+			action
+				payment 10000
+				blackjackplayer += 1
+				temp += 1
+			`You have won this round. +10,000 credits & +1 skillpoint`
+				goto "menu"
+			label max10,000
+			action
+				payment 10000
+			`You've won this round. +10,000 credits`
+				goto "menu"
+
+			label bet50,000
+			action
+				rounds += 1
+			branch "win50,000"
+				random >= 53 - blackjackplayer / 100
+			label "lost50,000"
+			action
+				payment -50000
+			`You have lost this round. -50,000 credits`
+				goto "menu"
+			label "win50,000"
+			branch skillup50,000
+				random < 10
+			action
+				payment 50000
+			`You have won this round. +50,000 credits`
+				goto "menu"
+			label skillup50,000
+			branch max50,000
+				blackjackplayer == 500
+			action
+				payment 50000
+				blackjackplayer += 1
+				temp += 1
+			`You have won this round. +50,000 credits & +1 skillpoint`
+				goto "menu"
+			label max50,000
+			action
+				payment 50000
+			`You've won this round. +50,000 credits`
+				goto "menu"
+
+			label bet100,000
+			action
+				rounds += 1
+			branch "win100,000"
+				random >= 53 - blackjackplayer / 100
+			label "lost100,000"
+			action
+				payment -100000
+			`You have lost this round. -100,000 credits`
+				goto "menu"
+			label "win100,000"
+			branch skillup100,000
+				random < 10
+			action
+				payment 100000
+			`You have won this round. +100,000 credits`
+				goto "menu"
+			label skillup100,000
+			branch max100,000
+				blackjackplayer == 500
+			action
+				payment 100000
+				blackjackplayer += 1
+				temp += 1
+			`You have won this round. +100,000 credits & +1 skillpoint`
+				goto "menu"
+			label max100,000
+			action
+				payment 100000
+			`You've won this round. +100,000 credits`
+				goto "menu"
+
+			label limitplayer
+			action
+				blackjackplayer = 500
+			``
+				goto menu
+
+			label "forceexit"
+			`You are getting tired after gambling for hours.`
+			label leave
+			`(Blackjack Skill: &[blackjackplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			`You leave the Blackjack table.`
+
+	on daily
+		fail
+
+
+mission "playroulette"
+	name "Casino: Roulette"
+	description "Play Roulette at the casino."
+	job
+	repeat
+	source
+		government "Highrollers Ltd."
+	to offer
+		credits >= 1000
+	on accept
+		conversation
+			label start
+			action
+				temp = 0
+				rounds = 0
+				rolling = "roll: 5"
+				tired = "roll: 25"
+				oldcredits = credits
+
+			label definetablelimit
+			branch roll1
+				rolling == 0
+			branch roll1
+				rolling == 1
+			branch roll2
+				rolling == 2
+			branch roll3
+				rolling == 3
+			branch roll4
+				rolling == 4
+			label roll0
+			action
+				tablelimit = 1000
+			``
+				goto limit
+			label roll1
+			action
+				tablelimit = 5000
+			``
+				goto limit
+			label roll2
+			action
+				tablelimit = 10000
+			``
+				goto limit
+			label roll3
+			action
+				tablelimit = 50000
+			``
+				goto limit
+			label roll4
+			action
+				tablelimit = 100000
+			``
+				goto limit
+			
+			label limit
+			branch limitplayer
+				rouletteplayer >= 500
+			label "menu"
+			scene outfit/playroulette
+			branch "forceexit"
+				rounds > 150 + tired
+			action
+				result = credits - oldcredits
+			`You have &[credits] credits cash. Table limit is &[tablelimit].`
+			`(Roulette Skill: &[rouletteplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			``
+			choice
+				`	Bet 1,000 credits`
+					to display
+						credits >= 1000
+					goto bet1,000
+				`	Bet 5,000 credits`
+					to display
+						credits >= 5000
+						tablelimit >= 5000
+					goto bet5,000
+				`	Bet 10,000 credits`
+					to display
+						credits >= 10000
+						tablelimit >= 10000
+					goto bet10,000
+				`	Bet 50,000 credits`
+					to display
+						credits >= 50000
+						tablelimit >= 50000
+					goto bet50,000
+				`	Bet 100,000 credits`
+					to display
+						credits >= 100000
+						tablelimit >= 100000
+					goto bet100,000
+				`	Leave the Roulette table`
+					goto leave
+
+			label bet1,000
+			action
+				rounds += 1
+			branch "win1,000"
+				random >= 52 - rouletteplayer / 100
+			label "lost1,000"
+			action
+				payment -1000
+			`You have lost this round. -1,000 credits`
+				goto "menu"
+			label "win1,000"
+			branch skillup1,000
+				random < 10
+			action
+				payment 1000
+			`You have won this round. +1,000 credits`
+				goto "menu"
+			label skillup1,000
+			branch max1,000
+				rouletteplayer == 500
+			action
+				payment 1000
+				rouletteplayer += 1
+				temp += 1
+			`You have won this round. +1,000 credits & +1 skillpoint`
+				goto "menu"
+			label max1,000
+			action
+				payment 1000
+			`You've won this round. +1,000 credits`
+				goto "menu"
+
+			label bet5,000
+			action
+				rounds += 1
+			branch "win5,000"
+				random >= 52 - rouletteplayer / 100
+			label "lost5,000"
+			action
+				payment -5000
+			`You have lost this round. -5,000 credits`
+				goto "menu"
+			label "win5,000"
+			branch skillup5,000
+				random < 10
+			action
+				payment 5000
+			`You have won this round. +5,000 credits`
+				goto "menu"
+			label skillup5,000
+			branch max5,000
+				rouletteplayer == 500
+			action
+				payment 5000
+				rouletteplayer += 1
+				temp += 1
+			`You have won this round. +5,000 credits & +1 skillpoint`
+				goto "menu"
+			label max5,000
+			action
+				payment 5000
+			`You've won this round. +5,000 credits`
+				goto "menu"
+
+			label bet10,000
+			action
+				rounds += 1
+			branch "win10,000"
+				random >= 52 - rouletteplayer / 100
+			label "lost10,000"
+			action
+				payment -10000
+			`You have lost this round. -10,000 credits`
+				goto "menu"
+			label "win10,000"
+			branch skillup10,000
+				random < 10
+			action
+				payment 10000
+			`You have won this round. +10,000 credits`
+				goto "menu"
+			label skillup10,000
+			branch max10,000
+				rouletteplayer == 500
+			action
+				payment 10000
+				rouletteplayer += 1
+				temp += 1
+			`You have won this round. +10,000 credits & +1 skillpoint`
+				goto "menu"
+			label max10,000
+			action
+				payment 10000
+			`You've won this round. +10,000 credits`
+				goto "menu"
+
+			label bet50,000
+			action
+				rounds += 1
+			branch "win50,000"
+				random >= 52 - rouletteplayer / 100
+			label "lost50,000"
+			action
+				payment -50000
+			`You have lost this round. -50,000 credits`
+				goto "menu"
+			label "win50,000"
+			branch skillup50,000
+				random < 10
+			action
+				payment 50000
+			`You have won this round. +50,000 credits`
+				goto "menu"
+			label skillup50,000
+			branch max50,000
+				rouletteplayer == 500
+			action
+				payment 50000
+				rouletteplayer += 1
+				temp += 1
+			`You have won this round. +50,000 credits & +1 skillpoint`
+				goto "menu"
+			label max50,000
+			action
+				payment 50000
+			`You've won this round. +50,000 credits`
+				goto "menu"
+
+			label bet100,000
+			action
+				rounds += 1
+			branch "win100,000"
+				random >= 52 - rouletteplayer / 100
+			label "lost100,000"
+			action
+				payment -100000
+			`You have lost this round. -100,000 credits`
+				goto "menu"
+			label "win100,000"
+			branch skillup100,000
+				random < 10
+			action
+				payment 100000
+			`You have won this round. +100,000 credits`
+				goto "menu"
+			label skillup100,000
+			branch max100,000
+				rouletteplayer == 500
+			action
+				payment 100000
+				rouletteplayer += 1
+				temp += 1
+			`You have won this round. +100,000 credits & +1 skillpoint`
+				goto "menu"
+			label max100,000
+			action
+				payment 100000
+			`You've won this round. +100,000 credits`
+				goto "menu"
+
+			label limitplayer
+			action
+				rouletteplayer = 500
+			``
+				goto menu
+
+			label "forceexit"
+			`You are getting tired after gambling for hours.`
+			label leave
+			`(Roulette Skill: &[rouletteplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			`You leave the Roulette table.`
+
+	on daily
+		fail
+
+
+mission "playbaccarat"
+	name "Casino: Baccarat"
+	description "Play Baccarat at the casino."
+	job
+	repeat
+	source
+		government "Highrollers Ltd."
+	to offer
+		credits >= 1000
+	on accept
+		conversation
+			label start
+			action
+				temp = 0
+				rounds = 0
+				rolling = "roll: 5"
+				tired = "roll: 25"
+				oldcredits = credits
+
+			label definetablelimit
+			branch roll1
+				rolling == 0
+			branch roll1
+				rolling == 1
+			branch roll2
+				rolling == 2
+			branch roll3
+				rolling == 3
+			branch roll4
+				rolling == 4
+			label roll0
+			action
+				tablelimit = 1000
+			``
+				goto limit
+			label roll1
+			action
+				tablelimit = 5000
+			``
+				goto limit
+			label roll2
+			action
+				tablelimit = 10000
+			``
+				goto limit
+			label roll3
+			action
+				tablelimit = 50000
+			``
+				goto limit
+			label roll4
+			action
+				tablelimit = 100000
+			``
+				goto limit
+			
+			label limit
+			branch limitplayer
+				baccaratplayer >= 500
+			label "menu"
+			scene outfit/playbaccarat
+			branch "forceexit"
+				rounds > 150 + tired
+			action
+				result = credits - oldcredits
+			`You have &[credits] credits cash. Table limit is &[tablelimit].`
+			`(Baccarat Skill: &[baccaratplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			``
+			choice
+				`	Bet 1,000 credits`
+					to display
+						credits >= 1000
+					goto bet1,000
+				`	Bet 5,000 credits`
+					to display
+						credits >= 5000
+						tablelimit >= 5000
+					goto bet5,000
+				`	Bet 10,000 credits`
+					to display
+						credits >= 10000
+						tablelimit >= 10000
+					goto bet10,000
+				`	Bet 50,000 credits`
+					to display
+						credits >= 50000
+						tablelimit >= 50000
+					goto bet50,000
+				`	Bet 100,000 credits`
+					to display
+						credits >= 100000
+						tablelimit >= 100000
+					goto bet100,000
+				`	Leave the Baccarat table`
+					goto leave
+
+			label bet1,000
+			action
+				rounds += 1
+			branch "win1,000"
+				random >= 51 - baccaratplayer / 100
+			label "lost1,000"
+			action
+				payment -1000
+			`You have lost this round. -1,000 credits`
+				goto "menu"
+			label "win1,000"
+			branch skillup1,000
+				random < 10
+			action
+				payment 1000
+			`You have won this round. +1,000 credits`
+				goto "menu"
+			label skillup1,000
+			branch max1,000
+				baccaratplayer == 500
+			action
+				payment 1000
+				baccaratplayer += 1
+				temp += 1
+			`You have won this round. +1,000 credits & +1 skillpoint`
+				goto "menu"
+			label max1,000
+			action
+				payment 1000
+			`You've won this round. +1,000 credits`
+				goto "menu"
+
+			label bet5,000
+			action
+				rounds += 1
+			branch "win5,000"
+				random >= 51 - baccaratplayer / 100
+			label "lost5,000"
+			action
+				payment -5000
+			`You have lost this round. -5,000 credits`
+				goto "menu"
+			label "win5,000"
+			branch skillup5,000
+				random < 10
+			action
+				payment 5000
+			`You have won this round. +5,000 credits`
+				goto "menu"
+			label skillup5,000
+			branch max5,000
+				baccaratplayer == 500
+			action
+				payment 5000
+				baccaratplayer += 1
+				temp += 1
+			`You have won this round. +5,000 credits & +1 skillpoint`
+				goto "menu"
+			label max5,000
+			action
+				payment 5000
+			`You've won this round. +5,000 credits`
+				goto "menu"
+
+			label bet10,000
+			action
+				rounds += 1
+			branch "win10,000"
+				random >= 51 - baccaratplayer / 100
+			label "lost10,000"
+			action
+				payment -10000
+			`You have lost this round. -10,000 credits`
+				goto "menu"
+			label "win10,000"
+			branch skillup10,000
+				random < 10
+			action
+				payment 10000
+			`You have won this round. +10,000 credits`
+				goto "menu"
+			label skillup10,000
+			branch max10,000
+				baccaratplayer == 500
+			action
+				payment 10000
+				baccaratplayer += 1
+				temp += 1
+			`You have won this round. +10,000 credits & +1 skillpoint`
+				goto "menu"
+			label max10,000
+			action
+				payment 10000
+			`You've won this round. +10,000 credits`
+				goto "menu"
+
+			label bet50,000
+			action
+				rounds += 1
+			branch "win50,000"
+				random >= 51 - baccaratplayer / 100
+			label "lost50,000"
+			action
+				payment -50000
+			`You have lost this round. -50,000 credits`
+				goto "menu"
+			label "win50,000"
+			branch skillup50,000
+				random < 10
+			action
+				payment 50000
+			`You have won this round. +50,000 credits`
+				goto "menu"
+			label skillup50,000
+			branch max50,000
+				baccaratplayer == 500
+			action
+				payment 50000
+				baccaratplayer += 1
+				temp += 1
+			`You have won this round. +50,000 credits & +1 skillpoint`
+				goto "menu"
+			label max50,000
+			action
+				payment 50000
+			`You've won this round. +50,000 credits`
+				goto "menu"
+
+			label bet100,000
+			action
+				rounds += 1
+			branch "win100,000"
+				random >= 51 - baccaratplayer / 100
+			label "lost100,000"
+			action
+				payment -100000
+			`You have lost this round. -100,000 credits`
+				goto "menu"
+			label "win100,000"
+			branch skillup100,000
+				random < 10
+			action
+				payment 100000
+			`You have won this round. +100,000 credits`
+				goto "menu"
+			label skillup100,000
+			branch max100,000
+				baccaratplayer == 500
+			action
+				payment 100000
+				baccaratplayer += 1
+				temp += 1
+			`You have won this round. +100,000 credits & +1 skillpoint`
+				goto "menu"
+			label max100,000
+			action
+				payment 100000
+			`You've won this round. +100,000 credits`
+				goto "menu"
+
+			label limitplayer
+			action
+				baccaratplayer = 500
+			``
+				goto menu
+
+			label "forceexit"
+			`You are getting tired after gambling for hours.`
+			label leave
+			`(Baccarat Skill: &[baccaratplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			`You leave the Baccarat table.`
+
+	on daily
+		fail
+
+
+mission "playpoker"
+	name "Casino: Poker"
+	description "Play Poker at the casino."
+	job
+	repeat
+	source
+		government "Highrollers Ltd."
+	to offer
+		credits >= 1000
+	on accept
+		conversation
+			label start
+			action
+				temp = 0
+				rounds = 0
+				rolling = "roll: 5"
+				tired = "roll: 25"
+				oldcredits = credits
+
+			label definetablelimit
+			branch roll1
+				rolling == 0
+			branch roll1
+				rolling == 1
+			branch roll2
+				rolling == 2
+			branch roll3
+				rolling == 3
+			branch roll4
+				rolling == 4
+			label roll0
+			action
+				tablelimit = 1000
+			``
+				goto limit
+			label roll1
+			action
+				tablelimit = 5000
+			``
+				goto limit
+			label roll2
+			action
+				tablelimit = 10000
+			``
+				goto limit
+			label roll3
+			action
+				tablelimit = 50000
+			``
+				goto limit
+			label roll4
+			action
+				tablelimit = 100000
+			``
+				goto limit
+			
+			label limit
+			branch limitplayer
+				pokerplayer >= 500
+			label "menu"
+			scene outfit/playpoker
+			branch "forceexit"
+				rounds > 150 + tired
+			action
+				result = credits - oldcredits
+			`You have &[credits] credits cash. Table limit is &[tablelimit].`
+			`(Poker Skill: &[pokerplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			``
+			choice
+				`	Bet 1,000 credits`
+					to display
+						credits >= 1000
+					goto bet1,000
+				`	Bet 5,000 credits`
+					to display
+						credits >= 5000
+						tablelimit >= 5000
+					goto bet5,000
+				`	Bet 10,000 credits`
+					to display
+						credits >= 10000
+						tablelimit >= 10000
+					goto bet10,000
+				`	Bet 50,000 credits`
+					to display
+						credits >= 50000
+						tablelimit >= 50000
+					goto bet50,000
+				`	Bet 100,000 credits`
+					to display
+						credits >= 100000
+						tablelimit >= 100000
+					goto bet100,000
+				`	Leave the Poker table`
+					goto leave
+
+			label bet1,000
+			action
+				rounds += 1
+			branch "win1,000"
+				random >= 50 - pokerplayer / 100
+			label "lost1,000"
+			action
+				payment -1000
+			`You have lost this round. -1,000 credits`
+				goto "menu"
+			label "win1,000"
+			branch skillup1,000
+				random < 10
+			action
+				payment 1000
+			`You have won this round. +1,000 credits`
+				goto "menu"
+			label skillup1,000
+			branch max1,000
+				pokerplayer == 500
+			action
+				payment 1000
+				pokerplayer += 1
+				temp += 1
+			`You have won this round. +1,000 credits & +1 skillpoint`
+				goto "menu"
+			label max1,000
+			action
+				payment 1000
+			`You've won this round. +1,000 credits`
+				goto "menu"
+
+			label bet5,000
+			action
+				rounds += 1
+			branch "win5,000"
+				random >= 50 - pokerplayer / 100
+			label "lost5,000"
+			action
+				payment -5000
+			`You have lost this round. -5,000 credits`
+				goto "menu"
+			label "win5,000"
+			branch skillup5,000
+				random < 10
+			action
+				payment 5000
+			`You have won this round. +5,000 credits`
+				goto "menu"
+			label skillup5,000
+			branch max5,000
+				pokerplayer == 500
+			action
+				payment 5000
+				pokerplayer += 1
+				temp += 1
+			`You have won this round. +5,000 credits & +1 skillpoint`
+				goto "menu"
+			label max5,000
+			action
+				payment 5000
+			`You've won this round. +5,000 credits`
+				goto "menu"
+
+			label bet10,000
+			action
+				rounds += 1
+			branch "win10,000"
+				random >= 50 - pokerplayer / 100
+			label "lost10,000"
+			action
+				payment -10000
+			`You have lost this round. -10,000 credits`
+				goto "menu"
+			label "win10,000"
+			branch skillup10,000
+				random < 10
+			action
+				payment 10000
+			`You have won this round. +10,000 credits`
+				goto "menu"
+			label skillup10,000
+			branch max10,000
+				pokerplayer == 500
+			action
+				payment 10000
+				pokerplayer += 1
+				temp += 1
+			`You have won this round. +10,000 credits & +1 skillpoint`
+				goto "menu"
+			label max10,000
+			action
+				payment 10000
+			`You've won this round. +10,000 credits`
+				goto "menu"
+
+			label bet50,000
+			action
+				rounds += 1
+			branch "win50,000"
+				random >= 50 - pokerplayer / 100
+			label "lost50,000"
+			action
+				payment -50000
+			`You have lost this round. -50,000 credits`
+				goto "menu"
+			label "win50,000"
+			branch skillup50,000
+				random < 10
+			action
+				payment 50000
+			`You have won this round. +50,000 credits`
+				goto "menu"
+			label skillup50,000
+			branch max50,000
+				pokerplayer == 500
+			action
+				payment 50000
+				pokerplayer += 1
+				temp += 1
+			`You have won this round. +50,000 credits & +1 skillpoint`
+				goto "menu"
+			label max50,000
+			action
+				payment 50000
+			`You've won this round. +50,000 credits`
+				goto "menu"
+
+			label bet100,000
+			action
+				rounds += 1
+			branch "win100,000"
+				random >= 50 - pokerplayer / 100
+			label "lost100,000"
+			action
+				payment -100000
+			`You have lost this round. -100,000 credits`
+				goto "menu"
+			label "win100,000"
+			branch skillup100,000
+				random < 10
+			action
+				payment 100000
+			`You have won this round. +100,000 credits`
+				goto "menu"
+			label skillup100,000
+			branch max100,000
+				pokerplayer == 500
+			action
+				payment 100000
+				pokerplayer += 1
+				temp += 1
+			`You have won this round. +100,000 credits & +1 skillpoint`
+				goto "menu"
+			label max100,000
+			action
+				payment 100000
+			`You've won this round. +100,000 credits`
+				goto "menu"
+
+			label limitplayer
+			action
+				pokerplayer = 500
+			``
+				goto menu
+
+			label "forceexit"
+			`You are getting tired after gambling for hours.`
+			label leave
+			`(Poker Skill: &[pokerplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			`You leave the Poker table.`
+
+	on daily
+		fail
+
+
+mission "playcraps"
+	name "Casino: Craps"
+	description "Play Craps at the casino."
+	job
+	repeat
+	source
+		government "Highrollers Ltd."
+	to offer
+		credits >= 1000
+	on accept
+		conversation
+			label start
+			action
+				temp = 0
+				rounds = 0
+				rolling = "roll: 5"
+				tired = "roll: 25"
+				oldcredits = credits
+
+			label definetablelimit
+			branch roll1
+				rolling == 0
+			branch roll1
+				rolling == 1
+			branch roll2
+				rolling == 2
+			branch roll3
+				rolling == 3
+			branch roll4
+				rolling == 4
+			label roll0
+			action
+				tablelimit = 1000
+			``
+				goto limit
+			label roll1
+			action
+				tablelimit = 5000
+			``
+				goto limit
+			label roll2
+			action
+				tablelimit = 10000
+			``
+				goto limit
+			label roll3
+			action
+				tablelimit = 50000
+			``
+				goto limit
+			label roll4
+			action
+				tablelimit = 100000
+			``
+				goto limit
+			
+			label limit
+			branch limitplayer
+				crapsplayer >= 500
+			label "menu"
+			scene outfit/playcraps
+			branch "forceexit"
+				rounds > 150 + tired
+			action
+				result = credits - oldcredits
+			`You have &[credits] credits cash. Table limit is &[tablelimit].`
+			`(Craps Skill: &[crapsplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			``
+			choice
+				`	Bet 1,000 credits`
+					to display
+						credits >= 1000
+					goto bet1,000
+				`	Bet 5,000 credits`
+					to display
+						credits >= 5000
+						tablelimit >= 5000
+					goto bet5,000
+				`	Bet 10,000 credits`
+					to display
+						credits >= 10000
+						tablelimit >= 10000
+					goto bet10,000
+				`	Bet 50,000 credits`
+					to display
+						credits >= 50000
+						tablelimit >= 50000
+					goto bet50,000
+				`	Bet 100,000 credits`
+					to display
+						credits >= 100000
+						tablelimit >= 100000
+					goto bet100,000
+				`	Leave the Craps table`
+					goto leave
+
+			label bet1,000
+			action
+				rounds += 1
+			branch "win1,000"
+				random >= 51 - crapsplayer / 100
+			label "lost1,000"
+			action
+				payment -1000
+			`You have lost this round. -1,000 credits`
+				goto "menu"
+			label "win1,000"
+			branch skillup1,000
+				random < 10
+			action
+				payment 1000
+			`You have won this round. +1,000 credits`
+				goto "menu"
+			label skillup1,000
+			branch max1,000
+				crapsplayer == 500
+			action
+				payment 1000
+				crapsplayer += 1
+				temp += 1
+			`You have won this round. +1,000 credits & +1 skillpoint`
+				goto "menu"
+			label max1,000
+			action
+				payment 1000
+			`You've won this round. +1,000 credits`
+				goto "menu"
+
+			label bet5,000
+			action
+				rounds += 1
+			branch "win5,000"
+				random >= 51 - crapsplayer / 100
+			label "lost5,000"
+			action
+				payment -5000
+			`You have lost this round. -5,000 credits`
+				goto "menu"
+			label "win5,000"
+			branch skillup5,000
+				random < 10
+			action
+				payment 5000
+			`You have won this round. +5,000 credits`
+				goto "menu"
+			label skillup5,000
+			branch max5,000
+				crapsplayer == 500
+			action
+				payment 5000
+				crapsplayer += 1
+				temp += 1
+			`You have won this round. +5,000 credits & +1 skillpoint`
+				goto "menu"
+			label max5,000
+			action
+				payment 5000
+			`You've won this round. +5,000 credits`
+				goto "menu"
+
+			label bet10,000
+			action
+				rounds += 1
+			branch "win10,000"
+				random >= 51 - crapsplayer / 100
+			label "lost10,000"
+			action
+				payment -10000
+			`You have lost this round. -10,000 credits`
+				goto "menu"
+			label "win10,000"
+			branch skillup10,000
+				random < 10
+			action
+				payment 10000
+			`You have won this round. +10,000 credits`
+				goto "menu"
+			label skillup10,000
+			branch max10,000
+				crapsplayer == 500
+			action
+				payment 10000
+				crapsplayer += 1
+				temp += 1
+			`You have won this round. +10,000 credits & +1 skillpoint`
+				goto "menu"
+			label max10,000
+			action
+				payment 10000
+			`You've won this round. +10,000 credits`
+				goto "menu"
+
+			label bet50,000
+			action
+				rounds += 1
+			branch "win50,000"
+				random >= 51 - crapsplayer / 100
+			label "lost50,000"
+			action
+				payment -50000
+			`You have lost this round. -50,000 credits`
+				goto "menu"
+			label "win50,000"
+			branch skillup50,000
+				random < 10
+			action
+				payment 50000
+			`You have won this round. +50,000 credits`
+				goto "menu"
+			label skillup50,000
+			branch max50,000
+				crapsplayer == 500
+			action
+				payment 50000
+				crapsplayer += 1
+				temp += 1
+			`You have won this round. +50,000 credits & +1 skillpoint`
+				goto "menu"
+			label max50,000
+			action
+				payment 50000
+			`You've won this round. +50,000 credits`
+				goto "menu"
+
+			label bet100,000
+			action
+				rounds += 1
+			branch "win100,000"
+				random >= 51 - crapsplayer / 100
+			label "lost100,000"
+			action
+				payment -100000
+			`You have lost this round. -100,000 credits`
+				goto "menu"
+			label "win100,000"
+			branch skillup100,000
+				random < 10
+			action
+				payment 100000
+			`You have won this round. +100,000 credits`
+				goto "menu"
+			label skillup100,000
+			branch max100,000
+				crapsplayer == 500
+			action
+				payment 100000
+				crapsplayer += 1
+				temp += 1
+			`You have won this round. +100,000 credits & +1 skillpoint`
+				goto "menu"
+			label max100,000
+			action
+				payment 100000
+			`You've won this round. +100,000 credits`
+				goto "menu"
+
+			label limitplayer
+			action
+				crapsplayer = 500
+			``
+				goto menu
+
+			label "forceexit"
+			`You are getting tired after gambling for hours.`
+			label leave
+			`(Craps Skill: &[crapsplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			`You leave the Craps table.`
+
+	on daily
+		fail
+
+
+mission "playsicbo"
+	name "Casino: Sic Bo"
+	description "Play Sic Bo at the casino."
+	job
+	repeat
+	source
+		government "Highrollers Ltd."
+	to offer
+		credits >= 1000
+	on accept
+		conversation
+			label start
+			action
+				temp = 0
+				rounds = 0
+				rolling = "roll: 5"
+				tired = "roll: 25"
+				oldcredits = credits
+
+			label definetablelimit
+			branch roll1
+				rolling == 0
+			branch roll1
+				rolling == 1
+			branch roll2
+				rolling == 2
+			branch roll3
+				rolling == 3
+			branch roll4
+				rolling == 4
+			label roll0
+			action
+				tablelimit = 1000
+			``
+				goto limit
+			label roll1
+			action
+				tablelimit = 5000
+			``
+				goto limit
+			label roll2
+			action
+				tablelimit = 10000
+			``
+				goto limit
+			label roll3
+			action
+				tablelimit = 50000
+			``
+				goto limit
+			label roll4
+			action
+				tablelimit = 100000
+			``
+				goto limit
+			
+			label limit
+			branch limitplayer
+				sicboplayer >= 500
+			label "menu"
+			scene outfit/playsicbo
+			branch "forceexit"
+				rounds > 150 + tired
+			action
+				result = credits - oldcredits
+			`You have &[credits] credits cash. Table limit is &[tablelimit].`
+			`(Sic Bo Skill: &[sicboplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			``
+			choice
+				`	Bet 1,000 credits`
+					to display
+						credits >= 1000
+					goto bet1,000
+				`	Bet 5,000 credits`
+					to display
+						credits >= 5000
+						tablelimit >= 5000
+					goto bet5,000
+				`	Bet 10,000 credits`
+					to display
+						credits >= 10000
+						tablelimit >= 10000
+					goto bet10,000
+				`	Bet 50,000 credits`
+					to display
+						credits >= 50000
+						tablelimit >= 50000
+					goto bet50,000
+				`	Bet 100,000 credits`
+					to display
+						credits >= 100000
+						tablelimit >= 100000
+					goto bet100,000
+				`	Leave the Sic Bo table`
+					goto leave
+
+			label bet1,000
+			action
+				rounds += 1
+			branch "win1,000"
+				random >= 52 - sicboplayer / 100
+			label "lost1,000"
+			action
+				payment -1000
+			`You have lost this round. -1,000 credits`
+				goto "menu"
+			label "win1,000"
+			branch skillup1,000
+				random < 10
+			action
+				payment 1000
+			`You have won this round. +1,000 credits`
+				goto "menu"
+			label skillup1,000
+			branch max1,000
+				sicboplayer == 500
+			action
+				payment 1000
+				sicboplayer += 1
+				temp += 1
+			`You have won this round. +1,000 credits & +1 skillpoint`
+				goto "menu"
+			label max1,000
+			action
+				payment 1000
+			`You've won this round. +1,000 credits`
+				goto "menu"
+
+			label bet5,000
+			action
+				rounds += 1
+			branch "win5,000"
+				random >= 52 - sicboplayer / 100
+			label "lost5,000"
+			action
+				payment -5000
+			`You have lost this round. -5,000 credits`
+				goto "menu"
+			label "win5,000"
+			branch skillup5,000
+				random < 10
+			action
+				payment 5000
+			`You have won this round. +5,000 credits`
+				goto "menu"
+			label skillup5,000
+			branch max5,000
+				sicboplayer == 500
+			action
+				payment 5000
+				sicboplayer += 1
+				temp += 1
+			`You have won this round. +5,000 credits & +1 skillpoint`
+				goto "menu"
+			label max5,000
+			action
+				payment 5000
+			`You've won this round. +5,000 credits`
+				goto "menu"
+
+			label bet10,000
+			action
+				rounds += 1
+			branch "win10,000"
+				random >= 52 - sicboplayer / 100
+			label "lost10,000"
+			action
+				payment -10000
+			`You have lost this round. -10,000 credits`
+				goto "menu"
+			label "win10,000"
+			branch skillup10,000
+				random < 10
+			action
+				payment 10000
+			`You have won this round. +10,000 credits`
+				goto "menu"
+			label skillup10,000
+			branch max10,000
+				sicboplayer == 500
+			action
+				payment 10000
+				sicboplayer += 1
+				temp += 1
+			`You have won this round. +10,000 credits & +1 skillpoint`
+				goto "menu"
+			label max10,000
+			action
+				payment 10000
+			`You've won this round. +10,000 credits`
+				goto "menu"
+
+			label bet50,000
+			action
+				rounds += 1
+			branch "win50,000"
+				random >= 52 - sicboplayer / 100
+			label "lost50,000"
+			action
+				payment -50000
+			`You have lost this round. -50,000 credits`
+				goto "menu"
+			label "win50,000"
+			branch skillup50,000
+				random < 10
+			action
+				payment 50000
+			`You have won this round. +50,000 credits`
+				goto "menu"
+			label skillup50,000
+			branch max50,000
+				sicboplayer == 500
+			action
+				payment 50000
+				sicboplayer += 1
+				temp += 1
+			`You have won this round. +50,000 credits & +1 skillpoint`
+				goto "menu"
+			label max50,000
+			action
+				payment 50000
+			`You've won this round. +50,000 credits`
+				goto "menu"
+
+			label bet100,000
+			action
+				rounds += 1
+			branch "win100,000"
+				random >= 52 - sicboplayer / 100
+			label "lost100,000"
+			action
+				payment -100000
+			`You have lost this round. -100,000 credits`
+				goto "menu"
+			label "win100,000"
+			branch skillup100,000
+				random < 10
+			action
+				payment 100000
+			`You have won this round. +100,000 credits`
+				goto "menu"
+			label skillup100,000
+			branch max100,000
+				sicboplayer == 500
+			action
+				payment 100000
+				sicboplayer += 1
+				temp += 1
+			`You have won this round. +100,000 credits & +1 skillpoint`
+				goto "menu"
+			label max100,000
+			action
+				payment 100000
+			`You've won this round. +100,000 credits`
+				goto "menu"
+
+			label limitplayer
+			action
+				sicboplayer = 500
+			``
+				goto menu
+
+			label "forceexit"
+			`You are getting tired after gambling for hours.`
+			label leave
+			`(Sic Bo Skill: &[sicboplayer]/500 | Today's Skillups &[temp] | Balance: &[result] | Rounds: &[rounds])`
+			`You leave the Sic Bo table.`
+
+	on daily
+		fail

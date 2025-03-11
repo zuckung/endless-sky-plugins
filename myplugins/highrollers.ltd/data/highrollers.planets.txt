@@ -1,0 +1,124 @@
+# government "Highrollers Ltd."
+# system "Ruchbah"
+# system "Tarazed"
+# system "Rutilicus"
+# system "Epsilon Leonis"
+# planet "Spades Casino"
+# planet "Clubs Casino"
+# planet "Diamonds Casino"
+# planet "Hearts Casino"
+
+
+
+government "Highrollers Ltd."
+	swizzle 4
+	color 0 .8 .6
+	"player reputation" 1000
+
+
+system "Ruchbah"
+	add object
+		sprite planet/cloud3
+		distance 299.25
+		period 40.9252
+		offset 180
+		object "Clubs Casino"
+			sprite planet/station8
+				scale 0.5
+			distance 140
+			period 1
+			offset 0
+
+
+system "Tarazed"
+	add object
+		sprite planet/cloud8
+		distance 557.45
+		period 151.036
+		offset 180
+		object "Diamonds Casino"
+			sprite planet/station8
+				scale 0.5
+			distance 140
+			period 1
+			offset 0
+
+
+system "Rutilicus"
+	add object
+		sprite planet/cloud6
+		distance 513.86
+		period 186.374
+		offset 180
+		object "Hearts Casino"
+			sprite planet/station8
+				scale 0.5
+			distance 140
+			period 1
+			offset 0
+
+
+system "Epsilon Leonis"
+	add object 
+		sprite planet/cloud7
+		distance 1027.21
+		period 345.831
+		offset 180
+		object "Spades Casino"
+			sprite planet/station8
+				scale 0.5
+			distance 140
+			period 1
+			offset 0
+
+
+planet "Spades Casino"
+	attributes casino
+	landscape land/highrollers
+	government "Highrollers Ltd."
+	description `Hidden within the dense asteroid fields of Epsilon Leonis, Spades Casino is the most exclusive and secretive of Highrollers Ltd.'s establishments. Established in 3005, it operates strictly by invitation, hosting high-stakes games where fortunes and even entire starships are won and lost in a single night. The casino's interior combines industrial minimalism with high-tech opulence, featuring cybernetic dealers, predictive AI betting systems, and private chambers where off-record deals are struck. Security is unparalleled, with biometric access, AI surveillance, and automated defense drones patrolling the station's perimeter. Those who gain entry to Spades Casino either emerge wealthier than ever or vanish into obscurity.`
+	spaceport `Hidden within the dense asteroid fields of Epsilon Leonis, Spades Casino is the most exclusive and secretive of Highrollers Ltd.'s establishments. Established in 3005, it operates strictly by invitation, hosting high-stakes games where fortunes and even entire starships are won and lost in a single night. The casino's interior combines industrial minimalism with high-tech opulence, featuring cybernetic dealers, predictive AI betting systems, and private chambers where off-record deals are struck. Security is unparalleled, with biometric access, AI surveillance, and automated defense drones patrolling the station's perimeter. Those who gain entry to Spades Casino either emerge wealthier than ever or vanish into obscurity.`
+	bribe 0.03
+	security 0.3
+	tribute 2500
+		threshold 20000
+		fleet "Small Republic" 12
+
+
+planet "Clubs Casino"
+	attributes casino
+	landscape land/highrollers
+	government "Highrollers Ltd."
+	description `The Clubs Casino, the oldest of Higrtollers Ltd.'s luxury gambling stations, orbits Ruchbah II, a cloud planet known for its rich helium-3 deposits. Originally constructed in 2895 as a corporate retreat, it evolved into a high-end casino catering to industrial moguls and deep-space miners. The station's dark, polished interiors exude an old-world charm, featuring mahogany-inspired synthwood, antique gaming tables, and a vast vault storing priceless gambling chips. Its zero-gravity baccarat room is a major attraction, and its VIP section is rumored to host secret negotiations between major trade syndicates. Despite attempts to modernize, Clubs Casino maintains a traditional atmosphere, drawing those who appreciate history with their wagers.`
+	spaceport `The Clubs Casino, the oldest of Higrtollers Ltd.'s luxury gambling stations, orbits Ruchbah II, a cloud planet known for its rich helium-3 deposits. Originally constructed in 2895 as a corporate retreat, it evolved into a high-end casino catering to industrial moguls and deep-space miners. The station's dark, polished interiors exude an old-world charm, featuring mahogany-inspired synthwood, antique gaming tables, and a vast vault storing priceless gambling chips. Its zero-gravity baccarat room is a major attraction, and its VIP section is rumored to host secret negotiations between major trade syndicates. Despite attempts to modernize, Clubs Casino maintains a traditional atmosphere, drawing those who appreciate history with their wagers.`
+	bribe 0.03
+	security 0.3
+	tribute 2100
+		threshold 20000
+		fleet "Small Republic" 12
+
+
+planet "Diamonds Casino"
+	attributes casino
+	landscape land/highrollers
+	government "Highrollers Ltd."
+	description `Highrollers Ltd. acquired the legendary Diamonds Casino in 2972 and restored it to its former glory, solidifying its status as the most prestigious casino in the sector. Located in high orbit over Tarazed II, the station boasts ultra-modern luxury suites, a gravity-flexible gaming floor, and high-stakes tournaments that attract the wealthiest players in the human space. The casino's famed Infinity Lounge, a transparent observation deck overlooking the Tarazed nebula, is reserved for only the highest rollers. Behind the glitz, rumors persist of Hightollers Ltd.'s dealings with rogue traders and covert political players, making Diamonds Casino both a financial powerhouse and a nexus of interstellar intrigue.`
+	spaceport `Highrollers Ltd. acquired the legendary Diamonds Casino in 2972 and restored it to its former glory, solidifying its status as the most prestigious casino in the sector. Located in high orbit over Tarazed II, the station boasts ultra-modern luxury suites, a gravity-flexible gaming floor, and high-stakes tournaments that attract the wealthiest players in the human space. The casino's famed Infinity Lounge, a transparent observation deck overlooking the Tarazed nebula, is reserved for only the highest rollers. Behind the glitz, rumors persist of Hightollers Ltd.'s dealings with rogue traders and covert political players, making Diamonds Casino both a financial powerhouse and a nexus of interstellar intrigue.`
+	bribe 0.03
+	security 0.3
+	tribute 2400
+		threshold 20000
+		fleet "Small Republic" 12
+
+
+planet "Hearts Casino"
+	attributes casino
+	landscape land/highrollers
+	government "Highrollers Ltd."
+	description `Designed for those seeking indulgence beyond gambling, Hearts Casino in the Rutilicus system is renowned for its extravagant entertainment and luxury accommodations. The station orbits Rutilicus III, a cloudy ocean world, and features an artificial beach deck with simulated waves, climate-controlled relaxation domes, and fully immersive virtual reality gambling halls. Established in 2988, the casino attracts corporate elites, celebrity gamblers, and thrill-seekers eager to experience its unique Liquid Luck Arena, where molecular-level probability manipulation subtly shifts the odds. Highrollers Ltd. maintains tight security, as the station's reputation has drawn hackers and tech-savvy gamblers attempting to exploit the system.`
+	spaceport `Designed for those seeking indulgence beyond gambling, Hearts Casino in the Rutilicus system is renowned for its extravagant entertainment and luxury accommodations. The station orbits Rutilicus III, a cloudy ocean world, and features an artificial beach deck with simulated waves, climate-controlled relaxation domes, and fully immersive virtual reality gambling halls. Established in 2988, the casino attracts corporate elites, celebrity gamblers, and thrill-seekers eager to experience its unique Liquid Luck Arena, where molecular-level probability manipulation subtly shifts the odds. Highrollers Ltd. maintains tight security, as the station's reputation has drawn hackers and tech-savvy gamblers attempting to exploit the system.`
+	bribe 0.03
+	security 0.3
+	tribute 2200
+		threshold 20000
+		fleet "Small Republic" 12
