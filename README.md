@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-03-11 | update: gegno.pirates<br>
+<table><tr><td><img width="882" height="1"><br>2025-03-11 | update: highrollers.ltd<br>
+2025-03-11 | update: gegno.pirates<br>
 2025-02-28 | update: additional.command.buttons.radial<br>
 2025-02-26 | update: mission.helper<br>
 2025-02-23 | update: additional.command.buttons.radial<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-14 | update: galactic.capital.investment<br>
 2025-02-13 | update: human.labels<br>
 2025-02-13 | update: bunrodea.missions<br>
-2025-02-10 | update: more.boarding.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -52,6 +52,7 @@ I've got another new project, a github repository that lets you online generate 
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
+<a href="README.md#highrollersltd">highrollers.ltd</a><br>
 <a href="README.md#humanlabels">human.labels</a><br>
 <a href="README.md#jumpgates">jump.gates</a><br>
 <a href="README.md#kestrelunlocks">kestrel.unlocks</a><br>
@@ -2000,6 +2001,60 @@ initial release<br>
 
 </blockquote>
 </details>
+
+<br>
+
+
+---
+
+### highrollers.ltd
+
+<img src="myplugins/highrollers.ltd/icon.png" height="100">
+
+[highrollers.ltd.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-highrollers.ltd/highrollers.ltd.zip) | 1.02 mb | 2025-03-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/highrollers.ltd/) | <a href="res/imagemd/highrollers.ltd.md">view images</a> [14]<br>
+<br>
+>This plugin adds some casino space stations where you can gamble. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### highrollers.ltd
+
+<br>
+
+<br>
+
+This plugin adds some casino space stations where you can gamble.<br>
+
+<br>
+
+Adds casino space stations to Ruchbah, Tarazed, Rutilicus, and Epsilon Leonis. On each station's job board you can start six luck based games (Baccarat, Blackjack, Poker, Roulette, Craps, and Sic Bo).<br>
+
+Every won round has a chance of increasing your skill for this special game. The skill levels go up to 500 which means you have a 5% higher chance of winning a round on max level. The games have different start winning chances from 47% to 50%.  I.e. with max poker skill, you have 55% chance to win a poker round. The table limits range from 5,000 to 100,000 credits and are randomized. After around 160 played rounds you get tired and the games ends (for this day).<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2025-03-11<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/highrollers.ltd01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
 
 <br>
 
