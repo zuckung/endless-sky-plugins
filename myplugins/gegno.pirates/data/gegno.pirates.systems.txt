@@ -1,6 +1,5 @@
-# new hidden gegno system "Uuba", new pirate system "Zaron"
-# new hyperlanes from Huud, Cotpoxi and Vesvii to Zaron
-# new pirate fleets to Huud, Cotpoxi, Vesvii, Fscher, Anbrim, Yerser, Vilacira, Mnashyu, Jyelio, Ilirco, Evrae, Eebu, Wreoul, Empeles
+# system Uuba
+# system Zaron
 
 
 
@@ -38,7 +37,9 @@ system Uuba
 		distance 2012
 		period 1010
 
+
 system Zaron
+	hidden
 	pos 805 -383
 	government "Gegno Pirates"
 	attributes "bright star" "Gegno Pirates" "notable star"
@@ -91,101 +92,5 @@ system Zaron
 		distance 15507
 		period 10012
 
-# 1 jump from Zaron
-system Huud
-	add link Zaron
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Heavy Gegno Pirate Fleet" 9000
-	add fleet "SuperHeavy Gegno Pirate Fleet" 12000
-	add fleet "Trader Gegno Pirate Fleet" 13000
 
-# 1 jump from Zaron
-system Cotpoxi
-	add link Zaron
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Heavy Gegno Pirate Fleet" 9000
-	add fleet "SuperHeavy Gegno Pirate Fleet" 12000
-	add fleet "Trader Gegno Pirate Fleet" 13000
 
-# 1 jump from Zaron
-system Vesvii
-	add link Zaron
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Heavy Gegno Pirate Fleet" 9000
-	add fleet "SuperHeavy Gegno Pirate Fleet" 12000
-	add fleet "Trader Gegno Pirate Fleet" 13000
-
-# 2 jumps from Zaron
-system Fscher
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Heavy Gegno Pirate Fleet" 9000
-	add fleet "Trader Gegno Pirate Fleet" 13000
-
-# 2 jumps from Zaron
-system Anbrim
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Heavy Gegno Pirate Fleet" 9000
-	add fleet "Trader Gegno Pirate Fleet" 13000
-
-# 2 jumps from Zaron
-system Yerser
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Heavy Gegno Pirate Fleet" 9000
-	add fleet "Trader Gegno Pirate Fleet" 13000
-
-# 2 jumps from Zaron
-system Vilacira
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Heavy Gegno Pirate Fleet" 9000
-	add fleet "Trader Gegno Pirate Fleet" 13000
-
-# 2 jumps from Zaron
-system Mnashyu
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Heavy Gegno Pirate Fleet" 9000
-	add fleet "Trader Gegno Pirate Fleet" 13000
-
-# 2 jumps from Zaron
-system Jyelio
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Heavy Gegno Pirate Fleet" 9000
-	add fleet "Trader Gegno Pirate Fleet" 13000
-
-# 3 jumps from Zaron
-system Ilirco
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Trader Gegno Pirate Fleet" 13000
-
-# 3 jumps from Zaron
-system Evrae
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Trader Gegno Pirate Fleet" 13000
-
-# 3 jumps from Zaron
-system Eebu
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Trader Gegno Pirate Fleet" 13000
-
-# 3 jumps from Zaron
-system Wreoul
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Trader Gegno Pirate Fleet" 13000
-
-# 3 jumps from Zaron
-system Empeles
-	add fleet "Small Gegno Pirate Fleet" 2000
-	add fleet "Medium Gegno Pirate Fleet" 7000
-	add fleet "Trader Gegno Pirate Fleet" 13000

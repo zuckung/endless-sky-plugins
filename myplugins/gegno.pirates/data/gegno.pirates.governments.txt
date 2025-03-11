@@ -1,5 +1,11 @@
-# new government "Gegno Pirates"
-# modified: "Gegno", "Gegno Scin", "Gegno Vi", "Gegno Scin (Neutral)", "Gegno Vi (Neutral)"
+# government "Gegno Pirates"
+# government "Gegno"
+# government "Gegno Scin"
+# government "Gegno Vi"
+# government "Gegno Scin (Neutral)"
+# government "Gegno Vi (Neutral)"
+
+
 
 government "Gegno Pirates"
 	swizzle 6
@@ -20,6 +26,7 @@ government "Gegno Pirates"
 		board 0.3
 		destroy 0.5
 
+
 government "Gegno"
 	"attitude toward"
 		"Gegno Pirates" -.1
@@ -31,6 +38,7 @@ government "Gegno"
 		provoke 10
 		destroy 10
 
+
 government "Gegno Scin"
 	"attitude toward"
 		"Gegno Pirates" -.1
@@ -41,6 +49,7 @@ government "Gegno Scin"
 		disable 0.3
 		board 0.5
 		destroy 0.3
+
 
 government "Gegno Vi"
 	"attitude toward"
@@ -55,6 +64,7 @@ government "Gegno Vi"
 		board 0.5
 		destroy 0.3
 
+
 government "Gegno Scin (Neutral)"
 	"attitude toward"
 		"Gegno Pirates" -.1
@@ -66,6 +76,7 @@ government "Gegno Scin (Neutral)"
 		destroy 0.3
 	"foreign penalties for"
 		"Gegno"
+
 
 government "Gegno Vi (Neutral)"
 	"attitude toward"

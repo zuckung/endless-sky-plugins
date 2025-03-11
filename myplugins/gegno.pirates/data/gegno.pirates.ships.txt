@@ -1,15 +1,22 @@
-# added missing ships
+# shipyard "Scin Utility"
+# shipyard "Vi Warships I"
+# shipyard "Vi Warships II"
+# shipyard "Gegno Advanced"
+
 
 
 shipyard "Scin Utility"
 	"Kyanite"
 
+
 shipyard "Vi Warships I"
 	"Dunite"
 	"Rhyolite"
 
+
 shipyard "Vi Warships II"
 	"Augen"
+
 
 shipyard "Gegno Advanced"
 	"Protolith"

@@ -1,15 +1,28 @@
-# added missing outfits to outfitter
-# new license outfit thumbnails
+# outfitter "Gegno Intermediate"
+# outfitter "Vi Intermediate"
+# outfitter "Scin Advanced"
+# outfit "Gegno Civilian License"
+# outfit "Gegno Driller License"
+# outfit "Vi Lord License"
+# outfit "Vi Centurion License"
+# outfit "Vi Evocati License"
+# outfit "Scin Hoplologist License"
+# outfit "Scin Architect License"
+# outfit "Scin Adjutant License"
 
-outfitter "Gegno Intermediate" 
+
+
+outfitter "Gegno Intermediate"
 	"Excavator"
 	"Burrower"
 	"Ion Torch"
+
 
 outfitter "Vi Intermediate"
 	"Savagery Bludgeon"
 	"Savagery Pike"
 	"Irate Carronade"
+
 
 outfitter "Scin Advanced"
 	"Acumen Bolt Cannon"
@@ -20,23 +33,30 @@ outfitter "Scin Advanced"
 outfit "Gegno Civilian License"
 	thumbnail "outfit/gegno.license"
 
+
 outfit "Gegno Driller License"
 	thumbnail "outfit/gegno.license"
 
+
 outfit "Vi Lord License"
 	thumbnail "outfit/gegno.vi.license"
+
 	
 outfit "Vi Centurion License"
 	thumbnail "outfit/gegno.vi.license"
 
+
 outfit "Vi Evocati License"
 	thumbnail "outfit/gegno.vi.license"
+
 
 outfit "Scin Hoplologist License"
 	thumbnail "outfit/gegno.scin.license"
 
+
 outfit "Scin Architect License"
 	thumbnail "outfit/gegno.scin.license"
+
 
 outfit "Scin Adjutant License"
 	thumbnail "outfit/gegno.scin.license"

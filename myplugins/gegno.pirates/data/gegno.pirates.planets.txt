@@ -1,8 +1,22 @@
-# modified planet vi: Essime, Ternituul, Graede, Siedi, Enbye, Sies Upi
-# modified planet scin: Enn Bue , Dueitch Ae, Cipi, Ef Osch, Gue Faur, Oup Je
-# modified planet neutral: Tschyss, Ef Aourtdye, Dueyu Eitch, Iemn Eitch
-# new pirate planet "Bantam"
-# new Gegno planet "Uuta" with all shipyards and outfitters
+# planet "Essime"
+# planet "Siedi"
+# planet "Ternituul"
+# planet "Sies Upi"
+# planet "Graede"
+# planet "Enbye"
+# planet "Cipi"
+# planet "Oup Je"
+# planet "Ef Osch"
+# planet "Enn Bue"
+# planet "Dueitch Ae"
+# planet "Gue Faur"
+# planet "Tschyss"
+# planet "Iemn Eitch"
+# planet "Ef Aourtdye"
+# planet "Dueyu Eitch"
+# planet "Bantam"
+# planet "Uuta"
+
 
 
 # Vi planets:
@@ -30,7 +44,6 @@ planet "Enbye"
 	"required reputation" 400
 	shipyard "Vi Warships II"
 	shipyard "Vi Cargo"
-
 
 
 # Scin planets:
@@ -62,7 +75,6 @@ planet "Gue Faur"
 	outfitter "Scin Intermediate" 
 
 
-
 # neutral planets:
 
 planet "Tschyss"
@@ -78,7 +90,6 @@ planet "Ef Aourtdye"
 # has outfitter, shipyard
 planet "Dueyu Eitch"
 	"required reputation" 4400
-
 
 
 # new planets:

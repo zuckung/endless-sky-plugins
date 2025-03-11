@@ -1,11 +1,16 @@
-# new fleets: trader, small, medium, heavy, superheavy
+# fleet "Trader Gegno Pirate Fleet"
+# fleet "Small Gegno Pirate Fleet"
+# fleet "Medium Gegno Pirate Fleet"
+# fleet "Heavy Gegno Pirate Fleet"
+# fleet "SuperHeavy Gegno Pirate Fleet"
+
+
 
 # mostly unarmed
 fleet "Trader Gegno Pirate Fleet"
 	government "Gegno Pirates"
 	names "gegno united"
-	cargo 250
-	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
+	cargo 3
 	personality
 		confusion 30
 		disables plunders harvests mining surveillance appeasing
@@ -28,12 +33,12 @@ fleet "Trader Gegno Pirate Fleet"
 		"Schist"
 		"Schist (Heavy Load)"
 
+
 # average 100 weaponspace
 fleet "Small Gegno Pirate Fleet"
 	government "Gegno Pirates"
 	names "gegno united"
-	cargo 50
-	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
+	cargo 3
 	personality
 		confusion 20
 		disables plunders harvests surveillance
@@ -56,12 +61,12 @@ fleet "Small Gegno Pirate Fleet"
 		"Corundum (Multi)"
 		"Halite" 
 
+
 # average 500 weaponspace
 fleet "Medium Gegno Pirate Fleet"
 	government "Gegno Pirates"
 	names "gegno united"
-	cargo 100
-	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
+	cargo 3
 	personality
 		confusion 20
 		disables plunders harvests surveillance
@@ -91,12 +96,12 @@ fleet "Medium Gegno Pirate Fleet"
 	variant 1
 		"Feldspar" 2
 
+
 # average 1000 weaponspace
 fleet "Heavy Gegno Pirate Fleet"
 	government "Gegno Pirates"
 	names "gegno united"
-	cargo 150
-	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
+	cargo 3
 	personality
 		confusion 20
 		disables plunders harvests surveillance
@@ -143,12 +148,12 @@ fleet "Heavy Gegno Pirate Fleet"
 		"Kyanite" 2
 		"Kyanite (Acumen)"
 
+
 # average 2000 weaponspace
 fleet "SuperHeavy Gegno Pirate Fleet"
 	government "Gegno Pirates"
 	names "gegno united"
-	cargo 200
-	outfitters "Gegno Basic" "Gegno Intermediate" "Vi Basic" "Vi Intermediate" "Scin Basic" "Scin Intermediate" "Scin Advanced"
+	cargo 3
 	personality
 		confusion 20
 		disables plunders harvests surveillance

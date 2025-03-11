@@ -1,18 +1,124 @@
-# 1 missions to display the center of the pirate threat
-# 2 boarding missions to display plugin progression
-# 1 mission to reveal hidden planet with full outfitter/shipyard
-# 1 event for the reveal
-# 8 gegno pirate boarding missions with licenses as reward (5% chance)
-# 7 gegno pirate boarding missions with credits as reward (10% chance)
+# mission "reveal gegno pirates"
+# event "reveal gegno pirates"
+# mission "full gegno rep"
+# mission "all gegno licenses"
+# mission "gegno.pirates complete"
+# event "reveal gegno outfitter"
+# mission "Boarding Gegno Pirates (Civilian License)"
+# mission "Boarding Gegno Pirates (Driller License)"
+# mission "Boarding Gegno Pirates (Vi Lord License)"
+# mission "Boarding Gegno Pirates (Vi Centurion License)"
+# mission "Boarding Gegno Pirates (Vi Evocati License)"
+# mission "Boarding Gegno Pirates (Scin Hoplologist License)"
+# mission "Boarding Gegno Pirates (Scin Architect License)"
+# mission "Boarding Gegno Pirates (Scin Adjutant License)"
+# conversation "con boarding gegno pirate"
+# mission "Boarding Gegno Pirate (Interceptor)"
+# mission "Boarding Gegno Pirate (Light Warship)"
+# mission "Boarding Gegno Pirate (Transport)"
+# mission "Boarding Gegno Pirate (Light Freighter)"
+# mission "Boarding Gegno Pirate (Medium Warship)"
+# mission "Boarding Gegno Pirate (Heavy Freighter)"
+# mission "Boarding Gegno Pirate (Heavy Warship)"
 
-mission "found gegno pirates"
+
+
+mission "reveal gegno pirates"
+	non-blocking
 	landing
 	invisible
+	source "Tschyss"
+	to offer
+		has "Acquiescence: offered"
+	on offer
+		event "reveal gegno pirates"
+		conversation
+			`After landing on the Gegno planet "Tschyss", you refuel your ship. Before you take off again, an excited Gegno approaches you. You don't understand his language, but through gestures and a star map, he makes it clear... enemy ships have appeared in the southwestern Gegno sector. He warns you to be careful. You nod, unsure what awaits you. The sector might be dangerous, but something about the Gegno's urgency makes you curious. Maybe you should investigate that area.`
 	to complete
 		never
 	on enter "Zaron"
-		dialog `You have entered the Zaron system. This must be the center of the Gegno pirate threat. Boarding these pirates might bring unexpected wealth!`
+		dialog `You have entered the Zaron system. This must be the center of the Gegno pirate threat you've encountered in the previous systems. Boarding these pirates might bring unexpected wealth!`
 		fail
+
+
+event "reveal gegno pirates"
+	system Zaron
+		remove hidden
+	# 1 jump from Zaron
+	system Huud
+		add link Zaron
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Heavy Gegno Pirate Fleet" 9000
+		add fleet "SuperHeavy Gegno Pirate Fleet" 12000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	system Cotpoxi
+		add link Zaron
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Heavy Gegno Pirate Fleet" 9000
+		add fleet "SuperHeavy Gegno Pirate Fleet" 12000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	system Vesvii
+		add link Zaron
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Heavy Gegno Pirate Fleet" 9000
+		add fleet "SuperHeavy Gegno Pirate Fleet" 12000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	# 2 jumps from Zaron
+	system Fscher
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Heavy Gegno Pirate Fleet" 9000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	system Anbrim
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Heavy Gegno Pirate Fleet" 9000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	system Yerser
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Heavy Gegno Pirate Fleet" 9000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	system Vilacira
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Heavy Gegno Pirate Fleet" 9000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	system Mnashyu
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Heavy Gegno Pirate Fleet" 9000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	system Jyelio
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Heavy Gegno Pirate Fleet" 9000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	# 3 jumps from Zaron
+	system Ilirco
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	system Evrae
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	system Eebu
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	system Wreoul
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+	system Empeles
+		add fleet "Small Gegno Pirate Fleet" 2000
+		add fleet "Medium Gegno Pirate Fleet" 7000
+		add fleet "Trader Gegno Pirate Fleet" 13000
+
 
 mission "full gegno rep"
 	boarding
@@ -25,8 +131,9 @@ mission "full gegno rep"
 		not "gegno.pirates complete: done"
 	on offer
 		conversation
-			`A look at your long range friend/foe identifier shows that you can land on all Gegno planets now. The Gegno seem to register your fight against the pirates.`
+			`A look at your long range friend/foe identifier shows that you can land on all Gegno planets now. The Gegno seem to register your fight against the pirate threat.`
 				decline
+
 
 mission "all gegno licenses"
 	boarding
@@ -45,10 +152,12 @@ mission "all gegno licenses"
 		not "gegno.pirates complete: done"
 	on offer
 		conversation
-			`After comparing all ships engraved on the 8 Gegno Licenses plates you've looted so far with the Gegno ships you have seen in their space, it seems you collected all licenses!`
+			`After comparing all ships engraved on the 8 Gegno Licenses plates, you've looted so far, with the Gegno ships you have seen in their space, it seems you collected all licenses!`
 				decline
 
+
 mission "gegno.pirates complete"
+	non-blocking
 	landing
 	name "Travel to a hidden Gegno system"
 	description "You received a star map with an additional system not found in your own celestial database. Find out what is there."
@@ -75,20 +184,20 @@ mission "gegno.pirates complete"
 		conversation
 			`You reached <destination>. This planet has an outfitter and a shipyard which sell all equipment the Gegno can offer. Time to go shopping!`
 
+
 event "reveal gegno outfitter"
 	system "Uuba"
 		remove hidden
 	link Asio Uuba
 	link Uuba Asio
 
-# boarding for licenses
 
 mission "Boarding Gegno Pirates (Civilian License)"
 	boarding
 	minor
 	destination "Earth"
 	to offer
-		random > 95
+		random > 92
 	source
 		government "Gegno Pirates"
 	on offer
@@ -98,12 +207,13 @@ mission "Boarding Gegno Pirates (Civilian License)"
 			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Civilian License.`
 				decline
 
+
 mission "Boarding Gegno Pirates (Driller License)"
 	boarding
 	minor
 	destination "Earth"
 	to offer
-		random > 95
+		random > 92
 	source
 		government "Gegno Pirates"
 	on offer
@@ -113,12 +223,13 @@ mission "Boarding Gegno Pirates (Driller License)"
 			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Driller License.`
 				decline
 
+
 mission "Boarding Gegno Pirates (Vi Lord License)"
 	boarding
 	minor
 	destination "Earth"
 	to offer
-		random > 95
+		random > 92
 	source
 		government "Gegno Pirates"
 	on offer
@@ -128,12 +239,13 @@ mission "Boarding Gegno Pirates (Vi Lord License)"
 			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Lord License.`
 				decline
 
+
 mission "Boarding Gegno Pirates (Vi Centurion License)"
 	boarding
 	minor
 	destination "Earth"
 	to offer
-		random > 95
+		random > 92
 	source
 		government "Gegno Pirates"
 	on offer
@@ -143,12 +255,13 @@ mission "Boarding Gegno Pirates (Vi Centurion License)"
 			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Centurion License.`
 				decline
 
+
 mission "Boarding Gegno Pirates (Vi Evocati License)"
 	boarding
 	minor
 	destination "Earth"
 	to offer
-		random > 95
+		random > 92
 	source
 		government "Gegno Pirates"
 	on offer
@@ -158,12 +271,13 @@ mission "Boarding Gegno Pirates (Vi Evocati License)"
 			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Vi Evocati License.`
 				decline
 
+
 mission "Boarding Gegno Pirates (Scin Hoplologist License)"
 	boarding
 	minor
 	destination "Earth"
 	to offer
-		random > 95
+		random > 92
 	source
 		government "Gegno Pirates"
 	on offer
@@ -173,12 +287,13 @@ mission "Boarding Gegno Pirates (Scin Hoplologist License)"
 			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Scin Hoplologist License.`
 				decline
 
+
 mission "Boarding Gegno Pirates (Scin Architect License)"
 	boarding
 	minor
 	destination "Earth"
 	to offer
-		random > 95
+		random > 92
 	source
 		government "Gegno Pirates"
 	on offer
@@ -188,12 +303,13 @@ mission "Boarding Gegno Pirates (Scin Architect License)"
 			`When you search the Gegno pirate ship <origin> for valueables, you find a small metal plate engraved with gegno signs and ship types. This must be Gegno Scin Architect License.`
 				decline
 
+
 mission "Boarding Gegno Pirates (Scin Adjutant License)"
 	boarding
 	minor
 	destination "Earth"
 	to offer
-		random > 95
+		random > 92
 	source
 		government "Gegno Pirates"
 	on offer
@@ -204,11 +320,10 @@ mission "Boarding Gegno Pirates (Scin Adjutant License)"
 				decline
 
 
-# boarding for credits
-
 conversation "con boarding gegno pirate"
-	`As you board the "<origin>", the crew entrenches on the bridge. While searching for valueables you find a small chest with jewels worth <payment> credits.`
+	`As you board the Gegno pirate ship "<origin>", the crew entrenches on the bridge. While searching for valueables you find a small chest with jewels worth <payment> credits.`
 		decline
+
 
 mission "Boarding Gegno Pirate (Interceptor)"
 	boarding
@@ -224,6 +339,7 @@ mission "Boarding Gegno Pirate (Interceptor)"
 		payment 10000
 		conversation "con boarding gegno pirate"
 
+
 mission "Boarding Gegno Pirate (Light Warship)"
 	boarding
 	repeat
@@ -237,6 +353,7 @@ mission "Boarding Gegno Pirate (Light Warship)"
 	on offer
 		payment 20000
 		conversation "con boarding gegno pirate"
+
 
 mission "Boarding Gegno Pirate (Transport)"
 	boarding
@@ -252,6 +369,7 @@ mission "Boarding Gegno Pirate (Transport)"
 		payment 18000
 		conversation "con boarding gegno pirate"
 
+
 mission "Boarding Gegno Pirate (Light Freighter)"
 	boarding
 	repeat
@@ -265,6 +383,7 @@ mission "Boarding Gegno Pirate (Light Freighter)"
 	on offer
 		payment 16000
 		conversation "con boarding gegno pirate"
+
 
 mission "Boarding Gegno Pirate (Medium Warship)"
 	boarding
@@ -280,6 +399,7 @@ mission "Boarding Gegno Pirate (Medium Warship)"
 		payment 34000
 		conversation "con boarding gegno pirate"
 
+
 mission "Boarding Gegno Pirate (Heavy Freighter)"
 	boarding
 	repeat
@@ -293,6 +413,7 @@ mission "Boarding Gegno Pirate (Heavy Freighter)"
 	on offer
 		payment 26000
 		conversation "con boarding gegno pirate"
+
 
 mission "Boarding Gegno Pirate (Heavy Warship)"
 	boarding
