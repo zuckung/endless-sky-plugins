@@ -77,9 +77,6 @@ planet "Gue Faur"
 
 # neutral planets:
 
-planet "Tschyss"
-	"required reputation" 1200
-
 planet "Iemn Eitch"
 	"required reputation" 2000
 
