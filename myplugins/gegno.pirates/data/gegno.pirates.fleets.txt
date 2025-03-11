@@ -58,7 +58,7 @@ fleet "Small Gegno Pirate Fleet"
 		"Corundum (Torch)"
 		"Dunite" 2
 	variant 1
-		"Corundum (Multi)"
+		"Corundum"
 		"Halite" 
 
 
@@ -89,7 +89,7 @@ fleet "Medium Gegno Pirate Fleet"
 		"Corundum (Torch)" 4
 		"Diorite (Ballistic)"
 	variant 1
-		"Corundum (Multi)" 3
+		"Corundum" 3
 		"Hornfel (Heavy Weapons)" 
 	variant 1
 		"Gneiss"
@@ -131,7 +131,7 @@ fleet "Heavy Gegno Pirate Fleet"
 	variant 1
 		"Gneiss"
 		"Feldspar"
-		"Corundum (Multi)"
+		"Corundum"
 		"Hornfel (Heavy Weapons)" 
 	variant 1
 		"Gneiss"

@@ -150,7 +150,9 @@ person "Cap'n Pester (C)"
 			"friendly author"
 	ship "Quarg Wardragon" "Quarg Wardragon"
 		add attributes
-			"outfit space" 10
+			"outfit space" 70
+			"engine capacity" 20
+			"weapon capacity" 20
 		outfits
 			"Quarg Skylance" 2
 			"Quarg Anti-Missile" 2
