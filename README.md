@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-02-28 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2025-03-11 | update: gegno.pirates<br>
+2025-02-28 | update: additional.command.buttons.radial<br>
 2025-02-26 | update: mission.helper<br>
 2025-02-23 | update: additional.command.buttons.radial<br>
 2025-02-20 | update: mission.helper<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-13 | update: human.labels<br>
 2025-02-13 | update: bunrodea.missions<br>
 2025-02-10 | update: more.boarding.missions<br>
-2025-02-10 | update: bunrodea.missions<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1811,7 +1811,7 @@ screenshots(click to enlarge):<br>
 
 <img src="myplugins/gegno.pirates/icon.png" height="100">
 
-[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-gegno.pirates/gegno.pirates.zip) | 238.14 kb | 2024-10-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) | <a href="res/imagemd/gegno.pirates.md">view images</a> [7]<br>
+[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-gegno.pirates/gegno.pirates.zip) | 237.82 kb | 2025-03-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) | <a href="res/imagemd/gegno.pirates.md">view images</a> [7]<br>
 <br>
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the README for details.
 
@@ -1827,7 +1827,7 @@ Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Geg
 
 <br>
 
-The new government "Gegno Pirates" inhabit the new System "Zaron"(between Huud, Vesvii and Cotpoxi). The surrounding systems, up to 3 jumps away, have new pirate fleets.<br>
+The new government "Gegno Pirates" (hidden till vanilla gegno story is done) inhabit the new System "Zaron"(between Huud, Vesvii and Cotpoxi). The surrounding systems, up to 3 jumps away, have new pirate fleets.<br>
 
 Killing pirates and assisting Gegno/Scin/Vi gives reputation now. The needed reputation to land on the Gegno planets got changed to higher values. Killing like 80 Gegno pirates should allow you to land on all Gegno planets and use their shipyards and outfitters.<br>
 
@@ -1837,55 +1837,17 @@ After gaining full reputation for all planets and obtaining all Gegno licenses y
 
 <br>
 
-Warning: As soon as new Gegno story content is added to the base game, it is highly advised to remove this plugin and/or do a new playthrough. If not, the new story missions, which are probably based on reputation, won't appear in the planned order. If you want to keep your save you have to remove this plugin and edit your savegame. To do so ... open your savegame and find the lines with the different Gegno reputations looking like the following lines and change the values to 0.	<br>
-
-<br>
-
- Gegno 5544.86<br>
-
- "Gegno Pirates" -4871.9<br>
-
- "Gegno Scin" 517.5<br>
-
- "Gegno Scin (Neutral)" 517.5<br>
-
- "Gegno Vi" 517.5<br>
-
- "Gegno Vi (Duelist A)" 0<br>
-
- "Gegno Vi (Duelist B)" 0<br>
-
- "Gegno Vi (Neutral)" 517.5<br>
-
-<br>
-
-then find the position where the licenses are saved, looking like this:<br>
-
-<br>
-
-licenses<br>
-
- City-Ship<br>
-
- Coalition<br>
-
- "Gegno Civilian"<br>
-
- "Gegno Driller"<br>
-
- Heliarch<br>
-
- ...<br>
-
-<br>
-
-Remove the 8 lines containing: "Gegno Civilian" "Gegno Driller"	 "Scin Adjutant" "Scin Architect 	"Scin Hoplologist" "Vi Centurion" "Vi Evocati" 	"Vi Lord". Save it and then you are ready to start the new Gegno storylines as planned.<br>
-
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-03-11<br>
+
+gegno pirates are now hidden till the vanilla story is done<br>
 
 <br>
 
