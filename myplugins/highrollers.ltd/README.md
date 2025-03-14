@@ -9,6 +9,10 @@ Every won round has a chance of increasing your skill for this special game. The
 <br>
 Changelog:<br>
 <br>
+2025-03-14<br>
+typo fix (thx zanano)<br>
+added 30 cargo/passenger jobs to/from the casinos<br>
+<br>
 2025-03-11<br>
 initial release<br>
 

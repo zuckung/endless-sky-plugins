@@ -19,6 +19,9 @@ This plugin<br>
 <br>
 Changelog:<br>
 <br>
+2025-03-14<br>
+added reverse thrust/afterburner button to bottom left<br>
+<br>
 2025-02-28<br>
 moved the fleet box below the text box<br>
 adjusted onscreen joystick size<br>

@@ -1,0 +1,631 @@
+# mission "Highrollers.diamonds.passengers.1"
+# mission "Highrollers.diamonds.passengers.2"
+# mission "Highrollers.diamonds.passengers.3"
+# mission "highrollers.diamonds.cargo.1"
+# mission "highrollers.diamonds.cargo.2"
+# mission "highrollers.diamonds.cargo.3"
+# mission "Highrollers.clubs.passengers.1"
+# mission "Highrollers.clubs.passengers.2"
+# mission "Highrollers.clubs.passengers.3"
+# mission "highrollers.clubs.cargo.1"
+# mission "highrollers.clubs.cargo.2"
+# mission "highrollers.clubs.cargo.3"
+# mission "Highrollers.hearts.passengers.1"
+# mission "Highrollers.hearts.passengers.2"
+# mission "Highrollers.hearts.passengers.3"
+# mission "highrollers.hearts.cargo.1"
+# mission "highrollers.hearts.cargo.2"
+# mission "highrollers.hearts.cargo.3"
+# mission "Highrollers.spades.passengers.1"
+# mission "Highrollers.spades.passengers.2"
+# mission "Highrollers.spades.passengers.3"
+# mission "highrollers.spades.cargo.1"
+# mission "highrollers.spades.cargo.2"
+# mission "highrollers.spades.cargo.3"
+# mission "Highrollers.passengers.1.1"
+# mission "Highrollers.passengers.1.2"
+# mission "Highrollers.passengers.2.1"
+# mission "Highrollers.passengers.2.2"
+# mission "Highrollers.passengers.3.1"
+# mission "Highrollers.passengers.3.2"
+
+
+
+mission "Highrollers.diamonds.passengers.1"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 1 10 .9
+	source
+		near "Tarazed" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Diamonds Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 6000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.diamonds.passengers.2"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 8 16 .9
+	source
+		near "Tarazed" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Diamonds Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.diamonds.passengers.3"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 15 40 .9
+	source
+		near "Tarazed" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Diamonds Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 20000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "highrollers.diamonds.cargo.1"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 5 20 .9
+	source
+		near "Tarazed" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Diamonds Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "highrollers.diamonds.cargo.2"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 20 80 .9
+	source
+		near "Tarazed" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Diamonds Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "highrollers.diamonds.cargo.3"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 80 160 .9
+	source
+		near "Tarazed" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Diamonds Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 20000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Highrollers.clubs.passengers.1"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 1 10 .9
+	source
+		near "Ruchbah" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Clubs Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 6000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.clubs.passengers.2"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 8 16 .9
+	source
+		near "Ruchbah" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Clubs Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.clubs.passengers.3"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 15 40 .9
+	source
+		near "Ruchbah" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Clubs Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 20000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "highrollers.clubs.cargo.1"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 5 20 .9
+	source
+		near "Ruchbah" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Clubs Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "highrollers.clubs.cargo.2"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 20 80 .9
+	source
+		near "Ruchbah" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Clubs Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "highrollers.clubs.cargo.3"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 80 160 .9
+	source
+		near "Ruchbah" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Clubs Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 20000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Highrollers.hearts.passengers.1"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 1 10 .9
+	source
+		near "Rutilicus" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Hearts Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 6000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.hearts.passengers.2"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 8 16 .9
+	source
+		near "Rutilicus" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Hearts Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.hearts.passengers.3"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 15 40 .9
+	source
+		near "Rutilicus" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Hearts Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 20000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "highrollers.hearts.cargo.1"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 5 20 .9
+	source
+		near "Rutilicus" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Hearts Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "highrollers.hearts.cargo.2"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 20 80 .9
+	source
+		near "Rutilicus" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Hearts Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "highrollers.hearts.cargo.3"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 80 160 .9
+	source
+		near "Rutilicus" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Hearts Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 20000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Highrollers.spades.passengers.1"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 1 10 .9
+	source
+		near "Epsilon Leonis" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Spades Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 6000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.spades.passengers.2"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 8 16 .9
+	source
+		near "Epsilon Leonis" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Spades Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.spades.passengers.3"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 15 40 .9
+	source
+		near "Epsilon Leonis" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Spades Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 20000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "highrollers.spades.cargo.1"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 5 20 .9
+	source
+		near "Epsilon Leonis" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Spades Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "highrollers.spades.cargo.2"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 20 80 .9
+	source
+		near "Epsilon Leonis" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Spades Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "highrollers.spades.cargo.3"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Luxury Goods" 80 160 .9
+	source
+		near "Epsilon Leonis" 1 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination "Spades Casino"
+	to offer
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 20000
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Highrollers.passengers.1.1"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 1 10 .9
+	source
+		government "Highrollers Ltd."
+	destination
+		distance 2 6
+	to offer
+		random < 30
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 6000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.passengers.1.2"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 1 10 .9
+	source
+		government "Highrollers Ltd."
+	destination
+		distance 2 6
+	to offer
+		random < 30
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 6000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.passengers.2.1"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 8 16 .9
+	source
+		government "Highrollers Ltd."
+	destination
+		distance 2 6
+	to offer
+		random < 30
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.passengers.2.2"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 8 16 .9
+	source
+		government "Highrollers Ltd."
+	destination
+		distance 2 6
+	to offer
+		random < 30
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 12000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.passengers.3.1"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 15 40 .9
+	source
+		government "Highrollers Ltd."
+	destination
+		distance 2 6
+	to offer
+		random < 30
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 20000
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Highrollers.passengers.3.2"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 15 40 .9
+	source
+		government "Highrollers Ltd."
+	destination
+		distance 2 6
+	to offer
+		random < 30
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 20000
+		dialog phrase "generic passenger dropoff payment"
