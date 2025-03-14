@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-03-14 | update: highrollers.ltd<br>
+<table><tr><td><img width="882" height="1"><br>2025-03-14 | update: additional.command.buttons.radial<br>
+2025-03-14 | update: highrollers.ltd<br>
 2025-03-11 | update: highrollers.ltd<br>
 2025-03-11 | update: gegno.pirates<br>
 2025-02-28 | update: additional.command.buttons.radial<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-20 | update: mission.helper<br>
 2025-02-17 | update: mission.helper<br>
 2025-02-14 | update: galactic.capital.investment<br>
-2025-02-13 | update: human.labels<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -90,7 +90,7 @@ I've got another new project, a github repository that lets you online generate 
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.18-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 196.68 kb | 2025-02-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [47]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.19-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 201.07 kb | 2025-03-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [47]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
