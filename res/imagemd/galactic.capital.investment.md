@@ -49,4 +49,11 @@ graphic files for the plugin: galactic.capital.investment<br>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship@2x.png" height="200"></a><br>
 		gci_colonyship@2x.png [760x1660]</td>
 	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/thumbnail/gci_colonyship.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/thumbnail/gci_colonyship.png" height="200"></a><br>
+		gci_colonyship.png [250x250]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/thumbnail/gci_colonyship@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/thumbnail/gci_colonyship@2x.png" height="200"></a><br>
+		gci_colonyship@2x.png [500x500]</td>
+		<td></td>
+	</tr>
 </table>

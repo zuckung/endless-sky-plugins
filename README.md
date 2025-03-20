@@ -21,7 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-03-14 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2025-03-20 | update: galactic.capital.investment<br>
+2025-03-14 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: highrollers.ltd<br>
 2025-03-11 | update: highrollers.ltd<br>
 2025-03-11 | update: gegno.pirates<br>
@@ -30,7 +31,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-23 | update: additional.command.buttons.radial<br>
 2025-02-20 | update: mission.helper<br>
 2025-02-17 | update: mission.helper<br>
-2025-02-14 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1659,7 +1659,7 @@ added plugin.txt<br>
 
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.5-galactic.capital.investment/galactic.capital.investment.zip) | 3.7 mb | 2025-02-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) | <a href="res/imagemd/galactic.capital.investment.md">view images</a> [18]<br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.6-galactic.capital.investment/galactic.capital.investment.zip) | 4.04 mb | 2025-03-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) | <a href="res/imagemd/galactic.capital.investment.md">view images</a> [20]<br>
 <br>
 >Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits. See the README for details.
 
@@ -1679,7 +1679,7 @@ There is also a job to deposit and withdraw credits, but at a much lower interes
 
 <br>
 
-Job board investments:<br>
+Job board investments:(if enabled)<br>
 
 1 million = 274 credits daily (12% chance) (10% interest p.a.)<br>
 
@@ -1705,6 +1705,8 @@ Sell investments at 10% conversion rate<br>
 
 Set up the bank account interest as a daily cash payout<br>
 
+Enable and disable the investment jobs/missions<br>
+
 <br>
 
 <br>
@@ -1712,6 +1714,14 @@ Set up the bank account interest as a daily cash payout<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-03-20<br>
+
+replaced colony ship sprite (new one created by 1010todd)<br>
+
+added the option to enable/disable job board investments/missions globally<br>
 
 <br>
 
