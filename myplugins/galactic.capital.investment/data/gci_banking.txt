@@ -5,6 +5,7 @@
 
 
 mission "gci banking account initial"
+	non-blocking 
 	invisible
 	landing
 	on offer
@@ -13,8 +14,8 @@ mission "gci banking account initial"
 
 
 mission "gci banking account update"
-	invisible
 	non-blocking
+	invisible
 	repeat
 	landing
 	to offer
@@ -29,7 +30,7 @@ mission "gci banking account update"
 
 mission "gci banking terminal"
 	name "(Galactic Capital Investment) Bank Service"
-	description "banking"
+	description "Access to your bank account, family trust, cash transfer, and investments."
 	job
 	repeat
 	to offer
@@ -70,6 +71,14 @@ mission "gci banking terminal"
 					to display
 						"salary: Galactic Capital" > 0
 					goto linesellinvestment
+				`	[show investment jobs/missions]`
+					to display
+						not "global: gcijobs active"
+					goto setjobs1
+				`	[hide investment jobs/missions]`
+					to display
+						has "global: gcijobs active"
+					goto setjobs0
 				`	[leave]`
 					goto end
 # deposit/withdraw of bank account
@@ -501,6 +510,17 @@ mission "gci banking terminal"
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
 				goto cashtransfer
+# activate/deactivate jobs
+			label setjobs0
+			action
+				clear "global: gcijobs active"
+			`Job board investments/missions are hidden now.`
+				goto menu
+			label setjobs1
+			action
+				set "global: gcijobs active"
+			`Job board investments/missions are shown now.`
+				goto menu
 # other
 			label clearscreen
 			``

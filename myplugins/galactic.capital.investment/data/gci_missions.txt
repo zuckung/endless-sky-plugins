@@ -24,6 +24,7 @@ mission "Galactic Capital Intro A"
 	destination "Earth"
 	to offer
 		"credits" > 2000000
+		has "global: gcijobs active"
 	on offer
 		conversation
 			scene "scene/gci_sci-fi_bank"
@@ -47,7 +48,7 @@ mission "Galactic Capital Intro A"
 				accept
 	on complete
 		conversation
-			`When you land on Earth, you remind yourself to visit the spaceport information center to find the headquarters of 'Galactic Capital' for your meeting with Warren Goulding.`
+			`When you land on Earth, you remind yourself to visit the spaceport information center to find the headquarters of 'Galactic Capital Investment' for your meeting with Warren Goulding.`
 
 
 mission "Galactic Capital Intro B"
@@ -114,6 +115,7 @@ mission "Galactic Capital Colonize 1"
 	destination "Earth"
 	to offer
 		has "Galactic Capital Intro B: offered"
+		has "global: gcijobs active"
 		"credits" > 1000000000
 	on offer
 			dialog `You receive a message from Warren Goulding, the manager at Galactic Capital Investment. He asks for a meeting on Earth to discuss a new investment opportunity.`
@@ -179,7 +181,7 @@ mission "Galactic Capital Colonize 2"
 		system "Merak" 
 		fleet
 			names "pirate"
-			cargo 50
+			cargo 1
 			variant
 				"Leviathan" 4
 	npc
@@ -188,7 +190,7 @@ mission "Galactic Capital Colonize 2"
 		system "Limen"
 		fleet
 			names "pirate"
-			cargo 50
+			cargo 1
 			variant
 				"Leviathan" 4
 				"Bactrian" 1
