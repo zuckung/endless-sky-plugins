@@ -228,10 +228,14 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 			icon = ''
 		# create imagemd and return limk
 		imagemdlink = make_imagemd(entry)
+		# create downloadcount badge
+		downloadcountbadge = '<a href="https://img.shields.io/">' \
+			+ '<img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/' + withdots + '.zip?color=blue"></a>'
 		# replace template with contents
 		pa_template = pa_template.replace('%name%', entry)
 		pa_template = pa_template.replace('%assetfullpath%', assetfiles)
 		pa_template = pa_template.replace('%assetfile%', withdots + '.zip')
+		pa_template = pa_template.replace('%downloadcount%', withdots + '.zip')
 		if assetsize != 'N/A':
 			pa_template = pa_template.replace('%size%', str(round(assetsize, 2)) + form)
 		else:
