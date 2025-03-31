@@ -36,7 +36,7 @@ I've got another new project, a github repository that lets you online generate 
 %icon%
 
 [%assetfile%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) %imagemd%<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/%name%.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/%name%.png"><br>
 <br>
 %description%
 <details>
