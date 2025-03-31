@@ -1,3 +1,4 @@
+2025-03-31 | new download counter for each plugin
 2025-03-20 | update: galactic.capital.investment
 2025-03-14 | update: additional.command.buttons.radial
 2025-03-14 | update: highrollers.ltd
