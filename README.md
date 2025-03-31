@@ -22,7 +22,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-03-20 | update: galactic.capital.investment<br>
+<table><tr><td><img width="882" height="1"><br>2025-03-31 | new download counter for each plugin<br>
+2025-03-20 | update: galactic.capital.investment<br>
 2025-03-14 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: highrollers.ltd<br>
 2025-03-11 | update: highrollers.ltd<br>
@@ -31,7 +32,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-26 | update: mission.helper<br>
 2025-02-23 | update: additional.command.buttons.radial<br>
 2025-02-20 | update: mission.helper<br>
-2025-02-17 | update: mission.helper<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -92,7 +92,7 @@ I've got another new project, a github repository that lets you online generate 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
 [additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.19-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 201.07 kb | 2025-03-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [47]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/additional.command.buttons.radial.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/additional.command.buttons.radial.png"><br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -302,7 +302,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 
 [automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.08 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/automata.destruction.0percent.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/automata.destruction.0percent.png"><br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
@@ -379,7 +379,7 @@ changed readme<br>
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
 
 [automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.in.human.space/automata.in.human.space.zip) | 35.86 kb | 2024-09-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/automata.in.human.space.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/automata.in.human.space.png"><br>
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
@@ -442,7 +442,7 @@ changed icon.png<br>
 <img src="myplugins/avgi.licenses/icon.png" height="100">
 
 [avgi.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-avgi.licenses/avgi.licenses.zip) | 375.21 kb | 2025-02-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/avgi.licenses/) | <a href="res/imagemd/avgi.licenses.md">view images</a> [9]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/avgi.licenses.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/avgi.licenses.png"><br>
 <br>
 >Adds a mission on "Navigeo Yards" to get the 3 Avgi licenses. See the README for details.
 
@@ -485,7 +485,7 @@ initial release<br>
 <img src="myplugins/better.starts/icon.png" height="100">
 
 [better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-better.starts/better.starts.zip) | 23.58 kb | 2024-12-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/better.starts.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/better.starts.png"><br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
@@ -622,7 +622,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
 [bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-bunrodea.missions/bunrodea.missions.zip) | 2.92 mb | 2025-02-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [45]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/bunrodea.missions.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/bunrodea.missions.png"><br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the README for details.
 <details>
@@ -843,7 +843,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
 [captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.7-captureable.person.ships/captureable.person.ships.zip) | 140.92 kb | 2025-01-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) | <a href="res/imagemd/captureable.person.ships.md">view images</a> [3]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/captureable.person.ships.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/captureable.person.ships.png"><br>
 <br>
 >Makes person ships capturable. See the README for details.
 
@@ -1052,7 +1052,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/coalition.shopping/icon.png" height="100">
 
 [coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-coalition.shopping/coalition.shopping.zip) | 403.06 kb | 2024-11-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) | <a href="res/imagemd/coalition.shopping.md">view images</a> [5]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/coalition.shopping.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/coalition.shopping.png"><br>
 <br>
 >Adds all Coalition/Heliarch/Lunarium outfits and ships to "Far Home" in the "Homeward" system. See the README for details.
 
@@ -1144,7 +1144,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/control.station/icon.png" height="100">
 
 [control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-control.station/control.station.zip) | 231.84 kb | 2024-05-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) | <a href="res/imagemd/control.station.md">view images</a> [3]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/control.station.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/control.station.png"><br>
 <br>
 >Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details.
 
@@ -1244,7 +1244,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/disable.person.ships/icon.png" height="100">
 
 [disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-disable.person.ships/disable.person.ships.zip) | 20.08 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) | <a href="res/imagemd/disable.person.ships.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/disable.person.ships.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/disable.person.ships.png"><br>
 <br>
 >Disables all person ships. See the README for details.
 
@@ -1330,7 +1330,7 @@ added icon.png<br>
 <img src="myplugins/disable.spaceport.repeatables/icon.png" height="100">
 
 [disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.1-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) | 20.57 kb | 2024-05-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) | <a href="res/imagemd/disable.spaceport.repeatables.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/disable.spaceport.repeatables.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/disable.spaceport.repeatables.png"><br>
 <br>
 >Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the README for details.
 
@@ -1444,7 +1444,7 @@ added icon.png<br>
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
 [expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-expert.crew.members/expert.crew.members.zip) | 7.75 mb | 2025-02-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) | <a href="res/imagemd/expert.crew.members.md">view images</a> [193]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/expert.crew.members.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/expert.crew.members.png"><br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the README for details.
 <details>
@@ -1620,7 +1620,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/free.worlds.5.years.later/icon.png" height="100">
 
 [free.worlds.5.years.later.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-free.worlds.5.years.later/free.worlds.5.years.later.zip) | 30.62 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/free.worlds.5.years.later/) | <a href="res/imagemd/free.worlds.5.years.later.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/free.worlds.5.years.later.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/free.worlds.5.years.later.png"><br>
 <br>
 >Lets the free world war begin 5 years later. See the README for details.
 
@@ -1674,7 +1674,7 @@ added plugin.txt<br>
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 
 [galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.6-galactic.capital.investment/galactic.capital.investment.zip) | 4.04 mb | 2025-03-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) | <a href="res/imagemd/galactic.capital.investment.md">view images</a> [20]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/galactic.capital.investment.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/galactic.capital.investment.png"><br>
 <br>
 >Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits. See the README for details.
 
@@ -1843,7 +1843,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/gegno.pirates/icon.png" height="100">
 
 [gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-gegno.pirates/gegno.pirates.zip) | 237.82 kb | 2025-03-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) | <a href="res/imagemd/gegno.pirates.md">view images</a> [7]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/gegno.pirates.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/gegno.pirates.png"><br>
 <br>
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the README for details.
 
@@ -1965,7 +1965,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/hai.side.mission.unlocker/icon.png" height="100">
 
 [hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) | 32.52 kb | 2024-09-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) | <a href="res/imagemd/hai.side.mission.unlocker.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/hai.side.mission.unlocker.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/hai.side.mission.unlocker.png"><br>
 <br>
 >Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now. See the README for details.
 
@@ -2044,7 +2044,7 @@ initial release<br>
 <img src="myplugins/highrollers.ltd/icon.png" height="100">
 
 [highrollers.ltd.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-highrollers.ltd/highrollers.ltd.zip) | 1.02 mb | 2025-03-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/highrollers.ltd/) | <a href="res/imagemd/highrollers.ltd.md">view images</a> [14]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/highrollers.ltd.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/highrollers.ltd.png"><br>
 <br>
 >This plugin adds some casino space stations where you can gamble. See the README for details.
 
@@ -2107,7 +2107,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/human.labels/icon.png" height="100">
 
 [human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-human.labels/human.labels.zip) | 1.92 mb | 2025-02-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) | <a href="res/imagemd/human.labels.md">view images</a> [410]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/human.labels.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/human.labels.png"><br>
 <br>
 >Reworks the Human area labels and adds area borders. See the README for details.
 
@@ -2198,7 +2198,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/jump.gates/icon.png" height="100">
 
 [jump.gates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-jump.gates/jump.gates.zip) | 1.99 mb | 2025-02-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/) | <a href="res/imagemd/jump.gates.md">view images</a> [23]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/jump.gates.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/jump.gates.png"><br>
 <br>
 >Adds a ring of "jump gates" at the borders of human space to create shortcuts inside human space. See the README for details.
 
@@ -2275,7 +2275,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/kestrel.unlocks/icon.png" height="100">
 
 [kestrel.unlocks.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-kestrel.unlocks/kestrel.unlocks.zip) | 6.64 kb | 2024-08-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kestrel.unlocks/) | <a href="res/imagemd/kestrel.unlocks.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/kestrel.unlocks.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/kestrel.unlocks.png"><br>
 <br>
 >Unlocks all Kestrel variants after you have unlocked the first one. See the README for details.
 
@@ -2320,7 +2320,7 @@ initial release<br>
 <img src="myplugins/kor.efret.shipyard/icon.png" height="100">
 
 [kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-kor.efret.shipyard/kor.efret.shipyard.zip) | 30.38 kb | 2024-11-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor.efret.shipyard/) | <a href="res/imagemd/kor.efret.shipyard.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/kor.efret.shipyard.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/kor.efret.shipyard.png"><br>
 <br>
 >Adds a shipyard with the three Kor Efret ships to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships and some Korath Exiles outfits. See the README for details.
 
@@ -2514,7 +2514,7 @@ reworked readme<br>
 <img src="myplugins/landing.images/icon.png" height="100">
 
 [landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-landing.images/landing.images.zip) | 15.32 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) | <a href="res/imagemd/landing.images.md">view images</a> [526]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/landing.images.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/landing.images.png"><br>
 <br>
 >Replaces all planet landing images with better fitting ones. See the README for details.
 
@@ -2584,7 +2584,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/landing.images.android/icon.png" height="100">
 
 [landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images.android/landing.images.android.zip) | 32.09 kb | 2024-08-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) | <a href="res/imagemd/landing.images.android.md">view images</a> [2]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/landing.images.android.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/landing.images.android.png"><br>
 <br>
 >Moves the landing image above the textbox, instead of behind the textbox (for ES mobile). See the README for details.
 
@@ -2676,7 +2676,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/landing.images.highres/icon.png" height="100">
 
 [landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-landing.images.highres/landing.images.highres.zip) | 67.11 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) | <a href="res/imagemd/landing.images.highres.md">view images</a> [526]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/landing.images.highres.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/landing.images.highres.png"><br>
 <br>
 >High resolution files for landing.images plugin. See the README for details.
 
@@ -2733,7 +2733,7 @@ initial release<br>
 <img src="myplugins/mission.helper/icon.png" height="100">
 
 [mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-mission.helper/mission.helper.zip) | 93.63 kb | 2025-02-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) | <a href="res/imagemd/mission.helper.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/mission.helper.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/mission.helper.png"><br>
 <br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the "source" and "to offer" of these missions, so you can easily find them. See the README for details.
 
@@ -2808,7 +2808,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/more.arfectas/icon.png" height="100">
 
 [more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-more.arfectas/more.arfectas.zip) | 30.79 kb | 2024-04-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) | <a href="res/imagemd/more.arfectas.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/more.arfectas.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/more.arfectas.png"><br>
 <br>
 >Adds the new system 'Mego Pug', in eastern Bunrodea space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the README for details.
 
@@ -2871,7 +2871,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
 
 [more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-more.boarding.missions/more.boarding.missions.zip) | 5.63 mb | 2025-02-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) | <a href="res/imagemd/more.boarding.missions.md">view images</a> [49]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/more.boarding.missions.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/more.boarding.missions.png"><br>
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the README for details.
 <details>
@@ -3066,7 +3066,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/more.person.ships/icon.png" height="100">
 
 [more.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-more.person.ships/more.person.ships.zip) | 4.6 mb | 2024-10-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/) | <a href="res/imagemd/more.person.ships.md">view images</a> [31]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/more.person.ships.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/more.person.ships.png"><br>
 <br>
 >This plugin adds more person ships to the different regions of the galaxy. See the README for details.
 
@@ -3181,7 +3181,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/navy.licenses/icon.png" height="100">
 
 [navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-navy.licenses/navy.licenses.zip) | 433.76 kb | 2024-11-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) | <a href="res/imagemd/navy.licenses.md">view images</a> [5]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/navy.licenses.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/navy.licenses.png"><br>
 <br>
 >Adds a mission on Stormhold (Alcyone system) which leads you to Geminus (Castor system) to buy the four Navy licenses. See the README for details.
 
@@ -3261,7 +3261,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/no.more.mereti.mines/icon.png" height="100">
 
 [no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-no.more.mereti.mines/no.more.mereti.mines.zip) | 81.6 kb | 2024-09-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) | <a href="res/imagemd/no.more.mereti.mines.md">view images</a> [3]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/no.more.mereti.mines.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/no.more.mereti.mines.png"><br>
 <br>
 >Removes the mines from Mereti ships and replaces them with Husk-Slice and Shield Disruptor guns, as well as Heat Shunts to increase game performance. See the README for details.
 
@@ -3326,7 +3326,7 @@ initial release<br>
 <img src="myplugins/outfits.weapon.slot/icon.png" height="100">
 
 [outfits.weapon.slot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-outfits.weapon.slot/outfits.weapon.slot.zip) | 885.35 kb | 2024-08-30 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/outfits.weapon.slot/) | <a href="res/imagemd/outfits.weapon.slot.md">view images</a> [27]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/outfits.weapon.slot.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/outfits.weapon.slot.png"><br>
 <br>
 >Adds several non-weapon outfits for gun and turret ports. See the README for details.
 
@@ -3384,7 +3384,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/paint.your.ships/icon.png" height="100">
 
 [paint.your.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-paint.your.ships/paint.your.ships.zip) | 134.3 kb | 2024-09-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/paint.your.ships/) | <a href="res/imagemd/paint.your.ships.md">view images</a> [3]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/paint.your.ships.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/paint.your.ships.png"><br>
 <br>
 >Offers a job on Earth to paint your ships. See the README for details.
 
@@ -3437,7 +3437,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/planet.map/icon.png" height="100">
 
 [planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-planet.map/planet.map.zip) | 5.0 mb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) | <a href="res/imagemd/planet.map.md">view images</a> [34]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/planet.map.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/planet.map.png"><br>
 <br>
 >Planetary map travelling concept : Land on Memory, visit the outfitter and follow the small story line. See the README for details.
 
@@ -3534,7 +3534,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/planet.pluto/icon.png" height="100">
 
 [planet.pluto.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-planet.pluto/planet.pluto.zip) | 219.8 kb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.pluto/) | <a href="res/imagemd/planet.pluto.md">view images</a> [5]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/planet.pluto.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/planet.pluto.png"><br>
 <br>
 >Adds Pluto and Charon to the Sol system, including a heartbreaking background story. (by timeout.fu)
 <details>
@@ -3576,7 +3576,7 @@ initial release<br>
 <img src="myplugins/quarg.farm/icon.png" height="100">
 
 [quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-quarg.farm/quarg.farm.zip) | 26.87 kb | 2025-01-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) | <a href="res/imagemd/quarg.farm.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/quarg.farm.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/quarg.farm.png"><br>
 <br>
 >Adds a new system "Saquerver" (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the README for details.
 
@@ -3642,7 +3642,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/show.reputation/icon.png" height="100">
 
 [show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-show.reputation/show.reputation.zip) | 40.78 kb | 2025-01-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) | <a href="res/imagemd/show.reputation.md">view images</a> [3]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/show.reputation.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/show.reputation.png"><br>
 <br>
 >Enables a job on every planet's job board, that shows the reputation values. See the README for details.
 
@@ -3718,7 +3718,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/snowfeather.robotics/icon.png" height="100">
 
 [snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-snowfeather.robotics/snowfeather.robotics.zip) | 1.74 mb | 2024-11-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) | <a href="res/imagemd/snowfeather.robotics.md">view images</a> [21]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/snowfeather.robotics.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/snowfeather.robotics.png"><br>
 <br>
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). Starts on Snowfeather(Bore Fah) when having at least one android installed. See the README for details.
 
@@ -3820,7 +3820,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/space.fauna/icon.png" height="100">
 
 [space.fauna.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.2-space.fauna/space.fauna.zip) | 1.67 mb | 2024-05-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/space.fauna/) | <a href="res/imagemd/space.fauna.md">view images</a> [17]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/space.fauna.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/space.fauna.png"><br>
 <br>
 >Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive. See the README for details.
 
@@ -3890,7 +3890,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/too.many.asteroids/icon.png" height="100">
 
 [too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-too.many.asteroids/too.many.asteroids.zip) | 19.47 kb | 2025-01-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) | <a href="res/imagemd/too.many.asteroids.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/too.many.asteroids.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/too.many.asteroids.png"><br>
 <br>
 >Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. Increases game performance. See the README for details.
 
@@ -3981,7 +3981,7 @@ added a python script which generates the asteroids.txt(in case I don't update t
 <img src="myplugins/tribute.republic/icon.png" height="100">
 
 [tribute.republic.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-tribute.republic/tribute.republic.zip) | 22.07 kb | 2024-08-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/tribute.republic/) | <a href="res/imagemd/tribute.republic.md">view images</a> [1]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/tribute.republic.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/tribute.republic.png"><br>
 <br>
 >Allows you to tribute all Republic planets, without losing Free Worlds or Deep Security reputation. See the README for details.
 
@@ -4044,7 +4044,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/uniques/icon.png" height="100">
 
 [uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-uniques/uniques.zip) | 9.61 mb | 2025-01-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [147]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/uniques.jpg"><br>
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/uniques.png"><br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
