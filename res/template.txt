@@ -34,9 +34,9 @@ I've got another new project, a github repository that lets you online generate 
 ### %name%
 
 %icon%
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/%name%.png">
 
 [%assetfile%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) %imagemd%<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/%name%.png"><br>
 <br>
 %description%
 <details>
