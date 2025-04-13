@@ -22,7 +22,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-03-31 | new download counter for each plugin<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: bunrodea.missions<br>
+2025-03-31 | new download counter for each plugin<br>
 2025-03-20 | update: galactic.capital.investment<br>
 2025-03-14 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: highrollers.ltd<br>
@@ -31,7 +32,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-28 | update: additional.command.buttons.radial<br>
 2025-02-26 | update: mission.helper<br>
 2025-02-23 | update: additional.command.buttons.radial<br>
-2025-02-20 | update: mission.helper<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -622,7 +622,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/bunrodea.missions.png">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-bunrodea.missions/bunrodea.missions.zip) | 2.92 mb | 2025-02-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [45]<br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-bunrodea.missions/bunrodea.missions.zip) | 2.95 mb | 2025-04-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [46]<br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the README for details.
 <details>
@@ -654,6 +654,16 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-04-13<br>
+
+added series for the 2 uniques<br>
+
+added @2xicon<br>
+
+added support for plugin BunrodeaRebellion (by YouKnowWho)<br>
 
 <br>
 
