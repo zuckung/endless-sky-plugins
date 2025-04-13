@@ -9,6 +9,7 @@ mission "hire combat isaac wirth"
 		random < 1
 	on decline
 		outfit "combat isaac wirth" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbm03"
@@ -30,6 +31,7 @@ mission "hire combat jessy tuta"
 		random < 1
 	on decline
 		outfit "combat jessy tuta" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbf02"
@@ -51,6 +53,7 @@ mission "hire combat kianoush royston"
 		random < 1
 	on decline
 		outfit "combat kianoush royston" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmam03"
@@ -72,6 +75,7 @@ mission "hire combat rodrigo bain"
 		random < 1
 	on decline
 		outfit "combat rodrigo bain" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbm04"
@@ -92,6 +96,7 @@ mission "hire combat tieeitch"
 		random < 1
 	on decline
 		outfit "combat tieeitch" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/gegno01"
@@ -112,6 +117,7 @@ mission "hire combat ainem wahpip"
 		random < 1
 	on decline
 		outfit "combat ainem wahpip" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/hai02"
@@ -133,6 +139,7 @@ mission "hire combat asvip rap"
 		random < 1
 	on decline
 		outfit "combat asvip rap" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/korath03"
@@ -155,6 +162,7 @@ mission "hire combat ry'i"
 		random < 1
 	on decline
 		outfit "combat ry'i" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/kimek03"
@@ -177,6 +185,7 @@ mission "hire combat lugub"
 		random < 1
 	on decline
 		outfit "combat lugub" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/arachi04"
@@ -198,6 +207,7 @@ mission "hire combat biana"
 		random < 1
 	on decline
 		outfit "combat biana" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/avgi01"
@@ -219,6 +229,7 @@ mission "hire cooling atreus bodilsen"
 		random < 1
 	on decline
 		outfit "cooling atreus bodilsen" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm01"
@@ -240,6 +251,7 @@ mission "hire cooling beckah feidhelm"
 		random < 1
 	on decline
 		outfit "cooling beckah feidhelm" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf01"
@@ -261,6 +273,7 @@ mission "hire cooling caspar laurentinus"
 		random < 1
 	on decline
 		outfit "cooling caspar laurentinus" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm02"
@@ -282,6 +295,7 @@ mission "hire cooling itoro signe"
 		random < 1
 	on decline
 		outfit "cooling itoro signe" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmaf01"
@@ -302,6 +316,7 @@ mission "hire cooling dyeisc"
 		random < 1
 	on decline
 		outfit "cooling dyeisc" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/gegno05"
@@ -322,6 +337,7 @@ mission "hire cooling lohmahow monuden"
 		random < 1
 	on decline
 		outfit "cooling lohmahow monuden" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/hai05"
@@ -343,6 +359,7 @@ mission "hire cooling krikey"
 		random < 1
 	on decline
 		outfit "cooling krikey" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/wanderer10"
@@ -364,6 +381,7 @@ mission "hire cooling kemme ranris"
 		random < 1
 	on decline
 		outfit "cooling kemme ranris" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/korath04"
@@ -386,6 +404,7 @@ mission "hire cooling lotura"
 		random < 1
 	on decline
 		outfit "cooling lotura" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/saryd01"
@@ -407,6 +426,7 @@ mission "hire cooling chana"
 		random < 1
 	on decline
 		outfit "cooling chana" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/avgi02"
@@ -428,6 +448,7 @@ mission "hire energy deirdre ciaran"
 		random < 1
 	on decline
 		outfit "energy deirdre ciaran" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf02"
@@ -449,6 +470,7 @@ mission "hire energy lisa zola"
 		random < 1
 	on decline
 		outfit "energy lisa zola" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf03"
@@ -470,6 +492,7 @@ mission "hire energy normand kiran"
 		random < 1
 	on decline
 		outfit "energy normand kiran" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm10"
@@ -491,6 +514,7 @@ mission "hire energy simona branka"
 		random < 1
 	on decline
 		outfit "energy simona branka" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf04"
@@ -511,6 +535,7 @@ mission "hire energy auriiel"
 		random < 1
 	on decline
 		outfit "energy auriiel" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/gegno02"
@@ -531,6 +556,7 @@ mission "hire energy akane sakai"
 		random < 1
 	on decline
 		outfit "energy akane sakai" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/bunrodea01"
@@ -552,6 +578,7 @@ mission "hire energy aikach"
 		random < 1
 	on decline
 		outfit "energy aikach" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/wanderer01"
@@ -572,6 +599,7 @@ mission "hire energy raindrop"
 		random < 1
 	on decline
 		outfit "energy raindrop" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/remnant04"
@@ -594,6 +622,7 @@ mission "hire energy paicha"
 		random < 1
 	on decline
 		outfit "energy paicha" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/kimek01"
@@ -615,6 +644,7 @@ mission "hire energy pilos"
 		random < 1
 	on decline
 		outfit "energy pilos" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/avgi03"
@@ -636,6 +666,7 @@ mission "hire engine anahit bodil"
 		random < 1
 	on decline
 		outfit "engine anahit bodil" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbf03"
@@ -657,6 +688,7 @@ mission "hire engine chetana jaleh"
 		random < 1
 	on decline
 		outfit "engine chetana jaleh" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbf01"
@@ -678,6 +710,7 @@ mission "hire engine neal fransson"
 		random < 1
 	on decline
 		outfit "engine neal fransson" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm03"
@@ -699,6 +732,7 @@ mission "hire engine valeriya jannick"
 		random < 1
 	on decline
 		outfit "engine valeriya jannick" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf05"
@@ -719,6 +753,7 @@ mission "hire engine efeduefyu"
 		random < 1
 	on decline
 		outfit "engine efeduefyu" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/gegno04"
@@ -739,6 +774,7 @@ mission "hire engine riko ishii"
 		random < 1
 	on decline
 		outfit "engine riko ishii" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/bunrodea02"
@@ -760,6 +796,7 @@ mission "hire engine ifir rakik"
 		random < 1
 	on decline
 		outfit "engine ifir rakik" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/korath05"
@@ -780,6 +817,7 @@ mission "hire engine midnight"
 		random < 1
 	on decline
 		outfit "engine midnight" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/remnant09"
@@ -802,6 +840,7 @@ mission "hire engine kyree"
 		random < 1
 	on decline
 		outfit "engine kyree" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/kimek04"
@@ -823,6 +862,7 @@ mission "hire engine ulos"
 		random < 1
 	on decline
 		outfit "engine ulos" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/avgi04"
@@ -844,6 +884,7 @@ mission "hire fuel carl ahmad"
 		random < 1
 	on decline
 		outfit "fuel carl ahmad" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmam04"
@@ -865,6 +906,7 @@ mission "hire fuel kfir balam"
 		random < 1
 	on decline
 		outfit "fuel kfir balam" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbm01"
@@ -886,6 +928,7 @@ mission "hire fuel kostis joona"
 		random < 1
 	on decline
 		outfit "fuel kostis joona" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm04"
@@ -907,6 +950,7 @@ mission "hire fuel nina sotiroula"
 		random < 1
 	on decline
 		outfit "fuel nina sotiroula" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbf04"
@@ -927,6 +971,7 @@ mission "hire fuel sookot dulur"
 		random < 1
 	on decline
 		outfit "fuel sookot dulur" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/hai06"
@@ -948,6 +993,7 @@ mission "hire fuel voriar"
 		random < 1
 	on decline
 		outfit "fuel voriar" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/wanderer02"
@@ -968,6 +1014,7 @@ mission "hire fuel ozon"
 		random < 1
 	on decline
 		outfit "fuel ozon" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/remnant06"
@@ -990,6 +1037,7 @@ mission "hire fuel comseci"
 		random < 1
 	on decline
 		outfit "fuel comseci" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/saryd05"
@@ -1010,6 +1058,7 @@ mission "hire fuel boudaa"
 		random < 1
 	on decline
 		outfit "fuel boudaa" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/successor01"
@@ -1031,6 +1080,7 @@ mission "hire fuel isi"
 		random < 1
 	on decline
 		outfit "fuel isi" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/avgi05"
@@ -1052,6 +1102,7 @@ mission "hire hull anuradha talin"
 		random < 1
 	on decline
 		outfit "hull anuradha talin" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmaf03"
@@ -1073,6 +1124,7 @@ mission "hire hull julia grainne"
 		random < 1
 	on decline
 		outfit "hull julia grainne" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf06"
@@ -1094,6 +1146,7 @@ mission "hire hull silvius hildegard"
 		random < 1
 	on decline
 		outfit "hull silvius hildegard" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm05"
@@ -1115,6 +1168,7 @@ mission "hire hull sabina draga"
 		random < 1
 	on decline
 		outfit "hull sabina draga" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf07"
@@ -1123,6 +1177,27 @@ mission "hire hull sabina draga"
 				`don't hire her (maybe you will meet her again)`
 					defer
 				`hire her`
+					decline
+
+mission "hire hull atras"
+	minor
+	invisible
+	source
+		government "Hicemus" "Conlatio"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "hull atras" 1
+		hiredexperts ++
+	on offer
+		conversation
+			scene "portrait/incipias05"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. He is looking for work. His name is Atras, he is an Incipias, and he demands a daily wage of 3700 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
 					decline
 
 mission "hire hull shiro kan"
@@ -1135,6 +1210,7 @@ mission "hire hull shiro kan"
 		random < 1
 	on decline
 		outfit "hull shiro kan" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/bunrodea03"
@@ -1156,6 +1232,7 @@ mission "hire hull ak'en oaip"
 		random < 1
 	on decline
 		outfit "hull ak'en oaip" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/korath07"
@@ -1178,6 +1255,7 @@ mission "hire hull achee"
 		random < 1
 	on decline
 		outfit "hull achee" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/kimek02"
@@ -1200,6 +1278,7 @@ mission "hire hull potamog"
 		random < 1
 	on decline
 		outfit "hull potamog" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/arachi01"
@@ -1220,6 +1299,7 @@ mission "hire hull kinmi"
 		random < 1
 	on decline
 		outfit "hull kinmi" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/successor02"
@@ -1241,6 +1321,7 @@ mission "hire jamming aline mai"
 		random < 1
 	on decline
 		outfit "jamming aline mai" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmaf04"
@@ -1262,6 +1343,7 @@ mission "hire jamming dominik bullock"
 		random < 1
 	on decline
 		outfit "jamming dominik bullock" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm06"
@@ -1283,6 +1365,7 @@ mission "hire jamming enver diefenbach"
 		random < 1
 	on decline
 		outfit "jamming enver diefenbach" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm07"
@@ -1304,6 +1387,7 @@ mission "hire jamming raban fields"
 		random < 1
 	on decline
 		outfit "jamming raban fields" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmam05"
@@ -1324,10 +1408,32 @@ mission "hire jamming umeo ageta"
 		random < 1
 	on decline
 		outfit "jamming umeo ageta" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/bunrodea07"
 			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Umeo Ageta, he is a Bunrodea, and he demands a daily wage of 3800 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+
+mission "hire jamming merus"
+	minor
+	invisible
+	source
+		government "Hicemus" "Conlatio"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "jamming merus" 1
+		hiredexperts ++
+	on offer
+		conversation
+			scene "portrait/incipias04"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Merus, he is an Incipias, and he demands a daily wage of 4000 credits.`
 			choice
 				`don't hire him (maybe you will meet him again)`
 					defer
@@ -1344,6 +1450,7 @@ mission "hire jamming snowfall"
 		random < 1
 	on decline
 		outfit "jamming snowfall" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/remnant01"
@@ -1366,6 +1473,7 @@ mission "hire jamming temtuor"
 		random < 1
 	on decline
 		outfit "jamming temtuor" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/saryd04"
@@ -1388,6 +1496,7 @@ mission "hire jamming plortab"
 		random < 1
 	on decline
 		outfit "jamming plortab" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/arachi02"
@@ -1408,6 +1517,7 @@ mission "hire jamming naaq"
 		random < 1
 	on decline
 		outfit "jamming naaq" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/successor03"
@@ -1429,6 +1539,7 @@ mission "hire scanner ivanus kozlov"
 		random < 1
 	on decline
 		outfit "scanner ivanus kozlov" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm08"
@@ -1450,6 +1561,7 @@ mission "hire scanner mikmel wanjala"
 		random < 1
 	on decline
 		outfit "scanner mikmel wanjala" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbm05"
@@ -1471,6 +1583,7 @@ mission "hire scanner saffira ivka"
 		random < 1
 	on decline
 		outfit "scanner saffira ivka" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmaf05"
@@ -1479,6 +1592,27 @@ mission "hire scanner saffira ivka"
 				`don't hire her (maybe you will meet her again)`
 					defer
 				`hire her`
+					decline
+
+mission "hire scanner kasar"
+	minor
+	invisible
+	source
+		government "Hicemus" "Conlatio"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "scanner kasar" 1
+		hiredexperts ++
+	on offer
+		conversation
+			scene "portrait/incipias03"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work. His name is Kasar, he is an Incipias, and he demands a daily wage of 3100 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
 					decline
 
 mission "hire scanner tichaona yong"
@@ -1492,6 +1626,7 @@ mission "hire scanner tichaona yong"
 		random < 1
 	on decline
 		outfit "scanner tichaona yong" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmaf02"
@@ -1512,6 +1647,7 @@ mission "hire scanner rashi vaitle"
 		random < 1
 	on decline
 		outfit "scanner rashi vaitle" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/hai10"
@@ -1533,6 +1669,7 @@ mission "hire scanner kriik"
 		random < 1
 	on decline
 		outfit "scanner kriik" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/wanderer05"
@@ -1555,6 +1692,7 @@ mission "hire scanner expari"
 		random < 1
 	on decline
 		outfit "scanner expari" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/saryd03"
@@ -1577,6 +1715,7 @@ mission "hire scanner tugrup"
 		random < 1
 	on decline
 		outfit "scanner tugrup" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/arachi03"
@@ -1597,6 +1736,7 @@ mission "hire scanner oublaa"
 		random < 1
 	on decline
 		outfit "scanner oublaa" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/successor04"
@@ -1618,6 +1758,7 @@ mission "hire shield lucille meritites"
 		random < 1
 	on decline
 		outfit "shield lucille meritites" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbf05"
@@ -1639,6 +1780,7 @@ mission "hire shield sonja halimah"
 		random < 1
 	on decline
 		outfit "shield sonja halimah" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf10"
@@ -1660,6 +1802,7 @@ mission "hire shield taisto nithin"
 		random < 1
 	on decline
 		outfit "shield taisto nithin" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmam01"
@@ -1668,6 +1811,27 @@ mission "hire shield taisto nithin"
 				`don't hire him (maybe you will meet him again)`
 					defer
 				`hire him`
+					decline
+
+mission "hire shield lativa"
+	minor
+	invisible
+	source
+		government "Hicemus" "Conlatio"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "shield lativa" 1
+		hiredexperts ++
+	on offer
+		conversation
+			scene "portrait/incipias02"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. She is looking for work. Her name is Lativa, she is an Incipias, and she demands a daily wage of 3400 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
 					decline
 
 mission "hire shield monika raganhildis"
@@ -1681,6 +1845,7 @@ mission "hire shield monika raganhildis"
 		random < 1
 	on decline
 		outfit "shield monika raganhildis" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf08"
@@ -1701,6 +1866,7 @@ mission "hire shield saburo aoki"
 		random < 1
 	on decline
 		outfit "shield saburo aoki" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/bunrodea09"
@@ -1722,6 +1888,7 @@ mission "hire shield ilesam bableh"
 		random < 1
 	on decline
 		outfit "shield ilesam bableh" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/korath10"
@@ -1744,6 +1911,7 @@ mission "hire shield nisieum"
 		random < 1
 	on decline
 		outfit "shield nisieum" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/saryd02"
@@ -1766,6 +1934,7 @@ mission "hire shield chi'a"
 		random < 1
 	on decline
 		outfit "shield chi'a" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/kimek05"
@@ -1786,6 +1955,7 @@ mission "hire shield uondi"
 		random < 1
 	on decline
 		outfit "shield uondi" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/successor05"
@@ -1807,6 +1977,7 @@ mission "hire storage darius hasegawa"
 		random < 1
 	on decline
 		outfit "storage darius hasegawa" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmam02"
@@ -1828,6 +1999,7 @@ mission "hire storage eduardo wapasha"
 		random < 1
 	on decline
 		outfit "storage eduardo wapasha" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbm02"
@@ -1849,6 +2021,7 @@ mission "hire storage mani godefrid"
 		random < 1
 	on decline
 		outfit "storage mani godefrid" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm09"
@@ -1857,6 +2030,27 @@ mission "hire storage mani godefrid"
 				`don't hire him (maybe you will meet him again)`
 					defer
 				`hire him`
+					decline
+
+mission "hire storage aelia"
+	minor
+	invisible
+	source
+		government "Hicemus" "Conlatio"
+		attributes "outfitter"
+	to offer
+		random < 1
+	on decline
+		outfit "storage aelia" 1
+		hiredexperts ++
+	on offer
+		conversation
+			scene "portrait/incipias01"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. She is looking for work. Her name is Aelia, she is an Incipias, and she demands a daily wage of 3100 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
 					decline
 
 mission "hire storage marie zohreh"
@@ -1870,6 +2064,7 @@ mission "hire storage marie zohreh"
 		random < 1
 	on decline
 		outfit "storage marie zohreh" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf09"
@@ -1890,6 +2085,7 @@ mission "hire storage yxoorevyt"
 		random < 1
 	on decline
 		outfit "storage yxoorevyt" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/gegno03"
@@ -1910,6 +2106,7 @@ mission "hire storage touna farchi"
 		random < 1
 	on decline
 		outfit "storage touna farchi" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/hai07"
@@ -1931,6 +2128,7 @@ mission "hire storage reisek"
 		random < 1
 	on decline
 		outfit "storage reisek" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/wanderer06"
@@ -1951,6 +2149,7 @@ mission "hire storage swift"
 		random < 1
 	on decline
 		outfit "storage swift" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/remnant02"
@@ -1973,6 +2172,7 @@ mission "hire storage mupoop"
 		random < 1
 	on decline
 		outfit "storage mupoop" 1
+		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/arachi05"

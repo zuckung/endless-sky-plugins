@@ -1,6 +1,15 @@
-# final mission after hiring all crew members
-# outfit galaxy hologram
+# mission "setup expert.crew.members"
+# mission "all crew members hired" / final mission after hiring all crew members
+# outfit "Galaxy Hologram"
 
+
+mission "setup expert.crew.members"
+	non-blocking
+	invisible 
+	landing
+	on offer
+		hiredexperts = 0
+		fail
 
 
 mission "all crew members hired"
@@ -97,6 +106,7 @@ mission "all crew members hired"
 		has "hire energy pilos: declined"
 		has "hire engine ulos: declined"
 		has "hire fuel isi: declined"
+		has "hire storage aelia: declined"
 	on offer
 		outfit "Galaxy Hologram"
 		conversation

@@ -3,6 +3,8 @@ category "outfit"
 
 outfit "combat isaac wirth"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Combat) Isaac Wirth"
 	thumbnail "portrait/ecmbm03"
 	"operating costs" 2000
@@ -15,6 +17,8 @@ outfit "combat isaac wirth"
 
 outfit "combat jessy tuta"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Combat) Jessy Tuta"
 	thumbnail "portrait/ecmbf02"
 	"operating costs" 2600
@@ -27,6 +31,8 @@ outfit "combat jessy tuta"
 
 outfit "combat kianoush royston"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Combat) Kianoush Royston"
 	thumbnail "portrait/ecmam03"
 	"operating costs" 3100
@@ -39,6 +45,8 @@ outfit "combat kianoush royston"
 
 outfit "combat rodrigo bain"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Combat) Rodrigo Bain"
 	thumbnail "portrait/ecmbm04"
 	"operating costs" 3500
@@ -51,6 +59,8 @@ outfit "combat rodrigo bain"
 
 outfit "combat tieeitch"
 	category "Crew"
+	series "Unique"
+	index 06100
 	"display name" "(Combat) Tieeitch"
 	thumbnail "portrait/gegno01"
 	"operating costs" 3600
@@ -63,6 +73,8 @@ outfit "combat tieeitch"
 
 outfit "combat ainem wahpip"
 	category "Crew"
+	series "Unique"
+	index 02100
 	"display name" "(Combat) Ainem Wahpip"
 	thumbnail "portrait/hai02"
 	"operating costs" 3800
@@ -75,6 +87,8 @@ outfit "combat ainem wahpip"
 
 outfit "combat asvip rap"
 	category "Crew"
+	series "Unique"
+	index 04100
 	"display name" "(Combat) Asvip Rap"
 	thumbnail "portrait/korath03"
 	"operating costs" 4300
@@ -87,6 +101,8 @@ outfit "combat asvip rap"
 
 outfit "combat ry'i"
 	category "Crew"
+	series "Unique"
+	index 08110
 	"display name" "(Combat) Ry'i"
 	thumbnail "portrait/kimek03"
 	"operating costs" 4600
@@ -99,6 +115,8 @@ outfit "combat ry'i"
 
 outfit "combat lugub"
 	category "Crew"
+	series "Unique"
+	index 08100
 	"display name" "(Combat) Lugub"
 	thumbnail "portrait/arachi04"
 	"operating costs" 5000
@@ -111,6 +129,8 @@ outfit "combat lugub"
 
 outfit "combat biana"
 	category "Crew"
+	series "Unique"
+	index 07100
 	"display name" "(Combat) Biana"
 	thumbnail "portrait/avgi01"
 	"operating costs" 1900
@@ -123,6 +143,8 @@ outfit "combat biana"
 
 outfit "cooling atreus bodilsen"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Cooling) Atreus Bodilsen"
 	thumbnail "portrait/ecmwm01"
 	"operating costs" 2200
@@ -135,6 +157,8 @@ outfit "cooling atreus bodilsen"
 
 outfit "cooling beckah feidhelm"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Cooling) Beckah Feidhelm"
 	thumbnail "portrait/ecmwf01"
 	"operating costs" 2900
@@ -148,6 +172,8 @@ outfit "cooling beckah feidhelm"
 outfit "cooling caspar laurentinus"
 	plural "(Cooling) Caspar Laurentinus"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Cooling) Caspar Laurentinus"
 	thumbnail "portrait/ecmwm02"
 	"operating costs" 3000
@@ -160,6 +186,8 @@ outfit "cooling caspar laurentinus"
 
 outfit "cooling itoro signe"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Cooling) Itoro Signe"
 	thumbnail "portrait/ecmaf01"
 	"operating costs" 3600
@@ -172,6 +200,8 @@ outfit "cooling itoro signe"
 
 outfit "cooling dyeisc"
 	category "Crew"
+	series "Unique"
+	index 06100
 	"display name" "(Cooling) Dyeisc"
 	thumbnail "portrait/gegno05"
 	"operating costs" 3800
@@ -184,6 +214,8 @@ outfit "cooling dyeisc"
 
 outfit "cooling lohmahow monuden"
 	category "Crew"
+	series "Unique"
+	index 02100
 	"display name" "(Cooling) Lohmahow Monuden"
 	thumbnail "portrait/hai05"
 	"operating costs" 4000
@@ -196,6 +228,8 @@ outfit "cooling lohmahow monuden"
 
 outfit "cooling krikey"
 	category "Crew"
+	series "Unique"
+	index 09100
 	"display name" "(Cooling) Krikey"
 	thumbnail "portrait/wanderer10"
 	"operating costs" 4100
@@ -209,6 +243,8 @@ outfit "cooling krikey"
 outfit "cooling kemme ranris"
 	plural "(Cooling) Kemme Ranris"
 	category "Crew"
+	series "Unique"
+	index 04100
 	"display name" "(Cooling) Kemme Ranris"
 	thumbnail "portrait/korath04"
 	"operating costs" 4200
@@ -221,6 +257,8 @@ outfit "cooling kemme ranris"
 
 outfit "cooling lotura"
 	category "Crew"
+	series "Unique"
+	index 08120
 	"display name" "(Cooling) Lotura"
 	thumbnail "portrait/saryd01"
 	"operating costs" 4900
@@ -233,6 +271,8 @@ outfit "cooling lotura"
 
 outfit "cooling chana"
 	category "Crew"
+	series "Unique"
+	index 07100
 	"display name" "(Cooling) Chana"
 	thumbnail "portrait/avgi02"
 	"operating costs" 3300
@@ -245,6 +285,8 @@ outfit "cooling chana"
 
 outfit "energy deirdre ciaran"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Energy) Deirdre Ciaran"
 	thumbnail "portrait/ecmwf02"
 	"operating costs" 2100
@@ -257,6 +299,8 @@ outfit "energy deirdre ciaran"
 
 outfit "energy lisa zola"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Energy) Lisa Zola"
 	thumbnail "portrait/ecmwf03"
 	"operating costs" 2500
@@ -269,6 +313,8 @@ outfit "energy lisa zola"
 
 outfit "energy normand kiran"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Energy) Normand Kiran"
 	thumbnail "portrait/ecmwm10"
 	"operating costs" 2900
@@ -281,6 +327,8 @@ outfit "energy normand kiran"
 
 outfit "energy simona branka"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Energy) Simona Branka"
 	thumbnail "portrait/ecmwf04"
 	"operating costs" 3400
@@ -293,6 +341,8 @@ outfit "energy simona branka"
 
 outfit "energy auriiel"
 	category "Crew"
+	series "Unique"
+	index 06100
 	"display name" "(Energy) Auriiel"
 	thumbnail "portrait/gegno02"
 	"operating costs" 3600
@@ -305,6 +355,8 @@ outfit "energy auriiel"
 
 outfit "energy akane sakai"
 	category "Crew"
+	series "Unique"
+	index 10100
 	"display name" "(Energy) Akane Sakai"
 	thumbnail "portrait/bunrodea01"
 	"operating costs" 3700
@@ -317,6 +369,8 @@ outfit "energy akane sakai"
 
 outfit "energy aikach"
 	category "Crew"
+	series "Unique"
+	index 09100
 	"display name" "(Energy) Aikach"
 	thumbnail "portrait/wanderer01"
 	"operating costs" 3900
@@ -329,6 +383,8 @@ outfit "energy aikach"
 
 outfit "energy raindrop"
 	category "Crew"
+	series "Unique"
+	index 03100
 	"display name" "(Energy) Raindrop"
 	thumbnail "portrait/remnant04"
 	"operating costs" 4200
@@ -341,6 +397,8 @@ outfit "energy raindrop"
 
 outfit "energy paicha"
 	category "Crew"
+	series "Unique"
+	index 08110
 	"display name" "(Energy) Paicha"
 	thumbnail "portrait/kimek01"
 	"operating costs" 4600
@@ -354,6 +412,8 @@ outfit "energy paicha"
 outfit "energy pilos"
 	plural "(Energy) Pilos"
 	category "Crew"
+	series "Unique"
+	index 07100
 	"display name" "(Energy) Pilos"
 	thumbnail "portrait/avgi03"
 	"operating costs" 2400
@@ -366,6 +426,8 @@ outfit "energy pilos"
 
 outfit "engine anahit bodil"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Engine) Anahit Bodil"
 	thumbnail "portrait/ecmbf03"
 	"operating costs" 2000
@@ -374,10 +436,13 @@ outfit "engine anahit bodil"
 	"unique" 1
 	"thrust" 8 
 	"turn" 250 
+	"reverse thrust" 10 
 	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "core".`
 
 outfit "engine chetana jaleh"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Engine) Chetana Jaleh"
 	thumbnail "portrait/ecmbf01"
 	"operating costs" 2800
@@ -386,10 +451,13 @@ outfit "engine chetana jaleh"
 	"unique" 1
 	"thrust" 8 
 	"turn" 275 
+	"afterburner thrust" 25 
 	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "deep".`
 
 outfit "engine neal fransson"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Engine) Neal Fransson"
 	thumbnail "portrait/ecmwm03"
 	"operating costs" 3200
@@ -398,10 +466,13 @@ outfit "engine neal fransson"
 	"unique" 1
 	"thrust" 9 
 	"turn" 275 
+	"reverse thrust" 11 
 	description `This is a highly educated employee focused on engine technologies. He is a Human, grown up in "south".`
 
 outfit "engine valeriya jannick"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Engine) Valeriya Jannick"
 	thumbnail "portrait/ecmwf05"
 	"operating costs" 3600
@@ -410,10 +481,13 @@ outfit "engine valeriya jannick"
 	"unique" 1
 	"thrust" 10 
 	"turn" 300 
+	"afterburner thrust" 28 
 	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "near earth".`
 
 outfit "engine efeduefyu"
 	category "Crew"
+	series "Unique"
+	index 06100
 	"display name" "(Engine) Efeduefyu"
 	thumbnail "portrait/gegno04"
 	"operating costs" 3700
@@ -422,10 +496,13 @@ outfit "engine efeduefyu"
 	"unique" 1
 	"thrust" 10 
 	"turn" 300 
+	"reverse thrust" 12 
 	description `This is a highly educated employee focused on engine technologies. He is a Gegno.`
 
 outfit "engine riko ishii"
 	category "Crew"
+	series "Unique"
+	index 10100
 	"display name" "(Engine) Riko Ishii"
 	thumbnail "portrait/bunrodea02"
 	"operating costs" 3900
@@ -434,10 +511,13 @@ outfit "engine riko ishii"
 	"unique" 1
 	"thrust" 11 
 	"turn" 325 
+	"afterburner thrust" 31 
 	description `This is a highly educated employee focused on engine technologies. She is a Bunrodea.`
 
 outfit "engine ifir rakik"
 	category "Crew"
+	series "Unique"
+	index 04100
 	"display name" "(Engine) Ifir Rakik"
 	thumbnail "portrait/korath05"
 	"operating costs" 4200
@@ -446,10 +526,13 @@ outfit "engine ifir rakik"
 	"unique" 1
 	"thrust" 12 
 	"turn" 325 
+	"reverse thrust" 13 
 	description `This is a highly educated employee focused on engine technologies. He is a Korath.`
 
 outfit "engine midnight"
 	category "Crew"
+	series "Unique"
+	index 03100
 	"display name" "(Engine) Midnight"
 	thumbnail "portrait/remnant09"
 	"operating costs" 4400
@@ -458,10 +541,13 @@ outfit "engine midnight"
 	"unique" 1
 	"thrust" 13 
 	"turn" 350 
+	"afterburner thrust" 33 
 	description `This is a highly educated employee focused on engine technologies. He is a Remnant.`
 
 outfit "engine kyree"
 	category "Crew"
+	series "Unique"
+	index 08110
 	"display name" "(Engine) Kyree"
 	thumbnail "portrait/kimek04"
 	"operating costs" 4900
@@ -470,11 +556,14 @@ outfit "engine kyree"
 	"unique" 1
 	"thrust" 13 
 	"turn" 375 
+	"reverse thrust" 15 
 	description `This is a highly educated employee focused on engine technologies. She is a Kimek.`
 
 outfit "engine ulos"
 	plural "(Engine) Ulos"
 	category "Crew"
+	series "Unique"
+	index 07100
 	"display name" "(Engine) Ulos"
 	thumbnail "portrait/avgi04"
 	"operating costs" 4000
@@ -483,10 +572,13 @@ outfit "engine ulos"
 	"unique" 1
 	"thrust" 10 
 	"turn" 350 
+	"afterburner thrust" 37 
 	description `This is a highly educated employee focused on engine technologies. He is an Avgi.`
 
 outfit "fuel carl ahmad"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Fuel) Carl Ahmad"
 	thumbnail "portrait/ecmam04"
 	"operating costs" 2300
@@ -499,6 +591,8 @@ outfit "fuel carl ahmad"
 
 outfit "fuel kfir balam"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Fuel) Kfir Balam"
 	thumbnail "portrait/ecmbm01"
 	"operating costs" 2800
@@ -511,6 +605,8 @@ outfit "fuel kfir balam"
 
 outfit "fuel kostis joona"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Fuel) Kostis Joona"
 	thumbnail "portrait/ecmwm04"
 	"operating costs" 3100
@@ -523,6 +619,8 @@ outfit "fuel kostis joona"
 
 outfit "fuel nina sotiroula"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Fuel) Nina Sotiroula"
 	thumbnail "portrait/ecmbf04"
 	"operating costs" 3400
@@ -535,6 +633,8 @@ outfit "fuel nina sotiroula"
 
 outfit "fuel sookot dulur"
 	category "Crew"
+	series "Unique"
+	index 02100
 	"display name" "(Fuel) Sookot Dulur"
 	thumbnail "portrait/hai06"
 	"operating costs" 3800
@@ -547,6 +647,8 @@ outfit "fuel sookot dulur"
 
 outfit "fuel voriar"
 	category "Crew"
+	series "Unique"
+	index 09100
 	"display name" "(Fuel) Voriar"
 	thumbnail "portrait/wanderer02"
 	"operating costs" 4000
@@ -559,6 +661,8 @@ outfit "fuel voriar"
 
 outfit "fuel ozon"
 	category "Crew"
+	series "Unique"
+	index 03100
 	"display name" "(Fuel) Ozon"
 	thumbnail "portrait/remnant06"
 	"operating costs" 4500
@@ -571,6 +675,8 @@ outfit "fuel ozon"
 
 outfit "fuel comseci"
 	category "Crew"
+	series "Unique"
+	index 08120
 	"display name" "(Fuel) Comseci"
 	thumbnail "portrait/saryd05"
 	"operating costs" 5000
@@ -583,6 +689,8 @@ outfit "fuel comseci"
 
 outfit "fuel boudaa"
 	category "Crew"
+	series "Unique"
+	index 11100
 	"display name" "(Fuel) Boudaa"
 	thumbnail "portrait/successor01"
 	"operating costs" 4600
@@ -595,6 +703,8 @@ outfit "fuel boudaa"
 
 outfit "fuel isi"
 	category "Crew"
+	series "Unique"
+	index 07100
 	"display name" "(Fuel) Isi"
 	thumbnail "portrait/avgi05"
 	"operating costs" 4700
@@ -607,6 +717,8 @@ outfit "fuel isi"
 
 outfit "hull anuradha talin"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Hull) Anuradha Talin"
 	thumbnail "portrait/ecmaf03"
 	"operating costs" 2100
@@ -619,6 +731,8 @@ outfit "hull anuradha talin"
 
 outfit "hull julia grainne"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Hull) Julia Grainne"
 	thumbnail "portrait/ecmwf06"
 	"operating costs" 2600
@@ -631,6 +745,8 @@ outfit "hull julia grainne"
 
 outfit "hull silvius hildegard"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Hull) Silvius Hildegard"
 	thumbnail "portrait/ecmwm05"
 	"operating costs" 3200
@@ -639,10 +755,13 @@ outfit "hull silvius hildegard"
 	"unique" 1
 	"hull repair rate" .14 
 	"hull" 600 
+	"hull multiplier" .01 
 	description `This is a highly educated employee focused on hull effectivity. He is a Human, grown up in "north".`
 
 outfit "hull sabina draga"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Hull) Sabina Draga"
 	thumbnail "portrait/ecmwf07"
 	"operating costs" 3500
@@ -653,8 +772,26 @@ outfit "hull sabina draga"
 	"hull" 700 
 	description `This is a highly educated employee focused on hull effectivity. She is a Human, grown up in "south".`
 
+outfit "hull atras"
+	plural "(Hull) Atras"
+	category "Crew"
+	series "Unique"
+	index 12100
+	"display name" "(Hull) Atras"
+	thumbnail "portrait/incipias05"
+	"operating costs" 3700
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"hull repair rate" .15 
+	"hull" 650 
+	"disabled recovery time" 1800 
+	description `This is a highly educated employee focused on hull effectivity. He is an Incipias.`
+
 outfit "hull shiro kan"
 	category "Crew"
+	series "Unique"
+	index 10100
 	"display name" "(Hull) Shiro Kan"
 	thumbnail "portrait/bunrodea03"
 	"operating costs" 3900
@@ -663,10 +800,13 @@ outfit "hull shiro kan"
 	"unique" 1
 	"hull repair rate" .15 
 	"hull" 800 
+	"hull multiplier" .01 
 	description `This is a highly educated employee focused on hull effectivity. He is a Bunrodea.`
 
 outfit "hull ak'en oaip"
 	category "Crew"
+	series "Unique"
+	index 04100
 	"display name" "(Hull) Ak'en Oaip"
 	thumbnail "portrait/korath07"
 	"operating costs" 4300
@@ -679,6 +819,8 @@ outfit "hull ak'en oaip"
 
 outfit "hull achee"
 	category "Crew"
+	series "Unique"
+	index 08110
 	"display name" "(Hull) Achee"
 	thumbnail "portrait/kimek02"
 	"operating costs" 4700
@@ -687,10 +829,13 @@ outfit "hull achee"
 	"unique" 1
 	"hull repair rate" .18 
 	"hull" 1000 
+	"hull multiplier" .01 
 	description `This is a highly educated employee focused on hull effectivity. He is a Kimek.`
 
 outfit "hull potamog"
 	category "Crew"
+	series "Unique"
+	index 08100
 	"display name" "(Hull) Potamog"
 	thumbnail "portrait/arachi01"
 	"operating costs" 4900
@@ -703,6 +848,8 @@ outfit "hull potamog"
 
 outfit "hull kinmi"
 	category "Crew"
+	series "Unique"
+	index 11100
 	"display name" "(Hull) Kinmi"
 	thumbnail "portrait/successor02"
 	"operating costs" 4800
@@ -711,10 +858,13 @@ outfit "hull kinmi"
 	"unique" 1
 	"hull repair rate" .17 
 	"hull" 1200 
+	"disabled recovery time" 1800 
 	description `This is a highly educated employee focused on hull effectivity. She is a Successor.`
 
 outfit "jamming aline mai"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Jamming) Aline Mai"
 	thumbnail "portrait/ecmaf04"
 	"operating costs" 2200
@@ -727,6 +877,8 @@ outfit "jamming aline mai"
 
 outfit "jamming dominik bullock"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Jamming) Dominik Bullock"
 	thumbnail "portrait/ecmwm06"
 	"operating costs" 2800
@@ -739,6 +891,8 @@ outfit "jamming dominik bullock"
 
 outfit "jamming enver diefenbach"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Jamming) Enver Diefenbach"
 	thumbnail "portrait/ecmwm07"
 	"operating costs" 3200
@@ -752,6 +906,8 @@ outfit "jamming enver diefenbach"
 outfit "jamming raban fields"
 	plural "(Jamming) Raban Fields"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Jamming) Raban Fields"
 	thumbnail "portrait/ecmam05"
 	"operating costs" 3600
@@ -764,6 +920,8 @@ outfit "jamming raban fields"
 
 outfit "jamming umeo ageta"
 	category "Crew"
+	series "Unique"
+	index 10100
 	"display name" "(Jamming) Umeo Ageta"
 	thumbnail "portrait/bunrodea07"
 	"operating costs" 3800
@@ -774,8 +932,25 @@ outfit "jamming umeo ageta"
 	"scan concealment" 3 
 	description `This is a highly educated employee focused on jamming technologies. He is a Bunrodea.`
 
+outfit "jamming merus"
+	plural "(Jamming) Merus"
+	category "Crew"
+	series "Unique"
+	index 12100
+	"display name" "(Jamming) Merus"
+	thumbnail "portrait/incipias04"
+	"operating costs" 4000
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"radar jamming" 11 
+	"optical jamming" 11 
+	description `This is a highly educated employee focused on jamming technologies. He is an Incipias.`
+
 outfit "jamming snowfall"
 	category "Crew"
+	series "Unique"
+	index 03100
 	"display name" "(Jamming) Snowfall"
 	thumbnail "portrait/remnant01"
 	"operating costs" 4100
@@ -788,6 +963,8 @@ outfit "jamming snowfall"
 
 outfit "jamming temtuor"
 	category "Crew"
+	series "Unique"
+	index 08120
 	"display name" "(Jamming) Temtuor"
 	thumbnail "portrait/saryd04"
 	"operating costs" 4600
@@ -800,6 +977,8 @@ outfit "jamming temtuor"
 
 outfit "jamming plortab"
 	category "Crew"
+	series "Unique"
+	index 08100
 	"display name" "(Jamming) Plortab"
 	thumbnail "portrait/arachi02"
 	"operating costs" 4900
@@ -812,6 +991,8 @@ outfit "jamming plortab"
 
 outfit "jamming naaq"
 	category "Crew"
+	series "Unique"
+	index 11100
 	"display name" "(Jamming) Naaq"
 	thumbnail "portrait/successor03"
 	"operating costs" 5000
@@ -824,6 +1005,8 @@ outfit "jamming naaq"
 
 outfit "scanner ivanus kozlov"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Scanner) Ivanus Kozlov"
 	thumbnail "portrait/ecmwm08"
 	"operating costs" 2000
@@ -837,6 +1020,8 @@ outfit "scanner ivanus kozlov"
 
 outfit "scanner mikmel wanjala"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Scanner) Mikmel Wanjala"
 	thumbnail "portrait/ecmbm05"
 	"operating costs" 2500
@@ -850,6 +1035,8 @@ outfit "scanner mikmel wanjala"
 
 outfit "scanner saffira ivka"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Scanner) Saffira Ivka"
 	thumbnail "portrait/ecmaf05"
 	"operating costs" 2900
@@ -861,8 +1048,25 @@ outfit "scanner saffira ivka"
 	"crew scan power" 150 
 	description `This is a highly educated employee focused on scanner technologies. She is a Human, grown up in "near earth".`
 
+outfit "scanner kasar"
+	category "Crew"
+	series "Unique"
+	index 12100
+	"display name" "(Scanner) Kasar"
+	thumbnail "portrait/incipias03"
+	"operating costs" 3100
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"cargo scan power" 35 
+	"cargo scan efficiency" 12 
+	"crew scan power" 150 
+	description `This is a highly educated employee focused on scanner technologies. He is an Incipias.`
+
 outfit "scanner tichaona yong"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Scanner) Tichaona Yong"
 	thumbnail "portrait/ecmaf02"
 	"operating costs" 3400
@@ -876,6 +1080,8 @@ outfit "scanner tichaona yong"
 
 outfit "scanner rashi vaitle"
 	category "Crew"
+	series "Unique"
+	index 02100
 	"display name" "(Scanner) Rashi Vaitle"
 	thumbnail "portrait/hai10"
 	"operating costs" 4000
@@ -889,6 +1095,8 @@ outfit "scanner rashi vaitle"
 
 outfit "scanner kriik"
 	category "Crew"
+	series "Unique"
+	index 09100
 	"display name" "(Scanner) Kriik"
 	thumbnail "portrait/wanderer05"
 	"operating costs" 4200
@@ -902,6 +1110,8 @@ outfit "scanner kriik"
 
 outfit "scanner expari"
 	category "Crew"
+	series "Unique"
+	index 08120
 	"display name" "(Scanner) Expari"
 	thumbnail "portrait/saryd03"
 	"operating costs" 4600
@@ -915,6 +1125,8 @@ outfit "scanner expari"
 
 outfit "scanner tugrup"
 	category "Crew"
+	series "Unique"
+	index 08100
 	"display name" "(Scanner) Tugrup"
 	thumbnail "portrait/arachi03"
 	"operating costs" 5000
@@ -928,6 +1140,8 @@ outfit "scanner tugrup"
 
 outfit "scanner oublaa"
 	category "Crew"
+	series "Unique"
+	index 11100
 	"display name" "(Scanner) Oublaa"
 	thumbnail "portrait/successor04"
 	"operating costs" 4500
@@ -942,6 +1156,8 @@ outfit "scanner oublaa"
 outfit "shield lucille meritites"
 	plural "(Shield) Lucille Meritites"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Shield) Lucille Meritites"
 	thumbnail "portrait/ecmbf05"
 	"operating costs" 2200
@@ -954,6 +1170,8 @@ outfit "shield lucille meritites"
 
 outfit "shield sonja halimah"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Shield) Sonja Halimah"
 	thumbnail "portrait/ecmwf10"
 	"operating costs" 2900
@@ -966,6 +1184,8 @@ outfit "shield sonja halimah"
 
 outfit "shield taisto nithin"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Shield) Taisto Nithin"
 	thumbnail "portrait/ecmam01"
 	"operating costs" 3300
@@ -974,11 +1194,28 @@ outfit "shield taisto nithin"
 	"unique" 1
 	"shield generation" .13 
 	"shields" 1200 
+	"shield energy multiplier" .01 
 	description `This is a highly educated employee focused on shield effectivity. He is a Human, grown up in "rim".`
+
+outfit "shield lativa"
+	category "Crew"
+	series "Unique"
+	index 12100
+	"display name" "(Shield) Lativa"
+	thumbnail "portrait/incipias02"
+	"operating costs" 3400
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"shield generation" .14 
+	"shields" 1300 
+	description `This is a highly educated employee focused on shield effectivity. She is an Incipias.`
 
 outfit "shield monika raganhildis"
 	plural "(Shield) Monika Raganhildis"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Shield) Monika Raganhildis"
 	thumbnail "portrait/ecmwf08"
 	"operating costs" 3600
@@ -991,6 +1228,8 @@ outfit "shield monika raganhildis"
 
 outfit "shield saburo aoki"
 	category "Crew"
+	series "Unique"
+	index 10100
 	"display name" "(Shield) Saburo Aoki"
 	thumbnail "portrait/bunrodea09"
 	"operating costs" 3800
@@ -1003,6 +1242,8 @@ outfit "shield saburo aoki"
 
 outfit "shield ilesam bableh"
 	category "Crew"
+	series "Unique"
+	index 04100
 	"display name" "(Shield) Ilesam Bableh"
 	thumbnail "portrait/korath10"
 	"operating costs" 4100
@@ -1011,10 +1252,13 @@ outfit "shield ilesam bableh"
 	"unique" 1
 	"shield generation" .15 
 	"shields" 1300 
+	"shield energy multiplier" .01 
 	description `This is a highly educated employee focused on shield effectivity. He is a Korath.`
 
 outfit "shield nisieum"
 	category "Crew"
+	series "Unique"
+	index 08120
 	"display name" "(Shield) Nisieum"
 	thumbnail "portrait/saryd02"
 	"operating costs" 4400
@@ -1027,6 +1271,8 @@ outfit "shield nisieum"
 
 outfit "shield chi'a"
 	category "Crew"
+	series "Unique"
+	index 08110
 	"display name" "(Shield) Chi'a"
 	thumbnail "portrait/kimek05"
 	"operating costs" 4900
@@ -1039,6 +1285,8 @@ outfit "shield chi'a"
 
 outfit "shield uondi"
 	category "Crew"
+	series "Unique"
+	index 11100
 	"display name" "(Shield) Uondi"
 	thumbnail "portrait/successor05"
 	"operating costs" 4600
@@ -1047,10 +1295,13 @@ outfit "shield uondi"
 	"unique" 1
 	"shield generation" .16 
 	"shields" 1500 
+	"shield energy multiplier" .01 
 	description `This is a highly educated employee focused on shield effectivity. He is a Successor.`
 
 outfit "storage darius hasegawa"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Storage) Darius Hasegawa"
 	thumbnail "portrait/ecmam02"
 	"operating costs" 2300
@@ -1063,6 +1314,8 @@ outfit "storage darius hasegawa"
 
 outfit "storage eduardo wapasha"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Storage) Eduardo Wapasha"
 	thumbnail "portrait/ecmbm02"
 	"operating costs" 2400
@@ -1075,6 +1328,8 @@ outfit "storage eduardo wapasha"
 
 outfit "storage mani godefrid"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Storage) Mani Godefrid"
 	thumbnail "portrait/ecmwm09"
 	"operating costs" 3000
@@ -1085,8 +1340,24 @@ outfit "storage mani godefrid"
 	"weapon capacity" 25 
 	description `This is a highly educated employee focused on storage management. He is a Human, grown up in "dirt belt".`
 
+outfit "storage aelia"
+	category "Crew"
+	series "Unique"
+	index 12100
+	"display name" "(Storage) Aelia"
+	thumbnail "portrait/incipias01"
+	"operating costs" 3100
+	bunks -1
+	"unplunderable" 1
+	"unique" 1
+	"outfit space" 35 
+	"cargo space" 20 
+	description `This is a highly educated employee focused on storage management. She is an Incipias.`
+
 outfit "storage marie zohreh"
 	category "Crew"
+	series "Unique"
+	index 01100
 	"display name" "(Storage) Marie Zohreh"
 	thumbnail "portrait/ecmwf09"
 	"operating costs" 3600
@@ -1099,6 +1370,8 @@ outfit "storage marie zohreh"
 
 outfit "storage yxoorevyt"
 	category "Crew"
+	series "Unique"
+	index 06100
 	"display name" "(Storage) Yxoorevyt"
 	thumbnail "portrait/gegno03"
 	"operating costs" 3800
@@ -1111,6 +1384,8 @@ outfit "storage yxoorevyt"
 
 outfit "storage touna farchi"
 	category "Crew"
+	series "Unique"
+	index 02100
 	"display name" "(Storage) Touna Farchi"
 	thumbnail "portrait/hai07"
 	"operating costs" 3900
@@ -1123,6 +1398,8 @@ outfit "storage touna farchi"
 
 outfit "storage reisek"
 	category "Crew"
+	series "Unique"
+	index 09100
 	"display name" "(Storage) Reisek"
 	thumbnail "portrait/wanderer06"
 	"operating costs" 4200
@@ -1135,6 +1412,8 @@ outfit "storage reisek"
 
 outfit "storage swift"
 	category "Crew"
+	series "Unique"
+	index 03100
 	"display name" "(Storage) Swift"
 	thumbnail "portrait/remnant02"
 	"operating costs" 4500
@@ -1147,6 +1426,8 @@ outfit "storage swift"
 
 outfit "storage mupoop"
 	category "Crew"
+	series "Unique"
+	index 08100
 	"display name" "(Storage) Mupoop"
 	thumbnail "portrait/arachi05"
 	"operating costs" 5000
