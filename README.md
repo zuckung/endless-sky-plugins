@@ -22,7 +22,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: bunrodea.missions<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: expert.crew.members<br>
+2025-04-13 | update: bunrodea.missions<br>
 2025-03-31 | new download counter for each plugin<br>
 2025-03-20 | update: galactic.capital.investment<br>
 2025-03-14 | update: additional.command.buttons.radial<br>
@@ -31,7 +32,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-03-11 | update: gegno.pirates<br>
 2025-02-28 | update: additional.command.buttons.radial<br>
 2025-02-26 | update: mission.helper<br>
-2025-02-23 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -1454,7 +1454,7 @@ added icon.png<br>
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/expert.crew.members.png">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-expert.crew.members/expert.crew.members.zip) | 7.75 mb | 2025-02-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) | <a href="res/imagemd/expert.crew.members.md">view images</a> [193]<br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-expert.crew.members/expert.crew.members.zip) | 8.07 mb | 2025-04-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) | <a href="res/imagemd/expert.crew.members.md">view images</a> [204]<br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the README for details.
 <details>
@@ -1469,9 +1469,9 @@ Adds unique crew members, aquireable through spaceport missions. These crew memb
 
 <br>
 
-Currently there are 95 expert crew members. Visit spaceports with an outfitter to find the missions(1% chance). In every of the following regions  you can find 5 experts: Rim, South, Dirt Belt, Deep, Near Earth, Core, North, Paradise, Hai, Bunrodea(after first contact), Remnant, Wanderer(after translation device), Kor Efret(after Rek went to the Kor Efret), Gegno, Successor, Avgi(after first contact), Arachi, Kimek, Saryd(last 3 after coalition first contact).<br>
+Currently there are 100 expert crew members. Visit spaceports with an outfitter to find the missions(1% chance). In every of the following regions  you can find 5 experts: Rim, South, Dirt Belt, Deep, Near Earth, Core, North, Paradise, Hai, Bunrodea(after first contact), Remnant, Wanderer(after translation device), Kor Efret(after Rek went to the Kor Efret), Gegno, Successor, Avgi(after first contact), Incipias, Arachi, Kimek, Saryd(last 3 after coalition first contact).<br>
 
-Their technology fields are: combat(10) cooling(10) energy(10) engine(10) fuel(10) hull(9) jamming(9) scanner(9) shield(9) storage(9).<br>
+Their technology fields are: combat(10) cooling(10) energy(10) engine(10) fuel(10) hull(10) jamming(10) scanner(10) shield(9) storage(10).<br>
 
 In case you can't afford their daily wage you can store them at the outfitter without daily costs.<br>
 
@@ -1486,6 +1486,18 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-04-14<br>
+
+added more of stat3<br>
+
+added hiredexperts variable for future content<br>
+
+added 5 incipias experts<br>
+
+added series sorting<br>
 
 <br>
 
