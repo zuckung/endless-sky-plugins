@@ -63,6 +63,8 @@ government "Bunrodea (Person)"
 
 outfit "Bunrodea Translation Device"
 	category "Unique"
+	series "Non-Functional Unique"
+	index 10200
 	thumbnail "outfit/device03"
 	"unplunderable" 1
 	"unique" 1
@@ -71,6 +73,8 @@ outfit "Bunrodea Translation Device"
 
 outfit "Bunrodea Noble Authorization"
 	category "Unique"
+	series "Non-Functional Unique"
+	index 10200
 	thumbnail "outfit/alien_sheet"
 	"unplunderable" 1
 	"unique" 1

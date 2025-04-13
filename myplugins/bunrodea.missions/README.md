@@ -13,6 +13,11 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 Changelog:<br>
 <br>
+2025-04-13<br>
+added series for the 2 uniques<br>
+added @2xicon<br>
+added support for plugin BunrodeaRebellion (by YouKnowWho)<br>
+<br>
 2025-02-13<br>
 somehow i forgot the @2x images, now they are in<br>
 <br>

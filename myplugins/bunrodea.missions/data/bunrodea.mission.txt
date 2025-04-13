@@ -386,7 +386,7 @@ mission "bunrodea translation update fix"
 	invisible
 	repeat
 	source
-		government "Bunrodea" "Bunrodea (Guard)"
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Megasa)" "Bunrodea (Erabu)"
 	to offer
 		not "outfit (flagship installed): Bunrodea Translation Device"
 		has "bunrodea defense: done"
@@ -399,7 +399,7 @@ mission "bunrodea translation update fix 2"
 	minor
 	invisible
 	source
-		government "Bunrodea" "Bunrodea (Guard)"
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Megasa)" "Bunrodea (Erabu)"
 	to offer
 		not "language: Bunrodea"
 		has "bunrodea defense: done"
@@ -467,7 +467,7 @@ mission "bunrodea noble authorization update fix"
 mission "culture bunrodea criminal"
 	invisible
 	source
-		government "Bunrodea" "Bunrodea (Guard)"
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Megasa)" "Bunrodea (Erabu)"
 	to offer
 		"reputation: Bunrodea" >= 120
 		random < 20
@@ -485,7 +485,7 @@ mission "culture bunrodea criminal"
 mission "culture bunrodea flonkball"
 	invisible
 	source
-		government "Bunrodea" "Bunrodea (Guard)"
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Megasa)" "Bunrodea (Erabu)"
 	to offer
 		"reputation: Bunrodea" >= 140
 		random < 20
@@ -516,7 +516,7 @@ mission "culture bunrodea flonkball"
 mission "culture bunrodea snap fly"
 	invisible
 	source
-		government "Bunrodea" "Bunrodea (Guard)"
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Megasa)" "Bunrodea (Erabu)"
 	to offer
 		"reputation: Bunrodea" >= 160
 		random < 20
@@ -624,7 +624,7 @@ mission "bunrodea side archeology 2"
 	name "Archeological Expedition returns"
 	description "Travel to <destination> to retrieve the archeological expedition."	
 	source
-		government "Bunrodea" "Bunrodea (Guard)"
+		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Megasa)" "Bunrodea (Erabu)"
 		not planet "Byruca"
 	destination "Byruca"
 	to offer
