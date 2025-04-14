@@ -22,7 +22,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: expert.crew.members<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-14 | update: planet.map<br>
+2025-04-13 | update: expert.crew.members<br>
 2025-04-13 | update: bunrodea.missions<br>
 2025-03-31 | new download counter for each plugin<br>
 2025-03-20 | update: galactic.capital.investment<br>
@@ -31,7 +32,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-03-11 | update: highrollers.ltd<br>
 2025-03-11 | update: gegno.pirates<br>
 2025-02-28 | update: additional.command.buttons.radial<br>
-2025-02-26 | update: mission.helper<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -3459,9 +3459,9 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/planet.map/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/planet.map.png">
 
-[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-planet.map/planet.map.zip) | 5.0 mb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) | <a href="res/imagemd/planet.map.md">view images</a> [34]<br>
+[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-planet.map/planet.map.zip) | 15.2 mb | 2025-04-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) | <a href="res/imagemd/planet.map.md">view images</a> [62]<br>
 <br>
->Planetary map travelling concept : Land on Memory, visit the outfitter and follow the small story line. See the README for details.
+>This is a storyline entirely on a planets surface(with fitting visuals). Available at the outfitter on planet Memory. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -3471,25 +3471,37 @@ screenshots(click to enlarge):<br>
 
 <br>
 
-Planetary map travelling concept : Land on Memory, visit the outfitter and follow the small story line.<br>
+This is a storyline entirely on a planets surface(with fitting visuals). Available at the outfitter on planet Memory.<br>
 
 <br>
 
-This is just a proof of concept of an idea by Epsil-Astra.<br>
+This is a proof of concept of an idea by Epsil-Astra.<br>
 
 Basically a planet in a starsystem is a wormhole to a starsystem with changed background, to look like a ground map. The planets there look like cities. The galaxy background is a single whole planet. It simulates travelling on a planet you've landed on. Other starsystems act as different bioms, like forest, desert, sea.<br>
 
-A small storyline got added.<br>
+Beside showing the concept there is a storyline, 9 cities/outpost, 9 areas with 3 different bioms.<br>
 
 <br>
-
-As in the spirit of Epsil-Astra, feel free to modify/use this plugin for your own content creation.<br> 
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-04-14<br>
+
+added @2x images<br>
+
+changed dragon image<br>
+
+added spaceport news<br>
+
+renamed files<br>
+
+new icons<br>
 
 <br>
 
