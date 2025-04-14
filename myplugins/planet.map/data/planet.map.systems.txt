@@ -1,0 +1,289 @@
+# system "The Eastern Sea"
+# system "Tropical Forests of the South"
+# system "The Northern Tundra"
+# system "North Woods"
+# system "Eastern Desert"
+# system "The Great Desert"
+# system "Dunes"
+# system "North Cape"
+# system "The Landing Site"
+# system "Theben"
+
+
+
+system "The Eastern Sea"
+	pos -4750 -4900
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-water
+	link "The Landing Site"
+	trade Clothing 290
+	trade Electronics 670
+	trade Equipment 500
+	trade Food 350
+	trade "Heavy Metals" 870
+	trade Industrial 740
+	trade "Luxury Goods" 1295
+	trade Medical 550
+	trade Metal 367
+	trade Plastic 320
+	fleet "Avalonian Fleet" 3000
+	object "Expedition Ship"
+		sprite planet/expedition
+			scale 1
+		distance 0
+		period 1
+
+
+system "Tropical Forests of the South"
+	pos -5080 -4750
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-forest
+	link "The Landing Site"
+	trade Clothing 262
+	trade Electronics 690
+	trade Equipment 480
+	trade Food 320
+	trade "Heavy Metals" 820
+	trade Industrial 740
+	trade "Luxury Goods" 1245
+	trade Medical 510
+	trade Metal 297
+	trade Plastic 320
+	fleet "Avalonian Fleet" 2600
+
+
+system "The Northern Tundra"
+	pos -4850 -5310
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-forest
+	link "The Landing Site"
+	link "North Woods"
+	link "North Cape"
+	trade Clothing 201
+	trade Electronics 690
+	trade Equipment 500
+	trade Food 320
+	trade "Heavy Metals" 790
+	trade Industrial 740
+	trade "Luxury Goods" 1245
+	trade Medical 520
+	trade Metal 307
+	trade Plastic 280
+	fleet "Avalonian Fleet" 3200
+
+
+system "North Woods"
+	pos -4740 -5220
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-forest
+	link "The Northern Tundra"
+	link "Eastern Desert"
+	trade Clothing 220
+	trade Electronics 650
+	trade Equipment 490
+	trade Food 350
+	trade "Heavy Metals" 810
+	trade Industrial 750
+	trade "Luxury Goods" 1275
+	trade Medical 511
+	trade Metal 301
+	trade Plastic 320
+	fleet "Avalonian Fleet" 2800
+	object "Green Hell (Lumberjack Camp)"
+		sprite planet/hut
+			scale 1
+		distance 100
+		period 1
+		offset 0
+
+
+system "Eastern Desert"
+	pos -4850 -5070
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-desert
+	link "North Woods"
+	link "The Landing Site"
+	trade Clothing 220
+	trade Electronics 680
+	trade Equipment 500
+	trade Food 400
+	trade "Heavy Metals" 800
+	trade Industrial 720
+	trade "Luxury Goods" 1255
+	trade Medical 560
+	trade Metal 301
+	trade Plastic 270
+	fleet "Avalonian Fleet" 3000
+
+
+system "The Great Desert"
+	pos -5270 -5100
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-desert
+	link "The Landing Site"
+	link "Dunes"
+	trade Clothing 240
+	trade Electronics 650
+	trade Equipment 480
+	trade Food 420
+	trade "Heavy Metals" 830
+	trade Industrial 710
+	trade "Luxury Goods" 1225
+	trade Medical 560
+	trade Metal 307
+	trade Plastic 280
+	fleet "Avalonian Fleet" 2200
+
+
+system "Dunes"
+	pos -5170 -5130
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-desert
+	link "The Great Desert"
+	link "North Cape"
+	trade Clothing 280
+	trade Electronics 660
+	trade Equipment 460
+	trade Food 500
+	trade "Heavy Metals" 650
+	trade Industrial 720
+	trade "Luxury Goods" 1225
+	trade Medical 560
+	trade Metal 317
+	trade Plastic 260
+	fleet "Avalonian Fleet" 2500
+	object "Black Gold (Oil Rig)"
+		sprite planet/oilrig
+			scale 1
+		distance 700
+		period 1
+	object "Morgana (Village)"
+		sprite planet/oasis
+			scale 1
+		distance 0
+		period 1
+
+
+system "North Cape"
+	pos -5080 -5320
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-forest
+	link "The Northern Tundra"
+	link "Dunes"
+	trade Clothing 260
+	trade Electronics 640
+	trade Equipment 470
+	trade Food 400
+	trade "Heavy Metals" 850
+	trade Industrial 700
+	trade "Luxury Goods" 1205
+	trade Medical 540
+	trade Metal 347
+	trade Plastic 290
+	fleet "Avalonian Fleet" 2000
+
+
+system "The Landing Site"
+	pos -5000 -5000
+	government "Avalonian"
+	arrival 1000
+	habitable 3000
+	haze _menu/haze-forest
+	link "The Great Desert"
+	link "The Northern Tundra"
+	link "Tropical Forests of the South"
+	link "The Eastern Sea"
+	link "Eastern Desert"
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
+	fleet "Avalonian Fleet" 250
+	object "Ember (City)"
+		sprite planet/city4
+			scale 1
+		distance 0
+		period 1
+	object "Center (City)"
+		sprite planet/city1
+			scale 1
+		distance 1520
+		period 1
+		offset 20
+	object "Lightfall (City)"
+		sprite planet/city3
+			scale 0.8
+		distance 1500
+		period 1
+		offset 130
+	object "Warsong (City)" 
+		sprite planet/city2
+			scale 0.7
+		distance 2000
+		period 1
+		offset 80
+	object 
+		sprite planet/lake1
+			scale 4
+		distance 1300
+		period 1
+		offset 65
+	object "New Avalon"
+		sprite planet/cloud
+			scale 2.5
+		distance 3500
+		period 1
+		offset 0
+
+
+system Theben
+	hidden
+	pos -740 -123
+	government "Republic"
+	attributes "bright star" "notable star"
+	arrival 1000
+	habitable 2000
+	belt 1748
+	haze _menu/haze-67
+	minables uranium 3 9.1
+	minables platinum 3 7.8
+	minables copper 3 5.3
+	trade Clothing 240
+	trade Electronics 611
+	trade Equipment 455
+	trade Food 422
+	trade "Heavy Metals" 899
+	trade Industrial 675
+	trade "Luxury Goods" 1135
+	trade Medical 520
+	trade Metal 367
+	trade Plastic 270
+	object
+		sprite star/b3
+		period 10
+	object "New Avalon"
+		sprite planet/earth
+		distance 2008.63
+		period 1

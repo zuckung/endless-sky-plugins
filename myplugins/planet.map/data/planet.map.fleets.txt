@@ -1,0 +1,94 @@
+# fleet "Avalonian Fleet"
+# fleet "Avalonian Dragons"
+# ship "Avalonian Red Dragon"
+# outfitter "Avalonian Basics"
+# shipyard "Avalonian Basics"
+
+
+fleet "Avalonian Fleet"
+	government "Avalonian"
+	names "civilian"
+	cargo 2
+	personality
+		confusion 30
+		launching timid frugal appeasing
+	variant 1
+		"Argosy"
+	variant 1
+		"Hauler"
+	variant 1
+		"Hauler II"
+	variant 1
+		"Freighter"
+	variant 1
+		"Shuttle" 2
+	variant 1
+		"Star Barge" 2
+	variant 1
+		"Clipper" 2
+
+
+fleet "Avalonian Dragons"
+	government "Avalonian Fauna"
+	personality
+		confusion 30
+		nemesis waiting heroic
+	cargo 0
+	variant 1
+		"Avalonian Red Dragon" 1
+	variant 1
+		"Avalonian Red Dragon" 2
+	variant 1
+		"Avalonian Red Dragon" 3
+	variant 1
+		"Avalonian Red Dragon" 4
+
+
+ship "Avalonian Red Dragon"
+	sprite "ship/ava_dragon"
+	"never disabled"
+	attributes
+		category "Light Freighter"
+		"cost" 900000
+		"hull" 2000
+		"automaton" 1
+		"crew equivalent" 1
+		"mass" 200
+		"drag" 4.3
+		"heat dissipation" .9
+		"fuel capacity" 500
+		"cargo space" 70
+		"outfit space" 260
+		"weapon capacity" 60
+		"engine capacity" 80
+		"hull repair rate" 2.5
+		"thrust" 38.85
+		"turn" 885
+		weapon
+			"blast radius" 36
+			"shield damage" 360
+			"hull damage" 180
+			"hit force" 540
+	outfits
+		"Flamethrower" 2
+	gun 1.5 -52 "Flamethrower"
+	gun 1.5 -52 "Flamethrower"
+	"final explode" "final explosion small"
+	description "stub"
+
+
+outfitter "Avalonian Basics"
+	"Outfits Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+
+
+shipyard "Avalonian Basics"
+	"Shuttle"
+	"Star Barge"
+	"Clipper"
+	"Argosy"
+	"Hauler"
+	"Hauler II"
+	"Freighter"

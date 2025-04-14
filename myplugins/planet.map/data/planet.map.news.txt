@@ -1,0 +1,122 @@
+# phrase "avalonian jobs"
+# news "avalonian"
+# news "avalonian dragon"
+# news "avalonian prestory"
+# news "avalonian poststory"
+# news "avalonian news system"
+# news "avalonian news system prestory"
+# news "avalonian news system poststory"
+
+
+phrase "avalonian jobs"
+	word
+			"Young Man"
+			"Old Man"
+			"Security Guard"
+			"Ship Captain"
+			"Passenger"
+			"Scientist"
+			"Worker"
+			"Hunter"
+			"Oil Worker"
+			"Dock Worker"
+			"Factory Worker"
+			"Engineer"
+			"Teacher"
+			"Doctor"
+			"Machinist"
+			"Technician"
+
+
+news "avalonian"
+	location
+		government "Avalonian"
+	name
+		phrase
+			"avalonian jobs"
+	message
+		word
+			`"I've read that the old republican planets have giant cities with smog and pollution. They should enjoy our rich nature here."`
+			`"The northern villages, camps and rigs greatly increase the wealth of all avalonians."`
+
+
+news "avalonian dragon"
+	location
+		government "Avalonian"
+	name
+		phrase
+			"avalonian jobs"
+	message
+		word
+			`"Life on this planet isn't always nice. Did you already encounter a dragon attack? These beasts are really frightening."`
+			`"Some people say the dragons come from the north. They come because we build settlements there."`
+			`"When you hear the dragon alarm, don't go outside. These animals don't have a chance against a spaceship but they rip humans into parts!"`
+			`"My sister works in a northern lumberjack village. I really hope she is safe there."`
+
+
+news "avalonian prestory"
+	location
+		government "Avalonian"
+	to show
+		not "ava back to linus: done"
+	name
+		phrase
+			"avalonian jobs"
+	message
+		word
+			`"Are you the new arrived captain? This ship is clearly not build on this planet."`
+
+
+news "avalonian poststory"
+	location
+		government "Avalonian"
+	to show
+		has "ava back to linus: done"
+	name
+		phrase
+			"avalonian jobs"
+	message
+		word
+			`"Who thought that we will be free to travel the galaxy? I've never expected this!"`
+			`"I can't wait to hear the stories from outside the planet. I would go by myself, but I have a very big family here."`
+			`"I'm not sure if it is a good or a bad thing that the barrier is gone now."`
+
+
+news "avalonian news system"
+	location
+		government "Avalonian"
+	name
+		word
+			"Holovid Screen"
+	message
+		word
+			"News: The four cities agreed to intensify expansion to the north."
+			"News: The expedition to the eastern sea found rich mangan deposits."
+
+
+news "avalonian news system prestory"
+	location
+		government "Avalonian"
+	to show
+		not "ava back to linus: done"
+	name
+		word
+			"Holovid Screen"
+	message
+		word
+			"News: Only two months after Captain Weathers arrival, a new ship entered our athmosphere!"
+			"News: More arriving ships within the last two years, is the traffic outside the planet increasing?"
+
+
+news "avalonian news system poststory"
+	location
+		government "Avalonian"
+	to show
+		has "ava back to linus: done"
+	name
+		word
+			"Holovid Screen"
+	message
+		word
+			"News: The first ships left the planet. A new era started! Stay tuned for news from outside!"
+			"News: The government is still silent on how the barrier got disabled."

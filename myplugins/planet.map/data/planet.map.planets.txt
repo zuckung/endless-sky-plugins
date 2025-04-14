@@ -1,0 +1,132 @@
+# galaxy "Planet New Avalon"
+# wormhole "New Avalon Map"
+# planet "New Avalon"
+# planet "Center (City)"
+# planet "Lightfall (City)"
+# planet "Warsong (City)"
+# planet "Ember (City)"
+# planet "Mysterious Object"
+# planet "Expedition Ship"
+# planet "Green Hell (Lumberjack Camp)"
+# planet "Black Gold (Oil Rig)"
+# planet "Morgana (Village)"
+
+
+
+galaxy "Planet New Avalon"
+	pos -5000 -5000
+	sprite "ui/planetgalaxy"
+		scale 2
+
+
+wormhole "New Avalon Map"
+	"display name" "New Avalon"
+	link "Theben" "The Landing Site"
+	link "The Landing Site" "Theben"
+	color "wormholes: Planet Map"
+
+
+planet "New Avalon"
+	wormhole "New Avalon Map"
+	government "Planet Map"
+
+
+planet "Center (City)"
+	attributes factory research urban
+	landscape land/ava_city03
+	government "Avalonian"
+	description `This is a city.`
+	spaceport `This is the landing area`
+	outfitter "Avalonian Basics"
+	shipyard "Avalonian Basics"
+	bribe 0.05
+	security 0.7
+	tribute 1000
+		threshold 7000
+		fleet "Avalonian Fleet" 39
+
+
+planet "Lightfall (City)"
+	attributes factory research urban
+	landscape land/ava_city04
+	description `This is a city.`
+	government "Avalonian"
+	spaceport `This is the landing area`
+	outfitter "Avalonian Basics"
+	bribe 0.05
+	security 0.7
+	tribute 1000
+		threshold 7000
+		fleet "Avalonian Fleet" 39
+
+
+planet "Warsong (City)"
+	attributes factory research urban
+	landscape land/ava_city01
+	government "Avalonian"
+	description `This is a city.`
+	spaceport `This is the landing area`
+	outfitter "Avalonian Basics"
+	bribe 0.05
+	security 0.7
+	tribute 1000
+		threshold 7000
+		fleet "Avalonian Fleet" 39
+
+
+planet "Ember (City)"
+	attributes factory research urban
+	landscape land/ava_city02
+	government "Avalonian"
+	description `This is a city.`
+	spaceport `This is the landing area`
+	outfitter "Avalonian Basics"
+	bribe 0.05
+	security 0.7
+	tribute 1000
+		threshold 7000
+		fleet "Avalonian Fleet" 39
+
+
+planet "Mysterious Object"
+	landscape land/ava_metallic
+	government "Uninhabited"
+	description `This is a very mysterious object.`
+	spaceport `This is the landing area`
+
+
+planet "Expedition Ship"
+	attributes research
+	landscape land/ava_ship
+	government "Avalonian"
+	description `This is a big expedition ship.`
+	spaceport `This is the landing area`
+	bribe 0.05
+	security 0.7
+	tribute 1000
+		threshold 7000
+		fleet "Avalonian Fleet" 39
+
+
+planet "Green Hell (Lumberjack Camp)"
+	attributes lumberjack
+	landscape land/ava_lumberjack
+	government "Avalonian"
+	description `This is a small lumberjack camp.`
+	spaceport `This is the landing area.`
+
+
+planet "Black Gold (Oil Rig)"
+	attributes "oil rig"
+	landscape land/ava_oilrig
+	government "Avalonian"
+	description `This is an oil rig.`
+	spaceport `This is the landing area.`
+
+
+planet "Morgana (Village)"
+	attributes oasis
+	landscape land/ava_oasis
+	government "Avalonian"
+	description `This is a small oasis village.`
+	spaceport `This is the landing area.`

@@ -1,0 +1,127 @@
+# mission "Ava Cargo 1"
+# mission "Ava Cargo 2"
+# mission "Ava Cargo 3"
+# mission "Ava Passengers 1"
+# mission "Ava Passengers 2"
+# mission "Ava Passengers 3"
+
+
+
+mission "Ava Cargo 1"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <planet>. Payment is <payment>."
+	cargo random 5 20
+	source
+		government "Avalonian"
+	destination
+		distance 0 4
+		government "Avalonian"
+	to offer
+		random < 60
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Ava Cargo 2"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <planet>. Payment is <payment>."
+	cargo random 15 60
+	source
+		government "Avalonian"
+	destination
+		distance 0 4
+		government "Avalonian"
+	to offer
+		random < 60
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Ava Cargo 3"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <planet>. Payment is <payment>."
+	cargo random 5 20
+	source
+		government "Avalonian"
+	destination
+		distance 0 4
+		government "Avalonian"
+	to offer
+		random < 60
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "Ava Passengers 1"
+	name "Transport to <planet>"
+	job
+	repeat
+	description "Transport <fare> to <planet>. Payment is <payment>."
+	passengers 1 10
+	source
+		government "Avalonian"
+	destination
+		distance 0 4
+		government "Avalonian"
+	to offer
+		random < 60
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Ava Passengers 2"
+	name "Transport to <planet>"
+	job
+	repeat
+	description "Transport <fare> to <planet>. Payment is <payment>."
+	passengers 8 18
+	source
+		government "Avalonian"
+	destination
+		distance 0 4
+		government "Avalonian"
+	to offer
+		random < 60
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "Ava Passengers 3"
+	name "Transport to <planet>"
+	job
+	repeat
+	description "Transport <fare> to <planet>. Payment is <payment>."
+	passengers 16 26
+	source
+		government "Avalonian"
+	destination
+		distance 0 4
+		government "Avalonian"
+	to offer
+		random < 60
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		dialog phrase "generic passenger dropoff payment"
