@@ -1,7 +1,7 @@
 ### planet.map
 <br>
 <br>
-This is a storyline entirely on a planets surface(with fitting visuals). Availabale at the outfitter on planet Memory.<br>
+This is a storyline entirely on a planets surface(with fitting visuals). Available at the outfitter on planet Memory.<br>
 <br>
 This is a proof of concept of an idea by Epsil-Astra.<br>
 Basically a planet in a starsystem is a wormhole to a starsystem with changed background, to look like a ground map. The planets there look like cities. The galaxy background is a single whole planet. It simulates travelling on a planet you've landed on. Other starsystems act as different bioms, like forest, desert, sea.<br>
