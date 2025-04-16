@@ -4,22 +4,30 @@ graphic files for the plugin: uniques<br>
 	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/icon.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/icon.png" width="180" height="180"></a><br>
 		icon.png [180x180]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/icon@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/icon@2x.png" height="200"></a><br>
+		icon@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/land/unq_aesila.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/land/unq_aesila.jpg" width="200"></a><br>
 		unq_aesila.jpg [720x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/land/unq_aesila@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/land/unq_aesila@2x.jpg" width="200"></a><br>
-		unq_aesila@2x.jpg [1440x720]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/land/unq_aesila@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/land/unq_aesila@2x.jpg" width="200"></a><br>
+		unq_aesila@2x.jpg [1440x720]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/land/unq_overseer.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/land/unq_overseer.jpg" width="200"></a><br>
 		unq_overseer.jpg [720x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/land/unq_overseer@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/land/unq_overseer@2x.jpg" width="200"></a><br>
 		unq_overseer@2x.jpg [1440x720]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/land/unq_socket.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/land/unq_socket.jpg" width="200"></a><br>
-		unq_socket.jpg [720x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/land/unq_socket.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/land/unq_socket.jpg" width="200"></a><br>
+		unq_socket.jpg [720x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/land/unq_socket@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/land/unq_socket@2x.jpg" width="200"></a><br>
 		unq_socket@2x.jpg [1440x720]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/derelict_scanner.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/derelict_scanner.png" width="180" height="180"></a><br>
+		derelict_scanner.png [180x180]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/derelict_scanner@2×.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/derelict_scanner@2×.png" height="200"></a><br>
+		derelict_scanner@2×.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/fluffy_alien.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/fluffy_alien.png" width="180" height="180"></a><br>
 		fluffy_alien.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/fluffy_alien@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/fluffy_alien@2x.png" height="200"></a><br>
@@ -190,60 +198,92 @@ graphic files for the plugin: uniques<br>
 		unq_holographic_emitter.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_holographic_emitter@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_holographic_emitter@2x.png" height="200"></a><br>
 		unq_holographic_emitter@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_nav_buoys.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_nav_buoys.png" width="180" height="180"></a><br>
-		unq_nav_buoys.png [180x180]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_lancetadamant.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_lancetadamant.png" width="180" height="180"></a><br>
+		unq_lancetadamant.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_lancetadamant@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_lancetadamant@2x.png" height="200"></a><br>
+		unq_lancetadamant@2x.png [360x360]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_nav_buoys.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_nav_buoys.png" width="180" height="180"></a><br>
+		unq_nav_buoys.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_nav_buoys@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_nav_buoys@2x.png" height="200"></a><br>
 		unq_nav_buoys@2x.png [360x360]</td>
+	</tr>
+	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_puny.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_puny.png" width="180" height="180"></a><br>
 		unq_puny.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_puny@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_puny@2x.png" height="200"></a><br>
 		unq_puny@2x.png [360x360]</td>
-	</tr>
-	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_quantum_ring.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_quantum_ring.png" width="180" height="180"></a><br>
 		unq_quantum_ring.png [180x180]</td>
+	</tr>
+	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_quantum_ring@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_quantum_ring@2x.png" height="200"></a><br>
 		unq_quantum_ring@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_scanner.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_scanner.png" width="180" height="180"></a><br>
 		unq_scanner.png [180x180]</td>
-	</tr>
-	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_scanner@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_scanner@2x.png" height="200"></a><br>
 		unq_scanner@2x.png [360x360]</td>
+	</tr>
+	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_skadenga.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_skadenga.png" width="180" height="180"></a><br>
 		unq_skadenga.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_skadenga@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_skadenga@2x.png" height="200"></a><br>
 		unq_skadenga@2x.png [360x360]</td>
-	</tr>
-	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_spaceship_figurine.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_spaceship_figurine.png" width="180" height="180"></a><br>
 		unq_spaceship_figurine.png [180x180]</td>
+	</tr>
+	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_spaceship_figurine@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_spaceship_figurine@2x.png" height="200"></a><br>
 		unq_spaceship_figurine@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_stone.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_stone.png" width="180" height="180"></a><br>
 		unq_stone.png [180x180]</td>
-	</tr>
-	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_stone@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_stone@2x.png" height="200"></a><br>
 		unq_stone@2x.png [360x360]</td>
+	</tr>
+	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_survival.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_survival.png" width="180" height="180"></a><br>
 		unq_survival.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_survival@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_survival@2x.png" height="200"></a><br>
 		unq_survival@2x.png [360x360]</td>
-	</tr>
-	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_teddy.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_teddy.png" width="180" height="180"></a><br>
 		unq_teddy.png [180x180]</td>
+	</tr>
+	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_teddy@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_teddy@2x.png" height="200"></a><br>
 		unq_teddy@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_toolbox.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_toolbox.png" width="180" height="180"></a><br>
 		unq_toolbox.png [180x180]</td>
-	</tr>
-	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_toolbox@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_toolbox@2x.png" height="200"></a><br>
 		unq_toolbox@2x.png [360x360]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_tumor.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_tumor.png" width="180" height="180"></a><br>
+		unq_tumor.png [180x180]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/outfit/unq_tumor@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/outfit/unq_tumor@2x.png" height="200"></a><br>
+		unq_tumor@2x.png [360x360]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/dark_ship01.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/dark_ship01.jpg" width="200"></a><br>
+		dark_ship01.jpg [560x340]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/dark_ship01@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/dark_ship01@2x.jpg" width="200"></a><br>
+		dark_ship01@2x.jpg [1120x680]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/dark_ship02.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/dark_ship02.jpg" width="200"></a><br>
+		dark_ship02.jpg [560x340]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/dark_ship02@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/dark_ship02@2x.jpg" width="200"></a><br>
+		dark_ship02@2x.jpg [1120x680]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/dark_ship03.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/dark_ship03.jpg" width="200"></a><br>
+		dark_ship03.jpg [560x340]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/dark_ship03@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/dark_ship03@2x.jpg" width="200"></a><br>
+		dark_ship03@2x.jpg [1120x680]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/derelict_outfitter.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/derelict_outfitter.jpg" width="200"></a><br>
+		derelict_outfitter.jpg [560x340]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/derelict_outfitter@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/derelict_outfitter@2x.jpg" width="200"></a><br>
+		derelict_outfitter@2x.jpg [1120x680]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/fluffy_alien_eggs.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/fluffy_alien_eggs.jpg" width="200"></a><br>
 		fluffy_alien_eggs.jpg [539x308]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/fluffy_alien_eggs@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/fluffy_alien_eggs@2x.jpg" width="200"></a><br>
@@ -302,6 +342,22 @@ graphic files for the plugin: uniques<br>
 		fluffy_rainforest.jpg [540x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/fluffy_rainforest@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/fluffy_rainforest@2x.jpg" width="200"></a><br>
 		fluffy_rainforest@2x.jpg [1080x720]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/space_agency01.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/space_agency01.jpg" width="200"></a><br>
+		space_agency01.jpg [560x340]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/space_agency01@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/space_agency01@2x.jpg" width="200"></a><br>
+		space_agency01@2x.jpg [1120x680]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/space_agency02.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/space_agency02.jpg" width="200"></a><br>
+		space_agency02.jpg [560x340]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/space_agency02@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/space_agency02@2x.jpg" width="200"></a><br>
+		space_agency02@2x.jpg [1120x680]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/space_agency03.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/space_agency03.jpg" width="200"></a><br>
+		space_agency03.jpg [560x340]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/space_agency03@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/space_agency03@2x.jpg" width="200"></a><br>
+		space_agency03@2x.jpg [1120x680]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/uniques/images/scene/unq_alien_probe.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/uniques/images/scene/unq_alien_probe.jpg" width="200"></a><br>
 		unq_alien_probe.jpg [560x340]</td>
 	</tr>

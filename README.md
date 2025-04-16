@@ -22,7 +22,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-14 | update: planet.map<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-16 | update: uniques<br>
+2025-04-14 | update: planet.map<br>
 2025-04-13 | update: expert.crew.members<br>
 2025-04-13 | update: bunrodea.missions<br>
 2025-03-31 | new download counter for each plugin<br>
@@ -31,7 +32,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-03-14 | update: highrollers.ltd<br>
 2025-03-11 | update: highrollers.ltd<br>
 2025-03-11 | update: gegno.pirates<br>
-2025-02-28 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -4078,7 +4078,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/uniques/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/uniques.png">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-uniques/uniques.zip) | 9.61 mb | 2025-01-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [147]<br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-uniques/uniques.zip) | 11.15 mb | 2025-04-16 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [168]<br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -4104,75 +4104,83 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 
 <ul>
 
-<li> Removes mass and outfit space from the cloaking device</li>
+<li> vanilla: removes mass and outfit space from the cloaking device</li>
 
-<li> Removes mass and outfit space from outskirts gauger and puts it in unique category</li>
+<li> vanilla: removes mass and outfit space from outskirts gauger and puts it in unique category</li>
 
-<li> Gives outfit '"Puny"' a picture and puts it into pets category</li>
+<li> vanilla: gives outfit '"Puny"' a dog picture and puts it into pets category</li>
 
-<li> Gives outfit 'Antigrav Glass'  a picture and puts it into unique category</li>
+<li> vanilla: gives outfit 'Antigrav Glass' a picture and puts it into unique category</li>
 
-<li> Puts outfit 'Mug' into unique category</li>
+<li> vanilla: gives outfit Damselflyman a picture and puts it into unique category</li>
 
-<li> rewrote Skadenga book mission, so you can buy the unique book</li>
+<li> vanilla: gives outfit Lancet Adamant a picture</li>
 
-<li> rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique archive chip</li>
+<li> vanilla: puts outfit 'Mug' into unique category</li>
 
-<li> unique pet, "Xenomorph" (land somewhere in human space, hidden destination is Danoa system (based on the Alien movies))</li>
+<li> vanilla: puts outfit Trefoil Board into unique category</li>
 
-<li> unique pet, "The Exotic" (land somewhere in human space, hidden destination is Unagi system (based on the Dark Star movie))</li>
+<li> new vanilla: rewrote Skadenga book mission, so you can buy the unique book</li>
 
-<li> unique pet, Cat "Cleo" (Deadman's Cove, 20% chance)</li>
+<li> new vanilla: rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique archive chip</li>
 
-<li> unique pet, Ferret "Gummi Bear" (Bivrost, 20% chance)</li>
+<li> new unique pet: alien "Snuggles" (land somewhere in human space, hidden destination is Danoa system (based on the Alien movies))</li>
 
-<li> unique pet, Hamster "Peanut" (Twinstar, 20% chance)</li>
+<li> new unique pet: alien "Exotic" (land somewhere in human space, hidden destination is Unagi system (based on the Dark Star movie))</li>
 
-<li> unique pet, Koala "Archie" (New Portland, 20% chance)</li>
+<li> new unique pet: Cat "Cleo" (Deadman's Cove, 20% chance)</li>
 
-<li> unique pet, Ocelot "Babou" (Farpoint, 20% chance, needs 1000 combat rating)</li>
+<li> new unique pet: Ferret "Gummi Bear" (Bivrost, 20% chance)</li>
 
-<li> unique pet, Rabbit "Thumper" (Starcross, 20% chance)</li>
+<li> new unique pet: Hamster "Peanut" (Twinstar, 20% chance)</li>
 
-<li> unique pet, Raccoon "Bandit" (Foundry, 20% chance)</li>
+<li> new unique pet: Koala "Archie" (New Portland, 20% chance)</li>
 
-<li> unique pet, Squirrel "Trixie" (Heartvalley, 20% chance)</li>
+<li> new unique pet: Ocelot "Babou" (Farpoint, 20% chance, needs 1000 combat rating)</li>
 
-<li> new unique, "Bawdy Magazines" (during "The Exotic" mission)</li>
+<li> new unique pet: Rabbit "Thumper" (Starcross, 20% chance)</li>
 
-<li> new unique, "Glass Cat" (after collecting all pets)</li>
+<li> new unique pet: Raccoon "Bandit" (Foundry, 20% chance)</li>
 
-<li> new unique, "Bioluminescent Plant" (Aesila, 10% chance)</li>
+<li> new unique pet: Squirrel "Trixie" (Heartvalley, 20% chance)</li>
 
-<li> new unique, "Bioluminiscent Offspring" (plant followup)</li>
+<li> new unique: "Bawdy Magazines" (during "The Exotic" mission)</li>
 
-<li> new unique, "Bio Reactor" (plant followup)</li>
+<li> new unique: "Glass Cat" (after collecting all pets)</li>
 
-<li> new unique, "Spaceship Figurine" (Sunracer, 3% chance)</li>
+<li> new unique: "Bioluminescent Plant" (Aesila, 10% chance)</li>
 
-<li> new unique, "Alien Handgun" (Alix, 10% chance)</li>
+<li> new unique: "Bioluminiscent Offspring" (plant followup)</li>
 
-<li> new unique, "Quantum Ring" (Charon Station, 3% chance)</li>
+<li> new unique: "Bio Reactor" (plant followup)</li>
 
-<li> new unique, "Old Whisky Bottles" (Socket, 10% chance)</li>
+<li> new unique: "Spaceship Figurine" (Sunracer, 3% chance)</li>
 
-<li> new unique, "Scanning Computer" (Overseer, 10% chance)</li>
+<li> new unique: "Alien Handgun" (Alix, 10% chance)</li>
 
-<li> new unique, "Hai Survival Rations" (Hai space, 3% chance)</li>
+<li> new unique: "Quantum Ring" (Charon Station, 3% chance)</li>
 
-<li> new unique, "Piloting For Dummies" (Paradise worlds, 3% chance)</li>
+<li> new unique: "Old Whisky Bottles" (Socket, 10% chance)</li>
 
-<li> new unique, "External Holo Emitter" (Luna, 6% chance)</li>
+<li> new unique: "Scanning Computer" (Overseer, 10% chance)</li>
 
-<li> new unique, "Toby the Teddy Bear" (Featherweight, 3% chance)</li>
+<li> new unique: "Hai Survival Rations" (Hai space, 3% chance)</li>
 
-<li> new unique, "Toolbox" (Clark, 3% chance)</li>
+<li> new unique: "Piloting For Dummies" (Paradise worlds, 3% chance)</li>
 
-<li> new unique, "Korath Pillow" (Laki Nemparu, 3% chance)</li>
+<li> new unique: "External Holo Emitter" (Luna, 6% chance)</li>
 
-<li> new unique, "Gegno Starmap" (Wye Tzeou, 10% chance)</li>
+<li> new unique: "Toby the Teddy Bear" (Featherweight, 3% chance)</li>
 
-<li> new unique, "Nav Buoys" (human outfitter, after discovered shrouded systems, 10% chance)</li>
+<li> new unique: "Toolbox" (Clark, 3% chance)</li>
+
+<li> new unique: "Korath Pillow" (Laki Nemparu, 3% chance)</li>
+
+<li> new unique: "Gegno Starmap" (Wye Tzeou, 10% chance)</li>
+
+<li> new unique: "Nav Buoys" (human outfitter, after discovering shrouded systems, 10% chance)</li>
+
+<li> new unique: "Derelict Scanner" (Oblivion, 100k credits, 10% chance)</li>
 
 </ul>
 
@@ -4181,6 +4189,22 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-04-16<br>
+
+change vanilla Trefoil Board, unique category<br>
+
+change vanilla Damselflyman, unique category, new picture<br>
+
+change vanilla Lancet Adamant, new picture<br>
+
+added series sorting to the outfits<br>
+
+added derelict scanner unique + 3 derelict ship missions <br>
+
+added minor h2h stats to the pets and extended their descriptions<br>
 
 <br>
 
