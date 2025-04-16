@@ -11,6 +11,8 @@ outfit "unq_navbuoys"
 	"display name" "Box of Nav Buoys"
 	"plural" "Box of Nav Buoys"
 	category "Unique"
+	series "Functional Unique"
+	index 01100
 	thumbnail "outfit/unq_nav_buoys"
 	"unique" 1
 	"unplunderable" 1
@@ -23,6 +25,7 @@ mission "unq_get_nav_buoys"
 	outfitter
 	source
 		government "Free Worlds" "Republic" "Syndicate" "Independent"
+		attributes "outfitter"
 	to offer
 		or
 			has "visited system: H-1"

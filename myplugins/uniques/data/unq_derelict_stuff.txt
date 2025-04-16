@@ -1,0 +1,331 @@
+# outfit "Derelict Scanner"
+# government "derelict ship"
+# ship "Argosy (derelict)"
+# ship "Argosy" "Argosy (Explorer)"
+# ship "Dromedary"
+# ship "Dromedary (derelict)"
+# ship "Carrier (derelict)"
+
+
+outfit "Derelict Scanner"
+	category "Unique"
+	thumbnail "outfit/derelict_scanner"
+	"unique" 1
+	"unplunderable" 1
+	series "Functional Unique"
+	index 01100
+	cost 50000
+	description `A special scanner to detect old ship wrecks. Active ships send out many kinds of radiation, and even disabled ships can be detected for months, till their engines and reactors are cold and dead. You don't understand how it works, but this scanner can detect ship wrecks which are dead for centuries.`
+
+
+government "derelict ship"
+	"display name" "derelict ship"
+	swizzle 0
+	"player reputation" -1
+
+
+ship "Argosy (wreck)"
+	plural "Argosies (wreck)"
+	sprite "ship/argosy"
+	thumbnail "thumbnail/argosy"
+	attributes
+		category "Light Freighter"
+		"automaton" 1
+		"cost" 1960000
+		"shields" 4200
+		"hull" 2600
+		"required crew" 0
+		"bunks" 0
+		"mass" 330
+		"drag" 5.9
+		"heat dissipation" .7
+		"fuel capacity" 800
+		"cargo space" 120
+		"outfit space" 270
+		"weapon capacity" 90
+		"engine capacity" 80
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"A255 Atomic Steering"
+		"A370 Atomic Thruster"
+		"D23-QP Shield Generator"
+		"Dwarf Core" 2
+		"Fuel Pod" 2
+		"Jump Drive"
+		Ramscoop
+		"Water Coolant System"
+	engine -25 91 0.6
+	engine -14 91 0.8
+	engine 14 91 0.8
+	engine 25 91 0.6
+	gun -22 -37
+	gun -22 -37
+	gun 22 -37
+	gun 22 -37
+	turret 0 -12.5
+	turret 0 9.5
+	leak "leak" 60 50
+	leak "flame" 60 80
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Argosy from Southbound Shipyards is very popular with merchants not because of its capacity, which is actually slightly smaller than the Syndicate Freighter, but because it can hold its own in combat even against a small pirate fleet."
+	description "	The Argosy is also a very easy ship to upgrade with faster engines or more powerful weapons as needed, so many privately owned Argosies have very different capabilities than the stock model."
+
+
+ship "Argosy" "Argosy (Explorer)"
+	outfits
+		"A255 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Anti-Missile Turret"
+		"Blaster Turret"
+		"D23-QP Shield Generator"
+		"Dwarf Core" 2
+		"Energy Blaster" 2
+		"Fuel Pod" 2
+		"Jump Drive"
+		Ramscoop
+		"Water Coolant System"
+
+
+ship "Dromedary"
+	plural "Dromedaries"
+	sprite "ship/modified dromedary"
+	thumbnail "thumbnail/modified dromedary"
+	attributes
+		category "Utility"
+		"cost" 57600000
+		"shields" 15100
+		"hull" 9600
+		"required crew" 95
+		"bunks" 300
+		"mass" 2140
+		"drag" 15.1
+		"heat dissipation" .4
+		"fuel capacity" 900
+		"cargo space" 550
+		"outfit space" 740
+		"weapon capacity" 270
+		"engine capacity" 195
+		"solar collection" 1.1
+		"outfit scan power" 18
+		"outfit scan efficiency" 48
+		"tactical scan power" 39
+		"asteroid scan power" 42
+		"atmosphere scan" 100
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Laser Turret" 2
+		"Quad Blaster Turret"
+		"Anti-Missile Turret" 2
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Ramscoop"
+		"NDR-114 Android" 100
+		"Laser Rifle" 150
+		"X4700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Hyperdrive"
+	engine 32.5 207
+	engine 3 207
+	engine -27.5 207
+	gun 65 -111
+		angle 40
+	gun -72 -97.5
+		angle 320
+	gun -66.5 61
+		angle 270
+	gun 78 64
+		angle 90
+	turret 10 -136.5
+	turret -21.5 -57.5
+	turret 51 101
+	turret -63.5 120
+	turret 52.5 143
+	bay "Fighter" -51 -54 under
+		"launch effect" "human internal"
+	bay "Fighter" 47 -40 under
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description `The Tycho Crater Cooperative's Dromedary was one of the foremost colonization ships during the early era before piracy became rampant and triggered the necessity for city-ships to be more combat-oriented. These ships incorporate extensive hydroponics, large construction equipment installations, and hundreds of densely packed "dream cells" built to transport people in bulk.`
+
+
+ship "Dromedary (wreck)"
+	plural "Dromedaries (wreck)"
+	sprite "ship/modified dromedary"
+	thumbnail "thumbnail/modified dromedary"
+	attributes
+		category "Utility"
+		"automaton" 1
+		"cost" 57600000
+		"shields" 15100
+		"hull" 9600
+		"required crew" 0
+		"bunks" 0
+		"mass" 2140
+		"drag" 15.1
+		"heat dissipation" .4
+		"fuel capacity" 900
+		"cargo space" 550
+		"outfit space" 740
+		"weapon capacity" 270
+		"engine capacity" 195
+		"solar collection" 1.1
+		"outfit scan power" 18
+		"outfit scan efficiency" 48
+		"tactical scan power" 39
+		"asteroid scan power" 42
+		"atmosphere scan" 100
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Ramscoop"
+		"NDR-114 Android" 100
+		"Laser Rifle" 150
+		"X4700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Hyperdrive"
+	engine 32.5 207
+	engine 3 207
+	engine -27.5 207
+	gun 65 -111
+		angle 40
+	gun -72 -97.5
+		angle 320
+	gun -66.5 61
+		angle 270
+	gun 78 64
+		angle 90
+	turret 10 -136.5
+	turret -21.5 -57.5
+	turret 51 101
+	turret -63.5 120
+	turret 52.5 143
+	bay "Fighter" -51 -54 under
+		"launch effect" "human internal"
+	bay "Fighter" 47 -40 under
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description `The Tycho Crater Cooperative's Dromedary was one of the foremost colonization ships during the early era before piracy became rampant and triggered the necessity for city-ships to be more combat-oriented. These ships incorporate extensive hydroponics, large construction equipment installations, and hundreds of densely packed "dream cells" built to transport people in bulk.`
+
+
+ship "Carrier (wreck)"
+	sprite "ship/carrier"
+	thumbnail "thumbnail/carrier"
+	attributes
+		category "Heavy Warship"
+		"automaton" 1
+		licenses
+			"Navy Carrier"
+		"cost" 15200000
+		"shields" 21400
+		"hull" 8300
+		"required crew" 0
+		"bunks" 0
+		"mass" 910
+		"drag" 17.7
+		"heat dissipation" .45
+		"fuel capacity" 700
+		"cargo space" 100
+		"outfit space" 820
+		"weapon capacity" 370
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits	
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer" 2
+		"Water Coolant System"
+		"Brig"
+		"Laser Rifle" 40
+		"Fragmentation Grenades" 40
+		"Security Station"
+		"Tactical Scanner"
+		"X5700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"	
+	engine -36.5 200 0.65
+	engine 36.5 200 0.65
+	gun -17.5 -176.5
+	gun 17.5 -176.5
+	gun -17.5 -176.5
+	gun 17.5 -176.5
+	gun -26 -167.5
+	gun 26 -167.5
+	gun -26 -167.5
+	gun 26 -167.5
+	turret 0 -49
+	turret 0 14
+	turret -22 22
+	turret 22 22
+	bay "Fighter" -38.5 -64.5
+		"launch effect" "human internal"
+	bay "Fighter" 38.5 -64.5
+		"launch effect" "human internal"
+	bay "Fighter" -50 40.5
+		"launch effect" "human internal"
+	bay "Fighter" 50 40.5
+		"launch effect" "human internal"
+	bay "Drone" -71.5 -49.5
+		"launch effect" "human internal"
+	bay "Drone" 71.5 -49.5
+		"launch effect" "human internal"
+	bay "Drone" -115 55
+		"launch effect" "human internal"
+	bay "Drone" 115 55
+		"launch effect" "human internal"
+	bay "Drone" -85 55
+		"launch effect" "human internal"
+	bay "Drone" 85 55
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Carrier is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."
+
+
+

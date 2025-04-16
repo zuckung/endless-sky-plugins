@@ -7,6 +7,8 @@ outfit "unq_survival_rations"
 	"plural" "Hai Survival Rations"
 	"display name" "Hai Survival Rations"
 	category "Unique"
+	series "Non-Functional Unique"
+	index 02200
 	thumbnail "outfit/unq_survival"
 	"unique" 1
 	"unplunderable" 1

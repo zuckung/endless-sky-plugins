@@ -1,0 +1,181 @@
+# mission "buy advanced sanner"
+# mission "derelict sospi"
+# mission "derelict sospi swap"
+# mission "derelict sadr"
+# mission "derelict sadr swap"
+# mission "derelict orbona"
+# mission "derelict orbona swap"
+
+
+
+mission "buy advanced sanner"
+	invisible
+	outfitter
+	source "Oblivion"
+	to offer
+		"credits" > 100000
+		random < 10
+	on offer
+		conversation
+			scene "scene/derelict_outfitter"
+			`After entering the outfitter, you go to the terminals where you go through the inventory lists. In a workshop to the side you see a young woman jumping up from her work cheering.`
+			`"What's the reason for the good mood?" you ask.`
+			`"I've just finished working on a new type of scanner. It's a highly experimental scanner for detecting shipwrecks that have been floating around for years or decades, cold and so far undetectable. I'm hoping to use it to finance my own small workshop. At the moment I've just rented this little workspace."`
+			`You think about the possibilities of this type of scanner. There are certainly countless treasures floating around out there in the vastness of space, unnoticed by the thousands of ships that continually cross these systems. Do you want to try to buy the scanner from her?`
+			choice
+				`	offer her 50.000 credits`
+					goto buyscanner50
+				`	offer her 100.000 credits`
+					goto buyscanner100
+				`	that scanner probably won't work anyway`
+					goto dontbuyscanner
+			label buyscanner50
+			scene "scene/derelict_outfitter"
+			action
+				outfit "Derelict Scanner" 1
+				payment -50000
+			`The young engineer is completely amazed by your offer and immediately agrees. A quick credit transfer later, she hands you the device and gives you some instructions on how to connect the scanner to your ship's system.`
+				decline
+			label buyscanner100
+			scene "scene/derelict_outfitter"
+			action
+				outfit "Derelict Scanner" 1
+				payment -100000
+			`The young engineer is pleasantly surprised by your offer and falls into your arms.`
+			`"With this amount I can afford my workshop! You can't imagine how long I've been saving for it."`
+			`A quick credit transfer later, she hands you the device and gives you some instructions on how to connect the scanner to your ship's system.`
+				decline
+			label dontbuyscanner
+			scene "scene/derelict_outfitter"
+			`You congratulate her on her success and then say goodbye. If you change your mind, maybe you can come back later.`
+				defer
+
+
+mission "derelict sospi"
+	landing
+	invisible
+	to offer
+		has "outfit: Derelict Scanner"
+	to complete
+		never
+	on enter "Sospi"
+		dialog
+			`When you enter the Sospi system, you start the usual system scan, expecting nothing special. But this time the results are strange. It looks like there are three derelict ships orbiting the star. You should investigate that.`
+	npc board
+		government "derelict ship"
+		personality waiting derelict target mute
+		system "Sospi"
+		fleet
+			names "civilian"
+			cargo 0
+			variant 1
+				"Argosy (wreck)" 3
+		conversation
+			scene "scene/dark_ship01"
+			`The ships are badly damaged and you find lots of mummified corpses. It seems like the crews got killed by some kind of radiation. Maybe a very heavy coronal mass ejection surprised the crew while refueling close to the star. A few hours later the basic systems work again. These ships are unusually good equipped, they even have jump drives. You should capture them and land on the nearest human planet for a repair and to find out more about them.`
+
+
+mission "derelict sospi swap"
+	landing
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	to offer
+		has "ship model: Argosy (wreck)"
+	on offer
+		take ship "Argosy (wreck)"
+			count 3
+		give ship "Argosy (Explorer)"
+			count 3
+		conversation
+			scene "scene/space_agency01"
+			`After landing, the repair of the three argosy wrecks begins. Meanwhile you check the ship identifications at the local space administration.`
+			`Apparently the Argosys are 180 years old and were part of an expedition from a government agency called 'Explorer Corps'. Their disappearance was unfortunate and the beginning of of 20-year break for manned space exploration beyond Republic space.`
+			`The space administration is very grateful for the informations and confirms, according to the salvage law, that the ships now belong to you.`
+				decline
+
+
+mission "derelict sadr"
+	landing
+	invisible
+	to offer
+		has "outfit: Derelict Scanner"
+	to complete
+		never
+	on enter "Sadr"
+		dialog
+			`When you enter the Sadr system, you start the usual system scan, expecting nothing special. But this time the results are strange. It looks like there is a derelict ship orbiting the star. You should investigate that.`
+	npc board
+		government "derelict ship"
+		personality waiting derelict target mute
+		system "Sadr"
+		fleet
+			names "civilian"
+			cargo 0
+			variant 1
+				"Dromedary (wreck)" 1
+		conversation
+			scene "scene/dark_ship02"
+			`The Dromedary is badly damaged and you find lots of mummified corpses. There are traces of a heavy space battle, holes in the hull, also a debris field. Most of the crew died by the athmosphere loss. Maybe the Dromedary fought another big ship? Most systems still work after a short repair, the reactivated android crew helped a lot. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
+
+
+mission "derelict sadr swap"
+	landing
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	to offer
+		has "ship model: Dromedary (wreck)"
+	on offer
+		take ship "Dromedary (wreck)"
+		give ship "Dromedary"
+		conversation
+			scene "scene/space_agency02"
+			`After landing, the repair of the Dromedary wreck begins. Meanwhile you check the ship identifications at the local space administration.`
+			`Apparently the Dromedary is 120 years old and transported trade goods for a company, when it disappeared. A search expedition was active for several months. With your informations the space administration knows now that the expedition searched in the wrong systems.`
+			`The space administration is very grateful for the informations and confirms, according to the salvage law, that the ship now belongs to you.`
+				decline
+
+
+mission "derelict orbona"
+	landing
+	invisible
+	to offer
+		has "outfit: Derelict Scanner"
+	to complete
+		never
+	on enter "Orbona"
+		dialog
+			`When you enter the Orbona system, you start the usual system scan, expecting nothing special. But this time the results are strange. It looks like there is a derelict ship orbiting the star. You should investigate that.`
+	npc board
+		government "derelict ship"
+		personality waiting derelict target mute
+		system "Orbona"
+		fleet
+			names "republic capital"
+			cargo 0
+			variant 1
+				"Carrier (wreck)" 1
+		conversation
+			scene "scene/dark_ship03"
+			`The Navy Carrier is badly damaged and you find lots of mummified corpses. There is a big hole at one side and it looks like something crashed into the Carrier, maybe an asteroid? Most of the crew died by the athmosphere loss. After a short repair you manage to get the energy and engine systems running. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
+
+
+mission "derelict orbona swap"
+	landing
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	to offer
+		has "ship model: Carrier (wreck)"
+	on offer
+		take ship "Carrier (wreck)"
+		give ship "Carrier"
+		conversation
+			scene "scene/space_agency03"
+			`After landing, the repair of the Carrier wreck begins. Meanwhile you check the ship identifications at the local space administration.`
+			`Apparently the Carrier is 30 years old and patrolled the border systems, when it disappeared. The Republic's secret service attributed the carrier's disappearance to an incident with a pirate gang that was active at that time.`
+			`The space administration is very grateful for the informations and confirms, according to the salvage law, that the ship now belongs to you.`
+				decline
+
+

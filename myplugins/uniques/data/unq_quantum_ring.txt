@@ -6,6 +6,8 @@
 outfit "unq_quantum_ring"
 	"display name" "Quantum Ring"
 	category "Unique"
+	series "Functional Unique"
+	index 01100
 	thumbnail "outfit/unq_quantum_ring"
 	"unique" 1
 	"unplunderable" 1

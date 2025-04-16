@@ -6,6 +6,8 @@
 outfit "unq_korathpillow"
 	"display name" "Korath Pillow"
 	category "Unique"
+	series "Non-Functional Unique"
+	index 04200
 	thumbnail "outfit/unq_stone"
 	"unique" 1
 	"unplunderable" 1

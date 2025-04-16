@@ -6,6 +6,8 @@
 outfit "unq_toolbox"
 	"display name" "Toolbox"
 	category "Unique"
+	series "Functional Unique"
+	index 01100
 	thumbnail "outfit/unq_toolbox"
 	"unique" 1
 	"unplunderable" 1

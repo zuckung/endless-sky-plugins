@@ -16,6 +16,8 @@
 outfit "unq_holographic_emitter"
 	"display name" "External Holo Emitter"
 	category "Unique"
+	series "Functional Unique"
+	index 01100
 	thumbnail "outfit/unq_holographic_emitter"
 	"unique" 1
 	"unplunderable" 1

@@ -21,6 +21,8 @@ planet "Overseer"
 outfit "unq_scanner"
 	"display name" "Scanning Computer"
 	category "Unique"
+	series "Functional Unique"
+	index 99100
 	thumbnail "outfit/unq_scanner"
 	"unique" 1
 	"unplunderable" 1

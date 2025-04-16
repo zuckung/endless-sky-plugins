@@ -11,6 +11,8 @@ disable mission
 outfit "unq_skadenga"
 	"display name" "Skadenga Book"
 	category "Unique"
+	series "Non-Functional Unique"
+	index 01200
 	thumbnail "outfit/unq_skadenga"
 	"unique" 1
 	"unplunderable" 1

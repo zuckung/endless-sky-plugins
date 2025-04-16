@@ -6,6 +6,8 @@ outfit "unq_book"
 	"plural" "Piloting For Dummies"
 	"display name" "Piloting For Dummies"
 	category "Unique"
+	series "Functional Unique"
+	index 01100
 	thumbnail "outfit/unq_book"
 	"unique" 1
 	"unplunderable" 1

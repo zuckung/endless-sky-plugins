@@ -6,6 +6,8 @@
 outfit "unq_alien_handgun"
 	"display name" "Alien Handgun"
 	category "Unique"
+	series "Functional Unique"
+	index 99100
 	thumbnail "outfit/unq_alien_handgun"
 	"unique" 1
 	"unplunderable" 1

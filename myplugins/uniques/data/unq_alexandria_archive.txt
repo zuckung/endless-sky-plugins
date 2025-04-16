@@ -14,6 +14,8 @@ disable mission
 outfit "unq_archive"
 	"display name" "Human Cultural Data Chip"
 	category "Unique"
+	series "Non-Functional Unique"
+	index 01200
 	thumbnail "outfit/unq_archive"
 	"unique" 1
 	"unplunderable" 1

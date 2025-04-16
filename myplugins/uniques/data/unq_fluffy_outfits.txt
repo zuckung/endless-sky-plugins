@@ -1,0 +1,298 @@
+# category pets
+# ship "fluffy Planet Destroyer" for dark star mission
+# ship "fluffy Mega Freighter" for alien mission
+# outfit Bawdy Magazine
+# outfit Glass Cat
+# outfit fluffy_cat
+# outfit fluffy_ocelot
+# outfit fluffy_raccoon
+# outfit fluffy_alien
+# outfit fluffy_ferret
+# outfit fluffy_koala
+# outfit fluffy_rabbit
+# outfit fluffy_hamster
+# outfit fluffy_squirrel
+# outfit fluffy_exotic
+
+
+category "outfit"
+	"Pets"
+
+
+ship "fluffy Planet Destroyer"
+	"display name" "Planet Destroyer"
+	sprite "ship/darkstar"
+	thumbnail "thumbnail/argosy"
+	attributes
+		category "Light Freighter"
+		"cost" 1960000
+		"shields" 4200
+		"hull" 2600
+		"required crew" 0
+		"automaton" 1
+		"bunks" 4
+		"mass" 480
+		"drag" 7.4
+		"heat dissipation" .56
+		"fuel capacity" 400
+		"cargo space" 120
+		"outfit space" 270
+		"weapon capacity" 90
+		"engine capacity" 80
+		weapon
+			"blast radius" 20000
+			"hull damage" 79999
+			"piercing" 1
+			"hit force" -8200
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Hyperdrive"
+	engine -25 91 0.6
+	engine -14 91 0.8
+	engine 14 91 0.8
+	engine 25 91 0.6
+	gun -22 -37 "Energy Blaster"
+	gun -22 -37 "Meteor Missile Launcher"
+	gun 22 -37 "Energy Blaster"
+	gun 22 -37 "Meteor Missile Launcher"
+	turret 0 -12.5 "Blaster Turret"
+	turret 0 9.5 "Anti-Missile Turret"
+	leak "leak" 60 50
+	leak "flame" 60 80
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "You should not be seeing the description of this ship."
+
+
+ship "fluffy Mega Freighter"
+	"display name" "CM-88B"
+	sprite "ship/nostromo"
+	thumbnail "thumbnail/argosy"
+	attributes
+		category "Light Freighter"
+		"cost" 1960000
+		"shields" 4200
+		"hull" 2600
+		"required crew" 0
+		"automaton" 1
+		"bunks" 14
+		"mass" 480
+		"drag" 7.4
+		"heat dissipation" .56
+		"fuel capacity" 400
+		"cargo space" 120
+		"outfit space" 270
+		"weapon capacity" 90
+		"engine capacity" 80
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Hyperdrive"
+	engine -25 91 0.6
+	engine -14 91 0.8
+	engine 14 91 0.8
+	engine 25 91 0.6
+	gun -22 -37 "Energy Blaster"
+	gun -22 -37 "Meteor Missile Launcher"
+	gun 22 -37 "Energy Blaster"
+	gun 22 -37 "Meteor Missile Launcher"
+	turret 0 -12.5 "Blaster Turret"
+	turret 0 9.5 "Anti-Missile Turret"
+	leak "leak" 60 50
+	leak "flame" 60 80
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "You should not be seeing the description of this ship."
+
+
+outfit "bawdy magazines"
+	plural "bawdy magazines"
+	"display name" "Bawdy Magazines"
+	category "Unique"
+	series "Non-Functional Unique"
+	index 01200
+	"unique" 1
+	"unplunderable" 1
+	thumbnail "outfit/fluffy_bawdy"
+	description `Several strange ancient porn magazines, found in an old derelict ship. Somehow you really like the style. You shouldn't tell anyone about this.`
+
+
+outfit "Glass Cat"
+	category "Unique"
+	series "Non-Functional Unique"
+	index 01200
+	"unique" 1
+	"unplunderable" 1
+	thumbnail "outfit/fluffy_cat_figurine"
+	description `A modern art figurine of a cat, made of glass. It is a gift by 'Beings for Ethical Treatment of Animals' (BETA) for your work in the field of animal protection. You just wonder how this Organization found out of your pet rescues. Do they have some kind of intelligence service?`
+
+
+outfit "fluffy_cat"
+	category "Pets"
+	series "Functional Unique"
+	index 01100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Cleo"`
+	"capture attack" 0.5
+	"capture defense" 0.7
+	thumbnail "outfit/fluffy_cat"
+	description `Once just an innocent bystander caught in a firefight, "Cleo" has come a long way, now she reigns supreme on the starship bridge. Technically, she holds no official rank, but everyone knows she's one level above the captain.`
+	description `She strolls across control panels like she owns them (because she does), and dares anyone to move her. Orders? She ignores them. Meetings? She naps through them. The crew adores her, or fears her, it's hard to tell. "Cleo" is equal parts survivor, diva, and dictator. A true legend in fur. After all, not every ship has a queen lounging on the command console.`
+
+
+outfit "fluffy_ocelot"
+	category "Pets"
+	series "Functional Unique"
+	index 01100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Babou"`
+	"capture attack" 1
+	"capture defense" 0.9
+	thumbnail "outfit/fluffy_ocelot"
+	description `"Babou", former pirate ocelot, current hero, and still a menace to unattended snacks. Sleek, spotted, and dangerously charming, "Babou" struts with the confidence of someone who's stolen both,  hearts and cargo.`
+	description `About the size of a large housecat, but with the attitude of a jungle god, ocelots like "Babou" are known for their agility, sharp claws, and zero respect for personal space. Once feared across the galaxy as the "Whiskered Bandit", "Babou" now fights for the good side... mostly. Just don't try to put a collar on him. Or touch his tail. Seriously. You've been warned.`
+
+
+outfit "fluffy_raccoon"
+	category "Pets"
+	series "Functional Unique"
+	index 01100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Bandit"`
+	"capture attack" 1.3
+	"capture defense" 1.4
+	thumbnail "outfit/fluffy_raccoon"
+	description `This little raccoon is always at your side. At least at lunchtime. With his bandit mask and grabby little hands, he's the galaxy's most adorable food thief. Officially, he's not part of the crew, but try telling him that when he's already halfway into your sandwich.`
+	description `Raccoons are clever, curious, and alarmingly good at opening things they absolutely shouldn't. Like airlock panels. Or pudding cups. Somehow both. He's loyal in his own mischievous way, especially if snacks are involved. Just don't leave shiny objects lying around. Or snacks. Or anything. He's not a pet, he's a fuzzy, chaos-powered sidekick.`
+
+
+outfit "fluffy_alien"
+	category "Pets"
+	series "Functional Unique"
+	index 99100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Snuggles"`
+	"capture attack" 2.8
+	"capture defense" 2.7
+	thumbnail "outfit/fluffy_alien"
+	description `Some kind of strange animal, more exactly a xenomorph, you found on a derelict ship. Although it tries to bite you regularly, you keep it as a pet. Why? Well... it's kind of cute in a terrifying, acid-dripping, nightmarish way.`
+	description `You've named it "Snuggles", which seems to confuse and mildly enrage it. It hisses at everyone, chews on bulkheads, and once tried to cocoon you. Classic "Snuggles". Still, it follows you around, sleeps (hanging upside down) near your bunk, and only occasionally drools on the navigation console. Deep down, you think it likes you. Or maybe it's just waiting for the perfect moment to strike. Either way, companionship!`
+
+
+outfit "fluffy_ferret"
+	category "Pets"
+	series "Functional Unique"
+	index 01100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Gummi Bear"`
+	"capture attack" 0.7
+	"capture defense" 0.4
+	thumbnail "outfit/fluffy_ferret"
+	description `"Gummi Bear" is a hyperactive ferret with zero sense of fear and even less understanding of privacy. He's always wherever the action is, blaster fire, engine malfunctions, spontaneous zero-G dance parties. You name it, he's in the middle of it.`
+	description `Somehow, he especially enjoys space battles, zooming through the corridors like a furry torpedo of chaos. No one knows how he gets into the ventilation shafts so fast. Or how he got into your helmet. Again. He may be small, but he's 100% trouble, and 110% adorable. He's not just a pet. He's the ship's unofficial morale officer. And chaos gremlin.`
+
+
+outfit "fluffy_koala"
+	category "Pets"
+	series "Functional Unique"
+	index 01100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Archie"`
+	"capture attack" 0.5
+	"capture defense" 0.5
+	thumbnail "outfit/fluffy_koala"
+	description `You installed half a tree on the bridge for "Archie". Now he sleeps there. All day. Every day. Occasionally, he takes a break, to eat, stretch, and give the crew a slow, judgmental blink. That's it.`
+	description `He's fluffy, he's lazy, and somehow he's become the ship's emotional support koala. He contributes absolutely nothing to missions, but morale skyrocketed the day he arrived. No one dares question his presence anymore. He once clung to the navigator's leg for two hours. The navigator never spoke of it again. Archie may not move much, but when he does, it's usually toward snacks. Or higher branches.`
+
+
+outfit "fluffy_rabbit"
+	category "Pets"
+	series "Functional Unique"
+	index 01100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Thumper"`
+	"capture attack" 0.9
+	"capture defense" 0.1
+	thumbnail "outfit/fluffy_rabbit"
+	description `"Thumper" may look like a fluffy bundle of innocence, but don't be fooled, he's a cable-chewing menace with a twitchy nose and a thirst for destruction. It took a full engineering team and three rolls of anti-gnawing tape to rabbit-proof the bridge. If only he weren't so heartbreakingly adorable.`
+	description `The crew pretends to love him, but you've seen the fear in their eyes. One even called him the "Rabbit of Caerbannog". You don't get the reference, but judging by the way he shredded a datapad last week... maybe you should find out. Still, he's your rabbit. Your adorable, slightly terrifying little chaos bunny.`
+
+
+outfit "fluffy_hamster"
+	category "Pets"
+	series "Functional Unique"
+	index 01100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Peanut"`
+	"capture attack" 0.1
+	"capture defense" 0.1
+	thumbnail "outfit/fluffy_hamster"
+	description `As a real spacefaring hamster, "Peanut" takes his nut-smuggling duties very seriously. Tiny but determined, he can transport an impossible amount of cargo, mostly nuts, snacks, and occasionally shiny bolts, straight to his nest behind the communications console. No one knows how he got access to the ship's storage bay, but somehow he's hoarding half the crew's trail mix.`
+	description `He's small, fast, and utterly fearless. He once squared off with a cleaning droid. He won. "Peanut" is fluffy, full of attitude, and always busy with some mysterious hamster mission. Is he just cute? Or secretly running the whole ship? No one's sure.`
+
+
+outfit "fluffy_squirrel"
+	category "Pets"
+	series "Functional Unique"
+	index 01100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Trixie"`
+	"capture attack" 0.2
+	"capture defense" 0.1
+	thumbnail "outfit/fluffy_squirrel"
+	description `"Trixie" is a little squirrel girl with big eyes, a bushy tail, and the energy of a caffeine-powered rocket. She's now your friend. Well, more like your tiny, nut-hoarding shadow.`
+	description `Whenever Hai visit the ship, "Trixie" instantly becomes the main attraction. She performs daring acrobatics across the ceiling panels, poses dramatically on consoles, and occasionally steals someone's snack mid-sentence. The Hai are completely mesmerized.`
+	description `She may look cute, but she's a certified whirlwind of fluff and mischief. Whether she's chasing laser pointers or hiding in the captain's chair, one thing's certain: life aboard the ship got a lot more fun.`
+
+
+outfit "fluffy_exotic"
+	category "Pets"
+	series "Functional Unique"
+	index 99100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Exotic"`
+	"capture attack" 1.5
+	"capture defense" 1.9
+	thumbnail "outfit/fluffy_exotic"
+	description `An alien of unknown origin, discovered aboard a derelict ship, now a semi-official crew member, mostly because no one can catch it. It looks like a gas-filled beach ball with webbed feet and a permanent look of mild confusion. It bounces instead of walks, squeaks instead of speaks, and somehow got into the air ducts twice.`
+	description `Generally friendly, until it's hungry. Then it turns into a grumpy, floating menace with a taste for freeze-dried rations and fingers. Still, you've grown oddly attached to it. You even named it "Exotic". No idea what it is, but it's yours. Probably. Unless it eats you.`

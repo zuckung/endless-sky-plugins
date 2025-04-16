@@ -5,6 +5,8 @@
 outfit "unq_teddy"
 	"display name" "Toby the Teddy Bear"
 	category "Unique"
+	series "Non-Functional Unique"
+	index 01200
 	thumbnail "outfit/unq_teddy"
 	"unique" 1
 	"unplunderable" 1

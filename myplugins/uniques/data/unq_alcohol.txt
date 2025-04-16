@@ -23,6 +23,8 @@ outfit "unq_alcohol"
 	"plural" "Old Whisky Bottles"
 	"display name" "Old Whisky Bottles"
 	category "Unique"
+	series "Non-Functional Unique"
+	index 01200
 	thumbnail "outfit/unq_alcohol"
 	"unique" 1
 	"unplunderable" 1

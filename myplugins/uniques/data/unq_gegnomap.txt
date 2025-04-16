@@ -6,6 +6,8 @@
 outfit "unq_gegnotablet"
 	"display name" "Gegno Starmap"
 	category "Unique"
+	series "Non-Functional Unique"
+	index 06200
 	thumbnail "outfit/unq_gegnotablet"
 	cost 10000
 	"unique" 1
@@ -15,6 +17,8 @@ outfit "unq_gegnotablet"
 outfit "unq_gegnomap"
 	"display name" "Gegno Starmap"
 	category "Special"
+	series "Non-Functional Unique"
+	index 06700
 	thumbnail "outfit/map"
 	"map" 100
 	"unique" 1

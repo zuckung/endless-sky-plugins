@@ -3,16 +3,21 @@
 # outfit "Puny"
 # outfit "Mug"
 # outfit "Antigrav Glass"
-
+# outfit "Trefoil Board"
+# outfit "Damselflyman"
 
 
 outfit "Cloaking Device"	
+	series "Functional Unique"
+	index 01100
 	"mass" 0
 	"outfit space" 0	
 
 
 outfit "Outskirts Gauger"	
 	category "Unique"
+	series "Functional Unique"
+	index 08100
 	"mass" 0	
 	"outfit space" 0
 	"unique" 1
@@ -21,6 +26,10 @@ outfit "Outskirts Gauger"
 
 outfit "Puny"
 	category "Pets"
+	series "Functional Unique"
+	index 01100
+	"capture attack" 0.5
+	"capture defense" 0.4
 	thumbnail "outfit/unq_puny"
 
 
@@ -31,3 +40,20 @@ outfit "Mug"
 outfit "Antigrav Glass"
 	thumbnail "outfit/unq_antigravglass"
 	category "Unique"
+
+
+outfit "Trefoil Board"
+	category "Unique"
+
+
+outfit "Damselflyman"
+	category "Unique"
+	thumbnail "outfit/unq_tumor"
+	"unique" 1
+	"unplunderable" 1
+
+
+outfit "Lancet Adamant"
+	category "Unique"
+	"unique" 1
+	thumbnail "outfit/unq_lancetadamant"

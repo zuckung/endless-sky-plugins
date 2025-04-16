@@ -6,6 +6,8 @@
 outfit "unq_spaceship_figurine"
 	"display name" "Spaceship Figurine"
 	category "Unique"
+	series "Non-Functional Unique"
+	index 01200
 	thumbnail "outfit/unq_spaceship_figurine"
 	"unique" 1
 	"unplunderable" 1
