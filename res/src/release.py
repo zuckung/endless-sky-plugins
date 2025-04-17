@@ -5,7 +5,7 @@ from datetime import datetime
 
 def check_spelling(plugin):
 	if not os.path.isdir('myplugins/' + plugin + '/'):
-		print('There is no plugin: ' + plugin)
+		print('There is no plugin: "' + plugin + '"')
 		print('failing workflow now!')
 		fail_workflow
 
@@ -80,13 +80,15 @@ def write_news(p):
 			newsfile.writelines(news + old)
 
 
-def main():
+def run():
 	p = os.environ['INPUT_STORE'] # plugin.name
 	check_spelling(p)
-	corrected = correct_characters(p) # correct characters that get changed by guthub release
+	corrected = correct_characters(p) # correct characters that get changed by github release
 	create_zip(p, corrected)
 	versioning(p, corrected)
 	write_news(p)
 
-# run
-main()
+if __name__ == "__main__":
+	run()
+
+

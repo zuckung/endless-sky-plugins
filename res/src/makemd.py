@@ -8,6 +8,7 @@ from PIL import Image
 
 def check_local():
 	# for local testing
+	# get the path to the plugins, this is the %pluginurl% (pluginurl) variable, useable in the template.txt
 	if os.getcwd() == '/storage/emulated/0/Download/mgit/endless-sky-plugins/res/src':
 		os.chdir('../../')
 		current_repo = 'zuckung/endless-sky-plugins'
@@ -18,31 +19,7 @@ def check_local():
 	return pluginurl, current_repo
 
 
-def make_download_md(current_repo):
-	plugins = os.listdir('myplugins/')
-	plugins.sort()
-	with open('res/downloads.md', 'w') as target:
-		target.writelines('TOTAL DOWNLOADS<br>\n')
-		target.writelines('  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/' + current_repo + '/total?color=008000"></a><br>\n')
-		target.writelines('<br>\n')
-		target.writelines('TOTAL DOWNLOADS FOR EACH PLUGIN<br>\n')
-		for plugin in plugins:
-			target.writelines('  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/' + current_repo + '/' + 
-				plugin + '.zip?color=008000"></a><br>\n')
-		target.writelines('<br>\n')
-		target.writelines('DOWNLOADS FOR EACH RELEASE<br>\n')
-		for i in range(1, 100):
-			response = requests.get('https://api.github.com/repos/' + current_repo + '/releases?page=' + str(i) + '&per_page=100')
-			data = response.json()
-			if len(data) == 0:
-				break
-			for obj in data:
-				rname = obj['tag_name']
-				target.writelines('  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/' + current_repo + 
-					'/' + str(rname) + '/total?color=008000"></a><br>\n')
-
-
-def make_imagemd(name):
+def make_imagemd(name, current_repo):
 	# get images
 	graphicFiles = []
 	for root, dirs, files in os.walk('myplugins/' + name + '/', topdown=True):
@@ -50,7 +27,7 @@ def make_imagemd(name):
 			if file.endswith('.png') or file.endswith('.jpg'):
 				graphicFiles.append(os.path.join(root, file))
 	graphicFiles.sort()
-	# write md
+	# write images md
 	if len(graphicFiles) > 0:
 		if not os.path.isdir('res/imagemd/'):
 			os.mkdir('res/imagemd/')
@@ -64,14 +41,14 @@ def make_imagemd(name):
 					width, height = im.size
 				if width > 200 or height > 200:
 					if width > height:
-						pic = '		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/' + file \
-						+ '"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" width="200"></a><br>\n'
+						pic = '		<td><a href="https://github.com/' + current_repo + '/blob/main/' + file \
+						+ '"><img src="https://raw.githubusercontent.com/' + current_repo + '/refs/heads/main/' + file + '" width="200"></a><br>\n'
 					else:
-						pic = '		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/' + file \
-						+ '"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" height="200"></a><br>\n'
+						pic = '		<td><a href="https://github.com/' + current_repo + '/blob/main/' + file \
+						+ '"><img src="https://raw.githubusercontent.com/' + current_repo + '/refs/heads/main/' + file + '" height="200"></a><br>\n'
 				else:
-					pic = '		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/' + file \
-					+ '"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" width="' + str(width) \
+					pic = '		<td><a href="https://github.com/' + current_repo + '/blob/main/' + file \
+					+ '"><img src="https://raw.githubusercontent.com/' + current_repo + '/refs/heads/main/' + file + '" width="' + str(width) \
 					+ '" height="' + str(height) + '"></a><br>\n'	
 				pic2 = '		' + last + ' [' + str (width) + 'x' + str(height) + ']</td>\n'
 				pos += 1
@@ -94,19 +71,37 @@ def make_imagemd(name):
 				target.writelines('		<td></td>\n')
 				target.writelines('	</tr>\n')
 			target.writelines('</table>\n')
-		link = '| <a href="res/imagemd/' + name + '.md">view images</a> [' + str(pos) + ']'
+		link = '<a href="res/imagemd/' + name + '.md">view images</a> [' + str(pos) + ']'
 	else:
-		link = ''
+		link = 'N/A'
+	print('plugin.mds with all images written to res/imagemd/\n')
 	return link
 
 
-def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
+def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo):
+	# useable variables inside template.txt:
+	# %news%           html table of the news
+	# %pluginlist%     html table of anchor links to the plugins
+	# %name%           the plugin name
+	# %icon%           html img with plugin icon url
+	# %assetfile%      release zip name of the plugin, special chars and spaces are replaced by dots
+	# %assetfullpath%  url to the plugin release
+	# %size%           plugin size in mb or kb, or 'N/A' if no release found
+	# %lastmodified%   last modified date of the plugin release zip file, or 'N/A' if no release found
+	# %pluginurl%      url path to the plugin folder
+	# %pluginnameurl%  plugin folder name, with space replaced by %20
+	# %imagemd%        html link to a seperate plugin md file with all images of that plugin
+	# %description%    content of the plugin's' plugin.txt or about.txt, or 'N/A' if none found
+	# %readme%         content of the plugin's' README.md or 'N/A' if none found
+	# %screenshots%    html table of the plugin screenshots from the screenshot folder, or '' if none found
+	# %version%        version number
+
 	# read templates
 	with open(templatefile, 'r') as file1:
 		template = file1.read()
 	header = template.split('%plugin template below this line%')[0]
 	p_template =  template.split('%plugin template below this line%')[1]
-	# reading news.txt
+	# creating the news table, this will be the %news% (news) variable in template.txt
 	with open('res/news.txt') as file1:
 		allnews = file1.readlines()
 	news = ''
@@ -114,15 +109,15 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 	for each in allnews:
 		each = each.replace('\n', '')
 		amount += 1
-		if amount <= 10:
+		if amount <= 10: # amount of entries shown
 			news += each + '<br>\n'
 		else:
 			break
-	news = '## Latest News:\n<table><tr><td><img width="882" height="1"><br>' + news + '<img width="882" height="1"><br></td></tr></table>'
-	# write header
+	news = '## Latest News:\n<table>\n<tr>\n<td><img width="882" height="1"><br>\n' + news + '<img width="882" height="1"><br>\n</td>\n</tr>\n</table>\n'
+	# creating plugin list table, this will be the %pluginlist% (pluginlist) variable
 	entries = os.listdir(pathtoplugins)
 	entries = sorted(entries)
-	pluginlist = '<table><tr valign="top"><td><img width="294" height="1"><br>\n'
+	pluginlist = '<table>\n<tr valign="top">\n<td><img width="294" height="1"><br>\n'
 	amount = len(entries)
 	column = amount//3
 	remainder = amount%3
@@ -140,18 +135,23 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 			if index == column +1 or index == 2*column +2:
 				pluginlist += '<img width="294" height="1"><br></td><td><img width="294" height="1"><br>\n'
 	pluginlist += '<img width="294" height="1"><br></td></tr></table>\n'
-	with open(indexfile, 'w') as file1:
+	# writes the template header to the README.md
+	with open('README.md', 'w') as file1:
 		file1.writelines(header.replace('%pluginlist%', pluginlist).replace('%news%', news))
-	# read folders, and write to README.md
+	print('\nREADME.md written!')
+	# read plugin folders, and create a plugin view for each
 	entries = os.listdir(pathtoplugins)
 	entries = sorted(entries)
 	screenshots = os.listdir('screenshots' + os.sep)
 	screenshots = sorted(screenshots)
+	with open(indexfile, 'w') as file1:
+			file1.writelines('')
 	for entry in entries:
 		withdots = entry.replace(' ', '.')
+		# this is the %pluginnameurl% (forweb) variable, currently only replacing spaces
 		forweb  = entry.replace(' ', '%20')
 		pa_template = p_template
-		# checking for screenshots
+		# checking for screenshots, this will be the %screenshot% (screenshotcode) variable
 		screenshotlist = []
 		screenshotcode = ''
 		screenpos = 0
@@ -165,20 +165,20 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 				screenpos += 1
 				if screenpos%3 == 1%3:
 					screenshotcode += '\t<tr>\n\t\t<td>'
-					screenshotcode += '<img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/' + screenshot + '" width="200">'
+					screenshotcode += '<img src="https://raw.githubusercontent.com/' + current_repo + '/master/screenshots/' + screenshot + '" width="200">'
 					screenshotcode += '</td>\n'
 				elif screenpos%3 == 2%3:
 					screenshotcode += '\t\t<td>'
-					screenshotcode += '<img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/' + screenshot + '" width="200">'
+					screenshotcode += '<img src="https://raw.githubusercontent.com/' + current_repo + '/master/screenshots/' + screenshot + '" width="200">'
 					screenshotcode += '</td>\n'
 				elif screenpos%3 == 3%3:
 					screenshotcode += '\t\t<td>'
-					screenshotcode += '<img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/' + screenshot + '" width="200">'
+					screenshotcode += '<img src="https://raw.githubusercontent.com/' + current_repo + '/master/screenshots/' + screenshot + '" width="200">'
 					screenshotcode += '</td>\n\t</tr>\n'
 			if not len(screenshotlist)%3 == 3%3:
 				screenshotcode = screenshotcode + '\t</tr>\n'
 			screenshotcode = screenshotcode + '</table>\n<br>\n'
-		# get version number
+		# gets the %version% (version_number) variable out of versioning.txt
 		with open('res/versioning.txt', 'r') as read_version:
 			version_lines = read_version.readlines()
 		found = 0
@@ -190,20 +190,36 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 				break
 		if found == 0:
 			version_number = '1.0.0'
-		assetfiles = 'https://github.com/zuckung/endless-sky-plugins/releases/download/v' + version_number + '-' + withdots + '/'
-		# get description out of about.txt
-		with open(pathtoplugins + entry + '/about.txt' , 'r') as file1:
-			description_list = file1.readlines()
+		# gets the %assetfullpath% (assetfiles) variable
+		assetfiles = 'https://github.com/' + current_repo + '/releases/download/v' + version_number + '-' + withdots + '/'
+		# gets the %description% (description) variable out of about.txt
 		description = ''
-		for line in description_list:
-			description = description + '>' + line	
-		# get readme.md
-		with open(pathtoplugins + entry + '/README.md' , 'r') as file1:
-			readme_list = file1.readlines()
+		if os.path.isfile(pathtoplugins + entry + '/plugin.txt'):
+			with open(pathtoplugins + entry + '/plugin.txt' , 'r') as file1:
+				description_list = file1.readlines()
+			for line in description_list:
+				if line.startswith('about "'):
+					pos1 = line.find('"')
+					line = line[pos1+1:len(line)-1]
+					break
+			description = description + '>' + line		
+		elif os.path.isfile(pathtoplugins + entry + '/about.txt'):
+			with open(pathtoplugins + entry + '/about.txt' , 'r') as file1:
+				description_list = file1.readlines()
+			for line in description_list:
+				description = description + '>' + line
+		else:
+			description = '>N/A'		
+		# gets the %readme% (readme) variable out of the plugin readme.md
 		readme = ''
-		for line in readme_list:
-			readme = readme + line + '\n' 
-		# get last modified date from the assetfiles
+		if os.path.isfile(pathtoplugins + entry + '/README.md'):
+			with open(pathtoplugins + entry + '/README.md' , 'r') as file1:
+				readme_list = file1.readlines()
+			for line in readme_list:
+				readme = readme + line + '\n' 
+		else:
+			readme = 'N/A'
+		# gets the last modified date from the assetfile, this is the %lastmodified% (modif) variable
 		try:
 			response = requests.head(assetfiles + withdots + '.zip', allow_redirects=True)
 			if response.status_code == 404:
@@ -212,7 +228,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 			modif = response.headers['Last-Modified']
 			datetime_object = datetime.strptime(modif, '%a, %d %b %Y %H:%M:%S %Z')
 			modif = str(datetime_object.date())
-		# get file size of the assetfiles in kb or mb
+		# gets the file size of the assetfile in kb or mb, this is the %size% (assetsize) variable
 			assetsize = int(response.headers['Content-Length']) / 1024
 			form = ' kb'
 			if assetsize > 1024 :
@@ -222,20 +238,17 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 			modif = 'N/A'
 			form = ''
 			assetsize = 'N/A'
+		# gets the %icon% (icon) variable, as an html img
 		if os.path.isfile(pathtoplugins + entry + '/icon.png'):
 			icon = '<img src="' + pathtoplugins + entry + '/icon.png" height="100">'
 		else:
 			icon = ''
-		# create imagemd and return limk
-		imagemdlink = make_imagemd(entry)
-		# create downloadcount badge
-		downloadcountbadge = '<a href="https://img.shields.io/">' \
-			+ '<img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/' + withdots + '.zip?color=blue"></a>'
-		# replace template with contents
+		# create imagemd and return link, this is the %imagemd% (imagemdlink) variable
+		imagemdlink = make_imagemd(entry, current_repo)
+		# replace template with %variables%
 		pa_template = pa_template.replace('%name%', entry)
 		pa_template = pa_template.replace('%assetfullpath%', assetfiles)
 		pa_template = pa_template.replace('%assetfile%', withdots + '.zip')
-		pa_template = pa_template.replace('%downloadcount%', withdots + '.zip')
 		if assetsize != 'N/A':
 			pa_template = pa_template.replace('%size%', str(round(assetsize, 2)) + form)
 		else:
@@ -248,11 +261,13 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 		pa_template = pa_template.replace('%readme%', readme)
 		pa_template = pa_template.replace('%icon%', icon)
 		pa_template = pa_template.replace('%screenshots%', screenshotcode)
-		# write index file
+		pa_template = pa_template.replace('%version%', version_number)
+		# write index file, appending this plugin entry
 		with open(indexfile, 'a') as file1:
 			file1.writelines(pa_template)
-		print(entry + ' WRITTEN')	
-	# deleting zip from runner
+		print(entry + ' WRITTEN')
+	print('\n' + indexfile + ' written!')	
+	# deleting zip from runner, in case release.py is run before this py
 	files = os.listdir()
 	for file in files:
 		if file[len (file)  -3:] == 'zip':
@@ -264,11 +279,10 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 
 def run():
 	pathtoplugins = 'myplugins/'
-	indexfile = 'README.md'
+	indexfile = 'PLUGIN.md'
 	templatefile = 'res/template.txt'
 	pluginurl, current_repo = check_local()
-	make_readme(templatefile, pathtoplugins, indexfile, pluginurl)
-	make_download_md(current_repo)
+	make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 
 
 if __name__ == "__main__":
