@@ -1,2 +1,4 @@
 name "no.more.mereti.mines"
 about "Removes the mines from Mereti ships and replaces them with Husk-Slice and Shield Disruptor guns to increase game performance. See the README for details."
+authors
+	"zuckung"

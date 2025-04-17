@@ -1,2 +1,4 @@
 name "captureable.person.ships"
 about "Makes person ships capturable. See the README for details."
+authors
+	"zuckung"

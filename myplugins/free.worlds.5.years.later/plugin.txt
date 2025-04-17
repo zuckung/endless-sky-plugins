@@ -1,2 +1,4 @@
 name "free.worlds.5.years.later"
 about "Lets the free world war begin 5 years later. See the README for details."
+authors
+	"zuckung"

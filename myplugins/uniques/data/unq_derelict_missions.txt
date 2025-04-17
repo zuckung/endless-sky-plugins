@@ -91,7 +91,7 @@ mission "derelict sospi swap"
 			scene "scene/space_agency01"
 			`After landing, the repair of the three argosy wrecks begins. Meanwhile you check the ship identifications at the local space administration.`
 			`Apparently the Argosys are 180 years old and were part of an expedition from a government agency called 'Explorer Corps'. Their disappearance was unfortunate and the beginning of of 20-year break for manned space exploration beyond Republic space.`
-			`The space administration is very grateful for the information and confirms, according to the salvage law, that the ships now belong to you.`
+			`The space administration is very grateful for the informations and confirms, according to the salvage law, that the ships now belong to you.`
 				decline
 
 
@@ -132,8 +132,8 @@ mission "derelict sadr swap"
 		conversation
 			scene "scene/space_agency02"
 			`After landing, the repair of the Dromedary wreck begins. Meanwhile you check the ship identifications at the local space administration.`
-			`Apparently the Dromedary is 120 years old and transported trade goods for a company, when it disappeared. A search expedition was active for several months. With your information the space administration knows now that the expedition searched in the wrong systems.`
-			`The space administration is very grateful for the information and confirms, according to the salvage law, that the ship now belongs to you.`
+			`Apparently the Dromedary is 120 years old and transported trade goods for a company, when it disappeared. A search expedition was active for several months. With your informations the space administration knows now that the expedition searched in the wrong systems.`
+			`The space administration is very grateful for the informations and confirms, according to the salvage law, that the ship now belongs to you.`
 				decline
 
 
@@ -175,7 +175,7 @@ mission "derelict orbona swap"
 			scene "scene/space_agency03"
 			`After landing, the repair of the Carrier wreck begins. Meanwhile you check the ship identifications at the local space administration.`
 			`Apparently the Carrier is 30 years old and patrolled the border systems, when it disappeared. The Republic's secret service attributed the carrier's disappearance to an incident with a pirate gang that was active at that time.`
-			`The space administration is very grateful for the information and confirms, according to the salvage law, that the ship now belongs to you.`
+			`The space administration is very grateful for the informations and confirms, according to the salvage law, that the ship now belongs to you.`
 				decline
 
 

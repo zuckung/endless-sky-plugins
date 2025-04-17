@@ -1,2 +1,4 @@
 name "automata.in.human.space"
 about "Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details."
+authors
+	"zuckung"

@@ -1,2 +1,4 @@
 name "show.reputation"
 about "Enables a job on every planet's job board, that shows the reputation values. See the README for details."
+authors
+	"zuckung"

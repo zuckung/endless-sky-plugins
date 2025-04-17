@@ -1,2 +1,4 @@
 name "tribute.republic"
 about "Allows you to tribute all Republic planets, without losing Free Worlds or Deep Security reputation. See the README for details."
+authors
+	"zuckung"

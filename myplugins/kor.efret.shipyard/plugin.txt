@@ -1,2 +1,4 @@
 name "kor.efret.shipyard"
 about "Adds a shipyard with the three Kor Efret ships to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships and some Korath Exiles outfits. See the README for details."
+authors
+	"zuckung"

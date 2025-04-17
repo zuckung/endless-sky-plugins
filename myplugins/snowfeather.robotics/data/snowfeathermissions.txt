@@ -96,5 +96,5 @@ mission "Snowfeather Robotics 3"
 			`As you land on <planet>, an assistant of Dr Lufbin awaits you at the starport and leads you to the laboratory.`
 			`Dr Lufbin greets you. "Hello captain <last>, I have a surprise for you."`
 			`He hands you 300.000 credits while some workers transport the 'NDR-114 Android' back on your ship.`
-			`"The additional credits express how helpful your contribution was to my work. My company 'Snowfeather Robotics' sells now SFR-100 worker androids and other models at the local outfitter."`
-			`Dr. Lufbin says goodbye while you calculate how rich you will be, when you replace your lazy and expensive crew.`
+			`"The additional credits express how helpful your contribution was to my work. My company, 'Snowfeather Robotics', sells now SFR-100 worker androids and other models at the local outfitter."`
+			`Dr. Lufbin says goodbye while you calculate how rich you will be when you replace your lazy and expensive crew.`
