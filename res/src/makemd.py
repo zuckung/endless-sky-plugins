@@ -74,7 +74,7 @@ def make_imagemd(name, current_repo):
 		link = '<a href="res/imagemd/' + name + '.md">view images</a> [' + str(pos) + ']'
 	else:
 		link = 'N/A'
-	print('plugin.mds with all images written to res/imagemd/\n')
+	print(name + '.md with all images written to res/imagemd/')
 	return link
 
 
@@ -136,16 +136,14 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 				pluginlist += '<img width="294" height="1"><br></td><td><img width="294" height="1"><br>\n'
 	pluginlist += '<img width="294" height="1"><br></td></tr></table>\n'
 	# writes the template header to the README.md
-	with open('README.md', 'w') as file1:
+	with open(indexfile, 'w') as file1:
 		file1.writelines(header.replace('%pluginlist%', pluginlist).replace('%news%', news))
-	print('\nREADME.md written!')
+	print('README.md header WRITTEN!')
 	# read plugin folders, and create a plugin view for each
 	entries = os.listdir(pathtoplugins)
 	entries = sorted(entries)
 	screenshots = os.listdir('screenshots' + os.sep)
 	screenshots = sorted(screenshots)
-	with open(indexfile, 'w') as file1:
-			file1.writelines('')
 	for entry in entries:
 		withdots = entry.replace(' ', '.')
 		# this is the %pluginnameurl% (forweb) variable, currently only replacing spaces
@@ -266,7 +264,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 		with open(indexfile, 'a') as file1:
 			file1.writelines(pa_template)
 		print(entry + ' WRITTEN')
-	print('\n' + indexfile + ' written!')	
+	print(indexfile + ' COMPLETE!')	
 	# deleting zip from runner, in case release.py is run before this py
 	files = os.listdir()
 	for file in files:
@@ -279,7 +277,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 
 def run():
 	pathtoplugins = 'myplugins/'
-	indexfile = 'PLUGIN.md'
+	indexfile = 'README.md'
 	templatefile = 'res/template.txt'
 	pluginurl, current_repo = check_local()
 	make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
