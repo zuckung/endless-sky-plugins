@@ -543,7 +543,7 @@ mission "culture bunrodea snap fly"
 
 mission "bunrodea side supernova"
 	name "Supernova studies"
-	description "A group of scientists wants to study the supernova remnants at <waypoints>. Return back to <destination> after the visit. The payment will be <payment>."
+	description "A group of scientists want to study the supernova remnants at <waypoints>. Return back to <destination> after the visit. The payment will be <payment>."
 	source "Sopoyra"
 	destination "Sopoyra"
 	waypoint "Peresedersi"
