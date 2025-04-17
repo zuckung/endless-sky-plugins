@@ -21,7 +21,7 @@
 government "Derelict 2"
 	"display name" "Derelict"
 	"player reputation" -1000
-	"fine" 0 
+	"fine" 0
 
 
 mission "beta"
@@ -64,7 +64,7 @@ mission "cat mission 1"
 			`After landing on "Deadman's Cove" you decide to go out to see the only big city on this planet, maybe eat something, and search for a lucrative job. As expected of a pirate planet, the city outside the spaceport is a bit dirty. A few conversations with strangers later, you find a good restaurant in one of the better neighborhoods. After the meal, which was surprisingly good, you decide to return to your ship and delay the search for jobs.`
 			choice
 				`	(Take the shortest route to the spaceport.)`
-					goto darkalley 
+					goto darkalley
 				`	(Visit some of the neighborhoods of this big pirate city first.)`
 					goto darkalley
 			label darkalley
@@ -229,7 +229,7 @@ mission "alien mission 1"
 		conversation
 			`Due to the severe damage, parts of the ship are exposed to the vacuum of space, so you have to wear a spacesuit. It doesn't look like a spaceship battle happened here. The corridors are partially barricaded, there are signs of firefights and apparently someone spilled acid on the corridors floors. Must have been a hard fight in here.`
 			`The ship is completely silent, it seems like no one survived. You pass some rooms, completely devastated by explosions.`
-			choice 
+			choice
 				`	(Continue investigating.)`
 					goto "continue investigation 1"
 				`	(Head back to your ship.)`
@@ -250,7 +250,7 @@ mission "alien mission 1"
 			choice
 				`	(Get out of this ghost ship as fast as possible.)`
 					goto findalien
-				`	(Keep looking for valueables on your way out.)`
+				`	(Keep looking for valuables on your way out.)`
 					goto findalien
 			label findalien
 			`You make your way back to your ship. Shortly before you reach the lock, a small, almost black, extremely strange-looking animal shoots towards you. Quickly you grab it and lift it up. It tries to bite you, but you don't have a hard time dodging each bite. After a while the animal seems to realize that you are in advantage and stops its attacks. You've never seen anything like this animal before.`
@@ -265,7 +265,7 @@ mission "alien mission 1"
 			label adopt
 			scene "outfit/fluffy_alien"
 			action
-				outfit "fluffy_alien"			
+				outfit "fluffy_alien"
 			`You decide to take it with you.`
 				launch
 
@@ -443,7 +443,7 @@ mission "hamster mission 1"
 			`The worker holds one of the creatures in his hand and sucks on one of the fingers of his other hand.`
 			`  "Excuse me, but what the hell is going on here?" you ask.`
 			`The spaceport worker looks at you annoyed.`
-			`  "We have just unloaded a freighter whose cargo is destined for an animal wholesale company. When we opened the hold, a veritable flood of hamsters rushed out and scurried away in every direction. We've been trying to catch these bastards for two hours. And this little monster just bit me in the finger. Here, take him, I have to get some healing spray now."` 
+			`  "We have just unloaded a freighter whose cargo is destined for an animal wholesale company. When we opened the hold, a veritable flood of hamsters rushed out and scurried away in every direction. We've been trying to catch these bastards for two hours. And this little monster just bit me in the finger. Here, take him, I have to get some healing spray now."`
 			`He pushes the hamster into your hands and you practically have no choice but to accept it. As you look at the hamster and gently pet him, you notice how the animal relaxes.`
 			choice
 				`	(Adopt the hamster.)`

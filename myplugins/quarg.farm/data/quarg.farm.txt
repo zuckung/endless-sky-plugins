@@ -16,8 +16,8 @@
 government "Quarg"
 	atrocities
 		"Stub"
-		
-		
+
+
 government "Quarg (Hai)"
 	atrocities
 		"Stub"
@@ -55,7 +55,7 @@ mission "Quarg Warning Saquerver"
 	to complete
 		never
 	on enter "Saquerver"
-		dialog `When you enter the Saquerver system you receive a transmission: "Human, this is a restrictected military system, leave immediately or we will attack. You are not welcome here."`
+		dialog `When you enter the Saquerver system you receive a transmission: "Human, this is a restricted military system, leave immediately or we will attack. You are not welcome here."`
 		fail
 
 
@@ -111,8 +111,8 @@ planet "Ver"
 	tribute 1000
 		threshold 8000
 		fleet "Quarg (Evil)" 2
-	
-	
+
+
 fleet "Quarg (Evil)"
 	government "Quarg (Evil)"
 	names "quarg"

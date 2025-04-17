@@ -379,5 +379,5 @@ mission "Boarding Hai Unfettered (ionic turret)"
 		outfit "Ionic Turret Prototype" 1
 		conversation
 			scene "outfit/hai ionic turret"
-			`When you board the Unfettered ship <origin>, you find an unknown ship weapon in one of the cargo rooms. It looks like some kind of ionic turret weapon. You decite to take it back to your ship.`
+			`When you board the Unfettered ship <origin>, you find an unknown ship weapon in one of the cargo rooms. It looks like some kind of ionic turret weapon. You decide to take it back to your ship.`
 				decline
