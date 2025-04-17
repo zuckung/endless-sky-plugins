@@ -14,7 +14,7 @@ outfit "unq_toolbox"
 	"disabled recovery time" 900
 	"hull repair rate" 0.1
 	cost 600
-	description `A toolbox you've bought during an spaceship engineering seminar. In your skilled hands it can make a difference.`
+	description `A toolbox you've bought during a spaceship engineering seminar. In your skilled hands it can make a difference.`
 
 
 mission "unq toolbox"

@@ -648,7 +648,7 @@ mission "exotic mission 1"
 			scene "scene/fluffy_bomb20"
 			`YOU:			"Captain <last> to Bomb #20. You can't explode in the bomb bay. It's foolish. You'll kill us all. There's no reason for it."`
 			`BOMB #20: "I am programmed to detonate in four minutes 30 seconds. Detonation will occur at the programmed time."`
-			`YOU:			"You won't consider another course of action, for instance just waiting around awhile so we can disarm you?"`
+			`YOU:			"You won't consider another course of action, for instance just waiting around a while so we can disarm you?"`
 			`BOMB #20: "No."`
 			`YOU:			"Look, bomb..."`
 			``
