@@ -8,7 +8,7 @@ Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParse
 <br>
 If you are familiar with Python, the scripts in the <a href="tools/README.md">tools-folder</a> might be interesting. There are a few to generate some of my plugins (to keep them up-to-date). And others like an ES jpg map creator or a PR files downloader.<br>
 <br>
-If you want to run a plugin repository like this, download <a href="tools/plugin_repo_template.zip">plugin_repo_template.zip</a>. It has detailed instructions how to setup the repository.<br>
+If you want to run a plugin repository like this, download <a href="https://github.com/zuckung/endless-sky-plugins/raw/refs/heads/main/tools/plugin_repo_template.zip">plugin_repo_template.zip</a>. It has detailed instructions how to setup the repository.<br>
 <br>
 I've got another new project, a github repository that lets you online generate a galaxy with up to 500 star systems and some more options to configurate that galaxy. When done, you can download it as a plugin. Here is the link. <a href="https://github.com/zuckung/ES-GalaxyGenerator">https://github.com/zuckung/ES-GalaxyGenerator</a><br>
 <br>
