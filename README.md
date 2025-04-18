@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-04-18 | update: quarg.farm<br>
 2025-04-17 | added repo template for download<br>
 2025-04-16 | update: uniques<br>
 2025-04-14 | update: planet.map<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-03-20 | update: galactic.capital.investment<br>
 2025-03-14 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: highrollers.ltd<br>
-2025-03-11 | update: highrollers.ltd<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -862,7 +862,7 @@ screenshots(click to enlarge):<br>
 
 [captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.7-captureable.person.ships/captureable.person.ships.zip) | 140.92 kb | 2025-01-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <a href="res/imagemd/captureable.person.ships.md">view images</a> [4]<br>
 <br>
->Makes person ships capturable. See the README for details.
+>Makes person ships capturable. See the README for details."
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### capturable.person.ships
@@ -3592,7 +3592,7 @@ initial release<br>
 <img src="myplugins/quarg.farm/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/quarg.farm.png">
 
-[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-quarg.farm/quarg.farm.zip) | 26.87 kb | 2025-01-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <a href="res/imagemd/quarg.farm.md">view images</a> [2]<br>
+[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-quarg.farm/quarg.farm.zip) | 110.04 kb | 2025-04-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <a href="res/imagemd/quarg.farm.md">view images</a> [2]<br>
 <br>
 >Adds a new system "Saquerver" (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the README for details."
 <details>
@@ -3614,6 +3614,18 @@ The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Qu
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-04-18<br>
+
+added icon@2x<br>
+
+changed plugin.txt<br>
+
+typo fixes(by snoggles)<br>
+
+adjusted system "Saquerver" better to not interfere with avgi storyline<br>
 
 <br>
 
