@@ -13,6 +13,7 @@ jobs:
     permissions: write-all
     env:
       INPUT_STORE: ${{ github.event.inputs.tags }}
+      INPUT_STORE2: ${{ github.event.inputs.news }}
       CUR_REPO: ${{ github.repository }}
     steps:
       - uses: actions/checkout@v3
