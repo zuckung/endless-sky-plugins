@@ -133,8 +133,8 @@ mission "jump gates building 99"
 		event "wait for active" 30
 		conversation
 			scene "scene/holonews_99"
-			`When you arrive at the spaceport, you notice a news broadcast on one of the holoprojectors you pass. It's about the jump gates and you decide to stop and watch it.`
-			`	"We see a current picture of one of the Sheratan jump gates and it is completely finished on the outside. The internal technology will be installed in the next few weeks. Then it's just a matter of fine-tuning and error fixing. We've heard from the project's press office that progress is very satisfactory. We can expect the jump gate ring to be finished in about a month."`
+			`When you arrive at the spaceport, you notice a news broadcast on one of the holoprojectors you pass. It's about the jump gates, and you decide to stop and watch it.`
+			`	"We see a current picture of one of the Sheratan jump gates, and it is completely finished on the outside. The internal technology will be installed in the next few weeks. Then it's just a matter of fine-tuning and error fixing. We've heard from the project's press office that progress is very satisfactory. We can expect the jump gate ring to be finished in about a month."`
 			`	You set off again. Everything looks to be going according to plan.`
 				decline
 
@@ -1026,7 +1026,7 @@ wormhole "Jump Gate Naos-Spica"
 	mappable
 	"display name" "Naos - Spica"
 	link "Naos" "Spica"
-	link "Spica" "Naos" 
+	link "Spica" "Naos"
 	color "wormholes: Jump Gates"
 
 

@@ -11,9 +11,9 @@ outfit "combat isaac wirth"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"capture attack" 15 
-	"capture defense" 16 
-	description `This is a highly educated employee focused on hand to hand combat. He is a Human, grown up in "rim".`
+	"capture attack" 15
+	"capture defense" 16
+	description `This is a highly educated employee focused on hand-to-hand combat. He is a Human, grown up in "rim".`
 
 outfit "combat jessy tuta"
 	category "Crew"
@@ -25,9 +25,9 @@ outfit "combat jessy tuta"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"capture attack" 17 
-	"capture defense" 19 
-	description `This is a highly educated employee focused on hand to hand combat. She is a Human, grown up in "south".`
+	"capture attack" 17
+	"capture defense" 19
+	description `This is a highly educated employee focused on hand-to-hand combat. She is a Human, grown up in "south".`
 
 outfit "combat kianoush royston"
 	category "Crew"
@@ -39,9 +39,9 @@ outfit "combat kianoush royston"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"capture attack" 18 
-	"capture defense" 20 
-	description `This is a highly educated employee focused on hand to hand combat. He is a Human, grown up in "dirt belt".`
+	"capture attack" 18
+	"capture defense" 20
+	description `This is a highly educated employee focused on hand-to-hand combat. He is a Human, grown up in "dirt belt".`
 
 outfit "combat rodrigo bain"
 	category "Crew"
@@ -53,9 +53,9 @@ outfit "combat rodrigo bain"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"capture attack" 21 
-	"capture defense" 21 
-	description `This is a highly educated employee focused on hand to hand combat. He is a Human, grown up in "deep".`
+	"capture attack" 21
+	"capture defense" 21
+	description `This is a highly educated employee focused on hand-to-hand combat. He is a Human, grown up in "deep".`
 
 outfit "combat tieeitch"
 	category "Crew"
@@ -67,9 +67,9 @@ outfit "combat tieeitch"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"capture attack" 21 
-	"capture defense" 23 
-	description `This is a highly educated employee focused on hand to hand combat. He is a Gegno.`
+	"capture attack" 21
+	"capture defense" 23
+	description `This is a highly educated employee focused on hand-to-hand combat. He is a Gegno.`
 
 outfit "combat ainem wahpip"
 	category "Crew"
@@ -81,9 +81,9 @@ outfit "combat ainem wahpip"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"capture attack" 22 
-	"capture defense" 24 
-	description `This is a highly educated employee focused on hand to hand combat. He is a Hai.`
+	"capture attack" 22
+	"capture defense" 24
+	description `This is a highly educated employee focused on hand-to-hand combat. He is a Hai.`
 
 outfit "combat asvip rap"
 	category "Crew"
@@ -95,9 +95,9 @@ outfit "combat asvip rap"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"capture attack" 23 
-	"capture defense" 25 
-	description `This is a highly educated employee focused on hand to hand combat. She is a Korath.`
+	"capture attack" 23
+	"capture defense" 25
+	description `This is a highly educated employee focused on hand-to-hand combat. She is a Korath.`
 
 outfit "combat ry'i"
 	category "Crew"
@@ -109,9 +109,9 @@ outfit "combat ry'i"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"capture attack" 25 
-	"capture defense" 26 
-	description `This is a highly educated employee focused on hand to hand combat. He is a Kimek.`
+	"capture attack" 25
+	"capture defense" 26
+	description `This is a highly educated employee focused on hand-to-hand combat. He is a Kimek.`
 
 outfit "combat lugub"
 	category "Crew"
@@ -123,9 +123,9 @@ outfit "combat lugub"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"capture attack" 26 
-	"capture defense" 26 
-	description `This is a highly educated employee focused on hand to hand combat. She is an Arach.`
+	"capture attack" 26
+	"capture defense" 26
+	description `This is a highly educated employee focused on hand-to-hand combat. She is an Arach.`
 
 outfit "combat biana"
 	category "Crew"
@@ -137,9 +137,9 @@ outfit "combat biana"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"capture attack" 14 
-	"capture defense" 15 
-	description `This is a highly educated employee focused on hand to hand combat. She is an Avgi.`
+	"capture attack" 14
+	"capture defense" 15
+	description `This is a highly educated employee focused on hand-to-hand combat. She is an Avgi.`
 
 outfit "cooling atreus bodilsen"
 	category "Crew"
@@ -151,8 +151,8 @@ outfit "cooling atreus bodilsen"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cooling" 4 
-	"heat capacity" 200 
+	"cooling" 4
+	"heat capacity" 200
 	description `This is a highly educated employee focused on cooling technologies. He is a Human, grown up in "south".`
 
 outfit "cooling beckah feidhelm"
@@ -165,8 +165,8 @@ outfit "cooling beckah feidhelm"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cooling" 5 
-	"heat capacity" 250 
+	"cooling" 5
+	"heat capacity" 250
 	description `This is a highly educated employee focused on cooling technologies. She is a Human, grown up in "deep".`
 
 outfit "cooling caspar laurentinus"
@@ -180,8 +180,8 @@ outfit "cooling caspar laurentinus"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cooling" 5 
-	"heat capacity" 350 
+	"cooling" 5
+	"heat capacity" 350
 	description `This is a highly educated employee focused on cooling technologies. He is a Human, grown up in "rim".`
 
 outfit "cooling itoro signe"
@@ -194,8 +194,8 @@ outfit "cooling itoro signe"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cooling" 6 
-	"heat capacity" 400 
+	"cooling" 6
+	"heat capacity" 400
 	description `This is a highly educated employee focused on cooling technologies. She is a Human, grown up in "dirt belt".`
 
 outfit "cooling dyeisc"
@@ -208,8 +208,8 @@ outfit "cooling dyeisc"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cooling" 6 
-	"heat capacity" 400 
+	"cooling" 6
+	"heat capacity" 400
 	description `This is a highly educated employee focused on cooling technologies. He is a Gegno.`
 
 outfit "cooling lohmahow monuden"
@@ -222,8 +222,8 @@ outfit "cooling lohmahow monuden"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cooling" 7 
-	"heat capacity" 400 
+	"cooling" 7
+	"heat capacity" 400
 	description `This is a highly educated employee focused on cooling technologies. She is a Hai.`
 
 outfit "cooling krikey"
@@ -236,8 +236,8 @@ outfit "cooling krikey"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cooling" 8 
-	"heat capacity" 450 
+	"cooling" 8
+	"heat capacity" 450
 	description `This is a highly educated employee focused on cooling technologies. He is a Wanderer.`
 
 outfit "cooling kemme ranris"
@@ -251,8 +251,8 @@ outfit "cooling kemme ranris"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cooling" 9 
-	"heat capacity" 550 
+	"cooling" 9
+	"heat capacity" 550
 	description `This is a highly educated employee focused on cooling technologies. She is a Korath.`
 
 outfit "cooling lotura"
@@ -265,8 +265,8 @@ outfit "cooling lotura"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cooling" 10 
-	"heat capacity" 600 
+	"cooling" 10
+	"heat capacity" 600
 	description `This is a highly educated employee focused on cooling technologies. She is a Saryd.`
 
 outfit "cooling chana"
@@ -279,8 +279,8 @@ outfit "cooling chana"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cooling" 7 
-	"heat capacity" 350 
+	"cooling" 7
+	"heat capacity" 350
 	description `This is a highly educated employee focused on cooling technologies. She is an Avgi.`
 
 outfit "energy deirdre ciaran"
@@ -293,8 +293,8 @@ outfit "energy deirdre ciaran"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"energy generation" 2.25 
-	"energy capacity" 2500 
+	"energy generation" 2.25
+	"energy capacity" 2500
 	description `This is a highly educated employee focused on energy technologies. She is a Human, grown up in "rim".`
 
 outfit "energy lisa zola"
@@ -307,8 +307,8 @@ outfit "energy lisa zola"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"energy generation" 2.5 
-	"energy capacity" 3800 
+	"energy generation" 2.5
+	"energy capacity" 3800
 	description `This is a highly educated employee focused on energy technologies. She is a Human, grown up in "south".`
 
 outfit "energy normand kiran"
@@ -321,8 +321,8 @@ outfit "energy normand kiran"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"energy generation" 2.5 
-	"energy capacity" 4000 
+	"energy generation" 2.5
+	"energy capacity" 4000
 	description `This is a highly educated employee focused on energy technologies. He is a Human, grown up in "near earth".`
 
 outfit "energy simona branka"
@@ -335,8 +335,8 @@ outfit "energy simona branka"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"energy generation" 2.75 
-	"energy capacity" 2000 
+	"energy generation" 2.75
+	"energy capacity" 2000
 	description `This is a highly educated employee focused on energy technologies. She is a Human, grown up in "deep".`
 
 outfit "energy auriiel"
@@ -349,8 +349,8 @@ outfit "energy auriiel"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"energy generation" 2.75 
-	"energy capacity" 2800 
+	"energy generation" 2.75
+	"energy capacity" 2800
 	description `This is a highly educated employee focused on energy technologies. He is a Gegno.`
 
 outfit "energy akane sakai"
@@ -363,8 +363,8 @@ outfit "energy akane sakai"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"energy generation" 2.75 
-	"energy capacity" 4300 
+	"energy generation" 2.75
+	"energy capacity" 4300
 	description `This is a highly educated employee focused on energy technologies. She is a Bunrodea.`
 
 outfit "energy aikach"
@@ -377,8 +377,8 @@ outfit "energy aikach"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"energy generation" 3.0 
-	"energy capacity" 3300 
+	"energy generation" 3.0
+	"energy capacity" 3300
 	description `This is a highly educated employee focused on energy technologies. She is a Wanderer.`
 
 outfit "energy raindrop"
@@ -391,8 +391,8 @@ outfit "energy raindrop"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"energy generation" 3.0 
-	"energy capacity" 4000 
+	"energy generation" 3.0
+	"energy capacity" 4000
 	description `This is a highly educated employee focused on energy technologies. She is a Remnant.`
 
 outfit "energy paicha"
@@ -405,8 +405,8 @@ outfit "energy paicha"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"energy generation" 3.25 
-	"energy capacity" 4000 
+	"energy generation" 3.25
+	"energy capacity" 4000
 	description `This is a highly educated employee focused on energy technologies. He is a Kimek.`
 
 outfit "energy pilos"
@@ -420,8 +420,8 @@ outfit "energy pilos"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"energy generation" 2.5 
-	"energy capacity" 3000 
+	"energy generation" 2.5
+	"energy capacity" 3000
 	description `This is a highly educated employee focused on energy technologies. He is an Avgi.`
 
 outfit "engine anahit bodil"
@@ -434,9 +434,9 @@ outfit "engine anahit bodil"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"thrust" 8 
-	"turn" 250 
-	"reverse thrust" 10 
+	"thrust" 8
+	"turn" 250
+	"reverse thrust" 10
 	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "core".`
 
 outfit "engine chetana jaleh"
@@ -449,9 +449,9 @@ outfit "engine chetana jaleh"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"thrust" 8 
-	"turn" 275 
-	"afterburner thrust" 25 
+	"thrust" 8
+	"turn" 275
+	"afterburner thrust" 25
 	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "deep".`
 
 outfit "engine neal fransson"
@@ -464,9 +464,9 @@ outfit "engine neal fransson"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"thrust" 9 
-	"turn" 275 
-	"reverse thrust" 11 
+	"thrust" 9
+	"turn" 275
+	"reverse thrust" 11
 	description `This is a highly educated employee focused on engine technologies. He is a Human, grown up in "south".`
 
 outfit "engine valeriya jannick"
@@ -479,9 +479,9 @@ outfit "engine valeriya jannick"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"thrust" 10 
-	"turn" 300 
-	"afterburner thrust" 28 
+	"thrust" 10
+	"turn" 300
+	"afterburner thrust" 28
 	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "near earth".`
 
 outfit "engine efeduefyu"
@@ -494,9 +494,9 @@ outfit "engine efeduefyu"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"thrust" 10 
-	"turn" 300 
-	"reverse thrust" 12 
+	"thrust" 10
+	"turn" 300
+	"reverse thrust" 12
 	description `This is a highly educated employee focused on engine technologies. He is a Gegno.`
 
 outfit "engine riko ishii"
@@ -509,9 +509,9 @@ outfit "engine riko ishii"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"thrust" 11 
-	"turn" 325 
-	"afterburner thrust" 31 
+	"thrust" 11
+	"turn" 325
+	"afterburner thrust" 31
 	description `This is a highly educated employee focused on engine technologies. She is a Bunrodea.`
 
 outfit "engine ifir rakik"
@@ -524,9 +524,9 @@ outfit "engine ifir rakik"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"thrust" 12 
-	"turn" 325 
-	"reverse thrust" 13 
+	"thrust" 12
+	"turn" 325
+	"reverse thrust" 13
 	description `This is a highly educated employee focused on engine technologies. He is a Korath.`
 
 outfit "engine midnight"
@@ -539,9 +539,9 @@ outfit "engine midnight"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"thrust" 13 
-	"turn" 350 
-	"afterburner thrust" 33 
+	"thrust" 13
+	"turn" 350
+	"afterburner thrust" 33
 	description `This is a highly educated employee focused on engine technologies. He is a Remnant.`
 
 outfit "engine kyree"
@@ -554,9 +554,9 @@ outfit "engine kyree"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"thrust" 13 
-	"turn" 375 
-	"reverse thrust" 15 
+	"thrust" 13
+	"turn" 375
+	"reverse thrust" 15
 	description `This is a highly educated employee focused on engine technologies. She is a Kimek.`
 
 outfit "engine ulos"
@@ -570,9 +570,9 @@ outfit "engine ulos"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"thrust" 10 
-	"turn" 350 
-	"afterburner thrust" 37 
+	"thrust" 10
+	"turn" 350
+	"afterburner thrust" 37
 	description `This is a highly educated employee focused on engine technologies. He is an Avgi.`
 
 outfit "fuel carl ahmad"
@@ -585,8 +585,8 @@ outfit "fuel carl ahmad"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"ramscoop" 1 
-	"fuel capacity" 100 
+	"ramscoop" 1
+	"fuel capacity" 100
 	description `This is a highly educated employee focused on fuel technologies. He is a Human, grown up in "core".`
 
 outfit "fuel kfir balam"
@@ -599,8 +599,8 @@ outfit "fuel kfir balam"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"ramscoop" 1 
-	"fuel capacity" 200 
+	"ramscoop" 1
+	"fuel capacity" 200
 	description `This is a highly educated employee focused on fuel technologies. He is a Human, grown up in "dirt belt".`
 
 outfit "fuel kostis joona"
@@ -613,8 +613,8 @@ outfit "fuel kostis joona"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"ramscoop" 1.5 
-	"fuel capacity" 200 
+	"ramscoop" 1.5
+	"fuel capacity" 200
 	description `This is a highly educated employee focused on fuel technologies. He is a Human, grown up in "near earth".`
 
 outfit "fuel nina sotiroula"
@@ -627,8 +627,8 @@ outfit "fuel nina sotiroula"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"ramscoop" 1.5 
-	"fuel capacity" 300 
+	"ramscoop" 1.5
+	"fuel capacity" 300
 	description `This is a highly educated employee focused on fuel technologies. She is a Human, grown up in "north".`
 
 outfit "fuel sookot dulur"
@@ -641,8 +641,8 @@ outfit "fuel sookot dulur"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"fuel generation" .1 
-	"fuel capacity" 300 
+	"fuel generation" .1
+	"fuel capacity" 300
 	description `This is a highly educated employee focused on fuel technologies. She is a Hai.`
 
 outfit "fuel voriar"
@@ -655,8 +655,8 @@ outfit "fuel voriar"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"fuel generation" .12 
-	"fuel capacity" 400 
+	"fuel generation" .12
+	"fuel capacity" 400
 	description `This is a highly educated employee focused on fuel technologies. She is a Wanderer.`
 
 outfit "fuel ozon"
@@ -669,8 +669,8 @@ outfit "fuel ozon"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"fuel generation" .14 
-	"ramscoop" 1 
+	"fuel generation" .14
+	"ramscoop" 1
 	description `This is a highly educated employee focused on fuel technologies. He is a Remnant.`
 
 outfit "fuel comseci"
@@ -683,8 +683,8 @@ outfit "fuel comseci"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"fuel generation" .15 
-	"ramscoop" 1.5 
+	"fuel generation" .15
+	"ramscoop" 1.5
 	description `This is a highly educated employee focused on fuel technologies. He is a Saryd.`
 
 outfit "fuel boudaa"
@@ -697,8 +697,8 @@ outfit "fuel boudaa"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"ramscoop" 1.4 
-	"fuel capacity" 400 
+	"ramscoop" 1.4
+	"fuel capacity" 400
 	description `This is a highly educated employee focused on fuel technologies. He is a Successor.`
 
 outfit "fuel isi"
@@ -711,8 +711,8 @@ outfit "fuel isi"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"fuel generation" .15 
-	"ramscoop" 1 
+	"fuel generation" .15
+	"ramscoop" 1
 	description `This is a highly educated employee focused on fuel technologies. She is an Avgi.`
 
 outfit "hull anuradha talin"
@@ -725,8 +725,8 @@ outfit "hull anuradha talin"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"hull repair rate" .1 
-	"hull" 400 
+	"hull repair rate" .1
+	"hull" 400
 	description `This is a highly educated employee focused on hull effectivity. She is a Human, grown up in "core".`
 
 outfit "hull julia grainne"
@@ -739,8 +739,8 @@ outfit "hull julia grainne"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"hull repair rate" .12 
-	"hull" 500 
+	"hull repair rate" .12
+	"hull" 500
 	description `This is a highly educated employee focused on hull effectivity. She is a Human, grown up in "paradise".`
 
 outfit "hull silvius hildegard"
@@ -753,9 +753,9 @@ outfit "hull silvius hildegard"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"hull repair rate" .14 
-	"hull" 600 
-	"hull multiplier" .01 
+	"hull repair rate" .14
+	"hull" 600
+	"hull multiplier" .01
 	description `This is a highly educated employee focused on hull effectivity. He is a Human, grown up in "north".`
 
 outfit "hull sabina draga"
@@ -768,8 +768,8 @@ outfit "hull sabina draga"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"hull repair rate" .14 
-	"hull" 700 
+	"hull repair rate" .14
+	"hull" 700
 	description `This is a highly educated employee focused on hull effectivity. She is a Human, grown up in "south".`
 
 outfit "hull atras"
@@ -783,9 +783,9 @@ outfit "hull atras"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"hull repair rate" .15 
-	"hull" 650 
-	"disabled recovery time" 1800 
+	"hull repair rate" .15
+	"hull" 650
+	"disabled recovery time" 1800
 	description `This is a highly educated employee focused on hull effectivity. He is an Incipias.`
 
 outfit "hull shiro kan"
@@ -798,9 +798,9 @@ outfit "hull shiro kan"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"hull repair rate" .15 
-	"hull" 800 
-	"hull multiplier" .01 
+	"hull repair rate" .15
+	"hull" 800
+	"hull multiplier" .01
 	description `This is a highly educated employee focused on hull effectivity. He is a Bunrodea.`
 
 outfit "hull ak'en oaip"
@@ -813,8 +813,8 @@ outfit "hull ak'en oaip"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"hull repair rate" .16 
-	"hull" 900 
+	"hull repair rate" .16
+	"hull" 900
 	description `This is a highly educated employee focused on hull effectivity. He is a Korath.`
 
 outfit "hull achee"
@@ -827,9 +827,9 @@ outfit "hull achee"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"hull repair rate" .18 
-	"hull" 1000 
-	"hull multiplier" .01 
+	"hull repair rate" .18
+	"hull" 1000
+	"hull multiplier" .01
 	description `This is a highly educated employee focused on hull effectivity. He is a Kimek.`
 
 outfit "hull potamog"
@@ -842,8 +842,8 @@ outfit "hull potamog"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"hull repair rate" .18 
-	"hull" 1000 
+	"hull repair rate" .18
+	"hull" 1000
 	description `This is a highly educated employee focused on hull effectivity. He is an Arach.`
 
 outfit "hull kinmi"
@@ -856,9 +856,9 @@ outfit "hull kinmi"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"hull repair rate" .17 
-	"hull" 1200 
-	"disabled recovery time" 1800 
+	"hull repair rate" .17
+	"hull" 1200
+	"disabled recovery time" 1800
 	description `This is a highly educated employee focused on hull effectivity. She is a Successor.`
 
 outfit "jamming aline mai"
@@ -871,8 +871,8 @@ outfit "jamming aline mai"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"radar jamming" 8 
-	"optical jamming" 5 
+	"radar jamming" 8
+	"optical jamming" 5
 	description `This is a highly educated employee focused on jamming technologies. She is a Human, grown up in "paradise".`
 
 outfit "jamming dominik bullock"
@@ -885,8 +885,8 @@ outfit "jamming dominik bullock"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"radar jamming" 10 
-	"optical jamming" 8 
+	"radar jamming" 10
+	"optical jamming" 8
 	description `This is a highly educated employee focused on jamming technologies. He is a Human, grown up in "dirt belt".`
 
 outfit "jamming enver diefenbach"
@@ -899,8 +899,8 @@ outfit "jamming enver diefenbach"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"scan interference" .5 
-	"optical jamming" 10 
+	"scan interference" .5
+	"optical jamming" 10
 	description `This is a highly educated employee focused on jamming technologies. He is a Human, grown up in "north".`
 
 outfit "jamming raban fields"
@@ -914,8 +914,8 @@ outfit "jamming raban fields"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"scan interference" .5 
-	"optical jamming" 12 
+	"scan interference" .5
+	"optical jamming" 12
 	description `This is a highly educated employee focused on jamming technologies. He is a Human, grown up in "core".`
 
 outfit "jamming umeo ageta"
@@ -928,8 +928,8 @@ outfit "jamming umeo ageta"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"radar jamming" 12 
-	"scan concealment" 3 
+	"radar jamming" 12
+	"scan concealment" 3
 	description `This is a highly educated employee focused on jamming technologies. He is a Bunrodea.`
 
 outfit "jamming merus"
@@ -943,8 +943,8 @@ outfit "jamming merus"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"radar jamming" 11 
-	"optical jamming" 11 
+	"radar jamming" 11
+	"optical jamming" 11
 	description `This is a highly educated employee focused on jamming technologies. He is an Incipias.`
 
 outfit "jamming snowfall"
@@ -957,8 +957,8 @@ outfit "jamming snowfall"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"radar jamming" 13 
-	"scan concealment" 6 
+	"radar jamming" 13
+	"scan concealment" 6
 	description `This is a highly educated employee focused on jamming technologies. She is a Remnant.`
 
 outfit "jamming temtuor"
@@ -971,8 +971,8 @@ outfit "jamming temtuor"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"scan interference" .6 
-	"scan concealment" 9 
+	"scan interference" .6
+	"scan concealment" 9
 	description `This is a highly educated employee focused on jamming technologies. He is a Saryd.`
 
 outfit "jamming plortab"
@@ -985,8 +985,8 @@ outfit "jamming plortab"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"scan interference" .6 
-	"scan concealment" 12 
+	"scan interference" .6
+	"scan concealment" 12
 	description `This is a highly educated employee focused on jamming technologies. He is an Arach.`
 
 outfit "jamming naaq"
@@ -999,8 +999,8 @@ outfit "jamming naaq"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"scan interference" .7 
-	"radar jamming" 14 
+	"scan interference" .7
+	"radar jamming" 14
 	description `This is a highly educated employee focused on jamming technologies. He is a Successor.`
 
 outfit "scanner ivanus kozlov"
@@ -1013,9 +1013,9 @@ outfit "scanner ivanus kozlov"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"tactical scan power" 30 
-	"outfit scan efficiency" 10 
-	"strategic scan power" 150 
+	"tactical scan power" 30
+	"outfit scan efficiency" 10
+	"strategic scan power" 150
 	description `This is a highly educated employee focused on scanner technologies. He is a Human, grown up in "paradise".`
 
 outfit "scanner mikmel wanjala"
@@ -1028,9 +1028,9 @@ outfit "scanner mikmel wanjala"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cargo scan power" 31 
-	"cargo scan efficiency" 9 
-	"range finder power" 1 
+	"cargo scan power" 31
+	"cargo scan efficiency" 9
+	"range finder power" 1
 	description `This is a highly educated employee focused on scanner technologies. He is a Human, grown up in "core".`
 
 outfit "scanner saffira ivka"
@@ -1043,9 +1043,9 @@ outfit "scanner saffira ivka"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit scan power" 33 
-	"outfit scan efficiency" 13 
-	"crew scan power" 150 
+	"outfit scan power" 33
+	"outfit scan efficiency" 13
+	"crew scan power" 150
 	description `This is a highly educated employee focused on scanner technologies. She is a Human, grown up in "near earth".`
 
 outfit "scanner kasar"
@@ -1058,9 +1058,9 @@ outfit "scanner kasar"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cargo scan power" 35 
-	"cargo scan efficiency" 12 
-	"crew scan power" 150 
+	"cargo scan power" 35
+	"cargo scan efficiency" 12
+	"crew scan power" 150
 	description `This is a highly educated employee focused on scanner technologies. He is an Incipias.`
 
 outfit "scanner tichaona yong"
@@ -1073,9 +1073,9 @@ outfit "scanner tichaona yong"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"asteroid scan power" 40 
-	"cargo scan efficiency" 11 
-	"thermal scan power" 150 
+	"asteroid scan power" 40
+	"cargo scan efficiency" 11
+	"thermal scan power" 150
 	description `This is a highly educated employee focused on scanner technologies. She is a Human, grown up in "north".`
 
 outfit "scanner rashi vaitle"
@@ -1088,9 +1088,9 @@ outfit "scanner rashi vaitle"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"tactical scan power" 41 
-	"outfit scan efficiency" 16 
-	"energy scan power" 150 
+	"tactical scan power" 41
+	"outfit scan efficiency" 16
+	"energy scan power" 150
 	description `This is a highly educated employee focused on scanner technologies. He is a Hai.`
 
 outfit "scanner kriik"
@@ -1103,9 +1103,9 @@ outfit "scanner kriik"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"cargo scan power" 42 
-	"cargo scan efficiency" 13 
-	"fuel scan power" 150 
+	"cargo scan power" 42
+	"cargo scan efficiency" 13
+	"fuel scan power" 150
 	description `This is a highly educated employee focused on scanner technologies. She is a Wanderer.`
 
 outfit "scanner expari"
@@ -1118,9 +1118,9 @@ outfit "scanner expari"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit scan power" 43 
-	"outfit scan efficiency" 19 
-	"weapon scan power" 150 
+	"outfit scan power" 43
+	"outfit scan efficiency" 19
+	"weapon scan power" 150
 	description `This is a highly educated employee focused on scanner technologies. She is a Saryd.`
 
 outfit "scanner tugrup"
@@ -1133,9 +1133,9 @@ outfit "scanner tugrup"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"asteroid scan power" 44 
-	"cargo scan efficiency" 15 
-	"maneuver scan power" 150 
+	"asteroid scan power" 44
+	"cargo scan efficiency" 15
+	"maneuver scan power" 150
 	description `This is a highly educated employee focused on scanner technologies. He is an Arach.`
 
 outfit "scanner oublaa"
@@ -1148,9 +1148,9 @@ outfit "scanner oublaa"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"tactical scan power" 40 
-	"cargo scan power" 43 
-	"strategic scan power" 150 
+	"tactical scan power" 40
+	"cargo scan power" 43
+	"strategic scan power" 150
 	description `This is a highly educated employee focused on scanner technologies. She is a Successor.`
 
 outfit "shield lucille meritites"
@@ -1164,8 +1164,8 @@ outfit "shield lucille meritites"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"shield generation" .11 
-	"shields" 1100 
+	"shield generation" .11
+	"shields" 1100
 	description `This is a highly educated employee focused on shield effectivity. She is a Human, grown up in "paradise".`
 
 outfit "shield sonja halimah"
@@ -1178,8 +1178,8 @@ outfit "shield sonja halimah"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"shield generation" .12 
-	"shields" 1100 
+	"shield generation" .12
+	"shields" 1100
 	description `This is a highly educated employee focused on shield effectivity. She is a Human, grown up in "north".`
 
 outfit "shield taisto nithin"
@@ -1192,9 +1192,9 @@ outfit "shield taisto nithin"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"shield generation" .13 
-	"shields" 1200 
-	"shield energy multiplier" .01 
+	"shield generation" .13
+	"shields" 1200
+	"shield energy multiplier" .01
 	description `This is a highly educated employee focused on shield effectivity. He is a Human, grown up in "rim".`
 
 outfit "shield lativa"
@@ -1207,8 +1207,8 @@ outfit "shield lativa"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"shield generation" .14 
-	"shields" 1300 
+	"shield generation" .14
+	"shields" 1300
 	description `This is a highly educated employee focused on shield effectivity. She is an Incipias.`
 
 outfit "shield monika raganhildis"
@@ -1222,8 +1222,8 @@ outfit "shield monika raganhildis"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"shield generation" .14 
-	"shields" 1200 
+	"shield generation" .14
+	"shields" 1200
 	description `This is a highly educated employee focused on shield effectivity. She is a Human, grown up in "near earth".`
 
 outfit "shield saburo aoki"
@@ -1236,8 +1236,8 @@ outfit "shield saburo aoki"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"shield generation" .15 
-	"shields" 1300 
+	"shield generation" .15
+	"shields" 1300
 	description `This is a highly educated employee focused on shield effectivity. He is a Bunrodea.`
 
 outfit "shield ilesam bableh"
@@ -1250,9 +1250,9 @@ outfit "shield ilesam bableh"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"shield generation" .15 
-	"shields" 1300 
-	"shield energy multiplier" .01 
+	"shield generation" .15
+	"shields" 1300
+	"shield energy multiplier" .01
 	description `This is a highly educated employee focused on shield effectivity. He is a Korath.`
 
 outfit "shield nisieum"
@@ -1265,8 +1265,8 @@ outfit "shield nisieum"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"shield generation" .17 
-	"shields" 1400 
+	"shield generation" .17
+	"shields" 1400
 	description `This is a highly educated employee focused on shield effectivity. She is a Saryd.`
 
 outfit "shield chi'a"
@@ -1279,8 +1279,8 @@ outfit "shield chi'a"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"shield generation" .17 
-	"shields" 1500 
+	"shield generation" .17
+	"shields" 1500
 	description `This is a highly educated employee focused on shield effectivity. She is a Kimek.`
 
 outfit "shield uondi"
@@ -1293,9 +1293,9 @@ outfit "shield uondi"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"shield generation" .16 
-	"shields" 1500 
-	"shield energy multiplier" .01 
+	"shield generation" .16
+	"shields" 1500
+	"shield energy multiplier" .01
 	description `This is a highly educated employee focused on shield effectivity. He is a Successor.`
 
 outfit "storage darius hasegawa"
@@ -1308,8 +1308,8 @@ outfit "storage darius hasegawa"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit space" 20 
-	"engine capacity" 20 
+	"outfit space" 20
+	"engine capacity" 20
 	description `This is a highly educated employee focused on storage management. He is a Human, grown up in "deep".`
 
 outfit "storage eduardo wapasha"
@@ -1322,8 +1322,8 @@ outfit "storage eduardo wapasha"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit space" 25 
-	"cargo space" 20 
+	"outfit space" 25
+	"cargo space" 20
 	description `This is a highly educated employee focused on storage management. He is a Human, grown up in "rim".`
 
 outfit "storage mani godefrid"
@@ -1336,8 +1336,8 @@ outfit "storage mani godefrid"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit space" 30 
-	"weapon capacity" 25 
+	"outfit space" 30
+	"weapon capacity" 25
 	description `This is a highly educated employee focused on storage management. He is a Human, grown up in "dirt belt".`
 
 outfit "storage aelia"
@@ -1350,8 +1350,8 @@ outfit "storage aelia"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit space" 35 
-	"cargo space" 20 
+	"outfit space" 35
+	"cargo space" 20
 	description `This is a highly educated employee focused on storage management. She is an Incipias.`
 
 outfit "storage marie zohreh"
@@ -1364,8 +1364,8 @@ outfit "storage marie zohreh"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit space" 35 
-	"cargo space" 25 
+	"outfit space" 35
+	"cargo space" 25
 	description `This is a highly educated employee focused on storage management. She is a Human, grown up in "paradise".`
 
 outfit "storage yxoorevyt"
@@ -1378,8 +1378,8 @@ outfit "storage yxoorevyt"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit space" 40 
-	"weapon capacity" 20 
+	"outfit space" 40
+	"weapon capacity" 20
 	description `This is a highly educated employee focused on storage management. He is a Gegno.`
 
 outfit "storage touna farchi"
@@ -1392,8 +1392,8 @@ outfit "storage touna farchi"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit space" 40 
-	"engine capacity" 30 
+	"outfit space" 40
+	"engine capacity" 30
 	description `This is a highly educated employee focused on storage management. She is a Hai.`
 
 outfit "storage reisek"
@@ -1406,8 +1406,8 @@ outfit "storage reisek"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit space" 45 
-	"cargo space" 30 
+	"outfit space" 45
+	"cargo space" 30
 	description `This is a highly educated employee focused on storage management. He is a Wanderer.`
 
 outfit "storage swift"
@@ -1420,8 +1420,8 @@ outfit "storage swift"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit space" 50 
-	"weapon capacity" 35 
+	"outfit space" 50
+	"weapon capacity" 35
 	description `This is a highly educated employee focused on storage management. She is a Remnant.`
 
 outfit "storage mupoop"
@@ -1434,7 +1434,7 @@ outfit "storage mupoop"
 	bunks -1
 	"unplunderable" 1
 	"unique" 1
-	"outfit space" 60 
-	"cargo space" 35 
+	"outfit space" 60
+	"cargo space" 35
 	description `This is a highly educated employee focused on storage management. She is an Arach.`
 

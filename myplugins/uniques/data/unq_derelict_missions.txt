@@ -72,7 +72,7 @@ mission "derelict sospi"
 				"Argosy (wreck)" 3
 		conversation
 			scene "scene/dark_ship01"
-			`The ships are badly damaged and you find lots of mummified corpses. It seems like the crews got killed by some kind of radiation. Maybe a very heavy coronal mass ejection surprised the crew while refueling close to the star. A few hours later the basic systems work again. These ships are unusually good equipped, they even have jump drives. You should capture them and land on the nearest human planet for a repair and to find out more about them.`
+			`The ships are badly damaged, and you find lots of mummified corpses. It seems like the crews got killed by some kind of radiation. Maybe a very heavy coronal mass ejection surprised the crew while refueling close to the star. A few hours later the basic systems work again. These ships are unusually good equipped, they even have jump drives. You should capture them and land on the nearest human planet for a repair and to find out more about them.`
 
 
 mission "derelict sospi swap"
@@ -89,8 +89,8 @@ mission "derelict sospi swap"
 			count 3
 		conversation
 			scene "scene/space_agency01"
-			`After landing, the repair of the three argosy wrecks begins. Meanwhile you check the ship identifications at the local space administration.`
-			`Apparently the Argosys are 180 years old and were part of an expedition from a government agency called 'Explorer Corps'. Their disappearance was unfortunate and the beginning of of 20-year break for manned space exploration beyond Republic space.`
+			`After landing, the repair of the three argosy wrecks begins. Meanwhile, you check the ship identifications at the local space administration.`
+			`Apparently the Argosys are 180 years old and were part of an expedition from a government agency called 'Explorer Corps'. Their disappearance was unfortunate and the beginning of 20-year break for manned space exploration beyond Republic space.`
 			`The space administration is very grateful for the information and confirms, according to the salvage law, that the ships now belong to you.`
 				decline
 
@@ -116,7 +116,7 @@ mission "derelict sadr"
 				"Dromedary (wreck)" 1
 		conversation
 			scene "scene/dark_ship02"
-			`The Dromedary is badly damaged and you find lots of mummified corpses. There are traces of a heavy space battle, holes in the hull, also a debris field. Most of the crew died by the atmosphere loss. Maybe the Dromedary fought another big ship? Most systems still work after a short repair, the reactivated android crew helped a lot. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
+			`The Dromedary is badly damaged, and you find lots of mummified corpses. There are traces of a heavy space battle, holes in the hull, also a debris field. Most of the crew died by the atmosphere loss. Maybe the Dromedary fought another big ship? Most systems still work after a short repair, the reactivated android crew helped a lot. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
 
 
 mission "derelict sadr swap"
@@ -131,7 +131,7 @@ mission "derelict sadr swap"
 		give ship "Dromedary"
 		conversation
 			scene "scene/space_agency02"
-			`After landing, the repair of the Dromedary wreck begins. Meanwhile you check the ship identifications at the local space administration.`
+			`After landing, the repair of the Dromedary wreck begins. Meanwhile, you check the ship identifications at the local space administration.`
 			`Apparently the Dromedary is 120 years old and transported trade goods for a company, when it disappeared. A search expedition was active for several months. With your information the space administration knows now that the expedition searched in the wrong systems.`
 			`The space administration is very grateful for the information and confirms, according to the salvage law, that the ship now belongs to you.`
 				decline
@@ -158,7 +158,7 @@ mission "derelict orbona"
 				"Carrier (wreck)" 1
 		conversation
 			scene "scene/dark_ship03"
-			`The Navy Carrier is badly damaged and you find lots of mummified corpses. There is a big hole at one side and it looks like something crashed into the Carrier, maybe an asteroid? Most of the crew died by the atmosphere loss. After a short repair you manage to get the energy and engine systems running. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
+			`The Navy Carrier is badly damaged, and you find lots of mummified corpses. There is a big hole at one side, and it looks like something crashed into the Carrier, maybe an asteroid? Most of the crew died by the atmosphere loss. After a short repair you manage to get the energy and engine systems running. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
 
 
 mission "derelict orbona swap"
@@ -173,7 +173,7 @@ mission "derelict orbona swap"
 		give ship "Carrier"
 		conversation
 			scene "scene/space_agency03"
-			`After landing, the repair of the Carrier wreck begins. Meanwhile you check the ship identifications at the local space administration.`
+			`After landing, the repair of the Carrier wreck begins. Meanwhile, you check the ship identifications at the local space administration.`
 			`Apparently the Carrier is 30 years old and patrolled the border systems, when it disappeared. The Republic's secret service attributed the carrier's disappearance to an incident with a pirate gang that was active at that time.`
 			`The space administration is very grateful for the information and confirms, according to the salvage law, that the ship now belongs to you.`
 				decline

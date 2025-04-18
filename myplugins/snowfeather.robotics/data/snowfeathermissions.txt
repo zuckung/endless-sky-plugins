@@ -21,7 +21,7 @@ mission "Snowfeather Robotics 1"
 			`"Hello, this spaceship seems to be in pretty good shape. I would like to speak to the captain."`
 			`After you told him that you are the captain, it turns out that the hai is looking for a passenger transport for him and his two assistants.`
 			`Like always you ask for details of the transport, just to avoid trouble.`
-			`His name is Dr. Lufbin and he travels with his two assistants to a robotics conference on Allhome. The payment would be 100.000 credits. He admits that he is afraid of spacetravel and rejected several transport possibilities because the ships looked bad maintained.`
+			`His name is Dr. Lufbin, and he travels with his two assistants to a robotics conference on Allhome. The payment would be 100.000 credits. He admits that he is afraid of space travel and rejected several transport possibilities because the ships looked bad maintained.`
 			`"So, would you take us to Allhome?"`
 			choice
 				`	"Yes, I'm soon done with my checkups."`
@@ -54,8 +54,8 @@ mission "Snowfeather Robotics 2"
 	blocked "You don't have enough passenger space for this mission."
 	on offer
 		conversation
-			`Back at the spaceport, Dr. Lufbin asks you to transport him and his assistants back to his robotic laboratory on Snowfeather. Furthermore he would like to rent one of your androids to study it.`
-			`"I will pay you 100.000 credits for the transport and 150.000 credits for renting the android. And I guess i will need it for like 30 days. Do we have a deal?"`
+			`Back at the spaceport, Dr. Lufbin asks you to transport him and his assistants back to his robotic laboratory on Snowfeather. Furthermore, he would like to rent one of your androids to study it.`
+			`"I will pay you 100.000 credits for the transport and 150.000 credits for renting the android. And I guess I will need it for like 30 days. Do we have a deal?"`
 			choice
 				`"	Ok, I think I can spare an android for a month"`
 					goto thanks
@@ -80,7 +80,7 @@ mission "Snowfeather Robotics 3"
 	landing
 	name "Back to Snowfeather"
 	description "Dr. Lufbin from Snowfeather Robotics wants to talk to you."
-	source 
+	source
 		government "Hai"
 		not attributes "uninhabited"
 	destination "Snowfeather"

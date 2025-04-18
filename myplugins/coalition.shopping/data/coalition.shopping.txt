@@ -1,4 +1,4 @@
-# shipyard "Heliarch Ship
+# shipyard "Heliarch Ship"
 # outfitter "Heliarch Out"
 # planet "Far Home"
 # event "both sides"
@@ -43,7 +43,7 @@ event "both sides"
 		add outfitter "Lunarium Basics"
 		add outfitter "Heliarch Out"
 		add shipyard "Heliarch Ship"
-	
+
 
 mission "get heliarch"
 	landing
@@ -72,7 +72,7 @@ mission "get heliarch"
 			choice
 				`	"Sure, I'll just fetch my bribery suitcase."`
 					goto yesyes
-				`	"Get out or I'll call the Heliarch... umm, what number do I have to dial?"`
+				`	"Get out, or I'll call the Heliarch... umm, what number do I have to dial?"`
 					decline
 			label yesyes
 			scene "scene/kimek_sitting"
@@ -114,7 +114,7 @@ mission "get lunarium"
 			choice
 				`	"Sure, I'll just fetch my bribery suitcase."`
 					goto yesyes
-				`	"Get out or I'll call the Heliarch... umm, what number do I have to dial?"`
+				`	"Get out, or I'll call the Heliarch... umm, what number do I have to dial?"`
 					decline
 			label yesyes
 			scene "scene/kimek_sitting"

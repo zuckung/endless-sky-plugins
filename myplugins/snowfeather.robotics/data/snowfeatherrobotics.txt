@@ -33,8 +33,8 @@ outfit "SFR-100 Android"
 	"display name" "SFR-100 Worker"
 	category "Androids"
 	cost 150000
-	thumbnail "outfit/sfr_worker"	
-	"required crew" -1	
+	thumbnail "outfit/sfr_worker"
+	"required crew" -1
 	"energy consumption" 0.01
 	unplunderable 1
 	description "This android effectively replace one of your crew members with a robotic counterpart. Androids possess sufficient capabilities to perform most work, but lack the capability to captain a ship or take part in boarding actions."
@@ -103,7 +103,7 @@ outfit "SFR-310 Android"
 	"energy consumption" 0.01
 	unplunderable 1
 	description "This android takes part in boarding operations. Though it will only assist the crew and not replace them."
-	description "Second generation of SFR fighting androids. The SFR-310 is heavily armored and equipped with two needle-throwers, making it deadly even at mid range."
+	description "Second generation of SFR fighting androids. The SFR-310 is heavily armored and equipped with two needle-throwers, making it deadly even at mid-range."
 
 
 outfit "SFR-320 Android"

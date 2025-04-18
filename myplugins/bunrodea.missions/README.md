@@ -36,7 +36,7 @@ text corrections (thx to TheGiraffe3)<br>
 <br>
 2024-04-30<br>
 fixed error on natural spawning korath fleets<br>
-changed some space port news and jobs to require culture conversations<br>
+changed some spaceport news and jobs to require culture conversations<br>
 changed culture conversation chance from 10% to 20%<br>
 changed icon<br>
 changed reputation needed for planet landings, to make the progression more fluent<br>

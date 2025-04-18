@@ -61,7 +61,7 @@ news "bunrodea untranslated"
 			"Mel"
 			"Ol"
 			"Dis"
-			"Ok" 
+			"Ok"
 		word
 			"ili"
 			"ali"
@@ -141,7 +141,7 @@ news "bunrodea translated player"
 		"portrait/bunro10"
 	message
 		word
-			`"You are the one I've seen on Holovid, the human? We don't have many visitors here."`
+			`"You are the one I've seen on holovid, the human? We don't have many visitors here."`
 			`"You are a human? Your species lives on the other side of the Korath space, right?"`
 			`"Are all humans as fragile as you are? Without an exoskeleton you are totally defenseless."`
 			`"You look really funny. Are you a usual human? And your smell is also very intense."`
@@ -306,6 +306,6 @@ news "bunrodea news system"
 			"News: Korath are still testing our defences!"
 			"News: Outsider from the human species reached our territory!"
 			"News: The human got an audience with the queen!"
-			"News: After 100 years we have again contact to the humans!"
+			"News: After 100 years we have contact with the humans again!"
 			"News: The queen announces a change in our defence strategy!"
 			"News: The human wants to fight for us!"

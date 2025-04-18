@@ -66,7 +66,7 @@ start "z_trader1"
 
 conversation "z_trader1"
 	scene "scene/lobby"
-	`Your family is more wealthy than most of New China's inhabitants, but less wealthy than your neighbour Phil. He is the most lazy and annoying person you know. Amazingly how good he is standing with doing his trading job. Most of the year he does nothing, just hanging around in bars. And that is why you decided to become a space trader. With your talent, charm, and ambitions, you can get really really rich.`
+	`Your family is more wealthy than most of New China's inhabitants, but less wealthy than your neighbour Phil. He is the most lazy and annoying person you know. Amazingly how good he is standing with doing his trading job. Most of the year he does nothing, just hanging around in bars. And that is why you decided to become a space trader. With your talent, charm, and ambitions, you can get really, really rich.`
 	`Anyway, now it's time to sign the final contracts for the bank loan and the ship purchase.`
 	name
 	`It won't be easy to pay off 1.8 million credits, but you think positive. You have a great ship, a customized "Freighter", with engine upgrades and a bigger cargo. No weapons, but with that engine you are faster than the pirates. Also the Paradise Worlds are in the near north, which are safer for traders.`
@@ -268,9 +268,9 @@ start "z_salvager1"
 conversation "z_salvager1"
 	scene "scene/lobby"
 	`You were quite surprised when you heard the reading of your uncle's last will. Now, another week later, you own a spaceship and 200,000 credits. Unfortunately your uncle had still a debt of 500,000 credits, which is now yours.`
-	`At the bank, you do the paper works and head to the space port to change the registration of your ship.`
+	`At the bank, you do the paper works and head to the spaceport to change the registration of your ship.`
 	name
-	`You are very happy when you enter the dock. Although you often visited your uncle Tiberius here, where he worked on his old 'Shuttle', it feels so different. Owning a space ship opens up so many possibilities. `
+	`You are very happy when you enter the dock. Although you often visited your uncle Tiberius here, where he worked on his old 'Shuttle', it feels so different. Owning a spaceship opens up so many possibilities. `
 	`You can continue your uncle's business, by boarding pirate ships, disabled in fights with the Republic. His 'Shuttle' is equipped for that purpose. Weaponless, it gives the pirates fewer reasons to attack. Also it is outfitted with additional bunks for a bigger crew and some laser rifles. You just need to hire a bigger crew.`
 	`Or you can travel into the Endless Sky.`
 
@@ -321,9 +321,9 @@ start "z_salvager2"
 conversation "z_salvager2"
 	scene "scene/lobby"
 	`You were quite surprised when you heard the reading of your uncle's last will. Now, another week later, you own a spaceship and 100,000 credits. Unfortunately your uncle had still a very high debt, which is your debt now.`
-	`At the bank, you do the paper works and head to the space port to change the registration of your ship.`
+	`At the bank, you do the paper works and head to the spaceport to change the registration of your ship.`
 	name
-	`You are very happy when you enter the dock. Although you often visited your uncle Tiberius here, where he lived in his old 'Argosy', it feels so different. Owning a space ship opens up so many possibilities. `
+	`You are very happy when you enter the dock. Although you often visited your uncle Tiberius here, where he lived in his old 'Argosy', it feels so different. Owning a spaceship opens up so many possibilities. `
 	`You can continue your uncle's business, by boarding pirate ships, disabled in fights with the Republic. His 'Argosy' is equipped for that purpose. Weaponless, it gives the pirates fewer reasons to attack. Also it is outfitted with many bunks for a big crew and lots of laser rifles. You just need to hire a bigger crew.`
 	`Or you can travel into the Endless Sky.`
 

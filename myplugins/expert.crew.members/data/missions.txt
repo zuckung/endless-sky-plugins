@@ -13,7 +13,7 @@ mission "hire combat isaac wirth"
 	on offer
 		conversation
 			scene "portrait/ecmbm03"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Isaac Wirth, he is a Human, and he demands a daily wage of 2000 credits.`
+			`In a spaceport bar you get to know a highly qualified expert in hand-to-hand combat. He is looking for work. His name is Isaac Wirth, he is a Human, and he demands a daily wage of 2000 credits.`
 			choice
 				`don't hire him (maybe you will meet him again)`
 					defer
@@ -35,7 +35,7 @@ mission "hire combat jessy tuta"
 	on offer
 		conversation
 			scene "portrait/ecmbf02"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. She is looking for work. Her name is Jessy Tuta, she is a Human, and she demands a daily wage of 2600 credits.`
+			`In a spaceport bar you get to know a highly qualified expert in hand-to-hand combat. She is looking for work. Her name is Jessy Tuta, she is a Human, and she demands a daily wage of 2600 credits.`
 			choice
 				`don't hire her (maybe you will meet her again)`
 					defer
@@ -57,7 +57,7 @@ mission "hire combat kianoush royston"
 	on offer
 		conversation
 			scene "portrait/ecmam03"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Kianoush Royston, he is a Human, and he demands a daily wage of 3100 credits.`
+			`In a spaceport bar you get to know a highly qualified expert in hand-to-hand combat. He is looking for work. His name is Kianoush Royston, he is a Human, and he demands a daily wage of 3100 credits.`
 			choice
 				`don't hire him (maybe you will meet him again)`
 					defer
@@ -79,7 +79,7 @@ mission "hire combat rodrigo bain"
 	on offer
 		conversation
 			scene "portrait/ecmbm04"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Rodrigo Bain, he is a Human, and he demands a daily wage of 3500 credits.`
+			`In a spaceport bar you get to know a highly qualified expert in hand-to-hand combat. He is looking for work. His name is Rodrigo Bain, he is a Human, and he demands a daily wage of 3500 credits.`
 			choice
 				`don't hire him (maybe you will meet him again)`
 					defer
@@ -100,7 +100,7 @@ mission "hire combat tieeitch"
 	on offer
 		conversation
 			scene "portrait/gegno01"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Tieeitch, he is a Gegno, and he demands a daily wage of 3600 credits.`
+			`In a spaceport bar you get to know a highly qualified expert in hand-to-hand combat. He is looking for work. His name is Tieeitch, he is a Gegno, and he demands a daily wage of 3600 credits.`
 			choice
 				`don't hire him (maybe you will meet him again)`
 					defer
@@ -121,7 +121,7 @@ mission "hire combat ainem wahpip"
 	on offer
 		conversation
 			scene "portrait/hai02"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Ainem Wahpip, he is a Hai, and he demands a daily wage of 3800 credits.`
+			`In a spaceport bar you get to know a highly qualified expert in hand-to-hand combat. He is looking for work. His name is Ainem Wahpip, he is a Hai, and he demands a daily wage of 3800 credits.`
 			choice
 				`don't hire him (maybe you will meet him again)`
 					defer
@@ -143,7 +143,7 @@ mission "hire combat asvip rap"
 	on offer
 		conversation
 			scene "portrait/korath03"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. She is looking for work. Her name is Asvip Rap, she is a Korath, and she demands a daily wage of 4300 credits.`
+			`In a spaceport bar you get to know a highly qualified expert in hand-to-hand combat. She is looking for work. Her name is Asvip Rap, she is a Korath, and she demands a daily wage of 4300 credits.`
 			choice
 				`don't hire her (maybe you will meet her again)`
 					defer
@@ -166,7 +166,7 @@ mission "hire combat ry'i"
 	on offer
 		conversation
 			scene "portrait/kimek03"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Ry'i, he is a Kimek, and he demands a daily wage of 4600 credits.`
+			`In a spaceport bar you get to know a highly qualified expert in hand-to-hand combat. He is looking for work. His name is Ry'i, he is a Kimek, and he demands a daily wage of 4600 credits.`
 			choice
 				`don't hire him (maybe you will meet him again)`
 					defer
@@ -189,7 +189,7 @@ mission "hire combat lugub"
 	on offer
 		conversation
 			scene "portrait/arachi04"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. She is looking for work. Her name is Lugub, she is an Arach, and she demands a daily wage of 5000 credits.`
+			`In a spaceport bar you get to know a highly qualified expert in hand-to-hand combat. She is looking for work. Her name is Lugub, she is an Arach, and she demands a daily wage of 5000 credits.`
 			choice
 				`don't hire her (maybe you will meet her again)`
 					defer
@@ -211,7 +211,7 @@ mission "hire combat biana"
 	on offer
 		conversation
 			scene "portrait/avgi01"
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. She is looking for work. Her name is Biana, she is an Avgi, and she demands a daily wage of 1900 credits.`
+			`In a spaceport bar you get to know a highly qualified expert in hand-to-hand combat. She is looking for work. Her name is Biana, she is an Avgi, and she demands a daily wage of 1900 credits.`
 			choice
 				`don't hire her (maybe you will meet her again)`
 					defer

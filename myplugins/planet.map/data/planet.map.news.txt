@@ -50,7 +50,7 @@ news "avalonian dragon"
 		word
 			`"Life on this planet isn't always nice. Did you already encounter a dragon attack? These beasts are really frightening."`
 			`"Some people say the dragons come from the north. They come because we build settlements there."`
-			`"When you hear the dragon alarm, don't go outside. These animals don't have a chance against a spaceship but they rip humans into parts!"`
+			`"When you hear the dragon alarm, don't go outside. These animals don't have a chance against a spaceship, but they rip humans into parts!"`
 			`"My sister works in a northern lumberjack village. I really hope she is safe there."`
 
 
@@ -91,7 +91,7 @@ news "avalonian news system"
 	message
 		word
 			"News: The four cities agreed to intensify expansion to the north."
-			"News: The expedition to the eastern sea found rich mangan deposits."
+			"News: The expedition to the eastern sea found rich manganese deposits."
 
 
 news "avalonian news system prestory"

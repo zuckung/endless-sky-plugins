@@ -1,1 +1,1 @@
-Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
+Modifies the self-destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.

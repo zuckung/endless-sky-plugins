@@ -26,7 +26,7 @@ system Currus
 		has "hire jamming enver diefenbach: declined"
 mission "hire combat isaac wirth"
 		outfit "combat isaac wirth" 1
-			`In a spaceport bar you get to know a highly qualified expert in hand to hand combat. He is looking for work. His name is Isaac Wirth, he is a Human, and he demands a daily wage of 2000 credits.`
+			`In a spaceport bar you get to know a highly qualified expert in hand-to-hand combat. He is looking for work. His name is Isaac Wirth, he is a Human, and he demands a daily wage of 2000 credits.`
 mission "hire jamming aline mai"
 		outfit "jamming aline mai" 1
 			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. She is looking for work. Her name is Aline Mai, she is a Human, and she demands a daily wage of 2200 credits.`
