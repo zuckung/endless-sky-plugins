@@ -81,12 +81,13 @@ def write_news(p):
 
 
 def run():
-	p = os.environ['INPUT_STORE'] # plugin.name
-	check_spelling(p)
-	corrected = correct_characters(p) # correct characters that get changed by github release
-	create_zip(p, corrected)
-	versioning(p, corrected)
-	write_news(p)
+	p = os.environ['INPUT_STORE']  # plugin.name
+    	inputnews = os.environ.get('INPUT_STORE2', 'x')  # news format, default to 'x' if not set
+    	check_spelling(p)
+    	corrected = correct_characters(p)  # correct characters that get changed by github release
+    	create_zip(p, corrected)
+    	versioning(p, corrected)
+    	write_news(p, inputnews)
 
 if __name__ == "__main__":
 	run()
