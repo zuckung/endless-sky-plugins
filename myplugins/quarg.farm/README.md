@@ -8,6 +8,12 @@ The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Qu
 <br>
 Changelog:<br>
 <br>
+2025-04-18<br>
+added icon@2x<br>
+changed plugin.txt<br>
+typo fixes(by snoggles)<br>
+adjusted system "Saquerver" better to not interfere with avgi storyline<br>
+<br>
 2025-01-27<br>
 adjusted system "Saquerver" position to not collide with 0.10.11 additions<br>
 <br>
