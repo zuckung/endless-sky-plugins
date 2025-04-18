@@ -82,7 +82,7 @@ mission "easier First Contact: Bunrodea (Hostile)"
 				`	(Sit down.)`
 					goto sit
 				`	(Turn around and re-enter my ship.)`
-			`	You reenter your ship, and the aliens don't move to stop you. You decide to turn your ship back on and attempt to take off, but just as you try to activate the repulsor engines, you hear a loud buzzing sound coming from outside. You look out the nearest window, and see that the aliens have moved some sort of vehicle near your ship, buzzing with energy. You attempt to take off, but your ship's repulsor engines aren't moving you anywhere. The vehicle seems like it is deactivating any nearby repulsors.`
+			`	You re-enter your ship, and the aliens don't move to stop you. You decide to turn your ship back on and attempt to take off, but just as you try to activate the repulsor engines, you hear a loud buzzing sound coming from outside. You look out the nearest window, and see that the aliens have moved some sort of vehicle near your ship, buzzing with energy. You attempt to take off, but your ship's repulsor engines aren't moving you anywhere. The vehicle seems like it is deactivating any nearby repulsors.`
 			choice
 				`	(Blast the vehicle with a turret.)`
 					to display
@@ -280,7 +280,7 @@ mission "bunrodea defense 2"
 	on offer
 		conversation
 			`The young Bunrodea with the silly appearance and behavior awaits you at the spaceport. This time he has memorized his speech.`
-			`"Our great queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro' is very pleased with your devotion to our cause. She offers you the chance to gain more honour. A Korath fleet just entered the Era Natta system and you are chosen to fight for our queen."`
+			`"Our great queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro' is very pleased with your devotion to our cause. She offers you the chance to gain more honour. A Korath fleet just entered the Era Natta system, and you are chosen to fight for our queen."`
 			choice
 				`	"Sorry, I have to do that later."`
 					defer
@@ -310,13 +310,13 @@ mission "bunrodea defense 2"
 	on complete
 		conversation
 			`After leaving your ship, an elderly distinguished Bunrodean awaits you. He bows before you.`
-			`"Greetings captain <last>, my name is Josuno and I am your new contact to the government. Our queen wishes to gratulate you to your great victory over the Korath fleet. She is very pleased by your work. You can find new opportunities to earn more honour on the job board."`
+			`"Greetings captain <last>, my name is Josuno, and I am your new contact to the government. Our queen wishes to congratulate you on your great victory over the Korath fleet. She is very pleased by your work. You can find new opportunities to earn more honour on the job board."`
 			`"And personally, I have to say it is an honour to meet you in person. Our deep space surveillance systems spread recordings of your fights with the Korath all over the empire. You are well known by most Bunrodea."`
 			`"Well, I don't want to hold you back from your work. I wish you all the best, good luck and farewell." He starts walking away.`
 			`"Wait a second" you say, "I have a question about my former contact man."`
 			`Josuno slowly turns around. "There is nothing to say, but if you aren't in a hurry, maybe I can have a look at your ship?"`
 			`As soon as you both enter the ship, he relaxes. "Your former contact is dead. The queen expects perfect appearance from her sons, and Shinao had many chances to prove himself. Unfortunately he didn't have enough brain or skills to survive the high expectations of his position. Is there anything else you want to know?"`
-			`Still shocked about the cruel fate of the poor young Bunrodea, you say goodby to Josuno and head over to the job board.`
+			`Still shocked about the cruel fate of the poor young Bunrodea, you say goodbye to Josuno and head over to the job board.`
 		"reputation: Bunrodea" += 30
 		"reputation: Bunrodea (Erabu)" += 30
 		"reputation: Bunrodea (Guard)" += 30
@@ -446,7 +446,7 @@ mission "bunrodea full rep"
 			`When you arrive on Erabuthro, an equally heavily armed escort of 12 Bunrodeans awaits you, led by the very serious-looking Josuno.`
 			`You make your way to the palace. The queen's huge palace seems even more intimidating due to the circumstances of your journey. When you reach the throne room, the herald announces you as "Captain <first> <last>, Terror of the Korath, Defender of the Border Systems", which calms you down a bit. These people are really difficult to interpret. The queen looks at you and rises from her throne.`
 			`"Captain <last>, you have more than proven your friendship with the Bunrodean Empire. And we now prove our friendship with you. You will receive the title 'Special Representative', full access to all our planets and our equipment. We will also give you a Noble Authorization Plate, which will allow you to request an audience at any time.`
-			`The queen raises her arms in the air. In perfect synchronicity, your escort, Josuno and two dozen nobles raise their arms to show you their respect. This all impresses you very much and you almost forget to raise your arms to accept the honor. This ends the audience and you are escorted out.`
+			`The queen raises her arms in the air. In perfect synchronicity, your escort, Josuno and two dozen nobles raise their arms to show you their respect. This all impresses you very much and you almost forget to raise your arms to accept the honor. This ends the audience, and you are escorted out.`
 			`When you arrive at the spaceport, you are still in your thoughts. What an experience. Despite the differences, you like the Bunrodeans, and they probably like you too.`
 
 
@@ -535,7 +535,7 @@ mission "culture bunrodea snap fly"
 					goto continue
 			label continue
 			scene "scene/snap_flies"
-			`As the shuttle touches the jungle ground, your two guards, Takeno and you, jump out of the airlock. While the three Bunrodeans slowly advance through the vegetation, you try to adapt your behavior to the three. A few minutes later the jungle clears up and you reach a more open area with a stream running through it. In the air, a few dozen meters away, you see head-sized flies. At a closer look, you'll see razor-sharp attachments on her legs.`
+			`As the shuttle touches the jungle ground, your two guards, Takeno and you, jump out of the airlock. While the three Bunrodeans slowly advance through the vegetation, you try to adapt your behavior to the three. A few minutes later the jungle clears up, and you reach a more open area with a stream running through it. In the air, a few dozen meters away, you see head-sized flies. At a closer look, you'll see razor-sharp attachments on her legs.`
 			`When a medium-sized rodent is scared up right in front of you, one of the snap flies swoops down and tears the poor animal to pieces. One of the guards jumps forward, grabs the fly with his grasping tools and bites it in the head. The first catch of the day.`
 			`A few hours later you load your prey, consisting of eighteen snap flies, into the shuttle. Your armor actually got some scratches, these beasts are really very dangerous. "Isn't snap fly hunting thrilling?" Takeno asks. You don't really understand the Bunrodea's hunting behavior. Sure, it was a nice trip, but the Bunrodeans seem totally ecstatic. Maybe it's due to the biochemistry of snapping flies, since all of your companions have tasted their blood with targeted bites. Back at the spaceport, you thank them for the experience and say goodbye. Maybe some day you'll find out more about that.`
 				decline
@@ -554,14 +554,14 @@ mission "bunrodea side supernova"
 		random > 49
 	on offer
 		conversation
-			`As you study the job board, a group Bunrodeans approaches. The leader speaks to you: "Greetings. It's actually a remarkable experience to meet a real human being. Your body is so different. Sorry, I'm Ren and this is my research team, we're looking for a transport to a supernova remnant just outside the Empire. It's quite difficult to convince captains to leave the safe space, but I don't think you have any problems with that?"`
+			`As you study the job board, a group Bunrodeans approaches. The leader speaks to you: "Greetings. It's actually a remarkable experience to meet a real human being. Your body is so different. Sorry, I'm Ren and this is my research team, we're looking for transport to a supernova remnant just outside the Empire. It's quite difficult to convince captains to leave the safe space, but I don't think you have any problems with that?"`
 			choice
 				`	That's no problem for me.`
 					goto noproblem
 				`	I'm sorry, I don't have time now. Maybe later.`
 					defer
 			label noproblem
-			`"Good. We need a transport for 7 people and 2 tons of equipment to <waypoints> and we would pay 150.000 credits. Are you interested?"`
+			`"Good. We need transport for 7 people and 2 tons of equipment to <waypoints> and we would pay 150.000 credits. Are you interested?"`
 			choice
 				`	We have a deal.`
 					accept
@@ -594,14 +594,14 @@ mission "bunrodea side archeology 1"
 	on offer
 		conversation
 			`Before you leave your ship to look for new contracts, your holovid reports a call. An older Bunrodean appears on the screen.`
-			`"Hello Captain <last>, I am Professor Hideki from the Deli Kat Archaeological Research Center and I am looking for transport of an expedition to <destination>. As you can imagine, it is not easy to persuade civilian captains to travel into Korath infested system. It has come to my attention that you could be the right captain for this venture. Our expedition consists of 12 participants and 20 tons of equipment. We would pay <payment> for the outward journey and twenty days later <payment> for bringing us back home. "`
+			`"Hello Captain <last>, I am Professor Hideki from the Deli Kat Archaeological Research Center, and I am looking for transport of an expedition to <destination>. As you can imagine, it is not easy to persuade civilian captains to travel into Korath infested system. It has come to my attention that you could be the right captain for this venture. Our expedition consists of 12 participants and 20 tons of equipment. We would pay <payment> for the outward journey and twenty days later <payment> for bringing us back home. "`
 			choice
 				`	I can do that.`
 					goto accept
 				`	I don't have time at the moment.`
 					decline
 			label accept
-			`Several hours later, the expedition participants and their equipment are loaded into your ship and you are ready to start the flight to <destination>.`
+			`Several hours later, the expedition participants and their equipment are loaded into your ship, and you are ready to start the flight to <destination>.`
 				accept
 	on complete
 		payment 125000
@@ -612,7 +612,7 @@ mission "bunrodea side archeology 1"
 		event "bun archeology" 20
 		conversation
 			scene "scene/bun_archeology"
-			`The desert where your ship landed is very hot and dry and you wonder how the archeology team will survive here for twenty days. Perhaps the Bunrodean's different physiology makes them less susceptible to heat? Sweating wetly, you admire the old ruins and after about three hours the unloading process is completed.`
+			`The desert where your ship landed is very hot and dry, and you wonder how the archeology team will survive here for twenty days. Perhaps the Bunrodean's different physiology makes them less susceptible to heat? Sweating wetly, you admire the old ruins and after about three hours the unloading process is completed.`
 			`Professor Hideki thanks you for the safe transport and tells you that he will send you a message as soon as they are ready to get transported back.`
 
 

@@ -31,7 +31,7 @@ outfit "unq_scanner"
 	"outfit scan power" 37
 	"outfit scan efficiency" 21
 	cost 800000
-	description `You've found this high tech scanning computer inside an old alien probe drifting in the atmosphere of a gas giant.`
+	description `You've found this high-tech scanning computer inside an old alien probe drifting in the atmosphere of a gas giant.`
 	description `It's technology and complex algorithms are superior to what Humanity can do. Also it is very small and easy to install.`
 
 

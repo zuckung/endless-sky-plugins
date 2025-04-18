@@ -49,7 +49,7 @@ mission "kestrel unlock timer"
 				event "kestrel available: more weapons" 30
 				event "kestrel available: more shields" 60
 				event "kestrel available: more bays" 90
-			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deep involved in the development of the Kestrel, we decided to inform you that we develop more variants of the Kestrel now. Stay tuned.`
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deeply involved in the development of the Kestrel, we decided to inform you that we develop more variants of the Kestrel now. Stay tuned.`
 				decline
 			label weapons
 			action
@@ -57,7 +57,7 @@ mission "kestrel unlock timer"
 				event "kestrel available: more engines" 30
 				event "kestrel available: more shields" 60
 				event "kestrel available: more bays" 90
-			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deep involved in the development of the Kestrel, we decided to inform you that we develop more variants of the Kestrel now. Stay tuned.`
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deeply involved in the development of the Kestrel, we decided to inform you that we develop more variants of the Kestrel now. Stay tuned.`
 				decline
 			label shields
 			action
@@ -65,7 +65,7 @@ mission "kestrel unlock timer"
 				event "kestrel available: more weapons" 30
 				event "kestrel available: more engines" 60
 				event "kestrel available: more bays" 90
-			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deep involved in the development of the Kestrel, we decided to inform you that we develop more variants of the Kestrel now. Stay tuned.`
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deeply involved in the development of the Kestrel, we decided to inform you that we develop more variants of the Kestrel now. Stay tuned.`
 				decline
 			label bays
 			action
@@ -73,7 +73,7 @@ mission "kestrel unlock timer"
 				event "kestrel available: more weapons" 30
 				event "kestrel available: more engines" 60
 				event "kestrel available: more shields" 90
-			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deep involved in the development of the Kestrel, we decided to inform you that we develop more variants of the Kestrel now. Stay tuned.`
+			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, since you were deeply involved in the development of the Kestrel, we decided to inform you that we develop more variants of the Kestrel now. Stay tuned.`
 				decline
 
 

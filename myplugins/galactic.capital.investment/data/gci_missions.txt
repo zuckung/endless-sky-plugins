@@ -60,9 +60,9 @@ mission "Galactic Capital Intro B"
 	on offer
 		conversation
 			scene "scene/gci_galactic_capital"
-			`After a ten minute train ride you arrive at 'Galactic Capital Investment'. It is the largest bank in human space, and their headquarters reflect that very well. You see six skyscrapers distributed over several square kilometers and a giant glass pyramid that dominates the center of the complex. Everywhere are parks, paths through it, modern weatherproof art installations and thousands of people, mostly in business dresses.`
+			`After a ten-minute train ride you arrive at 'Galactic Capital Investment'. It is the largest bank in human space, and their headquarters reflect that very well. You see six skyscrapers distributed over several square kilometers and a giant glass pyramid that dominates the center of the complex. Everywhere are parks, paths through it, modern weatherproof art installations and thousands of people, mostly in business dresses.`
 			`Twenty minutes later, you reach the office of Warren Goulding. "Captain <last>, welcome to our headquarters. Please take a seat."`
-			`"We offer our premium customers regularly investment possibilities in small but established companies. With an investment of one to several million credits you can generate a daily income which pays off the investment in around four years. Our analysts check these companies and their business plans very carefully, so that there is no risk for you. Of course we take a small part of the profit for us. Your success is our success. Our services are available in human, Quarg and Hai space."`
+			`"We offer our premium customers regularly investment possibilities in small but established companies. With an investment of one to several million credits you can generate a daily income which pays off the investment in around four years. Our analysts check these companies and their business plans very carefully, so that there is no risk for you. Of course, we take a small part of the profit for us. Your success is our success. Our services are available in human, Quarg and Hai space."`
 			choice
 				`	"That sounds great."`
 					goto letscontinue
@@ -341,7 +341,7 @@ mission "Galactic Capital Colonize 7"
 event "GCI wait defense fleets"
 	planet "Sapphire"
 		spaceport `This is a big spaceport with lots of traffic.`
-		description `Sapphire is a beautiful green world. After the native poisonous insects have been eradicated, the colonization progress is evolving fast. In its current state, Sapphire has several big cities and hundreds of smaller villages and outposts spread across the land masses. This is a world with a very fast growing economy.`
+		description `Sapphire is a beautiful green world. After the native poisonous insects have been eradicated, the colonization progress is evolving fast. In its current state, Sapphire has several big cities and hundreds of smaller villages and outposts spread across the land masses. This is a world with a very fast-growing economy.`
 		security 0.1
 		tribute 1000
 			threshold 1500
@@ -374,10 +374,10 @@ mission "Galactic Capital Colonize 9"
 		outfit "Golden Figurine"
 		conversation
 			scene "scene/gci_big_city"
-			`Sapphire has changed significantly. The spaceport has gotten bigger and it's filled with people. At an information stand you find out that there are twelve larger cities and hundreds of small settlements, and the population is approaching the 100 million mark. On the way to Galactic Capital Investment's planetary headquarters, you see a lot of activity everywhere. This is what a rising world looks like. The headquarters of Galactic Capital Investment is also very impressive and is one of the first few skyscrapers here. When you enter Goulding's office you are greeted warmly.`
+			`Sapphire has changed significantly. The spaceport has gotten bigger, and it's filled with people. At an information stand you find out that there are twelve larger cities and hundreds of small settlements, and the population is approaching the 100 million mark. On the way to Galactic Capital Investment's planetary headquarters, you see a lot of activity everywhere. This is what a rising world looks like. The headquarters of Galactic Capital Investment is also very impressive and is one of the first few skyscrapers here. When you enter Goulding's office you are greeted warmly.`
 			`"<first>, I'm glad to see you here." Goulding smiles.`
 			`"Everything is developing splendidly. More than splendidly! We got this venture up and running in record time and now there's nothing left to do. We can enjoy the fruits of our labor. That's why I asked you here. Let's talk about the distribution of profits."`
-			`"The numbers are much better than our analysts predicted. As one of our first investors, you will also be the first to receive a share of the profits. From now on, the planetary government will transfer you around 400 thausand credits every day! This means that in 5 years you've fully recovered your investment. After that, all that's left is profit!" Goulding smiles even wider.`
+			`"The numbers are much better than our analysts predicted. As one of our first investors, you will also be the first to receive a share of the profits. From now on, the planetary government will transfer you around 400 thousand credits every day! This means that in 5 years you've fully recovered your investment. After that, all that's left is profit!" Goulding smiles even wider.`
 			`"Please <first>, take some time and take a vacation, maybe even here. Sapphire has some really beautiful sights."`
 			`"Before you go, I have something for you, nothing special, just a small gift to celebrate our success here." he hands you a golden figurine of a credit symbol.`
 			`After more small talk, you say goodbye. Before you head out, Goulding mentions that he may come back to you with more investments like this in the future. When you get to the ship, you ask yourself what you should do now.`

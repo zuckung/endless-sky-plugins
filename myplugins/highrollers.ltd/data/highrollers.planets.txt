@@ -59,7 +59,7 @@ system "Rutilicus"
 
 
 system "Epsilon Leonis"
-	add object 
+	add object
 		sprite planet/cloud7
 		distance 1027.21
 		period 345.831
@@ -90,7 +90,7 @@ planet "Clubs Casino"
 	landscape land/highrollers
 	government "Highrollers Ltd."
 	description `The Clubs Casino, the oldest of Highrollers Ltd.'s luxury gambling stations, orbits Ruchbah II, a cloud planet known for its rich helium-3 deposits. Originally constructed in 2895 as a corporate retreat, it evolved into a high-end casino catering to industrial moguls and deep-space miners. The station's dark, polished interiors exude an old-world charm, featuring mahogany-inspired synthwood, antique gaming tables, and a vast vault storing priceless gambling chips. Its zero-gravity baccarat room is a major attraction, and its VIP section is rumored to host secret negotiations between major trade syndicates. Despite attempts to modernize, Clubs Casino maintains a traditional atmosphere, drawing those who appreciate history with their wagers.`
-	spaceport `The Clubs Casino, the oldest of Higrtollers Ltd.'s luxury gambling stations, orbits Ruchbah II, a cloud planet known for its rich helium-3 deposits. Originally constructed in 2895 as a corporate retreat, it evolved into a high-end casino catering to industrial moguls and deep-space miners. The station's dark, polished interiors exude an old-world charm, featuring mahogany-inspired synthwood, antique gaming tables, and a vast vault storing priceless gambling chips. Its zero-gravity baccarat room is a major attraction, and its VIP section is rumored to host secret negotiations between major trade syndicates. Despite attempts to modernize, Clubs Casino maintains a traditional atmosphere, drawing those who appreciate history with their wagers.`
+	spaceport `The Clubs Casino, the oldest of Highrollers Ltd.'s luxury gambling stations, orbits Ruchbah II, a cloud planet known for its rich helium-3 deposits. Originally constructed in 2895 as a corporate retreat, it evolved into a high-end casino catering to industrial moguls and deep-space miners. The station's dark, polished interiors exude an old-world charm, featuring mahogany-inspired synthwood, antique gaming tables, and a vast vault storing priceless gambling chips. Its zero-gravity baccarat room is a major attraction, and its VIP section is rumored to host secret negotiations between major trade syndicates. Despite attempts to modernize, Clubs Casino maintains a traditional atmosphere, drawing those who appreciate history with their wagers.`
 	bribe 0.03
 	security 0.3
 	tribute 2100
@@ -102,8 +102,8 @@ planet "Diamonds Casino"
 	attributes casino
 	landscape land/highrollers
 	government "Highrollers Ltd."
-	description `Highrollers Ltd. acquired the legendary Diamonds Casino in 2972 and restored it to its former glory, solidifying its status as the most prestigious casino in the sector. Located in high orbit over Tarazed II, the station boasts ultra-modern luxury suites, a gravity-flexible gaming floor, and high-stakes tournaments that attract the wealthiest players in the human space. The casino's famed Infinity Lounge, a transparent observation deck overlooking the Tarazed nebula, is reserved for only the highest rollers. Behind the glitz, rumors persist of Hightollers Ltd.'s dealings with rogue traders and covert political players, making Diamonds Casino both a financial powerhouse and a nexus of interstellar intrigue.`
-	spaceport `Highrollers Ltd. acquired the legendary Diamonds Casino in 2972 and restored it to its former glory, solidifying its status as the most prestigious casino in the sector. Located in high orbit over Tarazed II, the station boasts ultra-modern luxury suites, a gravity-flexible gaming floor, and high-stakes tournaments that attract the wealthiest players in the human space. The casino's famed Infinity Lounge, a transparent observation deck overlooking the Tarazed nebula, is reserved for only the highest rollers. Behind the glitz, rumors persist of Hightollers Ltd.'s dealings with rogue traders and covert political players, making Diamonds Casino both a financial powerhouse and a nexus of interstellar intrigue.`
+	description `Highrollers Ltd. acquired the legendary Diamonds Casino in 2972 and restored it to its former glory, solidifying its status as the most prestigious casino in the sector. Located in high orbit over Tarazed II, the station boasts ultra-modern luxury suites, a gravity-flexible gaming floor, and high-stakes tournaments that attract the wealthiest players in the human space. The casino's famed Infinity Lounge, a transparent observation deck overlooking the Tarazed nebula, is reserved for only the highest rollers. Behind the glitz, rumors persist of Highrollers Ltd.'s dealings with rogue traders and covert political players, making Diamonds Casino both a financial powerhouse and a nexus of interstellar intrigue.`
+	spaceport `Highrollers Ltd. acquired the legendary Diamonds Casino in 2972 and restored it to its former glory, solidifying its status as the most prestigious casino in the sector. Located in high orbit over Tarazed II, the station boasts ultra-modern luxury suites, a gravity-flexible gaming floor, and high-stakes tournaments that attract the wealthiest players in the human space. The casino's famed Infinity Lounge, a transparent observation deck overlooking the Tarazed nebula, is reserved for only the highest rollers. Behind the glitz, rumors persist of Highrollers Ltd.'s dealings with rogue traders and covert political players, making Diamonds Casino both a financial powerhouse and a nexus of interstellar intrigue.`
 	bribe 0.03
 	security 0.3
 	tribute 2400

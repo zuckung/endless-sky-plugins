@@ -13,7 +13,7 @@ outfit "unq_survival_rations"
 	"unique" 1
 	"unplunderable" 1
 	cost 4000
-	description `Several boxes of Hai survival rations and all of them made out of nuts. Nut pasta, sweet nut creme, baked nuts with other nuts, big nuts filled with smaller nuts ... and so on.`
+	description `Several boxes of Hai survival rations and all of them made out of nuts. Nut pasta, sweet nut crème, baked nuts with other nuts, big nuts filled with smaller nuts ... and so on.`
 
 
 mission "unq_survival_rations"

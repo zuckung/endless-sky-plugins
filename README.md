@@ -710,7 +710,7 @@ text corrections (thx to TheGiraffe3)<br>
 
 fixed error on natural spawning korath fleets<br>
 
-changed some space port news and jobs to require culture conversations<br>
+changed some spaceport news and jobs to require culture conversations<br>
 
 changed culture conversation chance from 10% to 20%<br>
 
@@ -862,7 +862,7 @@ screenshots(click to enlarge):<br>
 
 [captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.7-captureable.person.ships/captureable.person.ships.zip) | 140.92 kb | 2025-01-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <a href="res/imagemd/captureable.person.ships.md">view images</a> [4]<br>
 <br>
->Makes person ships capturable. See the README for details."
+>Makes person ships capturable. See the README for details.
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>### capturable.person.ships

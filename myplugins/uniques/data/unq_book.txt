@@ -15,7 +15,7 @@ outfit "unq_book"
 	"thrust" 1
 	cost 8800
 	description `A book like this, made out of paper, is nowadays a rarity. You have bought it in a small store on Glory.`
-	description `Although you considering yourself as an expert in piloting, you really learned one or two tricks from this book.`
+	description `Although you consider yourself as an expert in piloting, you really learned one or two tricks from this book.`
 
 
 mission "unq_book store"

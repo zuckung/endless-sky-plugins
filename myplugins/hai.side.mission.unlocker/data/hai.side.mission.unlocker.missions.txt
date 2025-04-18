@@ -64,7 +64,7 @@ mission "unlocked Unwanted Cargo"
 				goto end
 			label cry
 			`	The child begins to cry even louder than before. After waiting for a few minutes, the child finally calms down, eventually going to sleep in the crate.`
-				goto end		
+				goto end
 			label translator
 			`	You hear a voice come from the crate, and surprisingly your Hai translator begins speaking. "Let me out! I want to go home!"`
 			choice
@@ -73,10 +73,10 @@ mission "unlocked Unwanted Cargo"
 			choice
 				`	"Where's your mommy?"`
 				`	"Don't cry, little guy."`
-			`	The child looks surprised when your translation device speaks to them in Hai. "Take me home!" they yell back at you. You attempt to find out where the child's home is, but they continue to cry for its mother without giving any important information.`		
+			`	The child looks surprised when your translation device speaks to them in Hai. "Take me home!" they yell back at you. You attempt to find out where the child's home is, but they continue to cry for its mother without giving any important information.`
 			label end
 			`	This child must have somehow gotten into your cargo hold while you were in Hai space. Leaving a Hai child on this world would be an extremely bad idea. Perhaps someone on <destination> will be able to bring the child back to its family.`
-				accept		
+				accept
 	on complete
 		payment 50000
 		dialog `You contact the spaceport authorities of <planet> and ask them if they are looking for a lost Hai child. It turns out that the family was so worried that they put up a <payment> reward for finding their son. A Hai spaceport worker takes the child from your ship and thanks you for finding him for the family.`
@@ -113,7 +113,7 @@ mission "unlocked Hiding in Plain Sight"
 				`	"Alright, I can take you there."`
 					accept
 				`	"Sorry, you'll have to find someone else to bring you."`
-					decline				
+					decline
 	on visit
 		dialog `You look for Arthur and Kiru, but realize that they took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
 	on complete
@@ -141,7 +141,7 @@ mission "unlocked Nanachi 1"
 				`	(Approach the Hai.)`
 				`	(Leave them alone.)`
 					decline
-			`	The Hai is a bit startled, but quickly calms down. "Sorry, you caught me by surprise. I've just bought my first ship and need to find some jobs to do, but nobody I've talked to wants to trust a beginner captain. I just don't know what to do anymore, I've been working for so long to qualify for this loan, but I'm running out of time and I'll never be able to pay it like this."`
+			`	The Hai is a bit startled, but quickly calms down. "Sorry, you caught me by surprise. I've just bought my first ship and need to find some jobs to do, but nobody I've talked to wants to trust a beginner captain. I just don't know what to do anymore, I've been working for so long to qualify for this loan, but I'm running out of time, and I'll never be able to pay it like this."`
 			`	Turns out the documents she is holding are the bank papers for the loan, somewhat similar to the one you took when you bought your first ship. You've come a long way since your days as a beginner, and know how hard it is to be starting out as a starship captain; you could probably convince someone here to offer a simple cargo job to this young Hai.`
 			choice
 				`	"If you're interested, I could try to help you find a job."`
@@ -154,15 +154,15 @@ mission "unlocked Nanachi 1"
 				`	(Leave her alone and continue on.)`
 					decline
 			label "positive1"
-			`	Her ears twitch a bit, and her previously crestfallen eyes light up as she nearly jumps in joy at your offer. "Thank you so much Captain! My name is Nanachi, I promise I won't cause any trouble at all, just a few quick jobs and I'm sure I'll be fine by myself!"`
+			`	Her ears twitch a bit, and her previously crestfallen eyes light up as she nearly jumps in joy at your offer. "Thank you so much Captain! My name is Nanachi, I promise I won't cause any trouble at all, just a few quick jobs, and I'm sure I'll be fine by myself!"`
 			`	You introduce yourself to Nanachi and shake her paw. "Can you show me your ship so I can look for jobs it's best suited for?" you ask.`
 			`	She hesitates a bit, but leads you to her ship. You were expecting a small Hai ship, but to your surprise she shows you a rather beat-up Heavy Shuttle docked near your own ship.`
 			`	"You took a loan to buy a human ship?" you ask.`
-			`	She looks at the ground, as if ashamed of it. "It'd take way too long for me to qualify for a loan for even an Aphid, but I recently met a human merchant who wanted to sell his old ship; it was difficult, but I managed to convince him to sell it to me instead of going to the shipyard office. I paid him its full price, but even for this one I had to take out the biggest loan I could. Its cargo hold isn't very impressive but it has more bunks than our smallest ships, if that helps."`
+			`	She looks at the ground, as if ashamed of it. "It'd take way too long for me to qualify for a loan for even an Aphid, but I recently met a human merchant who wanted to sell his old ship; it was difficult, but I managed to convince him to sell it to me instead of going to the shipyard office. I paid him its full price, but even for this one I had to take out the biggest loan I could. Its cargo hold isn't very impressiv,e but it has more bunks than our smallest ships, if that helps."`
 			choice
 				`	"Let's see if anyone in the spaceport needs a lift off the planet."`
 				`	"Let's take another look at the job board, maybe a smaller job will pop up."`
-			`	Turns out this isn't as easy as you thought it'd be. The spaceport is almost empty, save for the occasional worker or drunken crew member, and the job board is filled with massive hauls of minerals, aside from a few small but dangerous jobs to human space. Eventually, as you two begin scouting the edge of the docking area, you spot a troubled human merchant near several crates. You approach him and he explains that his ship had some malfunctions and he cannot deliver his cargo of advanced surgical equipment to <destination>. "This is the worst! One jump away from the planet and the navigation system suddenly decides to go on strike! There's no way I can make it before the deadline!"`
+			`	Turns out this isn't as easy as you thought it'd be. The spaceport is almost empty, save for the occasional worker or drunken crew member, and the job board is filled with massive hauls of minerals, aside from a few small but dangerous jobs to human space. Eventually, as you two begin scouting the edge of the docking area, you spot a troubled human merchant near several crates. You approach him, and he explains that his ship had some malfunctions and he cannot deliver his cargo of advanced surgical equipment to <destination>. "This is the worst! One jump away from the planet and the navigation system suddenly decides to go on strike! There's no way I can make it before the deadline!"`
 			`	"My friend Nanachi here could deliver it for you. We were heading there anyway; a few extra crates won't make a difference," you say, trying to sound as convincing as possible.`
 			`	At first, he seems delighted that you two want to help him, but when Nanachi mentions that she's flying a Heavy Shuttle, he frowns, and looks back at the cargo. "Unfettered attacks make it so they need tons of medical supplies on <planet>, and quite frankly I'm not comfortable letting such a fragile ship go into dangerous territory carrying this equipment when it could be blasted to bits in an instant," he says. The captain glances around the deserted spaceport for a while, as if trying to find some other captain, before finally turning to Nanachi and saying, "but I guess beggars can't be choosers. Fine, I'll let you take the cargo there, but please be very careful."`
 				accept
@@ -351,7 +351,7 @@ mission "unlocked Hai Reveal: Pirate Troubles [1]"
 	on complete
 		set "Hai Reveal: Pirate Troubles [1]: done"
 		set "Hai Reveal: Pirate Troubles [1]: offered"
-		
+
 
 mission "unlocked Hai Reveal: Pirate Troubles [1]: Farpoint"
 	landing

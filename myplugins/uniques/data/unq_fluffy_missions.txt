@@ -121,8 +121,8 @@ mission "ocelot mission 1"
 		conversation
 			scene "scene/fluffy_piratecabin"
 			`When you enter the 'Lootbox' you quickly come across dead pirates. The battle was quick and brutal, leaving most of the pirates dead. A small group of survivors have barricaded themselves on the bridge. You decide to search the quarters and quickly discover the captain's cabin. Among the captain's useless belongings you find the stolen jewelry and 50,000 credits.`
-			`As you continue to look for valuablex, something behind a sofa hisses at you. It is a slightly larger cat with a spotted pattern. That must be an ocelot. You courageously try to convince the animal of your friendliness, which you quickly succeed in with a few strokes of petting. A plaque on his neck reads 'Babou'. You decide to take the ocelot with you.`
-			`Half an hour later you are back on your ship. Mission accomplished. Very successful actually. 50,000 extra credits.`
+			`As you continue to look for valuables, something behind a sofa hisses at you. It is a slightly larger cat with a spotted pattern. That must be an ocelot. You courageously try to convince the animal of your friendliness, which you quickly succeed in with a few strokes of petting. A plaque on his neck reads 'Babou'. You decide to take the ocelot with you.`
+			`Half an hour later you are back on your ship. Mission accomplished. Very successful, actually. 50,000 extra credits.`
 				launch
 	on complete
 		payment 200000
@@ -184,7 +184,7 @@ mission "raccoon mission 1"
 			`You wait for hours watching the loading process. You should've explored the forest.`
 				goto takeoff
 			label takeoff
-			`In the late afternoon everything is finally done and you start your journey to "Hephaestus".`
+			`In the late afternoon everything is finally done, and you start your journey to "Hephaestus".`
 				accept
 	on complete
 		payment 80000
@@ -196,7 +196,7 @@ mission "raccoon mission 1"
 				`	(Don't adopt the raccoon.)`
 					goto shelter
 			label shelter
-			`You take the raccoon to an animal shelter. You aren't really an 'raccoon person'.`
+			`You take the raccoon to an animal shelter. You aren't really a 'raccoon person'.`
 			`A short time later the work is done and the 80,000 credits payment arrived in your account.`
 				goto end
 			label adopt
@@ -282,14 +282,14 @@ mission "ferret mission 1"
 		random > 79
 	on offer
 		conversation
-			`After landing on 'Bivrost', a local animal breeder contacts you. He needs transport to <destination> for 750 ferrets. The ferrets and their cages require 12 tons of cargo space and you will receive <payment> on delivery.`
+			`After landing on 'Bivrost', a local animal breeder contacts you. He needs transport to <destination> for 750 ferrets. The ferrets and their cages require 12 tons of cargo space, and you will receive <payment> on delivery.`
 			choice
 				`	(Accept.)`
 					goto accept
 				`	(Decline.)`
 					defer
 			label accept
-			`Two hours later the animals are loaded and you are ready to leave to <destination>.`
+			`Two hours later the animals are loaded, and you are ready to leave to <destination>.`
 				accept
 	on complete
 		payment 76000
@@ -345,7 +345,7 @@ mission "koala mission 1"
 				`	"I don't have time. Maybe later.`
 					defer
 			label accept
-			`You agree on a transport destination and a price with Chief Inspector Mordin. A koala needs a transport to the zoo on 'Shroud'. Upon delivery you will receive 120,000 credits. Half an hour later, a large cage with a koala gets delivered to your cargo hold. `
+			`You agree on a transport destination and a price with Chief Inspector Mordin. A koala needs transport to the zoo on 'Shroud'. Upon delivery, you will receive 120,000 credits. Half an hour later, a large cage with a koala gets delivered to your cargo hold. `
 				accept
 	on complete
 		payment 120000
@@ -418,7 +418,7 @@ mission "rabbit mission 2"
 				`	(Don't adopt the rabbit.)`
 					goto shelter
 			label shelter
-			`You explain Owen that you can't take care of the rabbit.`
+			`You explain to Owen that you can't take care of the rabbit.`
 				decline
 			label adopt
 			scene "outfit/fluffy_rabbit"
@@ -474,7 +474,7 @@ mission "squirrel mission 1"
 		conversation
 			`As you make final checks for launching your ship, an elderly female Hai approaches.`
 			`  "Hello, is that your ship? Do you know your way around in human space? How much would a special procurement from human space cost me?"`
-			`  "Hello, that is a lot of questions at once." you say "The answers are: yes, yes and it depends from where and what."`
+			`  "Hello, that is a lot of questions at once." you say "The answers are: yes, yes, and it depends from where and what."`
 			`The Hai woman, whose name is Xanua, tells you how years ago she heard a story that there is a species of animal among humans that looks similar to the Hai, only much smaller. Since then, Xanua has become very wealthy, and would like to score points with high society by having something exotic like that. Are you willing to get such an animal for her?`
 			choice
 				`	(Agree.)`
@@ -482,7 +482,7 @@ mission "squirrel mission 1"
 				`	(Decline.)`
 					defer
 			label accept
-			`You agree on a fixed amount of 500,000 credits. Now all you have to do is figure out how to get a squirrel. You've never seen a squirrel yourself and you don't even know what world they come from. You decide to search for information on the next human world.`
+			`You agree on a fixed amount of 500,000 credits. Now all you have to do is figure out how to get a squirrel. You've never seen a squirrel yourself, and you don't even know what world they come from. You decide to search for information on the next human world.`
 				accept
 	on complete
 		conversation
@@ -500,7 +500,7 @@ mission "squirrel mission 2"
 		has "squirrel mission 1: done"
 	on offer
 		conversation
-			`After landing on Maelstrom you search the local information network for squirrels. A few posts later, most of conspiracy theories about extraterrestrial giant squirrels enslaving humanity, that are obviously only partially untrue, you find the information you're looking for. Squirrels are from Earth, your new destination.`
+			`After landing on Maelstrom you search the local information network for squirrels. A few posts later, mostly conspiracy theories about extraterrestrial giant squirrels enslaving humanity that are obviously only partially untrue, you find the information you're looking for. Squirrels are from Earth, your new destination.`
 				accept
 	on complete
 		conversation
@@ -522,7 +522,7 @@ mission "squirrel mission 3"
 				accept
 	on complete
 		conversation
-			`You reached <destination>. According to your contact on Earth, one of the biggest squirrel populations live in the wide forrests of this world. You should check the spaceport to find your local contact.`
+			`You reached <destination>. According to your contact on Earth, one of the biggest squirrel populations live in the wide forests of this world. You should check the spaceport to find your local contact.`
 
 
 mission "squirrel mission 4"

@@ -5,7 +5,7 @@
 
 
 mission "gci banking account initial"
-	non-blocking 
+	non-blocking
 	invisible
 	landing
 	on offer
@@ -339,7 +339,7 @@ mission "gci banking terminal"
 				goto sellinvestment
 			label sellinvestment
 			scene scene/gci_terminal
-			`Sell shares of companys you've invested in. You'll sell them with a loss and this can't be reverted!.`
+			`Sell shares of companies you've invested in. You'll sell them with a loss and this can't be reverted!.`
 			``
 			`Cash chip:`
 			`	&[credits] credits`

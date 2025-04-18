@@ -47,7 +47,7 @@ outfit "unq_bioluminescent_offspring"
 	"unique" 1
 	"unplunderable" 1
 	cost 2000000
-	description `An offspring of your bioluminiscent plant. You don't know why, but unfortunately it can't get own offsprings.`
+	description `An offspring of your bioluminescent plant. You don't know why, but unfortunately it can't get own offsprings.`
 
 
 outfit "unq_bioreactor"
