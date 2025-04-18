@@ -231,7 +231,7 @@ mission "bunrodea defense"
 	on offer
 		conversation
 			`While landing on <planet>, you noticed some stuttering coming from the engines. You decide to take a deeper look into the engines.`
-			`A young Bunrodean with a unusual colourful hat approaches, hands you one of the translating devices, and starts to speak immediately.`
+			`A young Bunrodean with an unusual colourful hat approaches, hands you one of the translating devices, and starts to speak immediately.`
 			`You turn the device on "... to be having problems with the rotator splint. The engine runs good now, but not for long."`
 			`"Anyway," he pulls out a computer pad and starts reading "On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', you are allowed to proof your worth to the Bunrodean Empire."`
 			`"Our territorial integrity gets tested by the Korath. Although these invaders mean no threat to us, letting an outsider handle them will show the Korath that they will have to fight on several frontiers if they ever decide to go beyond weak raids."`
@@ -309,7 +309,7 @@ mission "bunrodea defense 2"
 		dialog "You have destroyed the Korath fleet."
 	on complete
 		conversation
-			`After leaving your ship, an an elderly distinguished Bunrodean awaits you. He bows before you.`
+			`After leaving your ship, an elderly distinguished Bunrodean awaits you. He bows before you.`
 			`"Greetings captain <last>, my name is Josuno and I am your new contact to the government. Our queen wishes to gratulate you to your great victory over the Korath fleet. She is very pleased by your work. You can find new opportunities to earn more honour on the job board."`
 			`"And personally, I have to say it is an honour to meet you in person. Our deep space surveillance systems spread recordings of your fights with the Korath all over the empire. You are well known by most Bunrodea."`
 			`"Well, I don't want to hold you back from your work. I wish you all the best, good luck and farewell." He starts walking away.`
@@ -390,7 +390,7 @@ mission "bunrodea translation update fix"
 	to offer
 		not "outfit (flagship installed): Bunrodea Translation Device"
 		has "bunrodea defense: done"
-	on offer 
+	on offer
 		outfit "Bunrodea Translation Device"
 			fail
 
@@ -403,7 +403,7 @@ mission "bunrodea translation update fix 2"
 	to offer
 		not "language: Bunrodea"
 		has "bunrodea defense: done"
-	on offer 
+	on offer
 		set "language: Bunrodea"
 			fail
 
@@ -459,7 +459,7 @@ mission "bunrodea noble authorization update fix"
 	to offer
 		not "outfit (flagship installed): Bunrodea Noble Authorization"
 		has "bunrodea full rep: done"
-	on offer 
+	on offer
 		outfit "Bunrodea Noble Authorization"
 			fail
 
@@ -543,7 +543,7 @@ mission "culture bunrodea snap fly"
 
 mission "bunrodea side supernova"
 	name "Supernova studies"
-	description "A group of scientists wants to study the supernova remnants at <waypoints>. Return back to <destination> after the visit. The payment will be <payment>."	
+	description "A group of scientists want to study the supernova remnants at <waypoints>. Return back to <destination> after the visit. The payment will be <payment>."
 	source "Sopoyra"
 	destination "Sopoyra"
 	waypoint "Peresedersi"
@@ -583,7 +583,7 @@ mission "bunrodea side supernova"
 
 mission "bunrodea side archeology 1"
 	name "Archeological Expedition"
-	description "A group of archeologists wants to study newly discovered ruins at <destination>. The payment will be <payment>."	
+	description "A group of archeologists wants to study newly discovered ruins at <destination>. The payment will be <payment>."
 	source "Deli Kat"
 	destination "Byruca"
 	cargo "Archeological Equipment" 20
@@ -622,7 +622,7 @@ event "bun archeology"
 mission "bunrodea side archeology 2"
 	landing
 	name "Archeological Expedition returns"
-	description "Travel to <destination> to retrieve the archeological expedition."	
+	description "Travel to <destination> to retrieve the archeological expedition."
 	source
 		government "Bunrodea" "Bunrodea (Guard)" "Bunrodea (Megasa)" "Bunrodea (Erabu)"
 		not planet "Byruca"
@@ -636,7 +636,7 @@ mission "bunrodea side archeology 2"
 mission "bunrodea side archeology 3"
 	landing
 	name "Return the archeological expedition"
-	description "Transport the archeological expedition back to <destination>. The payment will be <payment>."	
+	description "Transport the archeological expedition back to <destination>. The payment will be <payment>."
 	source "Byruca"
 	destination "Deli Kat"
 	cargo "Archeological Equipment" 20
@@ -662,7 +662,7 @@ mission "bunrodea side archeology 3"
 
 mission "bunrodea side volcano"
 	name "Transport injured"
-	description "Transport 50 injured Bunrodeans to <destination> by <date>. Payment will be <payment>."	
+	description "Transport 50 injured Bunrodeans to <destination> by <date>. Payment will be <payment>."
 	source "Thshybothro"
 	destination "Jentuthro"
 	passengers 50
@@ -695,7 +695,7 @@ mission "bunrodea side volcano"
 
 mission "bunrodea side genetic"
 	name "Transport a geneticist"
-	description "Transport a geneticist to <destination>. Payment will be <payment>."	
+	description "Transport a geneticist to <destination>. Payment will be <payment>."
 	source "Jentuthro"
 	destination "Melenci"
 	passengers 1
@@ -725,7 +725,7 @@ mission "bunrodea side genetic"
 
 mission "bunrodea side army"
 	name "Transport to military academy"
-	description "Transport a young Bunrodean to the military academy on <destination>. Payment will be <payment>."	
+	description "Transport a young Bunrodean to the military academy on <destination>. Payment will be <payment>."
 	source "Disara"
 	destination "Eragarthro"
 	passengers 1
@@ -757,7 +757,7 @@ mission "bunrodea side army"
 
 mission "bunrodea side cybernetic"
 	name "Transport a cybernetics expert"
-	description "Transport a cybernetics expert to <destination>. Payment will be <payment>."	
+	description "Transport a cybernetics expert to <destination>. Payment will be <payment>."
 	source "Eragarthro"
 	destination "Thshybothro"
 	passengers 1

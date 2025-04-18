@@ -66,10 +66,10 @@ start "z_trader1"
 
 conversation "z_trader1"
 	scene "scene/lobby"
-	`Your family is more wealthy than most of New China's inhabitants, but less wealthy than your neighbour Phil. He is the most lazy and annoying person you know. Amazingly how good he is standing with doing his trading job. Most of the year he does nothing, just hanging around in bars. And that is why you decided to become a space trader. With your talent, charm, and ambitions, you can get really really rich.` 
+	`Your family is more wealthy than most of New China's inhabitants, but less wealthy than your neighbour Phil. He is the most lazy and annoying person you know. Amazingly how good he is standing with doing his trading job. Most of the year he does nothing, just hanging around in bars. And that is why you decided to become a space trader. With your talent, charm, and ambitions, you can get really really rich.`
 	`Anyway, now it's time to sign the final contracts for the bank loan and the ship purchase.`
 	name
-	`It won't be easy yo pay off 1.8 million credits, but you think positive. You have a great ship, a customized "Freighter", with engine upgrades and a bigger cargo. No weapons, but with that engine you are faster than the pirates. Also the Paradise Worlds are in the near north, which are safer for traders.`
+	`It won't be easy to pay off 1.8 million credits, but you think positive. You have a great ship, a customized "Freighter", with engine upgrades and a bigger cargo. No weapons, but with that engine you are faster than the pirates. Also the Paradise Worlds are in the near north, which are safer for traders.`
 	`Nothing stands in your way. Your future begins now!`
 
 
@@ -118,10 +118,10 @@ start "z_trader2"
 
 conversation "z_trader2"
 	scene "scene/lobby"
-	`You just reached the bank to sign all final papers. You took a pretty big loan of 1.5 million credits and spent weeks looking for a nice ship. And now you are here, signing papers for a last time. And then ... you aren't sure what's then. Time to find out.` 
+	`You just reached the bank to sign all final papers. You took a pretty big loan of 1.5 million credits and spent weeks looking for a nice ship. And now you are here, signing papers for a last time. And then ... you aren't sure what's then. Time to find out.`
 	name
 	`Hours later, you sit in front of your new 'Aphid' on the spaceport floor, admiring the form and look of your spaceship.`
-	`You always dreamed of this moment. This ship is amazing. You took some special equipment, raised the cargo hold and removed weapons, since Hai space is mostly save for traders. You even installed a "Quantum Keystone", because the Hai believe that it brings luck.`
+	`You always dreamed of this moment. This ship is amazing. You took some special equipment, raised the cargo hold and removed weapons, since Hai space is mostly safe for traders. You even installed a "Quantum Keystone", because the Hai believe that it brings luck.`
 	`You are sure that you will spend some time trading here in Hai space, to pay off your debts, and then explore more of the galaxy.`
 	`Now your adventure starts!`
 
@@ -168,7 +168,7 @@ start "z_passenger1"
 			"X3200 Ion Steering"
 			"X3700 Ion Thruster"
 
-	
+
 conversation "z_passenger1"
 	scene "scene/lobby"
 	`Because a lot of Hestia's industry is geared towards tourism, you have gained a name in this industry. As a consultant for small sightseeing and passenger transport companies, you have earned quite enough to fulfill your dream.`
@@ -264,13 +264,13 @@ start "z_salvager1"
 			"nGVF-AA Fuel Cell"
 			"Tactical Scanner"
 
-	
+
 conversation "z_salvager1"
 	scene "scene/lobby"
 	`You were quite surprised when you heard the reading of your uncle's last will. Now, another week later, you own a spaceship and 200,000 credits. Unfortunately your uncle had still a debt of 500,000 credits, which is now yours.`
 	`At the bank, you do the paper works and head to the space port to change the registration of your ship.`
 	name
-	`You are very happy when you enter the dock. Although you often visited your uncle Tiberius here, where he worked on his old 'Shuttle', it feels so different. Owning an space ship opens up so many possibilities. `
+	`You are very happy when you enter the dock. Although you often visited your uncle Tiberius here, where he worked on his old 'Shuttle', it feels so different. Owning a space ship opens up so many possibilities. `
 	`You can continue your uncle's business, by boarding pirate ships, disabled in fights with the Republic. His 'Shuttle' is equipped for that purpose. Weaponless, it gives the pirates fewer reasons to attack. Also it is outfitted with additional bunks for a bigger crew and some laser rifles. You just need to hire a bigger crew.`
 	`Or you can travel into the Endless Sky.`
 
@@ -317,13 +317,13 @@ start "z_salvager2"
 			"RT-I Radiothermal"
 			"Tactical Scanner" 2
 
-	
+
 conversation "z_salvager2"
 	scene "scene/lobby"
-	`You were quite surprised when you heard the reading of your uncle's last will. Now, another week later, you own a spaceship and 100,000 credits. Unfortunately your uncle had still a a very high debt, which is your debt now.`
+	`You were quite surprised when you heard the reading of your uncle's last will. Now, another week later, you own a spaceship and 100,000 credits. Unfortunately your uncle had still a very high debt, which is your debt now.`
 	`At the bank, you do the paper works and head to the space port to change the registration of your ship.`
 	name
-	`You are very happy when you enter the dock. Although you often visited your uncle Tiberius here, where he lived in his old 'Argosy', it feels so different. Owning an space ship opens up so many possibilities. `
+	`You are very happy when you enter the dock. Although you often visited your uncle Tiberius here, where he lived in his old 'Argosy', it feels so different. Owning a space ship opens up so many possibilities. `
 	`You can continue your uncle's business, by boarding pirate ships, disabled in fights with the Republic. His 'Argosy' is equipped for that purpose. Weaponless, it gives the pirates fewer reasons to attack. Also it is outfitted with many bunks for a big crew and lots of laser rifles. You just need to hire a bigger crew.`
 	`Or you can travel into the Endless Sky.`
 
@@ -371,7 +371,7 @@ start "z_explorer1"
 
 conversation "z_explorer1"
 	scene "scene/lobby"
-	`It's been half a year since you've met that guy in a bar, but you still think about the story he told you.` 
+	`It's been half a year since you've met that guy in a bar, but you still think about the story he told you.`
 	`He travelled through the uninhabited systems west of here, when he discovered a strange red glowing object. While getting closer to examine, his ship got somehow sucked into it. In the next moment all stars around him have changed. After recovering from the shock, he explored some unknown nearby systems. In one of the systems, he found some big space amoeba eating asteroids, and a damaged and disabled strange spaceship. He helped the crew of that ship make it fly again and for his effort and the promise to tell no-one, they paid him a lot of credits.`
 	`That story sounded unbelievable, but something about the way he told it, made you feel it was true.`
 	`And here are you now, half a year later, signing the papers for your new ship. No-one would believe or support what you are planning.`

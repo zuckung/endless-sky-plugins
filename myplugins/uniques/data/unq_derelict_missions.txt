@@ -116,7 +116,7 @@ mission "derelict sadr"
 				"Dromedary (wreck)" 1
 		conversation
 			scene "scene/dark_ship02"
-			`The Dromedary is badly damaged and you find lots of mummified corpses. There are traces of a heavy space battle, holes in the hull, also a debris field. Most of the crew died by the athmosphere loss. Maybe the Dromedary fought another big ship? Most systems still work after a short repair, the reactivated android crew helped a lot. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
+			`The Dromedary is badly damaged and you find lots of mummified corpses. There are traces of a heavy space battle, holes in the hull, also a debris field. Most of the crew died by the atmosphere loss. Maybe the Dromedary fought another big ship? Most systems still work after a short repair, the reactivated android crew helped a lot. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
 
 
 mission "derelict sadr swap"
@@ -158,7 +158,7 @@ mission "derelict orbona"
 				"Carrier (wreck)" 1
 		conversation
 			scene "scene/dark_ship03"
-			`The Navy Carrier is badly damaged and you find lots of mummified corpses. There is a big hole at one side and it looks like something crashed into the Carrier, maybe an asteroid? Most of the crew died by the athmosphere loss. After a short repair you manage to get the energy and engine systems running. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
+			`The Navy Carrier is badly damaged and you find lots of mummified corpses. There is a big hole at one side and it looks like something crashed into the Carrier, maybe an asteroid? Most of the crew died by the atmosphere loss. After a short repair you manage to get the energy and engine systems running. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
 
 
 mission "derelict orbona swap"

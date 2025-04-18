@@ -71,7 +71,7 @@ mission "Galactic Capital Intro B"
 				`	"Hands up, this is a bank robbery!"`
 					goto robbery
 			label haispace
-			`"Ehm...errr... did i say 'Hai space'? Hmmm that's the german word for 'shark' and I meant the core worlds with that. You know, where the hard business happens." Nervously, he continues doing business.`
+			`"Ehm...errr... did I say 'Hai space'? Hmmm that's the german word for 'shark' and I meant the core worlds with that. You know, where the hard business happens." Nervously, he continues doing business.`
 				goto letscontinue
 			label robbery
 			`Goulding starts to laugh, he really seems to like this joke. After he calms down he continues doing business. `
@@ -178,7 +178,7 @@ mission "Galactic Capital Colonize 2"
 	npc
 		government "Pirate"
 		personality nemesis harvests plunders staying
-		system "Merak" 
+		system "Merak"
 		fleet
 			names "pirate"
 			cargo 1
@@ -203,7 +203,7 @@ mission "Galactic Capital Colonize 2"
 			variant
 				"Colony Ship" 3
 	on visit
-		dialog phrase "generic arrived-without-npc dialog" 
+		dialog phrase "generic arrived-without-npc dialog"
 	on complete
 		event "GCI wait colonization" 120
 		conversation
@@ -379,6 +379,6 @@ mission "Galactic Capital Colonize 9"
 			`"Everything is developing splendidly. More than splendidly! We got this venture up and running in record time and now there's nothing left to do. We can enjoy the fruits of our labor. That's why I asked you here. Let's talk about the distribution of profits."`
 			`"The numbers are much better than our analysts predicted. As one of our first investors, you will also be the first to receive a share of the profits. From now on, the planetary government will transfer you around 400 thausand credits every day! This means that in 5 years you've fully recovered your investment. After that, all that's left is profit!" Goulding smiles even wider.`
 			`"Please <first>, take some time and take a vacation, maybe even here. Sapphire has some really beautiful sights."`
-			`"Before you go, I have something for you, nothing special, just a small gift to celebrate our success here." he hands you a golden figurine of a credit symbol.` 
+			`"Before you go, I have something for you, nothing special, just a small gift to celebrate our success here." he hands you a golden figurine of a credit symbol.`
 			`After more small talk, you say goodbye. Before you head out, Goulding mentions that he may come back to you with more investments like this in the future. When you get to the ship, you ask yourself what you should do now.`
 				decline

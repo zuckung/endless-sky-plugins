@@ -17,7 +17,7 @@ outfit "unq_skadenga"
 	"unique" 1
 	"unplunderable" 1
 	cost 200
-	description `This is an old-style book, bound up in an green cover, titled: "The Skadenga Saga: Against All Odds, by Hjlod Hrimnirsdottir". It is the story of the Skadenge and how you've helped them. Reading it lets you feel very nostalgic.`
+	description `This is an old-style book, bound up in a green cover, titled: "The Skadenga Saga: Against All Odds, by Hjlod Hrimnirsdottir". It is the story of the Skadenge and how you've helped them. Reading it lets you feel very nostalgic.`
 
 
 mission "unq The Book of Skadenga"
@@ -32,7 +32,7 @@ mission "unq The Book of Skadenga"
 		set "The Book of Skadenga: declined"
 		conversation
 			`As you wander through the spaceport, something catches your eye at a kiosk selling gifts, trinkets, and other odds and ends.`
-			`	There's an old-style book there, bound up in an green cover, titled: "The Skadenga Saga: Against All Odds, by Hjlod Hrimnirsdottir."`
+			`	There's an old-style book there, bound up in a green cover, titled: "The Skadenga Saga: Against All Odds, by Hjlod Hrimnirsdottir."`
 			choice
 				`	(Ignore the book and move on.)`
 					goto ignore

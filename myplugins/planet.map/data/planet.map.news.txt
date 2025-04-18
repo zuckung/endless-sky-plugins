@@ -104,7 +104,7 @@ news "avalonian news system prestory"
 			"Holovid Screen"
 	message
 		word
-			"News: Only two months after Captain Weathers arrival, a new ship entered our athmosphere!"
+			"News: Only two months after Captain Weathers arrival, a new ship entered our atmosphere!"
 			"News: More arriving ships within the last two years, is the traffic outside the planet increasing?"
 
 

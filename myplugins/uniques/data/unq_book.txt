@@ -29,7 +29,7 @@ mission "unq_book store"
 	on offer
 		conversation
 			scene "scene/unq_bookstore"
-			`As you step off your ship onto the spaceport, the vastness of the galaxy feels a little smaller. The spaceport city is a bustling hive of activity, with sleek ships zipping in and out, and the smell of exotic spices waft3ing through the air. But something more grounded catches your eye, a small, unassuming bookstore nestled between two towering holo-ad displays. A relic from another time, it seems almost out of place here.`
+			`As you step off your ship onto the spaceport, the vastness of the galaxy feels a little smaller. The spaceport city is a bustling hive of activity, with sleek ships zipping in and out, and the smell of exotic spices wafting through the air. But something more grounded catches your eye, a small, unassuming bookstore nestled between two towering holo-ad displays. A relic from another time, it seems almost out of place here.`
 			`Drawn by a strange sense of nostalgia, you step inside. The scent of old paper and ink greets you, a stark contrast to the sterile, digitized world outside. Shelves creak under the weight of real, physical books, each one a treasure, a link to a past long gone. Your fingers brush against the spines, feeling the texture of aged leather and cloth.`
 			`Then, you see it: an old, leather-bound volume titled "Piloting For Dummies". The price is steep, worth a small fortune in credits.`
 			choice

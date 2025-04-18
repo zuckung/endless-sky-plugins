@@ -26,7 +26,7 @@ mission "unq crashed shuttle"
 			`"Unidentified vessel, this is planetary control. A shuttle has crashed in your flight path. We've dispatched a rescue team, but they're still minutes away. You'll reach the crash site first. Requesting your assistance."`
 			choice
 				`	Agree to set course to the crash site.`
-				`	Is it a choice? You can't decline such an request, right?.`
+				`	Is it a choice? You can't decline such a request, right?`
 			label crashsite
 			scene "scene/unq_shuttlecrash"
 			`Without hesitation, you agree. Adjusting your ship's course, you make a quick descent toward the coordinates. The planet's rolling hills and dense forests flash beneath you as you push the engines harder. The seconds feel like hours as you wonder what condition the survivors will be in when you arrive.`

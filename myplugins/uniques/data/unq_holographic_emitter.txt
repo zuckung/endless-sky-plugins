@@ -53,7 +53,7 @@ mission "unq_install_holo"
 				outfit "unq_holographic_emitter" 1
 			scene "scene/unq_outfitter_holo"
 			`You agree, sealing the deal as she rings up the purchase.`
-			`Now you just need to find paying customers. Let's see, the big shipyards are probably a good place to start, there's Southbound, Lionheart, Megaparsec and of cause the Syndicate.`
+			`Now you just need to find paying customers. Let's see, the big shipyards are probably a good place to start, there's Southbound, Lionheart, Megaparsec and of course the Syndicate.`
 			`Also big outfit manufacturer might be interested, like Kraz Cybernatics, Deep Sky, Lovelace Labs and Delta V. We will see.`
 				decline
 

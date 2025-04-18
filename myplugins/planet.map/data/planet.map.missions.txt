@@ -37,7 +37,7 @@ mission "ava start story"
 	on complete
 		payment 2000000
 		conversation
-			`You tell the administration of Memory what you found out about the colony ship. With the exact position of the hard to find planet, the'll send ships to include the planet to the Republic. Because you solved the mystery of the disappeared colony ship, the government pays you two million credits.`
+			`You tell the administration of Memory what you found out about the colony ship. With the exact position of the hard to find planet, they'll send ships to include the planet to the Republic. Because you solved the mystery of the disappeared colony ship, the government pays you two million credits.`
 
 
 event "ava unhide theben"
@@ -70,7 +70,7 @@ mission "ava what is going on"
 	on offer
 		conversation
 			scene "scene/ava_city_plaza"
-			`After the landing you seek contact to find out what's going on here. After an hour you know a lot more. This planet is called New Avalon, a forest planet, and yes, the inhabitants are mostly from the disappeared colony ship. Some other came with there own ships, and can't leave because an invisible force hinders the ships from breaking through the athmosphere. The biggest city, named Center, and three other cities were build around a lake. After questioning your way up, you finally reach the city council, which, like expected, can't help escaping this planet.`
+			`After the landing you seek contact to find out what's going on here. After an hour you know a lot more. This planet is called New Avalon, a forest planet, and yes, the inhabitants are mostly from the disappeared colony ship. Some other came with their own ships, and can't leave because an invisible force hinders the ships from breaking through the atmosphere. The biggest city, named Center, and three other cities were build around a lake. After questioning your way up, you finally reach the city council, which, like expected, can't help escaping this planet.`
 			`After two more hours of talking to strangers, you hear of a guy, who might know some more. Travel to Ember (City) to meet a guy named Linus Rane.`
 				accept
 
@@ -155,7 +155,7 @@ mission "ava dragon attack"
 	repeat
 	name "Defend <planet>."
 	description "Defeat an animal attack on <planet>."
-	source 
+	source
 		government "Avalonian"
 	to offer
 		random < 20
@@ -173,7 +173,7 @@ mission "ava dragon attack"
 		personality heroic staying target
 		fleet "Avalonian Dragons" 3
 	on complete
-		"ava dragon attacked" ++ 
+		"ava dragon attacked" ++
 		payment 80000
 		conversation
 			`For your help defeating the Red Dragons, the local administration pays you 80,000 credits.`
