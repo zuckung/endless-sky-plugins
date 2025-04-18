@@ -71,7 +71,7 @@ def read_experts():
 				images.append(x)
 				if x.startswith('ecm'):
 					races.append('human')
-				elif x.startswith('arachi'): 
+				elif x.startswith('arachi'):
 					races.append('arach')
 				else:
 					races.append(x[:len(x)-2])
@@ -111,11 +111,11 @@ def read_experts():
 						if i != xlen-2:
 							x += ' '
 					stat3.append(x)
-					
+
 			else:
 				continue
 
-			
+
 def write_files():
 	with open(fsource, 'w') as list_file:
 		with open(foutfits, 'w') as outfits_file:
@@ -154,7 +154,7 @@ def write_files():
 						article = 'a'
 					# setting fields
 					if fields[index] == 'combat':
-						prefield = 'hand to hand '
+						prefield = 'hand-to-hand '
 						postfield = ''
 					elif fields[index] == 'cooling':
 						prefield = ''
@@ -188,7 +188,7 @@ def write_files():
 						locphrase = ', grown up in "' + locations[index] + '"'
 					else:
 						locphrase = ''
-					# setting source	
+					# setting source
 					if races[index].startswith('human'):
 						source = '\t\tgovernment "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"\n'
 						source2 = '\t\tattributes "' + locations[index] + '"\n'
@@ -274,7 +274,7 @@ def write_files():
 						outfits_file.writelines('\t' + stat3[index] + '\n')
 					outfits_file.writelines('\tdescription `This is a highly educated employee focused on '+ prefield + fields[index] + postfield \
 					+ '. ' + pronoun.capitalize() + ' is ' + article + ' ' + races[index].capitalize() + locphrase + '.`\n')
-					outfits_file.writelines('\n')	
+					outfits_file.writelines('\n')
 					# writing the mission
 					missions_file.writelines('mission "hire ' + fields[index] + ' ' + names[index] + '"\n')
 					saveedit1.append('\t"hire ' + fields[index] + ' ' + names[index] + ': declined"\n')
