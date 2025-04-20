@@ -55,11 +55,11 @@ mission "getAvgiLicenses"
 		set "license: Avgi Torch"
 		set "license: Twilight Guard"
 		set "license: Avgi Atomics"
-		conversation 
+		conversation
 			`You stride into Navigeo Yards once more, this time smelling less like ambition and more like Voidfish guts. General Azure is waiting, arms crossed.`
 			`"You actually did it." he says, inspecting the cargo. "Impressive."`
 			`You grin. "So... licenses?"`
-			`"Azure hands over the data chips and papers, then, with a smirk, presents something else... a Sleek Shortspear, polished, ceremonial, and entirely unnecessary for your line of work.`
+			`Azure hands over the data chips and papers, then, with a smirk, presents something else... a Sleek Shortspear, polished, ceremonial, and entirely unnecessary for your line of work.`
 			`"A token of respect" he says.`
 			`You twirl it dramatically. "Very pointy. I love it."`
 			`Azure chuckles. "Try not to stab yourself."`
