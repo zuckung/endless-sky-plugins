@@ -1,4 +1,4 @@
-additional.command.buttons.radial|1.0.19
+additional.command.buttons.radial|1.0.20
 additional.command.buttons|1.0.2
 automata.destruction.0percent|1.0.1
 automata.in.human.space|1.0.1

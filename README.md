@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-04-21 | update: additional.command.buttons.radial<br>
 2025-04-18 | update: quarg.farm<br>
 2025-04-17 | added repo template for download<br>
 2025-04-16 | update: uniques<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-03-31 | new download counter for each plugin<br>
 2025-03-20 | update: galactic.capital.investment<br>
 2025-03-14 | update: additional.command.buttons.radial<br>
-2025-03-14 | update: highrollers.ltd<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -104,7 +104,7 @@ I've got another new project, a github repository that lets you online generate 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/additional.command.buttons.radial.png">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.19-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 201.07 kb | 2025-03-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [48]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.20-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 358.39 kb | 2025-04-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [51]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details."
 <details>
@@ -148,6 +148,20 @@ This plugin<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-04-21<br>
+
+added 2xicon<br>
+
+moved zoom+- to top left<br>
+
+added round thrust / afterburner to bottom right<br>
+
+removed thrust/afterburner from bottom left<br>
+
+added more space between bottom right buttons<br>
 
 <br>
 
@@ -299,6 +313,7 @@ screenshots(click to enlarge):<br>
 <table>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/additional.command.buttons.radial02.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
