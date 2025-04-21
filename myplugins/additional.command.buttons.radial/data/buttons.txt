@@ -2,430 +2,17 @@ interface "main buttons" bottom right
 
 # LAYOUT
 #
-# 5 Fleet commands in top right
-# 3x targeting button         zoom +-
-#                             
-# stop   hail    secondary    primary
-# board  scan    secondary    primary
-# land   cloak   deploy   jump    map
-
-
-	# lower right button box
-	anchor bottom right
-	sprite "ui/buttonbox"
-		from 90 10 to -313 -210
-	sprite "ui/schnoerkel"
-		from -273 -2 to -311 -42
-
-	# lower right zoom buttons
-	anchor bottom right
-	sprite "ui/zoom"
-		from 0 -150 to -90 -210
-	active if "!max zoom"
-	button + "_+"
-		from -10 -150 to -40 -210
-		size 18
-	active if "!min zoom"
-	button - "_-"
-		from -50 -150 to -80 -210
-		size 18
-
-	# bottom right: target nearest enemy / target nearest asteroid / target ship
-	anchor bottom right
-	active
-	visible
-	sprite "ui/target_asteroid"
-		center -230 -178
-		dimensions 50 50
-		radius 16
-	button "Select nearest asteroid"
-		center -230 -178
-		radius 16
-	sprite "ui/target_enemy"
-		center -175 -178
-		dimensions 50 50
-		radius 16
-	button "Select nearest hostile ship"
-		center -175 -178
-		radius 16
-	sprite "ui/target_ship"
-		center -120 -178
-		dimensions 50 50
-		radius 16
-	button "Select next ship"
-		center -120 -178
-		radius 16
-
-# UPPER ROW
-
-	# lower right stop button
-	anchor bottom right
-	active
-	visible
-	sprite "ui/round_button_bg"
-		center -241 -127
-		dimensions 50 50
-	sprite "ui/icon_fleet_stop"
-		center -241 -127
-		dimensions 40 40
-	button "Stop"
-		center -241 -127
-		radius 22
-
-	# lower right hail button
-	visible
-	sprite "ui/round_button_bg"
-		center -187 -127
-		dimensions 50 50
-	sprite "ui/icon_talk_d"
-		center -187 -127
-		dimensions 40 40
-	visible if "can hail"
-	active
-	sprite "ui/icon_talk"
-		center -187 -127
-		dimensions 40 40
-	button "Talk to selected ship"
-		center -187 -127
-		radius 22
-
-# MIDDLE ROW
-
-	# lower right board button
-	active
-	visible
-	sprite "ui/round_button_bg"
-		center -241 -76
-		dimensions 50 50
-	sprite "ui/icon_board"
-		center -241 -76
-		dimensions 40 40
-	button "Board selected ship"
-		center -241 -76
-		radius 22
-
-	# lower right scan button
-	visible
-	sprite "ui/round_button_bg"
-		center -187 -76
-		dimensions 50 50
-	sprite "ui/icon_scan_d"
-		center -187 -76
-		dimensions 40 40
-	visible if "can scan"
-	sprite "ui/icon_scan"
-		center -187 -76
-		dimensions 40 40
-	button "Scan selected ship"
-		center -187 -86
-		radius 22
-
-# LOWER ROW
-
-	# lower right land button
-	active
-	visible
-	sprite "ui/round_button_bg"
-		center -241 -25
-		dimensions 50 50
-	sprite "ui/icon_land"
-		center -241 -25
-		dimensions 40 40
-	button "Land on planet / station"
-		center -241 -25
-		radius 22
-
-	# lower right cloak button
-	visible
-	sprite "ui/round_button_bg"
-		center -187 -25
-		dimensions 50 50
-	sprite "ui/icon_cloak_d"
-		center -187 -25
-		dimensions 40 40
-	visible if "can cloak"
-	sprite "ui/icon_cloak"
-		center -187 -25
-		dimensions 40 40
-	button "Toggle cloaking device"
-		center -187 -25
-		radius 22
-
-	# lower right deploy / recall button
-	visible
-	sprite "ui/round_button_bg"
-		center -133 -25
-		dimensions 50 50
-	sprite "ui/icon_deploy_d"
-		center -133 -25
-		dimensions 40 40
-	visible if "can deploy"
-	sprite "ui/icon_deploy"
-		center -133 -25
-		dimensions 40 40
-	button "Deploy / recall fighters"
-		center -133 -25
-		radius 22
-	visible if "can recall"
-	sprite "ui/icon_recall"
-		center -133 -25
-		dimensions 40 40
-	button "Deploy / recall fighters"
-		center -133 -25
-		radius 22
-
-	# lower right jump button
-	active
-	visible
-	sprite "ui/round_button_bg"
-		center -79 -25
-		dimensions 50 50
-	sprite "ui/icon_jump"
-		center -79 -25
-		dimensions 40 40
-	button "Initiate hyperspace jump"
-		center -79 -25
-		radius 22
-
-	# lower right map button
-	active
-	visible
-	sprite "ui/round_button_bg"
-		center -25 -25
-		dimensions 50 50
-	sprite "ui/icon_map"
-		center -25 -25
-		dimensions 40 40
-	button "View star map"
-		center -25 -25
-		radius 22
-
-# BIG ATTACK BUTTONS
-
-	# lower right secondary attack button
-	visible
-	sprite "ui/round_button_bg"
-		center -122 -92
-		dimensions 80 80
-	sprite "ui/icon_secondary_d"
-		center -122 -92
-		dimensions 64 64
-	visible if "has secondary"
-	active if "secondary selected"
-	sprite "ui/icon_secondary"
-		center -122 -92
-		dimensions 64 64
-	button "Fire secondary weapon"
-		center -122 -92
-		radius 25
-
-	# lower right attack button
-	visible
-	sprite "ui/round_button_bg"
-		center -42 -92
-		dimensions 80 80
-	sprite "ui/icon_fire"
-		center -42 -92
-		dimensions 64 64
-	visible if "!can attack"
-	button "Fire primary weapon"
-		center -42 -92
-		radius 40
-	visible if "can attack"
-	button "Fire primary weapon"
-		center -42 -92
-		radius 40
-
-	# lower right ammo box
-	# The engine will draw the secondary weapons list here.
-	visible if "has secondary"
-	box "ammo"
-		from -275 -40 to -365 -195
-
-# UPPER SCREEN RIGHT (FLEET COMMANDS)
-# layout: attack | gather | stop | hold fire | formations | harvest | ammo switch | fleet jump
-
-	# top right buttonbox
-	anchor top right
-	visible
-	sprite "ui/buttonbox2"
-		from -162 0 to -600 80
-	label "Fleet Commands"
-		from -352 20
-		size 14
-
-	# top right fleet attack button
-	visible
-	sprite "ui/round_button_bg"
-		center -534 52
-		dimensions 50 50
-	sprite "ui/icon_fleet_fight_d"
-		center -534 52
-		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_fleet_fight"
-		center -534 52
-		dimensions 40 40
-	button "Fleet: Fight my target"
-		center -534 52
-		radius 22
-
-	# top right fleet gather button
-	visible
-	sprite "ui/round_button_bg"
-		center -482 52
-		dimensions 50 50
-	sprite "ui/icon_fleet_gather_d"
-		center -482 52
-		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_fleet_gather"
-		center -482 52
-		dimensions 40 40
-	button "Fleet: Gather around me"
-		center -482 52
-		radius 22
-
-	# top right fleet stop button
-	visible
-	sprite "ui/round_button_bg"
-		center -430 52
-		dimensions 50 50
-	sprite "ui/icon_fleet_stop_d"
-		center -430 52
-		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_fleet_stop"
-		center -430 52
-		dimensions 40 40
-	button "Fleet: Hold position"
-		center -430 52
-		radius 22
-
-	# top right fleet formations button
-	visible
-	sprite "ui/round_button_bg"
-		center -378 52
-		dimensions 50 50
-	sprite "ui/icon_fleet_formation_d"
-		center -378 52
-		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_fleet_formation"
-		center -378 52
-		dimensions 40 40
-	button "Fleet: Toggle Formation"
-		center -378 52
-		radius 22
-
-	# top right fleet harvest button
-	visible
-	sprite "ui/round_button_bg"
-		center -326 52
-		dimensions 50 50
-	sprite "ui/icon_fleet_harvest_d"
-		center -326 52
-		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_fleet_harvest"
-		center -326 52
-		dimensions 40 40
-	button "Fleet: Harvest flotsam"
-		center -326 52
-		radius 22
-
-	# top right fleet ammo switch button
-	visible
-	sprite "ui/round_button_bg"
-		center -274 52
-		dimensions 50 50
-	sprite "ui/icon_fleet_ammo_d"
-		center -274 52
-		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_fleet_ammo"
-		center -274 52
-		dimensions 40 40
-	button "Fleet: Toggle ammo usage"
-		center -274 52
-		radius 22
-
-	# top right fleet jump
-	visible
-	sprite "ui/round_button_bg"
-		center -222 52
-		dimensions 50 50
-	sprite "ui/icon_fleet_jump_d"
-		center -222 52
-		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_fleet_jump"
-		center -222 52
-		dimensions 40 40
-	button "Initiate fleet jump"
-		center -222 52
-		radius 22
-
-
-# OTHER CONTROL ELEMENTS
-
-	# small button in top-left corner for main menu 
-	visible
-	active
-	anchor top left
-	sprite "ui/sort unacceptable include"
-		from 50 3 to 72 19
-	button "Show main menu"
-		from 36 0 to 84 35
-
-	# Overlaid on the navigational panel, which displays something like
-	# "Can land on: Earth"
-	visible
-	active
-	anchor top left
-	button "Land on planet / station"
-		from 200 0 to 380 60
-
-	# hidden button in top-left corner that turns on fast-forwarding
-	visible
-	active
-	anchor top left
-	sprite "ui/fast forward_d"
-		from 3 3 to 16 16
-	button "Toggle fast-forward"
-		from 0 0 to 35 48      # was 0 0 to 48 48
-
-	# box in bottom left corner that defines a location for the onscreen joystick
-	anchor bottom left
-	active if "onscreen joystick"
-	box "onscreen joystick"
-		center 128 -160
-		dimensions 160 160
-
-	# button in bottom left corner for reverse thruster / afterburner
-	anchor bottom left
-	sprite "ui/steer_reverse"
-		from 10 10 to 124 -42
-	label "Reverse"
-		from 50 -20
-		size 14
-	button "Reverse"
-		from -10 10 to 124 -42
-	sprite "ui/steer_afterburner"
-		from 134 10 to 248 -42
-	label "Afterburner"
-		from 190 -20
-		size 14
-	button "Fire afterburner"
-		from 134 10 to 248 -42
-
-	# This button doesn't do anything. It is here to swallow any clicks on the
-	# onscreen joystick, in case some of these controls overlap
-	button ^ ""
-		center 128 -128
-		radius 90
-
-
+# TOP LEFT                            TOP RIGHT
+# fast forward | main menu            attack | gather | stop | hold fire | formations | harvest | ammo switch | fleet jump
+#                zoom +-
+#
+#                                     BOTTOM RIGHT
+#                                     target asteroid  target enemy  target ship   reverse   afterburner
+#                                     stop             hail                secondary     primary
+#                                     board            scan                secondary     primary
+#                                     land             cloak         deploy        jump      map   
+#
+#
 # LIST OF POSSIBLE BUTTON COMMANDS
 # "Show main menu"
 # "Forward thrust"
@@ -461,3 +48,480 @@ interface "main buttons" bottom right
 # "Fleet: Harvest flotsam"
 # "Fleet: Toggle ammo usage"
 # "Auto steer"
+
+# BOTTOM RIGHT: button box
+
+	# bottom right button box
+	anchor bottom right
+	sprite "ui/buttonbox"
+		from 40 3 to -350 -217
+	sprite "ui/schnoerkel"
+		from -310 -2 to -348 -42
+
+# BOTTOM RIGHT: first row buttons: target nearest asteroid | target nearest enemy | target ship | reverse | afterburner
+
+	# bottom right target nearest asteroid button
+	anchor bottom right
+	active
+	visible
+	sprite "ui/round_button_bg"
+		center -281 -179
+		dimensions 50 50
+	sprite "ui/target_asteroid"
+		center -281 -179
+		dimensions 50 50
+		radius 22
+	button "Select nearest asteroid"
+		center -281 -179
+		radius 22
+
+	# bottom right target nearest enemy button
+	anchor bottom right
+	active
+	visible
+	sprite "ui/round_button_bg"
+		center -217 -179
+		dimensions 50 50
+	sprite "ui/target_enemy"
+		center -217 -179
+		dimensions 40 40
+		radius 22
+	button "Select nearest hostile ship"
+		center -217 -179
+		radius 22
+
+	# bottom right target ship button
+	anchor bottom right
+	active
+	visible
+	sprite "ui/round_button_bg"
+		center -153 -179
+		dimensions 50 50
+	sprite "ui/target_ship"
+		center -153 -179
+		dimensions 50 50
+		radius 22
+	button "Select next ship"
+		center -153 -179
+		radius 22
+
+	# bottom right reverse thrust button
+	anchor bottom right
+	active
+	visible
+	sprite "ui/round_button_bg"
+		center -89 -179
+		dimensions 50 50
+	sprite "ui/icon_reverse"
+		center -89 -179
+		dimensions 40 40
+	button "Reverse"
+		center -89 -179
+		radius 22
+
+	# bottom right afterburner button
+	anchor bottom right
+	active
+	visible
+	sprite "ui/round_button_bg"
+		center -25 -179
+		dimensions 50 50
+	sprite "ui/icon_afterburner"
+		center -25 -179
+		dimensions 40 40
+	button "Fire afterburner"
+		center -25 -179
+		radius 22
+
+# BOTTOM RIGHT: second row buttons: stop | talk to selected ship
+
+	# bottom right stop button
+	anchor bottom right
+	active
+	visible
+	sprite "ui/round_button_bg"
+		center -281 -127
+		dimensions 50 50
+	sprite "ui/icon_fleet_stop"
+		center -281 -127
+		dimensions 40 40
+	button "Stop"
+		center -281 -127
+		radius 22
+
+	# bottom right hail button
+	anchor bottom right
+	visible
+	sprite "ui/round_button_bg"
+		center -217 -127
+		dimensions 50 50
+	sprite "ui/icon_talk_d"
+		center -217 -127
+		dimensions 40 40
+	visible if "can hail"
+	active
+	sprite "ui/icon_talk"
+		center -217 -127
+		dimensions 40 40
+	button "Talk to selected ship"
+		center -217 -127
+		radius 22
+
+# BOTTOM RIGHT: third row buttons: board selected ship | scan selected ship
+
+	# bottom right board selected ship button
+	anchor bottom right
+	active
+	visible
+	sprite "ui/round_button_bg"
+		center -281 -76
+		dimensions 50 50
+	sprite "ui/icon_board"
+		center -281 -76
+		dimensions 40 40
+	button "Board selected ship"
+		center -281 -76
+		radius 22
+
+	# bottom right scan selected ship button
+	anchor bottom right
+	visible
+	sprite "ui/round_button_bg"
+		center -217 -76
+		dimensions 50 50
+	sprite "ui/icon_scan_d"
+		center -217 -76
+		dimensions 40 40
+	visible if "can scan"
+	sprite "ui/icon_scan"
+		center -217 -76
+		dimensions 40 40
+	button "Scan selected ship"
+		center -217 -86
+		radius 22
+
+# BOTTOM RIGHT: fourth row buttons: land | cloak | deploy | jump | map
+
+	# bottom right land button
+	anchor bottom right
+	active
+	visible
+	sprite "ui/round_button_bg"
+		center -281 -25 # -241
+		dimensions 50 50
+	sprite "ui/icon_land"
+		center -281 -25
+		dimensions 40 40
+	button "Land on planet / station"
+		center -281 -25
+		radius 22
+
+	# bottom right cloak button
+	anchor bottom right
+	visible
+	sprite "ui/round_button_bg"
+		center -217 -25 # -187
+		dimensions 50 50
+	sprite "ui/icon_cloak_d"
+		center -217 -25
+		dimensions 40 40
+	visible if "can cloak"
+	sprite "ui/icon_cloak"
+		center -217 -25
+		dimensions 40 40
+	button "Toggle cloaking device"
+		center -217 -25
+		radius 22
+
+	# bottom right deploy / recall button
+	anchor bottom right
+	visible
+	sprite "ui/round_button_bg"
+		center -153 -25 # -133
+		dimensions 50 50
+	sprite "ui/icon_deploy_d"
+		center -153 -25
+		dimensions 40 40
+	visible if "can deploy"
+	sprite "ui/icon_deploy"
+		center -153 -25
+		dimensions 40 40
+	button "Deploy / recall fighters"
+		center -153 -25
+		radius 22
+	visible if "can recall"
+	sprite "ui/icon_recall"
+		center -153 -25
+		dimensions 40 40
+	button "Deploy / recall fighters"
+		center -113 -25
+		radius 22
+
+	# bottom right jump button
+	anchor bottom right
+	active
+	visible
+	sprite "ui/round_button_bg"
+		center -89 -25
+		dimensions 50 50
+	sprite "ui/icon_jump"
+		center -89 -25
+		dimensions 40 40
+	button "Initiate hyperspace jump"
+		center -89 -25
+		radius 22
+
+	# bottom right map button
+	anchor bottom right
+	active
+	visible
+	sprite "ui/round_button_bg"
+		center -25 -25
+		dimensions 50 50
+	sprite "ui/icon_map"
+		center -25 -25
+		dimensions 40 40
+	button "View star map"
+		center -25 -25
+		radius 22
+
+# BOTTOM RIGHT: big attack buttons: fire secondary | fire primary
+
+	# bottom right secondary attack button
+	anchor bottom right
+	visible
+	sprite "ui/round_button_bg"
+		center -142 -102 # -122 -92
+		dimensions 80 80
+	sprite "ui/icon_secondary_d"
+		center -142 -102
+		dimensions 64 64
+	visible if "has secondary"
+	active if "secondary selected"
+	sprite "ui/icon_secondary"
+		center -142 -102
+		dimensions 64 64
+	button "Fire secondary weapon"
+		center -142 -102
+		radius 25
+
+	# bottom right attack button
+	anchor bottom right
+	visible
+	sprite "ui/round_button_bg"
+		center -47 -102
+		dimensions 80 80
+	sprite "ui/icon_fire"
+		center -47 -102
+		dimensions 64 64
+	visible if "!can attack"
+	button "Fire primary weapon"
+		center -47 -102
+		radius 40
+	visible if "can attack"
+	button "Fire primary weapon"
+		center -47 -102
+		radius 40
+
+	# bottom right ammo box
+	# The engine will draw the secondary weapons list here.
+	anchor bottom right
+	visible if "has secondary"
+	box "ammo"
+		from -230 -207 to -320 -362
+
+# TOP RIGHT: button box
+
+	# top right buttonbox
+	anchor top right
+	visible
+	sprite "ui/buttonbox2"
+		from -162 0 to -600 80
+	label "Fleet Commands"
+		from -352 20
+		size 14
+
+# TOP RIGHT: fleet commands: attack | gather | stop | hold fire | formations | harvest | ammo switch | fleet jump
+
+	# top right fleet attack button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -534 52
+		dimensions 50 50
+	sprite "ui/icon_fleet_fight_d"
+		center -534 52
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_fleet_fight"
+		center -534 52
+		dimensions 40 40
+	button "Fleet: Fight my target"
+		center -534 52
+		radius 22
+
+	# top right fleet gather button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -482 52
+		dimensions 50 50
+	sprite "ui/icon_fleet_gather_d"
+		center -482 52
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_fleet_gather"
+		center -482 52
+		dimensions 40 40
+	button "Fleet: Gather around me"
+		center -482 52
+		radius 22
+
+	# top right fleet stop button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -430 52
+		dimensions 50 50
+	sprite "ui/icon_fleet_stop_d"
+		center -430 52
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_fleet_stop"
+		center -430 52
+		dimensions 40 40
+	button "Fleet: Hold position"
+		center -430 52
+		radius 22
+
+	# top right fleet formations button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -378 52
+		dimensions 50 50
+	sprite "ui/icon_fleet_formation_d"
+		center -378 52
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_fleet_formation"
+		center -378 52
+		dimensions 40 40
+	button "Fleet: Toggle Formation"
+		center -378 52
+		radius 22
+
+	# top right fleet harvest button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -326 52
+		dimensions 50 50
+	sprite "ui/icon_fleet_harvest_d"
+		center -326 52
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_fleet_harvest"
+		center -326 52
+		dimensions 40 40
+	button "Fleet: Harvest flotsam"
+		center -326 52
+		radius 22
+
+	# top right fleet ammo switch button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -274 52
+		dimensions 50 50
+	sprite "ui/icon_fleet_ammo_d"
+		center -274 52
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_fleet_ammo"
+		center -274 52
+		dimensions 40 40
+	button "Fleet: Toggle ammo usage"
+		center -274 52
+		radius 22
+
+	# top right fleet jump
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -222 52
+		dimensions 50 50
+	sprite "ui/icon_fleet_jump_d"
+		center -222 52
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_fleet_jump"
+		center -222 52
+		dimensions 40 40
+	button "Initiate fleet jump"
+		center -222 52
+		radius 22
+
+# TOP LEFT: near radar: fast-forward | main menu | zoom+-
+
+	# top left corner fast-forward button
+	anchor top left
+	visible
+	active
+	sprite "ui/fast forward_d"
+		from 3 3
+		to 16 16
+	button "Toggle fast-forward"
+		from 0 0
+		to 35 48
+
+	# top left corner main menu button
+	anchor top left
+	visible
+	active
+	sprite "ui/sort unacceptable include"
+		from 50 3
+		to 72 19
+	button "Show main menu"
+		from 36 0
+		to 84 35
+
+	# top left zoom buttons
+	anchor top left
+	sprite "ui/zoom"
+		from 250 40
+		to 340 100
+	active if "!max zoom"
+	button + "_+"
+		from 260 40
+		to 290 100
+		size 18
+	active if "!min zoom"
+	button - "_-"
+		from 300 40
+		to 330 100
+		size 18
+
+# OTHER CONTROL ELEMENTS
+
+	# Overlaid on the navigational panel, which displays something like
+	# "Can land on: Earth"
+	anchor top left
+	visible
+	active
+	anchor top left
+	button "Land on planet / station"
+		from 200 0 to 380 60
+
+	# box in bottom left corner that defines a location for the onscreen joystick
+	anchor bottom left
+	active if "onscreen joystick"
+	box "onscreen joystick"
+		center 128 -128
+		dimensions 192 192
+
+	# This button doesn't do anything. It is here to swallow any clicks on the
+	# onscreen joystick, in case some of these controls overlap
+	button ^ ""
+		center 128 -128
+		radius 96

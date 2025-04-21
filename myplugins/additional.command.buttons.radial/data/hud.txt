@@ -1,5 +1,5 @@
 interface "hud"
-	# Player status.
+# Player status.
 	anchor top right
 	sprite "ui/status"
 		from 3 0
@@ -23,29 +23,29 @@ interface "hud"
 	anchor bottom right
 	visible if "!fast hud sprites"
 	outline "player sprite"
-		center -135 -310
+		center -113 -310 #-135
 		dimensions 100 100
 	visible if "fast hud sprites"
 	image "player sprite"
-		center -135 -310
+		center -113 -310
 		dimensions 100 100
 	visible
 	ring "shields"
-		center -135 -310
+		center -113 -310
 		dimensions 150 150
 		color "shields"
 		size 2
 		"start angle" 100
 		"span angle" 200
 	ring "hull"
-		center -135 -310
+		center -113 -310
 		dimensions 140 140
 		color "hull"
 		size 2
 		"start angle" 100
 		"span angle" 200
 	ring "disabled hull"
-		center -135 -310
+		center -113 -310
 		dimensions 140 140
 		color "disabled hull"
 		size 2
@@ -55,50 +55,57 @@ interface "hud"
 # heat, energy, fuel bars
 	sprite "ui/bar_border"
 		from -3 -214
+		to -228 -225
 		align bottom right
 	bar "fuel"
 		from -6 -220
-		to -269 -220
+		to -224 -220
 		dimensions 123 0
 		color "fuel"
 		size 2
 		reversed
+
 	sprite "ui/bar_border"
 		from -3 -230
+		to -228 -241
 		align bottom right
 	bar "energy"
 		from -6 -236
-		to -269 -236
+		to -224 -236
 		dimensions 123 0
 		color "energy"
 		size 2
 		reversed
+
 	sprite "ui/bar_border"
 		from -3 -246
+		to -228 -257
 		align bottom right
 	bar "heat"
 		from -6 -252
-		to -269 -252
+		to -224 -252
 		dimensions 123 0
 		color "heat"
 		size 2
 		reversed
+
 	bar "overheat"
-		from -39 -252
-		to -230 -252
+		from -6 -252
+		to -224 -252
 		dimensions 123 0
 		color "overheat"
 		size 2
 		reversed
+
 	bar "overheat blink"
-		from -39 -252
-		to -230 -252
+		from -6 -252
+		to -224 -252
 		dimensions 123 0
 		color "dim"
 		size 2
 		reversed
 
-	# Targets.
+# Targets.
 	anchor top left
 	visible if "red alert"
 	sprite "ui/red alert"
@@ -288,7 +295,7 @@ interface "hud"
 		to -380 -55 bottom right
 	box "messages"
 		from 255 -55 bottom left
-		to -395 -200 bottom right
+		to -345 -200 bottom right
 	box "ammo"
 		from -110 450 top right
 		to 0 0 bottom right

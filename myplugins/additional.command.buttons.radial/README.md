@@ -19,6 +19,13 @@ This plugin<br>
 <br>
 Changelog:<br>
 <br>
+2025-04-21<br>
+added 2xicon<br>
+moved zoom+- to top left<br>
+added round thrust / afterburner to bottom right<br>
+removed thrust/afterburner from bottom left<br>
+added more space between bottom right buttons<br>
+<br>
 2025-03-14<br>
 added reverse thrust/afterburner button to bottom left<br>
 <br>
