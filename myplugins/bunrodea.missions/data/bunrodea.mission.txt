@@ -233,7 +233,7 @@ mission "bunrodea defense"
 			`While landing on <planet>, you noticed some stuttering coming from the engines. You decide to take a deeper look into the engines.`
 			`A young Bunrodean with an unusual colourful hat approaches, hands you one of the translating devices, and starts to speak immediately.`
 			`You turn the device on "... to be having problems with the rotator splint. The engine runs good now, but not for long."`
-			`"Anyway," he pulls out a computer pad and starts reading "On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', you are allowed to proof your worth to the Bunrodean Empire."`
+			`"Anyway," he pulls out a computer pad and starts reading "On behalf of our queen 'Shinuxa va Ang, third broodmother of Thshu, protector of Bunthro', you are allowed to prove your worth to the Bunrodean Empire."`
 			`"Our territorial integrity gets tested by the Korath. Although these invaders mean no threat to us, letting an outsider handle them will show the Korath that they will have to fight on several frontiers if they ever decide to go beyond weak raids."`
 			`"Travel to Genta Bo and destroy the Korath presence."`
 			choice
