@@ -1,5 +1,5 @@
 # **my endless-sky-plugins**
-I aim at developing small, modular and maximal compatible plugins that don't break vanilla lore too much. <br>
+I aim at developing small, modular and maximally compatible plugins that don't break vanilla lore too much. <br>
 Please excuse bad English, spelling, grammar, etc... English isn't my mother tongue. Feel free to correct me.<br>
 <a href="https://github.com/zuckung/endless-sky-plugins/pulls">Pull requests</a>, <a href="https://github.com/zuckung/endless-sky-plugins/discussions">discussions</a> and <a href="https://github.com/zuckung/endless-sky-plugins/issues">Issue reports</a> are welcome! <br>
 <br>

@@ -116,4 +116,4 @@ outfit "SFR-320 Android"
 	"energy consumption" 0.01
 	unplunderable 1
 	description "This android takes part in boarding operations. Though it will only assist the crew and not replace them."
-	description "Second generation of SFR fighting androids. The SFR-320 is the current top model of SFR, maximal armored and with heavy weaponry. It has a small rail gun in one arm, and a heavy power fist in the other. It can only be stopped by massive counter fire and luck."
+	description "Second generation of SFR fighting androids. The SFR-320 is the current top model of SFR, maximally armored and with heavy weaponry. It has a small rail gun in one arm, and a heavy power fist in the other. It can only be stopped by massive counter fire and luck."
