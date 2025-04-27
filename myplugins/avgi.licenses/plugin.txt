@@ -1,4 +1,4 @@
 name "avgi.licenses"
-about "Adds a mission on "Navigeo Yards" to get the 3 Avgi licenses. See the README for details."
+about "Adds a mission on 'Navigeo Yards' to get the 3 Avgi licenses. See the README for details."
 authors
 	"zuckung"
