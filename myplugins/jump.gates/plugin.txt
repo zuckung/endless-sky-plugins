@@ -1,4 +1,4 @@
 name "jump.gates"
-about "Adds a ring of "jump gates" at the borders of human space to create shortcuts inside the human space. See the README for details."
+about "Adds a ring of 'jump gates' at the borders of human space to create shortcuts inside the human space. See the README for details."
 authors
 	"zuckung"
