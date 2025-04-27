@@ -2250,7 +2250,7 @@ screenshots(click to enlarge):<br>
 
 [jump.gates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-jump.gates/jump.gates.zip) | 1.99 mb | 2025-02-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/) <a href="res/imagemd/jump.gates.md">view images</a> [24]<br>
 <br>
->Adds a ring of 
+>Adds a ring of 'jump gates' at the borders of human space to create shortcuts inside the human space. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
