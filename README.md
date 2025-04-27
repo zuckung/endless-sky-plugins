@@ -470,7 +470,7 @@ changed icon.png<br>
 
 [avgi.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-avgi.licenses/avgi.licenses.zip) | 375.21 kb | 2025-02-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/avgi.licenses/) <a href="res/imagemd/avgi.licenses.md">view images</a> [10]<br>
 <br>
->Adds a mission on 
+>Adds a mission on 'Navigeo Yards' to get the 3 Avgi licenses. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1091,7 +1091,7 @@ screenshots(click to enlarge):<br>
 
 [coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-coalition.shopping/coalition.shopping.zip) | 403.06 kb | 2024-11-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <a href="res/imagemd/coalition.shopping.md">view images</a> [6]<br>
 <br>
->Adds all Coalition/Heliarch/Lunarium outfits and ships to 
+>Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in the 'Homeward' system. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2785,7 +2785,7 @@ initial release<br>
 
 [mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-mission.helper/mission.helper.zip) | 93.63 kb | 2025-02-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
 <br>
->Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 
+>Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 'source' and 'to offer' of these missions, so you can easily find them. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -3642,7 +3642,7 @@ initial release<br>
 
 [quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-quarg.farm/quarg.farm.zip) | 110.04 kb | 2025-04-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <a href="res/imagemd/quarg.farm.md">view images</a> [2]<br>
 <br>
->Adds a new system 
+>Adds a new system 'Saquerver' (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
