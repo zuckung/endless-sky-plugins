@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-04-28 | update: flare.play<br>
 2025-04-26 | update: additional.command.buttons.radial<br>
 2025-04-21 | update: additional.command.buttons.radial<br>
 2025-04-18 | update: quarg.farm<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-04-13 | update: expert.crew.members<br>
 2025-04-13 | update: bunrodea.missions<br>
 2025-03-31 | new download counter for each plugin<br>
-2025-03-20 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1681,7 +1681,7 @@ screenshots(click to enlarge):<br>
 
 [flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-flare.play/flare.play.zip) | 6.57 mb | 2025-04-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) <a href="res/imagemd/flare.play.md">view images</a> [418]<br>
 <br>
->Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetically. Idea by 
+>Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetically. Idea by 'Thermognuclear Missile' on discord. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1689,7 +1689,7 @@ screenshots(click to enlarge):<br>
 
 <br>
 
-Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by "Thermognuclear Missile" on Discord.<br>
+Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by 'Thermognuclear Missile' on Discord.<br>
 
 <br>
 
