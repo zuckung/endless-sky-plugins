@@ -1,4 +1,4 @@
 name "flare.play"
-about "Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetically. Idea by <Thermognuclear Missile> on discord. See the README for details."
+about "Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetically. Idea by "Thermognuclear Missile" on discord. See the README for details."
 authors
 	"zuckung"
