@@ -254,7 +254,7 @@ interface "main buttons" bottom right
 		center -153 -25
 		dimensions 40 40
 	button "Deploy / recall fighters"
-		center -113 -25
+		center -153 -25
 		radius 22
 
 	# bottom right jump button
@@ -311,14 +311,17 @@ interface "main buttons" bottom right
 	sprite "ui/round_button_bg"
 		center -47 -102
 		dimensions 80 80
-	sprite "ui/icon_fire"
+	sprite "ui/icon_fire_d"
 		center -47 -102
-		dimensions 64 64
+		dimensions 80 80
 	visible if "!can attack"
 	button "Fire primary weapon"
 		center -47 -102
 		radius 40
 	visible if "can attack"
+	sprite "ui/icon_fire"
+		center -47 -102
+		dimensions 64 64
 	button "Fire primary weapon"
 		center -47 -102
 		radius 40

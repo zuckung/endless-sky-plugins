@@ -19,6 +19,10 @@ This plugin<br>
 <br>
 Changelog:<br>
 <br>
+2025-04-26<br>
+added greyed-out attack button if you can't attack<br>
+fixed non-working recall button (thx to VelvetKrow)<br>
+<br>
 2025-04-21<br>
 added 2xicon<br>
 moved zoom+- to top left<br>
