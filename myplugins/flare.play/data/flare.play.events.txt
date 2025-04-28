@@ -1,0 +1,465 @@
+# event "flare.play.wave1"
+# event "flare.play.wave2"
+# event "flare.play.wave3"
+
+
+event "flare.play.wave1"
+	fleet "Small Southern Merchants"
+		add variant 5
+			"Hauler II (Flare)"
+	fleet "Large Southern Merchants"
+		add variant 5
+			"Hogshead (Flare)"
+	fleet "Small Core Merchants"
+		add variant 5
+			"Scout (Flare)"
+	fleet "Large Core Merchants"
+		add variant 5
+			"Bulk Freighter (Flare)"
+	fleet "Paradise Merchants"
+		add variant 5
+			"Blackbird (Flare)"
+	fleet "Small Northern Merchants"
+		add variant 5
+			"Scrapper (Flare)"
+	fleet "Large Northern Merchants"
+		add variant 5
+			"Firebird (Flare)"
+	fleet "Small Human Merchants (Hai)"
+		add variant 5
+			"Hauler (Flare)"
+	fleet "Large Human Merchants (Hai)"
+		add variant 5
+			"Leviathan (Flare)"
+	fleet "Human Miners"
+		add variant 5
+			"Fury (Flare)"
+	fleet "Small Deep Merchants"
+		add variant 5
+			"Raven (Flare)"
+	fleet "Large Deep Merchants"
+		add variant 5
+			"Bactrian (Flare)"
+	fleet "Small Syndicate"
+		add variant 1
+			"Splinter (Flare)"
+	fleet "Large Syndicate"
+		add variant 2
+			"Vanguard (Flare)"
+	fleet "Small Southern Pirates"
+		add variant 3
+			"Clipper (Flare)"
+	fleet "Large Southern Pirates"
+		add variant 4
+			"Modified Argosy (Flare)"
+	fleet "Small CCOR"
+		add variant 1
+			"Berserker (Flare)"
+	fleet "Large CCOR"
+		add variant 1
+			"Leviathan (Flare)"
+	fleet "CCOR Logistics"
+		add variant 1
+			"Hogshead (Flare)"
+	fleet "Small Independent"
+		add variant 2
+			"Fury (Flare)"
+	fleet "Large Independent"
+		add variant 2
+			"Argosy (Flare)"
+	fleet "Small Core Pirates"
+		add variant 2
+			"Headhunter (Flare)"
+	fleet "Large Core Pirates"
+		add variant 3
+			"Falcon (Flare)"
+	fleet "Small Northern Pirates"
+		add variant 2
+			"Aerie (Flare)"
+	fleet "Large Northern Pirates"
+		add variant 5
+			"Leviathan (Flare)"
+	fleet "pirate raid"
+		add variant 5
+			"Manta (Flare)"
+	fleet "pirate explosive"
+		add variant 5
+			"Clipper (Flare)"
+	fleet "Bounty Hunters"
+		add variant 1
+			"Fury (Flare)"
+	fleet "Marauder I"
+		add variant 1
+			"Marauder Arrow (Flare)"
+	fleet "Marauder II"
+		add variant 1
+			"Marauder Quicksilver (Flare)"
+	fleet "Marauder III"
+		add variant 1
+			"Marauder Firebird (Flare)"
+	fleet "Marauder IV"
+		add variant 1
+			"Marauder Falcon (Flare)"
+	fleet "Marauder fleet I"
+		add variant 1
+			"Marauder Raven (Flare)"
+			"Marauder Arrow" 2
+			"Marauder Bounder" 2
+	fleet "Marauder fleet II"
+		add variant 1
+			"Marauder Raven (Flare)"
+			"Marauder Arrow" 2
+			"Marauder Bounder" 2
+	fleet "Marauder fleet III"
+		add variant 1
+			"Marauder Quicksilver (Flare)"
+			"Marauder Arrow" 2
+			"Marauder Bounder" 2
+	fleet "Marauder fleet IV"
+		add variant 1
+			"Marauder Splinter (Flare)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+	fleet "Marauder fleet V"
+		add variant 1
+			"Marauder Manta (Flare)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+	fleet "Marauder fleet VI"
+		add variant 1
+			"Marauder Firebird (Flare)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+	fleet "Marauder fleet VII"
+		add variant 1
+			"Marauder Falcon (Flare)"
+			"Osprey"
+			"Osprey (Missile)"
+			"Osprey (Laser)"
+	fleet "Marauder fleet VIII"
+		add variant 1
+			"Marauder Leviathan (Flare)"
+			"Firebird"
+			"Firebird (Plasma)"
+			"Firebird (Missile)"
+	fleet "Marauder fleet IX"
+		add variant 1
+			"Marauder Leviathan (Flare)"
+			"Firebird (Laser)" 3
+			"Firebird (Missile)"
+	fleet "Marauder fleet X"
+		add variant 1
+			"Marauder Falcon (Flare)"
+			"Marauder Firebird (Engines)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+
+
+event "flare.play.wave2"
+	fleet "Small Southern Merchants"
+		add variant 5
+			"Heavy Shuttle (Flare)"
+	fleet "Large Southern Merchants"
+		add variant 5
+			"Hauler (Flare)"
+	fleet "Small Core Merchants"
+		add variant 5
+			"Shuttle (Flare)"
+	fleet "Large Core Merchants"
+		add variant 5
+			"Arrow (Flare)"
+	fleet "Paradise Merchants"
+		add variant 5
+			"Star Queen (Flare)"
+	fleet "Small Northern Merchants"
+		add variant 5
+			"Sparrow (Flare)"
+	fleet "Large Northern Merchants"
+		add variant 5
+			"Corvette (Flare)"
+	fleet "Small Human Merchants (Hai)"
+		add variant 5
+			"Bounder (Flare)"
+	fleet "Large Human Merchants (Hai)"
+		add variant 5
+			"Behemoth (Flare)"
+	fleet "Human Miners"
+		add variant
+			"Sparrow (Flare)"
+	fleet "Small Deep Merchants"
+		add variant 5
+			""Heavy Shuttle (Flare)""
+	fleet "Large Deep Merchants"
+		add variant 5
+			"Headhunter (Flare)"
+	fleet "Small Syndicate"
+		add variant 1
+			"Manta (Flare)"
+	fleet "Large Syndicate"
+		add variant 2
+			"Protector (Flare)"
+	fleet "Small Southern Pirates"
+		add variant
+			"Fury (Flare)"
+	fleet "Large Southern Pirates"
+		add variant 4
+			"Osprey (Flare)"
+	fleet "Small CCOR"
+		add variant 1
+			"Saber (Flare)"
+	fleet "Large CCOR"
+		add variant 1
+			"Firebird (Flare)"
+	fleet "CCOR Logistics"
+		add variant 1
+			"Enforcer (Flare)"
+	fleet "Small Independent"
+		add variant 2
+			"Hawk (Flare)"
+	fleet "Large Independent"
+		add variant 2
+			"Bastion (Flare)"
+	fleet "Small Core Pirates"
+		add variant 2
+			"Quicksilver (Flare)"
+	fleet "Large Core Pirates"
+		add variant 3
+			"Firebird (Flare)"
+	fleet "Small Northern Pirates"
+		add variant 2
+			"Corvette (Flare)"
+	fleet "Large Northern Pirates"
+		add variant 5
+			"Bactrian (Flare)"
+	fleet "pirate raid"
+		add variant 5
+			"Firebird (Flare)"
+	fleet "pirate explosive"
+		add variant 5
+			"Raven (Flare)"
+	fleet "Bounty Hunters"
+		add variant 1
+			"Quicksilver (Flare)"
+	fleet "Marauder I"
+		add variant 1
+			"Marauder Bounder (Flare)"
+	fleet "Marauder II"
+		add variant 1
+			"Marauder Quicksilver (Flare)"
+	fleet "Marauder III"
+		add variant 1
+			"Marauder Manta (Flare)"
+	fleet "Marauder IV"
+		add variant 1
+			"Marauder Leviathan (Flare)"
+	fleet "Marauder fleet I"
+		add variant 1
+			"Marauder Quicksilver (Flare)"
+			"Marauder Arrow" 2 
+			"Marauder Bounder" 2
+	fleet "Marauder fleet II"
+		add variant 1
+			"Marauder Quicksilver (Flare)"
+			"Marauder Arrow" 2
+			"Marauder Bounder" 2
+	fleet "Marauder fleet III"
+		add variant 1
+			"Marauder Quicksilver (Flare)"
+			"Marauder Arrow" 2
+			"Marauder Bounder" 2
+	fleet "Marauder fleet IV"
+		add variant 1
+			"Marauder Manta (Flare)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+	fleet "Marauder fleet V"
+		add variant 1
+			"Marauder Firebird (Flare)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+	fleet "Marauder fleet VI"
+		add variant 1
+			"Marauder Splinter (Flare)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+	fleet "Marauder fleet VII"
+		add variant 1
+			"Marauder Falcon (Flare)"
+			"Osprey"
+			"Osprey (Missile)"
+			"Osprey (Laser)"
+	fleet "Marauder fleet VIII"
+		add variant 1
+			"Marauder Falcon (Flare)"
+			"Osprey"
+			"Osprey (Missile)"
+			"Osprey (Laser)"
+	fleet "Marauder fleet IX"
+		add variant 1
+			"Marauder Falcon (Flare)"
+			"Osprey"
+			"Osprey (Missile)"
+			"Osprey (Laser)"
+	fleet "Marauder fleet X"
+		add variant 1
+			"Marauder Falcon (Flare)"
+			"Marauder Firebird (Weapons)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+
+
+event "flare.play.wave3"
+	fleet "Small Southern Merchants"
+		add variant 5
+			"Bounder (Flare)"
+	fleet "Large Southern Merchants"
+		add variant 5
+			"Argosy (Flare)"
+	fleet "Small Core Merchants"
+		add variant 5
+			"Mule (Flare)"
+	fleet "Large Core Merchants"
+		add variant 5
+			"Quicksilver (Flare)"
+	fleet "Paradise Merchants"
+		add variant 5
+			"Sunder (Flare)"
+	fleet "Small Northern Merchants"
+		add variant 5
+			"Mule (Flare)"
+	fleet "Large Northern Merchants"
+		add variant 5
+			"Headhunter (Flare)"
+	fleet "Small Human Merchants (Hai)"
+		add variant 5
+			"Mule (Flare)"
+	fleet "Large Human Merchants (Hai)"
+		add variant 5
+			"Hauler III (Flare)"
+	fleet "Human Miners"
+		add variant 5
+			"Aerie (Flare)"
+	fleet "Small Deep Merchants"
+		add variant 5
+			"Mule (Flare)"
+	fleet "Large Deep Merchants"
+		add variant 5
+			"Raven (Flare)"
+	fleet "Small Syndicate"
+		add variant 1
+			"Quicksilver (Flare)"
+	fleet "Large Syndicate"
+		add variant 2
+			"Splinter (Flare)"
+	fleet "Small Southern Pirates"
+		add variant 3
+			"Hawk (Flare)"
+	fleet "Large Southern Pirates"
+		add variant 4
+			"Bastion (Flare)"
+	fleet "Small CCOR"
+		add variant 1
+			"Enforcer (Flare)"
+	fleet "Large CCOR"
+		add variant 1
+			"Saber (Flare)"
+	fleet "CCOR Logistics"
+		add variant 1
+			"Hauler II (Flare)"
+	fleet "Small Independent"
+		add variant 2
+			"Sparrow (Flare)"
+	fleet "Large Independent"
+		add variant 2
+			"Falcon (Flare)"
+	fleet "Small Core Pirates"
+		add variant 2
+			"Scrapper (Flare)"
+	fleet "Large Core Pirates"
+		add variant 3
+			"Protector (Flare)"
+	fleet "Small Northern Pirates"
+		add variant 2
+			"Hawk (Flare)"
+	fleet "Large Northern Pirates"
+		add variant 5
+			"Mule (Flare)"
+	fleet "pirate raid"
+		add variant 5
+			"Falcon (Flare)"
+	fleet "pirate explosive"
+		add variant 5
+			"Berserker (Flare)"
+	fleet "Bounty Hunters"
+		add variant 1
+			"Sparrow (Flare)"
+	fleet "Marauder I"
+		add variant 1
+			"Marauder Bounder (Flare)"
+	fleet "Marauder II"
+		add variant 1
+			"Marauder Raven (Flare)"
+	fleet "Marauder III"
+		add variant 1
+			"Marauder Manta (Flare)"
+	fleet "Marauder IV"
+		add variant 1
+			"Marauder Falcon (Flare)"
+	fleet "Marauder fleet I"
+		add variant 1
+			"Marauder Raven (Flare)"
+			"Marauder Arrow" 2
+			"Marauder Bounder" 2
+	fleet "Marauder fleet II"
+		add variant 1
+			"Marauder Raven (Flare)"
+			"Marauder Arrow" 2
+			"Marauder Bounder" 2
+	fleet "Marauder fleet III"
+		add variant 1
+			"Marauder Quicksilver (Flare)"
+			"Marauder Arrow" 2
+			"Marauder Bounder" 2
+	fleet "Marauder fleet IV"
+		add variant 1
+			"Marauder Firebird (Flare)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+	fleet "Marauder fleet V"
+		add variant 1
+			"Marauder Splinter (Flare)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+	fleet "Marauder fleet VI"
+		add variant 1
+			"Marauder Manta (Flare)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+	fleet "Marauder fleet VII"
+		add variant 1
+			"Marauder Leviathan (Flare)"
+			"Firebird (Laser)" 3
+	fleet "Marauder fleet VIII"
+		add variant 1
+			"Marauder Falcon (Flare)"
+			"Osprey"
+			"Osprey (Missile)"
+			"Osprey (Laser)"
+	fleet "Marauder fleet IX"
+		add variant 1
+			"Marauder Falcon (Flare)"
+			"Osprey"
+			"Osprey (Missile)"
+			"Osprey (Laser)"
+	fleet "Marauder fleet X"
+		add variant 1
+			"Marauder Leviathan (Flare)"
+			"Marauder Firebird (Engines)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"

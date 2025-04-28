@@ -1,0 +1,46 @@
+category "outfit"	
+	"FlarePlay"
+
+planet "Wayfarer"
+	add outfitter "FlarePlay"
+
+planet "Valhalla"
+	add outfitter "FlarePlay"
+
+planet "Sunracer"
+	add outfitter "FlarePlay"
+
+planet "Foundry"
+	add outfitter "FlarePlay"
+
+planet "Solace"
+	add outfitter "FlarePlay"	
+
+mission "flare.play.start"
+	non-blocking
+	invisible
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
+	to offer
+		"days since start" > 1
+	on offer
+		conversation
+			scene "effect/newflares/avgi flare fusion flare"
+			`You walk through the bustling main concourse of the spaceport, dodging luggage drones and loud traders. Neon flickers, engines hum, and the scent of ozone fills the air. Then, something catches your eye... a holo-ad, bright and sharp, floating above a transit gate. You pause. You see a sleek freighter ignite its engines. But the flare isn't the usual blue; it's a searing crimson with blue at the borders. The logo pulses in the corner: FlarePlay. You read the tagline: "Engine Flare Reimagined".`
+			`The ad zooms in on a tech in a slick suit holding a shimmering vial. You hear her voice through the ad's ambient sound: "Once reserved for military prototypes and elite builders... now available to everyone". While watching the ad, you learn that FlarePlay has recently stepped out of the shadows and is now a legitimate supplier to the big outfitters on Wayfarer, Valhalla, Sunracer, Foundry and Solace. Their flare additives promise style.`
+			`Thinking about how your ship would look trailing blue-white, you check your datapad. Yeah, it's compatible. You smirk. You walk on, but the idea lingers.`
+				decline
+
+
+mission "flare.play.equip.fleets"
+	non-blocking
+	invisible
+	landing
+	on offer
+		event "flare.play.wave1" 30
+		event "flare.play.wave2" 90
+		event "flare.play.wave3" 150
+		fail
+
+
+

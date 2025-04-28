@@ -6,6 +6,10 @@
 <td>generates the mission and outfit files for the plugin expert.crew.members out of a simplified text file containing the experts.</td>
 </tr>
 <tr>
+<td>plugin_script_flare_play</td>
+<td>generates the outfits and new thumbnail images for the plugin flare.play out of the data and image folder.</td>
+</tr>
+<tr>
 <td>ES_plugin_script_show_reputation</td>
 <td>generates the mission file for the plugin show.reputation out of the ES data folder.</td>
 </tr>

@@ -1,0 +1,865 @@
+# planet "Wayfarer"
+# shipyard "flare.play.test"
+# ship "Aerie" "Aerie (Flare)" / "flare atomic flare huge 1.0 10"
+# ship "Argosy" "Argosy (Flare)" / "flare atomic flare large 1.0 11"
+# ship "Arrow" "Arrow (Flare)"  / "flare atomic flare tiny 1.0 14"
+# ship "Bactrian" "Bactrian (Flare)" / "flare wanderer flare large 1.0 18"
+# ship "Bastion" "Bastion (Flare)" / "flare korath flare huge 1.0 6"
+# ship "Behemoth" "Behemoth (Flare)" / "flare plasma flare huge 1.0 9"
+# ship "Berserker" "Berserker (Flare)" / "flare atomic flare medium 1.0 12"
+# ship "Blackbird" "Blackbird (Flare)" / "flare fissionflare 1.0 30"
+# ship "Bounder" "Bounder (Flare)" / "flare efreti flare medium 1.0 7"
+# ship "Bulk Freighter" "Bulk Freighter (Flare)" / "flare incipias flare metallic hydrogen medium 1.0 24"
+# ship "Clipper" "Clipper (Flare)" / "flare ka'het flare medium 1.0 30"
+# ship "Corvette" "Corvette (Flare)" / "flare medium graviton flare 1.0 1"
+# ship "Enforcer" "Enforcer (Flare)" / "flare remnant flare medium 1.0 4"
+# ship "Falcon" "Falcon (Flare)" / "flare bunrodea flare large 0.3 1"
+# ship "Firebird" "Firebird (Flare)" / "flare remnant flare large 1.0 3"
+# ship "Fury" "Fury (Flare)" / "flare atomic flare small 1.0 13"
+# ship "Hauler" "Hauler (Flare)" / "flare pug flare huge 1.0 23"
+# ship "Hauler II" "Hauler II (Flare)" / "flare fusionflare 1.0 30"
+# ship "Hauler III" "Hauler III (Flare)" / "flare avgi flare fusion 1.0 15"
+# ship "Hawk" "Hawk (Flare)" / "flare wanderer flare medium 1.0 16"
+# ship "Headhunter" "Headhunter (Flare)" / "flare korath flare medium 1.0 7"
+# ship "Heavy Shuttle" "Heavy Shuttle (Flare)" / "flare plasma flare medium 1.0 7"
+# ship "Hogshead" "Hogshead (Flare)" / "flare scin flare large 1.0 0.3"
+# ship "Leviathan" "Leviathan (Flare)" / "flare avgi flare fusion 2.0 15"
+# ship "Manta" "Manta (Flare)" / "flare vi flare large 1.0 2.3"
+# ship "Marauder Arrow" "Marauder Arrow (Flare)" / "flare vi flare medium 1.0 2.4"
+# ship "Marauder Bounder" "Marauder Bounder (Flare)" / "flare pug flare medium 1.0 20"
+# ship "Marauder Falcon" "Marauder Falcon (Flare)" / "flare avgi flare fusion 0.75 15"
+# ship "Marauder Firebird" "Marauder Firebird (Flare)" / "flare korath flare large 1.0 6.5"
+# ship "Marauder Leviathan" "Marauder Leviathan (Flare)" / "flare ka'het flare large 1.0 30"
+# ship "Marauder Manta" "Marauder Manta (Flare)" / "flare pug flare large 1.0 22"
+# ship "Marauder Quicksilver" "Marauder Quicksilver (Flare)" / "flare ion flare medium 1.0 1.0"
+# ship "Marauder Raven" "Marauder Raven (Flare)" / "flare wanderer flare small 1.0 14"
+# ship "Marauder "Splinter" "Marauder Splinter (Flare)" / "flare scin flare med 1.0 0.4"
+# ship "Modified Argosy" "Modified Argosy (Flare)" / "flare efreti flare small 1.0 7.5"
+# ship "Mule" "Mule (Flare)" / "flare incipias flare metallic hydrogen large 1.0 24"
+# ship "Osprey" "Osprey (Flare)" / "flare plasma exhaust 1.0 16"
+# ship "Protector" "Protector (Flare)" / "flare avgi flare antimatter 0.25 15"
+# ship "Quicksilver" "Quicksilver (Flare)" / "flare bunrodea flare large 1.0 1"
+# ship "Raven" "Raven (Flare)" / "flare ion flare huge 1.0 0.8"
+# ship "Saber" "Saber (Flare)" / "flare coalition flare large 1.0 7"
+# ship "Scout" "Scout (Flare)" / "flare incipias flare metallic hydrogen small 1.0 24"
+# ship "Scrapper" "Scrapper (Flare)" / "flare remnant flare small 1.0 5"
+# ship "Shuttle" "Shuttle (Flare)" / "flare plasma flare small 1.0 6"
+# ship "Sparrow" "Sparrow (Flare)" / "flare korath flare small 1.0 7.5"
+# ship "Splinter" "Splinter (Flare)" / "flare coalition flare small 1.0 10"
+# ship "Star Queen" "Star Queen (Flare)" / "flare efreti flare large 1.0 6.5"
+# ship "Sunder" "Sunder (Flare)" / "flare plasma flare large 1.0 8"
+# ship "Vanguard" "Vanguard (Flare)" / "flare ion flare large 1.0 0.9"
+
+
+
+#planet "Wayfarer"
+#	add shipyard "flare.play.test
+
+shipyard "flare.play.test"
+	"Aerie (Flare)"
+	"Argosy (Flare)"
+	"Arrow (Flare)"
+	"Bactrian (Flare)"
+	"Bastion (Flare)"
+	"Behemoth (Flare)"
+	"Berserker (Flare)"
+	"Blackbird (Flare)"
+	"Bounder (Flare)"
+	"Bulk Freighter (Flare)"
+	"Clipper (Flare)"
+	"Corvette (Flare)"
+	"Enforcer (Flare)"
+	"Falcon (Flare)"
+	"Firebird (Flare)"
+	"Fury (Flare)"
+	"Hauler (Flare)"
+	"Hauler II (Flare)"
+	"Hauler III (Flare)"
+	"Hawk (Flare)"
+	"Headhunter (Flare)"
+	"Heavy Shuttle (Flare)"
+	"Hogshead (Flare)"
+	"Leviathan (Flare)"
+	"Manta (Flare)"
+	"Marauder Arrow (Flare)"
+	"Marauder Bounder (Flare)"
+	"Marauder Falcon (Flare)"
+	"Marauder Firebird (Flare)"
+	"Marauder Leviathan (Flare)"
+	"Marauder Manta (Flare)"
+	"Marauder Quicksilver (Flare)"
+	"Marauder Raven (Flare)"
+	"Marauder Splinter (Flare)"
+	"Modified Argosy (Flare)"
+	"Mule (Flare)"
+	"Osprey (Flare)"
+	"Protector (Flare)"
+	"Quicksilver (Flare)"
+	"Raven (Flare)"
+	"Saber (Flare)"
+	"Scout (Flare)"
+	"Scrapper (Flare)"
+	"Shuttle (Flare)"
+	"Sparrow (Flare)"
+	"Splinter (Flare)"
+	"Star Queen (Flare)"
+	"Sunder (Flare)"
+	"Vanguard (Flare)"
+
+ship "Aerie" "Aerie (Flare)"
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Heavy Laser Turret" 2
+		"Heavy Anti-Missile Turret"
+		"NT-200 Nucleovoltaic"
+		"KP-6 Photovoltaic Panel" 2
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		"Large Radar Jammer"
+		"Laser Rifle" 3
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare atomic flare huge 1.0 10" 2
+
+ship "Argosy" "Argosy (Flare)"
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Hyperdrive"
+		"flare atomic flare large 1.0 11" 2
+
+ship "Arrow" "Arrow (Flare)"
+	outfits
+		"Sidewinder Missile Pod" 2
+		"Sidewinder Missile" 12
+		"Anti-Missile Turret"
+		"Dwarf Core"
+		"Supercapacitor"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer"
+		"Luxury Accommodations"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+		"flare atomic flare tiny 1.0 14" 2
+
+ship "Bactrian" "Bactrian (Flare)"
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Torpedo Launcher"
+		"Torpedo" 30
+		"Heavy Laser Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Ramscoop"
+		"Laser Rifle" 15
+		"X4700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Hyperdrive"
+		"flare wanderer flare large 1.0 18" 2
+
+ship "Bastion" "Bastion (Flare)"
+	outfits
+		"Plasma Cannon" 2
+		"Heavy Rocket Launcher" 2
+		"Heavy Rocket" 60
+		"Heavy Rocket Rack" 2
+		"Blaster Turret" 2
+		"Anti-Missile Turret"
+		"S3 Thermionic"
+		"LP144a Battery Pack"
+		"nGVF-BB Fuel Cell"
+		"D67-TM Shield Generator"
+		"Water Coolant System"
+		"Tactical Scanner"
+		"Laser Rifle" 7
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		"flare korath flare huge 1.0 6" 2
+
+ship "Behemoth" "Behemoth (Flare)"
+	outfits
+		"Heavy Laser Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		"NT-200 Nucleovoltaic"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Small Radar Jammer"
+		"Laser Rifle" 3
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster" 2
+		"Scram Drive"
+		"flare plasma flare huge 1.0 9" 2
+
+ship "Berserker" "Berserker (Flare)"
+	outfits
+		"Energy Blaster" 2
+		"Javelin Mini Pod" 2
+		"Javelin" 60
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"X2700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare atomic flare medium 1.0 12" 2
+
+ship "Blackbird" "Blackbird (Flare)"
+	outfits
+		"Heavy Laser Turret"
+		"Heavy Anti-Missile Turret"
+		"S3 Thermionic"
+		"KP-6 Photovoltaic Array" 3
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		"Luxury Accommodations"
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		"flare fissionflare 1.0 30" 2
+
+ship "Bounder" "Bounder (Flare)"
+	outfits
+		"Anti-Missile Turret" 2
+		"nGVF-CC Fuel Cell"
+		"KP-6 Photovoltaic Array"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare efreti flare medium 1.0 7" 2
+
+ship "Bulk Freighter" "Bulk Freighter (Flare)"
+	outfits
+		"Sidewinder Missile Launcher"
+		"Sidewinder Missile" 45
+		"Laser Turret" 3
+		"Heavy Anti-Missile Turret" 2
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		"Laser Rifle"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Scram Drive"
+		"flare incipias flare metallic hydrogen medium 1.0 24" 2
+
+ship "Clipper" "Clipper (Flare)"
+	outfits
+		"Beam Laser" 2
+		"Javelin Mini Pod" 2
+		"Javelin" 60
+		"nGVF-DD Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		"flare ka'het flare medium 1.0 30" 2
+
+ship "Corvette" "Corvette (Flare)"
+	outfits
+		"Heavy Laser" 2
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Heavy Laser Turret"
+		"Anti-Missile Turret"
+		"NT-200 Nucleovoltaic"
+		"KP-6 Photovoltaic Array"
+		"KP-6 Photovoltaic Panel" 2
+		"LP072a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Laser Rifle" 3
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare medium graviton flare 1.0 1" 2
+
+ship "Enforcer" "Enforcer (Flare)"
+	outfits
+		"Energy Blaster" 4
+		"Laser Turret"
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		"flare remnant flare medium 1.0 4" 2
+
+ship "Falcon" "Falcon (Flare)"
+	outfits
+		"Plasma Cannon" 2
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Quad Blaster Turret" 3
+		"Heavy Anti-Missile Turret"
+		"Breeder Reactor"
+		"KP-6 Photovoltaic Array"
+		"KP-6 Photovoltaic Panel" 2
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 15
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		"flare bunrodea flare large 0.3 1" 2
+
+ship "Firebird" "Firebird (Flare)"
+	outfits
+		"Particle Cannon" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Quad Blaster Turret"
+		"Anti-Missile Turret"
+		"RT-I Radiothermal"
+		"nGVF-AA Fuel Cell"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 3
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare remnant flare large 1.0 3" 2
+
+ship "Fury" "Fury (Flare)"
+	outfits
+		"Energy Blaster" 4
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer" 2
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		"flare atomic flare small 1.0 13" 2
+
+ship "Hauler" "Hauler (Flare)"
+	outfits
+		"Meteor Missile Pod" 2
+		"Meteor Missile" 14
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		"Greyhound Plasma Thruster"
+		"Impala Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Hyperdrive"
+		"flare pug flare huge 1.0 23" 2
+
+ship "Hauler II" "Hauler II (Flare)"
+	outfits
+		"Meteor Missile Pod" 2
+		"Meteor Missile" 59
+		"Meteor Missile Box" 3
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		"Laser Rifle"
+		"Greyhound Plasma Thruster"
+		"Impala Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Hyperdrive"
+		"flare fusionflare 1.0 30"
+
+ship "Hauler III" "Hauler III (Flare)" 2
+	outfits
+		"Meteor Missile Pod" 2
+		"Meteor Missile" 59
+		"Meteor Missile Box" 3
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		"Laser Rifle"
+		"Greyhound Plasma Thruster"
+		"Impala Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Hyperdrive"
+		"flare avgi flare fusion 1.0 15" 2
+
+ship "Hawk" "Hawk (Flare)"
+	outfits
+		"Heavy Laser" 2
+		"nGVF-CC Fuel Cell"
+		"KP-6 Photovoltaic Panel" 2
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		"flare wanderer flare medium 1.0 16" 2
+
+ship "Headhunter" "Headhunter (Flare)"
+	outfits
+		"Heavy Laser" 2
+		"Heavy Anti-Missile Turret"
+		"RT-I Radiothermal"
+		"KP-6 Photovoltaic Array"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		"flare korath flare medium 1.0 7"
+
+ship "Heavy Shuttle" "Heavy Shuttle (Flare)" 2
+	outfits
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		"flare plasma flare medium 1.0 7" 2
+
+ship "Hogshead" "Hogshead (Flare)"
+	outfits
+		"Heavy Anti-Missile Turret"
+		"Anti-Missile Turret"
+		"S3 Thermionic"
+		"KP-6 Photovoltaic Array" 2
+		"LP036a Battery Pack"
+		"D41-HY Shield Generator"
+		"Small Radar Jammer" 2
+		"Luxury Accommodations"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		"flare scin flare large 1.0 0.3" 2
+
+ship "Leviathan" "Leviathan (Flare)"
+	outfits
+		"Particle Cannon" 4
+		"Quad Blaster Turret" 3
+		"Anti-Missile Turret"
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Liquid Helium Cooler"
+		"Laser Rifle" 15
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		"flare avgi flare fusion 2.0 15" 2
+
+ship "Manta" "Manta (Flare)"
+	outfits
+		"Particle Cannon" 4
+		"Torpedo Storage Rack"
+		"Torpedo" 21
+		"Torpedo Pod" 2
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D14-RN Shield Generator"
+		"Laser Rifle"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare vi flare large 1.0 2.3" 2
+
+ship "Marauder Arrow" "Marauder Arrow (Flare)"
+	outfits
+		"Heavy Laser" 2
+		"Quad Blaster Turret"
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"Cooling Ducts"
+		"Laser Rifle" 5
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+		"flare vi flare medium 1.0 2.4" 2
+
+ship "Marauder Bounder" "Marauder Bounder (Flare)"
+	outfits
+		"Particle Cannon"
+		"Quad Blaster Turret" 2
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"Hai Corundum Regenerator"
+		"Outfits Expansion"
+		"Water Coolant System"
+		"Security Station"
+		"Laser Rifle" 18
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Volcano Afterburner"
+		"Hyperdrive"
+		"flare pug flare medium 1.0 20" 2
+
+ship "Marauder Falcon" "Marauder Falcon (Flare)"
+	outfits
+		"Plasma Cannon" 2
+		"Proton Gun" 2
+		"Modified Blaster Turret" 2
+		"Proton Turret" 2
+		"Fusion Reactor"
+		"Dwarf Core"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"Outfits Expansion" 3
+		"Laser Rifle" 80
+		"Nerve Gas" 15
+		"Security Station"
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+		"flare avgi flare fusion 0.75 15" 2
+
+ship "Marauder Firebird" "Marauder Firebird (Flare)"
+	outfits
+		"Plasma Cannon" 4
+		"Heavy Laser Turret"
+		"Heavy Anti-Missile Turret"
+		"Fusion Reactor"
+		"Supercapacitor"
+		"D41-HY Shield Generator"
+		"Liquid Helium Cooler"
+		"Outfits Expansion"
+		"Laser Rifle" 25
+		"Nerve Gas" 29
+		"A250 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+		"flare korath flare large 1.0 6.5" 2
+
+ship "Marauder Leviathan" "Marauder Leviathan (Flare)"
+	outfits
+		"Particle Cannon" 4
+		"Quad Blaster Turret" 2
+		"Heavy Laser Turret" 2
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"Outfits Expansion" 2
+		"Laser Rifle" 69
+		"Nerve Gas" 15
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Ionic Afterburner"
+		"Hyperdrive"
+		"flare ka'het flare large 1.0 30" 2
+
+ship "Marauder Manta" "Marauder Manta (Flare)"
+	outfits
+		"Plasma Cannon" 4
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Quad Blaster Turret"
+		"Dwarf Core"
+		"LP144a Battery Pack"
+		"D14-RN Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Security Station" 3
+		"Laser Rifle" 8
+		"Nerve Gas" 4
+		"A250 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+		"flare pug flare large 1.0 22" 2
+
+ship "Marauder Quicksilver" "Marauder Quicksilver (Flare)"
+	outfits
+		"Heavy Laser" 2
+		"Heavy Anti-Missile Turret"
+		"NT-200 Nucleovoltaic"
+		"Hai Fissure Batteries"
+		"D41-HY Shield Generator"
+		"Water Coolant System"
+		"Security Station" 3
+		"Laser Rifle"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+		"flare ion flare medium 1.0 1.0" 2
+
+ship "Marauder Raven" "Marauder Raven (Flare)"
+	outfits
+		"Heavy Laser" 4
+		"Heavy Laser Turret"
+		"Breeder Reactor"
+		"Supercapacitor" 3
+		"Hai Corundum Regenerator"
+		"Liquid Nitrogen Cooler"
+		"Outfits Expansion"
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Volcano Afterburner"
+		"Hyperdrive"
+		"Laser Rifle" 14
+		"Nerve Gas" 3
+		"flare wanderer flare small 1.0 14" 2
+
+ship "Marauder Splinter" "Marauder Splinter (Flare)"
+	outfits
+		"Plasma Cannon" 2
+		"Heavy Laser Turret" 2
+		"Heavy Anti-Missile Turret"
+		"Fusion Reactor"
+		"LP036a Battery Pack"
+		"D67-TM Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 22
+		"Nerve Gas" 2
+		"A250 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+		"flare scin flare med 1.0 0.4" 2
+
+ship "Modified Argosy" "Modified Argosy (Flare)"
+	outfits
+		"Heavy Laser" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Heavy Laser Turret"
+		"Heavy Anti-Missile Turret"
+		"NT-200 Nucleovoltaic"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		"Brig"
+		"Laser Rifle" 12
+		"Greyhound Plasma Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare efreti flare small 1.0 7.5" 2
+
+ship "Mule" "Mule (Flare)"
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 136
+		"Sidewinder Missile Rack" 2
+		"Heavy Laser Turret" 2
+		"Anti-Missile Turret" 2
+		"NT-200 Nucleovoltaic"
+		"KP-6 Photovoltaic Array"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		"Small Radar Jammer" 2
+		"Ramscoop"
+		"Laser Rifle"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		"flare incipias flare metallic hydrogen large 1.0 24" 2
+
+ship "Osprey" "Osprey (Flare)"
+	outfits
+		"Plasma Cannon" 4
+		"Quad Blaster Turret"
+		"Heavy Anti-Missile Turret"
+		"Breeder Reactor"
+		"LP036a Battery Pack"
+		"D41-HY Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"Laser Rifle" 3
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		"flare plasma exhaust 1.0 16" 2
+
+ship "Protector" "Protector (Flare)"
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Quad Blaster Turret" 6
+		"Heavy Anti-Missile Turret"
+		"Anti-Missile Turret"
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Small Radar Jammer" 3
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 6
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare avgi flare antimatter 0.25 15" 2
+
+ship "Quicksilver" "Quicksilver (Flare)"
+	outfits
+		"Particle Cannon" 2
+		"nGVF-DD Fuel Cell"
+		"LP036a Battery Pack"
+		"Capybara Reverse Thruster"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		"flare bunrodea flare large 1.0 1" 2
+
+ship "Raven" "Raven (Flare)"
+	outfits
+		"Heavy Laser" 2
+		"Torpedo Launcher"
+		"Torpedo" 30
+		"Sidewinder Missile Launcher"
+		"Sidewinder Missile" 45
+		"RT-I Radiothermal"
+		"KP-6 Photovoltaic Panel" 2
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 2
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare ion flare huge 1.0 0.8" 2
+
+ship "Saber" "Saber (Flare)"
+	outfits
+		"Beam Laser" 3
+		"Javelin Pod" 2
+		"Javelin" 600
+		"Javelin Storage Crate" 2
+		"Blaster Turret"
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare coalition flare large 1.0 7" 2
+
+ship "Scout" "Scout (Flare)"
+	outfits
+		"Energy Blaster" 2
+		"Anti-Missile Turret"
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer"
+		"Ramscoop"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare incipias flare metallic hydrogen small 1.0 24" 2
+
+ship "Scrapper" "Scrapper (Flare)"
+	outfits
+		"Twin Blaster"
+		"KP-6 Photovoltaic Panel" 4
+		"LP036a Battery Pack"
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		"flare remnant flare small 1.0 5" 2
+
+ship "Shuttle" "Shuttle (Flare)"
+	outfits
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		"flare plasma flare small 1.0 6" 2
+
+ship "Sparrow" "Sparrow (Flare)"
+	outfits
+		"Beam Laser" 2
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Steering"
+		"Hyperdrive"
+		"flare korath flare small 1.0 7.5" 2
+
+ship "Splinter" "Splinter (Flare)"
+	outfits
+		"Proton Gun" 2
+		"Blaster Turret" 2
+		"Anti-Missile Turret"
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Small Radar Jammer" 2
+		"Water Coolant System"
+		"Laser Rifle"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare coalition flare small 1.0 10" 2
+
+ship "Star Queen" "Star Queen (Flare)"
+	outfits
+		"Sidewinder Missile Launcher"
+		"Sidewinder Missile" 45
+		"Heavy Anti-Missile Turret" 2
+		"KP-6 Photovoltaic Array" 4
+		"LP036a Battery Pack"
+		"D94-YV Shield Generator"
+		"Small Radar Jammer" 3
+		"Luxury Accommodations"
+		"X3700 Ion Thruster"
+		"X2200 Ion Steering"
+		"AR120 Reverse Thruster"
+		"Hyperdrive"
+		"flare efreti flare large 1.0 6.5" 2
+
+ship "Sunder" "Sunder (Flare)"
+	outfits
+		"Mining Laser" 2
+		"Tractor Beam"
+		"Asteroid Scanner"
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"flare plasma flare large 1.0 8" 2
+
+ship "Vanguard" "Vanguard (Flare)"
+	outfits
+		"Proton Gun" 7
+		"Anti-Missile Turret"
+		"Fusion Reactor"
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 4
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		"flare ion flare large 1.0 0.9" 2
