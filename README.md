@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-04-28 | update: additional.command.buttons.radial<br>
 2025-04-26 | update: additional.command.buttons.radial<br>
 2025-04-21 | update: additional.command.buttons.radial<br>
 2025-04-18 | update: quarg.farm<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-04-13 | update: expert.crew.members<br>
 2025-04-13 | update: bunrodea.missions<br>
 2025-03-31 | new download counter for each plugin<br>
-2025-03-20 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -49,9 +49,10 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
+<a href="README.md#flareplay">flare.play</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
-<a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#highrollersltd">highrollers.ltd</a><br>
@@ -65,8 +66,8 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#missionhelper">mission.helper</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
-<a href="README.md#morepersonships">more.person.ships</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#morepersonships">more.person.ships</a><br>
 <a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
@@ -103,7 +104,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/additional.command.buttons.radial.png">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.21-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 358.39 kb | 2025-04-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [52]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.22-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 363.97 kb | 2025-04-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [52]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -148,6 +149,14 @@ This plugin<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-04-26<br>
+
+added greyed-out attack button if you can't attack<br>
+
+fixed non-working recall button (thx to VelvetKrow)<br>
 
 <br>
 
@@ -1656,6 +1665,66 @@ screenshots(click to enlarge):<br>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members04.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members05.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/expert.crew.members06.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
+
+
+---
+
+### flare.play
+
+<img src="myplugins/flare.play/icon.png" height="100">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/flare.play.png">
+
+[flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-flare.play/flare.play.zip) | N/A | N/A | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) <a href="res/imagemd/flare.play.md">view images</a> [418]<br>
+<br>
+>Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetically. Idea by <Thermognuclear Missile> on discord. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### flare.play<br>
+
+<br>
+
+Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by <Thermognuclear Missile> on Discord.<br>
+
+<br>
+
+<br>
+
+Adds a new outfitter with 203 cosmetic flare outfits to Wayfarer, Valhalla, Sunracer, Foundry and Solace. These flares get added to your normal engine flare. If your engine has a big flare and you add a tiny flare outfit, it is barely seen. Multiple flare outfits make the engine flare more intense. To use steering, reverse, or afterburner flares, your ship needs engine outfits with the regarding engine type. There are 155 vanilla flare outfits and 48 recolored flare outfits.<br>
+
+Missions and events: on day 1 after plugin installation, a mission shows up, explaining the new flare outfits. After 30 days, all human non-government fleets get a variant with flares; after 90 days, these fleets get another variant; and after 150 days they get the third variant.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2025-04-28<br>
+
+initial release<br>
+
+</blockquote>
+</details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/flare.play01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/flare.play02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/flare.play03.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/flare.play04.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/flare.play05.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/flare.play06.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
