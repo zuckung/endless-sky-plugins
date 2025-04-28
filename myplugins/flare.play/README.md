@@ -1,6 +1,6 @@
 ### flare.play<br>
 <br>
-Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by "Thermognuclear Missile" on Discord.<br>
+Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by 'Thermognuclear Missile' on Discord.<br>
 <br>
 <br>
 Adds a new outfitter with 203 cosmetic flare outfits to Wayfarer, Valhalla, Sunracer, Foundry and Solace. These flares get added to your normal engine flare. If your engine has a big flare and you add a tiny flare outfit, it is barely seen. Multiple flare outfits make the engine flare more intense. To use steering, reverse, or afterburner flares, your ship needs engine outfits with the regarding engine type. There are 155 vanilla flare outfits and 48 recolored flare outfits.<br>
