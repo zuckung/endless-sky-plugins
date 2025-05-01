@@ -57,6 +57,57 @@ def read_everything(): # reading the data folder
 	print('\n\n')
 
 
+def list_systems():
+	systems, govs = [], []
+	for each in obj:
+		if each.startswith('system'):
+			system = each[:each.find('\n')].replace('system ','').replace('"', '').strip()
+			gov = each[each.find('\tgovernment '):each.find('\n', each.find('\tgovernment '))+1].replace('government ', '').replace('"', '').strip()
+			if gov != 'Uninhabited' and gov != 'Republic' and not 'Pirate' in gov and gov != 'Syndicate':
+				if gov == 'Bunrodea (Guard)':
+					gov = 'bunrodea'
+				elif gov == 'Heliarch':
+					gov = 'coalition'
+				elif gov == 'Gegno Scin':
+					gov = 'gegno'
+				elif gov == 'Gegno Vi':
+					gov = 'gegno'
+				elif gov == 'Hai (Unfettered)':
+					gov = 'hai'
+				elif gov == 'Successor':
+					gov = 'successors'
+				elif gov == 'Old Houses':
+					gov = 'successors'
+				elif gov == 'New Houses':
+					gov = 'successors'
+				elif gov == "People's Houses":
+					gov = 'successors'
+				elif gov == 'Avgi (Consonance)':
+					gov = 'avgi'
+				elif gov == 'Avgi (Dissonance)':
+					gov = 'avgi'
+				elif gov == 'Avgi (Twilight Guard)':
+					gov = 'avgi'
+				elif gov == 'Hicemus':
+					gov = 'incipias'
+				elif gov == 'Kor Mereti':
+					gov = 'korath'
+				elif gov == 'Kor Sestor':
+					gov = 'korath'
+				elif gov == 'Kor Efret':
+					gov = 'korath'
+				elif 'Pug' in gov:
+					gov = 'pug'
+				elif 'Quarg' in gov:
+					gov = 'quarg'
+#				else:
+#					print(gov)
+				systems.append(system)
+				govs.append(gov)
+	return systems, govs
+		
+	
+
 def list_missions(): # lists the mission names, paths and relevant script texts
 	missions, mission_texts, mission_paths = [], [], []
 	for name in obj_name:
@@ -148,7 +199,7 @@ def list_missions(): # lists the mission names, paths and relevant script texts
 	return missions, mission_texts, mission_paths
 
 
-def write_mission(missions, mission_texts, mission_paths): # write all to a single mission
+def write_mission(missions, mission_texts, mission_paths, systems, govs, blacklist): # write all to a single mission
 	with open('mission.helper.txt', 'w') as target:
 		target.writelines('mission "mission.helper"\n')
 		target.writelines('\tjob\n')
@@ -160,24 +211,56 @@ def write_mission(missions, mission_texts, mission_paths): # write all to a sing
 		target.writelines('\t\t\tlabel "realstart"\n')
 		target.writelines('\t\t\t`This job shows a list of non-repeatable, not-offered missions. You only see missions you have not done. But there are also missions you can not do, because you took another path in these mission chains. The missions show their offering conditions, so you can easily check where to go and what to do for them to start.`\n')
 		target.writelines('\t\t\t`Navigate through the races and their mission sub categories to find missions you have not done. In the races menu you can choose [help] to get a small overview on how to read the conditions for mission offering.`\n')
+		target.writelines('\t\t\tchoice\n')
+		target.writelines("\t\t\t\t`\t(NO SPOILERS) exclude races you haven't met`\n")
+		target.writelines('\t\t\t\t\tgoto nospoil\n')
+		target.writelines('\t\t\t\t`\t(SPOILERS) show all races`\n')
+		target.writelines('\t\t\t\t\tgoto spoil\n')
+		target.writelines('\t\t\tlabel spoil\n')
+		target.writelines('\t\t\taction\n')
+		target.writelines('\t\t\t\tset "helper spoiler"\n')
+		target.writelines('\t\t\t\tclear "helper no spoiler"\n')
+		target.writelines('\t\t\t`You have chosen the SPOILER version`\n')
+		target.writelines('\t\t\t\tgoto afterspoil\n')
+		target.writelines('\t\t\tlabel nospoil\n')
+		target.writelines('\t\t\taction\n')
+		target.writelines('\t\t\t\tset "helper no spoiler"\n')
+		target.writelines('\t\t\t\tclear "helper spoiler"\n')
+		target.writelines('\t\t\t`You have chosen the NO SPOILER version`\n')
+		target.writelines('\t\t\tlabel "afterspoil"\n')
 		target.writelines('\t\t\t`Have fun with this plugin!`\n')
 		target.writelines('\t\t\tchoice\n')
 		target.writelines('\t\t\t\t`continue`\n')
 		target.writelines('\t\t\t\t\tgoto start\n')
-		# start menu races/folder
 		target.writelines('\t\t\tlabel "start"\n')
 		target.writelines('\t\t\t`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`\n')
 		target.writelines('\t\t\t`Races:`\n')
 		target.writelines('\t\t\tchoice\n')
 		target.writelines('\t\t\t\t`[help]`\n')
 		target.writelines('\t\t\t\t\tgoto "help"\n')
+		# start menu races/folder
 		categories = []
 		for path in mission_paths:
 			pathpath, pathfile = path.split('/')
 			if pathpath in categories:
 				continue
+			# filter races
 			categories.append(pathpath)
 			target.writelines('\t\t\t\t`' + pathpath + '`\n')
+			if pathpath == 'human':
+				stub = 1
+			elif pathpath in blacklist:
+				target.writelines('\t\t\t\t\tto display\n')
+				target.writelines('\t\t\t\t\t\thas "not in blacklist"\n')
+			else:
+				target.writelines('\t\t\t\t\tto display\n')
+				target.writelines('\t\t\t\t\t\tor\n')
+				target.writelines('\t\t\t\t\t\t\thas "helper spoiler"\n')
+				target.writelines('\t\t\t\t\t\t\tor\n')
+				for system in systems:
+					sysindex = systems.index(system)
+					if govs[sysindex].lower() == pathpath:
+						target.writelines('\t\t\t\t\t\t\t\thas "visited system: ' + system + '"\n')
 			target.writelines('\t\t\t\t\tgoto "' + pathpath + '"\n')
 		target.writelines('\t\t\t\t`close`\n')
 		target.writelines('\t\t\t\t\tgoto "close"\n')
@@ -289,8 +372,10 @@ def write_mission(missions, mission_texts, mission_paths): # write all to a sing
 def run():
 	set_globals()
 	read_everything()
+	systems, govs = list_systems()
 	missions, mission_texts, mission_paths = list_missions()
-	write_mission(missions, mission_texts, mission_paths)
+	blacklist = ['kahet', 'rulei', 'sheragi','drak'] # exclude these races from the race menu (no missions/no systems)
+	write_mission(missions, mission_texts, mission_paths, systems, govs, blacklist)
 
 
 if __name__ == "__main__":

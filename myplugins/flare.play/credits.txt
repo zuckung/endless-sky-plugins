@@ -3,4 +3,4 @@ author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
 idea:
-	<Thermognuclear Missile> on discord
+	'Thermognuclear Missile' on discord

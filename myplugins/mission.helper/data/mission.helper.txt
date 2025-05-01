@@ -8,6 +8,23 @@ mission "mission.helper"
 			label "realstart"
 			`This job shows a list of non-repeatable, not-offered missions. You only see missions you have not done. But there are also missions you can not do, because you took another path in these mission chains. The missions show their offering conditions, so you can easily check where to go and what to do for them to start.`
 			`Navigate through the races and their mission sub categories to find missions you have not done. In the races menu you can choose [help] to get a small overview on how to read the conditions for mission offering.`
+			choice
+				`	(NO SPOILERS) exclude races you haven't met`
+					goto nospoil
+				`	(SPOILERS) show all races`
+					goto spoil
+			label spoil
+			action
+				set "helper spoiler"
+				clear "helper no spoiler"
+			`You have chosen the SPOILER version`
+				goto afterspoil
+			label nospoil
+			action
+				set "helper no spoiler"
+				clear "helper spoiler"
+			`You have chosen the NO SPOILER version`
+			label "afterspoil"
 			`Have fun with this plugin!`
 			choice
 				`continue`
@@ -19,38 +36,320 @@ mission "mission.helper"
 				`[help]`
 					goto "help"
 				`avgi`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: Anax"
+								has "visited system: Anthem"
+								has "visited system: Arche"
+								has "visited system: Clip"
+								has "visited system: Concerto"
+								has "visited system: Demilude"
+								has "visited system: Ensemble"
+								has "visited system: Interlude"
+								has "visited system: Mellow"
+								has "visited system: Prelude"
+								has "visited system: Sail"
+								has "visited system: Soar"
+								has "visited system: Symphony"
+								has "visited system: Thread"
+								has "visited system: Wake"
 					goto "avgi"
 				`bunrodea`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: Avo Chigo"
+								has "visited system: Bosuno Le"
+								has "visited system: Bunri Lemeta"
+								has "visited system: Elabi Choati"
+								has "visited system: Elo Chigo"
+								has "visited system: Eneva Katta"
+								has "visited system: Era Natta"
+								has "visited system: Erabu Lemeta"
+								has "visited system: Eragaru Le"
+								has "visited system: Genta Bo"
+								has "visited system: Gento Ah"
+								has "visited system: Jentu Centi"
+								has "visited system: Jentu Le"
+								has "visited system: Kifrana Terberah"
+								has "visited system: Mego Faro"
+								has "visited system: Mego Inito"
+								has "visited system: Mego Seo"
+								has "visited system: Paru Paru"
+								has "visited system: Piadenli"
+								has "visited system: Ravu Kon"
+								has "visited system: Sera Natta"
+								has "visited system: Shini Bori"
+								has "visited system: Thshybo Le"
+								has "visited system: Urba Pest"
+								has "visited system: Xutluno Fali"
+								has "visited system: Xutluno Rees"
 					goto "bunrodea"
 				`coalition`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: 1 Axis"
+								has "visited system: 10 Pole"
+								has "visited system: 11 Autumn Above"
+								has "visited system: 11 Spring Below"
+								has "visited system: 12 Autumn Above"
+								has "visited system: 14 Pole"
+								has "visited system: 14 Summer Above"
+								has "visited system: 14 Winter Below"
+								has "visited system: 16 Autumn Rising"
+								has "visited system: 3 Axis"
+								has "visited system: 3 Pole"
+								has "visited system: 3 Spring Rising"
+								has "visited system: 4 Axis"
+								has "visited system: 4 Spring Rising"
+								has "visited system: 4 Summer Rising"
+								has "visited system: 4 Winter Rising"
+								has "visited system: 5 Axis"
+								has "visited system: 5 Spring Below"
+								has "visited system: 5 Summer Above"
+								has "visited system: 5 Winter Above"
+								has "visited system: 7 Autumn Rising"
+								has "visited system: 8 Winter Below"
+								has "visited system: 9 Spring Above"
+								has "visited system: Ablodab"
+								has "visited system: Ablub"
+								has "visited system: Ancient Hope"
+								has "visited system: Answer"
+								has "visited system: Beginning"
+								has "visited system: Belonging"
+								has "visited system: Belug"
+								has "visited system: Belugt"
+								has "visited system: Bloptab"
+								has "visited system: Blubipad"
+								has "visited system: Blugtad"
+								has "visited system: Bright Void"
+								has "visited system: Broken Bowl"
+								has "visited system: Companion"
+								has "visited system: Dark Hills"
+								has "visited system: Debrugt"
+								has "visited system: Eblumab"
+								has "visited system: Ekuarik"
+								has "visited system: Fallen Leaf"
+								has "visited system: Far Horizon"
+								has "visited system: Fell Omen"
+								has "visited system: Flugbu"
+								has "visited system: Four Pillars"
+								has "visited system: Glubatub"
+								has "visited system: Good Omen"
+								has "visited system: Gupta"
+								has "visited system: Homeward"
+								has "visited system: Hunter"
+								has "visited system: Ki War Ek"
+								has "visited system: Last Word"
+								has "visited system: Lone Cloud"
+								has "visited system: Mebla"
+								has "visited system: Meblumem"
+								has "visited system: Miblulub"
+								has "visited system: Pelubta"
+								has "visited system: Plort"
+								has "visited system: Quaru"
+								has "visited system: Remembrance"
+								has "visited system: Silver Bell"
+								has "visited system: Silver String"
+								has "visited system: Sol Arach"
+								has "visited system: Sol Kimek"
+								has "visited system: Sol Saryd"
+								has "visited system: Speloog"
+								has "visited system: Steep Roof"
+								has "visited system: Tebuteb"
+								has "visited system: Torbab"
 					goto "coalition"
 				`drak`
+					to display
+						has "not in blacklist"
 					goto "drak"
 				`gegno`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: Asio"
+								has "visited system: Auhru"
+								has "visited system: Empeles"
+								has "visited system: Erba Yle"
+								has "visited system: Heutesl"
+								has "visited system: Iliniza"
+								has "visited system: Kiluit"
+								has "visited system: Mnashyu"
+								has "visited system: Nnaug"
+								has "visited system: Ookmya"
+								has "visited system: Oosuoro"
+								has "visited system: Pbelnep"
+								has "visited system: Ptetubo"
+								has "visited system: Scija"
+								has "visited system: Uhebe"
+								has "visited system: Zeinar"
 					goto "gegno"
 				`hai`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: Bore Fah"
+								has "visited system: Bote Asu"
+								has "visited system: Da Ent"
+								has "visited system: Da Lest"
+								has "visited system: Due Yoot"
+								has "visited system: Ehma Ti"
+								has "visited system: Fah Root"
+								has "visited system: Fah Soom"
+								has "visited system: Heia Due"
+								has "visited system: Hi Yahr"
+								has "visited system: Imo Dep"
+								has "visited system: Io Lowe"
+								has "visited system: Io Mann"
+								has "visited system: Lom Tahr"
+								has "visited system: Mei Yohn"
+								has "visited system: Rati Cal"
+								has "visited system: Ula Mon"
+								has "visited system: Uwa Fahn"
+								has "visited system: Wah Ki"
+								has "visited system: Wah Oh"
+								has "visited system: Wah Yoot"
+								has "visited system: Waypoint"
+								has "visited system: Ya Hai"
+								has "visited system: Zuba Zub"
 					goto "hai"
 				`human`
 					goto "human"
 				`incipias`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: Dom'us"
 					goto "incipias"
 				`kahet`
+					to display
+						has "not in blacklist"
 					goto "kahet"
 				`korath`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: Asikafarnut"
+								has "visited system: Celeborim"
+								has "visited system: Chimitarp"
+								has "visited system: Eneremprukt"
+								has "visited system: Eshkoshtar"
+								has "visited system: Faronektu"
+								has "visited system: Ferukistek"
+								has "visited system: Kashikt"
+								has "visited system: Kor Ak'Mari"
+								has "visited system: Kor En'lakfar"
+								has "visited system: Kor Fel'tar"
+								has "visited system: Kor Men"
+								has "visited system: Kor Nor'peli"
+								has "visited system: Kor Tar'bei"
+								has "visited system: Kor Zena'i"
+								has "visited system: Makferuti"
+								has "visited system: Mekislepti"
+								has "visited system: Salipastart"
+								has "visited system: Sepetrosk"
+								has "visited system: Sevrelect"
+								has "visited system: Silikatakfar"
+								has "visited system: Similisti"
+								has "visited system: Sobarati"
+								has "visited system: Sumprast"
 					goto "korath"
 				`pug`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: Deneb"
+								has "visited system: Pug Iyik"
 					goto "pug"
 				`quarg`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: Actannka"
+								has "visited system: Aleit"
+								has "visited system: Cura Dic"
+								has "visited system: Dokdobaru"
+								has "visited system: Enif"
+								has "visited system: Ghhil"
+								has "visited system: Hevru Hai"
+								has "visited system: Sadalmelik"
+								has "visited system: Sadalsuud"
 					goto "quarg"
 				`remnant`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: Arculus"
+								has "visited system: Cinxia"
+								has "visited system: Pantica"
 					goto "remnant"
 				`rulei`
+					to display
+						has "not in blacklist"
 					goto "rulei"
 				`sheragi`
+					to display
+						has "not in blacklist"
 					goto "sheragi"
 				`successors`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: Aaura-Kaska"
+								has "visited system: Chyyra-Osolaa"
+								has "visited system: Kella-Uoasa"
+								has "visited system: Khosa-Kaska"
+								has "visited system: Luue-Saqru"
+								has "visited system: Maspa-Cavaasa"
+								has "visited system: Maspa-Raaqa"
+								has "visited system: Mosaa-Iyra"
+								has "visited system: Myiara-Nnesa"
+								has "visited system: Myruet-Kvelq"
+								has "visited system: Ojstaan-Sola"
+								has "visited system: Osolaa-Uuoru"
+								has "visited system: Pelaa-Muora"
+								has "visited system: Raaqa-Ryuit"
+								has "visited system: Stiidej-Nnesa"
+								has "visited system: Tuur-Kella"
+								has "visited system: Uuoru-Kella"
+								has "visited system: Vade-Staja"
+								has "visited system: Valkraa-Uuoru"
 					goto "successors"
 				`wanderer`
+					to display
+						or
+							has "helper spoiler"
+							or
+								has "visited system: Ap'arak"
+								has "visited system: Aya'k'k"
+								has "visited system: Chirr'ay'akai"
+								has "visited system: Chy'chra"
+								has "visited system: Ek'kek'ru"
+								has "visited system: Es'sprak'ai"
+								has "visited system: Ik'kara'ka"
+								has "visited system: Iyech'yek"
+								has "visited system: Ka'ch'chrai"
+								has "visited system: Ka'pru"
+								has "visited system: Kiro'ku"
+								has "visited system: Kiru'kichi"
+								has "visited system: Pik'ro'iyak"
+								has "visited system: Prakacha'a"
+								has "visited system: Si'yak'ku"
+								has "visited system: Sich'ka'ara"
+								has "visited system: Sko'karak"
 					goto "wanderer"
 				`close`
 					goto "close"

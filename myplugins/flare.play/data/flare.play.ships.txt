@@ -49,11 +49,16 @@
 # ship "Star Queen" "Star Queen (Flare)" / "flare efreti flare large 1.0 6.5"
 # ship "Sunder" "Sunder (Flare)" / "flare plasma flare large 1.0 8"
 # ship "Vanguard" "Vanguard (Flare)" / "flare ion flare large 1.0 0.9"
-
+# ship "Frigate" "Frigate (Flare)" / "chromatic atomic_green_10 2.0"
+# ship "Rainmaker" "Rainmaker (Flare)" / "chromatic fusion_orange_30 2.0"
+# ship "Gunboat" "Gunboat (Flare)" / "chromatic kahet_purple_30 2.0"
+# ship "Auxiliary" "Auxiliary (Flare)" / "chromatic korath_yellow_6 2.0"
+# ship "Cruiser" "Cruiser (Flare)" / "chromatic bun_purple_1 2.0"
+# ship "Carrier" "Carrier (Flare)" / 	"chromatic inci_rainbow_1 2.0"
 
 
 #planet "Wayfarer"
-#	add shipyard "flare.play.test
+#	add shipyard "flare.play.test"
 
 shipyard "flare.play.test"
 	"Aerie (Flare)"
@@ -863,3 +868,121 @@ ship "Vanguard" "Vanguard (Flare)"
 		"X4200 Ion Steering"
 		"Hyperdrive"
 		"flare ion flare large 1.0 0.9" 2
+
+ship "Frigate" "Frigate (Flare)"
+	outfits
+		"Particle Cannon" 2
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Blaster Turret" 2
+		"Anti-Missile Turret"
+		"NT-200 Nucleovoltaic"
+		"LP072a Battery Pack"
+		"LP036a Battery Pack"
+		"D41-HY Shield Generator"
+		"Large Radar Jammer"
+		"Laser Rifle" 5
+		"Fragmentation Grenades" 5
+		"Security Station"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"chromatic atomic_green_10 2.0" 2
+
+ship "Rainmaker" "Rainmaker (Flare)"
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 4
+		"Meteor Missile" 180
+		"Meteor Missile Box" 4
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Large Radar Jammer"
+		"Tactical Scanner"
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		"chromatic fusion_orange_30 2.0" 2
+
+ship "Gunboat" "Gunboat (Flare)"
+	outfits
+		"Heavy Laser" 2
+		"Heavy Laser Turret"
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer"
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Tactical Scanner"
+		"Brig"
+		"X3700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		"chromatic kahet_purple_30 2.0" 2
+
+ship "Auxiliary" "Auxiliary (Flare)"
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"D67-TM Shield Generator"
+		"Water Coolant System"
+		"Large Radar Jammer"
+		"Ramscoop"
+		"X4700 Ion Thruster"
+		"X1700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Scram Drive"
+		"chromatic korath_yellow_6 2.0" 2
+
+ship "Cruiser" "Cruiser (Flare)"
+	outfits
+		"Particle Cannon" 4
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Heavy Laser Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer" 2
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 20
+		"Fragmentation Grenades" 20
+		"Security Station"
+		"Tactical Scanner"
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		"chromatic bun_purple_1 2.0" 2
+
+ship "Carrier" "Carrier (Flare)"
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Sidewinder Missile Rack" 8
+		"Sidewinder Missile" 184
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Heavy Laser Turret"
+		"Heavy Anti-Missile Turret" 2
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator" 2
+		"Large Radar Jammer" 2
+		"Water Coolant System"
+		"Brig"
+		"Laser Rifle" 40
+		"Fragmentation Grenades" 40
+		"Security Station" 2
+		"Tactical Scanner"
+		"X5700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		"chromatic inci_rainbow_1 2.0" 2

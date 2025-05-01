@@ -188,6 +188,8 @@ outfitter "FlarePlay"
 	"chromatic vi_orange_2.5 2.0"
 	"chromatic vi_violet_2.5 1.0"
 	"chromatic vi_violet_2.5 2.0"
+	"chromatic ion_blue_0.8 1.0"
+	"chromatic ion_blue_0.8 2.0"
 	"chromatic vi_yellow_2.5 1.0"
 	"chromatic vi_yellow_2.5 2.0"
 	"chromatic kahet_blue_30 1.0"
@@ -202,6 +204,42 @@ outfitter "FlarePlay"
 	"chromatic kahet_red_30 2.0"
 	"chromatic kahet_yellow_30 1.0"
 	"chromatic kahet_yellow_30 2.0"
+	"chromatic korath_blue_6 1.0"
+	"chromatic korath_blue_6 2.0"
+	"chromatic korath_dblue_6 1.0"
+	"chromatic korath_dblue_6 2.0"
+	"chromatic korath_green_6 1.0"
+	"chromatic korath_green_6 2.0"
+	"chromatic korath_purple_6 1.0"
+	"chromatic korath_purple_6 2.0"
+	"chromatic korath_red_6 1.0"
+	"chromatic korath_red_6 2.0"
+	"chromatic korath_yellow_6 1.0"
+	"chromatic korath_yellow_6 2.0"
+	"chromatic ion_green_0.8 1.0"
+	"chromatic ion_green_0.8 2.0"
+	"chromatic ion_pink_0.8 1.0"
+	"chromatic ion_pink_0.8 2.0"
+	"chromatic ion_purple_0.8 1.0"
+	"chromatic ion_purple_0.8 2.0"
+	"chromatic ion_red_0.8 1.0"
+	"chromatic ion_red_0.8 2.0"
+	"chromatic ion_yellow_0.8 1.0"
+	"chromatic ion_yellow_0.8 2.0"
+	"chromatic bun_blue_1 1.0"
+	"chromatic bun_blue_1 2.0"
+	"chromatic bun_green_1 1.0"
+	"chromatic bun_green_1 2.0"
+	"chromatic bun_pink_1 1.0"
+	"chromatic bun_pink_1 2.0"
+	"chromatic bun_purple_1 1.0"
+	"chromatic bun_purple_1 2.0"
+	"chromatic bun_red_1 1.0"
+	"chromatic bun_red_1 2.0"
+	"chromatic bun_yellow_1 1.0"
+	"chromatic bun_yellow_1 2.0"
+	"chromatic inci_rainbow_1 1.0"
+	"chromatic inci_rainbow_1 2.0"
 
 outfit "afterburner afterburner 1.0 15"
 	"display name" "FP5010 size: 1.0"
@@ -436,7 +474,7 @@ outfit "flare atomic flare huge 1.0 10"
 	"flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -451,7 +489,7 @@ outfit "flare atomic flare large 1.0 11"
 	"flare sprite" "effect/atomic flare/large"
 		"frame rate" 11
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -466,7 +504,7 @@ outfit "flare atomic flare medium 1.0 12"
 	"flare sprite" "effect/atomic flare/medium"
 		"frame rate" 12
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -481,7 +519,7 @@ outfit "flare atomic flare small 1.0 13"
 	"flare sprite" "effect/atomic flare/small"
 		"frame rate" 13
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -496,7 +534,7 @@ outfit "flare atomic flare tiny 1.0 14"
 	"flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -512,7 +550,7 @@ outfit "flare avgi flare antimatter 0.25 15"
 		"scale" 0.25
 		"frame rate" 15
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -528,7 +566,7 @@ outfit "flare avgi flare fusion 0.75 15"
 		"frame rate" 15
 		"scale" 0.75
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -543,7 +581,7 @@ outfit "flare avgi flare fusion 1.0 15"
 	"flare sprite" "effect/avgi flare/fusion"
 		"frame rate" 15
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -559,7 +597,7 @@ outfit "flare avgi flare fusion 2.0 15"
 		"frame rate" 15
 		"scale" 2
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -576,7 +614,7 @@ outfit "flare bunrodea flare large 0.3 1"
 		"rewind"
 		"scale" 0.3
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -593,7 +631,7 @@ outfit "flare bunrodea flare large 0.6 1"
 		"rewind"
 		"scale" 0.6
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -610,7 +648,7 @@ outfit "flare bunrodea flare large 0.8 1"
 		"rewind"
 		"scale" 0.8
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -626,7 +664,7 @@ outfit "flare bunrodea flare large 1.0 1"
 		"frame rate" 1
 		"rewind"
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -641,7 +679,7 @@ outfit "flare coalition flare large 1.0 7"
 	"flare sprite" "effect/coalition flare/large"
 		"frame rate" 7
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -656,7 +694,7 @@ outfit "flare coalition flare small 1.0 10"
 	"flare sprite" "effect/coalition flare/small"
 		"frame rate" 10
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -671,7 +709,7 @@ outfit "flare efreti flare large 1.0 6.5"
 	"flare sprite" "effect/efreti flare/large"
 		"frame rate" 6.5
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -686,7 +724,7 @@ outfit "flare efreti flare medium 1.0 7"
 	"flare sprite" "effect/efreti flare/medium"
 		"frame rate" 7
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -701,7 +739,7 @@ outfit "flare efreti flare small 1.0 7.5"
 	"flare sprite" "effect/efreti flare/small"
 		"frame rate" 7.5
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -716,7 +754,7 @@ outfit "flare efreti flare tiny 1.0 8"
 	"flare sprite" "effect/efreti flare/tiny"
 		"frame rate" 8
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -732,7 +770,7 @@ outfit "flare fissionflare 1.0 30"
 		"frame rate" 30
 		"rewind"
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -748,7 +786,7 @@ outfit "flare fusionflare 1.0 30"
 		"frame rate" 30
 		"rewind"
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -763,7 +801,7 @@ outfit "flare incipias flare metallic hydrogen large 1.0 24"
 	"flare sprite" "effect/incipias flare/metallic hydrogen large"
 		"frame rate" 24
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -778,7 +816,7 @@ outfit "flare incipias flare metallic hydrogen medium 1.0 24"
 	"flare sprite" "effect/incipias flare/metallic hydrogen medium"
 		"frame rate" 24
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -793,7 +831,7 @@ outfit "flare incipias flare metallic hydrogen small 1.0 24"
 	"flare sprite" "effect/incipias flare/metallic hydrogen small"
 		"frame rate" 24
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -808,7 +846,7 @@ outfit "flare ion flare huge 1.0 0.8"
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" 0.8
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -823,7 +861,7 @@ outfit "flare ion flare large 1.0 0.9"
 	"flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -838,7 +876,7 @@ outfit "flare ion flare medium 1.0 1.0"
 	"flare sprite" "effect/ion flare/medium"
 		"frame rate" 1.0
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -853,7 +891,7 @@ outfit "flare ion flare small 1.0 1.1"
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -868,7 +906,7 @@ outfit "flare ion flare tiny 1.0 1.2"
 	"flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -883,7 +921,7 @@ outfit "flare ka'het flare large 1.0 30"
 	"flare sprite" "effect/ka'het flare/large"
 		"frame rate" 30
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -898,7 +936,7 @@ outfit "flare ka'het flare medium 1.0 30"
 	"flare sprite" "effect/ka'het flare/medium"
 		"frame rate" 30
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -913,7 +951,7 @@ outfit "flare korath flare huge 1.0 6"
 	"flare sprite" "effect/korath flare/huge"
 		"frame rate" 6
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -928,7 +966,7 @@ outfit "flare korath flare large 1.0 6.5"
 	"flare sprite" "effect/korath flare/large"
 		"frame rate" 6.5
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -943,7 +981,7 @@ outfit "flare korath flare medium 1.0 7"
 	"flare sprite" "effect/korath flare/medium"
 		"frame rate" 7
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -958,7 +996,7 @@ outfit "flare korath flare small 1.0 7.5"
 	"flare sprite" "effect/korath flare/small"
 		"frame rate" 7.5
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -973,7 +1011,7 @@ outfit "flare korath flare tiny 1.0 8"
 	"flare sprite" "effect/korath flare/tiny"
 		"frame rate" 8
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -987,7 +1025,7 @@ outfit "flare medium graviton flare 1.0 1"
 	"mass" 1
 	"flare sprite" "effect/medium graviton flare"
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1002,7 +1040,7 @@ outfit "flare plasma exhaust 1.0 16"
 	"flare sprite" "effect/plasma exhaust"
 		"frame rate" 16
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1017,7 +1055,7 @@ outfit "flare plasma flare huge 1.0 9"
 	"flare sprite" "effect/plasma flare/huge"
 		"frame rate" 9
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1032,7 +1070,7 @@ outfit "flare plasma flare large 1.0 8"
 	"flare sprite" "effect/plasma flare/large"
 		"frame rate" 8
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1047,7 +1085,7 @@ outfit "flare plasma flare medium 1.0 7"
 	"flare sprite" "effect/plasma flare/medium"
 		"frame rate" 7
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1062,7 +1100,7 @@ outfit "flare plasma flare small 1.0 6"
 	"flare sprite" "effect/plasma flare/small"
 		"frame rate" 6
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1077,7 +1115,7 @@ outfit "flare plasma flare tiny 1.0 5"
 	"flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1092,7 +1130,7 @@ outfit "flare pug flare huge 1.0 23"
 	"flare sprite" "effect/pug flare/huge"
 		"frame rate" 23
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1107,7 +1145,7 @@ outfit "flare pug flare large 1.0 22"
 	"flare sprite" "effect/pug flare/large"
 		"frame rate" 22
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1122,7 +1160,7 @@ outfit "flare pug flare medium 1.0 20"
 	"flare sprite" "effect/pug flare/medium"
 		"frame rate" 20
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1137,7 +1175,7 @@ outfit "flare remnant flare large 1.0 3"
 	"flare sprite" "effect/remnant flare/large"
 		"frame rate" 3
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1152,7 +1190,7 @@ outfit "flare remnant flare medium 1.0 4"
 	"flare sprite" "effect/remnant flare/medium"
 		"frame rate" 4
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1167,7 +1205,7 @@ outfit "flare remnant flare small 1.0 5"
 	"flare sprite" "effect/remnant flare/small"
 		"frame rate" 5
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1182,7 +1220,7 @@ outfit "flare scin flare large 1.0 0.3"
 	"flare sprite" "effect/scin flare/large"
 		"frame rate" 0.3
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1197,7 +1235,7 @@ outfit "flare scin flare med 1.0 0.4"
 	"flare sprite" "effect/scin flare/med"
 		"frame rate" 0.4
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1212,7 +1250,7 @@ outfit "flare scin flare small 1.0 0.5"
 	"flare sprite" "effect/scin flare/small"
 		"frame rate" 0.5
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1227,7 +1265,7 @@ outfit "flare scin flare tiny 1.0 0.6"
 	"flare sprite" "effect/scin flare/tiny"
 		"frame rate" 0.6
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1242,7 +1280,7 @@ outfit "flare vi flare large 1.0 2.3"
 	"flare sprite" "effect/vi flare/large"
 		"frame rate" 2.3
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1257,7 +1295,7 @@ outfit "flare vi flare medium 1.0 2.4"
 	"flare sprite" "effect/vi flare/medium"
 		"frame rate" 2.4
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1272,7 +1310,7 @@ outfit "flare vi flare small 1.0 2.5"
 	"flare sprite" "effect/vi flare/small"
 		"frame rate" 2.5
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1287,7 +1325,7 @@ outfit "flare wanderer flare large 1.0 18"
 	"flare sprite" "effect/wanderer flare/large"
 		"frame rate" 18
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1302,7 +1340,7 @@ outfit "flare wanderer flare medium 1.0 16"
 	"flare sprite" "effect/wanderer flare/medium"
 		"frame rate" 16
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1317,7 +1355,7 @@ outfit "flare wanderer flare small 1.0 14"
 	"flare sprite" "effect/wanderer flare/small"
 		"frame rate" 14
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1332,7 +1370,7 @@ outfit "flare wanderer flare tiny 1.0 12"
 	"flare sprite" "effect/wanderer flare/tiny"
 		"frame rate" 12
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1347,7 +1385,7 @@ outfit "flare wanderer flare tiny 1.0 5"
 	"flare sprite" "effect/wanderer flare/tiny"
 		"frame rate" 5
 	series "Flareplay"
-	index 99900
+	index 99600
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1362,7 +1400,7 @@ outfit "reverse atomic flare small 1.0 13"
 	"reverse flare sprite" "effect/atomic flare/small"
 		"frame rate" 13
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1377,7 +1415,7 @@ outfit "reverse atomic flare tiny 1.0 14"
 	"reverse flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1393,7 +1431,7 @@ outfit "reverse avgi flare rcs 0.125 30"
 		"frame rate" 30
 		"scale" 0.125
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1409,7 +1447,7 @@ outfit "reverse avgi flare rcs 0.25 30"
 		"frame rate" 30
 		"scale" 0.25
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1425,7 +1463,7 @@ outfit "reverse avgi flare rcs 0.5 30"
 		"frame rate" 30
 		"scale" 0.5
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1440,7 +1478,7 @@ outfit "reverse coalition flare large 1.0 7"
 	"reverse flare sprite" "effect/coalition flare/large"
 		"frame rate" 7
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1455,7 +1493,7 @@ outfit "reverse coalition flare small 1.0 10"
 	"reverse flare sprite" "effect/coalition flare/small"
 		"frame rate" 10
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1471,7 +1509,7 @@ outfit "reverse fusionflare 1.0 30"
 		"frame rate" 30
 		"rewind"
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1486,7 +1524,7 @@ outfit "reverse ion flare tiny 1.0 1.2"
 	"reverse flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1501,7 +1539,7 @@ outfit "reverse korath flare huge 1.0 6"
 	"reverse flare sprite" "effect/korath flare/huge"
 		"frame rate" 6
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1516,7 +1554,7 @@ outfit "reverse korath flare large 1.0 6.5"
 	"reverse flare sprite" "effect/korath flare/large"
 		"frame rate" 6.5
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1531,7 +1569,7 @@ outfit "reverse korath flare medium 1.0 7"
 	"reverse flare sprite" "effect/korath flare/medium"
 		"frame rate" 7
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1546,7 +1584,7 @@ outfit "reverse korath flare small 1.0 7.5"
 	"reverse flare sprite" "effect/korath flare/small"
 		"frame rate" 7.5
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1561,7 +1599,7 @@ outfit "reverse korath flare tiny 1.0 8"
 	"reverse flare sprite" "effect/korath flare/tiny"
 		"frame rate" 8
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1576,7 +1614,7 @@ outfit "reverse plasma flare tiny 1.0 5"
 	"reverse flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1591,7 +1629,7 @@ outfit "reverse remnant flare medium 1.0 5"
 	"reverse flare sprite" "effect/remnant flare/medium"
 		"frame rate" 5
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1606,7 +1644,7 @@ outfit "reverse remnant flare small 1.0 5"
 	"reverse flare sprite" "effect/remnant flare/small"
 		"frame rate" 5
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1621,7 +1659,7 @@ outfit "reverse scin flare large 1.0 0.3"
 	"reverse flare sprite" "effect/scin flare/large"
 		"frame rate" 0.3
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1636,7 +1674,7 @@ outfit "reverse successor flare large 1.0 20"
 	"reverse flare sprite" "effect/successor flare/large"
 		"frame rate" 20
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1651,7 +1689,7 @@ outfit "reverse successor flare medium 1.0 20"
 	"reverse flare sprite" "effect/successor flare/medium"
 		"frame rate" 20
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1666,7 +1704,7 @@ outfit "reverse successor flare small 1.0 20"
 	"reverse flare sprite" "effect/successor flare/small"
 		"frame rate" 20
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1681,7 +1719,7 @@ outfit "reverse wanderer flare tiny 1.0 5"
 	"reverse flare sprite" "effect/wanderer flare/tiny"
 		"frame rate" 5
 	series "Flareplay"
-	index 99900
+	index 99700
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1696,7 +1734,7 @@ outfit "steering atomic flare huge 1.0 10"
 	"steering flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1711,7 +1749,7 @@ outfit "steering atomic flare large 1.0 11"
 	"steering flare sprite" "effect/atomic flare/large"
 		"frame rate" 11
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1726,7 +1764,7 @@ outfit "steering atomic flare medium 1.0 12"
 	"steering flare sprite" "effect/atomic flare/medium"
 		"frame rate" 12
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1741,7 +1779,7 @@ outfit "steering atomic flare small 1.0 13"
 	"steering flare sprite" "effect/atomic flare/small"
 		"frame rate" 13
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1756,7 +1794,7 @@ outfit "steering atomic flare tiny 1.0 14"
 	"steering flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1772,7 +1810,7 @@ outfit "steering avgi flare rcs 0.0625 30"
 		"frame rate" 30
 		"scale" 0.0625
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1788,7 +1826,7 @@ outfit "steering avgi flare rcs 0.125 30"
 		"frame rate" 30
 		"scale" 0.125
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1804,7 +1842,7 @@ outfit "steering avgi flare rcs 0.25 30"
 		"frame rate" 30
 		"scale" 0.25
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1820,7 +1858,7 @@ outfit "steering avgi flare rcs 0.5 15"
 		"frame rate" 15
 		"scale" 0.5
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1835,7 +1873,7 @@ outfit "steering coalition flare large 1.0 7"
 	"steering flare sprite" "effect/coalition flare/large"
 		"frame rate" 7
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1850,7 +1888,7 @@ outfit "steering coalition flare small 1.0 10"
 	"steering flare sprite" "effect/coalition flare/small"
 		"frame rate" 10
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1865,7 +1903,7 @@ outfit "steering efreti flare large 1.0 6.5"
 	"steering flare sprite" "effect/efreti flare/large"
 		"frame rate" 6.5
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1880,7 +1918,7 @@ outfit "steering efreti flare medium 1.0 7"
 	"steering flare sprite" "effect/efreti flare/medium"
 		"frame rate" 7
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1895,7 +1933,7 @@ outfit "steering efreti flare small 1.0 7.5"
 	"steering flare sprite" "effect/efreti flare/small"
 		"frame rate" 7.5
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1910,7 +1948,7 @@ outfit "steering efreti flare tiny 1.0 8"
 	"steering flare sprite" "effect/efreti flare/tiny"
 		"frame rate" 8
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1926,7 +1964,7 @@ outfit "steering fissionflare 1.0 30"
 		"frame rate" 30
 		"rewind"
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1942,7 +1980,7 @@ outfit "steering fusionflare 1.0 30"
 		"frame rate" 30
 		"rewind"
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1957,7 +1995,7 @@ outfit "steering ion flare huge 1.0 0.8"
 	"steering flare sprite" "effect/ion flare/huge"
 		"frame rate" 0.8
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1972,7 +2010,7 @@ outfit "steering ion flare large 1.0 0.9"
 	"steering flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -1987,7 +2025,7 @@ outfit "steering ion flare medium 1.0 1.0"
 	"steering flare sprite" "effect/ion flare/medium"
 		"frame rate" 1.0
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2002,7 +2040,7 @@ outfit "steering ion flare small 1.0 1.1"
 	"steering flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2017,7 +2055,7 @@ outfit "steering ion flare tiny 1.0 1.2"
 	"steering flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2032,7 +2070,7 @@ outfit "steering ka'het flare large 1.0 30"
 	"steering flare sprite" "effect/ka'het flare/large"
 		"frame rate" 30
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2047,7 +2085,7 @@ outfit "steering ka'het flare medium 1.0 30"
 	"steering flare sprite" "effect/ka'het flare/medium"
 		"frame rate" 30
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2062,7 +2100,7 @@ outfit "steering korath flare huge 1.0 6"
 	"steering flare sprite" "effect/korath flare/huge"
 		"frame rate" 6
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2077,7 +2115,7 @@ outfit "steering korath flare large 1.0 6.5"
 	"steering flare sprite" "effect/korath flare/large"
 		"frame rate" 6.5
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2092,7 +2130,7 @@ outfit "steering korath flare medium 1.0 7"
 	"steering flare sprite" "effect/korath flare/medium"
 		"frame rate" 7
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2107,7 +2145,7 @@ outfit "steering korath flare small 1.0 7.5"
 	"steering flare sprite" "effect/korath flare/small"
 		"frame rate" 7.5
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2122,7 +2160,7 @@ outfit "steering korath flare tiny 1.0 8"
 	"steering flare sprite" "effect/korath flare/tiny"
 		"frame rate" 8
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2136,7 +2174,7 @@ outfit "steering medium graviton flare 1.0 1"
 	"mass" 1
 	"steering flare sprite" "effect/medium graviton flare"
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2151,7 +2189,7 @@ outfit "steering plasma flare huge 1.0 9"
 	"steering flare sprite" "effect/plasma flare/huge"
 		"frame rate" 9
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2166,7 +2204,7 @@ outfit "steering plasma flare large 1.0 8"
 	"steering flare sprite" "effect/plasma flare/large"
 		"frame rate" 8
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2181,7 +2219,7 @@ outfit "steering plasma flare medium 1.0 7"
 	"steering flare sprite" "effect/plasma flare/medium"
 		"frame rate" 7
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2196,7 +2234,7 @@ outfit "steering plasma flare small 1.0 6"
 	"steering flare sprite" "effect/plasma flare/small"
 		"frame rate" 6
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2211,7 +2249,7 @@ outfit "steering plasma flare tiny 1.0 5"
 	"steering flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2226,7 +2264,7 @@ outfit "steering pug flare huge 1.0 23"
 	"steering flare sprite" "effect/pug flare/huge"
 		"frame rate" 23
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2241,7 +2279,7 @@ outfit "steering pug flare large 1.0 22"
 	"steering flare sprite" "effect/pug flare/large"
 		"frame rate" 22
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2256,7 +2294,7 @@ outfit "steering pug flare medium 1.0 20"
 	"steering flare sprite" "effect/pug flare/medium"
 		"frame rate" 20
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2271,7 +2309,7 @@ outfit "steering remnant flare large 1.0 3"
 	"steering flare sprite" "effect/remnant flare/large"
 		"frame rate" 3
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2286,7 +2324,7 @@ outfit "steering remnant flare medium 1.0 4"
 	"steering flare sprite" "effect/remnant flare/medium"
 		"frame rate" 4
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2301,7 +2339,7 @@ outfit "steering remnant flare small 1.0 5"
 	"steering flare sprite" "effect/remnant flare/small"
 		"frame rate" 5
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2316,7 +2354,7 @@ outfit "steering scin flare med 1.0 0.4"
 	"steering flare sprite" "effect/scin flare/med"
 		"frame rate" 0.4
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2331,7 +2369,7 @@ outfit "steering scin flare small 1.0 0.5"
 	"steering flare sprite" "effect/scin flare/small"
 		"frame rate" 0.5
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2346,7 +2384,7 @@ outfit "steering scin flare tiny 1.0 0.6"
 	"steering flare sprite" "effect/scin flare/tiny"
 		"frame rate" 0.6
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2361,7 +2399,7 @@ outfit "steering successor flare large 1.0 20"
 	"steering flare sprite" "effect/successor flare/large"
 		"frame rate" 20
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2376,7 +2414,7 @@ outfit "steering successor flare medium 1.0 20"
 	"steering flare sprite" "effect/successor flare/medium"
 		"frame rate" 20
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2391,7 +2429,7 @@ outfit "steering successor flare small 1.0 20"
 	"steering flare sprite" "effect/successor flare/small"
 		"frame rate" 20
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2406,7 +2444,7 @@ outfit "steering successor flare tiny 1.0 20"
 	"steering flare sprite" "effect/successor flare/tiny"
 		"frame rate" 20
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2421,7 +2459,7 @@ outfit "steering vi flare large 1.0 2.3"
 	"steering flare sprite" "effect/vi flare/large"
 		"frame rate" 2.3
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2436,7 +2474,7 @@ outfit "steering vi flare medium 1.0 2.4"
 	"steering flare sprite" "effect/vi flare/medium"
 		"frame rate" 2.4
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2451,7 +2489,7 @@ outfit "steering vi flare small 1.0 2.4"
 	"steering flare sprite" "effect/vi flare/small"
 		"frame rate" 2.4
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2466,7 +2504,7 @@ outfit "steering wanderer flare large 1.0 18"
 	"steering flare sprite" "effect/wanderer flare/large"
 		"frame rate" 18
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2481,7 +2519,7 @@ outfit "steering wanderer flare medium 1.0 16"
 	"steering flare sprite" "effect/wanderer flare/medium"
 		"frame rate" 16
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2496,7 +2534,7 @@ outfit "steering wanderer flare small 1.0 14"
 	"steering flare sprite" "effect/wanderer flare/small"
 		"frame rate" 14
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2511,7 +2549,7 @@ outfit "steering wanderer flare tiny 1.0 12"
 	"steering flare sprite" "effect/wanderer flare/tiny"
 		"frame rate" 12
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -2526,7 +2564,7 @@ outfit "steering wanderer flare tiny 1.0 5"
 	"steering flare sprite" "effect/wanderer flare/tiny"
 		"frame rate" 5
 	series "Flareplay"
-	index 99900
+	index 99800
 	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
@@ -3076,8 +3114,40 @@ outfit "chromatic vi_violet_2.5 2.0"
 	description `You don't know what it means or if it is important, but on the package you can read:`
 	description `'newcolors vi violet 2.5 sc:2.0/fr:2.5'`
 
-outfit "chromatic vi_yellow_2.5 1.0"
+outfit "chromatic ion_blue_0.8 1.0"
 	"display name" "FP0350 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_blue_0.8 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_blue_0.8"
+		"frame rate" 0.8
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion blue 0.8 sc:1.0/fr:0.8'`
+
+outfit "chromatic ion_blue_0.8 2.0"
+	"display name" "FP0360 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_blue_0.8 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_blue_0.8"
+		"frame rate" 0.8
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion blue 0.8 sc:2.0/fr:0.8'`
+
+outfit "chromatic vi_yellow_2.5 1.0"
+	"display name" "FP0370 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors vi_yellow_2.5 chromatic"
 	"cost" 50000
@@ -3093,7 +3163,7 @@ outfit "chromatic vi_yellow_2.5 1.0"
 	description `'newcolors vi yellow 2.5 sc:1.0/fr:2.5'`
 
 outfit "chromatic vi_yellow_2.5 2.0"
-	"display name" "FP0360 size: 2.0"
+	"display name" "FP0380 size: 2.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors vi_yellow_2.5 chromatic"
 	"cost" 100000
@@ -3109,7 +3179,7 @@ outfit "chromatic vi_yellow_2.5 2.0"
 	description `'newcolors vi yellow 2.5 sc:2.0/fr:2.5'`
 
 outfit "chromatic kahet_blue_30 1.0"
-	"display name" "FP0370 size: 1.0"
+	"display name" "FP0390 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_blue_30 chromatic"
 	"cost" 50000
@@ -3125,7 +3195,7 @@ outfit "chromatic kahet_blue_30 1.0"
 	description `'newcolors kahet blue 30 sc:1.0/fr:30'`
 
 outfit "chromatic kahet_blue_30 2.0"
-	"display name" "FP0380 size: 2.0"
+	"display name" "FP0400 size: 2.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_blue_30 chromatic"
 	"cost" 100000
@@ -3141,7 +3211,7 @@ outfit "chromatic kahet_blue_30 2.0"
 	description `'newcolors kahet blue 30 sc:2.0/fr:30'`
 
 outfit "chromatic kahet_green_30 1.0"
-	"display name" "FP0390 size: 1.0"
+	"display name" "FP0410 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_green_30 chromatic"
 	"cost" 50000
@@ -3157,7 +3227,7 @@ outfit "chromatic kahet_green_30 1.0"
 	description `'newcolors kahet green 30 sc:1.0/fr:30'`
 
 outfit "chromatic kahet_green_30 2.0"
-	"display name" "FP0400 size: 2.0"
+	"display name" "FP0420 size: 2.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_green_30 chromatic"
 	"cost" 100000
@@ -3173,7 +3243,7 @@ outfit "chromatic kahet_green_30 2.0"
 	description `'newcolors kahet green 30 sc:2.0/fr:30'`
 
 outfit "chromatic kahet_orange_30 1.0"
-	"display name" "FP0410 size: 1.0"
+	"display name" "FP0430 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_orange_30 chromatic"
 	"cost" 50000
@@ -3189,7 +3259,7 @@ outfit "chromatic kahet_orange_30 1.0"
 	description `'newcolors kahet orange 30 sc:1.0/fr:30'`
 
 outfit "chromatic kahet_orange_30 2.0"
-	"display name" "FP0420 size: 2.0"
+	"display name" "FP0440 size: 2.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_orange_30 chromatic"
 	"cost" 100000
@@ -3205,7 +3275,7 @@ outfit "chromatic kahet_orange_30 2.0"
 	description `'newcolors kahet orange 30 sc:2.0/fr:30'`
 
 outfit "chromatic kahet_purple_30 1.0"
-	"display name" "FP0430 size: 1.0"
+	"display name" "FP0450 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_purple_30 chromatic"
 	"cost" 50000
@@ -3221,7 +3291,7 @@ outfit "chromatic kahet_purple_30 1.0"
 	description `'newcolors kahet purple 30 sc:1.0/fr:30'`
 
 outfit "chromatic kahet_purple_30 2.0"
-	"display name" "FP0440 size: 2.0"
+	"display name" "FP0460 size: 2.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_purple_30 chromatic"
 	"cost" 100000
@@ -3237,7 +3307,7 @@ outfit "chromatic kahet_purple_30 2.0"
 	description `'newcolors kahet purple 30 sc:2.0/fr:30'`
 
 outfit "chromatic kahet_red_30 1.0"
-	"display name" "FP0450 size: 1.0"
+	"display name" "FP0470 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_red_30 chromatic"
 	"cost" 50000
@@ -3253,7 +3323,7 @@ outfit "chromatic kahet_red_30 1.0"
 	description `'newcolors kahet red 30 sc:1.0/fr:30'`
 
 outfit "chromatic kahet_red_30 2.0"
-	"display name" "FP0460 size: 2.0"
+	"display name" "FP0480 size: 2.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_red_30 chromatic"
 	"cost" 100000
@@ -3269,7 +3339,7 @@ outfit "chromatic kahet_red_30 2.0"
 	description `'newcolors kahet red 30 sc:2.0/fr:30'`
 
 outfit "chromatic kahet_yellow_30 1.0"
-	"display name" "FP0470 size: 1.0"
+	"display name" "FP0490 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_yellow_30 chromatic"
 	"cost" 50000
@@ -3285,7 +3355,7 @@ outfit "chromatic kahet_yellow_30 1.0"
 	description `'newcolors kahet yellow 30 sc:1.0/fr:30'`
 
 outfit "chromatic kahet_yellow_30 2.0"
-	"display name" "FP0480 size: 2.0"
+	"display name" "FP0500 size: 2.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/newcolors kahet_yellow_30 chromatic"
 	"cost" 100000
@@ -3299,3 +3369,579 @@ outfit "chromatic kahet_yellow_30 2.0"
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
 	description `'newcolors kahet yellow 30 sc:2.0/fr:30'`
+
+outfit "chromatic korath_blue_6 1.0"
+	"display name" "FP0510 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_blue_6 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_blue_6"
+		"frame rate" 6
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath blue 6 sc:1.0/fr:6'`
+
+outfit "chromatic korath_blue_6 2.0"
+	"display name" "FP0520 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_blue_6 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_blue_6"
+		"frame rate" 6
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath blue 6 sc:2.0/fr:6'`
+
+outfit "chromatic korath_dblue_6 1.0"
+	"display name" "FP0530 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_dblue_6 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_dblue_6"
+		"frame rate" 6
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath dblue 6 sc:1.0/fr:6'`
+
+outfit "chromatic korath_dblue_6 2.0"
+	"display name" "FP0540 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_dblue_6 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_dblue_6"
+		"frame rate" 6
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath dblue 6 sc:2.0/fr:6'`
+
+outfit "chromatic korath_green_6 1.0"
+	"display name" "FP0550 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_green_6 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_green_6"
+		"frame rate" 6
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath green 6 sc:1.0/fr:6'`
+
+outfit "chromatic korath_green_6 2.0"
+	"display name" "FP0560 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_green_6 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_green_6"
+		"frame rate" 6
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath green 6 sc:2.0/fr:6'`
+
+outfit "chromatic korath_purple_6 1.0"
+	"display name" "FP0570 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_purple_6 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_purple_6"
+		"frame rate" 6
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath purple 6 sc:1.0/fr:6'`
+
+outfit "chromatic korath_purple_6 2.0"
+	"display name" "FP0580 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_purple_6 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_purple_6"
+		"frame rate" 6
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath purple 6 sc:2.0/fr:6'`
+
+outfit "chromatic korath_red_6 1.0"
+	"display name" "FP0590 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_red_6 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_red_6"
+		"frame rate" 6
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath red 6 sc:1.0/fr:6'`
+
+outfit "chromatic korath_red_6 2.0"
+	"display name" "FP0600 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_red_6 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_red_6"
+		"frame rate" 6
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath red 6 sc:2.0/fr:6'`
+
+outfit "chromatic korath_yellow_6 1.0"
+	"display name" "FP0610 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_yellow_6 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_yellow_6"
+		"frame rate" 6
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath yellow 6 sc:1.0/fr:6'`
+
+outfit "chromatic korath_yellow_6 2.0"
+	"display name" "FP0620 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors korath_yellow_6 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/korath_yellow_6"
+		"frame rate" 6
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors korath yellow 6 sc:2.0/fr:6'`
+
+outfit "chromatic ion_green_0.8 1.0"
+	"display name" "FP0630 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_green_0.8 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_green_0.8"
+		"frame rate" 0.8
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion green 0.8 sc:1.0/fr:0.8'`
+
+outfit "chromatic ion_green_0.8 2.0"
+	"display name" "FP0640 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_green_0.8 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_green_0.8"
+		"frame rate" 0.8
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion green 0.8 sc:2.0/fr:0.8'`
+
+outfit "chromatic ion_pink_0.8 1.0"
+	"display name" "FP0650 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_pink_0.8 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_pink_0.8"
+		"frame rate" 0.8
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion pink 0.8 sc:1.0/fr:0.8'`
+
+outfit "chromatic ion_pink_0.8 2.0"
+	"display name" "FP0660 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_pink_0.8 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_pink_0.8"
+		"frame rate" 0.8
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion pink 0.8 sc:2.0/fr:0.8'`
+
+outfit "chromatic ion_purple_0.8 1.0"
+	"display name" "FP0670 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_purple_0.8 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_purple_0.8"
+		"frame rate" 0.8
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion purple 0.8 sc:1.0/fr:0.8'`
+
+outfit "chromatic ion_purple_0.8 2.0"
+	"display name" "FP0680 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_purple_0.8 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_purple_0.8"
+		"frame rate" 0.8
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion purple 0.8 sc:2.0/fr:0.8'`
+
+outfit "chromatic ion_red_0.8 1.0"
+	"display name" "FP0690 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_red_0.8 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_red_0.8"
+		"frame rate" 0.8
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion red 0.8 sc:1.0/fr:0.8'`
+
+outfit "chromatic ion_red_0.8 2.0"
+	"display name" "FP0700 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_red_0.8 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_red_0.8"
+		"frame rate" 0.8
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion red 0.8 sc:2.0/fr:0.8'`
+
+outfit "chromatic ion_yellow_0.8 1.0"
+	"display name" "FP0710 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_yellow_0.8 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_yellow_0.8"
+		"frame rate" 0.8
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion yellow 0.8 sc:1.0/fr:0.8'`
+
+outfit "chromatic ion_yellow_0.8 2.0"
+	"display name" "FP0720 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors ion_yellow_0.8 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/ion_yellow_0.8"
+		"frame rate" 0.8
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors ion yellow 0.8 sc:2.0/fr:0.8'`
+
+outfit "chromatic bun_blue_1 1.0"
+	"display name" "FP0730 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_blue_1 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_blue_1"
+		"frame rate" 1
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun blue 1 sc:1.0/fr:1'`
+
+outfit "chromatic bun_blue_1 2.0"
+	"display name" "FP0740 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_blue_1 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_blue_1"
+		"frame rate" 1
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun blue 1 sc:2.0/fr:1'`
+
+outfit "chromatic bun_green_1 1.0"
+	"display name" "FP0750 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_green_1 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_green_1"
+		"frame rate" 1
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun green 1 sc:1.0/fr:1'`
+
+outfit "chromatic bun_green_1 2.0"
+	"display name" "FP0760 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_green_1 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_green_1"
+		"frame rate" 1
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun green 1 sc:2.0/fr:1'`
+
+outfit "chromatic bun_pink_1 1.0"
+	"display name" "FP0770 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_pink_1 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_pink_1"
+		"frame rate" 1
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun pink 1 sc:1.0/fr:1'`
+
+outfit "chromatic bun_pink_1 2.0"
+	"display name" "FP0780 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_pink_1 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_pink_1"
+		"frame rate" 1
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun pink 1 sc:2.0/fr:1'`
+
+outfit "chromatic bun_purple_1 1.0"
+	"display name" "FP0790 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_purple_1 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_purple_1"
+		"frame rate" 1
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun purple 1 sc:1.0/fr:1'`
+
+outfit "chromatic bun_purple_1 2.0"
+	"display name" "FP0800 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_purple_1 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_purple_1"
+		"frame rate" 1
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun purple 1 sc:2.0/fr:1'`
+
+outfit "chromatic bun_red_1 1.0"
+	"display name" "FP0810 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_red_1 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_red_1"
+		"frame rate" 1
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun red 1 sc:1.0/fr:1'`
+
+outfit "chromatic bun_red_1 2.0"
+	"display name" "FP0820 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_red_1 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_red_1"
+		"frame rate" 1
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun red 1 sc:2.0/fr:1'`
+
+outfit "chromatic bun_yellow_1 1.0"
+	"display name" "FP0830 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_yellow_1 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_yellow_1"
+		"frame rate" 1
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun yellow 1 sc:1.0/fr:1'`
+
+outfit "chromatic bun_yellow_1 2.0"
+	"display name" "FP0840 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors bun_yellow_1 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/bun_yellow_1"
+		"frame rate" 1
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors bun yellow 1 sc:2.0/fr:1'`
+
+outfit "chromatic inci_rainbow_1 1.0"
+	"display name" "FP0850 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors inci_rainbow_1 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/inci_rainbow_1"
+		"frame rate" 1
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors inci rainbow 1 sc:1.0/fr:1'`
+
+outfit "chromatic inci_rainbow_1 2.0"
+	"display name" "FP0860 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors inci_rainbow_1 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/inci_rainbow_1"
+		"frame rate" 1
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors inci rainbow 1 sc:2.0/fr:1'`
