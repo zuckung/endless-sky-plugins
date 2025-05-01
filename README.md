@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-05-01 | update: mission.helper<br>
 2025-04-28 | update: flare.play<br>
 2025-04-26 | update: additional.command.buttons.radial<br>
 2025-04-21 | update: additional.command.buttons.radial<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-04-14 | update: planet.map<br>
 2025-04-13 | update: expert.crew.members<br>
 2025-04-13 | update: bunrodea.missions<br>
-2025-03-31 | new download counter for each plugin<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1679,9 +1679,9 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/flare.play/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/flare.play.png">
 
-[flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-flare.play/flare.play.zip) | 6.57 mb | 2025-04-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) <a href="res/imagemd/flare.play.md">view images</a> [418]<br>
+[flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-flare.play/flare.play.zip) | 6.57 mb | 2025-04-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) <a href="res/imagemd/flare.play.md">view images</a> [541]<br>
 <br>
->Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetically. Idea by 'Thermognuclear Missile' on discord. See the README for details.
+>Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by 'Thermognuclear Missile' on discord. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -1695,15 +1695,25 @@ Adds lots of engine flare outfits to the big shipyards and outfitters. These out
 
 <br>
 
-Adds a new outfitter with 203 cosmetic flare outfits to Wayfarer, Valhalla, Sunracer, Foundry and Solace. These flares get added to your normal engine flare. If your engine has a big flare and you add a tiny flare outfit, it is barely seen. Multiple flare outfits make the engine flare more intense. To use steering, reverse, or afterburner flares, your ship needs engine outfits with the regarding engine type. There are 155 vanilla flare outfits and 48 recolored flare outfits.<br>
+Adds a new outfitter with 241 cosmetic flare outfits to Wayfarer, Valhalla, Sunracer, Foundry and Solace. These flares get added to your normal engine flare. If your engine has a big flare and you add a tiny flare outfit, it is barely seen. Multiple flare outfits make the engine flare more intense. To use steering, reverse, or afterburner flares, your ship needs engine outfits with the regarding engine type. There are 155 vanilla flare outfits and 86 recolored flare outfits.<br>
 
-Missions and events: on day 1 after plugin installation, a mission shows up, explaining the new flare outfits. After 30 days, all human non-government fleets get a variant with flares; after 90 days, these fleets get another variant; and after 150 days they get the third variant.<br>
+Missions and events: On day 1 after plugin installation, a mission shows up, explaining the new flare outfits. After 30 days, all human fleets get a variant with flares; after 90 days, these fleets get another variant; and after 150 days they get the third variant.<br>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-01<br>
+
+fixed Vi violet flare<br>
+
+added 25 recolored Korath flares<br>
+
+added flares to human government fleets<br>
 
 <br>
 
@@ -2852,7 +2862,7 @@ initial release<br>
 <img src="myplugins/mission.helper/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/mission.helper.png">
 
-[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-mission.helper/mission.helper.zip) | 93.63 kb | 2025-02-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
+[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-mission.helper/mission.helper.zip) | 153.8 kb | 2025-05-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
 <br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 'source' and 'to offer' of these missions, so you can easily find them. See the README for details.
 
@@ -2875,6 +2885,16 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-01<br>
+
+added the choice to prevent race spoilers<br>
+
+removed races without missions<br>
+
+added icon@2x and improved plugin.txt<br>
 
 <br>
 
