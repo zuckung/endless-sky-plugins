@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-05-01 | update: flare.play<br>
 2025-05-01 | update: mission.helper<br>
 2025-04-28 | update: flare.play<br>
 2025-04-26 | update: additional.command.buttons.radial<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-04-16 | update: uniques<br>
 2025-04-14 | update: planet.map<br>
 2025-04-13 | update: expert.crew.members<br>
-2025-04-13 | update: bunrodea.missions<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1679,7 +1679,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/flare.play/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/flare.play.png">
 
-[flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-flare.play/flare.play.zip) | 6.57 mb | 2025-04-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) <a href="res/imagemd/flare.play.md">view images</a> [541]<br>
+[flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-flare.play/flare.play.zip) | 8.29 mb | 2025-05-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) <a href="res/imagemd/flare.play.md">view images</a> [541]<br>
 <br>
 >Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by 'Thermognuclear Missile' on discord. See the README for details.
 
