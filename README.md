@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-05-03 | update: additional.command.buttons.radial<br>
 2025-05-01 | update: flare.play<br>
 2025-05-01 | update: mission.helper<br>
 2025-04-28 | update: flare.play<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-04-17 | added repo template for download<br>
 2025-04-16 | update: uniques<br>
 2025-04-14 | update: planet.map<br>
-2025-04-13 | update: expert.crew.members<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -104,7 +104,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/additional.command.buttons.radial.png">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.21-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 358.39 kb | 2025-04-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [52]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.22-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 363.97 kb | 2025-05-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [52]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
