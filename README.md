@@ -2818,7 +2818,7 @@ initial release<br>
 <img src="myplugins/licenses/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/licenses.png">
 
-[licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-licenses/licenses.zip) | 928.85 kb | 2025-05-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/licenses/) <a href="res/imagemd/licenses.md">view images</a> [18]<br>
+[licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-licenses/licenses.zip) | 928.85 kb | 2025-05-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/licenses/) <a href="res/imagemd/licenses.md">view images</a> [18]<br>
 <br>
 >Adds several side missions to acquire unobtainable licenses. See the README for details.
 
@@ -2848,7 +2848,7 @@ This plugin gives missions for the 4 navy licenses, the 3 avgi license, the miss
 
   <li>Navy Carrier license</li>
 
-  <li>Avgi Torch License"</li>
+  <li>Avgi Torch License</li>
 
   <li>Avgi Atomics License</li>
 
