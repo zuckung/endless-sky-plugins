@@ -17,6 +17,8 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-05-08 | update: licenses<br>
+2025-05-03 | merged navy.licenses and avgi.licenses to licenses<br>
 2025-05-03 | update: additional.command.buttons.radial<br>
 2025-05-01 | update: flare.play<br>
 2025-05-01 | update: mission.helper<br>
@@ -25,8 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-04-21 | update: additional.command.buttons.radial<br>
 2025-04-18 | update: quarg.farm<br>
 2025-04-17 | added repo template for download<br>
-2025-04-16 | update: uniques<br>
-2025-04-14 | update: planet.map<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -40,7 +40,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#additionalcommandbuttonsradial">additional.command.buttons.radial</a><br>
 <a href="README.md#automatadestruction0percent">automata.destruction.0percent</a><br>
 <a href="README.md#automatainhumanspace">automata.in.human.space</a><br>
-<a href="README.md#avgilicenses">avgi.licenses</a><br>
 <a href="README.md#betterstarts">better.starts</a><br>
 <a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
 <a href="README.md#captureablepersonships">captureable.person.ships</a><br>
@@ -51,8 +50,8 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#flareplay">flare.play</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#highrollersltd">highrollers.ltd</a><br>
@@ -63,12 +62,12 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#landingimages">landing.images</a><br>
 <a href="README.md#landingimagesandroid">landing.images.android</a><br>
 <a href="README.md#landingimageshighres">landing.images.highres</a><br>
+<a href="README.md#licenses">licenses</a><br>
 <a href="README.md#missionhelper">mission.helper</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
-<a href="README.md#navylicenses">navy.licenses</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
 <a href="README.md#paintyourships">paint.your.ships</a><br>
@@ -463,49 +462,6 @@ added more fleet variants <br>
 reworked readme <br>
 
 changed icon.png<br>
-
-</blockquote>
-</details>
-
-<br>
-
-
----
-
-### avgi.licenses
-
-<img src="myplugins/avgi.licenses/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/avgi.licenses.png">
-
-[avgi.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-avgi.licenses/avgi.licenses.zip) | 375.21 kb | 2025-02-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/avgi.licenses/) <a href="res/imagemd/avgi.licenses.md">view images</a> [10]<br>
-<br>
->Adds a mission on 'Navigeo Yards' to get the 3 Avgi licenses. See the README for details.
-
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### avgi.licenses<br>
-
-<br>
-
-Adds a mission on "Navigeo Yards" to get the 3 Avgi licenses.<br>
-
-<br>
-
-<br>
-
-When you have completed the Avgi Intro (Avgi: Twilight Escape 3: done), land on "Navigeo Yards". You have a 20% chance kn getting the licenses mission, which leads you to the Gossamer system, where you have to mine some stuff and bring it back. Licenses have new images. You also get an unassigned Avgi unique.<br>
-
-<br>
-
-<br>
-
-Changelog:<br>
-
-<br>
-
-2025-02-06<br>
-
-initial release<br>
 
 </blockquote>
 </details>
@@ -2857,6 +2813,93 @@ initial release<br>
 
 ---
 
+### licenses
+
+<img src="myplugins/licenses/icon.png" height="100">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/licenses.png">
+
+[licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-licenses/licenses.zip) | 928.85 kb | 2025-05-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/licenses/) <a href="res/imagemd/licenses.md">view images</a> [18]<br>
+<br>
+>Adds several side missions to acquire unobtainable licenses. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### licenses
+
+<br>
+
+<br>
+
+Adds several side missions to acquire unobtainable licenses.<br>
+
+<br>
+
+<br>
+
+This plugin gives missions for the 4 navy licenses, the 3 avgi license, the missing incipias license, and the missing successors license.<br>
+
+<ul>
+
+  <li>Navy license</li>
+
+  <li>Navy Auxiliary license</li>
+
+  <li>Navy Cruiser license</li>
+
+  <li>Navy Carrier license</li>
+
+  <li>Avgi Torch License"</li>
+
+  <li>Avgi Atomics License</li>
+
+  <li>Twilight Guard License</li>
+
+  <li>Hicemus Conflict License</li>
+
+  <li>High Houses License</li>
+
+</ul>
+
+The Navy mission starts on 'Stormhold' with 500k credits for each license<br>
+
+The Avgi mission starts 'Navigeo Yard' with 'Avgi: Twilight Escape 3: done' and by 20% chance<br>
+
+The Incipias mission starts on 'Pon'tes' with 'Incipias: Help The Stranded 2: done'<br>
+
+The Successors boarding mission starts in 'Maspa-Mavra'<br>
+
+<br>
+
+This plugin merges my other plugins 'navy.licenses' and 'avgi.licenses', and adds the other licenses.<br>
+
+<br>
+
+For the 8 Gegno licenses use my plugin 'gegno.pirates'. And for a maybe missing Heliarch license use my plugin 'coalition.shopping'.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2025-05-08<br>
+
+merged navy.licenses with avgi.licenses and added more content<br>
+
+typo fixes(by snoggles)<br>
+
+
+
+</blockquote>
+</details>
+
+<br>
+
+
+---
+
 ### mission.helper
 
 <img src="myplugins/mission.helper/icon.png" height="100">
@@ -3307,86 +3350,6 @@ screenshots(click to enlarge):<br>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships01.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships02.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/more.person.ships03.jpg" width="200"></td>
-	</tr>
-</table>
-<br>
-
-<br>
-
-
----
-
-### navy.licenses
-
-<img src="myplugins/navy.licenses/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/navy.licenses.png">
-
-[navy.licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-navy.licenses/navy.licenses.zip) | 433.76 kb | 2024-11-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/navy.licenses/) <a href="res/imagemd/navy.licenses.md">view images</a> [6]<br>
-<br>
->Adds a mission on Stormhold (Alcyone system) which leads you to Geminus (Castor system) to buy the four Navy licenses. See the README for details.
-
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### navy.licenses
-
-<br>
-
-<br>
-
-Adds a mission on Stormhold (Alcyone system) which leads you to Geminus (Castor system) to buy the four Navy licenses.<br>
-
-<br>
-
-The mission can get started with 550,000 credits cash available. You have to pay 50,000 credits for making the contact and 500,000 credits for each of the four licenses.<br>
-
-If you reject the mission, you can restart it on other visits. Also not buying all licenses lets the buying mission on Geminus restart on other landings (until all are bought).<br>
-
-You get the following licenses: Navy license, Navy Auxiliary license, Navy Cruiser license, Navy Carrier license.<br>
-
-<br>
-
-<br>
-
-Changelog:<br>
-
-<br>
-
-2024-11-09<br>
-
-corrected scene size<br>
-
-added @2x images <br>
-
-<br>
-
-2024-06-07<br>
-
-text corrections (thx to TheGiraffe3)<br>
-
-<br>
-
-2024-05-04<br>
-
-added 2 scene images<br>
-
-added the option to buy single licenses<br>
-
-<br>
-
-2024-02-17<br>
-
-initial release<br>
-
-
-
-</blockquote>
-</details>
-<br>
-screenshots(click to enlarge):<br>
-<table>
-	<tr>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/navy.licenses01.jpg" width="200"></td>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/navy.licenses02.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
