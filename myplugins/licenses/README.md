@@ -10,7 +10,7 @@ This plugin gives missions for the 4 navy licenses, the 3 avgi license, the miss
   <li>Navy Auxiliary license</li>
   <li>Navy Cruiser license</li>
   <li>Navy Carrier license</li>
-  <li>Avgi Torch License"</li>
+  <li>Avgi Torch License</li>
   <li>Avgi Atomics License</li>
   <li>Twilight Guard License</li>
   <li>Hicemus Conflict License</li>
