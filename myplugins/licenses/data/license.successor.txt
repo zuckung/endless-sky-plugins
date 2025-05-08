@@ -1,0 +1,44 @@
+# outfit "High Houses License"
+# mission "get successors license"
+
+
+# missing outfits
+# "Bimodal Switch"
+# "Drag Projectile"
+
+# missing ship
+# 	"Aaulqra"
+
+# rep "Old Houses" 15 hab 2
+# "House Kaatrij" 2 hab 0
+# "People's Houses" 2 hab -7
+
+
+outfit "High Houses License"
+	thumbnail "outfit/successor licenseb"
+
+
+mission "get successors license"
+	landing
+	invisible
+	source
+		attributes "successor"
+	to complete
+		never
+	on enter "Maspa-Mavra"
+		dialog `On system entry, your usual system scan reveal an old derelict ship. It is worth a look.`
+	to fail
+		has "boarded high houses"
+	npc board
+		government "Derelict (Boardable)"
+		personality derelict mute marked
+		system "Maspa-Mavra"
+		ship "Kaskhorade" "Kijet"
+		on board
+			set "boarded high house"
+			set "license: High Houses"
+		conversation
+			scene "outfit/successor licenseb"
+			`You step through the breached airlock, your boots echoing in the dead silence. The ship is long gone, no hum of systems, no flicker of failing lights, just cold metal and drifting dust. The asteroid tore through the hull, leaving twisted corridors and shattered rooms. The crew is here, or what's left of them, frozen in place, long past caring.`
+			`You search out of habit, but there's nothing worth taking, no cargo, no weapons. Then, in a more lavish cabin, you find it: a "High Houses License", its seal still intact. A key to the upper echelons of the Successors, valuable in the right hands. You slip it into your pack. Even a dead ship can have one last gift to give.`
+				flee

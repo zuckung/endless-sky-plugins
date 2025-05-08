@@ -1,0 +1,57 @@
+# planet "Redias"
+# shipyard "Hicemus"
+# outfitter "Hicemus"
+# outfit "Hicemus Conflict License"
+# mission "get incipias stuff"
+
+
+
+planet "Redias"
+	shipyard "Hicemus"
+	outfitter "Hicemus"
+
+
+shipyard "Hicemus"
+	"Venta"
+
+
+outfitter "Hicemus"
+	"Star Tail"
+	"Star Tail Cell"
+	"Star Tail Storage"
+
+
+outfit "Hicemus Conflict License"
+	thumbnail "outfit/incipiaslicense"
+
+
+mission "get incipias stuff"
+	landing
+	name "Help the Incipias"
+	description "Bring a group of Incipias scientist to the three closest extra-solar gas giants."
+	source "Pon'tes"
+	stopover "Occupas"
+	stopover "Turra"
+	stopover "Igna"
+	to offer
+		has "Incipias: Help The Stranded 2: done"
+	on stopover
+		dialog `The scientists release the last sensor station into the athmosphere of the gas giant. Now head back to Pon'tes.`
+	on offer
+		conversation
+			`You land at Station Pon'tes. The docking bay lights glide over your ship's hull as the automatic sequence completes. The moment you step into the hangar, a secured message reaches you. An Incipias government representative is contacting you. You have helped them before, and your name seems well known. Your ship is what they need. They ask you to transport a team of scientists to three nearby systems to study their gas giants.`
+			`This mission is straightforward, no danger, no complications, just science and exploration. The government representative assures you of a generous reward and valuable data. What do you say?`
+			choice
+				`	I'm in. Get your equipment ready.`
+					accept
+				`	Not now. Maybe another time.`
+					defer
+	on complete
+		payment 200000
+		"reputation: Conlatio" += 10
+		set "license: Hicemus Conflict"
+		conversation
+			`You dock at the station, the mission complete. The scientists have their data, and everything went as planned. As you step out of your ship, you receive your reward: 200,000 credits and the eternal gratitude of the Incipias team.`
+			`Beyond the credits, you are granted a "Hicemus Conflict License", a valuable asset for future opportunities. And most importantly, you now have access to Planet "Redias", the homeworld of the Incipias, a world filled with new impressions.`
+
+

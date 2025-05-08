@@ -1,7 +1,6 @@
-better.starts
+licenses
 author:
 	zuckung 
 	https://github.com/zuckung/endless-sky-plugins
-images:
 	outfit, scene
 		ai generated at https://perchance.org/ai-text-to-image-generator

@@ -1,0 +1,4 @@
+name "licenses"
+about "Adds several side missions to acquire unobtainable licenses. See the README for details."
+authors
+	"zuckung"
