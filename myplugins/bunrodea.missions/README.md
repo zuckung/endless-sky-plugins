@@ -14,7 +14,7 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 Changelog:<br>
 <br>
 2025-05-19<br>
-typo fixes by snoogles<br>
+typo fixes by snoggles<br>
 <br>
 2025-04-13<br>
 added series for the 2 uniques<br>

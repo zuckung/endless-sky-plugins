@@ -21,7 +21,7 @@ Beside the cheater start options, all others are balanced and lore friendly. A b
 Changelog:<br>
 <br>
 2025-05-19<br>
-typo fixes by snoogles<br>
+typo fixes by snoggles<br>
 icon@2x, plugintxt changes<br>
 <br>
 2024-11-02 <br>

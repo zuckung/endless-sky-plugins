@@ -12,7 +12,7 @@ Beside showing the concept there is a storyline, 9 cities/outpost, 9 areas with 
 Changelog:<br>
 <br>
 2025-05-19<br>
-typo fixes by snoogles<br>
+typo fixes by snoggles<br>
 <br>
 2025-04-14<br>
 added @2x images<br>

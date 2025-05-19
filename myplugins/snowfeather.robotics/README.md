@@ -11,7 +11,7 @@ The new buyable worker androids are twice as expensive as the original ones, and
 Changelog:<br>
 <br>
 2025-05-19<br>
-typo fixes by snoogles<br>
+typo fixes by snoggles<br>
 icon@2x, plugintxt changes<br>
 <br>
 2024-11-09<br>

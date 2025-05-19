@@ -53,7 +53,7 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 Changelog:<br>
 <br>
 2025-05-19<br>
-typo fixes by snoogles<br>
+typo fixes by snoggles<br>
 <br>
 2025-04-16<br>
 change vanilla Trefoil Board, unique category<br>
