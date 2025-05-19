@@ -8,6 +8,9 @@ Accept the job and the reputations conversation pops up. Then you can choose bet
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+icon@2x, plugintxt changes<br>
+<br>
 22025-01-5<br>
 added 0.10.11 govs<br>
 <br>

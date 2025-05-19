@@ -9,6 +9,9 @@ Added bunrodean swarm pods change by timeout.fu. Now it fires less, but with mor
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+icon@2x, plugintxt changes<br>
+<br>
 2024-09-06<br>
 fixed weapon space bug of Model 256<br>
 <br>

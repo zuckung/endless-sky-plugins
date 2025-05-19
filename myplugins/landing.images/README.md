@@ -10,6 +10,9 @@ See all images by clicking the "view images link" on this site.<br>
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+abouttxt, README, icon@2x, plugintxt changes<br>
+<br>
 2024-10-06<br>
 added 53 landing images for 0.10.9 update<br>
 <br>

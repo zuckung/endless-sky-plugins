@@ -9,6 +9,10 @@ You can easily change the values in automata.txt for each ship ('"self destruct"
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+license, README, icon@2x, plugintxt changes<br>
+<br>
 2024-06-07<br>
 text corrections (thx to TheGiraffe3)<br>
 <br>

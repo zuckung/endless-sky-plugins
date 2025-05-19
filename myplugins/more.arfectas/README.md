@@ -7,6 +7,10 @@ Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets 
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+license, README, icon@2x, plugintxt changes<br>
+<br>
 2024-04-14<br>
 moved the system to eastern Bunrodea territory<br>
 renamed the system, adjusted objects, added a planet<br>

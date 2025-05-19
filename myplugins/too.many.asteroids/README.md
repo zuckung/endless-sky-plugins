@@ -10,6 +10,9 @@ Every of the 699 base game systems (0.10.11) is edited via a remove command for 
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+icon@2x, plugintxt changes<br>
+<br>
 2025-01-25<br>
 added the 0.10.11 systems<br>
 <br>

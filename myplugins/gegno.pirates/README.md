@@ -12,6 +12,10 @@ After gaining full reputation for all planets and obtaining all Gegno licenses y
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+icon@2x, plugintxt changes<br>
+<br>
 2025-03-11<br>
 gegno pirates are now hidden till the vanilla story is done<br>
 <br>

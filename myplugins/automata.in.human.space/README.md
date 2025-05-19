@@ -9,6 +9,9 @@ The chance to encounter previous Korath ships or automata is like 50/50. <br>
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+license, README, icon@2x, plugintxt changes<br>
+<br>
 2024-09-24<br>
 removed jumpdrive from fighters and drones and put them correctly into the carriers<br>
 adjusted some fleet variants<br>

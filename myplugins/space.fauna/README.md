@@ -8,6 +8,9 @@ There are 14 different organisms, 1 titan-sized, 3 superheavy-sized, 4 heavy-siz
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+license, README, icon@2x, plugintxt changes<br>
+<br>
 2024-05-03<br>
 added a titan-sized "queen" to each hive system(permanent mission npcs)<br>
 changed gun ports positions, amounts and damage <br>

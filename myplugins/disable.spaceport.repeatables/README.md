@@ -31,6 +31,9 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+license, README, icon@2x, plugintxt changes<br>
+<br>
 2024-05-26<br>
 added "Small Scale Delivery" from Kor Efret<br>
 <br>

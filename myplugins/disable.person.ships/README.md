@@ -24,6 +24,9 @@ Disables all 14 random spawning person ships.<br>
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+license, README, icon@2x, plugintxt changes<br>
+<br>
 2024-02-02<br>
 added 0.10.5 "Patrol Team"<br>
 <br>

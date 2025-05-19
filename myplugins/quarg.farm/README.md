@@ -8,6 +8,9 @@ The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Qu
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+plugintxt fix<br>
+<br>
 2025-04-18<br>
 added icon@2x<br>
 changed plugin.txt<br>

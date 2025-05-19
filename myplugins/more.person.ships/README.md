@@ -21,6 +21,9 @@ Planet Express | everywhere | Old Bessie (new ship, stats by timeout.fu)
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+icon@2x, plugintxt changes<br>
+<br>
 2024-10-15<br>
 added Futurama person ship (thx timeout.fu for stats and texts)<br>
 <br>

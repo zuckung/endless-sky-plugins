@@ -17,6 +17,10 @@ And removes hidden tag from "Devil-Hide" and "Al Hurr", both Hai Reveal systems.
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+license, README changes<br>
+<br>
 2024-09-06<br>
 removed HR status message from Pirate Troubles [1]<br>
 disabled the original missions, instead of a workaround<br>

@@ -9,6 +9,9 @@ On Earth's job board you can find a mission to change the color of the labels (l
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+icon@2x, plugintxt changes<br>
+<br>
 2025-02-13<br>
 added @2x images<br>
 added non-human labels<br>

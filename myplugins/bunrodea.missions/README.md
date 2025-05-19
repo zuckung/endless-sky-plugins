@@ -13,6 +13,9 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+<br>
 2025-04-13<br>
 added series for the 2 uniques<br>
 added @2xicon<br>

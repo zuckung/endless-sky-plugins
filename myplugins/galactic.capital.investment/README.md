@@ -24,6 +24,10 @@ Enable and disable the investment jobs/missions<br>
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+icon@2x, plugintxt changes<br>
+<br>
 2025-03-20<br>
 replaced colony ship sprite (new one created by 1010todd)<br>
 added the option to enable/disable job board investments/missions globally<br>

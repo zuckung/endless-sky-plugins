@@ -19,6 +19,9 @@ So lets call this plugin EXPERIMENTAL for now.<br>
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+license, README, icon@2x, plugintxt changes<br>
+<br>
 2024-05-14<br>
 fixed all events set not correct<br>
 fixed fw mission offered on clink<br>

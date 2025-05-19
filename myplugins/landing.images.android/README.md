@@ -16,6 +16,9 @@ That resizes the landing image and the frame to their half.<br>
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+icon@2x, plugintxt changes<br>
+<br>
 2024-08-09<br>
 minor text changes (thx to TheGiraffe3)<br>
 <br>

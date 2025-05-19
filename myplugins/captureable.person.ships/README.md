@@ -35,6 +35,10 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+icon@2x, plugintxt changes<br>
+<br>
 2025-01-27<br>
 added 0.10.11 person "Danau"<br>
 <br>

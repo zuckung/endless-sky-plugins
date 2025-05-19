@@ -9,6 +9,10 @@ To start the mission to enable these outfitters and shipyards, you have to join 
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+icon@2x, plugintxt changes<br>
+<br>
 2024-11-09<br>
 corrected scene size<br>
 added @2x images<br>

@@ -8,6 +8,10 @@ After completing the Kestrel mission chain, every 30 days a new variant is unloc
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+icon@2x, plugintxt changes<br>
+<br>
 2024-08-18<br>
 initial release<br>
 

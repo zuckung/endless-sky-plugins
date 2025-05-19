@@ -10,6 +10,9 @@ Currently there are 7 gun port outfits and 6 turret port outfits. Available on G
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+icon@2x, plugintxt changes<br>
+<br>
 2024-08-30<br>
 initial release<br>
 

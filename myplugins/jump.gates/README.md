@@ -9,6 +9,10 @@ These jump gates are technically just wormholes with new sprites. The jump gate 
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+icon@2x, plugintxt changes<br>
+<br>
 2025-02-07<br>
 removed label images and added wormhole names <br>
 added @2x images<br>

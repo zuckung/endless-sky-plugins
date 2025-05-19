@@ -52,6 +52,9 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 <br>
 Changelog:<br>
 <br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+<br>
 2025-04-16<br>
 change vanilla Trefoil Board, unique category<br>
 change vanilla Damselflyman, unique category, new picture<br>
