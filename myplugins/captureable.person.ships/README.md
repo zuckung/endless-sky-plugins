@@ -36,7 +36,7 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 Changelog:<br>
 <br>
 2025-05-19<br>
-typo fixes by snoogles<br>
+typo fixes by snoggles<br>
 icon@2x, plugintxt changes<br>
 <br>
 2025-01-27<br>

@@ -74,7 +74,7 @@ Available outfits:<br>
 Changelog:<br>
 <br>
 2025-05-19<br>
-added "Farves GP Hybrid Steering" (by snoogles)<br>
+added "Farves GP Hybrid Steering" (by snoggles)<br>
 icon@2x, plugintxt changes<br>
 <br>
 2024-11-04<br>

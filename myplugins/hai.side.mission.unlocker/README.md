@@ -18,7 +18,7 @@ And removes hidden tag from "Devil-Hide" and "Al Hurr", both Hai Reveal systems.
 Changelog:<br>
 <br>
 2025-05-19<br>
-typo fixes by snoogles<br>
+typo fixes by snoggles<br>
 license, README changes<br>
 <br>
 2024-09-06<br>

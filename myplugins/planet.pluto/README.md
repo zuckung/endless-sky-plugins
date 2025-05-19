@@ -8,7 +8,7 @@ Adds Pluto and Charon to the Sol system, including a heartbreaking background st
 Changelog:
 <br>
 2025-05-19<br>
-typo fixes by snoogles<br>
+typo fixes by snoggles<br>
 <br>
 2024-11-25<br>
 initial release<br>

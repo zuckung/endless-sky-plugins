@@ -10,7 +10,7 @@ Every won round has a chance of increasing your skill for this special game. The
 Changelog:<br>
 <br>
 2025-05-19<br>
-typo fixes by snoogles<br>
+typo fixes by snoggles<br>
 icon@2x, plugintxt changes<br>
 <br>
 2025-03-14<br>

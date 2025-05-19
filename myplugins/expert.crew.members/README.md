@@ -14,7 +14,7 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 Changelog:<br>
 <br>
 2025-05-19<br>
-typo fixes by snoogles<br>
+typo fixes by snoggles<br>
 <br>
 2025-04-14<br>
 added more of stat3<br>
