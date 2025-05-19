@@ -57,7 +57,7 @@ mission "Boarding Korath Cloak (big ships)"
 		outfit "Cloaking Device" 1
 		conversation
 			scene "scene/boarding01"
-			`As you board the "<origin>", the crew entrenches on strategical positions. You aren't sure if you can capture a ship with such a huge crew, but you can definitely search some undefended storage rooms for valuable loot. In a room two decks below the entry, you stumble over something you didn't see. You heard rumors of Korath ships experimenting with some kind of cloaking device, so you take that mysterious invisible thing to your ship.`
+			`As you board the "<origin>", the crew entrenches themselves in strategic positions. You aren't sure if you can capture a ship with such a huge crew, but you can definitely search some undefended storage rooms for valuable loot. In a room two decks below the entry, you stumble over something you didn't see. You’ve heard rumors of Korath ships experimenting with some kind of cloaking device, so you decide to bring the mysterious invisible object aboard your ship.`
 				decline
 
 
@@ -75,5 +75,5 @@ mission "Boarding Korath Cloak (Heavy Warship)"
 		outfit "Cloaking Device" 1
 		conversation
 			scene "scene/boarding02"
-			`As you board the "<origin>", the crew entrenches on strategical positions. You aren't sure if you can capture a ship with such a huge crew, but you can definitely search some undefended storage rooms for valuable loot. In a room two decks below the entry, you stumble over something you didn't see. You heard rumors of Korath ships experimenting with some kind of cloaking device, so you take that mysterious invisible thing to your ship.`
+			`As you board the "<origin>", the crew entrenches themselves in strategic positions. You aren't sure if you can capture a ship with such a huge crew, but you can definitely search some undefended storage rooms for valuable loot. In a room two decks below the entry, you stumble over something you didn't see. You’ve heard rumors of Korath ships experimenting with some kind of cloaking device, so you decide to bring the mysterious invisible object aboard your ship.`
 				decline
