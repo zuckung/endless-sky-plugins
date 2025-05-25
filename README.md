@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-05-25 | update: combat.ai<br>
 2025-05-08 | update: licenses<br>
 2025-05-03 | merged navy.licenses and avgi.licenses to licenses<br>
 2025-05-03 | update: additional.command.buttons.radial<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-04-26 | update: additional.command.buttons.radial<br>
 2025-04-21 | update: additional.command.buttons.radial<br>
 2025-04-18 | update: quarg.farm<br>
-2025-04-17 | added repo template for download<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -44,14 +44,15 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
 <a href="README.md#captureablepersonships">captureable.person.ships</a><br>
 <a href="README.md#coalitionshopping">coalition.shopping</a><br>
+<a href="README.md#combatai">combat.ai</a><br>
 <a href="README.md#controlstation">control.station</a><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#flareplay">flare.play</a><br>
 <a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
-<a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#highrollersltd">highrollers.ltd</a><br>
@@ -65,8 +66,8 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#licenses">licenses</a><br>
 <a href="README.md#missionhelper">mission.helper</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
-<a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
@@ -364,6 +365,14 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+license, README, icon@2x, plugintxt changes<br>
+
+<br>
+
 2024-06-07<br>
 
 text corrections (thx to TheGiraffe3)<br>
@@ -438,6 +447,12 @@ The chance to encounter previous Korath ships or automata is like 50/50. <br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+license, README, icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -523,6 +538,14 @@ Beside the cheater start options, all others are balanced and lore friendly. A b
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -646,6 +669,12 @@ Since it's often questioned, here is a guide to the bunrodea first contact missi
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+typo fixes by snoggles<br>
 
 <br>
 
@@ -925,6 +954,14 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+icon@2x, plugintxt changes<br>
+
+<br>
+
 2025-01-27<br>
 
 added 0.10.11 person "Danau"<br>
@@ -1082,6 +1119,14 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+icon@2x, plugintxt changes<br>
+
+<br>
+
 2024-11-09<br>
 
 corrected scene size<br>
@@ -1141,6 +1186,69 @@ screenshots(click to enlarge):<br>
 
 ---
 
+### combat.ai
+
+<img src="myplugins/combat.ai/icon.png" height="100">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/combat.ai.png">
+
+[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-combat.ai/combat.ai.zip) | 326.09 kb | 2025-05-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
+<br>
+>Offers a mission to install a combat AI, which increases your ship stats based on combat experience. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### combat.ai
+
+<br>
+
+<br>
+
+Offers a mission to install a combat AI, which increases your ship stats based on combat experience.<br>
+
+<br>
+
+You can get the mission to install the AI on any human planet.<br>
+
+Every 3,000 combat xp you can choose between 8 basic updates, every 7,000 between 7 advanced updates, and every 11,000 between 14 special updates.<br>
+
+Some updates have max ranks and others can get raised infinitely. These updates are done by adding invisible outfits with stats to the ship.<br>
+
+If you change your ship or lose the unique combat AI outfit, a restoring mission installs everything that has been lost on the (new) ship.<br>
+
+Some mechanics and ideas are inspired by Zoura's excellent plugin "Tales of Apoxys DX" . My plugin is less complex, doesn't needs a fresh start, and is more flexible.<br>
+
+<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2025-05-25<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/combat.ai01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
+
+
+---
+
 ### control.station
 
 <img src="myplugins/control.station/icon.png" height="100">
@@ -1191,6 +1299,12 @@ So lets call this plugin EXPERIMENTAL for now.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+license, README, icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -1304,6 +1418,12 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+license, README, icon@2x, plugintxt changes<br>
+
+<br>
+
 2024-02-02<br>
 
 added 0.10.5 "Patrol Team"<br>
@@ -1404,6 +1524,12 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+license, README, icon@2x, plugintxt changes<br>
+
+<br>
+
 2024-05-26<br>
 
 added "Small Scale Delivery" from Kor Efret<br>
@@ -1479,6 +1605,12 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+typo fixes by snoggles<br>
 
 <br>
 
@@ -1607,6 +1739,7 @@ added 20 more crew members<br>
 2023-09-19<br>
 
 initial release<br>
+
 </blockquote>
 </details>
 <br>
@@ -1741,6 +1874,12 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+license, README, icon@2x, plugintxt changes<br>
+
+<br>
+
 2023-10-17<br>
 
 added plugin.txt<br>
@@ -1814,6 +1953,14 @@ Enable and disable the investment jobs/missions<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -1962,6 +2109,14 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+icon@2x, plugintxt changes<br>
+
+<br>
+
 2025-03-11<br>
 
 gegno pirates are now hidden till the vanilla story is done<br>
@@ -2094,6 +2249,14 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+license, README changes<br>
+
+<br>
+
 2024-09-06<br>
 
 removed HR status message from Pirate Troubles [1]<br>
@@ -2157,6 +2320,14 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+icon@2x, plugintxt changes<br>
+
+<br>
+
 2025-03-14<br>
 
 typo fix (thx zanano)<br>
@@ -2217,6 +2388,12 @@ On Earth's job board you can find a mission to change the color of the labels (l
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -2311,6 +2488,14 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+icon@2x, plugintxt changes<br>
+
+<br>
+
 2025-02-07<br>
 
 removed label images and added wormhole names <br>
@@ -2383,6 +2568,14 @@ After completing the Kestrel mission chain, every 30 days a new variant is unloc
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -2561,6 +2754,14 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+added "Farves GP Hybrid Steering" (by snoggles)<br>
+
+icon@2x, plugintxt changes<br>
+
+<br>
+
 2024-11-04<br>
 
 added korath ammunition (thx to MeretiJane)<br>
@@ -2586,6 +2787,7 @@ added 28 korath outfits(no weapons)<br>
 added new icon.png<br>
 
 reworked readme<br>
+
 </blockquote>
 </details>
 
@@ -2626,6 +2828,12 @@ See all images by clicking the "view images link" on this site.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+abouttxt, README, icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -2711,6 +2919,12 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+icon@2x, plugintxt changes<br>
+
+<br>
+
 2024-08-09<br>
 
 minor text changes (thx to TheGiraffe3)<br>
@@ -2784,6 +2998,12 @@ Adds images with 1440x720 resolution. The landing.images plugin is still needed.
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -3024,6 +3244,14 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+license, README, icon@2x, plugintxt changes<br>
+
+<br>
+
 2024-04-14<br>
 
 moved the system to eastern Bunrodea territory<br>
@@ -3041,6 +3269,7 @@ added support for more.boarding.missions<br>
 2023-10-17<br>
 
 added plugin.txt<br>
+
 </blockquote>
 </details>
 <br>
@@ -3134,6 +3363,14 @@ Only natural spawning ships can trigger these missions and ships spawned from jo
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -3311,6 +3548,12 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+icon@2x, plugintxt changes<br>
+
+<br>
+
 2024-10-15<br>
 
 added Futurama person ship (thx timeout.fu for stats and texts)<br>
@@ -3402,6 +3645,12 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+icon@2x, plugintxt changes<br>
+
+<br>
+
 2024-09-06<br>
 
 fixed weapon space bug of Model 256<br>
@@ -3469,6 +3718,12 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+icon@2x, plugintxt changes<br>
+
+<br>
+
 2024-08-30<br>
 
 initial release<br>
@@ -3520,6 +3775,12 @@ There are already like five plugins that change the swizzle color, but this one 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -3582,6 +3843,12 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+<br>
+
 2025-04-14<br>
 
 added @2x images<br>
@@ -3633,6 +3900,7 @@ added 4 new locations, with 2 new backgrounds<br>
 2024-03-24<br>
 
 initial release<br>
+
 </blockquote>
 </details>
 <br>
@@ -3683,6 +3951,10 @@ Changelog:
 
 <br>
 
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
 <br>
 
 2024-11-25<br>
@@ -3725,6 +3997,12 @@ The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Qu
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+plugintxt fix<br>
 
 <br>
 
@@ -3803,6 +4081,12 @@ Accept the job and the reputations conversation pops up. Then you can choose bet
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -3886,6 +4170,14 @@ Changelog:<br>
 
 <br>
 
+2025-05-19<br>
+
+typo fixes by snoggles<br>
+
+icon@2x, plugintxt changes<br>
+
+<br>
+
 2024-11-09<br>
 
 corrected scene size<br>
@@ -3935,6 +4227,7 @@ added plugin.txt<br>
 2023-08-29<br>
 
 removed remnant mission requirement<br>
+
 </blockquote>
 </details>
 <br>
@@ -3981,6 +4274,12 @@ There are 14 different organisms, 1 titan-sized, 3 superheavy-sized, 4 heavy-siz
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+license, README, icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -4055,6 +4354,12 @@ Every of the 699 base game systems (0.10.11) is edited via a remove command for 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -4146,6 +4451,12 @@ To prevent mission-related changes overwriting this plugin, activate it, when yo
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+icon@2x, plugintxt changes<br>
 
 <br>
 
@@ -4293,6 +4604,12 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-05-19<br>
+
+typo fixes by snoggles<br>
 
 <br>
 
