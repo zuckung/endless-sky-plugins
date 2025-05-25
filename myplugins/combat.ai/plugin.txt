@@ -1,0 +1,4 @@
+name "combat.ai"
+about "Offers a mission to install a combat AI, which increases your ship stats based on combat experience. See the README for details."
+authors
+	"zuckung"

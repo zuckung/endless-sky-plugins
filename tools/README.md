@@ -2,6 +2,10 @@
 <br>
 <table>
 <tr>
+<td>plugin_script_combat_ai</td>
+<td>generates the outfits and the missions for the plugin combat.ai out of a simplified text file containing the outfits and mission templates.</td>
+</tr>
+<tr>
 <td>plugin_script_expert_crew_members</td>
 <td>generates the mission and outfit files for the plugin expert.crew.members out of a simplified text file containing the experts.</td>
 </tr>
