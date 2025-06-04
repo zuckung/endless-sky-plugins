@@ -1191,7 +1191,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/combat.ai/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/combat.ai.png">
 
-[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-combat.ai/combat.ai.zip) | 327.25 kb | 2025-06-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
+[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-combat.ai/combat.ai.zip) | 327.26 kb | 2025-06-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
 <br>
 >Offers a mission to install a combat AI, which increases your ship stats based on combat experience. See the README for details.
 
