@@ -1,20 +1,24 @@
 # outfits: # outfitname|displayname|maxRanks|stat1|stat2|...
-basic_outfit_space|Basic: Outfit Space +2|-|"outfit space" 2
-basic_cargo_space|Basic: Cargo Space +2|-|"cargo space" 2
+basic_outfit_space|Basic: Outfit Space +3|-|"outfit space" 2
+basic_cargo_space|Basic: Cargo Space +3|-|"cargo space" 2
 basic_bunks|Basic: Bunks +1|-|"bunks" 1
-basic_weapon_capacity|Basic: Weapon Capacity +2|-|"weapon capacity" 2
-basic_engine_capacity|Basic: Engine Capacity +2|-|"engine capacity" 2
+basic_weapon_capacity|Basic: Weapon Capacity +3|-|"weapon capacity" 2
+basic_engine_capacity|Basic: Engine Capacity +3|-|"engine capacity" 2
 basic_fuel_capacity|Basic: Fuel Capacity +100|-|"fuel capacity" 100
-basic_cooling|Basic: Cooling +10|-|"cooling" 10
+basic_cooling|Basic: Cooling +600|-|"cooling" 10
 basic_energy_capacity|Basic: Energy Capacity +2000|-|"energy capacity" 2000
 
 advanced_hull|Advanced: Hull +2000 +2%|-|"hull multiplier" .02|"hull" 2000
-advanced_hull_repair|Advanced: Hull Repair +0.2 +2%|-|"hull repair multiplier" .02|"hull repair rate" 0.2
+advanced_hull_repair|Advanced: Hull Repair +12 +2%|-|"hull repair multiplier" .02|"hull repair rate" 0.2
 advanced_shield|Advanced: Shield +2000 +2%|-|"shield multiplier" .02|"shields" 2000
-advanced_shield_generation|Advanced: Shield Generation +1 +2%|-|"shield generation multiplier" .02|"shield generation" 1
+advanced_shield_generation|Advanced: Shield Gen. +60 +2%|-|"shield generation multiplier" .02|"shield generation" 1
 advanced_acceleration|Advanced: Acceleration +2%|-|"acceleration multiplier" .02
 advanced_turn|Advanced: Turn +2%|-|"turn multiplier" .02
 advanced_protection|Advanced: Protection +0.02|-|"ion protection" .02|"heat protection" .02|"burn protection" .02|"fuel protection" .02|"leak protection" .02|"scramble protection" .02|"slowing protection" .02|"disruption protection" .02
+advanced_weapon_capacity|Advanced: Weapon Capacity +10|10|"weapon capacity" 2
+advanced_engine_capacity|Advanced: Engine Capacity +10|10|"engine capacity" 2
+advanced_bunks|Advanced: Bunks +5|10|"bunks" 5
+
 
 special_refueling|Special: Refueling|-|"ramscoop" 2|"fuel generation" .05
 special_more_outfit_space|Special: Outfit Space +20|10|"outfit space" 20
@@ -27,27 +31,25 @@ special_capture_attack|Special: Capture Attack +200|3|"capture attack" 200
 special_capture_defense|Special: Capture Defense +200|3|"capture defense" 200
 special_spinal_mount|Special: Spinal Mount|1|"spinal mount" 1
 special_landing_speed|Special: Landing Speed|1|"landing speed" .08
-special_recovery_time|Special: Recovery Time|1|"disabled recovery time" 1200
-special_inscrutable|Special: Inscrutable|1|"inscrutable" 1
+special_recovery_time|Special: Disabled Recovery 20s|1|"disabled recovery time" 1200
+special_inscrutable|Special: Scanning Immunity|1|"inscrutable" 1
 special_pressure_hull|Special: Pressure Hull|1|"gaslining" 1|"waterlining" 1
 
 
-
-# xp: # basic|advanced|special
-3000|7000|11000
-
+# xp:
+300|700|1100
 
 
 # outfit core:
 outfit "combat_ai_core"
 	"display name" "Combat AI Core"
 	"plural" "Combat AI Core"
+	thumbnail "outfit/unq_combat_ai"
 	category "Unique"
 	series "Functional Unique"
 	index 01100
-	thumbnail "outfit/unq_combat_ai"
 	"unplunderable" 1
-	description `This is a database update for the combat AI.`
+	description `This is the core of the combat AI.`
 
 
 
@@ -55,10 +57,10 @@ outfit "combat_ai_core"
 outfit "combat_ai_<outfitname>"
 	"display name" "<displayname>"
 	"plural" "<displayname>"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index <index>
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 <stats>
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -66,7 +68,7 @@ outfit "combat_ai_<outfitname>"
 
 
 # mission 1: replaced: <outfitvar>
-mission "combat_ai_setup"
+mission "combat_ai_start"
 	non-blocking
 	landing
 	invisible
@@ -74,13 +76,17 @@ mission "combat_ai_setup"
 		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
 	on offer
 		outfit "combat_ai_core" 1
-		"start combat rating" = "combat rating"
-		"old combat rating 1" = "start combat rating"
-		"old combat rating 2" = "start combat rating"
-		"old combat rating 3" = "start combat rating"
-		"installed combat 1" = 0
-		"installed combat 2" = 0
-		"installed combat 3" = 0
+		"combat_ai_fresh_start_update" = 1
+		"combat_ai_start_combat_rating" = "combat rating"
+		"combat_ai_old_combat_rating1" = "combat_ai_start_combat_rating"
+		"combat_ai_old_combat_rating2" = "combat_ai_start_combat_rating"
+		"combat_ai_old_combat_rating3" = "combat_ai_start_combat_rating"
+		"combat_ai_needed_xp1" = 300
+		"combat_ai_needed_xp2" = 700
+		"combat_ai_needed_xp3" = 1100
+		"combat_ai_installed_combat1" = 0
+		"combat_ai_installed_combat2" = 0
+		"combat_ai_installed_combat3" = 0
 <outfitvar>
 		conversation
 			scene "outfit/unq_bsod"
@@ -109,7 +115,7 @@ mission "combat_ai_setup"
 
 
 
-# mission 2: # replaced: <xp1>, <xp2>, <xp3>, <basic>, <advanced>, <special>
+# mission 2: # replaced: <basic>, <advanced>, <special>
 mission "combat_ai_update"
 	non-blocking
 	landing
@@ -117,113 +123,223 @@ mission "combat_ai_update"
 	repeat
 	to offer
 		has "outfit (flagship installed): combat_ai_core"
+		"combat_ai_fresh_start_update" == 1
 		or
-			"combat rating" - "old combat rating 1" > <xp1>
-			"combat rating" - "old combat rating 2" > <xp2>
-			"combat rating" - "old combat rating 3" > <xp3>
+			"combat rating" - "combat_ai_old_combat_rating1" > "combat_ai_needed_xp1"
+			"combat rating" - "combat_ai_old_combat_rating2" > "combat_ai_needed_xp2"
+			"combat rating" - "combat_ai_old_combat_rating3" > "combat_ai_needed_xp3"
 	on offer		
 		conversation
 			label "setup"
 			action
-				"xp1" = <xp1>
-				"xp2" = <xp2>
-				"xp3" = <xp3>
-				"all xp gain" = "combat rating" - "start combat rating"
-				"since last visit" = "all xp gain" - "old combat rating 1"
-				"since last visit2" = "all xp gain" - "old combat rating 2"
-				"since last visit3" = "all xp gain" - "old combat rating 3"
-				"updates1" = "since last visit" / "xp1"
-				"updates2" = "since last visit2" / "xp2"
-				"updates3" = "since last visit3" / "xp3"
-				"oldinstalled1" = "installed combat 1"
-				"oldinstalled2" = "installed combat 2"
-				"oldinstalled3" = "installed combat 3"
-				"fullupdates1" = "oldinstalled1" + "updates1"
-				"fullupdates2" = "oldinstalled2" + "updates2"
-				"fullupdates3" = "oldinstalled3" + "updates3"
+				"combat_ai_all_xp_gain" = "combat rating" - "combat_ai_start_combat_rating"
+				"combat_ai_updates1" = 0
+				"combat_ai_updates2" = 0
+				"combat_ai_updates3" = 0
+				"combat_ai_count_xp1" = "combat_ai_needed_xp1"
+				"combat_ai_count_xp2" = "combat_ai_needed_xp2"
+				"combat_ai_count_xp3" = "combat_ai_needed_xp3"
+				"combat_ai_old_combat_rating_count1" = "combat_ai_old_combat_rating1"
+				"combat_ai_old_combat_rating_count2" = "combat_ai_old_combat_rating2"
+				"combat_ai_old_combat_rating_count3" = "combat_ai_old_combat_rating3"
 			` `
+
+			label "count updates1"
+			branch "count updates2"
+				"combat rating" - "combat_ai_old_combat_rating_count1" < "combat_ai_count_xp1"
+			branch "count max1"
+				"combat_ai_count_xp1" == 2850
+			label "not count max1"
+			action
+				"combat_ai_updates1" += 1
+				"combat_ai_old_combat_rating_count1" += "combat_ai_count_xp1"
+				"combat_ai_count_xp1" += 150
+			branch "count updates1"
+			label "count max1"
+			action
+				"combat_ai_updates1" += 1
+				"combat_ai_old_combat_rating_count1" += "combat_ai_count_xp1"
+			branch "count updates1"
+
+			label "count updates2"
+			branch "count updates3"
+				"combat rating" - "combat_ai_old_combat_rating_count2" < "combat_ai_count_xp2"
+			branch "count max2"
+				"combat_ai_count_xp2" == 6650
+			label "not count max2"
+			action
+				"combat_ai_updates2" += 1
+				"combat_ai_old_combat_rating_count2" += "combat_ai_count_xp2"
+				"combat_ai_count_xp2" += 350
+			branch "count updates2"
+			label "count max2"
+			action
+				"combat_ai_updates2" += 1
+				"combat_ai_old_combat_rating_count2" += "combat_ai_count_xp2"
+			branch "count updates2"
+
+			label "count updates3"
+			branch "postcounting"
+				"combat rating" - "combat_ai_old_combat_rating_count3" < "combat_ai_count_xp3"
+			branch "count max3"
+				"combat_ai_count_xp3" == 10450
+			label "not count max3"
+			action
+				"combat_ai_updates3" += 1
+				"combat_ai_old_combat_rating_count3" += "combat_ai_count_xp3"
+				"combat_ai_count_xp3" += 550
+			branch "count updates3"
+			label "count max3"
+			action
+				"combat_ai_updates3" += 1
+				"combat_ai_old_combat_rating_count3" += "combat_ai_count_xp3"
+			branch "count updates3"
+
+			label "postcounting"
+			action
+				"combat_ai_updates1" += "combat_ai_installed_combat1"
+				"combat_ai_updates2" += "combat_ai_installed_combat2"
+				"combat_ai_updates3" += "combat_ai_installed_combat3"
+
 			label "start1"
 			branch "2"
-				"combat rating" - "old combat rating 1" < "xp1"
+				"combat rating" - "combat_ai_old_combat_rating1" < "combat_ai_needed_xp1"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai next rank2" = "combat_ai old combat rating 2" + "combat_ai_needed_xp2"
+				"combat_ai next rank3" = "combat_ai old combat rating 3" + "combat_ai_needed_xp3"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
+			branch "max1"
+				"combat_ai_needed_xp1" == 2850
+			label "not max1"
 			action
-				"installed combat 1" ++
-				"old combat rating 1" += "xp1"
-			`	Basic Update to Rank &[installed combat 1] of &[fullupdates1]...`
+				"combat_ai_installed_combat1" ++
+				"combat_ai_old_combat_rating1" += "combat_ai_needed_xp1"
+				"combat_ai_needed_xp1" += 150
+			`	Basic Update to Rank &[combat_ai_installed_combat1] ...`
+				goto "continue1"
+			label "max1"
+			action
+				"combat_ai_installed_combat1" ++
+				"combat_ai_old_combat_rating1" += "combat_ai_needed_xp1"
+			`	Basic Update to Rank &[combat_ai_installed_combat1] ...`
+			label "continue1"
 			choice
 <basic>
 			label "2"
 			branch "3"
-				"updates2" == 0
+				"combat rating" - "combat_ai_old_combat_rating2" < "combat_ai_needed_xp2"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			` `
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			choice
-				`	continue to advanced updates`
+				`	continue to Advanced Updates`
 			label "start2"
 			branch "3"
-				"combat rating" - "old combat rating 2" < "xp2"
+				"combat rating" - "combat_ai_old_combat_rating2" < "combat_ai_needed_xp2"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
+			branch "max2"
+				"combat_ai_needed_xp2" == 6650
+			label "not max2"
 			action
-				"installed combat 2" ++
-				"old combat rating 2" += "xp2"
-			`	Advanced Update to Rank &[installed combat 2] of &[fullupdates2]...`
+				"combat_ai_installed_combat2" ++
+				"combat_ai_old_combat_rating2" += "combat_ai_needed_xp2"
+				"combat_ai_needed_xp2" += 350
+			`	Basic Update to Rank &[combat_ai_installed_combat2] ...`
+				goto "continue2"
+			label "max2"
+			action
+				"combat_ai_installed_combat2" ++
+				"combat_ai_old_combat_rating2" += "combat_ai_needed_xp2"
+			`	Basic Update to Rank &[combat_ai_installed_combat2] ...`
+			label "continue2"
 			choice
 <advanced>
 			label "3"
 			branch "end"
-				"updates3" == 0
+				"combat rating" - "combat_ai_old_combat_rating3" < "combat_ai_needed_xp3"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			` `
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			choice
-				`	continue to special updates`
+				`	continue to Special Updates`
 			label "start3"
 			branch "end"
-				"combat rating" - "old combat rating 3" < "xp3"
+				"combat rating" - "combat_ai_old_combat_rating3" < "combat_ai_needed_xp3"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			` `
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
+			branch "max3"
+				"combat_ai_needed_xp3" == 10450
+			label "not max3"
 			action
-				"installed combat 3" ++
-				"old combat rating 3" += "xp3"
-			`	Special Update to Rank &[installed combat 3] of &[fullupdates3]...`
+				"combat_ai_installed_combat3" ++
+				"combat_ai_old_combat_rating3" += "combat_ai_needed_xp3"
+				"combat_ai_needed_xp3" += 550
+			`	Basic Update to Rank &[combat_ai_installed_combat3] ...`
+				goto "continue3"
+			label "max3"
+			action
+				"combat_ai_installed_combat3" ++
+				"combat_ai_old_combat_rating3" += "combat_ai_needed_xp3"
+			`	Basic Update to Rank &[combat_ai_installed_combat3] ...`
+			label "continue3"
 			choice
 <special>
 			label "end"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			`AI Database update complete!`
 				decline
@@ -237,7 +353,8 @@ mission "combat_ai_lost"
 	invisible
 	landing
 	to offer
-		has "combat_ai_setup: declined"
+		has "combat_ai_start: declined"
+		"combat_ai_fresh_start_update" == 1
 		or
 			not "outfit (flagship installed): combat_ai_core"
 <conditions>
@@ -259,3 +376,31 @@ mission "combat_ai_lost"
 			label "end"
 			`AI restored!`
 				decline
+
+
+# mission 4: # replaced: <basic>, <advanced>, <special>
+mission "combat_ai_new_update"
+	non-blocking 
+	repeat
+	invisible
+	landing
+	to offer
+		"combat_ai_fresh_start_update" != 1
+	on offer
+		conversation
+			label "start"
+			scene "outfit/unq_combat_ai"
+			`Plugin Combat.AI got updated! Due to changes, the experience and outfits reset now!`
+			label "checkcore"
+			branch "check basic_outfit_space"
+				"outfit (flagship installed): combat_ai_core" == 0
+			action
+				outfit "combat_ai_core" -1
+			branch "checkcore"	
+<basic>
+<advanced>
+<special>
+			label "end"
+			`Done!`
+				decline
+

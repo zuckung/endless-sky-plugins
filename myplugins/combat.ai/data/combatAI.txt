@@ -1,33 +1,33 @@
 outfit "combat_ai_core"
 	"display name" "Combat AI Core"
 	"plural" "Combat AI Core"
+	thumbnail "outfit/unq_combat_ai"
 	category "Unique"
 	series "Functional Unique"
 	index 01100
-	thumbnail "outfit/unq_combat_ai"
 	"unplunderable" 1
-	description `This is a database update for the combat AI.`
+	description `This is the core of the combat AI.`
 
 
 outfit "combat_ai_basic_outfit_space"
-	"display name" "Basic: Outfit Space +2"
-	"plural" "Basic: Outfit Space +2"
+	"display name" "Basic: Outfit Space +3"
+	"plural" "Basic: Outfit Space +3"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01101
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"outfit space" 2
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
 
 outfit "combat_ai_basic_cargo_space"
-	"display name" "Basic: Cargo Space +2"
-	"plural" "Basic: Cargo Space +2"
+	"display name" "Basic: Cargo Space +3"
+	"plural" "Basic: Cargo Space +3"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01101
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"cargo space" 2
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -36,34 +36,34 @@ outfit "combat_ai_basic_cargo_space"
 outfit "combat_ai_basic_bunks"
 	"display name" "Basic: Bunks +1"
 	"plural" "Basic: Bunks +1"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01101
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"bunks" 1
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
 
 outfit "combat_ai_basic_weapon_capacity"
-	"display name" "Basic: Weapon Capacity +2"
-	"plural" "Basic: Weapon Capacity +2"
+	"display name" "Basic: Weapon Capacity +3"
+	"plural" "Basic: Weapon Capacity +3"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01101
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"weapon capacity" 2
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
 
 outfit "combat_ai_basic_engine_capacity"
-	"display name" "Basic: Engine Capacity +2"
-	"plural" "Basic: Engine Capacity +2"
+	"display name" "Basic: Engine Capacity +3"
+	"plural" "Basic: Engine Capacity +3"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01101
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"engine capacity" 2
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -72,22 +72,22 @@ outfit "combat_ai_basic_engine_capacity"
 outfit "combat_ai_basic_fuel_capacity"
 	"display name" "Basic: Fuel Capacity +100"
 	"plural" "Basic: Fuel Capacity +100"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01101
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"fuel capacity" 100
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
 
 outfit "combat_ai_basic_cooling"
-	"display name" "Basic: Cooling +10"
-	"plural" "Basic: Cooling +10"
+	"display name" "Basic: Cooling +600"
+	"plural" "Basic: Cooling +600"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01101
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"cooling" 10
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -96,10 +96,10 @@ outfit "combat_ai_basic_cooling"
 outfit "combat_ai_basic_energy_capacity"
 	"display name" "Basic: Energy Capacity +2000"
 	"plural" "Basic: Energy Capacity +2000"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01101
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"energy capacity" 2000
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -108,10 +108,10 @@ outfit "combat_ai_basic_energy_capacity"
 outfit "combat_ai_advanced_hull"
 	"display name" "Advanced: Hull +2000 +2%"
 	"plural" "Advanced: Hull +2000 +2%"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01102
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"hull multiplier" .02
 	"hull" 2000
 	"unplunderable" 1
@@ -119,12 +119,12 @@ outfit "combat_ai_advanced_hull"
 
 
 outfit "combat_ai_advanced_hull_repair"
-	"display name" "Advanced: Hull Repair +0.2 +2%"
-	"plural" "Advanced: Hull Repair +0.2 +2%"
+	"display name" "Advanced: Hull Repair +12 +2%"
+	"plural" "Advanced: Hull Repair +12 +2%"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01102
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"hull repair multiplier" .02
 	"hull repair rate" 0.2
 	"unplunderable" 1
@@ -134,10 +134,10 @@ outfit "combat_ai_advanced_hull_repair"
 outfit "combat_ai_advanced_shield"
 	"display name" "Advanced: Shield +2000 +2%"
 	"plural" "Advanced: Shield +2000 +2%"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01102
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"shield multiplier" .02
 	"shields" 2000
 	"unplunderable" 1
@@ -145,12 +145,12 @@ outfit "combat_ai_advanced_shield"
 
 
 outfit "combat_ai_advanced_shield_generation"
-	"display name" "Advanced: Shield Generation +1 +2%"
-	"plural" "Advanced: Shield Generation +1 +2%"
+	"display name" "Advanced: Shield Gen. +60 +2%"
+	"plural" "Advanced: Shield Gen. +60 +2%"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01102
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"shield generation multiplier" .02
 	"shield generation" 1
 	"unplunderable" 1
@@ -160,10 +160,10 @@ outfit "combat_ai_advanced_shield_generation"
 outfit "combat_ai_advanced_acceleration"
 	"display name" "Advanced: Acceleration +2%"
 	"plural" "Advanced: Acceleration +2%"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01102
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"acceleration multiplier" .02
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -172,10 +172,10 @@ outfit "combat_ai_advanced_acceleration"
 outfit "combat_ai_advanced_turn"
 	"display name" "Advanced: Turn +2%"
 	"plural" "Advanced: Turn +2%"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01102
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"turn multiplier" .02
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -184,10 +184,10 @@ outfit "combat_ai_advanced_turn"
 outfit "combat_ai_advanced_protection"
 	"display name" "Advanced: Protection +0.02"
 	"plural" "Advanced: Protection +0.02"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01102
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"ion protection" .02
 	"heat protection" .02
 	"burn protection" .02
@@ -200,13 +200,49 @@ outfit "combat_ai_advanced_protection"
 	description `This is a database update for the combat AI.`
 
 
+outfit "combat_ai_advanced_weapon_capacity"
+	"display name" "Advanced: Weapon Capacity +10"
+	"plural" "Advanced: Weapon Capacity +10"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+	"weapon capacity" 2
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
+outfit "combat_ai_advanced_engine_capacity"
+	"display name" "Advanced: Engine Capacity +10"
+	"plural" "Advanced: Engine Capacity +10"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+	"engine capacity" 2
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
+outfit "combat_ai_advanced_bunks"
+	"display name" "Advanced: Bunks +5"
+	"plural" "Advanced: Bunks +5"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+	"bunks" 5
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
 outfit "combat_ai_special_refueling"
 	"display name" "Special: Refueling"
 	"plural" "Special: Refueling"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"ramscoop" 2
 	"fuel generation" .05
 	"unplunderable" 1
@@ -216,10 +252,10 @@ outfit "combat_ai_special_refueling"
 outfit "combat_ai_special_more_outfit_space"
 	"display name" "Special: Outfit Space +20"
 	"plural" "Special: Outfit Space +20"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"outfit space" 20
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -228,10 +264,10 @@ outfit "combat_ai_special_more_outfit_space"
 outfit "combat_ai_special_more_cargo_space"
 	"display name" "Special: Cargo Space +20"
 	"plural" "Special: Cargo Space +20"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"cargo space" 20
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -240,10 +276,10 @@ outfit "combat_ai_special_more_cargo_space"
 outfit "combat_ai_special_turret_turn"
 	"display name" "Special: Turret Turn Rate"
 	"plural" "Special: Turret Turn Rate"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"turret turn multiplier" .4
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -252,10 +288,10 @@ outfit "combat_ai_special_turret_turn"
 outfit "combat_ai_special_force_protection"
 	"display name" "Special: Force Protection"
 	"plural" "Special: Force Protection"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"force protection" 0.2
 	"slowing resistance" 0.5
 	"unplunderable" 1
@@ -265,10 +301,10 @@ outfit "combat_ai_special_force_protection"
 outfit "combat_ai_special_scanner"
 	"display name" "Special: Scanner"
 	"plural" "Special: Scanner"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"strategic scan power" 30
 	"range finder power" 1
 	"crew scan power" 30
@@ -291,10 +327,10 @@ outfit "combat_ai_special_scanner"
 outfit "combat_ai_special_drag_reduction"
 	"display name" "Special: Drag Reduction +0.2"
 	"plural" "Special: Drag Reduction +0.2"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"drag reduction" .2
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -303,10 +339,10 @@ outfit "combat_ai_special_drag_reduction"
 outfit "combat_ai_special_capture_attack"
 	"display name" "Special: Capture Attack +200"
 	"plural" "Special: Capture Attack +200"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"capture attack" 200
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -315,10 +351,10 @@ outfit "combat_ai_special_capture_attack"
 outfit "combat_ai_special_capture_defense"
 	"display name" "Special: Capture Defense +200"
 	"plural" "Special: Capture Defense +200"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"capture defense" 200
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -327,10 +363,10 @@ outfit "combat_ai_special_capture_defense"
 outfit "combat_ai_special_spinal_mount"
 	"display name" "Special: Spinal Mount"
 	"plural" "Special: Spinal Mount"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"spinal mount" 1
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -339,34 +375,34 @@ outfit "combat_ai_special_spinal_mount"
 outfit "combat_ai_special_landing_speed"
 	"display name" "Special: Landing Speed"
 	"plural" "Special: Landing Speed"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"landing speed" .08
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
 
 outfit "combat_ai_special_recovery_time"
-	"display name" "Special: Recovery Time"
-	"plural" "Special: Recovery Time"
+	"display name" "Special: Disabled Recovery 20s"
+	"plural" "Special: Disabled Recovery 20s"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"disabled recovery time" 1200
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
 
 outfit "combat_ai_special_inscrutable"
-	"display name" "Special: Inscrutable"
-	"plural" "Special: Inscrutable"
+	"display name" "Special: Scanning Immunity"
+	"plural" "Special: Scanning Immunity"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"inscrutable" 1
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
@@ -375,17 +411,19 @@ outfit "combat_ai_special_inscrutable"
 outfit "combat_ai_special_pressure_hull"
 	"display name" "Special: Pressure Hull"
 	"plural" "Special: Pressure Hull"
+	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
-	index 01103
-	thumbnail "outfit/unq_combat_ai"
+	index 01100
 	"gaslining" 1
 	"waterlining" 1
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
 
-mission "combat_ai_setup"
+
+
+mission "combat_ai_start"
 	non-blocking
 	landing
 	invisible
@@ -393,42 +431,49 @@ mission "combat_ai_setup"
 		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
 	on offer
 		outfit "combat_ai_core" 1
-		"start combat rating" = "combat rating"
-		"old combat rating 1" = "start combat rating"
-		"old combat rating 2" = "start combat rating"
-		"old combat rating 3" = "start combat rating"
-		"installed combat 1" = 0
-		"installed combat 2" = 0
-		"installed combat 3" = 0
-		"installed basic_outfit_space" = 0
-		"installed basic_cargo_space" = 0
-		"installed basic_bunks" = 0
-		"installed basic_weapon_capacity" = 0
-		"installed basic_engine_capacity" = 0
-		"installed basic_fuel_capacity" = 0
-		"installed basic_cooling" = 0
-		"installed basic_energy_capacity" = 0
-		"installed advanced_hull" = 0
-		"installed advanced_hull_repair" = 0
-		"installed advanced_shield" = 0
-		"installed advanced_shield_generation" = 0
-		"installed advanced_acceleration" = 0
-		"installed advanced_turn" = 0
-		"installed advanced_protection" = 0
-		"installed special_refueling" = 0
-		"installed special_more_outfit_space" = 0
-		"installed special_more_cargo_space" = 0
-		"installed special_turret_turn" = 0
-		"installed special_force_protection" = 0
-		"installed special_scanner" = 0
-		"installed special_drag_reduction" = 0
-		"installed special_capture_attack" = 0
-		"installed special_capture_defense" = 0
-		"installed special_spinal_mount" = 0
-		"installed special_landing_speed" = 0
-		"installed special_recovery_time" = 0
-		"installed special_inscrutable" = 0
-		"installed special_pressure_hull" = 0
+		"combat_ai_fresh_start_update" = 1
+		"combat_ai_start_combat_rating" = "combat rating"
+		"combat_ai_old_combat_rating1" = "combat_ai_start_combat_rating"
+		"combat_ai_old_combat_rating2" = "combat_ai_start_combat_rating"
+		"combat_ai_old_combat_rating3" = "combat_ai_start_combat_rating"
+		"combat_ai_needed_xp1" = 300
+		"combat_ai_needed_xp2" = 700
+		"combat_ai_needed_xp3" = 1100
+		"combat_ai_installed_combat1" = 0
+		"combat_ai_installed_combat2" = 0
+		"combat_ai_installed_combat3" = 0
+		"combat_ai_installed_basic_outfit_space" = 0
+		"combat_ai_installed_basic_cargo_space" = 0
+		"combat_ai_installed_basic_bunks" = 0
+		"combat_ai_installed_basic_weapon_capacity" = 0
+		"combat_ai_installed_basic_engine_capacity" = 0
+		"combat_ai_installed_basic_fuel_capacity" = 0
+		"combat_ai_installed_basic_cooling" = 0
+		"combat_ai_installed_basic_energy_capacity" = 0
+		"combat_ai_installed_advanced_hull" = 0
+		"combat_ai_installed_advanced_hull_repair" = 0
+		"combat_ai_installed_advanced_shield" = 0
+		"combat_ai_installed_advanced_shield_generation" = 0
+		"combat_ai_installed_advanced_acceleration" = 0
+		"combat_ai_installed_advanced_turn" = 0
+		"combat_ai_installed_advanced_protection" = 0
+		"combat_ai_installed_advanced_weapon_capacity" = 0
+		"combat_ai_installed_advanced_engine_capacity" = 0
+		"combat_ai_installed_advanced_bunks" = 0
+		"combat_ai_installed_special_refueling" = 0
+		"combat_ai_installed_special_more_outfit_space" = 0
+		"combat_ai_installed_special_more_cargo_space" = 0
+		"combat_ai_installed_special_turret_turn" = 0
+		"combat_ai_installed_special_force_protection" = 0
+		"combat_ai_installed_special_scanner" = 0
+		"combat_ai_installed_special_drag_reduction" = 0
+		"combat_ai_installed_special_capture_attack" = 0
+		"combat_ai_installed_special_capture_defense" = 0
+		"combat_ai_installed_special_spinal_mount" = 0
+		"combat_ai_installed_special_landing_speed" = 0
+		"combat_ai_installed_special_recovery_time" = 0
+		"combat_ai_installed_special_inscrutable" = 0
+		"combat_ai_installed_special_pressure_hull" = 0
 		conversation
 			scene "outfit/unq_bsod"
 			`After landing, you connect your ship's console to the local information network to search for a job. You're unsure whether a cargo run or a passenger transport would be more profitable.`
@@ -462,426 +507,503 @@ mission "combat_ai_update"
 	repeat
 	to offer
 		has "outfit (flagship installed): combat_ai_core"
+		"combat_ai_fresh_start_update" == 1
 		or
-			"combat rating" - "old combat rating 1" > 3000
-			"combat rating" - "old combat rating 2" > 7000
-			"combat rating" - "old combat rating 3" > 11000
+			"combat rating" - "combat_ai_old_combat_rating1" > "combat_ai_needed_xp1"
+			"combat rating" - "combat_ai_old_combat_rating2" > "combat_ai_needed_xp2"
+			"combat rating" - "combat_ai_old_combat_rating3" > "combat_ai_needed_xp3"
 	on offer		
 		conversation
 			label "setup"
 			action
-				"xp1" = 3000
-				"xp2" = 7000
-				"xp3" = 11000
-				"all xp gain" = "combat rating" - "start combat rating"
-				"since last visit" = "all xp gain" - "old combat rating 1"
-				"since last visit2" = "all xp gain" - "old combat rating 2"
-				"since last visit3" = "all xp gain" - "old combat rating 3"
-				"updates1" = "since last visit" / "xp1"
-				"updates2" = "since last visit2" / "xp2"
-				"updates3" = "since last visit3" / "xp3"
-				"oldinstalled1" = "installed combat 1"
-				"oldinstalled2" = "installed combat 2"
-				"oldinstalled3" = "installed combat 3"
-				"fullupdates1" = "oldinstalled1" + "updates1"
-				"fullupdates2" = "oldinstalled2" + "updates2"
-				"fullupdates3" = "oldinstalled3" + "updates3"
+				"combat_ai_all_xp_gain" = "combat rating" - "combat_ai_start_combat_rating"
+				"combat_ai_updates1" = 0
+				"combat_ai_updates2" = 0
+				"combat_ai_updates3" = 0
+				"combat_ai_count_xp1" = "combat_ai_needed_xp1"
+				"combat_ai_count_xp2" = "combat_ai_needed_xp2"
+				"combat_ai_count_xp3" = "combat_ai_needed_xp3"
+				"combat_ai_old_combat_rating_count1" = "combat_ai_old_combat_rating1"
+				"combat_ai_old_combat_rating_count2" = "combat_ai_old_combat_rating2"
+				"combat_ai_old_combat_rating_count3" = "combat_ai_old_combat_rating3"
 			` `
+			label "count updates1"
+			branch "count updates2"
+				"combat rating" - "combat_ai_old_combat_rating_count1" < "combat_ai_count_xp1"
+			branch "count max1"
+				"combat_ai_count_xp1" == 2850
+			label "not count max1"
+			action
+				"combat_ai_updates1" += 1
+				"combat_ai_old_combat_rating_count1" += "combat_ai_count_xp1"
+				"combat_ai_count_xp1" += 150
+			branch "count updates1"
+			label "count max1"
+			action
+				"combat_ai_updates1" += 1
+				"combat_ai_old_combat_rating_count1" += "combat_ai_count_xp1"
+			branch "count updates1"
+			label "count updates2"
+			branch "count updates3"
+				"combat rating" - "combat_ai_old_combat_rating_count2" < "combat_ai_count_xp2"
+			branch "count max2"
+				"combat_ai_count_xp2" == 6650
+			label "not count max2"
+			action
+				"combat_ai_updates2" += 1
+				"combat_ai_old_combat_rating_count2" += "combat_ai_count_xp2"
+				"combat_ai_count_xp2" += 350
+			branch "count updates2"
+			label "count max2"
+			action
+				"combat_ai_updates2" += 1
+				"combat_ai_old_combat_rating_count2" += "combat_ai_count_xp2"
+			branch "count updates2"
+			label "count updates3"
+			branch "postcounting"
+				"combat rating" - "combat_ai_old_combat_rating_count3" < "combat_ai_count_xp3"
+			branch "count max3"
+				"combat_ai_count_xp3" == 10450
+			label "not count max3"
+			action
+				"combat_ai_updates3" += 1
+				"combat_ai_old_combat_rating_count3" += "combat_ai_count_xp3"
+				"combat_ai_count_xp3" += 550
+			branch "count updates3"
+			label "count max3"
+			action
+				"combat_ai_updates3" += 1
+				"combat_ai_old_combat_rating_count3" += "combat_ai_count_xp3"
+			branch "count updates3"
+			label "postcounting"
+			action
+				"combat_ai_updates1" += "combat_ai_installed_combat1"
+				"combat_ai_updates2" += "combat_ai_installed_combat2"
+				"combat_ai_updates3" += "combat_ai_installed_combat3"
 			label "start1"
 			branch "2"
-				"combat rating" - "old combat rating 1" < "xp1"
+				"combat rating" - "combat_ai_old_combat_rating1" < "combat_ai_needed_xp1"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai next rank2" = "combat_ai old combat rating 2" + "combat_ai_needed_xp2"
+				"combat_ai next rank3" = "combat_ai old combat rating 3" + "combat_ai_needed_xp3"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
+			branch "max1"
+				"combat_ai_needed_xp1" == 2850
+			label "not max1"
 			action
-				"installed combat 1" ++
-				"old combat rating 1" += "xp1"
-			`	Basic Update to Rank &[installed combat 1] of &[fullupdates1]...`
+				"combat_ai_installed_combat1" ++
+				"combat_ai_old_combat_rating1" += "combat_ai_needed_xp1"
+				"combat_ai_needed_xp1" += 150
+			`	Basic Update to Rank &[combat_ai_installed_combat1] ...`
+				goto "continue1"
+			label "max1"
+			action
+				"combat_ai_installed_combat1" ++
+				"combat_ai_old_combat_rating1" += "combat_ai_needed_xp1"
+			`	Basic Update to Rank &[combat_ai_installed_combat1] ...`
+			label "continue1"
 			choice
-				`	Basic: Outfit Space +2 (current rank: &[installed basic_outfit_space])`
+				`	Basic: Outfit Space +3 (current rank: &[combat_ai_installed_basic_outfit_space])`
 					goto "basic_outfit_space"
-				`	Basic: Cargo Space +2 (current rank: &[installed basic_cargo_space])`
+				`	Basic: Cargo Space +3 (current rank: &[combat_ai_installed_basic_cargo_space])`
 					goto "basic_cargo_space"
-				`	Basic: Bunks +1 (current rank: &[installed basic_bunks])`
+				`	Basic: Bunks +1 (current rank: &[combat_ai_installed_basic_bunks])`
 					goto "basic_bunks"
-				`	Basic: Weapon Capacity +2 (current rank: &[installed basic_weapon_capacity])`
+				`	Basic: Weapon Capacity +3 (current rank: &[combat_ai_installed_basic_weapon_capacity])`
 					goto "basic_weapon_capacity"
-				`	Basic: Engine Capacity +2 (current rank: &[installed basic_engine_capacity])`
+				`	Basic: Engine Capacity +3 (current rank: &[combat_ai_installed_basic_engine_capacity])`
 					goto "basic_engine_capacity"
-				`	Basic: Fuel Capacity +100 (current rank: &[installed basic_fuel_capacity])`
+				`	Basic: Fuel Capacity +100 (current rank: &[combat_ai_installed_basic_fuel_capacity])`
 					goto "basic_fuel_capacity"
-				`	Basic: Cooling +10 (current rank: &[installed basic_cooling])`
+				`	Basic: Cooling +600 (current rank: &[combat_ai_installed_basic_cooling])`
 					goto "basic_cooling"
-				`	Basic: Energy Capacity +2000 (current rank: &[installed basic_energy_capacity])`
+				`	Basic: Energy Capacity +2000 (current rank: &[combat_ai_installed_basic_energy_capacity])`
 					goto "basic_energy_capacity"
 			label "basic_outfit_space"
 			action
 				outfit "combat_ai_basic_outfit_space" 1
-				"installed basic_outfit_space" ++
-				"oldinstalled1" ++
-				"updates1" --
-			`	Installed Basic: Outfit Space +2 rank &[installed basic_outfit_space]...`
+				"combat_ai_installed_basic_outfit_space" ++
+			`	Installed Basic: Outfit Space +3 rank &[combat_ai_installed_basic_outfit_space]...`
 				goto "start1"
 			label "basic_cargo_space"
 			action
 				outfit "combat_ai_basic_cargo_space" 1
-				"installed basic_cargo_space" ++
-				"oldinstalled1" ++
-				"updates1" --
-			`	Installed Basic: Cargo Space +2 rank &[installed basic_cargo_space]...`
+				"combat_ai_installed_basic_cargo_space" ++
+			`	Installed Basic: Cargo Space +3 rank &[combat_ai_installed_basic_cargo_space]...`
 				goto "start1"
 			label "basic_bunks"
 			action
 				outfit "combat_ai_basic_bunks" 1
-				"installed basic_bunks" ++
-				"oldinstalled1" ++
-				"updates1" --
-			`	Installed Basic: Bunks +1 rank &[installed basic_bunks]...`
+				"combat_ai_installed_basic_bunks" ++
+			`	Installed Basic: Bunks +1 rank &[combat_ai_installed_basic_bunks]...`
 				goto "start1"
 			label "basic_weapon_capacity"
 			action
 				outfit "combat_ai_basic_weapon_capacity" 1
-				"installed basic_weapon_capacity" ++
-				"oldinstalled1" ++
-				"updates1" --
-			`	Installed Basic: Weapon Capacity +2 rank &[installed basic_weapon_capacity]...`
+				"combat_ai_installed_basic_weapon_capacity" ++
+			`	Installed Basic: Weapon Capacity +3 rank &[combat_ai_installed_basic_weapon_capacity]...`
 				goto "start1"
 			label "basic_engine_capacity"
 			action
 				outfit "combat_ai_basic_engine_capacity" 1
-				"installed basic_engine_capacity" ++
-				"oldinstalled1" ++
-				"updates1" --
-			`	Installed Basic: Engine Capacity +2 rank &[installed basic_engine_capacity]...`
+				"combat_ai_installed_basic_engine_capacity" ++
+			`	Installed Basic: Engine Capacity +3 rank &[combat_ai_installed_basic_engine_capacity]...`
 				goto "start1"
 			label "basic_fuel_capacity"
 			action
 				outfit "combat_ai_basic_fuel_capacity" 1
-				"installed basic_fuel_capacity" ++
-				"oldinstalled1" ++
-				"updates1" --
-			`	Installed Basic: Fuel Capacity +100 rank &[installed basic_fuel_capacity]...`
+				"combat_ai_installed_basic_fuel_capacity" ++
+			`	Installed Basic: Fuel Capacity +100 rank &[combat_ai_installed_basic_fuel_capacity]...`
 				goto "start1"
 			label "basic_cooling"
 			action
 				outfit "combat_ai_basic_cooling" 1
-				"installed basic_cooling" ++
-				"oldinstalled1" ++
-				"updates1" --
-			`	Installed Basic: Cooling +10 rank &[installed basic_cooling]...`
+				"combat_ai_installed_basic_cooling" ++
+			`	Installed Basic: Cooling +600 rank &[combat_ai_installed_basic_cooling]...`
 				goto "start1"
 			label "basic_energy_capacity"
 			action
 				outfit "combat_ai_basic_energy_capacity" 1
-				"installed basic_energy_capacity" ++
-				"oldinstalled1" ++
-				"updates1" --
-			`	Installed Basic: Energy Capacity +2000 rank &[installed basic_energy_capacity]...`
+				"combat_ai_installed_basic_energy_capacity" ++
+			`	Installed Basic: Energy Capacity +2000 rank &[combat_ai_installed_basic_energy_capacity]...`
 				goto "start1"
 			label "2"
 			branch "3"
-				"updates2" == 0
+				"combat rating" - "combat_ai_old_combat_rating2" < "combat_ai_needed_xp2"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			` `
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			choice
-				`	continue to advanced updates`
+				`	continue to Advanced Updates`
 			label "start2"
 			branch "3"
-				"combat rating" - "old combat rating 2" < "xp2"
+				"combat rating" - "combat_ai_old_combat_rating2" < "combat_ai_needed_xp2"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
+			branch "max2"
+				"combat_ai_needed_xp2" == 6650
+			label "not max2"
 			action
-				"installed combat 2" ++
-				"old combat rating 2" += "xp2"
-			`	Advanced Update to Rank &[installed combat 2] of &[fullupdates2]...`
+				"combat_ai_installed_combat2" ++
+				"combat_ai_old_combat_rating2" += "combat_ai_needed_xp2"
+				"combat_ai_needed_xp2" += 350
+			`	Basic Update to Rank &[combat_ai_installed_combat2] ...`
+				goto "continue2"
+			label "max2"
+			action
+				"combat_ai_installed_combat2" ++
+				"combat_ai_old_combat_rating2" += "combat_ai_needed_xp2"
+			`	Basic Update to Rank &[combat_ai_installed_combat2] ...`
+			label "continue2"
 			choice
-				`	Advanced: Hull +2000 +2% (current rank: &[installed advanced_hull])`
+				`	Advanced: Hull +2000 +2% (current rank: &[combat_ai_installed_advanced_hull])`
 					goto "advanced_hull"
-				`	Advanced: Hull Repair +0.2 +2% (current rank: &[installed advanced_hull_repair])`
+				`	Advanced: Hull Repair +12 +2% (current rank: &[combat_ai_installed_advanced_hull_repair])`
 					goto "advanced_hull_repair"
-				`	Advanced: Shield +2000 +2% (current rank: &[installed advanced_shield])`
+				`	Advanced: Shield +2000 +2% (current rank: &[combat_ai_installed_advanced_shield])`
 					goto "advanced_shield"
-				`	Advanced: Shield Generation +1 +2% (current rank: &[installed advanced_shield_generation])`
+				`	Advanced: Shield Gen. +60 +2% (current rank: &[combat_ai_installed_advanced_shield_generation])`
 					goto "advanced_shield_generation"
-				`	Advanced: Acceleration +2% (current rank: &[installed advanced_acceleration])`
+				`	Advanced: Acceleration +2% (current rank: &[combat_ai_installed_advanced_acceleration])`
 					goto "advanced_acceleration"
-				`	Advanced: Turn +2% (current rank: &[installed advanced_turn])`
+				`	Advanced: Turn +2% (current rank: &[combat_ai_installed_advanced_turn])`
 					goto "advanced_turn"
-				`	Advanced: Protection +0.02 (current rank: &[installed advanced_protection])`
+				`	Advanced: Protection +0.02 (current rank: &[combat_ai_installed_advanced_protection])`
 					goto "advanced_protection"
+				`	Advanced: Weapon Capacity +10 (current rank: &[combat_ai_installed_advanced_weapon_capacity] max 10)`
+					to display
+						"combat_ai_installed_advanced_weapon_capacity" < 10
+					goto "advanced_weapon_capacity"
+				`	Advanced: Engine Capacity +10 (current rank: &[combat_ai_installed_advanced_engine_capacity] max 10)`
+					to display
+						"combat_ai_installed_advanced_engine_capacity" < 10
+					goto "advanced_engine_capacity"
+				`	Advanced: Bunks +5 (current rank: &[combat_ai_installed_advanced_bunks] max 10)`
+					to display
+						"combat_ai_installed_advanced_bunks" < 10
+					goto "advanced_bunks"
 			label "advanced_hull"
 			action
 				outfit "combat_ai_advanced_hull" 1
-				"installed advanced_hull" ++
-				"oldinstalled2" ++
-				"updates2" --
-			`	Installed Advanced: Hull +2000 +2% rank &[installed advanced_hull]...`
+				"combat_ai_installed_advanced_hull" ++
+			`	Installed Advanced: Hull +2000 +2% rank &[combat_ai_installed_advanced_hull]...`
 				goto "start2"
 			label "advanced_hull_repair"
 			action
 				outfit "combat_ai_advanced_hull_repair" 1
-				"installed advanced_hull_repair" ++
-				"oldinstalled2" ++
-				"updates2" --
-			`	Installed Advanced: Hull Repair +0.2 +2% rank &[installed advanced_hull_repair]...`
+				"combat_ai_installed_advanced_hull_repair" ++
+			`	Installed Advanced: Hull Repair +12 +2% rank &[combat_ai_installed_advanced_hull_repair]...`
 				goto "start2"
 			label "advanced_shield"
 			action
 				outfit "combat_ai_advanced_shield" 1
-				"installed advanced_shield" ++
-				"oldinstalled2" ++
-				"updates2" --
-			`	Installed Advanced: Shield +2000 +2% rank &[installed advanced_shield]...`
+				"combat_ai_installed_advanced_shield" ++
+			`	Installed Advanced: Shield +2000 +2% rank &[combat_ai_installed_advanced_shield]...`
 				goto "start2"
 			label "advanced_shield_generation"
 			action
 				outfit "combat_ai_advanced_shield_generation" 1
-				"installed advanced_shield_generation" ++
-				"oldinstalled2" ++
-				"updates2" --
-			`	Installed Advanced: Shield Generation +1 +2% rank &[installed advanced_shield_generation]...`
+				"combat_ai_installed_advanced_shield_generation" ++
+			`	Installed Advanced: Shield Gen. +60 +2% rank &[combat_ai_installed_advanced_shield_generation]...`
 				goto "start2"
 			label "advanced_acceleration"
 			action
 				outfit "combat_ai_advanced_acceleration" 1
-				"installed advanced_acceleration" ++
-				"oldinstalled2" ++
-				"updates2" --
-			`	Installed Advanced: Acceleration +2% rank &[installed advanced_acceleration]...`
+				"combat_ai_installed_advanced_acceleration" ++
+			`	Installed Advanced: Acceleration +2% rank &[combat_ai_installed_advanced_acceleration]...`
 				goto "start2"
 			label "advanced_turn"
 			action
 				outfit "combat_ai_advanced_turn" 1
-				"installed advanced_turn" ++
-				"oldinstalled2" ++
-				"updates2" --
-			`	Installed Advanced: Turn +2% rank &[installed advanced_turn]...`
+				"combat_ai_installed_advanced_turn" ++
+			`	Installed Advanced: Turn +2% rank &[combat_ai_installed_advanced_turn]...`
 				goto "start2"
 			label "advanced_protection"
 			action
 				outfit "combat_ai_advanced_protection" 1
-				"installed advanced_protection" ++
-				"oldinstalled2" ++
-				"updates2" --
-			`	Installed Advanced: Protection +0.02 rank &[installed advanced_protection]...`
+				"combat_ai_installed_advanced_protection" ++
+			`	Installed Advanced: Protection +0.02 rank &[combat_ai_installed_advanced_protection]...`
+				goto "start2"
+			label "advanced_weapon_capacity"
+			action
+				outfit "combat_ai_advanced_weapon_capacity" 1
+				"combat_ai_installed_advanced_weapon_capacity" ++
+			`	Installed Advanced: Weapon Capacity +10 rank &[combat_ai_installed_advanced_weapon_capacity]...`
+				goto "start2"
+			label "advanced_engine_capacity"
+			action
+				outfit "combat_ai_advanced_engine_capacity" 1
+				"combat_ai_installed_advanced_engine_capacity" ++
+			`	Installed Advanced: Engine Capacity +10 rank &[combat_ai_installed_advanced_engine_capacity]...`
+				goto "start2"
+			label "advanced_bunks"
+			action
+				outfit "combat_ai_advanced_bunks" 1
+				"combat_ai_installed_advanced_bunks" ++
+			`	Installed Advanced: Bunks +5 rank &[combat_ai_installed_advanced_bunks]...`
 				goto "start2"
 			label "3"
 			branch "end"
-				"updates3" == 0
+				"combat rating" - "combat_ai_old_combat_rating3" < "combat_ai_needed_xp3"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			` `
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			choice
-				`	continue to special updates`
+				`	continue to Special Updates`
 			label "start3"
 			branch "end"
-				"combat rating" - "old combat rating 3" < "xp3"
+				"combat rating" - "combat_ai_old_combat_rating3" < "combat_ai_needed_xp3"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			` `
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
+			branch "max3"
+				"combat_ai_needed_xp3" == 10450
+			label "not max3"
 			action
-				"installed combat 3" ++
-				"old combat rating 3" += "xp3"
-			`	Special Update to Rank &[installed combat 3] of &[fullupdates3]...`
+				"combat_ai_installed_combat3" ++
+				"combat_ai_old_combat_rating3" += "combat_ai_needed_xp3"
+				"combat_ai_needed_xp3" += 550
+			`	Basic Update to Rank &[combat_ai_installed_combat3] ...`
+				goto "continue3"
+			label "max3"
+			action
+				"combat_ai_installed_combat3" ++
+				"combat_ai_old_combat_rating3" += "combat_ai_needed_xp3"
+			`	Basic Update to Rank &[combat_ai_installed_combat3] ...`
+			label "continue3"
 			choice
-				`	Special: Refueling (current rank: &[installed special_refueling])`
+				`	Special: Refueling (current rank: &[combat_ai_installed_special_refueling])`
 					goto "special_refueling"
-				`	Special: Outfit Space +20 (current rank: &[installed special_more_outfit_space] max 10)`
+				`	Special: Outfit Space +20 (current rank: &[combat_ai_installed_special_more_outfit_space] max 10)`
 					to display
-						"installed special_more_outfit_space" < 10
+						"combat_ai_installed_special_more_outfit_space" < 10
 					goto "special_more_outfit_space"
-				`	Special: Cargo Space +20 (current rank: &[installed special_more_cargo_space] max 10)`
+				`	Special: Cargo Space +20 (current rank: &[combat_ai_installed_special_more_cargo_space] max 10)`
 					to display
-						"installed special_more_cargo_space" < 10
+						"combat_ai_installed_special_more_cargo_space" < 10
 					goto "special_more_cargo_space"
-				`	Special: Turret Turn Rate (current rank: &[installed special_turret_turn] max 10)`
+				`	Special: Turret Turn Rate (current rank: &[combat_ai_installed_special_turret_turn] max 10)`
 					to display
-						"installed special_turret_turn" < 10
+						"combat_ai_installed_special_turret_turn" < 10
 					goto "special_turret_turn"
-				`	Special: Force Protection (current rank: &[installed special_force_protection] max 5)`
+				`	Special: Force Protection (current rank: &[combat_ai_installed_special_force_protection] max 5)`
 					to display
-						"installed special_force_protection" < 5
+						"combat_ai_installed_special_force_protection" < 5
 					goto "special_force_protection"
-				`	Special: Scanner (current rank: &[installed special_scanner] max 5)`
+				`	Special: Scanner (current rank: &[combat_ai_installed_special_scanner] max 5)`
 					to display
-						"installed special_scanner" < 5
+						"combat_ai_installed_special_scanner" < 5
 					goto "special_scanner"
-				`	Special: Drag Reduction +0.2 (current rank: &[installed special_drag_reduction] max 5)`
+				`	Special: Drag Reduction +0.2 (current rank: &[combat_ai_installed_special_drag_reduction] max 5)`
 					to display
-						"installed special_drag_reduction" < 5
+						"combat_ai_installed_special_drag_reduction" < 5
 					goto "special_drag_reduction"
-				`	Special: Capture Attack +200 (current rank: &[installed special_capture_attack] max 3)`
+				`	Special: Capture Attack +200 (current rank: &[combat_ai_installed_special_capture_attack] max 3)`
 					to display
-						"installed special_capture_attack" < 3
+						"combat_ai_installed_special_capture_attack" < 3
 					goto "special_capture_attack"
-				`	Special: Capture Defense +200 (current rank: &[installed special_capture_defense] max 3)`
+				`	Special: Capture Defense +200 (current rank: &[combat_ai_installed_special_capture_defense] max 3)`
 					to display
-						"installed special_capture_defense" < 3
+						"combat_ai_installed_special_capture_defense" < 3
 					goto "special_capture_defense"
-				`	Special: Spinal Mount (current rank: &[installed special_spinal_mount] max 1)`
+				`	Special: Spinal Mount (current rank: &[combat_ai_installed_special_spinal_mount] max 1)`
 					to display
-						"installed special_spinal_mount" < 1
+						"combat_ai_installed_special_spinal_mount" < 1
 					goto "special_spinal_mount"
-				`	Special: Landing Speed (current rank: &[installed special_landing_speed] max 1)`
+				`	Special: Landing Speed (current rank: &[combat_ai_installed_special_landing_speed] max 1)`
 					to display
-						"installed special_landing_speed" < 1
+						"combat_ai_installed_special_landing_speed" < 1
 					goto "special_landing_speed"
-				`	Special: Recovery Time (current rank: &[installed special_recovery_time] max 1)`
+				`	Special: Disabled Recovery 20s (current rank: &[combat_ai_installed_special_recovery_time] max 1)`
 					to display
-						"installed special_recovery_time" < 1
+						"combat_ai_installed_special_recovery_time" < 1
 					goto "special_recovery_time"
-				`	Special: Inscrutable (current rank: &[installed special_inscrutable] max 1)`
+				`	Special: Scanning Immunity (current rank: &[combat_ai_installed_special_inscrutable] max 1)`
 					to display
-						"installed special_inscrutable" < 1
+						"combat_ai_installed_special_inscrutable" < 1
 					goto "special_inscrutable"
-				`	Special: Pressure Hull (current rank: &[installed special_pressure_hull] max 1)`
+				`	Special: Pressure Hull (current rank: &[combat_ai_installed_special_pressure_hull] max 1)`
 					to display
-						"installed special_pressure_hull" < 1
+						"combat_ai_installed_special_pressure_hull" < 1
 					goto "special_pressure_hull"
 			label "special_refueling"
 			action
 				outfit "combat_ai_special_refueling" 1
-				"installed special_refueling" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Refueling rank &[installed special_refueling]...`
+				"combat_ai_installed_special_refueling" ++
+			`	Installed Special: Refueling rank &[combat_ai_installed_special_refueling]...`
 				goto "start3"
 			label "special_more_outfit_space"
 			action
 				outfit "combat_ai_special_more_outfit_space" 1
-				"installed special_more_outfit_space" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Outfit Space +20 rank &[installed special_more_outfit_space]...`
+				"combat_ai_installed_special_more_outfit_space" ++
+			`	Installed Special: Outfit Space +20 rank &[combat_ai_installed_special_more_outfit_space]...`
 				goto "start3"
 			label "special_more_cargo_space"
 			action
 				outfit "combat_ai_special_more_cargo_space" 1
-				"installed special_more_cargo_space" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Cargo Space +20 rank &[installed special_more_cargo_space]...`
+				"combat_ai_installed_special_more_cargo_space" ++
+			`	Installed Special: Cargo Space +20 rank &[combat_ai_installed_special_more_cargo_space]...`
 				goto "start3"
 			label "special_turret_turn"
 			action
 				outfit "combat_ai_special_turret_turn" 1
-				"installed special_turret_turn" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Turret Turn Rate rank &[installed special_turret_turn]...`
+				"combat_ai_installed_special_turret_turn" ++
+			`	Installed Special: Turret Turn Rate rank &[combat_ai_installed_special_turret_turn]...`
 				goto "start3"
 			label "special_force_protection"
 			action
 				outfit "combat_ai_special_force_protection" 1
-				"installed special_force_protection" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Force Protection rank &[installed special_force_protection]...`
+				"combat_ai_installed_special_force_protection" ++
+			`	Installed Special: Force Protection rank &[combat_ai_installed_special_force_protection]...`
 				goto "start3"
 			label "special_scanner"
 			action
 				outfit "combat_ai_special_scanner" 1
-				"installed special_scanner" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Scanner rank &[installed special_scanner]...`
+				"combat_ai_installed_special_scanner" ++
+			`	Installed Special: Scanner rank &[combat_ai_installed_special_scanner]...`
 				goto "start3"
 			label "special_drag_reduction"
 			action
 				outfit "combat_ai_special_drag_reduction" 1
-				"installed special_drag_reduction" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Drag Reduction +0.2 rank &[installed special_drag_reduction]...`
+				"combat_ai_installed_special_drag_reduction" ++
+			`	Installed Special: Drag Reduction +0.2 rank &[combat_ai_installed_special_drag_reduction]...`
 				goto "start3"
 			label "special_capture_attack"
 			action
 				outfit "combat_ai_special_capture_attack" 1
-				"installed special_capture_attack" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Capture Attack +200 rank &[installed special_capture_attack]...`
+				"combat_ai_installed_special_capture_attack" ++
+			`	Installed Special: Capture Attack +200 rank &[combat_ai_installed_special_capture_attack]...`
 				goto "start3"
 			label "special_capture_defense"
 			action
 				outfit "combat_ai_special_capture_defense" 1
-				"installed special_capture_defense" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Capture Defense +200 rank &[installed special_capture_defense]...`
+				"combat_ai_installed_special_capture_defense" ++
+			`	Installed Special: Capture Defense +200 rank &[combat_ai_installed_special_capture_defense]...`
 				goto "start3"
 			label "special_spinal_mount"
 			action
 				outfit "combat_ai_special_spinal_mount" 1
-				"installed special_spinal_mount" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Spinal Mount rank &[installed special_spinal_mount]...`
+				"combat_ai_installed_special_spinal_mount" ++
+			`	Installed Special: Spinal Mount rank &[combat_ai_installed_special_spinal_mount]...`
 				goto "start3"
 			label "special_landing_speed"
 			action
 				outfit "combat_ai_special_landing_speed" 1
-				"installed special_landing_speed" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Landing Speed rank &[installed special_landing_speed]...`
+				"combat_ai_installed_special_landing_speed" ++
+			`	Installed Special: Landing Speed rank &[combat_ai_installed_special_landing_speed]...`
 				goto "start3"
 			label "special_recovery_time"
 			action
 				outfit "combat_ai_special_recovery_time" 1
-				"installed special_recovery_time" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Recovery Time rank &[installed special_recovery_time]...`
+				"combat_ai_installed_special_recovery_time" ++
+			`	Installed Special: Disabled Recovery 20s rank &[combat_ai_installed_special_recovery_time]...`
 				goto "start3"
 			label "special_inscrutable"
 			action
 				outfit "combat_ai_special_inscrutable" 1
-				"installed special_inscrutable" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Inscrutable rank &[installed special_inscrutable]...`
+				"combat_ai_installed_special_inscrutable" ++
+			`	Installed Special: Scanning Immunity rank &[combat_ai_installed_special_inscrutable]...`
 				goto "start3"
 			label "special_pressure_hull"
 			action
 				outfit "combat_ai_special_pressure_hull" 1
-				"installed special_pressure_hull" ++
-				"oldinstalled3" ++
-				"updates3" --
-			`	Installed Special: Pressure Hull rank &[installed special_pressure_hull]...`
+				"combat_ai_installed_special_pressure_hull" ++
+			`	Installed Special: Pressure Hull rank &[combat_ai_installed_special_pressure_hull]...`
 				goto "start3"
 			label "end"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`	Combat AI XP: &[all xp gain] | XP since last analysis &[since last visit]`
-			`	Basic Updates: &[oldinstalled1] + &[updates1]`
-			`	Advanced Updates: &[oldinstalled2] + &[updates2]`
-			`	Special Updates: &[oldinstalled3] + &[updates3]`
+			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			`AI Database update complete!`
 				decline
@@ -893,38 +1015,42 @@ mission "combat_ai_lost"
 	invisible
 	landing
 	to offer
-		has "combat_ai_setup: declined"
+		has "combat_ai_start: declined"
+		"combat_ai_fresh_start_update" == 1
 		or
 			not "outfit (flagship installed): combat_ai_core"
-			"outfit (flagship installed): combat_ai_basic_outfit_space" < "installed basic_outfit_space"
-			"outfit (flagship installed): combat_ai_basic_cargo_space" < "installed basic_cargo_space"
-			"outfit (flagship installed): combat_ai_basic_bunks" < "installed basic_bunks"
-			"outfit (flagship installed): combat_ai_basic_weapon_capacity" < "installed basic_weapon_capacity"
-			"outfit (flagship installed): combat_ai_basic_engine_capacity" < "installed basic_engine_capacity"
-			"outfit (flagship installed): combat_ai_basic_fuel_capacity" < "installed basic_fuel_capacity"
-			"outfit (flagship installed): combat_ai_basic_cooling" < "installed basic_cooling"
-			"outfit (flagship installed): combat_ai_basic_energy_capacity" < "installed basic_energy_capacity"
-			"outfit (flagship installed): combat_ai_advanced_hull" < "installed advanced_hull"
-			"outfit (flagship installed): combat_ai_advanced_hull_repair" < "installed advanced_hull_repair"
-			"outfit (flagship installed): combat_ai_advanced_shield" < "installed advanced_shield"
-			"outfit (flagship installed): combat_ai_advanced_shield_generation" < "installed advanced_shield_generation"
-			"outfit (flagship installed): combat_ai_advanced_acceleration" < "installed advanced_acceleration"
-			"outfit (flagship installed): combat_ai_advanced_turn" < "installed advanced_turn"
-			"outfit (flagship installed): combat_ai_advanced_protection" < "installed advanced_protection"
-			"outfit (flagship installed): combat_ai_special_refueling" < "installed special_refueling"
-			"outfit (flagship installed): combat_ai_special_more_outfit_space" < "installed special_more_outfit_space"
-			"outfit (flagship installed): combat_ai_special_more_cargo_space" < "installed special_more_cargo_space"
-			"outfit (flagship installed): combat_ai_special_turret_turn" < "installed special_turret_turn"
-			"outfit (flagship installed): combat_ai_special_force_protection" < "installed special_force_protection"
-			"outfit (flagship installed): combat_ai_special_scanner" < "installed special_scanner"
-			"outfit (flagship installed): combat_ai_special_drag_reduction" < "installed special_drag_reduction"
-			"outfit (flagship installed): combat_ai_special_capture_attack" < "installed special_capture_attack"
-			"outfit (flagship installed): combat_ai_special_capture_defense" < "installed special_capture_defense"
-			"outfit (flagship installed): combat_ai_special_spinal_mount" < "installed special_spinal_mount"
-			"outfit (flagship installed): combat_ai_special_landing_speed" < "installed special_landing_speed"
-			"outfit (flagship installed): combat_ai_special_recovery_time" < "installed special_recovery_time"
-			"outfit (flagship installed): combat_ai_special_inscrutable" < "installed special_inscrutable"
-			"outfit (flagship installed): combat_ai_special_pressure_hull" < "installed special_pressure_hull"
+			"outfit (flagship installed): combat_ai_basic_outfit_space" < "combat_ai_installed_basic_outfit_space"
+			"outfit (flagship installed): combat_ai_basic_cargo_space" < "combat_ai_installed_basic_cargo_space"
+			"outfit (flagship installed): combat_ai_basic_bunks" < "combat_ai_installed_basic_bunks"
+			"outfit (flagship installed): combat_ai_basic_weapon_capacity" < "combat_ai_installed_basic_weapon_capacity"
+			"outfit (flagship installed): combat_ai_basic_engine_capacity" < "combat_ai_installed_basic_engine_capacity"
+			"outfit (flagship installed): combat_ai_basic_fuel_capacity" < "combat_ai_installed_basic_fuel_capacity"
+			"outfit (flagship installed): combat_ai_basic_cooling" < "combat_ai_installed_basic_cooling"
+			"outfit (flagship installed): combat_ai_basic_energy_capacity" < "combat_ai_installed_basic_energy_capacity"
+			"outfit (flagship installed): combat_ai_advanced_hull" < "combat_ai_installed_advanced_hull"
+			"outfit (flagship installed): combat_ai_advanced_hull_repair" < "combat_ai_installed_advanced_hull_repair"
+			"outfit (flagship installed): combat_ai_advanced_shield" < "combat_ai_installed_advanced_shield"
+			"outfit (flagship installed): combat_ai_advanced_shield_generation" < "combat_ai_installed_advanced_shield_generation"
+			"outfit (flagship installed): combat_ai_advanced_acceleration" < "combat_ai_installed_advanced_acceleration"
+			"outfit (flagship installed): combat_ai_advanced_turn" < "combat_ai_installed_advanced_turn"
+			"outfit (flagship installed): combat_ai_advanced_protection" < "combat_ai_installed_advanced_protection"
+			"outfit (flagship installed): combat_ai_advanced_weapon_capacity" < "combat_ai_installed_advanced_weapon_capacity"
+			"outfit (flagship installed): combat_ai_advanced_engine_capacity" < "combat_ai_installed_advanced_engine_capacity"
+			"outfit (flagship installed): combat_ai_advanced_bunks" < "combat_ai_installed_advanced_bunks"
+			"outfit (flagship installed): combat_ai_special_refueling" < "combat_ai_installed_special_refueling"
+			"outfit (flagship installed): combat_ai_special_more_outfit_space" < "combat_ai_installed_special_more_outfit_space"
+			"outfit (flagship installed): combat_ai_special_more_cargo_space" < "combat_ai_installed_special_more_cargo_space"
+			"outfit (flagship installed): combat_ai_special_turret_turn" < "combat_ai_installed_special_turret_turn"
+			"outfit (flagship installed): combat_ai_special_force_protection" < "combat_ai_installed_special_force_protection"
+			"outfit (flagship installed): combat_ai_special_scanner" < "combat_ai_installed_special_scanner"
+			"outfit (flagship installed): combat_ai_special_drag_reduction" < "combat_ai_installed_special_drag_reduction"
+			"outfit (flagship installed): combat_ai_special_capture_attack" < "combat_ai_installed_special_capture_attack"
+			"outfit (flagship installed): combat_ai_special_capture_defense" < "combat_ai_installed_special_capture_defense"
+			"outfit (flagship installed): combat_ai_special_spinal_mount" < "combat_ai_installed_special_spinal_mount"
+			"outfit (flagship installed): combat_ai_special_landing_speed" < "combat_ai_installed_special_landing_speed"
+			"outfit (flagship installed): combat_ai_special_recovery_time" < "combat_ai_installed_special_recovery_time"
+			"outfit (flagship installed): combat_ai_special_inscrutable" < "combat_ai_installed_special_inscrutable"
+			"outfit (flagship installed): combat_ai_special_pressure_hull" < "combat_ai_installed_special_pressure_hull"
 	on offer
 		conversation
 			label "start"
@@ -939,207 +1065,443 @@ mission "combat_ai_lost"
 				goto "checkcore"	
 			label "check basic_outfit_space"
 			branch "check basic_cargo_space"
-				"outfit (flagship installed): combat_ai_basic_outfit_space" == "installed basic_outfit_space"
+				"outfit (flagship installed): combat_ai_basic_outfit_space" == "combat_ai_installed_basic_outfit_space"
 			action
 				outfit "combat_ai_basic_outfit_space" 1
-			`	restoring lost basic data: Basic: Outfit Space +2...`
+			`	restoring lost basic data: Basic: Outfit Space +3...`
 				goto "check basic_outfit_space"
 			label "check basic_cargo_space"
 			branch "check basic_bunks"
-				"outfit (flagship installed): combat_ai_basic_cargo_space" == "installed basic_cargo_space"
+				"outfit (flagship installed): combat_ai_basic_cargo_space" == "combat_ai_installed_basic_cargo_space"
 			action
 				outfit "combat_ai_basic_cargo_space" 1
-			`	restoring lost basic data: Basic: Cargo Space +2...`
+			`	restoring lost basic data: Basic: Cargo Space +3...`
 				goto "check basic_cargo_space"
 			label "check basic_bunks"
 			branch "check basic_weapon_capacity"
-				"outfit (flagship installed): combat_ai_basic_bunks" == "installed basic_bunks"
+				"outfit (flagship installed): combat_ai_basic_bunks" == "combat_ai_installed_basic_bunks"
 			action
 				outfit "combat_ai_basic_bunks" 1
 			`	restoring lost basic data: Basic: Bunks +1...`
 				goto "check basic_bunks"
 			label "check basic_weapon_capacity"
 			branch "check basic_engine_capacity"
-				"outfit (flagship installed): combat_ai_basic_weapon_capacity" == "installed basic_weapon_capacity"
+				"outfit (flagship installed): combat_ai_basic_weapon_capacity" == "combat_ai_installed_basic_weapon_capacity"
 			action
 				outfit "combat_ai_basic_weapon_capacity" 1
-			`	restoring lost basic data: Basic: Weapon Capacity +2...`
+			`	restoring lost basic data: Basic: Weapon Capacity +3...`
 				goto "check basic_weapon_capacity"
 			label "check basic_engine_capacity"
 			branch "check basic_fuel_capacity"
-				"outfit (flagship installed): combat_ai_basic_engine_capacity" == "installed basic_engine_capacity"
+				"outfit (flagship installed): combat_ai_basic_engine_capacity" == "combat_ai_installed_basic_engine_capacity"
 			action
 				outfit "combat_ai_basic_engine_capacity" 1
-			`	restoring lost basic data: Basic: Engine Capacity +2...`
+			`	restoring lost basic data: Basic: Engine Capacity +3...`
 				goto "check basic_engine_capacity"
 			label "check basic_fuel_capacity"
 			branch "check basic_cooling"
-				"outfit (flagship installed): combat_ai_basic_fuel_capacity" == "installed basic_fuel_capacity"
+				"outfit (flagship installed): combat_ai_basic_fuel_capacity" == "combat_ai_installed_basic_fuel_capacity"
 			action
 				outfit "combat_ai_basic_fuel_capacity" 1
 			`	restoring lost basic data: Basic: Fuel Capacity +100...`
 				goto "check basic_fuel_capacity"
 			label "check basic_cooling"
 			branch "check basic_energy_capacity"
-				"outfit (flagship installed): combat_ai_basic_cooling" == "installed basic_cooling"
+				"outfit (flagship installed): combat_ai_basic_cooling" == "combat_ai_installed_basic_cooling"
 			action
 				outfit "combat_ai_basic_cooling" 1
-			`	restoring lost basic data: Basic: Cooling +10...`
+			`	restoring lost basic data: Basic: Cooling +600...`
 				goto "check basic_cooling"
 			label "check basic_energy_capacity"
 			branch "check advanced_hull"
-				"outfit (flagship installed): combat_ai_basic_energy_capacity" == "installed basic_energy_capacity"
+				"outfit (flagship installed): combat_ai_basic_energy_capacity" == "combat_ai_installed_basic_energy_capacity"
 			action
 				outfit "combat_ai_basic_energy_capacity" 1
 			`	restoring lost basic data: Basic: Energy Capacity +2000...`
 				goto "check basic_energy_capacity"
 			label "check advanced_hull"
 			branch "check advanced_hull_repair"
-				"outfit (flagship installed): combat_ai_advanced_hull" == "installed advanced_hull"
+				"outfit (flagship installed): combat_ai_advanced_hull" == "combat_ai_installed_advanced_hull"
 			action
 				outfit "combat_ai_advanced_hull" 1
 			`	restoring lost advanced data: Advanced: Hull +2000 +2%...`
 				goto "check advanced_hull"
 			label "check advanced_hull_repair"
 			branch "check advanced_shield"
-				"outfit (flagship installed): combat_ai_advanced_hull_repair" == "installed advanced_hull_repair"
+				"outfit (flagship installed): combat_ai_advanced_hull_repair" == "combat_ai_installed_advanced_hull_repair"
 			action
 				outfit "combat_ai_advanced_hull_repair" 1
-			`	restoring lost advanced data: Advanced: Hull Repair +0.2 +2%...`
+			`	restoring lost advanced data: Advanced: Hull Repair +12 +2%...`
 				goto "check advanced_hull_repair"
 			label "check advanced_shield"
 			branch "check advanced_shield_generation"
-				"outfit (flagship installed): combat_ai_advanced_shield" == "installed advanced_shield"
+				"outfit (flagship installed): combat_ai_advanced_shield" == "combat_ai_installed_advanced_shield"
 			action
 				outfit "combat_ai_advanced_shield" 1
 			`	restoring lost advanced data: Advanced: Shield +2000 +2%...`
 				goto "check advanced_shield"
 			label "check advanced_shield_generation"
 			branch "check advanced_acceleration"
-				"outfit (flagship installed): combat_ai_advanced_shield_generation" == "installed advanced_shield_generation"
+				"outfit (flagship installed): combat_ai_advanced_shield_generation" == "combat_ai_installed_advanced_shield_generation"
 			action
 				outfit "combat_ai_advanced_shield_generation" 1
-			`	restoring lost advanced data: Advanced: Shield Generation +1 +2%...`
+			`	restoring lost advanced data: Advanced: Shield Gen. +60 +2%...`
 				goto "check advanced_shield_generation"
 			label "check advanced_acceleration"
 			branch "check advanced_turn"
-				"outfit (flagship installed): combat_ai_advanced_acceleration" == "installed advanced_acceleration"
+				"outfit (flagship installed): combat_ai_advanced_acceleration" == "combat_ai_installed_advanced_acceleration"
 			action
 				outfit "combat_ai_advanced_acceleration" 1
 			`	restoring lost advanced data: Advanced: Acceleration +2%...`
 				goto "check advanced_acceleration"
 			label "check advanced_turn"
 			branch "check advanced_protection"
-				"outfit (flagship installed): combat_ai_advanced_turn" == "installed advanced_turn"
+				"outfit (flagship installed): combat_ai_advanced_turn" == "combat_ai_installed_advanced_turn"
 			action
 				outfit "combat_ai_advanced_turn" 1
 			`	restoring lost advanced data: Advanced: Turn +2%...`
 				goto "check advanced_turn"
 			label "check advanced_protection"
-			branch "check special_refueling"
-				"outfit (flagship installed): combat_ai_advanced_protection" == "installed advanced_protection"
+			branch "check advanced_weapon_capacity"
+				"outfit (flagship installed): combat_ai_advanced_protection" == "combat_ai_installed_advanced_protection"
 			action
 				outfit "combat_ai_advanced_protection" 1
 			`	restoring lost advanced data: Advanced: Protection +0.02...`
 				goto "check advanced_protection"
+			label "check advanced_weapon_capacity"
+			branch "check advanced_engine_capacity"
+				"outfit (flagship installed): combat_ai_advanced_weapon_capacity" == "combat_ai_installed_advanced_weapon_capacity"
+			action
+				outfit "combat_ai_advanced_weapon_capacity" 1
+			`	restoring lost advanced data: Advanced: Weapon Capacity +10...`
+				goto "check advanced_weapon_capacity"
+			label "check advanced_engine_capacity"
+			branch "check advanced_bunks"
+				"outfit (flagship installed): combat_ai_advanced_engine_capacity" == "combat_ai_installed_advanced_engine_capacity"
+			action
+				outfit "combat_ai_advanced_engine_capacity" 1
+			`	restoring lost advanced data: Advanced: Engine Capacity +10...`
+				goto "check advanced_engine_capacity"
+			label "check advanced_bunks"
+			branch "check special_refueling"
+				"outfit (flagship installed): combat_ai_advanced_bunks" == "combat_ai_installed_advanced_bunks"
+			action
+				outfit "combat_ai_advanced_bunks" 1
+			`	restoring lost advanced data: Advanced: Bunks +5...`
+				goto "check advanced_bunks"
 			label "check special_refueling"
 			branch "check special_more_outfit_space"
-				"outfit (flagship installed): combat_ai_special_refueling" == "installed special_refueling"
+				"outfit (flagship installed): combat_ai_special_refueling" == "combat_ai_installed_special_refueling"
 			action
 				outfit "combat_ai_special_refueling" 1
 			`	restoring lost special data: Special: Refueling...`
 				goto "check special_refueling"
 			label "check special_more_outfit_space"
 			branch "check special_more_cargo_space"
-				"outfit (flagship installed): combat_ai_special_more_outfit_space" == "installed special_more_outfit_space"
+				"outfit (flagship installed): combat_ai_special_more_outfit_space" == "combat_ai_installed_special_more_outfit_space"
 			action
 				outfit "combat_ai_special_more_outfit_space" 1
 			`	restoring lost special data: Special: Outfit Space +20...`
 				goto "check special_more_outfit_space"
 			label "check special_more_cargo_space"
 			branch "check special_turret_turn"
-				"outfit (flagship installed): combat_ai_special_more_cargo_space" == "installed special_more_cargo_space"
+				"outfit (flagship installed): combat_ai_special_more_cargo_space" == "combat_ai_installed_special_more_cargo_space"
 			action
 				outfit "combat_ai_special_more_cargo_space" 1
 			`	restoring lost special data: Special: Cargo Space +20...`
 				goto "check special_more_cargo_space"
 			label "check special_turret_turn"
 			branch "check special_force_protection"
-				"outfit (flagship installed): combat_ai_special_turret_turn" == "installed special_turret_turn"
+				"outfit (flagship installed): combat_ai_special_turret_turn" == "combat_ai_installed_special_turret_turn"
 			action
 				outfit "combat_ai_special_turret_turn" 1
 			`	restoring lost special data: Special: Turret Turn Rate...`
 				goto "check special_turret_turn"
 			label "check special_force_protection"
 			branch "check special_scanner"
-				"outfit (flagship installed): combat_ai_special_force_protection" == "installed special_force_protection"
+				"outfit (flagship installed): combat_ai_special_force_protection" == "combat_ai_installed_special_force_protection"
 			action
 				outfit "combat_ai_special_force_protection" 1
 			`	restoring lost special data: Special: Force Protection...`
 				goto "check special_force_protection"
 			label "check special_scanner"
 			branch "check special_drag_reduction"
-				"outfit (flagship installed): combat_ai_special_scanner" == "installed special_scanner"
+				"outfit (flagship installed): combat_ai_special_scanner" == "combat_ai_installed_special_scanner"
 			action
 				outfit "combat_ai_special_scanner" 1
 			`	restoring lost special data: Special: Scanner...`
 				goto "check special_scanner"
 			label "check special_drag_reduction"
 			branch "check special_capture_attack"
-				"outfit (flagship installed): combat_ai_special_drag_reduction" == "installed special_drag_reduction"
+				"outfit (flagship installed): combat_ai_special_drag_reduction" == "combat_ai_installed_special_drag_reduction"
 			action
 				outfit "combat_ai_special_drag_reduction" 1
 			`	restoring lost special data: Special: Drag Reduction +0.2...`
 				goto "check special_drag_reduction"
 			label "check special_capture_attack"
 			branch "check special_capture_defense"
-				"outfit (flagship installed): combat_ai_special_capture_attack" == "installed special_capture_attack"
+				"outfit (flagship installed): combat_ai_special_capture_attack" == "combat_ai_installed_special_capture_attack"
 			action
 				outfit "combat_ai_special_capture_attack" 1
 			`	restoring lost special data: Special: Capture Attack +200...`
 				goto "check special_capture_attack"
 			label "check special_capture_defense"
 			branch "check special_spinal_mount"
-				"outfit (flagship installed): combat_ai_special_capture_defense" == "installed special_capture_defense"
+				"outfit (flagship installed): combat_ai_special_capture_defense" == "combat_ai_installed_special_capture_defense"
 			action
 				outfit "combat_ai_special_capture_defense" 1
 			`	restoring lost special data: Special: Capture Defense +200...`
 				goto "check special_capture_defense"
 			label "check special_spinal_mount"
 			branch "check special_landing_speed"
-				"outfit (flagship installed): combat_ai_special_spinal_mount" == "installed special_spinal_mount"
+				"outfit (flagship installed): combat_ai_special_spinal_mount" == "combat_ai_installed_special_spinal_mount"
 			action
 				outfit "combat_ai_special_spinal_mount" 1
 			`	restoring lost special data: Special: Spinal Mount...`
 				goto "check special_spinal_mount"
 			label "check special_landing_speed"
 			branch "check special_recovery_time"
-				"outfit (flagship installed): combat_ai_special_landing_speed" == "installed special_landing_speed"
+				"outfit (flagship installed): combat_ai_special_landing_speed" == "combat_ai_installed_special_landing_speed"
 			action
 				outfit "combat_ai_special_landing_speed" 1
 			`	restoring lost special data: Special: Landing Speed...`
 				goto "check special_landing_speed"
 			label "check special_recovery_time"
 			branch "check special_inscrutable"
-				"outfit (flagship installed): combat_ai_special_recovery_time" == "installed special_recovery_time"
+				"outfit (flagship installed): combat_ai_special_recovery_time" == "combat_ai_installed_special_recovery_time"
 			action
 				outfit "combat_ai_special_recovery_time" 1
-			`	restoring lost special data: Special: Recovery Time...`
+			`	restoring lost special data: Special: Disabled Recovery 20s...`
 				goto "check special_recovery_time"
 			label "check special_inscrutable"
 			branch "check special_pressure_hull"
-				"outfit (flagship installed): combat_ai_special_inscrutable" == "installed special_inscrutable"
+				"outfit (flagship installed): combat_ai_special_inscrutable" == "combat_ai_installed_special_inscrutable"
 			action
 				outfit "combat_ai_special_inscrutable" 1
-			`	restoring lost special data: Special: Inscrutable...`
+			`	restoring lost special data: Special: Scanning Immunity...`
 				goto "check special_inscrutable"
 			label "check special_pressure_hull"
 			branch "end"
-				"outfit (flagship installed): combat_ai_special_pressure_hull" == "installed special_pressure_hull"
+				"outfit (flagship installed): combat_ai_special_pressure_hull" == "combat_ai_installed_special_pressure_hull"
 			action
 				outfit "combat_ai_special_pressure_hull" 1
 			`	restoring lost special data: Special: Pressure Hull...`
 				goto "check special_pressure_hull"
 			label "end"
 			`AI restored!`
+				decline
+
+
+mission "combat_ai_new_update"
+	non-blocking 
+	repeat
+	invisible
+	landing
+	to offer
+		"combat_ai_fresh_start_update" != 1
+	on offer
+		conversation
+			label "start"
+			scene "outfit/unq_combat_ai"
+			`Plugin Combat.AI got updated! Due to changes, the experience and outfits reset now!`
+			label "checkcore"
+			branch "check basic_outfit_space"
+				"outfit (flagship installed): combat_ai_core" == 0
+			action
+				outfit "combat_ai_core" -1
+			branch "checkcore"	
+			label "check basic_outfit_space"
+			branch "check basic_cargo_space"
+				"outfit (flagship installed): combat_ai_basic_outfit_space" == 0
+			action
+				outfit "combat_ai_basic_outfit_space" -1
+			branch "check basic_outfit_space"
+			label "check basic_cargo_space"
+			branch "check basic_bunks"
+				"outfit (flagship installed): combat_ai_basic_cargo_space" == 0
+			action
+				outfit "combat_ai_basic_cargo_space" -1
+			branch "check basic_cargo_space"
+			label "check basic_bunks"
+			branch "check basic_weapon_capacity"
+				"outfit (flagship installed): combat_ai_basic_bunks" == 0
+			action
+				outfit "combat_ai_basic_bunks" -1
+			branch "check basic_bunks"
+			label "check basic_weapon_capacity"
+			branch "check basic_engine_capacity"
+				"outfit (flagship installed): combat_ai_basic_weapon_capacity" == 0
+			action
+				outfit "combat_ai_basic_weapon_capacity" -1
+			branch "check basic_weapon_capacity"
+			label "check basic_engine_capacity"
+			branch "check basic_fuel_capacity"
+				"outfit (flagship installed): combat_ai_basic_engine_capacity" == 0
+			action
+				outfit "combat_ai_basic_engine_capacity" -1
+			branch "check basic_engine_capacity"
+			label "check basic_fuel_capacity"
+			branch "check basic_cooling"
+				"outfit (flagship installed): combat_ai_basic_fuel_capacity" == 0
+			action
+				outfit "combat_ai_basic_fuel_capacity" -1
+			branch "check basic_fuel_capacity"
+			label "check basic_cooling"
+			branch "check basic_energy_capacity"
+				"outfit (flagship installed): combat_ai_basic_cooling" == 0
+			action
+				outfit "combat_ai_basic_cooling" -1
+			branch "check basic_cooling"
+			label "check basic_energy_capacity"
+			branch "check advanced_hull"
+				"outfit (flagship installed): combat_ai_basic_energy_capacity" == 0
+			action
+				outfit "combat_ai_basic_energy_capacity" -1
+			branch "check basic_energy_capacity"
+			label "check advanced_hull"
+			branch "check advanced_hull_repair"
+				"outfit (flagship installed): combat_ai_advanced_hull" == 0
+			action
+				outfit "combat_ai_advanced_hull" -1
+			branch "check advanced_hull"
+			label "check advanced_hull_repair"
+			branch "check advanced_shield"
+				"outfit (flagship installed): combat_ai_advanced_hull_repair" == 0
+			action
+				outfit "combat_ai_advanced_hull_repair" -1
+			branch "check advanced_hull_repair"
+			label "check advanced_shield"
+			branch "check advanced_shield_generation"
+				"outfit (flagship installed): combat_ai_advanced_shield" == 0
+			action
+				outfit "combat_ai_advanced_shield" -1
+			branch "check advanced_shield"
+			label "check advanced_shield_generation"
+			branch "check advanced_acceleration"
+				"outfit (flagship installed): combat_ai_advanced_shield_generation" == 0
+			action
+				outfit "combat_ai_advanced_shield_generation" -1
+			branch "check advanced_shield_generation"
+			label "check advanced_acceleration"
+			branch "check advanced_turn"
+				"outfit (flagship installed): combat_ai_advanced_acceleration" == 0
+			action
+				outfit "combat_ai_advanced_acceleration" -1
+			branch "check advanced_acceleration"
+			label "check advanced_turn"
+			branch "check advanced_protection"
+				"outfit (flagship installed): combat_ai_advanced_turn" == 0
+			action
+				outfit "combat_ai_advanced_turn" -1
+			branch "check advanced_turn"
+			label "check advanced_protection"
+			branch "check advanced_weapon_capacity"
+				"outfit (flagship installed): combat_ai_advanced_protection" == 0
+			action
+				outfit "combat_ai_advanced_protection" -1
+			branch "check advanced_protection"
+			label "check advanced_weapon_capacity"
+			branch "check advanced_engine_capacity"
+				"outfit (flagship installed): combat_ai_advanced_weapon_capacity" == 0
+			action
+				outfit "combat_ai_advanced_weapon_capacity" -1
+			branch "check advanced_weapon_capacity"
+			label "check advanced_engine_capacity"
+			branch "check advanced_bunks"
+				"outfit (flagship installed): combat_ai_advanced_engine_capacity" == 0
+			action
+				outfit "combat_ai_advanced_engine_capacity" -1
+			branch "check advanced_engine_capacity"
+			label "check advanced_bunks"
+			branch "check special_refueling"
+				"outfit (flagship installed): combat_ai_advanced_bunks" == 0
+			action
+				outfit "combat_ai_advanced_bunks" -1
+			branch "check advanced_bunks"
+			label "check special_refueling"
+			branch "check special_more_outfit_space"
+				"outfit (flagship installed): combat_ai_special_refueling" == 0
+			action
+				outfit "combat_ai_special_refueling" -1
+			branch "check special_refueling"
+			label "check special_more_outfit_space"
+			branch "check special_more_cargo_space"
+				"outfit (flagship installed): combat_ai_special_more_outfit_space" == 0
+			action
+				outfit "combat_ai_special_more_outfit_space" -1
+			branch "check special_more_outfit_space"
+			label "check special_more_cargo_space"
+			branch "check special_turret_turn"
+				"outfit (flagship installed): combat_ai_special_more_cargo_space" == 0
+			action
+				outfit "combat_ai_special_more_cargo_space" -1
+			branch "check special_more_cargo_space"
+			label "check special_turret_turn"
+			branch "check special_force_protection"
+				"outfit (flagship installed): combat_ai_special_turret_turn" == 0
+			action
+				outfit "combat_ai_special_turret_turn" -1
+			branch "check special_turret_turn"
+			label "check special_force_protection"
+			branch "check special_scanner"
+				"outfit (flagship installed): combat_ai_special_force_protection" == 0
+			action
+				outfit "combat_ai_special_force_protection" -1
+			branch "check special_force_protection"
+			label "check special_scanner"
+			branch "check special_drag_reduction"
+				"outfit (flagship installed): combat_ai_special_scanner" == 0
+			action
+				outfit "combat_ai_special_scanner" -1
+			branch "check special_scanner"
+			label "check special_drag_reduction"
+			branch "check special_capture_attack"
+				"outfit (flagship installed): combat_ai_special_drag_reduction" == 0
+			action
+				outfit "combat_ai_special_drag_reduction" -1
+			branch "check special_drag_reduction"
+			label "check special_capture_attack"
+			branch "check special_capture_defense"
+				"outfit (flagship installed): combat_ai_special_capture_attack" == 0
+			action
+				outfit "combat_ai_special_capture_attack" -1
+			branch "check special_capture_attack"
+			label "check special_capture_defense"
+			branch "check special_spinal_mount"
+				"outfit (flagship installed): combat_ai_special_capture_defense" == 0
+			action
+				outfit "combat_ai_special_capture_defense" -1
+			branch "check special_capture_defense"
+			label "check special_spinal_mount"
+			branch "check special_landing_speed"
+				"outfit (flagship installed): combat_ai_special_spinal_mount" == 0
+			action
+				outfit "combat_ai_special_spinal_mount" -1
+			branch "check special_spinal_mount"
+			label "check special_landing_speed"
+			branch "check special_recovery_time"
+				"outfit (flagship installed): combat_ai_special_landing_speed" == 0
+			action
+				outfit "combat_ai_special_landing_speed" -1
+			branch "check special_landing_speed"
+			label "check special_recovery_time"
+			branch "check special_inscrutable"
+				"outfit (flagship installed): combat_ai_special_recovery_time" == 0
+			action
+				outfit "combat_ai_special_recovery_time" -1
+			branch "check special_recovery_time"
+			label "check special_inscrutable"
+			branch "check special_pressure_hull"
+				"outfit (flagship installed): combat_ai_special_inscrutable" == 0
+			action
+				outfit "combat_ai_special_inscrutable" -1
+			branch "check special_inscrutable"
+			label "check special_pressure_hull"
+			branch "end"
+				"outfit (flagship installed): combat_ai_special_pressure_hull" == 0
+			action
+				outfit "combat_ai_special_pressure_hull" -1
+			branch "check special_pressure_hull"
+			label "end"
+			`Done!`
 				decline
