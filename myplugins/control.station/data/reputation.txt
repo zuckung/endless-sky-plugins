@@ -2,7 +2,7 @@ color "control.station job: selected" .1 .8 .1 0.
 color "control.station job: unselected" .1 .5 .2 0.
 
 
-mission "reputation"
+mission "control.station reputation"
 	job
 	color selected "control.station job: selected"
 	color unselected "control.station job: unselected"
