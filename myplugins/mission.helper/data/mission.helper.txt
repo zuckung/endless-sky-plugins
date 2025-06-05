@@ -1,4 +1,10 @@
+color "mission.helper job: selected" .1 .8 .1 0.
+color "mission.helper job: unselected" .1 .5 .2 0.
+
+
 mission "mission.helper"
+	color selected "mission.helper job: selected"
+	color unselected "mission.helper job: unselected"
 	job
 	repeat
 	name "(mission.helper)"
@@ -230,8 +236,6 @@ mission "mission.helper"
 								has "visited system: Dom'us"
 					goto "incipias"
 				`kahet`
-					to display
-						has "not in blacklist"
 					goto "kahet"
 				`korath`
 					to display
@@ -296,8 +300,6 @@ mission "mission.helper"
 								has "visited system: Pantica"
 					goto "remnant"
 				`rulei`
-					to display
-						has "not in blacklist"
 					goto "rulei"
 				`sheragi`
 					to display
@@ -481,6 +483,10 @@ mission "mission.helper"
 					to display
 						not "Avgi Culture: False Alarm: offered"
 					goto "Avgi Culture: False Alarm"
+				`Avgi Culture: Fencing`
+					to display
+						not "Avgi Culture: Fencing: offered"
+					goto "Avgi Culture: Fencing"
 			label "avgi/avgi side missions.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Avgi | Avgi side missions | Mission:`
@@ -1681,6 +1687,26 @@ mission "mission.helper"
 					to display
 						not "Hai Pilgrimage: offered"
 					goto "Hai Pilgrimage"
+				`Acorn Delights: Part 1`
+					to display
+						not "Acorn Delights: Part 1: offered"
+					goto "Acorn Delights: Part 1"
+				`Acorn Delights: Part 2`
+					to display
+						not "Acorn Delights: Part 2: offered"
+					goto "Acorn Delights: Part 2"
+				`Acorn Delights: Part 3`
+					to display
+						not "Acorn Delights: Part 3: offered"
+					goto "Acorn Delights: Part 3"
+				`Acorn Delights: Part 4`
+					to display
+						not "Acorn Delights: Part 4: offered"
+					goto "Acorn Delights: Part 4"
+				`Acorn Delights: Part 5`
+					to display
+						not "Acorn Delights: Part 5: offered"
+					goto "Acorn Delights: Part 5"
 			label "hai/hai reveal 0 prologue.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Hai | Hai reveal 0 prologue | Mission:`
@@ -2525,6 +2551,34 @@ mission "mission.helper"
 					to display
 						not "Republic 300 Year Anniversary: offered"
 					goto "Republic 300 Year Anniversary"
+				`Exotic Life: Delve`
+					to display
+						not "Exotic Life: Delve: offered"
+					goto "Exotic Life: Delve"
+				`Exotic Life: Ada`
+					to display
+						not "Exotic Life: Ada: offered"
+					goto "Exotic Life: Ada"
+				`Exotic Life: Bluestone`
+					to display
+						not "Exotic Life: Bluestone: offered"
+					goto "Exotic Life: Bluestone"
+				`Exotic Life: Geyser`
+					to display
+						not "Exotic Life: Geyser: offered"
+					goto "Exotic Life: Geyser"
+				`Exotic Life: Bloodsea`
+					to display
+						not "Exotic Life: Bloodsea: offered"
+					goto "Exotic Life: Bloodsea"
+				`Exotic Life: Albatross`
+					to display
+						not "Exotic Life: Albatross: offered"
+					goto "Exotic Life: Albatross"
+				`Little Vienna in New Austria`
+					to display
+						not "Little Vienna in New Austria: offered"
+					goto "Little Vienna in New Austria"
 			label "human/deep jobs.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Human | Deep jobs | Mission:`
@@ -4469,6 +4523,34 @@ mission "mission.helper"
 					to display
 						not "Adelita 5: offered"
 					goto "Adelita 5"
+				`Syndicate Business 1`
+					to display
+						not "Syndicate Business 1: offered"
+					goto "Syndicate Business 1"
+				`Syndicate Business 2`
+					to display
+						not "Syndicate Business 2: offered"
+					goto "Syndicate Business 2"
+				`Syndicate Business 3`
+					to display
+						not "Syndicate Business 3: offered"
+					goto "Syndicate Business 3"
+				`Syndicate Business 4`
+					to display
+						not "Syndicate Business 4: offered"
+					goto "Syndicate Business 4"
+				`Syndicate Business 5`
+					to display
+						not "Syndicate Business 5: offered"
+					goto "Syndicate Business 5"
+				`Syndicate Business 5.1 A 10m Expansion Update`
+					to display
+						not "Syndicate Business 5.1 A 10m Expansion Update: offered"
+					goto "Syndicate Business 5.1 A 10m Expansion Update"
+				`Syndicate Business 5.1 B 10m Expansion Crossroads Update`
+					to display
+						not "Syndicate Business 5.1 B 10m Expansion Crossroads Update: offered"
+					goto "Syndicate Business 5.1 B 10m Expansion Crossroads Update"
 				`Timothy Radrickson 1: Stowaway`
 					to display
 						not "Timothy Radrickson 1: Stowaway: offered"
@@ -4513,10 +4595,6 @@ mission "mission.helper"
 					to display
 						not "Timothy Radrickson 4: Imprisoned: offered"
 					goto "Timothy Radrickson 4: Imprisoned"
-				`Timothy Radrickson 5: Oblivion Meeting`
-					to display
-						not "Timothy Radrickson 5: Oblivion Meeting: offered"
-					goto "Timothy Radrickson 5: Oblivion Meeting"
 				`Timothy Radrickson 5a: Timshank Redemption`
 					to display
 						not "Timothy Radrickson 5a: Timshank Redemption: offered"
@@ -4553,6 +4631,26 @@ mission "mission.helper"
 					to display
 						not "Timothy Radrickson 7: Grave: offered"
 					goto "Timothy Radrickson 7: Grave"
+				`Timothy Radrickson: Log Fix 1`
+					to display
+						not "Timothy Radrickson: Log Fix 1: offered"
+					goto "Timothy Radrickson: Log Fix 1"
+				`Timothy Radrickson: Log Fix 2`
+					to display
+						not "Timothy Radrickson: Log Fix 2: offered"
+					goto "Timothy Radrickson: Log Fix 2"
+				`Timothy Radrickson: Log Fix 3`
+					to display
+						not "Timothy Radrickson: Log Fix 3: offered"
+					goto "Timothy Radrickson: Log Fix 3"
+				`Timothy Radrickson: Log Fix 4`
+					to display
+						not "Timothy Radrickson: Log Fix 4: offered"
+					goto "Timothy Radrickson: Log Fix 4"
+				`Timothy Radrickson: Log Fix 6`
+					to display
+						not "Timothy Radrickson: Log Fix 6: offered"
+					goto "Timothy Radrickson: Log Fix 6"
 				`Stone to Hope`
 					to display
 						not "Stone to Hope: offered"
@@ -4605,6 +4703,10 @@ mission "mission.helper"
 					to display
 						not "Stone to Hope: Thanks: offered"
 					goto "Stone to Hope: Thanks"
+				`Patch Stone Waiting`
+					to display
+						not "Patch Stone Waiting: offered"
+					goto "Patch Stone Waiting"
 			label "human/intro missions.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Human | Intro missions | Mission:`
@@ -4753,6 +4855,10 @@ mission "mission.helper"
 					to display
 						not "Incipias: Help The Stranded 1: offered"
 					goto "Incipias: Help The Stranded 1"
+				`Incipias: Fix Saves Missing Language`
+					to display
+						not "Incipias: Fix Saves Missing Language: offered"
+					goto "Incipias: Fix Saves Missing Language"
 				`Incipias: No Help For The Stranded`
 					to display
 						not "Incipias: No Help For The Stranded: offered"
@@ -4767,8 +4873,22 @@ mission "mission.helper"
 			choice
 				`[back to "Races"]`
 					goto "start"
+				`aberrant missions`
+					goto "kahet/aberrant missions.txt"
 				`kahet missions`
 					goto "kahet/kahet missions.txt"
+			label "kahet/aberrant missions.txt"
+			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
+			`Kahet | Aberrant missions | Mission:`
+			choice
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+				`Disabled Aberrant`
+					to display
+						not "Disabled Aberrant: offered"
+					goto "Disabled Aberrant"
 			label "kahet/kahet missions.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Kahet | Kahet missions | Mission:`
@@ -4845,6 +4965,66 @@ mission "mission.helper"
 					to display
 						not "Ka'het: Patir Mystery 5: offered"
 					goto "Ka'het: Patir Mystery 5"
+				`Ka'het: Patir Mystery 6`
+					to display
+						not "Ka'het: Patir Mystery 6: offered"
+					goto "Ka'het: Patir Mystery 6"
+				`Ka'het: Patir Mystery 7`
+					to display
+						not "Ka'het: Patir Mystery 7: offered"
+					goto "Ka'het: Patir Mystery 7"
+				`Ka'het: Patir Mystery 8A`
+					to display
+						not "Ka'het: Patir Mystery 8A: offered"
+					goto "Ka'het: Patir Mystery 8A"
+				`Ka'het: Patir Mystery 8B`
+					to display
+						not "Ka'het: Patir Mystery 8B: offered"
+					goto "Ka'het: Patir Mystery 8B"
+				`Asteroid guarding Lathia`
+					to display
+						not "Asteroid guarding Lathia: offered"
+					goto "Asteroid guarding Lathia"
+				`Ka'het: Patir Mystery 9`
+					to display
+						not "Ka'het: Patir Mystery 9: offered"
+					goto "Ka'het: Patir Mystery 9"
+				`Ka'het: Patir Mystery 10`
+					to display
+						not "Ka'het: Patir Mystery 10: offered"
+					goto "Ka'het: Patir Mystery 10"
+				`Ka'het: Patir Mystery 11`
+					to display
+						not "Ka'het: Patir Mystery 11: offered"
+					goto "Ka'het: Patir Mystery 11"
+				`Ka'het: Patir Mystery 12.1A`
+					to display
+						not "Ka'het: Patir Mystery 12.1A: offered"
+					goto "Ka'het: Patir Mystery 12.1A"
+				`Ka'het: Patir Mystery 12.1B`
+					to display
+						not "Ka'het: Patir Mystery 12.1B: offered"
+					goto "Ka'het: Patir Mystery 12.1B"
+				`Ka'het: Patir Mystery 12.2A`
+					to display
+						not "Ka'het: Patir Mystery 12.2A: offered"
+					goto "Ka'het: Patir Mystery 12.2A"
+				`Ka'het: Patir Mystery 12.2B`
+					to display
+						not "Ka'het: Patir Mystery 12.2B: offered"
+					goto "Ka'het: Patir Mystery 12.2B"
+				`Ka'het: Patir Mystery 12.2C`
+					to display
+						not "Ka'het: Patir Mystery 12.2C: offered"
+					goto "Ka'het: Patir Mystery 12.2C"
+				`Ka'het: Patir Mystery 13.1`
+					to display
+						not "Ka'het: Patir Mystery 13.1: offered"
+					goto "Ka'het: Patir Mystery 13.1"
+				`Ka'het: Patir Mystery 13.2`
+					to display
+						not "Ka'het: Patir Mystery 13.2: offered"
+					goto "Ka'het: Patir Mystery 13.2"
 			label "korath"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Korath | Sub category:`
@@ -5175,10 +5355,10 @@ mission "mission.helper"
 					to display
 						not "Remnant: Return the Samples 2: offered"
 					goto "Remnant: Return the Samples 2"
-				`Remnant: Return the Samples Compatibility Patch`
+				`Remnant: Travel Restrictions Patch`
 					to display
-						not "Remnant: Return the Samples Compatibility Patch: offered"
-					goto "Remnant: Return the Samples Compatibility Patch"
+						not "Remnant: Travel Restrictions Patch: offered"
+					goto "Remnant: Travel Restrictions Patch"
 				`Remnant: Return the Samples 3 Exploration Hint`
 					to display
 						not "Remnant: Return the Samples 3 Exploration Hint: offered"
@@ -5767,6 +5947,10 @@ mission "mission.helper"
 					to display
 						not "Successors: Kaatrij Monoglot Prompt: offered"
 					goto "Successors: Kaatrij Monoglot Prompt"
+				`Successors: First Contact 3: Fix Friend to Animals`
+					to display
+						not "Successors: First Contact 3: Fix Friend to Animals: offered"
+					goto "Successors: First Contact 3: Fix Friend to Animals"
 				`Successors: Kaatrij First Contact 1`
 					to display
 						not "Successors: Kaatrij First Contact 1: offered"
@@ -5811,6 +5995,26 @@ mission "mission.helper"
 					to display
 						not "Successors: Graffiti: offered"
 					goto "Successors: Graffiti"
+				`Successors: Stage Play`
+					to display
+						not "Successors: Stage Play: offered"
+					goto "Successors: Stage Play"
+				`Successors: Sosrue`
+					to display
+						not "Successors: Sosrue: offered"
+					goto "Successors: Sosrue"
+				`Successors: Derelict Station Toy`
+					to display
+						not "Successors: Derelict Station Toy: offered"
+					goto "Successors: Derelict Station Toy"
+				`Successors: Pet Commemoration`
+					to display
+						not "Successors: Pet Commemoration: offered"
+					goto "Successors: Pet Commemoration"
+				`Successors: Armor Reconfiguration`
+					to display
+						not "Successors: Armor Reconfiguration: offered"
+					goto "Successors: Armor Reconfiguration"
 			label "successors/successor side missions.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Successors | Successor side missions | Mission:`
@@ -6269,6 +6473,10 @@ mission "mission.helper"
 					to display
 						not "Wanderers Conversation: offered"
 					goto "Wanderers Conversation"
+				`Wanderers: Vara K'Chrai Facilities Patch`
+					to display
+						not "Wanderers: Vara K'Chrai Facilities Patch: offered"
+					goto "Wanderers: Vara K'Chrai Facilities Patch"
 				`Wanderers: Outfit License Patch`
 					to display
 						not "Wanderers: Outfit License Patch: offered"
@@ -6421,6 +6629,10 @@ mission "mission.helper"
 					to display
 						not "Wanderers Hai Assistance Fleet: offered"
 					goto "Wanderers Hai Assistance Fleet"
+				`Wanderers Hai Assistance Fleet patch`
+					to display
+						not "Wanderers Hai Assistance Fleet patch: offered"
+					goto "Wanderers Hai Assistance Fleet patch"
 				`Wanderers Hai Assistance 3`
 					to display
 						not "Wanderers Hai Assistance 3: offered"
@@ -7020,6 +7232,26 @@ mission "mission.helper"
 			`	to offer`
 			`		not "avgi: lost in twilight"`
 			`		random < 3`
+			``
+			`You have the following missions, events and conditions:`
+			`not "avgi: lost in twilight"`
+				to display
+					not "avgi: lost in twilight"
+			``
+			choice
+				`[back to "Avgi | Avgi culture conversations""]`
+					goto "avgi/avgi culture conversations.txt"
+				`[back to "Avgi"]`
+					goto "avgi"
+				`[back to "Races"]`
+					goto "start"
+			label "Avgi Culture: Fencing"
+			`avgi/avgi culture conversations.txt | mission "Avgi Culture: Fencing"`
+			`	source`
+			`		government "Avgi (Dissonance)"`
+			`	to offer`
+			`		not "avgi: lost in twilight"`
+			`		random < 15`
 			``
 			`You have the following missions, events and conditions:`
 			`not "avgi: lost in twilight"`
@@ -9043,18 +9275,14 @@ mission "mission.helper"
 			`coalition/heliarch intro.txt | mission "Heliarch Investigation 1"`
 			`	passengers 3`
 			`	source`
-			`		near "Quaru" 4 10`
+			`		near "Quaru" 2 10`
 			`	to offer`
 			`		random < 65`
-			`		"coalition jobs" >= 70`
 			`		has "license: Coalition"`
 			`		not "joined the lunarium"`
 			`		not "assisting lunarium"`
 			``
 			`You have the following missions, events and conditions:`
-			`"coalition jobs" >= 70`
-				to display
-					"coalition jobs" >= 70
 			`has "license: Coalition"`
 				to display
 					has "license: Coalition"
@@ -9391,8 +9619,7 @@ mission "mission.helper"
 			`		government "Heliarch"`
 			`	to offer`
 			`		"reputation: Quarg" >= 0`
-			`		"coalition jobs" >= 55`
-			`		has "outfit: Jump Drive"`
+			`		has "ship attribute: jump drive"`
 			`		has "visited planet: Lagrange"`
 			`		has "visited planet: Alta Hai"`
 			`		has "visited planet: Kuwaru Efreti"`
@@ -9407,12 +9634,9 @@ mission "mission.helper"
 			`"reputation: Quarg" >= 0`
 				to display
 					"reputation: Quarg" >= 0
-			`"coalition jobs" >= 55`
+			`has "ship attribute: jump drive"`
 				to display
-					"coalition jobs" >= 55
-			`has "outfit: Jump Drive"`
-				to display
-					has "outfit: Jump Drive"
+					has "ship attribute: jump drive"
 			`has "visited planet: Lagrange"`
 				to display
 					has "visited planet: Lagrange"
@@ -9623,7 +9847,6 @@ mission "mission.helper"
 			`		has "event: rim archaeology results"`
 			`		not "joined the lunarium"`
 			`		not "assisting lunarium"`
-			`		"coalition jobs" >= 65`
 			``
 			`You have the following missions, events and conditions:`
 			`has "Quarg Interrogation: offered"`
@@ -9641,9 +9864,6 @@ mission "mission.helper"
 			`not "assisting lunarium"`
 				to display
 					not "assisting lunarium"
-			`"coalition jobs" >= 65`
-				to display
-					"coalition jobs" >= 65
 			``
 			choice
 				`[back to "Coalition | Heliarch intro""]`
@@ -9869,14 +10089,13 @@ mission "mission.helper"
 			`	passengers 33`
 			`	cargo "military supplies" 25`
 			`	source`
-			`		near "3 Spring Rising" 2 5`
+			`		near "3 Spring Rising" 1 5`
 			`	to offer`
 			`		has "license: Coalition"`
 			`		has "main plot completed"`
 			`		not "joined the lunarium"`
 			`		not "assisting lunarium"`
-			`		"coalition jobs" >= 60`
-			`		random > 25`
+			`		random < 75`
 			``
 			`You have the following missions, events and conditions:`
 			`has "license: Coalition"`
@@ -9891,9 +10110,6 @@ mission "mission.helper"
 			`not "assisting lunarium"`
 				to display
 					not "assisting lunarium"
-			`"coalition jobs" >= 60`
-				to display
-					"coalition jobs" >= 60
 			``
 			choice
 				`[back to "Coalition | Heliarch intro""]`
@@ -9906,12 +10122,12 @@ mission "mission.helper"
 			`coalition/heliarch intro.txt | mission "Heliarch Containment 2"`
 			`	passengers 21`
 			`	source`
-			`		near "Bloptab" 1 3`
+			`		near "Bloptab" 1 4`
 			`	to offer`
 			`		has "Heliarch Containment 1: done"`
 			`		not "joined the lunarium"`
 			`		not "assisting lunarium"`
-			`		random > 35`
+			`		random < 65`
 			``
 			`You have the following missions, events and conditions:`
 			`has "Heliarch Containment 1: done"`
@@ -10048,7 +10264,7 @@ mission "mission.helper"
 			`		has "license: Coalition"`
 			`		not "joined the lunarium"`
 			`		not "assisting lunarium"`
-			`		random < 11`
+			`		random < 30`
 			`		"combat rating" >= 8104`
 			``
 			`You have the following missions, events and conditions:`
@@ -10184,10 +10400,10 @@ mission "mission.helper"
 			`		or`
 			`			"assisted heliarch" >= 5`
 			`			and`
-			`				"coalition jobs" >= 90`
+			`				"coalition jobs" >= 70`
 			`				"assisted heliarch" == 4`
 			`			and`
-			`				"coalition jobs" >= 120`
+			`				"coalition jobs" >= 100`
 			`				"assisted heliarch" == 3`
 			`		not "joined the lunarium"`
 			`		not "assisting heliarchy"`
@@ -10201,15 +10417,15 @@ mission "mission.helper"
 			`"assisted heliarch" >= 5`
 				to display
 					"assisted heliarch" >= 5
-			`"coalition jobs" >= 90`
+			`"coalition jobs" >= 70`
 				to display
-					"coalition jobs" >= 90
+					"coalition jobs" >= 70
 			`"assisted heliarch" == 4`
 				to display
 					"assisted heliarch" == 4
-			`"coalition jobs" >= 120`
+			`"coalition jobs" >= 100`
 				to display
-					"coalition jobs" >= 120
+					"coalition jobs" >= 100
 			`"assisted heliarch" == 3`
 				to display
 					"assisted heliarch" == 3
@@ -10283,10 +10499,10 @@ mission "mission.helper"
 			`coalition/lunarium intro.txt | mission "Lunarium: Smuggling: Charity 1"`
 			`	cargo "charity supplies" 22`
 			`	source`
-			`		near "3 Spring Rising" 2 6`
+			`		near "3 Spring Rising" 1 6`
 			`		not government "Heliarch"`
 			`	to offer`
-			`		random < 40`
+			`		random < 55`
 			`		has "Coalition: First Contact: done"`
 			`		not "joined the heliarchs"`
 			`		not "Lunarium: Questions: active"`
@@ -10326,9 +10542,9 @@ mission "mission.helper"
 			`	passengers 5`
 			`	cargo "charity supplies" 39`
 			`	source`
-			`		near "5 Winter Above" 1 3`
+			`		near "5 Winter Above" 1 4`
 			`	to offer`
-			`		random < 50`
+			`		random < 60`
 			`		has "Lunarium: Smuggling: Charity 1: done"`
 			`		not "joined the heliarchs"`
 			`		not "Lunarium: Questions: active"`
@@ -10367,9 +10583,9 @@ mission "mission.helper"
 			`coalition/lunarium intro.txt | mission "Lunarium: Smuggling: Charity 3"`
 			`	cargo "charity supplies" 46`
 			`	source`
-			`		near "14 Pole" 3 5`
+			`		near "14 Pole" 3 7`
 			`	to offer`
-			`		random < 70`
+			`		random < 80`
 			`		has "Lunarium: Smuggling: Charity 2: done"`
 			`		not "joined the heliarchs"`
 			`		not "Lunarium: Questions: active"`
@@ -10437,7 +10653,7 @@ mission "mission.helper"
 			`		not planet "Mebla's Portion"`
 			`	to offer`
 			`		has "Lunarium: Smuggling: Grenades: done"`
-			`		random < 15 + 3 * "assisted lunarium" * "assisted lunarium"`
+			`		random < 25 + 4 * "assisted lunarium" * "assisted lunarium"`
 			`		not "joined the heliarchs"`
 			`		not "assisting heliarchy"`
 			``
@@ -10468,7 +10684,7 @@ mission "mission.helper"
 			`	to offer`
 			`		has "Lunarium: Smuggling: AM: done"`
 			`		has "event: deep sky tech available"`
-			`		random < 20 + 3 * "assisted lunarium" * "assisted lunarium"`
+			`		random < 30 + 4 * "assisted lunarium" * "assisted lunarium"`
 			`		not "joined the heliarchs"`
 			`		not "assisting heliarchy"`
 			``
@@ -10501,7 +10717,7 @@ mission "mission.helper"
 			`	to offer`
 			`		has "Lunarium: Smuggling: Torpedoes: done"`
 			`		has "event: flamethrower available"`
-			`		random < 25 + 3 * "assisted lunarium" * "assisted lunarium"`
+			`		random < 30 + 4 * "assisted lunarium" * "assisted lunarium"`
 			`		not "joined the heliarchs"`
 			`		not "assisting heliarchy"`
 			``
@@ -10533,7 +10749,7 @@ mission "mission.helper"
 			`		not planet "Mebla's Portion"`
 			`	to offer`
 			`		has "Lunarium: Smuggling: Heat: done"`
-			`		random < 40 + 3 * "assisted lunarium" * "assisted lunarium"`
+			`		random < 40 + 4 * "assisted lunarium" * "assisted lunarium"`
 			`		not "joined the heliarchs"`
 			`		not "assisting heliarchy"`
 			`	to complete`
@@ -10566,7 +10782,7 @@ mission "mission.helper"
 			`		government "Coalition"`
 			`		not planet "Factory of Eblumab"`
 			`	to offer`
-			`		random < 10`
+			`		random < 15`
 			`		has "license: Coalition"`
 			`		not "joined the heliarchs"`
 			`		not "assisting heliarchy"`
@@ -10602,7 +10818,7 @@ mission "mission.helper"
 			`		attributes arach`
 			`		not planet "Factory of Eblumab"`
 			`	to offer`
-			`		random < 40`
+			`		random < 75`
 			`		has "House Bebliss 1-A: declined"`
 			`		not "joined the heliarchs"`
 			`		not "assisting heliarchy"`
@@ -10778,9 +10994,10 @@ mission "mission.helper"
 			`coalition/lunarium intro.txt | mission "Lunarium: Evacuation 1"`
 			`	passengers 35`
 			`	source`
-			`		near "3 Spring Rising" 1 4`
+			`		not government "Heliarch"`
+			`		near "3 Spring Rising" 1 5`
 			`	to offer`
-			`		random < 40`
+			`		random < 55`
 			`		has "Coalition: First Contact: done"`
 			`		not "joined the heliarchs"`
 			`		not "assisting heliarchy"`
@@ -10835,9 +11052,9 @@ mission "mission.helper"
 			`	passengers 47`
 			`	source`
 			`		not government "Heliarch"`
-			`		near "Silver Bell" 2 3`
+			`		near "Silver Bell" 1 4`
 			`	to offer`
-			`		random < 50`
+			`		random < 60`
 			`		has "Lunarium: Evacuation 2: done"`
 			`		not "joined the heliarchs"`
 			`		not "assisting heliarchy"`
@@ -10891,11 +11108,11 @@ mission "mission.helper"
 			`coalition/lunarium intro.txt | mission "Lunarium: Evacuation 5"`
 			`	passengers 116`
 			`	source`
-			`		near "Ablub"`
+			`		near "Ablub" 1 3`
 			`	to offer`
-			`		random < 80`
+			`		random < 85`
 			`		has "Lunarium: Evacuation 4: done"`
-			`		has "outfit: Jump Drive"`
+			`		has "ship attribute: jump drive"`
 			`		not "joined the heliarchs"`
 			`		not "assisting heliarchy"`
 			``
@@ -10903,9 +11120,9 @@ mission "mission.helper"
 			`has "Lunarium: Evacuation 4: done"`
 				to display
 					has "Lunarium: Evacuation 4: done"
-			`has "outfit: Jump Drive"`
+			`has "ship attribute: jump drive"`
 				to display
-					has "outfit: Jump Drive"
+					has "ship attribute: jump drive"
 			`not "joined the heliarchs"`
 				to display
 					not "joined the heliarchs"
@@ -10952,9 +11169,9 @@ mission "mission.helper"
 			`	passengers 1`
 			`	cargo "promotional posters" 1`
 			`	source`
-			`		near "Ancient Hope" 2 4`
+			`		near "Ancient Hope" 2 5`
 			`	to offer`
-			`		random < 25`
+			`		random < 50`
 			`		has "Coalition: First Contact: done"`
 			`		not "joined the heliarchs"`
 			`		not "assisting heliarchy"`
@@ -11068,8 +11285,8 @@ mission "mission.helper"
 			`	source`
 			`		attributes arach`
 			`	to offer`
-			`		random < 20`
-			`		has "outfit: Jump Drive"`
+			`		random < 65`
+			`		has "ship attribute: jump drive"`
 			`		or`
 			`			has "Lunarium: Propaganda 4: done"`
 			`			has "Lunarium: Evacuation 6: done"`
@@ -11082,9 +11299,9 @@ mission "mission.helper"
 			`			not "assisting heliarchy"`
 			``
 			`You have the following missions, events and conditions:`
-			`has "outfit: Jump Drive"`
+			`has "ship attribute: jump drive"`
 				to display
-					has "outfit: Jump Drive"
+					has "ship attribute: jump drive"
 			`has "Lunarium: Propaganda 4: done"`
 				to display
 					has "Lunarium: Propaganda 4: done"
@@ -11200,14 +11417,14 @@ mission "mission.helper"
 			`		government "Coalition"`
 			`		not planet "Remote Blue"`
 			`	to offer`
-			`		has "outfit: Jump Drive"`
+			`		has "ship attribute: jump drive"`
 			`		or`
 			`			"assisted lunarium" >= 5`
 			`			and`
-			`				"coalition jobs" >= 80`
+			`				"coalition jobs" >= 70`
 			`				"assisted lunarium" == 4`
 			`			and`
-			`				"coalition jobs" >= 110`
+			`				"coalition jobs" >= 100`
 			`				"assisted lunarium" == 3`
 			`		"reputation: Quarg" >= 0`
 			`		not "joined the heliarchs"`
@@ -11221,21 +11438,21 @@ mission "mission.helper"
 			`			"reputation: Quarg" < 0`
 			``
 			`You have the following missions, events and conditions:`
-			`has "outfit: Jump Drive"`
+			`has "ship attribute: jump drive"`
 				to display
-					has "outfit: Jump Drive"
+					has "ship attribute: jump drive"
 			`"assisted lunarium" >= 5`
 				to display
 					"assisted lunarium" >= 5
-			`"coalition jobs" >= 80`
+			`"coalition jobs" >= 70`
 				to display
-					"coalition jobs" >= 80
+					"coalition jobs" >= 70
 			`"assisted lunarium" == 4`
 				to display
 					"assisted lunarium" == 4
-			`"coalition jobs" >= 110`
+			`"coalition jobs" >= 100`
 				to display
-					"coalition jobs" >= 110
+					"coalition jobs" >= 100
 			`"assisted lunarium" == 3`
 				to display
 					"assisted lunarium" == 3
@@ -12591,12 +12808,16 @@ mission "mission.helper"
 			`hai/hai missions.txt | mission "Expanding Business [1]"`
 			`	source "Greenwater"`
 			`	to offer`
-			`		has "event: hai-human resolution announced"`
+			`		has "First Contact: Hai: offered"`
+			`		has "main plot completed"`
 			``
 			`You have the following missions, events and conditions:`
-			`has "event: hai-human resolution announced"`
+			`has "First Contact: Hai: offered"`
 				to display
-					has "event: hai-human resolution announced"
+					has "First Contact: Hai: offered"
+			`has "main plot completed"`
+				to display
+					has "main plot completed"
 			``
 			choice
 				`[back to "Hai | Hai missions""]`
@@ -12802,9 +13023,6 @@ mission "mission.helper"
 			`		"net worth" > 20000000`
 			`		"combat rating" > 1200`
 			`		has "First Contact: Hai: offered"`
-			`		or`
-			`			not "hr: secret leaks"`
-			`			has "event: hai-human resolution announced"`
 			``
 			`You have the following missions, events and conditions:`
 			`"net worth" > 20000000`
@@ -12816,12 +13034,6 @@ mission "mission.helper"
 			`has "First Contact: Hai: offered"`
 				to display
 					has "First Contact: Hai: offered"
-			`not "hr: secret leaks"`
-				to display
-					not "hr: secret leaks"
-			`has "event: hai-human resolution announced"`
-				to display
-					has "event: hai-human resolution announced"
 			``
 			choice
 				`[back to "Hai | Hai missions""]`
@@ -13318,6 +13530,105 @@ mission "mission.helper"
 			`has "First Contact: Hai: offered"`
 				to display
 					has "First Contact: Hai: offered"
+			``
+			choice
+				`[back to "Hai | Hai missions""]`
+					goto "hai/hai missions.txt"
+				`[back to "Hai"]`
+					goto "hai"
+				`[back to "Races"]`
+					goto "start"
+			label "Acorn Delights: Part 1"
+			`hai/hai missions.txt | mission "Acorn Delights: Part 1"`
+			`	passengers 1`
+			`	cargo "acorn cookies" 3`
+			`	source "Allhome"`
+			`	to offer`
+			`		random < 35`
+			`		has "First Contact: Unfettered: offered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "First Contact: Unfettered: offered"`
+				to display
+					has "First Contact: Unfettered: offered"
+			``
+			choice
+				`[back to "Hai | Hai missions""]`
+					goto "hai/hai missions.txt"
+				`[back to "Hai"]`
+					goto "hai"
+				`[back to "Races"]`
+					goto "start"
+			label "Acorn Delights: Part 2"
+			`hai/hai missions.txt | mission "Acorn Delights: Part 2"`
+			`	passengers 1`
+			`	cargo "acorn cookies" 3`
+			`	source "Stonebreak"`
+			`	to offer`
+			`		has "Acorn Delights: Part 1: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Acorn Delights: Part 1: done"`
+				to display
+					has "Acorn Delights: Part 1: done"
+			``
+			choice
+				`[back to "Hai | Hai missions""]`
+					goto "hai/hai missions.txt"
+				`[back to "Hai"]`
+					goto "hai"
+				`[back to "Races"]`
+					goto "start"
+			label "Acorn Delights: Part 3"
+			`hai/hai missions.txt | mission "Acorn Delights: Part 3"`
+			`	passengers 1`
+			`	cargo "acorn cookies" 3`
+			`	source "Cloudfire"`
+			`	to offer`
+			`		has "Acorn Delights: Part 2: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Acorn Delights: Part 2: done"`
+				to display
+					has "Acorn Delights: Part 2: done"
+			``
+			choice
+				`[back to "Hai | Hai missions""]`
+					goto "hai/hai missions.txt"
+				`[back to "Hai"]`
+					goto "hai"
+				`[back to "Races"]`
+					goto "start"
+			label "Acorn Delights: Part 4"
+			`hai/hai missions.txt | mission "Acorn Delights: Part 4"`
+			`	passengers 1`
+			`	source "Darkcloak"`
+			`	to offer`
+			`		has "Acorn Delights: Part 3: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Acorn Delights: Part 3: done"`
+				to display
+					has "Acorn Delights: Part 3: done"
+			``
+			choice
+				`[back to "Hai | Hai missions""]`
+					goto "hai/hai missions.txt"
+				`[back to "Hai"]`
+					goto "hai"
+				`[back to "Races"]`
+					goto "start"
+			label "Acorn Delights: Part 5"
+			`hai/hai missions.txt | mission "Acorn Delights: Part 5"`
+			`	passengers 1`
+			`	source "Allhome"`
+			`	to offer`
+			`		has "Acorn Delights: Part 4: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Acorn Delights: Part 4: done"`
+				to display
+					has "Acorn Delights: Part 4: done"
 			``
 			choice
 				`[back to "Hai | Hai missions""]`
@@ -16298,7 +16609,7 @@ mission "mission.helper"
 			`		not "Hai Legacy 1: declined"`
 			`		has "First Contact: Unfettered: offered"`
 			`		"reputation: Hai (Unfettered)" < 0`
-			`		not "Unfettered Jump Drive 1: offered"`
+			`		not "Unfettered Jump Drive 2: offered"`
 			`		"credits" >= 10000000`
 			`	to complete`
 			`		has "ship model: Anomalocaris"`
@@ -16313,9 +16624,9 @@ mission "mission.helper"
 			`"reputation: Hai (Unfettered)" < 0`
 				to display
 					"reputation: Hai (Unfettered)" < 0
-			`not "Unfettered Jump Drive 1: offered"`
+			`not "Unfettered Jump Drive 2: offered"`
 				to display
-					not "Unfettered Jump Drive 1: offered"
+					not "Unfettered Jump Drive 2: offered"
 			`"credits" >= 10000000`
 				to display
 					"credits" >= 10000000
@@ -16332,7 +16643,7 @@ mission "mission.helper"
 					goto "start"
 			label "Hai Legacy 3"
 			`hai/unfettered side missions.txt | mission "Hai Legacy 3"`
-			`	source "Firelode"`
+			`	source "Darkcloak"`
 			`	to offer`
 			`		has "Hai Legacy 2: done"`
 			`		has "ship model: Anomalocaris"`
@@ -17246,6 +17557,111 @@ mission "mission.helper"
 			`year == 3030`
 				to display
 					year == 3030
+			``
+			choice
+				`[back to "Human | Culture conversations""]`
+					goto "human/culture conversations.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Exotic Life: Delve"
+			`human/culture conversations.txt | mission "Exotic Life: Delve"`
+			`	source Delve`
+			`	to offer`
+			`		random < 20`
+			``
+			`You have the following missions, events and conditions:`
+			``
+			choice
+				`[back to "Human | Culture conversations""]`
+					goto "human/culture conversations.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Exotic Life: Ada"
+			`human/culture conversations.txt | mission "Exotic Life: Ada"`
+			`	source Ada`
+			`	to offer`
+			`		random < 10`
+			``
+			`You have the following missions, events and conditions:`
+			``
+			choice
+				`[back to "Human | Culture conversations""]`
+					goto "human/culture conversations.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Exotic Life: Bluestone"
+			`human/culture conversations.txt | mission "Exotic Life: Bluestone"`
+			`	source Bluestone`
+			`	to offer`
+			`		random < 10`
+			``
+			`You have the following missions, events and conditions:`
+			``
+			choice
+				`[back to "Human | Culture conversations""]`
+					goto "human/culture conversations.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Exotic Life: Geyser"
+			`human/culture conversations.txt | mission "Exotic Life: Geyser"`
+			`	source Geyser`
+			`	to offer`
+			`		random < 10`
+			``
+			`You have the following missions, events and conditions:`
+			``
+			choice
+				`[back to "Human | Culture conversations""]`
+					goto "human/culture conversations.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Exotic Life: Bloodsea"
+			`human/culture conversations.txt | mission "Exotic Life: Bloodsea"`
+			`	source Bloodsea`
+			`	to offer`
+			`		random < 10`
+			``
+			`You have the following missions, events and conditions:`
+			``
+			choice
+				`[back to "Human | Culture conversations""]`
+					goto "human/culture conversations.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Exotic Life: Albatross"
+			`human/culture conversations.txt | mission "Exotic Life: Albatross"`
+			`	source Albatross`
+			`	to offer`
+			`		random < 10`
+			``
+			`You have the following missions, events and conditions:`
+			``
+			choice
+				`[back to "Human | Culture conversations""]`
+					goto "human/culture conversations.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Little Vienna in New Austria"
+			`human/culture conversations.txt | mission "Little Vienna in New Austria"`
+			`	source "New Austria"`
+			`	to offer`
+			`		random < 10`
+			``
+			`You have the following missions, events and conditions:`
 			``
 			choice
 				`[back to "Human | Culture conversations""]`
@@ -20932,7 +21348,7 @@ mission "mission.helper"
 			`		not "fw first chapter done"`
 			`		not "FW Refinery 1: offered"`
 			`	to fail`
-			`		has "FW Pirates: Attack 1: done"`
+			`		has "event: battle for Greenrock"`
 			``
 			`You have the following missions, events and conditions:`
 			`has "FW Pirates 2: done"`
@@ -20944,9 +21360,9 @@ mission "mission.helper"
 			`not "FW Refinery 1: offered"`
 				to display
 					not "FW Refinery 1: offered"
-			`has "FW Pirates: Attack 1: done"`
+			`has "event: battle for Greenrock"`
 				to display
-					has "FW Pirates: Attack 1: done"
+					has "event: battle for Greenrock"
 			``
 			choice
 				`[back to "Human | Free worlds 1 start""]`
@@ -26848,11 +27264,25 @@ mission "mission.helper"
 			`	to offer`
 			`		"combat rating" > 200`
 			`		random < 5`
+			`		or`
+			`			and`
+			`				not "FW Pug 1: offered"`
+			`				not "FWC Pug 1: offered"`
+			`			has "main plot completed"`
 			``
 			`You have the following missions, events and conditions:`
 			`"combat rating" > 200`
 				to display
 					"combat rating" > 200
+			`not "FW Pug 1: offered"`
+				to display
+					not "FW Pug 1: offered"
+			`not "FWC Pug 1: offered"`
+				to display
+					not "FWC Pug 1: offered"
+			`has "main plot completed"`
+				to display
+					has "main plot completed"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -27415,16 +27845,196 @@ mission "mission.helper"
 					goto "human"
 				`[back to "Races"]`
 					goto "start"
+			label "Syndicate Business 1"
+			`human/human missions.txt | mission "Syndicate Business 1"`
+			`	source`
+			`		government "Syndicate"`
+			`		not planet "Sunracer"`
+			`	to offer`
+			`		random < 40`
+			`		credits > 5000000`
+			``
+			`You have the following missions, events and conditions:`
+			`credits > 5000000`
+				to display
+					credits > 5000000
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Syndicate Business 2"
+			`human/human missions.txt | mission "Syndicate Business 2"`
+			`	passengers 1`
+			`	source "Sunracer"`
+			`	to offer`
+			`		has "Syndicate Business 1: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Syndicate Business 1: done"`
+				to display
+					has "Syndicate Business 1: done"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Syndicate Business 3"
+			`human/human missions.txt | mission "Syndicate Business 3"`
+			`	source`
+			`		government "Syndicate"`
+			`		not planet "Hephaestus"`
+			`	to offer`
+			`		has "Syndicate Business 2: done"`
+			`		has "event: syndicate business 1m investment done"`
+			`		random < 40`
+			`		credits > 40000000`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Syndicate Business 2: done"`
+				to display
+					has "Syndicate Business 2: done"
+			`has "event: syndicate business 1m investment done"`
+				to display
+					has "event: syndicate business 1m investment done"
+			`credits > 40000000`
+				to display
+					credits > 40000000
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Syndicate Business 4"
+			`human/human missions.txt | mission "Syndicate Business 4"`
+			`	source "Hephaestus"`
+			`	to offer`
+			`		has "Syndicate Business 3: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Syndicate Business 3: done"`
+				to display
+					has "Syndicate Business 3: done"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Syndicate Business 5"
+			`human/human missions.txt | mission "Syndicate Business 5"`
+			`	source "Sunracer"`
+			`	to offer`
+			`		has "Syndicate Business 4: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Syndicate Business 4: done"`
+				to display
+					has "Syndicate Business 4: done"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Syndicate Business 5.1 A 10m Expansion Update"
+			`human/human missions.txt | mission "Syndicate Business 5.1 A 10m Expansion Update"`
+			`	source`
+			`		near Ruchbah 0 20`
+			`	to offer`
+			`		has "Syndicate Business 5: done"`
+			`		has "event: syndicate business 10m investment done"`
+			`		or`
+			`			has "Syndicate Business expansion 10m good"`
+			`			has "Syndicate Business expansion 10m neutral"`
+			`			has "Syndicate Business expansion 10m evil"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Syndicate Business 5: done"`
+				to display
+					has "Syndicate Business 5: done"
+			`has "event: syndicate business 10m investment done"`
+				to display
+					has "event: syndicate business 10m investment done"
+			`has "Syndicate Business expansion 10m good"`
+				to display
+					has "Syndicate Business expansion 10m good"
+			`has "Syndicate Business expansion 10m neutral"`
+				to display
+					has "Syndicate Business expansion 10m neutral"
+			`has "Syndicate Business expansion 10m evil"`
+				to display
+					has "Syndicate Business expansion 10m evil"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Syndicate Business 5.1 B 10m Expansion Crossroads Update"
+			`human/human missions.txt | mission "Syndicate Business 5.1 B 10m Expansion Crossroads Update"`
+			`	source "Crossroads"`
+			`	to offer`
+			`		has "Syndicate Business 5: done"`
+			`		has "event: syndicate business 10m investment done"`
+			`		or`
+			`			has "Syndicate Business expansion 10m good"`
+			`			has "Syndicate Business expansion 10m neutral"`
+			`			has "Syndicate Business expansion 10m evil"`
+			`		random < 85`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Syndicate Business 5: done"`
+				to display
+					has "Syndicate Business 5: done"
+			`has "event: syndicate business 10m investment done"`
+				to display
+					has "event: syndicate business 10m investment done"
+			`has "Syndicate Business expansion 10m good"`
+				to display
+					has "Syndicate Business expansion 10m good"
+			`has "Syndicate Business expansion 10m neutral"`
+				to display
+					has "Syndicate Business expansion 10m neutral"
+			`has "Syndicate Business expansion 10m evil"`
+				to display
+					has "Syndicate Business expansion 10m evil"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
 			label "Timothy Radrickson 1: Stowaway"
 			`human/human missions.txt | mission "Timothy Radrickson 1: Stowaway"`
-			`	passengers 1`
 			`	source`
 			`		near "Zeta Aquilae" 3 10`
 			`		government "Republic" "Free Worlds" "Independent" "Pirate" "Neutral"`
 			`	to offer`
+			`		has "event: remembrance day"`
 			`		random < 2`
 			``
 			`You have the following missions, events and conditions:`
+			`has "event: remembrance day"`
+				to display
+					has "event: remembrance day"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -27612,40 +28222,11 @@ mission "mission.helper"
 			`		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"`
 			`	to offer`
 			`		has "event: timothy radrickson imprisoned"`
-			`	to complete`
-			`		never`
 			``
 			`You have the following missions, events and conditions:`
 			`has "event: timothy radrickson imprisoned"`
 				to display
 					has "event: timothy radrickson imprisoned"
-			`never`
-				to display
-					never
-			``
-			choice
-				`[back to "Human | Human missions""]`
-					goto "human/human missions.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Timothy Radrickson 5: Oblivion Meeting"
-			`human/human missions.txt | mission "Timothy Radrickson 5: Oblivion Meeting"`
-			`	source "Oblivion"`
-			`	to offer`
-			`		random < 90`
-			`		has "Timothy Radrickson 4: Imprisoned: active"`
-			`	to complete`
-			`		never`
-			``
-			`You have the following missions, events and conditions:`
-			`has "Timothy Radrickson 4: Imprisoned: active"`
-				to display
-					has "Timothy Radrickson 4: Imprisoned: active"
-			`never`
-				to display
-					never
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -27663,7 +28244,8 @@ mission "mission.helper"
 			`		"timothy radrickson suit" >= 1`
 			`		"timothy radrickson id" >= 1`
 			`	to offer`
-			`		has "Timothy Radrickson 5: Oblivion Meeting: active"`
+			`		has "Timothy Radrickson 4: Imprisoned: done"`
+			`		not "event: rad tim dead"`
 			``
 			`You have the following missions, events and conditions:`
 			`"timothy radrickson medicine" >= 1`
@@ -27675,9 +28257,12 @@ mission "mission.helper"
 			`"timothy radrickson id" >= 1`
 				to display
 					"timothy radrickson id" >= 1
-			`has "Timothy Radrickson 5: Oblivion Meeting: active"`
+			`has "Timothy Radrickson 4: Imprisoned: done"`
 				to display
-					has "Timothy Radrickson 5: Oblivion Meeting: active"
+					has "Timothy Radrickson 4: Imprisoned: done"
+			`not "event: rad tim dead"`
+				to display
+					not "event: rad tim dead"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -27879,6 +28464,143 @@ mission "mission.helper"
 			`has "Timothy Radrickson 5a: Timshank Redemption: failed"`
 				to display
 					has "Timothy Radrickson 5a: Timshank Redemption: failed"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Timothy Radrickson: Log Fix 1"
+			`human/human missions.txt | mission "Timothy Radrickson: Log Fix 1"`
+			`	to offer`
+			`		has "Timothy Radrickson 1: Stowaway: done"`
+			`		not "Timothy Radrickson 2: Good Interlude: offered"`
+			`		not "timothy radrickson 1 log entry correct"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Timothy Radrickson 1: Stowaway: done"`
+				to display
+					has "Timothy Radrickson 1: Stowaway: done"
+			`not "Timothy Radrickson 2: Good Interlude: offered"`
+				to display
+					not "Timothy Radrickson 2: Good Interlude: offered"
+			`not "timothy radrickson 1 log entry correct"`
+				to display
+					not "timothy radrickson 1 log entry correct"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Timothy Radrickson: Log Fix 2"
+			`human/human missions.txt | mission "Timothy Radrickson: Log Fix 2"`
+			`	to offer`
+			`		has "Timothy Radrickson 2: Good Interlude: offered"`
+			`		not "Timothy Radrickson 3d: Return to Rand: done"`
+			`		not "timothy radrickson 2 log entry correct"`
+			`		not "Timothy Radrickson: Log Fix 1: offered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Timothy Radrickson 2: Good Interlude: offered"`
+				to display
+					has "Timothy Radrickson 2: Good Interlude: offered"
+			`not "Timothy Radrickson 3d: Return to Rand: done"`
+				to display
+					not "Timothy Radrickson 3d: Return to Rand: done"
+			`not "timothy radrickson 2 log entry correct"`
+				to display
+					not "timothy radrickson 2 log entry correct"
+			`not "Timothy Radrickson: Log Fix 1: offered"`
+				to display
+					not "Timothy Radrickson: Log Fix 1: offered"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Timothy Radrickson: Log Fix 3"
+			`human/human missions.txt | mission "Timothy Radrickson: Log Fix 3"`
+			`	to offer`
+			`		has "Timothy Radrickson 3d: Return to Rand: done"`
+			`		not "Timothy Radrickson 4: Imprisoned: done"`
+			`		not "timothy radrickson 3 log entry correct"`
+			`		not "Timothy Radrickson: Log Fix 2: offered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Timothy Radrickson 3d: Return to Rand: done"`
+				to display
+					has "Timothy Radrickson 3d: Return to Rand: done"
+			`not "Timothy Radrickson 4: Imprisoned: done"`
+				to display
+					not "Timothy Radrickson 4: Imprisoned: done"
+			`not "timothy radrickson 3 log entry correct"`
+				to display
+					not "timothy radrickson 3 log entry correct"
+			`not "Timothy Radrickson: Log Fix 2: offered"`
+				to display
+					not "Timothy Radrickson: Log Fix 2: offered"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Timothy Radrickson: Log Fix 4"
+			`human/human missions.txt | mission "Timothy Radrickson: Log Fix 4"`
+			`	to offer`
+			`		has "Timothy Radrickson 4: Imprisoned: done"`
+			`		not "Timothy Radrickson 5a: Timshank Redemption: offered"`
+			`		not "timothy radrickson 4 log entry correct"`
+			`		not "Timothy Radrickson: Log Fix 3: offered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Timothy Radrickson 4: Imprisoned: done"`
+				to display
+					has "Timothy Radrickson 4: Imprisoned: done"
+			`not "Timothy Radrickson 5a: Timshank Redemption: offered"`
+				to display
+					not "Timothy Radrickson 5a: Timshank Redemption: offered"
+			`not "timothy radrickson 4 log entry correct"`
+				to display
+					not "timothy radrickson 4 log entry correct"
+			`not "Timothy Radrickson: Log Fix 3: offered"`
+				to display
+					not "Timothy Radrickson: Log Fix 3: offered"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Timothy Radrickson: Log Fix 6"
+			`human/human missions.txt | mission "Timothy Radrickson: Log Fix 6"`
+			`	to offer`
+			`		has "Timothy Radrickson 5a: Timshank Redemption: offered"`
+			`		not "timothy radrickson 6 log entry correct"`
+			`		not "Timothy Radrickson: Log Fix 4: offered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Timothy Radrickson 5a: Timshank Redemption: offered"`
+				to display
+					has "Timothy Radrickson 5a: Timshank Redemption: offered"
+			`not "timothy radrickson 6 log entry correct"`
+				to display
+					not "timothy radrickson 6 log entry correct"
+			`not "Timothy Radrickson: Log Fix 4: offered"`
+				to display
+					not "Timothy Radrickson: Log Fix 4: offered"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -28155,6 +28877,27 @@ mission "mission.helper"
 			`has "Stone to Ice Queen: offered"`
 				to display
 					has "Stone to Ice Queen: offered"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Patch Stone Waiting"
+			`human/human missions.txt | mission "Patch Stone Waiting"`
+			`	to offer`
+			`		has "Stone of our Fathers 5: done"`
+			`		not "stone waiting most: triggered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Stone of our Fathers 5: done"`
+				to display
+					has "Stone of our Fathers 5: done"
+			`not "stone waiting most: triggered"`
+				to display
+					not "stone waiting most: triggered"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -28770,6 +29513,31 @@ mission "mission.helper"
 					goto "incipias"
 				`[back to "Races"]`
 					goto "start"
+			label "Incipias: Fix Saves Missing Language"
+			`incipias/incipias first contact.txt | mission "Incipias: Fix Saves Missing Language"`
+			`	to offer`
+			`		has "Incipias: Help The Stranded 1: offered"`
+			`		not "Incipias: Help The Stranded 1: declined"`
+			`		not "language: Incipias"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Incipias: Help The Stranded 1: offered"`
+				to display
+					has "Incipias: Help The Stranded 1: offered"
+			`not "Incipias: Help The Stranded 1: declined"`
+				to display
+					not "Incipias: Help The Stranded 1: declined"
+			`not "language: Incipias"`
+				to display
+					not "language: Incipias"
+			``
+			choice
+				`[back to "Incipias | Incipias first contact""]`
+					goto "incipias/incipias first contact.txt"
+				`[back to "Incipias"]`
+					goto "incipias"
+				`[back to "Races"]`
+					goto "start"
 			label "Incipias: No Help For The Stranded"
 			`incipias/incipias first contact.txt | mission "Incipias: No Help For The Stranded"`
 			`	source`
@@ -28815,6 +29583,20 @@ mission "mission.helper"
 					goto "incipias/incipias first contact.txt"
 				`[back to "Incipias"]`
 					goto "incipias"
+				`[back to "Races"]`
+					goto "start"
+			label "Disabled Aberrant"
+			`kahet/aberrant missions.txt | mission "Disabled Aberrant"`
+			`	source`
+			`		government "Aberrant"`
+			``
+			`You have the following missions, events and conditions:`
+			``
+			choice
+				`[back to "Kahet | Aberrant missions""]`
+					goto "kahet/aberrant missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
 				`[back to "Races"]`
 					goto "start"
 			label "Graveyard Label"
@@ -29194,6 +29976,319 @@ mission "mission.helper"
 			`has "Ka'het: Patir Mystery 4: done"`
 				to display
 					has "Ka'het: Patir Mystery 4: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 6"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 6"`
+			`	passengers 5`
+			`	cargo "instruments and samplers" 2`
+			`	source`
+			`		government "Remnant"`
+			`		attributes "remnant primary"`
+			`	to offer`
+			`		has "event: patir mystery timer"`
+			`		has "Remnant: Cognizance 38: done"`
+			`		not "ka'het: attacked ka'sei"`
+			`		not "remnant: dusk busy"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: patir mystery timer"`
+				to display
+					has "event: patir mystery timer"
+			`has "Remnant: Cognizance 38: done"`
+				to display
+					has "Remnant: Cognizance 38: done"
+			`not "ka'het: attacked ka'sei"`
+				to display
+					not "ka'het: attacked ka'sei"
+			`not "remnant: dusk busy"`
+				to display
+					not "remnant: dusk busy"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 7"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 7"`
+			`	passengers 5`
+			`	cargo "Patir samples" 2`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 6: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 6: done"`
+				to display
+					has "Ka'het: Patir Mystery 6: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 8A"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 8A"`
+			`	passengers 5`
+			`	source "Aventine"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 7: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 7: done"`
+				to display
+					has "Ka'het: Patir Mystery 7: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 8B"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 8B"`
+			`	passengers 5`
+			`	cargo "research lab and satellite" 97`
+			`	source "Babiali"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 8A: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 8A: done"`
+				to display
+					has "Ka'het: Patir Mystery 8A: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Asteroid guarding Lathia"
+			`kahet/kahet missions.txt | mission "Asteroid guarding Lathia"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 8B: offered"`
+			`	to complete`
+			`		never`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 8B: offered"`
+				to display
+					has "Ka'het: Patir Mystery 8B: offered"
+			`never`
+				to display
+					never
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 9"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 9"`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 8B: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 8B: done"`
+				to display
+					has "Ka'het: Patir Mystery 8B: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 10"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 10"`
+			`	passengers 1`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 9: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 9: done"`
+				to display
+					has "Ka'het: Patir Mystery 9: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 11"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 11"`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 10: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 10: done"`
+				to display
+					has "Ka'het: Patir Mystery 10: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 12.1A"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 12.1A"`
+			`	passengers 5`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 11: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 11: done"`
+				to display
+					has "Ka'het: Patir Mystery 11: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 12.1B"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 12.1B"`
+			`	passengers 5`
+			`	source "Chanai Structure"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 12.1A: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 12.1A: done"`
+				to display
+					has "Ka'het: Patir Mystery 12.1A: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 12.2A"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 12.2A"`
+			`	passengers 5`
+			`	cargo "Remnant Probes" 3`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 11: done"`
+			`		( "Ka'het: Patir Mystery 12.1A: offered" + "Ka'het: Patir Mystery 12.1A: declined" ) % 2 == 0`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 11: done"`
+				to display
+					has "Ka'het: Patir Mystery 11: done"
+			`( "Ka'het: Patir Mystery 12.1A: offered" + "Ka'het: Patir Mystery 12.1A: declined" ) % 2 == 0`
+				to display
+					( "Ka'het: Patir Mystery 12.1A: offered" + "Ka'het: Patir Mystery 12.1A: declined" ) % 2 == 0
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 12.2B"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 12.2B"`
+			`	passengers 5`
+			`	cargo "Ka'het boarding payload" 3`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 12.2A: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 12.2A: done"`
+				to display
+					has "Ka'het: Patir Mystery 12.2A: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 12.2C"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 12.2C"`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 12.2A: done"`
+			`	to fail`
+			`		has "Ka'het: Patir Mystery 12.2B: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 12.2A: done"`
+				to display
+					has "Ka'het: Patir Mystery 12.2A: done"
+			`has "Ka'het: Patir Mystery 12.2B: done"`
+				to display
+					has "Ka'het: Patir Mystery 12.2B: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 13.1"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 13.1"`
+			`	passengers 5`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 12.1B: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 12.1B: done"`
+				to display
+					has "Ka'het: Patir Mystery 12.1B: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 13.2"
+			`kahet/kahet missions.txt | mission "Ka'het: Patir Mystery 13.2"`
+			`	passengers 5`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 12.2B: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 12.2B: done"`
+				to display
+					has "Ka'het: Patir Mystery 12.2B: done"
 			``
 			choice
 				`[back to "Kahet | Kahet missions""]`
@@ -29860,10 +30955,8 @@ mission "mission.helper"
 			`	to offer`
 			`		has "remnant: blood test pure"`
 			`		not "license: Remnant"`
-			`		not "outfit: Quantum Keystone"`
-			`		not "outfit: Quantum Key Stone"`
-			`		not "outfit: Jump Drive"`
-			`		not "outfit: Shield Beetle Pendant"`
+			`		not "ship attribute: quantum keystone"`
+			`		not "ship attribute: jump drive"`
 			``
 			`You have the following missions, events and conditions:`
 			`has "remnant: blood test pure"`
@@ -29872,18 +30965,12 @@ mission "mission.helper"
 			`not "license: Remnant"`
 				to display
 					not "license: Remnant"
-			`not "outfit: Quantum Keystone"`
+			`not "ship attribute: quantum keystone"`
 				to display
-					not "outfit: Quantum Keystone"
-			`not "outfit: Quantum Key Stone"`
+					not "ship attribute: quantum keystone"
+			`not "ship attribute: jump drive"`
 				to display
-					not "outfit: Quantum Key Stone"
-			`not "outfit: Jump Drive"`
-				to display
-					not "outfit: Jump Drive"
-			`not "outfit: Shield Beetle Pendant"`
-				to display
-					not "outfit: Shield Beetle Pendant"
+					not "ship attribute: jump drive"
 			``
 			choice
 				`[back to "Remnant | Remnant 1 introduction""]`
@@ -29899,10 +30986,8 @@ mission "mission.helper"
 			`	to offer`
 			`		has "event: remnant: lost in ember waste"`
 			`		not "license: Remnant"`
-			`		not "outfit: Quantum Keystone"`
-			`		not "outfit: Quantum Key Stone"`
-			`		not "outfit: Jump Drive"`
-			`		not "outfit: Shield Beetle Pendant"`
+			`		not "ship attribute: quantum keystone"`
+			`		not "ship attribute: jump drive"`
 			``
 			`You have the following missions, events and conditions:`
 			`has "event: remnant: lost in ember waste"`
@@ -29911,18 +30996,12 @@ mission "mission.helper"
 			`not "license: Remnant"`
 				to display
 					not "license: Remnant"
-			`not "outfit: Quantum Keystone"`
+			`not "ship attribute: quantum keystone"`
 				to display
-					not "outfit: Quantum Keystone"
-			`not "outfit: Quantum Key Stone"`
+					not "ship attribute: quantum keystone"
+			`not "ship attribute: jump drive"`
 				to display
-					not "outfit: Quantum Key Stone"
-			`not "outfit: Jump Drive"`
-				to display
-					not "outfit: Jump Drive"
-			`not "outfit: Shield Beetle Pendant"`
-				to display
-					not "outfit: Shield Beetle Pendant"
+					not "ship attribute: jump drive"
 			``
 			choice
 				`[back to "Remnant | Remnant 1 introduction""]`
@@ -30661,19 +31740,19 @@ mission "mission.helper"
 					goto "remnant"
 				`[back to "Races"]`
 					goto "start"
-			label "Remnant: Return the Samples Compatibility Patch"
-			`remnant/remnant 1 introduction.txt | mission "Remnant: Return the Samples Compatibility Patch"`
+			label "Remnant: Travel Restrictions Patch"
+			`remnant/remnant 1 introduction.txt | mission "Remnant: Travel Restrictions Patch"`
 			`	to offer`
 			`		has "Remnant: Return the Samples 2: done"`
-			`		not "remnant: return the samples timer triggered"`
+			`		not "remnant: travel restrictions cleared"`
 			``
 			`You have the following missions, events and conditions:`
 			`has "Remnant: Return the Samples 2: done"`
 				to display
 					has "Remnant: Return the Samples 2: done"
-			`not "remnant: return the samples timer triggered"`
+			`not "remnant: travel restrictions cleared"`
 				to display
-					not "remnant: return the samples timer triggered"
+					not "remnant: travel restrictions cleared"
 			``
 			choice
 				`[back to "Remnant | Remnant 1 introduction""]`
@@ -31963,6 +33042,7 @@ mission "mission.helper"
 					goto "start"
 			label "Remnant: Cognizance 21"
 			`remnant/remnant 2 cognizance.txt | mission "Remnant: Cognizance 21"`
+			`	passengers 5`
 			`	cargo "supplies" 10`
 			`	source`
 			`		government "Remnant"`
@@ -32234,11 +33314,16 @@ mission "mission.helper"
 			`	source "Ssil Vida"`
 			`	to offer`
 			`		has "Remnant: Cognizance 33: done"`
+			`	to complete`
+			`		has "remnant: saw changed postverta"`
 			``
 			`You have the following missions, events and conditions:`
 			`has "Remnant: Cognizance 33: done"`
 				to display
 					has "Remnant: Cognizance 33: done"
+			`has "remnant: saw changed postverta"`
+				to display
+					has "remnant: saw changed postverta"
 			``
 			choice
 				`[back to "Remnant | Remnant 2 cognizance""]`
@@ -33491,6 +34576,36 @@ mission "mission.helper"
 					goto "successors"
 				`[back to "Races"]`
 					goto "start"
+			label "Successors: First Contact 3: Fix Friend to Animals"
+			`successors/successor 1 prologue.txt | mission "Successors: First Contact 3: Fix Friend to Animals"`
+			`	to offer`
+			`		# Impossible to detect if the stopover happened, so patch the conditions after the mission completes`
+			`		has "Successors: First Contact 3: done"`
+			`		has "Successors FC3: nonviolent kijra-pet capture"`
+			`		not "Successors FC3: released kijra-pet"`
+			`		not "Successors FC3: captured kijra-pet"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: First Contact 3: done"`
+				to display
+					has "Successors: First Contact 3: done"
+			`has "Successors FC3: nonviolent kijra-pet capture"`
+				to display
+					has "Successors FC3: nonviolent kijra-pet capture"
+			`not "Successors FC3: released kijra-pet"`
+				to display
+					not "Successors FC3: released kijra-pet"
+			`not "Successors FC3: captured kijra-pet"`
+				to display
+					not "Successors FC3: captured kijra-pet"
+			``
+			choice
+				`[back to "Successors | Successor 1 prologue""]`
+					goto "successors/successor 1 prologue.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
 			label "Successors: Kaatrij First Contact 1"
 			`successors/successor 1 prologue.txt | mission "Successors: Kaatrij First Contact 1"`
 			`	to offer`
@@ -33653,7 +34768,7 @@ mission "mission.helper"
 			`				not "Successors: First Contact 2: done"`
 			`			and`
 			`				has "Successors: First Contact 2: done"`
-			`				random < 10`
+			`				random < 5`
 			``
 			`You have the following missions, events and conditions:`
 			`has "Successors: First Contact 1: done"`
@@ -33680,7 +34795,7 @@ mission "mission.helper"
 			`		not attributes "crime" "quiet" "uninhabited"`
 			`	to offer`
 			`		has "known to the successors"`
-			`		random < 40`
+			`		random < 5`
 			``
 			`You have the following missions, events and conditions:`
 			`has "known to the successors"`
@@ -33701,7 +34816,112 @@ mission "mission.helper"
 			`		not attributes "uninhabited"`
 			`	to offer`
 			`		has "known to the successors"`
-			`		random < 15`
+			`		random < 5`
+			``
+			`You have the following missions, events and conditions:`
+			`has "known to the successors"`
+				to display
+					has "known to the successors"
+			``
+			choice
+				`[back to "Successors | Successor culture conversations""]`
+					goto "successors/successor culture conversations.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Stage Play"
+			`successors/successor culture conversations.txt | mission "Successors: Stage Play"`
+			`	source`
+			`		attributes "successor"`
+			`		not attributes "crime" "quiet" "uninhabited" "station"`
+			`	to offer`
+			`		has "trusted by the successors"`
+			`		random < 5`
+			``
+			`You have the following missions, events and conditions:`
+			`has "trusted by the successors"`
+				to display
+					has "trusted by the successors"
+			``
+			choice
+				`[back to "Successors | Successor culture conversations""]`
+					goto "successors/successor culture conversations.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Sosrue"
+			`successors/successor culture conversations.txt | mission "Successors: Sosrue"`
+			`	source`
+			`		attributes "successor"`
+			`		not attributes "crime" "quiet" "uninhabited"`
+			`	to offer`
+			`		has "trusted by the successors"`
+			`		random < 5`
+			``
+			`You have the following missions, events and conditions:`
+			`has "trusted by the successors"`
+				to display
+					has "trusted by the successors"
+			``
+			choice
+				`[back to "Successors | Successor culture conversations""]`
+					goto "successors/successor culture conversations.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Derelict Station Toy"
+			`successors/successor culture conversations.txt | mission "Successors: Derelict Station Toy"`
+			`	source`
+			`		attributes "successor"`
+			`		attributes "station"`
+			`		government "Uninhabited"`
+			`	to offer`
+			`		has "known to the successors"`
+			`		random < 5`
+			``
+			`You have the following missions, events and conditions:`
+			`has "known to the successors"`
+				to display
+					has "known to the successors"
+			``
+			choice
+				`[back to "Successors | Successor culture conversations""]`
+					goto "successors/successor culture conversations.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Pet Commemoration"
+			`successors/successor culture conversations.txt | mission "Successors: Pet Commemoration"`
+			`	source`
+			`		attributes "successor"`
+			`		not attributes "uninhabited" "quiet"`
+			`	to offer`
+			`		has "known to the successors"`
+			`		random < 5`
+			``
+			`You have the following missions, events and conditions:`
+			`has "known to the successors"`
+				to display
+					has "known to the successors"
+			``
+			choice
+				`[back to "Successors | Successor culture conversations""]`
+					goto "successors/successor culture conversations.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Armor Reconfiguration"
+			`successors/successor culture conversations.txt | mission "Successors: Armor Reconfiguration"`
+			`	source`
+			`		government "House Aqrabe" "House Chydiyi"`
+			`	to offer`
+			`		has "known to the successors"`
+			`		random < 5`
 			``
 			`You have the following missions, events and conditions:`
 			`has "known to the successors"`
@@ -35860,6 +37080,23 @@ mission "mission.helper"
 					goto "wanderer"
 				`[back to "Races"]`
 					goto "start"
+			label "Wanderers: Vara K'Chrai Facilities Patch"
+			`wanderer/wanderers start.txt | mission "Wanderers: Vara K'Chrai Facilities Patch"`
+			`	to offer`
+			`		has "Wanderers Conversation: offered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Wanderers Conversation: offered"`
+				to display
+					has "Wanderers Conversation: offered"
+			``
+			choice
+				`[back to "Wanderer | Wanderers start""]`
+					goto "wanderer/wanderers start.txt"
+				`[back to "Wanderer"]`
+					goto "wanderer"
+				`[back to "Races"]`
+					goto "start"
 			label "Wanderers: Outfit License Patch"
 			`wanderer/wanderers start.txt | mission "Wanderers: Outfit License Patch"`
 			`	to offer`
@@ -36627,6 +37864,27 @@ mission "mission.helper"
 			`has "Wanderers Hai Assistance 1: done"`
 				to display
 					has "Wanderers Hai Assistance 1: done"
+			``
+			choice
+				`[back to "Wanderer | Wanderers start""]`
+					goto "wanderer/wanderers start.txt"
+				`[back to "Wanderer"]`
+					goto "wanderer"
+				`[back to "Races"]`
+					goto "start"
+			label "Wanderers Hai Assistance Fleet patch"
+			`wanderer/wanderers start.txt | mission "Wanderers Hai Assistance Fleet patch"`
+			`	to offer`
+			`		has "Wanderers Hai Assistance Fleet: offered"`
+			`		not "event: hai blockade"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Wanderers Hai Assistance Fleet: offered"`
+				to display
+					has "Wanderers Hai Assistance Fleet: offered"
+			`not "event: hai blockade"`
+				to display
+					not "event: hai blockade"
 			``
 			choice
 				`[back to "Wanderer | Wanderers start""]`

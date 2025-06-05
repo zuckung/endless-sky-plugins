@@ -8,6 +8,11 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 Changelog:<br>
 <br>
+2025-06-05<br>
+updated missions to 0.10.13<br>
+added rulei and ka'het<br>
+added color code to job<br>
+<br>
 2025-05-01<br>
 added the choice to prevent race spoilers<br>
 removed races without missions<br>
