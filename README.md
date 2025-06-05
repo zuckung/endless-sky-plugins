@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-05 | update: more.boarding.missions<br>
 2025-06-05 | update: more.person.ships<br>
 2025-06-05 | update: human.labels<br>
 2025-06-05 | update: paint.your.ships<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-05 | update: galactic.capital.investment<br>
 2025-06-05 | update: hai.side.mission.unlocker<br>
 2025-06-05 | update: mission.helper<br>
-2025-06-05 | update: quarg.farm<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3346,7 +3346,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/more.boarding.missions.png">
 
-[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-more.boarding.missions/more.boarding.missions.zip) | 5.63 mb | 2025-02-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <a href="res/imagemd/more.boarding.missions.md">view images</a> [50]<br>
+[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.5-more.boarding.missions/more.boarding.missions.zip) | 5.66 mb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) <a href="res/imagemd/more.boarding.missions.md">view images</a> [50]<br>
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the README for details.
 
