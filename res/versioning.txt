@@ -30,7 +30,7 @@ licenses|1.0.1
 mission.helper|1.0.4
 more.arfectas|1.0.2
 more.boarding.missions|1.1.4
-more.person.ships|1.0.2
+more.person.ships|1.0.3
 navy.licenses|1.0.3
 no.more.mereti.mines|1.0.3
 outfits.weapon.slot|1.0.0

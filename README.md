@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-05 | update: more.person.ships<br>
 2025-06-05 | update: human.labels<br>
 2025-06-05 | update: paint.your.ships<br>
 2025-06-05 | update: captureable.person.ships<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-05 | update: hai.side.mission.unlocker<br>
 2025-06-05 | update: mission.helper<br>
 2025-06-05 | update: quarg.farm<br>
-2025-06-04 | update: combat.ai<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3556,7 +3556,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/more.person.ships/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/more.person.ships.png">
 
-[more.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-more.person.ships/more.person.ships.zip) | 4.6 mb | 2024-10-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/) <a href="res/imagemd/more.person.ships.md">view images</a> [32]<br>
+[more.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-more.person.ships/more.person.ships.zip) | 4.67 mb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/) <a href="res/imagemd/more.person.ships.md">view images</a> [32]<br>
 <br>
 >This plugin adds more person ships to the different regions of the galaxy. See the README for details.
 
