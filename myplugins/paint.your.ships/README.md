@@ -8,6 +8,9 @@ There are already like five plugins that change the swizzle color, but this one 
 <br>
 Changelog:<br>
 <br>
+2025-06-04<br>
+colored the job<br>
+<br>
 2025-05-19<br>
 icon@2x, plugintxt changes<br>
 <br>

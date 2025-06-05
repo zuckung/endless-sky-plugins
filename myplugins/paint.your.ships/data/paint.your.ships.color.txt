@@ -1,5 +1,11 @@
+color "paint.your.ships job: selected" .1 .8 .1 0.
+color "paint.your.ships job: unselected" .1 .5 .2 0.
+
+
 mission "Change paint #00"
 	job
+	color selected "paint.your.ships job: selected"
+	color unselected "paint.your.ships job: unselected"
 	repeat
 	source "Earth"
 	name "(Paint your ships)"

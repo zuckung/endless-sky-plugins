@@ -35,8 +35,12 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 Changelog:<br>
 <br>
+2025-06-05<br>
+colored the job<br>
+added outfit series<br>
+<br>
 2025-05-19<br>
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 icon@2x, plugintxt changes<br>
 <br>
 2025-01-27<br>

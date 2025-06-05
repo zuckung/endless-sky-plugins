@@ -74,8 +74,14 @@ substitutions
 		"person destroyed: Danau (C)" == 1
 
 
+color "capturable.person.ships job: selected" .1 .8 .1 0.
+color "capturable.person.ships job: unselected" .1 .5 .2 0.
+
+
 mission "show person status"
 	job
+	color selected "capturable.person.ships job: selected"
+	color unselected "capturable.person.ships job: unselected"
 	repeat
 	name "(Show Person Ship List)"
 	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships."
@@ -145,6 +151,8 @@ outfit "Author Slaughtering Trophy"
 	category "Unique"
 	"unique" 1
 	"unplunderable" 1
+	series "Non-Functional Unique"
+	index 01200
 	thumbnail "outfit/gold_trophy"
 	cost 60000
 	description `A wonderful trophy for slaughtering all Author ship captains. It is a gift by a mysterious man named 'Zuckung', who wanted to see them dead. It looks like he was jealous because they didn't let him join their ranks. Or something like that.`
