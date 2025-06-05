@@ -19,6 +19,10 @@ So lets call this plugin EXPERIMENTAL for now.<br>
 <br>
 Changelog:<br>
 <br>
+2025-06-05<br>
+colored jobs<br>
+added complete map reveal (stolen from omnis)<br>
+<br>
 2025-05-19<br>
 license, README, icon@2x, plugintxt changes<br>
 <br>

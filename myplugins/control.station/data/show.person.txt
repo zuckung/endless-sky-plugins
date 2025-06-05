@@ -71,6 +71,8 @@ substitutions
 
 mission "person status"
 	job
+	color selected "control.station job: selected"
+	color unselected "control.station job: unselected"
 	repeat
 	name "(Show Person Ship List)"	
 	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships."
@@ -97,4 +99,6 @@ mission "person status"
 			`<patr>	"Patrol Team" (found everywhere | 6x Waverider)`
 			``
 				decline
+	on daily
+		fail
 

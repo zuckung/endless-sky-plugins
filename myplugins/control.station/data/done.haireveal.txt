@@ -2,6 +2,8 @@
 
 mission "set hr done"
 	job
+	color selected "control.station job: selected"
+	color unselected "control.station job: unselected"
 	repeat
 	to offer
 		not "hrdone"
@@ -63,3 +65,5 @@ mission "set hr done"
 			`	hai reveal 0 prologue`
 			`are executed/set.`
 				decline
+	on daily
+		fail

@@ -4,6 +4,8 @@
 
 mission "set fw done"
 	job
+	color selected "control.station job: selected"
+	color unselected "control.station job: unselected"
 	repeat
 	to offer
 		not "donefw"
@@ -1987,3 +1989,5 @@ mission "set fw done"
 			`You received:`
 			`	license: Militia, a Jump Drive and Cloaking Device.`
 				decline
+	on daily
+		fail

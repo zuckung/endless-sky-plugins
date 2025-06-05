@@ -1,5 +1,7 @@
 mission "set remnant done"
 	job
+	color selected "control.station job: selected"
+	color unselected "control.station job: unselected"
 	repeat
 	to offer
 		not "remdone"
@@ -414,3 +416,5 @@ mission "set remnant done"
 			`You received:`
 			`	license: Remnant + Remnant Capital, a Void Rifle and 5 NDR-114 Androids.`
 				decline
+	on daily
+		fail

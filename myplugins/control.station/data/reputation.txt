@@ -1,18 +1,17 @@
-color "show.reputation job: selected" .1 .8 .1 0.
-color "show.reputation job: unselected" .1 .5 .2 0.
+color "control.station job: selected" .1 .8 .1 0.
+color "control.station job: unselected" .1 .5 .2 0.
 
 
-mission "show reputation"
+mission "reputation"
 	job
-	color selected "show.reputation job: selected"
-	color unselected "show.reputation job: unselected"
+	color selected "control.station job: selected"
+	color unselected "control.station job: unselected"
 	repeat
 	name "(Show Reputations)"
 	description "Shows a list of reputations. Accept mission, start and land again."
 	on accept
 		conversation
 			label menu
-			scene "outfit/icon"
 			``
 			`Menu:`
 			choice
