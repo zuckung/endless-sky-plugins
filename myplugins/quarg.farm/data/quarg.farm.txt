@@ -9,6 +9,7 @@
 # planet "Ver"
 # fleet "Quarg (Evil)"
 # fleet "Large Quarg (Evil)"
+# fleet "Quarg Utility (Evil)"
 # outfit "Stub"
 
 
@@ -68,6 +69,7 @@ system "Saquerver"
 	haze _menu/haze-blackbody
 	fleet "Quarg (Evil)" 1000
 	fleet "Large Quarg (Evil)" 2000
+	fleet "Quarg Utility (Evil)" 3000
 	object
 		sprite star/g5
 		period 10
@@ -120,7 +122,9 @@ fleet "Quarg (Evil)"
 	personality
 		forbearing opportunistic
 	variant
-		"Quarg Skylark"
+		"Quarg Lindwyrm"
+	variant
+		"Quarg Drake" 2
 	variant
 		"Quarg Wardragon"
 
@@ -132,20 +136,108 @@ fleet "Large Quarg (Evil)"
 	personality
 		forbearing opportunistic
 	variant 2
-		"Quarg Skylark" 2
+		"Quarg Wardragon" 4
+	variant 2
+		"Quarg Wardragon" 3
+		"Quarg Wyvern"
+	variant 2
+		"Quarg Wardragon" 2
+	variant 2
+		"Quarg Lindwyrm" 2
 		"Quarg Wardragon"
 	variant 2
 		"Quarg Wardragon" 2
-		"Quarg Skylark"
+		"Quarg Lindwyrm"
 	variant
-		"Quarg Skylark" 2
+		"Quarg Wardragon"
+		"Quarg Drake" 2
+	variant
+		"Quarg Lindwyrm" 2
+		"Quarg Wardragon"
+		"Quarg Drake"
+	variant
 		"Quarg Wardragon" 2
+		"Quarg Drake"
+		"Quarg Lindwyrm"
+	variant
+		"Quarg Lindwyrm" 3
+		"Quarg Wardragon"
+	variant
+		"Quarg Lindwyrm" 2
+		"Quarg Drake" 2
+	variant
+		"Quarg Wyvern" 3
 	variant
 		"Quarg Wardragon" 3
-		"Quarg Skylark"
+		"Quarg Drake" 3
 	variant
-		"Quarg Skylark" 3
+		"Quarg Wyvern" 2
+		"Quarg Drake" 4
+	variant
+		"Quarg Hydra"
+		"Quarg Wyvern"
+		"Quarg Wardragon" 2
+
+
+fleet "Quarg Utility (Evil)"
+	government "Quarg (Evil)"
+	names "quarg"
+	cargo 1
+	personality
+		forbearing opportunistic
+	variant 3
+		"Quarg Guivre"
+		"Quarg Lindwyrm"
 		"Quarg Wardragon"
+	variant 2
+		"Quarg Guivre"
+		"Quarg Wardragon" 2
+	variant 2
+		"Quarg Guivre"
+		"Quarg Lindwyrm" 2
+	variant 2
+		"Quarg Guivre"
+		"Quarg Drake" 4
+	variant 2
+		"Quarg Guivre"
+		"Quarg Drake" 3
+	variant 2
+		"Quarg Guivre"
+		"Quarg Wyvern"
+		"Quarg Lindwyrm"
+	variant
+		"Quarg Guivre"
+		"Quarg Wyvern" 2
+	variant
+		"Quarg Guivre"
+		"Quarg Wyvern" 2
+		"Quarg Drake"
+	variant
+		"Quarg Guivre"
+		"Quarg Wyvern" 2
+		"Quarg Wardragon"
+	variant
+		"Quarg Guivre"
+		"Quarg Wardragon" 3
+	variant
+		"Quarg Guivre"
+		"Quarg Wardragon" 2
+		"Quarg Drake" 2
+	variant
+		"Quarg Guivre"
+		"Quarg Drake" 2
+		"Quarg Wardragon"
+	variant
+		"Quarg Guivre"
+		"Quarg Wyvern"
+		"Quarg Wardragon"
+		"Quarg Drake"
+	variant
+		"Quarg Guivre"
+		"Quarg Lindwyrm"
+		"Quarg Drake" 3
+
+
 
 outfit "Stub"
 	category "Power"
