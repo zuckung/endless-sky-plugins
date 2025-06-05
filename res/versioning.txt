@@ -39,7 +39,7 @@ planet.map|1.0.3
 planet.pluto|1.0.2
 quarg.farm|1.0.5
 real.fluff|1.0.8
-show.reputation|1.0.3
+show.reputation|1.0.4
 snowfeather.robotics|1.0.5
 space.fauna|1.1.2
 too.many.asteroids|1.0.4

@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-05 | update: show.reputation<br>
 2025-06-05 | update: galactic.capital.investment<br>
 2025-06-05 | update: hai.side.mission.unlocker<br>
 2025-06-05 | update: mission.helper<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-05-25 | update: combat.ai<br>
 2025-05-08 | update: licenses<br>
 2025-05-03 | merged navy.licenses and avgi.licenses to licenses<br>
-2025-05-03 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1311,6 +1311,14 @@ So lets call this plugin EXPERIMENTAL for now.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-05<br>
+
+colored jobs<br>
+
+added complete map reveal (stolen from omnis)<br>
 
 <br>
 
@@ -4096,7 +4104,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/show.reputation/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/show.reputation.png">
 
-[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-show.reputation/show.reputation.zip) | 40.78 kb | 2025-01-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <a href="res/imagemd/show.reputation.md">view images</a> [5]<br>
+[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-show.reputation/show.reputation.zip) | 157.68 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <a href="res/imagemd/show.reputation.md">view images</a> [5]<br>
 <br>
 >Enables a job on every planet's job board, that shows the reputation values. See the README for details.
 
@@ -4119,6 +4127,14 @@ Accept the job and the reputations conversation pops up. Then you can choose bet
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-05<br>
+
+colored the job<br>
+
+added missing reputations<br>
 
 <br>
 
