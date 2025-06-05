@@ -6,9 +6,14 @@
 # mission "Galactic Capital 1000M"
 
 
+color "gci job: selected" .1 .8 .1 0.
+color "gci job: unselected" .1 .5 .2 0.
+
 
 mission "Galactic Capital 1M"
 	name "(Galactic Capital Investment) Invest 1m"
+	color selected "gci job: selected"
+	color unselected "gci job: unselected"
 	job
 	repeat
 	description "Galactic Capital Investment offers an investment to a young startup. Invest 1 million, daily yield: 274 credits, 10% interest p.a."
@@ -28,6 +33,8 @@ mission "Galactic Capital 1M"
 
 mission "Galactic Capital 5M"
 	name "(Galactic Capital Investment) Invest 5m"
+	color selected "gci job: selected"
+	color unselected "gci job: unselected"
 	job
 	repeat
 	description "Galactic Capital Investment offers an investment to a young startup. Invest 5 million, daily yield: 1,520 credits, 11% interest p.a."
@@ -47,6 +54,8 @@ mission "Galactic Capital 5M"
 
 mission "Galactic Capital 10M"
 	name "(Galactic Capital Investment) Invest 10m"
+	color selected "gci job: selected"
+	color unselected "gci job: unselected"
 	job
 	repeat
 	description "Galactic Capital Investment offers an investment to a young startup. Invest 10 million, daily yield: 3,287 credits, 12% interest p.a."
@@ -66,6 +75,8 @@ mission "Galactic Capital 10M"
 
 mission "Galactic Capital 50M"
 	name "(Galactic Capital Investment) Invest 50m"
+	color selected "gci job: selected"
+	color unselected "gci job: unselected"
 	job
 	repeat
 	description "Galactic Capital Investment offers an investment to a young startup. Invest 50 million, daily yield: 17,808 credits, 13% interest p.a."
@@ -85,6 +96,8 @@ mission "Galactic Capital 50M"
 
 mission "Galactic Capital 100M"
 	name "(Galactic Capital Investment) Invest 100m"
+	color selected "gci job: selected"
+	color unselected "gci job: unselected"
 	job
 	repeat
 	description "Galactic Capital Investment offers an investment to a young startup. Invest 100 million, daily yield: 38,356 credits, 14% interest p.a."
@@ -104,6 +117,8 @@ mission "Galactic Capital 100M"
 
 mission "Galactic Capital 1000M"
 	name "(Galactic Capital Investment) Invest 1b"
+	color selected "gci job: selected"
+	color unselected "gci job: unselected"
 	job
 	repeat
 	description "Galactic Capital Investment offers an investment to a young startup. Invest 1 billion, daily yield: 410,958 credits, 15% interest p.a."

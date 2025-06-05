@@ -30,6 +30,8 @@ mission "gci banking account update"
 
 mission "gci banking terminal"
 	name "(Galactic Capital Investment) Bank Service"
+	color selected "gci job: selected"
+	color unselected "gci job: unselected"
 	description "Access to your bank account, family trust, cash transfer, and investments."
 	job
 	repeat

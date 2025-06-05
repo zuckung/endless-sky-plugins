@@ -2,8 +2,6 @@
 # mission "unlocked Unwanted Cargo Trigger" (removed secret leaks)
 # mission "unlocked Unwanted Cargo" (removed secret leaks)
 # mission "unlocked Hiding in Plain Sight" (removed secret leaks & resolution)
-# mission "unlocked Nanachi 1" (removed secret leaks & resolution) followups are ok
-# mission "unlocked Expanding Business [1]" (removed resolution) followups are ok
 # mission "unlocked Hai Reveal: Pirate Troubles [0]" (removed chain requirement)
 # mission "unlocked Hai Reveal: Pirate Troubles [1]" (removed the HR dialog) followups are ok
 # mission "unlocked Hai Reveal: Pirate Troubles [1]: Farpoint"
@@ -17,7 +15,6 @@ disable mission
 	"Unwanted Cargo Trigger"
 	"Unwanted Cargo"
 	"Hiding in Plain Sight"
-	"Nanachi 1"
 	"Hai Reveal: Pirate Troubles [1]"
 	"ZZ Hai Reveal [A04] Report to Teeneep"
 
@@ -120,128 +117,6 @@ mission "unlocked Hiding in Plain Sight"
 		payment 75000
 		dialog `Arthur and Kiru pay you <payment> before running off to the convention center. As they run away, you notice that Kiru is drawing a number of eyes from the crowd, but no one seems to suspect that he is an actual alien.`
 		log "Minor People" "Arthur and Kiru" `Human and Hai respectively, both attended the Vinci cosplay convention without a costume, gaining much attention.`
-
-
-mission "unlocked Nanachi 1"
-	name "Escort Nanachi to <planet>"
-	description "Help Nanachi, a Hai who just bought her first ship, make a simple delivery to <destination> by <date>."
-	minor
-	source "Giverstone"
-	destination "Cloudfire"
-	deadline 2 1
-	to offer
-		random < 15
-		"net worth" > 20000000
-		"combat rating" > 1200
-		has "First Contact: Hai: offered"
-	on offer
-		conversation
-			`As you are making your way through the spaceport you notice a worried-looking Hai staring at the local job board and back at some sort of document they are holding.`
-			choice
-				`	(Approach the Hai.)`
-				`	(Leave them alone.)`
-					decline
-			`	The Hai is a bit startled, but quickly calms down. "Sorry, you caught me by surprise. I've just bought my first ship and need to find some jobs to do, but nobody I've talked to wants to trust a beginner captain. I just don't know what to do anymore, I've been working for so long to qualify for this loan, but I'm running out of time, and I'll never be able to pay it like this."`
-			`	Turns out the documents she is holding are the bank papers for the loan, somewhat similar to the one you took when you bought your first ship. You've come a long way since your days as a beginner, and know how hard it is to be starting out as a starship captain; you could probably convince someone here to offer a simple cargo job to this young Hai.`
-			choice
-				`	"If you're interested, I could try to help you find a job."`
-					goto "positive1"
-				`	"I've been there before; trust me, it gets better. I wish you the best of luck on finding a job."`
-			`	She nods in sad understanding, and continues to swap focus from the job board to the papers in her hand.`
-			choice
-				`	(Help her out anyway.)`
-					goto "positive1"
-				`	(Leave her alone and continue on.)`
-					decline
-			label "positive1"
-			`	Her ears twitch a bit, and her previously crestfallen eyes light up as she nearly jumps in joy at your offer. "Thank you so much Captain! My name is Nanachi, I promise I won't cause any trouble at all, just a few quick jobs, and I'm sure I'll be fine by myself!"`
-			`	You introduce yourself to Nanachi and shake her paw. "Can you show me your ship so I can look for jobs it's best suited for?" you ask.`
-			`	She hesitates a bit, but leads you to her ship. You were expecting a small Hai ship, but to your surprise she shows you a rather beat-up Heavy Shuttle docked near your own ship.`
-			`	"You took a loan to buy a human ship?" you ask.`
-			`	She looks at the ground, as if ashamed of it. "It'd take way too long for me to qualify for a loan for even an Aphid, but I recently met a human merchant who wanted to sell his old ship; it was difficult, but I managed to convince him to sell it to me instead of going to the shipyard office. I paid him its full price, but even for this one I had to take out the biggest loan I could. Its cargo hold isn't very impressiv,e but it has more bunks than our smallest ships, if that helps."`
-			choice
-				`	"Let's see if anyone in the spaceport needs a lift off the planet."`
-				`	"Let's take another look at the job board, maybe a smaller job will pop up."`
-			`	Turns out this isn't as easy as you thought it'd be. The spaceport is almost empty, save for the occasional worker or drunken crew member, and the job board is filled with massive hauls of minerals, aside from a few small but dangerous jobs to human space. Eventually, as you two begin scouting the edge of the docking area, you spot a troubled human merchant near several crates. You approach him, and he explains that his ship had some malfunctions and he cannot deliver his cargo of advanced surgical equipment to <destination>. "This is the worst! One jump away from the planet and the navigation system suddenly decides to go on strike! There's no way I can make it before the deadline!"`
-			`	"My friend Nanachi here could deliver it for you. We were heading there anyway; a few extra crates won't make a difference," you say, trying to sound as convincing as possible.`
-			`	At first, he seems delighted that you two want to help him, but when Nanachi mentions that she's flying a Heavy Shuttle, he frowns, and looks back at the cargo. "Unfettered attacks make it so they need tons of medical supplies on <planet>, and quite frankly I'm not comfortable letting such a fragile ship go into dangerous territory carrying this equipment when it could be blasted to bits in an instant," he says. The captain glances around the deserted spaceport for a while, as if trying to find some other captain, before finally turning to Nanachi and saying, "but I guess beggars can't be choosers. Fine, I'll let you take the cargo there, but please be very careful."`
-				accept
-	npc accompany save
-		personality escort timid
-		government "Hai"
-		ship "Heavy Shuttle" "Acorn Chaser"
-	on visit
-		dialog `You have reached <planet>, but you left Nanachi's ship behind! Better depart and wait for her to arrive in this star system.`
-	on complete
-		set "Nanachi 1: done"
-		set "Nanachi 1: offered"
-		conversation
-			`Shortly after her ship lands, you meet up with Nanachi, who is doing her best to hide her excitement at being on another planet for the first time, and is gawking at some Hai military ships in particular. "So, how did you like your first time doing a hyperspace jump?" you ask, to try and snap her out of it.`
-			`	"Oh um, I don't think I'll get used to the feeling anytime soon. I threw up a lot so I'm glad this wasn't a job with passengers. I've always dreamt of being on other worlds, exploring and learning everything about them. I'm glad I'm finally able to do it."`
-			`	You help her get the crates out of the cargo hold and contact the client. Nanachi's share of the payment is small, as the client transfers most of the money to the merchant she got the job from, but that doesn't make her any less excited about getting her first paycheck.`
-			`	"So, want to go to the spaceport and try to get a job on your own? I'll help you again in case you can't do it yet." you say.`
-			`	"Just give me an hour or two to explore. Back home our shipyard is kind of small. I've never really gotten a chance to see a Shield Beetle up close, and there are many undergoing repairs here. I'll just go get a better look at them, I swear I'll be quick."`
-			`	You two agree to meet in the spaceport in a few hours; maybe this time she will do fine on her own.`
-
-
-mission "unlocked Expanding Business [1]"
-	name "An Interesting Proposition"
-	description "Travel with businessman David Turner to <destination> where a convoy of freighters are awaiting escort."
-	minor
-	source "Greenwater"
-	destination "Allhome"
-	on offer
-		conversation
-			`Walking through the <origin> spaceport, you notice that almost half of the people you see are humans, unlike other Hai worlds where the Hai outnumber humans by a sizable degree. A human dressed in a business suit shouts your name from across the street and approaches you.`
-			`	"Captain <last>, fantastic to see you again! I noticed you right away when I laid my eyes upon you and I must say, I'd like to thank you again for what you've done."`
-			`	The man is David Turner, who was involved in the movie production during the Hai crisis. Almost reflexively he goes to grab a business card from his pocket but then seems to remember and puts it back away. Seems to be exactly the same card as last time though.`
-			`	"Now Captain, if you have a moment, I'd like to make a proposition to you." Turner turns around and waves his arm across the crowd of people in the spaceport. "You see all the humans here? About one out of every four of these people only arrived here after war broke out through the wormhole. Captains who knew of the Hai came flocking here in droves after the Navy entered Kornephoros, hoping to avoid any troubles that the war would bring. Some captains returned after the war ended, but most stayed, and I see a massive market opportunity in that."`
-			branch rich
-				"net worth" >= 4000000000
-			choice
-				`	"What kind of market opportunity?"`
-					goto opportunity
-				`	"Sorry, but I don't have the time to talk about this."`
-					goto walk
-			label rich
-			choice
-				`	"What kind of market opportunity?"`
-					goto opportunity
-				`	"You're only worth three billion credits? Why shouldn't I pursue your opportunity on my own?"`
-				`	"Sorry, but I don't have the time to talk about this."`
-					goto walk
-			`	"Of course you're worth more than me, Captain <last>, but you are no business owner. I have the connections and skills, but a name like yours will always help.`
-				goto opportunity
-			label walk
-			`	You try to walk away, but Turner stops you by grabbing your arm and continues to talk.`
-			label opportunity
-			`	"Allow me to explain. The journey to the Hai can be a dangerous one, even with the new commitment to safety made by both governments. I heard many stories during the war of merchants trying to reach the Hai, but thanks to the Navy being distracted, those merchants fell victim to pirates patrolling the systems of the Far North. Even now, those pirates roam almost unchallenged, and many merchants are trapped here without the means to safely return. They expended most, if not all, of their ammunition trying to get here, and now they have none to defend them on their way back. Human ammunition has become a scarce commodity among human captains in this region of space, leaving open a market that's just waiting to be cornered.`
-			`	"I'd like you, Captain <last>, hero of humanity, to help me set up an outfitter here on <origin>, an outfitter that would supply these desperate merchants with relief by supplying them with the ammunition they need, along with outfits they might want to buy for their old ships. I've already received approval from the Hai government for the construction of an outfitter, and with a name like yours backing up this business, the profits are sure to be phenomenal, profits that you would be sharing in by being a founding member of this outfitter."`
-			label choices
-			choice
-				`	"This sounds like a good idea to me. What do you need me to do?"`
-					goto interested
-				`	"Sorry, but I'm not interested in your proposition."`
-			`	"Nonsense, Captain! All you'd need to do is help escort a few freighters from <planet> to Follower and back to here, and for so simple a job you could be receiving enough money to not work another day in your life, or perhaps even support a massive fleet."`
-			choice
-				`	"Again, I'm not interested. Goodbye."`
-				`	"Alright, you have my attention."`
-					goto interested
-			`	"Well, I tried, Captain," Turner says with a smirk. "I'll just have to travel back to the Paradise Worlds and make my money in other areas of business, then." He hands you another business card and winks. "Goodbye, Captain <last>. You should know where to find me if you need me. Perhaps we can pursue this venture together in the future."`
-				decline
-			label interested
-			`	"Excellent, Captain! I'll be making myself comfy on my own ship. A convoy of freighters is waiting for us on <destination>. From there, we're off to Follower to pick up supplies."`
-				accept
-	npc accompany save
-		personality escort
-		government "Merchant"
-		ship "Star Queen (Hai)" "Chryso Vasilia"
-	on visit
-		dialog `You've reached <planet>, but you've left Turner behind. Wait for Turner's ship to arrive before landing.`
-	on complete
-		set "Expanding Business [1]: done"
-		set "Expanding Business [1]: offered"
-		dialog `The freighters are ready to launch by the time you get to <planet>. "Now we just need to escort these freighters to Follower in the Alphard system and back in one piece," Turner exclaims, hopping back on to his Star Queen.`
 
 
 mission "unlocked Hai Reveal: Pirate Troubles [0]"
