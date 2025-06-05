@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-05 | update: hai.side.mission.unlocker<br>
 2025-06-05 | update: mission.helper<br>
 2025-06-05 | update: quarg.farm<br>
 2025-06-04 | update: combat.ai<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-05-03 | merged navy.licenses and avgi.licenses to licenses<br>
 2025-05-03 | update: additional.command.buttons.radial<br>
 2025-05-01 | update: flare.play<br>
-2025-05-01 | update: mission.helper<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1968,9 +1968,15 @@ Changelog:<br>
 
 <br>
 
+2025-06-05<br>
+
+colored the jobs<br>
+
+<br>
+
 2025-05-19<br>
 
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 
 icon@2x, plugintxt changes<br>
 
@@ -2217,7 +2223,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/hai.side.mission.unlocker/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/hai.side.mission.unlocker.png">
 
-[hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) | 32.52 kb | 2024-09-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) <a href="res/imagemd/hai.side.mission.unlocker.md">view images</a> [2]<br>
+[hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.5-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) | 100.56 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) <a href="res/imagemd/hai.side.mission.unlocker.md">view images</a> [2]<br>
 <br>
 >Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now. See the README for details.
 
@@ -2229,7 +2235,7 @@ screenshots(click to enlarge):<br>
 
 <br>
 
-Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1, Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now.<br>
+Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now.<br>
 
 <br>
 
@@ -2240,10 +2246,6 @@ mission "Unwanted Cargo Trigger" (removed secret leaks)<br>
 mission "Unwanted Cargo" (removed secret leaks)<br>
 
 mission "Hiding in Plain Sight" (removed secret leaks & resolution)<br>
-
-mission "Nanachi 1" (removed secret leaks & resolution) followups are ok<br>
-
-mission "Expanding Business [1]" (removed resolution) followups are ok<br>
 
 mission "Hai Reveal: Pirate Troubles [0]" (Scars Legion cut out of campaign)<br>
 
@@ -2261,9 +2263,15 @@ Changelog:<br>
 
 <br>
 
+2025-06-05<br>
+
+removed nanachi and expanding business from plugin (0.10.13 enabled them now)<br>
+
+<br>
+
 2025-05-19<br>
 
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 
 license, README changes<br>
 

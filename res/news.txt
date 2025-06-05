@@ -1,3 +1,4 @@
+2025-06-05 | update: hai.side.mission.unlocker
 2025-06-05 | update: mission.helper
 2025-06-05 | update: quarg.farm
 2025-06-04 | update: combat.ai
