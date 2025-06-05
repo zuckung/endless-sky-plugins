@@ -34,7 +34,7 @@ more.person.ships|1.0.2
 navy.licenses|1.0.3
 no.more.mereti.mines|1.0.3
 outfits.weapon.slot|1.0.0
-paint.your.ships|1.0.1
+paint.your.ships|1.0.2
 planet.map|1.0.3
 planet.pluto|1.0.2
 quarg.farm|1.0.5
