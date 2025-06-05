@@ -1274,7 +1274,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/control.station/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/control.station.png">
 
-[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-control.station/control.station.zip) | 327.5 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <a href="res/imagemd/control.station.md">view images</a> [4]<br>
+[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-control.station/control.station.zip) | 327.56 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <a href="res/imagemd/control.station.md">view images</a> [4]<br>
 <br>
 >Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details.
 
@@ -2429,6 +2429,12 @@ Changelog:<br>
 
 <br>
 
+2025-06-05<br>
+
+colored job<br>
+
+<br>
+
 2025-05-19<br>
 
 icon@2x, plugintxt changes<br>
@@ -3414,9 +3420,15 @@ Changelog:<br>
 
 <br>
 
+2025-06-05<br>
+
+added outfit series<br>
+
+<br>
+
 2025-05-19<br>
 
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 
 icon@2x, plugintxt changes<br>
 
@@ -3596,6 +3608,14 @@ Changelog:<br>
 
 <br>
 
+2025-06-05<br>
+
+colored job<br>
+
+added outfit series<br>
+
+<br>
+
 2025-05-19<br>
 
 icon@2x, plugintxt changes<br>
@@ -3763,6 +3783,12 @@ Currently there are 7 gun port outfits and 6 turret port outfits. Available on G
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-05<br>
+
+added outfit series<br>
 
 <br>
 
@@ -4238,9 +4264,15 @@ Changelog:<br>
 
 <br>
 
+2025-06-05<br>
+
+added outfit series<br>
+
+<br>
+
 2025-05-19<br>
 
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 
 icon@2x, plugintxt changes<br>
 
@@ -4295,7 +4327,6 @@ added plugin.txt<br>
 2023-08-29<br>
 
 removed remnant mission requirement<br>
-
 </blockquote>
 </details>
 <br>
