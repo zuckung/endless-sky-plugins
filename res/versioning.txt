@@ -5,7 +5,7 @@ automata.in.human.space|1.0.1
 avgi.licenses|1.0.0
 better.starts|1.0.4
 bunrodea.missions|1.0.8
-captureable.person.ships|1.1.7
+captureable.person.ships|1.1.8
 coalition.shopping|1.0.6
 combat.ai|1.0.2
 control.station|1.0.2

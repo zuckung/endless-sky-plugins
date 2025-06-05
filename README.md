@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-05 | update: captureable.person.ships<br>
 2025-06-05 | update: control.station<br>
 2025-06-05 | update: show.reputation<br>
 2025-06-05 | update: galactic.capital.investment<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-04 | update: combat.ai<br>
 2025-06-04 | changed total download counter<br>
 2025-05-25 | update: combat.ai<br>
-2025-05-08 | update: licenses<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -874,7 +874,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/captureable.person.ships.png">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.7-captureable.person.ships/captureable.person.ships.zip) | 140.92 kb | 2025-01-27 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <a href="res/imagemd/captureable.person.ships.md">view images</a> [4]<br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.8-captureable.person.ships/captureable.person.ships.zip) | 195.56 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <a href="res/imagemd/captureable.person.ships.md">view images</a> [4]<br>
 <br>
 >Makes person ships capturable. See the README for details.
 
@@ -954,9 +954,17 @@ Changelog:<br>
 
 <br>
 
+2025-06-05<br>
+
+colored the job<br>
+
+added outfit series<br>
+
+<br>
+
 2025-05-19<br>
 
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 
 icon@2x, plugintxt changes<br>
 
@@ -3815,6 +3823,12 @@ There are already like five plugins that change the swizzle color, but this one 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-04<br>
+
+colored the job<br>
 
 <br>
 
