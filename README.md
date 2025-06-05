@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-05 | update: quarg.farm<br>
 2025-06-04 | update: combat.ai<br>
 2025-06-04 | changed total download counter<br>
 2025-05-25 | update: combat.ai<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-05-01 | update: flare.play<br>
 2025-05-01 | update: mission.helper<br>
 2025-04-28 | update: flare.play<br>
-2025-04-26 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3986,7 +3986,7 @@ initial release<br>
 <img src="myplugins/quarg.farm/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/quarg.farm.png">
 
-[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-quarg.farm/quarg.farm.zip) | 110.04 kb | 2025-04-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <a href="res/imagemd/quarg.farm.md">view images</a> [2]<br>
+[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-quarg.farm/quarg.farm.zip) | 110.23 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <a href="res/imagemd/quarg.farm.md">view images</a> [2]<br>
 <br>
 >Adds a new system 'Saquerver' (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the README for details.
 
@@ -4009,6 +4009,12 @@ The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Qu
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-05<br>
+
+update with new 0.10.13 ships<br>
 
 <br>
 
