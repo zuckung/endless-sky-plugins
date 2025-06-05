@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-05 | update: galactic.capital.investment<br>
 2025-06-05 | update: hai.side.mission.unlocker<br>
 2025-06-05 | update: mission.helper<br>
 2025-06-05 | update: quarg.farm<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-05-08 | update: licenses<br>
 2025-05-03 | merged navy.licenses and avgi.licenses to licenses<br>
 2025-05-03 | update: additional.command.buttons.radial<br>
-2025-05-01 | update: flare.play<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1910,7 +1910,7 @@ added plugin.txt<br>
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/galactic.capital.investment.png">
 
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.6-galactic.capital.investment/galactic.capital.investment.zip) | 4.04 mb | 2025-03-20 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <a href="res/imagemd/galactic.capital.investment.md">view images</a> [21]<br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.7-galactic.capital.investment/galactic.capital.investment.zip) | 4.07 mb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <a href="res/imagemd/galactic.capital.investment.md">view images</a> [21]<br>
 <br>
 >Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits. See the README for details.
 
@@ -1971,6 +1971,8 @@ Changelog:<br>
 2025-06-05<br>
 
 colored the jobs<br>
+
+added series<br>
 
 <br>
 
