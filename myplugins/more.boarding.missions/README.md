@@ -32,8 +32,11 @@ Only natural spawning ships can trigger these missions and ships spawned from jo
 <br>
 Changelog:<br>
 <br>
+2025-06-05<br>
+added outfit series<br>
+<br>
 2025-05-19<br>
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 icon@2x, plugintxt changes<br>
 <br>
 2025-02-10<br>

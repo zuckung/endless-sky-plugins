@@ -21,6 +21,10 @@ Planet Express | everywhere | Old Bessie (new ship, stats by timeout.fu)
 <br>
 Changelog:<br>
 <br>
+2025-06-05<br>
+colored job<br>
+added outfit series<br>
+<br>
 2025-05-19<br>
 icon@2x, plugintxt changes<br>
 <br>

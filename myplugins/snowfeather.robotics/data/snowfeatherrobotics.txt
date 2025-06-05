@@ -32,6 +32,8 @@ outfit "NDR-114 Android"
 outfit "SFR-100 Android"
 	"display name" "SFR-100 Worker"
 	category "Androids"
+	series "H2H"
+	index 02190
 	cost 150000
 	thumbnail "outfit/sfr_worker"
 	"required crew" -1
@@ -44,6 +46,8 @@ outfit "SFR-100 Android"
 outfit "SFR-200 Android"
 	"display name" "SFR-200 Fighter"
 	category "Androids"
+	series "H2H"
+	index 02190
 	cost 150000
 	thumbnail "outfit/sfr_fight01"
 	"capture attack" 2
@@ -57,6 +61,8 @@ outfit "SFR-200 Android"
 outfit "SFR-210 Android"
 	"display name" "SFR-210 Fighter"
 	category "Androids"
+	series "H2H"
+	index 02190
 	cost 300000
 	thumbnail "outfit/sfr_fight02"
 	"capture attack" 4
@@ -70,6 +76,8 @@ outfit "SFR-210 Android"
 outfit "SFR-220 Android"
 	"display name" "SFR-220 Fighter"
 	category "Androids"
+	series "H2H"
+	index 02190
 	cost 450000
 	thumbnail "outfit/sfr_fight03"
 	"capture attack" 6
@@ -83,6 +91,8 @@ outfit "SFR-220 Android"
 outfit "SFR-300 Android"
 	"display name" "SFR-300 Fighter"
 	category "Androids"
+	series "H2H"
+	index 02190
 	cost 600000
 	thumbnail "outfit/sfr_fight04"
 	"capture attack" 8
@@ -96,6 +106,8 @@ outfit "SFR-300 Android"
 outfit "SFR-310 Android"
 	"display name" "SFR-310 Fighter"
 	category "Androids"
+	series "H2H"
+	index 02190
 	cost 750000
 	thumbnail "outfit/sfr_fight05"
 	"capture attack" 10
@@ -109,6 +121,8 @@ outfit "SFR-310 Android"
 outfit "SFR-320 Android"
 	"display name" "SFR-320 Fighter"
 	category "Androids"
+	series "H2H"
+	index 02190
 	cost 900000
 	thumbnail "outfit/sfr_fight06"
 	"capture attack" 12

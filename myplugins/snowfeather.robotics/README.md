@@ -10,8 +10,11 @@ The new buyable worker androids are twice as expensive as the original ones, and
 <br>
 Changelog:<br>
 <br>
+2025-06-05<br>
+added outfit series<br>
+<br>
 2025-05-19<br>
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 icon@2x, plugintxt changes<br>
 <br>
 2024-11-09<br>

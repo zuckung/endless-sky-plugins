@@ -41,8 +41,14 @@ substitutions
 		"person destroyed: Sesk Lem" == 1
 
 
+color "more.person.ships job: selected" .1 .8 .1 0.
+color "more.person.ships job: unselected" .1 .5 .2 0.
+
+
 mission "show more.person status"
 	job
+	color selected "more.person.ships job: selected"
+	color unselected "more.person.ships job: unselected"
 	repeat
 	name "(Show more.person.ships Ship List)"	
 	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships."

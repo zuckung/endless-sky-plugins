@@ -1,5 +1,7 @@
 mission "reveal vanilla"
 	job
+	color selected "control.station job: selected"
+	color unselected "control.station job: unselected"
 	name "(Show complete galaxy)"	
 	description "Reveals all vanilla systems of the galaxy."
 	source "Control Station"

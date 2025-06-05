@@ -9,6 +9,8 @@ mission "control.station reputation"
 	repeat
 	name "(Show Reputations)"
 	description "Shows a list of reputations. Accept mission, start and land again."
+	to offer
+		not "installed plugin: show.reputation"
 	on accept
 		conversation
 			label menu

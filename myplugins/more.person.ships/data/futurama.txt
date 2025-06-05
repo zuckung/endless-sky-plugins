@@ -10,6 +10,8 @@
 outfit "mps_elephant_detector"
 	"display name" "Elephant Detector"
 	category "Systems"
+	series "Scanners"
+	index 99500
 	cost 610000
 	thumbnail "outfit/elephant_detector"
 	"mass" 10
@@ -26,6 +28,8 @@ outfit "mps_elephant_detector"
 outfit "mps_giraffe_3_net"
 	"display name" "Giraffe 3 Net"
 	category "Turrets"
+	series "Turrets"
+	index 99100
 	cost 85000
 	thumbnail "outfit/giraffe_net"
 	"mass" 22

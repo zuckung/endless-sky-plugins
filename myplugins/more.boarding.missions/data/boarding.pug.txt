@@ -13,6 +13,8 @@
 outfit "Pug War Staff"
 	plural "Pug War Staves"
 	category "Unique"
+	series "H2H"
+	index 90100
 	cost 1234567
 	thumbnail "outfit/pug war staff"
 	"capture attack" 23

@@ -59,6 +59,8 @@ planet "Sunracer"
 outfit "Gun Slot Cargo"
 	"display name" "Ext. Cargo (Gun)"
 	category "Guns"
+	series "Guns"
+	index 01190
 	cost 450000
 	thumbnail "outfit/extcargo_sml"
 	"mass" 20
@@ -71,6 +73,8 @@ outfit "Gun Slot Cargo"
 outfit "Gun Slot Cabin"
 	"display name" "Ext. Cabin (Gun)"
 	category "Guns"
+	series "Guns"
+	index 01190
 	cost 600000
 	thumbnail "outfit/extcabin_sml"
 	"mass" 20
@@ -83,6 +87,8 @@ outfit "Gun Slot Cabin"
 outfit "Gun Slot Tank"
 	"display name" "Ext. Tank (Gun)"
 	category "Guns"
+	series "Guns"
+	index 01190
 	cost 300000
 	thumbnail "outfit/exttank_sml"
 	"mass" 20
@@ -95,6 +101,8 @@ outfit "Gun Slot Tank"
 outfit "Gun Slot Battery"
 	"display name" "Ext. Battery (Gun)"
 	category "Guns"
+	series "Guns"
+	index 01190
 	cost 210000
 	thumbnail "outfit/extbattery_sml"
 	"mass" 20
@@ -107,6 +115,8 @@ outfit "Gun Slot Battery"
 outfit "Gun Slot Generator"
 	"display name" "Ext. Generator (Gun)"
 	category "Guns"
+	series "Guns"
+	index 01190
 	cost 525000
 	thumbnail "outfit/extgenerator_sml"
 	"mass" 20
@@ -118,6 +128,8 @@ outfit "Gun Slot Generator"
 outfit "Gun Slot Ramscoop"
 	"display name" "Ext. Ramscoop (Gun)"
 	category "Guns"
+	series "Guns"
+	index 01190
 	cost 1200000
 	thumbnail "outfit/extsmlramscoop"
 	"mass" 20
@@ -129,6 +141,8 @@ outfit "Gun Slot Ramscoop"
 outfit "Gun Slot Ramscoop Mk II"
 	"display name" "Ext. Ramscoop Mk II (Gun)"
 	category "Guns"
+	series "Guns"
+	index 01190
 	cost 3700000
 	thumbnail "outfit/extlrgramscoop"
 	"mass" 20
@@ -141,6 +155,8 @@ outfit "Gun Slot Ramscoop Mk II"
 outfit "Turret Slot Cargo"
 	"display name" "Ext. Cargo (Turret)"
 	category "Turrets"
+	series "Turrets"
+	index 01190
 	cost 675000
 	thumbnail "outfit/extcargo"
 	"mass" 30
@@ -153,6 +169,8 @@ outfit "Turret Slot Cargo"
 outfit "Turret Slot Cabin"
 	"display name" "Ext. Cabin (Turret)"
 	category "Turrets"
+	series "Turrets"
+	index 01190
 	cost 900000
 	thumbnail "outfit/extcabin"
 	"mass" 30
@@ -165,6 +183,8 @@ outfit "Turret Slot Cabin"
 outfit "Turret Slot Tank"
 	"display name" "Ext. Tank (Turret)"
 	category "Turrets"
+	series "Turrets"
+	index 01190
 	cost 450000
 	thumbnail "outfit/exttank"
 	"mass" 30
@@ -177,6 +197,8 @@ outfit "Turret Slot Tank"
 outfit "Turret Slot Battery"
 	"display name" "Ext. Battery (Turret)"
 	category "Turrets"
+	series "Turrets"
+	index 01190
 	cost 375000
 	thumbnail "outfit/extbattery"
 	"mass" 30
@@ -189,6 +211,8 @@ outfit "Turret Slot Battery"
 outfit "Turret Slot Generator"
 	"display name" "Ext. Generator (Turret)"
 	category "Turrets"
+	series "Turrets"
+	index 01190
 	cost 705000
 	thumbnail "outfit/extgenerator"
 	"mass" 30
@@ -200,6 +224,8 @@ outfit "Turret Slot Generator"
 outfit "Turret Slot Sensor"
 	"display name" "Ext. Sensors (Turret)"
 	category "Turrets"
+	series "Turrets"
+	index 01190
 	cost 685000
 	thumbnail "outfit/extsensor"
 	"mass" 30

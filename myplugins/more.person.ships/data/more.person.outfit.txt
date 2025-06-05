@@ -13,6 +13,8 @@
 outfit "ESS Thruster"
 	"display name" "Tiomaint"
 	category "Engines"
+	series "Engines"
+	index 99100
 	"cost" 5000000
 	thumbnail "outfit/ess_thruster"
 	"mass" 100
@@ -30,6 +32,8 @@ outfit "ESS Thruster"
 outfit "ESS Steering"
 	"display name" "Stiurtha"
 	category "Engines"
+	series "Engines"
+	index 99100
 	"cost" 5000000
 	thumbnail "outfit/ess_steering"
 	"mass" 80
@@ -47,6 +51,8 @@ outfit "ESS Steering"
 outfit "ESS Small Cooler"
 	"display name" "Fuara Beag"
 	category "Systems"
+	series "Cooling"
+	index 99400
 	cost 1000000
 	thumbnail "outfit/ess_heat_small"
 	"mass" 5
@@ -58,6 +64,8 @@ outfit "ESS Small Cooler"
 outfit "ESS Large Cooler"
 	"display name" "Fuara Mor"
 	category "Systems"
+	series "Cooling"
+	index 99400
 	cost 2500000
 	thumbnail "outfit/ess_heat_big"
 	"mass" 20
@@ -69,6 +77,8 @@ outfit "ESS Large Cooler"
 outfit "ESS Generator"
 	"display name" "Gineadoir"
 	category "Power"
+	series "Generators"
+	index 99100
 	cost 30000000
 	thumbnail "outfit/ess_generator"
 	"mass" 135
@@ -81,6 +91,8 @@ outfit "ESS Generator"
 outfit "ESS Repair"
 	"display name" "Deisiu"
 	category "Systems"
+	series "Repair"
+	index 99300
 	cost 10000000
 	thumbnail "outfit/ess_repair"
 	"mass" 100
@@ -97,6 +109,8 @@ outfit "ESS Repair"
 outfit "ESS Jump Drive"
 	"display name" "Tiomaint Leim"
 	category "Systems"
+	series "Drives"
+	index 99100
 	cost 3000000 
 	thumbnail "outfit/ess_jump_drive"
 	"mass" 25
@@ -111,6 +125,8 @@ outfit "ESS Jump Drive"
 outfit "ESS Gun"
 	"display name" "Gunna"
 	category "Guns"
+	series "Guns"
+	index 99100
 	cost 1200000
 	thumbnail "outfit/ess_gun"
 	"mass" 20
@@ -139,6 +155,8 @@ outfit "ESS Gun"
 outfit "ESS Turret"
 	"display name" "Tuiread"
 	category "Turrets"
+	series "Turrets"
+	index 99100
 	licenses
 		"Wanderer Outfits"
 	cost 2500000

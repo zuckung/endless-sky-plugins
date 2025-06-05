@@ -126,9 +126,14 @@ galaxy "label successorspace"
 	sprite label/blue/successorspace
 
 
+color "human.labels job: selected" .1 .8 .1 0.
+color "human.labels job: unselected" .1 .5 .2 0.
+
 
 mission "change label color"
 	job
+	color selected "human.labels job: selected"
+	color unselected "human.labels job: unselected"
 	repeat
 	name "(Change Human Label Color)"
 	description "Changes the color of the map area labels in Human space. Possible colors are: light blue, light gray, yellow, dark red, green, dark gray, orange and purple."
