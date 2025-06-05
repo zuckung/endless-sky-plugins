@@ -4,6 +4,9 @@
 outfit "Golden Figurine"
 	category "Unique"
 	"unique" 1
+	"unplunderable" 1
+	series "Non-Functional Unique"
+	index 01200
 	thumbnail "outfit/gci_gold_figur"
 	cost 50000
 	description `A gift by Warren Goulding from Galactic Capital Investment, to celebrate the success of your colonization project.`
