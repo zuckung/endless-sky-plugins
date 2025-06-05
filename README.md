@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-05 | update: snowfeather.robotics<br>
 2025-06-05 | update: more.boarding.missions<br>
 2025-06-05 | update: more.person.ships<br>
 2025-06-05 | update: human.labels<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-05 | update: show.reputation<br>
 2025-06-05 | update: galactic.capital.investment<br>
 2025-06-05 | update: hai.side.mission.unlocker<br>
-2025-06-05 | update: mission.helper<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4234,7 +4234,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/snowfeather.robotics/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/snowfeather.robotics.png">
 
-[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-snowfeather.robotics/snowfeather.robotics.zip) | 1.74 mb | 2024-11-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) <a href="res/imagemd/snowfeather.robotics.md">view images</a> [22]<br>
+[snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-snowfeather.robotics/snowfeather.robotics.zip) | 1.78 mb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) <a href="res/imagemd/snowfeather.robotics.md">view images</a> [22]<br>
 <br>
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). Starts on Snowfeather(Bore Fah) when having at least one android installed. See the README for details.
 
