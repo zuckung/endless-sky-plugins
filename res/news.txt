@@ -1,3 +1,4 @@
+2025-06-05 | update: human.labels
 2025-06-05 | update: paint.your.ships
 2025-06-05 | update: captureable.person.ships
 2025-06-05 | update: control.station

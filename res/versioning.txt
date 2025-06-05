@@ -19,7 +19,7 @@ galactic.capital.investment|1.1.7
 gegno.pirates|1.0.3
 hai.side.mission.unlocker|1.1.5
 highrollers.ltd|1.0.1
-human.labels|1.0.5
+human.labels|1.0.6
 jump.gates|1.0.3
 kestrel.unlocks|1.0.0
 kor.efret.shipyard|1.0.2

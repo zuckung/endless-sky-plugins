@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-05 | update: human.labels<br>
 2025-06-05 | update: paint.your.ships<br>
 2025-06-05 | update: captureable.person.ships<br>
 2025-06-05 | update: control.station<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-05 | update: mission.helper<br>
 2025-06-05 | update: quarg.farm<br>
 2025-06-04 | update: combat.ai<br>
-2025-06-04 | changed total download counter<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2401,7 +2401,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/human.labels/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/human.labels.png">
 
-[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-human.labels/human.labels.zip) | 1.92 mb | 2025-02-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) <a href="res/imagemd/human.labels.md">view images</a> [411]<br>
+[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-human.labels/human.labels.zip) | 2.0 mb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) <a href="res/imagemd/human.labels.md">view images</a> [411]<br>
 <br>
 >Reworks the Human area labels and adds area borders. See the README for details.
 
