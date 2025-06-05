@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-05 | update: mission.helper<br>
 2025-06-05 | update: quarg.farm<br>
 2025-06-04 | update: combat.ai<br>
 2025-06-04 | changed total download counter<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-05-03 | update: additional.command.buttons.radial<br>
 2025-05-01 | update: flare.play<br>
 2025-05-01 | update: mission.helper<br>
-2025-04-28 | update: flare.play<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3147,7 +3147,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/mission.helper/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/mission.helper.png">
 
-[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-mission.helper/mission.helper.zip) | 153.8 kb | 2025-05-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
+[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-mission.helper/mission.helper.zip) | 156.81 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
 <br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 'source' and 'to offer' of these missions, so you can easily find them. See the README for details.
 
@@ -3170,6 +3170,16 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-05<br>
+
+updated missions to 0.10.13<br>
+
+added rulei and ka'het<br>
+
+added color code to job<br>
 
 <br>
 
