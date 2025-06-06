@@ -17,6 +17,8 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-06 | update: additional.command.buttons.radial<br>
+2025-06-06 | merged landing.images.android into additional.command.buttons.radial<br>
 2025-06-05 | update: outfits.weapon.slot<br>
 2025-06-05 | update: snowfeather.robotics<br>
 2025-06-05 | update: more.boarding.missions<br>
@@ -25,8 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-05 | update: paint.your.ships<br>
 2025-06-05 | update: captureable.person.ships<br>
 2025-06-05 | update: control.station<br>
-2025-06-05 | update: show.reputation<br>
-2025-06-05 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -61,13 +61,12 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#kestrelunlocks">kestrel.unlocks</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
 <a href="README.md#landingimages">landing.images</a><br>
-<a href="README.md#landingimagesandroid">landing.images.android</a><br>
 <a href="README.md#landingimageshighres">landing.images.highres</a><br>
 <a href="README.md#licenses">licenses</a><br>
 <a href="README.md#missionhelper">mission.helper</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
@@ -104,7 +103,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/additional.command.buttons.radial.png">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.22-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 363.97 kb | 2025-05-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [52]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.23-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 408.14 kb | 2025-06-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [63]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -144,11 +143,45 @@ This plugin<br>
 
 <br>
 
+merged the plugin landing.images.android:
+
+Moves the landing image above the textbox, instead of behind the textbox.<br>
+
+<br>
+
+In case parts of the UI/the buttons are outside the screen, try rescaling your UI in the ES options<br>
+
+If that doesn't help, open the zip, edit 'additional.command.buttons.radial/data/planet.txt' and change line 2 to 7 to:<br>
+
+	image "land"
+
+		center -60 -150
+
+		dimensions 250 135
+
+	sprite "ui/frame"
+
+		center -60 -150
+
+		dimensions 265 150
+
+That resizes the landing image and the frame to their half.<br>
+
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-06<br>
+
+merged with plugin landing.images.android<br>
+
+added new line of buttons to top left<br>
+
+added more greyed out buttons<br>
 
 <br>
 
@@ -2907,104 +2940,6 @@ screenshots(click to enlarge):<br>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images04.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images05.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images06.jpg" width="200"></td>
-	</tr>
-</table>
-<br>
-
-<br>
-
-
----
-
-### landing.images.android
-
-<img src="myplugins/landing.images.android/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/landing.images.android.png">
-
-[landing.images.android.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images.android/landing.images.android.zip) | 32.09 kb | 2024-08-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.android/) <a href="res/imagemd/landing.images.android.md">view images</a> [3]<br>
-<br>
->Moves the landing image above the textbox, instead of behind the textbox (for ES mobile). See the README for details.
-
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### landing.images.android 
-
-<br>
-
-<br>
-
-Moves the landing image above the textbox, instead of behind the textbox (for ES mobile).<br>
-
-<br>
-
-In case parts of the UI/the buttons are outside the screen, try rescaling your UI in the ES options<br>
-
-If that doesn't help, open the zip, edit 'landing.images.android/data/interface.txt' and change line 2 to 7 to:<br>
-
-	image "land"
-
-		center -60 -150
-
-		dimensions 250 135
-
-	sprite "ui/frame"
-
-		center -60 -150
-
-		dimensions 265 150
-
-That resizes the landing image and the frame to their half.<br>
-
-<br>
-
-<br>
-
-Changelog:<br>
-
-<br>
-
-2025-05-19<br>
-
-icon@2x, plugintxt changes<br>
-
-<br>
-
-2024-08-09<br>
-
-minor text changes (thx to TheGiraffe3)<br>
-
-<br>
-
-2024-08-07<br>
-
-added a frame for the image<br>
-
-finetuned position<br>
-
-<br>
-
-2024-08-03<br>
-
-added hire all/fire all buttons which were missing (thx timeout.fu)<br>
-
-added guide to resize the image (thx Pyrrha of simpleplanes)
-
-<br>
-
-2024-08-02<br>
-
-initial release<br>
-
-
-
-</blockquote>
-</details>
-<br>
-screenshots(click to enlarge):<br>
-<table>
-	<tr>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android01.jpg" width="200"></td>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/landing.images.android02.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
