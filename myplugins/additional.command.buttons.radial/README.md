@@ -15,9 +15,26 @@ This plugin<br>
 - puts images behind the buttons, to grey out unavailable.<br>
 - changes the ship hud<br>
 <br>
+merged the plugin landing.images.android:
+Moves the landing image above the textbox, instead of behind the textbox.<br>
+<br>
+In case parts of the UI/the buttons are outside the screen, try rescaling your UI in the ES options<br>
+If that doesn't help, open the zip, edit 'additional.command.buttons.radial/data/planet.txt' and change line 2 to 7 to:<br>
+	image "land"
+		center -60 -150
+		dimensions 250 135
+	sprite "ui/frame"
+		center -60 -150
+		dimensions 265 150
+That resizes the landing image and the frame to their half.<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-06-06<br>
+merged with plugin landing.images.android<br>
+added new line of buttons to top left<br>
+added more greyed out buttons<br>
 <br>
 2025-04-26<br>
 added greyed-out attack button if you can't attack<br>
