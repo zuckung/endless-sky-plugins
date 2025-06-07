@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-07 | update: free.worlds.5.years.later<br>
 2025-06-06 | update: additional.command.buttons.radial<br>
 2025-06-06 | merged landing.images.android into additional.command.buttons.radial<br>
 2025-06-05 | update: outfits.weapon.slot<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-05 | update: human.labels<br>
 2025-06-05 | update: paint.your.ships<br>
 2025-06-05 | update: captureable.person.ships<br>
-2025-06-05 | update: control.station<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1268,6 +1268,12 @@ Changelog:<br>
 
 <br>
 
+2025-06-07<br>
+
+outfit/cargo/weapon/engine space fix<br>
+
+<br>
+
 2025-06-04<br>
 
 added 20 lower xp ranks before 3000/7000/11000xp starts<br>
@@ -1899,7 +1905,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/free.worlds.5.years.later/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/free.worlds.5.years.later.png">
 
-[free.worlds.5.years.later.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-free.worlds.5.years.later/free.worlds.5.years.later.zip) | 30.62 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/free.worlds.5.years.later/) <a href="res/imagemd/free.worlds.5.years.later.md">view images</a> [2]<br>
+[free.worlds.5.years.later.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-free.worlds.5.years.later/free.worlds.5.years.later.zip) | 141.05 kb | 2025-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/free.worlds.5.years.later/) <a href="res/imagemd/free.worlds.5.years.later.md">view images</a> [2]<br>
 <br>
 >Lets the free world war begin 5 years later. See the README for details.
 
@@ -1932,6 +1938,12 @@ Lets the free world war begin 5 years later.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-07<br>
+
+somehow i didn't notice that an update within the last year broke this plugin, fixed<br>
 
 <br>
 
@@ -2014,6 +2026,12 @@ Enable and disable the investment jobs/missions<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-07<br>
+
+recolored the jobs purple<br>
 
 <br>
 
