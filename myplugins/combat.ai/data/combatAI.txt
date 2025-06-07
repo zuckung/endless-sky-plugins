@@ -16,7 +16,7 @@ outfit "combat_ai_basic_outfit_space"
 	category "Combat AI Updates"
 	series "Functional Unique"
 	index 01100
-	"outfit space" 2
+	"outfit space" 3
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -28,7 +28,7 @@ outfit "combat_ai_basic_cargo_space"
 	category "Combat AI Updates"
 	series "Functional Unique"
 	index 01100
-	"cargo space" 2
+	"cargo space" 3
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -52,7 +52,7 @@ outfit "combat_ai_basic_weapon_capacity"
 	category "Combat AI Updates"
 	series "Functional Unique"
 	index 01100
-	"weapon capacity" 2
+	"weapon capacity" 3
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -64,7 +64,7 @@ outfit "combat_ai_basic_engine_capacity"
 	category "Combat AI Updates"
 	series "Functional Unique"
 	index 01100
-	"engine capacity" 2
+	"engine capacity" 3
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -207,7 +207,7 @@ outfit "combat_ai_advanced_weapon_capacity"
 	category "Combat AI Updates"
 	series "Functional Unique"
 	index 01100
-	"weapon capacity" 2
+	"weapon capacity" 10
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -219,7 +219,7 @@ outfit "combat_ai_advanced_engine_capacity"
 	category "Combat AI Updates"
 	series "Functional Unique"
 	index 01100
-	"engine capacity" 2
+	"engine capacity" 10
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 

@@ -13,6 +13,9 @@ Some mechanics and ideas are inspired by Zoura's excellent plugin "Tales of Apox
 <br>
 Changelog:<br>
 <br>
+2025-06-07<br>
+outfit/cargo/weapon/engine space fix<br>
+<br>
 2025-06-04<br>
 added 20 lower xp ranks before 3000/7000/11000xp starts<br>
 added 3 advanced skills<br>

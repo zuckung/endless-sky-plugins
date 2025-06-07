@@ -6,8 +6,8 @@
 # mission "Galactic Capital 1000M"
 
 
-color "gci job: selected" .1 .8 .1 0.
-color "gci job: unselected" .1 .5 .2 0.
+color "gci job: selected" .529 .029 .949 0.
+color "gci job: unselected" .329 .173 .580 0.
 
 
 mission "Galactic Capital 1M"

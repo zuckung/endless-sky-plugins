@@ -24,6 +24,9 @@ Enable and disable the investment jobs/missions<br>
 <br>
 Changelog:<br>
 <br>
+2025-06-07<br>
+recolored the jobs purple<br>
+<br>
 2025-06-05<br>
 colored the jobs<br>
 added series<br>

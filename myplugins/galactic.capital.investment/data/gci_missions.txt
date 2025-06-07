@@ -24,7 +24,6 @@ mission "Galactic Capital Intro A"
 	destination "Earth"
 	to offer
 		"credits" > 2000000
-		has "global: gcijobs active"
 	on offer
 		conversation
 			scene "scene/gci_sci-fi_bank"

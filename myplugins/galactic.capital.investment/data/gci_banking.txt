@@ -73,11 +73,11 @@ mission "gci banking terminal"
 					to display
 						"salary: Galactic Capital" > 0
 					goto linesellinvestment
-				`	[show investment jobs/missions]`
+				`	[enable job board investments]`
 					to display
 						not "global: gcijobs active"
 					goto setjobs1
-				`	[hide investment jobs/missions]`
+				`	[disable job board investments]`
 					to display
 						has "global: gcijobs active"
 					goto setjobs0

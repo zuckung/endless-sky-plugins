@@ -13,6 +13,9 @@ Lets the free world war begin 5 years later.<br>
 <br>
 Changelog:<br>
 <br>
+2025-06-07<br>
+somehow i didn't notice that an update within the last year broke this plugin, fixed<br>
+<br>
 2025-05-19<br>
 license, README, icon@2x, plugintxt changes<br>
 <br>
