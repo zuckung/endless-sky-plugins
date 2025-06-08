@@ -1301,6 +1301,7 @@ mission "combat_ai_new_update"
 		"combat_ai_fresh_start_update" != 1
 		"outfit (flagship installed): combat_ai_core" > 0
 	on offer
+		"combat_ai_fresh_start_update" = 1
 		conversation
 			label "start"
 			scene "outfit/unq_combat_ai"

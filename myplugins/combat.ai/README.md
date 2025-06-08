@@ -13,6 +13,9 @@ Some mechanics and ideas are inspired by Zoura's excellent plugin "Tales of Apox
 <br>
 Changelog:<br>
 <br>
+2025-06-08<br>
+hot fixing fresh_start variable setting<br>
+<br>
 2025-06-07<br>
 outfit/cargo/weapon/engine space fix<br>
 <br>
