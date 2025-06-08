@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-08 | update: combat.ai<br>
 2025-06-07 | update: combat.ai<br>
 2025-06-07 | update: galactic.capital.investment<br>
 2025-06-07 | update: free.worlds.5.years.later<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-05 | update: snowfeather.robotics<br>
 2025-06-05 | update: more.boarding.missions<br>
 2025-06-05 | update: more.person.ships<br>
-2025-06-05 | update: human.labels<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1232,7 +1232,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/combat.ai/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/combat.ai.png">
 
-[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-combat.ai/combat.ai.zip) | 327.29 kb | 2025-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
+[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-combat.ai/combat.ai.zip) | 327.33 kb | 2025-06-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
 <br>
 >Offers a mission to install a combat AI, which increases your ship stats based on combat experience. See the README for details.
 
@@ -1265,6 +1265,12 @@ Some mechanics and ideas are inspired by Zoura's excellent plugin "Tales of Apox
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-08<br>
+
+hot fixing fresh_start variable setting<br>
 
 <br>
 
