@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-10 | update: mission.helper<br>
 2025-06-08 | update: combat.ai<br>
 2025-06-07 | update: combat.ai<br>
 2025-06-07 | update: galactic.capital.investment<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-05 | update: outfits.weapon.slot<br>
 2025-06-05 | update: snowfeather.robotics<br>
 2025-06-05 | update: more.boarding.missions<br>
-2025-06-05 | update: more.person.ships<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3138,7 +3138,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/mission.helper/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/mission.helper.png">
 
-[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-mission.helper/mission.helper.zip) | 156.81 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
+[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-mission.helper/mission.helper.zip) | 158.11 kb | 2025-06-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
 <br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 'source' and 'to offer' of these missions, so you can easily find them. See the README for details.
 
@@ -3161,6 +3161,14 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-10<br>
+
+set up condition to show drag/rulei/kahet with no spoiler option<br>
+
+added starting point to missions (spaceport/landing/boarding/etc)<br>
 
 <br>
 
