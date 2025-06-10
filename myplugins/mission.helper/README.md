@@ -8,6 +8,10 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 Changelog:<br>
 <br>
+2025-06-10<br>
+set up condition to show drag/rulei/kahet with no spoiler option<br>
+added starting point to missions (spaceport/landing/boarding/etc)<br>
+<br>
 2025-06-05<br>
 updated missions to 0.10.13<br>
 added rulei and ka'het<br>

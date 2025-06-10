@@ -63,16 +63,24 @@ def list_systems():
 		if each.startswith('system'):
 			system = each[:each.find('\n')].replace('system ','').replace('"', '').strip()
 			gov = each[each.find('\tgovernment '):each.find('\n', each.find('\tgovernment '))+1].replace('government ', '').replace('"', '').strip()
-			if gov != 'Uninhabited' and gov != 'Republic' and not 'Pirate' in gov and gov != 'Syndicate':
+			if gov !=  'Republic' and not 'Pirate' in gov and gov != 'Syndicate':
 				if gov == 'Bunrodea (Guard)':
+					gov = 'bunrodea'
+				elif gov == 'Bunrodea':
 					gov = 'bunrodea'
 				elif gov == 'Heliarch':
 					gov = 'coalition'
+				elif gov == 'Coalition':
+					gov = 'coalition'
 				elif gov == 'Gegno Scin':
+					gov = 'gegno'
+				elif gov == 'Gegno':
 					gov = 'gegno'
 				elif gov == 'Gegno Vi':
 					gov = 'gegno'
 				elif gov == 'Hai (Unfettered)':
+					gov = 'hai'
+				elif gov == 'Hai':
 					gov = 'hai'
 				elif gov == 'Successor':
 					gov = 'successors'
@@ -80,6 +88,8 @@ def list_systems():
 					gov = 'successors'
 				elif gov == 'New Houses':
 					gov = 'successors'
+				elif gov == 'Wanderer':
+					gov = 'wanderer'
 				elif gov == "People's Houses":
 					gov = 'successors'
 				elif gov == 'Avgi (Consonance)':
@@ -87,6 +97,8 @@ def list_systems():
 				elif gov == 'Avgi (Dissonance)':
 					gov = 'avgi'
 				elif gov == 'Avgi (Twilight Guard)':
+					gov = 'avgi'
+				elif gov == 'Avgi':
 					gov = 'avgi'
 				elif gov == 'Hicemus':
 					gov = 'incipias'
@@ -96,12 +108,27 @@ def list_systems():
 					gov = 'korath'
 				elif gov == 'Kor Efret':
 					gov = 'korath'
+				elif gov == 'Korath':
+					gov = 'korath'				
+				elif gov == "Ka'het":
+					gov = "kahet"
+				elif gov == 'Rulei':
+					gov = "rulei"
+				elif gov == 'Drak':
+					gov = "drak"
+				elif gov == 'Remnant':
+					gov = "remnant"
 				elif 'Pug' in gov:
 					gov = 'pug'
 				elif 'Quarg' in gov:
 					gov = 'quarg'
-#				else:
-#					print(gov)
+				elif '"graveyard"' in each:
+					gov = 'kahet'
+				elif '"rulei"' in each:
+					gov = 'rulei'
+				else:
+					if gov != 'Uninhabited':
+						print(gov)
 				systems.append(system)
 				govs.append(gov)
 	return systems, govs
@@ -109,7 +136,7 @@ def list_systems():
 	
 
 def list_missions(): # lists the mission names, paths and relevant script texts
-	missions, mission_texts, mission_paths = [], [], []
+	missions, mission_texts, mission_paths, starts = [], [], [], []
 	for name in obj_name:
 		if not name.startswith('mission '):
 			continue
@@ -118,6 +145,23 @@ def list_missions(): # lists the mission names, paths and relevant script texts
 			continue
 		if 'deprecated' in obj_path[index] or 'globals.txt' in obj_path[index] or 'starts.txt' in obj_path[index]:
 			continue
+		# get starts
+		if '\tlanding\n' in obj[index]:
+			starts.append('landing')
+		elif '\tassisting\n' in obj[index]:
+			starts.append('assisting')
+		elif '\tboarding\n' in obj[index]:
+			starts.append('boarding')
+		elif '\tshipyard\n' in obj[index]:
+			starts.append('shipyard')
+		elif '\toutfitter\n' in obj[index]:
+			starts.append('outfitter')
+		elif '\t"job board"\n' in obj[index]:
+			starts.append('job board')
+		elif '\tentering\n' in obj[index]:
+			starts.append('entering')
+		else:
+			starts.append('spaceport')
 		# clean up mission name	
 		pos1 = name.find('"')
 		pos2 = name.find('"', pos1 +1)
@@ -196,15 +240,26 @@ def list_missions(): # lists the mission names, paths and relevant script texts
 		missions.append(name)
 		mission_texts.append(source)
 		mission_paths.append(path)
-	return missions, mission_texts, mission_paths
+	return missions, mission_texts, mission_paths, starts
 
 
-def write_mission(missions, mission_texts, mission_paths, systems, govs, blacklist): # write all to a single mission
+def write_mission(missions, mission_texts, mission_paths, systems, govs, blacklist, starts): # write all to a single mission
 	with open('mission.helper.txt', 'w') as target:
-		target.writelines('mission "mission.helper"\n')
+		target.writelines('# mission "Mission Helper"\n')
+		target.writelines('# 2x color\n')
+		target.writelines('\n')
+		target.writelines('\n')
+		target.writelines('\n')
+		target.writelines('color "mission helper job: selected" .1 .8 .1 0.\n')
+		target.writelines('color "mission helper job: unselected" .1 .5 .2 0.\n')
+		target.writelines('\n')
+		target.writelines('\n')
+		target.writelines('mission "Mission Helper"\n')
+		target.writelines('\tname "(Mission Helper)"\n')
+		target.writelines('\tcolor selected "mission helper job: selected"\n')
+		target.writelines('\tcolor unselected "mission helper job: unselected"\n')
 		target.writelines('\tjob\n')
 		target.writelines('\trepeat\n')
-		target.writelines('\tname "(mission.helper)"\n')
 		target.writelines('\tdescription "Shows a list of non-repeatable, not-offered missions. You only see missions you have not done. The missions show their offering conditions, so you can easily check where to go and what to do for them to start."\n')
 		target.writelines('\ton accept\n')
 		target.writelines('\t\tconversation\n')
@@ -262,7 +317,7 @@ def write_mission(missions, mission_texts, mission_paths, systems, govs, blackli
 					if govs[sysindex].lower() == pathpath:
 						target.writelines('\t\t\t\t\t\t\t\thas "visited system: ' + system + '"\n')
 			target.writelines('\t\t\t\t\tgoto "' + pathpath + '"\n')
-		target.writelines('\t\t\t\t`close`\n')
+		target.writelines('\t\t\t\t`[close]`\n')
 		target.writelines('\t\t\t\t\tgoto "close"\n')
 		# sub category menu/files	
 		for category in categories:
@@ -305,6 +360,7 @@ def write_mission(missions, mission_texts, mission_paths, systems, govs, blackli
 			index = missions.index(mission)
 			target.writelines('\t\t\tlabel "' + mission + '"\n')
 			target.writelines('\t\t\t`' + mission_paths[index] + ' | mission "' + mission + '"`\n')
+			target.writelines('\t\t\t`starts at: ' + starts[index] + '`\n')
 			category, subcategory = mission_paths[index].split('/')
 			splitted = mission_texts[index].split('\n')
 			for each in splitted:
@@ -373,9 +429,9 @@ def run():
 	set_globals()
 	read_everything()
 	systems, govs = list_systems()
-	missions, mission_texts, mission_paths = list_missions()
-	blacklist = ['kahet', 'rulei', 'sheragi','drak'] # exclude these races from the race menu (no missions/no systems)
-	write_mission(missions, mission_texts, mission_paths, systems, govs, blacklist)
+	missions, mission_texts, mission_paths, starts = list_missions()
+	blacklist = ['sheragi'] # exclude these races from the race menu (no missions/no systems)
+	write_mission(missions, mission_texts, mission_paths, systems, govs, blacklist, starts)
 
 
 if __name__ == "__main__":
