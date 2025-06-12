@@ -337,7 +337,9 @@ mission "Mission Helper"
 					goto "rulei"
 				`sheragi`
 					to display
-						has "not in blacklist"
+						or
+							has "helper spoiler"
+							has "Rim Archaeology 6: declined"
 					goto "sheragi"
 				`successors`
 					to display

@@ -1,4 +1,0 @@
-free.worlds.5.years.later
-author:
-	zuckung 
-	https://github.com/zuckung/endless-sky-plugins
