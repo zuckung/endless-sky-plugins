@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-12 | update: mission.helper<br>
 2025-06-10 | update: mission.helper<br>
 2025-06-08 | update: combat.ai<br>
 2025-06-07 | update: combat.ai<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-06 | merged landing.images.android into additional.command.buttons.radial<br>
 2025-06-05 | update: outfits.weapon.slot<br>
 2025-06-05 | update: snowfeather.robotics<br>
-2025-06-05 | update: more.boarding.missions<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -50,9 +50,8 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#flareplay">flare.play</a><br>
-<a href="README.md#freeworlds5yearslater">free.worlds.5.years.later</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#highrollersltd">highrollers.ltd</a><br>
@@ -1906,72 +1905,6 @@ screenshots(click to enlarge):<br>
 
 ---
 
-### free.worlds.5.years.later
-
-<img src="myplugins/free.worlds.5.years.later/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/free.worlds.5.years.later.png">
-
-[free.worlds.5.years.later.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-free.worlds.5.years.later/free.worlds.5.years.later.zip) | 141.05 kb | 2025-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/free.worlds.5.years.later/) <a href="res/imagemd/free.worlds.5.years.later.md">view images</a> [2]<br>
-<br>
->Lets the free world war begin 5 years later. See the README for details.
-
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### free.worlds.5.years.later <br>
-
-<br>
-
-Lets the free world war begin 5 years later.<br>
-
-<br>
-
-<ul>
-
-<li>changes event "war begins" from 4 7 3014 to 4 7 3019</li>
-
-<li>changes event "initial deployment 1" from 24 7 3014 to 24 7 3019</li>
-
-<li>changes event "initial deployment 2" from 14 8 3014 to 14 8 3019</li>
-
-<li>changes event "initial deployment 3" from 29 8 3014 to 29 8 3019</li>
-
-<li>changes event "initial deployment 4" from 17 9 3014 to 17 9 3019</li>
-
-</ul>
-
-<br>
-
-<br>
-
-Changelog:<br>
-
-<br>
-
-2025-06-07<br>
-
-somehow i didn't notice that an update within the last year broke this plugin, fixed<br>
-
-<br>
-
-2025-05-19<br>
-
-license, README, icon@2x, plugintxt changes<br>
-
-<br>
-
-2023-10-17<br>
-
-added plugin.txt<br>
-
-<br>
-</blockquote>
-</details>
-
-<br>
-
-
----
-
 ### galactic.capital.investment
 
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
@@ -3138,7 +3071,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/mission.helper/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/mission.helper.png">
 
-[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-mission.helper/mission.helper.zip) | 158.11 kb | 2025-06-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
+[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-mission.helper/mission.helper.zip) | 158.14 kb | 2025-06-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
 <br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 'source' and 'to offer' of these missions, so you can easily find them. See the README for details.
 
@@ -3161,6 +3094,18 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-12<br>
+
+added missing sheragi category with no spoiler option<br>
+
+<br>
+
+2025-06-10<br>
+
+set up condition to show drag/rulei/kahet with no spoiler option<br>
 
 <br>
 
