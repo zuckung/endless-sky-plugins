@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-17 | update: control.station<br>
 2025-06-17 | update: better.starts<br>
 2025-06-18 | removed planet.pluto, original @ <href="https://github.com/LixiChronikouOriou/ES-plugins>https://github.com/LixiChronikouOriou/ES-plugins</a><br>
 2025-06-12 | update: mission.helper<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-07 | update: galactic.capital.investment<br>
 2025-06-07 | update: free.worlds.5.years.later<br>
 2025-06-06 | update: additional.command.buttons.radial<br>
-2025-06-06 | merged landing.images.android into additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1323,7 +1323,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/control.station/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/control.station.png">
 
-[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-control.station/control.station.zip) | 327.56 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <a href="res/imagemd/control.station.md">view images</a> [403]<br>
+[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-control.station/control.station.zip) | 2.52 mb | 2025-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <a href="res/imagemd/control.station.md">view images</a> [403]<br>
 <br>
 >Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details.
 
