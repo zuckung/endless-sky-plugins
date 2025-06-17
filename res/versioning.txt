@@ -3,7 +3,7 @@ additional.command.buttons|1.0.2
 automata.destruction.0percent|1.0.1
 automata.in.human.space|1.0.1
 avgi.licenses|1.0.0
-better.starts|1.0.4
+better.starts|1.0.5
 bunrodea.missions|1.0.8
 captureable.person.ships|1.1.8
 coalition.shopping|1.0.6

@@ -17,6 +17,8 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-17 | update: better.starts<br>
+2025-06-18 | removed planet.pluto, original @ <href="https://github.com/LixiChronikouOriou/ES-plugins>https://github.com/LixiChronikouOriou/ES-plugins</a><br>
 2025-06-12 | update: mission.helper<br>
 2025-06-10 | update: mission.helper<br>
 2025-06-08 | update: combat.ai<br>
@@ -25,8 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-07 | update: free.worlds.5.years.later<br>
 2025-06-06 | update: additional.command.buttons.radial<br>
 2025-06-06 | merged landing.images.android into additional.command.buttons.radial<br>
-2025-06-05 | update: outfits.weapon.slot<br>
-2025-06-05 | update: snowfeather.robotics<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -50,8 +50,8 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#flareplay">flare.play</a><br>
-<a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#highrollersltd">highrollers.ltd</a><br>
@@ -64,14 +64,13 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#licenses">licenses</a><br>
 <a href="README.md#missionhelper">mission.helper</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
-<a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
 <a href="README.md#paintyourships">paint.your.ships</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
-<a href="README.md#planetpluto">planet.pluto</a><br>
 <a href="README.md#quargfarm">quarg.farm</a><br>
 <a href="README.md#showreputation">show.reputation</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
@@ -523,7 +522,7 @@ changed icon.png<br>
 <img src="myplugins/better.starts/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/better.starts.png">
 
-[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-better.starts/better.starts.zip) | 23.58 kb | 2024-12-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <a href="res/imagemd/better.starts.md">view images</a> [2]<br>
+[better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-better.starts/better.starts.zip) | 804.25 kb | 2025-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) <a href="res/imagemd/better.starts.md">view images</a> [6]<br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
@@ -555,9 +554,7 @@ Adds several new start options with different ships, background stories, credits
 
 <li>Start: Explorer to Automata | Bounder: equipped for exploring the Kor Automata, in Mirfak system</li>
 
-<li>Start: Cheater 1 | Heron + 10xKIV: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
-
-<li>Start: Cheater 2 | Heron + 10xSkylark: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
+<li>Start: Cheater | Squiddy + 20xSquiddyDrone: 10b credits, full visible human space, Jump Drive, in Sol system, no story</li>
 
 </ul>
 
@@ -573,9 +570,17 @@ Changelog:<br>
 
 <br>
 
+2025-06-18<br>
+
+removed cheater start2<br>
+
+changed cheater start with new ship sprites<br>
+
+<br>
+
 2025-05-19<br>
 
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 
 icon@2x, plugintxt changes<br>
 
@@ -1318,7 +1323,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/control.station/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/control.station.png">
 
-[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-control.station/control.station.zip) | 327.56 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <a href="res/imagemd/control.station.md">view images</a> [4]<br>
+[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-control.station/control.station.zip) | 327.56 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <a href="res/imagemd/control.station.md">view images</a> [403]<br>
 <br>
 >Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details.
 
@@ -1334,35 +1339,51 @@ Adds a station to the Sol system that offers administrative functions started by
 
 <br>
 
-Current functions:<br>
+<br>
 
-show reputation<br>
-
-show person ships<br>
-
-show all vanilla system<br>
-
-complete free worlds reconciliation campaign<br>
-
-complete free worlds checkmate campaign<br>
-
-complete free worlds both campaigns<br>
-
-complete hai reveal 0 prolog<br>
-
-complete remnant campaign<br>
+I am working on adding configuration and information for some of my plugins into this station.<br>
 
 <br>
 
-Completing the campaigns might not exactly have the same result as if the campaign was played. There is a massive amount of events, that might suppress other events, when done on the same day. It looks good now, but not sure if that's really the case.<br>
+Current functions:<br>
 
-So lets call this plugin EXPERIMENTAL for now.<br>
+info: Show Person Ship List (where you can find them and if they are alive or dead)<br>
+
+info: City Ship License Guide<br>
+
+info: Ship Capture Progression Guide<br>
+
+QoL: Change Pilot Name (during a pilot's play, keep everything)<br>
+
+QoL: Planet Attribute Visibility (expand planet's descriptions with the hidden attributes)<br>
+
+QoL: Change Conditions (currently just a few popular ones)
+
+Cheat: Reveal Whole Galaxy Map<br>
+
+Cheat: set missions done: Free Worlds (choose between reconciliation, checkmate, or both)<br>
+
+Cheat: set missions done: Hai Reveal (0 prolog)<br>
+
+Cheat: set missions done: Remnant<br>
+
+<br>
+
+Completing the campaigns might not exactly have the same result as if the campaign was played. There is a massive amount of events, that might suppress other events, when done on the same day. It looks good now, but not sure if that's really the case. So lets call this function EXPERIMENTAL for now.<br>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-18<br>
+
+added city ship guide, capture progression guide, change pilot name, planet attributes, condition changer<br>
+
+polished the plugin<br>
 
 <br>
 
@@ -3908,53 +3929,6 @@ screenshots(click to enlarge):<br>
 	</tr>
 </table>
 <br>
-
-<br>
-
-
----
-
-### planet.pluto
-
-<img src="myplugins/planet.pluto/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/planet.pluto.png">
-
-[planet.pluto.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-planet.pluto/planet.pluto.zip) | 219.8 kb | 2024-12-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.pluto/) <a href="res/imagemd/planet.pluto.md">view images</a> [5]<br>
-<br>
->Adds Pluto and Charon to the Sol system, including a heartbreaking background story.
-
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>### planet.pluto
-
-<br>
-
-<br>
-
-Adds Pluto and Charon to the Sol system, including a heartbreaking background story.
-
-<br>
-
-<br>
-
-<br>
-
-Changelog:
-
-<br>
-
-2025-05-19<br>
-
-typo fixes by snoggles<br>
-
-<br>
-
-2024-11-25<br>
-
-initial release<br>
-
-</blockquote>
-</details>
 
 <br>
 
