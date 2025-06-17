@@ -1,10 +1,13 @@
 # category "bay type"
 # mission "add full map"
 # outfit "Full Human Space Map"
-# ship "Quarg Skylark (Explorer)"
-# ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Disabler)"
-# ship "Heron" "Heron (Disabler)"
-# ship "Heron" "Heron (Quarg)"
+# ship "SquiddyDrone"
+# ship "Squiddy"
+# outfit "Antimatter Core b"
+# outfit "Medium Graviton Thruster b"
+# outfit "Medium Graviton Steering b"
+# outfit "Quantum Shield Generator b"
+
 
 
 category "ship"
@@ -36,16 +39,17 @@ outfit "Full Human Space Map"
 	description "This tablet computer contains data on all star systems within human space: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
 
 
-ship "Quarg Skylark (Explorer)"
-	sprite "ship/skylark"
-	thumbnail "thumbnail/skylark"
+ship "Squiddy Drone"
+	sprite "ship/z_squid2"
+	thumbnail "ship/z_squid2"
+	swizzle 0
 	attributes
 		category "modified Heavy Warship"
 		"cost" 5900000
 		"shields" 120000
 		"hull" 70000
-		"required crew" 120
-		"bunks" 210
+		"required crew" 1
+		"bunks" 10
 		"mass" 990
 		"drag" 18.5
 		"heat dissipation" .47
@@ -63,16 +67,16 @@ ship "Quarg Skylark (Explorer)"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"Antimatter Core"
+		"Antimatter Core b"
 		"Fuel Module" 2
 		"Intrusion Countermeasures" 120
 		"Jump Drive"
-		"Medium Graviton Steering"
-		"Medium Graviton Thruster"
+		"Medium Graviton Steering b"
+		"Medium Graviton Thruster b"
 		"Nanotech Battery"
 		"Outfits Expansion" 4
 		"Quantum Keystone"
-		"Quantum Shield Generator"
+		"Quantum Shield Generator b"
 		"Quarg Anti-Missile" 2
 		"Quarg Skylance" 2
 		"Wanderer Ramscoop" 3
@@ -88,136 +92,226 @@ ship "Quarg Skylark (Explorer)"
 	explode "large explosion" 40
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description "The Skylark is used by the Quarg as a freighter and warship."
+	description "Once this was a Skylark."
 
 
-ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Disabler)"
+ship "Squiddy"
+	sprite "ship/z_squid"
+	thumbnail "ship/z_squid"
+	swizzle 0
+	attributes
+		category "Superheavy"
+		"cost" 256375000
+		"shields" 250500
+		"hull" 250500
+		"required crew" 1000
+		"bunks" 3000
+		"mass" 15725
+		"drag" 62.5
+		"heat dissipation" .32
+		"fuel capacity" 2500
+		"ramscoop" 10.75
+		"cargo space" 1110
+		"outfit space" 2370
+		"weapon capacity" 500
+		"engine capacity" 840
+		"shield generation" 15
+		"shield energy" 1.8
+		"hull repair rate" 15
+		"hull energy" 0.75
+		"cloak" .05
+		"cloaked shield permeability" 1
+		"cloaking energy" 3
+		"cloaking fuel" .05
+		"cloaked communication" 1
+		"gaslining" 1
+		"atmosphere scan" 100
+		"outfit scan power" 175
+		"outfit scan efficiency" 120
+		"tactical scan power" 350
+		"force protection" 1
+		"heat protection" 1.5
+		"ion resistance" 0.3
+		"scramble resistance" 0.3
+		"slowing resistance" 3
+		"remnant node" 11
+		"spinal mount" 1
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2100
 	outfits
-		"Catalytic Ramscoop"
-		"Double Plasma Core"
-		"Fuel Module"
-		"Fuel Processor" 2
-		"Husk-Slice Turret" 4
-		"Jump Drive"
-		"Large Heat Shunt" 3
-		"Quantum Keystone"
-		"Shield Disruptor Turret" 2
-		"Small Heat Shunt"
-		"Steering (Planetary Class)"
-		"Systems Core (Large)"
-		"Thruster (Stellar Class)"
-		"Triple Plasma Core"
-		"Warder Anti-Missile" 2
-
-
-ship "Heron" "Heron (Disabler)"
-	outfits
-		"Aeon Cell" 4
-		"Bellows-Class Afterburner" 3
-		"Crystal Capacitor" 10
-		"Emergency Ramscoop" 10
-		"Husk-Slice Turret" 4
-		"Shield Disruptor Turret" 2
-		"Husk-Slice"
-		"Jump Drive"
-		"Large Heat Shunt" 5
-		"Point Defense Turret" 3
-		"Quantum Key Stone"
-		"Salvage Scanner" 5
-		"Smelter-Class Steering" 5
-		"Smelter-Class Thruster" 4
-		"Thermoelectric Cooler" 5
-
-
-ship "Heron" "Heron (Quarg)"
-	add attributes
-		"weapon capacity" 30
-		"engine capacity" 40
-		"outfit space" 220
-	outfits
-		"Antimatter Core" 6
+		"Antimatter Core b" 6
 		"Bunk Room" 7
 		"Emergency Ramscoop" 10
 		"Fragmentation Grenades" 3000
 		"Jump Drive"
 		"NDR-114 Android" 990
 		"Nanotech Battery" 2
-		"Quantum Shield Generator" 2
+		"Quantum Shield Generator b" 2
 		"Quantum Key Stone"
 		"Quarg Anti-Missile" 2
 		"Quarg Skylance" 7
-		"Medium Graviton Steering" 7
-		"Medium Graviton Thruster" 7
+		"Medium Graviton Steering b" 7
+		"Medium Graviton Thruster b" 7
 		"Research Laboratory"
-	bay "modified Heavy Warship" -124 -122.5
+	engine -14 53
+	engine 14 53
+	gun -9 -96
+	gun 9 -96
+	gun -1 -101
+	turret -24 -70
+	turret 24 -70
+	turret -26 -20
+	turret 26 -20
+	turret -2 26
+	turret -8 -76
+	turret 8 -76
+	turret -8 -32
+	turret 8 -32 
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" 124 -122.5
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" -176 -50.5
+	bay "modified Heavy Warship" -0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" 176 -50.5
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" -148.5 4
+	bay "modified Heavy Warship" -0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" 148.5 4
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" -56 -150
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" 56 -150
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" -37 -121.5
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" 37 -121.5
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" -33.5 -99
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" 33.5 -99
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" -27 -81
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" 27 -81
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" -24 -49.5
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" 24 -49.5
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" -40 -3
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" 40 -3
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" -28 22.5
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "modified Heavy Warship" 28 22.5
+	bay "modified Heavy Warship" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" -77.5 71.5
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" 77.5 71.5
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" -89.5 114
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" 89.5 114
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" -138.5 152.5
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" 138.5 152.5
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" -171 165.5
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" 171 165.5
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" -190.5 197.5
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" 190.5 197.5
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" -105 229.5
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Drone" 105 229.5
+	bay "Drone" 0 -65
 		"launch effect" "remnant internal"
-	bay "Fighter" -31 70.5
+	bay "Fighter" 0 -65
 		"launch effect" "remnant internal"
-	bay "Fighter" 31 70.5
+	bay "Fighter" 0 -65
 		"launch effect" "remnant internal"
-	bay "Fighter" -40 190
+	bay "Fighter" 0 -65
 		"launch effect" "remnant internal"
-	bay "Fighter" 40 190
+	bay "Fighter" 0 -65
 		"launch effect" "remnant internal"
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description "Once this was a Heron."
+
+
+outfit "Antimatter Core b"
+	"display name" "Antimatter Core"
+	category "Power"
+	series "Generators"
+	index 91010
+	cost 20000000
+	thumbnail "outfit/quarg antimatter core"
+	"mass" 50
+	"outfit space" -50
+	"energy generation" 12
+	"heat generation" 10
+	description "Although humanity is now capable of producing antimatter in relatively significant quantities when compared to a thousand years ago, it is still nothing next to the output of the Quarg, who can produce enough antimatter to outfit even civilian ships with an extremely compact Antimatter Core. This device releases extreme amounts of energy in a simple, elegant package, all while producing surprisingly little waste heat."
+
+outfit "Medium Graviton Thruster b"
+	"display name" "Medium Graviton Thruster"
+	category "Engines"
+	series "Engines"
+	index 91021
+	"cost" 20000000
+	thumbnail "outfit/medium quarg thruster"
+	"mass" 70
+	"outfit space" -70
+	"engine capacity" -70
+	"thrust" 120
+	"thrusting energy" 8
+	"thrusting heat" 2
+	"reverse thrust" 60
+	"reverse thrusting energy" 4
+	"reverse thrusting heat" 1
+	"force protection" 0.15
+	"inertia reduction" 0.15
+	"flare sprite" "effect/graviton flare/graviton flare"
+		"frame rate" 5
+	description "Quarg thrusters are quite powerful for their size and produce very little heat, but at the cost of consuming immense amounts of energy. The mechanism by which they produce thrust is unknown, but it is rumored that the passing of a Quarg ship wreaks havoc on every gravitational wave antenna in the system."
+	description "	They also have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships with these engines accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+
+outfit "Medium Graviton Steering b"
+	"display name" "Medium Graviton Steering"
+	category "Engines"
+	series "Engines"
+	index 91020
+	"cost" 16000000
+	thumbnail "outfit/medium quarg steering"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"turn" 2400
+	"turning energy" 4
+	"turning heat" 1
+	"force protection" 0.15
+	"inertia reduction" 0.15
+	description "According to rumor, some Quarg ships have their steering engines installed internally, with no need for external thrusters. Much like a gyroscope, they can seemingly orient a ship from anywhere, but unlike them they never seem to saturate or become locked."
+	description "	They also have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships with these engines accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+
+outfit "Quantum Shield Generator b"
+	"display name" "Quantum Shield Generator"
+	category "Systems"
+	cost 30000000
+	thumbnail "outfit/quarg aegis shield generator"
+	"mass" 120
+	"outfit space" -120
+	"shield generation" 10
+	"shield energy" 10
+	description "The first humans who met the Quarg thought that their technology worked on magic, and many even think so to this day. The mechanism by which this Quarg shield generator works is completely unknown to humanity, and the Quarg aren't interested in giving up their secrets."
+

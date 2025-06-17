@@ -1,0 +1,23 @@
+mission "QoL: Change Pilot Name"
+	name "[2] QoL: Change Pilot Name"
+	color selected "control.station qol job: selected"
+	color unselected "control.station qol job: unselected"
+	job
+	repeat
+	description "Changes your first and last name."
+	source "Control Station"
+	on accept
+		conversation
+			`Your current name is: <first> <last>`
+			choice
+				`	change the name`
+					goto "change"
+				`	done`
+					goto end
+			label "change"
+			`Creates a new pilot of that name, with the current savegame standing.`
+			`Change the name to:`
+			name
+			label end
+			``
+		fail

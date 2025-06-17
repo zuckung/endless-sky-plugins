@@ -1,0 +1,63 @@
+# outfitter "control.station.empty"
+# shipyard "control.station.empty"
+# government "Space Administration"
+# system "Sol"
+# planet "Control Station"
+# color "control.station info job: selected"
+# color "control.station info job: unselected"
+# color "control.station qol job: selected"
+# color "control.station qol job: unselected"
+# color "control.station plugin job: selected"
+# color "control.station plugin job: unselected"
+# color "control.station cheat job: selected"
+# color "control.station cheat job: unselected"
+
+
+
+outfitter "control.station.empty"
+
+
+shipyard "control.station.empty"
+
+
+government "control.station.administration"
+	"display name" "Galaxy Intel"
+	swizzle 4
+	color 1 1 1
+	"player reputation" 1
+
+
+system "Sol"
+	add object "Control Station"
+		sprite planet/admin_station
+			scale 0.5
+		distance 965
+		period 365.250
+		offset 25
+
+
+planet "Control Station"
+	"display name" "Space Administration"
+	landscape land/inside_station
+	description `This is the Endless Sky Space Administration station. Here you can see some info about the game, activate quality of life features, configure plugin options, or do some cheaty stuff.`
+	government "control.station.administration"
+	spaceport `This is the Endless Sky Space Administration station. Here you can see some info about the game, activate quality of life features, configure plugin options, or do some cheaty stuff.`
+	outfitter "control.station.empty"
+	shipyard "control.station.empty"
+
+
+color "control.station info job: selected" .1 .8 .1 0.
+color "control.station info job: unselected" .1 .5 .2 0.
+
+
+color "control.station qol job: selected" 1. 1. 0. 0.
+color "control.station qol job: unselected" .6 .6 0. 0.
+
+
+color "control.station plugin job: selected" 0. .7 1. 0.
+color "control.station plugin job: unselected" .3 .5 .8 0.
+
+
+color "control.station cheat job: selected" .9 0. 0. 0.
+color "control.station cheat job: unselected" .6 0. 0. 0.
+

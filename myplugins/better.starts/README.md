@@ -11,8 +11,7 @@ Adds several new start options with different ships, background stories, credits
 <li>Start: Salvager(big) | Argosy: equipped for boarding, in Aldhibain system</li>
 <li>Start: Explorer to Remnant | Heavy Shuttle: equipped for exploring the Remnant, in Tania Australis system</li>
 <li>Start: Explorer to Automata | Bounder: equipped for exploring the Kor Automata, in Mirfak system</li>
-<li>Start: Cheater 1 | Heron + 10xKIV: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
-<li>Start: Cheater 2 | Heron + 10xSkylark: 1b credits, full visible human space, Jump Drive, in Sol system, no story</li>
+<li>Start: Cheater | Squiddy + 20xSquiddyDrone: 10b credits, full visible human space, Jump Drive, in Sol system, no story</li>
 </ul>
 <br>
 Beside the cheater start options, all others are balanced and lore friendly. A bigger ship means a bigger bank loan. All starts come with 200.000 credits cash and a bank loan between 600.000 and 4,5 million credits. The ships outfits are changed to fit the role. The intro missions on New Boston are set as completed. Same goes for the Hai start with the Hai first contact mission.<br>
@@ -20,8 +19,12 @@ Beside the cheater start options, all others are balanced and lore friendly. A b
 <br>
 Changelog:<br>
 <br>
+2025-06-18<br>
+removed cheater start2<br>
+changed cheater start with new ship sprites<br>
+<br>
 2025-05-19<br>
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 icon@2x, plugintxt changes<br>
 <br>
 2024-11-02 <br>

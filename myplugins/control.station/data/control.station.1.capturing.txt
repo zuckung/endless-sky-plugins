@@ -1,0 +1,64 @@
+mission "info: Show Capturing Progression Guide"
+	name "[1] info: Capturing Progression Guide"
+	color selected "control.station info job: selected"
+	color unselected "control.station info job: unselected"
+	job
+	repeat
+	description "Shows a guide to vanilla capturing ship progression, from smallest to biggest capturable ship."
+	source "Control Station"
+	on accept
+		conversation
+			`Ship Capturing Progression`
+			`* "Bunkmax" means, you sell every outfit that is not needed, replace needed outfits by weaker ones, buy outfit expansion till you have no cargo or overheat, and install as many Bunk Rooms as possible. This means also no weapons.`
+			`* The bunkmax number can be a little bit higher if you invest time and money to find the perfect outfits.`
+			`* Your fleet should be equipped with beam weapons, to not destroy the target.`
+			`* You can skip many ships in this list, based on your choice and luck.`
+			`* Start with 'Laser Rifle' hand-to-hand outfits, better get 'Fragmentation Granade', and when reaching Korath ships do the Coalition/Lunarium storyline to get the 'Anti-Materiel Gun'.`
+			``
+			`start with:`
+			`  Shuttle | bunkmax to 18 crew`
+			``
+			`Aldhibain (Free Worlds) (has outfitter/shipyard/lots of pirates and militia fleets, no need to fight)`
+			`  Hawk | 1-4 enemy crew | bunkmax to 20 crew`
+			`  Clipper | 3-9 enemy crew | bunkmax to 41 crew`
+			`  Argosy | 6-14 enemy crew | bunkmax to 50 crew`
+			`  Modified Argosy | 5-12 enemy crew | bunkmax to 60 crew`
+			`  Osprey | 10-24 enemy crew | bunkmax to 80 crew`
+			`  Bastion | 19-40 enemy crew | bunkmax to 108 crew`
+			`  Falcon | 55-91 enemy crew | bunkmax to 171 crew`
+			``
+			`Arneb (North Pirate) (average spawn time 18m) OR do City Ship License missions in the deep`
+			`  Bactrian | 74-245 enemy crew | bunkmax to 377 crew`
+			``
+			`Wah Ki (Hai)`
+			`  Shield Beetle 47-95 enemy crew | bunkmax to 211 crew`
+			``
+			`Misam (Core Pirate)`
+			`  Palavret | 150-250 enemy crew | bunkmax to 362 crew`
+			`  Rano'erek | 143-357 enemy crew | bunkmax to 469 crew`
+			``
+			`Kor En'lakfar (average spawn time 10m) from here get 'Anti-Materiel Gun' first`
+			`  Karek A'awoj (577, Jump Drive equipped) | 239-453 enemy crew | bunkmax to 589 crew`
+			``
+			`Kor Nor'peli 20000 1/28 (average spawn time 2h20m)`
+			`  Dathnak A'awoj (582, Jump Drive equipped) | 319/551 enemy crew | bunkmax to 679 crew`
+			``
+			`All Korath system, very common`
+			`  Sapira A'awoj" (618, Jump Drive equipped) 627/794 enemy crew | bunkmax to 1006 crew`
+			`  Ikfar A'awoj (621, Jump Drive equipped) 798/1037 enemy crew | bunkmax to 1189 crew`
+			``
+			`Kor Efreti (follow Efreti ship and refuel them to build up reputation, so you can capture one without getting them angry)`
+			`  Echo-Galleon 243/972 bunkmax to 1068 crew`
+			``
+			`Coluber(Ember Waste) (average spawn time 8m) Korath civilian can get angered without any negative impact`
+			`  "Rai'alorej" 526/1433 enemy crew | bunkmax to 1565 crew`
+			``
+		fail
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+# mission "cheat: Set missions done: Hai Reveal"
+
+
+
+mission "cheat: Set missions done: Hai Reveal"
+	name "[3] cheat: Set missions done: Hai Reveal"
+	color selected "control.station cheat job: selected"
+	color unselected "control.station cheat job: unselected"
+	job
+	repeat
+	to offer
+		not "hrdone"
+	source "Control Station"
+	description "Sets all HR Prologue missions to done. Starts all events(to alter the galaxy)."
+	on accept
+		conversation
+			label menu
+			`Choose!`
+			choice
+				`	Set Hai Reveal Prologue to done`
+					to display
+						not "event: hr: exploration period"
+					goto hr0
+				`	Close`
+					goto "end"
+			label hr0
+			action
+				set "Hai Reveal: Secret Leaks: failed"
+				set "Hai Reveal: Secret Leaks: offered"
+				set "hr: secret leaks"
+				event "hr: friend arrives"
+				event "hr: friend settled in"
+				"hr: knew of hai" = "First Contact: Hai: offered" + "First Contact: Unfettered: offered"
+				set "Hai Reveal: Secret Leaks: FW: declined"
+				set "Hai Reveal: Secret Leaks: FW: offered"
+				set "hr: heard the news"
+				# mission "Hai Reveal: Secret Leaks: R/S"
+				set "Hai Reveal: Secret Leaks: Hai: declined"
+				set "Hai Reveal: Secret Leaks: Hai: offered"
+				# mission "Hai Reveal: Navy News Report"
+				set "Hai Reveal: Early Arrival: Alondo: done"
+				set "Hai Reveal: Early Arrival: Alondo: offered"
+				set "hr: meet the team"
+				# mission "Hai Reveal: Late Arrival: Alondo"
+				# mission "Hai Reveal: Join Later: Alondo"
+				set "Hai Reveal: Meet the Team: FW: declined"
+				set "Hai Reveal: Meet the Team: FW: offered"
+				set "Hai Reveal: Meet the Team: Xilin 1: done"
+				set "Hai Reveal: Meet the Team: Xilin 1: offered"
+				set "Hai Reveal: Meet the Team: Xilin 2: done"
+				set "Hai Reveal: Meet the Team: Xilin 2: offered"
+				set "hr: met xilin"
+				set "Hai Reveal: Meet the Team: Samuel 1: done"
+				set "Hai Reveal: Meet the Team: Samuel 1: offered"
+				set "Hai Reveal: Meet the Team: Samuel 2: done"
+				set "Hai Reveal: Meet the Team: Samuel 2: offered"
+				set "hr: met samuel"
+				set "Hai Reveal: Meet the Team: Terry: done"
+				set "Hai Reveal: Meet the Team: Terry: offered"
+				set "Hai Reveal: Meet the Team: Sayari 1: done"
+				set "Hai Reveal: Meet the Team: Sayari 1: offered"
+				set "Hai Reveal: Meet the Team: Sayari 2: done"
+				set "Hai Reveal: Meet the Team: Sayari 2: offered"
+				event "hr: exploration period"
+				set "hrdone"
+			`All missions,events and conditions of:`
+			`	hai reveal 0 prologue`
+			`are executed/set.`
+			label "end"
+			``
+		fail

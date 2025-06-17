@@ -1,0 +1,140 @@
+mission "QoL: change common conditions"
+	name "[2] QoL: change conditions"
+	color selected "control.station qol job: selected"
+	color unselected "control.station qol job: unselected"
+	job
+	repeat
+	description "Change conditions, i.e. 'war begins' or 'hr: secret leaks.' This is used to enable older missions offering, which are blocked by these conditions. Warning: Some missions may fail immediately if a condition is set, do that at your own risk."
+	source "Control Station"
+	on accept
+		conversation
+			label "start"
+			`Which condition should be changed?`
+			choice
+
+				`remove "event: war begins"`
+					to display
+						has "event: war begins"
+					goto "rm event: war begins"
+				`set "event: war begins"`
+					to display
+						not "event: war begins"
+					goto "set event: war begins"
+
+				`remove "chosen sides"`
+					to display
+						has "chosen sides"
+					goto "rm chosen sides"
+				`set "chosen sides"`
+					to display
+						not "chosen sides"
+					goto "set chosen sides"
+
+				`remove "main plot completed"`
+					to display
+						has "main plot completed"
+					goto "rm main plot completed"
+				`set "main plot completed"`
+					to display
+						not "main plot completed"
+					goto "set main plot completed"
+
+				`remove "hr: secret leaks"`
+					to display
+						has "hr: secret leaks"
+					goto "rm hr: secret leaks"
+				`set "hr: secret leaks"`
+					to display
+						not "hr: secret leaks"
+					goto "set hr: secret leaks"
+
+				`remove "event: hai-human resolution announced"`
+					to display
+						has "event: hai-human resolution announced"
+					goto "rm event: hai-human resolution announced"
+				`set "event: hai-human resolution announced"`
+					to display
+						not "event: hai-human resolution announced"
+					goto "set event: hai-human resolution announced"
+
+				`remove "avgi: warship intro"`
+					to display
+						has "avgi: warship intro"
+					goto "rm avgi: warship intro"
+				`set "avgi: warship intro"`
+					to display
+						not "avgi: warship intro"
+					goto "set avgi: warship intro"
+
+				`done`
+					goto "end"
+
+			label "rm event: war begins"
+			action
+				clear "event: war begins"
+			`removed "event: war begins"`
+				goto "start"
+			label "set event: war begins"
+			action
+				set "event: war begins"
+			`set "event: war begins"`
+				goto "start"
+
+			label "rm chosen sides"
+			action
+				clear "chosen sides"
+			`removed "chosen sides"`
+				goto "start"
+			label "set chosen sides"
+			action
+				set "chosen sides"
+			`set "chosen sides"`
+				goto "start"
+
+			label "rm main plot completed"
+			action
+				clear "main plot completed"
+			`removed "main plot completed"`
+				goto "start"
+			label "set main plot completed"
+			action
+				set "main plot completed"
+			`set "main plot completed"`
+				goto "start"
+
+			label "rm hr: secret leaks"
+			action
+				clear "hr: secret leaks"
+			`removed "hr: secret leaks"`
+				goto "start"
+			label "set hr: secret leaks"
+			action
+				set "hr: secret leaks"
+			`set "hr: secret leaks"`
+				goto "start"
+
+			label "rm event: hai-human resolution announced"
+			action
+				clear "event: hai-human resolution announced"
+			`removed "event: hai-human resolution announced"`
+				goto "start"
+			label "set event: hai-human resolution announced"
+			action
+				set "event: hai-human resolution announced"
+			`set "event: hai-human resolution announced"`
+				goto "start"
+
+			label "rm avgi: warship intro"
+			action
+				clear "avgi: warship intro"
+			`removed "avgi: warship intro"`
+				goto "start"
+			label "set avgi: warship intro"
+			action
+				set "avgi: warship intro"
+			`set "avgi: warship intro"`
+				goto "start"
+
+			label "end"
+			``
+		fail

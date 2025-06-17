@@ -1,3 +1,4 @@
+2025-06-18 | removed planet.pluto, original @ <href="https://github.com/LixiChronikouOriou/ES-plugins>https://github.com/LixiChronikouOriou/ES-plugins</a>
 2025-06-12 | update: mission.helper
 2025-06-10 | update: mission.helper
 2025-06-08 | update: combat.ai

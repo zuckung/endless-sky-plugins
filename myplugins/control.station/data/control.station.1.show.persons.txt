@@ -1,0 +1,105 @@
+# mission "info: Show Person Ship List"
+# substitutions
+
+
+
+mission "info: Show Person Ships List"
+	name "[1] info: Show Person Ship List"
+	color selected "control.station info job: selected"
+	color unselected "control.station info job: unselected"
+	job
+	repeat
+	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships."
+	source "Control Station"
+	on accept
+		conversation
+			`Person Ship List`
+			``
+			`Status	"Name" (Source | Shiptype/s)`
+			`<micho>	"Michael Zahniser" (found everywhere | Kestrel + Finch)`
+			`<capno>	"Cap'n Pester" (found everywhere | Quarg Wardragon)`
+			`<marao>	"Marauding Max" (found everywhere | Marauder Fury)`
+			`<capto>	"Captain Nate" (found everywhere | Vanguard)	`
+			`<trano>	"Tranquility" (found everywhere | Lampyrid)	`
+			`<poweo>	"Power of the People" (found everywhere | Modified Osprey)`
+			`<locao>	"Local God" (found everywhere | Ursa Polaris)`
+			`<subso>	"Subsidurial" (found in uninhabited | Subsidurial)`
+			`<proto>	"Prototype B3-CC4" (found in Ember Waste | Shooting Star)`
+			`<raiso>	"Rais Iris XVIII" (found everywhere | Marauder Bactrian)`
+			`<zitco>	"Zitchas" (found in Ember Waste | Heron + Peregrine + 4x Petrel + 32x Tern)`
+			`<brico>	"Brick" (found everywhere | 3x Modified Boxwing)`
+			`<gefuo>	"Gefullte Taubenbrust" (found everywhere | Modified Battleship)`
+			`<masto>	"MasterOfGrey" (found in Hai space | Modified Ladybug)`
+			`<patro>	"Patrol Team" (found everywhere | 6x Waverider)`
+			`<danao>	"Danau" (found in human space | 1x modified Hauler IV, 2x Hauler III, 2x Hauler II, 2x Hauler)`
+			``
+		fail
+
+
+substitutions
+	"<micho>" "alive"
+		"person destroyed: Michael Zahniser" == 0
+	"<capno>" "alive"
+		"person destroyed: Cap'n Pester" == 0
+	"<marao>" "alive"
+		"person destroyed: Marauding Max" == 0
+	"<capto>" "alive"
+		"person destroyed: Captain Nate" == 0
+	"<trano>" "alive"
+		"person destroyed: Tranquility" == 0
+	"<poweo>" "alive"
+		"person destroyed: Power of the People" == 0
+	"<locao>" "alive"
+		"person destroyed: Local God" == 0
+	"<subso>" "alive"
+		"person destroyed: Subsidurial" == 0
+	"<proto>" "alive"
+		"person destroyed: Prototype B3-CC4" == 0
+	"<raiso>" "alive"
+		"person destroyed: Rais Iris XVIII" == 0
+	"<zitco>" "alive"
+		"person destroyed: Zitchas" == 0
+	"<brico>" "alive"
+		"person destroyed: Brick" == 0
+	"<gefuo>" "alive"
+		"person destroyed: Gefullte Taubenbrust" == 0
+	"<masto>" "alive"
+		"person destroyed: MasterOfGrey" == 0
+	"<patro>" "alive"
+		"person destroyed: Patrol Team" == 0
+	"<danao>" "alive"
+		"person destroyed: Danau" == 0
+
+
+	"<micho>" "dead"
+		"person destroyed: Michael Zahniser" == 1
+	"<capno>" "dead"
+		"person destroyed: Cap'n Pester" == 1
+	"<marao>" "dead"
+		"person destroyed: Marauding Max" == 1
+	"<capto>" "dead"
+		"person destroyed: Captain Nate" == 1
+	"<trano>" "dead"
+		"person destroyed: Tranquility" == 1
+	"<poweo>" "dead"
+		"person destroyed: Power of the People" == 1
+	"<locao>" "dead"
+		"person destroyed: Local God" == 1
+	"<subso>" "dead"
+		"person destroyed: Subsidurial" == 1
+	"<proto>" "dead"
+		"person destroyed: Prototype B3-CC4" == 1
+	"<raiso>" "dead"
+		"person destroyed: Rais Iris XVIII" == 1
+	"<zitco>" "dead"
+		"person destroyed: Zitchas" == 1
+	"<brico>" "dead"
+		"person destroyed: Brick" == 1
+	"<gefuo>" "dead"
+		"person destroyed: Gefullte Taubenbrust" == 1
+	"<masto>" "dead"
+		"person destroyed: MasterOfGrey" == 1
+	"<patro>" "dead"
+		"person destroyed: Patrol Team" == 1
+	"<danao>" "dead"
+		"person destroyed: Danau" == 1

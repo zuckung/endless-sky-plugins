@@ -1,2 +1,0 @@
-name "planet.pluto"
-about "Adds Pluto and Charon to the Sol system, including a heartbreaking background story."

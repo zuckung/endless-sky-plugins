@@ -1,0 +1,42 @@
+mission "info: Show City Ship License Guide"
+	name "[1] info: City Ship License Guide"
+	color selected "control.station info job: selected"
+	color unselected "control.station info job: unselected"
+	job
+	repeat
+	description "Shows a guide for the City Ship License, which is needed to purchase a Bactrian."
+	source "Control Station"
+	on accept
+		conversation
+			`City Ship License for Bactrian`
+			``
+			`The "City Ship License" missions are only doable before joining the Free Worlds or after completing the Free Worlds campaign, NOT during!`
+			``
+			`do at least one of these 3 deep escort missions:`
+			`  mission "Deep: Syndicate Convoy" "Pickup from Hephaestus" (combat rating > 65, near "Gomeisa" 2)`
+			`  mission "Deep: Tarazed Convoy" "Pickup from Tarazed" (combat rating > 65, near "Gomeisa" 2)`
+			`  mission "Deep: Kraz Convoy" "Pickup from Kraz" (combat rating > 65, near "Gomeisa" 2)`
+			``
+			`do 3x "Mystery Cube Delivery" or "Mystery Cube Retrieval "`
+			``
+			`do the warlord Beelzebub missions:`
+			`  mission "Deep: Mystery Cubes 0" "Gaining an Edge" (3 mystery cube missions, combat rating 100, at least 1 escort)`
+			`  wait 21 days`
+			`  mission "Deep: Mystery Cubes 1" "Travel to Luna"`
+			`  mission "Deep: Mystery Cubes 2" "Blockading the Devil"`
+			`  mission "Deep: Mystery Cubes 3" "Defend Maelstrom"`
+			`  mission "Deep: Mystery Cubes 4" "Rendezvous on Farpoint"`
+			``
+			`do the project Hawking missions:`
+			`  mission "Deep: Project Hawking" "Research Supplies" (40%, the deep)`
+			`  wait 60 days`
+			``
+			`do the scientist rescue missions:`
+			`  mission "Deep: Scientist Rescue 0" "Locate Missing Scientists"`
+			`  mission "Deep: Scientist Rescue 1" "Secure the Scientists"`
+			`  mission "Deep: Scientist Rescue 2" "Return to Valhalla"`
+			``
+			`Reward is the City Ship License, which allows you to buy a Bactrian.`
+		fail
+
+

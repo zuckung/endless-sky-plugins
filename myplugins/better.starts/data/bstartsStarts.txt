@@ -431,72 +431,10 @@ conversation "z_explorer2"
 	`Heading north-east will bring you into unknown space. Let the journey begin!`
 
 
-start "z_cheater1"
-	name "Start: Cheater 1"
-	description `Ship: Heron + 10xKIV`
+start "z_cheater"
+	name "Start: Cheater"
+	description `Ship: Squiddy + 20xSquiddy Drone`
 	description `Start with:`
-	description ` Jump Drive`
-	description ` 1 billion credits`
-	description ` full visible human space`
-	thumbnail "scene/lobby"
-	date 16 11 3013
-	system "Sol"
-	planet "Earth"
-	conversation "z_cheater1"
-	account
-		credits 1000000000
-		score 800
-		mortgage Mortgage
-			principal 0
-			interest 0.008
-			term 365
-	set "license: Pilot's"
-	set "Intro [0]: offered"
-	set "Intro [0]: done"
-	set "Intro [1 Transport]: offered"
-	set "Intro [1 Transport]: done"
-	set "Intro [2 Transport]: offered"
-	set "Intro [2 Transport]: done"
-	set "Intro [3 Transport]: offered"
-	set "Intro [3 Transport]: done"
-	set "give map"
-	ship "Heron (Disabler)" "Heron (Customized)"
-		"name" "Voyager"
-	ship "Kar Ik Vot 349 (Disabler)" "KIV"
-		"name" "KIV 01"
-	ship "Kar Ik Vot 349 (Disabler)" "KIV"
-		"name" "KIV 02"
-	ship "Kar Ik Vot 349 (Disabler)" "KIV"
-		"name" "KIV 03"
-	ship "Kar Ik Vot 349 (Disabler)" "KIV"
-		"name" "KIV 04"
-	ship "Kar Ik Vot 349 (Disabler)" "KIV"
-		"name" "KIV 05"
-	ship "Kar Ik Vot 349 (Disabler)"	 "KIV"
-		"name" "KIV 06"
-	ship "Kar Ik Vot 349 (Disabler)"	 "KIV"
-		"name" "KIV 07"
-	ship "Kar Ik Vot 349 (Disabler)" "KIV"
-		"name" "KIV 08"
-	ship "Kar Ik Vot 349 (Disabler)" "KIV"
-		"name" "KIV 09"
-	ship "Kar Ik Vot 349 (Disabler)" "KIV"
-		"name" "KIV 10"
-
-
-conversation "z_cheater1"
-	scene "scene/lobby"
-	`	Enter your name: `
-	name
-	`Hello captain <first> <last>, please enjoy your easy start :)`
-	`For full visible human space map visit the local outfitter.`
-
-
-start "z_cheater2"
-	name "Start: Cheater 2"
-	description `Ship: Heron + 20xSkylark`
-	description `Start with:`
-	description ` Quarg outfits`
 	description ` Jump Drive`
 	description ` 10 billion credits`
 	description ` full visible human space`
@@ -504,7 +442,7 @@ start "z_cheater2"
 	date 16 11 3013
 	system "Sol"
 	planet "Earth"
-	conversation "z_cheater2"
+	conversation "z_cheater"
 	account
 		credits 10000000000
 		score 800
@@ -522,51 +460,51 @@ start "z_cheater2"
 	set "Intro [3 Transport]: offered"
 	set "Intro [3 Transport]: done"
 	set "give map"
-	ship "Heron (Quarg)" "Heron (Customized)"
+	ship "Squiddy" "Squiddy"
 		"name" "Voyager"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 01"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 02"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 03"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 04"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 05"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 06"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 07"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 08"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 09"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 10"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 11"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 12"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 13"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 14"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 15"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 16"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 17"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 18"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 19"
-	ship "Quarg Skylark (Explorer)" "Skylark"
-		"name" "Skylark 20"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 01"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 02"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 03"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 04"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 05"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 06"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 07"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 08"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 09"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 10"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 11"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 12"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 13"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 14"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 15"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 16"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 17"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 18"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 19"
+	ship "Squiddy Drone" "Squiddy Drone"
+		"name" "Squiddy Drone 20"
 
 
-conversation "z_cheater2"
+conversation "z_cheater"
 	scene "scene/lobby"
 	`	Enter your name: `
 	name

@@ -3,21 +3,29 @@
 <br>
 Adds a station to the Sol system that offers administrative functions started by the job board. See the readme for details.<br>
 <br>
-Current functions:<br>
-show reputation<br>
-show person ships<br>
-show all vanilla system<br>
-complete free worlds reconciliation campaign<br>
-complete free worlds checkmate campaign<br>
-complete free worlds both campaigns<br>
-complete hai reveal 0 prolog<br>
-complete remnant campaign<br>
 <br>
-Completing the campaigns might not exactly have the same result as if the campaign was played. There is a massive amount of events, that might suppress other events, when done on the same day. It looks good now, but not sure if that's really the case.<br>
-So lets call this plugin EXPERIMENTAL for now.<br>
+I am working on adding configuration and information for some of my plugins into this station.<br>
+<br>
+Current functions:<br>
+info: Show Person Ship List (where you can find them and if they are alive or dead)<br>
+info: City Ship License Guide<br>
+info: Ship Capture Progression Guide<br>
+QoL: Change Pilot Name (during a pilot's play, keep everything)<br>
+QoL: Planet Attribute Visibility (expand planet's descriptions with the hidden attributes)<br>
+QoL: Change Conditions (currently just a few popular ones)
+Cheat: Reveal Whole Galaxy Map<br>
+Cheat: set missions done: Free Worlds (choose between reconciliation, checkmate, or both)<br>
+Cheat: set missions done: Hai Reveal (0 prolog)<br>
+Cheat: set missions done: Remnant<br>
+<br>
+Completing the campaigns might not exactly have the same result as if the campaign was played. There is a massive amount of events, that might suppress other events, when done on the same day. It looks good now, but not sure if that's really the case. So lets call this function EXPERIMENTAL for now.<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-06-18<br>
+added city ship guide, capture progression guide, change pilot name, planet attributes, condition changer<br>
+polished the plugin<br>
 <br>
 2025-06-05<br>
 colored jobs<br>
