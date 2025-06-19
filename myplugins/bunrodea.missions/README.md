@@ -8,13 +8,20 @@ Unlocking the planets is based on reputation, so you get access step by step. Un
 Some missions from landing/spaceport unlock jobs. Others just give reputation or unlock story progression. Each job gives 5 to 40 reputation.<br>
 Averagely you have to do like 50 jobs, less if you take the fighting jobs. Like in vanilla play, hit spaceport often.<br>
 <br>
-Since it's often questioned, here is a guide to the bunrodea first contact mission. Travel through Bunrodea territory till you've killed at least one Bunrodea ship, then fly to a human system, land there and you get a mission that mission brings you back to the Bunrodea. You can land on 4 planets now, and at this point this plugin starts.<br>
+Since it's often questioned, here is a guide to the bunrodea first contact mission: Travel through Bunrodea territory till you've killed at least one Bunrodea ship, then fly to a human system (Misam works), land there and you get a mission, that brings you back to the Bunrodea. You can land on 4 planets now, and at this point this plugin starts.<br>
+<br>
+If the plugin control.station is installed, it gives additional information about the missions and shows this README.<br>
 <br>
 <br>
 Changelog:<br>
 <br>
+2025-06-19<br>
+added control.station support<br>
+adjusted some mission offering chances<br>
+added target personality to korath npc fleets<br>
+<br>
 2025-05-19<br>
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 <br>
 2025-04-13<br>
 added series for the 2 uniques<br>

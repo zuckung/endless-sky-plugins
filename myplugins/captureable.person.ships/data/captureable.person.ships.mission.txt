@@ -1,8 +1,9 @@
 # 16 substitutions for alive
 # 16 substitutions for dead
-# mission show person status
-# mission kill em all reward
-# outfit author slaughtering trophy
+# color
+# mission "Show Person Ship List"
+# mission "kill em all reward"
+# outfit "Author Slaughtering Trophy"
 # government "Author"
 
 
@@ -74,18 +75,20 @@ substitutions
 		"person destroyed: Danau (C)" == 1
 
 
-color "capturable.person.ships job: selected" .1 .8 .1 0.
-color "capturable.person.ships job: unselected" .1 .5 .2 0.
+color "capturable.person.ships job: selected" 0. .7 1. 0.
+color "capturable.person.ships job: unselected" .3 .5 .8 0.
 
 
-mission "show person status"
-	job
+mission "Show Person Ship List"
+	name "(Show Person Ship List)"
 	color selected "capturable.person.ships job: selected"
 	color unselected "capturable.person.ships job: unselected"
+	job
 	repeat
-	name "(Show Person Ship List)"
 	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships."
-	source Earth
+	source "Earth"
+	to offer
+		not "installed plugin: control.station"
 	on accept
 		conversation
 			`Person Ship List`
@@ -109,7 +112,7 @@ mission "show person status"
 			`<dana>	"Danau" (found in human space | 1x modified Hauler IV, 2x Hauler III, 2x Hauler II, 2x Hauler)`
 			``
 			`captureable.person.ships disables the old person ships, and creates nearly identical new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(C)" behind their names. So persons ships killed prior installing this plugin got re-added. The maximum spawn time, for a person ship in the system you are in, is 10 minutes.`
-	on daily
+			``
 		fail
 
 

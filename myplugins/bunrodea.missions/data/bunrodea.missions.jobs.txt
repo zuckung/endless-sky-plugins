@@ -37,7 +37,7 @@ mission "bunrodea defense job 1"
 		random < 75
 	npc kill
 		government "Korath"
-		personality heroic nemesis staying
+		personality heroic nemesis staying target
 		system "Genta Bo"
 		fleet
 			names "korath"
@@ -71,7 +71,7 @@ mission "bunrodea defense job 2"
 		random < 50
 	npc kill
 		government "Korath"
-		personality heroic nemesis staying
+		personality heroic nemesis staying target
 		system "Era Natta"
 		fleet
 			names "korath"
@@ -109,7 +109,7 @@ mission "bunrodea defense job 3"
 		random < 25
 	npc kill
 		government "Korath"
-		personality heroic nemesis staying
+		personality heroic nemesis staying target
 		system "Eneva Katta"
 		fleet
 			names "korath"

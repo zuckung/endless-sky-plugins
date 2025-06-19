@@ -4,14 +4,14 @@
 Makes person ships captureable.<br> 
 <br>
 <br>
-Well, technically this plugin disables the person ships, and creates new ones which are captureable (with changed names to "<name> (disable me)", due to limitations of changing parts of the originals). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesn't flee. And changed "Zitchas" personality to "decloaked", so it doesn't flee and regenerate while cloaked.<br>
-Attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average within 10 minutes.<br>
+Well, technically this plugin disables the person ships, and creates new ones which are captureable (with changed names to "<name> (C)", due to limitations of changing parts of the originals). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesn't flee. And changed "Zitchas" personality to "decloaked", so it doesn't flee and regenerate while cloaked.<br>
+Attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average 10 minutes.<br>
 <br>
-At Earth's job board you can find a repeatable job that displays which persons you have already killed, which are alive, and where to find them.<br>
+At Earth's job board you can find a repeatable job that displays which persons you have already killed, which are alive, and where to find them. If the plugin control.station is installed hou can find the list there, along with this readme.<br>
 After you've killed them all, you receive a small unique gift.<br>
 <br>
 I tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and I tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
-In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in max a minute.<br>
+In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in around half a minute.<br>
 <ul>
 <li>"vyu-Ir" (not a person ship, but unique | found south-western of Gegno)</li>
 <li>"Michael Zahniser" (found everywhere | Kestrel + Finch)</li>
@@ -34,6 +34,9 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-06-19<br>
+added control.station support<br>
 <br>
 2025-06-05<br>
 colored the job<br>

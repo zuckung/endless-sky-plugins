@@ -1,3 +1,9 @@
+# ship "vyu-Ir" "vyu-Ir(c)"
+# disable mission
+# mission "rework Relic of Pasts"
+
+
+
 ship "vyu-Ir" "vyu-Ir(c)"
 	noun "entity"
 	sprite "ship/vyuir/vyuir"

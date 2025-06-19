@@ -243,7 +243,7 @@ mission "bunrodea defense"
 					defer
 	npc kill
 		government "Korath"
-		personality heroic nemesis staying
+		personality heroic nemesis staying target
 		system "Genta Bo"
 		fleet
 			names "korath"
@@ -291,7 +291,7 @@ mission "bunrodea defense 2"
 				accept
 	npc kill
 		government "Korath"
-		personality heroic nemesis staying
+		personality heroic nemesis staying target
 		system "Era Natta"
 		fleet
 			names "korath"
@@ -346,7 +346,7 @@ mission "bunrodea defense 3"
 				accept
 	npc kill
 		government "Korath"
-		personality heroic nemesis staying
+		personality heroic nemesis staying target
 		system "Eneva Katta"
 		fleet
 			names "korath"
@@ -551,7 +551,7 @@ mission "bunrodea side supernova"
 	passengers 7
 	blocked "You don't have enough passenger/cargo space for this mission."
 	to offer
-		random > 49
+		random > 69
 	on offer
 		conversation
 			`As you study the job board, a group Bunrodeans approaches. The leader speaks to you: "Greetings. It's actually a remarkable experience to meet a real human being. Your body is so different. Sorry, I'm Ren and this is my research team, we're looking for transport to a supernova remnant just outside the Empire. It's quite difficult to convince captains to leave the safe space, but I don't think you have any problems with that?"`
@@ -590,7 +590,7 @@ mission "bunrodea side archeology 1"
 	passengers 12
 	blocked "You don't have enough passenger/cargo space for this mission."
 	to offer
-		random > 49
+		random > 69
 	on offer
 		conversation
 			`Before you leave your ship to look for new contracts, your holovid reports a call. An older Bunrodean appears on the screen.`
@@ -669,7 +669,7 @@ mission "bunrodea side volcano"
 	blocked "You don't have enough passenger space for this mission."
 	deadline
 	to offer
-		random > 49
+		random > 69
 	on offer
 		conversation
 			scene "scene/bun_volcano"
@@ -701,7 +701,7 @@ mission "bunrodea side genetic"
 	passengers 1
 	blocked "You don't have enough passenger space for this mission."
 	to offer
-		random > 49
+		random > 69
 	on offer
 		conversation
 			`As you study the job board, a female Bunrodean approaches you. She would like to book a passage to <destination> with you. As usual, you ask for more details just to avoid problems. She is a genetics researcher on the way to <planet> to bring her research to mass production. The payment is <payment>.`
@@ -732,7 +732,7 @@ mission "bunrodea side army"
 	clearance "After sending your transport contract details, you receive landing clearance."
 	blocked "You don't have enough passenger space for this mission."
 	to offer
-		random > 49
+		random > 69
 	on offer
 		conversation
 			`While looking for new contracts, you are approached by an older Bunrodean, accompanied by a younger one. "Hello captain, I'm looking for passage to <destination> for my son. He will attend the military academy there. I could give you <payment> for the passage. Are you interested?"`
@@ -763,7 +763,7 @@ mission "bunrodea side cybernetic"
 	passengers 1
 	blocked "You don't have enough passenger space for this mission."
 	to offer
-		random > 49
+		random > 69
 	on offer
 		conversation
 			`An older Bunrodean woman speaks to you. "You're not a spaceship captain by any chance? I need passage to <destination>. I would pay <payment>."`
