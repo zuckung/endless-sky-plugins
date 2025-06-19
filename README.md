@@ -17,8 +17,9 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
-2025-06-17 | update: control.station<br>
-2025-06-17 | update: better.starts<br>
+2025-06-19 | update: captureable.person.ships<br>
+2025-06-18 | update: control.station<br>
+2025-06-18 | update: better.starts<br>
 2025-06-18 | removed planet.pluto, original @ <href="https://github.com/LixiChronikouOriou/ES-plugins>https://github.com/LixiChronikouOriou/ES-plugins</a><br>
 2025-06-12 | update: mission.helper<br>
 2025-06-10 | update: mission.helper<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-07 | update: combat.ai<br>
 2025-06-07 | update: galactic.capital.investment<br>
 2025-06-07 | update: free.worlds.5.years.later<br>
-2025-06-06 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -699,7 +699,11 @@ Averagely you have to do like 50 jobs, less if you take the fighting jobs. Like 
 
 <br>
 
-Since it's often questioned, here is a guide to the bunrodea first contact mission. Travel through Bunrodea territory till you've killed at least one Bunrodea ship, then fly to a human system, land there and you get a mission that mission brings you back to the Bunrodea. You can land on 4 planets now, and at this point this plugin starts.<br>
+Since it's often questioned, here is a guide to the bunrodea first contact mission: Travel through Bunrodea territory till you've killed at least one Bunrodea ship, then fly to a human system (Misam works), land there and you get a mission, that brings you back to the Bunrodea. You can land on 4 planets now, and at this point this plugin starts.<br>
+
+<br>
+
+If the plugin control.station is installed, it gives additional information about the missions and shows this README.<br>
 
 <br>
 
@@ -709,9 +713,19 @@ Changelog:<br>
 
 <br>
 
+2025-06-19<br>
+
+added control.station support<br>
+
+adjusted some mission offering chances<br>
+
+added target personality to korath npc fleets<br>
+
+<br>
+
 2025-05-19<br>
 
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 
 <br>
 
@@ -911,7 +925,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/captureable.person.ships.png">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.8-captureable.person.ships/captureable.person.ships.zip) | 195.56 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <a href="res/imagemd/captureable.person.ships.md">view images</a> [4]<br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.9-captureable.person.ships/captureable.person.ships.zip) | 197.48 kb | 2025-06-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) <a href="res/imagemd/captureable.person.ships.md">view images</a> [4]<br>
 <br>
 >Makes person ships capturable. See the README for details.
 
@@ -929,13 +943,13 @@ Makes person ships captureable.<br>
 
 <br>
 
-Well, technically this plugin disables the person ships, and creates new ones which are captureable (with changed names to "<name> (disable me)", due to limitations of changing parts of the originals). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesn't flee. And changed "Zitchas" personality to "decloaked", so it doesn't flee and regenerate while cloaked.<br>
+Well, technically this plugin disables the person ships, and creates new ones which are captureable (with changed names to "<name> (C)", due to limitations of changing parts of the originals). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesn't flee. And changed "Zitchas" personality to "decloaked", so it doesn't flee and regenerate while cloaked.<br>
 
-Attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average within 10 minutes.<br>
+Attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average 10 minutes.<br>
 
 <br>
 
-At Earth's job board you can find a repeatable job that displays which persons you have already killed, which are alive, and where to find them.<br>
+At Earth's job board you can find a repeatable job that displays which persons you have already killed, which are alive, and where to find them. If the plugin control.station is installed hou can find the list there, along with this readme.<br>
 
 After you've killed them all, you receive a small unique gift.<br>
 
@@ -943,7 +957,7 @@ After you've killed them all, you receive a small unique gift.<br>
 
 I tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and I tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
 
-In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in max a minute.<br>
+In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in around half a minute.<br>
 
 <ul>
 
@@ -988,6 +1002,12 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-19<br>
+
+added control.station support<br>
 
 <br>
 
