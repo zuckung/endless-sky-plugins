@@ -81,9 +81,9 @@ mission "plugin: bunrodea.missions"
 			``
 			choice
 				`	show plugin README`
-					goto readme
-				`	show unfinished missions`
-					goto "show mission status"
+					goto "readme"
+				`	show show mission status`
+					goto "show missions"
 				`	done`
 					goto "end"
 			label "show missions"
