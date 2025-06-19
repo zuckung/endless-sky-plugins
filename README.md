@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-19 | update: bunrodea.missions<br>
 2025-06-19 | update: captureable.person.ships<br>
 2025-06-18 | update: control.station<br>
 2025-06-18 | update: better.starts<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-08 | update: combat.ai<br>
 2025-06-07 | update: combat.ai<br>
 2025-06-07 | update: galactic.capital.investment<br>
-2025-06-07 | update: free.worlds.5.years.later<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -673,7 +673,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/bunrodea.missions.png">
 
-[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-bunrodea.missions/bunrodea.missions.zip) | 2.95 mb | 2025-04-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <a href="res/imagemd/bunrodea.missions.md">view images</a> [46]<br>
+[bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-bunrodea.missions/bunrodea.missions.zip) | 2.95 mb | 2025-06-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) <a href="res/imagemd/bunrodea.missions.md">view images</a> [46]<br>
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the README for details.
 
