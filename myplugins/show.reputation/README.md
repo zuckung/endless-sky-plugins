@@ -1,12 +1,15 @@
 ### show.reputation
 <br>
 <br>
-Enables a job on every planet's job board, that shows the reputation values.<br>
+Enables a job on the Earth job board, that shows the reputation values.<br>
 <br>
-Accept the job and the reputations conversation pops up. Then you can choose between viewing the 35 most useful or all.<br>
+Accept the job and the reputations conversation pops up. Then you can choose between viewing the 35 most useful or all. If the plugin control.station is installed, the job changes from Earth to that station.<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-06-21<br>
+added control.station support<br>
 <br>
 2025-06-05<br>
 colored the job<br>

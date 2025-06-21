@@ -4,7 +4,7 @@
 Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques.<br>
 <br>
 <br>
-Uniques are great! Why aren't more ingame?<br>
+Uniques are great! Why aren't more ingame? If the plugin control.station is installed, that station offers a job to see the status of obtaining the uniques.<br>
 This plugin contains my former plugins unique.fix (just some vanilla unique adjustments), real.fluff (10 unique pets) and lots of new uniques with storylines.<br>
 <br>
 <ul>
@@ -45,15 +45,18 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 <li> new unique: "Toolbox" (Clark, 3% chance)</li>
 <li> new unique: "Korath Pillow" (Laki Nemparu, 3% chance)</li>
 <li> new unique: "Gegno Starmap" (Wye Tzeou, 10% chance)</li>
-<li> new unique: "Nav Buoys" (human outfitter, after discovering shrouded systems, 10% chance)</li>
+<li> new unique: "Nav Buoys" (human outfitter, after discovering shrouded systems, 20% chance)</li>
 <li> new unique: "Derelict Scanner" (Oblivion, 100k credits, 10% chance)</li>
 </ul>
 <br>
 <br>
 Changelog:<br>
 <br>
+2025-06-21<br>
+added control.station support<br>
+<br>
 2025-05-19<br>
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 <br>
 2025-04-16<br>
 change vanilla Trefoil Board, unique category<br>

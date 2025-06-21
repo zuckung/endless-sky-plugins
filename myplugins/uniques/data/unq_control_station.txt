@@ -1,0 +1,162 @@
+# mission "plugin: uniques"
+
+
+
+mission "plugin: uniques"
+	name "[4] plugin: uniques"
+	color selected "control.station plugin job: selected"
+	color unselected "control.station plugin job: unselected"
+	job
+	repeat
+	description "Shows options and info for the plugin: uniques."
+	source "Control Station"
+	to offer
+		has "installed plugin: control.station"
+	on accept
+		conversation
+			`Plugin: uniques`
+			choice
+				`	show unfinished missions`
+					goto "show missions"
+				`	done`
+					goto "end"
+			label "show missions"
+			`unfinished uniques missions:`
+			``
+			`Human Cultural Archives (do vanilla mission "Human Cultural Archives" or "Remnant: Salvage 1")`
+				to display
+					not "human cultural data"
+			`The Skadenga book (do vanilla skadenga missions)`
+				to display
+					not "bought skadenga book"
+			``
+			`Pet: Cat "Cleo" (Deadman's Cove, 20% chance)`
+				to display
+					not "cat mission 1: declined"
+			`Pet: Ferret "Gummi Bear" (Bivrost, 20% chance)`
+				to display
+					not "ferret mission 2: declined"
+			`Pet: Hamster "Peanut" (Twinstar, 20% chance)`
+				to display
+					not "hamster mission 1: declined"
+			`Pet: Koala "Archie" (New Portland, 20% chance)`
+				to display
+					not "koala mission 1: done"
+			`Pet: Ocelot "Babou" (Farpoint, 20% chance, needs 1000 combat rating)`
+				to display
+					not "ocelot mission 1: done"
+			`Pet: Rabbit "Thumper" (Starcross, 20% chance)`
+				to display
+					not "rabbit mission 2: declined"
+			`Pet: Raccoon "Bandit" (Foundry, 20% chance)`
+				to display
+					not "raccoon mission 1: done"
+			`Pet: Squirrel "Trixie" (Heartvalley, 20% chance)`
+				to display
+					not "squirrel mission 4: done"
+			`Pet: alien "Snuggles" (land somewhere in human space, hidden destination is Danoa system (based on the Alien movies))`
+				to display
+					not "alien mission 1: failed"
+			`Pet: alien "Exotic" (land somewhere in human space, hidden destination is Unagi system (based on the Dark Star movie))`
+				to display
+					not "exotic mission 1: failed"
+			``
+			`Unique: "Glass Cat" (after collecting all pets, human space)`
+				to display
+					not "beta: declined"
+			`Unique: "Bawdy Magazines" (during "The Exotic" pet mission)`
+				to display
+					not "exotic mission 1: failed"
+			`unique: "Alien Handgun" (Alix, 10% chance)`
+				to display
+					not "unq_crashed_alien_ship: declined"
+			`unique: "Old Whisky Bottles" (Socket, 10% chance)`
+				to display
+					not "unq_pirate_base: declined"
+			`unique: "Piloting For Dummies" (Paradise worlds, 3% chance)`
+				to display
+					not "unq_book store: declined"
+			`unique: "Spaceship Figurine" (Sunracer, 3% chance)`
+				to display
+					not "unq_shipyard: declined"
+			`unique: "Quantum Ring" (Charon Station, 3% chance)`
+				to display
+					not "unq_quantum_ring: declined"
+			`unique: "Scanning Computer" (Overseer, 10% chance, gaslining needed)`
+				to display
+					not "unq_alien_probe: declined"
+			`unique: "Hai Survival Rations" (Hai space, 3% chance)`
+				to display
+					not "unq_survival_rations: declined"
+			`unique: "Toby the Teddy Bear" (Featherweight, 3% chance)`
+				to display
+					not "unq crashed shuttle: declined"
+			`unique: "Toolbox" (Clark, 3% chance)`
+				to display
+					not "unq toolbox: declined"
+			`unique: "Korath Pillow" (Laki Nemparu, 3% chance)`
+				to display
+					not "unq_korathpillow: done"
+			`unique: "Gegno Starmap" (Wye Tzeou, 10% chance)`
+				to display
+					not "unq_crashedgegno: declined"
+			`unique: "Nav Buoys" (human outfitter, after discovering shrouded systems, 20% chance)`
+				to display
+					not "unq_get_nav_buoys: declined"
+			``
+			`unique: "Derelict Scanner" (Oblivion, outfitter, 100k credits, 10% chance)`
+				to display
+					not "buy advanced sanner: declined"
+			`Mission derelict in Sospi (with derelict scanner)`
+				to display
+					not "derelict sospi swap: declined"
+			`Mission derelict in Sadr (with derelict scanner)`
+				to display
+					not "derelict sadr swap: declined"
+			`Mission derelict in Orbona (with derelict scanner)`
+				to display
+					not "derelict orbona swap: declined"
+			``
+			`unique: "Bioluminescent Plant" (Aesila, 10% chance)`
+				to display
+					not "unq_aesilas_plant: declined"
+			`unique: "Bioluminiscent Offspring" (bioluminescent plant followup, after some time, in human space)`
+				to display
+					not "unq_bioluminescent_offspring_science02: done"	
+			``
+			`unique: "External Holo Emitter" (Luna, 6% chance)`
+				to display
+					not "unq_install_holo: declined"
+			`Mission Holo advert (Wayfarer, holo emitter installed needed)`
+				to display
+					not "unq_holo_southbound: declined"
+			`Mission Holo advert (Valhalla, holo emitter installed needed)`
+				to display
+					not "unq_holo_lionheart: declined"
+			`Mission Holo advert (Sunracer, holo emitter installed needed)`
+				to display
+					not "unq_holo_megaparsec: declined"
+			`Mission Holo advert (Foundry, holo emitter installed needed)`
+				to display
+					not "unq_holo_syndicate: declined"
+			`Mission Holo advert (Rusr, holo emitter installed needed)`
+				to display
+					not "unq_holo_kraz: declined"
+			`Mission Holo advert (Asgard, holo emitter installed needed)`
+				to display
+					not "unq_holo_deepsky: declined"
+			`Mission Holo advert (Ada, holo emitter installed needed)`
+				to display
+					not "unq_holo_lovelace: declined"
+			`Mission Holo advert (Solace, holo emitter installed needed)`
+				to display
+					not "unq_holo_deltav: declined"
+			`Mission Holo advert (Earth, holo emitter installed needed)`
+				to display
+					not "unq_holo_gci: declined"
+			`Mission Holo advert (Snowfeather, after hai reveal 0, holo emitter installed needed)`
+				to display
+					not "unq_holo_sr: declined"
+			label "end"
+			``
+		fail

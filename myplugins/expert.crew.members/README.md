@@ -13,8 +13,12 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 Changelog:<br>
 <br>
+2025-06-21<br>
+added control.station support<br>
+changed offering to > 98, because of game changes to offering<br>
+<br>
 2025-05-19<br>
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 <br>
 2025-04-14<br>
 added more of stat3<br>

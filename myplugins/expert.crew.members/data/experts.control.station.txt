@@ -1,0 +1,674 @@
+# mission "plugin: expert.crew.members"
+# event "add gegno outfitter"
+# event "remove gegno outfitter"
+
+
+mission "plugin: expert.crew.members"
+	name "[4] plugin: expert.crew.members"
+	color selected "control.station plugin job: selected"
+	color unselected "control.station plugin job: unselected"
+	job
+	repeat
+	description "Shows options and info for the plugin: expert.crew.members."
+	source "Control Station"
+	to offer
+		has "installed plugin: control.station"
+	on accept
+		conversation
+			label "prestart"
+			``
+			label "start"
+			`Plugin: expert.crew.members`
+			`You have found &[hiredexperts] of 100 experts!`
+			choice
+				`	show missing experts`
+					goto "show missing"
+				`	enable a Gegno outfitter (at the end of that storyline)`
+					to display
+						not "event: add gegno outfitter"
+					goto "set gegno outfitter"
+					
+				`	done`
+					goto "end"
+			label "show missing"
+			`You have found &[hiredexperts] of 100 experts!`
+			`missing experts (found with 1% chance change on planets with an outfitter):`
+			``
+
+			`Rim`
+				to display
+					or
+						not "hire combat isaac wirth: declined"
+						not "hire cooling caspar laurentinus: declined"
+						not "hire energy deirdre ciaran: declined"
+						not "hire shield taisto nithin: declined"
+						not "hire storage eduardo wapasha: declined"
+			`Isaac Wirth | Combat`
+				to display
+					not "hire combat isaac wirth: declined"
+			`Caspar Laurentinus | Cooling`
+				to display
+					not "hire cooling caspar laurentinus: declined"
+			`Deirdre Ciaran | Energy`
+				to display
+					not "hire energy deirdre ciaran: declined"
+			`Taisto Nithin | Shield`
+				to display
+					not "hire shield taisto nithin: declined"
+			`Eduardo Wapasha | Storage`
+				to display
+					not "hire storage eduardo wapasha: declined"
+			``
+				to display
+					or
+						not "hire combat isaac wirth: declined"
+						not "hire cooling caspar laurentinus: declined"
+						not "hire energy deirdre ciaran: declined"
+						not "hire shield taisto nithin: declined"
+						not "hire storage eduardo wapasha: declined"
+			`South`
+				to display
+					or
+						not "hire combat jessy tuta: declined"
+						not "hire cooling atreus bodilsen: declined"
+						not "hire energy lisa zola: declined"
+						not "hire engine neal fransson: declined"
+						not "hire hull sabina draga: declined"
+			`Jessy Tuta | Combat`
+				to display
+					not "hire combat jessy tuta: declined"
+			`Atreus Bodilsen | Cooling`
+				to display
+					not "hire cooling atreus bodilsen: declined"
+			`Lisa Zola | Energy`
+				to display
+					not "hire energy lisa zola: declined"
+			`Neal Fransson | Engine`
+				to display
+					not "hire engine neal fransson: declined"
+			`Sabina Draga | Hull`
+				to display
+					not "hire hull sabina draga: declined"
+			``
+				to display
+					or
+						not "hire combat jessy tuta: declined"
+						not "hire cooling atreus bodilsen: declined"
+						not "hire energy lisa zola: declined"
+						not "hire engine neal fransson: declined"
+						not "hire hull sabina draga: declined"
+			`Dirtbelt`
+				to display
+					or
+						not "hire combat kianoush royston: declined"
+						not "hire cooling itoro signe: declined"
+						not "hire fuel kfir balam: declined"
+						not "hire jamming dominik bullock: declined"
+						not "hire storage mani godefrid: declined"
+			`Kianoush Royston | Combat`
+				to display
+					not "hire combat kianoush royston: declined"
+			`Itoro Signe | Cooling`
+				to display
+					not "hire cooling itoro signe: declined"
+			`Kfir Balam | Fuel`
+				to display
+					not "hire fuel kfir balam: declined"
+			`Dominik Bullock | Jamming`
+				to display
+					not "hire jamming dominik bullock: declined"
+			`Mani Godefrid | Storage`
+				to display
+					not "hire storage mani godefrid: declined"
+			``
+				to display
+					or
+						not "hire combat kianoush royston: declined"
+						not "hire cooling itoro signe: declined"
+						not "hire fuel kfir balam: declined"
+						not "hire jamming dominik bullock: declined"
+						not "hire storage mani godefrid: declined"
+			`Deep`
+				to display
+					or
+						not "hire combat rodrigo bain: declined"
+						not "hire cooling beckah feidhelm: declined"
+						not "hire energy simona branka: declined"
+						not "hire engine chetana jaleh: declined"
+						not "hire storage darius hasegawa: declined"
+			`Rodrigo Bain | Combat`
+				to display
+					not "hire combat rodrigo bain: declined"
+			`Beckah Feidhelm | Cooling`
+				to display
+					not "hire cooling beckah feidhelm: declined"
+			`Simona Branka | Energy`
+				to display
+					not "hire energy simona branka: declined"
+			`Chetana Jaleh | Engine`
+				to display
+					not "hire engine chetana jaleh: declined"
+			`Darius Hasegawa | Storage`
+				to display
+					not "hire storage darius hasegawa: declined"
+			``
+				to display
+					or
+						not "hire combat rodrigo bain: declined"
+						not "hire cooling beckah feidhelm: declined"
+						not "hire energy simona branka: declined"
+						not "hire engine chetana jaleh: declined"
+						not "hire storage darius hasegawa: declined"
+			`Near Earth`
+				to display
+					or
+						not "hire energy normand kiran: declined"
+						not "hire engine valeriya jannick: declined"
+						not "hire fuel kostis joona: declined"
+						not "hire scanner saffira ivka: declined"
+						not "hire shield monika raganhildis: declined"
+			`Normand Kiran | Energy`
+				to display
+					not "hire energy normand kiran: declined"
+			`Valeriya Jannick | Engine`
+				to display
+					not "hire engine valeriya jannick: declined"
+			`Kostis Joona | Fuel`
+				to display
+					not "hire fuel kostis joona: declined"
+			`Saffira Ivka | Scanner`
+				to display
+					not "hire scanner saffira ivka: declined"
+			`Monika Raganhildis | Shield`
+				to display
+					not "hire shield monika raganhildis: declined"
+			``
+				to display
+					or
+						not "hire energy normand kiran: declined"
+						not "hire engine valeriya jannick: declined"
+						not "hire fuel kostis joona: declined"
+						not "hire scanner saffira ivka: declined"
+						not "hire shield monika raganhildis: declined"
+			`Core`
+				to display
+					or
+						not "hire engine anahit bodil: declined"
+						not "hire fuel carl ahmad: declined"
+						not "hire hull anuradha talin: declined"
+						not "hire jamming raban fields: declined"
+						not "hire scanner mikmel wanjala: declined"
+			`Anahit Bodil | Engine`
+				to display
+					not "hire engine anahit bodil: declined"
+			`Carl Ahmad | Fuel`
+				to display
+					not "hire fuel carl ahmad: declined"
+			`Anuradha Talin | Hull`
+				to display
+					not "hire hull anuradha talin: declined"
+			`Raban Fields | Jamming`
+				to display
+					not "hire jamming raban fields: declined"
+			`Mikmel Wanjala | Scanner`
+				to display
+					not "hire scanner mikmel wanjala: declined"
+			``
+				to display
+					or
+						not "hire engine anahit bodil: declined"
+						not "hire fuel carl ahmad: declined"
+						not "hire hull anuradha talin: declined"
+						not "hire jamming raban fields: declined"
+						not "hire scanner mikmel wanjala: declined"
+			`Paradise`
+				to display
+					or
+						not "hire hull julia grainne: declined"
+						not "hire jamming aline mai: declined"
+						not "hire scanner ivanus kozlov: declined"
+						not "hire shield lucille meritites: declined"
+						not "hire storage marie zohreh: declined"
+			`Julia Grainne | Hull`
+				to display
+					not "hire hull julia grainne: declined"
+			`Aline Mai | Jamming`
+				to display
+					not "hire jamming aline mai: declined"
+			`Ivanus Kozlov | Scanner`
+				to display
+					not "hire scanner ivanus kozlov: declined"
+			`Lucille Meritites | Shield`
+				to display
+					not "hire shield lucille meritites: declined"
+			`Marie Zohreh | Storage`
+				to display
+					not "hire storage marie zohreh: declined"
+			``
+				to display
+					or
+						not "hire hull julia grainne: declined"
+						not "hire jamming aline mai: declined"
+						not "hire scanner ivanus kozlov: declined"
+						not "hire shield lucille meritites: declined"
+						not "hire storage marie zohreh: declined"
+			`North`
+				to display
+					or
+						not "hire fuel nina sotiroula: declined"
+						not "hire hull silvius hildegard: declined"
+						not "hire jamming enver diefenbach: declined"
+						not "hire shield sonja halimah: declined"
+						not "hire scanner tichaona yong: declined"
+			`Nina Sotiroula | Fuel`
+				to display
+					not "hire fuel nina sotiroula: declined"
+			`Silvius Hildegard | Hull`
+				to display
+					not "hire hull silvius hildegard: declined"
+			`Enver Diefenbach | Jamming`
+				to display
+					not "hire jamming enver diefenbach: declined"
+			`Sonja Halimah | Shield`
+				to display
+					not "hire shield sonja halimah: declined"
+			`Tichaona Yong | Scanner`
+				to display
+					not "hire scanner tichaona yong: declined"
+			``
+				to display
+					or
+						not "hire fuel nina sotiroula: declined"
+						not "hire hull silvius hildegard: declined"
+						not "hire jamming enver diefenbach: declined"
+						not "hire shield sonja halimah: declined"
+						not "hire scanner tichaona yong: declined"
+			`Hai`
+				to display
+					or
+						not "hire combat ainem wahpip: declined"
+						not "hire cooling lohmahow monuden: declined"
+						not "hire fuel sookot dulur: declined"
+						not "hire scanner rashi vaitle: declined"
+						not "hire storage touna farchi: declined"
+			`Ainem Wahpip | Combat`
+				to display
+					not "hire combat ainem wahpip: declined"
+			`Lohmahow Monuden | Cooling`
+				to display
+					not "hire cooling lohmahow monuden: declined"
+			`Sookot Dulur | Fuel`
+				to display
+					not "hire fuel sookot dulur: declined"
+			`Rashi Vaitle | Scanner`
+				to display
+					not "hire scanner rashi vaitle: declined"
+			`Touna Farchi | Storage`
+				to display
+					not "hire storage touna farchi: declined"
+			``
+				to display
+					or
+						not "hire combat ainem wahpip: declined"
+						not "hire cooling lohmahow monuden: declined"
+						not "hire fuel sookot dulur: declined"
+						not "hire scanner rashi vaitle: declined"
+						not "hire storage touna farchi: declined"
+			`Remnant`
+				to display
+					or
+						not "hire energy raindrop: declined"
+						not "hire engine midnight: declined"
+						not "hire fuel ozon: declined"
+						not "hire jamming snowfall: declined"
+						not "hire storage swift: declined"
+			`Raindrop | Energy`
+				to display
+					not "hire energy raindrop: declined"
+			`Midnight | Engine`
+				to display
+					not "hire engine midnight: declined"
+			`Ozon | Fuel`
+				to display
+					not "hire fuel ozon: declined"
+			`Snowfall | Jamming`
+				to display
+					not "hire jamming snowfall: declined"
+			`Swift | Storage`
+				to display
+					not "hire storage swift: declined"
+			``
+				to display
+					or
+						not "hire energy raindrop: declined"
+						not "hire engine midnight: declined"
+						not "hire fuel ozon: declined"
+						not "hire jamming snowfall: declined"
+						not "hire storage swift: declined"
+			`Korath`
+				to display
+					or
+						not "hire combat asvip rap: declined"
+						not "hire cooling kemme ranris: declined"
+						not "hire engine ifir rakik: declined"
+						not "hire hull ak'en oaip: declined"
+						not "hire shield ilesam bableh: declined"
+			`Asvip Rap | Combat`
+				to display
+					not "hire combat asvip rap: declined"
+			`Kemme Ranris | Cooling`
+				to display
+					not "hire cooling kemme ranris: declined"
+			`Ifir Rakik | Engine`
+				to display
+					not "hire engine ifir rakik: declined"
+			`Ak'en Oaip | Hull`
+				to display
+					not "hire hull ak'en oaip: declined"
+			`Ilesam Bableh | Shield`
+				to display
+					not "hire shield ilesam bableh: declined"
+			``
+				to display
+					or
+						not "hire combat asvip rap: declined"
+						not "hire cooling kemme ranris: declined"
+						not "hire engine ifir rakik: declined"
+						not "hire hull ak'en oaip: declined"
+						not "hire shield ilesam bableh: declined"
+			`Bunrodea`
+				to display
+					or
+						not "hire energy akane sakai: declined"
+						not "hire engine riko ishii: declined"
+						not "hire hull shiro kan: declined"
+						not "hire jamming umeo ageta: declined"
+						not "hire shield saburo aoki: declined"
+			`Akane Sakai | Energy`
+				to display
+					not "hire energy akane sakai: declined"
+			`Riko Ishii | Engine`
+				to display
+					not "hire engine riko ishii: declined"
+			`Shiro Kan | Hull`
+				to display
+					not "hire hull shiro kan: declined"
+			`Umeo Ageta | Jamming`
+				to display
+					not "hire jamming umeo ageta: declined"
+			`Saburo Aoki | Shield`
+				to display
+					not "hire shield saburo aoki: declined"
+			``
+				to display
+					or
+						not "hire energy akane sakai: declined"
+						not "hire engine riko ishii: declined"
+						not "hire hull shiro kan: declined"
+						not "hire jamming umeo ageta: declined"
+						not "hire shield saburo aoki: declined"
+			`Incipias`
+				to display
+					or
+						not "hire hull atras: declined"
+						not "hire jamming merus: declined"
+						not "hire scanner kasar: declined"
+						not "hire shield lativa: declined"
+						not "hire storage aelia: declined"
+			`Atras | Hull`
+				to display
+					not "hire hull atras: declined"
+			`Merus | Jamming`
+				to display
+					not "hire jamming merus: declined"
+			`Kasar | Scanner`
+				to display
+					not "hire scanner kasar: declined"
+			`Lativa | Shield`
+				to display
+					not "hire shield lativa: declined"
+			`Aelia | Storage`
+				to display
+					not "hire storage aelia: declined"
+			``
+				to display
+					or
+						not "hire hull atras: declined"
+						not "hire jamming merus: declined"
+						not "hire scanner kasar: declined"
+						not "hire shield lativa: declined"
+						not "hire storage aelia: declined"
+			`Wanderer`
+				to display
+					or
+						not "hire cooling krikey: declined"
+						not "hire energy aikach: declined"
+						not "hire fuel voriar: declined"
+						not "hire scanner kriik: declined"
+						not "hire storage reisek: declined"
+			`Krikey | Cooling`
+				to display
+					not "hire cooling krikey: declined"
+			`Aikach | Energy`
+				to display
+					not "hire energy aikach: declined"
+			`Voriar | Fuel`
+				to display
+					not "hire fuel voriar: declined"
+			`Kriik | Scanner`
+				to display
+					not "hire scanner kriik: declined"
+			`Reisek | Storage`
+				to display
+					not "hire storage reisek: declined"
+			``
+				to display
+					or
+						not "hire cooling krikey: declined"
+						not "hire energy aikach: declined"
+						not "hire fuel voriar: declined"
+						not "hire scanner kriik: declined"
+						not "hire storage reisek: declined"
+			`Arachi`
+				to display
+					or
+						not "hire combat lugub: declined"
+						not "hire hull potamog: declined"
+						not "hire jamming plortab: declined"
+						not "hire scanner tugrup: declined"
+						not "hire storage mupoop: declined"
+			`Lugub | Combat`
+				to display
+					not "hire combat lugub: declined"
+			`Potamog | Hull`
+				to display
+					not "hire hull potamog: declined"
+			`Plortab | Jamming`
+				to display
+					not "hire jamming plortab: declined"
+			`Tugrup | Scanner`
+				to display
+					not "hire scanner tugrup: declined"
+			`Mupoop | Storage`
+				to display
+					not "hire storage mupoop: declined"
+			``
+				to display
+					or
+						not "hire combat lugub: declined"
+						not "hire hull potamog: declined"
+						not "hire jamming plortab: declined"
+						not "hire scanner tugrup: declined"
+						not "hire storage mupoop: declined"
+			`Saryd`
+				to display
+					or
+						not "hire cooling lotura: declined"
+						not "hire fuel comseci: declined"
+						not "hire jamming temtuor: declined"
+						not "hire scanner expari: declined"
+						not "hire shield nisieum: declined"
+			`Lotura | Cooling`
+				to display
+					not "hire cooling lotura: declined"
+			`Comseci | Fuel`
+				to display
+					not "hire fuel comseci: declined"
+			`Temtuor | Jamming`
+				to display
+					not "hire jamming temtuor: declined"
+			`Expari | Scanner`
+				to display
+					not "hire scanner expari: declined"
+			`Nisieum | Shield`
+				to display
+					not "hire shield nisieum: declined"
+			``
+				to display
+					or
+						not "hire cooling lotura: declined"
+						not "hire fuel comseci: declined"
+						not "hire jamming temtuor: declined"
+						not "hire scanner expari: declined"
+						not "hire shield nisieum: declined"
+			`Kimek`
+				to display
+					or
+						not "hire combat ry'i: declined"
+						not "hire energy paicha: declined"
+						not "hire engine kyree: declined"
+						not "hire hull achee: declined"
+						not "hire shield chi'a: declined"
+			`Ry'i | Comabt`
+				to display
+					not "hire combat ry'i: declined"
+			`Paicha | Energy`
+				to display
+					not "hire energy paicha: declined"
+			`Kyree | Engine`
+				to display
+					not "hire engine kyree: declined"
+			`Achee | Hull`
+				to display
+					not "hire hull achee: declined"
+			`Chi'a | Shield`
+				to display
+					not "hire shield chi'a: declined"
+			``
+				to display
+					or
+						not "hire combat ry'i: declined"
+						not "hire energy paicha: declined"
+						not "hire engine kyree: declined"
+						not "hire hull achee: declined"
+						not "hire shield chi'a: declined"
+			`Avgi`
+				to display
+					or
+						not "hire combat biana: declined"
+						not "hire cooling chana: declined"
+						not "hire energy pilos: declined"
+						not "hire engine ulos: declined"
+						not "hire fuel isi: declined"
+			`Biana | Combat`
+				to display
+					not "hire combat biana: declined"
+			`Chana | Cooling`
+				to display
+					not "hire cooling chana: declined"
+			`Pilos | Energy`
+				to display
+					not "hire energy pilos: declined"
+			`Ulos | Engine`
+				to display
+					not "hire engine ulos: declined"
+			`Isi | Fuel`
+				to display
+					not "hire fuel isi: declined"
+			``
+				to display
+					or
+						not "hire combat biana: declined"
+						not "hire cooling chana: declined"
+						not "hire energy pilos: declined"
+						not "hire engine ulos: declined"
+						not "hire fuel isi: declined"
+			`Successor`
+				to display
+					or
+						not "hire fuel boudaa: declined"
+						not "hire hull kinmi: declined"
+						not "hire jamming naaq: declined"
+						not "hire scanner oublaa: declined"
+						not "hire shield uondi: declined"
+			`Boudaa | Fuel`
+				to display
+					not "hire fuel boudaa: declined"
+			`Kinmi | Hull`
+				to display
+					not "hire hull kinmi: declined"
+			`Naaq | Jamming`
+				to display
+					not "hire jamming naaq: declined"
+			`Oublaa | Scanner`
+				to display
+					not "hire scanner oublaa: declined"
+			`Uondi | Shield`
+				to display
+					not "hire shield uondi: declined"
+			``
+				to display
+					or
+						not "hire fuel boudaa: declined"
+						not "hire hull kinmi: declined"
+						not "hire jamming naaq: declined"
+						not "hire scanner oublaa: declined"
+						not "hire shield uondi: declined"
+			`Gegno`
+				to display
+					or
+						not "hire combat tieeitch: declined"
+						not "hire cooling dyeisc: declined"
+						not "hire energy auriiel: declined"
+						not "hire engine efeduefyu: declined"
+						not "hire storage yxoorevyt: declined"
+			`Tieeitch | Combat`
+				to display
+					not "hire combat tieeitch: declined"
+			`Dyeisc | Cooling`
+				to display
+					not "hire cooling dyeisc: declined"
+			`Auriiel | Energy`
+				to display
+					not "hire energy auriiel: declined"
+			`Efeduefyu | Engine`
+				to display
+					not "hire engine efeduefyu: declined"
+			`yxoorevyt | Storage`
+				to display
+					not "hire storage yxoorevyt: declined"
+			``
+				to display
+					or
+						not "hire combat tieeitch: declined"
+						not "hire cooling dyeisc: declined"
+						not "hire energy auriiel: declined"
+						not "hire engine efeduefyu: declined"
+						not "hire storage yxoorevyt: declined"
+			choice
+				`continue`
+					goto "start"
+
+			label "set gegno outfitter"
+			action
+				event "add gegno outfitter"
+			branch "start"
+
+			label "end"
+			``
+		fail
+
+
+event "add gegno outfitter"
+	planet "Tschyss"
+		add outfitter "Gegno Basic"

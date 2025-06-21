@@ -1,0 +1,86 @@
+
+mission "re-shround what navbuoys did"
+	landing
+	non-blocking
+	invisible
+	on offer
+		event "re-shroud"
+		conversation
+			`re-shrouding what the nav buoys did`
+		fail
+
+event "re-shroud"
+	system "Khasola-Ryuit"
+		shrouded
+	system "Mavra-Ijsola"
+		shrouded
+	system "Kasii-Cavaasa"
+		shrouded
+	system "Avasaa-Novaa"
+		shrouded
+	system "Kiiraj-Luue"
+		shrouded
+	system "Kasi-Vasa-Novaa"
+		shrouded
+	system "Uuoru-Sossa"
+		shrouded
+	system "Vasa-Oorua"
+		shrouded
+	system "Kasii-Sola"
+		shrouded
+	system "Ar-40"
+		shrouded
+	system "As-75"
+		shrouded
+	system "B-11"
+		shrouded
+	system "Be-9"
+		shrouded
+	system "Br-80"
+		shrouded
+	system "C-12"
+		shrouded
+	system "Ca-40"
+		shrouded
+	system "Cl-35"
+		shrouded
+	system "Demilude"
+		shrouded
+	system "Ensemble"
+		shrouded
+	system "F-19"
+		shrouded
+	system "Ge-73"
+		shrouded
+	system "H-1"
+		shrouded
+	system "He-4"
+		shrouded
+	system "Interlude"
+		shrouded
+	system "K-39"
+		shrouded 
+	system "Kr-84"
+		shrouded
+	system "Li-7"
+		shrouded
+	system "Mg-24"
+		shrouded
+	system "N-14"
+		shrouded
+	system "Na-23"
+		shrouded
+	system "Ne-20"
+		shrouded
+	system "O-16"
+		shrouded
+	system "P-31"
+		shrouded
+	system "Postlude"
+		shrouded
+	system "Prelude"
+		shrouded
+	system "S-32"
+		shrouded
+	system "Si-28"
+		shrouded

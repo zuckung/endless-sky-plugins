@@ -31,7 +31,7 @@ mission "unq_get_nav_buoys"
 			has "visited system: H-1"
 			has "visited system: Khasola-Ryuit"
 		"credits" > 25000
-		random < 10
+		random < 20
 	on offer
 		payment -25000
 		outfit "unq_navbuoys" 1

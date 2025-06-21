@@ -273,7 +273,7 @@ mission "alien mission 1"
 mission "ferret mission 1"
 	minor
 	name "Cargo full of ferrets"
-	description "Transport seven hundred and fifty ferrets to <destination> for a reward if <payment>."
+	description "Transport seven hundred and fifty ferrets to <destination> for a reward of <payment>."
 	cargo "Ferrets" 12
 	blocked "You don't have enough cargo space for this mission."
 	source "Bivrost"

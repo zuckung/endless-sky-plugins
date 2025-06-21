@@ -103,8 +103,9 @@ event "unq_wait_bioluminescent_offspring"
 mission "unq_bioluminescent_offspring"
 	repeat
 	invisible
-	landing
+	entering
 	non-blocking
+	destination "Earth"
 	to offer
 		has "event: unq_wait_bioluminescent_offspring"
 		has "outfit (flagship installed): unq_bioluminescent_plant"
@@ -171,6 +172,7 @@ mission "unq_bioluminescent_offspring_science02"
 	on complete
 		outfit "unq_bioreactor" 1
 		conversation
+			scene "outfit/unq_bioreactor"
 			`When you arrive at Geyser, you get escorted by an assistant of Dr. Neuberg to his lab. There, Dr. Neuberg presents you a small, functional bio-reactor powered by the plant's bioluminescent energy. He offers to create more reactors if you supply him with additional offsprings. He takes one offspring as payment and the other as material for the next reactor. You can find this offer on the Geyser job board, as soon as you have two offsprings.`
 
 
@@ -190,5 +192,4 @@ mission "unq_bioluminescent_offspring_science03"
 			scene "outfit/unq_bioreactor"
 			`You visit Dr. Neuberg at his laboratory. He already created a bio reactor out of the last plant offspring and sells it to you for two new offsprings.`
 				decline
-	on daily
 		fail

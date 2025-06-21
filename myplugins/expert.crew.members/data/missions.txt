@@ -6,10 +6,9 @@ mission "hire combat isaac wirth"
 		attributes "rim"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "combat isaac wirth" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbm03"
@@ -28,10 +27,9 @@ mission "hire combat jessy tuta"
 		attributes "south"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "combat jessy tuta" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbf02"
@@ -50,10 +48,9 @@ mission "hire combat kianoush royston"
 		attributes "dirt belt"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "combat kianoush royston" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmam03"
@@ -72,10 +69,9 @@ mission "hire combat rodrigo bain"
 		attributes "deep"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "combat rodrigo bain" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbm04"
@@ -93,10 +89,9 @@ mission "hire combat tieeitch"
 		government "Gegno" "Gegno Scin" "Gegno Vi"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "combat tieeitch" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/gegno01"
@@ -114,10 +109,9 @@ mission "hire combat ainem wahpip"
 		government "Hai"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "combat ainem wahpip" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/hai02"
@@ -136,10 +130,9 @@ mission "hire combat asvip rap"
 		attributes "outfitter"
 	to offer
 		has "Wanderers: Rek To Kor Efret: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "combat asvip rap" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/korath03"
@@ -159,10 +152,9 @@ mission "hire combat ry'i"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "combat ry'i" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/kimek03"
@@ -182,10 +174,9 @@ mission "hire combat lugub"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "combat lugub" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/arachi04"
@@ -204,10 +195,9 @@ mission "hire combat biana"
 		attributes "outfitter"
 	to offer
 		has "Avgi: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "combat biana" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/avgi01"
@@ -226,10 +216,9 @@ mission "hire cooling atreus bodilsen"
 		attributes "south"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "cooling atreus bodilsen" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm01"
@@ -248,10 +237,9 @@ mission "hire cooling beckah feidhelm"
 		attributes "deep"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "cooling beckah feidhelm" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf01"
@@ -270,10 +258,9 @@ mission "hire cooling caspar laurentinus"
 		attributes "rim"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "cooling caspar laurentinus" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm02"
@@ -292,10 +279,9 @@ mission "hire cooling itoro signe"
 		attributes "dirt belt"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "cooling itoro signe" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmaf01"
@@ -313,10 +299,9 @@ mission "hire cooling dyeisc"
 		government "Gegno" "Gegno Scin" "Gegno Vi"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "cooling dyeisc" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/gegno05"
@@ -334,10 +319,9 @@ mission "hire cooling lohmahow monuden"
 		government "Hai"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "cooling lohmahow monuden" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/hai05"
@@ -356,10 +340,9 @@ mission "hire cooling krikey"
 		attributes "outfitter"
 	to offer
 		has "language: Wanderer"
-		random < 1
+		random > 98
 	on decline
 		outfit "cooling krikey" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/wanderer10"
@@ -378,10 +361,9 @@ mission "hire cooling kemme ranris"
 		attributes "outfitter"
 	to offer
 		has "Wanderers: Rek To Kor Efret: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "cooling kemme ranris" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/korath04"
@@ -401,10 +383,9 @@ mission "hire cooling lotura"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "cooling lotura" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/saryd01"
@@ -423,10 +404,9 @@ mission "hire cooling chana"
 		attributes "outfitter"
 	to offer
 		has "Avgi: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "cooling chana" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/avgi02"
@@ -445,10 +425,9 @@ mission "hire energy deirdre ciaran"
 		attributes "rim"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "energy deirdre ciaran" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf02"
@@ -467,10 +446,9 @@ mission "hire energy lisa zola"
 		attributes "south"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "energy lisa zola" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf03"
@@ -489,10 +467,9 @@ mission "hire energy normand kiran"
 		attributes "near earth"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "energy normand kiran" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm10"
@@ -511,10 +488,9 @@ mission "hire energy simona branka"
 		attributes "deep"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "energy simona branka" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf04"
@@ -532,10 +508,9 @@ mission "hire energy auriiel"
 		government "Gegno" "Gegno Scin" "Gegno Vi"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "energy auriiel" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/gegno02"
@@ -553,10 +528,9 @@ mission "hire energy akane sakai"
 		government "Bunrodea" "Bunrodea (Guard)"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "energy akane sakai" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/bunrodea01"
@@ -575,10 +549,9 @@ mission "hire energy aikach"
 		attributes "outfitter"
 	to offer
 		has "language: Wanderer"
-		random < 1
+		random > 98
 	on decline
 		outfit "energy aikach" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/wanderer01"
@@ -596,10 +569,9 @@ mission "hire energy raindrop"
 		government "Remnant"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "energy raindrop" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/remnant04"
@@ -619,10 +591,9 @@ mission "hire energy paicha"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "energy paicha" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/kimek01"
@@ -641,10 +612,9 @@ mission "hire energy pilos"
 		attributes "outfitter"
 	to offer
 		has "Avgi: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "energy pilos" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/avgi03"
@@ -663,10 +633,9 @@ mission "hire engine anahit bodil"
 		attributes "core"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "engine anahit bodil" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbf03"
@@ -685,10 +654,9 @@ mission "hire engine chetana jaleh"
 		attributes "deep"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "engine chetana jaleh" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbf01"
@@ -707,10 +675,9 @@ mission "hire engine neal fransson"
 		attributes "south"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "engine neal fransson" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm03"
@@ -729,10 +696,9 @@ mission "hire engine valeriya jannick"
 		attributes "near earth"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "engine valeriya jannick" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf05"
@@ -750,10 +716,9 @@ mission "hire engine efeduefyu"
 		government "Gegno" "Gegno Scin" "Gegno Vi"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "engine efeduefyu" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/gegno04"
@@ -771,10 +736,9 @@ mission "hire engine riko ishii"
 		government "Bunrodea" "Bunrodea (Guard)"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "engine riko ishii" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/bunrodea02"
@@ -793,10 +757,9 @@ mission "hire engine ifir rakik"
 		attributes "outfitter"
 	to offer
 		has "Wanderers: Rek To Kor Efret: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "engine ifir rakik" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/korath05"
@@ -814,10 +777,9 @@ mission "hire engine midnight"
 		government "Remnant"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "engine midnight" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/remnant09"
@@ -837,10 +799,9 @@ mission "hire engine kyree"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "engine kyree" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/kimek04"
@@ -859,10 +820,9 @@ mission "hire engine ulos"
 		attributes "outfitter"
 	to offer
 		has "Avgi: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "engine ulos" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/avgi04"
@@ -881,10 +841,9 @@ mission "hire fuel carl ahmad"
 		attributes "core"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "fuel carl ahmad" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmam04"
@@ -903,10 +862,9 @@ mission "hire fuel kfir balam"
 		attributes "dirt belt"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "fuel kfir balam" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbm01"
@@ -925,10 +883,9 @@ mission "hire fuel kostis joona"
 		attributes "near earth"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "fuel kostis joona" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm04"
@@ -947,10 +904,9 @@ mission "hire fuel nina sotiroula"
 		attributes "north"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "fuel nina sotiroula" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbf04"
@@ -968,10 +924,9 @@ mission "hire fuel sookot dulur"
 		government "Hai"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "fuel sookot dulur" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/hai06"
@@ -990,10 +945,9 @@ mission "hire fuel voriar"
 		attributes "outfitter"
 	to offer
 		has "language: Wanderer"
-		random < 1
+		random > 98
 	on decline
 		outfit "fuel voriar" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/wanderer02"
@@ -1011,10 +965,9 @@ mission "hire fuel ozon"
 		government "Remnant"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "fuel ozon" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/remnant06"
@@ -1034,10 +987,9 @@ mission "hire fuel comseci"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "fuel comseci" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/saryd05"
@@ -1055,10 +1007,9 @@ mission "hire fuel boudaa"
 		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "fuel boudaa" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/successor01"
@@ -1077,10 +1028,9 @@ mission "hire fuel isi"
 		attributes "outfitter"
 	to offer
 		has "Avgi: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "fuel isi" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/avgi05"
@@ -1099,10 +1049,9 @@ mission "hire hull anuradha talin"
 		attributes "core"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "hull anuradha talin" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmaf03"
@@ -1121,10 +1070,9 @@ mission "hire hull julia grainne"
 		attributes "paradise"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "hull julia grainne" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf06"
@@ -1143,10 +1091,9 @@ mission "hire hull silvius hildegard"
 		attributes "north"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "hull silvius hildegard" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm05"
@@ -1165,10 +1112,9 @@ mission "hire hull sabina draga"
 		attributes "south"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "hull sabina draga" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf07"
@@ -1179,27 +1125,6 @@ mission "hire hull sabina draga"
 				`hire her`
 					decline
 
-mission "hire hull atras"
-	minor
-	invisible
-	source
-		government "Hicemus" "Conlatio"
-		attributes "outfitter"
-	to offer
-		random < 1
-	on decline
-		outfit "hull atras" 1
-		hiredexperts ++
-	on offer
-		conversation
-			scene "portrait/incipias05"
-			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. He is looking for work. His name is Atras, he is an Incipias, and he demands a daily wage of 3700 credits.`
-			choice
-				`don't hire him (maybe you will meet him again)`
-					defer
-				`hire him`
-					decline
-
 mission "hire hull shiro kan"
 	minor
 	invisible
@@ -1207,10 +1132,9 @@ mission "hire hull shiro kan"
 		government "Bunrodea" "Bunrodea (Guard)"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "hull shiro kan" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/bunrodea03"
@@ -1229,10 +1153,9 @@ mission "hire hull ak'en oaip"
 		attributes "outfitter"
 	to offer
 		has "Wanderers: Rek To Kor Efret: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "hull ak'en oaip" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/korath07"
@@ -1252,10 +1175,9 @@ mission "hire hull achee"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "hull achee" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/kimek02"
@@ -1275,10 +1197,9 @@ mission "hire hull potamog"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "hull potamog" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/arachi01"
@@ -1296,10 +1217,9 @@ mission "hire hull kinmi"
 		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "hull kinmi" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/successor02"
@@ -1318,10 +1238,9 @@ mission "hire jamming aline mai"
 		attributes "paradise"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "jamming aline mai" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmaf04"
@@ -1340,10 +1259,9 @@ mission "hire jamming dominik bullock"
 		attributes "dirt belt"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "jamming dominik bullock" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm06"
@@ -1362,10 +1280,9 @@ mission "hire jamming enver diefenbach"
 		attributes "north"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "jamming enver diefenbach" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm07"
@@ -1384,10 +1301,9 @@ mission "hire jamming raban fields"
 		attributes "core"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "jamming raban fields" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmam05"
@@ -1405,35 +1321,13 @@ mission "hire jamming umeo ageta"
 		government "Bunrodea" "Bunrodea (Guard)"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "jamming umeo ageta" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/bunrodea07"
 			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Umeo Ageta, he is a Bunrodea, and he demands a daily wage of 3800 credits.`
-			choice
-				`don't hire him (maybe you will meet him again)`
-					defer
-				`hire him`
-					decline
-
-mission "hire jamming merus"
-	minor
-	invisible
-	source
-		government "Hicemus" "Conlatio"
-		attributes "outfitter"
-	to offer
-		random < 1
-	on decline
-		outfit "jamming merus" 1
-		hiredexperts ++
-	on offer
-		conversation
-			scene "portrait/incipias04"
-			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Merus, he is an Incipias, and he demands a daily wage of 4000 credits.`
 			choice
 				`don't hire him (maybe you will meet him again)`
 					defer
@@ -1447,10 +1341,9 @@ mission "hire jamming snowfall"
 		government "Remnant"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "jamming snowfall" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/remnant01"
@@ -1470,10 +1363,9 @@ mission "hire jamming temtuor"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "jamming temtuor" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/saryd04"
@@ -1493,10 +1385,9 @@ mission "hire jamming plortab"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "jamming plortab" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/arachi02"
@@ -1514,10 +1405,9 @@ mission "hire jamming naaq"
 		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "jamming naaq" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/successor03"
@@ -1536,10 +1426,9 @@ mission "hire scanner ivanus kozlov"
 		attributes "paradise"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "scanner ivanus kozlov" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm08"
@@ -1558,10 +1447,9 @@ mission "hire scanner mikmel wanjala"
 		attributes "core"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "scanner mikmel wanjala" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbm05"
@@ -1580,10 +1468,9 @@ mission "hire scanner saffira ivka"
 		attributes "near earth"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "scanner saffira ivka" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmaf05"
@@ -1594,27 +1481,6 @@ mission "hire scanner saffira ivka"
 				`hire her`
 					decline
 
-mission "hire scanner kasar"
-	minor
-	invisible
-	source
-		government "Hicemus" "Conlatio"
-		attributes "outfitter"
-	to offer
-		random < 1
-	on decline
-		outfit "scanner kasar" 1
-		hiredexperts ++
-	on offer
-		conversation
-			scene "portrait/incipias03"
-			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work. His name is Kasar, he is an Incipias, and he demands a daily wage of 3100 credits.`
-			choice
-				`don't hire him (maybe you will meet him again)`
-					defer
-				`hire him`
-					decline
-
 mission "hire scanner tichaona yong"
 	minor
 	invisible
@@ -1623,10 +1489,9 @@ mission "hire scanner tichaona yong"
 		attributes "north"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "scanner tichaona yong" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmaf02"
@@ -1644,10 +1509,9 @@ mission "hire scanner rashi vaitle"
 		government "Hai"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "scanner rashi vaitle" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/hai10"
@@ -1666,10 +1530,9 @@ mission "hire scanner kriik"
 		attributes "outfitter"
 	to offer
 		has "language: Wanderer"
-		random < 1
+		random > 98
 	on decline
 		outfit "scanner kriik" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/wanderer05"
@@ -1689,10 +1552,9 @@ mission "hire scanner expari"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "scanner expari" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/saryd03"
@@ -1712,10 +1574,9 @@ mission "hire scanner tugrup"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "scanner tugrup" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/arachi03"
@@ -1733,10 +1594,9 @@ mission "hire scanner oublaa"
 		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "scanner oublaa" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/successor04"
@@ -1755,10 +1615,9 @@ mission "hire shield lucille meritites"
 		attributes "paradise"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "shield lucille meritites" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbf05"
@@ -1777,10 +1636,9 @@ mission "hire shield sonja halimah"
 		attributes "north"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "shield sonja halimah" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf10"
@@ -1799,10 +1657,9 @@ mission "hire shield taisto nithin"
 		attributes "rim"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "shield taisto nithin" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmam01"
@@ -1813,27 +1670,6 @@ mission "hire shield taisto nithin"
 				`hire him`
 					decline
 
-mission "hire shield lativa"
-	minor
-	invisible
-	source
-		government "Hicemus" "Conlatio"
-		attributes "outfitter"
-	to offer
-		random < 1
-	on decline
-		outfit "shield lativa" 1
-		hiredexperts ++
-	on offer
-		conversation
-			scene "portrait/incipias02"
-			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. She is looking for work. Her name is Lativa, she is an Incipias, and she demands a daily wage of 3400 credits.`
-			choice
-				`don't hire her (maybe you will meet her again)`
-					defer
-				`hire her`
-					decline
-
 mission "hire shield monika raganhildis"
 	minor
 	invisible
@@ -1842,10 +1678,9 @@ mission "hire shield monika raganhildis"
 		attributes "near earth"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "shield monika raganhildis" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf08"
@@ -1863,10 +1698,9 @@ mission "hire shield saburo aoki"
 		government "Bunrodea" "Bunrodea (Guard)"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "shield saburo aoki" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/bunrodea09"
@@ -1885,10 +1719,9 @@ mission "hire shield ilesam bableh"
 		attributes "outfitter"
 	to offer
 		has "Wanderers: Rek To Kor Efret: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "shield ilesam bableh" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/korath10"
@@ -1908,10 +1741,9 @@ mission "hire shield nisieum"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "shield nisieum" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/saryd02"
@@ -1931,10 +1763,9 @@ mission "hire shield chi'a"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "shield chi'a" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/kimek05"
@@ -1952,10 +1783,9 @@ mission "hire shield uondi"
 		government "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses" "People's Houses"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "shield uondi" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/successor05"
@@ -1974,10 +1804,9 @@ mission "hire storage darius hasegawa"
 		attributes "deep"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "storage darius hasegawa" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmam02"
@@ -1996,10 +1825,9 @@ mission "hire storage eduardo wapasha"
 		attributes "rim"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "storage eduardo wapasha" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmbm02"
@@ -2018,10 +1846,9 @@ mission "hire storage mani godefrid"
 		attributes "dirt belt"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "storage mani godefrid" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwm09"
@@ -2032,27 +1859,6 @@ mission "hire storage mani godefrid"
 				`hire him`
 					decline
 
-mission "hire storage aelia"
-	minor
-	invisible
-	source
-		government "Hicemus" "Conlatio"
-		attributes "outfitter"
-	to offer
-		random < 1
-	on decline
-		outfit "storage aelia" 1
-		hiredexperts ++
-	on offer
-		conversation
-			scene "portrait/incipias01"
-			`In a spaceport bar you get to know a highly qualified expert in storage management. She is looking for work. Her name is Aelia, she is an Incipias, and she demands a daily wage of 3100 credits.`
-			choice
-				`don't hire her (maybe you will meet her again)`
-					defer
-				`hire her`
-					decline
-
 mission "hire storage marie zohreh"
 	minor
 	invisible
@@ -2061,10 +1867,9 @@ mission "hire storage marie zohreh"
 		attributes "paradise"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "storage marie zohreh" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/ecmwf09"
@@ -2082,10 +1887,9 @@ mission "hire storage yxoorevyt"
 		government "Gegno" "Gegno Scin" "Gegno Vi"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "storage yxoorevyt" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/gegno03"
@@ -2103,10 +1907,9 @@ mission "hire storage touna farchi"
 		government "Hai"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "storage touna farchi" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/hai07"
@@ -2125,10 +1928,9 @@ mission "hire storage reisek"
 		attributes "outfitter"
 	to offer
 		has "language: Wanderer"
-		random < 1
+		random > 98
 	on decline
 		outfit "storage reisek" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/wanderer06"
@@ -2146,10 +1948,9 @@ mission "hire storage swift"
 		government "Remnant"
 		attributes "outfitter"
 	to offer
-		random < 1
+		random > 98
 	on decline
 		outfit "storage swift" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/remnant02"
@@ -2169,10 +1970,9 @@ mission "hire storage mupoop"
 		attributes "outfitter"
 	to offer
 		has "Coalition: First Contact: done"
-		random < 1
+		random > 98
 	on decline
 		outfit "storage mupoop" 1
-		hiredexperts ++
 	on offer
 		conversation
 			scene "portrait/arachi05"

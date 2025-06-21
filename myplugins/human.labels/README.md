@@ -9,6 +9,9 @@ On Earth's job board you can find a mission to change the color of the labels (l
 <br>
 Changelog:<br>
 <br>
+2025-06-21<br>
+added control.station support<br>
+<br>
 2025-06-05<br>
 colored job<br>
 <br>

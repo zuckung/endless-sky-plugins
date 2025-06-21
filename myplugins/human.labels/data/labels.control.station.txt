@@ -1,0 +1,87 @@
+# mission "plugin: human.labels"
+
+
+
+mission "plugin: human.labels"
+	name "[4] plugin: human.labels"
+	color selected "control.station plugin job: selected"
+	color unselected "control.station plugin job: unselected"
+	job
+	repeat
+	description "Changes the color of the map area labels. Possible colors are: light blue, light gray, yellow, dark red, green, dark gray, orange and purple."
+	source "Control Station"
+	to offer
+		has "installed plugin: control.station"
+	on accept
+		conversation
+			scene "scene/colors"
+			`Choose a color for the map area labels:`
+			choice
+				`	light blue`
+					goto "light blue"
+				`	light gray`
+					goto "light gray"
+				`	yellow`
+					goto "yellow"
+				`	dark red`
+					goto "dark red"
+				`	green`
+					goto "green"
+				`	dark gray`
+					goto "dark gray"
+				`	orange`
+					goto "orange"
+				`	purple`
+					goto "purple"
+				`	revert back to original labels`
+					goto "original"
+				`	done`
+					goto end
+			label "light blue"
+			action
+				event "change light blue" 0
+			`Label color changed to light blue!`
+				goto end
+			label "yellow"
+			action
+				event "change yellow"
+			`Label color changed to yellow!`
+				goto end
+			label "light gray"
+			action
+				event "change light gray"
+			`Label color changed to light gray!`
+				goto end
+			label "dark red"
+			action
+				event "change dark red"
+			`Label color changed to dark red!`
+				goto end
+			label "green"
+			action
+				event "change green"
+			`Label color changed to green!`
+				goto end
+			label "dark gray"
+			action
+				event "change dark gray"
+			`Label color changed to dark gray!`
+				goto end
+			label "orange"
+			action
+				event "change orange"
+			`Label color changed to orange!`
+				goto end
+			label "purple"
+			action
+				event "change purple"
+			`Label color changed to purple!`
+				goto end
+			label "original"
+			action
+				event "change original"
+			`Label changed back to original!`
+				goto end
+			label end
+			``
+		fail
