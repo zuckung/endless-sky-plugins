@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-21 | update: show.reputation<br>
 2025-06-19 | update: bunrodea.missions<br>
 2025-06-19 | update: captureable.person.ships<br>
 2025-06-18 | update: control.station<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-10 | update: mission.helper<br>
 2025-06-08 | update: combat.ai<br>
 2025-06-07 | update: combat.ai<br>
-2025-06-07 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1721,9 +1721,17 @@ Changelog:<br>
 
 <br>
 
+2025-06-21<br>
+
+added control.station support<br>
+
+changed offering to > 98, because of game changes to offering<br>
+
+<br>
+
 2025-05-19<br>
 
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 
 <br>
 
@@ -1852,7 +1860,6 @@ added 20 more crew members<br>
 2023-09-19<br>
 
 initial release<br>
-
 </blockquote>
 </details>
 <br>
@@ -2457,6 +2464,12 @@ On Earth's job board you can find a mission to change the color of the labels (l
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-21<br>
+
+added control.station support<br>
 
 <br>
 
@@ -3795,13 +3808,19 @@ Offers a job on Earth to paint your ships.<br>
 
 <br>
 
-There are already like five plugins that change the swizzle color, but this one has the colors displayed ingame (image by amazinite).<br>
+There are already like five plugins that change the swizzle color, but this one has the colors displayed ingame (image by amazinite). If the plugin control.station is installed, the job changes from Earth to that station.<br>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-21<br>
+
+added control.station support<br>
 
 <br>
 
@@ -4050,9 +4069,9 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/show.reputation/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/show.reputation.png">
 
-[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-show.reputation/show.reputation.zip) | 157.68 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <a href="res/imagemd/show.reputation.md">view images</a> [5]<br>
+[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-show.reputation/show.reputation.zip) | 159.85 kb | 2025-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) <a href="res/imagemd/show.reputation.md">view images</a> [5]<br>
 <br>
->Enables a job on every planet's job board, that shows the reputation values. See the README for details.
+>Enables a job on the Earth job board, that shows the reputation values. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -4062,17 +4081,23 @@ screenshots(click to enlarge):<br>
 
 <br>
 
-Enables a job on every planet's job board, that shows the reputation values.<br>
+Enables a job on the Earth job board, that shows the reputation values.<br>
 
 <br>
 
-Accept the job and the reputations conversation pops up. Then you can choose between viewing the 35 most useful or all.<br>
+Accept the job and the reputations conversation pops up. Then you can choose between viewing the 35 most useful or all. If the plugin control.station is installed, the job changes from Earth to that station.<br>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-06-21<br>
+
+added control.station support<br>
 
 <br>
 
@@ -4516,7 +4541,7 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 
 <br>
 
-Uniques are great! Why aren't more ingame?<br>
+Uniques are great! Why aren't more ingame? If the plugin control.station is installed, that station offers a job to see the status of obtaining the uniques.<br>
 
 This plugin contains my former plugins unique.fix (just some vanilla unique adjustments), real.fluff (10 unique pets) and lots of new uniques with storylines.<br>
 
@@ -4598,7 +4623,7 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 
 <li> new unique: "Gegno Starmap" (Wye Tzeou, 10% chance)</li>
 
-<li> new unique: "Nav Buoys" (human outfitter, after discovering shrouded systems, 10% chance)</li>
+<li> new unique: "Nav Buoys" (human outfitter, after discovering shrouded systems, 20% chance)</li>
 
 <li> new unique: "Derelict Scanner" (Oblivion, 100k credits, 10% chance)</li>
 
@@ -4612,9 +4637,15 @@ Changelog:<br>
 
 <br>
 
+2025-06-21<br>
+
+added control.station support<br>
+
+<br>
+
 2025-05-19<br>
 
-typo fixes by snoggles<br>
+typo fixes by snoogles<br>
 
 <br>
 
