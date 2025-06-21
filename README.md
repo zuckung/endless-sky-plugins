@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-21 | update: paint.your.ships<br>
 2025-06-21 | update: show.reputation<br>
 2025-06-19 | update: bunrodea.missions<br>
 2025-06-19 | update: captureable.person.ships<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-12 | update: mission.helper<br>
 2025-06-10 | update: mission.helper<br>
 2025-06-08 | update: combat.ai<br>
-2025-06-07 | update: combat.ai<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3792,7 +3792,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/paint.your.ships/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/paint.your.ships.png">
 
-[paint.your.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-paint.your.ships/paint.your.ships.zip) | 189.88 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/paint.your.ships/) <a href="res/imagemd/paint.your.ships.md">view images</a> [4]<br>
+[paint.your.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-paint.your.ships/paint.your.ships.zip) | 191.19 kb | 2025-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/paint.your.ships/) <a href="res/imagemd/paint.your.ships.md">view images</a> [4]<br>
 <br>
 >Offers a job on Earth to paint your ships. See the README for details.
 
