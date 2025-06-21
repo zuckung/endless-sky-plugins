@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-21 | update: human.labels<br>
 2025-06-21 | update: paint.your.ships<br>
 2025-06-21 | update: show.reputation<br>
 2025-06-19 | update: bunrodea.missions<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-18 | removed planet.pluto, original @ <href="https://github.com/LixiChronikouOriou/ES-plugins>https://github.com/LixiChronikouOriou/ES-plugins</a><br>
 2025-06-12 | update: mission.helper<br>
 2025-06-10 | update: mission.helper<br>
-2025-06-08 | update: combat.ai<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2439,7 +2439,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/human.labels/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/human.labels.png">
 
-[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-human.labels/human.labels.zip) | 2.0 mb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) <a href="res/imagemd/human.labels.md">view images</a> [411]<br>
+[human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-human.labels/human.labels.zip) | 2.01 mb | 2025-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) <a href="res/imagemd/human.labels.md">view images</a> [411]<br>
 <br>
 >Reworks the Human area labels and adds area borders. See the README for details.
 
