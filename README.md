@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-21 | update: uniques<br>
 2025-06-21 | update: expert.crew.members<br>
 2025-06-21 | update: human.labels<br>
 2025-06-21 | update: paint.your.ships<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-18 | update: control.station<br>
 2025-06-18 | update: better.starts<br>
 2025-06-18 | removed planet.pluto, original @ <href="https://github.com/LixiChronikouOriou/ES-plugins>https://github.com/LixiChronikouOriou/ES-plugins</a><br>
-2025-06-12 | update: mission.helper<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4523,7 +4523,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/uniques/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/uniques.png">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-uniques/uniques.zip) | 11.15 mb | 2025-04-16 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <a href="res/imagemd/uniques.md">view images</a> [168]<br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-uniques/uniques.zip) | 11.15 mb | 2025-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <a href="res/imagemd/uniques.md">view images</a> [168]<br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
