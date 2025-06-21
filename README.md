@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-21 | update: expert.crew.members<br>
 2025-06-21 | update: human.labels<br>
 2025-06-21 | update: paint.your.ships<br>
 2025-06-21 | update: show.reputation<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-18 | update: better.starts<br>
 2025-06-18 | removed planet.pluto, original @ <href="https://github.com/LixiChronikouOriou/ES-plugins>https://github.com/LixiChronikouOriou/ES-plugins</a><br>
 2025-06-12 | update: mission.helper<br>
-2025-06-10 | update: mission.helper<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1685,7 +1685,7 @@ added icon.png<br>
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/expert.crew.members.png">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-expert.crew.members/expert.crew.members.zip) | 8.07 mb | 2025-04-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <a href="res/imagemd/expert.crew.members.md">view images</a> [204]<br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-expert.crew.members/expert.crew.members.zip) | 8.07 mb | 2025-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) <a href="res/imagemd/expert.crew.members.md">view images</a> [204]<br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the README for details.
 
