@@ -12,7 +12,7 @@ control.station|1.0.4
 devil-run.unhidden|1.0.1
 disable.person.ships|1.0.0
 disable.spaceport.repeatables|1.1.1
-expert.crew.members|1.0.8
+expert.crew.members|1.0.9
 flare.play|1.0.1
 free.worlds.5.years.later|1.0.1
 galactic.capital.investment|1.1.8
