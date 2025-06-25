@@ -13,6 +13,10 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 Changelog:<br>
 <br>
+2025-06-25<br>
+used wrong script on last update, incipias and expertcounter were messed up, fixed<br>
+added outfit sorting by race<br>
+<br>
 2025-06-21<br>
 added control.station support<br>
 changed offering to > 98, because of game changes to offering<br>

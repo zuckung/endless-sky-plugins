@@ -18,6 +18,8 @@ mission "hire combat isaac wirth"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire combat jessy tuta"
 	minor
@@ -39,6 +41,8 @@ mission "hire combat jessy tuta"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire combat kianoush royston"
 	minor
@@ -60,6 +64,8 @@ mission "hire combat kianoush royston"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire combat rodrigo bain"
 	minor
@@ -81,6 +87,8 @@ mission "hire combat rodrigo bain"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire combat tieeitch"
 	minor
@@ -101,6 +109,8 @@ mission "hire combat tieeitch"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire combat ainem wahpip"
 	minor
@@ -121,6 +131,8 @@ mission "hire combat ainem wahpip"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire combat asvip rap"
 	minor
@@ -142,6 +154,8 @@ mission "hire combat asvip rap"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire combat ry'i"
 	minor
@@ -164,6 +178,8 @@ mission "hire combat ry'i"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire combat lugub"
 	minor
@@ -186,6 +202,8 @@ mission "hire combat lugub"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire combat biana"
 	minor
@@ -207,6 +225,8 @@ mission "hire combat biana"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire cooling atreus bodilsen"
 	minor
@@ -228,6 +248,8 @@ mission "hire cooling atreus bodilsen"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire cooling beckah feidhelm"
 	minor
@@ -249,6 +271,8 @@ mission "hire cooling beckah feidhelm"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire cooling caspar laurentinus"
 	minor
@@ -270,6 +294,8 @@ mission "hire cooling caspar laurentinus"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire cooling itoro signe"
 	minor
@@ -291,6 +317,8 @@ mission "hire cooling itoro signe"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire cooling dyeisc"
 	minor
@@ -311,6 +339,8 @@ mission "hire cooling dyeisc"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire cooling lohmahow monuden"
 	minor
@@ -331,6 +361,8 @@ mission "hire cooling lohmahow monuden"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire cooling krikey"
 	minor
@@ -352,6 +384,8 @@ mission "hire cooling krikey"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire cooling kemme ranris"
 	minor
@@ -373,6 +407,8 @@ mission "hire cooling kemme ranris"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire cooling lotura"
 	minor
@@ -395,6 +431,8 @@ mission "hire cooling lotura"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire cooling chana"
 	minor
@@ -416,6 +454,8 @@ mission "hire cooling chana"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire energy deirdre ciaran"
 	minor
@@ -437,6 +477,8 @@ mission "hire energy deirdre ciaran"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire energy lisa zola"
 	minor
@@ -458,6 +500,8 @@ mission "hire energy lisa zola"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire energy normand kiran"
 	minor
@@ -479,6 +523,8 @@ mission "hire energy normand kiran"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire energy simona branka"
 	minor
@@ -500,6 +546,8 @@ mission "hire energy simona branka"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire energy auriiel"
 	minor
@@ -520,6 +568,8 @@ mission "hire energy auriiel"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire energy akane sakai"
 	minor
@@ -540,6 +590,8 @@ mission "hire energy akane sakai"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire energy aikach"
 	minor
@@ -561,6 +613,8 @@ mission "hire energy aikach"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire energy raindrop"
 	minor
@@ -581,6 +635,8 @@ mission "hire energy raindrop"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire energy paicha"
 	minor
@@ -603,6 +659,8 @@ mission "hire energy paicha"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire energy pilos"
 	minor
@@ -624,6 +682,8 @@ mission "hire energy pilos"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire engine anahit bodil"
 	minor
@@ -645,6 +705,8 @@ mission "hire engine anahit bodil"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire engine chetana jaleh"
 	minor
@@ -666,6 +728,8 @@ mission "hire engine chetana jaleh"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire engine neal fransson"
 	minor
@@ -687,6 +751,8 @@ mission "hire engine neal fransson"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire engine valeriya jannick"
 	minor
@@ -708,6 +774,8 @@ mission "hire engine valeriya jannick"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire engine efeduefyu"
 	minor
@@ -728,6 +796,8 @@ mission "hire engine efeduefyu"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire engine riko ishii"
 	minor
@@ -748,6 +818,8 @@ mission "hire engine riko ishii"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire engine ifir rakik"
 	minor
@@ -769,6 +841,8 @@ mission "hire engine ifir rakik"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire engine midnight"
 	minor
@@ -789,6 +863,8 @@ mission "hire engine midnight"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire engine kyree"
 	minor
@@ -811,6 +887,8 @@ mission "hire engine kyree"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire engine ulos"
 	minor
@@ -832,6 +910,8 @@ mission "hire engine ulos"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire fuel carl ahmad"
 	minor
@@ -853,6 +933,8 @@ mission "hire fuel carl ahmad"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire fuel kfir balam"
 	minor
@@ -874,6 +956,8 @@ mission "hire fuel kfir balam"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire fuel kostis joona"
 	minor
@@ -895,6 +979,8 @@ mission "hire fuel kostis joona"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire fuel nina sotiroula"
 	minor
@@ -916,6 +1002,8 @@ mission "hire fuel nina sotiroula"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire fuel sookot dulur"
 	minor
@@ -936,6 +1024,8 @@ mission "hire fuel sookot dulur"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire fuel voriar"
 	minor
@@ -957,6 +1047,8 @@ mission "hire fuel voriar"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire fuel ozon"
 	minor
@@ -977,6 +1069,8 @@ mission "hire fuel ozon"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire fuel comseci"
 	minor
@@ -999,6 +1093,8 @@ mission "hire fuel comseci"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire fuel boudaa"
 	minor
@@ -1019,6 +1115,8 @@ mission "hire fuel boudaa"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire fuel isi"
 	minor
@@ -1040,6 +1138,8 @@ mission "hire fuel isi"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire hull anuradha talin"
 	minor
@@ -1061,6 +1161,8 @@ mission "hire hull anuradha talin"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire hull julia grainne"
 	minor
@@ -1082,6 +1184,8 @@ mission "hire hull julia grainne"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire hull silvius hildegard"
 	minor
@@ -1103,6 +1207,8 @@ mission "hire hull silvius hildegard"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire hull sabina draga"
 	minor
@@ -1124,6 +1230,30 @@ mission "hire hull sabina draga"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
+
+mission "hire hull atras"
+	minor
+	invisible
+	source
+		government "Hicemus" "Conlatio"
+		attributes "outfitter"
+	to offer
+		random > 98
+	on decline
+		outfit "hull atras" 1
+	on offer
+		conversation
+			scene "portrait/incipias05"
+			`In a spaceport bar you get to know a highly qualified expert in hull effectivity. He is looking for work. His name is Atras, he is an Incipias, and he demands a daily wage of 3700 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire hull shiro kan"
 	minor
@@ -1144,6 +1274,8 @@ mission "hire hull shiro kan"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire hull ak'en oaip"
 	minor
@@ -1165,6 +1297,8 @@ mission "hire hull ak'en oaip"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire hull achee"
 	minor
@@ -1187,6 +1321,8 @@ mission "hire hull achee"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire hull potamog"
 	minor
@@ -1209,6 +1345,8 @@ mission "hire hull potamog"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire hull kinmi"
 	minor
@@ -1229,6 +1367,8 @@ mission "hire hull kinmi"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire jamming aline mai"
 	minor
@@ -1250,6 +1390,8 @@ mission "hire jamming aline mai"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire jamming dominik bullock"
 	minor
@@ -1271,6 +1413,8 @@ mission "hire jamming dominik bullock"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire jamming enver diefenbach"
 	minor
@@ -1292,6 +1436,8 @@ mission "hire jamming enver diefenbach"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire jamming raban fields"
 	minor
@@ -1313,6 +1459,8 @@ mission "hire jamming raban fields"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire jamming umeo ageta"
 	minor
@@ -1333,6 +1481,30 @@ mission "hire jamming umeo ageta"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
+
+mission "hire jamming merus"
+	minor
+	invisible
+	source
+		government "Hicemus" "Conlatio"
+		attributes "outfitter"
+	to offer
+		random > 98
+	on decline
+		outfit "jamming merus" 1
+	on offer
+		conversation
+			scene "portrait/incipias04"
+			`In a spaceport bar you get to know a highly qualified expert in jamming technologies. He is looking for work. His name is Merus, he is an Incipias, and he demands a daily wage of 4000 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire jamming snowfall"
 	minor
@@ -1353,6 +1525,8 @@ mission "hire jamming snowfall"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire jamming temtuor"
 	minor
@@ -1375,6 +1549,8 @@ mission "hire jamming temtuor"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire jamming plortab"
 	minor
@@ -1397,6 +1573,8 @@ mission "hire jamming plortab"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire jamming naaq"
 	minor
@@ -1417,6 +1595,8 @@ mission "hire jamming naaq"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire scanner ivanus kozlov"
 	minor
@@ -1438,6 +1618,8 @@ mission "hire scanner ivanus kozlov"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire scanner mikmel wanjala"
 	minor
@@ -1459,6 +1641,8 @@ mission "hire scanner mikmel wanjala"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire scanner saffira ivka"
 	minor
@@ -1480,6 +1664,30 @@ mission "hire scanner saffira ivka"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
+
+mission "hire scanner kasar"
+	minor
+	invisible
+	source
+		government "Hicemus" "Conlatio"
+		attributes "outfitter"
+	to offer
+		random > 98
+	on decline
+		outfit "scanner kasar" 1
+	on offer
+		conversation
+			scene "portrait/incipias03"
+			`In a spaceport bar you get to know a highly qualified expert in scanner technologies. He is looking for work. His name is Kasar, he is an Incipias, and he demands a daily wage of 3100 credits.`
+			choice
+				`don't hire him (maybe you will meet him again)`
+					defer
+				`hire him`
+					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire scanner tichaona yong"
 	minor
@@ -1501,6 +1709,8 @@ mission "hire scanner tichaona yong"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire scanner rashi vaitle"
 	minor
@@ -1521,6 +1731,8 @@ mission "hire scanner rashi vaitle"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire scanner kriik"
 	minor
@@ -1542,6 +1754,8 @@ mission "hire scanner kriik"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire scanner expari"
 	minor
@@ -1564,6 +1778,8 @@ mission "hire scanner expari"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire scanner tugrup"
 	minor
@@ -1586,6 +1802,8 @@ mission "hire scanner tugrup"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire scanner oublaa"
 	minor
@@ -1606,6 +1824,8 @@ mission "hire scanner oublaa"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire shield lucille meritites"
 	minor
@@ -1627,6 +1847,8 @@ mission "hire shield lucille meritites"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire shield sonja halimah"
 	minor
@@ -1648,6 +1870,8 @@ mission "hire shield sonja halimah"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire shield taisto nithin"
 	minor
@@ -1669,6 +1893,30 @@ mission "hire shield taisto nithin"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
+
+mission "hire shield lativa"
+	minor
+	invisible
+	source
+		government "Hicemus" "Conlatio"
+		attributes "outfitter"
+	to offer
+		random > 98
+	on decline
+		outfit "shield lativa" 1
+	on offer
+		conversation
+			scene "portrait/incipias02"
+			`In a spaceport bar you get to know a highly qualified expert in shield effectivity. She is looking for work. Her name is Lativa, she is an Incipias, and she demands a daily wage of 3400 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire shield monika raganhildis"
 	minor
@@ -1690,6 +1938,8 @@ mission "hire shield monika raganhildis"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire shield saburo aoki"
 	minor
@@ -1710,6 +1960,8 @@ mission "hire shield saburo aoki"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire shield ilesam bableh"
 	minor
@@ -1731,6 +1983,8 @@ mission "hire shield ilesam bableh"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire shield nisieum"
 	minor
@@ -1753,6 +2007,8 @@ mission "hire shield nisieum"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire shield chi'a"
 	minor
@@ -1775,6 +2031,8 @@ mission "hire shield chi'a"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire shield uondi"
 	minor
@@ -1795,6 +2053,8 @@ mission "hire shield uondi"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire storage darius hasegawa"
 	minor
@@ -1816,6 +2076,8 @@ mission "hire storage darius hasegawa"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire storage eduardo wapasha"
 	minor
@@ -1837,6 +2099,8 @@ mission "hire storage eduardo wapasha"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire storage mani godefrid"
 	minor
@@ -1858,6 +2122,30 @@ mission "hire storage mani godefrid"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
+
+mission "hire storage aelia"
+	minor
+	invisible
+	source
+		government "Hicemus" "Conlatio"
+		attributes "outfitter"
+	to offer
+		random > 98
+	on decline
+		outfit "storage aelia" 1
+	on offer
+		conversation
+			scene "portrait/incipias01"
+			`In a spaceport bar you get to know a highly qualified expert in storage management. She is looking for work. Her name is Aelia, she is an Incipias, and she demands a daily wage of 3100 credits.`
+			choice
+				`don't hire her (maybe you will meet her again)`
+					defer
+				`hire her`
+					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire storage marie zohreh"
 	minor
@@ -1879,6 +2167,8 @@ mission "hire storage marie zohreh"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire storage yxoorevyt"
 	minor
@@ -1899,6 +2189,8 @@ mission "hire storage yxoorevyt"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire storage touna farchi"
 	minor
@@ -1919,6 +2211,8 @@ mission "hire storage touna farchi"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire storage reisek"
 	minor
@@ -1940,6 +2234,8 @@ mission "hire storage reisek"
 					defer
 				`hire him`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire storage swift"
 	minor
@@ -1960,6 +2256,8 @@ mission "hire storage swift"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 
 mission "hire storage mupoop"
 	minor
@@ -1982,4 +2280,6 @@ mission "hire storage mupoop"
 					defer
 				`hire her`
 					decline
+	on decline
+		"hiredexperts" ++
 

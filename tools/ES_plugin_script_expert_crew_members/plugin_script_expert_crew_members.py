@@ -28,7 +28,7 @@ def set_globals():
 	fsource = 'crew.list.txt' # input
 	foutfits = 'outfits.txt' # output
 	fmissions = 'missions.txt' # output
-	percent = 1 # mission chance
+	percent = 98 # mission chance
 	names, fields, locations, races, sexes, images, money, stat1, stat2, stat3, saveedit1, saveedit2, saveedit3, sourcelines = [], [], [], [], [], [], [], [], [], [], [], [], [], []
 
 
@@ -193,51 +193,68 @@ def write_files():
 						source = '\t\tgovernment "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"\n'
 						source2 = '\t\tattributes "' + locations[index] + '"\n'
 						tooffer = ''
+						raceindex = '01100'
 					elif races[index] == 'hai':
 						source = '\t\tgovernment "Hai"\n'
 						source2 = ''
 						tooffer = ''
+						raceindex = '02100'
 					elif races[index] == 'remnant':
 						source = '\t\tgovernment "Remnant"\n'
 						source2 = ''
 						tooffer = ''
+						raceindex = '03100'
 					elif races[index] == 'korath':
 						source = '\t\tgovernment "Kor Efret"\n'
 						source2 = ''
 						tooffer = '\t\thas "Wanderers: Rek To Kor Efret: done"\n'
+						raceindex = '04100'
 					elif races[index] == 'bunrodea':
 						source = '\t\tgovernment "Bunrodea" "Bunrodea (Guard)"\n'
 						source2 = ''
 						tooffer = ''
+						raceindex = '10100'
 					elif races[index] == 'wanderer':
 						source = '\t\tgovernment "Wanderer"\n'
 						source2 = ''
 						tooffer = '\t\thas "language: Wanderer"\n'
+						raceindex = '09100'
 					elif races[index] == 'arach':
 						source = '\t\tgovernment "Coalition"\n'
 						source2 = '\t\tattributes "' + races[index] + '"\n'
 						tooffer = '\t\thas "Coalition: First Contact: done"\n'
+						raceindex = '08100'
 					elif races[index] == 'kimek':
 						source = '\t\tgovernment "Coalition"\n'
 						source2 = '\t\tattributes "' + races[index] + '"\n'
 						tooffer = '\t\thas "Coalition: First Contact: done"\n'
+						raceindex = '08101'
 					elif races[index] == 'saryd':
 						source = '\t\tgovernment "Coalition"\n'
 						source2 = '\t\tattributes "' + races[index] + '"\n'
 						tooffer = '\t\thas "Coalition: First Contact: done"\n'
+						raceindex = '08102'
 					elif races[index] == 'gegno':
 						source = '\t\tgovernment "Gegno" "Gegno Scin" "Gegno Vi"\n'
 						source2 = ''
 						tooffer = ''
+						raceindex = '06100'
 					elif races[index] == 'successor':
 						source = '\t\tgovernment "Successor" "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "Old Houses" "New Houses"'
 						source += ' "' + "People's Houses" + '"\n'
 						source2 = ''
 						tooffer = ''
+						raceindex = '11100'
 					elif races[index] == 'avgi':
 						source = '\t\tgovernment "Avgi (Consonance)" "Avgi (Twilight Guard)" "Avgi (Dissonance)"\n'
 						source2 = ''
 						tooffer = '\t\thas "Avgi: First Contact: done"\n'
+						raceindex = '07100'
+					elif races[index] == 'incipias':
+						source = '\t\tgovernment "Hicemus" "Conlatio"\n'
+						source2 = ''
+						tooffer = ''
+						raceindex = '12100'
 					# writing the outfit
 					outfits_file.writelines('outfit "' + fields[index] + ' '  + names[index] + '"\n')
 					saveedit3.append('\t\t"' + fields[index] + ' '  + names[index] + '"\n')
@@ -252,6 +269,8 @@ def write_files():
 					outfits_file.writelines('\t"unique" 1\n')
 					outfits_file.writelines('\t' + stat1[index] + '\n')
 					outfits_file.writelines('\t' + stat2[index] + '\n')
+					outfits_file.writelines('\tseries "Functional Unique"\n')
+					outfits_file.writelines('\tindex ' + raceindex + '\n')
 					if stat3[index] != '':
 						outfits_file.writelines('\t' + stat3[index] + '\n')
 					outfits_file.writelines('\tdescription `This is a highly educated employee focused on '+ prefield + fields[index] + postfield \
@@ -271,7 +290,7 @@ def write_files():
 					missions_file.writelines('\tto offer\n')
 					if tooffer != '':
 						missions_file.writelines(tooffer)
-					missions_file.writelines('\t\trandom < ' + str(percent) + '\n')
+					missions_file.writelines('\t\trandom > ' + str(percent) + '\n')
 					missions_file.writelines('\ton decline\n')
 					missions_file.writelines('\t\toutfit "' + fields[index] + ' ' + names[index] + '" 1\n')
 					missions_file.writelines('\ton offer\n')
@@ -285,6 +304,8 @@ def write_files():
 					missions_file.writelines('\t\t\t\t\tdefer\n')
 					missions_file.writelines('\t\t\t\t`hire ' + pronoun2 + '`\n')
 					missions_file.writelines('\t\t\t\t\tdecline\n')
+					missions_file.writelines('\ton decline\n')
+					missions_file.writelines('\t\t"hiredexperts" ++\n')
 					missions_file.writelines('\n')
 		# writing additional infos to crew.list.txt / the save editing part
 		for line in sourcelines:

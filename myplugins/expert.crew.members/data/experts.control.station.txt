@@ -32,7 +32,7 @@ mission "plugin: expert.crew.members"
 					goto "end"
 			label "show missing"
 			`You have found &[hiredexperts] of 100 experts!`
-			`missing experts (found with 1% chance change on planets with an outfitter):`
+			`missing experts (found with 2% chance change on planets with an outfitter):`
 			``
 
 			`Rim`
