@@ -3499,10 +3499,10 @@ mission "Mission Helper"
 					to display
 						not "FW Bloodsea 1.2A: offered"
 					goto "FW Bloodsea 1.2A"
-				`Pirate Use Jousting Cutthroat`
+				`Pirates Use Cutthroat`
 					to display
-						not "Pirate Use Jousting Cutthroat: offered"
-					goto "Pirate Use Jousting Cutthroat"
+						not "Pirates Use Cutthroat: offered"
+					goto "Pirates Use Cutthroat"
 				`FW Dreadnoughts Ready`
 					to display
 						not "FW Dreadnoughts Ready: offered"
@@ -5627,6 +5627,10 @@ mission "Mission Helper"
 					to display
 						not "Remnant: Cognizance 18: offered"
 					goto "Remnant: Cognizance 18"
+				`Remnant: Cognizance 18B`
+					to display
+						not "Remnant: Cognizance 18B: offered"
+					goto "Remnant: Cognizance 18B"
 				`Remnant: Cognizance 19`
 					to display
 						not "Remnant: Cognizance 19: offered"
@@ -18678,6 +18682,8 @@ mission "Mission Helper"
 			`	to offer`
 			`		random < 40`
 			`		has "Deep: Mystery Cubes 4: done"`
+			`		not "Deep: TMBR 0: active"`
+			`		not "Deep: TMBR 1: active"`
 			`		or`
 			`			not "chosen sides"`
 			`			has "main plot completed"`
@@ -18686,6 +18692,12 @@ mission "Mission Helper"
 			`has "Deep: Mystery Cubes 4: done"`
 				to display
 					has "Deep: Mystery Cubes 4: done"
+			`not "Deep: TMBR 0: active"`
+				to display
+					not "Deep: TMBR 0: active"
+			`not "Deep: TMBR 1: active"`
+				to display
+					not "Deep: TMBR 1: active"
 			`not "chosen sides"`
 				to display
 					not "chosen sides"
@@ -22482,17 +22494,12 @@ mission "Mission Helper"
 			`starts at: spaceport`
 			`	source Trinket`
 			`	to offer`
-			`		or`
-			`			has "FW Southern Recon 1B: done"`
-			`			has "FW Southern Recon 1B (Turret): done"`
+			`		has "FW Southern Recon 1: done"`
 			``
 			`You have the following missions, events and conditions:`
-			`has "FW Southern Recon 1B: done"`
+			`has "FW Southern Recon 1: done"`
 				to display
-					has "FW Southern Recon 1B: done"
-			`has "FW Southern Recon 1B (Turret): done"`
-				to display
-					has "FW Southern Recon 1B (Turret): done"
+					has "FW Southern Recon 1: done"
 			``
 			choice
 				`[back to "Human | Free worlds 2 middle""]`
@@ -23173,8 +23180,8 @@ mission "Mission Helper"
 					goto "human"
 				`[back to "Races"]`
 					goto "start"
-			label "Pirate Use Jousting Cutthroat"
-			`human/free worlds 2 middle.txt | mission "Pirate Use Jousting Cutthroat"`
+			label "Pirates Use Cutthroat"
+			`human/free worlds 2 middle.txt | mission "Pirates Use Cutthroat"`
 			`starts at: landing`
 			`	to offer`
 			`		has "fw bloodsea done"`
@@ -34192,6 +34199,26 @@ mission "Mission Helper"
 					goto "remnant"
 				`[back to "Races"]`
 					goto "start"
+			label "Remnant: Cognizance 18B"
+			`remnant/remnant 2 cognizance.txt | mission "Remnant: Cognizance 18B"`
+			`starts at: entering`
+			`	source`
+			`		system "Nenia"`
+			`	to offer`
+			`		has "Remnant: Cognizance 18: active"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Remnant: Cognizance 18: active"`
+				to display
+					has "Remnant: Cognizance 18: active"
+			``
+			choice
+				`[back to "Remnant | Remnant 2 cognizance""]`
+					goto "remnant/remnant 2 cognizance.txt"
+				`[back to "Remnant"]`
+					goto "remnant"
+				`[back to "Races"]`
+					goto "start"
 			label "Remnant: Cognizance 19"
 			`remnant/remnant 2 cognizance.txt | mission "Remnant: Cognizance 19"`
 			`starts at: landing`
@@ -39940,5 +39967,5 @@ mission "Mission Helper"
 					goto "start"
 			label "close"
 			`I hope that helped!`
-	on daily
+				decline
 		fail
