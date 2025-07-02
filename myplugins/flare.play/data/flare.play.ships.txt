@@ -11,7 +11,7 @@
 # ship "Bounder" "Bounder (Flare)" / "flare efreti flare medium 1.0 7"
 # ship "Bulk Freighter" "Bulk Freighter (Flare)" / "flare incipias flare metallic hydrogen medium 1.0 24"
 # ship "Clipper" "Clipper (Flare)" / "flare ka'het flare medium 1.0 30"
-# ship "Corvette" "Corvette (Flare)" / "flare medium graviton flare 1.0 1"
+# ship "Corvette" "Corvette (Flare)" / "flare graviton flare graviton flare 1.25 5"
 # ship "Enforcer" "Enforcer (Flare)" / "flare remnant flare medium 1.0 4"
 # ship "Falcon" "Falcon (Flare)" / "flare bunrodea flare large 0.3 1"
 # ship "Firebird" "Firebird (Flare)" / "flare remnant flare large 1.0 3"
@@ -37,7 +37,7 @@
 # ship "Modified Argosy" "Modified Argosy (Flare)" / "flare efreti flare small 1.0 7.5"
 # ship "Mule" "Mule (Flare)" / "flare incipias flare metallic hydrogen large 1.0 24"
 # ship "Osprey" "Osprey (Flare)" / "flare plasma exhaust 1.0 16"
-# ship "Protector" "Protector (Flare)" / "flare avgi flare antimatter 0.25 15"
+# ship "Protector" "Protector (Flare)" / "flare avgi flare antimatter 1.0 15"
 # ship "Quicksilver" "Quicksilver (Flare)" / "flare bunrodea flare large 1.0 1"
 # ship "Raven" "Raven (Flare)" / "flare ion flare huge 1.0 0.8"
 # ship "Saber" "Saber (Flare)" / "flare coalition flare large 1.0 7"
@@ -55,6 +55,7 @@
 # ship "Auxiliary" "Auxiliary (Flare)" / "chromatic korath_yellow_6 2.0"
 # ship "Cruiser" "Cruiser (Flare)" / "chromatic bun_purple_1 2.0"
 # ship "Carrier" "Carrier (Flare)" / 	"chromatic inci_rainbow_1 2.0"
+
 
 
 #planet "Wayfarer"
@@ -299,7 +300,7 @@ ship "Corvette" "Corvette (Flare)"
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
 		"Hyperdrive"
-		"flare medium graviton flare 1.0 1" 2
+		"flare graviton flare graviton flare 1.25 5" 2
 
 ship "Enforcer" "Enforcer (Flare)"
 	outfits
@@ -720,7 +721,7 @@ ship "Protector" "Protector (Flare)"
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
 		"Hyperdrive"
-		"flare avgi flare antimatter 0.25 15" 2
+		"flare avgi flare antimatter 1.0 15" 2
 
 ship "Quicksilver" "Quicksilver (Flare)"
 	outfits

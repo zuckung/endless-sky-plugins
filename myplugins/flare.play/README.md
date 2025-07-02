@@ -9,6 +9,9 @@ Missions and events: On day 1 after plugin installation, a mission shows up, exp
 <br>
 Changelog:<br>
 <br>
+2025-07-02<br>
+updated to 0.10.14<br>
+<br>
 2025-05-01<br>
 fixed Vi violet flare<br>
 added 25 recolored Korath flares<br>

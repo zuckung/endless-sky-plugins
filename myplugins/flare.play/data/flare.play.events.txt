@@ -3,6 +3,7 @@
 # event "flare.play.wave3"
 
 
+
 event "flare.play.wave1"
 	fleet "Small Southern Merchants"
 		add variant 5
