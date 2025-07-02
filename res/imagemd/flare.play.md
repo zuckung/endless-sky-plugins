@@ -498,216 +498,224 @@ graphic files for the plugin: flare.play<br>
 		vi_violet_2.5+2.png [60x120]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newcolors/vi_violet_2.5+3.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newcolors/vi_violet_2.5+3.png" width="60" height="120"></a><br>
+		vi_violet_2.5+3.png [60x120]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newcolors/vi_yellow_2.5+0.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newcolors/vi_yellow_2.5+0.png" width="60" height="120"></a><br>
 		vi_yellow_2.5+0.png [60x120]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newcolors/vi_yellow_2.5+1.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newcolors/vi_yellow_2.5+1.png" width="60" height="120"></a><br>
 		vi_yellow_2.5+1.png [60x120]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newcolors/vi_yellow_2.5+2.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newcolors/vi_yellow_2.5+2.png" width="60" height="120"></a><br>
-		vi_yellow_2.5+2.png [60x120]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newcolors/vi_yellow_2.5+2.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newcolors/vi_yellow_2.5+2.png" width="60" height="120"></a><br>
+		vi_yellow_2.5+2.png [60x120]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/afterburner afterburner+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/afterburner afterburner+.png" width="180" height="180"></a><br>
 		afterburner afterburner+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/afterburner afterburner+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/afterburner afterburner+@2x.png" height="200"></a><br>
 		afterburner afterburner+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare huge flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare huge flare+.png" width="180" height="180"></a><br>
-		atomic flare huge flare+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare huge flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare huge flare+.png" width="180" height="180"></a><br>
+		atomic flare huge flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare huge flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare huge flare+@2x.png" height="200"></a><br>
 		atomic flare huge flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare huge steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare huge steering+.png" width="180" height="180"></a><br>
 		atomic flare huge steering+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare huge steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare huge steering+@2x.png" height="200"></a><br>
-		atomic flare huge steering+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare huge steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare huge steering+@2x.png" height="200"></a><br>
+		atomic flare huge steering+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare large flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare large flare+.png" width="180" height="180"></a><br>
 		atomic flare large flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare large flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare large flare+@2x.png" height="200"></a><br>
 		atomic flare large flare+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare large steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare large steering+.png" width="180" height="180"></a><br>
-		atomic flare large steering+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare large steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare large steering+.png" width="180" height="180"></a><br>
+		atomic flare large steering+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare large steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare large steering+@2x.png" height="200"></a><br>
 		atomic flare large steering+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare medium flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare medium flare+.png" width="180" height="180"></a><br>
 		atomic flare medium flare+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare medium flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare medium flare+@2x.png" height="200"></a><br>
-		atomic flare medium flare+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare medium flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare medium flare+@2x.png" height="200"></a><br>
+		atomic flare medium flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare medium steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare medium steering+.png" width="180" height="180"></a><br>
 		atomic flare medium steering+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare medium steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare medium steering+@2x.png" height="200"></a><br>
 		atomic flare medium steering+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare small flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare small flare+.png" width="180" height="180"></a><br>
-		atomic flare small flare+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare small flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare small flare+.png" width="180" height="180"></a><br>
+		atomic flare small flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare small flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare small flare+@2x.png" height="200"></a><br>
 		atomic flare small flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare small reverse+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare small reverse+.png" width="180" height="180"></a><br>
 		atomic flare small reverse+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare small reverse+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare small reverse+@2x.png" height="200"></a><br>
-		atomic flare small reverse+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare small reverse+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare small reverse+@2x.png" height="200"></a><br>
+		atomic flare small reverse+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare small steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare small steering+.png" width="180" height="180"></a><br>
 		atomic flare small steering+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare small steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare small steering+@2x.png" height="200"></a><br>
 		atomic flare small steering+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny flare+.png" width="180" height="180"></a><br>
-		atomic flare tiny flare+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny flare+.png" width="180" height="180"></a><br>
+		atomic flare tiny flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny flare+@2x.png" height="200"></a><br>
 		atomic flare tiny flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny reverse+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny reverse+.png" width="180" height="180"></a><br>
 		atomic flare tiny reverse+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny reverse+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny reverse+@2x.png" height="200"></a><br>
-		atomic flare tiny reverse+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny reverse+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny reverse+@2x.png" height="200"></a><br>
+		atomic flare tiny reverse+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny steering+.png" width="180" height="180"></a><br>
 		atomic flare tiny steering+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/atomic flare tiny steering+@2x.png" height="200"></a><br>
 		atomic flare tiny steering+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare antimatter flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare antimatter flare+.png" width="180" height="180"></a><br>
-		avgi flare antimatter flare+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare antimatter flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare antimatter flare+.png" width="180" height="180"></a><br>
+		avgi flare antimatter flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare antimatter flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare antimatter flare+@2x.png" height="200"></a><br>
 		avgi flare antimatter flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare fusion flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare fusion flare+.png" width="180" height="180"></a><br>
 		avgi flare fusion flare+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare fusion flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare fusion flare+@2x.png" height="200"></a><br>
-		avgi flare fusion flare+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare fusion flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare fusion flare+@2x.png" height="200"></a><br>
+		avgi flare fusion flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare rcs reverse+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare rcs reverse+.png" width="180" height="180"></a><br>
 		avgi flare rcs reverse+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare rcs reverse+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare rcs reverse+@2x.png" height="200"></a><br>
 		avgi flare rcs reverse+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare rcs steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare rcs steering+.png" width="180" height="180"></a><br>
-		avgi flare rcs steering+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare rcs steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare rcs steering+.png" width="180" height="180"></a><br>
+		avgi flare rcs steering+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare rcs steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare rcs steering+@2x.png" height="200"></a><br>
 		avgi flare rcs steering+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare remass afterburner+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare remass afterburner+.png" width="180" height="180"></a><br>
 		avgi flare remass afterburner+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare remass afterburner+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare remass afterburner+@2x.png" height="200"></a><br>
-		avgi flare remass afterburner+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/avgi flare remass afterburner+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/avgi flare remass afterburner+@2x.png" height="200"></a><br>
+		avgi flare remass afterburner+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/bunrodea flare large flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/bunrodea flare large flare+.png" width="180" height="180"></a><br>
 		bunrodea flare large flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/bunrodea flare large flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/bunrodea flare large flare+@2x.png" height="200"></a><br>
 		bunrodea flare large flare+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare large flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare large flare+.png" width="180" height="180"></a><br>
-		coalition flare large flare+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare large flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare large flare+.png" width="180" height="180"></a><br>
+		coalition flare large flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare large flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare large flare+@2x.png" height="200"></a><br>
 		coalition flare large flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare large reverse+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare large reverse+.png" width="180" height="180"></a><br>
 		coalition flare large reverse+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare large reverse+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare large reverse+@2x.png" height="200"></a><br>
-		coalition flare large reverse+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare large reverse+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare large reverse+@2x.png" height="200"></a><br>
+		coalition flare large reverse+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare large steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare large steering+.png" width="180" height="180"></a><br>
 		coalition flare large steering+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare large steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare large steering+@2x.png" height="200"></a><br>
 		coalition flare large steering+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare small flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare small flare+.png" width="180" height="180"></a><br>
-		coalition flare small flare+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare small flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare small flare+.png" width="180" height="180"></a><br>
+		coalition flare small flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare small flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare small flare+@2x.png" height="200"></a><br>
 		coalition flare small flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare small reverse+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare small reverse+.png" width="180" height="180"></a><br>
 		coalition flare small reverse+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare small reverse+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare small reverse+@2x.png" height="200"></a><br>
-		coalition flare small reverse+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare small reverse+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare small reverse+@2x.png" height="200"></a><br>
+		coalition flare small reverse+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare small steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare small steering+.png" width="180" height="180"></a><br>
 		coalition flare small steering+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/coalition flare small steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/coalition flare small steering+@2x.png" height="200"></a><br>
 		coalition flare small steering+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare large flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare large flare+.png" width="180" height="180"></a><br>
-		efreti flare large flare+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare large flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare large flare+.png" width="180" height="180"></a><br>
+		efreti flare large flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare large flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare large flare+@2x.png" height="200"></a><br>
 		efreti flare large flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare large steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare large steering+.png" width="180" height="180"></a><br>
 		efreti flare large steering+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare large steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare large steering+@2x.png" height="200"></a><br>
-		efreti flare large steering+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare large steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare large steering+@2x.png" height="200"></a><br>
+		efreti flare large steering+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare medium flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare medium flare+.png" width="180" height="180"></a><br>
 		efreti flare medium flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare medium flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare medium flare+@2x.png" height="200"></a><br>
 		efreti flare medium flare+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare medium steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare medium steering+.png" width="180" height="180"></a><br>
-		efreti flare medium steering+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare medium steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare medium steering+.png" width="180" height="180"></a><br>
+		efreti flare medium steering+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare medium steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare medium steering+@2x.png" height="200"></a><br>
 		efreti flare medium steering+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare small flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare small flare+.png" width="180" height="180"></a><br>
 		efreti flare small flare+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare small flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare small flare+@2x.png" height="200"></a><br>
-		efreti flare small flare+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare small flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare small flare+@2x.png" height="200"></a><br>
+		efreti flare small flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare small steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare small steering+.png" width="180" height="180"></a><br>
 		efreti flare small steering+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare small steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare small steering+@2x.png" height="200"></a><br>
 		efreti flare small steering+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny flare+.png" width="180" height="180"></a><br>
-		efreti flare tiny flare+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny flare+.png" width="180" height="180"></a><br>
+		efreti flare tiny flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny flare+@2x.png" height="200"></a><br>
 		efreti flare tiny flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny steering+.png" width="180" height="180"></a><br>
 		efreti flare tiny steering+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny steering+@2x.png" height="200"></a><br>
-		efreti flare tiny steering+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/efreti flare tiny steering+@2x.png" height="200"></a><br>
+		efreti flare tiny steering+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fissionflare flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fissionflare flare+.png" width="180" height="180"></a><br>
 		fissionflare flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fissionflare flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fissionflare flare+@2x.png" height="200"></a><br>
 		fissionflare flare+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fissionflare steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fissionflare steering+.png" width="180" height="180"></a><br>
-		fissionflare steering+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fissionflare steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fissionflare steering+.png" width="180" height="180"></a><br>
+		fissionflare steering+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fissionflare steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fissionflare steering+@2x.png" height="200"></a><br>
 		fissionflare steering+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fusionflare flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fusionflare flare+.png" width="180" height="180"></a><br>
 		fusionflare flare+.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fusionflare flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fusionflare flare+@2x.png" height="200"></a><br>
-		fusionflare flare+@2x.png [360x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fusionflare flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fusionflare flare+@2x.png" height="200"></a><br>
+		fusionflare flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fusionflare reverse+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fusionflare reverse+.png" width="180" height="180"></a><br>
 		fusionflare reverse+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fusionflare reverse+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fusionflare reverse+@2x.png" height="200"></a><br>
 		fusionflare reverse+@2x.png [360x360]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fusionflare steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fusionflare steering+.png" width="180" height="180"></a><br>
-		fusionflare steering+.png [180x180]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fusionflare steering+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fusionflare steering+.png" width="180" height="180"></a><br>
+		fusionflare steering+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/fusionflare steering+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/fusionflare steering+@2x.png" height="200"></a><br>
 		fusionflare steering+@2x.png [360x360]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/graviton flare graviton flare flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/graviton flare graviton flare flare+.png" width="180" height="180"></a><br>
+		graviton flare graviton flare flare+.png [180x180]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/graviton flare graviton flare flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/graviton flare graviton flare flare+@2x.png" height="200"></a><br>
+		graviton flare graviton flare flare+@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/incipias flare metallic hydrogen large flare+.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/incipias flare metallic hydrogen large flare+.png" width="180" height="180"></a><br>
 		incipias flare metallic hydrogen large flare+.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/flare.play/images/effect/newflares/incipias flare metallic hydrogen large flare+@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/flare.play/images/effect/newflares/incipias flare metallic hydrogen large flare+@2x.png" height="200"></a><br>

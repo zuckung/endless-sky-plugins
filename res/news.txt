@@ -1,3 +1,4 @@
+2025-07-02 | update: flare.play
 2025-06-29 | update: mission.helper
 2025-06-25 | update: expert.crew.members
 2025-06-21 | update: uniques

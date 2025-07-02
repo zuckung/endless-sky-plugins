@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-07-02 | update: flare.play<br>
 2025-06-29 | update: mission.helper<br>
 2025-06-25 | update: expert.crew.members<br>
 2025-06-21 | update: uniques<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-21 | update: show.reputation<br>
 2025-06-19 | update: bunrodea.missions<br>
 2025-06-19 | update: captureable.person.ships<br>
-2025-06-18 | update: control.station<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1280,7 +1280,7 @@ Some updates have max ranks and others can get raised infinitely. These updates 
 
 If you change your ship or lose the unique combat AI outfit, a restoring mission installs everything that has been lost on the (new) ship.<br>
 
-Some mechanics and ideas are inspired by Zoura's excellent plugin "Tales of Apoxys DX" . My plugin is less complex, doesn't needs a fresh start, and is more flexible.<br>
+Some mechanics and ideas are inspired by Zoura's excellent plugin "Tales of Apoxys DX" . My plugin is less complex, doesn't need a fresh start, and is more flexible.<br>
 
 <br>
 
@@ -1289,6 +1289,16 @@ Some mechanics and ideas are inspired by Zoura's excellent plugin "Tales of Apox
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-07-02<br>
+
+change update mission start from landing to entering<br>
+
+added hai planets as source for offering<br>
+
+several small bugfixes<br>
 
 <br>
 
@@ -1896,7 +1906,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/flare.play/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/flare.play.png">
 
-[flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-flare.play/flare.play.zip) | 8.29 mb | 2025-05-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) <a href="res/imagemd/flare.play.md">view images</a> [541]<br>
+[flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-flare.play/flare.play.zip) | 8.32 mb | 2025-07-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) <a href="res/imagemd/flare.play.md">view images</a> [544]<br>
 <br>
 >Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by 'Thermognuclear Missile' on discord. See the README for details.
 
@@ -1921,6 +1931,12 @@ Missions and events: On day 1 after plugin installation, a mission shows up, exp
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-07-02<br>
+
+updated to 0.10.14<br>
 
 <br>
 
