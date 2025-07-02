@@ -7,7 +7,7 @@ better.starts|1.0.5
 bunrodea.missions|1.0.9
 captureable.person.ships|1.1.9
 coalition.shopping|1.0.6
-combat.ai|1.0.4
+combat.ai|1.0.5
 control.station|1.0.4
 devil-run.unhidden|1.0.1
 disable.person.ships|1.0.0
