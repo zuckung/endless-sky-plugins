@@ -1,9 +1,9 @@
 # outfits: # outfitname|displayname|maxRanks|stat1|stat2|...
-basic_outfit_space|Basic: Outfit Space +3|-|"outfit space" 2
-basic_cargo_space|Basic: Cargo Space +3|-|"cargo space" 2
+basic_outfit_space|Basic: Outfit Space +3|-|"outfit space" 3
+basic_cargo_space|Basic: Cargo Space +3|-|"cargo space" 3
 basic_bunks|Basic: Bunks +1|-|"bunks" 1
-basic_weapon_capacity|Basic: Weapon Capacity +3|-|"weapon capacity" 2
-basic_engine_capacity|Basic: Engine Capacity +3|-|"engine capacity" 2
+basic_weapon_capacity|Basic: Weapon Capacity +3|-|"weapon capacity" 3
+basic_engine_capacity|Basic: Engine Capacity +3|-|"engine capacity" 3
 basic_fuel_capacity|Basic: Fuel Capacity +100|-|"fuel capacity" 100
 basic_cooling|Basic: Cooling +600|-|"cooling" 10
 basic_energy_capacity|Basic: Energy Capacity +2000|-|"energy capacity" 2000
@@ -15,10 +15,9 @@ advanced_shield_generation|Advanced: Shield Gen. +60 +2%|-|"shield generation mu
 advanced_acceleration|Advanced: Acceleration +2%|-|"acceleration multiplier" .02
 advanced_turn|Advanced: Turn +2%|-|"turn multiplier" .02
 advanced_protection|Advanced: Protection +0.02|-|"ion protection" .02|"heat protection" .02|"burn protection" .02|"fuel protection" .02|"leak protection" .02|"scramble protection" .02|"slowing protection" .02|"disruption protection" .02
-advanced_weapon_capacity|Advanced: Weapon Capacity +10|10|"weapon capacity" 2
-advanced_engine_capacity|Advanced: Engine Capacity +10|10|"engine capacity" 2
+advanced_weapon_capacity|Advanced: Weapon Capacity +10|10|"weapon capacity" 10
+advanced_engine_capacity|Advanced: Engine Capacity +10|10|"engine capacity" 10
 advanced_bunks|Advanced: Bunks +5|10|"bunks" 5
-
 
 special_refueling|Special: Refueling|-|"ramscoop" 2|"fuel generation" .05
 special_more_outfit_space|Special: Outfit Space +20|10|"outfit space" 20
@@ -73,7 +72,7 @@ mission "combat_ai_start"
 	landing
 	invisible
 	source
-		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Hai"
 	on offer
 		outfit "combat_ai_core" 1
 		"combat_ai_fresh_start_update" = 1
@@ -118,9 +117,10 @@ mission "combat_ai_start"
 # mission 2: # replaced: <basic>, <advanced>, <special>
 mission "combat_ai_update"
 	non-blocking
-	landing
 	invisible
 	repeat
+	entering
+	destination "Earth"
 	to offer
 		has "outfit (flagship installed): combat_ai_core"
 		"combat_ai_fresh_start_update" == 1
@@ -196,30 +196,26 @@ mission "combat_ai_update"
 			branch "count updates3"
 
 			label "postcounting"
-			action
-				"combat_ai_updates1" += "combat_ai_installed_combat1"
-				"combat_ai_updates2" += "combat_ai_installed_combat2"
-				"combat_ai_updates3" += "combat_ai_installed_combat3"
-
 			label "start1"
 			branch "2"
 				"combat rating" - "combat_ai_old_combat_rating1" < "combat_ai_needed_xp1"
 			action
 				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
-				"combat_ai next rank2" = "combat_ai old combat rating 2" + "combat_ai_needed_xp2"
-				"combat_ai next rank3" = "combat_ai old combat rating 3" + "combat_ai_needed_xp3"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
 			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
-			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
-			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
-			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			branch "max1"
 				"combat_ai_needed_xp1" == 2850
 			label "not max1"
 			action
 				"combat_ai_installed_combat1" ++
+				"combat_ai_updates1" --
 				"combat_ai_old_combat_rating1" += "combat_ai_needed_xp1"
 				"combat_ai_needed_xp1" += 150
 			`	Basic Update to Rank &[combat_ai_installed_combat1] ...`
@@ -227,6 +223,7 @@ mission "combat_ai_update"
 			label "max1"
 			action
 				"combat_ai_installed_combat1" ++
+				"combat_ai_updates1" --
 				"combat_ai_old_combat_rating1" += "combat_ai_needed_xp1"
 			`	Basic Update to Rank &[combat_ai_installed_combat1] ...`
 			label "continue1"
@@ -243,9 +240,9 @@ mission "combat_ai_update"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
 			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
-			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
-			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
-			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			choice
 				`	continue to Advanced Updates`
@@ -259,24 +256,26 @@ mission "combat_ai_update"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
 			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
-			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
-			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
-			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			branch "max2"
 				"combat_ai_needed_xp2" == 6650
 			label "not max2"
 			action
 				"combat_ai_installed_combat2" ++
+				"combat_ai_updates2" --
 				"combat_ai_old_combat_rating2" += "combat_ai_needed_xp2"
 				"combat_ai_needed_xp2" += 350
-			`	Basic Update to Rank &[combat_ai_installed_combat2] ...`
+			`	Advanced Update to Rank &[combat_ai_installed_combat2] ...`
 				goto "continue2"
 			label "max2"
 			action
 				"combat_ai_installed_combat2" ++
+				"combat_ai_updates2" --
 				"combat_ai_old_combat_rating2" += "combat_ai_needed_xp2"
-			`	Basic Update to Rank &[combat_ai_installed_combat2] ...`
+			`	Advanced Update to Rank &[combat_ai_installed_combat2] ...`
 			label "continue2"
 			choice
 <advanced>
@@ -291,9 +290,9 @@ mission "combat_ai_update"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
 			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
-			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
-			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
-			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			choice
 				`	continue to Special Updates`
@@ -308,24 +307,26 @@ mission "combat_ai_update"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
 			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
-			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
-			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
-			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			branch "max3"
 				"combat_ai_needed_xp3" == 10450
 			label "not max3"
 			action
 				"combat_ai_installed_combat3" ++
+				"combat_ai_updates3" --
 				"combat_ai_old_combat_rating3" += "combat_ai_needed_xp3"
 				"combat_ai_needed_xp3" += 550
-			`	Basic Update to Rank &[combat_ai_installed_combat3] ...`
+			`	Special Update to Rank &[combat_ai_installed_combat3] ...`
 				goto "continue3"
 			label "max3"
 			action
 				"combat_ai_installed_combat3" ++
+				"combat_ai_updates3" --
 				"combat_ai_old_combat_rating3" += "combat_ai_needed_xp3"
-			`	Basic Update to Rank &[combat_ai_installed_combat3] ...`
+			`	Special Update to Rank &[combat_ai_installed_combat3] ...`
 			label "continue3"
 			choice
 <special>
@@ -337,9 +338,9 @@ mission "combat_ai_update"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
 			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
-			`	Basic Updates: &[combat_ai_installed_combat1] / &[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
-			`	Advanced Updates: &[combat_ai_installed_combat2] / &[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
-			`	Special Updates: &[combat_ai_installed_combat3] / &[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			`AI Database update complete!`
 				decline
@@ -386,7 +387,9 @@ mission "combat_ai_new_update"
 	landing
 	to offer
 		"combat_ai_fresh_start_update" != 1
+		"outfit (flagship installed): combat_ai_core" > 0
 	on offer
+		"combat_ai_fresh_start_update" = 1
 		conversation
 			label "start"
 			scene "outfit/unq_combat_ai"

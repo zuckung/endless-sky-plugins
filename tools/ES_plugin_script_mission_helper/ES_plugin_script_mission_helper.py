@@ -307,6 +307,11 @@ def write_mission(missions, mission_texts, mission_paths, systems, govs, blackli
 			elif pathpath in blacklist:
 				target.writelines('\t\t\t\t\tto display\n')
 				target.writelines('\t\t\t\t\t\thas "not in blacklist"\n')
+			elif pathpath == 'sheragi':
+				target.writelines('\t\t\t\t\tto display\n')
+				target.writelines('\t\t\t\t\t\tor\n')
+				target.writelines('\t\t\t\t\t\t\thas "helper spoiler"\n')
+				target.writelines('\t\t\t\t\t\t\thas "Rim Archaeology 6: declined"\n')
 			else:
 				target.writelines('\t\t\t\t\tto display\n')
 				target.writelines('\t\t\t\t\t\tor\n')
@@ -421,7 +426,7 @@ def write_mission(missions, mission_texts, mission_paths, systems, govs, blackli
 		# when all is done write the mission end
 		target.writelines('\t\t\tlabel "close"\n')
 		target.writelines('\t\t\t`I hope that helped!`\n')
-		target.writelines('\ton daily\n')
+		target.writelines('\t\t\t\tdecline\n')
 		target.writelines('\t\tfail\n')
 		
 
@@ -430,7 +435,7 @@ def run():
 	read_everything()
 	systems, govs = list_systems()
 	missions, mission_texts, mission_paths, starts = list_missions()
-	blacklist = ['sheragi'] # exclude these races from the race menu (no missions/no systems)
+	blacklist = [''] # exclude these races from the race menu (no missions/no systems)
 	write_mission(missions, mission_texts, mission_paths, systems, govs, blacklist, starts)
 
 

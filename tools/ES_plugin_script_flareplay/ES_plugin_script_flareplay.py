@@ -244,22 +244,26 @@ def writetxtfile(flare_effect_scripts, flare_effects):
 		sizeword = sizeword if scale == '' and sizeword != '' else scale
 		sizeword = sizeword if sizeword != '' else '1.0'
 		displayname = 'FP%counter%' + ' size: ' + sizeword
-		# cost
+		# cost & index
 		if effect_type == 'afterburner':
 			cost = 20000
+			findex = '99900'
 		if effect_type == 'reverse':
 			cost = 30000
+			findex = '99700'
 		if effect_type == 'steering':
 			cost = 30000
+			findex = '99800'
 		if effect_type == 'flare':
 			cost = 40000
+			findex = '99600'
 		# thumbnail
 		scale = '1.0' if scale == '' else scale
 		thumbnail = 'effect' + os.sep + 'newflares' + os.sep + original_path.replace('effect', '').replace('/', ' ').strip() + ' ' + effect_type
 		outfit_text = outfit_text_template
 		outfit_text = outfit_text.replace('%outfitname%', outfitname).replace('%displayname%', displayname)
 		outfit_text = outfit_text.replace('%cost%', str(int(cost*float(scale)*float(cost_multiplier))))
-		outfit_text = outfit_text.replace('%thumbnail%', thumbnail).replace('%flarestats%', each).replace('%index%', '99900')
+		outfit_text = outfit_text.replace('%thumbnail%', thumbnail).replace('%flarestats%', each).replace('%index%', findex)
 		outfit_text = outfit_text.replace('%original%', original_path.replace('effect/', '') + ' sc:' + scale + '/fr:' + frame_rate)
 		outfit_texts.append(outfit_text)
 	outfit_texts.sort()
@@ -270,7 +274,7 @@ def writetxtfile(flare_effect_scripts, flare_effects):
 	for file in filelist:
 		pos1 = file.find('+')
 		pos2 = file.find('.', pos1)
-		if file[pos1:pos2] == '+0':
+		if file[pos1:pos2] == '+0' or file[pos1:pos2] == '+00':
 			cost = 50000
 			counter2 += 10
 			str_counter2 = str(counter2)
@@ -343,6 +347,8 @@ def createimages(path, flarenames, flaretypes):
 		found = True
 		if os.path.isfile(new_path + each.replace('/', os.sep) + '+01.png'):
 			filename = '+01.png'
+		elif os.path.isfile(new_path + each.replace('/', os.sep) + '+00.png'):
+			filename = '+00.png'
 		elif os.path.isfile(new_path + each.replace('/', os.sep) + '+0.png'):
 			filename = '+0.png'
 		elif os.path.isfile(new_path + each.replace('/', os.sep) + '^0.png'):

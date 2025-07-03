@@ -2,6 +2,10 @@
 <br>
 <table>
 <tr>
+<td>plugin_script_boss_loot</td>
+<td>generates the weapon upgarde outfits, the wewpon upgrade mission, and the loottable conversation for the plugin boss.loot.</td>
+</tr>
+<tr>
 <td>plugin_script_combat_ai</td>
 <td>generates the outfits and the missions for the plugin combat.ai out of a simplified text file containing the outfits and mission templates.</td>
 </tr>

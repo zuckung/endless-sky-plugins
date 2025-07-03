@@ -1,0 +1,94 @@
+conversation dun1_conversation_1
+56%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+10%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+2%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+2ndloot|25%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_05
+2ndloot|25%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_06
+2ndloot|25%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_07
+2ndloot|25%|Voidshell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_08
+
+conversation dun1_conversation_2
+56%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+10%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+2%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+2ndloot|25%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_09
+2ndloot|25%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_10
+2ndloot|25%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_11
+2ndloot|25%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_12
+
+conversation dun1_conversation_3
+56%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+10%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+2%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+2ndloot|25%|Helix Pulse (shield generation multiplier)|dun1_rare_outfit_1|outfit/dun1/dun1_device_01
+2ndloot|25%|Helix Overframe (shield multiplier)|dun1_rare_outfit_2|outfit/dun1/dun1_device_02
+2ndloot|25%|Grav Injector (hull repair multiplier)|dun1_rare_outfit_3|outfit/dun1/dun1_device_03
+2ndloot|25%|Grav Weaver (hull multiplier)|dun1_rare_outfit_4|outfit/dun1/dun1_device_04
+
+conversation dun1_conversation_4
+44%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+20%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+4%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+2ndloot|8%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_05
+2ndloot|8%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_06
+2ndloot|8%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_07
+2ndloot|8%|Voidshell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_08
+2ndloot|8%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_09
+2ndloot|8%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_10
+2ndloot|8%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_11
+2ndloot|8%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_12
+2ndloot|8%|Helix Pulse (shield generation multiplier)|dun1_rare_outfit_1|outfit/dun1/dun1_device_01
+2ndloot|8%|Helix Overframe (shield multiplier)|dun1_rare_outfit_2|outfit/dun1/dun1_device_02
+2ndloot|8%|Grav Injector (hull repair multiplier)|dun1_rare_outfit_3|outfit/dun1/dun1_device_03
+2ndloot|8%|Grav Weaver (hull multiplier)|dun1_rare_outfit_4|outfit/dun1/dun1_device_04
+2ndloot|4%|Synthesizer (income)|dun1_rare_outfit_13|outfit/dun1/dun1_device_13
+
+conversation dun1_conversation_5
+44%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+20%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+4%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+2ndloot|8%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_05
+2ndloot|8%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_06
+2ndloot|8%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_07
+2ndloot|8%|Voidshell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_08
+2ndloot|8%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_09
+2ndloot|8%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_10
+2ndloot|8%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_11
+2ndloot|8%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_12
+2ndloot|8%|Helix Pulse (shield generation multiplier)|dun1_rare_outfit_1|outfit/dun1/dun1_device_01
+2ndloot|8%|Helix Overframe (shield multiplier)|dun1_rare_outfit_2|outfit/dun1/dun1_device_02
+2ndloot|8%|Grav Injector (hull repair multiplier)|dun1_rare_outfit_3|outfit/dun1/dun1_device_03
+2ndloot|8%|Grav Weaver (hull multiplier)|dun1_rare_outfit_4|outfit/dun1/dun1_device_04
+2ndloot|4%|Synthesizer (income)|dun1_rare_outfit_13|outfit/dun1/dun1_device_13
+
+conversation dun1_conversation_6
+30%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+30%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+8%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+2ndloot|50%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+2ndloot|35%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+2ndloot|15%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange

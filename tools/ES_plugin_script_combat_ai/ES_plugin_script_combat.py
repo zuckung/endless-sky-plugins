@@ -1,7 +1,7 @@
 
 def read_templates():
 	outfitlines = []
-	xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template,  mission4template = '', '', '', '', '', '', ''
+	xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template = '', '', '', '', '', '', ''
 	with open('data.txt', 'r') as source:
 		data = source.readlines()
 	for line in data:
@@ -213,7 +213,6 @@ def create_mission4(outfitnames, mission4template):
 		.replace('<basic>', basic[0:-1])\
 		.replace('<advanced>', advanced[0:-1])\
 		.replace('<special>', special[0:-1])		
-	
 	return mission4txt
 
 

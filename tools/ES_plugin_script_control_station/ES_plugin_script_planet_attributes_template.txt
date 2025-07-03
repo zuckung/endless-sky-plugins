@@ -1,0 +1,44 @@
+mission "QoL: Planet Attributes Visibility"
+	name "[2] QoL: Planet Attributes Visibility"
+	color selected "control.station qol job: selected"
+	color unselected "control.station qol job: unselected"
+	job
+	repeat
+	description "Show the, normally hidden, attributes in planet descriptions."
+	source "Control Station"
+	on accept
+		conversation
+			label "start"
+			`Show, the normally hidden, attributes in planet descriptions.`
+			`You shouldn't swap between showing and not showing attributes too often. Each swap increases your savegame by 400kb.`
+			choice
+				`	add planet attributes to its description`
+					to display
+						not "added planet attributes"
+					goto "set attributes"
+				`	remove planet attributes from its description`
+					to display
+						has "added planet attributes"
+					goto "remove attributes"
+				`	done`
+					goto "end"
+
+			label "set attributes"
+			action
+				event "add planet attributes"
+				set "added planet attributes"
+				clear "event: remove planet attributes"
+			`add planet attributes to its description: done!`
+				goto "start"
+
+			label "remove attributes"
+			action
+				event "remove planet attributes"
+				clear "added planet attributes"
+				clear "event: add planet attributes"
+			`remove planet attributes from its description: done!`
+				goto "start"
+
+			label "end"
+			``
+		fail
