@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-07-03 | update: boss.loot<br>
 2025-07-02 | update: combat.ai<br>
 2025-07-02 | update: flare.play<br>
 2025-06-29 | update: mission.helper<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-21 | update: human.labels<br>
 2025-06-21 | update: paint.your.ships<br>
 2025-06-21 | update: show.reputation<br>
-2025-06-19 | update: bunrodea.missions<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -41,6 +41,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#automatadestruction0percent">automata.destruction.0percent</a><br>
 <a href="README.md#automatainhumanspace">automata.in.human.space</a><br>
 <a href="README.md#betterstarts">better.starts</a><br>
+<a href="README.md#bossloot">boss.loot</a><br>
 <a href="README.md#bunrodeamissions">bunrodea.missions</a><br>
 <a href="README.md#captureablepersonships">captureable.person.ships</a><br>
 <a href="README.md#coalitionshopping">coalition.shopping</a><br>
@@ -659,6 +660,77 @@ screenshots(click to enlarge):<br>
 <table>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/better.starts01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
+
+
+---
+
+### boss.loot
+
+<img src="myplugins/boss.loot/icon.png" height="100">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/boss.loot.png">
+
+[boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-boss.loot/boss.loot.zip) | 17.49 mb | 2025-07-03 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) <a href="res/imagemd/boss.loot.md">view images</a> [579]<br>
+<br>
+>A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### endgame<br>
+
+<br>
+
+A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism.<br> 
+
+<br>
+
+<br>
+
+This plugin is co-authored by "Unknown_Rawrs" who did ship balancing, outfit design & brainstorming.<br>
+
+It is designed as an endgame farming spot to gather rare high-end outfits and weapon upgrades.<br>
+
+<br>
+
+A new wormhole opened in north of the Betelgeuse system and a new Navy station got build at its side. As soon as you land on the station you get a single "key" to enter the wormhole. That means only your flagship can enter. The encounters are designed to be played with a vanilla endgame heavy warship and the best vanilla outfits.<br>
+
+In each of the systems on the other side of the wormhole, you encounter a single heavy warship that tries to kill you, with partly special mechanics. As soon as you win a fight, or a series if fights, the wormhole to the next system opens, and you are rewarded with credits and two items, randomly chosen from a loottable.<br>
+
+There are some landable planet, so you can save, repair, and refuel after each enemy.<br>
+
+Some of the loot items increase the stats for the next fight, others allow you to upgrade your vanilla weapons at the Republic station(in 3 stages, 133%/166%/200%).<br>
+
+This plugin is intended to be experienced like a typical RPG dungeon. You face three bosses, loot them, then the next area is unlocked, 2 more bosses with better loot, and then you can face the endboss with best loot.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2024-07-03<br>
+
+initial release<br>
+</blockquote>
+</details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/boss.loot01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/boss.loot02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/boss.loot03.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/boss.loot04.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/boss.loot05.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/boss.loot06.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
