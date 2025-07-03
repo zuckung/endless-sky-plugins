@@ -1,0 +1,16 @@
+endgame
+author:
+	zuckung & Unknown_Rawrs
+	https://github.com/zuckung/endless-sky-plugins
+images:
+	ship (upscaled, recolored)
+		Valkyrie (https://de.pinterest.com/pin/740419994957090774/)
+		Defender (https://de.pinterest.com/pin/238550111492869603/)
+		Basestar (https://es.pinterest.com/pin/635289091185254378/)
+		Battlestar (https://fantastic-plastic.com/battlestar-pegasus-19600-from-battlestar-galactica-by-fantastic-plastic-models.html)
+		Raider (https://blackcampbell.com/wp-content/uploads/2009/11/bg_cylon-raider-schematic1.jpg)
+		Tiger, Raptor, Viper, from physical model photos and heavyly AI edited
+	outfit, label, land
+		ai generated at https://perchance.org/ai-text-to-image-generator
+	planet, map, star, weapon outfits, asteroid, effect
+		vanilla ES images recolored and edited

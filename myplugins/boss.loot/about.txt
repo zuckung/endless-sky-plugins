@@ -1,0 +1,1 @@
+A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism. See the README for details.

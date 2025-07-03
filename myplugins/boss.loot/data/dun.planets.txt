@@ -1,0 +1,113 @@
+# government "Republic (GalTac)"
+# government "Sagittarian"
+# color "wormholes: dun1"
+# planet "dun_station_01"
+# wormhole "dun1_wormhole_01"
+# planet "dun1_wormhole_01"
+# wormhole "dun1_wormhole_02"
+# planet "dun1_wormhole_02"
+# wormhole "dun1_wormhole_03"
+# planet "dun1_wormhole_03"
+# wormhole "dun1_wormhole_00"
+# planet "dun1_wormhole_00"
+# planet "dun1_save1"
+# planet "dun1_save2"
+
+
+
+government "Republic (GalTac)"
+	"display name" "Republic Intelligence"
+	swizzle 0
+	color "governments: Republic"
+	"crew attack" 1.2
+	"crew defense" 2.2
+	"player reputation" 100
+	"attitude toward"
+		"Alpha" -.3
+		"Merchant" .25
+		"Militia" .1
+		"Pirate" -.3
+		"Pirate (Devil-Run Gang)" -.3
+		"Republic that won't enter wormhole" 1
+		"Smuggler (Hai Trafficker)" .05
+		"Navy Intelligence" 1
+		"Republic Intelligence" 1
+		"Navy (Oathkeeper)" 1
+		"Neutral" .1
+	"friendly hail" "friendly navy"
+	"friendly disabled hail" "friendly disabled"
+	"hostile hail" "hostile navy"
+	"hostile disabled hail" "hostile disabled"
+	raid "pirate raid"
+
+government "Sagittarian"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" -1000
+	"fine" 0
+
+color "wormholes: dun1" .0 1.0 .0
+
+planet "dun_station_01"
+	"display name" "Vigilant Horizon"
+	landscape "land/dun_station01"
+	description `The Republic Navy space station Vigilant Horizon orbits a massive, pulsating wormhole at the edge of known space. A sprawling, armored structure bristling with sensor arrays, communication dishes, and defense turrets, it serves as both a research outpost and strategic military hub. Its hull bears the scars of past skirmishes, yet its systems remain sharp and vigilant. Constantly monitoring wormhole fluctuations, the station transmits vital data to Republic command while maintaining a fleet of patrol ships ready to intercept threats. Inside, a blend of military precision and scientific curiosity drives the crew, all stationed at the gateway to the unknown.`
+	spaceport `The Republic Navy station Vigilant Horizon orbits a massive, pulsating wormhole at the edge of known space. A sprawling, armored structure bristling with sensor arrays, communication dishes, and defense turrets, it serves as both a research outpost and strategic military hub. Its hull bears the scars of past skirmishes, yet its systems remain sharp and vigilant. Constantly monitoring wormhole fluctuations, the station transmits vital data to Republic command while maintaining a fleet of patrol ships ready to intercept threats. Inside, a blend of military precision and scientific curiosity drives the crew, all stationed at the gateway to the unknown.`
+	government "Republic (GalTac)"
+	outfitter "dun_empty"
+	shipyard "dun_empty"
+
+wormhole "dun1_wormhole_01"
+	"display name" "Emerald Wormhole"
+	color "wormholes: dun1"
+	link "Adhile" "dun1_sys_01"
+	link "dun1_sys_01" "Adhile"
+planet "dun1_wormhole_01"
+	attributes "requires: Emerald Code 1"
+	spaceport ``
+	wormhole "dun1_wormhole_01"
+
+wormhole "dun1_wormhole_02"
+#	"display name" "Emerald Wormhole"
+	color "wormholes: dun1"
+	mappable
+	link "dun1_sys_02" "dun1_sys_03"
+	link "dun1_sys_03" "dun1_sys_02"
+planet "dun1_wormhole_02"
+	attributes "requires: Emerald Code 2" "requires: Emerald Code 3" "requires: Emerald Code 4"
+	spaceport ``
+	wormhole "dun1_wormhole_02"
+
+wormhole "dun1_wormhole_03"
+#	"display name" "Emerald Wormhole"
+	color "wormholes: dun1"
+	mappable
+	link "dun1_sys_b_06" "dun1_sys_04"
+	link "dun1_sys_04" "dun1_sys_b_06"
+planet "dun1_wormhole_03"
+	attributes "requires: Emerald Code 5" "requires: Emerald Code 6"
+	spaceport ``
+	wormhole "dun1_wormhole_03"
+
+wormhole "dun1_wormhole_00"
+#	"display name" "Emerald Wormhole"
+	color "wormholes: dun1"
+	link "dun1_sys_b_06" "dun1_sys_01"
+planet "dun1_wormhole_00"
+	attributes "requires: Emerald Code 0"
+	spaceport ``
+	wormhole "dun1_wormhole_00"
+
+planet "dun1_save1"
+	"display name" "Zenara"
+	landscape "land/desert12"
+	government "Uninhabited"
+	description `Zenara is a barren, sun-scorched desert world, its ochre dunes stretching endlessly under a searing sky. Winds whip fine, rust-colored sand across rock formations and dry basins that suggest long-lost rivers. Temperatures swing violently between blistering days and freezing nights, with no signs of native life. Amid the desolation lies a peculiar anomaly: a metallic landing area carved into a flat plateau, clearly artificial yet weathered by time. At its center stands a refueling station of unknown origin... tall, monolithic, and silently operational. Its design is unfamiliar to any known species, humming faintly with residual power. The structure appears to maintain itself, untouched by decay or dust. No transmissions, no markings, no signs of its creators... only a sense of eerie purpose. It offers fuel without question, and then silence. Explorers approach with caution, wondering who, or what built this outpost in the middle of nowhere.`
+	spaceport `Zenara is a barren, sun-scorched desert world, its ochre dunes stretching endlessly under a searing sky. Winds whip fine, rust-colored sand across rock formations and dry basins that suggest long-lost rivers. Temperatures swing violently between blistering days and freezing nights, with no signs of native life. Amid the desolation lies a peculiar anomaly: a metallic landing area carved into a flat plateau, clearly artificial yet weathered by time. At its center stands a refueling station of unknown origin... tall, monolithic, and silently operational. Its design is unfamiliar to any known species, humming faintly with residual power. The structure appears to maintain itself, untouched by decay or dust. No transmissions, no markings, no signs of its creators... only a sense of eerie purpose. It offers fuel without question, and then silence. Explorers approach with caution, wondering who, or what built this outpost in the middle of nowhere.`
+
+planet "dun1_save2"
+	"display name" "Halion"
+	landscape "land/fields6"
+	government "Uninhabited"
+	description `Halion is a serene, uninhabited world covered in endless rolling grasslands, swaying under pale blue skies. The air is crisp and thin, with scattered clusters of smooth stone outcrops dotting the verdant terrain. Occasional breezes ripple through the tall, silver-green grass, creating waves of motion across the landscape. Nestled in a shallow valley is a small landing area, an octagonal platform of dark alloy, partially overgrown with native flora. Adjacent to it stands a sleek refueling station, seemingly dormant yet fully functional. Its smooth, curved surfaces glow faintly when approached, activating without prompt. The design is minimalist and elegant, unlike any known engineering, no visible controls, no logos, only a seamless interface that responds to proximity. The structure feels less like machinery and more like an artifact, quietly waiting for travelers long since gone. It provides sustenance for ships, but offers no answers.`
+	spaceport `Halion is a serene, uninhabited world covered in endless rolling grasslands, swaying under pale blue skies. The air is crisp and thin, with scattered clusters of smooth stone outcrops dotting the verdant terrain. Occasional breezes ripple through the tall, silver-green grass, creating waves of motion across the landscape. Nestled in a shallow valley is a small landing area, an octagonal platform of dark alloy, partially overgrown with native flora. Adjacent to it stands a sleek refueling station, seemingly dormant yet fully functional. Its smooth, curved surfaces glow faintly when approached, activating without prompt. The design is minimalist and elegant, unlike any known engineering, no visible controls, no logos, only a seamless interface that responds to proximity. The structure feels less like machinery and more like an artifact, quietly waiting for travelers long since gone. It provides sustenance for ships, but offers no answers.`

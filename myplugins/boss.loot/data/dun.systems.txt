@@ -1,0 +1,392 @@
+# star "star/dun1_01"
+# star "star/dun1_02"
+# star "star/dun1_03"
+# star "star/dun1_04"
+# star "star/dun1_05"
+# star "star/dun1_06"
+# galaxy "dun_nebula_01"
+# system "Betelgeuse"
+# system "Adhile"
+# system "dun1_sys_01"
+# system "dun1_sys_02"
+# system "dun1_sys_03"
+# system "dun1_sys_04"
+# system "dun1_sys_b_01"
+# system "dun1_sys_b_02"
+# system "dun1_sys_b_03"
+# system "dun1_sys_b_04"
+# system "dun1_sys_b_05"
+# system "dun1_sys_b_06"
+
+
+
+star "star/dun1_01"
+	power 0.55
+	wind 0.90
+	icon "map/dun1"
+
+star "star/dun1_02"
+	power 0.60
+	wind 0.91
+	icon "map/dun1"
+
+star "star/dun1_03"
+	power 0.65
+	wind 0.92
+	icon "map/dun1"
+
+star "star/dun1_04"
+	power 0.70
+	wind 0.93
+	icon "map/dun1"
+
+star "star/dun1_05"
+	power 0.75
+	wind 0.94
+	icon "map/dun1"
+
+star "star/dun1_06"
+	power 0.80
+	wind 0.95
+	icon "map/dun1"
+
+galaxy "dun_nebula_01"
+	pos -6600 -6800
+	sprite label/dun_nebula_01
+
+system "Betelgeuse"
+	add link "Adhile"
+
+system "Adhile"
+	pos -423 -358
+	link "Betelgeuse"
+	arrival 850
+	habitable 850
+	government "Republic"
+	trade Clothing 246
+	trade Electronics 667
+	trade Equipment 621
+	trade Food 502
+	trade "Heavy Metals" 1120
+	trade Industrial 665
+	trade "Luxury Goods" 1304
+	trade Medical 598
+	trade Metal 334
+	trade Plastic 499
+	fleet "Small Republic" 2800
+	fleet "Large Republic" 3800
+	object
+		sprite star/m8
+		period 10
+	object "dun1_wormhole_01"
+		sprite planet/dun_wormhole_green
+			scale 1
+		distance 500
+		period 365
+		object "dun_station_01"
+			sprite planet/station1
+				scale 0.5
+			distance 300
+			period 365
+			offset 180
+	object
+		sprite planet/gas14-b
+		distance 987
+		period 634
+
+system "dun1_sys_01"
+	"display name" "Lumen Grove"
+	pos -6750 -6900
+	link "dun1_sys_b_01"
+	link "dun1_sys_b_02"
+	link "dun1_sys_b_03"
+	"jump range" 1
+	haze _menu/haze-dark-nebula
+	minables "Verdanite" 1 5
+	object
+		sprite star/dun1_02
+		period 10
+	object
+		sprite planet/dust2
+		distance 302
+		period 330
+		offset 19
+	object
+		sprite planet/rock3-b
+		distance 576
+		period 639
+		offset 146
+	object
+		sprite planet/gas10
+		distance 1109
+		period 877
+		offset 265
+		object
+			sprite planet/lava0-b
+			distance 192
+			period 14
+	object "dun1_wormhole_01"
+		sprite planet/dun_wormhole_green
+		distance 1500
+		period 1
+		offset 270
+	object "dun1_wormhole_00"
+		sprite planet/dun_wormhole_green
+		distance 1530
+		period 1
+		offset 280
+
+system "dun1_sys_02"
+	"display name" "Feyshade Crown"
+	pos -6640 -6940
+	link "dun1_sys_b_01"
+	link "dun1_sys_b_02"
+	link "dun1_sys_b_03"
+	"jump range" 1
+	haze _menu/haze-dark-nebula
+	minables "Verdanite" 3 5
+	object
+		sprite star/dun1_05
+		period 10
+	object
+		sprite planet/lava3
+		distance 320
+		period 230
+		offset 122
+	object "dun1_save1"
+		sprite planet/desert0
+		distance 430
+		period 217
+		offset 80
+	object
+		sprite planet/lava6-b
+		distance 556
+		period 157
+		offset 267
+	object
+		sprite planet/desert10-b
+		distance 989
+		period 343
+		offset 345
+	object "dun1_wormhole_02"
+		sprite planet/dun_wormhole_green
+		distance 1500
+		period 1
+		offset 90
+
+system "dun1_sys_03"
+	"display name" "Chloris' Veil"
+	pos -6540 -6890
+	link "dun1_sys_b_04"
+	link "dun1_sys_b_05"
+	"jump range" 1
+	haze _menu/haze-dark-nebula
+	minables "Verdanite" 1 5
+	object
+		sprite star/dun1_05
+		period 10
+	object
+		sprite planet/lava3
+		distance 320
+		period 320
+		offset 222
+	object
+		sprite planet/lava6-b
+		distance 556
+		period 257
+		offset 67
+	object
+		sprite planet/desert10-b
+		distance 989
+		period 443
+		offset 145
+	object "dun1_wormhole_02"
+		sprite planet/dun_wormhole_green
+		distance 1500
+		period 1
+		offset 90
+
+system "dun1_sys_04"
+	"display name" "Sacred Beryl"
+	pos -6440 -6860
+	link "dun1_sys_b_04"
+	link "dun1_sys_b_05"
+	"jump range" 1
+	haze _menu/haze-dark-nebula
+	minables "Verdanite" 2 5
+	object
+		sprite star/dun1_05
+		period 10
+	object
+		sprite planet/lava3
+		distance 320
+		period 130
+		offset 252
+	object "dun1_save2"
+		sprite planet/desert0
+		distance 430
+		period 280
+		offset 170
+	object
+		sprite planet/lava6-b
+		distance 556
+		period 190
+		offset 167
+	object
+		sprite planet/desert10-b
+		distance 989
+		period 143
+		offset 295
+	object "dun1_wormhole_03"
+		sprite planet/dun_wormhole_green
+		distance 1500
+		period 1
+		offset 90
+
+system "dun1_sys_b_01"
+	"display name" "Alaris Tranquil"
+	pos -6700 -6970
+	link "dun1_sys_01"
+	link "dun1_sys_02"
+	"jump range" 1
+	haze _menu/haze-dark-nebula
+	object
+		sprite star/dun1_04
+		period 10
+	object
+		sprite planet/ice1-b
+		distance 729
+		period 127
+	object
+		sprite planet/lava6
+		distance 1288
+		period 223
+
+system "dun1_sys_b_02"
+	"display name" "Aetherleaf"
+	pos -6700 -6920
+	link "dun1_sys_01"
+	link "dun1_sys_02"
+	"jump range" 1
+	haze _menu/haze-dark-nebula
+	object
+		sprite star/dun1_06
+		period 10
+	object
+		sprite planet/cloud0
+		distance 339
+		period 175
+		offset 15
+	object
+		sprite planet/gas17
+		distance 1265
+		period 1283
+		offset 99
+		object
+			sprite planet/ice8-b
+			distance 256
+			period 90
+			offset 40
+
+system "dun1_sys_b_03"
+	"display name" "Verdant Path"
+	pos -6700 -6870
+	link "dun1_sys_01"
+	link "dun1_sys_02"
+	"jump range" 1
+	haze _menu/haze-dark-nebula
+	object
+		sprite star/dun1_01
+		period 10
+	object
+		sprite planet/lava3
+		distance 479
+		period 158
+		offset 220
+	object
+		sprite planet/desert0
+		distance 660
+		period 30
+		offset 166
+
+system "dun1_sys_b_04"
+	"display name" "Jade Serenity"
+	pos -6540 -6840
+	link "dun1_sys_03"
+	link "dun1_sys_04"
+	"jump range" 1
+	haze _menu/haze-dark-nebula
+	object
+		sprite star/dun1_05
+		period 10
+	object
+		sprite planet/io
+		distance 673
+		period 61
+		offset 126
+	object
+		sprite planet/rock0-b
+		distance 1030
+		period 274
+		offset 21
+
+system "dun1_sys_b_05"
+	"display name" "Zentara Bloom"
+	pos -6500 -6930
+	link "dun1_sys_03"
+	link "dun1_sys_04"
+	"jump range" 1
+	haze _menu/haze-dark-nebula
+	object
+		sprite star/dun1_03
+		period 10
+	object
+		sprite planet/dust4
+		distance 478
+		period 432
+		offset 10
+	object
+		sprite planet/water0
+		distance 717
+		period 827
+		offset 310
+	object
+		sprite planet/dust4-b
+		distance 989
+		period 780
+		offset 66
+
+system "dun1_sys_b_06"
+	"display name" "Emerald Dream"
+	pos -6370 -6800
+	"jump range" 1
+	haze _menu/haze-dark-nebula
+	object
+		sprite star/dun1_03
+		period 10
+	object
+		sprite planet/dust4
+		distance 478
+		period 432
+		offset 10
+	object
+		sprite planet/water0
+		distance 717
+		period 827
+		offset 310
+	object
+		sprite planet/dust4-b
+		distance 989
+		period 780
+		offset 66
+	object "dun1_wormhole_03"
+		sprite planet/dun_wormhole_green
+		distance 1500
+		period 1
+		offset 270
+	object "dun1_wormhole_00"
+		sprite planet/dun_wormhole_green
+		distance 1500
+		period 1
+		offset 90
+

@@ -1,0 +1,546 @@
+# Weaknesses/Strategies:
+# Tiger: Stay moving and have sufficient AM. A well placed Detainer shot will let you close the distance and lay into it, but don't let it face you directly.
+# Battlestar: Use turrets with effective turning rates and run away until you've thinned the hoard. The thing itself won't put up too much of a fight, but be mindful of the shield piercing effect of the fighters!
+# Valkyrie: Keep a decent reserve of power/energy generation and be mindful of heat. Don't get disabled and you should be fine.
+# Defender: It has a small energy reserve, so it can't sustain its dps for too long. Ionize/overheat it before it's too late
+# Basestar: A culmination of all that's been learned. Good luck.
+
+# ship "dun_raptor"
+# ship "dun_viper"
+# ship "dun_raider"
+# ship "dun_tiger"
+# ship "dun_battlestar"
+# ship "dun_valkyrie"
+# ship "dun_defender"
+# ship "dun_basestar"
+
+
+
+ship "dun_raptor"
+	"swizzle" 0
+	"uncapturable"
+	"never disabled"
+	"display name" "Raptor"
+	sprite "ship/bsg_raptor"
+	attributes
+		category "Drone"
+		"cost" 490000
+		"shields" 2500
+		"hull" 2500
+		"automaton" 1
+		"mass" 105
+		"drag" 1.8
+		"heat dissipation" .79
+		"fuel capacity" 200
+		"outfit space" 160
+		"weapon capacity" 80
+		"engine capacity" 80
+		weapon
+			"blast radius" 24
+			"shield damage" 240
+			"hull damage" 120
+			"hit force" 360
+	outfits
+		"Ka'het Ravager Turret" 1
+		"S-970 Regenerator" 1
+		"Small Heat Shunt" 2
+		"Red Sun Reactor" 1
+		"Supercapacitor" 1
+		"A120 Atomic Thruster" 1
+		"A125 Atomic Steering" 1
+	engine -5 21
+	engine 5 21
+	turret 0 -19.5 "Ka'het Ravager Turret"
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	description "A heavy duty frame well supported by a versatile suite to maintain pressure against any foe."
+
+ship "dun_viper"
+	"swizzle" 0
+	"uncapturable"
+	"never disabled"
+	"display name" "Viper"
+	sprite "ship/bsg_viper"
+	attributes
+		category "Fighter"
+		"cost" 286000
+		"shields" 1800
+		"hull" 1200
+		"required crew" 1
+		"bunks" 1
+		"mass" 70
+		"drag" .87
+		"heat dissipation" .81
+		"ramscoop" 3
+		"fuel capacity" 100
+		"outfit space" 160 
+		"weapon capacity" 80
+		"engine capacity" 80
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Ka'het Annihilator Turret" 1
+		"S-270 Regenerator" 1
+		"Small Heat Shunt" 2
+		"Small Biochemical Cell" 1
+		"Red Sun Reactor" 1
+		"A120 Atomic Thruster" 1
+		"A125 Atomic Steering" 1
+	engine -7 36.5
+	engine 7 36.5
+	turret 0 2.5 "Ka'het Annihilator Turret"
+	leak "flame" 13 14
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description ""
+	description "A craft that favors mobility and range to keep the pilot safe, yet still deceptively well protected."
+
+ship "dun_raider"
+	"swizzle" 0
+	"uncapturable"
+	"never disabled"
+	"display name" "Raider"
+	sprite "ship/bsg_raider"
+	attributes
+		category "Fighter"
+		"cost" 286000
+		"shields" 1800
+		"hull" 1200
+		"required crew" 1
+		"bunks" 1
+		"mass" 70
+		"drag" .87
+		"heat dissipation" .81
+		"ramscoop" 3
+		"fuel capacity" 100
+		"outfit space" 160 
+		"weapon capacity" 80
+		"engine capacity" 80
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Ka'het Annihilator Turret" 1
+		"S-270 Regenerator" 1
+		"Small Heat Shunt" 2
+		"Small Biochemical Cell" 1
+		"Red Sun Reactor" 1
+		"A120 Atomic Thruster" 1
+		"A125 Atomic Steering" 1
+	engine -7 36.5
+	engine 7 36.5
+	turret 0 2.5 "Ka'het Annihilator Turret"
+	leak "flame" 13 14
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description ""
+	description "A craft that favors mobility and range to keep the pilot safe, yet still deceptively well protected."
+
+ship "dun_tiger"
+	"swizzle" 0
+	"uncapturable"
+	"never disabled"
+	"display name" "Tiger"
+	sprite "ship/bsg_tiger"
+	attributes
+		category "Heavy Warship"
+		cost 45000000
+		shields 50000
+		hull 50000
+		"shield generation" 1.66
+		"hull repair rate" 1.66
+		"mass" 3000
+		"drag" 10
+		"fuel capacity" 1000
+		"heat dissipation" .6
+		"cargo space" 500
+		"required crew" 50
+		"bunks" 200
+		"outfit space" 2000
+		"weapon capacity" 1000
+		"engine capacity" 500
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
+	outfits
+		"Pug Seeker" 4
+		"Replica Drak Cannon" 2
+		"Anti-Missile Turret" 2
+		"Banisher Grav-Turret" 2
+		"Large Heat Shunt" 4
+		"Triple Plasma Core" 2
+		"Crystal Capacitor" 3
+		"Thruster (Planetary Class)" 1
+		"Steering (Stellar Class)" 1
+	engine 53 300
+	engine -53 300
+	engine 21 300
+	engine -21 300
+	"reverse engine" -55 -31
+	"reverse engine" 55 -31
+	gun -98 -20 "Replica Drak Cannon"
+	gun 98 -20 "Replica Drak Cannon"
+	gun -115 10 "Pug Seeker"
+	gun 115 10 "Pug Seeker"
+	gun -16 -300 "Pug Seeker"
+	gun 16 -300 "Pug Seeker"
+	turret -30 -200 "Banisher Grav-Turret"
+	turret 30 -200 "Banisher Grav-Turret"
+	turret -60 -8 "Anti-Missile Turret"
+	turret 60 -8 "Anti-Missile Turret"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description ""
+
+
+ship "dun_battlestar"
+	"swizzle" 0
+	"uncapturable"
+	"never disabled"
+	"display name" "Battlestar"
+	sprite "ship/bsg_battlestar"
+	attributes
+		category "Heavy Warship"
+		cost 45000000
+		shields 62500
+		hull 62500
+		"shield generation" 3.22
+		"hull repair rate" 2.49
+		"mass" 4000
+		"drag" 12
+		"fuel capacity" 1000
+		"heat dissipation" .2
+		"cargo space" 750
+		"required crew" 60
+		"bunks" 400
+		"outfit space" 2000
+		"weapon capacity" 1000
+		"engine capacity" 500
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
+	outfits
+		"Anti-Missile Turret" 4
+		"Langrage Hyper-Heaver" 4
+		"Refueling Module" 8
+		"Large Heat Shunt" 2
+		"Double Plasma Core" 1
+		"Crystal Capacitor" 2
+		"Thruster (Asteroid Class)" 1
+		"Thruster (Planetary Class)" 1
+		"Steering (Lunar Class)" 1
+		"Steering (Planetary Class)" 1
+	engine -75 385
+	engine -30 385
+	engine 30 385
+	engine 75 385
+	"reverse engine" -121 -140
+	"reverse engine" 121 -140
+	bay "Fighter" -33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" -33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" -33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" -33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" -33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" -13 -385
+		"launch effect" "human internal"
+	bay "Fighter" -13 -385
+		"launch effect" "human internal"
+	bay "Fighter" -13 -385
+		"launch effect" "human internal"
+	bay "Fighter" -13 -385
+		"launch effect" "human internal"
+	bay "Fighter" -13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 33 -385 "back"
+		"launch effect" "human internal"
+	turret 45 -350 "Anti-Missile Turret"
+	turret -45 -350 "Anti-Missile Turret"
+	turret 57.5 -252 "Langrage Hyper-Heaver"
+	turret -57.5 -252 "Langrage Hyper-Heaver"
+	turret 57.5 -202 "Langrage Hyper-Heaver"
+	turret -57.5 -202 "Langrage Hyper-Heaver"
+	turret 70 -152 "Anti-Missile Turret"
+	turret -70 -152 "Anti-Missile Turret"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description ""
+
+
+ship "dun_valkyrie"
+	"swizzle" 0
+	"uncapturable"
+	"never disabled"
+	"display name" "Valkyrie"
+	sprite "ship/bsg_valkyrie"
+	attributes
+		category "Heavy Warship"
+		cost 45000000
+		shields 75000
+		hull 75000
+		"shield generation" 4.98
+		"hull repair rate" 3.32
+		"mass" 5000
+		"drag" 14
+		"fuel capacity" 1000
+		"heat dissipation" .3
+		"cargo space" 1000
+		"required crew" 75
+		"bunks" 600
+		"outfit space" 2000
+		"weapon capacity" 1000
+		"engine capacity" 500
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
+	outfits
+		"Ka'het Nullifier" 2
+		"Korath Detainer" 2
+		"Fire-Lance" 1
+		"Anti-Missile Turret" 1
+		"Shield Disruptor Turret" 2
+		"Korath Inferno" 2
+		"Large Heat Shunt" 4
+		"Small Hybrid Cooling" 2
+		"Triple Plasma Core" 2
+		"Crystal Capacitor" 2
+		"Thruster (Asteroid Class)" 1
+		"Thruster (Planetary Class)" 1
+		"Steering (Stellar Class)" 1
+	engine -23 285
+	engine 23 285
+	engine -83 88
+	engine 83 88
+	"reverse engine" -85 -111
+	"reverse engine" 85 -111
+	gun 0 -291 "Fire-Lance"
+	gun -18 -291 "Ka'het Nullifier"
+	gun 18 -291 "Ka'het Nullifier"
+	gun 35 -240 "Korath Detainer"
+	gun -35 -240 "Korath Detainer"
+	turret -30 -187 "Shield Disruptor Turret"
+	turret 30 -187 "Shield Disruptor Turret"
+	turret -84 -73 "Korath Inferno"
+	turret 84 -73 "Korath Inferno"
+	turret 0 -81 "Anti-Missile Turret"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description ""
+
+
+ship "dun_defender"
+	"swizzle" 0
+	"uncapturable"
+	"never disabled"
+	"display name" "Defender"
+	sprite "ship/bsg_defender"
+	attributes
+		category "Heavy Warship"
+		cost 45000000
+		shields 87500
+		hull 87500
+		"shield generation" 6.64
+		"hull repair rate" 4.98
+		"mass" 6000
+		"drag" 16
+		"fuel capacity" 1000
+		"heat dissipation" .5
+		"cargo space" 1250
+		"required crew" 90
+		"bunks" 800
+		"outfit space" 2000
+		"weapon capacity" 1000
+		"engine capacity" 500
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
+	outfits
+		"Bombardment Cannon" 8
+		"Sunbeam Turret" 4
+		"Moonbeam Turret" 4
+		"Double Plasma Core" 1
+		"Triple Plasma Core" 1
+		"Large Battery Module" 1
+		"Thruster (Planetary Class)" 1
+		"Steering (Planetary Class)" 1
+	engine -70 295
+	engine 70 295
+	engine -54 295
+	engine 54 295
+	"reverse engine" -75 -68
+	"reverse engine" 75 -68
+	gun -14 -295 "Bombardment Cannon"
+	gun 14 -295 "Bombardment Cannon"
+	gun 7 -295 "Bombardment Cannon"
+	gun -7 -295 "Bombardment Cannon"
+	gun -20 -283 "Bombardment Cannon"
+	gun 20 -283 "Bombardment Cannon"
+	gun -28 -267 "Bombardment Cannon"
+	gun 28 -267 "Bombardment Cannon"
+	turret -48 -110 "Sunbeam Turret"
+	turret 48 -110 "Sunbeam Turret"
+	turret -81 -15 "Sunbeam Turret"
+	turret 81 -15 "Sunbeam Turret"
+	turret -38 -213 "Moonbeam Turret"
+	turret 38 -213 "Moonbeam Turret"
+	turret -70 33 "Moonbeam Turret"
+	turret 70 33 "Moonbeam Turret"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description ""
+
+
+ship "dun_basestar"
+	"swizzle" 0
+	"uncapturable"
+	"never disabled"
+	"display name" "Basestar"
+	"plural" "Basestar"
+	sprite "ship/bsg_basestar"
+	attributes
+		category "Heavy Warship"
+		cost 45000000
+		shields 100000
+		hull 100000
+		"shield generation" 8.3
+		"hull repair rate" 4.98
+		"mass" 4500
+		"drag" 20
+		"fuel capacity" 1000
+		"heat dissipation" .4
+		"cargo space" 1500
+		"required crew" 100
+		"bunks" 1000
+		"outfit space" 2000
+		"weapon capacity" 1000
+		"engine capacity" 500
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
+	outfits
+		"Pug Seeker" 2
+		"Ka'het Nullifier" 1
+		"Korath Detainer" 1
+		"Ballistic Cannon" 2
+		"Plasma Repeater" 4
+		"Pulse Laser Turret" 2
+		"Grab-Strike Turret" 2
+		"Anti-Missile Turret" 2
+		"Shield Disruptor Turret" 2
+		"Thrasher Turret" 2
+		"Small Heat Shunt" 1
+		"Large Heat Shunt" 6
+		"Plasma Core" 1
+		"Triple Plasma Core" 2
+		"Crystal Capacitor" 2
+		"Thruster (Lunar Class)" 1
+		"Thruster (Planetary Class)" 1
+		"Steering (Lunar Class)" 1
+		"Steering (Planetary Class)" 1
+	engine -39 97
+	engine 39 97
+	engine -50 120
+	engine 50 120
+	"reverse engine" -36 -100
+	"reverse engine" 36 -100
+	bay "Fighter" 0 0 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 0 0 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 0 0 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 0 0 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 0 0 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 0 0
+		"launch effect" "human internal"
+	bay "Fighter" 0 0
+		"launch effect" "human internal"
+	bay "Fighter" 0 0
+		"launch effect" "human internal"
+	bay "Fighter" 0 0
+		"launch effect" "human internal"
+	bay "Fighter" 0 0
+		"launch effect" "human internal"
+	gun 0 -337 "Korath Detainer"
+	gun 0 -337 "Ka'het Nullifier"
+	gun -172 -290 "Pug Seeker"
+	gun -172 -290 "Ballistic Cannon"
+	gun 172 -290 "Pug Seeker"
+	gun 172 -290 "Ballistic Cannon"
+	gun -110 -205 "Plasma Repeater"
+	gun 110 -205 "Plasma Repeater"
+	gun -90 -184 "Plasma Repeater"
+	gun 90 -184 "Plasma Repeater"
+	turret 0 -278 "Pulse Laser Turret"
+	turret 0 -278 "Pulse Laser Turret"
+	turret -141 -235 "Grab-Strike Turret"
+	turret -141 -235 "Shield Disruptor Turret"
+	turret 141 -235 "Grab-Strike Turret"
+	turret 141 -235 "Shield Disruptor Turret"
+	turret -69.5 98 "Thrasher Turret"
+	turret 61 98 "Thrasher Turret"
+	turret 113.5 191.5 "Anti-Missile Turret"
+	turret -119.5 191 "Anti-Missile Turret"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description ""

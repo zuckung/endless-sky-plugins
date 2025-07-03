@@ -1,0 +1,355 @@
+# category "outfit"
+# outfitter "dun_empty"
+# shipyard "dun_empty"
+# outfit "Nanite Swarm Blue" | "energy generation" 0.1
+# outfit "Nanite Swarm Purple" | "energy generation" 1
+# outfit "Nanite Swarm Orange" | "energy generation" 10
+# outfit "dun1_key_00"
+# outfit "dun1_key_01"
+# outfit "dun1_key_02"
+# outfit "dun1_key_03"
+# outfit "dun1_key_04"
+# outfit "dun1_key_05"
+# outfit "dun1_key_06"
+# outfit "dun1_h2h_1" | "Plasma Lance" | "capture attack" 4.5 | "capture defense" 6.2
+# outfit "dun1_h2h_2" | "Plasma Disruptor" | "capture attack" 6.4 | "capture defense" 6.3
+# outfit "dun1_h2h_3" | "Plasmacaster" | "capture attack" 8.6 | "capture defense" 7.7
+# outfit "dun1_h2h_4" | "Plasmastream" | "capture attack" 9.7 | "capture defense" 9.5
+# outfit "dun1_rare_outfit_1" | "Helix Pulse" | "shield generation multiplier" 0.02
+# outfit "dun1_rare_outfit_2" | "Helix Overframe" | "shield multiplier" 0.02
+# outfit "dun1_rare_outfit_3" | "Grav Injector" | "hull repair multiplier" 0.02
+# outfit "dun1_rare_outfit_4" | "Grav Weaver" | "hull multiplier" 0.02
+# outfit "dun1_rare_outfit_5" | "Voidstream Actuators" | "turn multiplier" 0.02
+# outfit "dun1_rare_outfit_6" | "Voidstream Replicator" | "acceleration multiplier" 0.02
+# outfit "dun1_rare_outfit_7" | "Voidstream Interdictors" | "thrust" 1 | "reverse thrust" 1
+# outfit "dun1_rare_outfit_8" | "Voidshell" | several status protections 0.02
+# outfit "dun1_rare_outfit_9" | "Dimensional Storage" | "cargo space" 5
+# outfit "dun1_rare_outfit_10" | "Dimensional Refrigerator" | "cooling" 5 | "heat dissipation" 0.0005
+# outfit "dun1_rare_outfit_11" | "Spa'ark Plug" | "energy generation" 0.5
+# outfit "dun1_rare_outfit_12" | "Spa'ark Cell" | "energy capacity" 1500
+# outfit "dun1_rare_outfit_13" | "synthesizer" | "operating income" 1000
+# effect "verdanite"
+# minable "Verdanite"
+# outfit "Verdanite"
+# outfit "Replica Drak Cannon"
+
+
+
+category "outfit"
+	"Loot"
+
+outfitter "dun_empty"
+
+shipyard "dun_empty"
+
+outfit "Nanite Swarm Blue"
+	"display name" "Nanite Swarm Blue"
+	category "Loot"
+	series "Special Systems"
+	index 99700
+	thumbnail "outfit/nanites/naniteswarmblue"
+	"unplunderable" 1
+	"energy generation" 0.1
+	cost 1000
+	description `Upgrades a weapon outfit to T1 (120% damage).`
+
+outfit "Nanite Swarm Purple"
+	"display name" "Nanite Swarm Purple"
+	category "Loot"
+	series "Special Systems"
+	index 99700
+	thumbnail "outfit/nanites/naniteswarmpurple"
+	"unplunderable" 1
+	"energy generation" 1
+	cost 10000
+	description `Upgrades a weapon outfit from T1 to T2 (160% damage).`
+
+outfit "Nanite Swarm Orange"
+	"display name" "Nanite Swarm Orange"
+	category "Loot"
+	series "Special Systems"
+	index 99700
+	thumbnail "outfit/nanites/naniteswarmorange"
+	"unplunderable" 1
+	"energy generation" 10
+	cost 100000
+	description `Upgrades a weapon outfit from T2 to T3 (200% damage).`
+
+outfit "dun1_key_00"
+	"display name" "Emerald Code 0" 
+	category "Keys"
+	"Emerald Code 0" 1
+
+outfit "dun1_key_01"
+	"display name" "Emerald Key Code"
+	"thumbnail" "outfit/dun1/dun1_key"
+	category "Unique"
+	"unique" 1
+	"Emerald Code 1" 1
+
+outfit "dun1_key_02"
+	"display name" "Emerald Code 2"
+	category "Keys"
+	"Emerald Code 2" 1
+
+outfit "dun1_key_03"
+	"display name" "Emerald Code 3"
+	category "Keys"
+	"Emerald Code 3" 1
+
+outfit "dun1_key_04"
+	"display name" "Emerald Code 4"
+	category "Keys"
+	"Emerald Code 4" 1
+
+outfit "dun1_key_05"
+	"display name" "Emerald Code 5"
+	category "Keys"
+	"Emerald Code 5" 1
+
+outfit "dun1_key_06"
+	"display name" "Emerald Code 6"
+	category "Keys"
+	"Emerald Code 6" 1
+
+outfit "dun1_h2h_1"
+	"display name" "Plasma Lance"
+	thumbnail "outfit/dun1/dun1_gun_01"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99750
+	"capture attack" 4.5
+	"capture defense" 6.2
+	description `Reminiscent of the Korath, this weapon allows you to practically hold the sun within your hand. A great responsibility indeed.`
+
+outfit "dun1_h2h_2"
+	"display name" "Plasma Disruptor"
+	thumbnail "outfit/dun1/dun1_gun_02"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99750
+	"capture attack" 6.4
+	"capture defense" 6.3
+	description `Anyone lucky enough to be able to hold such a weapon would surely feel quite safe. And anyone not, likely feeling very unsafe.`
+
+outfit "dun1_h2h_3"
+	"display name" "Plasmacaster"
+	thumbnail "outfit/dun1/dun1_automatic_01"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99750
+	"capture attack" 8.6
+	"capture defense" 7.7
+	description `Almost like magic, this weapon provides astonishing power for something so small. Almost impossibly so. Yet, possible it remains.`
+
+outfit "dun1_h2h_4"
+	"display name" "Plasmastream"
+	thumbnail "outfit/dun1/dun1_automatic_02"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99750
+	"capture attack" 9.7
+	"capture defense" 9.5
+	description `Plasma is known to be an effective weapon of war, but none utilize it as well as this absurdity. If not for its small size, you almost wonder what kind of damage it could do to a ship directly.`
+
+outfit "dun1_rare_outfit_1"
+	"display name" "Helix Pulse"
+	thumbnail "outfit/dun1/dun1_device_01"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99710
+	"shield generation multiplier" 0.02
+	description `Humanity has long since moved on from static emplacements, and this nearly living artifact somehow reminds you of that.`
+
+outfit "dun1_rare_outfit_2"
+	"display name" "Helix Overframe"
+	thumbnail "outfit/dun1/dun1_device_02"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99710
+	"shield multiplier" 0.02
+	description `Technology is constantly advancing, yet you're fairly certain that even the greatest minds would struggle to explain the increased particle density this trinket provides to shields.`
+
+outfit "dun1_rare_outfit_3"
+	"display name" "Grav Injector"
+	thumbnail "outfit/dun1/dun1_device_03"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99710
+	"hull repair multiplier" 0.02
+	description `This device makes judicious use of microscopic gravity wells to overclock any kind of hull repair, mechanical or otherwise.`
+
+outfit "dun1_rare_outfit_4"
+	"display name" "Grav Weaver"
+	thumbnail "outfit/dun1/dun1_device_04"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99710
+	"hull multiplier" 0.02
+	description `What's better than a strong ship? A strong ship tethered to incomprehensible mass. This thing does that, whatever that means.`
+
+outfit "dun1_rare_outfit_5"
+	"display name" "Voidstream Actuators"
+	"plural" "Voidstream Actuators"
+	thumbnail "outfit/dun1/dun1_device_09"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99720
+	"turn multiplier" 0.02
+	description `Many things are possible by effective use of the void. This is one such thing.`
+
+outfit "dun1_rare_outfit_6"
+	"display name" "Voidstream Replicator"
+	thumbnail "outfit/dun1/dun1_device_10"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99720
+	"acceleration multiplier" 0.02
+	description `While it might seem redundant to some, the task this item performs allows one to ride with the wind... Or at least feel like it.`
+
+outfit "dun1_rare_outfit_7"
+	"display name" "Voidstream Interdictors"
+	"plural" "Voidstream Interdictors"
+	thumbnail "outfit/dun1/dun1_device_11"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99720
+	"thrust" 1
+	"reverse thrust" 1
+	description `A pair of instruments that pull from the void to propel one forward... Or conversely, backwards.`
+
+outfit "dun1_rare_outfit_8"
+	"display name" "Voidstream Shell"
+	thumbnail "outfit/dun1/dun1_device_12"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99720
+	"disruption resistance" .02
+	"ion resistance" .02
+	"scramble resistance" .02
+	"slowing resistance" .02
+	"discharge resistance" .02
+	"corrosion resistance" .02
+	"leak resistance" .02
+	"burn resistance" .02
+	"piercing resistance" .02
+	description `An experimental setup loosely based on the body's immune system to help protect against the various sicknesses of space.`
+
+outfit "dun1_rare_outfit_9"
+	"display name" "Dimensional Storage"
+	thumbnail "outfit/dun1/dun1_device_05"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99730
+	"cargo space" 5
+	description `If you ever thought you weren't making enough profit, then worry no more. With enough of these, you can become Mary Poppins herself.`
+
+outfit "dun1_rare_outfit_10"
+	"display name" "Dimensional Refrigerator"
+	thumbnail "outfit/dun1/dun1_device_06"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99730
+	"cooling" 0.5
+	"heat dissipation" 0.0005
+	description `Entropy is a frightful thing, yet this tool acts in direct defiance to the point where the entire notion could eventually become silly. Is that a good thing, though? You still wonder about that.`
+
+outfit "dun1_rare_outfit_11"
+	"display name" "Spa'ark Plug"
+	thumbnail "outfit/dun1/dun1_device_07"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99730
+	"energy generation" 0.5
+	description `What's the harm in a little bit of extra excitement? This little doodad produces a miniscule amount of energy from who-knows where. It can even charge your alarm clock!`
+
+outfit "dun1_rare_outfit_12"
+	"display name" "Spa'ark Cell"
+	thumbnail "outfit/dun1/dun1_device_08"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99730
+	"energy capacity" 1500
+	description `This little box stores big amounts of energy. You really love alien technologies that you don't understand.`
+
+outfit "dun1_rare_outfit_13"
+	"display name" "synthesizer"
+	thumbnail "outfit/dun1/dun1_device_13"
+	"unplunderable" 1
+	category "Loot"
+	series "Special Systems"
+	index 99740
+	"operating income" 1000
+	description `The replicator produces valuable metals out of... well, it can't be nothing, right? Although you don't know how it works, it works amazingly.`
+
+effect "verdanite"
+	sprite "effect/dun_verdanite"
+		"frame rate" 30
+		"scale" 6
+	zooms
+
+minable "Verdanite"
+	sprite "asteroid/asteroid_green/spin"
+		scale 3
+	hull 3400
+	"random hull" 2600
+	payload "Verdanite" 16
+		"toughness" 43200
+	explode "smoke" 20
+	explode "bolide" 20
+	explode "asteroid crunch small"
+	"live effect" "verdanite"
+		"relative to system center"
+
+outfit "Verdanite"
+	plural "Verdanite"
+	category "Minerals"
+	cost 500000
+	thumbnail "outfit/dun1/harvested verdanite"
+	"flotsam sprite" "effect/flotsam dun_verdanite"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Verdanite is a beryllium-rich silicate compound with exceptional photonic absorption characteristics in the green spectrum. It is primarily used in high-efficiency solar concentrators. The ore's stable lattice structure allows for nanoscale doping during material synthesis."
+
+outfit "Replica Drak Cannon"
+	category "Guns"
+	series "Guns"
+	index 99010
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 117
+	"outfit space" -117
+	"weapon capacity" -117
+	"gun ports" -1
+	"inscrutable" 1
+	weapon
+		"inaccuracy" 0
+		"velocity" 10
+		"lifetime" 1
+		"submunition" "Drak Antimatter Fragment" 2
+		"hit effect" "antimatter dust" 10
+		"hit effect" "nuke explosion"
+		"safe"
+		"reload" 203
+		"firing energy" 5960
+		"firing heat" 2180
+		"blast radius" 100
+		"hit force" 2500
+	description "In an attempt to rival the mysterious Drak, a foreign power has engineered a weapon in its likeness. While generally not as effective, it still packs quite a punch."

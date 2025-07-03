@@ -1,0 +1,971 @@
+# conversation dun1_conversation_1
+# conversation dun1_conversation_2
+# conversation dun1_conversation_3
+# conversation dun1_conversation_4
+# conversation dun1_conversation_5
+# conversation dun1_conversation_6
+
+
+
+# conversation dun1_conversation_1
+# 56%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+# 10%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+# 2%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+# 11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+# 9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+# 7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+# 5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+# 2ndloot|25%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_05
+# 2ndloot|25%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_06
+# 2ndloot|25%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_07
+# 2ndloot|25%|Voidshell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_08
+conversation dun1_conversation_1
+	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've also found: `
+	action
+		"dun_random2"  = "roll: 10" + 1
+		"dun_pay" = "dun_random2" * 200000
+	label "get payment"
+	branch "continue loottable"
+		"dun_random2" < 1
+	action
+		"dun_random2" --
+		payment 200000
+	branch "get payment"
+	label "continue loottable"
+	`	Valuables worth &[dun_pay] credits, and`
+	label "loottable"
+	branch "1"
+		"dun_random" < 100
+		"dun_random" >= 44
+	branch "2"
+		"dun_random" < 44
+		"dun_random" >= 34
+	branch "3"
+		"dun_random" < 34
+		"dun_random" >= 32
+	branch "4"
+		"dun_random" < 32
+		"dun_random" >= 21
+	branch "5"
+		"dun_random" < 21
+		"dun_random" >= 12
+	branch "6"
+		"dun_random" < 12
+		"dun_random" >= 5
+	branch "7"
+		"dun_random" < 5
+		"dun_random" >= 0
+	label "1"
+	action
+		outfit "Nanite Swarm Blue" 1
+	`	Blue Nanite Swarm (T1 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmblue"
+	branch "2ndloot"
+	label "2"
+	action
+		outfit "Nanite Swarm Purple" 1
+	`	Purple Nanite Swarm (T2 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmpurple"
+	branch "2ndloot"
+	label "3"
+	action
+		outfit "Nanite Swarm Orange" 1
+	`	Orange Nanite Swarm (T3 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmorange"
+	branch "2ndloot"
+	label "4"
+	action
+		outfit "dun1_h2h_1" 1
+	`	Plasma Lance (h2h outfit weak)`
+	scene "outfit/dun1/dun1_gun_01"
+	branch "2ndloot"
+	label "5"
+	action
+		outfit "dun1_h2h_2" 1
+	`	Plasma Disruptor (h2h outfit medium)`
+	scene "outfit/dun1/dun1_gun_02"
+	branch "2ndloot"
+	label "6"
+	action
+		outfit "dun1_h2h_3" 1
+	`	Plasmacaster (h2h outfit strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "7"
+	action
+		outfit "dun1_h2h_4" 1
+	`	Plasmastream (h2h outfit very strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "2ndloot"
+	action
+		"dun_random" = "roll: 100"
+	branch "8"
+		"dun_random" < 100
+		"dun_random" >= 75
+	branch "9"
+		"dun_random" < 75
+		"dun_random" >= 50
+	branch "10"
+		"dun_random" < 50
+		"dun_random" >= 25
+	branch "11"
+		"dun_random" < 25
+		"dun_random" >= 0
+	label "8"
+	action
+		outfit "dun1_rare_outfit_5" 1
+	`	Voidstream Actuators (turn multiplier)`
+	scene "outfit/dun1/dun1_device_05"
+	branch "end"
+	label "9"
+	action
+		outfit "dun1_rare_outfit_6" 1
+	`	Voidstream Replicator (acceleration multiplier)`
+	scene "outfit/dun1/dun1_device_06"
+	branch "end"
+	label "10"
+	action
+		outfit "dun1_rare_outfit_7" 1
+	`	Voidstream Interdictors (thrust)`
+	scene "outfit/dun1/dun1_device_07"
+	branch "end"
+	label "11"
+	action
+		outfit "dun1_rare_outfit_8" 1
+	`	Voidshell (resistance)`
+	scene "outfit/dun1/dun1_device_08"
+	branch "end"
+	label "end"
+
+# conversation dun1_conversation_2
+# 56%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+# 10%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+# 2%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+# 11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+# 9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+# 7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+# 5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+# 2ndloot|25%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_09
+# 2ndloot|25%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_10
+# 2ndloot|25%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_11
+# 2ndloot|25%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_12
+conversation dun1_conversation_2
+	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've also found: `
+	action
+		"dun_random2"  = "roll: 10" + 1
+		"dun_pay" = "dun_random2" * 200000
+	label "get payment"
+	branch "continue loottable"
+		"dun_random2" < 1
+	action
+		"dun_random2" --
+		payment 200000
+	branch "get payment"
+	label "continue loottable"
+	`	Valuables worth &[dun_pay] credits, and`
+	label "loottable"
+	branch "1"
+		"dun_random" < 100
+		"dun_random" >= 44
+	branch "2"
+		"dun_random" < 44
+		"dun_random" >= 34
+	branch "3"
+		"dun_random" < 34
+		"dun_random" >= 32
+	branch "4"
+		"dun_random" < 32
+		"dun_random" >= 21
+	branch "5"
+		"dun_random" < 21
+		"dun_random" >= 12
+	branch "6"
+		"dun_random" < 12
+		"dun_random" >= 5
+	branch "7"
+		"dun_random" < 5
+		"dun_random" >= 0
+	label "1"
+	action
+		outfit "Nanite Swarm Blue" 1
+	`	Blue Nanite Swarm (T1 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmblue"
+	branch "2ndloot"
+	label "2"
+	action
+		outfit "Nanite Swarm Purple" 1
+	`	Purple Nanite Swarm (T2 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmpurple"
+	branch "2ndloot"
+	label "3"
+	action
+		outfit "Nanite Swarm Orange" 1
+	`	Orange Nanite Swarm (T3 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmorange"
+	branch "2ndloot"
+	label "4"
+	action
+		outfit "dun1_h2h_1" 1
+	`	Plasma Lance (h2h outfit weak)`
+	scene "outfit/dun1/dun1_gun_01"
+	branch "2ndloot"
+	label "5"
+	action
+		outfit "dun1_h2h_2" 1
+	`	Plasma Disruptor (h2h outfit medium)`
+	scene "outfit/dun1/dun1_gun_02"
+	branch "2ndloot"
+	label "6"
+	action
+		outfit "dun1_h2h_3" 1
+	`	Plasmacaster (h2h outfit strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "7"
+	action
+		outfit "dun1_h2h_4" 1
+	`	Plasmastream (h2h outfit very strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "2ndloot"
+	action
+		"dun_random" = "roll: 100"
+	branch "8"
+		"dun_random" < 100
+		"dun_random" >= 75
+	branch "9"
+		"dun_random" < 75
+		"dun_random" >= 50
+	branch "10"
+		"dun_random" < 50
+		"dun_random" >= 25
+	branch "11"
+		"dun_random" < 25
+		"dun_random" >= 0
+	label "8"
+	action
+		outfit "dun1_rare_outfit_9" 1
+	`	Dimensional Storage (cargo)`
+	scene "outfit/dun1/dun1_device_09"
+	branch "end"
+	label "9"
+	action
+		outfit "dun1_rare_outfit_10" 1
+	`	Dimensional Refrigerator (cooling)`
+	scene "outfit/dun1/dun1_device_10"
+	branch "end"
+	label "10"
+	action
+		outfit "dun1_rare_outfit_11" 1
+	`	Spa'ark Plug (energy)`
+	scene "outfit/dun1/dun1_device_11"
+	branch "end"
+	label "11"
+	action
+		outfit "dun1_rare_outfit_12" 1
+	`	Spa'ark Cell (battery)`
+	scene "outfit/dun1/dun1_device_12"
+	branch "end"
+	label "end"
+
+# conversation dun1_conversation_3
+# 56%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+# 10%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+# 2%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+# 11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+# 9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+# 7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+# 5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+# 2ndloot|25%|Helix Pulse (shield generation multiplier)|dun1_rare_outfit_1|outfit/dun1/dun1_device_01
+# 2ndloot|25%|Helix Overframe (shield multiplier)|dun1_rare_outfit_2|outfit/dun1/dun1_device_02
+# 2ndloot|25%|Grav Injector (hull repair multiplier)|dun1_rare_outfit_3|outfit/dun1/dun1_device_03
+# 2ndloot|25%|Grav Weaver (hull multiplier)|dun1_rare_outfit_4|outfit/dun1/dun1_device_04
+conversation dun1_conversation_3
+	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've also found: `
+	action
+		"dun_random2"  = "roll: 10" + 1
+		"dun_pay" = "dun_random2" * 200000
+	label "get payment"
+	branch "continue loottable"
+		"dun_random2" < 1
+	action
+		"dun_random2" --
+		payment 200000
+	branch "get payment"
+	label "continue loottable"
+	`	Valuables worth &[dun_pay] credits, and`
+	label "loottable"
+	branch "1"
+		"dun_random" < 100
+		"dun_random" >= 44
+	branch "2"
+		"dun_random" < 44
+		"dun_random" >= 34
+	branch "3"
+		"dun_random" < 34
+		"dun_random" >= 32
+	branch "4"
+		"dun_random" < 32
+		"dun_random" >= 21
+	branch "5"
+		"dun_random" < 21
+		"dun_random" >= 12
+	branch "6"
+		"dun_random" < 12
+		"dun_random" >= 5
+	branch "7"
+		"dun_random" < 5
+		"dun_random" >= 0
+	label "1"
+	action
+		outfit "Nanite Swarm Blue" 1
+	`	Blue Nanite Swarm (T1 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmblue"
+	branch "2ndloot"
+	label "2"
+	action
+		outfit "Nanite Swarm Purple" 1
+	`	Purple Nanite Swarm (T2 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmpurple"
+	branch "2ndloot"
+	label "3"
+	action
+		outfit "Nanite Swarm Orange" 1
+	`	Orange Nanite Swarm (T3 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmorange"
+	branch "2ndloot"
+	label "4"
+	action
+		outfit "dun1_h2h_1" 1
+	`	Plasma Lance (h2h outfit weak)`
+	scene "outfit/dun1/dun1_gun_01"
+	branch "2ndloot"
+	label "5"
+	action
+		outfit "dun1_h2h_2" 1
+	`	Plasma Disruptor (h2h outfit medium)`
+	scene "outfit/dun1/dun1_gun_02"
+	branch "2ndloot"
+	label "6"
+	action
+		outfit "dun1_h2h_3" 1
+	`	Plasmacaster (h2h outfit strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "7"
+	action
+		outfit "dun1_h2h_4" 1
+	`	Plasmastream (h2h outfit very strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "2ndloot"
+	action
+		"dun_random" = "roll: 100"
+	branch "8"
+		"dun_random" < 100
+		"dun_random" >= 75
+	branch "9"
+		"dun_random" < 75
+		"dun_random" >= 50
+	branch "10"
+		"dun_random" < 50
+		"dun_random" >= 25
+	branch "11"
+		"dun_random" < 25
+		"dun_random" >= 0
+	label "8"
+	action
+		outfit "dun1_rare_outfit_1" 1
+	`	Helix Pulse (shield generation multiplier)`
+	scene "outfit/dun1/dun1_device_01"
+	branch "end"
+	label "9"
+	action
+		outfit "dun1_rare_outfit_2" 1
+	`	Helix Overframe (shield multiplier)`
+	scene "outfit/dun1/dun1_device_02"
+	branch "end"
+	label "10"
+	action
+		outfit "dun1_rare_outfit_3" 1
+	`	Grav Injector (hull repair multiplier)`
+	scene "outfit/dun1/dun1_device_03"
+	branch "end"
+	label "11"
+	action
+		outfit "dun1_rare_outfit_4" 1
+	`	Grav Weaver (hull multiplier)`
+	scene "outfit/dun1/dun1_device_04"
+	branch "end"
+	label "end"
+
+# conversation dun1_conversation_4
+# 44%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+# 20%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+# 4%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+# 11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+# 9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+# 7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+# 5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+# 2ndloot|8%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_05
+# 2ndloot|8%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_06
+# 2ndloot|8%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_07
+# 2ndloot|8%|Voidshell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_08
+# 2ndloot|8%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_09
+# 2ndloot|8%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_10
+# 2ndloot|8%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_11
+# 2ndloot|8%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_12
+# 2ndloot|8%|Helix Pulse (shield generation multiplier)|dun1_rare_outfit_1|outfit/dun1/dun1_device_01
+# 2ndloot|8%|Helix Overframe (shield multiplier)|dun1_rare_outfit_2|outfit/dun1/dun1_device_02
+# 2ndloot|8%|Grav Injector (hull repair multiplier)|dun1_rare_outfit_3|outfit/dun1/dun1_device_03
+# 2ndloot|8%|Grav Weaver (hull multiplier)|dun1_rare_outfit_4|outfit/dun1/dun1_device_04
+# 2ndloot|4%|Synthesizer (income)|dun1_rare_outfit_13|outfit/dun1/dun1_device_13
+conversation dun1_conversation_4
+	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've also found: `
+	action
+		"dun_random2"  = "roll: 10" + 1
+		"dun_pay" = "dun_random2" * 200000
+	label "get payment"
+	branch "continue loottable"
+		"dun_random2" < 1
+	action
+		"dun_random2" --
+		payment 200000
+	branch "get payment"
+	label "continue loottable"
+	`	Valuables worth &[dun_pay] credits, and`
+	label "loottable"
+	branch "1"
+		"dun_random" < 100
+		"dun_random" >= 56
+	branch "2"
+		"dun_random" < 56
+		"dun_random" >= 36
+	branch "3"
+		"dun_random" < 36
+		"dun_random" >= 32
+	branch "4"
+		"dun_random" < 32
+		"dun_random" >= 21
+	branch "5"
+		"dun_random" < 21
+		"dun_random" >= 12
+	branch "6"
+		"dun_random" < 12
+		"dun_random" >= 5
+	branch "7"
+		"dun_random" < 5
+		"dun_random" >= 0
+	label "1"
+	action
+		outfit "Nanite Swarm Blue" 1
+	`	Blue Nanite Swarm (T1 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmblue"
+	branch "2ndloot"
+	label "2"
+	action
+		outfit "Nanite Swarm Purple" 1
+	`	Purple Nanite Swarm (T2 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmpurple"
+	branch "2ndloot"
+	label "3"
+	action
+		outfit "Nanite Swarm Orange" 1
+	`	Orange Nanite Swarm (T3 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmorange"
+	branch "2ndloot"
+	label "4"
+	action
+		outfit "dun1_h2h_1" 1
+	`	Plasma Lance (h2h outfit weak)`
+	scene "outfit/dun1/dun1_gun_01"
+	branch "2ndloot"
+	label "5"
+	action
+		outfit "dun1_h2h_2" 1
+	`	Plasma Disruptor (h2h outfit medium)`
+	scene "outfit/dun1/dun1_gun_02"
+	branch "2ndloot"
+	label "6"
+	action
+		outfit "dun1_h2h_3" 1
+	`	Plasmacaster (h2h outfit strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "7"
+	action
+		outfit "dun1_h2h_4" 1
+	`	Plasmastream (h2h outfit very strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "2ndloot"
+	action
+		"dun_random" = "roll: 100"
+	branch "8"
+		"dun_random" < 100
+		"dun_random" >= 92
+	branch "9"
+		"dun_random" < 92
+		"dun_random" >= 84
+	branch "10"
+		"dun_random" < 84
+		"dun_random" >= 76
+	branch "11"
+		"dun_random" < 76
+		"dun_random" >= 68
+	branch "12"
+		"dun_random" < 68
+		"dun_random" >= 60
+	branch "13"
+		"dun_random" < 60
+		"dun_random" >= 52
+	branch "14"
+		"dun_random" < 52
+		"dun_random" >= 44
+	branch "15"
+		"dun_random" < 44
+		"dun_random" >= 36
+	branch "16"
+		"dun_random" < 36
+		"dun_random" >= 28
+	branch "17"
+		"dun_random" < 28
+		"dun_random" >= 20
+	branch "18"
+		"dun_random" < 20
+		"dun_random" >= 12
+	branch "19"
+		"dun_random" < 12
+		"dun_random" >= 4
+	branch "20"
+		"dun_random" < 4
+		"dun_random" >= 0
+	label "8"
+	action
+		outfit "dun1_rare_outfit_5" 1
+	`	Voidstream Actuators (turn multiplier)`
+	scene "outfit/dun1/dun1_device_05"
+	branch "end"
+	label "9"
+	action
+		outfit "dun1_rare_outfit_6" 1
+	`	Voidstream Replicator (acceleration multiplier)`
+	scene "outfit/dun1/dun1_device_06"
+	branch "end"
+	label "10"
+	action
+		outfit "dun1_rare_outfit_7" 1
+	`	Voidstream Interdictors (thrust)`
+	scene "outfit/dun1/dun1_device_07"
+	branch "end"
+	label "11"
+	action
+		outfit "dun1_rare_outfit_8" 1
+	`	Voidshell (resistance)`
+	scene "outfit/dun1/dun1_device_08"
+	branch "end"
+	label "12"
+	action
+		outfit "dun1_rare_outfit_9" 1
+	`	Dimensional Storage (cargo)`
+	scene "outfit/dun1/dun1_device_09"
+	branch "end"
+	label "13"
+	action
+		outfit "dun1_rare_outfit_10" 1
+	`	Dimensional Refrigerator (cooling)`
+	scene "outfit/dun1/dun1_device_10"
+	branch "end"
+	label "14"
+	action
+		outfit "dun1_rare_outfit_11" 1
+	`	Spa'ark Plug (energy)`
+	scene "outfit/dun1/dun1_device_11"
+	branch "end"
+	label "15"
+	action
+		outfit "dun1_rare_outfit_12" 1
+	`	Spa'ark Cell (battery)`
+	scene "outfit/dun1/dun1_device_12"
+	branch "end"
+	label "16"
+	action
+		outfit "dun1_rare_outfit_1" 1
+	`	Helix Pulse (shield generation multiplier)`
+	scene "outfit/dun1/dun1_device_01"
+	branch "end"
+	label "17"
+	action
+		outfit "dun1_rare_outfit_2" 1
+	`	Helix Overframe (shield multiplier)`
+	scene "outfit/dun1/dun1_device_02"
+	branch "end"
+	label "18"
+	action
+		outfit "dun1_rare_outfit_3" 1
+	`	Grav Injector (hull repair multiplier)`
+	scene "outfit/dun1/dun1_device_03"
+	branch "end"
+	label "19"
+	action
+		outfit "dun1_rare_outfit_4" 1
+	`	Grav Weaver (hull multiplier)`
+	scene "outfit/dun1/dun1_device_04"
+	branch "end"
+	label "20"
+	action
+		outfit "dun1_rare_outfit_13" 1
+	`	Synthesizer (income)`
+	scene "outfit/dun1/dun1_device_13"
+	branch "end"
+	label "end"
+
+# conversation dun1_conversation_5
+# 44%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+# 20%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+# 4%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+# 11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+# 9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+# 7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+# 5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+# 2ndloot|8%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_05
+# 2ndloot|8%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_06
+# 2ndloot|8%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_07
+# 2ndloot|8%|Voidshell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_08
+# 2ndloot|8%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_09
+# 2ndloot|8%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_10
+# 2ndloot|8%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_11
+# 2ndloot|8%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_12
+# 2ndloot|8%|Helix Pulse (shield generation multiplier)|dun1_rare_outfit_1|outfit/dun1/dun1_device_01
+# 2ndloot|8%|Helix Overframe (shield multiplier)|dun1_rare_outfit_2|outfit/dun1/dun1_device_02
+# 2ndloot|8%|Grav Injector (hull repair multiplier)|dun1_rare_outfit_3|outfit/dun1/dun1_device_03
+# 2ndloot|8%|Grav Weaver (hull multiplier)|dun1_rare_outfit_4|outfit/dun1/dun1_device_04
+# 2ndloot|4%|Synthesizer (income)|dun1_rare_outfit_13|outfit/dun1/dun1_device_13
+conversation dun1_conversation_5
+	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've also found: `
+	action
+		"dun_random2"  = "roll: 10" + 1
+		"dun_pay" = "dun_random2" * 200000
+	label "get payment"
+	branch "continue loottable"
+		"dun_random2" < 1
+	action
+		"dun_random2" --
+		payment 200000
+	branch "get payment"
+	label "continue loottable"
+	`	Valuables worth &[dun_pay] credits, and`
+	label "loottable"
+	branch "1"
+		"dun_random" < 100
+		"dun_random" >= 56
+	branch "2"
+		"dun_random" < 56
+		"dun_random" >= 36
+	branch "3"
+		"dun_random" < 36
+		"dun_random" >= 32
+	branch "4"
+		"dun_random" < 32
+		"dun_random" >= 21
+	branch "5"
+		"dun_random" < 21
+		"dun_random" >= 12
+	branch "6"
+		"dun_random" < 12
+		"dun_random" >= 5
+	branch "7"
+		"dun_random" < 5
+		"dun_random" >= 0
+	label "1"
+	action
+		outfit "Nanite Swarm Blue" 1
+	`	Blue Nanite Swarm (T1 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmblue"
+	branch "2ndloot"
+	label "2"
+	action
+		outfit "Nanite Swarm Purple" 1
+	`	Purple Nanite Swarm (T2 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmpurple"
+	branch "2ndloot"
+	label "3"
+	action
+		outfit "Nanite Swarm Orange" 1
+	`	Orange Nanite Swarm (T3 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmorange"
+	branch "2ndloot"
+	label "4"
+	action
+		outfit "dun1_h2h_1" 1
+	`	Plasma Lance (h2h outfit weak)`
+	scene "outfit/dun1/dun1_gun_01"
+	branch "2ndloot"
+	label "5"
+	action
+		outfit "dun1_h2h_2" 1
+	`	Plasma Disruptor (h2h outfit medium)`
+	scene "outfit/dun1/dun1_gun_02"
+	branch "2ndloot"
+	label "6"
+	action
+		outfit "dun1_h2h_3" 1
+	`	Plasmacaster (h2h outfit strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "7"
+	action
+		outfit "dun1_h2h_4" 1
+	`	Plasmastream (h2h outfit very strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "2ndloot"
+	action
+		"dun_random" = "roll: 100"
+	branch "8"
+		"dun_random" < 100
+		"dun_random" >= 92
+	branch "9"
+		"dun_random" < 92
+		"dun_random" >= 84
+	branch "10"
+		"dun_random" < 84
+		"dun_random" >= 76
+	branch "11"
+		"dun_random" < 76
+		"dun_random" >= 68
+	branch "12"
+		"dun_random" < 68
+		"dun_random" >= 60
+	branch "13"
+		"dun_random" < 60
+		"dun_random" >= 52
+	branch "14"
+		"dun_random" < 52
+		"dun_random" >= 44
+	branch "15"
+		"dun_random" < 44
+		"dun_random" >= 36
+	branch "16"
+		"dun_random" < 36
+		"dun_random" >= 28
+	branch "17"
+		"dun_random" < 28
+		"dun_random" >= 20
+	branch "18"
+		"dun_random" < 20
+		"dun_random" >= 12
+	branch "19"
+		"dun_random" < 12
+		"dun_random" >= 4
+	branch "20"
+		"dun_random" < 4
+		"dun_random" >= 0
+	label "8"
+	action
+		outfit "dun1_rare_outfit_5" 1
+	`	Voidstream Actuators (turn multiplier)`
+	scene "outfit/dun1/dun1_device_05"
+	branch "end"
+	label "9"
+	action
+		outfit "dun1_rare_outfit_6" 1
+	`	Voidstream Replicator (acceleration multiplier)`
+	scene "outfit/dun1/dun1_device_06"
+	branch "end"
+	label "10"
+	action
+		outfit "dun1_rare_outfit_7" 1
+	`	Voidstream Interdictors (thrust)`
+	scene "outfit/dun1/dun1_device_07"
+	branch "end"
+	label "11"
+	action
+		outfit "dun1_rare_outfit_8" 1
+	`	Voidshell (resistance)`
+	scene "outfit/dun1/dun1_device_08"
+	branch "end"
+	label "12"
+	action
+		outfit "dun1_rare_outfit_9" 1
+	`	Dimensional Storage (cargo)`
+	scene "outfit/dun1/dun1_device_09"
+	branch "end"
+	label "13"
+	action
+		outfit "dun1_rare_outfit_10" 1
+	`	Dimensional Refrigerator (cooling)`
+	scene "outfit/dun1/dun1_device_10"
+	branch "end"
+	label "14"
+	action
+		outfit "dun1_rare_outfit_11" 1
+	`	Spa'ark Plug (energy)`
+	scene "outfit/dun1/dun1_device_11"
+	branch "end"
+	label "15"
+	action
+		outfit "dun1_rare_outfit_12" 1
+	`	Spa'ark Cell (battery)`
+	scene "outfit/dun1/dun1_device_12"
+	branch "end"
+	label "16"
+	action
+		outfit "dun1_rare_outfit_1" 1
+	`	Helix Pulse (shield generation multiplier)`
+	scene "outfit/dun1/dun1_device_01"
+	branch "end"
+	label "17"
+	action
+		outfit "dun1_rare_outfit_2" 1
+	`	Helix Overframe (shield multiplier)`
+	scene "outfit/dun1/dun1_device_02"
+	branch "end"
+	label "18"
+	action
+		outfit "dun1_rare_outfit_3" 1
+	`	Grav Injector (hull repair multiplier)`
+	scene "outfit/dun1/dun1_device_03"
+	branch "end"
+	label "19"
+	action
+		outfit "dun1_rare_outfit_4" 1
+	`	Grav Weaver (hull multiplier)`
+	scene "outfit/dun1/dun1_device_04"
+	branch "end"
+	label "20"
+	action
+		outfit "dun1_rare_outfit_13" 1
+	`	Synthesizer (income)`
+	scene "outfit/dun1/dun1_device_13"
+	branch "end"
+	label "end"
+
+# conversation dun1_conversation_6
+# 30%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+# 30%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+# 8%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+# 11%|Plasma Lance (h2h outfit weak)|dun1_h2h_1|outfit/dun1/dun1_gun_01
+# 9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
+# 7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
+# 5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
+# 2ndloot|50%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
+# 2ndloot|35%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
+# 2ndloot|15%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
+conversation dun1_conversation_6
+	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've also found: `
+	action
+		"dun_random2"  = "roll: 10" + 1
+		"dun_pay" = "dun_random2" * 200000
+	label "get payment"
+	branch "continue loottable"
+		"dun_random2" < 1
+	action
+		"dun_random2" --
+		payment 200000
+	branch "get payment"
+	label "continue loottable"
+	`	Valuables worth &[dun_pay] credits, and`
+	label "loottable"
+	branch "1"
+		"dun_random" < 100
+		"dun_random" >= 70
+	branch "2"
+		"dun_random" < 70
+		"dun_random" >= 40
+	branch "3"
+		"dun_random" < 40
+		"dun_random" >= 32
+	branch "4"
+		"dun_random" < 32
+		"dun_random" >= 21
+	branch "5"
+		"dun_random" < 21
+		"dun_random" >= 12
+	branch "6"
+		"dun_random" < 12
+		"dun_random" >= 5
+	branch "7"
+		"dun_random" < 5
+		"dun_random" >= 0
+	label "1"
+	action
+		outfit "Nanite Swarm Blue" 1
+	`	Blue Nanite Swarm (T1 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmblue"
+	branch "2ndloot"
+	label "2"
+	action
+		outfit "Nanite Swarm Purple" 1
+	`	Purple Nanite Swarm (T2 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmpurple"
+	branch "2ndloot"
+	label "3"
+	action
+		outfit "Nanite Swarm Orange" 1
+	`	Orange Nanite Swarm (T3 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmorange"
+	branch "2ndloot"
+	label "4"
+	action
+		outfit "dun1_h2h_1" 1
+	`	Plasma Lance (h2h outfit weak)`
+	scene "outfit/dun1/dun1_gun_01"
+	branch "2ndloot"
+	label "5"
+	action
+		outfit "dun1_h2h_2" 1
+	`	Plasma Disruptor (h2h outfit medium)`
+	scene "outfit/dun1/dun1_gun_02"
+	branch "2ndloot"
+	label "6"
+	action
+		outfit "dun1_h2h_3" 1
+	`	Plasmacaster (h2h outfit strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "7"
+	action
+		outfit "dun1_h2h_4" 1
+	`	Plasmastream (h2h outfit very strong)`
+	scene "outfit/dun1/dun1_automatic_01"
+	branch "2ndloot"
+	label "2ndloot"
+	action
+		"dun_random" = "roll: 100"
+	branch "8"
+		"dun_random" < 100
+		"dun_random" >= 50
+	branch "9"
+		"dun_random" < 50
+		"dun_random" >= 15
+	branch "10"
+		"dun_random" < 15
+		"dun_random" >= 0
+	label "8"
+	action
+		outfit "Nanite Swarm Blue" 1
+	`	Blue Nanite Swarm (T1 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmblue"
+	branch "end"
+	label "9"
+	action
+		outfit "Nanite Swarm Purple" 1
+	`	Purple Nanite Swarm (T2 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmpurple"
+	branch "end"
+	label "10"
+	action
+		outfit "Nanite Swarm Orange" 1
+	`	Orange Nanite Swarm (T3 weapon upgrade item)`
+	scene "outfit/nanites/naniteswarmorange"
+	branch "end"
+	label "end"
+

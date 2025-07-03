@@ -1,0 +1,298 @@
+# mission "dun1_adhile_enter_rm_2"
+# mission "dun1_adhile_enter_rm_3"
+# mission "dun1_adhile_enter_rm_4"
+# mission "dun1_adhile_enter_rm_5"
+# mission "dun1_adhile_enter_rm_6"
+# mission "dun1_adhile_enter_rm_7"
+# mission "dun1_adhile_enter_rm_8"
+# mission "dun1_adhile_enter_failboss"
+# mission "dun1_sys_b_01_enter"
+# mission "dun1_sys_b_02_enter"
+# mission "dun1_sys_b_03_enter"
+# mission "dun1_sys_b_04_enter"
+# mission "dun1_sys_b_05_enter"
+
+
+
+mission "dun1_adhile_enter_rm_2"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "Adhile"
+	to offer
+		has "outfit: dun1_key_02"
+	on offer
+		outfit "dun1_key_02" -1
+		fail
+
+mission "dun1_adhile_enter_rm_3"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "Adhile"
+	to offer
+		has "outfit: dun1_key_03"
+	on offer
+		outfit "dun1_key_03" -1
+		fail
+
+mission "dun1_adhile_enter_rm_4"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "Adhile"
+	to offer
+		has "outfit: dun1_key_04"
+	on offer
+		outfit "dun1_key_04" -1
+		fail
+
+mission "dun1_adhile_enter_rm_5"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "Adhile"
+	to offer
+		has "outfit: dun1_key_05"
+	on offer
+		outfit "dun1_key_05" -1
+		fail
+
+mission "dun1_adhile_enter_rm_6"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "Adhile"
+	to offer
+		has "outfit: dun1_key_06"
+	on offer
+		outfit "dun1_key_06" -1
+		fail
+
+mission "dun1_adhile_enter_rm_7"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "Adhile"
+	to offer
+		has "outfit: dun1_key_07"
+	on offer
+		outfit "dun1_key_06" -1
+		fail
+
+mission "dun1_adhile_enter_rm_8"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "Adhile"
+	to offer
+		has "outfit: dun1_key_00"
+	on offer
+		outfit "dun1_key_00" -1
+		fail
+
+mission "dun1_adhile_enter_failboss"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "Adhile"
+	to offer
+		or
+			has "dun1_sys_b_01_enter: active"
+			has "dun1_sys_b_02_enter: active"
+			has "dun1_sys_b_03_enter: active"
+			has "dun1_sys_b_04_enter: active"
+			has "dun1_sys_b_05_enter: active"
+			has "dun1_sys_b_06_enter: active"
+	on offer
+		fail "dun1_sys_b_01_enter"
+		fail "dun1_sys_b_02_enter"
+		fail "dun1_sys_b_03_enter"
+		fail "dun1_sys_b_04_enter"
+		fail "dun1_sys_b_05_enter"
+		fail "dun1_sys_b_06_enter"
+		fail
+
+mission "dun1_sys_b_01_enter"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "dun1_sys_b_01"
+	to offer
+		not "outfit: dun1_key_02"
+		not "dun1_sys_b_01_enter: active"
+	on offer
+		dun_random = "roll: 100"
+	npc kill
+		personality target heroic mute hunting
+		government "Sagittarian"
+		"cargo settings"
+			cargo 0
+		fleet
+			variant 1
+				"dun_tiger" 1
+		on kill
+			outfit "dun1_key_02" 1
+			conversation "dun1_conversation_1"
+			fail
+
+mission "dun1_sys_b_02_enter"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "dun1_sys_b_02"
+	to offer
+		not "outfit: dun1_key_03"
+		not "dun1_sys_b_02_enter: active"
+	on offer
+		dun_random = "roll: 100"
+	npc kill
+		personality target heroic mute hunting
+		government "Sagittarian"
+		"cargo settings"
+			cargo 0
+		fleet
+			variant 1
+				"dun_battlestar" 1
+				"dun_raptor" 10
+				"dun_viper" 10
+		on kill
+			outfit "dun1_key_03" 1
+			conversation "dun1_conversation_2"
+			fail
+
+mission "dun1_sys_b_03_enter"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "dun1_sys_b_03"
+	to offer
+		not "outfit: dun1_key_04"
+		not "dun1_sys_b_03_enter: active"
+	on offer
+		dun_random = "roll: 100"
+	npc kill
+		personality target heroic mute hunting
+		government "Sagittarian"
+		"cargo settings"
+			cargo 0
+		fleet
+			variant 1
+				"dun_defender" 1
+		on kill
+			outfit "dun1_key_04" 1
+			conversation "dun1_conversation_3"
+			fail
+
+mission "dun1_sys_b_04_enter"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "dun1_sys_b_04"
+	to offer
+		not "outfit: dun1_key_05"
+		not "dun1_sys_b_04_enter: active"
+	on offer
+		dun_random = "roll: 100"
+	npc kill
+		personality target heroic mute hunting
+		government "Sagittarian"
+		"cargo settings"
+			cargo 0
+		fleet
+			variant 1
+				"dun_valkyrie" 1
+		on kill
+			outfit "dun1_key_05" 1
+			conversation "dun1_conversation_4"
+			fail
+
+mission "dun1_sys_b_05_enter"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "dun1_sys_b_05"
+	to offer
+		not "outfit: dun1_key_06"
+		not "dun1_sys_b_05_enter: active"
+	on offer
+		dun_random = "roll: 100"
+	npc kill
+		personality target heroic mute hunting
+		government "Sagittarian"
+		"cargo settings"
+			cargo 0
+		fleet
+			variant 1
+				"dun_raider" 30
+		on kill
+			outfit "dun1_key_06" 1
+			conversation "dun1_conversation_5"
+			fail
+
+mission "dun1_sys_b_06_enter"
+	non-blocking
+	entering
+	invisible
+	repeat
+	destination "Earth"
+	source
+		system "dun1_sys_b_06"
+	to offer
+		not "outfit: dun1_key_00"
+		not "dun1_sys_b_06_enter: active"
+	on offer
+		dun_random = "roll: 100"
+	npc kill
+		personality target heroic mute hunting
+		government "Sagittarian"
+		"cargo settings"
+			cargo 0
+		fleet
+			variant 1
+				"dun_basestar" 1
+				"dun_raider" 10
+		on kill
+			outfit "dun1_key_00" 1
+			"dun1_boss_counter" ++
+			conversation "dun1_conversation_6"
+			fail

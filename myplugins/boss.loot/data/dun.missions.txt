@@ -1,0 +1,115 @@
+# color "endgame job: selected"
+# color "endgame job: unselected"
+# mission "dun_first_entering"
+# mission "dun_first_station"
+# mission "dun_first_nanite_swarm"
+# mission "dun_exchange_tier"
+
+
+
+color "endgame job: selected" 1. 1. .0 0.
+color "endgame job: unselected" .5 .5 0. 0.
+
+mission "dun_first_entering"
+	name "Dock at Vigilant Horizon"
+	description `The Navy Intelligence ordered you to dock immediately at the station Vigilant Horizon in the Adhile system.`
+	non-blocking
+	entering
+	destination "dun_station_01"
+	source
+		system "Adhile"
+	on offer
+		conversation
+			`As you enter the system, a transmission crackles through... Navy Intelligence. It's not a request. It's an order: dock immediately at the station. According to your star map, this system should be uninhabited. What's going on here?`
+				accept
+
+mission "dun_first_station"
+	non-blocking
+	landing
+	invisible
+	source "dun_station_01"
+	destination "dun_station_01"
+	to complete
+		has "visited dun1_sys_01"
+	on offer
+		outfit "dun1_key_01" 1
+		conversation
+			`You arrive on the Repunkic Intelligence station Vigilant Horizon in a rather undignified fashion, blinking and disoriented. Before you can explain that you're not some interstellar spy, you're dragged off to a sterile holding room by very serious individuals in equally serious uniforms.`
+			`The interrogation begins. "Who sent you? What's your purpose here? Do you know the penalties for violating Republic military space?" the lead officer growls, while his colleague adjusts their holographic tablet with an air of exaggerated importance. You stammer through a half-baked explanation about a malfunctioning hyperdrive and your total ignorance of Republic protocol. After an excruciating silence, they exchange a glance and, thankfully, decide you're just a very lost traveler, not a hostile agent.`
+			`The atmosphere shifts. The lead officer sighs, rubs his temples, and finally leans back in his chair. "Alright, fine. You're not a threat. A spy would have better explanations."`
+			`Now it's your turn for questions. You learn that Vigilant Horizon is no ordinary outpost but a hub for studying the mysterious wormhole. It appeared out of the sudden. Scout ships sent in came back heavily damaged with reports of very strong and aggressive alien ships.`
+			`Then comes the twist. "We could use someone like you" the officer says, arching an eyebrow. "You've got a knack for stumbling into the unknown without dying, so far. Share your findings with us, and we'll provide resources, repairs, and possibly fewer interrogations in the future."`
+			`It's a tempting offer. Adventure, exploration, and the faint hope of finally earning some respect in the universe. You glance at your ship through the observation window. "Do I get a better chair for my cockpit?" you ask.`
+			`The officer snorts. "Prove your worth and we'll see."`
+			`Back on your ship you get informed that the access key for the wormhole is already installed. It is an expensive piece of technology, so you get only one.`
+				decline
+
+mission "dun_first_nanite_swarm"
+	non-blocking
+	landing
+	invisible
+	source "dun_station_01"
+	to offer
+		or
+			has "outfit: Nanite Swarm Blue"
+			has "outfit: Nanite Swarm Purple"
+			has "outfit: Nanite Swarm Orange"
+	on offer
+		conversation
+			`You waste no time tracking down the science team of the station. With your discovery of the strange, fluid-like blue sphere from the debris field, you're certain you've found something groundbreaking. Bursting into the lab, you wave your prize triumphantly. "I've got something amazing!" you declare.`
+			`The scientists exchange knowing looks, and one raises an eyebrow. "Ah, a blue swarm." she says casually, as if you just handed her yesterday's news.`
+			`Wait, they already know about this?`
+			`You're quickly brought up to speed. Turns out, your mysterious blue sphere isn't just a cool trinket, it's a swarm of nanites, engineered to enhance weapon systems. The scientists break it down for you in technical terms, which you pretend to understand. The gist? These swarms are rare, and they come in three varieties: blue, purple, and orange. Each level boosts your weaponry in increasingly ridiculous ways.`
+			`"You're lucky to have found a blue swarm." one scientist says, inspecting it. "But don't get cocky. Upgrades only work sequentially, blue, then purple, then orange. And finding them? Not easy."`
+			`The team offers to help integrate your blue swarm into your ship, but you'll need to place orders for upgrades through the station's job board. "Also," one scientist adds with a smirk, "don't go trying to mix colors. We're scientists, not artists."`
+			`You can't help but grin. Better weapons and a job board to keep things organized? Now this feels like progress. Time to challenge some enemies!`
+
+mission "dun_exchange_tier"
+	job
+	repeat
+	name "[services] Exchange Nanites"
+	description "Exchange 10 Nanite Swarms to 1 of a higher tier."
+	color selected "endgame job: selected"
+	color unselected "endgame job: unselected"
+	source "dun_station_01"
+	to offer
+		or
+			"outfit (flagship installed): Nanite Swarm Blue" >= 10
+			"outfit (flagship installed): Nanite Swarm Purple" >= 10
+	on accept
+		conversation
+			label start
+			``
+			label menu
+			`You have:`
+			`Nanite Swarm Blue: &[outfit: Nanite Swarm Blue]`
+			`Nanite Swarm Purple: &[outfit: Nanite Swarm Purple]`
+			`Nanite Swarm Orange: &[outfit: Nanite Swarm Orange]`
+			``
+			`Exchange 10 nanite swarms to a higher tier`
+			choice
+				`	"Exchange 10 Blue Nanite Swarms to 1 Purple Nanite Swarm"`
+					to display
+						"outfit (flagship installed): Nanite Swarm Blue" >= 10
+					goto "blue"
+				`	"Exchange 10 Purple Nanite Swarms to 1 Orange Nanite Swarm"`
+					to display
+						"outfit (flagship installed): Nanite Swarm Purple" >= 10
+					goto "purple"
+				`	"Done"`
+					goto "end"
+			label "blue"
+			action
+				outfit "Nanite Swarm Blue" -10
+				outfit "Nanite Swarm Purple" 1
+			`You received 1 Nanite Swarm Purple.`
+				goto menu
+			label "purple"
+			action
+				outfit "Nanite Swarm Purple" -10
+				outfit "Nanite Swarm Orange" 1
+			`You received 1 Nanite Swarm Orange.`
+				goto menu
+			label end
+				decline
+		fail
