@@ -276,7 +276,7 @@ outfit "dun1_rare_outfit_11"
 	series "Special Systems"
 	index 99730
 	"energy generation" 0.5
-	description `What's the harm in a little bit of extra excitement? This little doodad produces a miniscule amount of energy from who-knows where. It can even charge your alarm clock!`
+	description `What's the harm in a little bit of extra excitement? This little doodad produces a minuscule amount of energy from who-knows where. It can even charge your alarm clock!`
 
 outfit "dun1_rare_outfit_12"
 	"display name" "Spa'ark Cell"
