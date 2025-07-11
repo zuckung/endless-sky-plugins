@@ -1,7 +1,7 @@
 
 def read_templates():
 	outfitlines = []
-	xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template = '', '', '', '', '', '', ''
+	xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template, substitutions = '', '', '', '', '', '', '', ''
 	with open('data.txt', 'r') as source:
 		data = source.readlines()
 	for line in data:
@@ -26,8 +26,10 @@ def read_templates():
 			mission3template += line
 		elif curPos.startswith('# mission 4:'):
 			mission4template += line
+		elif curPos.startswith('# substitutions'):
+			substitutions += line
 	outfittxt += '\n\n'
-	return outfitlines, xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template
+	return outfitlines, xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template, substitutions
 
 
 def create_outfits(outfitlines, outfittxt, outfittemplate):
@@ -144,34 +146,53 @@ def create_mission3(outfitnames, displaynames, mission3template):
 		index = outfitnames.index(outfit)
 		if outfit.startswith('basic'):
 			cbasic += 1
+			basic += '\t\t\tlabel "precheck ' + outfit + '"\n'
+			if index != 0:
+				basic += '\t\t\tbranch "check ' + outfitnames[index] + '"\n'
+				basic += '\t\t\t\t"combat_ai_counter" == 0\n'
+				basic += '\t\t\t`\trestored &[combat_ai_counter] x ' + displaynames[index-1] + '`\n'
+			basic += '\t\t\taction\n'
+			basic += '\t\t\t\t"combat_ai_counter" = 0\n'
 			basic += '\t\t\tlabel "check ' + outfit + '"\n'
-			basic += '\t\t\tbranch "check ' + outfitnames[index + 1] + '"\n'
+			basic += '\t\t\tbranch "precheck ' + outfitnames[index + 1] + '"\n'
 			basic += '\t\t\t\t"outfit (flagship installed): combat_ai_' + outfit + '" == "combat_ai_installed_' + outfit + '"\n'
 			basic += '\t\t\taction\n'
 			basic += '\t\t\t\toutfit "combat_ai_' + outfit + '" 1\n'
-			basic += '\t\t\t`\trestoring lost basic data: ' + displaynames[index] + '...`\n'
-			basic += '\t\t\t\tgoto "check ' + outfit + '"\n'
+			basic += '\t\t\t\t"combat_ai_counter" ++\n'
+			basic += '\t\t\tbranch "check ' + outfit + '"\n'
 		elif outfit.startswith('advanced'):
 			cadvanced += 1
+			advanced += '\t\t\tlabel "precheck ' + outfit + '"\n'
+			advanced += '\t\t\tbranch "check ' + outfitnames[index] + '"\n'
+			advanced += '\t\t\t\t"combat_ai_counter" == 0\n'
+			advanced += '\t\t\t`\trestored &[combat_ai_counter] x ' + displaynames[index-1] + '`\n'
+			advanced += '\t\t\taction\n'
+			advanced += '\t\t\t\t"combat_ai_counter" = 0\n'
 			advanced += '\t\t\tlabel "check ' + outfit + '"\n'
-			advanced += '\t\t\tbranch "check ' + outfitnames[index + 1] + '"\n'
+			advanced += '\t\t\tbranch "precheck ' + outfitnames[index + 1] + '"\n'
 			advanced += '\t\t\t\t"outfit (flagship installed): combat_ai_' + outfit + '" == "combat_ai_installed_' + outfit + '"\n'
 			advanced += '\t\t\taction\n'
 			advanced += '\t\t\t\toutfit "combat_ai_' + outfit + '" 1\n'
-			advanced += '\t\t\t`\trestoring lost advanced data: ' + displaynames[index] + '...`\n'
-			advanced += '\t\t\t\tgoto "check ' + outfit + '"\n'
+			advanced += '\t\t\t\t"combat_ai_counter" ++\n'
+			advanced += '\t\t\tbranch "check ' + outfit + '"\n'
 		elif outfit.startswith('special'):
 			cspecial += 1
+			special += '\t\t\tlabel "precheck ' + outfit + '"\n'
+			special += '\t\t\tbranch "check ' + outfitnames[index] + '"\n'
+			special += '\t\t\t\t"combat_ai_counter" == 0\n'
+			special += '\t\t\t`\trestored  &[combat_ai_counter] x  ' + displaynames[index-1] + '`\n'
+			special += '\t\t\taction\n'
+			special += '\t\t\t\t"combat_ai_counter" = 0\n'
 			special += '\t\t\tlabel "check ' + outfit + '"\n'
 			if index != len(outfitnames) -1:
-				special += '\t\t\tbranch "check ' + outfitnames[index + 1] + '"\n'
+				special += '\t\t\tbranch "precheck ' + outfitnames[index + 1] + '"\n'
 			else:
-				special += '\t\t\tbranch "end"\n'
+				special += '\t\t\tbranch "preend"\n'
 			special += '\t\t\t\t"outfit (flagship installed): combat_ai_' + outfit + '" == "combat_ai_installed_' + outfit + '"\n'
 			special += '\t\t\taction\n'
 			special += '\t\t\t\toutfit "combat_ai_' + outfit + '" 1\n'
-			special += '\t\t\t`\trestoring lost special data: ' + displaynames[index] + '...`\n'
-			special += '\t\t\t\tgoto "check ' + outfit + '"\n'
+			special += '\t\t\t\t"combat_ai_counter" ++\n'
+			special += '\t\t\tbranch "check ' + outfit + '"\n'
 	mission3txt = mission3template\
 		.replace('<conditions>', conditions[0:-1])\
 		.replace('<basic>', basic[0:-1])\
@@ -216,20 +237,20 @@ def create_mission4(outfitnames, mission4template):
 	return mission4txt
 
 
-def write_file(outfittxt, mission1txt, mission2txt, mission3txt, mission4txt):
+def write_file(outfittxt, mission1txt, mission2txt, mission3txt, mission4txt, substitutions):
 	# write to file
 	with open('combatAI.txt', 'w') as target:
-		target.writelines(outfittxt + '\n\n' + mission1txt + '\n\n' + mission2txt + '\n\n' + mission3txt + '\n\n' + mission4txt)
+		target.writelines(substitutions + '\n\n' + outfittxt + '\n\n' + mission1txt + '\n\n' + mission2txt + '\n\n' + mission3txt + '\n\n' + mission4txt)
 
 
 def run():
-	outfitlines, xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template = read_templates()
+	outfitlines, xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template, substitutions = read_templates()
 	outfittxt, outfitnames, displaynames, maxranks = create_outfits(outfitlines, outfittxt, outfittemplate)
 	mission1txt = create_mission1(outfitnames, mission1template)
 	mission2txt = create_mission2(xp, outfitnames, maxranks, displaynames, mission2template)
 	mission3txt = create_mission3(outfitnames, displaynames, mission3template)
 	mission4txt = create_mission4(outfitnames, mission4template)
-	write_file(outfittxt, mission1txt, mission2txt, mission3txt, mission4txt)
+	write_file(outfittxt, mission1txt, mission2txt, mission3txt, mission4txt, substitutions)
 
 
 if __name__ == "__main__":

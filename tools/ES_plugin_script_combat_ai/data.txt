@@ -6,7 +6,7 @@ basic_weapon_capacity|Basic: Weapon Capacity +3|-|"weapon capacity" 3
 basic_engine_capacity|Basic: Engine Capacity +3|-|"engine capacity" 3
 basic_fuel_capacity|Basic: Fuel Capacity +100|-|"fuel capacity" 100
 basic_cooling|Basic: Cooling +600|-|"cooling" 10
-basic_energy_capacity|Basic: Energy Capacity +2000|-|"energy capacity" 2000
+basic_energy_capacity|Basic: Energy Capacity +3000|-|"energy capacity" 3000
 
 advanced_hull|Advanced: Hull +2000 +2%|-|"hull multiplier" .02|"hull" 2000
 advanced_hull_repair|Advanced: Hull Repair +12 +2%|-|"hull repair multiplier" .02|"hull repair rate" 0.2
@@ -19,15 +19,15 @@ advanced_weapon_capacity|Advanced: Weapon Capacity +10|10|"weapon capacity" 10
 advanced_engine_capacity|Advanced: Engine Capacity +10|10|"engine capacity" 10
 advanced_bunks|Advanced: Bunks +5|10|"bunks" 5
 
-special_refueling|Special: Refueling|-|"ramscoop" 2|"fuel generation" .05
+special_refueling|Special: Refueling|-|"ramscoop" 2|"fuel generation" .07
 special_more_outfit_space|Special: Outfit Space +20|10|"outfit space" 20
 special_more_cargo_space|Special: Cargo Space +20|10|"cargo space" 20
 special_turret_turn|Special: Turret Turn Rate|10|"turret turn multiplier" .4
 special_force_protection|Special: Force Protection|5|"force protection" 0.2|"slowing resistance" 0.5
 special_scanner|Special: Scanner|5|"strategic scan power" 30|"range finder power" 1|"crew scan power" 30|"thermal scan power" 30|"energy scan power" 30|"fuel scan power" 30|"weapon scan power" 30|"maneuver scan power" 30|"strategic scan power" 30|"cargo scan power" 30|"cargo scan efficiency" 30|"outfit scan power" 30|"outfit scan efficiency" 30|"asteroid scan power" 30|"tactical scan power" 30
-special_drag_reduction|Special: Drag Reduction +0.2|5|"drag reduction" .2
+special_drag_reduction|Special: Drag Reduction +0.2|5|"drag reduction" .5
 special_capture_attack|Special: Capture Attack +200|3|"capture attack" 200
-special_capture_defense|Special: Capture Defense +200|3|"capture defense" 200
+special_capture_defense|Special: Capture Defense +400|3|"capture defense" 400
 special_spinal_mount|Special: Spinal Mount|1|"spinal mount" 1
 special_landing_speed|Special: Landing Speed|1|"landing speed" .08
 special_recovery_time|Special: Disabled Recovery 20s|1|"disabled recovery time" 1200
@@ -205,7 +205,7 @@ mission "combat_ai_update"
 				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
 			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
 			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
 			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
@@ -239,7 +239,7 @@ mission "combat_ai_update"
 			` `
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
 			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
 			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
 			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
@@ -255,7 +255,7 @@ mission "combat_ai_update"
 				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
 			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
 			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
 			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
@@ -289,7 +289,7 @@ mission "combat_ai_update"
 			` `
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
 			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
 			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
 			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
@@ -306,7 +306,7 @@ mission "combat_ai_update"
 			` `
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
 			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
 			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
 			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
@@ -337,7 +337,7 @@ mission "combat_ai_update"
 				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
 			scene "outfit/unq_combat_ai"
 			`The combat AI analyzes the previous fights and updates it's database now.`
-			`Current combat rating: &[combat rating] | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
 			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
 			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
 			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
@@ -363,17 +363,21 @@ mission "combat_ai_lost"
 		conversation
 			label "start"
 			scene "outfit/unq_combat_ai"
-			`AI LOST! Installing combat AI to flagship...`
+			`AI data LOST! Installing combat AI data to flagship...`
 			label "checkcore"
-			branch "check basic_outfit_space"
+			branch "precheck basic_outfit_space"
 				"outfit (flagship installed): combat_ai_core" == 1
 			action
 				outfit "combat_ai_core" 1
-			`	restoring lost data...core`
+			`	restored lost data...core`
 				goto "checkcore"	
 <basic>
 <advanced>
 <special>
+			label "preend"
+			branch "end"
+				"combat_ai_counter" == 0
+			`	restored &[combat_ai_counter] x Special: Pressure Hull`
 			label "end"
 			`AI restored!`
 				decline
@@ -407,3 +411,71 @@ mission "combat_ai_new_update"
 			`Done!`
 				decline
 
+
+# substitutions
+substitutions
+	"<combatai_rating>" "0 - harmless"
+		"combat rating" >= 0
+		"combat rating" < 3
+	"<combatai_rating>" "1 - mostly harmless"
+		"combat rating" >= 3
+		"combat rating" < 7
+	"<combatai_rating>" "2 - not entirely helpless"
+		"combat rating" >= 7
+		"combat rating" < 20
+	"<combatai_rating>" "3 - borderline competent"
+		"combat rating" >= 20
+		"combat rating" < 55
+	"<combatai_rating>" "4 - almost dangerous"
+		"combat rating" >= 55
+		"combat rating" < 148
+	"<combatai_rating>" "5 - moderately intimidating"
+		"combat rating" >= 148
+		"combat rating" < 403
+	"<combatai_rating>" "6 - not to be trifled with"
+		"combat rating" >= 403
+		"combat rating" < 1097
+	"<combatai_rating>" "7 - seasoned fighter"
+		"combat rating" >= 1097
+		"combat rating" < 2981
+	"<combatai_rating>" "8 - respected enemy"
+		"combat rating" >= 2981
+		"combat rating" < 8103
+	"<combatai_rating>" "9 - force to be reckoned with"
+		"combat rating" >= 8103
+		"combat rating" < 22026
+	"<combatai_rating>" "10 - fearsome scrapper"
+		"combat rating" >= 22026
+		"combat rating" < 59874
+	"<combatai_rating>" "11 - formidable adversary"
+		"combat rating" >= 59874
+		"combat rating" < 162755
+	"<combatai_rating>" "12 - dread warrior"
+		"combat rating" >= 162755
+		"combat rating" < 442413
+	"<combatai_rating>" "13 - veteran battle-lord"
+		"combat rating" >= 442413
+		"combat rating" < 1202604
+	"<combatai_rating>" "14 - legendary foe"
+		"combat rating" >= 1202604
+		"combat rating" < 3269017
+	"<combatai_rating>" "15 - war-hungry lunatic"
+		"combat rating" >= 3269017
+		"combat rating" < 8886111
+	"<combatai_rating>" "16 - absurdly bloodthirsty"
+		"combat rating" >= 8886111
+		"combat rating" < 24154953
+	"<combatai_rating>" "17 - terror of the galaxy"
+		"combat rating" >= 24154953
+		"combat rating" < 65659969
+	"<combatai_rating>" "18 - inconceivably destructive"
+		"combat rating" >= 65659969
+		"combat rating" < 178482301
+	"<combatai_rating>" "19 - agent of mass extinction"
+		"combat rating" >= 178482301
+		"combat rating" < 485165195
+	"<combatai_rating>" "20 - genocidal maniac"
+		"combat rating" >= 485165195
+		"combat rating" < 1318815734
+	"<combatai_rating>" "1 - destroyer of worlds"
+		"combat rating" >= 1318815734
