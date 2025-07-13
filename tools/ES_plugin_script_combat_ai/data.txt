@@ -110,6 +110,89 @@ mission "combat_ai_start"
 			`The system stabilizes, and a dialog box appears on the screen.`
 			`"Combat AI installed!"`
 			`Well, looks like you're stuck with it. Could be the start of a beautiful partnership... or the end of your ship. Either way, it's going to be interesting.`
+			branch "load save"
+				"global: combat.ai" > 0
+			label "end"
+			``
+				decline
+			label "load save"
+			`A combat.ai save point is found (combat rating: &[global: combat.ai])!`
+			`Do you want to load that?`
+			choice
+				`	No (continue with a fresh combat.aj)`
+					goto "real end"
+				`	Yes (increases combat.ai to saved level)`
+					goto "loops"
+			label "loops"
+			action
+				"combat_ai_saved" = "global: combat.ai"
+			label "100mio"
+			branch "10mio"
+				"combat_ai_saved" < 100000000
+			action
+				"combat rating" += 100000000
+				"combat_ai_saved" -= 100000000
+			branch "100mio"
+			label "10mio"
+			branch "1mio"
+				"combat_ai_saved" < 10000000
+			action
+				"combat rating" += 10000000
+				"combat_ai_saved" -= 10000000
+			branch "10mio"
+			label "1mio"
+			branch "100k"
+				"combat_ai_saved" < 1000000
+			action
+				"combat rating" += 1000000
+				"combat_ai_saved" -= 1000000
+			branch "1mio"
+			label "100k"
+			branch "10k"
+				"combat_ai_saved" < 100000
+			action
+				"combat rating" += 100000
+				"combat_ai_saved" -= 100000
+			branch "100k"
+			label "10k"
+			branch "1k"
+				"combat_ai_saved" < 10000
+			action
+				"combat rating" += 10000
+				"combat_ai_saved" -= 10000
+			branch "10k"
+			label "1k"
+			branch "100"
+				"combat_ai_saved" < 1000
+			action
+				"combat rating" += 1000
+				"combat_ai_saved" -= 1000
+			branch "1k"
+			label "100"
+			branch "10"
+				"combat_ai_saved" < 100
+			action
+				"combat rating" += 100
+				"combat_ai_saved" -= 100
+			branch "100"
+			label "10"
+			branch "1"
+				"combat_ai_saved" < 10
+			action
+				"combat rating" += 10
+				"combat_ai_saved" -= 10
+			branch "10"
+			label "1"
+			branch "loopend"
+				"combat_ai_saved" < 1
+			action
+				"combat rating" += 1
+				"combat_ai_saved" -= 1
+			branch "1"
+			label "loopend"
+			`Saved combat AI loaded!`
+			label "real end"
+			``
 				decline
 
 

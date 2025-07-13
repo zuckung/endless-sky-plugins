@@ -8,6 +8,7 @@ Every 3,000 combat xp you can choose between 8 basic updates, every 7,000 betwee
 Some updates have max ranks and others can get raised infinitely. These updates are done by adding invisible outfits with stats to the ship.<br>
 If you change your ship or lose the unique combat AI outfit, a restoring mission installs everything that has been lost on the (new) ship.<br>
 Some mechanics and ideas are inspired by Zoura's excellent plugin "Tales of Apoxys DX" . My plugin is less complex, doesn't need a fresh start, and is more flexible.<br>
+Install plugin control.station to get configuration options for this plugin, i.e. saved combat rating to start a new pilot with your saved combat.ai.<br>
 <br>
 Here a list of the update choices (update name|max ranks|stats)<br>
 Basic: Outfit Space +3|unlimited|"outfit space" 3<br>
@@ -17,7 +18,7 @@ Basic: Weapon Capacity +3|unlimited|"weapon capacity" 3<br>
 Basic: Engine Capacity +3|unlimited|"engine capacity" 3<br>
 Basic: Fuel Capacity +100|unlimited|"fuel capacity" 100<br>
 Basic: Cooling +600|unlimited|"cooling" 10<br>
-Basic: Energy Capacity +2000|unlimited|"energy capacity" 3000<br>
+Basic: Energy Capacity +3000|unlimited|"energy capacity" 3000<br>
 <br>
 Advanced: Hull +2000 +2%|unlimited|"hull multiplier" .02|"hull" 2000<br>
 Advanced: Hull Repair +12 +2%|unlimited|"hull repair multiplier" .02|"hull repair rate" 0.2<br>
@@ -47,6 +48,9 @@ Special: Pressure Hull|max 1|"gaslining" 1|"waterlining" 1<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-07-13<br>
+added control.station support for a new game+ (as wished by Kitteh)<br>
 <br>
 2025-07-11<br>
 changed ship changing conversation to be less long<br>

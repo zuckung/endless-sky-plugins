@@ -1,0 +1,88 @@
+# mission "plugin: combat.ai"
+
+
+
+mission "plugin: combat.ai"
+	name "[4] plugin: combat.ai"
+	color selected "control.station plugin job: selected"
+	color unselected "control.station plugin job: unselected"
+	job
+	repeat
+	description "Options for the plugin combat.ai"
+	source "Control Station"
+	to offer
+		has "installed plugin: control.station"
+	on accept
+		conversation
+			label "prestart"
+			``
+			label "start"
+			`Plugin: combat.ai`
+			``
+			choice
+				`	show plugin README`
+					goto "readme"
+				`	save current combat.ai (on a fresh start you continue from this point)`
+					goto "save cr"
+				`	done`
+					goto "end"
+			label "readme"
+			`Plugin README:`
+			``
+			`Offers a mission to install a combat AI, which increases your ship stats based on combat experience.`
+			``
+			`You can get the mission to install the AI on any human planet.`
+			`Every 3,000 combat xp you can choose between 8 basic updates, every 7,000 between 10 advanced updates, and every 11,000 between 14 special updates.`
+			`Some updates have max ranks and others can get raised infinitely. These updates are done by adding invisible outfits with stats to the ship.`
+			`If you change your ship or lose the unique combat AI outfit, a restoring mission installs everything that has been lost on the (new) ship.`
+			`Some mechanics and ideas are inspired by Zoura's excellent plugin "Tales of Apoxys DX" . My plugin is less complex, doesn't need a fresh start, and is more flexible.`
+			``
+			`Here a list of the update choices (update name|max ranks|stats)`
+			`Basic: Outfit Space +3|unlimited|"outfit space" 3`
+			`Basic: Cargo Space +3|unlimited|"cargo space" 3`
+			`Basic: Bunks +1|unlimited|"bunks" 1`
+			`Basic: Weapon Capacity +3|unlimited|"weapon capacity" 3`
+			`Basic: Engine Capacity +3|unlimited|"engine capacity" 3`
+			`Basic: Fuel Capacity +100|unlimited|"fuel capacity" 100`
+			`Basic: Cooling +600|unlimited|"cooling" 10`
+			`Basic: Energy Capacity +3000|unlimited|"energy capacity" 3000`
+			``
+			`Advanced: Hull +2000 +2%|unlimited|"hull multiplier" .02|"hull" 2000`
+			`Advanced: Hull Repair +12 +2%|unlimited|"hull repair multiplier" .02|"hull repair rate" 0.2`
+			`Advanced: Shield +2000 +2%|unlimited|"shield multiplier" .02|"shields" 2000`
+			`Advanced: Shield Gen. +60 +2%|unlimited|"shield generation multiplier" .02|"shield generation" 1`
+			`Advanced: Acceleration +2%|unlimited|"acceleration multiplier" .02`
+			`Advanced: Turn +2%|-|"turn multiplier" .02`
+			`Advanced: Protection +0.02|unlimited|"ion protection" .02|"heat protection" .02|"burn protection" .02|"fuel protection" .02|"leak protection" .02|"scramble protection" .02|"slowing protection" .02|"disruption protection" .02`
+			`Advanced: Weapon Capacity +10|max 10|"weapon capacity" 10`
+			`Advanced: Engine Capacity +10|max 10|"engine capacity" 10`
+			`Advanced: Bunks +5|max 10|"bunks" 5`
+			``
+			`Special: Refueling|unlimited|"ramscoop" 2|"fuel generation" .07`
+			`Special: Outfit Space +20|max 10|"outfit space" 20`
+			`Special: Cargo Space +20|max 10|"cargo space" 20`
+			`Special: Turret Turn Rate|max 10|"turret turn multiplier" .4`
+			`Special: Force Protection|max 5|"force protection" 0.2|"slowing resistance" 0.5`
+			`Special: Scanner|max 5|"strategic scan power" 30|"range finder power" 1|"crew scan power" 30|"thermal scan power" 30|"energy scan power" 30|"fuel scan power" 30|"weapon scan power" 30|"maneuver scan power" 30|"strategic scan power" 30|"cargo scan power" 30|"cargo scan efficiency" 30|"outfit scan power" 30|"outfit scan efficiency" 30|"asteroid scan power" 30|"tactical scan power" 30`
+			`Special: Drag Reduction +0.2|max 5|"drag reduction" .5`
+			`Special: Capture Attack +200|max 3|"capture attack" 200`
+			`Special: Capture Defense +400|max 3|"capture defense" 400`
+			`Special: Spinal Mount|max 1|"spinal mount" 1`
+			`Special: Landing Speed|max 1|"landing speed" .08`
+			`Special: Disabled Recovery 20s|max 1|"disabled recovery time" 1200`
+			`Special: Scanning Immunity|max 1|"inscrutable" 1`
+			`Special: Pressure Hull|max 1|"gaslining" 1|"waterlining" 1`
+			choice
+				`	continue`
+					goto "start"
+			label "save cr"
+			action
+				"global: combat.ai" = "combat rating"
+			`Combat.ai saved!`
+			`After you started a new pilot, you will be asked, if you want to continue combat.ai from this savepoint.`
+			choice
+				`	continue`
+					goto "start"
+			label "end"
+			``
+		fail
