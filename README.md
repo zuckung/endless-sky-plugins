@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-07-24 | update: combat.ai<br>
 2025-07-13 | update: combat.ai<br>
 2025-07-11 | update: combat.ai<br>
 2025-07-03 | update: boss.loot<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-25 | update: expert.crew.members<br>
 2025-06-21 | update: uniques<br>
 2025-06-21 | update: expert.crew.members<br>
-2025-06-21 | update: human.labels<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1328,7 +1328,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/combat.ai/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/combat.ai.png">
 
-[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-combat.ai/combat.ai.zip) | 331.55 kb | 2025-07-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
+[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-combat.ai/combat.ai.zip) | 331.76 kb | 2025-07-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
 <br>
 >Offers a mission to install a combat AI, which increases your ship stats based on combat experience. See the README for details.
 
@@ -1418,7 +1418,7 @@ Special: Capture Attack +200|max 3|"capture attack" 200<br>
 
 Special: Capture Defense +400|max 3|"capture defense" 400<br>
 
-Special: Spinal Mount|max 1|"spinal mount" 1<br>
+Special: Spinal Mount|max 3|"spinal mount" 1<br>
 
 Special: Landing Speed|max 1|"landing speed" .08<br>
 
@@ -1433,6 +1433,14 @@ Special: Pressure Hull|max 1|"gaslining" 1|"waterlining" 1<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-07-24<br>
+
+added option to delay the points distribution by 1 day (by Kassandra Haruki)<br>
+
+added 2 more spinal mount ranks<br>
 
 <br>
 
