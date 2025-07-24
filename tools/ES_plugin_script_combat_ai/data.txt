@@ -28,7 +28,7 @@ special_scanner|Special: Scanner|5|"strategic scan power" 30|"range finder power
 special_drag_reduction|Special: Drag Reduction +0.2|5|"drag reduction" .5
 special_capture_attack|Special: Capture Attack +200|3|"capture attack" 200
 special_capture_defense|Special: Capture Defense +400|3|"capture defense" 400
-special_spinal_mount|Special: Spinal Mount|1|"spinal mount" 1
+special_spinal_mount|Special: Spinal Mount|3|"spinal mount" 1
 special_landing_speed|Special: Landing Speed|1|"landing speed" .08
 special_recovery_time|Special: Disabled Recovery 20s|1|"disabled recovery time" 1200
 special_inscrutable|Special: Scanning Immunity|1|"inscrutable" 1
@@ -426,6 +426,60 @@ mission "combat_ai_update"
 			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			`AI Database update complete!`
+				decline
+			label "delay1"
+			branch "delay max1"
+				"combat_ai_needed_xp1" == 2850
+			label "delay not max1"
+			action
+				"combat_ai_installed_combat1" --
+				"combat_ai_updates1" ++
+				"combat_ai_old_combat_rating1" -= "combat_ai_needed_xp1"
+				"combat_ai_needed_xp1" -= 150
+			``
+				decline
+			label "delay max1"
+			action
+				"combat_ai_installed_combat1" --
+				"combat_ai_updates1" ++
+				"combat_ai_old_combat_rating1" -= "combat_ai_needed_xp1"
+			``
+				decline
+			label "delay2"
+			branch "delay max2"
+				"combat_ai_needed_xp2" == 6650
+			label "delay not max2"
+			action
+				"combat_ai_installed_combat2" --
+				"combat_ai_updates2" ++
+				"combat_ai_old_combat_rating2" -= "combat_ai_needed_xp2"
+				"combat_ai_needed_xp2" -= 350
+			``
+				decline
+			label "delay max2"
+			action
+				"combat_ai_installed_combat2" --
+				"combat_ai_updates2" ++
+				"combat_ai_old_combat_rating2" -= "combat_ai_needed_xp2"
+			``
+				decline
+			label "delay3"
+			branch "delay max3"
+				"combat_ai_needed_xp3" == 10450
+			label "delay not max3"
+			action
+				"combat_ai_installed_combat3" --
+				"combat_ai_updates3" ++
+				"combat_ai_old_combat_rating3" -= "combat_ai_needed_xp3"
+				"combat_ai_needed_xp3" -= 550
+			``
+				decline
+			label "delay max3"
+			action
+				"combat_ai_installed_combat3" --
+				"combat_ai_updates3" ++
+				"combat_ai_old_combat_rating3" -= "combat_ai_needed_xp3"
+			``
 				decline
 
 

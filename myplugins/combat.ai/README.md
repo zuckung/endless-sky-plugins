@@ -40,7 +40,7 @@ Special: Scanner|max 5|"strategic scan power" 30|"range finder power" 1|"crew sc
 Special: Drag Reduction +0.2|max 5|"drag reduction" .5<br>
 Special: Capture Attack +200|max 3|"capture attack" 200<br>
 Special: Capture Defense +400|max 3|"capture defense" 400<br>
-Special: Spinal Mount|max 1|"spinal mount" 1<br>
+Special: Spinal Mount|max 3|"spinal mount" 1<br>
 Special: Landing Speed|max 1|"landing speed" .08<br>
 Special: Disabled Recovery 20s|max 1|"disabled recovery time" 1200<br>
 Special: Scanning Immunity|max 1|"inscrutable" 1<br>
@@ -48,6 +48,10 @@ Special: Pressure Hull|max 1|"gaslining" 1|"waterlining" 1<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-07-24<br>
+added option to delay the points distribution by 1 day (by Kassandra Haruki)<br>
+added 2 more spinal mount ranks<br>
 <br>
 2025-07-13<br>
 added control.station support for a new game+ (as wished by Kitteh)<br>

@@ -775,6 +775,8 @@ mission "combat_ai_update"
 					goto "basic_cooling"
 				`	Basic: Energy Capacity +3000 (current rank: &[combat_ai_installed_basic_energy_capacity])`
 					goto "basic_energy_capacity"
+				`	Enough updates for today! (continue on next day)`
+					goto "delay1"
 			label "basic_outfit_space"
 			action
 				outfit "combat_ai_basic_outfit_space" 1
@@ -898,6 +900,8 @@ mission "combat_ai_update"
 					to display
 						"combat_ai_installed_advanced_bunks" < 10
 					goto "advanced_bunks"
+				`	Enough updates for today! (continue on next day)`
+					goto "delay2"
 			label "advanced_hull"
 			action
 				outfit "combat_ai_advanced_hull" 1
@@ -1042,9 +1046,9 @@ mission "combat_ai_update"
 					to display
 						"combat_ai_installed_special_capture_defense" < 3
 					goto "special_capture_defense"
-				`	Special: Spinal Mount (current rank: &[combat_ai_installed_special_spinal_mount] max 1)`
+				`	Special: Spinal Mount (current rank: &[combat_ai_installed_special_spinal_mount] max 3)`
 					to display
-						"combat_ai_installed_special_spinal_mount" < 1
+						"combat_ai_installed_special_spinal_mount" < 3
 					goto "special_spinal_mount"
 				`	Special: Landing Speed (current rank: &[combat_ai_installed_special_landing_speed] max 1)`
 					to display
@@ -1062,6 +1066,8 @@ mission "combat_ai_update"
 					to display
 						"combat_ai_installed_special_pressure_hull" < 1
 					goto "special_pressure_hull"
+				`	Enough updates for today! (continue on next day)`
+					goto "delay3"
 			label "special_refueling"
 			action
 				outfit "combat_ai_special_refueling" 1
@@ -1159,6 +1165,60 @@ mission "combat_ai_update"
 			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
 			` `
 			`AI Database update complete!`
+				decline
+			label "delay1"
+			branch "delay max1"
+				"combat_ai_needed_xp1" == 2850
+			label "delay not max1"
+			action
+				"combat_ai_installed_combat1" --
+				"combat_ai_updates1" ++
+				"combat_ai_old_combat_rating1" -= "combat_ai_needed_xp1"
+				"combat_ai_needed_xp1" -= 150
+			``
+				decline
+			label "delay max1"
+			action
+				"combat_ai_installed_combat1" --
+				"combat_ai_updates1" ++
+				"combat_ai_old_combat_rating1" -= "combat_ai_needed_xp1"
+			``
+				decline
+			label "delay2"
+			branch "delay max2"
+				"combat_ai_needed_xp2" == 6650
+			label "delay not max2"
+			action
+				"combat_ai_installed_combat2" --
+				"combat_ai_updates2" ++
+				"combat_ai_old_combat_rating2" -= "combat_ai_needed_xp2"
+				"combat_ai_needed_xp2" -= 350
+			``
+				decline
+			label "delay max2"
+			action
+				"combat_ai_installed_combat2" --
+				"combat_ai_updates2" ++
+				"combat_ai_old_combat_rating2" -= "combat_ai_needed_xp2"
+			``
+				decline
+			label "delay3"
+			branch "delay max3"
+				"combat_ai_needed_xp3" == 10450
+			label "delay not max3"
+			action
+				"combat_ai_installed_combat3" --
+				"combat_ai_updates3" ++
+				"combat_ai_old_combat_rating3" -= "combat_ai_needed_xp3"
+				"combat_ai_needed_xp3" -= 550
+			``
+				decline
+			label "delay max3"
+			action
+				"combat_ai_installed_combat3" --
+				"combat_ai_updates3" ++
+				"combat_ai_old_combat_rating3" -= "combat_ai_needed_xp3"
+			``
 				decline
 
 

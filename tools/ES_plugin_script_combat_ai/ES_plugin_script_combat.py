@@ -115,10 +115,18 @@ def create_mission2(xp, outfitnames, maxranks, displaynames, mission2template):
 			special2 += '\t\t\t\t"combat_ai_installed_' + outfit + '" ++\n'
 			special2 += '\t\t\t`\tInstalled ' + displaynames[index] + ' rank &[combat_ai_installed_' + outfit + ']...`\n'
 			special2 += '\t\t\t\tgoto "start3"\n'
+	exitmission = \
+		'				`	Enough updates for today! (continue on next day)`\n'
+	exitmission1 = \
+		'					goto "delay1"\n'
+	exitmission2 = \
+		'					goto "delay2"\n'
+	exitmission3 = \
+		'					goto "delay3"\n'
 	mission2txt = mission2template\
-		.replace('<basic>', basic1 + basic2[0:-1])\
-		.replace('<advanced>', advanced1 + advanced2[0:-1])\
-		.replace('<special>', special1 + special2[0:-1])\
+		.replace('<basic>', basic1 + exitmission + exitmission1 + basic2[0:-1])\
+		.replace('<advanced>', advanced1 + exitmission + exitmission2 + advanced2[0:-1])\
+		.replace('<special>', special1 + exitmission + exitmission3 + special2[0:-1])\
 		.replace('<xp1>', xp1)\
 		.replace('<xp2>', xp2)\
 		.replace('<xp3>', xp3)
