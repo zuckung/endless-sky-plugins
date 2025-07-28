@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-07-28 | update: additional.command.buttons.radial<br>
 2025-07-24 | update: combat.ai<br>
 2025-07-13 | update: combat.ai<br>
 2025-07-11 | update: combat.ai<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-06-29 | update: mission.helper<br>
 2025-06-25 | update: expert.crew.members<br>
 2025-06-21 | update: uniques<br>
-2025-06-21 | update: expert.crew.members<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -102,7 +102,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/additional.command.buttons.radial.png">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.23-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 408.14 kb | 2025-06-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [63]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.24-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 408.18 kb | 2025-07-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [63]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -171,6 +171,12 @@ That resizes the landing image and the frame to their half.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-07-28<br>
+
+made bottom right invisible buttons rectangle to fill out whole box<br>
 
 <br>
 
@@ -4721,7 +4727,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/uniques/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/uniques.png">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-uniques/uniques.zip) | 11.15 mb | 2025-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <a href="res/imagemd/uniques.md">view images</a> [168]<br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-uniques/uniques.zip) | 11.15 mb | 2025-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <a href="res/imagemd/uniques.md">view images</a> [176]<br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -4763,6 +4769,8 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 
 <li> vanilla: puts outfit Trefoil Board into unique category</li>
 
+<li> vanilla: puts outfit Ka'het Electric Stunner into unique category</li>
+
 <li> new vanilla: rewrote Skadenga book mission, so you can buy the unique book</li>
 
 <li> new vanilla: rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique archive chip</li>
@@ -4791,11 +4799,7 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 
 <li> new unique: "Glass Cat" (after collecting all pets)</li>
 
-<li> new unique: "Bioluminescent Plant" (Aesila, 10% chance)</li>
-
-<li> new unique: "Bioluminiscent Offspring" (plant followup)</li>
-
-<li> new unique: "Bio Reactor" (plant followup)</li>
+<li> new unique: "Bioluminescent Plant" (Aesila, 10% chance, several followup missions)</li>
 
 <li> new unique: "Spaceship Figurine" (Sunracer, 3% chance)</li>
 
@@ -4811,7 +4815,7 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 
 <li> new unique: "Piloting For Dummies" (Paradise worlds, 3% chance)</li>
 
-<li> new unique: "External Holo Emitter" (Luna, 6% chance)</li>
+<li> new unique: "External Holo Emitter" (Luna, 6% chance, several followup missions)</li>
 
 <li> new unique: "Toby the Teddy Bear" (Featherweight, 3% chance)</li>
 
@@ -4823,7 +4827,9 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 
 <li> new unique: "Nav Buoys" (human outfitter, after discovering shrouded systems, 20% chance)</li>
 
-<li> new unique: "Derelict Scanner" (Oblivion, 100k credits, 10% chance)</li>
+<li> new unique: "Derelict Scanner" (Oblivion, 100k credits, 10% chance, several followup missions)</li>
+
+<li> new unique: "Landing Computer" (Ahr, 30% chance, several followup missions)</li>
 
 </ul>
 
@@ -4832,6 +4838,18 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-07-28<br>
+
+added landing computer unique (thx to unknown_rawrs for writing the story)<br>
+
+added plugin re-shrouded in root folder(not active, to revert what nav buoys do)<br>
+
+vanilla Ka'het Electric Stunner to unique category<br>
+
+removed derelict fleets/added derelict missions for scanner/with notification<br>
 
 <br>
 
