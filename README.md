@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-07-28 | update: uniques<br>
 2025-07-28 | update: additional.command.buttons.radial<br>
 2025-07-24 | update: combat.ai<br>
 2025-07-13 | update: combat.ai<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-07-02 | update: flare.play<br>
 2025-06-29 | update: mission.helper<br>
 2025-06-25 | update: expert.crew.members<br>
-2025-06-21 | update: uniques<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4727,7 +4727,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/uniques/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/uniques.png">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-uniques/uniques.zip) | 11.15 mb | 2025-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <a href="res/imagemd/uniques.md">view images</a> [176]<br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.11-uniques/uniques.zip) | 11.99 mb | 2025-07-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <a href="res/imagemd/uniques.md">view images</a> [176]<br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
