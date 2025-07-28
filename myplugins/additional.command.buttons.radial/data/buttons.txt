@@ -81,7 +81,7 @@ interface "main buttons" bottom right
 		radius 22
 	button "Select nearest asteroid"
 		center -281 -179
-		radius 22
+		dimensions 64 51
 
 	# bottom right target nearest enemy button
 	anchor bottom right
@@ -96,7 +96,7 @@ interface "main buttons" bottom right
 		radius 22
 	button "Select nearest hostile ship"
 		center -217 -179
-		radius 22
+		dimensions 64 51
 
 	# bottom right target ship button
 	anchor bottom right
@@ -111,7 +111,7 @@ interface "main buttons" bottom right
 		radius 22
 	button "Select next ship"
 		center -153 -179
-		radius 22
+		dimensions 64 51
 
 	# bottom right reverse thrust button
 	anchor bottom right
@@ -129,7 +129,7 @@ interface "main buttons" bottom right
 		dimensions 40 40
 	button "Reverse"
 		center -89 -179
-		radius 22
+		dimensions 64 51
 
 	# bottom right afterburner button
 	anchor bottom right
@@ -147,7 +147,7 @@ interface "main buttons" bottom right
 		dimensions 40 40
 	button "Fire afterburner"
 		center -25 -179
-		radius 22
+		dimensions 64 51
 
 # BOTTOM RIGHT: second row buttons: stop | talk to selected ship
 
@@ -163,7 +163,7 @@ interface "main buttons" bottom right
 		dimensions 40 40
 	button "Stop Ship"
 		center -281 -127
-		radius 22
+		dimensions 64 51
 
 	# bottom right hail button
 	anchor bottom right
@@ -181,7 +181,7 @@ interface "main buttons" bottom right
 		dimensions 40 40
 	button "Talk to selected ship"
 		center -217 -127
-		radius 22
+		dimensions 64 51
 
 # BOTTOM RIGHT: third row buttons: board selected ship | scan selected ship
 
@@ -197,7 +197,7 @@ interface "main buttons" bottom right
 		dimensions 40 40
 	button "Board selected ship"
 		center -281 -76
-		radius 22
+		dimensions 64 51
 
 	# bottom right scan selected ship button
 	anchor bottom right
@@ -214,7 +214,7 @@ interface "main buttons" bottom right
 		dimensions 40 40
 	button "Scan selected ship"
 		center -217 -86
-		radius 22
+		dimensions 64 51
 
 # BOTTOM RIGHT: fourth row buttons: land | cloak | deploy | jump | map
 
@@ -234,7 +234,7 @@ interface "main buttons" bottom right
 		dimensions 40 40
 	button "Land on planet / station"
 		center -281 -25
-		radius 22
+		dimensions 64 51
 
 	# bottom right cloak button
 	anchor bottom right
@@ -251,7 +251,7 @@ interface "main buttons" bottom right
 		dimensions 40 40
 	button "Toggle cloaking device"
 		center -217 -25
-		radius 22
+		dimensions 64 51
 
 	# bottom right deploy / recall button
 	anchor bottom right
@@ -268,14 +268,15 @@ interface "main buttons" bottom right
 		dimensions 40 40
 	button "Deploy / recall fighters"
 		center -153 -25
-		radius 22
+		dimensions 64 51
 	visible if "can recall"
 	sprite "ui/icon_recall"
 		center -153 -25
 		dimensions 40 40
 	button "Deploy / recall fighters"
 		center -153 -25
-		radius 22
+		dimensions 64 51
+	visible
 
 	# bottom right jump button
 	anchor bottom right
@@ -293,7 +294,7 @@ interface "main buttons" bottom right
 		dimensions 40 40
 	button "Initiate hyperspace jump"
 		center -89 -25
-		radius 22
+		dimensions 64 51
 
 	# bottom right map button
 	anchor bottom right
@@ -307,7 +308,7 @@ interface "main buttons" bottom right
 		dimensions 40 40
 	button "View star map"
 		center -25 -25
-		radius 22
+		dimensions 64 51
 
 # BOTTOM RIGHT: big attack buttons: fire secondary | fire primary
 
@@ -327,7 +328,7 @@ interface "main buttons" bottom right
 		dimensions 64 64
 	button "Fire secondary weapon"
 		center -142 -102
-		radius 25
+		dimensions 92 102
 
 	# bottom right attack button
 	anchor bottom right
@@ -348,7 +349,7 @@ interface "main buttons" bottom right
 		dimensions 64 64
 	button "Fire primary weapon"
 		center -47 -102
-		radius 40
+		dimensions 92 102
 
 	# bottom right ammo box
 	# The engine will draw the secondary weapons list here.

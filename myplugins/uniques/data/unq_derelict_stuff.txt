@@ -1,5 +1,6 @@
 # outfit "Derelict Scanner"
 # government "derelict ship"
+# event "remove derelict fleets"
 # ship "Argosy (derelict)"
 # ship "Argosy" "Argosy (Explorer)"
 # ship "Dromedary"
@@ -22,6 +23,107 @@ government "derelict ship"
 	"display name" "derelict ship"
 	swizzle 0
 	"player reputation" -1
+
+
+event "remove derelict fleets"
+	system "Gamma Cassiopeiae"
+		remove fleet "Derelict Core" 10000
+	system Kugel
+		remove fleet "Derelict Core" 10000
+	system Acamar
+		remove fleet "Derelict Core" 30000
+	system Persian
+		remove fleet "Derelict Core" 30000
+	system Moktar
+		remove fleet "Derelict Core" 30000
+	system Boral
+		remove fleet "Derelict Southern" 10000
+	system Eber
+		remove fleet "Derelict Southern" 10000
+	system Hintar
+		remove fleet "Derelict Southern" 10000
+	system Orvala
+		remove fleet "Derelict Southern" 10000
+	system Sadr
+		remove fleet "Derelict Southern" 10000
+	system Ildaria
+		remove fleet "Derelict Southern" 25000
+	system Alnasl
+		remove fleet "Derelict Southern" 30000
+	system "Alpha Arae"
+		remove fleet "Derelict Southern" 30000
+	system "Beta Lupi"
+		remove fleet "Derelict Southern" 30000
+	system Eltanin
+		remove fleet "Derelict Southern" 30000
+	system Holeb
+		remove fleet "Derelict Southern" 30000
+	system Lesath
+		remove fleet "Derelict Southern" 30000
+	system Lurata
+		remove fleet "Derelict Southern" 30000
+	system Tais
+		remove fleet "Derelict Southern" 30000
+	system Wei
+		remove fleet "Derelict Southern" 30000
+	system Zubenelgenubi
+		remove fleet "Derelict Southern" 30000
+	system Atik
+		remove fleet "Derelict Pirate" 10000
+	system Gorvi
+		remove fleet "Derelict Pirate" 10000
+	system Tortor
+		remove fleet "Derelict Pirate" 10000
+	system Unagi
+		remove fleet "Derelict Pirate" 10000
+	system Danoa
+		remove fleet "Derelict Pirate" 15000
+	system Durax
+		remove fleet "Derelict Pirate" 30000
+	system Hatysa
+		remove fleet "Derelict Pirate" 30000
+	system Mintaka
+		remove fleet "Derelict Pirate" 30000
+	system Oblate
+		remove fleet "Derelict Pirate" 30000
+	system Fingol
+		remove fleet "Derelict Northern" 10000
+	system Ipsing
+		remove fleet "Derelict Northern" 10000
+	system Limen
+		remove fleet "Derelict Northern" 10000
+	system Lolami
+		remove fleet "Derelict Northern" 10000
+	system Naper
+		remove fleet "Derelict Southern" 10000
+	system Nocte
+		remove fleet "Derelict Northern" 10000
+	system Orbona
+		remove fleet "Derelict Northern" 10000
+	system Regulus
+		remove fleet "Derelict Northern" 10000
+	system Sospi
+		remove fleet "Derelict Northern" 10000
+	system Terminus
+		remove fleet "Derelict Northern" 10000
+	system Cardax
+		remove fleet "Derelict Northern" 30000
+	system Eteron
+		remove fleet "Derelict Northern" 30000
+	system Fala
+		remove fleet "Derelict Northern" 30000
+	system Gacrux
+		remove fleet "Derelict Northern" 30000
+	system Mizar
+		remove fleet "Derelict Northern" 30000
+	system Mora
+		remove fleet "Derelict Northern" 30000
+	system Muphrid
+		remove fleet "Derelict Northern" 30000
+	system Rigel
+		remove fleet "Derelict Northern" 30000
+	system Volax
+		remove fleet "Derelict Northern" 30000
 
 
 ship "Argosy (wreck)"

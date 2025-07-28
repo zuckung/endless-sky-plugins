@@ -1,0 +1,270 @@
+# outfit "unq_landing_computer"
+# mission "unq_landing_computer1"
+# mission "unq_landing_computer2"
+# mission "unq_landing_computer3"
+# mission "unq_landing_computer4"
+# mission "unq_landing_computer5"
+# mission "unq_landing_computer6"
+
+
+
+outfit "unq_landing_computer"
+	"display name" "Landing Computer"
+	category "Unique"
+	series "Functional Unique"
+	index 08100
+	thumbnail "outfit/unq_landingcomputer"
+	"unique" 1
+	"unplunderable" 1
+	"landing speed" .08	
+	cost 250000
+	description `A powerful computer calculating optimal landing vectors to speed up planet landings.`
+
+
+mission "unq_landing_computer1"
+	landing
+	"name" "Help Ezekiel 1"
+	"description" "Travel with the Arach scientist Ezekiel to <destination>."
+	source "Ahr"
+	destination "Market of Gupta"
+	passengers 1
+	cargo "scientific equipment" 8
+	to offer
+		random < 30
+	on offer
+		conversation
+			`The moment you enter the spaceport, you're nearly swept up by the incredible pace beset by an influx of individuals that are clearly very busy. Cargo containers are shuttled around hurriedly, refueling procedures rinse and repeat like clockwork, and a steady stream of ships both landing and taking off ensures that there is nary a moment's rest for those struggling to stay on top of everything.`
+			`You almost feel bad, being little more than an obstruction among all this organized chaos, but then you spy a pair of Arachi engaged in what appears to be a heated discussion and being just as much of an obstruction as you. Unfortunately, you're too far for your translator to pick up any of what they're saying, but what you can tell is that one of the spiders holds a large stack of documents. If you had to make a guess, you imagine that they must be budget reports or something similar with statistics indicating reform being needed in some way or another. Disagreements come in all different flavors, after all.`
+			`Yet, before you can debate on whether or not to mediate the situation, a Heliarch agent starts heading towards the pair instead. Of course, that should come to no surprise since such is their duty... Though the fact that the Arachi pair picked up on this detail too was a bit more shocking. Namely because the troubled Arachi slapped the various documents out of the other's hands and stormed off with a presumable huff before the Heliarch agent could truly intervene. Worst of all, the agent apparently had other matters to attend to and made no effort to help pick up the mess. If you wanted to help, now is your chance.`
+			choice
+				`	Help pick up up the papers`
+					goto "pick up"
+				`	Leave the Arachi to its fate`
+					goto "leave"
+			label "leave"
+			`While the scattered papers create quite a mess, you reason that a many legged creature like an Arachi will have no trouble picking up after itself and move along. Like the Heliarch agent, you had better things to do too. Like make money.`
+				decline
+			label "pick up"
+			`Seeing this turn of events as an opportunity, you rush through the throng of workers towards the various papers still gliding about the air. In a way, the task proves to be somewhat interesting. With how fast all the workers were moving, it was not uncommon for some pages to fly back up into the wake left behind and make a brief chase necessary. All while needing to avoid disrupting said workers more than necessary, too. But eventually, you think you managed to collect all the stray pages.`
+			`Before handing them back however, you take a glance at once of the pages out of curiosity... Only for you to remember that even without the technical jargon surely present, you're almost completely certain that you would have no idea what is being described. There are charts, graphs, and what might be schematics, but the purpose of it all flies over your head. Not even your translator can gift you such understanding, useful as it is. Thankfully, the Arachi whose papers they belong to, offers some understanding for you.`
+			`"Much time, I have invested into this research. Research designed to optimize the required time to land, it is. Convinced many are, that already streamlined the process is. Yet, even a well oiled machine sits not at the apex of technology. Much thanks, you deserve. For hurt it would, to lose any of it."`
+			`Once finished, the Arachi holds out one of its hands to collect the rest of its documents, which you promptly hand over. It hums in what you think is satisfaction and beguns to peruse the documents right then and there. Presumably, to make sure every page is accounted for. Now that you're able to look at the Arachi closely though, you notice that the creature is dressed somewhat motley. A navy blue collared shirt meets a dull orange exoskeleton and what probably counts as crocodile green pants for a giant spider. Well, you reason that there are worse combinations to exist. Probably what helped you pick the Arachi out from the crowd though, so maybe that was actually a good thing?`
+			`Regardless, the Arachi finishes sorting through everything and finally comes to the realization that you're still present. But, rather than attempt to shoo you away, you get the feeling that it seems rather pleased by this development and soon speaks up once more, "Pardon my rudeness human, but caught your interest, has my research? Ezekiel, my name is and help, I could use. No more than theories, my research remains. With hard data and enough troubleshooting, come to fruition this project may. Pay much, I cannot, but gift you a working prototype, I plan to."`
+			label "choice"
+			choice
+				`	Ask about the other Arachi`
+					to display
+						not "unq_asked"
+					goto "ask"
+				`	Agree to help`
+					goto "agree"
+				`	Decline the offer`
+					goto "decline"
+			label "ask"
+			action
+				set "unq_asked"
+			`You gesture vaguely in the direction the other Arachi stormed off, curiosity getting the better of you. "Friend of yours?" you ask.`
+			`Ezekiel makes a strange hissing-click, which you're fairly certain is some combination of sarcasm and exhaustion. "Hardly friend. Boss, that one is. Investor. Funding this research, they are. Believes faster landings only matter in theory. Theory! Tell that to a freighter four hours behind schedule because docking queue backed up to next moon!"`
+			`He clicks his mandibles with increasing agitation, tapping the stack of papers in emphasis. "No one sees the seconds. Only minutes. But seconds become minutes, and minutes days, when multiplied by hundreds of ships. Thousands! Especially here, where population swells daily and infrastructure grows like coral, slow and jagged. Ringworlds suck up all development attention. Left behind, even places like Ahr are."`
+			`There's a pause, and then he adds, more quietly, "Belief in project fading, they are. Proof needed, or funds dry up. But prove it I will. Even if alone I must."`
+			`It's not hard to see that Ezekiel is more than just a tinkerer with a terrible fashion sense... But rather a frustrated visionary in a system that rewards short-term results. You get the sense he's poured far more than just time into this.`
+				goto "choice"
+			label "decline"
+			action
+				clear "unq_asked"
+			`Ezekiel's earlier pleasantness fades into something more obscure, but he doesn't seem intent to press the matter further. Instead, he simply nods and brushes past you to scurry off somewhere else. So much for having found a likeminded individual, but you doubt how much time a faster landing would truly save. Better to move on.`
+				decline
+			label "agree"
+			action
+				clear "unq_asked"
+			`Ezekiel throws up his arms in delight, nearly sending the documents on another unscheduled journey through the air. Thankfully, he manages to keep a firm hold on them somehow and manages to calm himself after noticing his near slip-up.`
+			`"Finally, found I have a comrade in arms. Truly, no matter how small, every possible moment must be put to use. Before I forget, eight cargo space, needed will be. Allow me to collect my things, and meet back here in a couple hours we will."`
+			`Three hours later, you pick up Ezekiel and his things and help him load up into your ship. No longer is the paper hazard present, but in its place is the spider himself who seems all too eager to share all of his ideas with you. Almost makes you wonder if this is truly an effort to save time or a cleverly disguised attempt to procrastinate.`
+			`Either way, there wasn't much to be done about it. A little bit of effort now for a little less later down the line didn't seem like all that bad of an idea. Thankfully, you were able to pick out where Ezekiel wanted to go amidst his ramblings too. Market of Gupta in the Gupta system. Just a single jump away.`
+				accept
+
+
+mission "unq_landing_computer2"
+	"name" "Help Ezekiel 2"
+	"description" "Travel with the Arach scientist Ezekiel to <destination>."
+	landing
+	source "Market of Gupta"
+	destination "Mebla's Portion"
+	passengers 1
+	cargo "scientific equipment" 8
+	to offer
+		has "unq_landing_computer1: done"
+	on offer
+		conversation
+			`You guide your ship into one of the more open landing pads of Market of Gupta, a well-developed hub known for its sprawling data analysis towers and the ever-present, a smell of lubricated machinery. Before you can fully power down, Ezekiel is already wriggling out of his seat harness and halfway to the hatch.`
+			`"Yes, yes, this place will suffice. Networks expansive! Data throughput astounding! But give time I must, to haggle... convince, that is. Usage rights for a reasonable price are needed." He skitters off in a flurry of limbs and ambition.`
+			choice
+				`	Wait at the ship`
+					goto "wait"
+				`	Follow Ezekiel to see how his negotiatiins go`
+					goto "follow"
+			label "wait"
+			`You decide to stay behind. No need to get involved with data licensing politics. Hours pass, and eventually Ezekiel returns - surprisingly victorious.`
+			`"A deal struck! Contractual agreement made! Percentage of royalties in exchange for temporary access. Or... a fine. If failure comes."`
+			`He clutches a thick, signed datapad triumphantly. "Now to Mebla's Portion. Testing must begin!"`
+				accept
+			label "follow"
+			`Curious, you tail Ezekiel through the twisting corridors of the Gupta Tower's lower levels. You find him engaged in a heated exchange with a pair of data technicians.`
+			`Eventually, Ezekiel slams a pedipalp down and exclaims: "...Then let the algorithm speak for itself!"`
+			`The other party, bemused, signs. A contract is handed over.`
+			`"I did not expect support, yet here you are. Humbled I am. Now, our trial awaits! Mebla's Portion, next!"`
+				accept
+
+
+mission "unq_landing_computer3"
+	"name" "Help Ezekiel 3"
+	"description" "Travel with the Arach scientist Ezekiel to <destination>."
+	landing
+	source "Mebla's Portion"
+	destination "Corral of Meblumem"
+	passengers 1
+	cargo "scientific equipment" 8
+	to offer
+		has "unq_landing_computer2: done"
+	on offer
+		conversation
+			scene "scene/unq_stormlanding"
+			`The ship jostles violently during descent. Massive thunderheads rumble above a jagged plateau broken by outdated landing pads. The weather is as hostile as it is constant. Perfect for Ezekiel's purposes. Ezekiel claps his limbs.`
+			`"Storm pressure! Variable gusts! Yes, yes, optimal chaos for landing data!"`
+			`He then programs your HUD with a series of increasingly difficult test drills: landing approaches under shifting weather conditions. Midway through, a rogue cargo shuttle spirals out of control into your projected path.`
+			choice
+				`	Veer off course to avoid it`
+					goto "avoid"
+				`	Stay on flight path to complete the test`
+					goto "stay"
+			label "avoid"
+			`You jolt the controls left. The shuttle misses you by meters, crashing in the distance. Ezekiel huffs.`
+			`"Data... corrupted. But preferable to damage, yes. We continue."`
+			`You complete the final drills, each more precise than the last. Eventually, Ezekiel gives a sharp, satisfied nod.`
+			`"Corral of Meblumem now. More, bovine challenges await."`
+				accept
+			label "stay"
+			`You steady your course. The shuttle spirals past, close enough to feel the turbulence shake your wings, but you remain locked in.`
+			`"Glorious! Daredevil precision! Irreplicable trial conditions!"`
+			`The final descent feels almost ceremonial. When you finally land, Ezekiel taps your shoulder gently.`
+			`"We go now. Corral of Meblumem. Where moo meets methodology."`
+				accept
+
+
+mission "unq_landing_computer4"
+	"name" "Help Ezekiel 4"
+	"description" "Travel with the Arach scientist Ezekiel to <destination>."
+	landing
+	source "Corral of Meblumem"
+	destination "Plort's Water"
+	passengers 1
+	cargo "scientific equipment" 8
+	to offer
+		has "unq_landing_computer3: done"
+	on offer
+		conversation
+			`Green hills stretch beneath coral spires and wandering longcows the size of transport shuttles. The spaceport here is less a building and more a hardened landing strip built around a grazing zone.`
+			`Ezekiel explains "Ecological protections in place. Main thrusters... prohibited. Must use inertial maneuvers. True test of subtlety."`
+			`You're forced to pilot through winding pads while avoiding lazy herds of longcows. One especially stubborn one stops right under your approach path.`
+			choice
+				`	Use main thrusters to speed up the process`
+					goto "thruster"
+				`	Wait for the longcows to move`
+					goto "wait"
+			label "thruster"
+			`You pulse your main thrusters to scare the beast away. It works, briefly. A warning turret fires a scorching beam across your bow, forcing you to reroute and land rough.`
+			`An automated voice crackles through: "Fine issued for ecozone breach."`
+			`Ezekiel chitters with a mix of awe and disappointment. "Dangerous. Costly. Informative. But perhaps... avoidable."`
+				goto "continue"
+			label "wait"
+			`You wait. Minutes pass. Eventually, the longcow grunts and moves along.`
+			`Your landing is slow, careful, and entirely within regulation.`
+			`Ezekiel nearly sings. "Perfect restraint! A clean trial! We approach perfection!"`
+			label "continue"
+			`"Only one trial remains. The precision crucible. Plort's Water."`
+				accept
+
+
+mission "unq_landing_computer5"
+	"name" "Help Ezekiel 5"
+	"description" "Travel with the Arach scientist Ezekiel to <destination>."
+	landing
+	source "Plort's Water"
+	destination "Market of Gupta"
+	passengers 1
+	cargo "scientific equipment" 8
+	to offer
+		has "unq_landing_computer4: done"
+	on offer
+		conversation
+			scene "scene/unq_islandlanding"
+			`Ocean surrounds you. The trial area consists of small artificial islands no wider than your ship. Each must be landed on in sequence under a tight timer. Ezekiel looks both thrilled and horrified. "No room for error. No forgiveness. Exactly what the algorithm needs."`
+			`Midway through the sequence, one of the final islands begins to submerge.`
+			choice
+				`	Attempt the landing anyway`
+					goto "land"
+				`	Divert to another islet`
+					goto "another"
+			label "land"
+			`You push your ship to the edge, deploying microbursts to balance just right. The landing is rough but complete, your struts splash down half-submerged but secure.`
+			`Ezekiel gasps. "You've done it. No simulation could match this. We are ready."`
+			`"To Market of Gupta. We finalize now."`
+				accept			
+			label "another"
+			`You switch targets mid-air, landing safely on a nearby islet.`
+			`Ezekiel watches quietly. "Safe. But imperfect. Still... good enough to proceed."`
+			`"Now we return. Market of Gupta awaits."`
+				accept
+	on complete
+		conversation
+			`You touch down again on the pad from earlier, now with the weight of all your trials behind you. Ezekiel bursts out of the hatch, limbs jittering with excitement.`
+			`"Final compilation must occur! Give me time... soon, gift I shall return with." He races into the data tower, a blur of color and exoskeleton.`
+			choice
+				`	Wait in the ship`
+					goto "end"
+				`	Explore the local market while you wait`
+					goto "market"
+			label "market"
+			`You wander through the neon-lit stalls and warehouses, sampling synthetic beverages and eavesdropping on trade deals. Ezekiel finds you eventually, prototype in tow.`
+			`"Meeting at the ship, we should" he says, before disappearing again.`
+			`"Testing awaits! Your ship... its systems... will now evolve!"`
+			label "end"
+			`You should check the spaceport for Ezekiel.`
+
+mission "unq_landing_computer6"
+	"name" "Help Ezekiel 6"
+	"description" "Travel with the Arach scientist Ezekiel to <destination>."
+	source "Market of Gupta"
+	destination "Ahr"
+	passengers 1
+	cargo "scientific equipment" 8
+	to offer
+		has "unq_landing_computer5: done"
+	on offer
+		outfit "unq_landing_computer"
+		conversation
+			scene "outfit/unq_landingcomputer"
+			`From a distance, Ezekiel is hard to miss: a towering spider-like form pulling a wheeled crate nearly twice his height, humming to himself. He waves frantically with two limbs as you approach.`
+			`"Prototype loaded! Instructions simple! Connect here... and here."`
+			`You help him mount the strange device to your ship's nav-core. A soft hum begins to rise. A grid of holographic markers blinks across your HUD.`
+			`"Now, the final test. Return to Ahr. Beat all previous records!"`
+			choice
+				`	"Are you sure it is safe?"`
+					goto "ask"
+				`	"OK, lets start."`
+					goto "start"
+			label "ask"
+			`You raise a brow. "This won't melt my engines or anything, right?"`
+			`Ezekiel chuckles. "Statistically... no more than usual!"`
+			`Not exactly reassuring. But onward you go.`
+				goto "start"
+			label "start"
+			`You set coordinates to <destination>.`
+				accept
+	on complete
+		conversation
+			`You descend into Ahr's congested skyways, letting the prototype direct your every maneuver. What surprises you most is how smooth it feels. No guesswork. No fighting for altitude slots. You touch down before a smaller shuttle that arrived just ahead of you, its pilot visibly annoyed as you beat them to the pad. Ezekiel is vibrating with joy.`
+			`"Success! Optimization achieved! Time saved! Now... was it worth it?"`
+			`You look at the display. Your flight time was shaved by nearly 43%. Maybe that doesn't seem like much... until you consider the scale of space travel.`
+			`Ezekiel nods. "And this? Only the beginning is."`
+			`Before you can respond, he disembarks, prototype logs in hand, already speaking to a cluster of waiting Arachi investors. He barely waves goodbye. But something tells you, you'll be seeing him again.`

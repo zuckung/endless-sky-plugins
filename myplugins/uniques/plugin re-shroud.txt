@@ -1,3 +1,8 @@
+# mission "re-shround what navbuoys did"
+# disable mission
+# event "re-shroud"
+
+
 
 mission "re-shround what navbuoys did"
 	landing
@@ -7,7 +12,13 @@ mission "re-shround what navbuoys did"
 		event "re-shroud"
 		conversation
 			`re-shrouding what the nav buoys did`
-		fail
+				decline
+
+
+disable mission
+	"unq_unshroud_avgi"
+	"unq_unshroud_successor"
+
 
 event "re-shroud"
 	system "Khasola-Ryuit"

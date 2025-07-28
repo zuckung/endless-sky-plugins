@@ -40,7 +40,7 @@ outfit "unq_bioluminescent_plant"
 
 outfit "unq_bioluminescent_offspring"
 	"display name" "Bioluminescent Offspring"
-	category "Unique"
+	category "Special"
 	series "Non-Functional Unique"
 	index 99200
 	thumbnail "outfit/unq_bioluminescent_offspring"
@@ -52,7 +52,7 @@ outfit "unq_bioluminescent_offspring"
 
 outfit "unq_bioreactor"
 	"display name" "Mini Bio Reactor"
-	category "Unique"
+	category "Special"
 	series "Functional Unique"
 	index 01100
 	thumbnail "outfit/unq_bioreactor"

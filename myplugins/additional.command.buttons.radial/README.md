@@ -31,6 +31,9 @@ That resizes the landing image and the frame to their half.<br>
 <br>
 Changelog:<br>
 <br>
+2025-07-28<br>
+made bottom right invisible buttons rectangle to fill out whole box<br>
+<br>
 2025-06-06<br>
 merged with plugin landing.images.android<br>
 added new line of buttons to top left<br>

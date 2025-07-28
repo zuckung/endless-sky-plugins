@@ -5,6 +5,7 @@
 # outfit "Antigrav Glass"
 # outfit "Trefoil Board"
 # outfit "Damselflyman"
+# outfit "Ka'het Electric Stunner"
 
 
 outfit "Cloaking Device"	
@@ -57,3 +58,7 @@ outfit "Lancet Adamant"
 	category "Unique"
 	"unique" 1
 	thumbnail "outfit/unq_lancetadamant"
+
+
+outfit "Ka'het Electric Stunner"
+	category "Unique"
