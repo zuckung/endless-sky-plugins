@@ -1,7 +1,7 @@
 mission "upgrade ships"
 	job
 	repeat
-	name "(Upgarde Ships)"
+	name "(Upgrade Ships)"
 	"description" "Combine a ship +3 base versions of that ship into one of a higher tier, up to a max of T10."
 	color selected "ship_upgrades job: selected"
 	color unselected "ship_upgrades job: unselected"
