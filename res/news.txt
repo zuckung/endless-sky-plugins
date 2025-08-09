@@ -1,3 +1,4 @@
+2025-08-09 | update: ship.merging
 2025-07-28 | update: uniques
 2025-07-28 | update: additional.command.buttons.radial
 2025-07-24 | update: combat.ai

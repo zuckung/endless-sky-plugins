@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-09 | update: ship.merging<br>
 2025-07-28 | update: uniques<br>
 2025-07-28 | update: additional.command.buttons.radial<br>
 2025-07-24 | update: combat.ai<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-07-02 | update: combat.ai<br>
 2025-07-02 | update: flare.play<br>
 2025-06-29 | update: mission.helper<br>
-2025-06-25 | update: expert.crew.members<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -65,14 +65,15 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#licenses">licenses</a><br>
 <a href="README.md#missionhelper">mission.helper</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
 <a href="README.md#paintyourships">paint.your.ships</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
 <a href="README.md#quargfarm">quarg.farm</a><br>
+<a href="README.md#shipmerging">ship.merging</a><br>
 <a href="README.md#showreputation">show.reputation</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
 <a href="README.md#spacefauna">space.fauna</a><br>
@@ -4259,6 +4260,63 @@ screenshots(click to enlarge):<br>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/quarg.farm01.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/quarg.farm02.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
+
+
+---
+
+### ship.merging
+
+<img src="myplugins/ship.merging/icon.png" height="100">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/ship.merging.png">
+
+[ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-ship.merging/ship.merging.zip) | 2.23 mb | 2025-08-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) <a href="res/imagemd/ship.merging.md">view images</a> [8]<br>
+<br>
+>This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### ship.merging
+
+<br>
+
+<br>
+
+This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship.<br>
+
+<br>
+
+There is a new landable alien ship in the new "Dent" system (near the wormhole to the Hai). There you can merge a ship and 3 base versions of that ship into a T1 ship with doubled attributes. Or 3 base versions and a T1 into a T2 with trippled stats. This goes up to T10 ships with 11 times the attributes. Basically you can reduce the amount of ships in your fleet. With 10x T10 ships you have the firepower and other stats of 110 ships of that type, while paying with 310 ships for it. Not cheap, but effective.<br>
+
+Reduce performance issues by reducing ship amounts or just make single ships more powerful. This plugin makes it possible.<br>
+
+(idea by unknown_rawrs)<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2025-08-09<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/ship.merging01.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
