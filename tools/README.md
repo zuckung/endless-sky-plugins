@@ -34,6 +34,10 @@
 <td>generates the txt file for the plugin mission.helper.</td>
 </tr>
 <tr>
+<td>ES_plugin_script_ship_merging</td>
+<td>generates the txt files for the plugin ship.merging.</td>
+</tr>
+<tr>
 <td></td>
 <td></td>
 </tr>

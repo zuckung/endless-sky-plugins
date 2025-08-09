@@ -1,0 +1,9 @@
+ship.merging
+author:
+	zuckung 
+	https://github.com/zuckung/endless-sky-plugins
+images:
+	scene, land, planet
+		ai generated at https://perchance.org/ai-text-to-image-generator
+idea:
+	unknown_rawrs

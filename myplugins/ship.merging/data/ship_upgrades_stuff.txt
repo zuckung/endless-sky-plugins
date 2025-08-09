@@ -1,0 +1,205 @@
+# color
+# color
+# government "Lumeshi"
+# system "Cardax"
+# system "su_system1"
+# planet "su_planet1"
+# shipyard "su_empty"
+# outfitter "su_empty"
+# mission "su_contact1"
+# mission "su_contact2"
+
+
+
+color "ship_upgrades job: selected" 1. 1. .0 0.
+color "ship_upgrades job: unselected" .5 .5 0. 0.
+
+
+government "Lumeshi"
+	swizzle 2
+	"crew attack" 0.9
+	"crew defense" 1.8
+	color .70 .91 .12
+	"player reputation" 10
+
+
+system "Cardax"
+	link  "su_system1"
+
+
+system "su_system1"
+	"display name" "Dent"
+	pos -230 -161
+	government Uninhabited
+	arrival 952
+	habitable 1110
+	belt 1322
+	link "Cardax"
+	minables silicon 2 4
+	minables silver 1 5
+	minables uranium 2 3
+	object
+		sprite star/g5
+		distance 60
+		period 10
+	object
+		sprite star/k5
+		distance 60
+		period 10
+		offset 180
+	object "su_planet1"
+		sprite "planet/su_ship_construction"
+		distance 210
+		period 1
+	object
+		sprite planet/rock5
+		distance 420
+		period 101
+	object
+		sprite planet/gas5
+		distance 2100
+		period 1540
+		object
+			sprite planet/europa
+			distance 280
+			period 12
+		object
+			sprite planet/rock3-b
+			distance 280
+			period 12
+			offset 180
+
+
+planet "su_planet1"
+	"display name" "Trillinox"
+	government "Lumeshi"
+	landscape land/su_cats_land
+	description `This is the Trillinox, flagship of the Lumeshi Initiative. A crescent-shaped superstructure of advanced white titanium composite, the Trillinox spans over three kilometers from bow to stern. Its outer hull features a layered adaptive plating system designed to shift molecular alignment in response to specific radiation spectrums. Along the dorsal arc, retractable sensor vanes and long-range subspace arrays are embedded flush with the surface, minimizing drag in atmospheric operations. Engine housings are recessed into the aft section, with four primary gravitic drives arranged in a diamond configuration for precision maneuvering.`
+	spaceport `The landing bay is a pressure-sealed cavity carved into the ship's ventral section, ringed with magnetic stabilizers and docking clamps recessed directly into the deck plating. The interior is lined with reflective radiation baffles and segmented forcefield gates, allowing for atmospheric containment without full structural closure. Structural support columns double as integrated cargo lifts, with conduit channels concealed behind seamless paneling.`
+	shipyard "su_empty"
+	outfitter "su_empty"
+
+
+shipyard "su_empty"
+
+
+outfitter "su_empty"
+
+
+mission "su_contact1"
+	invisible
+	entering
+	destination "Earth"
+	source
+		system
+			"su_system1"
+	on offer
+		conversation
+			`The moment your ship exits jump into this system, a ping interrupts your navchart update. You're being hailed, by something... big. Outside your viewport, a stark white shape glides into view. It's massive, graceful, and gleaming with polished plating, though some parts of the ship look unfinished. No registry. No callsign. The signal is not local, not human.`
+			`You accept the hail.`
+			`"Greetings, independent traveler." a soft, high-pitched voice chimes in across the comms. "This is the Trillinox, flagship of the Lumeshi Initiative. We are currently redesigning our vessel for radiation adaptation. Your presence is of interest. Please dock for peaceful negotiation."`
+			`You hesitate. Then again, who says no to a ship that size when it says "please"?`
+			choice
+				`Dock with the alien ship`
+					decline
+				`Ignore the hail and jump out`
+					decline
+
+
+mission "su_contact2"
+	invisible
+	landing
+	source "su_planet1"
+	on offer
+		conversation
+			scene "scene/su_cats"
+			`Your ship is pulled into a shimmering white bay via gravitic tether. It's spotless, painfully so. There's a sterile calm, the air faintly scented like citrus and ozone. Before you even leave your ramp, a small group of catlike bipeds approaches.`
+			`They're about half your height, covered in soft fur of deep auburn, each wearing loose orange silk, like tunics. One steps forward, tail gently swishing.`
+			`"Welcome, human captain! We are the Lumeshi, starfarers, thinkers, and adapters. Our ship is undergoing structural revision to prepare for passage into a radiation cluster. This system's asteroids are now depleted. But your vessel contains... interesting designs and materials."`
+			`It waves a paw, and a projection of your ship's systems appears in high details, with several components highlighted, drive coils, power modulators, shield geometry.`
+			`"We propose trade. If you return with four ships of the same type, we may combine their functions. Into one. Spare parts are payment."`
+			label "menu"
+			choice
+				`	Ask what the Lumeshi are`
+					to display
+						not "su_lumeshi"
+					goto "lumeshi"
+				`	Ask how the Lumeshi learned human language`
+					to display
+						not "su_language"
+					goto "language"
+				`	Ask about the radiation cluster`
+					to display
+						not "su_cluster"
+					goto "cluster"
+				`	Ask what they find interesting about your ship`
+					to display
+						not "su_ship"
+					goto "interesting ship"
+				`	Ask about the merging process`
+					to display
+						not "su_merging"
+					goto "merging"
+				`	Continue`
+					to display
+						has "su_merging"
+					goto "continue"
+			label "lumeshi"
+			scene "scene/su_cats"
+			action
+				set "su_lumeshi"
+			`The lead Lumeshi fluffs slightly, amused.`
+			`"We are descended from plains, dwellers on Verashti Prime. Once we hunted with tooth and claw, now we drift among suns. Do not let the fur mislead you. We are engineers, explorers, cartographers of particle fields."`
+			`Another Lumeshi adds, "Our lifespan is short compared to yours. But we build to last."`
+			`The first nods. "We travel not for conquest. But to adapt. Always adapt."`
+				goto "menu"
+			label "language"
+			scene "scene/su_cats"
+			action
+				set "su_language"
+			`The lead Lumeshi's ears flick upward in amusement, and they give a soft, almost smug purr.`
+			`"Long-range quantum-phase scanners." they reply. "We monitor all surrounding systems when we arrive. Every signal, every transmission, navigation beacons, distress calls, even your 'entertainment' streams, become data."`
+			`Another Lumeshi chimes in "We listen. We compare patterns. We adapt. Language is only math with sound."`
+			`The first nods. "Your species takes years to learn. We take days. Sometimes hours. Necessary, when crossing so many tongues."`
+			`They grin, though whether in pride or mischief is unclear. "Also... your humor is strange. But we try."`
+				goto "menu"
+			label "cluster"
+			action
+				set "su_cluster"
+			scene "scene/su_cats"
+			`The tone shifts slightly. The Lumeshi tap their claws nervously against their datapad.`
+			`"It is... a phenomenon. Not natural. Structured, even. In the Veruvian Span, 73 jumps rimward. Radiation behaves unpredictably. Machines fail. Unprotected matter crystallizes."`
+			`"Yet signals emerge from within. Artificial, repeating, but unknown. We go not to invade, but to understand. Thus, our vessel must change."`
+			`A pause.`
+			`"If we do not adapt, we do not survive."`
+				goto "menu"
+			label "interesting ship"
+			action
+				set "su_ship"
+			scene "scene/su_cats"
+			`The Lumeshi flicks up a projection of your drive schematic and purrs softly.`
+			`"Your kind lacks our mass compression materials. Yet you create elegant workarounds. Adaptive thermals. Redundant safeties. You use brute-force. But wisely."`
+			`Another adds "Your shield rotation. It absorbs and spreads heat. We had not considered... brute redirection."`
+			`They exchange glances. One chuckles. "Primitive elegance. Worth preserving."`
+				goto "menu"
+			label "merging"
+			action
+				set "su_merging"
+			scene "scene/su_cats"
+			`The lead Lumeshi beams, showing small, sharp teeth.`
+			`"We call it Functional Compression and Reallocation. Your species might call it... 'hybridization'. Four ships of like architecture, one as a frame, three compressed into the frame. Fed into nanoforge sequencing. From the result, one vessel, the frame, emerges."`
+			`"Power of two. Space of one. Downsized systems, merged cores. Custom appearance optional."`
+			`They tilt their head. "Function over form."`
+				goto "menu"
+			label "continue"
+			action
+				clear "su_lumeshi"
+				clear "su_language"
+				clear "su_cluster"
+				clear "su_ship"
+				clear "su_merging"
+			`You authorize a partial systems strip, spare components, old comm coils, a prototype reactor shard you never really trusted. The Lumeshi purr approvingly.`
+			`"Yes. Plenty. This will suffice."`
+			`They return a short while later with a micro-stabilizer the size of your palm. You plug it into your nav console, and instantly your power draw drops by 4%.`
+			`"First gift. Proof of concept. For extensive trade, bring ships, check ship's job board."`
+				decline

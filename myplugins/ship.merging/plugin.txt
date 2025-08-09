@@ -1,0 +1,5 @@
+name "ship.merging"
+about "This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship. See the README for details."
+authors
+	"zuckung"
+	"unknown_rawrs"
