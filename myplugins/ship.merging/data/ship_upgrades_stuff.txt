@@ -24,7 +24,7 @@ government "Lumeshi"
 
 
 system "Cardax"
-	link  "su_system1"
+	add link  "su_system1"
 
 
 system "su_system1"
