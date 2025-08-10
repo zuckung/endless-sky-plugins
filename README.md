@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-10 | update: ship.merging<br>
 2025-08-09 | update: ship.merging<br>
 2025-07-28 | update: uniques<br>
 2025-07-28 | update: additional.command.buttons.radial<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-07-03 | update: boss.loot<br>
 2025-07-02 | update: combat.ai<br>
 2025-07-02 | update: flare.play<br>
-2025-06-29 | update: mission.helper<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4274,7 +4274,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/ship.merging/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/ship.merging.png">
 
-[ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-ship.merging/ship.merging.zip) | 2.23 mb | 2025-08-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) <a href="res/imagemd/ship.merging.md">view images</a> [8]<br>
+[ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-ship.merging/ship.merging.zip) | 2.23 mb | 2025-08-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) <a href="res/imagemd/ship.merging.md">view images</a> [8]<br>
 <br>
 >This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship. See the README for details.
 
