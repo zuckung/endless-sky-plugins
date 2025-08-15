@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-15 | update: galactic.capital.investment<br>
 2025-08-10 | update: ship.merging<br>
 2025-08-09 | update: ship.merging<br>
 2025-07-28 | update: uniques<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-07-11 | update: combat.ai<br>
 2025-07-03 | update: boss.loot<br>
 2025-07-02 | update: combat.ai<br>
-2025-07-02 | update: flare.play<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2157,7 +2157,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/galactic.capital.investment.png">
 
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.8-galactic.capital.investment/galactic.capital.investment.zip) | 4.07 mb | 2025-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <a href="res/imagemd/galactic.capital.investment.md">view images</a> [21]<br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.9-galactic.capital.investment/galactic.capital.investment.zip) | 4.07 mb | 2025-08-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) <a href="res/imagemd/galactic.capital.investment.md">view images</a> [21]<br>
 <br>
 >Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits. See the README for details.
 
@@ -2212,6 +2212,18 @@ Enable and disable the investment jobs/missions<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-08-16<br>
+
+fixed sell investment gives too much credits (reported by NordicRest)<br>
+
+added deposit/withdraw submenu to banking/family trust (requested by JulietDeltaSmirnoff)<br>
+
+added 1 billion deposit/withdraw to banking/family trust(requested by JulietDeltaSmirnoff)<br>
+
+changed investment accept to direct failing instead of 'on daily'<br>
 
 <br>
 
