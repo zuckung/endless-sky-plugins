@@ -24,6 +24,12 @@ Enable and disable the investment jobs/missions<br>
 <br>
 Changelog:<br>
 <br>
+2025-08-16<br>
+fixed sell investment gives too much credits (reported by NordicRest)<br>
+added deposit/withdraw submenu to banking/family trust (requested by JulietDeltaSmirnoff)<br>
+added 1 billion deposit/withdraw to banking/family trust(requested by JulietDeltaSmirnoff)<br>
+changed investment accept to direct failing instead of 'on daily'<br>
+<br>
 2025-06-07<br>
 recolored the jobs purple<br>
 <br>

@@ -73,11 +73,11 @@ mission "gci banking terminal"
 					to display
 						"salary: Galactic Capital" > 0
 					goto linesellinvestment
-				`	[enable job board investments]`
+				`	[enable job board investments and other bank contacts]`
 					to display
 						not "global: gcijobs active"
 					goto setjobs1
-				`	[disable job board investments]`
+				`	[disable job board investments and other bank contacts]`
 					to display
 						has "global: gcijobs active"
 					goto setjobs0
@@ -86,8 +86,29 @@ mission "gci banking terminal"
 # deposit/withdraw of bank account
 			label linebankaccount
 			``
-				goto bankaccount
 			label bankaccount
+			action
+				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
+			scene scene/gci_terminal
+			`Access to your bank account. It will generate an interest, added daily to your bank account, by a rate of 4% per year.`
+			`The daily interest display is lowered by your cash transfer.`
+			``
+			`Cash chip:`
+			`	&[credits] credits`
+			`Account balance:`
+			`	&[deposit] credits`
+			`	&[dailyincome] credits daily interest (4% p.a.)`
+			``
+			choice
+				`	[deposit credits]`
+					goto linebankaccountD
+				`	[withdraw credits]`
+					goto linebankaccountW
+				`	[back]`
+					goto clearscreen
+			label linebankaccountD
+			``
+			label bankaccountD
 			action
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			scene scene/gci_terminal
@@ -105,125 +126,184 @@ mission "gci banking terminal"
 					to display
 						"credits" >= 10000
 					goto d10,000
-				`	[deposit 100,000 credits, daily interest +11 credits]`
+				`	[deposit 100,000 credits, daily interest +10 credits]`
 					to display
 						"credits" >= 100000
 					goto d100,000
-				`	[deposit 1,000,000 credits, daily interest +119 credits]`
+				`	[deposit 1,000,000 credits, daily interest +109 credits]`
 					to display
 						"credits" >= 1000000
 					goto d1,000,000
-				`	[deposit 10,000,000 credits, daily interest +1195 credits]`
+				`	[deposit 10,000,000 credits, daily interest +1095 credits]`
 					to display
 						"credits" >= 10000000
 					goto d10,000,000
-				`	[deposit 100,000,000 credits, daily interest +11958 credits]`
+				`	[deposit 100,000,000 credits, daily interest +10958 credits]`
 					to display
 						"credits" >= 100000000
 					goto d100,000,000
-				`	[withdraw 10,000 credits, daily interest -1 credits]`
+				`	[deposit 1,000,000,000 credits, daily interest +109589 credits]`
 					to display
-						deposit >= 10000
-						dailyincome >= 1
-					goto w10,000
-				`	[withdraw 100,000 credits, daily interest -11 credits]`
-					to display
-						deposit >= 100000
-						dailyincome >= 11
-					goto w100,000
-				`	[withdraw 1,000,000 credits, daily interest -119 credits]`
-					to display
-						deposit >= 1000000
-						dailyincome >= 119
-					goto w1,000,000
-				`	[withdraw 10,000,000 credits, daily interest -1195 credits]`
-					to display
-						deposit >= 10000000
-						dailyincome >= 1195
-					goto w10,000,000
-				`	[withdraw 100,000,000 credits, daily interest -11958 credits]`
-					to display
-						deposit >= 100000000
-						dailyincome >= 11958
-					goto w100,000,000
+						"credits" >= 1000000000
+					goto d1,000,000,000
 				`	[back]`
-					goto clearscreen
-
+						goto linebankaccount
 			label d10,000
 			action
 				payment -10000
 				deposit += 10000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto bankaccount
+				goto bankaccountD
 			label d100,000
 			action
 				payment -100000
 				deposit += 100000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto bankaccount
+				goto bankaccountD
 			label d1,000,000
 			action
 				payment -1000000
 				deposit += 1000000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto bankaccount
+				goto bankaccountD
 			label d10,000,000
 			action
 				payment -10000000
 				deposit += 10000000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto bankaccount
+				goto bankaccountD
 			label d100,000,000
 			action
 				payment -100000000
 				deposit += 100000000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto bankaccount
+				goto bankaccountD
+			label d1,000,000,000
+			action
+				payment -1000000000
+				deposit += 1000000000
+				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
+			``
+				goto bankaccountD
+			label linebankaccountW
+			``
+			label bankaccountW
+			action
+				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
+			scene scene/gci_terminal
+			`Access to your bank account. It will generate an interest, added daily to your bank account, by a rate of 4% per year.`
+			`The daily interest display is lowered by your cash transfer.`
+			``
+			`Cash chip:`
+			`	&[credits] credits`
+			`Account balance:`
+			`	&[deposit] credits`
+			`	&[dailyincome] credits daily interest (4% p.a.)`
+			``
+			choice
+				`	[withdraw 10,000 credits, daily interest -1 credits]`
+					to display
+						deposit >= 10000
+						dailyincome >= 1
+					goto w10,000
+				`	[withdraw 100,000 credits, daily interest -10 credits]`
+					to display
+						deposit >= 100000
+						dailyincome >= 10
+					goto w100,000
+				`	[withdraw 1,000,000 credits, daily interest -109 credits]`
+					to display
+						deposit >= 1000000
+						dailyincome >= 109
+					goto w1,000,000
+				`	[withdraw 10,000,000 credits, daily interest -1095 credits]`
+					to display
+						deposit >= 10000000
+						dailyincome >= 1095
+					goto w10,000,000
+				`	[withdraw 100,000,000 credits, daily interest -10958 credits]`
+					to display
+						deposit >= 100000000
+						dailyincome >= 10958
+					goto w100,000,000
+				`	[withdraw 1,000,000,000 credits, daily interest -10958 credits]`
+					to display
+						deposit >= 1000000000
+						dailyincome >= 109589
+					goto w1,000,000,000
+				`	[back]`
+					goto linebankaccount
+
 			label w10,000
 			action
 				payment 10000
 				deposit -= 10000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto bankaccount
+				goto bankaccountW
 			label w100,000
 			action
 				payment 100000
 				deposit -= 100000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto bankaccount
+				goto bankaccountW
 			label w1,000,000
 			action
 				payment 1000000
 				deposit -= 1000000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto bankaccount
+				goto bankaccountW
 			label w10,000,000
 			action
 				payment 10000000
 				deposit -= 10000000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto bankaccount
+				goto bankaccountW
 			label w100,000,000
 			action
 				payment 100000000
 				deposit -= 100000000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto bankaccount
+				goto bankaccountW
+			label w1,000,000,000
+			action
+				payment 1000000000
+				deposit -= 1000000000
+				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
+			``
+				goto bankaccountW
 # deposit/withdraw of famaly trust
 			label linefamilytrust
 			``
-				goto familytrust
 			label familytrust
+			scene scene/gci_terminal
+			`Access to your family trust. This is an account shared between all pilots in your family.`
+			``
+			`Cash chip:`
+			`	&[credits] credits`
+			`Family Trust:`
+			`	&[global: familytrust] credits`
+			``
+			choice
+				`	[deposit credits]`
+					goto linefamilytrustD
+				`	[withdraw credits]`
+					goto linefamilytrustW
+				`	[back]`
+					goto clearscreen
+
+			label linefamilytrustD
+			``
+			label familytrustD
 			scene scene/gci_terminal
 			`Access to your family trust. This is an account shared between all pilots in your family.`
 			``
@@ -253,6 +333,62 @@ mission "gci banking terminal"
 					to display
 						"credits" >= 100000000
 					goto td100,000,000
+				`	[deposit 1,00,000,000 credits]`
+					to display
+						"credits" >= 1000000000
+					goto td1,000,000,000
+				`	[back]`
+					goto linefamilytrust
+			label td10,000
+			action
+				payment -10000
+				"global: familytrust" += 10000
+			``
+				goto familytrustD
+			label td100,000
+			action
+				payment -100000
+				"global: familytrust" += 100000
+			``
+				goto familytrustD
+			label td1,000,000
+			action
+				payment -1000000
+				"global: familytrust" += 1000000
+			``
+				goto familytrustD
+			label td10,000,000
+			action
+				payment -10000000
+				"global: familytrust" += 10000000
+			``
+				goto familytrustD
+			label td100,000,000
+			action
+				payment -100000000
+				"global: familytrust" += 100000000
+			``
+				goto familytrustD
+			label td1,000,000,000
+			action
+				payment -1000000000
+				"global: familytrust" += 1000000000
+			``
+				goto familytrustD
+
+
+			label linefamilytrustW
+			``
+			label familytrustW
+			scene scene/gci_terminal
+			`Access to your family trust. This is an account shared between all pilots in your family.`
+			``
+			`Cash chip:`
+			`	&[credits] credits`
+			`Family Trust:`
+			`	&[global: familytrust] credits`
+			``
+			choice
 				`	[withdraw 10,000 credits]`
 					to display
 						"global: familytrust" >= 10000
@@ -273,68 +409,49 @@ mission "gci banking terminal"
 					to display
 						"global: familytrust" >= 100000000
 					goto tw100,000,000
+				`	[withdraw 1,000,000,000 credits]`
+					to display
+						"global: familytrust" >= 1000000000
+					goto tw1,000,000,000
 				`	[back]`
-					goto clearscreen
-			label td10,000
-			action
-				payment -10000
-				"global: familytrust" += 10000
-			``
-				goto familytrust
-			label td100,000
-			action
-				payment -100000
-				"global: familytrust" += 100000
-			``
-				goto familytrust
-			label td1,000,000
-			action
-				payment -1000000
-				"global: familytrust" += 1000000
-			``
-				goto familytrust
-			label td10,000,000
-			action
-				payment -10000000
-				"global: familytrust" += 10000000
-			``
-				goto familytrust
-			label td100,000,000
-			action
-				payment -100000000
-				"global: familytrust" += 100000000
-			``
-				goto familytrust
+					goto linefamilytrust
+
 			label tw10,000
 			action
 				payment 10000
 				"global: familytrust" -= 10000
 			``
-				goto familytrust
+				goto familytrustW
 			label tw100,000
 			action
 				payment 100000
 				"global: familytrust" -= 100000
 			``
-				goto familytrust
+				goto familytrustW
 			label tw1,000,000
 			action
 				payment 1000000
 				"global: familytrust" -= 1000000
 			``
-				goto familytrust
+				goto familytrustW
 			label tw10,000,000
 			action
 				payment 10000000
 				"global: familytrust" -= 10000000
 			``
-				goto familytrust
+				goto familytrustW
 			label tw100,000,000
 			action
 				payment 100000000
 				"global: familytrust" -= 100000000
 			``
-				goto familytrust
+				goto familytrustW
+			label tw1,000,000,000
+			action
+				payment 1000000000
+				"global: familytrust" -= 1000000000
+			``
+				goto familytrustW
 # sell investments
 			label linesellinvestment
 			``
@@ -349,27 +466,27 @@ mission "gci banking terminal"
 			`	&[salary: Galactic Capital]`
 			``
 			choice
-				`	[sell investment of 1 daily credits for 3,649 credits]`
+				`	[sell investment of 1 daily credits for 2,200 credits]`
 					to display
 						"salary: Galactic Capital" >= 1
 					goto si1
-				`	[sell investment of 10 daily credits for 36,496 credits]`
+				`	[sell investment of 10 daily credits for 22,000 credits]`
 					to display
 						"salary: Galactic Capital" >= 10
 					goto si10
-				`	[sell investment of 100 daily credits for 364,963 credits]`
+				`	[sell investment of 100 daily credits for 220,000 credits]`
 					to display
 						"salary: Galactic Capital" >= 100
 					goto si100
-				`	[sell investment of 1,000 daily credits for 3,649,635 credits]`
+				`	[sell investment of 1,000 daily credits for 2,200,000 credits]`
 					to display
 						"salary: Galactic Capital" >= 1000
 					goto si1,000
-				`	[sell investment of 10,000 daily credits for 36,496,350 credits]`
+				`	[sell investment of 10,000 daily credits for 22,000,000 credits]`
 					to display
 						"salary: Galactic Capital" >= 10000
 					goto si10,000
-				`	[sell investment of 100,000 daily credits for 364,963,503 credits]`
+				`	[sell investment of 100,000 daily credits for 220,000,000 credits]`
 					to display
 						"salary: Galactic Capital" >= 100000
 					goto si100,000
@@ -377,37 +494,37 @@ mission "gci banking terminal"
 					goto clearscreen
 			label si1
 			action
-				payment 3649
+				payment 2200
 				"salary: Galactic Capital" -= 1
 			``
 				goto sellinvestment
 			label si10
 			action
-				payment 36496
+				payment 22000
 				"salary: Galactic Capital" -= 10
 			``
 				goto sellinvestment
 			label si100
 			action
-				payment 364963
+				payment 220000
 				"salary: Galactic Capital" -= 100
 			``
 				goto sellinvestment
 			label si1,000
 			action
-				payment 3649635
+				payment 2200000
 				"salary: Galactic Capital" -= 1000
 			``
 				goto sellinvestment
 			label si10,000
 			action
-				payment 36496350
+				payment 2200000
 				"salary: Galactic Capital" -= 10000
 			``
 				goto sellinvestment
 			label si100,000
 			action
-				payment 364963503
+				payment 22000000
 				"salary: Galactic Capital" -= 100000
 			``
 				goto sellinvestment
@@ -530,5 +647,5 @@ mission "gci banking terminal"
 			label end
 			scene scene/gci_terminal
 			`Thank you for using "Galactic Capital Investment Bank Service". Have a nice day!`
-	on daily
+				decline
 		fail

@@ -27,7 +27,6 @@ mission "Galactic Capital 1M"
 	on accept
 		payment -1000000
 		"salary: Galactic Capital" += 274
-	on daily
 		fail
 
 
@@ -48,7 +47,6 @@ mission "Galactic Capital 5M"
 	on accept
 		payment -5000000
 		"salary: Galactic Capital" += 1520
-	on daily
 		fail
 
 
@@ -69,7 +67,6 @@ mission "Galactic Capital 10M"
 	on accept
 		payment -10000000
 		"salary: Galactic Capital" += 3287
-	on daily
 		fail
 
 
@@ -90,7 +87,6 @@ mission "Galactic Capital 50M"
 	on accept
 		payment -50000000
 		"salary: Galactic Capital" += 17808
-	on daily
 		fail
 
 
@@ -111,7 +107,6 @@ mission "Galactic Capital 100M"
 	on accept
 		payment -100000000
 		"salary: Galactic Capital" += 38356
-	on daily
 		fail
 
 
@@ -132,5 +127,4 @@ mission "Galactic Capital 1000M"
 	on accept
 		payment -1000000000
 		"salary: Galactic Capital" += 410958
-	on daily
 		fail
