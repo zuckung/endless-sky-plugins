@@ -291,10 +291,10 @@ interface "hud"
 	
 	# Other HUD elements
 	box "escorts"
-		from 255 0 bottom left
+		from 270 0 bottom left # was 255 0
 		to -380 -55 bottom right
 	box "messages"
-		from 255 -55 bottom left
+		from 270 -55 bottom left
 		to -345 -200 bottom right
 	value "messages reversed" 0
 
