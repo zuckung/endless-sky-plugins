@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-25 | update: landing.images<br>
 2025-08-24 | update: additional.command.buttons.radial<br>
 2025-08-15 | update: galactic.capital.investment<br>
 2025-08-10 | update: ship.merging<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-07-24 | update: combat.ai<br>
 2025-07-13 | update: combat.ai<br>
 2025-07-11 | update: combat.ai<br>
-2025-07-03 | update: boss.loot<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3106,7 +3106,7 @@ reworked readme<br>
 <img src="myplugins/landing.images/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/landing.images.png">
 
-[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-landing.images/landing.images.zip) | 15.32 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <a href="res/imagemd/landing.images.md">view images</a> [527]<br>
+[landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-landing.images/landing.images.zip) | 15.45 mb | 2025-08-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) <a href="res/imagemd/landing.images.md">view images</a> [527]<br>
 <br>
 >Replaces all planet landing images with better fitting ones. See the README for details.
 
@@ -3133,6 +3133,12 @@ See all images by clicking the "view images link" on this site.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-08-25<br>
+
+corrected size of planet Ahr and Occupas<br>
 
 <br>
 
@@ -3205,6 +3211,12 @@ Adds images with 1440x720 resolution. The landing.images plugin is still needed.
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-08-25<br>
+
+corrected size of planet Ahr and Occupas<br>
 
 <br>
 

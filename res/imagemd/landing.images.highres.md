@@ -861,7 +861,7 @@ graphic files for the plugin: landing.images.highres<br>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/landing.images.highres/images/land/oblivion@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/landing.images.highres/images/land/oblivion@2x.jpg" width="200"></a><br>
 		oblivion@2x.jpg [1440x720]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/landing.images.highres/images/land/occupas@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/landing.images.highres/images/land/occupas@2x.jpg" width="200"></a><br>
-		occupas@2x.jpg [1534x720]</td>
+		occupas@2x.jpg [1440x720]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/landing.images.highres/images/land/ochrescoop@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/landing.images.highres/images/land/ochrescoop@2x.jpg" width="200"></a><br>
 		ochrescoop@2x.jpg [1440x720]</td>
 	</tr>

@@ -21,7 +21,7 @@ graphic files for the plugin: landing.images<br>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/landing.images/images/land/aetuah.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/landing.images/images/land/aetuah.jpg" width="200"></a><br>
 		aetuah.jpg [720x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/landing.images/images/land/ahr.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/landing.images/images/land/ahr.jpg" width="200"></a><br>
-		ahr.jpg [720x480]</td>
+		ahr.jpg [720x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/landing.images/images/land/aksaray.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/landing.images/images/land/aksaray.jpg" width="200"></a><br>
 		aksaray.jpg [720x360]</td>
 	</tr>
@@ -861,7 +861,7 @@ graphic files for the plugin: landing.images<br>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/landing.images/images/land/oblivion.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/landing.images/images/land/oblivion.jpg" width="200"></a><br>
 		oblivion.jpg [720x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/landing.images/images/land/occupas.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/landing.images/images/land/occupas.jpg" width="200"></a><br>
-		occupas.jpg [720x338]</td>
+		occupas.jpg [720x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/landing.images/images/land/ochrescoop.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/landing.images/images/land/ochrescoop.jpg" width="200"></a><br>
 		ochrescoop.jpg [720x360]</td>
 	</tr>
