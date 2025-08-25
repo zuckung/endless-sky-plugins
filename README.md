@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-25 | update: landing.images.highres<br>
 2025-08-25 | update: landing.images<br>
 2025-08-24 | update: additional.command.buttons.radial<br>
 2025-08-15 | update: galactic.capital.investment<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-07-28 | update: additional.command.buttons.radial<br>
 2025-07-24 | update: combat.ai<br>
 2025-07-13 | update: combat.ai<br>
-2025-07-11 | update: combat.ai<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3188,7 +3188,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/landing.images.highres/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/landing.images.highres.png">
 
-[landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-landing.images.highres/landing.images.highres.zip) | 67.11 mb | 2024-10-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) <a href="res/imagemd/landing.images.highres.md">view images</a> [527]<br>
+[landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images.highres/landing.images.highres.zip) | 67.35 mb | 2025-08-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) <a href="res/imagemd/landing.images.highres.md">view images</a> [527]<br>
 <br>
 >High resolution files for landing.images plugin. See the README for details.
 

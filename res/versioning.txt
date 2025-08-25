@@ -25,7 +25,7 @@ jump.gates|1.0.3
 kestrel.unlocks|1.0.0
 kor.efret.shipyard|1.0.2
 landing.images.android|1.0.3
-landing.images.highres|1.0.2
+landing.images.highres|1.0.3
 landing.images|1.0.5
 licenses|1.0.1
 mission.helper|1.0.7
