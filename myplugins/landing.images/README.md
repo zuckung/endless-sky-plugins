@@ -10,6 +10,9 @@ See all images by clicking the "view images link" on this site.<br>
 <br>
 Changelog:<br>
 <br>
+2025-08-25<br>
+corrected size of planet Ahr and Occupas<br>
+<br>
 2025-05-19<br>
 abouttxt, README, icon@2x, plugintxt changes<br>
 <br>
