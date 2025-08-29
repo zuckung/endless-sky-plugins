@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: kor.efret.shipyard<br>
 2025-08-29 | update: jump.gates<br>
 2025-08-29 | update: highrollers.ltd<br>
 2025-08-29 | update: coalition.shopping<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-25 | update: landing.images<br>
 2025-08-24 | update: additional.command.buttons.radial<br>
 2025-08-15 | update: galactic.capital.investment<br>
-2025-08-10 | update: ship.merging<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2903,7 +2903,7 @@ initial release<br>
 <img src="myplugins/kor.efret.shipyard/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/kor.efret.shipyard.png">
 
-[kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-kor.efret.shipyard/kor.efret.shipyard.zip) | 30.38 kb | 2024-11-04 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor.efret.shipyard/) <a href="res/imagemd/kor.efret.shipyard.md">view images</a> [2]<br>
+[kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-kor.efret.shipyard/kor.efret.shipyard.zip) | 107.05 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor.efret.shipyard/) <a href="res/imagemd/kor.efret.shipyard.md">view images</a> [2]<br>
 <br>
 >Adds a shipyard with the three Kor Efret ships to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships and some Korath Exiles outfits. See the README for details.
 
