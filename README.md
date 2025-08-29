@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: disable.person.ships<br>
 2025-08-29 | update: automata.destruction.0percent<br>
 2025-08-25 | update: landing.images.highres<br>
 2025-08-25 | update: landing.images<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-09 | update: ship.merging<br>
 2025-07-28 | update: uniques<br>
 2025-07-28 | update: additional.command.buttons.radial<br>
-2025-07-24 | update: combat.ai<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1664,7 +1664,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/disable.person.ships/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/disable.person.ships.png">
 
-[disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-disable.person.ships/disable.person.ships.zip) | 20.08 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <a href="res/imagemd/disable.person.ships.md">view images</a> [2]<br>
+[disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-disable.person.ships/disable.person.ships.zip) | 107.71 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <a href="res/imagemd/disable.person.ships.md">view images</a> [2]<br>
 <br>
 >Disables all person ships. See the README for details.
 

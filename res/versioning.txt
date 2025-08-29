@@ -11,7 +11,7 @@ coalition.shopping|1.0.6
 combat.ai|1.0.8
 control.station|1.0.4
 devil-run.unhidden|1.0.1
-disable.person.ships|1.0.0
+disable.person.ships|1.0.1
 disable.spaceport.repeatables|1.1.1
 expert.crew.members|1.0.9
 flare.play|1.0.2
