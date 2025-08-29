@@ -29,7 +29,7 @@ landing.images.highres|1.0.3
 landing.images|1.0.5
 licenses|1.0.1
 mission.helper|1.0.7
-more.arfectas|1.0.2
+more.arfectas|1.0.3
 more.boarding.missions|1.1.5
 more.person.ships|1.0.3
 navy.licenses|1.0.3

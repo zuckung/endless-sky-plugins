@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: more.arfectas<br>
 2025-08-29 | update: kor.efret.shipyard<br>
 2025-08-29 | update: jump.gates<br>
 2025-08-29 | update: highrollers.ltd<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-25 | update: landing.images.highres<br>
 2025-08-25 | update: landing.images<br>
 2025-08-24 | update: additional.command.buttons.radial<br>
-2025-08-15 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3475,7 +3475,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/more.arfectas/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/more.arfectas.png">
 
-[more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-more.arfectas/more.arfectas.zip) | 30.79 kb | 2024-04-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <a href="res/imagemd/more.arfectas.md">view images</a> [2]<br>
+[more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-more.arfectas/more.arfectas.zip) | 112.25 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) <a href="res/imagemd/more.arfectas.md">view images</a> [2]<br>
 <br>
 >Adds the new system 'Mego Pug', in eastern Bunrodea space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the README for details.
 
