@@ -7,7 +7,7 @@ Added a new system, with new government "Pug Farm" and 3 new fleets. Two fleets 
 <br>
 Changelog:<br>
 <br>
-2025-05-19<br>
+2025-08-29<br>
 typo fixes by snoggles<br>
 license, README, icon@2x, plugintxt changes<br>
 <br>

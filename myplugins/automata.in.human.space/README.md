@@ -9,7 +9,7 @@ The chance to encounter previous Korath ships or automata is like 50/50. <br>
 <br>
 Changelog:<br>
 <br>
-2025-05-19<br>
+2025-08-29<br>
 license, README, icon@2x, plugintxt changes<br>
 <br>
 2024-09-24<br>

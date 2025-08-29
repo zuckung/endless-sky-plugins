@@ -9,7 +9,7 @@ You can easily change the values in automata.txt for each ship ('"self destruct"
 <br>
 Changelog:<br>
 <br>
-2025-05-19<br>
+2025-08-29<br>
 typo fixes by snoggles<br>
 license, README, icon@2x, plugintxt changes<br>
 <br>

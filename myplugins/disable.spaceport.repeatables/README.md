@@ -31,7 +31,7 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 <br>
 Changelog:<br>
 <br>
-2025-05-19<br>
+2025-08-29<br>
 license, README, icon@2x, plugintxt changes<br>
 <br>
 2024-05-26<br>

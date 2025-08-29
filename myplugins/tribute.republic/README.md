@@ -10,7 +10,7 @@ To prevent mission-related changes overwriting this plugin, activate it, when yo
 <br>
 Changelog:<br>
 <br>
-2025-05-19<br>
+2025-08-29<br>
 icon@2x, plugintxt changes<br>
 <br>
 2024-08-17<br>
