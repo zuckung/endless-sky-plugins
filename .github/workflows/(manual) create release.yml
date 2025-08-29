@@ -6,6 +6,9 @@ on:
         description: 'which plugin?'
         required: true
         type: string
+concurrency:
+  group: "blub"
+  cancel-in-progress: false
 jobs:
   deploy:
     name: First job
