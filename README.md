@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: coalition.shopping<br>
 2025-08-29 | update: gegno.pirates<br>
 2025-08-29 | update: automata.in.human.space<br>
 2025-08-25 | update: landing.images.highres<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-10 | update: ship.merging<br>
 2025-08-09 | update: ship.merging<br>
 2025-07-28 | update: uniques<br>
-2025-07-28 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1241,7 +1241,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/coalition.shopping/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/coalition.shopping.png">
 
-[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-coalition.shopping/coalition.shopping.zip) | 403.06 kb | 2024-11-09 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <a href="res/imagemd/coalition.shopping.md">view images</a> [6]<br>
+[coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-coalition.shopping/coalition.shopping.zip) | 451.88 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) <a href="res/imagemd/coalition.shopping.md">view images</a> [6]<br>
 <br>
 >Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in the 'Homeward' system. See the README for details.
 
