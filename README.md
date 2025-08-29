@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: jump.gates<br>
 2025-08-29 | update: highrollers.ltd<br>
 2025-08-29 | update: coalition.shopping<br>
 2025-08-29 | update: gegno.pirates<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-24 | update: additional.command.buttons.radial<br>
 2025-08-15 | update: galactic.capital.investment<br>
 2025-08-10 | update: ship.merging<br>
-2025-08-09 | update: ship.merging<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2765,7 +2765,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/jump.gates/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/jump.gates.png">
 
-[jump.gates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-jump.gates/jump.gates.zip) | 1.99 mb | 2025-02-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/) <a href="res/imagemd/jump.gates.md">view images</a> [24]<br>
+[jump.gates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-jump.gates/jump.gates.zip) | 2.11 mb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/) <a href="res/imagemd/jump.gates.md">view images</a> [24]<br>
 <br>
 >Adds a ring of 'jump gates' at the borders of human space to create shortcuts inside the human space. See the README for details.
 
