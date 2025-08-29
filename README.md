@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: kestrel.unlocks<br>
 2025-08-29 | update: highrollers.ltd<br>
 2025-08-29 | update: coalition.shopping<br>
 2025-08-29 | update: gegno.pirates<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-24 | update: additional.command.buttons.radial<br>
 2025-08-15 | update: galactic.capital.investment<br>
 2025-08-10 | update: ship.merging<br>
-2025-08-09 | update: ship.merging<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2850,7 +2850,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/kestrel.unlocks/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/kestrel.unlocks.png">
 
-[kestrel.unlocks.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-kestrel.unlocks/kestrel.unlocks.zip) | 6.64 kb | 2024-08-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kestrel.unlocks/) <a href="res/imagemd/kestrel.unlocks.md">view images</a> [2]<br>
+[kestrel.unlocks.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-kestrel.unlocks/kestrel.unlocks.zip) | 57.29 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kestrel.unlocks/) <a href="res/imagemd/kestrel.unlocks.md">view images</a> [2]<br>
 <br>
 >Unlocks all Kestrel variants after you have unlocked the first one. See the README for details.
 
