@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: too.many.asteroids<br>
 2025-08-29 | update: planet.map<br>
 2025-08-29 | update: more.arfectas<br>
 2025-08-29 | update: kor.efret.shipyard<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-29 | update: gegno.pirates<br>
 2025-08-29 | update: automata.in.human.space<br>
 2025-08-25 | update: landing.images.highres<br>
-2025-08-25 | update: landing.images<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4649,7 +4649,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/too.many.asteroids/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/too.many.asteroids.png">
 
-[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-too.many.asteroids/too.many.asteroids.zip) | 19.47 kb | 2025-01-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <a href="res/imagemd/too.many.asteroids.md">view images</a> [2]<br>
+[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-too.many.asteroids/too.many.asteroids.zip) | 86.87 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) <a href="res/imagemd/too.many.asteroids.md">view images</a> [2]<br>
 <br>
 >Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. Increases game performance. See the README for details.
 
