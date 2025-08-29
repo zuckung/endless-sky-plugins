@@ -1,3 +1,4 @@
+2025-08-29 | update: automata.destruction.0percent
 2025-08-25 | update: landing.images.highres
 2025-08-25 | update: landing.images
 2025-08-24 | update: additional.command.buttons.radial

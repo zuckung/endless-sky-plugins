@@ -1,6 +1,6 @@
 additional.command.buttons.radial|1.0.25
 additional.command.buttons|1.0.2
-automata.destruction.0percent|1.0.1
+automata.destruction.0percent|1.0.2
 automata.in.human.space|1.0.1
 avgi.licenses|1.0.0
 better.starts|1.0.5
