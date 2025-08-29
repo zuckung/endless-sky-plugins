@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: no.more.mereti.mines<br>
 2025-08-29 | update: kor.efret.shipyard<br>
 2025-08-29 | update: jump.gates<br>
 2025-08-29 | update: highrollers.ltd<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-25 | update: landing.images.highres<br>
 2025-08-25 | update: landing.images<br>
 2025-08-24 | update: additional.command.buttons.radial<br>
-2025-08-15 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3886,7 +3886,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/no.more.mereti.mines/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/no.more.mereti.mines.png">
 
-[no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-no.more.mereti.mines/no.more.mereti.mines.zip) | 81.6 kb | 2024-09-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) <a href="res/imagemd/no.more.mereti.mines.md">view images</a> [4]<br>
+[no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-no.more.mereti.mines/no.more.mereti.mines.zip) | 154.06 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) <a href="res/imagemd/no.more.mereti.mines.md">view images</a> [4]<br>
 <br>
 >Removes the mines from Mereti ships and replaces them with Husk-Slice and Shield Disruptor guns to increase game performance. See the README for details.
 
