@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: tribute.republic<br>
 2025-08-29 | update: space.fauna<br>
 2025-08-29 | update: no.more.mereti.mines<br>
 2025-08-29 | update: kor.efret.shipyard<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-29 | update: gegno.pirates<br>
 2025-08-29 | update: automata.in.human.space<br>
 2025-08-25 | update: landing.images.highres<br>
-2025-08-25 | update: landing.images<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4746,7 +4746,7 @@ added a python script which generates the asteroids.txt(in case I don't update t
 <img src="myplugins/tribute.republic/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/tribute.republic.png">
 
-[tribute.republic.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-tribute.republic/tribute.republic.zip) | 22.07 kb | 2024-08-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/tribute.republic/) <a href="res/imagemd/tribute.republic.md">view images</a> [2]<br>
+[tribute.republic.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-tribute.republic/tribute.republic.zip) | 96.81 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/tribute.republic/) <a href="res/imagemd/tribute.republic.md">view images</a> [2]<br>
 <br>
 >Allows you to tribute all Republic planets, without losing Free Worlds or Deep Security reputation. See the README for details.
 
