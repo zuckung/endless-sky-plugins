@@ -17,16 +17,16 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
-2025-08-29 | update: tribute.republic<br>
-2025-08-29 | update: space.fauna<br>
-2025-08-29 | update: no.more.mereti.mines<br>
-2025-08-29 | update: kor.efret.shipyard<br>
-2025-08-29 | update: jump.gates<br>
-2025-08-29 | update: highrollers.ltd<br>
-2025-08-29 | update: coalition.shopping<br>
-2025-08-29 | update: gegno.pirates<br>
-2025-08-29 | update: automata.in.human.space<br>
+2025-08-29 | 16 plugin updates with minor organisational files changes, typo fixes,  etc, no need to download<br>
 2025-08-25 | update: landing.images.highres<br>
+2025-08-25 | update: landing.images<br>
+2025-08-24 | update: additional.command.buttons.radial<br>
+2025-08-15 | update: galactic.capital.investment<br>
+2025-08-10 | update: ship.merging<br>
+2025-08-09 | update: ship.merging<br>
+2025-07-28 | update: uniques<br>
+2025-07-28 | update: additional.command.buttons.radial<br>
+2025-07-24 | update: combat.ai<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
