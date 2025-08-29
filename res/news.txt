@@ -1,12 +1,4 @@
-2025-08-29 | update: tribute.republic
-2025-08-29 | update: space.fauna
-2025-08-29 | update: no.more.mereti.mines
-2025-08-29 | update: kor.efret.shipyard
-2025-08-29 | update: jump.gates
-2025-08-29 | update: highrollers.ltd
-2025-08-29 | update: coalition.shopping
-2025-08-29 | update: gegno.pirates
-2025-08-29 | update: automata.in.human.space
+2025-08-29 | 16 plugin updates with minor organisational files changes, typo fixes,  etc, no need to download
 2025-08-25 | update: landing.images.highres
 2025-08-25 | update: landing.images
 2025-08-24 | update: additional.command.buttons.radial
