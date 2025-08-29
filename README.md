@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: automata.in.human.space<br>
 2025-08-25 | update: landing.images.highres<br>
 2025-08-25 | update: landing.images<br>
 2025-08-24 | update: additional.command.buttons.radial<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-07-28 | update: uniques<br>
 2025-07-28 | update: additional.command.buttons.radial<br>
 2025-07-24 | update: combat.ai<br>
-2025-07-13 | update: combat.ai<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -410,7 +410,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 typo fixes by snoggles<br>
 
@@ -467,7 +467,7 @@ changed readme<br>
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.in.human.space.png">
 
-[automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.in.human.space/automata.in.human.space.zip) | 35.86 kb | 2024-09-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) <a href="res/imagemd/automata.in.human.space.md">view images</a> [2]<br>
+[automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-automata.in.human.space/automata.in.human.space.zip) | 96.62 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) <a href="res/imagemd/automata.in.human.space.md">view images</a> [2]<br>
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
@@ -495,7 +495,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 license, README, icon@2x, plugintxt changes<br>
 
@@ -1269,7 +1269,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 typo fixes by snoggles<br>
 
@@ -1722,7 +1722,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 license, README, icon@2x, plugintxt changes<br>
 
@@ -1828,7 +1828,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 license, README, icon@2x, plugintxt changes<br>
 
@@ -2400,7 +2400,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 typo fixes by snoggles<br>
 
@@ -2613,7 +2613,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 typo fixes by snoggles<br>
 
@@ -2793,7 +2793,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 typo fixes by snoggles<br>
 
@@ -2876,7 +2876,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 typo fixes by snoggles<br>
 
@@ -3059,7 +3059,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 added "Farves GP Hybrid Steering" (by snoggles)<br>
 
@@ -3499,7 +3499,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 typo fixes by snoggles<br>
 
@@ -3914,7 +3914,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 icon@2x, plugintxt changes<br>
 
@@ -4130,7 +4130,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 typo fixes by snoggles<br>
 
@@ -4599,7 +4599,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 license, README, icon@2x, plugintxt changes<br>
 
@@ -4679,7 +4679,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 icon@2x, plugintxt changes<br>
 
@@ -4776,7 +4776,7 @@ Changelog:<br>
 
 <br>
 
-2025-05-19<br>
+2025-08-29<br>
 
 icon@2x, plugintxt changes<br>
 
