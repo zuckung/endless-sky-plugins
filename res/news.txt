@@ -1,3 +1,4 @@
+2025-08-29 | update: disable.spaceport.repeatables
 2025-08-29 | update: gegno.pirates
 2025-08-29 | update: automata.in.human.space
 2025-08-25 | update: landing.images.highres

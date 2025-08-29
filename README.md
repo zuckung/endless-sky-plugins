@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: disable.spaceport.repeatables<br>
 2025-08-29 | update: gegno.pirates<br>
 2025-08-29 | update: automata.in.human.space<br>
 2025-08-25 | update: landing.images.highres<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-10 | update: ship.merging<br>
 2025-08-09 | update: ship.merging<br>
 2025-07-28 | update: uniques<br>
-2025-07-28 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1756,7 +1756,7 @@ added icon.png<br>
 <img src="myplugins/disable.spaceport.repeatables/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/disable.spaceport.repeatables.png">
 
-[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.1-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) | 20.57 kb | 2024-05-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <a href="res/imagemd/disable.spaceport.repeatables.md">view images</a> [2]<br>
+[disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.2-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) | 108.22 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) <a href="res/imagemd/disable.spaceport.repeatables.md">view images</a> [2]<br>
 <br>
 >Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the README for details.
 
