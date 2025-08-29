@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: planet.map<br>
 2025-08-29 | update: more.arfectas<br>
 2025-08-29 | update: kor.efret.shipyard<br>
 2025-08-29 | update: jump.gates<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-29 | update: automata.in.human.space<br>
 2025-08-25 | update: landing.images.highres<br>
 2025-08-25 | update: landing.images<br>
-2025-08-24 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4098,7 +4098,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/planet.map/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/planet.map.png">
 
-[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-planet.map/planet.map.zip) | 15.2 mb | 2025-04-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) <a href="res/imagemd/planet.map.md">view images</a> [62]<br>
+[planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-planet.map/planet.map.zip) | 15.2 mb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) <a href="res/imagemd/planet.map.md">view images</a> [62]<br>
 <br>
 >This is a storyline entirely on a planets surface(with fitting visuals). Available at the outfitter on planet Memory. See the README for details.
 
