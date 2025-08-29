@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-29 | update: highrollers.ltd<br>
 2025-08-29 | update: coalition.shopping<br>
 2025-08-29 | update: gegno.pirates<br>
 2025-08-29 | update: automata.in.human.space<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-15 | update: galactic.capital.investment<br>
 2025-08-10 | update: ship.merging<br>
 2025-08-09 | update: ship.merging<br>
-2025-07-28 | update: uniques<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2585,7 +2585,7 @@ initial release<br>
 <img src="myplugins/highrollers.ltd/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/highrollers.ltd.png">
 
-[highrollers.ltd.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-highrollers.ltd/highrollers.ltd.zip) | 1.02 mb | 2025-03-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/highrollers.ltd/) <a href="res/imagemd/highrollers.ltd.md">view images</a> [15]<br>
+[highrollers.ltd.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-highrollers.ltd/highrollers.ltd.zip) | 1.06 mb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/highrollers.ltd/) <a href="res/imagemd/highrollers.ltd.md">view images</a> [15]<br>
 <br>
 >This plugin adds some casino space stations where you can gamble. See the README for details.
 
