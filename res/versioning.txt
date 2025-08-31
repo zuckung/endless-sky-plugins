@@ -9,7 +9,7 @@ bunrodea.missions|1.0.9
 captureable.person.ships|1.1.9
 coalition.shopping|1.0.7
 combat.ai|1.0.8
-control.station|1.0.4
+control.station|1.0.5
 devil-run.unhidden|1.0.1
 disable.person.ships|1.0.0
 disable.spaceport.repeatables|1.1.1

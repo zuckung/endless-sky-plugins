@@ -1058,25 +1058,27 @@ graphic files for the plugin: control.station<br>
 		inside_station.jpg [720x360]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/control.station/images/land/inside_station@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/control.station/images/land/inside_station@2x.jpg" width="200"></a><br>
+		inside_station@2x.jpg [1440x720]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/control.station/images/outfit/icon.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/control.station/images/outfit/icon.png" width="150" height="150"></a><br>
 		icon.png [150x150]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/control.station/images/outfit/icon@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/control.station/images/outfit/icon@2x.png" height="200"></a><br>
 		icon@2x.png [300x300]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/control.station/images/planet/admin_station.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/control.station/images/planet/admin_station.png" height="200"></a><br>
-		admin_station.png [260x260]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/control.station/images/planet/admin_station.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/control.station/images/planet/admin_station.png" height="200"></a><br>
+		admin_station.png [260x260]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/control.station/images/planet/admin_station@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/control.station/images/planet/admin_station@2x.png" height="200"></a><br>
+		admin_station@2x.png [520x520]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/control.station/images/scene/colors.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/control.station/images/scene/colors.jpg" width="200"></a><br>
 		colors.jpg [560x188]</td>
+	</tr>
+	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/control.station/images/scene/colors@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/control.station/images/scene/colors@2x.jpg" width="200"></a><br>
 		colors@2x.jpg [1120x375]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/control.station/images/scene/paint.your.ships.swizzle.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/control.station/images/scene/paint.your.ships.swizzle.jpg" width="200"></a><br>
 		paint.your.ships.swizzle.jpg [280x257]</td>
-	</tr>
-	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/control.station/images/scene/paint.your.ships.swizzle@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/control.station/images/scene/paint.your.ships.swizzle@2x.jpg" width="200"></a><br>
 		paint.your.ships.swizzle@2x.jpg [560x513]</td>
-		<td></td>
-		<td></td>
 	</tr>
 </table>
