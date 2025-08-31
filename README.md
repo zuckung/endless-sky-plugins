@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-08-31 | update: kestrel.unlocks<br>
 2025-08-29 | 16 plugin updates with minor organisational files changes, typo fixes,  etc, no need to download<br>
 2025-08-25 | update: landing.images.highres<br>
 2025-08-25 | update: landing.images<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-09 | update: ship.merging<br>
 2025-07-28 | update: uniques<br>
 2025-07-28 | update: additional.command.buttons.radial<br>
-2025-07-24 | update: combat.ai<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -724,6 +724,16 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-08-31<br>
+
+weapon upgrade fuel dmg fix (thx Kassandra Haruki)<br>
+
+lowered nanite energy generation (thx to Kitteh)<br>
+
+added fighters to every boss (thx to Kitteh)<br>
 
 <br>
 
@@ -1534,7 +1544,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/control.station/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/control.station.png">
 
-[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-control.station/control.station.zip) | 2.52 mb | 2025-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <a href="res/imagemd/control.station.md">view images</a> [403]<br>
+[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-control.station/control.station.zip) | 2.52 mb | 2025-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <a href="res/imagemd/control.station.md">view images</a> [405]<br>
 <br>
 >Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details.
 
@@ -1564,6 +1574,8 @@ info: City Ship License Guide<br>
 
 info: Ship Capture Progression Guide<br>
 
+ingo: Emerald Sword Guide<br>
+
 QoL: Change Pilot Name (during a pilot's play, keep everything)<br>
 
 QoL: Planet Attribute Visibility (expand planet's descriptions with the hidden attributes)<br>
@@ -1587,6 +1599,14 @@ Completing the campaigns might not exactly have the same result as if the campai
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-08-31<br>
+
+added emerald sword guide guide<br>
+
+added @2x images<br>
 
 <br>
 
@@ -2850,7 +2870,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/kestrel.unlocks/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/kestrel.unlocks.png">
 
-[kestrel.unlocks.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-kestrel.unlocks/kestrel.unlocks.zip) | 6.64 kb | 2024-08-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kestrel.unlocks/) <a href="res/imagemd/kestrel.unlocks.md">view images</a> [2]<br>
+[kestrel.unlocks.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-kestrel.unlocks/kestrel.unlocks.zip) | 57.37 kb | 2025-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kestrel.unlocks/) <a href="res/imagemd/kestrel.unlocks.md">view images</a> [2]<br>
 <br>
 >Unlocks all Kestrel variants after you have unlocked the first one. See the README for details.
 
@@ -2866,7 +2886,7 @@ Unlocks all Kestrel variants after you have unlocked the first one.<br>
 
 <br>
 
-After completing the Kestrel mission chain, every 30 days a new variant is unlocked and you get notified about that. If you activate this plugin after you have already completed the missions, the 30 days timer starts from then.<br>
+After completing the Kestrel mission chain, every 90 days a new variant is unlocked and you get notified about that. If you activate this plugin after you have already completed the missions, the 90 days timer starts from then.<br>
 
 <br>
 
@@ -2876,9 +2896,17 @@ Changelog:<br>
 
 <br>
 
-2025-08-29<br>
+2025-08-31<br>
 
-typo fixes by snoggles<br>
+changed time yo next kestrel update to 90 days<br>
+
+set original missions done on kestrel updates<br>
+
+<br>
+
+2025-05-19<br>
+
+typo fixes by snoogles<br>
 
 icon@2x, plugintxt changes<br>
 

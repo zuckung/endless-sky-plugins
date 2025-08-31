@@ -22,7 +22,7 @@ hai.side.mission.unlocker|1.1.5
 highrollers.ltd|1.0.2
 human.labels|1.0.7
 jump.gates|1.0.4
-kestrel.unlocks|1.0.0
+kestrel.unlocks|1.0.1
 kor.efret.shipyard|1.0.3
 landing.images.android|1.0.3
 landing.images.highres|1.0.3
