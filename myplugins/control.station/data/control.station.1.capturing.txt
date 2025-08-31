@@ -8,15 +8,16 @@ mission "info: Show Capturing Progression Guide"
 	source "Control Station"
 	on accept
 		conversation
+			scene "thumbnail/rai-alorej"
 			`Ship Capturing Progression`
 			`* "Bunkmax" means, you sell every outfit that is not needed, replace needed outfits by weaker ones, buy outfit expansion till you have no cargo or overheat, and install as many Bunk Rooms as possible. This means also no weapons.`
 			`* The bunkmax number can be a little bit higher if you invest time and money to find the perfect outfits.`
 			`* Your fleet should be equipped with beam weapons, to not destroy the target.`
 			`* You can skip many ships in this list, based on your choice and luck.`
-			`* Start with 'Laser Rifle' hand-to-hand outfits, better get 'Fragmentation Granade', and when reaching Korath ships do the Coalition/Lunarium storyline to get the 'Anti-Materiel Gun'.`
+			`* Start with 'Laser Rifle' hand-to-hand outfits, better get 'Fragmentation Grenade', and when reaching Korath ships do the Heliarch/Lunarium storyline to get the 'Enforcer Riot Gear'/'Anti-Materiel Gun'.`
 			``
 			`start with:`
-			`  Shuttle | bunkmax to 18 crew`
+			`  Star Barge | bunkmax to 19 crew`
 			``
 			`Aldhibain (Free Worlds) (has outfitter/shipyard/lots of pirates and militia fleets, no need to fight)`
 			`  Hawk | 1-4 enemy crew | bunkmax to 20 crew`
@@ -27,38 +28,34 @@ mission "info: Show Capturing Progression Guide"
 			`  Bastion | 19-40 enemy crew | bunkmax to 108 crew`
 			`  Falcon | 55-91 enemy crew | bunkmax to 171 crew`
 			``
-			`Arneb (North Pirate) (average spawn time 18m) OR do City Ship License missions in the deep`
+			`Arneb (North Pirate) (average spawn time 18m) OR do City Ship License missions in The Deep`
 			`  Bactrian | 74-245 enemy crew | bunkmax to 377 crew`
 			``
-			`Wah Ki (Hai)`
+			`Wah Ki (Hai) OR do 50-60 Hai jobs and buy a Shield Beetle at Hai-Home`
 			`  Shield Beetle 47-95 enemy crew | bunkmax to 211 crew`
 			``
-			`Misam (Core Pirate)`
+			`Misam (Core Pirate) OR Remnant Bounty jobs`
 			`  Palavret | 150-250 enemy crew | bunkmax to 362 crew`
 			`  Rano'erek | 143-357 enemy crew | bunkmax to 469 crew`
 			``
-			`Kor En'lakfar (average spawn time 10m) from here get 'Anti-Materiel Gun' first`
-			`  Karek A'awoj (577, Jump Drive equipped) | 239-453 enemy crew | bunkmax to 589 crew`
+			`Remnant job 5% chance 'Destroy Ground Assault Bounty'(after Cognizance 29: "Recover equipment from Baianus")`
+			`	Rano'erek (Ground Assault) | 134-449 enemy crew | bunkmax to 533 crew`
 			``
-			`Kor Nor'peli 20000 1/28 (average spawn time 2h20m)`
-			`  Dathnak A'awoj (582, Jump Drive equipped) | 319/551 enemy crew | bunkmax to 679 crew`
+			`Kor En'lakfar (average spawn time 10m) from here get Heliarch/Lunarium H2H first`
+			`  Karek A'awoj (577, Jump Drive) | 239-453 enemy crew | bunkmax to 589 crew`
+			``
+			`Kor Nor'peli (average spawn time 2h20m)`
+			`  Dathnak A'awoj (582, Jump Drive) | 319/551 enemy crew | bunkmax to 679 crew`
 			``
 			`All Korath system, very common`
-			`  Sapira A'awoj" (618, Jump Drive equipped) 627/794 enemy crew | bunkmax to 1006 crew`
-			`  Ikfar A'awoj (621, Jump Drive equipped) 798/1037 enemy crew | bunkmax to 1189 crew`
+			`  Sapira A'awoj (618, Jump Drive) 627/794 enemy crew | bunkmax to 1006 crew`
+			`  Ikfar A'awoj (621, Jump Drive) 798/1037 enemy crew | bunkmax to 1189 crew`
 			``
-			`Kor Efreti (follow Efreti ship and refuel them to build up reputation, so you can capture one without getting them angry)`
+			`Kor Efreti (follow Efreti ships and refuel them to build up reputation, so you can capture one without getting them angry)`
+			`(+0.1 reputation per crew for refueling/repairing, 519.17 to 1847.8 reputation needed for a capture)`
 			`  Echo-Galleon 243/972 bunkmax to 1068 crew`
 			``
 			`Coluber(Ember Waste) (average spawn time 8m) Korath civilian can get angered without any negative impact`
-			`  "Rai'alorej" 526/1433 enemy crew | bunkmax to 1565 crew`
+			`  Rai'alorej 526/1433 enemy crew | bunkmax to 1565 crew`
 			``
 		fail
-
-
-
-
-
-
-
-

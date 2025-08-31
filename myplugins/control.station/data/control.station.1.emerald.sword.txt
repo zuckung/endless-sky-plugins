@@ -1,0 +1,131 @@
+mission "info: Show Emerald Sword Guide"
+	name "[1] info: Emerald Sword Guide"
+	color selected "control.station info job: selected"
+	color unselected "control.station info job: unselected"
+	job
+	repeat
+	description "Shows a guide for obtaining the Emerald Sword."
+	source "Control Station"
+	on accept
+		conversation
+			scene "thumbnail/emeraldsword"
+			`Emerald Sword Guide`
+			``
+			`The Emerald Sword is mighty unique heavy warship obtainable by a long mission chain. A completed Free Worlds campaign is needed from the middle of this chain.`
+			``
+			`Deep Archeology:`
+			`	"Deep Archaeology 1" > "Deep Archaeology"`
+			`		Bring an archeologist to Vinci.`
+			`		(near Miaplacidus 1-20 | 15% chance | "combat rating" > 15 | 1 passenger)`
+			`	"Deep Archaeology 2" > "Deep Archaeology"`
+			`		Travel to Midgard and take some samples.`
+			`		(from Vinci)`
+			`	"Deep Archaeology 3" > "Deep Archaeology"`
+			`		Return to Vinci.`
+			`		(from Midgard)`
+			`	"Deep Archaeology 4" > "Deep Archaeology"`
+			`		Travel to Midgard, there is an anomaly.`
+			`		(from Vinci | 4t cargo | 2 passengers)`
+			`	"Deep Archaeology 5" > "Deep Archaeology"`
+			`		Return to Vinci, evade following ships.`
+			`		(from Midgard | 4t cargo | 2 passengers)`
+			``
+			`There might be Riots:`
+			`	"There Might Be Riots 1" > "Transport band to Wayfarer"`
+			`		Transport the band.`
+			`		(near Tarazed 5-10 | 15% chance | 4 cargo | 8 passenger)`
+			`	"There Might Be Riots 2" > "Transport band to Prime"`
+			`		Transport the band.`
+			`		(needs Deep Archeology 5 | in Syndicate space | 30% chance | 4 cargo |`
+			`		 8 passenger)`
+			`	"There Might Be Riots part 3A" > "Transport band to Pilot"`
+			`		Transport the band.`
+			`		(needs first contact Hai | from dirt belt, south, rim | 30% chance | 4 cargo |`
+			`		 8 passenger)`
+			`	"There Might Be Riots part 3B" > "Transport band to Allhome"`
+			`		Transport the band.`
+			`		(from Pilot | 4 cargo | 8 passenger)`
+			`	"Sad Archie" > invisible mission`
+			`		Fly to Ildaria and wait a few minutes till a conversation pops up,`
+			`		then land on Zug.`
+			``
+			`Rim Archeology:`
+			`	"Rim Archaeology 1" > "Archaeology on Zug"`
+			`		Bring Albert Foster to Zug.`
+			`		(from Vinci | 1 passenger)`
+			`	"Rim Archaeology 2A" > "Archaeological Equipment"`
+			`		Fetch excavation equipment from Crossroads.`
+			`		(from Zug)`
+			`	"Rim Archaeology 2B" > "Archaeological Equipment"`
+			`		Deliver excavation equipment to Zug.`
+			`		(from Crossroads | 28 cargo)`
+			`	"Rim Archaeology 3A" > "Archaeological Equipment"`
+			`		Fetch excavation equipment from Asgard.`
+			`		(from Zug)`
+			`	"Rim Archaeology 3B" > "Archaeological Equipment"`
+			`		Deliver excavation equipment to Zug.`
+			`		(from Asgard | evade the ship that is following | 17 cargo)`
+			`	"Rim Archaeology 4A" > "Transport a Xenobiologist"`
+			`		Get a passenger from Lagrange.`
+			`		(from Zug)`
+			`	"Rim Archaeology 4B" > "Transport a Xenobiologist"`
+			`		Transport the passenger to Zug.`
+			`		(from Lagrange | 2 passenger)`
+			`	"Rim Archaeology 5A" > "Defend Zug"`
+			`		Fight some pirates.`
+			`		(from Zug)`
+			`	wait 97 days`
+			``
+			`Sherahi Archeology:`
+			`	"Sheragi Archaeology: The Box 1" > "The Sheragi Bunker"`
+			`		Visit Albert Foster on Zug.`
+			`		(near "Zubeneschamali" 1-100 | needs first contact Hai Unfettered, needs Free`
+			`		 Worlds completed | 4% chance)`
+			`	"Sheragi Archaeology: The Box 2" > "The Mysterious Box"`
+			`		Bring the box to Vinci.`
+			`		(from Zug)`
+			`	wait 20-30 days`
+			`	"Sheragi Archaeology: The Box 3" > "The Information Dealer"`
+			`		Contact the information dealer on Stormhold.`
+			`		(near "Sol" 100)`
+			`	"Sheragi Archaeology: The Box 4" > "The Search for the Artifact"`
+			`		Find mercenaries on Watcher.`
+			`		(from Stormhold)`
+			`	"Sheragi Archaeology: The Box 5" > "The Fight for the Artifact"`
+			`		Fight the mercenaries.`
+			`		(from Watcher)`
+			`	"Sheragi Archaeology: The Box 6a" > invisible mission`
+			`		Land again.`
+			`	"Sheragi Archaeology: The Box 6b" > "The Box Recovered"`
+			`		Bring the box to Vinci.`
+			`		(from Watcher)`
+			`	"Sheragi Archaeology: The Box 6c" > "Hai Knowledge"`
+			`		Ask the Hai about the box at Allhome.`
+			`		(from Vinci)`
+			`	"Sheragi Archaeology: The Box 7a" > "The Museum of Galactic History"`
+			`		Visit the museum on Mirrorlake.`
+			`		(from Allhome)`
+			`	"Sheragi Archaeology: The Box 7b" > "The Hai Ministry of Culture"`
+			`		Visit the ministry on Hai-home.`
+			`		(from Mirrorlake)`
+			`	"Sheragi Archaeology: The Box 8" > "Assembling the Team"`
+			`		Bring the team to Zug.`
+			`		(from Hai-home | 1 cargo | 3 passengers)`
+			`	wait 40-50 days`
+			`	"Sheragi Archaeology: The Emerald Sword 1" > "Black Box Decoded"`
+			`		Visit Albert Foster on Zug.`
+			`		(near "Zubeneschamali" 1-100)`
+			`	"Sheragi Archaeology: The Emerald Sword 2" > "The Emerald Sword"`
+			`		Bring a jump drive to Zug.`
+			`		(from Zug)`
+			`	"Sheragi Archaeology: The Emerald Sword 3" > "The Emerald Sword"`
+			`		Search for the ship in the newly discovered system.`
+			`		(from Zug | 50 cargo | 150 passengers)`
+			`	"Sheragi Archaeology: Epilogue" > "The Emerald Sword"`
+			`		Return to Zug.`
+			`		(from Valley of the Damned | 25 cargo | 150 passengers)`
+			``
+			`Congratulations! Now you are the proud owner of this unique and mighty ship!`
+		fail
+
+

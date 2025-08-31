@@ -8,19 +8,24 @@ mission "info: Show City Ship License Guide"
 	source "Control Station"
 	on accept
 		conversation
+			scene "outfit/city-ship license"
 			`City Ship License for Bactrian`
 			``
 			`The "City Ship License" missions are only doable before joining the Free Worlds or after completing the Free Worlds campaign, NOT during!`
 			``
 			`do at least one of these 3 deep escort missions:`
-			`  mission "Deep: Syndicate Convoy" "Pickup from Hephaestus" (combat rating > 65, near "Gomeisa" 2)`
-			`  mission "Deep: Tarazed Convoy" "Pickup from Tarazed" (combat rating > 65, near "Gomeisa" 2)`
-			`  mission "Deep: Kraz Convoy" "Pickup from Kraz" (combat rating > 65, near "Gomeisa" 2)`
+			`  mission "Deep: Syndicate Convoy" "Pickup from Hephaestus"`
+			`		(combat rating > 65, near "Gomeisa" 2)`
+			`  mission "Deep: Tarazed Convoy" "Pickup from Tarazed"`
+			`		(combat rating > 65, near "Gomeisa" 2)`
+			`  mission "Deep: Kraz Convoy" "Pickup from Kraz"`
+			`		(combat rating > 65, near "Gomeisa" 2)`
 			``
 			`do 3x "Mystery Cube Delivery" or "Mystery Cube Retrieval "`
 			``
 			`do the warlord Beelzebub missions:`
-			`  mission "Deep: Mystery Cubes 0" "Gaining an Edge" (3 mystery cube missions, combat rating 100, at least 1 escort)`
+			`  mission "Deep: Mystery Cubes 0" "Gaining an Edge"`
+			`		(3 mystery cube missions, combat rating 100, at least 1 escort)`
 			`  wait 21 days`
 			`  mission "Deep: Mystery Cubes 1" "Travel to Luna"`
 			`  mission "Deep: Mystery Cubes 2" "Blockading the Devil"`
@@ -28,7 +33,8 @@ mission "info: Show City Ship License Guide"
 			`  mission "Deep: Mystery Cubes 4" "Rendezvous on Farpoint"`
 			``
 			`do the project Hawking missions:`
-			`  mission "Deep: Project Hawking" "Research Supplies" (40%, the deep)`
+			`  mission "Deep: Project Hawking" "Research Supplies"`
+			`		(40%, the deep)`
 			`  wait 60 days`
 			``
 			`do the scientist rescue missions:`

@@ -60,7 +60,7 @@ outfit "Nanite Swarm Purple"
 	index 99700
 	thumbnail "outfit/nanites/naniteswarmpurple"
 	"unplunderable" 1
-	"energy generation" 1
+	"energy generation" 0.1
 	cost 10000
 	description `Upgrades a weapon outfit from T1 to T2 (160% damage).`
 
@@ -71,7 +71,7 @@ outfit "Nanite Swarm Orange"
 	index 99700
 	thumbnail "outfit/nanites/naniteswarmorange"
 	"unplunderable" 1
-	"energy generation" 10
+	"energy generation" 0.1
 	cost 100000
 	description `Upgrades a weapon outfit from T2 to T3 (200% damage).`
 

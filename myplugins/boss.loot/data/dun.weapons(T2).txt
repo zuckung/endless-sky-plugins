@@ -3882,7 +3882,7 @@ outfit "Nucleolysis Beam(T2)"
 		"shield damage" 1.33
 		"hull damage" 2.66
 		"heat damage" -15.11
-		"fuel damage" 1.66
+		"fuel damage" 2.76
 		"corrosion damage" 0.015
 	description "This beam weapon creates a field inside which otherwise stable atomic nuclei rapidly decay. This effect seems to be inversely proportional to the mass of the nucleus, causing isotopes like deuterium to break down at a higher rate than heavier elements. As the resultant products have a higher energy state than the original nucleus, the beam cools its target, defying conventional thermodynamics."
 	description "In practice, this beam can deplete a ship's deuterium fuel while causing the very matter of its hull to decay."
@@ -5668,6 +5668,47 @@ outfit "asteroid fragment(T2)"
 		"hit force" 100
 		"blast radius" 200
 
+outfit "Fuel Removal(T2)"
+	category "Turret"
+	thumbnail "outfit/unknown(T2)"
+	"turret mounts" -1
+	weapon
+		"velocity" 1000
+		"lifetime" 10
+		"reload" 100000
+		"blast radius" 200000
+		"safe"
+		"no damage scaling"
+		"range override" 10000000
+		"homing" 4
+		"tracking" 1
+		"acceleration" 1.5
+		"drag" 0.2
+		"turn" 12
+		"fuel damage" 830.0
+		"turret turn" 360
+
+outfit "Ka'het Machinery(T2)"
+	category "Turrets"
+	thumbnail "outfit/unknown(T2)"
+	"turret mounts" -1
+	"unplunderable" 1
+	weapon
+		"velocity" 1000
+		"lifetime" 1
+		"reload" 1
+		"blast radius" 100000
+		"safe"
+		"no damage scaling"
+		"range override" 1000000
+		"homing" 4
+		"tracking" 1
+		"acceleration" 1.5
+		"drag" 0.2
+		"turn" 12
+		"fuel damage" -664.0
+		"turret turn" 360
+
 outfit "Ka'het Nullifier(T2)"
 	category "Guns"
 	series "Guns"
@@ -6920,7 +6961,7 @@ outfit "Celestial Culverin(T2)"
 		"shield damage" 498.0
 		"hull damage" 373.5
 		"slowing damage" 7.47
-		"fuel damage" 9
+		"fuel damage" 14.94
 		"missile strength" 600
 	description "This weapon tangles with spacetime in ways beyond understanding, producing gravitational forces that slow the target down. As if fulfilling their own intended destiny, the projectiles are guided to their target, disrupting their fuel systems. This utility, on top of being almost unavoidable, allows the weapon to lock down the Quarg's more distant enemies."
 
@@ -7343,7 +7384,7 @@ outfit "Ember Tear(T2)"
 		"shield damage" 415.0
 		"hull damage" 415.0
 		"slowing damage" 16.6
-		"fuel damage" 2.5
+		"fuel damage" 4.15
 	description "The Ember Wastes are an anomalous region subject to forces that defy conventional physics: Energy spontaneously pouring from the vacuum, material density far greater than one would expect to find in space - even around a nebula, a concentration of wormholes unheard of in the galaxy, and regions where the universe itself seems to be in flux. This region, more than any building or ship, is the Remnant laboratory where they study the deepest workings of the universe."
 	description "	When asked to clarify whether the name refers to either ripping or crying, the technician looks at you with a curious expression, and replies 'both.' They then go on to explain that a very simplistic explanation for this weapon is that it is making micro-tears in the fabric of space-time, then cauterizing them together again. Should not the Ember Wastes cry at the necessity of such weapons?"
 	description "	These massive weapons require special hardpoints, and are built in such few number that the Remnant distribute them directly on an as-needed basis. Due to the prodigious energy and fuel requirements, only the most massive of Remnant ships can support regular use of these weapons."

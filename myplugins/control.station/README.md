@@ -10,6 +10,7 @@ Current functions:<br>
 info: Show Person Ship List (where you can find them and if they are alive or dead)<br>
 info: City Ship License Guide<br>
 info: Ship Capture Progression Guide<br>
+ingo: Emerald Sword Guide<br>
 QoL: Change Pilot Name (during a pilot's play, keep everything)<br>
 QoL: Planet Attribute Visibility (expand planet's descriptions with the hidden attributes)<br>
 QoL: Change Conditions (currently just a few popular ones)
@@ -22,6 +23,10 @@ Completing the campaigns might not exactly have the same result as if the campai
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-08-31<br>
+added emerald sword guide guide<br>
+added @2x images<br>
 <br>
 2025-06-18<br>
 added city ship guide, capture progression guide, change pilot name, planet attributes, condition changer<br>

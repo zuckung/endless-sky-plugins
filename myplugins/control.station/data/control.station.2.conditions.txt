@@ -1,5 +1,5 @@
 mission "QoL: change common conditions"
-	name "[2] QoL: change conditions"
+	name "[2] QoL: Change Conditions"
 	color selected "control.station qol job: selected"
 	color unselected "control.station qol job: unselected"
 	job

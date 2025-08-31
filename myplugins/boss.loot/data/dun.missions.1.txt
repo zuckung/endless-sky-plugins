@@ -135,6 +135,12 @@ mission "dun1_adhile_enter_failboss"
 		fail "dun1_sys_b_04_enter"
 		fail "dun1_sys_b_05_enter"
 		fail "dun1_sys_b_06_enter"
+		clear "dun1_sys_b_01_enter: failed"
+		clear "dun1_sys_b_02_enter: failed"
+		clear "dun1_sys_b_03_enter: failed"
+		clear "dun1_sys_b_04_enter: failed"
+		clear "dun1_sys_b_05_enter: failed"
+		clear "dun1_sys_b_06_enter: failed"
 		fail
 
 mission "dun1_sys_b_01_enter"
@@ -158,6 +164,7 @@ mission "dun1_sys_b_01_enter"
 		fleet
 			variant 1
 				"dun_tiger" 1
+				"dun_viper" 5
 		on kill
 			outfit "dun1_key_02" 1
 			conversation "dun1_conversation_1"
@@ -212,6 +219,7 @@ mission "dun1_sys_b_03_enter"
 		fleet
 			variant 1
 				"dun_defender" 1
+				"dun_viper" 5
 		on kill
 			outfit "dun1_key_04" 1
 			conversation "dun1_conversation_3"
@@ -238,6 +246,7 @@ mission "dun1_sys_b_04_enter"
 		fleet
 			variant 1
 				"dun_valkyrie" 1
+				"dun_viper" 5
 		on kill
 			outfit "dun1_key_05" 1
 			conversation "dun1_conversation_4"
