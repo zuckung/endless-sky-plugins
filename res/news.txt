@@ -1,3 +1,4 @@
+2025-08-31 | update: kestrel.unlocks
 2025-08-31 | update: boss.loot
 2025-08-31 | update: control.station
 2025-08-29 | 16 plugin updates with minor organisational files changes, typo fixes,  etc, no need to download
