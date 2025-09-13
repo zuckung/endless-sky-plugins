@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-09-13 | update: uniques<br>
 2025-08-31 | update: kestrel.unlocks<br>
 2025-08-31 | update: boss.loot<br>
 2025-08-31 | update: control.station<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-24 | update: additional.command.buttons.radial<br>
 2025-08-15 | update: galactic.capital.investment<br>
 2025-08-10 | update: ship.merging<br>
-2025-08-09 | update: ship.merging<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4843,7 +4843,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/uniques/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/uniques.png">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.11-uniques/uniques.zip) | 11.99 mb | 2025-07-28 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <a href="res/imagemd/uniques.md">view images</a> [176]<br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.12-uniques/uniques.zip) | 12.75 mb | 2025-09-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <a href="res/imagemd/uniques.md">view images</a> [186]<br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -4864,6 +4864,10 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 Uniques are great! Why aren't more ingame? If the plugin control.station is installed, that station offers a job to see the status of obtaining the uniques.<br>
 
 This plugin contains my former plugins unique.fix (just some vanilla unique adjustments), real.fluff (10 unique pets) and lots of new uniques with storylines.<br>
+
+The plugin control.station adds info about this plugin.<br>
+
+In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to undo, what the nav buoys do.<br>
 
 <br>
 
@@ -4891,9 +4895,13 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 
 <li> new vanilla: rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique archive chip</li>
 
-<li> new unique pet: alien "Snuggles" (land somewhere in human space, hidden destination is Danoa system (based on the Alien movies))</li>
+<li> new unique pet: alien "Snuggles" (with derelict scanner, land somewhere, hidden destination is the Danoa system (based on the Alien movies))</li>
 
-<li> new unique pet: alien "Exotic" (land somewhere in human space, hidden destination is Unagi system (based on the Dark Star movie))</li>
+<li> new unique pet: alien "Exotic" (with derelict scanner, land somewhere, hidden destination is the Unagi system (based on the Dark Star movie))</li>
+
+<li> new unique pet: alien "Audrey II" (with derelict scanner, land somewhere, hidden destination is the "5 Spring Below" system (based on the Little Shop of Horrors movie))</li>
+
+<li> new unique pet: alien "Furbel" ("Vibrant Water" (based on Tribbles from Star Trek))</li>
 
 <li> new unique pet: Cat "Cleo" (Deadman's Cove, 20% chance)</li>
 
@@ -4911,9 +4919,11 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 
 <li> new unique pet: Squirrel "Trixie" (Heartvalley, 20% chance)</li>
 
+<li> new unique pet: Chicken "Attila" (Sundrinker, 20% chance)</li>
+
 <li> new unique: "Bawdy Magazines" (during "The Exotic" mission)</li>
 
-<li> new unique: "Glass Cat" (after collecting all pets)</li>
+<li> new unique: "Glass Cat" (after collecting all non-alien pets)</li>
 
 <li> new unique: "Bioluminescent Plant" (Aesila, 10% chance, several followup missions)</li>
 
@@ -4957,6 +4967,20 @@ Changelog:<br>
 
 <br>
 
+2025-09-13<br>
+
+added chicken pet mission<br>
+
+added alien plant pet mission<br>
+
+moved the 3 alien pets behind the derelict scanner mission<br>
+
+added tribbles alien pet<br>
+
+added readme to control.station<br>
+
+<br>
+
 2025-07-28<br>
 
 added landing computer unique (thx to unknown_rawrs for writing the story)<br>
@@ -4965,7 +4989,7 @@ added plugin re-shrouded in root folder(not active, to revert what nav buoys do)
 
 vanilla Ka'het Electric Stunner to unique category<br>
 
-removed derelict fleets/added derelict missions for scanner/with notification<br>
+removed derelict fleets/added derelict missions for derelict scanner/with notification<br>
 
 <br>
 
