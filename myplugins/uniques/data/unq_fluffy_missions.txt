@@ -770,7 +770,7 @@ mission "chicken mission 1"
 		random > 79
 	on offer
 		conversation
-			`A man in a patched business suit approaches near the port gates, looking more desperate than dangerous. His eyes dart about before he leans in close and says, "I need discreet transport to <destination>, a  pirate station. I'll pay well for protection once there. The job? Simple. I'm buying a chicken."`
+			`A man in a patched business suit approaches near the port gates, looking more desperate than dangerous. His eyes dart about before he leans in close and says, "I need discrete transport to <destination>, a  pirate station. I'll pay well for protection once there. The job? Simple. I'm buying a chicken."`
 			`He explains that chickens nearly went extinct back in the 2400s, their genetic lines lost save for a few rare breeders on the black market. He's tracked one such seller to Mordente-Bridi. All he needs is someone to keep him alive long enough to close the deal. The payment will be 120,000 credits.`
 			choice
 				`	(accept the job)`
