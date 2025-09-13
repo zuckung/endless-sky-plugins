@@ -1,27 +1,23 @@
-# government "Derelict 2"
-# mission beta
-# event waitfluff
-# mission cat mission 1
-# mission ocelot mission 1
-# mission raccoon mission 1
-# mission alien mission 1
-# mission ferret mission 1
-# mission ferret mission 2
-# mission koala mission 1
-# mission rabbit mission 1
-# mission rabbit mission 2
-# mission hamster mission 1
-# mission squirrel mission 1
-# mission squirrel mission 2
-# mission squirrel mission 3
-# mission squirrel mission 4
-# mission exotic mission 1
+# mission "beta"
+# event "waitfluff"
+# mission "cat mission 1"
+# mission "ocelot mission 1"
+# mission "raccoon mission 1"
+# mission "alien mission 1"
+# mission "ferret mission 1"
+# mission "ferret mission 2"
+# mission "koala mission 1"
+# mission "rabbit mission 1"
+# mission "rabbit mission 2"
+# mission "hamster mission 1"
+# mission "squirrel mission 1"
+# mission "squirrel mission 2"
+# mission "squirrel mission 3"
+# mission "squirrel mission 4"
+# mission "exotic mission 1"
+# mission "chicken mission 1"
+# mission "unq_audreyii"
 
-
-government "Derelict 2"
-	"display name" "Derelict"
-	"player reputation" -1000
-	"fine" 0
 
 
 mission "beta"
@@ -37,6 +33,7 @@ mission "beta"
 		has "rabbit mission 2: declined"
 		has "hamster mission 1: declined"
 		has "squirrel mission 4: done"
+		has "chicken mission 1: declined"
 		random < 20
 	on offer
 		outfit "Glass Cat"
@@ -211,6 +208,8 @@ mission "raccoon mission 1"
 mission "alien mission 1"
 	landing
 	invisible
+	to offer
+		has "outfit (flagship installed): Derelict Scanner"
 	to complete
 		never
 	to fail
@@ -570,6 +569,8 @@ mission "exotic mission 1"
 		never
 	to fail
 		has "the exotic done"
+	to offer
+		has "outfit (flagship installed): Derelict Scanner"
 	on enter "Unagi"
 		dialog
 			`When you enter the Unagi system, your scanners show you an old derelict ship close to the sun. Maybe you should look into this.`
@@ -756,3 +757,168 @@ mission "exotic mission 1"
 				set "the exotic done"
 			`You hurry to the air lock and leave the ship.`
 				flee
+
+
+mission "chicken mission 1"
+	name "The Last Chicken"
+	minor
+	source "Sundrinker"
+	destination "Mordente-Bridi"
+	passengers 1
+	clearance "After talking to local administration, you got landing clearance."
+	to offer
+		random > 79
+	on offer
+		conversation
+			`A man in a patched business suit approaches near the port gates, looking more desperate than dangerous. His eyes dart about before he leans in close and says, "I need discreet transport to <destination>, a  pirate station. I'll pay well for protection once there. The job? Simple. I'm buying a chicken."`
+			`He explains that chickens nearly went extinct back in the 2400s, their genetic lines lost save for a few rare breeders on the black market. He's tracked one such seller to Mordente-Bridi. All he needs is someone to keep him alive long enough to close the deal. The payment will be 120,000 credits.`
+			choice
+				`	(accept the job)`
+					goto accept
+				`	(decline the job)`
+					goto decline
+			label accept
+			action
+				payment 60000
+			`The man brightens immediately, relief softening his face. "You won't regret this. Pay's good, half now, half when we're back here. All you need to do is look scary."`
+			`He transfers a deposit and follows you aboard, chattering nervously about chickens.`
+				accept
+			label decline
+			`You decide this has "trouble" written all over it. Escorting a desperate man to a pirate world to buy poultry sounds like the setup to a bad joke. With a polite refusal, you walk away. He scurries off into the crowd, and you never see him again.`
+				decline
+	on complete
+		conversation
+			`The journey to Mordente-Bridi passes without incident, though the idea of being hired as a bodyguard for poultry still gnaws at you.`
+			`The pirate station is exactly what you'd expect... neon lights clinging in dirty corridors, and a spaceport hall that smells of ozone and bad liquor. Your client leads you through winding corridors until you reach a derelict hangar, where the deal is set to happen.`
+			`Inside, the seller waits: a greasy man with a datapad in one hand and a cage in the other. Inside the cage, sure enough, sits a bewildered, feather-ruffled chicken. Your client trembles with excitement as they begin negotiations.`
+			`You stand nearby, trying to look intimidating.`
+			choice
+				`	(Keep silent and observe)`
+					goto silent
+				`	(Make a threatening posture)`
+					goto threatening
+				`	(Inspect the chicken)`
+					goto inspect
+			label silent
+			`The voices echo through the hangar as your client and the seller haggle over credits. You manage to maintain the facade of a stone-faced bodyguard... until the door slams open. A half-dozen armed pirates swagger inside, eyes immediately locking onto the seller.`
+				goto continue1
+			label threatening
+			`You step forward, squaring your shoulders and narrowing your eyes. The seller hesitates mid-sentence, visibly unsettled, but your client shoots you a glare as if to say "not helping". Before the mood can recover, the hangar door groans open and a half-dozen pirates march in, weapons drawn.`
+				goto continue1
+			label inspect
+			`Curiosity gets the better of you. While the men haggle, you peer at the cage. The chicken clucks softly, tilting its head at you as if judging your life choices. Unfortunately, your moment of avian contemplation is cut short when the hangar door bursts open and a gang of armed pirates enters, glaring at the seller.`
+			label continue1
+			`The leader sneers, spitting on the floor. "You owe us, Varrik. Big time. Thought you could skip town and make side deals, huh?"`
+			`The seller stammers, your client panics, and the chicken clucks. The tension spikes like a live wire.`
+			choice
+				`	(Talk your way in)`
+					goto talk
+				`	(Keep quiet and watch)`
+					goto quiet
+				`	(Let your client answer)`
+					goto client
+			label talk
+			`You step forward before anyone fires.`
+			`"There's no reason this can't be settled clean. My client pays him, he pays you, everyone walks out alive."`
+			`The leader scoffs. "Only one problem. Dead men can't pay."`
+				goto continue2
+			label quiet
+			`The pirates shout louder, circling the seller.`
+			`The seller shouts back: "I'll pay you later, I've got a real buyer here!"`
+			`Your client blurts: "I'll cover it! Whatever he owes, I'll pay extra!"`
+			`The pirates stare, then laugh, weapons tightening in their grip. "Now that's interesting. Sell one bird, settle all debts. What do you think, boys?"`
+			`The seller, pale, mutters: "Don't listen to them! They won't let us go."`
+				goto continue2
+			label client
+			`Your client tries to bluff: "I don't know what this man owes you, but I'm a legitimate businessman. I'll handle this like a professional."`
+			`The pirates grin. "Professional, huh? What kind of professional buys chickens on Mordente-Bridi? Hah!"`
+			`They mock him relentlessly, "Cluck cluck, mister businessman!", until he snaps and shouts, "You don't understand, this is the last chicken in the sector!"`
+			`The pirates laugh harder, one doubling over. The seller groans, covering his face.`
+			label continue2
+			`The shouting spirals out of control. Words are replaced by weapons. The seller reaches for his blaster, the pirates raise theirs, and your client draws in panic. The hangar erupts into chaos, screams, ricochets, muzzle flashes.`
+			`When the smoke clears, the seller is dead, your client lies sprawled with a smoking hole in his chest, and the pirates are riddled with blaster burns. Silence falls, broken only by the indignant squawk of the chicken.`
+			label continue3
+			scene "scene/fluffy_chicken"
+			`The hangar is a graveyard, the smell of ozone and charred flesh heavy in the air. The chicken clucks softly in its cage, ruffling its feathers. Your pay died with your client.`
+			choice
+				`	(Adopt the chicken.)`
+					goto adopt
+				`	(Don't adopt the chicken.)`
+					goto shelter
+			label shelter
+			`You turn away. It's just a bird, and not your problem anymore. As you leave, the sound of its lonely clucking follows you out into the corridors of Mordente-Bridi.`
+				goto end
+			label adopt
+			scene "outfit/fluffy_chicken"
+			action
+				outfit "fluffy_chicken"
+			`You scoop up the cage. Whatever madness brought you here, it seems a waste to let the last chicken on Mordente-Bridi die with its owner. Maybe it's valuable, or maybe you just don't want its clucking to echo in the empty hangar forever. For now you call that chicken "Attila".`
+			label end
+
+
+mission "unq_audreyii"
+	landing
+	invisible
+	to offer
+		has "outfit (flagship installed): Derelict Scanner"
+	to complete
+		never
+	to fail
+		has "outfit (installed): fluffy_audreyii"
+	on enter "5 Spring Below"
+		dialog	`Your derelict scanner detects a ship...`
+	npc
+		government "Derelict 2"
+		personality waiting derelict target mute
+		system "5 Spring Below"
+		ship "Arach Courier" ""
+		to despawn
+			has "outfit (installed): fluffy_audreyii"
+		on board
+			conversation
+				scene "scene/fluffy_audreyii"
+				`While docking to the derelict freighter you notice that its hull is scarred and airlocks torn. Whatever happened here, it was decades ago. Your crew suits up and boards, hoping to recover anything of value.`
+				`The interior is gutted. Compartments hang open, wires dangling like vines, and containers lie ransacked or smashed. Most of the ship's systems have long since been stripped or decayed. The deeper you go, the clearer it becomes: the freighter is a graveyard with almost nothing worth salvaging.`
+				`Except one thing.`
+				`At the back of a storage bay, you discover a sealed containment pod, still powered by an independent life-support unit. Inside, a bizarre alien plant thrashes slowly, leaves pressed against the glass. It looks like a massive flytrap, its gaping maw lined with jagged, salad-like "teeth". It reacts to your approach by snapping shut, then opening again, drooling some sap.`
+				choice
+					`	(Leave the pod behind)`
+						goto leavepod
+					`	(Open the pod)`
+						goto openpod
+				label leavepod
+				scene "scene/fluffy_audreyii"
+				`The containment unit hisses faintly as you back away. Whatever this thing is, it's not worth the risk. You mark the derelict as cleared, return to your ship, and note that the only salvage was disappointment.`
+					flee
+				label openpod
+				scene "scene/fluffy_audreyii"
+				`The lock disengages with a groan. The plant jerks upright, maw opening wide as if expecting something. Its vines twitch and coil, then fall still. It doesn't attack, it just waits.`
+				choice
+					`	(Test how it reacts)`
+						goto testaudrey
+					`	(Back away carefully)`
+						goto backaway
+				label testaudrey
+				scene "scene/fluffy_audreyii"
+				`You drop a piece of scrap ration onto the floor near it. In a flash, one of its vines snaps forward, dragging the food into its mouth. Loud crunching follows, and the plant sways side to side like it's...  content.`
+					goto continue
+				label backaway
+				scene "scene/fluffy_audreyii"
+				`The plant doesn't move when you retreat. It just stares, maw half-open, vines curling idly.`
+				label continue
+				`You've found nothing else of value on this derelict, but this alien plant is... unique. Unsettling, yes, but alive.`
+				choice
+					`	(Take it aboard as a curiosity)`
+						goto takeaudrey
+					`	(Seal the pod and leave it here)`
+						goto leaveaudrey
+				label takeaudrey
+				action
+					outfit "fluffy_audreyii"
+				scene outfit/fluffy_audreyii
+				`You haul the pod back to your ship and secure it in the cargo hold. After several interactions, the plant sulks, thrashes, and then slowly warms to your presence. You nickname it Audrey II, after one of your crewmates who often visits it.`
+					flee
+				label leaveaudrey
+				scene "scene/fluffy_audreyii"
+				`You close the pod and walk away, leaving the plant to its fate in the silent wreck. Some mysteries are best left untouched.`
+					flee

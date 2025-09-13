@@ -1,22 +1,32 @@
-# category pets
+# category "Pets"
+# government "Derelict 2"
 # ship "fluffy Planet Destroyer" for dark star mission
 # ship "fluffy Mega Freighter" for alien mission
-# outfit Bawdy Magazine
-# outfit Glass Cat
-# outfit fluffy_cat
-# outfit fluffy_ocelot
-# outfit fluffy_raccoon
-# outfit fluffy_alien
-# outfit fluffy_ferret
-# outfit fluffy_koala
-# outfit fluffy_rabbit
-# outfit fluffy_hamster
-# outfit fluffy_squirrel
-# outfit fluffy_exotic
+# outfit "Bawdy Magazine"
+# outfit "Glass Cat"
+# outfit "fluffy_cat"
+# outfit "fluffy_ocelot"
+# outfit "fluffy_raccoon"
+# outfit "fluffy_alien"
+# outfit "fluffy_ferret"
+# outfit "fluffy_koala"
+# outfit "fluffy_rabbit"
+# outfit "fluffy_hamster"
+# outfit "fluffy_squirrel"
+# outfit "fluffy_exotic"
+# outfit "fluffy_chicken"
+# outfit "fluffy_audreyii"
+
 
 
 category "outfit"
 	"Pets"
+
+
+government "Derelict 2"
+	"display name" "Derelict"
+	"player reputation" -1000
+	"fine" 0
 
 
 ship "fluffy Planet Destroyer"
@@ -296,3 +306,29 @@ outfit "fluffy_exotic"
 	thumbnail "outfit/fluffy_exotic"
 	description `An alien of unknown origin, discovered aboard a derelict ship, now a semi-official crew member, mostly because no one can catch it. It looks like a gas-filled beach ball with webbed feet and a permanent look of mild confusion. It bounces instead of walks, squeaks instead of speaks, and somehow got into the air ducts twice.`
 	description `Generally friendly, until it's hungry. Then it turns into a grumpy, floating menace with a taste for freeze-dried rations and fingers. Still, you've grown oddly attached to it. You even named it "Exotic". No idea what it is, but it's yours. Probably. Unless it eats you.`
+
+
+outfit "fluffy_chicken"
+	category "Pets"
+	series "Functional Unique"
+	index 01100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Attila"`
+	"capture attack" 0.4
+	"capture defense" 0.3
+	thumbnail "outfit/fluffy_chicken"
+	description `Attila the chicken is no ordinary bird. Once traded in a shady deal between a slick businessman and a ruthless space pirate, both of whom are now conveniently dead. He struts around like he owns the galaxy, feathers bristling with dark history. Every peck carries the weight of interstellar betrayal, and every cluck echoes with cosmic menace.`
+
+
+outfit "fluffy_audreyii"
+	category "Pets"
+	series "Functional Unique"
+	index 99100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Audrey II"`
+	"capture attack" 1.5
+	"capture defense" 1.1
+	thumbnail "outfit/fluffy_audreyii"
+	description `"Audrey II" is a bizarre, plantlike alien you stumbled upon in the husk of a derelict ship. At first, it looks terrifying, an enormous flytrap with a mouth full of what can only be described as salad-themed teeth, but once you get to know it, it's oddly charming, like a cat that hisses at you for three days straight before deciding to nap on your lap. You've called it Audrey "II", because it reminded you, strangely enough, of your crewmate Audrey, though this one is considerably louder, hungrier, and far less hygienic. The name also serves as a warning: this is Audrey, but more drama, more appetite, and definitely more vines.`

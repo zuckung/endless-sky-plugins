@@ -6,6 +6,8 @@ Removes mass and outfit space from some uniques, puts others into unique categor
 <br>
 Uniques are great! Why aren't more ingame? If the plugin control.station is installed, that station offers a job to see the status of obtaining the uniques.<br>
 This plugin contains my former plugins unique.fix (just some vanilla unique adjustments), real.fluff (10 unique pets) and lots of new uniques with storylines.<br>
+The plugin control.station adds info about this plugin.<br>
+In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to undo, what the nav buoys do.<br>
 <br>
 <ul>
 <li> vanilla: removes mass and outfit space from the cloaking device</li>
@@ -19,8 +21,10 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 <li> vanilla: puts outfit Ka'het Electric Stunner into unique category</li>
 <li> new vanilla: rewrote Skadenga book mission, so you can buy the unique book</li>
 <li> new vanilla: rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique archive chip</li>
-<li> new unique pet: alien "Snuggles" (land somewhere in human space, hidden destination is Danoa system (based on the Alien movies))</li>
-<li> new unique pet: alien "Exotic" (land somewhere in human space, hidden destination is Unagi system (based on the Dark Star movie))</li>
+<li> new unique pet: alien "Snuggles" (with derelict scanner, land somewhere, hidden destination is the Danoa system (based on the Alien movies))</li>
+<li> new unique pet: alien "Exotic" (with derelict scanner, land somewhere, hidden destination is the Unagi system (based on the Dark Star movie))</li>
+<li> new unique pet: alien "Audrey II" (with derelict scanner, land somewhere, hidden destination is the "5 Spring Below" system (based on the Little Shop of Horrors movie))</li>
+<li> new unique pet: alien "Furbel" ("Vibrant Water" (based on Tribbles from Star Trek))</li>
 <li> new unique pet: Cat "Cleo" (Deadman's Cove, 20% chance)</li>
 <li> new unique pet: Ferret "Gummi Bear" (Bivrost, 20% chance)</li>
 <li> new unique pet: Hamster "Peanut" (Twinstar, 20% chance)</li>
@@ -29,8 +33,9 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 <li> new unique pet: Rabbit "Thumper" (Starcross, 20% chance)</li>
 <li> new unique pet: Raccoon "Bandit" (Foundry, 20% chance)</li>
 <li> new unique pet: Squirrel "Trixie" (Heartvalley, 20% chance)</li>
+<li> new unique pet: Chicken "Attila" (Sundrinker, 20% chance)</li>
 <li> new unique: "Bawdy Magazines" (during "The Exotic" mission)</li>
-<li> new unique: "Glass Cat" (after collecting all pets)</li>
+<li> new unique: "Glass Cat" (after collecting all non-alien pets)</li>
 <li> new unique: "Bioluminescent Plant" (Aesila, 10% chance, several followup missions)</li>
 <li> new unique: "Spaceship Figurine" (Sunracer, 3% chance)</li>
 <li> new unique: "Alien Handgun" (Alix, 10% chance)</li>
@@ -52,11 +57,18 @@ This plugin contains my former plugins unique.fix (just some vanilla unique adju
 <br>
 Changelog:<br>
 <br>
+2025-09-13<br>
+added chicken pet mission<br>
+added alien plant pet mission<br>
+moved the 3 alien pets behind the derelict scanner mission<br>
+added tribbles alien pet<br>
+added readme to control.station<br>
+<br>
 2025-07-28<br>
 added landing computer unique (thx to unknown_rawrs for writing the story)<br>
 added plugin re-shrouded in root folder(not active, to revert what nav buoys do)<br>
 vanilla Ka'het Electric Stunner to unique category<br>
-removed derelict fleets/added derelict missions for scanner/with notification<br>
+removed derelict fleets/added derelict missions for derelict scanner/with notification<br>
 <br>
 2025-06-21<br>
 added control.station support<br>

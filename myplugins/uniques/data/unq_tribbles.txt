@@ -1,0 +1,162 @@
+outfit "fluffy_tribble"
+	category "Pets"
+	series "Functional Unique"
+	index 99100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Furbel"`
+	"capture attack" 0.1
+	"capture defense" 0.1
+	cost 40
+	thumbnail "outfit/fluffy_tribble"
+	description `"Furbel" is less a pet and more a portable pile of sentient lint that somehow developed a purr. It doesn't walk, run, or jump - it simply exists, vibrating happily like a warm beanbag with opinions. Furbel's hobbies include multiplying when you're not looking, rolling dramatically under furniture, and staring at you with the judgmental intensity of a thousand fluffballs. Owning Furbel is like having a living dust bunny that unionized.`
+
+
+outfit "fluffy_tribbles"
+	category "Pets"
+	series "Functional Unique"
+	index 99100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `more Tribbles`
+	"plural" `Tribbles`
+	"capture attack" 0.1
+	"capture defense" 0.1
+	cost 40
+	thumbnail "outfit/fluffy_tribbles"
+	description `Furbel's "kids" are basically copy-paste errors in the shape of squeaky pom-poms. They roll in herds, squeal like squeaky toys with stage fright, and collectively shed enough fluff to knit a sweater for a yeti. Together, they form a living carpet that judges you for daring to own only one chair.`
+
+
+mission "unq_tribbles 1"
+	name "Passengers to Warm Wind"
+	description "Transport a group of passenger to the yearly market on <destination>. The payment will be 100.000 credits."
+	source "Vibrant Water"
+	destination "Warm Wind"
+	passengers 5
+	on offer
+		conversation
+			`At the docks, a group of five Saryds approach you. They explain they need transport to the yearly market on Warm Wind. The arrangement is simple: carry them there, wait, and bring them back. In return, they promise 100,000 credits upon safe return.`
+			choice
+				`	(accept)`
+					goto "accept"
+				`	(decline)`
+					goto "decline"
+			label "accept"
+			`The Saryds file aboard with the efficiency of long-time travelers, settling into your passenger quarters without complaint. The journey ahead promises to be straightforward, if well worth the credit payout.`
+				accept
+			label "decline"
+			`The Saryds simply nod, turning to find another ship. You're left with the impression of opportunity missed.`
+				decline
+	on complete
+		conversation
+			`Your passengers disembark quickly, eager to lose themselves in the sprawling, noisy market that stretches as far as the eye can see. They promise to return in a few hours.`
+			choice
+				`	(Explore the market)`
+					goto "explore"
+			label "explore"
+			`The market is overwhelming, a kaleidoscope of color, sound, and scent. Tents of every shape and hue stretch in tangled rows, their awnings painted with bold symbols and stitched banners that flutter in the hot breeze. Merchants call out in a dozen languages at once, their voices competing with the music of wandering performers whose drums and flutes rattle against the constant din.`
+			`The air is thick with aromas: the smoky tang of spiced meats sizzling over open coals, the sharp bite of fermented fruit brews poured into clay cups, and the sweet perfume of candied roots roasting in pans of bubbling sugar.`
+			`Stalls spill over with treasures both mundane and exotic, glittering piles of circuit chips sold alongside clay jars of honey, towering racks of iridescent fabrics beside cages of squawking bird-like creatures, crates of glimmering mineral shards stacked next to baskets of rough-hewn wooden toys. You pass jugglers tossing fire between them, a pair of lizard-like beasts yoked to a wagon full of salt, and children darting barefoot through the crowd with stolen fruit in their hands.`
+			`Among the countless stalls, one catches your eye: small furball-like animals, chirping and wriggling in cages. They're being sold for 40 credits each.`
+			choice
+				`	(buy one of the cute pets)`
+					goto "buy"
+				`	(don't buy one)`
+					goto "dont buy"
+			label "buy"
+			scene "outfit/fluffy_tribble"
+			action
+				outfit "fluffy_tribble"
+				outfit "fluffy_tribbles"
+				payment -40
+				"unq_tribbles_last" = "days since start"
+			`The merchant eagerly takes your credits and hands over a tiny, squeaking ball of fur. The creature is warm to the touch and settles quickly into your arms. You decide to name it "Furbel".`
+				goto "end"
+			label "dont buy"
+			`You watch as other customers scoop them up, their arms full of wriggling fluff, but you move on.`
+			label "end"
+			`You've spent already hours at the market, you should return to your ship at the spaceport.`
+
+
+mission "unq_tribbles 2"
+	name "Passengers to Vibrant Water"
+	description "Transport the group of passenger back to <destination>. The payment will be 100.000 credits."
+	source "Warm Wind"
+	destination "Vibrant Water"
+	passengers 5
+	cargo "market goods" 1
+	to offer
+		has "unq_tribbles 1: done"
+	on offer
+		conversation
+			`You return to your ship. Before long, the Saryds arrive as promised, now accompanied by half a ton of purchased goods. They load the cargo quickly and efficiently before settling in for the flight back to Vibrant Water.`
+				accept
+	on complete
+		payment 100000
+		conversation
+			`The Saryds disembark, thank you warmly, and transfer the agreed-upon 100,000 credits. A profitable, if simple, journey.`
+			`As you prepare to depart, however, you notice something strange: tucked away in a corner of your ship are not one, but three of those furball-like creatures from the market, blinking up at you with round, curious eyes.`
+			scene "outfit/fluffy_tribbles"
+
+
+mission "unq_tribbles gain 1"
+	repeat
+	invisible
+	entering
+	destination "Earth"
+	to offer
+		has "outfit (flagship installed): fluffy_tribble"
+		"days since start" >= "unq_tribbles_last" + 4
+		"outfit (flagship installed): fluffy_tribbles" <= 8
+	on offer
+		outfit "fluffy_tribbles" 1
+		"unq_tribbles_last" = "days since start"
+		fail
+
+
+mission "unq_tribbles gain 2"
+	repeat
+	invisible
+	entering
+	destination "Earth"
+	to offer
+		has "outfit (flagship installed): fluffy_tribble"
+		"days since start" >= "unq_last_tribble" + 4
+		"outfit (flagship installed): fluffy_tribbles" > 8
+		"outfit (flagship installed): fluffy_tribbles" <= 16
+	on offer
+		outfit "fluffy_tribbles" 2
+		"unq_last_tribble" = "days since start"
+		fail
+
+
+mission "unq_tribbles gain 3"
+	repeat
+	invisible
+	entering
+	destination "Earth"
+	to offer
+		has "outfit (flagship installed): fluffy_tribble"
+		"days since start" >= "unq_last_tribble" + 4
+		"outfit (flagship installed): fluffy_tribbles" > 16
+		"outfit (flagship installed): fluffy_tribbles" <= 24
+	on offer
+		outfit "fluffy_tribbles" 3
+		"unq_last_tribble" = "days since start"
+		fail
+
+
+mission "unq_tribbles gain 4"
+	repeat
+	invisible
+	entering
+	destination "Earth"
+	to offer
+		has "outfit (flagship installed): fluffy_tribble"
+		"days since start" >= "unq_last_tribble" + 4
+		"outfit (flagship installed): fluffy_tribbles" > 24
+		"outfit (flagship installed): fluffy_tribbles" <= 32
+	on offer
+		outfit "fluffy_tribbles" 4
+		"unq_last_tribble" = "days since start"
+		fail

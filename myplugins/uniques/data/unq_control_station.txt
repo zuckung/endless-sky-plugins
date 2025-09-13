@@ -14,10 +14,15 @@ mission "plugin: uniques"
 		has "installed plugin: control.station"
 	on accept
 		conversation
+			label "start"
+			``
+			label "menu"
 			`Plugin: uniques`
 			choice
 				`	show unfinished missions`
 					goto "show missions"
+				`	show README`
+					goto "readme"
 				`	done`
 					goto "end"
 			label "show missions"
@@ -33,6 +38,9 @@ mission "plugin: uniques"
 			`Pet: Cat "Cleo" (Deadman's Cove, 20% chance)`
 				to display
 					not "cat mission 1: declined"
+			`Pet: Chicken "Attila" (Sundrinker, 20% chance)`
+				to display
+					not "chicken mission 1: offered"
 			`Pet: Ferret "Gummi Bear" (Bivrost, 20% chance)`
 				to display
 					not "ferret mission 2: declined"
@@ -54,14 +62,22 @@ mission "plugin: uniques"
 			`Pet: Squirrel "Trixie" (Heartvalley, 20% chance)`
 				to display
 					not "squirrel mission 4: done"
-			`Pet: alien "Snuggles" (land somewhere in human space, hidden destination is Danoa system (based on the Alien movies))`
+			`Pet: alien "Snuggles" (with derelict scanner, land somewhere, hidden destination is Danoa system (based on the Alien movies))`
 				to display
 					not "alien mission 1: failed"
-			`Pet: alien "Exotic" (land somewhere in human space, hidden destination is Unagi system (based on the Dark Star movie))`
+			`Pet: alien "Exotic" (with derelict scanner, land somewhere, hidden destination is Unagi system (based on the Dark Star movie))`
 				to display
 					not "exotic mission 1: failed"
+			`Pet: alien "Audrey II" (with derelict scanner, land somewhere, hidden destination is the "5 Spring Below" system (based on the Little Shop of Horrors movie))`
+				to display
+					not "unq_audreyii: failed"
+			`Pet: alien "Furbel" (Vibrant Water (Coalition Space) (based on Tribbles in Star Trek))`
+				to display
+					and
+						not "unq_tribbles 1: declined"
+						not "unq_tribbles 2: done"
 			``
-			`Unique: "Glass Cat" (after collecting all pets, human space)`
+			`Unique: "Glass Cat" (after collecting all non-alien pets, human space)`
 				to display
 					not "beta: declined"
 			`Unique: "Bawdy Magazines" (during "The Exotic" pet mission)`
@@ -103,6 +119,9 @@ mission "plugin: uniques"
 			`unique: "Nav Buoys" (human outfitter, after discovering shrouded systems, 20% chance)`
 				to display
 					not "unq_get_nav_buoys: declined"
+			`unique: "Landing Computer" (Ahr(coalition), 30% chance)`
+				to display
+					not "unq_landing_computer6: done"
 			``
 			`unique: "Derelict Scanner" (Oblivion, outfitter, 100k credits, 10% chance)`
 				to display
@@ -139,7 +158,7 @@ mission "plugin: uniques"
 			`Mission Holo advert (Foundry, holo emitter installed needed)`
 				to display
 					not "unq_holo_syndicate: declined"
-			`Mission Holo advert (Rusr, holo emitter installed needed)`
+			`Mission Holo advert (Rust, holo emitter installed needed)`
 				to display
 					not "unq_holo_kraz: declined"
 			`Mission Holo advert (Asgard, holo emitter installed needed)`
@@ -157,6 +176,61 @@ mission "plugin: uniques"
 			`Mission Holo advert (Snowfeather, after hai reveal 0, holo emitter installed needed)`
 				to display
 					not "unq_holo_sr: declined"
+			choice
+				`continue`
+					goto "menu"
+			label "readme"
+			`Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques.`
+			``
+			``
+			`Uniques are great! Why aren't more ingame? If the plugin control.station is installed, that station offers a job to see the status of obtaining the uniques.`
+			`This plugin contains my former plugins unique.fix (just some vanilla unique adjustments), real.fluff (10 unique pets) and lots of new uniques with storylines.`
+			``
+			`vanilla: removes mass and outfit space from the cloaking device`
+			`vanilla: removes mass and outfit space from outskirts gauger and puts it in unique category`
+			`vanilla: gives outfit '"Puny"' a dog picture and puts it into pets category`
+			`vanilla: gives outfit 'Antigrav Glass' a picture and puts it into unique category`
+			`vanilla: gives outfit Damselflyman a picture and puts it into unique category`
+			`vanilla: gives outfit Lancet Adamant a picture`
+			`vanilla: puts outfit 'Mug' into unique category`
+			`vanilla: puts outfit Trefoil Board into unique category`
+			`vanilla: puts outfit Ka'het Electric Stunner into unique category`
+			`new vanilla: rewrote Skadenga book mission, so you can buy the unique book`
+			`new vanilla: rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique archive chip`
+			`new unique pet: alien "Snuggles" (land somewhere in human space, hidden destination is Danoa system (based on the Alien movies))`
+			`new unique pet: alien "Exotic" (land somewhere in human space, hidden destination is Unagi system (based on the Dark Star movie))`
+			`new unique pet: alien "Audrey II" (land somewhere, hidden destination is the "5 Spring Below" system (based on the Little Shop of Horrors movie))`
+			`new unique pet: alien "Furbel" (Vibrant Water (Coalition space)(based on Tribbles in Star Trek))`
+			`new unique pet: Cat "Cleo" (Deadman's Cove, 20% chance)`
+			`new unique pet: Ferret "Gummi Bear" (Bivrost, 20% chance)`
+			`new unique pet: Hamster "Peanut" (Twinstar, 20% chance)`
+			`new unique pet: Koala "Archie" (New Portland, 20% chance)`
+			`new unique pet: Ocelot "Babou" (Farpoint, 20% chance, needs 1000 combat rating)`
+			`new unique pet: Rabbit "Thumper" (Starcross, 20% chance)`
+			`new unique pet: Raccoon "Bandit" (Foundry, 20% chance)`
+			`new unique pet: Squirrel "Trixie" (Heartvalley, 20% chance)`
+			`new unique pet: Chicken "Attila" Sundrinker, 20% chance)`
+			`new unique: "Bawdy Magazines" (during "The Exotic" mission)`
+			`new unique: "Glass Cat" (after collecting all pets)`
+			`new unique: "Bioluminescent Plant" (Aesila, 10% chance, several followup missions)`
+			`new unique: "Spaceship Figurine" (Sunracer, 3% chance)`
+			`new unique: "Alien Handgun" (Alix, 10% chance)`
+			`new unique: "Quantum Ring" (Charon Station, 3% chance)`
+			`new unique: "Old Whisky Bottles" (Socket, 10% chance)`
+			`new unique: "Scanning Computer" (Overseer, 10% chance)`
+			`new unique: "Hai Survival Rations" (Hai space, 3% chance)`
+			`new unique: "Piloting For Dummies" (Paradise worlds, 3% chance)`
+			`new unique: "External Holo Emitter" (Luna, 6% chance, several followup missions)`
+			`new unique: "Toby the Teddy Bear" (Featherweight, 3% chance)`
+			`new unique: "Toolbox" (Clark, 3% chance)`
+			`new unique: "Korath Pillow" (Laki Nemparu, 3% chance)`
+			`new unique: "Gegno Starmap" (Wye Tzeou, 10% chance)`
+			`new unique: "Nav Buoys" (human outfitter, after discovering shrouded systems, 20% chance)`
+			`new unique: "Derelict Scanner" (Oblivion, 100k credits, 10% chance, several followup missions)`
+			`new unique: "Landing Computer" (Ahr, 30% chance, several followup missions)`
+			choice
+				`continue`
+					goto "menu"
 			label "end"
 			``
 		fail
