@@ -1,3 +1,6 @@
+# 2do:
+# outfit amounts for higher tiers
+# copy gun/turret/bay attributes of each subnode
 import os
 
 
@@ -87,15 +90,19 @@ def write_ships(tiers, obj, ship_exclude, nodes_exclude):
 				if started == False:
 					if ended == False:
 						part1 += line + '\n'
+						continue
 				if started == True:
 					if line.startswith('\t\t'):
 						attributes += line + '\n'
+						continue
 					else:
 						started = False
 						ended = True
 						part2 += line + '\n'
+						continue
 				if started == False and ended == True:
 					part2 += line + '\n'
+					continue
 			# alter attributes
 			splitted = attributes.split('\n')
 			new_attributes = ''
@@ -340,7 +347,7 @@ def write_mission(ship_names):
 
 def run():
 	data_folder = '/storage/9C33-6BBD/endless sky/data/'
-	node_exclude = ['\tattributes', '\t\tcategory', '\t\tlicenses', '\t\tweapon', '\t\t\t', '\t\t"flare', '\t\t"steering', '\t\t"reverse', '\t"heat dissipation', '\t\t"waterlining', '\t\t"gaslining', '\t\t"automaton', '#', '\t\t#']
+	node_exclude = ['\tattributes', '\t\tcategory', '\t\tlicenses', '\t\tweapon', '\t\t\t', '\t\t"flare', '\t\t"steering', '\t\t"reverse', '\t\t"heat dissipation', '\t\t"waterlining', '\t\t"gaslining', '\t\t"automaton', '#', '\t\t#']
 	ship_exclude = ["Mammoth", "Anomalocaris", "vyu-Ir", "Modified Hauler VI", "Waverider", "Modified Ladybug", "Modified Battleship", "Modified Boxwing", "Marauder Bactrian", "Shooting Star", "Ursa Polaris", "Modified Osprey", "Lampyrid-Class Transport", "Marauder Fury","Wardragon", "Ayym", "Korath Dredger", "Korath Raider", "Korath Chaser", "Korath World-Ship", "Quarg Skylark", "Windjammer", "Bluejacket", "Pollen", "Sprout", "Archon", "Subsidurial", "Void Sprite", "Ember Waste Node", "Embershade", "Embersylph", "Hallucination", "Asteroid", "Science Drone", "Emergency Shuttle", "Unknown Ship Type", "Surveillance Drone", "Aberrant Latte", "Aberrant Chomper", "Aberrant Pileup", "Aberrant Hugger", "Aberrant Longfellow", "Aberrant Dancer", "Aberrant Junior", "Aberrant Icebreaker", "Aberrant Pike", "Aberrant Mole", "Aberrant Whiskers", "Aberrant Trip", "Aberrant Triplet", "Asteroid Large 1", "Asteroid Large 2", "Asteroid Large 3", "Asteroid Large 4", "Asteroid Large 5", "Asteroid Medium", "Asteroid Young 1", "Asteroid Young 2", "Asteroid Young 3", "Asteroid Young 4", "Cloak Check", "Asteroid Planet", "Remnant Satellite", "Asteroid Blocker", "Maeri'het", "Telis'het", "Vareti'het", "Selii'mar", "Faes'mar", "Fetri'sei", "Nanobot",  "_Ion Timer Ship", "Rescue Dummy", "Timer Ship", "Vyrmeid", "Astral Cetacean", "Pincer Beast"]
 	tiers = [1,2,3,4,5,6,7,8,9,10]
 	obj, obj_path, obj_name = read_everything(data_folder)

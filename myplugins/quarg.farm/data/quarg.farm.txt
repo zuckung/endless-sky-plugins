@@ -124,7 +124,7 @@ fleet "Quarg (Evil)"
 	variant
 		"Quarg Lindwyrm"
 	variant
-		"Quarg Drake" 2
+		"Quarg Drake"
 	variant
 		"Quarg Wardragon"
 
@@ -135,41 +135,27 @@ fleet "Large Quarg (Evil)"
 	cargo 1
 	personality
 		forbearing opportunistic
-	variant 2
-		"Quarg Wardragon" 4
-	variant 2
-		"Quarg Wardragon" 3
+	variant
+		"Quarg Wardragon" 2
 		"Quarg Wyvern"
-	variant 2
+	variant
 		"Quarg Wardragon" 2
-	variant 2
-		"Quarg Lindwyrm" 2
-		"Quarg Wardragon"
-	variant 2
+	variant
 		"Quarg Wardragon" 2
 		"Quarg Lindwyrm"
 	variant
-		"Quarg Wardragon"
-		"Quarg Drake" 2
-	variant
-		"Quarg Lindwyrm" 2
+		"Quarg Lindwyrm"
 		"Quarg Wardragon"
 		"Quarg Drake"
 	variant
 		"Quarg Wardragon" 2
 		"Quarg Drake"
 		"Quarg Lindwyrm"
-	variant
-		"Quarg Lindwyrm" 3
-		"Quarg Wardragon"
 	variant
 		"Quarg Lindwyrm" 2
 		"Quarg Drake" 2
 	variant
 		"Quarg Wyvern" 3
-	variant
-		"Quarg Wardragon" 3
-		"Quarg Drake" 3
 	variant
 		"Quarg Wyvern" 2
 		"Quarg Drake" 4
@@ -177,6 +163,10 @@ fleet "Large Quarg (Evil)"
 		"Quarg Hydra"
 		"Quarg Wyvern"
 		"Quarg Wardragon" 2
+	variant
+		"Quarg Hydra"
+		"Quarg Wyvern" 2
+
 
 
 fleet "Quarg Utility (Evil)"
@@ -185,20 +175,20 @@ fleet "Quarg Utility (Evil)"
 	cargo 1
 	personality
 		forbearing opportunistic
-	variant 3
+	variant
 		"Quarg Guivre"
 		"Quarg Lindwyrm"
 		"Quarg Wardragon"
-	variant 2
+	variant
 		"Quarg Guivre"
 		"Quarg Wardragon" 2
-	variant 2
+	variant
 		"Quarg Guivre"
 		"Quarg Lindwyrm" 2
-	variant 2
+	variant
 		"Quarg Guivre"
-		"Quarg Drake" 4
-	variant 2
+		"Quarg Drake" 3
+	variant
 		"Quarg Guivre"
 		"Quarg Drake" 3
 	variant 2

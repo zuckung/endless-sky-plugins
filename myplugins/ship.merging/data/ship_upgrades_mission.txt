@@ -1,7 +1,7 @@
 mission "upgrade ships"
 	job
 	repeat
-	name "(Upgrade Ships)"
+	name "(Upgarde Ships)"
 	"description" "Combine a ship +3 base versions of that ship into one of a higher tier, up to a max of T10."
 	color selected "ship_upgrades job: selected"
 	color unselected "ship_upgrades job: unselected"
@@ -17,7 +17,6 @@ mission "upgrade ships"
 			``
 			`i.e.: own 4 ships of the same kind and merge them into one T1 ship of that kind with doubled attributes`
 			`i.e.: own 3 ships of the same kind and one T4 of that kind, and merge it into one T5 ship of that kind with 6 times the attributes (of the base version)`
-			`i.e.: own 31 ships of the same kind and merge them(10 times) into one T10 ship of that kind with 11 times the attributes`
 			``
 			`The following ships can be merged into a higher tier:`
 			choice

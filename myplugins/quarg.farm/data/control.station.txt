@@ -1,0 +1,68 @@
+# event "beat lim"
+# mission "plugin: quarg.farm"
+
+
+
+event "beat lim"
+	government "Quarg"
+		atrocities
+			"Stub"
+	government "Quarg (Hai)"
+		atrocities
+			"Stub"
+	government "Quarg (Kor Efret)"
+		atrocities
+			"Stub"
+	government "Quarg (Gegno)"
+		atrocities
+			"Stub"
+	government "Quarg (Incipias)"
+		atrocities
+			"Stub"
+
+
+mission "plugin: quarg.farm"
+	name "[4] plugin: quarg.farm"
+	color selected "control.station plugin job: selected"
+	color unselected "control.station plugin job: unselected"
+	job
+	repeat
+	description "Shows options for the plugin quarg.farm."
+	source "Control Station"
+	to offer
+		has "installed plugin: control.station"
+	on accept
+		conversation
+			label "prestart"
+			``
+			label "start"
+			`Plugin: quarg.farm`
+			``
+			choice
+				`	show plugin README`
+					goto "readme"
+				`	remove quarg atrocities (if changed by other plugins, like LiM)`
+					goto "atrocities"
+				`	done`
+					goto "end"
+			label "readme"
+			`quarg.farm readme`
+			``
+			`Adds a new system "Saquerver" (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed.`
+			``
+			`The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Quarg fleets spawn there. Killing/plundering them doesn't make the other Quarg angry. Landing on the other Quarg faction's worlds doesn't end with a death sentence when you have their ships/outfits.`
+			choice
+				`	continue`
+					goto "start"
+			label "atrocities"
+			action
+				event "beat lim"
+			`atrocities from all quarg factions removed!`
+			choice
+				`	continue`
+					goto "start"
+			label "end"
+		fail
+
+
+		

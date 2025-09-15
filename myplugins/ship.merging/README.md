@@ -10,6 +10,10 @@ Reduce performance issues by reducing ship amounts or just make single ships mor
 <br>
 Changelog:<br>
 <br>
+2025-09-15<br>
+fix broken system link (thx to Kitteh)<br>
+fixed heat dissipation<br>
+<br>
 2025-08-09<br>
 initial release<br>
 
