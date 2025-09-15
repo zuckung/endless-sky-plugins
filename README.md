@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-09-15 | update: ship.merging<br>
 2025-09-15 | update: quarg.farm<br>
 2025-09-13 | update: uniques<br>
 2025-08-31 | update: kestrel.unlocks<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-25 | update: landing.images.highres<br>
 2025-08-25 | update: landing.images<br>
 2025-08-24 | update: additional.command.buttons.radial<br>
-2025-08-15 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1684,7 +1684,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/disable.person.ships/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/disable.person.ships.png">
 
-[disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-disable.person.ships/disable.person.ships.zip) | 20.08 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <a href="res/imagemd/disable.person.ships.md">view images</a> [2]<br>
+[disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-disable.person.ships/disable.person.ships.zip) | N/A | N/A | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <a href="res/imagemd/disable.person.ships.md">view images</a> [2]<br>
 <br>
 >Disables all person ships. See the README for details.
 
@@ -4342,7 +4342,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/ship.merging/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/ship.merging.png">
 
-[ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-ship.merging/ship.merging.zip) | 2.23 mb | 2025-08-10 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) <a href="res/imagemd/ship.merging.md">view images</a> [8]<br>
+[ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-ship.merging/ship.merging.zip) | 2.22 mb | 2025-09-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) <a href="res/imagemd/ship.merging.md">view images</a> [8]<br>
 <br>
 >This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship. See the README for details.
 
