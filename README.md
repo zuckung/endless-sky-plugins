@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-09-15 | update: quarg.farm<br>
 2025-09-13 | update: uniques<br>
 2025-08-31 | update: kestrel.unlocks<br>
 2025-08-31 | update: boss.loot<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-25 | update: landing.images<br>
 2025-08-24 | update: additional.command.buttons.radial<br>
 2025-08-15 | update: galactic.capital.investment<br>
-2025-08-10 | update: ship.merging<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4242,7 +4242,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/quarg.farm/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/quarg.farm.png">
 
-[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-quarg.farm/quarg.farm.zip) | 110.23 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <a href="res/imagemd/quarg.farm.md">view images</a> [2]<br>
+[quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-quarg.farm/quarg.farm.zip) | 111.13 kb | 2025-09-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) <a href="res/imagemd/quarg.farm.md">view images</a> [2]<br>
 <br>
 >Adds a new system 'Saquerver' (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the README for details.
 
@@ -4260,11 +4260,21 @@ Adds a new system "Saquerver" (between human and coalition space) where you can 
 
 The system "Saquerver" lies between "Serquergen" and "Ablub". The usual-sized Quarg fleets spawn there. Killing/plundering them doesn't make the other Quarg angry. Landing on the other Quarg faction's worlds doesn't end with a death sentence when you have their ships/outfits.<br>
 
+The plugin control.station offers a job for showing this readme and re-enabling the no-atrocities (if changed by other plugins).<br>
+
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-09-15<br>
+
+changed fleets to less variants<br>
+
+added control station job to re-enable no atrocities<br>
 
 <br>
 
@@ -4359,6 +4369,14 @@ Reduce performance issues by reducing ship amounts or just make single ships mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-09-15<br>
+
+fix broken system link (thx to Kitteh)<br>
+
+fixed heat dissipation<br>
 
 <br>
 

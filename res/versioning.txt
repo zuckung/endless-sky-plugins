@@ -38,7 +38,7 @@ outfits.weapon.slot|1.0.1
 paint.your.ships|1.0.3
 planet.map|1.0.3
 planet.pluto|1.0.2
-quarg.farm|1.0.5
+quarg.farm|1.0.6
 real.fluff|1.0.8
 ship.merging|1.0.1
 show.reputation|1.0.5
