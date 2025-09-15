@@ -196,7 +196,7 @@ def write_mission(ship_names):
 		'mission "upgrade ships"\n' +\
 		'	job\n' +\
 		'	repeat\n' +\
-		'	name "(Upgarde Ships)"\n' +\
+		'	name "(Upgrade Ships)"\n' +\
 		'	"description" "Combine a ship +3 base versions of that ship into one of a higher tier, up to a max of T10."\n' +\
 		'	color selected "ship_upgrades job: selected"\n' +\
 		'	color unselected "ship_upgrades job: unselected"\n' +\
