@@ -244,6 +244,48 @@ outfitter "FlarePlay"
 	"chromatic bun_purple_1 2.0"
 	"chromatic inci_rainbow_1 1.0"
 	"chromatic inci_rainbow_1 2.0"
+	"chromatic avgi-fusion_green_10 1.0"
+	"chromatic avgi-fusion_green_10 2.0"
+	"chromatic avgi-antimatter2_violet_10 1.0"
+	"chromatic avgi-antimatter2_violet_10 2.0"
+	"chromatic avgi-antimatter2_orange_10 1.0"
+	"chromatic avgi-antimatter2_orange_10 2.0"
+	"chromatic avgi-fusion_yellow_10 1.0"
+	"chromatic avgi-fusion_yellow_10 2.0"
+	"chromatic avgi-antimatter2_red_10 1.0"
+	"chromatic avgi-antimatter2_red_10 2.0"
+	"chromatic avgi-fusion_violet_10 1.0"
+	"chromatic avgi-fusion_violet_10 2.0"
+	"chromatic avgi-rcs_green_10 1.0"
+	"chromatic avgi-rcs_green_10 2.0"
+	"chromatic avgi-fusion_orange_10 1.0"
+	"chromatic avgi-fusion_orange_10 2.0"
+	"chromatic avgi-fusion_red_10 1.0"
+	"chromatic avgi-fusion_red_10 2.0"
+	"chromatic avgi-rcs_violet_10 1.0"
+	"chromatic avgi-rcs_violet_10 2.0"
+	"chromatic avgi-rcs_yellow_10 1.0"
+	"chromatic avgi-rcs_yellow_10 2.0"
+	"chromatic avgi-rcs_blue_10 1.0"
+	"chromatic avgi-rcs_blue_10 2.0"
+	"chromatic avgi-remass_green_10 1.0"
+	"chromatic avgi-remass_green_10 2.0"
+	"chromatic avgi-rcs_orange_10 1.0"
+	"chromatic avgi-rcs_orange_10 2.0"
+	"chromatic avgi-rcs_red_10 1.0"
+	"chromatic avgi-rcs_red_10 2.0"
+	"chromatic avgi-remass_violet_10 1.0"
+	"chromatic avgi-remass_violet_10 2.0"
+	"chromatic avgi-remass_yellow_10 1.0"
+	"chromatic avgi-remass_yellow_10 2.0"
+	"chromatic avgi-remass_orange_10 1.0"
+	"chromatic avgi-remass_orange_10 2.0"
+	"chromatic avgi-remass_red_10 1.0"
+	"chromatic avgi-remass_red_10 2.0"
+	"chromatic avgi-antimatter2_green_10 1.0"
+	"chromatic avgi-antimatter2_green_10 2.0"
+	"chromatic avgi-antimatter2_yellow_10 1.0"
+	"chromatic avgi-antimatter2_yellow_10 2.0"
 
 outfit "afterburner afterburner 1.0 15"
 	"display name" "FP5010 size: 1.0"
@@ -4015,3 +4057,675 @@ outfit "chromatic inci_rainbow_1 2.0"
 	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
 	description `You don't know what it means or if it is important, but on the package you can read:`
 	description `'newcolors inci rainbow 1 sc:2.0/fr:1'`
+
+outfit "chromatic avgi-fusion_green_10 1.0"
+	"display name" "FP0870 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-fusion_green_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-fusion_green_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-fusion green 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-fusion_green_10 2.0"
+	"display name" "FP0880 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-fusion_green_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-fusion_green_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-fusion green 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-antimatter2_violet_10 1.0"
+	"display name" "FP0890 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-antimatter2_violet_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-antimatter2_violet_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-antimatter2 violet 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-antimatter2_violet_10 2.0"
+	"display name" "FP0900 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-antimatter2_violet_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-antimatter2_violet_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-antimatter2 violet 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-antimatter2_orange_10 1.0"
+	"display name" "FP0910 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-antimatter2_orange_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-antimatter2_orange_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-antimatter2 orange 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-antimatter2_orange_10 2.0"
+	"display name" "FP0920 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-antimatter2_orange_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-antimatter2_orange_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-antimatter2 orange 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-fusion_yellow_10 1.0"
+	"display name" "FP0930 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-fusion_yellow_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-fusion_yellow_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-fusion yellow 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-fusion_yellow_10 2.0"
+	"display name" "FP0940 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-fusion_yellow_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-fusion_yellow_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-fusion yellow 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-antimatter2_red_10 1.0"
+	"display name" "FP0950 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-antimatter2_red_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-antimatter2_red_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-antimatter2 red 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-antimatter2_red_10 2.0"
+	"display name" "FP0960 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-antimatter2_red_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-antimatter2_red_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-antimatter2 red 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-fusion_violet_10 1.0"
+	"display name" "FP0970 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-fusion_violet_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-fusion_violet_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-fusion violet 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-fusion_violet_10 2.0"
+	"display name" "FP0980 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-fusion_violet_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-fusion_violet_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-fusion violet 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-rcs_green_10 1.0"
+	"display name" "FP0990 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_green_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_green_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs green 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-rcs_green_10 2.0"
+	"display name" "FP1000 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_green_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_green_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs green 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-fusion_orange_10 1.0"
+	"display name" "FP1010 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-fusion_orange_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-fusion_orange_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-fusion orange 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-fusion_orange_10 2.0"
+	"display name" "FP1020 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-fusion_orange_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-fusion_orange_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-fusion orange 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-fusion_red_10 1.0"
+	"display name" "FP1030 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-fusion_red_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-fusion_red_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-fusion red 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-fusion_red_10 2.0"
+	"display name" "FP1040 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-fusion_red_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-fusion_red_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-fusion red 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-rcs_violet_10 1.0"
+	"display name" "FP1050 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_violet_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_violet_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs violet 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-rcs_violet_10 2.0"
+	"display name" "FP1060 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_violet_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_violet_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs violet 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-rcs_yellow_10 1.0"
+	"display name" "FP1070 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_yellow_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_yellow_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs yellow 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-rcs_yellow_10 2.0"
+	"display name" "FP1080 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_yellow_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_yellow_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs yellow 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-rcs_blue_10 1.0"
+	"display name" "FP1090 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_blue_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_blue_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs blue 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-rcs_blue_10 2.0"
+	"display name" "FP1100 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_blue_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_blue_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs blue 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-remass_green_10 1.0"
+	"display name" "FP1110 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-remass_green_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-remass_green_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-remass green 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-remass_green_10 2.0"
+	"display name" "FP1120 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-remass_green_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-remass_green_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-remass green 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-rcs_orange_10 1.0"
+	"display name" "FP1130 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_orange_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_orange_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs orange 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-rcs_orange_10 2.0"
+	"display name" "FP1140 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_orange_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_orange_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs orange 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-rcs_red_10 1.0"
+	"display name" "FP1150 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_red_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_red_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs red 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-rcs_red_10 2.0"
+	"display name" "FP1160 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-rcs_red_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-rcs_red_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-rcs red 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-remass_violet_10 1.0"
+	"display name" "FP1170 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-remass_violet_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-remass_violet_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-remass violet 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-remass_violet_10 2.0"
+	"display name" "FP1180 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-remass_violet_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-remass_violet_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-remass violet 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-remass_yellow_10 1.0"
+	"display name" "FP1190 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-remass_yellow_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-remass_yellow_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-remass yellow 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-remass_yellow_10 2.0"
+	"display name" "FP1200 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-remass_yellow_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-remass_yellow_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-remass yellow 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-remass_orange_10 1.0"
+	"display name" "FP1210 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-remass_orange_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-remass_orange_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-remass orange 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-remass_orange_10 2.0"
+	"display name" "FP1220 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-remass_orange_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-remass_orange_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-remass orange 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-remass_red_10 1.0"
+	"display name" "FP1230 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-remass_red_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-remass_red_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-remass red 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-remass_red_10 2.0"
+	"display name" "FP1240 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-remass_red_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-remass_red_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-remass red 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-antimatter2_green_10 1.0"
+	"display name" "FP1250 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-antimatter2_green_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-antimatter2_green_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-antimatter2 green 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-antimatter2_green_10 2.0"
+	"display name" "FP1260 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-antimatter2_green_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-antimatter2_green_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-antimatter2 green 10 sc:2.0/fr:10'`
+
+outfit "chromatic avgi-antimatter2_yellow_10 1.0"
+	"display name" "FP1270 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-antimatter2_yellow_10 chromatic"
+	"cost" 50000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-antimatter2_yellow_10"
+		"frame rate" 10
+		"scale" 1.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-antimatter2 yellow 10 sc:1.0/fr:10'`
+
+outfit "chromatic avgi-antimatter2_yellow_10 2.0"
+	"display name" "FP1280 size: 2.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/newcolors avgi-antimatter2_yellow_10 chromatic"
+	"cost" 100000
+	"mass" 1
+	"flare sprite" "effect/newcolors/avgi-antimatter2_yellow_10"
+		"frame rate" 10
+		"scale" 2.0
+	series "Flareplay"
+	index 99100
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'newcolors avgi-antimatter2 yellow 10 sc:2.0/fr:10'`
