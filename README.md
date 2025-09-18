@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-09-18 | update: flare.play<br>
 2025-09-15 | update: ship.merging<br>
 2025-09-15 | update: quarg.farm<br>
 2025-09-13 | update: uniques<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-29 | 16 plugin updates with minor organisational files changes, typo fixes,  etc, no need to download<br>
 2025-08-25 | update: landing.images.highres<br>
 2025-08-25 | update: landing.images<br>
-2025-08-24 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1684,7 +1684,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/disable.person.ships/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/disable.person.ships.png">
 
-[disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-disable.person.ships/disable.person.ships.zip) | N/A | N/A | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <a href="res/imagemd/disable.person.ships.md">view images</a> [2]<br>
+[disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-disable.person.ships/disable.person.ships.zip) | 20.08 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) <a href="res/imagemd/disable.person.ships.md">view images</a> [2]<br>
 <br>
 >Disables all person ships. See the README for details.
 
@@ -2107,7 +2107,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/flare.play/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/flare.play.png">
 
-[flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-flare.play/flare.play.zip) | 8.32 mb | 2025-07-02 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) <a href="res/imagemd/flare.play.md">view images</a> [544]<br>
+[flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-flare.play/flare.play.zip) | 15.31 mb | 2025-09-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) <a href="res/imagemd/flare.play.md">view images</a> [687]<br>
 <br>
 >Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by 'Thermognuclear Missile' on discord. See the README for details.
 
@@ -2123,7 +2123,7 @@ Adds lots of engine flare outfits to the big shipyards and outfitters. These out
 
 <br>
 
-Adds a new outfitter with 241 cosmetic flare outfits to Wayfarer, Valhalla, Sunracer, Foundry and Solace. These flares get added to your normal engine flare. If your engine has a big flare and you add a tiny flare outfit, it is barely seen. Multiple flare outfits make the engine flare more intense. To use steering, reverse, or afterburner flares, your ship needs engine outfits with the regarding engine type. There are 155 vanilla flare outfits and 86 recolored flare outfits.<br>
+Adds a new outfitter with 262 cosmetic flare outfits to Wayfarer, Valhalla, Sunracer, Foundry and Solace. These flares get added to your normal engine flare. If your engine has a big flare and you add a tiny flare outfit, it is barely seen. Multiple flare outfits make the engine flare more intense. To use steering, reverse, or afterburner flares, your ship needs engine outfits with the regarding engine type. There are 155 vanilla flare outfits and 107 recolored flare outfits.<br>
 
 Missions and events: On day 1 after plugin installation, a mission shows up, explaining the new flare outfits. After 30 days, all human fleets get a variant with flares; after 90 days, these fleets get another variant; and after 150 days they get the third variant.<br>
 
@@ -2132,6 +2132,12 @@ Missions and events: On day 1 after plugin installation, a mission shows up, exp
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-09-18<br>
+
+added 21 recolored avgi flares (thx to Nyx for reducing their size)<br>
 
 <br>
 
