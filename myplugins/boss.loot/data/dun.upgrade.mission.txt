@@ -110,11 +110,21 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Blue Optical Laser"
 						has "outfit (flagship installed): Nanite Swarm Blue"
 					goto "Blue Optical Laser"
+				`	"Ultraviolet Excimer Laser" (&[outfit (flagship installed): Ultraviolet Excimer Laser])`
+					to display
+						has "outfit (flagship installed): Ultraviolet Excimer Laser"
+						has "outfit (flagship installed): Nanite Swarm Blue"
+					goto "Ultraviolet Excimer Laser"
 				`	"Ultrarelativistic Electron Beam" (&[outfit (flagship installed): Ultrarelativistic Electron Beam])`
 					to display
 						has "outfit (flagship installed): Ultrarelativistic Electron Beam"
 						has "outfit (flagship installed): Nanite Swarm Blue"
 					goto "Ultrarelativistic Electron Beam"
+				`	"UREB Turret" (&[outfit (flagship installed): UREB Turret])`
+					to display
+						has "outfit (flagship installed): UREB Turret"
+						has "outfit (flagship installed): Nanite Swarm Blue"
+					goto "UREB Turret"
 				`	"External Launch Rail" (&[outfit (flagship installed): External Launch Rail])`
 					to display
 						has "outfit (flagship installed): External Launch Rail"
@@ -125,6 +135,16 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): External Launch Tube"
 						has "outfit (flagship installed): Nanite Swarm Blue"
 					goto "External Launch Tube"
+				`	"Tiny VLS" (&[outfit (flagship installed): Tiny VLS])`
+					to display
+						has "outfit (flagship installed): Tiny VLS"
+						has "outfit (flagship installed): Nanite Swarm Blue"
+					goto "Tiny VLS"
+				`	"Small VLS" (&[outfit (flagship installed): Small VLS])`
+					to display
+						has "outfit (flagship installed): Small VLS"
+						has "outfit (flagship installed): Nanite Swarm Blue"
+					goto "Small VLS"
 				`	"Medium VLS" (&[outfit (flagship installed): Medium VLS])`
 					to display
 						has "outfit (flagship installed): Medium VLS"
@@ -585,6 +605,16 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Asteroid Weapon Super"
 						has "outfit (flagship installed): Nanite Swarm Blue"
 					goto "Asteroid Weapon Super"
+				`	"Fuel Removal" (&[outfit (flagship installed): Fuel Removal])`
+					to display
+						has "outfit (flagship installed): Fuel Removal"
+						has "outfit (flagship installed): Nanite Swarm Blue"
+					goto "Fuel Removal"
+				`	"Ka'het Machinery" (&[outfit (flagship installed): Ka'het Machinery])`
+					to display
+						has "outfit (flagship installed): Ka'het Machinery"
+						has "outfit (flagship installed): Nanite Swarm Blue"
+					goto "Ka'het Machinery"
 				`	"Ka'het Nullifier" (&[outfit (flagship installed): Ka'het Nullifier])`
 					to display
 						has "outfit (flagship installed): Ka'het Nullifier"
@@ -1023,11 +1053,21 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Blue Optical Laser(T1)"
 						has "outfit (flagship installed): Nanite Swarm Purple"
 					goto "Blue Optical Laser(T1)"
+				`	"Ultraviolet Excimer Laser(T1)" (&[outfit (flagship installed): Ultraviolet Excimer Laser(T1)])`
+					to display
+						has "outfit (flagship installed): Ultraviolet Excimer Laser(T1)"
+						has "outfit (flagship installed): Nanite Swarm Purple"
+					goto "Ultraviolet Excimer Laser(T1)"
 				`	"Ultrarelativistic Electron Beam(T1)" (&[outfit (flagship installed): Ultrarelativistic Electron Beam(T1)])`
 					to display
 						has "outfit (flagship installed): Ultrarelativistic Electron Beam(T1)"
 						has "outfit (flagship installed): Nanite Swarm Purple"
 					goto "Ultrarelativistic Electron Beam(T1)"
+				`	"UREB Turret(T1)" (&[outfit (flagship installed): UREB Turret(T1)])`
+					to display
+						has "outfit (flagship installed): UREB Turret(T1)"
+						has "outfit (flagship installed): Nanite Swarm Purple"
+					goto "UREB Turret(T1)"
 				`	"External Launch Rail(T1)" (&[outfit (flagship installed): External Launch Rail(T1)])`
 					to display
 						has "outfit (flagship installed): External Launch Rail(T1)"
@@ -1038,6 +1078,16 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): External Launch Tube(T1)"
 						has "outfit (flagship installed): Nanite Swarm Purple"
 					goto "External Launch Tube(T1)"
+				`	"Tiny VLS(T1)" (&[outfit (flagship installed): Tiny VLS(T1)])`
+					to display
+						has "outfit (flagship installed): Tiny VLS(T1)"
+						has "outfit (flagship installed): Nanite Swarm Purple"
+					goto "Tiny VLS(T1)"
+				`	"Small VLS(T1)" (&[outfit (flagship installed): Small VLS(T1)])`
+					to display
+						has "outfit (flagship installed): Small VLS(T1)"
+						has "outfit (flagship installed): Nanite Swarm Purple"
+					goto "Small VLS(T1)"
 				`	"Medium VLS(T1)" (&[outfit (flagship installed): Medium VLS(T1)])`
 					to display
 						has "outfit (flagship installed): Medium VLS(T1)"
@@ -1498,6 +1548,16 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Asteroid Weapon Super(T1)"
 						has "outfit (flagship installed): Nanite Swarm Purple"
 					goto "Asteroid Weapon Super(T1)"
+				`	"Fuel Removal(T1)" (&[outfit (flagship installed): Fuel Removal(T1)])`
+					to display
+						has "outfit (flagship installed): Fuel Removal(T1)"
+						has "outfit (flagship installed): Nanite Swarm Purple"
+					goto "Fuel Removal(T1)"
+				`	"Ka'het Machinery(T1)" (&[outfit (flagship installed): Ka'het Machinery(T1)])`
+					to display
+						has "outfit (flagship installed): Ka'het Machinery(T1)"
+						has "outfit (flagship installed): Nanite Swarm Purple"
+					goto "Ka'het Machinery(T1)"
 				`	"Ka'het Nullifier(T1)" (&[outfit (flagship installed): Ka'het Nullifier(T1)])`
 					to display
 						has "outfit (flagship installed): Ka'het Nullifier(T1)"
@@ -1936,11 +1996,21 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Blue Optical Laser(T2)"
 						has "outfit (flagship installed): Nanite Swarm Orange"
 					goto "Blue Optical Laser(T2)"
+				`	"Ultraviolet Excimer Laser(T2)" (&[outfit (flagship installed): Ultraviolet Excimer Laser(T2)])`
+					to display
+						has "outfit (flagship installed): Ultraviolet Excimer Laser(T2)"
+						has "outfit (flagship installed): Nanite Swarm Orange"
+					goto "Ultraviolet Excimer Laser(T2)"
 				`	"Ultrarelativistic Electron Beam(T2)" (&[outfit (flagship installed): Ultrarelativistic Electron Beam(T2)])`
 					to display
 						has "outfit (flagship installed): Ultrarelativistic Electron Beam(T2)"
 						has "outfit (flagship installed): Nanite Swarm Orange"
 					goto "Ultrarelativistic Electron Beam(T2)"
+				`	"UREB Turret(T2)" (&[outfit (flagship installed): UREB Turret(T2)])`
+					to display
+						has "outfit (flagship installed): UREB Turret(T2)"
+						has "outfit (flagship installed): Nanite Swarm Orange"
+					goto "UREB Turret(T2)"
 				`	"External Launch Rail(T2)" (&[outfit (flagship installed): External Launch Rail(T2)])`
 					to display
 						has "outfit (flagship installed): External Launch Rail(T2)"
@@ -1951,6 +2021,16 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): External Launch Tube(T2)"
 						has "outfit (flagship installed): Nanite Swarm Orange"
 					goto "External Launch Tube(T2)"
+				`	"Tiny VLS(T2)" (&[outfit (flagship installed): Tiny VLS(T2)])`
+					to display
+						has "outfit (flagship installed): Tiny VLS(T2)"
+						has "outfit (flagship installed): Nanite Swarm Orange"
+					goto "Tiny VLS(T2)"
+				`	"Small VLS(T2)" (&[outfit (flagship installed): Small VLS(T2)])`
+					to display
+						has "outfit (flagship installed): Small VLS(T2)"
+						has "outfit (flagship installed): Nanite Swarm Orange"
+					goto "Small VLS(T2)"
 				`	"Medium VLS(T2)" (&[outfit (flagship installed): Medium VLS(T2)])`
 					to display
 						has "outfit (flagship installed): Medium VLS(T2)"
@@ -2411,6 +2491,16 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Asteroid Weapon Super(T2)"
 						has "outfit (flagship installed): Nanite Swarm Orange"
 					goto "Asteroid Weapon Super(T2)"
+				`	"Fuel Removal(T2)" (&[outfit (flagship installed): Fuel Removal(T2)])`
+					to display
+						has "outfit (flagship installed): Fuel Removal(T2)"
+						has "outfit (flagship installed): Nanite Swarm Orange"
+					goto "Fuel Removal(T2)"
+				`	"Ka'het Machinery(T2)" (&[outfit (flagship installed): Ka'het Machinery(T2)])`
+					to display
+						has "outfit (flagship installed): Ka'het Machinery(T2)"
+						has "outfit (flagship installed): Nanite Swarm Orange"
+					goto "Ka'het Machinery(T2)"
 				`	"Ka'het Nullifier(T2)" (&[outfit (flagship installed): Ka'het Nullifier(T2)])`
 					to display
 						has "outfit (flagship installed): Ka'het Nullifier(T2)"
@@ -2885,12 +2975,26 @@ mission "upgrade outfits"
 				outfit "Blue Optical Laser(T1)" 1
 			`	outfit "Blue Optical Laser(T1)" +1`
 				goto menu
+			label "Ultraviolet Excimer Laser"
+			action
+				outfit "Ultraviolet Excimer Laser" -1
+				outfit "Nanite Swarm Blue" -1
+				outfit "Ultraviolet Excimer Laser(T1)" 1
+			`	outfit "Ultraviolet Excimer Laser(T1)" +1`
+				goto menu
 			label "Ultrarelativistic Electron Beam"
 			action
 				outfit "Ultrarelativistic Electron Beam" -1
 				outfit "Nanite Swarm Blue" -1
 				outfit "Ultrarelativistic Electron Beam(T1)" 1
 			`	outfit "Ultrarelativistic Electron Beam(T1)" +1`
+				goto menu
+			label "UREB Turret"
+			action
+				outfit "UREB Turret" -1
+				outfit "Nanite Swarm Blue" -1
+				outfit "UREB Turret(T1)" 1
+			`	outfit "UREB Turret(T1)" +1`
 				goto menu
 			label "External Launch Rail"
 			action
@@ -2905,6 +3009,20 @@ mission "upgrade outfits"
 				outfit "Nanite Swarm Blue" -1
 				outfit "External Launch Tube(T1)" 1
 			`	outfit "External Launch Tube(T1)" +1`
+				goto menu
+			label "Tiny VLS"
+			action
+				outfit "Tiny VLS" -1
+				outfit "Nanite Swarm Blue" -1
+				outfit "Tiny VLS(T1)" 1
+			`	outfit "Tiny VLS(T1)" +1`
+				goto menu
+			label "Small VLS"
+			action
+				outfit "Small VLS" -1
+				outfit "Nanite Swarm Blue" -1
+				outfit "Small VLS(T1)" 1
+			`	outfit "Small VLS(T1)" +1`
 				goto menu
 			label "Medium VLS"
 			action
@@ -3550,6 +3668,20 @@ mission "upgrade outfits"
 				outfit "Asteroid Weapon Super(T1)" 1
 			`	outfit "Asteroid Weapon Super(T1)" +1`
 				goto menu
+			label "Fuel Removal"
+			action
+				outfit "Fuel Removal" -1
+				outfit "Nanite Swarm Blue" -1
+				outfit "Fuel Removal(T1)" 1
+			`	outfit "Fuel Removal(T1)" +1`
+				goto menu
+			label "Ka'het Machinery"
+			action
+				outfit "Ka'het Machinery" -1
+				outfit "Nanite Swarm Blue" -1
+				outfit "Ka'het Machinery(T1)" 1
+			`	outfit "Ka'het Machinery(T1)" +1`
+				goto menu
 			label "Ka'het Nullifier"
 			action
 				outfit "Ka'het Nullifier" -1
@@ -4166,12 +4298,26 @@ mission "upgrade outfits"
 				outfit "Blue Optical Laser(T2)" 1
 			`	outfit "Blue Optical Laser(T2)" +1`
 				goto menu
+			label "Ultraviolet Excimer Laser(T1)"
+			action
+				outfit "Ultraviolet Excimer Laser(T1)" -1
+				outfit "Nanite Swarm Purple" -1
+				outfit "Ultraviolet Excimer Laser(T2)" 1
+			`	outfit "Ultraviolet Excimer Laser(T2)" +1`
+				goto menu
 			label "Ultrarelativistic Electron Beam(T1)"
 			action
 				outfit "Ultrarelativistic Electron Beam(T1)" -1
 				outfit "Nanite Swarm Purple" -1
 				outfit "Ultrarelativistic Electron Beam(T2)" 1
 			`	outfit "Ultrarelativistic Electron Beam(T2)" +1`
+				goto menu
+			label "UREB Turret(T1)"
+			action
+				outfit "UREB Turret(T1)" -1
+				outfit "Nanite Swarm Purple" -1
+				outfit "UREB Turret(T2)" 1
+			`	outfit "UREB Turret(T2)" +1`
 				goto menu
 			label "External Launch Rail(T1)"
 			action
@@ -4186,6 +4332,20 @@ mission "upgrade outfits"
 				outfit "Nanite Swarm Purple" -1
 				outfit "External Launch Tube(T2)" 1
 			`	outfit "External Launch Tube(T2)" +1`
+				goto menu
+			label "Tiny VLS(T1)"
+			action
+				outfit "Tiny VLS(T1)" -1
+				outfit "Nanite Swarm Purple" -1
+				outfit "Tiny VLS(T2)" 1
+			`	outfit "Tiny VLS(T2)" +1`
+				goto menu
+			label "Small VLS(T1)"
+			action
+				outfit "Small VLS(T1)" -1
+				outfit "Nanite Swarm Purple" -1
+				outfit "Small VLS(T2)" 1
+			`	outfit "Small VLS(T2)" +1`
 				goto menu
 			label "Medium VLS(T1)"
 			action
@@ -4831,6 +4991,20 @@ mission "upgrade outfits"
 				outfit "Asteroid Weapon Super(T2)" 1
 			`	outfit "Asteroid Weapon Super(T2)" +1`
 				goto menu
+			label "Fuel Removal(T1)"
+			action
+				outfit "Fuel Removal(T1)" -1
+				outfit "Nanite Swarm Purple" -1
+				outfit "Fuel Removal(T2)" 1
+			`	outfit "Fuel Removal(T2)" +1`
+				goto menu
+			label "Ka'het Machinery(T1)"
+			action
+				outfit "Ka'het Machinery(T1)" -1
+				outfit "Nanite Swarm Purple" -1
+				outfit "Ka'het Machinery(T2)" 1
+			`	outfit "Ka'het Machinery(T2)" +1`
+				goto menu
 			label "Ka'het Nullifier(T1)"
 			action
 				outfit "Ka'het Nullifier(T1)" -1
@@ -5447,12 +5621,26 @@ mission "upgrade outfits"
 				outfit "Blue Optical Laser(T3)" 1
 			`	outfit "Blue Optical Laser(T3)" +1`
 				goto menu
+			label "Ultraviolet Excimer Laser(T2)"
+			action
+				outfit "Ultraviolet Excimer Laser(T2)" -1
+				outfit "Nanite Swarm Orange" -1
+				outfit "Ultraviolet Excimer Laser(T3)" 1
+			`	outfit "Ultraviolet Excimer Laser(T3)" +1`
+				goto menu
 			label "Ultrarelativistic Electron Beam(T2)"
 			action
 				outfit "Ultrarelativistic Electron Beam(T2)" -1
 				outfit "Nanite Swarm Orange" -1
 				outfit "Ultrarelativistic Electron Beam(T3)" 1
 			`	outfit "Ultrarelativistic Electron Beam(T3)" +1`
+				goto menu
+			label "UREB Turret(T2)"
+			action
+				outfit "UREB Turret(T2)" -1
+				outfit "Nanite Swarm Orange" -1
+				outfit "UREB Turret(T3)" 1
+			`	outfit "UREB Turret(T3)" +1`
 				goto menu
 			label "External Launch Rail(T2)"
 			action
@@ -5467,6 +5655,20 @@ mission "upgrade outfits"
 				outfit "Nanite Swarm Orange" -1
 				outfit "External Launch Tube(T3)" 1
 			`	outfit "External Launch Tube(T3)" +1`
+				goto menu
+			label "Tiny VLS(T2)"
+			action
+				outfit "Tiny VLS(T2)" -1
+				outfit "Nanite Swarm Orange" -1
+				outfit "Tiny VLS(T3)" 1
+			`	outfit "Tiny VLS(T3)" +1`
+				goto menu
+			label "Small VLS(T2)"
+			action
+				outfit "Small VLS(T2)" -1
+				outfit "Nanite Swarm Orange" -1
+				outfit "Small VLS(T3)" 1
+			`	outfit "Small VLS(T3)" +1`
 				goto menu
 			label "Medium VLS(T2)"
 			action
@@ -6111,6 +6313,20 @@ mission "upgrade outfits"
 				outfit "Nanite Swarm Orange" -1
 				outfit "Asteroid Weapon Super(T3)" 1
 			`	outfit "Asteroid Weapon Super(T3)" +1`
+				goto menu
+			label "Fuel Removal(T2)"
+			action
+				outfit "Fuel Removal(T2)" -1
+				outfit "Nanite Swarm Orange" -1
+				outfit "Fuel Removal(T3)" 1
+			`	outfit "Fuel Removal(T3)" +1`
+				goto menu
+			label "Ka'het Machinery(T2)"
+			action
+				outfit "Ka'het Machinery(T2)" -1
+				outfit "Nanite Swarm Orange" -1
+				outfit "Ka'het Machinery(T3)" 1
+			`	outfit "Ka'het Machinery(T3)" +1`
 				goto menu
 			label "Ka'het Nullifier(T2)"
 			action

@@ -15,6 +15,9 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 Changelog:<br>
 <br>
+2024-10-01<br>
+update to 0.10.15<br>
+<br>
 2024-08-31<br>
 weapon upgrade fuel dmg fix (thx Kassandra Haruki)<br>
 lowered nanite energy generation (thx to Kitteh)<br>

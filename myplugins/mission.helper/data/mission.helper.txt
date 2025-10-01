@@ -3499,10 +3499,10 @@ mission "Mission Helper"
 					to display
 						not "FW Bloodsea 1.2A: offered"
 					goto "FW Bloodsea 1.2A"
-				`Pirates Use Cutthroat`
+				`Pirates Use Cutthroats`
 					to display
-						not "Pirates Use Cutthroat: offered"
-					goto "Pirates Use Cutthroat"
+						not "Pirates Use Cutthroats: offered"
+					goto "Pirates Use Cutthroats"
 				`FW Dreadnoughts Ready`
 					to display
 						not "FW Dreadnoughts Ready: offered"
@@ -4471,6 +4471,30 @@ mission "Mission Helper"
 					to display
 						not "Care Package to South 2: offered"
 					goto "Care Package to South 2"
+				`Lost Racer 1`
+					to display
+						not "Lost Racer 1: offered"
+					goto "Lost Racer 1"
+				`Lost Racer 2 - Ended`
+					to display
+						not "Lost Racer 2 - Ended: offered"
+					goto "Lost Racer 2 - Ended"
+				`Lost Racer 2 - Continued`
+					to display
+						not "Lost Racer 2 - Continued: offered"
+					goto "Lost Racer 2 - Continued"
+				`Lost Racer 2 - Failed`
+					to display
+						not "Lost Racer 2 - Failed: offered"
+					goto "Lost Racer 2 - Failed"
+				`Lost Racer 3`
+					to display
+						not "Lost Racer 3: offered"
+					goto "Lost Racer 3"
+				`Lost Racer Epilogue`
+					to display
+						not "Lost Racer Epilogue: offered"
+					goto "Lost Racer Epilogue"
 				`Moving House 1`
 					to display
 						not "Moving House 1: offered"
@@ -4587,6 +4611,26 @@ mission "Mission Helper"
 					to display
 						not "Syndicate Business 5.1 B 10m Expansion Crossroads Update: offered"
 					goto "Syndicate Business 5.1 B 10m Expansion Crossroads Update"
+				`Syndicate Business 6`
+					to display
+						not "Syndicate Business 6: offered"
+					goto "Syndicate Business 6"
+				`Syndicate Business 7`
+					to display
+						not "Syndicate Business 7: offered"
+					goto "Syndicate Business 7"
+				`Syndicate Business 8`
+					to display
+						not "Syndicate Business 8: offered"
+					goto "Syndicate Business 8"
+				`Syndicate Business 9`
+					to display
+						not "Syndicate Business 9: offered"
+					goto "Syndicate Business 9"
+				`Syndicate Business 10`
+					to display
+						not "Syndicate Business 10: offered"
+					goto "Syndicate Business 10"
 				`Timothy Radrickson 1: Stowaway`
 					to display
 						not "Timothy Radrickson 1: Stowaway: offered"
@@ -4743,6 +4787,14 @@ mission "Mission Helper"
 					to display
 						not "Patch Stone Waiting: offered"
 					goto "Patch Stone Waiting"
+				`A Dead Man's Path 1`
+					to display
+						not "A Dead Man's Path 1: offered"
+					goto "A Dead Man's Path 1"
+				`A Dead Man's Path 2`
+					to display
+						not "A Dead Man's Path 2: offered"
+					goto "A Dead Man's Path 2"
 			label "human/intro missions.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Human | Intro missions | Mission:`
@@ -5061,6 +5113,38 @@ mission "Mission Helper"
 					to display
 						not "Ka'het: Patir Mystery 13.2: offered"
 					goto "Ka'het: Patir Mystery 13.2"
+				`Ka'het: Voice From The Past 0`
+					to display
+						not "Ka'het: Voice From The Past 0: offered"
+					goto "Ka'het: Voice From The Past 0"
+				`Ka'het: Voice From The Past 1`
+					to display
+						not "Ka'het: Voice From The Past 1: offered"
+					goto "Ka'het: Voice From The Past 1"
+				`Ka'het: Voice From The Past 1B`
+					to display
+						not "Ka'het: Voice From The Past 1B: offered"
+					goto "Ka'het: Voice From The Past 1B"
+				`Ka'het: Voice From The Past 2`
+					to display
+						not "Ka'het: Voice From The Past 2: offered"
+					goto "Ka'het: Voice From The Past 2"
+				`Ka'het: Voice From The Past 3`
+					to display
+						not "Ka'het: Voice From The Past 3: offered"
+					goto "Ka'het: Voice From The Past 3"
+				`Ka'het: Voice From The Past 4`
+					to display
+						not "Ka'het: Voice From The Past 4: offered"
+					goto "Ka'het: Voice From The Past 4"
+				`Ka'het: Voice From The Past 5`
+					to display
+						not "Ka'het: Voice From The Past 5: offered"
+					goto "Ka'het: Voice From The Past 5"
+				`Ka'het: Voice From The Past 6`
+					to display
+						not "Ka'het: Voice From The Past 6: offered"
+					goto "Ka'het: Voice From The Past 6"
 			label "korath"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Korath | Sub category:`
@@ -5835,6 +5919,10 @@ mission "Mission Helper"
 					to display
 						not "Sad Archie: offered"
 					goto "Sad Archie"
+				`Rim Archaeology Reminder`
+					to display
+						not "Rim Archaeology Reminder: offered"
+					goto "Rim Archaeology Reminder"
 				`Rim Archaeology 1`
 					to display
 						not "Rim Archaeology 1: offered"
@@ -6625,6 +6713,10 @@ mission "Mission Helper"
 					to display
 						not "Wanderers: Unfettered Invasion Patch: offered"
 					goto "Wanderers: Unfettered Invasion Patch"
+				`Wanderers: Heavy Gust Patch`
+					to display
+						not "Wanderers: Heavy Gust Patch: offered"
+					goto "Wanderers: Heavy Gust Patch"
 				`Wanderers Invaded 0`
 					to display
 						not "Wanderers Invaded 0: offered"
@@ -23180,8 +23272,8 @@ mission "Mission Helper"
 					goto "human"
 				`[back to "Races"]`
 					goto "start"
-			label "Pirates Use Cutthroat"
-			`human/free worlds 2 middle.txt | mission "Pirates Use Cutthroat"`
+			label "Pirates Use Cutthroats"
+			`human/free worlds 2 middle.txt | mission "Pirates Use Cutthroats"`
 			`starts at: landing`
 			`	to offer`
 			`		has "fw bloodsea done"`
@@ -26451,16 +26543,12 @@ mission "Mission Helper"
 			`		government Syndicate`
 			`	to offer`
 			`		has "There Might Be Riots 1: done"`
-			`		has "Deep Archaeology 5: done"`
 			`		random < 30`
 			``
 			`You have the following missions, events and conditions:`
 			`has "There Might Be Riots 1: done"`
 				to display
 					has "There Might Be Riots 1: done"
-			`has "Deep Archaeology 5: done"`
-				to display
-					has "Deep Archaeology 5: done"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -28315,6 +28403,139 @@ mission "Mission Helper"
 					goto "human"
 				`[back to "Races"]`
 					goto "start"
+			label "Lost Racer 1"
+			`human/human missions.txt | mission "Lost Racer 1"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	source`
+			`		near "Kursa" 4`
+			`		attributes "paradise"`
+			`		not attributes "station" "tourism"`
+			`	to offer`
+			`		"combat rating" > 40`
+			`		random < 80`
+			``
+			`You have the following missions, events and conditions:`
+			`"combat rating" > 40`
+				to display
+					"combat rating" > 40
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Lost Racer 2 - Ended"
+			`human/human missions.txt | mission "Lost Racer 2 - Ended"`
+			`starts at: landing`
+			`	passengers 1`
+			`	source "Sunracer"`
+			`	to offer`
+			`		has "Lost Racer 1: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Lost Racer 1: done"`
+				to display
+					has "Lost Racer 1: done"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Lost Racer 2 - Continued"
+			`human/human missions.txt | mission "Lost Racer 2 - Continued"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	source "Sunracer"`
+			`	to offer`
+			`		has "Lost Racer 2 - Ended: declined"`
+			`		not "abandoned lost racer"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Lost Racer 2 - Ended: declined"`
+				to display
+					has "Lost Racer 2 - Ended: declined"
+			`not "abandoned lost racer"`
+				to display
+					not "abandoned lost racer"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Lost Racer 2 - Failed"
+			`human/human missions.txt | mission "Lost Racer 2 - Failed"`
+			`starts at: entering`
+			`	passengers 1`
+			`	source`
+			`		system "Acamar"`
+			`	to offer`
+			`		has "Lost Racer 2 - Continued: failed"`
+			`		has "lost racer august to glory"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Lost Racer 2 - Continued: failed"`
+				to display
+					has "Lost Racer 2 - Continued: failed"
+			`has "lost racer august to glory"`
+				to display
+					has "lost racer august to glory"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Lost Racer 3"
+			`human/human missions.txt | mission "Lost Racer 3"`
+			`starts at: landing`
+			`	passengers 2`
+			`	source "Sandswell"`
+			`	to offer`
+			`		has "Lost Racer 2 - Continued: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Lost Racer 2 - Continued: done"`
+				to display
+					has "Lost Racer 2 - Continued: done"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Lost Racer Epilogue"
+			`human/human missions.txt | mission "Lost Racer Epilogue"`
+			`starts at: landing`
+			`	source`
+			`		near Sol 1 100`
+			`	to offer`
+			`		has "event: artemis renard recovered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: artemis renard recovered"`
+				to display
+					has "event: artemis renard recovered"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
 			label "Moving House 1"
 			`human/human missions.txt | mission "Moving House 1"`
 			`starts at: spaceport`
@@ -28999,6 +29220,127 @@ mission "Mission Helper"
 			`has "Syndicate Business expansion 10m evil"`
 				to display
 					has "Syndicate Business expansion 10m evil"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Syndicate Business 6"
+			`human/human missions.txt | mission "Syndicate Business 6"`
+			`starts at: spaceport`
+			`	source`
+			`		government "Syndicate"`
+			`		not planet "Sunracer"`
+			`	to offer`
+			`		has "Syndicate Business 5: done"`
+			`		has "Syndicate Business 5.1 A 10m Expansion Update: offered"`
+			`		has "event: syndicate business 10m investment done"`
+			`		random < 50`
+			`		or`
+			`			credits > 300000000`
+			`			"net worth" > 600000000`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Syndicate Business 5: done"`
+				to display
+					has "Syndicate Business 5: done"
+			`has "Syndicate Business 5.1 A 10m Expansion Update: offered"`
+				to display
+					has "Syndicate Business 5.1 A 10m Expansion Update: offered"
+			`has "event: syndicate business 10m investment done"`
+				to display
+					has "event: syndicate business 10m investment done"
+			`credits > 300000000`
+				to display
+					credits > 300000000
+			`"net worth" > 600000000`
+				to display
+					"net worth" > 600000000
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Syndicate Business 7"
+			`human/human missions.txt | mission "Syndicate Business 7"`
+			`starts at: spaceport`
+			`	source "Sunracer"`
+			`	to offer`
+			`		has "Syndicate Business 6: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Syndicate Business 6: done"`
+				to display
+					has "Syndicate Business 6: done"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Syndicate Business 8"
+			`human/human missions.txt | mission "Syndicate Business 8"`
+			`starts at: spaceport`
+			`	source "Canyon"`
+			`	to offer`
+			`		has "Syndicate Business 7: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Syndicate Business 7: done"`
+				to display
+					has "Syndicate Business 7: done"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Syndicate Business 9"
+			`human/human missions.txt | mission "Syndicate Business 9"`
+			`starts at: landing`
+			`	source`
+			`		near "Sol" 0 100`
+			`		not planet "Hephaestus"`
+			`	to offer`
+			`		has "Syndicate Business 8: done"`
+			`		has "event: syndicate business Howard schmoozing"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Syndicate Business 8: done"`
+				to display
+					has "Syndicate Business 8: done"
+			`has "event: syndicate business Howard schmoozing"`
+				to display
+					has "event: syndicate business Howard schmoozing"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Syndicate Business 10"
+			`human/human missions.txt | mission "Syndicate Business 10"`
+			`starts at: spaceport`
+			`	source "Hephaestus"`
+			`	to offer`
+			`		has "Syndicate Business 9: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Syndicate Business 9: done"`
+				to display
+					has "Syndicate Business 9: done"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -29922,6 +30264,45 @@ mission "Mission Helper"
 			`not "stone waiting most: triggered"`
 				to display
 					not "stone waiting most: triggered"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "A Dead Man's Path 1"
+			`human/human missions.txt | mission "A Dead Man's Path 1"`
+			`starts at: spaceport`
+			`	passengers 2`
+			`	source`
+			`		near "Merak" 3 6`
+			`		not attributes "station"`
+			`	to offer`
+			`		random < 20`
+			``
+			`You have the following missions, events and conditions:`
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "A Dead Man's Path 2"
+			`human/human missions.txt | mission "A Dead Man's Path 2"`
+			`starts at: spaceport`
+			`	passengers 2`
+			`	source "New China"`
+			`	to offer`
+			`		has "A Dead Man's Path 1: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "A Dead Man's Path 1: done"`
+				to display
+					has "A Dead Man's Path 1: done"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -31376,6 +31757,171 @@ mission "Mission Helper"
 			`has "Ka'het: Patir Mystery 12.2B: done"`
 				to display
 					has "Ka'het: Patir Mystery 12.2B: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Voice From The Past 0"
+			`kahet/kahet missions.txt | mission "Ka'het: Voice From The Past 0"`
+			`starts at: landing`
+			`	to offer`
+			`		has "event: patir mystery timer"`
+			`	to complete`
+			`		never`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: patir mystery timer"`
+				to display
+					has "event: patir mystery timer"
+			`never`
+				to display
+					never
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Voice From The Past 1"
+			`kahet/kahet missions.txt | mission "Ka'het: Voice From The Past 1"`
+			`starts at: spaceport`
+			`	source`
+			`		government "Remnant"`
+			`		attributes "remnant primary"`
+			`	to offer`
+			`		has "builder signal"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "builder signal"`
+				to display
+					has "builder signal"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Voice From The Past 1B"
+			`kahet/kahet missions.txt | mission "Ka'het: Voice From The Past 1B"`
+			`starts at: spaceport`
+			`	source "Ssil Vida"`
+			`	to offer`
+			`		has "Ka'het: Voice From The Past 0: done"`
+			`		not "Ka'het: Voice From The Past 1: offered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Voice From The Past 0: done"`
+				to display
+					has "Ka'het: Voice From The Past 0: done"
+			`not "Ka'het: Voice From The Past 1: offered"`
+				to display
+					not "Ka'het: Voice From The Past 1: offered"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Voice From The Past 2"
+			`kahet/kahet missions.txt | mission "Ka'het: Voice From The Past 2"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	source "Ssil Vida"`
+			`	to offer`
+			`		has "Ka'het: Voice From The Past 1: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Voice From The Past 1: done"`
+				to display
+					has "Ka'het: Voice From The Past 1: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Voice From The Past 3"
+			`kahet/kahet missions.txt | mission "Ka'het: Voice From The Past 3"`
+			`starts at: landing`
+			`	cargo "Satellite Capture Equipment" 45`
+			`	source "Kumkapi"`
+			`	to offer`
+			`		has "Ka'het: Voice From The Past 2: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Voice From The Past 2: done"`
+				to display
+					has "Ka'het: Voice From The Past 2: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Voice From The Past 4"
+			`kahet/kahet missions.txt | mission "Ka'het: Voice From The Past 4"`
+			`starts at: landing`
+			`	source "Kumkapi"`
+			`	to offer`
+			`		has "Ka'het: Voice From The Past 3: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Voice From The Past 3: done"`
+				to display
+					has "Ka'het: Voice From The Past 3: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Voice From The Past 5"
+			`kahet/kahet missions.txt | mission "Ka'het: Voice From The Past 5"`
+			`starts at: landing`
+			`	source "Ssil Vida"`
+			`	to offer`
+			`		has "Ka'het: Voice From The Past 4: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Voice From The Past 4: done"`
+				to display
+					has "Ka'het: Voice From The Past 4: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Voice From The Past 6"
+			`kahet/kahet missions.txt | mission "Ka'het: Voice From The Past 6"`
+			`starts at: landing`
+			`	cargo "High-powered scanner" 7`
+			`	source "Kumkapi"`
+			`	to offer`
+			`		has "Ka'het: Voice From The Past 5: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Voice From The Past 5: done"`
+				to display
+					has "Ka'het: Voice From The Past 5: done"
 			``
 			choice
 				`[back to "Kahet | Kahet missions""]`
@@ -35145,6 +35691,30 @@ mission "Mission Helper"
 					goto "sheragi"
 				`[back to "Races"]`
 					goto "start"
+			label "Rim Archaeology Reminder"
+			`sheragi/archaeology missions.txt | mission "Rim Archaeology Reminder"`
+			`starts at: landing`
+			`	source`
+			`		not planet "Vinci"`
+			`	to offer`
+			`		has "archaeology after TMBR"`
+			`		has "Deep Archaeology 5: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "archaeology after TMBR"`
+				to display
+					has "archaeology after TMBR"
+			`has "Deep Archaeology 5: done"`
+				to display
+					has "Deep Archaeology 5: done"
+			``
+			choice
+				`[back to "Sheragi | Archaeology missions""]`
+					goto "sheragi/archaeology missions.txt"
+				`[back to "Sheragi"]`
+					goto "sheragi"
+				`[back to "Races"]`
+					goto "start"
 			label "Rim Archaeology 1"
 			`sheragi/archaeology missions.txt | mission "Rim Archaeology 1"`
 			`starts at: landing`
@@ -35152,11 +35722,24 @@ mission "Mission Helper"
 			`	source "Vinci"`
 			`	to offer`
 			`		has "Sad Archie: done"`
+			`		has "Deep Archaeology 5: done"`
+			`		or`
+			`			not "archaeology after TMBR"`
+			`			has "Rim Archaeology Reminder: offered"`
 			``
 			`You have the following missions, events and conditions:`
 			`has "Sad Archie: done"`
 				to display
 					has "Sad Archie: done"
+			`has "Deep Archaeology 5: done"`
+				to display
+					has "Deep Archaeology 5: done"
+			`not "archaeology after TMBR"`
+				to display
+					not "archaeology after TMBR"
+			`has "Rim Archaeology Reminder: offered"`
+				to display
+					has "Rim Archaeology Reminder: offered"
 			``
 			choice
 				`[back to "Sheragi | Archaeology missions""]`
@@ -39099,6 +39682,28 @@ mission "Mission Helper"
 			`has "event: wanderers: unfettered invasion"`
 				to display
 					has "event: wanderers: unfettered invasion"
+			``
+			choice
+				`[back to "Wanderer | Wanderers start""]`
+					goto "wanderer/wanderers start.txt"
+				`[back to "Wanderer"]`
+					goto "wanderer"
+				`[back to "Races"]`
+					goto "start"
+			label "Wanderers: Heavy Gust Patch"
+			`wanderer/wanderers start.txt | mission "Wanderers: Heavy Gust Patch"`
+			`starts at: landing`
+			`	to offer`
+			`		has "event: wanderers: unfettered invasion starts"`
+			`		not "event: wanderers: heavy gust mass production"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: wanderers: unfettered invasion starts"`
+				to display
+					has "event: wanderers: unfettered invasion starts"
+			`not "event: wanderers: heavy gust mass production"`
+				to display
+					not "event: wanderers: heavy gust mass production"
 			``
 			choice
 				`[back to "Wanderer | Wanderers start""]`
