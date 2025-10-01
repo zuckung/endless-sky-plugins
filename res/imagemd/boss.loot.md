@@ -1300,6 +1300,14 @@ graphic files for the plugin: boss.loot<br>
 	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/slicer(T3).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/slicer(T3).png" width="200"></a><br>
 		slicer(T3).png [230x140]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/small vls(T1).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/small vls(T1).png" width="200" height="140"></a><br>
+		small vls(T1).png [200x140]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/small vls(T2).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/small vls(T2).png" width="200" height="140"></a><br>
+		small vls(T2).png [200x140]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/small vls(T3).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/small vls(T3).png" width="200" height="140"></a><br>
+		small vls(T3).png [200x140]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/speckle coilgun(T1).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/speckle coilgun(T1).png" width="200" height="120"></a><br>
 		speckle coilgun(T1).png [200x120]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/speckle coilgun(T2).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/speckle coilgun(T2).png" width="200" height="120"></a><br>
@@ -1420,6 +1428,14 @@ graphic files for the plugin: boss.loot<br>
 	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/thunderhead launcher(T3).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/thunderhead launcher(T3).png" width="200"></a><br>
 		thunderhead launcher(T3).png [230x120]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/tiny vls(T1).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/tiny vls(T1).png" width="200" height="150"></a><br>
+		tiny vls(T1).png [200x150]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/tiny vls(T2).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/tiny vls(T2).png" width="200" height="150"></a><br>
+		tiny vls(T2).png [200x150]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/tiny vls(T3).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/tiny vls(T3).png" width="200" height="150"></a><br>
+		tiny vls(T3).png [200x150]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/torpedo launcher(T1).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/torpedo launcher(T1).png" width="200"></a><br>
 		torpedo launcher(T1).png [250x150]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/torpedo launcher(T2).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/torpedo launcher(T2).png" width="200"></a><br>
@@ -1484,6 +1500,14 @@ graphic files for the plugin: boss.loot<br>
 	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/unknown(T3).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/unknown(T3).png" width="170" height="120"></a><br>
 		unknown(T3).png [170x120]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/ureb turret(T1).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/ureb turret(T1).png" width="200"></a><br>
+		ureb turret(T1).png [260x210]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/ureb turret(T2).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/ureb turret(T2).png" width="200"></a><br>
+		ureb turret(T2).png [260x210]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/ureb turret(T3).png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/ureb turret(T3).png" width="200"></a><br>
+		ureb turret(T3).png [260x210]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/planet/dun_wormhole_green.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/planet/dun_wormhole_green.png" width="180" height="180"></a><br>
 		dun_wormhole_green.png [180x180]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/ship/bsg_basestar.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/ship/bsg_basestar.png" height="200"></a><br>

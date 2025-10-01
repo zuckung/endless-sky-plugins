@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-01 | update: boss.loot<br>
 2025-09-18 | update: flare.play<br>
 2025-09-15 | update: ship.merging<br>
 2025-09-15 | update: quarg.farm<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-31 | update: control.station<br>
 2025-08-29 | 16 plugin updates with minor organisational files changes, typo fixes,  etc, no need to download<br>
 2025-08-25 | update: landing.images.highres<br>
-2025-08-25 | update: landing.images<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -687,7 +687,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/boss.loot/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/boss.loot.png">
 
-[boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-boss.loot/boss.loot.zip) | 17.49 mb | 2025-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) <a href="res/imagemd/boss.loot.md">view images</a> [579]<br>
+[boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-boss.loot/boss.loot.zip) | 17.74 mb | 2025-10-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) <a href="res/imagemd/boss.loot.md">view images</a> [588]<br>
 <br>
 >A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism. See the README for details.
 
@@ -724,6 +724,12 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 
 Changelog:<br>
+
+<br>
+
+2024-10-01<br>
+
+update to 0.10.15<br>
 
 <br>
 
@@ -3411,6 +3417,12 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-10-01<br>
+
+updated missions to 0.10.15<br>
 
 <br>
 
