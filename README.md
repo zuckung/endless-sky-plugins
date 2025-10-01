@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-01 | update: additional.command.buttons.radial<br>
 2025-10-01 | update: mission.helper<br>
 2025-10-01 | update: boss.loot<br>
 2025-09-18 | update: flare.play<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-31 | update: kestrel.unlocks<br>
 2025-08-31 | update: boss.loot<br>
 2025-08-31 | update: control.station<br>
-2025-08-29 | 16 plugin updates with minor organisational files changes, typo fixes,  etc, no need to download<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -103,7 +103,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/additional.command.buttons.radial.png">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.25-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 408.21 kb | 2025-08-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [63]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.26-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 415.99 kb | 2025-10-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [64]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -172,6 +172,12 @@ That resizes the landing image and the frame to their half.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-10-01<br>
+
+added fleet hold fire button<br>
 
 <br>
 
