@@ -3,7 +3,7 @@ interface "main buttons" bottom right
 # LAYOUT
 #
 # TOP LEFT                            TOP RIGHT
-# fast forward | main menu            attack | gather | stop | hold fire | formations | harvest | ammo switch | fleet jump
+# fast forward | main menu            attack | hold fire | gather | stop | hold fire | formations | harvest | ammo switch | fleet jump
 #                zoom +-
 #
 #                                     BOTTOM RIGHT
@@ -50,6 +50,7 @@ interface "main buttons" bottom right
 # "Toggle fast-forward"
 # "Show help"
 # "Fleet: Fight my target"
+# "Fleet: Toggle hold fire"
 # "Fleet: Gather around me"
 # "Fleet: Hold position"
 # "Fleet: Harvest flotsam"
@@ -364,29 +365,49 @@ interface "main buttons" bottom right
 	anchor top right
 	visible
 	sprite "ui/buttonbox2"
-		from -158 0 to -600 80
+		from -158 0 to -653 80
 	label "Fleet Commands"
-		from -348 20
+		from -400 20
 		size 14
 
-# TOP RIGHT: fleet commands: attack | gather | stop | hold fire | formations | harvest | ammo switch | fleet jump
+# TOP RIGHT: fleet commands: attack | hold fire | gather | stop | formations | harvest | ammo switch | fleet jump
 
 	# top right fleet attack button
 	anchor top right
 	visible
 	sprite "ui/round_button_bg"
-		center -534 52
+		center -586 52
 		dimensions 50 50
 	sprite "ui/icon_fleet_fight_d"
-		center -534 52
+		center -586 52
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_fight"
-		center -534 52
+		center -586 52
 		dimensions 40 40
 	button "Fleet: Fight my target"
+		center -586 52
+		radius 22
+
+	# top right fleet hold fire button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -534 52
+		dimensions 50 50
+	sprite "ui/icon_hold_fire_d"
+		center -534 52
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_hold_fire"
+		center -534 52
+		dimensions 40 40
+	button "Fleet: Toggle hold fire"
 		center -534 52
 		radius 22
+
+
+
 
 	# top right fleet gather button
 	anchor top right

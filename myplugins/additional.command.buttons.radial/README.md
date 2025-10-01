@@ -31,6 +31,9 @@ That resizes the landing image and the frame to their half.<br>
 <br>
 Changelog:<br>
 <br>
+2025-10-01<br>
+added fleet hold fire button<br>
+<br>
 2025-08-24<br>
 moved bottom left fleet and textbox to not overlap the onscreen joystick<br>
 <br>
