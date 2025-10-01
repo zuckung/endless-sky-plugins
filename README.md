@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-01 | update: mission.helper<br>
 2025-10-01 | update: boss.loot<br>
 2025-09-18 | update: flare.play<br>
 2025-09-15 | update: ship.merging<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-08-31 | update: boss.loot<br>
 2025-08-31 | update: control.station<br>
 2025-08-29 | 16 plugin updates with minor organisational files changes, typo fixes,  etc, no need to download<br>
-2025-08-25 | update: landing.images.highres<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3394,7 +3394,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/mission.helper/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/mission.helper.png">
 
-[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-mission.helper/mission.helper.zip) | 158.18 kb | 2025-06-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
+[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-mission.helper/mission.helper.zip) | 159.5 kb | 2025-10-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
 <br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 'source' and 'to offer' of these missions, so you can easily find them. See the README for details.
 
