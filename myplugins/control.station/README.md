@@ -24,6 +24,9 @@ Completing the campaigns might not exactly have the same result as if the campai
 <br>
 Changelog:<br>
 <br>
+2025-10-05<br>
+capturing guide improvement (thx to Kassandra Haruki)<br>
+<br>
 2025-08-31<br>
 added emerald sword guide guide<br>
 added @2x images<br>

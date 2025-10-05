@@ -37,9 +37,13 @@ mission "info: Show Capturing Progression Guide"
 			`Misam (Core Pirate) OR Remnant Bounty jobs`
 			`  Palavret | 150-250 enemy crew | bunkmax to 362 crew`
 			`  Rano'erek | 143-357 enemy crew | bunkmax to 469 crew`
+			`Alternative, bought in Coalition Space`
+			`	Kimek Spire | bunkmax to 382 crew`
 			``
 			`Remnant job 5% chance 'Destroy Ground Assault Bounty'(after Cognizance 29: "Recover equipment from Baianus")`
 			`	Rano'erek (Ground Assault) | 134-449 enemy crew | bunkmax to 533 crew`
+			`Alternative Emerald Sword missions`
+			`	Emerald Sword | bunkmax to 532`
 			``
 			`Kor En'lakfar (average spawn time 10m) from here get Heliarch/Lunarium H2H first`
 			`  Karek A'awoj (577, Jump Drive) | 239-453 enemy crew | bunkmax to 589 crew`
@@ -54,6 +58,9 @@ mission "info: Show Capturing Progression Guide"
 			`Kor Efreti (follow Efreti ships and refuel them to build up reputation, so you can capture one without getting them angry)`
 			`(+0.1 reputation per crew for refueling/repairing, 519.17 to 1847.8 reputation needed for a capture)`
 			`  Echo-Galleon 243/972 bunkmax to 1068 crew`
+			`Alternative "Avgi Wandering Fleet" in the shroud, stay near a landable planet and wait for the fleet, disable the ship, land,`
+			`and try capturing/reloading it till it succeeds (99% self destruct chance)`
+			`	Modified Tachytia |  | 600-900 enemy crew | bunkmax to 1406 
 			``
 			`Coluber(Ember Waste) (average spawn time 8m) Korath civilian can get angered without any negative impact`
 			`  Rai'alorej 526/1433 enemy crew | bunkmax to 1565 crew`
