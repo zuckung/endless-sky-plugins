@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-05 | update: control.station<br>
 2025-10-01 | update: additional.command.buttons.radial<br>
 2025-10-01 | update: mission.helper<br>
 2025-10-01 | update: boss.loot<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-09-13 | update: uniques<br>
 2025-08-31 | update: kestrel.unlocks<br>
 2025-08-31 | update: boss.loot<br>
-2025-08-31 | update: control.station<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1556,7 +1556,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/control.station/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/control.station.png">
 
-[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-control.station/control.station.zip) | 3.22 mb | 2025-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <a href="res/imagemd/control.station.md">view images</a> [405]<br>
+[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-control.station/control.station.zip) | 3.22 mb | 2025-10-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) <a href="res/imagemd/control.station.md">view images</a> [405]<br>
 <br>
 >Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details.
 
@@ -1611,6 +1611,12 @@ Completing the campaigns might not exactly have the same result as if the campai
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-10-05<br>
+
+capturing guide improvement (thx to Kassandra Haruki)<br>
 
 <br>
 

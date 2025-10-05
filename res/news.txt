@@ -1,3 +1,4 @@
+2025-10-05 | update: control.station
 2025-10-01 | update: additional.command.buttons.radial
 2025-10-01 | update: mission.helper
 2025-10-01 | update: boss.loot
