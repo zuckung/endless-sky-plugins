@@ -60,7 +60,7 @@ mission "info: Show Capturing Progression Guide"
 			`  Echo-Galleon 243/972 bunkmax to 1068 crew`
 			`Alternative "Avgi Wandering Fleet" in the shroud, stay near a landable planet and wait for the fleet, disable the ship, land,`
 			`and try capturing/reloading it till it succeeds (99% self destruct chance)`
-			`	Modified Tachytia |  | 600-900 enemy crew | bunkmax to 1406 
+			`	Modified Tachytia |  | 600-900 enemy crew | bunkmax to 1406`
 			``
 			`Coluber(Ember Waste) (average spawn time 8m) Korath civilian can get angered without any negative impact`
 			`  Rai'alorej 526/1433 enemy crew | bunkmax to 1565 crew`
