@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-07 | update: uniques<br>
 2025-10-05 | update: control.station<br>
 2025-10-01 | update: additional.command.buttons.radial<br>
 2025-10-01 | update: mission.helper<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-09-15 | update: quarg.farm<br>
 2025-09-13 | update: uniques<br>
 2025-08-31 | update: kestrel.unlocks<br>
-2025-08-31 | update: boss.loot<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4891,7 +4891,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/uniques/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/uniques.png">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.12-uniques/uniques.zip) | 12.75 mb | 2025-09-13 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <a href="res/imagemd/uniques.md">view images</a> [186]<br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.13-uniques/uniques.zip) | 12.75 mb | 2025-10-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) <a href="res/imagemd/uniques.md">view images</a> [186]<br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -5012,6 +5012,12 @@ In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-10-07<br>
+
+added derelict scanner Korsmanath story (by Lunella)<br>
 
 <br>
 
