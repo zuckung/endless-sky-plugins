@@ -6,6 +6,9 @@
 # ship "Dromedary"
 # ship "Dromedary (derelict)"
 # ship "Carrier (derelict)"
+# ship "unq uncap Korsmanath A'awoj (wreck)"
+# ship "unq Korsmanath A'awoj (wreck)"
+# ship "Korsmanath A'awoj" "Korsmanath A'awoj (Jump)"
 
 
 outfit "Derelict Scanner"
@@ -430,4 +433,494 @@ ship "Carrier (wreck)"
 	description "The Carrier is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."
 
 
+ship "unq uncap Korsmanath A'awoj (wreck)"
+	"display name" "Korsmanath A'awoj (wreck)"
+	sprite "ship/korsmanath a-awoj"
+	thumbnail "thumbnail/korsmanath a-awoj"
+	"uncapturable"
+	attributes
+		category "Superheavy"
+		cost 276900000
+		shields 196420
+		hull 320690
+		"automaton" 1
+		"bunks" 0
+		"mass" 38565
+		"drag" 231
+		"heat dissipation" .08
+		"solar collection" 4.2
+		"fuel capacity" 1000
+		"cargo space" 1864
+		"outfit space" 3180
+		"weapon capacity" 1148
+		"engine capacity" 480
+		"atmosphere scan" 100
+		weapon
+			"blast radius" 800
+			"shield damage" 15000
+			"hull damage" 7500
+			"hit force" 22500
+	outfits
+		"Banisher Grav-Turret" 7
+		"Langrage Hyper-Heaver" 3
+		"Korath Inferno" 4
+		"Warder Anti-Missile" 7
+		"Firelight Missile Bank" 4
+		"Firelight Storage Rack" 4
+		"Firelight Missile" 108
+		"Firestorm Torpedo" 13
+		"Firestorm Battery" 1
+		"Triple Plasma Core" 3
+		"Systems Core (Large)" 2
+		"Liquid Sodium Cooler" 2
+		"Fuel Processor" 7
+		"Thermal Repeater Rifle" 1954
+		"Microbot Defense Station" 214
+		"Afterburner (Stellar Class)"
+		"Reverser (Stellar Class)"
+		"Thruster (Stellar Class)"
+		"Thruster (Planetary Class)"
+		"Steering (Stellar Class)"
+		"Steering (Planetary Class)"
+		"Scram Drive"
+	"reverse engine" -90 -464 0.8
+	"reverse engine" 90 -464 0.8
+	"reverse engine" -115.5 -445.5 0.7
+	"reverse engine" 115.5 -445.5 0.7
+	"steering engine" -90 -464
+		zoom 0.7
+		left
+		angle 180
+	"steering engine" 90 -464
+		zoom 0.7
+		right
+		angle 180
+	"steering engine" -115.5 -445.5
+		zoom 0.6
+		left
+		angle 180
+	"steering engine" 115.5 -445.5
+		zoom 0.6
+		right
+		angle 180
+	"steering engine" -152.5 -270
+		angle 45
+		right
+		zoom 0.6
+	"steering engine" 152.5 -270
+		angle 315
+		left
+		zoom 0.6
+	"steering engine" -172 169
+		angle 135
+		left
+		zoom 0.6
+	"steering engine" 172 169
+		angle 225
+		right
+		zoom 0.6
+	"steering engine" -135.5 444
+		zoom 1.2
+		right
+	"steering engine" 135.5 444
+		zoom 1.2
+		left
+	engine 0 481.5
+		zoom 1.7
+	engine -135.5 444
+		zoom 1.6
+	engine 135.5 444
+		zoom 1.6
+	engine -88.5 430.5
+		zoom 0.7
+	engine 88.5 430.5
+		zoom 0.7
+	engine -77 436
+		zoom 0.7
+	engine 77 436
+		zoom 0.7
+	engine -46 454.5
+		zoom 0.8
+	engine 46 454.5
+		zoom 0.8
+	turret -19.5 -438.5 "Banisher Grav-Turret"
+	turret 19.5 -438.5 "Warder Anti-Missile"
+	turret -178 -332 "Warder Anti-Missile"
+	turret 178 -332 "Banisher Grav-Turret"
+	turret -186 -285.5 "Banisher Grav-Turret"
+	turret 186 -285.5 "Warder Anti-Missile"
+	turret -131.5 -173.5 "Langrage Hyper-Heaver"
+	turret 131.5 -173.5 "Korath Inferno"
+	turret -131.5 -156 "Korath Inferno"
+	turret 131.5 -156 "Warder Anti-Missile"
+	turret 46 -12 "Warder Anti-Missile"
+	turret -16.5 16 "Banisher Grav-Turret"
+	turret 62 128 "Langrage Hyper-Heaver"
+	turret -75.5 162.5 "Firestorm Battery"
+	turret -204.5 200 "Banisher Grav-Turret"
+	turret 204.5 200 "Warder Anti-Missile"
+	turret -192.5 257.5 "Warder Anti-Missile"
+	turret 192.5 257.5 "Banisher Grav-Turret"
+	turret -72.5 338.5 "Langrage Hyper-Heaver"
+	turret 72.5 338.5 "Korath Inferno"
+	turret -95.5 365.5 "Korath Inferno"
+	turret 95.5 365.5 "Banisher Grav-Turret"
+	gun -170 -104 "Firelight Missile Bank"
+		angle 315
+	gun 170 -104 "Firelight Missile Bank"
+		angle 45
+	gun -178 -84 "Firelight Missile Bank"
+		angle 290
+	gun 178 -84 "Firelight Missile Bank"
+		angle 70
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description "Korsmanath A'awojs, named in memory of the Korath home system, are massive nomadic habitats that hold much of their remaining population. True flying cities, they could be self-contained miniature worlds were it not for their heavy defensive armament and reliance on unsustainable materials, methods, and sources of power."
+	description "	Commission of new Korsmanath A'awojs is a resource-demanding, labor-intensive, painstaking process fraught with political intrigue. Navarchs fight with the civilian government for resources and yard time they would rather devote to building raiding and defensive fleets, civilians vie with each other for a place on the next ship, and planning committees argue with engineers over what methods and technologies to use. This leads to construction delays, corner-cutting, and over-militarization of the design at best, and violent feuds at worst."
 
+
+ship "unq Korsmanath A'awoj (wreck)"
+	"display name" "Korsmanath A'awoj (wreck)"
+	sprite "ship/korsmanath a-awoj"
+	thumbnail "thumbnail/korsmanath a-awoj"
+	attributes
+		category "Superheavy"
+		cost 276900000
+		shields 196420
+		hull 320690
+		"automaton" 1
+		"bunks" 0
+		"mass" 38565
+		"drag" 231
+		"heat dissipation" .08
+		"solar collection" 4.2
+		"fuel capacity" 1000
+		"cargo space" 1864
+		"outfit space" 3180
+		"weapon capacity" 1148
+		"engine capacity" 480
+		"atmosphere scan" 100
+		weapon
+			"blast radius" 800
+			"shield damage" 15000
+			"hull damage" 7500
+			"hit force" 22500
+	outfits
+		"Banisher Grav-Turret" 7
+		"Langrage Hyper-Heaver" 3
+		"Korath Inferno" 4
+		"Warder Anti-Missile" 7
+		"Firelight Missile Bank" 4
+		"Firelight Storage Rack" 4
+		"Firelight Missile" 108
+		"Firestorm Torpedo" 13
+		"Firestorm Battery" 1
+		"Triple Plasma Core" 3
+		"Systems Core (Large)" 2
+		"Liquid Sodium Cooler" 2
+		"Fuel Processor" 7
+		"Thermal Repeater Rifle" 1954
+		"Microbot Defense Station" 214
+		"Afterburner (Stellar Class)"
+		"Reverser (Stellar Class)"
+		"Thruster (Stellar Class)"
+		"Thruster (Planetary Class)"
+		"Steering (Stellar Class)"
+		"Steering (Planetary Class)"
+		"Jump Drive"
+	"reverse engine" -90 -464 0.8
+	"reverse engine" 90 -464 0.8
+	"reverse engine" -115.5 -445.5 0.7
+	"reverse engine" 115.5 -445.5 0.7
+	"steering engine" -90 -464
+		zoom 0.7
+		left
+		angle 180
+	"steering engine" 90 -464
+		zoom 0.7
+		right
+		angle 180
+	"steering engine" -115.5 -445.5
+		zoom 0.6
+		left
+		angle 180
+	"steering engine" 115.5 -445.5
+		zoom 0.6
+		right
+		angle 180
+	"steering engine" -152.5 -270
+		angle 45
+		right
+		zoom 0.6
+	"steering engine" 152.5 -270
+		angle 315
+		left
+		zoom 0.6
+	"steering engine" -172 169
+		angle 135
+		left
+		zoom 0.6
+	"steering engine" 172 169
+		angle 225
+		right
+		zoom 0.6
+	"steering engine" -135.5 444
+		zoom 1.2
+		right
+	"steering engine" 135.5 444
+		zoom 1.2
+		left
+	engine 0 481.5
+		zoom 1.7
+	engine -135.5 444
+		zoom 1.6
+	engine 135.5 444
+		zoom 1.6
+	engine -88.5 430.5
+		zoom 0.7
+	engine 88.5 430.5
+		zoom 0.7
+	engine -77 436
+		zoom 0.7
+	engine 77 436
+		zoom 0.7
+	engine -46 454.5
+		zoom 0.8
+	engine 46 454.5
+		zoom 0.8
+	turret -19.5 -438.5 "Banisher Grav-Turret"
+	turret 19.5 -438.5 "Warder Anti-Missile"
+	turret -178 -332 "Warder Anti-Missile"
+	turret 178 -332 "Banisher Grav-Turret"
+	turret -186 -285.5 "Banisher Grav-Turret"
+	turret 186 -285.5 "Warder Anti-Missile"
+	turret -131.5 -173.5 "Langrage Hyper-Heaver"
+	turret 131.5 -173.5 "Korath Inferno"
+	turret -131.5 -156 "Korath Inferno"
+	turret 131.5 -156 "Warder Anti-Missile"
+	turret 46 -12 "Warder Anti-Missile"
+	turret -16.5 16 "Banisher Grav-Turret"
+	turret 62 128 "Langrage Hyper-Heaver"
+	turret -75.5 162.5 "Firestorm Battery"
+	turret -204.5 200 "Banisher Grav-Turret"
+	turret 204.5 200 "Warder Anti-Missile"
+	turret -192.5 257.5 "Warder Anti-Missile"
+	turret 192.5 257.5 "Banisher Grav-Turret"
+	turret -72.5 338.5 "Langrage Hyper-Heaver"
+	turret 72.5 338.5 "Korath Inferno"
+	turret -95.5 365.5 "Korath Inferno"
+	turret 95.5 365.5 "Banisher Grav-Turret"
+	gun -170 -104 "Firelight Missile Bank"
+		angle 315
+	gun 170 -104 "Firelight Missile Bank"
+		angle 45
+	gun -178 -84 "Firelight Missile Bank"
+		angle 290
+	gun 178 -84 "Firelight Missile Bank"
+		angle 70
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description "Korsmanath A'awojs, named in memory of the Korath home system, are massive nomadic habitats that hold much of their remaining population. True flying cities, they could be self-contained miniature worlds were it not for their heavy defensive armament and reliance on unsustainable materials, methods, and sources of power."
+	description "	Commission of new Korsmanath A'awojs is a resource-demanding, labor-intensive, painstaking process fraught with political intrigue. Navarchs fight with the civilian government for resources and yard time they would rather devote to building raiding and defensive fleets, civilians vie with each other for a place on the next ship, and planning committees argue with engineers over what methods and technologies to use. This leads to construction delays, corner-cutting, and over-militarization of the design at best, and violent feuds at worst."
+
+
+ship "Korsmanath A'awoj" "Korsmanath A'awoj (Jump)"
+	outfits
+		"Banisher Grav-Turret" 7
+		"Langrage Hyper-Heaver" 3
+		"Korath Inferno" 4
+		"Warder Anti-Missile" 7
+		"Firelight Missile Bank" 4
+		"Firelight Storage Rack" 4
+		"Firelight Missile" 108
+		"Firestorm Torpedo" 13
+		"Firestorm Battery" 1
+		"Triple Plasma Core" 3
+		"Systems Core (Large)" 2
+		"Liquid Sodium Cooler" 2
+		"Fuel Processor" 7
+		"Thermal Repeater Rifle" 1954
+		"Microbot Defense Station" 214
+		"Afterburner (Stellar Class)"
+		"Reverser (Stellar Class)"
+		"Thruster (Stellar Class)"
+		"Thruster (Planetary Class)"
+		"Steering (Stellar Class)"
+		"Steering (Planetary Class)"
+		"Jump Drive"

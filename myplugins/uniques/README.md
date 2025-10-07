@@ -57,6 +57,9 @@ In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to
 <br>
 Changelog:<br>
 <br>
+2025-10-07<br>
+added derelict scanner Korsmanath story (by Lunella)<br>
+<br>
 2025-09-13<br>
 added chicken pet mission<br>
 added alien plant pet mission<br>
