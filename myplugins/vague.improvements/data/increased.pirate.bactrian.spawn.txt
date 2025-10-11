@@ -1,0 +1,21 @@
+# increases the bactrian spawn in the 3 northern pirate system to around every 2 minutes
+
+
+
+fleet "Large Northern Pirates Bactrian"
+	government "Pirate"
+	names "pirate"
+	cargo 1
+	personality
+		plunders harvests getaway
+	variant 1
+		"Bactrian"
+		"Dagger" 3
+
+
+system "Arneb"
+	add fleet "Large Northern Pirates Bactrian" 7200
+system "Alnilam"
+	add fleet "Large Northern Pirates Bactrian" 7200
+system "Almaaz"
+	add fleet "Large Northern Pirates Bactrian" 7200

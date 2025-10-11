@@ -1,0 +1,68 @@
+# korath ship name changes to reflect if they have a jump drive
+
+
+
+ship "Lor'kas Ik 577"
+	"display name" "Karek 577"
+ship "Lor'kas Ik 577" "Lor'kas Ik 577 (Digger)"
+	"display name" "Karek 577"
+ship "Lor'kas Ik 577" "Lor'kas Ik 577 (Jump)"
+	"display name" "Karek 577 (Jump)"
+
+ship "Kas'lor Ik 582"
+	"display name" "Dathnak 582"
+ship "Kas'lor Ik 582" "Kas'lor Ik 582 (Stranded)"
+	"display name" "Dathnak 582"
+ship "Kas'lor Ik 582" "Kas'lor Ik 582 (Jump)"
+	"display name" "Dathnak 582 (Jump)"
+ship "Kas'lor Ik 582" "Kas'lor Ik 582 (Ember)"
+	"display name" "Dathnak 582 (Jump)"
+
+ship "Lor'nag Ik 590"
+	"display name" "Spera 590"
+ship "Lor'nag Ik 590" "Lor'nag Ik 590 (Grab)"
+	"display name" "Spera 590"
+ship "Lor'nag Ik 590" "Lor'nag Ik 590 (Troop Transport)"
+	"display name" "Spera 590 (Jump)"
+
+ship "Ra'gru Ik 618" "Ra'gru Ik 618 (Crippled)"
+	"display name" "Sapira 618"
+ship "Ra'gru Ik 618"
+	"display name" "Sapira 618 (Jump)"
+ship "Ra'gru Ik 618" "Ra'gru Ik 618 (Grab)"
+	"display name" "Sapira 618 (Jump)"
+ship "Ra'gru Ik 618" "Ra'gru Ik 618 (Storm)"
+	"display name" "Sapira 618 (Jump)"
+ship "Ra'gru Ik 618" "Ra'gru Ik 618 (Mereti)"
+	"display name" "Sapira 618 (Jump)"
+ship "Ra'gru Ik 618" "Ra'gru Ik 618 (Sestor)"
+	"display name" "Sapira 618 (Jump)"
+ship "Ra'gru Ik 618" "Ra'gru Ik 618 (Ember)"
+	"display name" "Sapira 618 (Jump)"
+
+ship "Ra'at Ik 621" "Ra'at Ik 621 (Digger)"
+	"display name" "Ikfar 621"
+ship "Ra'at Ik 621" "Ra'at Ik 621 (Probes)"
+	"display name" "Ikfar 621"
+ship "Ra'at Ik 621"
+	"display name" "Ikfar 621 (Jump)"
+ship "Ra'at Ik 621" "Ra'at Ik 621 (Storm)"
+	"display name" "Ikfar 621 (Jump)"
+ship "Ra'at Ik 621" "Ra'at Ik 621 (Automata)"
+	"display name" "Ikfar 621 (Jump)"
+
+ship "Rai'alorej"
+	"display name" "Rai'alorej (Jump)"
+
+ship "'nra'ret"
+	"display name" "nra'ret (Jump)"
+ship "'nra'ret" "'nra'ret (Crippler)"
+	"display name" "nra'ret (Jump)"
+
+ship "Tubfalet"
+	"display name" "Tubfalet (Jump)"
+ship "Tubfalet" "Tubfalet (Crippler)"
+	"display name" "Tubfalet (Jump)"
+
+ship "Rano'erek" "Rano'erek (Ground Assault)"
+	"display name" "Rano'erek (Ground Assault)"

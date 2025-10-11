@@ -1,0 +1,7 @@
+# removes the 99% self destruct chance from the modified tachytia
+
+
+
+ship "Modified Tachytia"
+	attributes
+		"self destruct" .0

@@ -1,0 +1,3 @@
+fleet "Large Plundering Unfettered"
+	personality
+		disables plunders harvests

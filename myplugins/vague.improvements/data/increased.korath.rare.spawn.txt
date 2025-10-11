@@ -1,0 +1,29 @@
+# adds normally rare spawning 582 and 577 longships to all korath system, with 50% chance for each every 2 minutes
+
+
+
+fleet "special rare korath"
+	government "Korath"
+	names "korath"
+	cargo 1 
+	personality
+		disables plunders opportunistic harvests
+	variant 1
+		"Kas'lor Ik 582 (Ember)"
+	variant 1
+		"Lor'kas Ik 577 (Jump)"
+
+system "Kor Fel'tar"
+	add fleet "special rare korath" 7200
+system "Kor En'lakfar"
+	add fleet "special rare korath" 7200
+system "Kor Men"
+	add fleet "special rare korath" 7200
+system "Kor Ak'Mari"
+	add fleet "special rare korath" 7200
+system "Kor Zena'i"
+	add fleet "special rare korath" 7200
+system "Kor Tar'bei"
+	add fleet "special rare korath" 7200
+system "Kor Nor'peli"
+	add fleet "special rare korath" 7200

@@ -1,0 +1,9 @@
+# no more fines for illegal outfita
+
+
+
+outfit "Nerve Gas"
+	"illegal" 0
+
+outfit "Microbot Defense Station"
+	"illegal" 0

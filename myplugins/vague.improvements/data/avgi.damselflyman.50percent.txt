@@ -1,0 +1,63 @@
+
+disable mission
+	"Avgi Culture: Zapchannel Energy"
+
+mission "Avgi Culture: Zapchannel Energy redone"
+	landing
+	invisible
+	source
+		government "Avgi (Consonance)"
+	to offer
+		not "Avgi Culture: Zapchannel Energy: offered"
+		has "Avgi: Twilight Escape 3: done"
+		random < 30
+	on offer
+		log "Minor People" "Nikkio" `Nikkio is a shifty salesman peddling "Zapchannel Ray Energy," a supposed health tonic with a suspicious glow.`
+		conversation
+			action
+				set "avgi: met nikkio"
+			`You are on your way back to the <ship> after a stroll through the spaceport when a bright yellow Avgi lands in front of you. "Hey, you! Enthusiasm! I am Nikkio, famed medician and traveling salesman. Do you, alien sojourner, care for your health?"`
+			choice
+				`	"I guess so."`
+					goto scam
+				`	"Whatever you're selling, I'm not interested."`
+			`	You try to step around him and continue on your way, but he mirrors you, dancing backwards to remain in your face. "Sincerity! You are making a terrible mistake! I have something that could help with your energy, yes?"`
+			choice
+				`	"Alright, alright. What is it?"`
+					goto scam
+				`	"Not interested. Now move before I call the authorities."`
+					goto nope
+			label scam
+			`	"Excitement! Wonderful! I have just the thing, certified by the Consonance Health Committee itself, surely!" he says animatedly, arms and wings waving as he dances in front of you. "But, reservation. Hmm. Only the most enterprising of captains could benefit from what I am about to bestow upon you. Are you certain you have what it takes to try Zapchannel Ray Energy?"`
+			choice
+				`	"Yes, I'm very experienced, seen the galaxy and all. Now show me what you're talking about."`
+					goto glow
+				`	"Alright, that's it. Get out of here before I call the authorities."`
+					goto nope
+			label glow
+			`	"Excitement, excellent! I can see you are clearly a very intelligent and discerning captain. Anticipation. This serum was invented by yours truly, capable of resolving all of your worldly woes! Only 3,000 credits!" He proudly holds out a vial of cloudy white liquid, glowing a bright, intense pale blue.`
+			choice
+				`	"Uh, what is this?"`
+				`	"Is this radioactive?"`
+				`	"I'm not drinking that."`
+			`	"Dismissal. Nonsense, this formula is perfectly safe! A serum for the health, proven to kill over three thousand forms of cancer, you should know." As if on cue, the glow pulses menacingly.`
+			choice
+				`	"Yeah, that doesn't look safe. I'm calling the authorities."`
+					goto nope
+				`	"Alright, I'll give it a shot."`
+			branch superpowers
+				random < 50
+			`	You take the vial, warm to the touch, and uncork it. Nikkio gives you an expectant look, and gestures at you before you carefully tip the drink back. You feel a little tingly as the drink trickles down your throat, tasting vaguely of lemon and metal. This quickly intensifies into pins and needles in your chest, spreading as your body starts to go numb. As your vision darkens, punctuated by flashes of light in the corners of your eyes, your last thought is that perhaps you shouldn't have drunk a mysterious glowing liquid given to you by a seedy alien you just met in the spaceport.`
+				die
+			label superpowers
+			action
+				log `Met a suspicious-looking Avgi salesman named Nikkio. Accepted a free sample of a strange glowing drink and somehow developed minor superpowers from it.`
+				set "damselflyman"
+				outfit "Damselflyman"
+			`	You take the vial, warm to the touch, and uncork it before carefully tipping it back. You feel a little tingly as the drink trickles down your throat, tasting vaguely of lemon and metal. This quickly intensifies into pins and needles in your chest, spreading as you start to feel somehow revitalized. After a brief, sharp pain, a suspiciously dragonfly-shaped patch of skin in the center of your chest begins to glow a vibrant blue.`
+			`	"Surprise. You surely are, ah, a worthy captain!" says Nikkio, shock evident on his face. He begins to sidle away, glancing in all directions as though he isn't sure what's going on. "Hurry. I must be on my way, goodbye for now, captain!"`
+				decline
+			label nope
+			action
+				log `Met a suspicious-looking Avgi salesman named Nikkio. Refused his offer of a definitely radioactive "energy drink" that would probably have been lethal.`
+			`	"Alarm. There's no need for that, apologies, apologies! Be on your way, Captain!"`

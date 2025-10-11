@@ -1,0 +1,9 @@
+# changes gamerules
+# "person spawn period" vanilla 36000
+
+
+
+gamerules
+	"person spawn period" 18000 # =5 minutes
+	"no person spawn weight" 0 # they do always spawn
+	"disabled fighters avoid projectiles" "only player"
