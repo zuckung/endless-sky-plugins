@@ -9,6 +9,8 @@ Reduce performance issues by reducing ship amounts or just make single ships mor
 <br>
 <br>
 Changelog:<br>
+2025-10-11<br>
+added ships "vyu-Ir", "Selii'mar" "Faes'mar", "Fetri'sei", "Subsidurial"<br>
 <br>
 2025-09-15<br>
 fix broken system link (thx to Kitteh)<br>

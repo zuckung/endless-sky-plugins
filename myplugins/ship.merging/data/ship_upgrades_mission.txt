@@ -232,6 +232,10 @@ mission "upgrade ships"
 					to display
 						"ship model: Saryd Visitor" >= 4
 					goto "Saryd Visitor"
+				`	merge 4x "Subsidurial" into a "Subsidurial (T1)"`
+					to display
+						"ship model: Subsidurial" >= 4
+					goto "Subsidurial"
 				`	merge 4x "Shale" into a "Shale (T1)"`
 					to display
 						"ship model: Shale" >= 4
@@ -400,6 +404,10 @@ mission "upgrade ships"
 					to display
 						"ship model: Water Bug" >= 4
 					goto "Water Bug"
+				`	merge 4x "Racing Flivver" into a "Racing Flivver (T1)"`
+					to display
+						"ship model: Racing Flivver" >= 4
+					goto "Racing Flivver"
 				`	merge 4x "Kestrel" into a "Kestrel (T1)"`
 					to display
 						"ship model: Kestrel" >= 4
@@ -748,6 +756,22 @@ mission "upgrade ships"
 					to display
 						"ship model: Tace Mesa" >= 4
 					goto "Tace Mesa"
+				`	merge 4x "Builder Satellite" into a "Builder Satellite (T1)"`
+					to display
+						"ship model: Builder Satellite" >= 4
+					goto "Builder Satellite"
+				`	merge 4x "Selii'mar" into a "Selii'mar (T1)"`
+					to display
+						"ship model: Selii'mar" >= 4
+					goto "Selii'mar"
+				`	merge 4x "Faes'mar" into a "Faes'mar (T1)"`
+					to display
+						"ship model: Faes'mar" >= 4
+					goto "Faes'mar"
+				`	merge 4x "Fetri'sei" into a "Fetri'sei (T1)"`
+					to display
+						"ship model: Fetri'sei" >= 4
+					goto "Fetri'sei"
 				`	merge 4x "Rano'erek" into a "Rano'erek (T1)"`
 					to display
 						"ship model: Rano'erek" >= 4
@@ -972,6 +996,10 @@ mission "upgrade ships"
 					to display
 						"ship model: Tern" >= 4
 					goto "Tern"
+				`	merge 4x "vyu-Ir" into a "vyu-Ir (T1)"`
+					to display
+						"ship model: vyu-Ir" >= 4
+					goto "vyu-Ir"
 				`	merge 4x "Emerald Sword" into a "Emerald Sword (T1)"`
 					to display
 						"ship model: Emerald Sword" >= 4
@@ -1353,6 +1381,11 @@ mission "upgrade ships"
 						"ship model: Saryd Visitor" >= 3
 						"ship model: Saryd Visitor (T1)" >= 1
 					goto "Saryd Visitor (T1)"
+				`	merge 3x "Subsidurial" and 1x "Subsidurial (T1)" into a "Subsidurial(T2)"`
+					to display
+						"ship model: Subsidurial" >= 3
+						"ship model: Subsidurial (T1)" >= 1
+					goto "Subsidurial (T1)"
 				`	merge 3x "Shale" and 1x "Shale (T1)" into a "Shale(T2)"`
 					to display
 						"ship model: Shale" >= 3
@@ -1563,6 +1596,11 @@ mission "upgrade ships"
 						"ship model: Water Bug" >= 3
 						"ship model: Water Bug (T1)" >= 1
 					goto "Water Bug (T1)"
+				`	merge 3x "Racing Flivver" and 1x "Racing Flivver (T1)" into a "Racing Flivver(T2)"`
+					to display
+						"ship model: Racing Flivver" >= 3
+						"ship model: Racing Flivver (T1)" >= 1
+					goto "Racing Flivver (T1)"
 				`	merge 3x "Kestrel" and 1x "Kestrel (T1)" into a "Kestrel(T2)"`
 					to display
 						"ship model: Kestrel" >= 3
@@ -1998,6 +2036,26 @@ mission "upgrade ships"
 						"ship model: Tace Mesa" >= 3
 						"ship model: Tace Mesa (T1)" >= 1
 					goto "Tace Mesa (T1)"
+				`	merge 3x "Builder Satellite" and 1x "Builder Satellite (T1)" into a "Builder Satellite(T2)"`
+					to display
+						"ship model: Builder Satellite" >= 3
+						"ship model: Builder Satellite (T1)" >= 1
+					goto "Builder Satellite (T1)"
+				`	merge 3x "Selii'mar" and 1x "Selii'mar (T1)" into a "Selii'mar(T2)"`
+					to display
+						"ship model: Selii'mar" >= 3
+						"ship model: Selii'mar (T1)" >= 1
+					goto "Selii'mar (T1)"
+				`	merge 3x "Faes'mar" and 1x "Faes'mar (T1)" into a "Faes'mar(T2)"`
+					to display
+						"ship model: Faes'mar" >= 3
+						"ship model: Faes'mar (T1)" >= 1
+					goto "Faes'mar (T1)"
+				`	merge 3x "Fetri'sei" and 1x "Fetri'sei (T1)" into a "Fetri'sei(T2)"`
+					to display
+						"ship model: Fetri'sei" >= 3
+						"ship model: Fetri'sei (T1)" >= 1
+					goto "Fetri'sei (T1)"
 				`	merge 3x "Rano'erek" and 1x "Rano'erek (T1)" into a "Rano'erek(T2)"`
 					to display
 						"ship model: Rano'erek" >= 3
@@ -2278,6 +2336,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T1)" >= 1
 					goto "Tern (T1)"
+				`	merge 3x "vyu-Ir" and 1x "vyu-Ir (T1)" into a "vyu-Ir(T2)"`
+					to display
+						"ship model: vyu-Ir" >= 3
+						"ship model: vyu-Ir (T1)" >= 1
+					goto "vyu-Ir (T1)"
 				`	merge 3x "Emerald Sword" and 1x "Emerald Sword (T1)" into a "Emerald Sword(T2)"`
 					to display
 						"ship model: Emerald Sword" >= 3
@@ -2688,6 +2751,11 @@ mission "upgrade ships"
 						"ship model: Saryd Visitor" >= 3
 						"ship model: Saryd Visitor (T2)" >= 1
 					goto "Saryd Visitor (T2)"
+				`	merge 3x "Subsidurial" and 1x "Subsidurial (T2)" into a "Subsidurial(T3)"`
+					to display
+						"ship model: Subsidurial" >= 3
+						"ship model: Subsidurial (T2)" >= 1
+					goto "Subsidurial (T2)"
 				`	merge 3x "Shale" and 1x "Shale (T2)" into a "Shale(T3)"`
 					to display
 						"ship model: Shale" >= 3
@@ -2898,6 +2966,11 @@ mission "upgrade ships"
 						"ship model: Water Bug" >= 3
 						"ship model: Water Bug (T2)" >= 1
 					goto "Water Bug (T2)"
+				`	merge 3x "Racing Flivver" and 1x "Racing Flivver (T2)" into a "Racing Flivver(T3)"`
+					to display
+						"ship model: Racing Flivver" >= 3
+						"ship model: Racing Flivver (T2)" >= 1
+					goto "Racing Flivver (T2)"
 				`	merge 3x "Kestrel" and 1x "Kestrel (T2)" into a "Kestrel(T3)"`
 					to display
 						"ship model: Kestrel" >= 3
@@ -3333,6 +3406,26 @@ mission "upgrade ships"
 						"ship model: Tace Mesa" >= 3
 						"ship model: Tace Mesa (T2)" >= 1
 					goto "Tace Mesa (T2)"
+				`	merge 3x "Builder Satellite" and 1x "Builder Satellite (T2)" into a "Builder Satellite(T3)"`
+					to display
+						"ship model: Builder Satellite" >= 3
+						"ship model: Builder Satellite (T2)" >= 1
+					goto "Builder Satellite (T2)"
+				`	merge 3x "Selii'mar" and 1x "Selii'mar (T2)" into a "Selii'mar(T3)"`
+					to display
+						"ship model: Selii'mar" >= 3
+						"ship model: Selii'mar (T2)" >= 1
+					goto "Selii'mar (T2)"
+				`	merge 3x "Faes'mar" and 1x "Faes'mar (T2)" into a "Faes'mar(T3)"`
+					to display
+						"ship model: Faes'mar" >= 3
+						"ship model: Faes'mar (T2)" >= 1
+					goto "Faes'mar (T2)"
+				`	merge 3x "Fetri'sei" and 1x "Fetri'sei (T2)" into a "Fetri'sei(T3)"`
+					to display
+						"ship model: Fetri'sei" >= 3
+						"ship model: Fetri'sei (T2)" >= 1
+					goto "Fetri'sei (T2)"
 				`	merge 3x "Rano'erek" and 1x "Rano'erek (T2)" into a "Rano'erek(T3)"`
 					to display
 						"ship model: Rano'erek" >= 3
@@ -3613,6 +3706,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T2)" >= 1
 					goto "Tern (T2)"
+				`	merge 3x "vyu-Ir" and 1x "vyu-Ir (T2)" into a "vyu-Ir(T3)"`
+					to display
+						"ship model: vyu-Ir" >= 3
+						"ship model: vyu-Ir (T2)" >= 1
+					goto "vyu-Ir (T2)"
 				`	merge 3x "Emerald Sword" and 1x "Emerald Sword (T2)" into a "Emerald Sword(T3)"`
 					to display
 						"ship model: Emerald Sword" >= 3
@@ -4023,6 +4121,11 @@ mission "upgrade ships"
 						"ship model: Saryd Visitor" >= 3
 						"ship model: Saryd Visitor (T3)" >= 1
 					goto "Saryd Visitor (T3)"
+				`	merge 3x "Subsidurial" and 1x "Subsidurial (T3)" into a "Subsidurial(T4)"`
+					to display
+						"ship model: Subsidurial" >= 3
+						"ship model: Subsidurial (T3)" >= 1
+					goto "Subsidurial (T3)"
 				`	merge 3x "Shale" and 1x "Shale (T3)" into a "Shale(T4)"`
 					to display
 						"ship model: Shale" >= 3
@@ -4233,6 +4336,11 @@ mission "upgrade ships"
 						"ship model: Water Bug" >= 3
 						"ship model: Water Bug (T3)" >= 1
 					goto "Water Bug (T3)"
+				`	merge 3x "Racing Flivver" and 1x "Racing Flivver (T3)" into a "Racing Flivver(T4)"`
+					to display
+						"ship model: Racing Flivver" >= 3
+						"ship model: Racing Flivver (T3)" >= 1
+					goto "Racing Flivver (T3)"
 				`	merge 3x "Kestrel" and 1x "Kestrel (T3)" into a "Kestrel(T4)"`
 					to display
 						"ship model: Kestrel" >= 3
@@ -4668,6 +4776,26 @@ mission "upgrade ships"
 						"ship model: Tace Mesa" >= 3
 						"ship model: Tace Mesa (T3)" >= 1
 					goto "Tace Mesa (T3)"
+				`	merge 3x "Builder Satellite" and 1x "Builder Satellite (T3)" into a "Builder Satellite(T4)"`
+					to display
+						"ship model: Builder Satellite" >= 3
+						"ship model: Builder Satellite (T3)" >= 1
+					goto "Builder Satellite (T3)"
+				`	merge 3x "Selii'mar" and 1x "Selii'mar (T3)" into a "Selii'mar(T4)"`
+					to display
+						"ship model: Selii'mar" >= 3
+						"ship model: Selii'mar (T3)" >= 1
+					goto "Selii'mar (T3)"
+				`	merge 3x "Faes'mar" and 1x "Faes'mar (T3)" into a "Faes'mar(T4)"`
+					to display
+						"ship model: Faes'mar" >= 3
+						"ship model: Faes'mar (T3)" >= 1
+					goto "Faes'mar (T3)"
+				`	merge 3x "Fetri'sei" and 1x "Fetri'sei (T3)" into a "Fetri'sei(T4)"`
+					to display
+						"ship model: Fetri'sei" >= 3
+						"ship model: Fetri'sei (T3)" >= 1
+					goto "Fetri'sei (T3)"
 				`	merge 3x "Rano'erek" and 1x "Rano'erek (T3)" into a "Rano'erek(T4)"`
 					to display
 						"ship model: Rano'erek" >= 3
@@ -4948,6 +5076,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T3)" >= 1
 					goto "Tern (T3)"
+				`	merge 3x "vyu-Ir" and 1x "vyu-Ir (T3)" into a "vyu-Ir(T4)"`
+					to display
+						"ship model: vyu-Ir" >= 3
+						"ship model: vyu-Ir (T3)" >= 1
+					goto "vyu-Ir (T3)"
 				`	merge 3x "Emerald Sword" and 1x "Emerald Sword (T3)" into a "Emerald Sword(T4)"`
 					to display
 						"ship model: Emerald Sword" >= 3
@@ -5358,6 +5491,11 @@ mission "upgrade ships"
 						"ship model: Saryd Visitor" >= 3
 						"ship model: Saryd Visitor (T4)" >= 1
 					goto "Saryd Visitor (T4)"
+				`	merge 3x "Subsidurial" and 1x "Subsidurial (T4)" into a "Subsidurial(T5)"`
+					to display
+						"ship model: Subsidurial" >= 3
+						"ship model: Subsidurial (T4)" >= 1
+					goto "Subsidurial (T4)"
 				`	merge 3x "Shale" and 1x "Shale (T4)" into a "Shale(T5)"`
 					to display
 						"ship model: Shale" >= 3
@@ -5568,6 +5706,11 @@ mission "upgrade ships"
 						"ship model: Water Bug" >= 3
 						"ship model: Water Bug (T4)" >= 1
 					goto "Water Bug (T4)"
+				`	merge 3x "Racing Flivver" and 1x "Racing Flivver (T4)" into a "Racing Flivver(T5)"`
+					to display
+						"ship model: Racing Flivver" >= 3
+						"ship model: Racing Flivver (T4)" >= 1
+					goto "Racing Flivver (T4)"
 				`	merge 3x "Kestrel" and 1x "Kestrel (T4)" into a "Kestrel(T5)"`
 					to display
 						"ship model: Kestrel" >= 3
@@ -6003,6 +6146,26 @@ mission "upgrade ships"
 						"ship model: Tace Mesa" >= 3
 						"ship model: Tace Mesa (T4)" >= 1
 					goto "Tace Mesa (T4)"
+				`	merge 3x "Builder Satellite" and 1x "Builder Satellite (T4)" into a "Builder Satellite(T5)"`
+					to display
+						"ship model: Builder Satellite" >= 3
+						"ship model: Builder Satellite (T4)" >= 1
+					goto "Builder Satellite (T4)"
+				`	merge 3x "Selii'mar" and 1x "Selii'mar (T4)" into a "Selii'mar(T5)"`
+					to display
+						"ship model: Selii'mar" >= 3
+						"ship model: Selii'mar (T4)" >= 1
+					goto "Selii'mar (T4)"
+				`	merge 3x "Faes'mar" and 1x "Faes'mar (T4)" into a "Faes'mar(T5)"`
+					to display
+						"ship model: Faes'mar" >= 3
+						"ship model: Faes'mar (T4)" >= 1
+					goto "Faes'mar (T4)"
+				`	merge 3x "Fetri'sei" and 1x "Fetri'sei (T4)" into a "Fetri'sei(T5)"`
+					to display
+						"ship model: Fetri'sei" >= 3
+						"ship model: Fetri'sei (T4)" >= 1
+					goto "Fetri'sei (T4)"
 				`	merge 3x "Rano'erek" and 1x "Rano'erek (T4)" into a "Rano'erek(T5)"`
 					to display
 						"ship model: Rano'erek" >= 3
@@ -6283,6 +6446,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T4)" >= 1
 					goto "Tern (T4)"
+				`	merge 3x "vyu-Ir" and 1x "vyu-Ir (T4)" into a "vyu-Ir(T5)"`
+					to display
+						"ship model: vyu-Ir" >= 3
+						"ship model: vyu-Ir (T4)" >= 1
+					goto "vyu-Ir (T4)"
 				`	merge 3x "Emerald Sword" and 1x "Emerald Sword (T4)" into a "Emerald Sword(T5)"`
 					to display
 						"ship model: Emerald Sword" >= 3
@@ -6693,6 +6861,11 @@ mission "upgrade ships"
 						"ship model: Saryd Visitor" >= 3
 						"ship model: Saryd Visitor (T5)" >= 1
 					goto "Saryd Visitor (T5)"
+				`	merge 3x "Subsidurial" and 1x "Subsidurial (T5)" into a "Subsidurial(T6)"`
+					to display
+						"ship model: Subsidurial" >= 3
+						"ship model: Subsidurial (T5)" >= 1
+					goto "Subsidurial (T5)"
 				`	merge 3x "Shale" and 1x "Shale (T5)" into a "Shale(T6)"`
 					to display
 						"ship model: Shale" >= 3
@@ -6903,6 +7076,11 @@ mission "upgrade ships"
 						"ship model: Water Bug" >= 3
 						"ship model: Water Bug (T5)" >= 1
 					goto "Water Bug (T5)"
+				`	merge 3x "Racing Flivver" and 1x "Racing Flivver (T5)" into a "Racing Flivver(T6)"`
+					to display
+						"ship model: Racing Flivver" >= 3
+						"ship model: Racing Flivver (T5)" >= 1
+					goto "Racing Flivver (T5)"
 				`	merge 3x "Kestrel" and 1x "Kestrel (T5)" into a "Kestrel(T6)"`
 					to display
 						"ship model: Kestrel" >= 3
@@ -7338,6 +7516,26 @@ mission "upgrade ships"
 						"ship model: Tace Mesa" >= 3
 						"ship model: Tace Mesa (T5)" >= 1
 					goto "Tace Mesa (T5)"
+				`	merge 3x "Builder Satellite" and 1x "Builder Satellite (T5)" into a "Builder Satellite(T6)"`
+					to display
+						"ship model: Builder Satellite" >= 3
+						"ship model: Builder Satellite (T5)" >= 1
+					goto "Builder Satellite (T5)"
+				`	merge 3x "Selii'mar" and 1x "Selii'mar (T5)" into a "Selii'mar(T6)"`
+					to display
+						"ship model: Selii'mar" >= 3
+						"ship model: Selii'mar (T5)" >= 1
+					goto "Selii'mar (T5)"
+				`	merge 3x "Faes'mar" and 1x "Faes'mar (T5)" into a "Faes'mar(T6)"`
+					to display
+						"ship model: Faes'mar" >= 3
+						"ship model: Faes'mar (T5)" >= 1
+					goto "Faes'mar (T5)"
+				`	merge 3x "Fetri'sei" and 1x "Fetri'sei (T5)" into a "Fetri'sei(T6)"`
+					to display
+						"ship model: Fetri'sei" >= 3
+						"ship model: Fetri'sei (T5)" >= 1
+					goto "Fetri'sei (T5)"
 				`	merge 3x "Rano'erek" and 1x "Rano'erek (T5)" into a "Rano'erek(T6)"`
 					to display
 						"ship model: Rano'erek" >= 3
@@ -7618,6 +7816,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T5)" >= 1
 					goto "Tern (T5)"
+				`	merge 3x "vyu-Ir" and 1x "vyu-Ir (T5)" into a "vyu-Ir(T6)"`
+					to display
+						"ship model: vyu-Ir" >= 3
+						"ship model: vyu-Ir (T5)" >= 1
+					goto "vyu-Ir (T5)"
 				`	merge 3x "Emerald Sword" and 1x "Emerald Sword (T5)" into a "Emerald Sword(T6)"`
 					to display
 						"ship model: Emerald Sword" >= 3
@@ -8028,6 +8231,11 @@ mission "upgrade ships"
 						"ship model: Saryd Visitor" >= 3
 						"ship model: Saryd Visitor (T6)" >= 1
 					goto "Saryd Visitor (T6)"
+				`	merge 3x "Subsidurial" and 1x "Subsidurial (T6)" into a "Subsidurial(T7)"`
+					to display
+						"ship model: Subsidurial" >= 3
+						"ship model: Subsidurial (T6)" >= 1
+					goto "Subsidurial (T6)"
 				`	merge 3x "Shale" and 1x "Shale (T6)" into a "Shale(T7)"`
 					to display
 						"ship model: Shale" >= 3
@@ -8238,6 +8446,11 @@ mission "upgrade ships"
 						"ship model: Water Bug" >= 3
 						"ship model: Water Bug (T6)" >= 1
 					goto "Water Bug (T6)"
+				`	merge 3x "Racing Flivver" and 1x "Racing Flivver (T6)" into a "Racing Flivver(T7)"`
+					to display
+						"ship model: Racing Flivver" >= 3
+						"ship model: Racing Flivver (T6)" >= 1
+					goto "Racing Flivver (T6)"
 				`	merge 3x "Kestrel" and 1x "Kestrel (T6)" into a "Kestrel(T7)"`
 					to display
 						"ship model: Kestrel" >= 3
@@ -8673,6 +8886,26 @@ mission "upgrade ships"
 						"ship model: Tace Mesa" >= 3
 						"ship model: Tace Mesa (T6)" >= 1
 					goto "Tace Mesa (T6)"
+				`	merge 3x "Builder Satellite" and 1x "Builder Satellite (T6)" into a "Builder Satellite(T7)"`
+					to display
+						"ship model: Builder Satellite" >= 3
+						"ship model: Builder Satellite (T6)" >= 1
+					goto "Builder Satellite (T6)"
+				`	merge 3x "Selii'mar" and 1x "Selii'mar (T6)" into a "Selii'mar(T7)"`
+					to display
+						"ship model: Selii'mar" >= 3
+						"ship model: Selii'mar (T6)" >= 1
+					goto "Selii'mar (T6)"
+				`	merge 3x "Faes'mar" and 1x "Faes'mar (T6)" into a "Faes'mar(T7)"`
+					to display
+						"ship model: Faes'mar" >= 3
+						"ship model: Faes'mar (T6)" >= 1
+					goto "Faes'mar (T6)"
+				`	merge 3x "Fetri'sei" and 1x "Fetri'sei (T6)" into a "Fetri'sei(T7)"`
+					to display
+						"ship model: Fetri'sei" >= 3
+						"ship model: Fetri'sei (T6)" >= 1
+					goto "Fetri'sei (T6)"
 				`	merge 3x "Rano'erek" and 1x "Rano'erek (T6)" into a "Rano'erek(T7)"`
 					to display
 						"ship model: Rano'erek" >= 3
@@ -8953,6 +9186,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T6)" >= 1
 					goto "Tern (T6)"
+				`	merge 3x "vyu-Ir" and 1x "vyu-Ir (T6)" into a "vyu-Ir(T7)"`
+					to display
+						"ship model: vyu-Ir" >= 3
+						"ship model: vyu-Ir (T6)" >= 1
+					goto "vyu-Ir (T6)"
 				`	merge 3x "Emerald Sword" and 1x "Emerald Sword (T6)" into a "Emerald Sword(T7)"`
 					to display
 						"ship model: Emerald Sword" >= 3
@@ -9363,6 +9601,11 @@ mission "upgrade ships"
 						"ship model: Saryd Visitor" >= 3
 						"ship model: Saryd Visitor (T7)" >= 1
 					goto "Saryd Visitor (T7)"
+				`	merge 3x "Subsidurial" and 1x "Subsidurial (T7)" into a "Subsidurial(T8)"`
+					to display
+						"ship model: Subsidurial" >= 3
+						"ship model: Subsidurial (T7)" >= 1
+					goto "Subsidurial (T7)"
 				`	merge 3x "Shale" and 1x "Shale (T7)" into a "Shale(T8)"`
 					to display
 						"ship model: Shale" >= 3
@@ -9573,6 +9816,11 @@ mission "upgrade ships"
 						"ship model: Water Bug" >= 3
 						"ship model: Water Bug (T7)" >= 1
 					goto "Water Bug (T7)"
+				`	merge 3x "Racing Flivver" and 1x "Racing Flivver (T7)" into a "Racing Flivver(T8)"`
+					to display
+						"ship model: Racing Flivver" >= 3
+						"ship model: Racing Flivver (T7)" >= 1
+					goto "Racing Flivver (T7)"
 				`	merge 3x "Kestrel" and 1x "Kestrel (T7)" into a "Kestrel(T8)"`
 					to display
 						"ship model: Kestrel" >= 3
@@ -10008,6 +10256,26 @@ mission "upgrade ships"
 						"ship model: Tace Mesa" >= 3
 						"ship model: Tace Mesa (T7)" >= 1
 					goto "Tace Mesa (T7)"
+				`	merge 3x "Builder Satellite" and 1x "Builder Satellite (T7)" into a "Builder Satellite(T8)"`
+					to display
+						"ship model: Builder Satellite" >= 3
+						"ship model: Builder Satellite (T7)" >= 1
+					goto "Builder Satellite (T7)"
+				`	merge 3x "Selii'mar" and 1x "Selii'mar (T7)" into a "Selii'mar(T8)"`
+					to display
+						"ship model: Selii'mar" >= 3
+						"ship model: Selii'mar (T7)" >= 1
+					goto "Selii'mar (T7)"
+				`	merge 3x "Faes'mar" and 1x "Faes'mar (T7)" into a "Faes'mar(T8)"`
+					to display
+						"ship model: Faes'mar" >= 3
+						"ship model: Faes'mar (T7)" >= 1
+					goto "Faes'mar (T7)"
+				`	merge 3x "Fetri'sei" and 1x "Fetri'sei (T7)" into a "Fetri'sei(T8)"`
+					to display
+						"ship model: Fetri'sei" >= 3
+						"ship model: Fetri'sei (T7)" >= 1
+					goto "Fetri'sei (T7)"
 				`	merge 3x "Rano'erek" and 1x "Rano'erek (T7)" into a "Rano'erek(T8)"`
 					to display
 						"ship model: Rano'erek" >= 3
@@ -10288,6 +10556,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T7)" >= 1
 					goto "Tern (T7)"
+				`	merge 3x "vyu-Ir" and 1x "vyu-Ir (T7)" into a "vyu-Ir(T8)"`
+					to display
+						"ship model: vyu-Ir" >= 3
+						"ship model: vyu-Ir (T7)" >= 1
+					goto "vyu-Ir (T7)"
 				`	merge 3x "Emerald Sword" and 1x "Emerald Sword (T7)" into a "Emerald Sword(T8)"`
 					to display
 						"ship model: Emerald Sword" >= 3
@@ -10698,6 +10971,11 @@ mission "upgrade ships"
 						"ship model: Saryd Visitor" >= 3
 						"ship model: Saryd Visitor (T8)" >= 1
 					goto "Saryd Visitor (T8)"
+				`	merge 3x "Subsidurial" and 1x "Subsidurial (T8)" into a "Subsidurial(T9)"`
+					to display
+						"ship model: Subsidurial" >= 3
+						"ship model: Subsidurial (T8)" >= 1
+					goto "Subsidurial (T8)"
 				`	merge 3x "Shale" and 1x "Shale (T8)" into a "Shale(T9)"`
 					to display
 						"ship model: Shale" >= 3
@@ -10908,6 +11186,11 @@ mission "upgrade ships"
 						"ship model: Water Bug" >= 3
 						"ship model: Water Bug (T8)" >= 1
 					goto "Water Bug (T8)"
+				`	merge 3x "Racing Flivver" and 1x "Racing Flivver (T8)" into a "Racing Flivver(T9)"`
+					to display
+						"ship model: Racing Flivver" >= 3
+						"ship model: Racing Flivver (T8)" >= 1
+					goto "Racing Flivver (T8)"
 				`	merge 3x "Kestrel" and 1x "Kestrel (T8)" into a "Kestrel(T9)"`
 					to display
 						"ship model: Kestrel" >= 3
@@ -11343,6 +11626,26 @@ mission "upgrade ships"
 						"ship model: Tace Mesa" >= 3
 						"ship model: Tace Mesa (T8)" >= 1
 					goto "Tace Mesa (T8)"
+				`	merge 3x "Builder Satellite" and 1x "Builder Satellite (T8)" into a "Builder Satellite(T9)"`
+					to display
+						"ship model: Builder Satellite" >= 3
+						"ship model: Builder Satellite (T8)" >= 1
+					goto "Builder Satellite (T8)"
+				`	merge 3x "Selii'mar" and 1x "Selii'mar (T8)" into a "Selii'mar(T9)"`
+					to display
+						"ship model: Selii'mar" >= 3
+						"ship model: Selii'mar (T8)" >= 1
+					goto "Selii'mar (T8)"
+				`	merge 3x "Faes'mar" and 1x "Faes'mar (T8)" into a "Faes'mar(T9)"`
+					to display
+						"ship model: Faes'mar" >= 3
+						"ship model: Faes'mar (T8)" >= 1
+					goto "Faes'mar (T8)"
+				`	merge 3x "Fetri'sei" and 1x "Fetri'sei (T8)" into a "Fetri'sei(T9)"`
+					to display
+						"ship model: Fetri'sei" >= 3
+						"ship model: Fetri'sei (T8)" >= 1
+					goto "Fetri'sei (T8)"
 				`	merge 3x "Rano'erek" and 1x "Rano'erek (T8)" into a "Rano'erek(T9)"`
 					to display
 						"ship model: Rano'erek" >= 3
@@ -11623,6 +11926,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T8)" >= 1
 					goto "Tern (T8)"
+				`	merge 3x "vyu-Ir" and 1x "vyu-Ir (T8)" into a "vyu-Ir(T9)"`
+					to display
+						"ship model: vyu-Ir" >= 3
+						"ship model: vyu-Ir (T8)" >= 1
+					goto "vyu-Ir (T8)"
 				`	merge 3x "Emerald Sword" and 1x "Emerald Sword (T8)" into a "Emerald Sword(T9)"`
 					to display
 						"ship model: Emerald Sword" >= 3
@@ -12033,6 +12341,11 @@ mission "upgrade ships"
 						"ship model: Saryd Visitor" >= 3
 						"ship model: Saryd Visitor (T9)" >= 1
 					goto "Saryd Visitor (T9)"
+				`	merge 3x "Subsidurial" and 1x "Subsidurial (T9)" into a "Subsidurial(T10)"`
+					to display
+						"ship model: Subsidurial" >= 3
+						"ship model: Subsidurial (T9)" >= 1
+					goto "Subsidurial (T9)"
 				`	merge 3x "Shale" and 1x "Shale (T9)" into a "Shale(T10)"`
 					to display
 						"ship model: Shale" >= 3
@@ -12243,6 +12556,11 @@ mission "upgrade ships"
 						"ship model: Water Bug" >= 3
 						"ship model: Water Bug (T9)" >= 1
 					goto "Water Bug (T9)"
+				`	merge 3x "Racing Flivver" and 1x "Racing Flivver (T9)" into a "Racing Flivver(T10)"`
+					to display
+						"ship model: Racing Flivver" >= 3
+						"ship model: Racing Flivver (T9)" >= 1
+					goto "Racing Flivver (T9)"
 				`	merge 3x "Kestrel" and 1x "Kestrel (T9)" into a "Kestrel(T10)"`
 					to display
 						"ship model: Kestrel" >= 3
@@ -12678,6 +12996,26 @@ mission "upgrade ships"
 						"ship model: Tace Mesa" >= 3
 						"ship model: Tace Mesa (T9)" >= 1
 					goto "Tace Mesa (T9)"
+				`	merge 3x "Builder Satellite" and 1x "Builder Satellite (T9)" into a "Builder Satellite(T10)"`
+					to display
+						"ship model: Builder Satellite" >= 3
+						"ship model: Builder Satellite (T9)" >= 1
+					goto "Builder Satellite (T9)"
+				`	merge 3x "Selii'mar" and 1x "Selii'mar (T9)" into a "Selii'mar(T10)"`
+					to display
+						"ship model: Selii'mar" >= 3
+						"ship model: Selii'mar (T9)" >= 1
+					goto "Selii'mar (T9)"
+				`	merge 3x "Faes'mar" and 1x "Faes'mar (T9)" into a "Faes'mar(T10)"`
+					to display
+						"ship model: Faes'mar" >= 3
+						"ship model: Faes'mar (T9)" >= 1
+					goto "Faes'mar (T9)"
+				`	merge 3x "Fetri'sei" and 1x "Fetri'sei (T9)" into a "Fetri'sei(T10)"`
+					to display
+						"ship model: Fetri'sei" >= 3
+						"ship model: Fetri'sei (T9)" >= 1
+					goto "Fetri'sei (T9)"
 				`	merge 3x "Rano'erek" and 1x "Rano'erek (T9)" into a "Rano'erek(T10)"`
 					to display
 						"ship model: Rano'erek" >= 3
@@ -12958,6 +13296,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T9)" >= 1
 					goto "Tern (T9)"
+				`	merge 3x "vyu-Ir" and 1x "vyu-Ir (T9)" into a "vyu-Ir(T10)"`
+					to display
+						"ship model: vyu-Ir" >= 3
+						"ship model: vyu-Ir (T9)" >= 1
+					goto "vyu-Ir (T9)"
 				`	merge 3x "Emerald Sword" and 1x "Emerald Sword (T9)" into a "Emerald Sword(T10)"`
 					to display
 						"ship model: Emerald Sword" >= 3
@@ -13476,6 +13819,13 @@ mission "upgrade ships"
 				give ship "Saryd Visitor (T1)"
 			`4x "Saryd Visitor" removed, 1x "Saryd Visitor (T1)" given`
 				goto menu
+			label "Subsidurial"
+			action
+				take ship "Subsidurial"
+					count 4
+				give ship "Subsidurial (T1)"
+			`4x "Subsidurial" removed, 1x "Subsidurial (T1)" given`
+				goto menu
 			label "Shale"
 			action
 				take ship "Shale"
@@ -13769,6 +14119,13 @@ mission "upgrade ships"
 					count 4
 				give ship "Water Bug (T1)"
 			`4x "Water Bug" removed, 1x "Water Bug (T1)" given`
+				goto menu
+			label "Racing Flivver"
+			action
+				take ship "Racing Flivver"
+					count 4
+				give ship "Racing Flivver (T1)"
+			`4x "Racing Flivver" removed, 1x "Racing Flivver (T1)" given`
 				goto menu
 			label "Kestrel"
 			action
@@ -14379,6 +14736,34 @@ mission "upgrade ships"
 				give ship "Tace Mesa (T1)"
 			`4x "Tace Mesa" removed, 1x "Tace Mesa (T1)" given`
 				goto menu
+			label "Builder Satellite"
+			action
+				take ship "Builder Satellite"
+					count 4
+				give ship "Builder Satellite (T1)"
+			`4x "Builder Satellite" removed, 1x "Builder Satellite (T1)" given`
+				goto menu
+			label "Selii'mar"
+			action
+				take ship "Selii'mar"
+					count 4
+				give ship "Selii'mar (T1)"
+			`4x "Selii'mar" removed, 1x "Selii'mar (T1)" given`
+				goto menu
+			label "Faes'mar"
+			action
+				take ship "Faes'mar"
+					count 4
+				give ship "Faes'mar (T1)"
+			`4x "Faes'mar" removed, 1x "Faes'mar (T1)" given`
+				goto menu
+			label "Fetri'sei"
+			action
+				take ship "Fetri'sei"
+					count 4
+				give ship "Fetri'sei (T1)"
+			`4x "Fetri'sei" removed, 1x "Fetri'sei (T1)" given`
+				goto menu
 			label "Rano'erek"
 			action
 				take ship "Rano'erek"
@@ -14770,6 +15155,13 @@ mission "upgrade ships"
 					count 4
 				give ship "Tern (T1)"
 			`4x "Tern" removed, 1x "Tern (T1)" given`
+				goto menu
+			label "vyu-Ir"
+			action
+				take ship "vyu-Ir"
+					count 4
+				give ship "vyu-Ir (T1)"
+			`4x "vyu-Ir" removed, 1x "vyu-Ir (T1)" given`
 				goto menu
 			label "Emerald Sword"
 			action
@@ -15398,6 +15790,14 @@ mission "upgrade ships"
 				give ship "Saryd Visitor (T2)"
 			`3x "Saryd Visitor" removed, 1x "Saryd Visitor (T1)" removed, 1x "Saryd Visitor (T2)" given`
 				goto menu
+			label "Subsidurial (T1)"
+			action
+				take ship "Subsidurial"
+					count 3
+				take ship "Subsidurial (T1)"
+				give ship "Subsidurial (T2)"
+			`3x "Subsidurial" removed, 1x "Subsidurial (T1)" removed, 1x "Subsidurial (T2)" given`
+				goto menu
 			label "Shale (T1)"
 			action
 				take ship "Shale"
@@ -15733,6 +16133,14 @@ mission "upgrade ships"
 				take ship "Water Bug (T1)"
 				give ship "Water Bug (T2)"
 			`3x "Water Bug" removed, 1x "Water Bug (T1)" removed, 1x "Water Bug (T2)" given`
+				goto menu
+			label "Racing Flivver (T1)"
+			action
+				take ship "Racing Flivver"
+					count 3
+				take ship "Racing Flivver (T1)"
+				give ship "Racing Flivver (T2)"
+			`3x "Racing Flivver" removed, 1x "Racing Flivver (T1)" removed, 1x "Racing Flivver (T2)" given`
 				goto menu
 			label "Kestrel (T1)"
 			action
@@ -16430,6 +16838,38 @@ mission "upgrade ships"
 				give ship "Tace Mesa (T2)"
 			`3x "Tace Mesa" removed, 1x "Tace Mesa (T1)" removed, 1x "Tace Mesa (T2)" given`
 				goto menu
+			label "Builder Satellite (T1)"
+			action
+				take ship "Builder Satellite"
+					count 3
+				take ship "Builder Satellite (T1)"
+				give ship "Builder Satellite (T2)"
+			`3x "Builder Satellite" removed, 1x "Builder Satellite (T1)" removed, 1x "Builder Satellite (T2)" given`
+				goto menu
+			label "Selii'mar (T1)"
+			action
+				take ship "Selii'mar"
+					count 3
+				take ship "Selii'mar (T1)"
+				give ship "Selii'mar (T2)"
+			`3x "Selii'mar" removed, 1x "Selii'mar (T1)" removed, 1x "Selii'mar (T2)" given`
+				goto menu
+			label "Faes'mar (T1)"
+			action
+				take ship "Faes'mar"
+					count 3
+				take ship "Faes'mar (T1)"
+				give ship "Faes'mar (T2)"
+			`3x "Faes'mar" removed, 1x "Faes'mar (T1)" removed, 1x "Faes'mar (T2)" given`
+				goto menu
+			label "Fetri'sei (T1)"
+			action
+				take ship "Fetri'sei"
+					count 3
+				take ship "Fetri'sei (T1)"
+				give ship "Fetri'sei (T2)"
+			`3x "Fetri'sei" removed, 1x "Fetri'sei (T1)" removed, 1x "Fetri'sei (T2)" given`
+				goto menu
 			label "Rano'erek (T1)"
 			action
 				take ship "Rano'erek"
@@ -16877,6 +17317,14 @@ mission "upgrade ships"
 				take ship "Tern (T1)"
 				give ship "Tern (T2)"
 			`3x "Tern" removed, 1x "Tern (T1)" removed, 1x "Tern (T2)" given`
+				goto menu
+			label "vyu-Ir (T1)"
+			action
+				take ship "vyu-Ir"
+					count 3
+				take ship "vyu-Ir (T1)"
+				give ship "vyu-Ir (T2)"
+			`3x "vyu-Ir" removed, 1x "vyu-Ir (T1)" removed, 1x "vyu-Ir (T2)" given`
 				goto menu
 			label "Emerald Sword (T1)"
 			action
@@ -17534,6 +17982,14 @@ mission "upgrade ships"
 				give ship "Saryd Visitor (T3)"
 			`3x "Saryd Visitor" removed, 1x "Saryd Visitor (T2)" removed, 1x "Saryd Visitor (T3)" given`
 				goto menu
+			label "Subsidurial (T2)"
+			action
+				take ship "Subsidurial"
+					count 3
+				take ship "Subsidurial (T2)"
+				give ship "Subsidurial (T3)"
+			`3x "Subsidurial" removed, 1x "Subsidurial (T2)" removed, 1x "Subsidurial (T3)" given`
+				goto menu
 			label "Shale (T2)"
 			action
 				take ship "Shale"
@@ -17869,6 +18325,14 @@ mission "upgrade ships"
 				take ship "Water Bug (T2)"
 				give ship "Water Bug (T3)"
 			`3x "Water Bug" removed, 1x "Water Bug (T2)" removed, 1x "Water Bug (T3)" given`
+				goto menu
+			label "Racing Flivver (T2)"
+			action
+				take ship "Racing Flivver"
+					count 3
+				take ship "Racing Flivver (T2)"
+				give ship "Racing Flivver (T3)"
+			`3x "Racing Flivver" removed, 1x "Racing Flivver (T2)" removed, 1x "Racing Flivver (T3)" given`
 				goto menu
 			label "Kestrel (T2)"
 			action
@@ -18566,6 +19030,38 @@ mission "upgrade ships"
 				give ship "Tace Mesa (T3)"
 			`3x "Tace Mesa" removed, 1x "Tace Mesa (T2)" removed, 1x "Tace Mesa (T3)" given`
 				goto menu
+			label "Builder Satellite (T2)"
+			action
+				take ship "Builder Satellite"
+					count 3
+				take ship "Builder Satellite (T2)"
+				give ship "Builder Satellite (T3)"
+			`3x "Builder Satellite" removed, 1x "Builder Satellite (T2)" removed, 1x "Builder Satellite (T3)" given`
+				goto menu
+			label "Selii'mar (T2)"
+			action
+				take ship "Selii'mar"
+					count 3
+				take ship "Selii'mar (T2)"
+				give ship "Selii'mar (T3)"
+			`3x "Selii'mar" removed, 1x "Selii'mar (T2)" removed, 1x "Selii'mar (T3)" given`
+				goto menu
+			label "Faes'mar (T2)"
+			action
+				take ship "Faes'mar"
+					count 3
+				take ship "Faes'mar (T2)"
+				give ship "Faes'mar (T3)"
+			`3x "Faes'mar" removed, 1x "Faes'mar (T2)" removed, 1x "Faes'mar (T3)" given`
+				goto menu
+			label "Fetri'sei (T2)"
+			action
+				take ship "Fetri'sei"
+					count 3
+				take ship "Fetri'sei (T2)"
+				give ship "Fetri'sei (T3)"
+			`3x "Fetri'sei" removed, 1x "Fetri'sei (T2)" removed, 1x "Fetri'sei (T3)" given`
+				goto menu
 			label "Rano'erek (T2)"
 			action
 				take ship "Rano'erek"
@@ -19013,6 +19509,14 @@ mission "upgrade ships"
 				take ship "Tern (T2)"
 				give ship "Tern (T3)"
 			`3x "Tern" removed, 1x "Tern (T2)" removed, 1x "Tern (T3)" given`
+				goto menu
+			label "vyu-Ir (T2)"
+			action
+				take ship "vyu-Ir"
+					count 3
+				take ship "vyu-Ir (T2)"
+				give ship "vyu-Ir (T3)"
+			`3x "vyu-Ir" removed, 1x "vyu-Ir (T2)" removed, 1x "vyu-Ir (T3)" given`
 				goto menu
 			label "Emerald Sword (T2)"
 			action
@@ -19670,6 +20174,14 @@ mission "upgrade ships"
 				give ship "Saryd Visitor (T4)"
 			`3x "Saryd Visitor" removed, 1x "Saryd Visitor (T3)" removed, 1x "Saryd Visitor (T4)" given`
 				goto menu
+			label "Subsidurial (T3)"
+			action
+				take ship "Subsidurial"
+					count 3
+				take ship "Subsidurial (T3)"
+				give ship "Subsidurial (T4)"
+			`3x "Subsidurial" removed, 1x "Subsidurial (T3)" removed, 1x "Subsidurial (T4)" given`
+				goto menu
 			label "Shale (T3)"
 			action
 				take ship "Shale"
@@ -20005,6 +20517,14 @@ mission "upgrade ships"
 				take ship "Water Bug (T3)"
 				give ship "Water Bug (T4)"
 			`3x "Water Bug" removed, 1x "Water Bug (T3)" removed, 1x "Water Bug (T4)" given`
+				goto menu
+			label "Racing Flivver (T3)"
+			action
+				take ship "Racing Flivver"
+					count 3
+				take ship "Racing Flivver (T3)"
+				give ship "Racing Flivver (T4)"
+			`3x "Racing Flivver" removed, 1x "Racing Flivver (T3)" removed, 1x "Racing Flivver (T4)" given`
 				goto menu
 			label "Kestrel (T3)"
 			action
@@ -20702,6 +21222,38 @@ mission "upgrade ships"
 				give ship "Tace Mesa (T4)"
 			`3x "Tace Mesa" removed, 1x "Tace Mesa (T3)" removed, 1x "Tace Mesa (T4)" given`
 				goto menu
+			label "Builder Satellite (T3)"
+			action
+				take ship "Builder Satellite"
+					count 3
+				take ship "Builder Satellite (T3)"
+				give ship "Builder Satellite (T4)"
+			`3x "Builder Satellite" removed, 1x "Builder Satellite (T3)" removed, 1x "Builder Satellite (T4)" given`
+				goto menu
+			label "Selii'mar (T3)"
+			action
+				take ship "Selii'mar"
+					count 3
+				take ship "Selii'mar (T3)"
+				give ship "Selii'mar (T4)"
+			`3x "Selii'mar" removed, 1x "Selii'mar (T3)" removed, 1x "Selii'mar (T4)" given`
+				goto menu
+			label "Faes'mar (T3)"
+			action
+				take ship "Faes'mar"
+					count 3
+				take ship "Faes'mar (T3)"
+				give ship "Faes'mar (T4)"
+			`3x "Faes'mar" removed, 1x "Faes'mar (T3)" removed, 1x "Faes'mar (T4)" given`
+				goto menu
+			label "Fetri'sei (T3)"
+			action
+				take ship "Fetri'sei"
+					count 3
+				take ship "Fetri'sei (T3)"
+				give ship "Fetri'sei (T4)"
+			`3x "Fetri'sei" removed, 1x "Fetri'sei (T3)" removed, 1x "Fetri'sei (T4)" given`
+				goto menu
 			label "Rano'erek (T3)"
 			action
 				take ship "Rano'erek"
@@ -21149,6 +21701,14 @@ mission "upgrade ships"
 				take ship "Tern (T3)"
 				give ship "Tern (T4)"
 			`3x "Tern" removed, 1x "Tern (T3)" removed, 1x "Tern (T4)" given`
+				goto menu
+			label "vyu-Ir (T3)"
+			action
+				take ship "vyu-Ir"
+					count 3
+				take ship "vyu-Ir (T3)"
+				give ship "vyu-Ir (T4)"
+			`3x "vyu-Ir" removed, 1x "vyu-Ir (T3)" removed, 1x "vyu-Ir (T4)" given`
 				goto menu
 			label "Emerald Sword (T3)"
 			action
@@ -21806,6 +22366,14 @@ mission "upgrade ships"
 				give ship "Saryd Visitor (T5)"
 			`3x "Saryd Visitor" removed, 1x "Saryd Visitor (T4)" removed, 1x "Saryd Visitor (T5)" given`
 				goto menu
+			label "Subsidurial (T4)"
+			action
+				take ship "Subsidurial"
+					count 3
+				take ship "Subsidurial (T4)"
+				give ship "Subsidurial (T5)"
+			`3x "Subsidurial" removed, 1x "Subsidurial (T4)" removed, 1x "Subsidurial (T5)" given`
+				goto menu
 			label "Shale (T4)"
 			action
 				take ship "Shale"
@@ -22141,6 +22709,14 @@ mission "upgrade ships"
 				take ship "Water Bug (T4)"
 				give ship "Water Bug (T5)"
 			`3x "Water Bug" removed, 1x "Water Bug (T4)" removed, 1x "Water Bug (T5)" given`
+				goto menu
+			label "Racing Flivver (T4)"
+			action
+				take ship "Racing Flivver"
+					count 3
+				take ship "Racing Flivver (T4)"
+				give ship "Racing Flivver (T5)"
+			`3x "Racing Flivver" removed, 1x "Racing Flivver (T4)" removed, 1x "Racing Flivver (T5)" given`
 				goto menu
 			label "Kestrel (T4)"
 			action
@@ -22838,6 +23414,38 @@ mission "upgrade ships"
 				give ship "Tace Mesa (T5)"
 			`3x "Tace Mesa" removed, 1x "Tace Mesa (T4)" removed, 1x "Tace Mesa (T5)" given`
 				goto menu
+			label "Builder Satellite (T4)"
+			action
+				take ship "Builder Satellite"
+					count 3
+				take ship "Builder Satellite (T4)"
+				give ship "Builder Satellite (T5)"
+			`3x "Builder Satellite" removed, 1x "Builder Satellite (T4)" removed, 1x "Builder Satellite (T5)" given`
+				goto menu
+			label "Selii'mar (T4)"
+			action
+				take ship "Selii'mar"
+					count 3
+				take ship "Selii'mar (T4)"
+				give ship "Selii'mar (T5)"
+			`3x "Selii'mar" removed, 1x "Selii'mar (T4)" removed, 1x "Selii'mar (T5)" given`
+				goto menu
+			label "Faes'mar (T4)"
+			action
+				take ship "Faes'mar"
+					count 3
+				take ship "Faes'mar (T4)"
+				give ship "Faes'mar (T5)"
+			`3x "Faes'mar" removed, 1x "Faes'mar (T4)" removed, 1x "Faes'mar (T5)" given`
+				goto menu
+			label "Fetri'sei (T4)"
+			action
+				take ship "Fetri'sei"
+					count 3
+				take ship "Fetri'sei (T4)"
+				give ship "Fetri'sei (T5)"
+			`3x "Fetri'sei" removed, 1x "Fetri'sei (T4)" removed, 1x "Fetri'sei (T5)" given`
+				goto menu
 			label "Rano'erek (T4)"
 			action
 				take ship "Rano'erek"
@@ -23285,6 +23893,14 @@ mission "upgrade ships"
 				take ship "Tern (T4)"
 				give ship "Tern (T5)"
 			`3x "Tern" removed, 1x "Tern (T4)" removed, 1x "Tern (T5)" given`
+				goto menu
+			label "vyu-Ir (T4)"
+			action
+				take ship "vyu-Ir"
+					count 3
+				take ship "vyu-Ir (T4)"
+				give ship "vyu-Ir (T5)"
+			`3x "vyu-Ir" removed, 1x "vyu-Ir (T4)" removed, 1x "vyu-Ir (T5)" given`
 				goto menu
 			label "Emerald Sword (T4)"
 			action
@@ -23942,6 +24558,14 @@ mission "upgrade ships"
 				give ship "Saryd Visitor (T6)"
 			`3x "Saryd Visitor" removed, 1x "Saryd Visitor (T5)" removed, 1x "Saryd Visitor (T6)" given`
 				goto menu
+			label "Subsidurial (T5)"
+			action
+				take ship "Subsidurial"
+					count 3
+				take ship "Subsidurial (T5)"
+				give ship "Subsidurial (T6)"
+			`3x "Subsidurial" removed, 1x "Subsidurial (T5)" removed, 1x "Subsidurial (T6)" given`
+				goto menu
 			label "Shale (T5)"
 			action
 				take ship "Shale"
@@ -24277,6 +24901,14 @@ mission "upgrade ships"
 				take ship "Water Bug (T5)"
 				give ship "Water Bug (T6)"
 			`3x "Water Bug" removed, 1x "Water Bug (T5)" removed, 1x "Water Bug (T6)" given`
+				goto menu
+			label "Racing Flivver (T5)"
+			action
+				take ship "Racing Flivver"
+					count 3
+				take ship "Racing Flivver (T5)"
+				give ship "Racing Flivver (T6)"
+			`3x "Racing Flivver" removed, 1x "Racing Flivver (T5)" removed, 1x "Racing Flivver (T6)" given`
 				goto menu
 			label "Kestrel (T5)"
 			action
@@ -24974,6 +25606,38 @@ mission "upgrade ships"
 				give ship "Tace Mesa (T6)"
 			`3x "Tace Mesa" removed, 1x "Tace Mesa (T5)" removed, 1x "Tace Mesa (T6)" given`
 				goto menu
+			label "Builder Satellite (T5)"
+			action
+				take ship "Builder Satellite"
+					count 3
+				take ship "Builder Satellite (T5)"
+				give ship "Builder Satellite (T6)"
+			`3x "Builder Satellite" removed, 1x "Builder Satellite (T5)" removed, 1x "Builder Satellite (T6)" given`
+				goto menu
+			label "Selii'mar (T5)"
+			action
+				take ship "Selii'mar"
+					count 3
+				take ship "Selii'mar (T5)"
+				give ship "Selii'mar (T6)"
+			`3x "Selii'mar" removed, 1x "Selii'mar (T5)" removed, 1x "Selii'mar (T6)" given`
+				goto menu
+			label "Faes'mar (T5)"
+			action
+				take ship "Faes'mar"
+					count 3
+				take ship "Faes'mar (T5)"
+				give ship "Faes'mar (T6)"
+			`3x "Faes'mar" removed, 1x "Faes'mar (T5)" removed, 1x "Faes'mar (T6)" given`
+				goto menu
+			label "Fetri'sei (T5)"
+			action
+				take ship "Fetri'sei"
+					count 3
+				take ship "Fetri'sei (T5)"
+				give ship "Fetri'sei (T6)"
+			`3x "Fetri'sei" removed, 1x "Fetri'sei (T5)" removed, 1x "Fetri'sei (T6)" given`
+				goto menu
 			label "Rano'erek (T5)"
 			action
 				take ship "Rano'erek"
@@ -25421,6 +26085,14 @@ mission "upgrade ships"
 				take ship "Tern (T5)"
 				give ship "Tern (T6)"
 			`3x "Tern" removed, 1x "Tern (T5)" removed, 1x "Tern (T6)" given`
+				goto menu
+			label "vyu-Ir (T5)"
+			action
+				take ship "vyu-Ir"
+					count 3
+				take ship "vyu-Ir (T5)"
+				give ship "vyu-Ir (T6)"
+			`3x "vyu-Ir" removed, 1x "vyu-Ir (T5)" removed, 1x "vyu-Ir (T6)" given`
 				goto menu
 			label "Emerald Sword (T5)"
 			action
@@ -26078,6 +26750,14 @@ mission "upgrade ships"
 				give ship "Saryd Visitor (T7)"
 			`3x "Saryd Visitor" removed, 1x "Saryd Visitor (T6)" removed, 1x "Saryd Visitor (T7)" given`
 				goto menu
+			label "Subsidurial (T6)"
+			action
+				take ship "Subsidurial"
+					count 3
+				take ship "Subsidurial (T6)"
+				give ship "Subsidurial (T7)"
+			`3x "Subsidurial" removed, 1x "Subsidurial (T6)" removed, 1x "Subsidurial (T7)" given`
+				goto menu
 			label "Shale (T6)"
 			action
 				take ship "Shale"
@@ -26413,6 +27093,14 @@ mission "upgrade ships"
 				take ship "Water Bug (T6)"
 				give ship "Water Bug (T7)"
 			`3x "Water Bug" removed, 1x "Water Bug (T6)" removed, 1x "Water Bug (T7)" given`
+				goto menu
+			label "Racing Flivver (T6)"
+			action
+				take ship "Racing Flivver"
+					count 3
+				take ship "Racing Flivver (T6)"
+				give ship "Racing Flivver (T7)"
+			`3x "Racing Flivver" removed, 1x "Racing Flivver (T6)" removed, 1x "Racing Flivver (T7)" given`
 				goto menu
 			label "Kestrel (T6)"
 			action
@@ -27110,6 +27798,38 @@ mission "upgrade ships"
 				give ship "Tace Mesa (T7)"
 			`3x "Tace Mesa" removed, 1x "Tace Mesa (T6)" removed, 1x "Tace Mesa (T7)" given`
 				goto menu
+			label "Builder Satellite (T6)"
+			action
+				take ship "Builder Satellite"
+					count 3
+				take ship "Builder Satellite (T6)"
+				give ship "Builder Satellite (T7)"
+			`3x "Builder Satellite" removed, 1x "Builder Satellite (T6)" removed, 1x "Builder Satellite (T7)" given`
+				goto menu
+			label "Selii'mar (T6)"
+			action
+				take ship "Selii'mar"
+					count 3
+				take ship "Selii'mar (T6)"
+				give ship "Selii'mar (T7)"
+			`3x "Selii'mar" removed, 1x "Selii'mar (T6)" removed, 1x "Selii'mar (T7)" given`
+				goto menu
+			label "Faes'mar (T6)"
+			action
+				take ship "Faes'mar"
+					count 3
+				take ship "Faes'mar (T6)"
+				give ship "Faes'mar (T7)"
+			`3x "Faes'mar" removed, 1x "Faes'mar (T6)" removed, 1x "Faes'mar (T7)" given`
+				goto menu
+			label "Fetri'sei (T6)"
+			action
+				take ship "Fetri'sei"
+					count 3
+				take ship "Fetri'sei (T6)"
+				give ship "Fetri'sei (T7)"
+			`3x "Fetri'sei" removed, 1x "Fetri'sei (T6)" removed, 1x "Fetri'sei (T7)" given`
+				goto menu
 			label "Rano'erek (T6)"
 			action
 				take ship "Rano'erek"
@@ -27557,6 +28277,14 @@ mission "upgrade ships"
 				take ship "Tern (T6)"
 				give ship "Tern (T7)"
 			`3x "Tern" removed, 1x "Tern (T6)" removed, 1x "Tern (T7)" given`
+				goto menu
+			label "vyu-Ir (T6)"
+			action
+				take ship "vyu-Ir"
+					count 3
+				take ship "vyu-Ir (T6)"
+				give ship "vyu-Ir (T7)"
+			`3x "vyu-Ir" removed, 1x "vyu-Ir (T6)" removed, 1x "vyu-Ir (T7)" given`
 				goto menu
 			label "Emerald Sword (T6)"
 			action
@@ -28214,6 +28942,14 @@ mission "upgrade ships"
 				give ship "Saryd Visitor (T8)"
 			`3x "Saryd Visitor" removed, 1x "Saryd Visitor (T7)" removed, 1x "Saryd Visitor (T8)" given`
 				goto menu
+			label "Subsidurial (T7)"
+			action
+				take ship "Subsidurial"
+					count 3
+				take ship "Subsidurial (T7)"
+				give ship "Subsidurial (T8)"
+			`3x "Subsidurial" removed, 1x "Subsidurial (T7)" removed, 1x "Subsidurial (T8)" given`
+				goto menu
 			label "Shale (T7)"
 			action
 				take ship "Shale"
@@ -28549,6 +29285,14 @@ mission "upgrade ships"
 				take ship "Water Bug (T7)"
 				give ship "Water Bug (T8)"
 			`3x "Water Bug" removed, 1x "Water Bug (T7)" removed, 1x "Water Bug (T8)" given`
+				goto menu
+			label "Racing Flivver (T7)"
+			action
+				take ship "Racing Flivver"
+					count 3
+				take ship "Racing Flivver (T7)"
+				give ship "Racing Flivver (T8)"
+			`3x "Racing Flivver" removed, 1x "Racing Flivver (T7)" removed, 1x "Racing Flivver (T8)" given`
 				goto menu
 			label "Kestrel (T7)"
 			action
@@ -29246,6 +29990,38 @@ mission "upgrade ships"
 				give ship "Tace Mesa (T8)"
 			`3x "Tace Mesa" removed, 1x "Tace Mesa (T7)" removed, 1x "Tace Mesa (T8)" given`
 				goto menu
+			label "Builder Satellite (T7)"
+			action
+				take ship "Builder Satellite"
+					count 3
+				take ship "Builder Satellite (T7)"
+				give ship "Builder Satellite (T8)"
+			`3x "Builder Satellite" removed, 1x "Builder Satellite (T7)" removed, 1x "Builder Satellite (T8)" given`
+				goto menu
+			label "Selii'mar (T7)"
+			action
+				take ship "Selii'mar"
+					count 3
+				take ship "Selii'mar (T7)"
+				give ship "Selii'mar (T8)"
+			`3x "Selii'mar" removed, 1x "Selii'mar (T7)" removed, 1x "Selii'mar (T8)" given`
+				goto menu
+			label "Faes'mar (T7)"
+			action
+				take ship "Faes'mar"
+					count 3
+				take ship "Faes'mar (T7)"
+				give ship "Faes'mar (T8)"
+			`3x "Faes'mar" removed, 1x "Faes'mar (T7)" removed, 1x "Faes'mar (T8)" given`
+				goto menu
+			label "Fetri'sei (T7)"
+			action
+				take ship "Fetri'sei"
+					count 3
+				take ship "Fetri'sei (T7)"
+				give ship "Fetri'sei (T8)"
+			`3x "Fetri'sei" removed, 1x "Fetri'sei (T7)" removed, 1x "Fetri'sei (T8)" given`
+				goto menu
 			label "Rano'erek (T7)"
 			action
 				take ship "Rano'erek"
@@ -29693,6 +30469,14 @@ mission "upgrade ships"
 				take ship "Tern (T7)"
 				give ship "Tern (T8)"
 			`3x "Tern" removed, 1x "Tern (T7)" removed, 1x "Tern (T8)" given`
+				goto menu
+			label "vyu-Ir (T7)"
+			action
+				take ship "vyu-Ir"
+					count 3
+				take ship "vyu-Ir (T7)"
+				give ship "vyu-Ir (T8)"
+			`3x "vyu-Ir" removed, 1x "vyu-Ir (T7)" removed, 1x "vyu-Ir (T8)" given`
 				goto menu
 			label "Emerald Sword (T7)"
 			action
@@ -30350,6 +31134,14 @@ mission "upgrade ships"
 				give ship "Saryd Visitor (T9)"
 			`3x "Saryd Visitor" removed, 1x "Saryd Visitor (T8)" removed, 1x "Saryd Visitor (T9)" given`
 				goto menu
+			label "Subsidurial (T8)"
+			action
+				take ship "Subsidurial"
+					count 3
+				take ship "Subsidurial (T8)"
+				give ship "Subsidurial (T9)"
+			`3x "Subsidurial" removed, 1x "Subsidurial (T8)" removed, 1x "Subsidurial (T9)" given`
+				goto menu
 			label "Shale (T8)"
 			action
 				take ship "Shale"
@@ -30685,6 +31477,14 @@ mission "upgrade ships"
 				take ship "Water Bug (T8)"
 				give ship "Water Bug (T9)"
 			`3x "Water Bug" removed, 1x "Water Bug (T8)" removed, 1x "Water Bug (T9)" given`
+				goto menu
+			label "Racing Flivver (T8)"
+			action
+				take ship "Racing Flivver"
+					count 3
+				take ship "Racing Flivver (T8)"
+				give ship "Racing Flivver (T9)"
+			`3x "Racing Flivver" removed, 1x "Racing Flivver (T8)" removed, 1x "Racing Flivver (T9)" given`
 				goto menu
 			label "Kestrel (T8)"
 			action
@@ -31382,6 +32182,38 @@ mission "upgrade ships"
 				give ship "Tace Mesa (T9)"
 			`3x "Tace Mesa" removed, 1x "Tace Mesa (T8)" removed, 1x "Tace Mesa (T9)" given`
 				goto menu
+			label "Builder Satellite (T8)"
+			action
+				take ship "Builder Satellite"
+					count 3
+				take ship "Builder Satellite (T8)"
+				give ship "Builder Satellite (T9)"
+			`3x "Builder Satellite" removed, 1x "Builder Satellite (T8)" removed, 1x "Builder Satellite (T9)" given`
+				goto menu
+			label "Selii'mar (T8)"
+			action
+				take ship "Selii'mar"
+					count 3
+				take ship "Selii'mar (T8)"
+				give ship "Selii'mar (T9)"
+			`3x "Selii'mar" removed, 1x "Selii'mar (T8)" removed, 1x "Selii'mar (T9)" given`
+				goto menu
+			label "Faes'mar (T8)"
+			action
+				take ship "Faes'mar"
+					count 3
+				take ship "Faes'mar (T8)"
+				give ship "Faes'mar (T9)"
+			`3x "Faes'mar" removed, 1x "Faes'mar (T8)" removed, 1x "Faes'mar (T9)" given`
+				goto menu
+			label "Fetri'sei (T8)"
+			action
+				take ship "Fetri'sei"
+					count 3
+				take ship "Fetri'sei (T8)"
+				give ship "Fetri'sei (T9)"
+			`3x "Fetri'sei" removed, 1x "Fetri'sei (T8)" removed, 1x "Fetri'sei (T9)" given`
+				goto menu
 			label "Rano'erek (T8)"
 			action
 				take ship "Rano'erek"
@@ -31829,6 +32661,14 @@ mission "upgrade ships"
 				take ship "Tern (T8)"
 				give ship "Tern (T9)"
 			`3x "Tern" removed, 1x "Tern (T8)" removed, 1x "Tern (T9)" given`
+				goto menu
+			label "vyu-Ir (T8)"
+			action
+				take ship "vyu-Ir"
+					count 3
+				take ship "vyu-Ir (T8)"
+				give ship "vyu-Ir (T9)"
+			`3x "vyu-Ir" removed, 1x "vyu-Ir (T8)" removed, 1x "vyu-Ir (T9)" given`
 				goto menu
 			label "Emerald Sword (T8)"
 			action
@@ -32486,6 +33326,14 @@ mission "upgrade ships"
 				give ship "Saryd Visitor (T10)"
 			`3x "Saryd Visitor" removed, 1x "Saryd Visitor (T9)" removed, 1x "Saryd Visitor (T10)" given`
 				goto menu
+			label "Subsidurial (T9)"
+			action
+				take ship "Subsidurial"
+					count 3
+				take ship "Subsidurial (T9)"
+				give ship "Subsidurial (T10)"
+			`3x "Subsidurial" removed, 1x "Subsidurial (T9)" removed, 1x "Subsidurial (T10)" given`
+				goto menu
 			label "Shale (T9)"
 			action
 				take ship "Shale"
@@ -32821,6 +33669,14 @@ mission "upgrade ships"
 				take ship "Water Bug (T9)"
 				give ship "Water Bug (T10)"
 			`3x "Water Bug" removed, 1x "Water Bug (T9)" removed, 1x "Water Bug (T10)" given`
+				goto menu
+			label "Racing Flivver (T9)"
+			action
+				take ship "Racing Flivver"
+					count 3
+				take ship "Racing Flivver (T9)"
+				give ship "Racing Flivver (T10)"
+			`3x "Racing Flivver" removed, 1x "Racing Flivver (T9)" removed, 1x "Racing Flivver (T10)" given`
 				goto menu
 			label "Kestrel (T9)"
 			action
@@ -33518,6 +34374,38 @@ mission "upgrade ships"
 				give ship "Tace Mesa (T10)"
 			`3x "Tace Mesa" removed, 1x "Tace Mesa (T9)" removed, 1x "Tace Mesa (T10)" given`
 				goto menu
+			label "Builder Satellite (T9)"
+			action
+				take ship "Builder Satellite"
+					count 3
+				take ship "Builder Satellite (T9)"
+				give ship "Builder Satellite (T10)"
+			`3x "Builder Satellite" removed, 1x "Builder Satellite (T9)" removed, 1x "Builder Satellite (T10)" given`
+				goto menu
+			label "Selii'mar (T9)"
+			action
+				take ship "Selii'mar"
+					count 3
+				take ship "Selii'mar (T9)"
+				give ship "Selii'mar (T10)"
+			`3x "Selii'mar" removed, 1x "Selii'mar (T9)" removed, 1x "Selii'mar (T10)" given`
+				goto menu
+			label "Faes'mar (T9)"
+			action
+				take ship "Faes'mar"
+					count 3
+				take ship "Faes'mar (T9)"
+				give ship "Faes'mar (T10)"
+			`3x "Faes'mar" removed, 1x "Faes'mar (T9)" removed, 1x "Faes'mar (T10)" given`
+				goto menu
+			label "Fetri'sei (T9)"
+			action
+				take ship "Fetri'sei"
+					count 3
+				take ship "Fetri'sei (T9)"
+				give ship "Fetri'sei (T10)"
+			`3x "Fetri'sei" removed, 1x "Fetri'sei (T9)" removed, 1x "Fetri'sei (T10)" given`
+				goto menu
 			label "Rano'erek (T9)"
 			action
 				take ship "Rano'erek"
@@ -33965,6 +34853,14 @@ mission "upgrade ships"
 				take ship "Tern (T9)"
 				give ship "Tern (T10)"
 			`3x "Tern" removed, 1x "Tern (T9)" removed, 1x "Tern (T10)" given`
+				goto menu
+			label "vyu-Ir (T9)"
+			action
+				take ship "vyu-Ir"
+					count 3
+				take ship "vyu-Ir (T9)"
+				give ship "vyu-Ir (T10)"
+			`3x "vyu-Ir" removed, 1x "vyu-Ir (T9)" removed, 1x "vyu-Ir (T10)" given`
 				goto menu
 			label "Emerald Sword (T9)"
 			action
