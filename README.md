@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-11 | update: vague.improvements<br>
 2025-10-11 | update: ship.merging<br>
 2025-10-07 | update: uniques<br>
 2025-10-05 | update: control.station<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-09-18 | update: flare.play<br>
 2025-09-15 | update: ship.merging<br>
 2025-09-15 | update: quarg.farm<br>
-2025-09-13 | update: uniques<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -80,6 +80,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#toomanyasteroids">too.many.asteroids</a><br>
 <a href="README.md#tributerepublic">tribute.republic</a><br>
 <a href="README.md#uniques">uniques</a><br>
+<a href="README.md#vagueimprovements">vague.improvements</a><br>
 <img width="294" height="1"><br></td></tr></table>
 
 
@@ -5212,5 +5213,76 @@ screenshots(click to enlarge):<br>
 	</tr>
 </table>
 <br>
+
+<br>
+
+
+---
+
+### vague.improvements
+
+<img src="myplugins/vague.improvements/icon.png" height="100">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/vague.improvements.png">
+
+[vague.improvements.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-vague.improvements/vague.improvements.zip) | 33.22 kb | 2025-10-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/vague.improvements/) <a href="res/imagemd/vague.improvements.md">view images</a> [2]<br>
+<br>
+>A bunch of small QoL adjustment plugins. Just delete the unwanted and enjoy the wanted tweaks. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### vague.improvements
+
+<br>
+
+<br>
+
+A bunch of small adjustment plugins. Just delete the unwanted and enjoy the wanted tweaks.<br>
+
+<br>
+
+<br>
+
+If you don't want one of these features, just delete the unwanted txt file.<br>
+
+<br>
+
+<ul>
+
+<li> avgi.damselflyman.50percent.txt - increases the chance to get damselflyman superpowers from 1% to 50%</li>
+
+<li> bunrodea.first.contact.100percent.txt - increases chance to meet bunrodea from 10% to 100%</li>
+
+<li> gamerules.txt - changes some gamerules(person ships/player fighter)</li>
+
+<li> illegal.txt - removes the fines for illegal outfits</li>
+
+<li> increased.pirate.bactrian.spawn.txt - increases the spawnrate of the bactrian in the 3 northern pirate systems</li>
+
+<li> increased.korath.rare.spawn.txt - increases the spawnrate of the 2 super rare korath longships</li>
+
+<li> korath.names.jump.txt - changes korath ship names to display if they have a jump drive</li>
+
+<li> modified.tachytia.txt - removes the self destruction chance of the modified tachytia in the avgi wandering fleet</li>
+
+<li> unfettered.wah.ki.no.flee.txt - removes the fleeing from unfettered fleets in wah ki</li>
+
+<li> wanderer.2.arfectas.capture.txt - allows to capture the 2 arfectas during the wanderer campaign, without consequences</li>
+
+</ul>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2025-10-11<br>
+
+initial release<br>
+
+</blockquote>
+</details>
 
 <br>
