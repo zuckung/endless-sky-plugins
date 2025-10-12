@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-12 | update: ship.merging<br>
 2025-10-11 | update: vague.improvements<br>
 2025-10-11 | update: ship.merging<br>
 2025-10-07 | update: uniques<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-01 | update: boss.loot<br>
 2025-09-18 | update: flare.play<br>
 2025-09-15 | update: ship.merging<br>
-2025-09-15 | update: quarg.farm<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4373,7 +4373,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/ship.merging/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/ship.merging.png">
 
-[ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-ship.merging/ship.merging.zip) | 2.25 mb | 2025-10-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) <a href="res/imagemd/ship.merging.md">view images</a> [8]<br>
+[ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-ship.merging/ship.merging.zip) | 2.45 mb | 2025-10-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) <a href="res/imagemd/ship.merging.md">view images</a> [10]<br>
 <br>
 >This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship. See the README for details.
 
@@ -4400,6 +4400,24 @@ Reduce performance issues by reducing ship amounts or just make single ships mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-10-12<br>
+
+reversed ship order inside the job (as wished by Darcy Manoel)<br>
+
+added multiplication of outfits<br>
+
+added multiplicatiin of gun/turret/bay subnode definitions<br>
+
+added a scene to the upgrade mission<br>
+
+added some more limited ships for users of plugins like omnis<br>
+
+changed a few sentences on the first contact and added a unique gift<br>
+
+<br>
 
 2025-10-11<br>
 
