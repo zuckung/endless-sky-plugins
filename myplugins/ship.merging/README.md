@@ -9,6 +9,15 @@ Reduce performance issues by reducing ship amounts or just make single ships mor
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-10-12<br>
+reversed ship order inside the job (as wished by Darcy Manoel)<br>
+added multiplication of outfits<br>
+added multiplicatiin of gun/turret/bay subnode definitions<br>
+added a scene to the upgrade mission<br>
+added some more limited ships for users of plugins like omnis<br>
+changed a few sentences on the first contact and added a unique gift<br>
+<br>
 2025-10-11<br>
 added ships "vyu-Ir", "Selii'mar" "Faes'mar", "Fetri'sei", "Subsidurial"<br>
 <br>

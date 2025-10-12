@@ -1,5 +1,6 @@
 # color
 # color
+# outfit "su_micro_stabilizer"
 # government "Lumeshi"
 # system "Cardax"
 # system "su_system1"
@@ -13,6 +14,20 @@
 
 color "ship_upgrades job: selected" 1. 1. .0 0.
 color "ship_upgrades job: unselected" .5 .5 0. 0.
+
+
+outfit "su_micro_stabilizer"
+	"display name" "Lumeshi Micro-Stabilizer"
+	category "Unique"
+	series "Functional Unique"
+	index 01100
+	thumbnail "outfit/su_microstab"
+	"unique" 1
+	"unplunderable" 1
+	"energy generation" 3.0
+	cost 1000000
+	description `A miniaturized Micro-Stabilizer, produced and gifted by the Lumeshi.`
+	description `This is a compact energy modulation unit designed to compress spatial fluctuation fields into a steady power output. It employs phased gravitic coils and harmonic plasma inducers to convert localized space-time motion into usable energy. Human-engineered versions are typically too large to be practical, serving only as low, independent power sources for isolated systems rather than integration with a ship's main reactor. The Lumeshi miniaturized variant, however, achieves remarkable efficiency, producing stable energy from minimal spatial distortion.`
 
 
 government "Lumeshi"
@@ -198,8 +213,10 @@ mission "su_contact2"
 				clear "su_cluster"
 				clear "su_ship"
 				clear "su_merging"
+				outfit "su_micro_stabilizer"
 			`You authorize a partial systems strip, spare components, old comm coils, a prototype reactor shard you never really trusted. The Lumeshi purr approvingly.`
 			`"Yes. Plenty. This will suffice."`
-			`They return a short while later with a micro-stabilizer the size of your palm. You plug it into your nav console, and instantly your power draw drops by 4%.`
+			`They return a short while later with a micro-stabilizer the size of your palm. You plug it into your nav console, and instantly your power generation rises by a few percent.`
+			scene "outfit/su_microstab"
 			`"First gift. Proof of concept. For extensive trade, bring ships, check ship's job board."`
 				decline

@@ -1,6 +1,3 @@
-# 2do:
-# outfit amounts for higher tiers
-# copy gun/turret/bay attributes of each subnode
 import os
 
 
@@ -144,44 +141,59 @@ def write_ships(tiers, obj, ship_exclude, nodes_exclude):
 			pos2 = oldnameline.find('"', pos1 +1)
 			if tier < 10:
 				ship_names.append(oldnameline[pos1+1:] + ' (T' + str(tier) + ')')
-			# double bay/gun/turret
+			# multiply bay/gun/turret
 			newsplitted = part2.split('\n')
 			part2 = ''
+			block = ''
 			for line in newsplitted:
-				if line.startswith('\tgun'):
-					if '"' in line:
-						pos1 = line.find('"')
-						line = line[:pos1-1]
-						part2 += line + '\n'
-						for i in range(1, tier):
-							part2 += line + '\n'
-					else:
-						if line.count(' ') > 2:
-							newline = line.split(' ')[0] + ' ' + line.split(' ')[1] + ' ' + line.split(' ')[2] + '\n'
-							part2 += newline
-							for i in range(1, tier):
-								part2 += newline
-						else:
-							part2 += line + '\n'
-							for i in range(1, tier):
-								part2 += line + '\n'
-				if line.startswith('\tturret'):
-					if '"' in line:
-						pos1 = line.find('"')
-						line = line[:pos1-1]
-						part2 += line + '\n'
-						for i in range(1, tier):
-							part2 += line + '\n'
+				if line.startswith('\t\t'):
+					if block != '':
+						block += line + '\n'
 					else:
 						part2 += line + '\n'
-						for i in range(1, tier):
-							part2 += line + '\n'
-				if line.startswith('\tbay'):
+				elif line.startswith('\tgun') or line.startswith('\tturret') or line.startswith('\tbay'):
+					if block != '':
+						part2 += block
+						for i in range(1, tier + 1):
+							part2 += block
+						block = line + '\n'
+					else:
+						block = line + '\n'
+				else:
+					if block != '':
+						part2 += block
+						for i in range(1, tier + 1):
+							part2 += block
+						block = ''
 					part2 += line + '\n'
-					for i in range(1, tier):
+			# multiply outfits
+			newsplitted = part2.split('\n')
+			part2 = ''
+			startoutfits = False
+			for line in newsplitted:
+				if line.startswith('\toutfits'):
+					startoutfits = True
+					part2 += line + '\n'
+					continue
+				elif line.startswith('\t\t'):
+					if line == '\t\t\n':
+						continue
+					if startoutfits == True:
+						#multiply outfits
+						splitoutfits = line.split(' ')
+						if splitoutfits[len(splitoutfits)-1].isdigit():
+							newnumber = int(splitoutfits[len(splitoutfits)-1]) * (tier + 1)
+							line = ' '.join(splitoutfits[:len(splitoutfits)-1]) + ' ' + str(newnumber)
+						else:
+							newnumber = tier + 1
+							line = ' '.join(splitoutfits[:len(splitoutfits)]) + ' ' + str(newnumber)
+						part2 += line + '\n'
+					else:
 						part2 += line + '\n'
 				else:
 					part2 += line + '\n'
+					startoutfits = False
+						
 			# put everything into a list
 			all_tiers.append(part1 + new_attributes + part2)
 	with open('ship_upgrades_ships.txt', 'w') as t:
@@ -191,6 +203,7 @@ def write_ships(tiers, obj, ship_exclude, nodes_exclude):
 
 
 def write_mission(ship_names):
+	
 	# mission start text
 	missiontxt = '' + \
 		'mission "upgrade ships"\n' +\
@@ -205,13 +218,14 @@ def write_mission(ship_names):
 		'		conversation\n' +\
 		'			label "start"\n' +\
 		'			label "menu"\n' +\
+		'			scene "scene/su_cats"\n' +\
 		'			`Ship Upgrade Menu`\n' +\
 		'			``\n' +\
 		'			`- only active ships in your fleet will be considered`\n' +\
-		'			`- on merging, all ship outfits are lost, and the new ship has the standard outfits`\n' +\
+		'			`- on merging, all ship outfits are lost, and the new ship has the standard outfits multiplied by its tier.`\n' +\
 		'			``\n' +\
-		'			`i.e.: own 4 ships of the same kind and merge them into one T1 ship of that kind with doubled attributes`\n' +\
-		'			`i.e.: own 3 ships of the same kind and one T4 of that kind, and merge it into one T5 ship of that kind with 6 times the attributes (of the base version)`\n' +\
+		'			`i.e.: own 4 ships of the same kind and merge them into one T1 ship of that kind with doubled attributes/guns/turrets/bays/outfits.`\n' +\
+		'			`i.e.: own 3 ships of the same kind and one T4 of that kind, and merge it into one T5 ship of that kind with 6 times the attributes/guns/turrets/bays/outfits (of the base version).`\n' +\
 		'			``\n' +\
 		'			`The following ships can be merged into a higher tier:`\n' +\
 		'			choice\n'
@@ -323,7 +337,7 @@ def write_mission(ship_names):
 				'				take ship "' + base + '"\n' +\
 				'					count 4\n' +\
 				'				give ship "' + give_ship + '"\n' +\
-				'			`' + no + 'x "' + base + '" removed, 1x "' + give_ship + '" given`\n' +\
+				'			`' + no + 'x "' + base + '" removed | 1x "' + give_ship + '" given`\n' +\
 				'				goto menu\n'
 			else:
 				missiontxt += \
@@ -333,25 +347,26 @@ def write_mission(ship_names):
 				'					count 3\n' +\
 				'				take ship "' + ship + '"\n' +\
 				'				give ship "' + give_ship + '"\n' +\
-				'			`' + no + 'x "' + base + '" removed, 1x "' + ship + '" removed, 1x "' + give_ship + '" given`\n' +\
+				'			`' + no + 'x "' + base + '" removed, 1x "' + ship + '" removed | 1x "' + give_ship + '" given`\n' +\
 				'				goto menu\n'
 	missiontxt += \
 		'			label "end"\n' +\
-		'			`bye`\n' +\
-		'		fail\n'
+		'			`The merging sequence ends. The Lumeshi exchange soft, trilling tones, excitement expressed through calm precision rather than chaos.`\n' +\
+		'			`With the process complete, you leave the production hall as the Lumeshi begin their final calibration rituals in quiet reverence.`\n' +\
+		'		fail\n' 
 	# write file
 	with open('ship_upgrades_mission.txt', 'w') as t:
 		t.writelines(missiontxt)
 
 
-
 def run():
 	data_folder = '/storage/9C33-6BBD/endless sky/data/'
 	node_exclude = ['\tattributes', '\t\tcategory', '\t\tlicenses', '\t\tweapon', '\t\t\t', '\t\t"flare', '\t\t"steering', '\t\t"reverse', '\t\t"heat dissipation', '\t\t"waterlining', '\t\t"gaslining', '\t\t"automaton', '#', '\t\t#']
-	ship_exclude = ["Mammoth", "Anomalocaris", "Modified Hauler VI", "Waverider", "Modified Ladybug", "Modified Battleship", "Modified Boxwing", "Marauder Bactrian", "Shooting Star", "Ursa Polaris", "Modified Osprey", "Lampyrid-Class Transport", "Marauder Fury","Wardragon", "Ayym", "Korath Dredger", "Korath Raider", "Korath Chaser", "Korath World-Ship", "Quarg Skylark", "Windjammer", "Bluejacket", "Pollen", "Sprout", "Archon", "Void Sprite", "Ember Waste Node", "Embershade", "Embersylph", "Hallucination", "Asteroid", "Science Drone", "Emergency Shuttle", "Unknown Ship Type", "Surveillance Drone", "Aberrant Latte", "Aberrant Chomper", "Aberrant Pileup", "Aberrant Hugger", "Aberrant Longfellow", "Aberrant Dancer", "Aberrant Junior", "Aberrant Icebreaker", "Aberrant Pike", "Aberrant Mole", "Aberrant Whiskers", "Aberrant Trip", "Aberrant Triplet", "Asteroid Large 1", "Asteroid Large 2", "Asteroid Large 3", "Asteroid Large 4", "Asteroid Large 5", "Asteroid Medium", "Asteroid Young 1", "Asteroid Young 2", "Asteroid Young 3", "Asteroid Young 4", "Cloak Check", "Asteroid Planet", "Remnant Satellite", "Asteroid Blocker", "Maeri'het",  "Telis'het", "Vareti'het", "Nanobot", "_Ion Timer Ship", "Rescue Dummy", "Timer Ship", "Vyrmeid", "Astral Cetacean", "Pincer Beast"]
+	ship_exclude = ["Ayym", "Korath Dredger", "Korath Raider", "Korath Chaser", "Korath World-Ship", "Windjammer", "Bluejacket", "Pollen", "Sprout", "Archon", "Void Sprite", "Ember Waste Node", "Embershade", "Embersylph", "Hallucination", "Asteroid", "Science Drone", "Emergency Shuttle", "Unknown Ship Type", "Surveillance Drone", "Aberrant Latte", "Aberrant Chomper", "Aberrant Pileup", "Aberrant Hugger", "Aberrant Longfellow", "Aberrant Dancer", "Aberrant Junior", "Aberrant Icebreaker", "Aberrant Pike", "Aberrant Mole", "Aberrant Whiskers", "Aberrant Trip", "Aberrant Triplet", "Asteroid Large 1", "Asteroid Large 2", "Asteroid Large 3", "Asteroid Large 4", "Asteroid Large 5", "Asteroid Medium", "Asteroid Young 1", "Asteroid Young 2", "Asteroid Young 3", "Asteroid Young 4", "Cloak Check", "Asteroid Planet", "Remnant Satellite", "Asteroid Blocker", "Maeri'het",  "Telis'het", "Vareti'het", "Nanobot", "_Ion Timer Ship", "Rescue Dummy", "Timer Ship", "Vyrmeid", "Astral Cetacean", "Pincer Beast"]
 	tiers = [1,2,3,4,5,6,7,8,9,10]
 	obj, obj_path, obj_name = read_everything(data_folder)
 	ship_names = write_ships(tiers, obj, ship_exclude, node_exclude)
+	ship_names.reverse()
 	write_mission(ship_names)
 
 
