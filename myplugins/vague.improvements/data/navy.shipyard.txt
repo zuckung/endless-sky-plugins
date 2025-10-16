@@ -1,11 +1,11 @@
 
 
-event "add nayy shipyard to Geminus"
+event "add navy shipyard to Geminus"
 	planet "Geminus"
 		add shipyard "Navy Advanced"
 
 
-mission "add shipyard to Geminus"
+mission "add navy shipyard to Geminus"
 	landing
 	invisible
 	non-blocking

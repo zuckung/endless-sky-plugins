@@ -11,8 +11,8 @@
 disable mission
 	"Pact Recon 0"
 	"Pact Recon 1"
+	"Pact Recon 2"
 	"Pact Recon 3"
-	"Pact Recon 4"
 
 
 mission "Pact Recon 0 changed"
