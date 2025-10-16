@@ -1,4 +1,4 @@
-# after capturing the 2 wanderer defending arfects, the normal mission pop up e plaining the wanderer hat you now
+# after capturing the 3 wanderer defending arfectas, the normal mission pop up explaining the wanderer hate you now,
 # then this mission starts and fixes the reputation again, wanderes again love you
 
 
@@ -11,4 +11,6 @@ mission "fix 2 arfectas stolen"
 		has "Wanderers Pug Hostile: declined"
 	on offer
 		"reputation: Wanderer" = 100
+		"reputation: Pug" = 100
+		"reputation: Pug (Wanderer)" = 100
 		fail

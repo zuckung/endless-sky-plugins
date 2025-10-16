@@ -1,0 +1,16 @@
+
+
+event "add nayy shipyard to Geminus"
+	planet "Geminus"
+		add shipyard "Navy Advanced"
+
+
+mission "add shipyard to Geminus"
+	landing
+	invisible
+	non-blocking
+	to offer
+		has "free worlds plot completed"
+	on offer
+		event "add navy shipyard to Geminus" 0
+		fail

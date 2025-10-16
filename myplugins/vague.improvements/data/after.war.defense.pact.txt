@@ -1,0 +1,187 @@
+# removes the need to complete these missions before the FW war begins
+
+# disable mission
+# mission "Pact Recon 0 changed"
+# mission "Pact Recon 1 changed"
+# mission "Pact Recon 2 changed"
+# mission "Pact Recon 3 changed"
+
+
+
+disable mission
+	"Pact Recon 0"
+	"Pact Recon 1"
+	"Pact Recon 3"
+	"Pact Recon 4"
+
+
+mission "Pact Recon 0 changed"
+	minor
+	name "Pirate Reconnaissance"
+	description "Fly through the <waypoints> systems, then report to <destination> so the Southern Mutual Defense Pact can analyze your logs of pirate activity (if any)."
+	source
+		attributes "rim" "south"
+		not government "Pirate"
+		not system "Alniyat" "Atria" "Lesath" "Han"
+		not planet "Glaze"
+	destination "Glaze"
+	waypoint "Alniyat"
+	waypoint "Atria"
+	waypoint "Han"
+	waypoint "Lesath"
+	to offer
+		random < 60
+		not "Pact Recon 0: done"
+	on offer
+		conversation
+			`You can't help noticing that the freighter parked next to the <ship> is in very bad shape, its hull pockmarked with blaster scars, as well as larger dents that may be from missiles. The crew and a number of men in militia uniforms are busy welding new hull plating onto it; the captain is having an animated conversation with a young female militia officer.`
+			choice
+				`	(Approach them and find out what happened.)`
+				`	(Ignore them.)`
+					decline
+			`	You overhear enough of the conversation to figure out that the freighter was attacked by pirates, and the militia are helping to get it in working condition again. "A little spit shine and it'll look as good as new," the officer says, but the captain of the ship doesn't look convinced and walks up to his ship to work on it alongside the crew.`
+			`	The militia officer glances over her shoulder and, having spotted you listening in, waves you over. "No need to be shy," she says. "I'm guessing you're not from around here."`
+			choice
+				`	"How can you tell?"`
+				`	"Are the pirates rough around these parts?"`
+					goto pirates
+			`	"Because captains from around here don't rubberneck at an every-day occurrence. After seeing your first dozen or so damaged ships, you eventually get used to seeing them and just move on."`
+			`	"Are the pirates rough around these parts?" you ask.`
+			label pirates
+			`	"Rougher than you're probably used to if you're from farther up north. The Navy doesn't patrol these parts, not unless there's some high profile warlord that's on their radar. Because of that, pirates have more free rein to terrorize us down here." She pauses for a moment while turning back to the freighter. "And the pirate fleets keep getting stronger every year," she says with concern.`
+			choice
+				`	"Is there something I can do to help?"`
+				`	"I wish I could help, but my ship is not a warship."`
+					goto warship
+			`	"There is indeed," she says. "Have you heard of the Southern Mutual Defense Pact?"`
+				goto pact
+			label warship
+			`	"There are other ways you could help us," she says. "Have you heard of the Southern Mutual Defense Pact?"`
+			label pact
+			choice
+				`	"No. What is it?"`
+				`	"Yes."`
+					goto eyes
+			`	She says, "We're a collection of worlds that have decided that since the Navy doesn't patrol this part of the galaxy anymore, it's up to us to keep the pirates in check. The idea is that if the pirates ever try something big, like capturing an entire planet, that planet can call on the entire Pact to assist them. And, as you can see, we also do our fair share of helping out the local merchants where we can."`
+			`	"Sounds like a good idea," you say.`
+			label eyes
+			`	"The Pact is launching a new initiative, led by myself," she says. "We're calling it the 'Thousand Eyes.' We're asking merchant ship captains to let us access their scanner logs, basically using merchants as a surveillance network. You don't have to fight the pirates, just let us know if you see them. Interested?"`
+			choice
+				`	"Sure, I would be glad to help."`
+				`	"Sorry, sounds too risky."`
+					decline
+			`	"Great!" she says. "Right now, we need more eyes on a few systems on the edge of Southern space. All you need to do is fly through those systems, then report to our base on <destination>. I'll mark the target systems on your ship's map for you. And by the way, the name's Freya Winters."`
+			`	"<first> <last>," you respond, shaking her hand.`
+			`	"Nice to meet you, Captain <last>. Glad to have another helping hand. I'll be heading to <planet> after I've finished my business on <origin>, so see you there."`
+				accept
+	on accept
+		log "Volunteered to help the Southern Mutual Defense Pact keep tabs on pirate activity in their region of space. Pirate attacks seem to be getting worse because the Navy doesn't bother to patrol down here anymore."
+	on visit
+		dialog phrase "generic waypoint on visit"
+	on complete
+		set "Pact Recon 0: done"
+		payment 25000
+		event "pact recon 0" 1
+		dialog `When you land on <planet>, you're approached by Freya Winters. She gives you <payment> in exchange for your scanner logs of the Southern systems. "Thank you, Captain. I pray the pirates didn't give you too much trouble," she says. "I'll be in touch when we've got a new assignment for you, assuming you're still interested."`
+
+
+mission "Pact Recon 1 changed"
+	landing
+	name "Pirate Reconnaissance"
+	description "Fly through the <waypoints> systems, then report to <destination> so the Southern Mutual Defense Pact can analyze your logs of pirate activity (if any)."
+	source
+		attributes "dirt belt" "near earth" "rim" "south"
+		not government "Pirate"
+	destination "Glaze"
+	waypoint "Alnasl"
+	waypoint "Alpha Arae"
+	waypoint "Eber"
+	waypoint "Wei"
+	to offer
+		random < 40
+		has "event: pact recon 0"
+		not "Pact Recon 1: done"
+	on offer
+		dialog `You receive a message from Freya, the militia officer in charge of tracking pirate activity. "Hello, Captain <last>. I pray you're still interested in being a part of our Thousand Eyes program. We need some more intel on the empty systems in the middle of the Dirt Belt," she says. "Pay would be a bit better than last time, since these systems are a bit more out of the way. As with before, return to <destination> once you're finished."`
+	on visit
+		dialog phrase "generic waypoint on visit"
+	on complete
+		set "Pact Recon 1: done"
+		payment 35000
+		event "pact recon 1" 1
+		dialog `You transfer your sensor logs to Freya. She thanks you for your work and pays you <payment>. "I'll let you know when we need your services again," she says.`
+
+
+mission "Pact Recon 2 changed"
+	landing
+	name "Pirate Reconnaissance"
+	description "Fly through the <waypoints> systems, then report to <destination> so the Southern Mutual Defense Pact can analyze your logs of pirate activity (if any)."
+	source
+		attributes "dirt belt" "near earth" "rim" "south"
+		not government "Pirate"
+	destination "Glaze"
+	waypoint "Antares"
+	waypoint "Men"
+	waypoint "Nunki"
+	waypoint "Shaula"
+	to offer
+		random < 40
+		has "event: pact recon 1"
+		not "Pact Recon 2: done"
+	on offer
+		dialog `You receive another message from Freya: "Hello, Captain! I've got a more challenging and lucrative mission for you this time. We need someone to do a flyby of four pirate systems bordering the South, to gauge their strength. Again, no fighting is required, just fly in and out of the systems as fast as possible, and we're willing to pay much more than the last job given the danger involved. What do you say?"`
+	on visit
+		dialog phrase "generic waypoint on visit"
+	on complete
+		set "Pact Recon 2: done"
+		payment 70000
+		event "pact recon 2" 1
+		dialog `Freya Winters meets up with you in person soon after you land. "Glad to see you're still in one piece. I pray you didn't have much trouble," she says, as she hands you a credit chip for <payment>. "You've been a great help to us. I'll be sure to contact you next time we need a scout."`
+
+
+mission "Pact Recon 3 changed"
+	landing
+	name "Pirate Reconnaissance"
+	description "Fly through the <marks> systems, searching for a gathering pirate fleet. Report to the Pact on <destination> once you have located them."
+	source
+		attributes "dirt belt" "near earth" "rim" "south"
+		not government "Pirate"
+	destination "Glaze"
+	mark "Boral"
+	mark "Hintar"
+	mark "Naper"
+	mark "Orvala"
+	to offer
+		random < 40
+		has "event: pact recon 2"
+		not "Pact Recon 3: done"
+	on offer
+		dialog `Once again, you receive a message from Freya Winters. "We have another mission for you," she says, "this one a bit more dangerous. We've heard rumors of a pirate fleet amassing in one of the seldom-visited systems in the Dirt Belt, and we need to know where they are. Interested in helping to track them down? As before, you don't need to fight, just observe them."`
+	npc
+		government "Pirate"
+		personality staying plunders disables
+		system "Naper"
+		fleet "Small Southern Pirates" 3
+		fleet "Large Northern Pirates"
+	on enter "Boral"
+		unmark "Boral"
+	on enter "Hintar"
+		unmark "Hintar"
+	on enter "Orvala"
+		unmark "Orvala"
+	on enter "Naper"
+		unmark "Boral"
+		unmark "Hintar"
+		unmark "Orvala"
+		unmark "Naper"
+		set "fw located pirate fleet"
+		dialog `You have located the pirate fleet. Time to head back to <planet> to report to Freya what you found.`
+	on visit
+		dialog `You have reached <planet>, but you haven't located the pirate fleet yet! Better depart and make sure you have checked <marks>.`
+	to complete
+		has "fw located pirate fleet"
+	on complete
+		set "Pact Recon 3: done"
+		clear "fw located pirate fleet"
+		payment 80000
+		dialog `You report to Freya that you found a sizable pirate fleet in the Naper system, as well as spotting some pirates elsewhere. She thanks you, and pays you <payment>. "Thank you for your assistance," she says. "Again, I'll be in touch if we need you."`
