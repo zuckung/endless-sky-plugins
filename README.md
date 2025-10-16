@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-16 | update: vague.improvements<br>
 2025-10-12 | update: ship.merging<br>
 2025-10-11 | update: vague.improvements<br>
 2025-10-11 | update: ship.merging<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-01 | update: mission.helper<br>
 2025-10-01 | update: boss.loot<br>
 2025-09-18 | update: flare.play<br>
-2025-09-15 | update: ship.merging<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -5242,7 +5242,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/vague.improvements/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/vague.improvements.png">
 
-[vague.improvements.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-vague.improvements/vague.improvements.zip) | 33.22 kb | 2025-10-11 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/vague.improvements/) <a href="res/imagemd/vague.improvements.md">view images</a> [2]<br>
+[vague.improvements.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-vague.improvements/vague.improvements.zip) | 35.11 kb | 2025-10-16 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/vague.improvements/) <a href="res/imagemd/vague.improvements.md">view images</a> [2]<br>
 <br>
 >A bunch of small QoL adjustment plugins. Just delete the unwanted and enjoy the wanted tweaks. See the README for details.
 
@@ -5266,7 +5266,7 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 
 <ul>
 
-<li> avgi.damselflyman.50percent.txt - increases the chance to get damselflyman superpowers from 1% to 50%</li>
+<li> after.war.defense.pact.txt - removes the need to complete these missions before the FW war begins</li>
 
 <li> bunrodea.first.contact.100percent.txt - increases chance to meet bunrodea from 10% to 100%</li>
 
@@ -5282,9 +5282,11 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 
 <li> modified.tachytia.txt - removes the self destruction chance of the modified tachytia in the avgi wandering fleet</li>
 
+<li> navy.shipyard.txt - adds a Navy Advanced shipyard to Geminus</li>
+
 <li> unfettered.wah.ki.no.flee.txt - removes the fleeing from unfettered fleets in wah ki</li>
 
-<li> wanderer.2.arfectas.capture.txt - allows to capture the 2 arfectas during the wanderer campaign, without consequences</li>
+<li> wanderer.3.arfectas.capture.txt - allows to capture the 3 arfectas during the wanderer campaign, without consequences</li>
 
 </ul>
 
@@ -5293,6 +5295,16 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-10-16<br>
+
+removed damselflyman increase, because it is set already to 30%<br>
+
+added navy advanced shipyard<br>
+
+added fw defense pact missions after FW war<br>
 
 <br>
 
