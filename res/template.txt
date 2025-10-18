@@ -22,7 +22,12 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <br>
 <ul>
   <li>If you are familiar with Python, the scripts in the <a href="tools/README.md">tools-folder</a> might be interesting. There are a few to generate some of my plugins (to keep them up-to-date). And others like an ES jpg map creator or a PR files downloader</li>
-  <li>If you want to run a plugin repository like this, download <a href="https://github.com/zuckung/endless-sky-plugins/raw/refs/heads/main/tools/plugin_repo_template.zip">plugin_repo_template.zip</a>. It has detailed instructions how to setup the repository.</li>
+  <li>If you want to run a plugin repository like this, download <a href="https://github.com/zuckung/endless-sky-plugins/raw/refs/heads/main/tools/plugin_repo_template.zip">plugin_repo_template.zip</a>. It has detailed instructions how to setup the repository.<br>
+  Here are some repos made from the template:<br>
+  <a href="https://github.com/LixiChronikouOriou/ES-plugins" target="about:blank">https://github.com/LixiChronikouOriou/ES-plugins</a><br>
+  <a href="https://github.com/geojak/YouKnowWho-s-ES-Plugins" target="about:blank">https://github.com/geojak/YouKnowWho-s-ES-Plugins</a><br>
+  <a href="https://github.com/Nova1422/plugins" target="about:blank">https://github.com/Nova1422/plugins</a><br>
+  </li>
   <li>Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators or people who seek information inside the data folder. Basically it is a very fast way to view every object (root node) of the data folder on a website, especially when you don't know where to find something. For an easier browsing and comparing of game objects, like missions, ships, systems, and others.<br>
 <a href="https://raw.githubusercontent.com/zuckung/ES-DataParser/master/res/parser1.jpg"><img src='https://raw.githubusercontent.com/zuckung/ES-DataParser/master/res/parser1.jpg' width='300'></a>    <a href="https://raw.githubusercontent.com/zuckung/ES-DataParser/master/res/parser2.jpg"><img src='https://raw.githubusercontent.com/zuckung/ES-DataParser/master/res/parser2.jpg' width='300'></a></li>
   <li>I've got another new project, a github repository that lets you online generate a galaxy with up to 500 star systems and some more options to configurate that galaxy. When done, you can download it as a plugin. Here is the link. <a href="https://github.com/zuckung/ES-GalaxyGenerator">https://github.com/zuckung/ES-GalaxyGenerator</a></li>
