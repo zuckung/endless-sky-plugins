@@ -43,7 +43,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 %icon%
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/%name%.png" width="130" height="20">
 
-[%assetfile%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) %imagemd%<br>
+[%assetfile%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) | %imagemd%<br>
 <br>
 %description%
 <details>
