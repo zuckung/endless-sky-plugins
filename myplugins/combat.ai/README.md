@@ -4,7 +4,7 @@
 Offers a mission to install a combat AI, which increases your ship stats based on combat experience.<br>
 <br>
 You can get the mission to install the AI on any human planet.<br>
-Every 3,000 combat xp you can choose between 8 basic updates, every 7,000 between 10 advanced updates, and every 11,000 between 14 special updates.<br>
+Every 3,000 combat xp you can choose between  9basic updates, every 7,000 between 11 advanced updates, and every 11,000 between 16 special updates.<br>
 Some updates have max ranks and others can get raised infinitely. These updates are done by adding invisible outfits with stats to the ship.<br>
 If you change your ship or lose the unique combat AI outfit, a restoring mission installs everything that has been lost on the (new) ship.<br>
 Some mechanics and ideas are inspired by Zoura's excellent plugin "Tales of Apoxys DX" . My plugin is less complex, doesn't need a fresh start, and is more flexible.<br>
