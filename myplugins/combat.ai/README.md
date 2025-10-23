@@ -19,6 +19,7 @@ Basic: Engine Capacity +3|unlimited|"engine capacity" 3<br>
 Basic: Fuel Capacity +100|unlimited|"fuel capacity" 100<br>
 Basic: Cooling +600|unlimited|"cooling" 10<br>
 Basic: Energy Capacity +3000|unlimited|"energy capacity" 3000<br>
+Basic: Passive Income + 500|max 20|"operating income" 500<br>
 <br>
 Advanced: Hull +2000 +2%|unlimited|"hull multiplier" .02|"hull" 2000<br>
 Advanced: Hull Repair +12 +2%|unlimited|"hull repair multiplier" .02|"hull repair rate" 0.2<br>
@@ -30,6 +31,7 @@ Advanced: Protection +0.02|unlimited|"ion protection" .02|"heat protection" .02|
 Advanced: Weapon Capacity +10|max 10|"weapon capacity" 10<br>
 Advanced: Engine Capacity +10|max 10|"engine capacity" 10<br>
 Advanced: Bunks +5|max 10|"bunks" 5<br>
+Advanced: Inbuilt Scram Drive|max 1|"scram drive" .2|"jump fuel" 150|"hyperdrive" 1
 <br>
 Special: Refueling|unlimited|"ramscoop" 2|"fuel generation" .07<br>
 Special: Outfit Space +20|max 10|"outfit space" 20<br>
@@ -45,9 +47,15 @@ Special: Landing Speed|max 1|"landing speed" .08<br>
 Special: Disabled Recovery 20s|max 1|"disabled recovery time" 1200<br>
 Special: Scanning Immunity|max 1|"inscrutable" 1<br>
 Special: Pressure Hull|max 1|"gaslining" 1|"waterlining" 1<br>
+Special: Inbuilt Jump Drive|max 1|"jump speed" .3|"jump fuel" 200|"jump drive" 1
+Special: Inbuild Cloaking|max 1|"cloak" .01|"cloaking energy" 1|"cloaking fuel" .2
 <br>
 <br>
 Changelog:<br>
+br>
+2025-10-23<br>
+added the option to reject combat.ai on a fresh pilot<br>
+added inbuild scram drive, inbuild jump drive, inbuild cloaking and passive income<br>
 <br>
 2025-07-24<br>
 added option to delay the points distribution by 1 day (by Kassandra Haruki)<br>

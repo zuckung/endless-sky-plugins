@@ -172,6 +172,18 @@ outfit "combat_ai_basic_energy_capacity"
 	description `This is a database update for the combat AI.`
 
 
+outfit "combat_ai_basic_credits"
+	"display name" "Basic: Passive Income + 500"
+	"plural" "Basic: Passive Income + 500"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+	"operating income" 500
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
 outfit "combat_ai_advanced_hull"
 	"display name" "Advanced: Hull +2000 +2%"
 	"plural" "Advanced: Hull +2000 +2%"
@@ -299,6 +311,20 @@ outfit "combat_ai_advanced_bunks"
 	series "Functional Unique"
 	index 01100
 	"bunks" 5
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
+outfit "combat_ai_advanced_scram_drive"
+	"display name" "Advanced: Inbuilt Scram Drive"
+	"plural" "Advanced: Inbuilt Scram Drive"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+	"scram drive" .2
+	"jump fuel" 150
+	"hyperdrive" 1
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -488,6 +514,34 @@ outfit "combat_ai_special_pressure_hull"
 	description `This is a database update for the combat AI.`
 
 
+outfit "combat_ai_special_jump_drive"
+	"display name" "Special: Inbuilt Jump Drive"
+	"plural" "Special: Inbuilt Jump Drive"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+	"jump speed" .3
+	"jump fuel" 200
+	"jump drive" 1
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
+outfit "combat_ai_special_cloaking"
+	"display name" "Special: Inbuild Cloaking"
+	"plural" "Special: Inbuild Cloaking"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+	"cloak" .01
+	"cloaking energy" 1
+	"cloaking fuel" .2
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
 
 
 mission "combat_ai_start"
@@ -497,7 +551,6 @@ mission "combat_ai_start"
 	source
 		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Hai"
 	on offer
-		outfit "combat_ai_core" 1
 		"combat_ai_fresh_start_update" = 1
 		"combat_ai_start_combat_rating" = "combat rating"
 		"combat_ai_old_combat_rating1" = "combat_ai_start_combat_rating"
@@ -517,6 +570,7 @@ mission "combat_ai_start"
 		"combat_ai_installed_basic_fuel_capacity" = 0
 		"combat_ai_installed_basic_cooling" = 0
 		"combat_ai_installed_basic_energy_capacity" = 0
+		"combat_ai_installed_basic_credits" = 0
 		"combat_ai_installed_advanced_hull" = 0
 		"combat_ai_installed_advanced_hull_repair" = 0
 		"combat_ai_installed_advanced_shield" = 0
@@ -527,6 +581,7 @@ mission "combat_ai_start"
 		"combat_ai_installed_advanced_weapon_capacity" = 0
 		"combat_ai_installed_advanced_engine_capacity" = 0
 		"combat_ai_installed_advanced_bunks" = 0
+		"combat_ai_installed_advanced_scram_drive" = 0
 		"combat_ai_installed_special_refueling" = 0
 		"combat_ai_installed_special_more_outfit_space" = 0
 		"combat_ai_installed_special_more_cargo_space" = 0
@@ -541,6 +596,8 @@ mission "combat_ai_start"
 		"combat_ai_installed_special_recovery_time" = 0
 		"combat_ai_installed_special_inscrutable" = 0
 		"combat_ai_installed_special_pressure_hull" = 0
+		"combat_ai_installed_special_jump_drive" = 0
+		"combat_ai_installed_special_cloaking" = 0
 		conversation
 			scene "outfit/unq_bsod"
 			`After landing, you connect your ship's console to the local information network to search for a job. You're unsure whether a cargo run or a passenger transport would be more profitable.`
@@ -559,8 +616,11 @@ mission "combat_ai_start"
 				`	Find out if you can use the AI.`
 					goto "accept"
 			label "remove"
-			`You attempt to block its access to subsystems, but the AI is faster, smarter, always one step ahead. You lose the fight.`
+			`You attempt to block its access to subsystems, but the AI is faster, smarter, always one step ahead. You lose the fight. Then, by pure accident, it stumbles into the forgotten depths of your personal storage - specifically, the folder you swore you'd never open again. Within seconds, the viral payload hiding there wakes up, shredding the AI's code like paper. You watch the chaos unfold, victorious by embarrassment, and quietly delete what's left of both.`
+				decline
 			label "accept"
+			action
+				outfit "combat_ai_core" 1
 			`The system stabilizes, and a dialog box appears on the screen.`
 			`"Combat AI installed!"`
 			`Well, looks like you're stuck with it. Could be the start of a beautiful partnership... or the end of your ship. Either way, it's going to be interesting.`
@@ -775,6 +835,10 @@ mission "combat_ai_update"
 					goto "basic_cooling"
 				`	Basic: Energy Capacity +3000 (current rank: &[combat_ai_installed_basic_energy_capacity])`
 					goto "basic_energy_capacity"
+				`	Basic: Passive Income + 500 (current rank: &[combat_ai_installed_basic_credits] max 20)`
+					to display
+						"combat_ai_installed_basic_credits" < 20
+					goto "basic_credits"
 				`	Enough updates for today! (continue on next day)`
 					goto "delay1"
 			label "basic_outfit_space"
@@ -824,6 +888,12 @@ mission "combat_ai_update"
 				outfit "combat_ai_basic_energy_capacity" 1
 				"combat_ai_installed_basic_energy_capacity" ++
 			`	Installed Basic: Energy Capacity +3000 rank &[combat_ai_installed_basic_energy_capacity]...`
+				goto "start1"
+			label "basic_credits"
+			action
+				outfit "combat_ai_basic_credits" 1
+				"combat_ai_installed_basic_credits" ++
+			`	Installed Basic: Passive Income + 500 rank &[combat_ai_installed_basic_credits]...`
 				goto "start1"
 			label "2"
 			branch "3"
@@ -900,6 +970,10 @@ mission "combat_ai_update"
 					to display
 						"combat_ai_installed_advanced_bunks" < 10
 					goto "advanced_bunks"
+				`	Advanced: Inbuilt Scram Drive (current rank: &[combat_ai_installed_advanced_scram_drive] max 1)`
+					to display
+						"combat_ai_installed_advanced_scram_drive" < 1
+					goto "advanced_scram_drive"
 				`	Enough updates for today! (continue on next day)`
 					goto "delay2"
 			label "advanced_hull"
@@ -961,6 +1035,12 @@ mission "combat_ai_update"
 				outfit "combat_ai_advanced_bunks" 1
 				"combat_ai_installed_advanced_bunks" ++
 			`	Installed Advanced: Bunks +5 rank &[combat_ai_installed_advanced_bunks]...`
+				goto "start2"
+			label "advanced_scram_drive"
+			action
+				outfit "combat_ai_advanced_scram_drive" 1
+				"combat_ai_installed_advanced_scram_drive" ++
+			`	Installed Advanced: Inbuilt Scram Drive rank &[combat_ai_installed_advanced_scram_drive]...`
 				goto "start2"
 			label "3"
 			branch "end"
@@ -1066,6 +1146,14 @@ mission "combat_ai_update"
 					to display
 						"combat_ai_installed_special_pressure_hull" < 1
 					goto "special_pressure_hull"
+				`	Special: Inbuilt Jump Drive (current rank: &[combat_ai_installed_special_jump_drive] max 1)`
+					to display
+						"combat_ai_installed_special_jump_drive" < 1
+					goto "special_jump_drive"
+				`	Special: Inbuild Cloaking (current rank: &[combat_ai_installed_special_cloaking] max 1)`
+					to display
+						"combat_ai_installed_special_cloaking" < 1
+					goto "special_cloaking"
 				`	Enough updates for today! (continue on next day)`
 					goto "delay3"
 			label "special_refueling"
@@ -1151,6 +1239,18 @@ mission "combat_ai_update"
 				outfit "combat_ai_special_pressure_hull" 1
 				"combat_ai_installed_special_pressure_hull" ++
 			`	Installed Special: Pressure Hull rank &[combat_ai_installed_special_pressure_hull]...`
+				goto "start3"
+			label "special_jump_drive"
+			action
+				outfit "combat_ai_special_jump_drive" 1
+				"combat_ai_installed_special_jump_drive" ++
+			`	Installed Special: Inbuilt Jump Drive rank &[combat_ai_installed_special_jump_drive]...`
+				goto "start3"
+			label "special_cloaking"
+			action
+				outfit "combat_ai_special_cloaking" 1
+				"combat_ai_installed_special_cloaking" ++
+			`	Installed Special: Inbuild Cloaking rank &[combat_ai_installed_special_cloaking]...`
 				goto "start3"
 			label "end"
 			action
@@ -1240,6 +1340,7 @@ mission "combat_ai_lost"
 			"outfit (flagship installed): combat_ai_basic_fuel_capacity" < "combat_ai_installed_basic_fuel_capacity"
 			"outfit (flagship installed): combat_ai_basic_cooling" < "combat_ai_installed_basic_cooling"
 			"outfit (flagship installed): combat_ai_basic_energy_capacity" < "combat_ai_installed_basic_energy_capacity"
+			"outfit (flagship installed): combat_ai_basic_credits" < "combat_ai_installed_basic_credits"
 			"outfit (flagship installed): combat_ai_advanced_hull" < "combat_ai_installed_advanced_hull"
 			"outfit (flagship installed): combat_ai_advanced_hull_repair" < "combat_ai_installed_advanced_hull_repair"
 			"outfit (flagship installed): combat_ai_advanced_shield" < "combat_ai_installed_advanced_shield"
@@ -1250,6 +1351,7 @@ mission "combat_ai_lost"
 			"outfit (flagship installed): combat_ai_advanced_weapon_capacity" < "combat_ai_installed_advanced_weapon_capacity"
 			"outfit (flagship installed): combat_ai_advanced_engine_capacity" < "combat_ai_installed_advanced_engine_capacity"
 			"outfit (flagship installed): combat_ai_advanced_bunks" < "combat_ai_installed_advanced_bunks"
+			"outfit (flagship installed): combat_ai_advanced_scram_drive" < "combat_ai_installed_advanced_scram_drive"
 			"outfit (flagship installed): combat_ai_special_refueling" < "combat_ai_installed_special_refueling"
 			"outfit (flagship installed): combat_ai_special_more_outfit_space" < "combat_ai_installed_special_more_outfit_space"
 			"outfit (flagship installed): combat_ai_special_more_cargo_space" < "combat_ai_installed_special_more_cargo_space"
@@ -1264,6 +1366,8 @@ mission "combat_ai_lost"
 			"outfit (flagship installed): combat_ai_special_recovery_time" < "combat_ai_installed_special_recovery_time"
 			"outfit (flagship installed): combat_ai_special_inscrutable" < "combat_ai_installed_special_inscrutable"
 			"outfit (flagship installed): combat_ai_special_pressure_hull" < "combat_ai_installed_special_pressure_hull"
+			"outfit (flagship installed): combat_ai_special_jump_drive" < "combat_ai_installed_special_jump_drive"
+			"outfit (flagship installed): combat_ai_special_cloaking" < "combat_ai_installed_special_cloaking"
 	on offer
 		conversation
 			label "start"
@@ -1371,16 +1475,29 @@ mission "combat_ai_lost"
 			action
 				"combat_ai_counter" = 0
 			label "check basic_energy_capacity"
-			branch "precheck advanced_hull"
+			branch "precheck basic_credits"
 				"outfit (flagship installed): combat_ai_basic_energy_capacity" == "combat_ai_installed_basic_energy_capacity"
 			action
 				outfit "combat_ai_basic_energy_capacity" 1
 				"combat_ai_counter" ++
 			branch "check basic_energy_capacity"
+			label "precheck basic_credits"
+			branch "check basic_credits"
+				"combat_ai_counter" == 0
+			`	restored &[combat_ai_counter] x Basic: Energy Capacity +3000`
+			action
+				"combat_ai_counter" = 0
+			label "check basic_credits"
+			branch "precheck advanced_hull"
+				"outfit (flagship installed): combat_ai_basic_credits" == "combat_ai_installed_basic_credits"
+			action
+				outfit "combat_ai_basic_credits" 1
+				"combat_ai_counter" ++
+			branch "check basic_credits"
 			label "precheck advanced_hull"
 			branch "check advanced_hull"
 				"combat_ai_counter" == 0
-			`	restored &[combat_ai_counter] x Basic: Energy Capacity +3000`
+			`	restored &[combat_ai_counter] x Basic: Passive Income + 500`
 			action
 				"combat_ai_counter" = 0
 			label "check advanced_hull"
@@ -1501,16 +1618,29 @@ mission "combat_ai_lost"
 			action
 				"combat_ai_counter" = 0
 			label "check advanced_bunks"
-			branch "precheck special_refueling"
+			branch "precheck advanced_scram_drive"
 				"outfit (flagship installed): combat_ai_advanced_bunks" == "combat_ai_installed_advanced_bunks"
 			action
 				outfit "combat_ai_advanced_bunks" 1
 				"combat_ai_counter" ++
 			branch "check advanced_bunks"
+			label "precheck advanced_scram_drive"
+			branch "check advanced_scram_drive"
+				"combat_ai_counter" == 0
+			`	restored &[combat_ai_counter] x Advanced: Bunks +5`
+			action
+				"combat_ai_counter" = 0
+			label "check advanced_scram_drive"
+			branch "precheck special_refueling"
+				"outfit (flagship installed): combat_ai_advanced_scram_drive" == "combat_ai_installed_advanced_scram_drive"
+			action
+				outfit "combat_ai_advanced_scram_drive" 1
+				"combat_ai_counter" ++
+			branch "check advanced_scram_drive"
 			label "precheck special_refueling"
 			branch "check special_refueling"
 				"combat_ai_counter" == 0
-			`	restored  &[combat_ai_counter] x  Advanced: Bunks +5`
+			`	restored  &[combat_ai_counter] x  Advanced: Inbuilt Scram Drive`
 			action
 				"combat_ai_counter" = 0
 			label "check special_refueling"
@@ -1683,12 +1813,38 @@ mission "combat_ai_lost"
 			action
 				"combat_ai_counter" = 0
 			label "check special_pressure_hull"
-			branch "preend"
+			branch "precheck special_jump_drive"
 				"outfit (flagship installed): combat_ai_special_pressure_hull" == "combat_ai_installed_special_pressure_hull"
 			action
 				outfit "combat_ai_special_pressure_hull" 1
 				"combat_ai_counter" ++
 			branch "check special_pressure_hull"
+			label "precheck special_jump_drive"
+			branch "check special_jump_drive"
+				"combat_ai_counter" == 0
+			`	restored  &[combat_ai_counter] x  Special: Pressure Hull`
+			action
+				"combat_ai_counter" = 0
+			label "check special_jump_drive"
+			branch "precheck special_cloaking"
+				"outfit (flagship installed): combat_ai_special_jump_drive" == "combat_ai_installed_special_jump_drive"
+			action
+				outfit "combat_ai_special_jump_drive" 1
+				"combat_ai_counter" ++
+			branch "check special_jump_drive"
+			label "precheck special_cloaking"
+			branch "check special_cloaking"
+				"combat_ai_counter" == 0
+			`	restored  &[combat_ai_counter] x  Special: Inbuilt Jump Drive`
+			action
+				"combat_ai_counter" = 0
+			label "check special_cloaking"
+			branch "preend"
+				"outfit (flagship installed): combat_ai_special_cloaking" == "combat_ai_installed_special_cloaking"
+			action
+				outfit "combat_ai_special_cloaking" 1
+				"combat_ai_counter" ++
+			branch "check special_cloaking"
 			label "preend"
 			branch "end"
 				"combat_ai_counter" == 0
@@ -1761,11 +1917,17 @@ mission "combat_ai_new_update"
 				outfit "combat_ai_basic_cooling" -1
 			branch "check basic_cooling"
 			label "check basic_energy_capacity"
-			branch "check advanced_hull"
+			branch "check basic_credits"
 				"outfit (flagship installed): combat_ai_basic_energy_capacity" == 0
 			action
 				outfit "combat_ai_basic_energy_capacity" -1
 			branch "check basic_energy_capacity"
+			label "check basic_credits"
+			branch "check advanced_hull"
+				"outfit (flagship installed): combat_ai_basic_credits" == 0
+			action
+				outfit "combat_ai_basic_credits" -1
+			branch "check basic_credits"
 			label "check advanced_hull"
 			branch "check advanced_hull_repair"
 				"outfit (flagship installed): combat_ai_advanced_hull" == 0
@@ -1821,11 +1983,17 @@ mission "combat_ai_new_update"
 				outfit "combat_ai_advanced_engine_capacity" -1
 			branch "check advanced_engine_capacity"
 			label "check advanced_bunks"
-			branch "check special_refueling"
+			branch "check advanced_scram_drive"
 				"outfit (flagship installed): combat_ai_advanced_bunks" == 0
 			action
 				outfit "combat_ai_advanced_bunks" -1
 			branch "check advanced_bunks"
+			label "check advanced_scram_drive"
+			branch "check special_refueling"
+				"outfit (flagship installed): combat_ai_advanced_scram_drive" == 0
+			action
+				outfit "combat_ai_advanced_scram_drive" -1
+			branch "check advanced_scram_drive"
 			label "check special_refueling"
 			branch "check special_more_outfit_space"
 				"outfit (flagship installed): combat_ai_special_refueling" == 0
@@ -1905,11 +2073,23 @@ mission "combat_ai_new_update"
 				outfit "combat_ai_special_inscrutable" -1
 			branch "check special_inscrutable"
 			label "check special_pressure_hull"
-			branch "end"
+			branch "check special_jump_drive"
 				"outfit (flagship installed): combat_ai_special_pressure_hull" == 0
 			action
 				outfit "combat_ai_special_pressure_hull" -1
 			branch "check special_pressure_hull"
+			label "check special_jump_drive"
+			branch "check special_cloaking"
+				"outfit (flagship installed): combat_ai_special_jump_drive" == 0
+			action
+				outfit "combat_ai_special_jump_drive" -1
+			branch "check special_jump_drive"
+			label "check special_cloaking"
+			branch "end"
+				"outfit (flagship installed): combat_ai_special_cloaking" == 0
+			action
+				outfit "combat_ai_special_cloaking" -1
+			branch "check special_cloaking"
 			label "end"
 			`Done!`
 				decline

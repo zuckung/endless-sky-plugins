@@ -7,6 +7,7 @@ basic_engine_capacity|Basic: Engine Capacity +3|-|"engine capacity" 3
 basic_fuel_capacity|Basic: Fuel Capacity +100|-|"fuel capacity" 100
 basic_cooling|Basic: Cooling +600|-|"cooling" 10
 basic_energy_capacity|Basic: Energy Capacity +3000|-|"energy capacity" 3000
+basic_credits|Basic: Passive Income + 500|20|"operating income" 500
 
 advanced_hull|Advanced: Hull +2000 +2%|-|"hull multiplier" .02|"hull" 2000
 advanced_hull_repair|Advanced: Hull Repair +12 +2%|-|"hull repair multiplier" .02|"hull repair rate" 0.2
@@ -18,6 +19,7 @@ advanced_protection|Advanced: Protection +0.02|-|"ion protection" .02|"heat prot
 advanced_weapon_capacity|Advanced: Weapon Capacity +10|10|"weapon capacity" 10
 advanced_engine_capacity|Advanced: Engine Capacity +10|10|"engine capacity" 10
 advanced_bunks|Advanced: Bunks +5|10|"bunks" 5
+advanced_scram_drive|Advanced: Inbuilt Scram Drive|1|"scram drive" .2|"jump fuel" 150|"hyperdrive" 1
 
 special_refueling|Special: Refueling|-|"ramscoop" 2|"fuel generation" .07
 special_more_outfit_space|Special: Outfit Space +20|10|"outfit space" 20
@@ -33,6 +35,8 @@ special_landing_speed|Special: Landing Speed|1|"landing speed" .08
 special_recovery_time|Special: Disabled Recovery 20s|1|"disabled recovery time" 1200
 special_inscrutable|Special: Scanning Immunity|1|"inscrutable" 1
 special_pressure_hull|Special: Pressure Hull|1|"gaslining" 1|"waterlining" 1
+special_jump_drive|Special: Inbuilt Jump Drive|1|"jump speed" .3|"jump fuel" 200|"jump drive" 1
+special_cloaking|Special: Inbuild Cloaking|1|"cloak" .01|"cloaking energy" 1|"cloaking fuel" .2
 
 
 # xp:
@@ -74,7 +78,6 @@ mission "combat_ai_start"
 	source
 		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Hai"
 	on offer
-		outfit "combat_ai_core" 1
 		"combat_ai_fresh_start_update" = 1
 		"combat_ai_start_combat_rating" = "combat rating"
 		"combat_ai_old_combat_rating1" = "combat_ai_start_combat_rating"
@@ -105,8 +108,11 @@ mission "combat_ai_start"
 				`	Find out if you can use the AI.`
 					goto "accept"
 			label "remove"
-			`You attempt to block its access to subsystems, but the AI is faster, smarter, always one step ahead. You lose the fight.`
+			`You attempt to block its access to subsystems, but the AI is faster, smarter, always one step ahead. You lose the fight. Then, by pure accident, it stumbles into the forgotten depths of your personal storage - specifically, the folder you swore you'd never open again. Within seconds, the viral payload hiding there wakes up, shredding the AI's code like paper. You watch the chaos unfold, victorious by embarrassment, and quietly delete what's left of both.`
+				decline
 			label "accept"
+			action
+				outfit "combat_ai_core" 1
 			`The system stabilizes, and a dialog box appears on the screen.`
 			`"Combat AI installed!"`
 			`Well, looks like you're stuck with it. Could be the start of a beautiful partnership... or the end of your ship. Either way, it's going to be interesting.`
