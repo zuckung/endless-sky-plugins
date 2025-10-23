@@ -1369,7 +1369,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/combat.ai/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/combat.ai.png" width="130" height="20">
 
-[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-combat.ai/combat.ai.zip) | 332.79 kb | 2025-10-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) | <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
+[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-combat.ai/combat.ai.zip) | 332.92 kb | 2025-10-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) | <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
 <br>
 >Offers a mission to install a combat AI, which increases your ship stats based on combat experience. See the README for details.
 
@@ -1387,7 +1387,7 @@ Offers a mission to install a combat AI, which increases your ship stats based o
 
 You can get the mission to install the AI on any human planet.<br>
 
-Every 3,000 combat xp you can choose between 8 basic updates, every 7,000 between 10 advanced updates, and every 11,000 between 14 special updates.<br>
+Every 3,000 combat xp you can choose between  9basic updates, every 7,000 between 11 advanced updates, and every 11,000 between 16 special updates.<br>
 
 Some updates have max ranks and others can get raised infinitely. These updates are done by adding invisible outfits with stats to the ship.<br>
 
