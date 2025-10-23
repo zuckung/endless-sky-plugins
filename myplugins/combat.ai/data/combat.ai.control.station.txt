@@ -32,7 +32,7 @@ mission "plugin: combat.ai"
 			`Offers a mission to install a combat AI, which increases your ship stats based on combat experience.`
 			``
 			`You can get the mission to install the AI on any human planet.`
-			`Every 3,000 combat xp you can choose between 8 basic updates, every 7,000 between 10 advanced updates, and every 11,000 between 14 special updates.`
+			`Every 3,000 combat xp you can choose between 9 basic updates, every 7,000 between 11 advanced updates, and every 11,000 between 16 special updates.`
 			`Some updates have max ranks and others can get raised infinitely. These updates are done by adding invisible outfits with stats to the ship.`
 			`If you change your ship or lose the unique combat AI outfit, a restoring mission installs everything that has been lost on the (new) ship.`
 			`Some mechanics and ideas are inspired by Zoura's excellent plugin "Tales of Apoxys DX" . My plugin is less complex, doesn't need a fresh start, and is more flexible.`
@@ -46,6 +46,7 @@ mission "plugin: combat.ai"
 			`Basic: Fuel Capacity +100|unlimited|"fuel capacity" 100`
 			`Basic: Cooling +600|unlimited|"cooling" 10`
 			`Basic: Energy Capacity +3000|unlimited|"energy capacity" 3000`
+			`Basic: Passive Income + 500|max 20|"operating income" 500`
 			``
 			`Advanced: Hull +2000 +2%|unlimited|"hull multiplier" .02|"hull" 2000`
 			`Advanced: Hull Repair +12 +2%|unlimited|"hull repair multiplier" .02|"hull repair rate" 0.2`
@@ -57,6 +58,7 @@ mission "plugin: combat.ai"
 			`Advanced: Weapon Capacity +10|max 10|"weapon capacity" 10`
 			`Advanced: Engine Capacity +10|max 10|"engine capacity" 10`
 			`Advanced: Bunks +5|max 10|"bunks" 5`
+			`Advanced: Inbuilt Scram Drive|max 1|"scram drive" .2|"jump fuel" 150|"hyperdrive" 1`
 			``
 			`Special: Refueling|unlimited|"ramscoop" 2|"fuel generation" .07`
 			`Special: Outfit Space +20|max 10|"outfit space" 20`
@@ -72,6 +74,8 @@ mission "plugin: combat.ai"
 			`Special: Disabled Recovery 20s|max 1|"disabled recovery time" 1200`
 			`Special: Scanning Immunity|max 1|"inscrutable" 1`
 			`Special: Pressure Hull|max 1|"gaslining" 1|"waterlining" 1`
+			`Special: Inbuilt Jump Drive|max 1|"jump speed" .3|"jump fuel" 200|"jump drive" 1`
+			`Special: Inbuild Cloaking|max 1|"cloak" .01|"cloaking energy" 1|"cloaking fuel" .2`
 			choice
 				`	continue`
 					goto "start"
