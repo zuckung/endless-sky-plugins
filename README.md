@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-24 | update: combat.ai<br>
 2025-10-23 | update: combat.ai<br>
 2025-10-16 | update: vague.improvements<br>
 2025-10-12 | update: ship.merging<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-05 | update: control.station<br>
 2025-10-01 | update: additional.command.buttons.radial<br>
 2025-10-01 | update: mission.helper<br>
-2025-10-01 | update: boss.loot<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1369,7 +1369,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/combat.ai/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/combat.ai.png" width="130" height="20">
 
-[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-combat.ai/combat.ai.zip) | 332.92 kb | 2025-10-23 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) | <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
+[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.11-combat.ai/combat.ai.zip) | 333.64 kb | 2025-10-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) | <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
 <br>
 >Offers a mission to install a combat AI, which increases your ship stats based on combat experience. See the README for details.
 
@@ -1387,7 +1387,7 @@ Offers a mission to install a combat AI, which increases your ship stats based o
 
 You can get the mission to install the AI on any human planet.<br>
 
-Every 3,000 combat xp you can choose between  9basic updates, every 7,000 between 11 advanced updates, and every 11,000 between 16 special updates.<br>
+Every 3,000 combat xp you can choose between 11 basic updates, every 7,000 between 12 advanced updates, and every 11,000 between 16 special updates.<br>
 
 Some updates have max ranks and others can get raised infinitely. These updates are done by adding invisible outfits with stats to the ship.<br>
 
@@ -1417,6 +1417,10 @@ Basic: Cooling +600|unlimited|"cooling" 10<br>
 
 Basic: Energy Capacity +3000|unlimited|"energy capacity" 3000<br>
 
+Basic: Energy Generation +300|unlimited|"energy generation" 5<br>
+
+Basic: Ammo Capacity|max 10|+ all ammo capacities<br>
+
 Basic: Passive Income + 500|max 20|"operating income" 500<br>
 
 <br>
@@ -1433,7 +1437,9 @@ Advanced: Acceleration +2%|unlimited|"acceleration multiplier" .02<br>
 
 Advanced: Turn +2%|-|"turn multiplier" .02<br>
 
-Advanced: Protection +0.02|unlimited|"ion protection" .02|"heat protection" .02|"burn protection" .02|"fuel protection" .02|"leak protection" .02|"scramble protection" .02|"slowing protection" .02|"disruption protection" .02<br>
+Advanced: Protection +0.02|unlimited|+ all protection types<br>
+
+Advanced: Missile Jamming|4|"radar jamming" .25|"optical jamming" .25<br>
 
 Advanced: Weapon Capacity +10|max 10|"weapon capacity" 10<br>
 
@@ -1455,7 +1461,7 @@ Special: Turret Turn Rate|max 10|"turret turn multiplier" .4<br>
 
 Special: Force Protection|max 5|"force protection" 0.2|"slowing resistance" 0.5<br>
 
-Special: Scanner|max 5|"strategic scan power" 30|"range finder power" 1|"crew scan power" 30|"thermal scan power" 30|"energy scan power" 30|"fuel scan power" 30|"weapon scan power" 30|"maneuver scan power" 30|"strategic scan power" 30|"cargo scan power" 30|"cargo scan efficiency" 30|"outfit scan power" 30|"outfit scan efficiency" 30|"asteroid scan power" 30|"tactical scan power" 30<br>
+Special: Scanner|max 5|+ all scanning types<br>
 
 Special: Drag Reduction +0.2|max 5|"drag reduction" .5<br>
 
@@ -1485,6 +1491,12 @@ Changelog:<br>
 
 br>
 
+2025-10-24<br>
+
+added energy gen, missile storage, jamming (wished by Kitteh)<br>
+
+br>
+
 2025-10-23<br>
 
 added the option to reject combat.ai on a fresh pilot<br>
@@ -1495,7 +1507,7 @@ added inbuild scram drive, inbuild jump drive, inbuild cloaking and passive inco
 
 2025-07-24<br>
 
-added option to delay the points distribution by 1 day (by Kassandra Haruki)<br>
+added option to delay the points distribution by 1 day (wished by Kassandra Haruki)<br>
 
 added 2 more spinal mount ranks<br>
 
@@ -1503,7 +1515,7 @@ added 2 more spinal mount ranks<br>
 
 2025-07-13<br>
 
-added control.station support for a new game+ (as wished by Kitteh)<br>
+added control.station support for a new game+ (wished by Kitteh)<br>
 
 <br>
 
