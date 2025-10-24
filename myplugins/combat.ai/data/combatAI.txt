@@ -172,6 +172,71 @@ outfit "combat_ai_basic_energy_capacity"
 	description `This is a database update for the combat AI.`
 
 
+outfit "combat_ai_basic_energy_generation"
+	"display name" "Basic: Energy Generation +300"
+	"plural" "Basic: Energy Generation +300"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+	"energy generation" 5
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
+outfit "combat_ai_basic_ammo"
+	"display name" "Basic: Ammo Capacity"
+	"plural" "Basic: Ammo Capacity"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+	"piercer capacity" 16
+	"minelayer capacity" 9
+	"nettle capacity" 72
+	"orchid capacity" 3
+	"speck capacity" 1200
+	"ophrys capacity" 12
+	"swarm capacity" 200
+	"finisher capacity" 20
+	"railgun slug capacity" 500
+	"tracker capacity" 28
+	"meteor capacity" 15
+	"sidewinder capacity" 23
+	"javelin capacity" 100
+	"torpedo capacity" 15
+	"typhoon capacity" 15
+	"rocket capacity" 10
+	"gatling round capacity" 1500
+	"star tail capacity" 20
+	"firelight missile capacity" 10
+	"firestorm torpedo capacity" 13
+	"emp torpedo capacity" 7
+	"teciimach canister capacity" 9
+	"spike capacity" 16
+	"thunderhead capacity" 20
+	ammo "Korath Piercer"
+	ammo "Korath Mine"
+	ammo `"Nettle" KKV`
+	ammo `"Orchid" Nuclear Missile`
+	ammo "Speck Round"
+	ammo `"Ophrys" Nuclear Torpedo`
+	ammo "Swarm Missile"
+	ammo "Finisher Torpedo"
+	ammo "Railgun Slug"
+	ammo "Hai Tracker"
+	ammo "Meteor Missile"
+	ammo "Sidewinder Missile"
+	ammo "Javelin"
+	ammo "Torpedo"
+	ammo "Typhoon Torpedo"
+	ammo "Heavy Rocket"
+	ammo "Gatling Gun Ammo"
+	ammo "Star Tail Cell"
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
 outfit "combat_ai_basic_credits"
 	"display name" "Basic: Passive Income + 500"
 	"plural" "Basic: Passive Income + 500"
@@ -275,6 +340,19 @@ outfit "combat_ai_advanced_protection"
 	"scramble protection" .02
 	"slowing protection" .02
 	"disruption protection" .02
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
+outfit "combat_ai_advanced_missile_jamming"
+	"display name" "Advanced: Missile Jamming"
+	"plural" "Advanced: Missile Jamming"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+	"radar jamming" .25
+	"optical jamming" .25
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -570,6 +648,8 @@ mission "combat_ai_start"
 		"combat_ai_installed_basic_fuel_capacity" = 0
 		"combat_ai_installed_basic_cooling" = 0
 		"combat_ai_installed_basic_energy_capacity" = 0
+		"combat_ai_installed_basic_energy_generation" = 0
+		"combat_ai_installed_basic_ammo" = 0
 		"combat_ai_installed_basic_credits" = 0
 		"combat_ai_installed_advanced_hull" = 0
 		"combat_ai_installed_advanced_hull_repair" = 0
@@ -578,6 +658,7 @@ mission "combat_ai_start"
 		"combat_ai_installed_advanced_acceleration" = 0
 		"combat_ai_installed_advanced_turn" = 0
 		"combat_ai_installed_advanced_protection" = 0
+		"combat_ai_installed_advanced_missile_jamming" = 0
 		"combat_ai_installed_advanced_weapon_capacity" = 0
 		"combat_ai_installed_advanced_engine_capacity" = 0
 		"combat_ai_installed_advanced_bunks" = 0
@@ -835,6 +916,12 @@ mission "combat_ai_update"
 					goto "basic_cooling"
 				`	Basic: Energy Capacity +3000 (current rank: &[combat_ai_installed_basic_energy_capacity])`
 					goto "basic_energy_capacity"
+				`	Basic: Energy Generation +300 (current rank: &[combat_ai_installed_basic_energy_generation])`
+					goto "basic_energy_generation"
+				`	Basic: Ammo Capacity (current rank: &[combat_ai_installed_basic_ammo] max 10)`
+					to display
+						"combat_ai_installed_basic_ammo" < 10
+					goto "basic_ammo"
 				`	Basic: Passive Income + 500 (current rank: &[combat_ai_installed_basic_credits] max 20)`
 					to display
 						"combat_ai_installed_basic_credits" < 20
@@ -888,6 +975,18 @@ mission "combat_ai_update"
 				outfit "combat_ai_basic_energy_capacity" 1
 				"combat_ai_installed_basic_energy_capacity" ++
 			`	Installed Basic: Energy Capacity +3000 rank &[combat_ai_installed_basic_energy_capacity]...`
+				goto "start1"
+			label "basic_energy_generation"
+			action
+				outfit "combat_ai_basic_energy_generation" 1
+				"combat_ai_installed_basic_energy_generation" ++
+			`	Installed Basic: Energy Generation +300 rank &[combat_ai_installed_basic_energy_generation]...`
+				goto "start1"
+			label "basic_ammo"
+			action
+				outfit "combat_ai_basic_ammo" 1
+				"combat_ai_installed_basic_ammo" ++
+			`	Installed Basic: Ammo Capacity rank &[combat_ai_installed_basic_ammo]...`
 				goto "start1"
 			label "basic_credits"
 			action
@@ -958,6 +1057,10 @@ mission "combat_ai_update"
 					goto "advanced_turn"
 				`	Advanced: Protection +0.02 (current rank: &[combat_ai_installed_advanced_protection])`
 					goto "advanced_protection"
+				`	Advanced: Missile Jamming (current rank: &[combat_ai_installed_advanced_missile_jamming] max 4)`
+					to display
+						"combat_ai_installed_advanced_missile_jamming" < 4
+					goto "advanced_missile_jamming"
 				`	Advanced: Weapon Capacity +10 (current rank: &[combat_ai_installed_advanced_weapon_capacity] max 10)`
 					to display
 						"combat_ai_installed_advanced_weapon_capacity" < 10
@@ -1017,6 +1120,12 @@ mission "combat_ai_update"
 				outfit "combat_ai_advanced_protection" 1
 				"combat_ai_installed_advanced_protection" ++
 			`	Installed Advanced: Protection +0.02 rank &[combat_ai_installed_advanced_protection]...`
+				goto "start2"
+			label "advanced_missile_jamming"
+			action
+				outfit "combat_ai_advanced_missile_jamming" 1
+				"combat_ai_installed_advanced_missile_jamming" ++
+			`	Installed Advanced: Missile Jamming rank &[combat_ai_installed_advanced_missile_jamming]...`
 				goto "start2"
 			label "advanced_weapon_capacity"
 			action
@@ -1340,6 +1449,8 @@ mission "combat_ai_lost"
 			"outfit (flagship installed): combat_ai_basic_fuel_capacity" < "combat_ai_installed_basic_fuel_capacity"
 			"outfit (flagship installed): combat_ai_basic_cooling" < "combat_ai_installed_basic_cooling"
 			"outfit (flagship installed): combat_ai_basic_energy_capacity" < "combat_ai_installed_basic_energy_capacity"
+			"outfit (flagship installed): combat_ai_basic_energy_generation" < "combat_ai_installed_basic_energy_generation"
+			"outfit (flagship installed): combat_ai_basic_ammo" < "combat_ai_installed_basic_ammo"
 			"outfit (flagship installed): combat_ai_basic_credits" < "combat_ai_installed_basic_credits"
 			"outfit (flagship installed): combat_ai_advanced_hull" < "combat_ai_installed_advanced_hull"
 			"outfit (flagship installed): combat_ai_advanced_hull_repair" < "combat_ai_installed_advanced_hull_repair"
@@ -1348,6 +1459,7 @@ mission "combat_ai_lost"
 			"outfit (flagship installed): combat_ai_advanced_acceleration" < "combat_ai_installed_advanced_acceleration"
 			"outfit (flagship installed): combat_ai_advanced_turn" < "combat_ai_installed_advanced_turn"
 			"outfit (flagship installed): combat_ai_advanced_protection" < "combat_ai_installed_advanced_protection"
+			"outfit (flagship installed): combat_ai_advanced_missile_jamming" < "combat_ai_installed_advanced_missile_jamming"
 			"outfit (flagship installed): combat_ai_advanced_weapon_capacity" < "combat_ai_installed_advanced_weapon_capacity"
 			"outfit (flagship installed): combat_ai_advanced_engine_capacity" < "combat_ai_installed_advanced_engine_capacity"
 			"outfit (flagship installed): combat_ai_advanced_bunks" < "combat_ai_installed_advanced_bunks"
@@ -1475,16 +1587,42 @@ mission "combat_ai_lost"
 			action
 				"combat_ai_counter" = 0
 			label "check basic_energy_capacity"
-			branch "precheck basic_credits"
+			branch "precheck basic_energy_generation"
 				"outfit (flagship installed): combat_ai_basic_energy_capacity" == "combat_ai_installed_basic_energy_capacity"
 			action
 				outfit "combat_ai_basic_energy_capacity" 1
 				"combat_ai_counter" ++
 			branch "check basic_energy_capacity"
+			label "precheck basic_energy_generation"
+			branch "check basic_energy_generation"
+				"combat_ai_counter" == 0
+			`	restored &[combat_ai_counter] x Basic: Energy Capacity +3000`
+			action
+				"combat_ai_counter" = 0
+			label "check basic_energy_generation"
+			branch "precheck basic_ammo"
+				"outfit (flagship installed): combat_ai_basic_energy_generation" == "combat_ai_installed_basic_energy_generation"
+			action
+				outfit "combat_ai_basic_energy_generation" 1
+				"combat_ai_counter" ++
+			branch "check basic_energy_generation"
+			label "precheck basic_ammo"
+			branch "check basic_ammo"
+				"combat_ai_counter" == 0
+			`	restored &[combat_ai_counter] x Basic: Energy Generation +300`
+			action
+				"combat_ai_counter" = 0
+			label "check basic_ammo"
+			branch "precheck basic_credits"
+				"outfit (flagship installed): combat_ai_basic_ammo" == "combat_ai_installed_basic_ammo"
+			action
+				outfit "combat_ai_basic_ammo" 1
+				"combat_ai_counter" ++
+			branch "check basic_ammo"
 			label "precheck basic_credits"
 			branch "check basic_credits"
 				"combat_ai_counter" == 0
-			`	restored &[combat_ai_counter] x Basic: Energy Capacity +3000`
+			`	restored &[combat_ai_counter] x Basic: Ammo Capacity`
 			action
 				"combat_ai_counter" = 0
 			label "check basic_credits"
@@ -1579,16 +1717,29 @@ mission "combat_ai_lost"
 			action
 				"combat_ai_counter" = 0
 			label "check advanced_protection"
-			branch "precheck advanced_weapon_capacity"
+			branch "precheck advanced_missile_jamming"
 				"outfit (flagship installed): combat_ai_advanced_protection" == "combat_ai_installed_advanced_protection"
 			action
 				outfit "combat_ai_advanced_protection" 1
 				"combat_ai_counter" ++
 			branch "check advanced_protection"
+			label "precheck advanced_missile_jamming"
+			branch "check advanced_missile_jamming"
+				"combat_ai_counter" == 0
+			`	restored &[combat_ai_counter] x Advanced: Protection +0.02`
+			action
+				"combat_ai_counter" = 0
+			label "check advanced_missile_jamming"
+			branch "precheck advanced_weapon_capacity"
+				"outfit (flagship installed): combat_ai_advanced_missile_jamming" == "combat_ai_installed_advanced_missile_jamming"
+			action
+				outfit "combat_ai_advanced_missile_jamming" 1
+				"combat_ai_counter" ++
+			branch "check advanced_missile_jamming"
 			label "precheck advanced_weapon_capacity"
 			branch "check advanced_weapon_capacity"
 				"combat_ai_counter" == 0
-			`	restored &[combat_ai_counter] x Advanced: Protection +0.02`
+			`	restored &[combat_ai_counter] x Advanced: Missile Jamming`
 			action
 				"combat_ai_counter" = 0
 			label "check advanced_weapon_capacity"
@@ -1917,11 +2068,23 @@ mission "combat_ai_new_update"
 				outfit "combat_ai_basic_cooling" -1
 			branch "check basic_cooling"
 			label "check basic_energy_capacity"
-			branch "check basic_credits"
+			branch "check basic_energy_generation"
 				"outfit (flagship installed): combat_ai_basic_energy_capacity" == 0
 			action
 				outfit "combat_ai_basic_energy_capacity" -1
 			branch "check basic_energy_capacity"
+			label "check basic_energy_generation"
+			branch "check basic_ammo"
+				"outfit (flagship installed): combat_ai_basic_energy_generation" == 0
+			action
+				outfit "combat_ai_basic_energy_generation" -1
+			branch "check basic_energy_generation"
+			label "check basic_ammo"
+			branch "check basic_credits"
+				"outfit (flagship installed): combat_ai_basic_ammo" == 0
+			action
+				outfit "combat_ai_basic_ammo" -1
+			branch "check basic_ammo"
 			label "check basic_credits"
 			branch "check advanced_hull"
 				"outfit (flagship installed): combat_ai_basic_credits" == 0
@@ -1965,11 +2128,17 @@ mission "combat_ai_new_update"
 				outfit "combat_ai_advanced_turn" -1
 			branch "check advanced_turn"
 			label "check advanced_protection"
-			branch "check advanced_weapon_capacity"
+			branch "check advanced_missile_jamming"
 				"outfit (flagship installed): combat_ai_advanced_protection" == 0
 			action
 				outfit "combat_ai_advanced_protection" -1
 			branch "check advanced_protection"
+			label "check advanced_missile_jamming"
+			branch "check advanced_weapon_capacity"
+				"outfit (flagship installed): combat_ai_advanced_missile_jamming" == 0
+			action
+				outfit "combat_ai_advanced_missile_jamming" -1
+			branch "check advanced_missile_jamming"
 			label "check advanced_weapon_capacity"
 			branch "check advanced_engine_capacity"
 				"outfit (flagship installed): combat_ai_advanced_weapon_capacity" == 0

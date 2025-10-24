@@ -7,6 +7,8 @@ basic_engine_capacity|Basic: Engine Capacity +3|-|"engine capacity" 3
 basic_fuel_capacity|Basic: Fuel Capacity +100|-|"fuel capacity" 100
 basic_cooling|Basic: Cooling +600|-|"cooling" 10
 basic_energy_capacity|Basic: Energy Capacity +3000|-|"energy capacity" 3000
+basic_energy_generation|Basic: Energy Generation +300|-|"energy generation" 5
+basic_ammo|Basic: Ammo Capacity|10|"piercer capacity" 16|"minelayer capacity" 9|"nettle capacity" 72|"orchid capacity" 3|"speck capacity" 1200|"ophrys capacity" 12|"swarm capacity" 200|"finisher capacity" 20|"railgun slug capacity" 500|"tracker capacity" 28|"meteor capacity" 15|"sidewinder capacity" 23|"javelin capacity" 100|"torpedo capacity" 15|"typhoon capacity" 15|"rocket capacity" 10|"gatling round capacity" 1500|"star tail capacity" 20|"firelight missile capacity" 10|"firestorm torpedo capacity" 13|"emp torpedo capacity" 7|"teciimach canister capacity" 9|"spike capacity" 16|"thunderhead capacity" 20|ammo "Korath Piercer"|ammo "Korath Mine"|ammo `"Nettle" KKV`|ammo `"Orchid" Nuclear Missile`|ammo "Speck Round"|ammo `"Ophrys" Nuclear Torpedo`|ammo "Swarm Missile"|ammo "Finisher Torpedo"|ammo "Railgun Slug"|ammo "Hai Tracker"|ammo "Meteor Missile"|ammo "Sidewinder Missile"|ammo "Javelin"|ammo "Torpedo"|ammo "Typhoon Torpedo"|ammo "Heavy Rocket"|ammo "Gatling Gun Ammo"|ammo "Star Tail Cell"
 basic_credits|Basic: Passive Income + 500|20|"operating income" 500
 
 advanced_hull|Advanced: Hull +2000 +2%|-|"hull multiplier" .02|"hull" 2000
@@ -16,6 +18,7 @@ advanced_shield_generation|Advanced: Shield Gen. +60 +2%|-|"shield generation mu
 advanced_acceleration|Advanced: Acceleration +2%|-|"acceleration multiplier" .02
 advanced_turn|Advanced: Turn +2%|-|"turn multiplier" .02
 advanced_protection|Advanced: Protection +0.02|-|"ion protection" .02|"heat protection" .02|"burn protection" .02|"fuel protection" .02|"leak protection" .02|"scramble protection" .02|"slowing protection" .02|"disruption protection" .02
+advanced_missile_jamming|Advanced: Missile Jamming|4|"radar jamming" .25|"optical jamming" .25
 advanced_weapon_capacity|Advanced: Weapon Capacity +10|10|"weapon capacity" 10
 advanced_engine_capacity|Advanced: Engine Capacity +10|10|"engine capacity" 10
 advanced_bunks|Advanced: Bunks +5|10|"bunks" 5
