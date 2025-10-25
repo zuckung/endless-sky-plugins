@@ -43,7 +43,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 %icon%
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/%name%.png" width="130" height="20">
 
-[%assetfile%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) | %imagemd%<br>
+[%assetfile%](%assetfullpath%%assetfile%) v%version% | %size% | %lastmodified% | [show previous versions](https://github.com/%orgrepo%/releases?q=%name%-&expanded=true) | [view files](%pluginurl%%pluginnameurl%/) | %imagemd%<br>
 <br>
 %description%
 <details>

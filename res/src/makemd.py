@@ -95,6 +95,9 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 	# %readme%         content of the plugin's' README.md or 'N/A' if none found
 	# %screenshots%    html table of the plugin screenshots from the screenshot folder, or '' if none found
 	# %version%        version number
+	# %orgrepo%        organisation/repository
+	# %organisation%   organisation
+	# %repository%     repository
 
 	# read templates
 	with open(templatefile, 'r') as file1:
@@ -260,6 +263,9 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 		pa_template = pa_template.replace('%icon%', icon)
 		pa_template = pa_template.replace('%screenshots%', screenshotcode)
 		pa_template = pa_template.replace('%version%', version_number)
+		pa_template = pa_template.replace('%orgrepo%', current_repo)
+		pa_template = pa_template.replace('%organisation%', current_repo.split('/')[0])
+		pa_template = pa_template.replace('%repository%', current_repo.split('/')[1])
 		# write index file, appending this plugin entry
 		with open(indexfile, 'a') as file1:
 			file1.writelines(pa_template)
