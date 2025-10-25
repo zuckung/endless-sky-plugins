@@ -23,6 +23,9 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 <br>
 Changelog:<br>
 <br>
+2025-10-25<br>
+adjusted bunrodea.first.contact to no offer when bunrodea.missions is installed<br>
+<br>
 2025-10-16<br>
 removed damselflyman increase, because it is set already to 30%<br>
 added navy advanced shipyard<br>

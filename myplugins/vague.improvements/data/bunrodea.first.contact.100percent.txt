@@ -12,6 +12,7 @@ mission "First Contact: Bunrodea (Hostile) redone"
 	destination "Erabuthro"
 	clearance "After hailing the planet the map pointed you towards, you hear an alien voice respond. Before you can think of what to say, the small device that the aliens threw at you on <origin> responds for you. The voice on the other end says something short, then cuts the feed. It seems like you've been cleared to land."
 	to offer
+		not "installed plugin: bunrodea.missions"
 		not "First Contact: Bunrodea (Hostile): offered"
 		or
 			"reputation: Bunrodea" < 1
