@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-25 | update: vague.improvements<br>
 2025-10-24 | update: combat.ai<br>
 2025-10-23 | update: combat.ai<br>
 2025-10-16 | update: vague.improvements<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-07 | update: uniques<br>
 2025-10-05 | update: control.station<br>
 2025-10-01 | update: additional.command.buttons.radial<br>
-2025-10-01 | update: mission.helper<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -5275,7 +5275,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/vague.improvements/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/vague.improvements.png" width="130" height="20">
 
-[vague.improvements.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-vague.improvements/vague.improvements.zip) | 35.11 kb | 2025-10-16 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/vague.improvements/) | <a href="res/imagemd/vague.improvements.md">view images</a> [2]<br>
+[vague.improvements.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-vague.improvements/vague.improvements.zip) | 35.16 kb | 2025-10-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/vague.improvements/) | <a href="res/imagemd/vague.improvements.md">view images</a> [2]<br>
 <br>
 >A bunch of small QoL adjustment plugins. Just delete the unwanted and enjoy the wanted tweaks. See the README for details.
 
@@ -5328,6 +5328,12 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-10-25<br>
+
+adjusted bunrodea.first.contact to no offer when bunrodea.missions is installed<br>
 
 <br>
 
