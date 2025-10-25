@@ -10,7 +10,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="https://github.com/zuckung/endless-sky-plugins/archive/refs/heads/main.zip"><img src="https://img.shields.io/github/repo-size/zuckung/endless-sky-plugins"></a>
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/code-size/zuckung/endless-sky-plugins"></a>
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/top/zuckung/endless-sky-plugins"></a>
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/total.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/total.png" width="130" height="20">
 <br>
 
 ## Latest News:
@@ -107,7 +107,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 ### additional.command.buttons.radial
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/additional.command.buttons.radial.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/additional.command.buttons.radial.png" width="130" height="20">
 
 [additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.26-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 415.99 kb | 2025-10-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [64]<br>
 <br>
@@ -392,7 +392,7 @@ screenshots(click to enlarge):<br>
 ### automata.destruction.0percent
 
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.destruction.0percent.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/automata.destruction.0percent.png" width="130" height="20">
 
 [automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.08 kb | 2024-06-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [2]<br>
 <br>
@@ -477,7 +477,7 @@ changed readme<br>
 ### automata.in.human.space
 
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.in.human.space.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/automata.in.human.space.png" width="130" height="20">
 
 [automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-automata.in.human.space/automata.in.human.space.zip) | 96.62 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [2]<br>
 <br>
@@ -546,7 +546,7 @@ changed icon.png<br>
 ### better.starts
 
 <img src="myplugins/better.starts/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/better.starts.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/better.starts.png" width="130" height="20">
 
 [better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-better.starts/better.starts.zip) | 804.25 kb | 2025-06-17 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [6]<br>
 <br>
@@ -697,7 +697,7 @@ screenshots(click to enlarge):<br>
 ### boss.loot
 
 <img src="myplugins/boss.loot/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/boss.loot.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/boss.loot.png" width="130" height="20">
 
 [boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-boss.loot/boss.loot.zip) | 17.74 mb | 2025-10-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) | <a href="res/imagemd/boss.loot.md">view images</a> [588]<br>
 <br>
@@ -784,7 +784,7 @@ screenshots(click to enlarge):<br>
 ### bunrodea.missions
 
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/bunrodea.missions.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/bunrodea.missions.png" width="130" height="20">
 
 [bunrodea.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-bunrodea.missions/bunrodea.missions.zip) | 2.95 mb | 2025-06-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/) | <a href="res/imagemd/bunrodea.missions.md">view images</a> [46]<br>
 <br>
@@ -1036,7 +1036,7 @@ screenshots(click to enlarge):<br>
 ### captureable.person.ships
 
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/captureable.person.ships.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/captureable.person.ships.png" width="130" height="20">
 
 [captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.9-captureable.person.ships/captureable.person.ships.zip) | 197.48 kb | 2025-06-19 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) | <a href="res/imagemd/captureable.person.ships.md">view images</a> [4]<br>
 <br>
@@ -1267,7 +1267,7 @@ screenshots(click to enlarge):<br>
 ### coalition.shopping
 
 <img src="myplugins/coalition.shopping/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/coalition.shopping.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/coalition.shopping.png" width="130" height="20">
 
 [coalition.shopping.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-coalition.shopping/coalition.shopping.zip) | 451.88 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/) | <a href="res/imagemd/coalition.shopping.md">view images</a> [6]<br>
 <br>
@@ -1367,7 +1367,7 @@ screenshots(click to enlarge):<br>
 ### combat.ai
 
 <img src="myplugins/combat.ai/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/combat.ai.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/combat.ai.png" width="130" height="20">
 
 [combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.11-combat.ai/combat.ai.zip) | 333.64 kb | 2025-10-24 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) | <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
 <br>
@@ -1588,7 +1588,7 @@ screenshots(click to enlarge):<br>
 ### control.station
 
 <img src="myplugins/control.station/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/control.station.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/control.station.png" width="130" height="20">
 
 [control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-control.station/control.station.zip) | 3.22 mb | 2025-10-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) | <a href="res/imagemd/control.station.md">view images</a> [405]<br>
 <br>
@@ -1734,7 +1734,7 @@ screenshots(click to enlarge):<br>
 ### disable.person.ships
 
 <img src="myplugins/disable.person.ships/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/disable.person.ships.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/disable.person.ships.png" width="130" height="20">
 
 [disable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-disable.person.ships/disable.person.ships.zip) | 20.08 kb | 2024-04-06 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/) | <a href="res/imagemd/disable.person.ships.md">view images</a> [2]<br>
 <br>
@@ -1826,7 +1826,7 @@ added icon.png<br>
 ### disable.spaceport.repeatables
 
 <img src="myplugins/disable.spaceport.repeatables/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/disable.spaceport.repeatables.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/disable.spaceport.repeatables.png" width="130" height="20">
 
 [disable.spaceport.repeatables.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.1-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) | 20.57 kb | 2024-05-26 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/) | <a href="res/imagemd/disable.spaceport.repeatables.md">view images</a> [2]<br>
 <br>
@@ -1946,7 +1946,7 @@ added icon.png<br>
 ### expert.crew.members
 
 <img src="myplugins/expert.crew.members/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/expert.crew.members.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/expert.crew.members.png" width="130" height="20">
 
 [expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-expert.crew.members/expert.crew.members.zip) | 8.07 mb | 2025-06-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) | <a href="res/imagemd/expert.crew.members.md">view images</a> [204]<br>
 <br>
@@ -2157,7 +2157,7 @@ screenshots(click to enlarge):<br>
 ### flare.play
 
 <img src="myplugins/flare.play/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/flare.play.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/flare.play.png" width="130" height="20">
 
 [flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-flare.play/flare.play.zip) | 15.31 mb | 2025-09-18 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) | <a href="res/imagemd/flare.play.md">view images</a> [687]<br>
 <br>
@@ -2239,7 +2239,7 @@ screenshots(click to enlarge):<br>
 ### galactic.capital.investment
 
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/galactic.capital.investment.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/galactic.capital.investment.png" width="130" height="20">
 
 [galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.9-galactic.capital.investment/galactic.capital.investment.zip) | 4.07 mb | 2025-08-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) | <a href="res/imagemd/galactic.capital.investment.md">view images</a> [21]<br>
 <br>
@@ -2442,7 +2442,7 @@ screenshots(click to enlarge):<br>
 ### gegno.pirates
 
 <img src="myplugins/gegno.pirates/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/gegno.pirates.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/gegno.pirates.png" width="130" height="20">
 
 [gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-gegno.pirates/gegno.pirates.zip) | 347.1 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) | <a href="res/imagemd/gegno.pirates.md">view images</a> [8]<br>
 <br>
@@ -2572,7 +2572,7 @@ screenshots(click to enlarge):<br>
 ### hai.side.mission.unlocker
 
 <img src="myplugins/hai.side.mission.unlocker/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/hai.side.mission.unlocker.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/hai.side.mission.unlocker.png" width="130" height="20">
 
 [hai.side.mission.unlocker.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.5-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) | 100.56 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/) | <a href="res/imagemd/hai.side.mission.unlocker.md">view images</a> [2]<br>
 <br>
@@ -2661,7 +2661,7 @@ initial release<br>
 ### highrollers.ltd
 
 <img src="myplugins/highrollers.ltd/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/highrollers.ltd.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/highrollers.ltd.png" width="130" height="20">
 
 [highrollers.ltd.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-highrollers.ltd/highrollers.ltd.zip) | 1.06 mb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/highrollers.ltd/) | <a href="res/imagemd/highrollers.ltd.md">view images</a> [15]<br>
 <br>
@@ -2732,7 +2732,7 @@ screenshots(click to enlarge):<br>
 ### human.labels
 
 <img src="myplugins/human.labels/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/human.labels.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/human.labels.png" width="130" height="20">
 
 [human.labels.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-human.labels/human.labels.zip) | 2.01 mb | 2025-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/) | <a href="res/imagemd/human.labels.md">view images</a> [411]<br>
 <br>
@@ -2841,7 +2841,7 @@ screenshots(click to enlarge):<br>
 ### jump.gates
 
 <img src="myplugins/jump.gates/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/jump.gates.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/jump.gates.png" width="130" height="20">
 
 [jump.gates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-jump.gates/jump.gates.zip) | 2.11 mb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/) | <a href="res/imagemd/jump.gates.md">view images</a> [24]<br>
 <br>
@@ -2926,7 +2926,7 @@ screenshots(click to enlarge):<br>
 ### kestrel.unlocks
 
 <img src="myplugins/kestrel.unlocks/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/kestrel.unlocks.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/kestrel.unlocks.png" width="130" height="20">
 
 [kestrel.unlocks.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-kestrel.unlocks/kestrel.unlocks.zip) | 57.37 kb | 2025-08-31 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kestrel.unlocks/) | <a href="res/imagemd/kestrel.unlocks.md">view images</a> [2]<br>
 <br>
@@ -2987,7 +2987,7 @@ initial release<br>
 ### kor.efret.shipyard
 
 <img src="myplugins/kor.efret.shipyard/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/kor.efret.shipyard.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/kor.efret.shipyard.png" width="130" height="20">
 
 [kor.efret.shipyard.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-kor.efret.shipyard/kor.efret.shipyard.zip) | 107.05 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor.efret.shipyard/) | <a href="res/imagemd/kor.efret.shipyard.md">view images</a> [2]<br>
 <br>
@@ -3190,7 +3190,7 @@ reworked readme<br>
 ### landing.images
 
 <img src="myplugins/landing.images/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/landing.images.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/landing.images.png" width="130" height="20">
 
 [landing.images.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-landing.images/landing.images.zip) | 15.45 mb | 2025-08-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/) | <a href="res/imagemd/landing.images.md">view images</a> [527]<br>
 <br>
@@ -3272,7 +3272,7 @@ screenshots(click to enlarge):<br>
 ### landing.images.highres
 
 <img src="myplugins/landing.images.highres/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/landing.images.highres.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/landing.images.highres.png" width="130" height="20">
 
 [landing.images.highres.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images.highres/landing.images.highres.zip) | 67.35 mb | 2025-08-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/) | <a href="res/imagemd/landing.images.highres.md">view images</a> [527]<br>
 <br>
@@ -3341,7 +3341,7 @@ initial release<br>
 ### licenses
 
 <img src="myplugins/licenses/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/licenses.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/licenses.png" width="130" height="20">
 
 [licenses.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-licenses/licenses.zip) | 928.85 kb | 2025-05-08 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/licenses/) | <a href="res/imagemd/licenses.md">view images</a> [18]<br>
 <br>
@@ -3438,7 +3438,7 @@ screenshots(click to enlarge):<br>
 ### mission.helper
 
 <img src="myplugins/mission.helper/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/mission.helper.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/mission.helper.png" width="130" height="20">
 
 [mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-mission.helper/mission.helper.zip) | 159.5 kb | 2025-10-01 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) | <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
 <br>
@@ -3565,7 +3565,7 @@ screenshots(click to enlarge):<br>
 ### more.arfectas
 
 <img src="myplugins/more.arfectas/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/more.arfectas.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/more.arfectas.png" width="130" height="20">
 
 [more.arfectas.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-more.arfectas/more.arfectas.zip) | 30.79 kb | 2024-04-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/) | <a href="res/imagemd/more.arfectas.md">view images</a> [2]<br>
 <br>
@@ -3637,7 +3637,7 @@ screenshots(click to enlarge):<br>
 ### more.boarding.missions
 
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/more.boarding.missions.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/more.boarding.missions.png" width="130" height="20">
 
 [more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.5-more.boarding.missions/more.boarding.missions.zip) | 5.66 mb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) | <a href="res/imagemd/more.boarding.missions.md">view images</a> [50]<br>
 <br>
@@ -3847,7 +3847,7 @@ screenshots(click to enlarge):<br>
 ### more.person.ships
 
 <img src="myplugins/more.person.ships/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/more.person.ships.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/more.person.ships.png" width="130" height="20">
 
 [more.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-more.person.ships/more.person.ships.zip) | 4.67 mb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/) | <a href="res/imagemd/more.person.ships.md">view images</a> [32]<br>
 <br>
@@ -3976,7 +3976,7 @@ screenshots(click to enlarge):<br>
 ### no.more.mereti.mines
 
 <img src="myplugins/no.more.mereti.mines/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/no.more.mereti.mines.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/no.more.mereti.mines.png" width="130" height="20">
 
 [no.more.mereti.mines.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-no.more.mereti.mines/no.more.mereti.mines.zip) | 154.06 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/) | <a href="res/imagemd/no.more.mereti.mines.md">view images</a> [4]<br>
 <br>
@@ -4047,7 +4047,7 @@ initial release<br>
 ### outfits.weapon.slot
 
 <img src="myplugins/outfits.weapon.slot/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/outfits.weapon.slot.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/outfits.weapon.slot.png" width="130" height="20">
 
 [outfits.weapon.slot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-outfits.weapon.slot/outfits.weapon.slot.zip) | 930.24 kb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/outfits.weapon.slot/) | <a href="res/imagemd/outfits.weapon.slot.md">view images</a> [28]<br>
 <br>
@@ -4117,7 +4117,7 @@ screenshots(click to enlarge):<br>
 ### paint.your.ships
 
 <img src="myplugins/paint.your.ships/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/paint.your.ships.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/paint.your.ships.png" width="130" height="20">
 
 [paint.your.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-paint.your.ships/paint.your.ships.zip) | 191.19 kb | 2025-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/paint.your.ships/) | <a href="res/imagemd/paint.your.ships.md">view images</a> [4]<br>
 <br>
@@ -4188,7 +4188,7 @@ screenshots(click to enlarge):<br>
 ### planet.map
 
 <img src="myplugins/planet.map/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/planet.map.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/planet.map.png" width="130" height="20">
 
 [planet.map.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-planet.map/planet.map.zip) | 15.2 mb | 2025-04-14 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/) | <a href="res/imagemd/planet.map.md">view images</a> [62]<br>
 <br>
@@ -4304,7 +4304,7 @@ screenshots(click to enlarge):<br>
 ### quarg.farm
 
 <img src="myplugins/quarg.farm/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/quarg.farm.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/quarg.farm.png" width="130" height="20">
 
 [quarg.farm.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-quarg.farm/quarg.farm.zip) | 111.13 kb | 2025-09-15 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/) | <a href="res/imagemd/quarg.farm.md">view images</a> [2]<br>
 <br>
@@ -4404,7 +4404,7 @@ screenshots(click to enlarge):<br>
 ### ship.merging
 
 <img src="myplugins/ship.merging/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/ship.merging.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/ship.merging.png" width="130" height="20">
 
 [ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-ship.merging/ship.merging.zip) | 2.45 mb | 2025-10-12 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) | <a href="res/imagemd/ship.merging.md">view images</a> [10]<br>
 <br>
@@ -4491,7 +4491,7 @@ screenshots(click to enlarge):<br>
 ### show.reputation
 
 <img src="myplugins/show.reputation/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/show.reputation.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/show.reputation.png" width="130" height="20">
 
 [show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-show.reputation/show.reputation.zip) | 159.85 kb | 2025-06-21 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) | <a href="res/imagemd/show.reputation.md">view images</a> [5]<br>
 <br>
@@ -4587,7 +4587,7 @@ screenshots(click to enlarge):<br>
 ### snowfeather.robotics
 
 <img src="myplugins/snowfeather.robotics/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/snowfeather.robotics.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/snowfeather.robotics.png" width="130" height="20">
 
 [snowfeather.robotics.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-snowfeather.robotics/snowfeather.robotics.zip) | 1.78 mb | 2025-06-05 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/) | <a href="res/imagemd/snowfeather.robotics.md">view images</a> [22]<br>
 <br>
@@ -4703,7 +4703,7 @@ screenshots(click to enlarge):<br>
 ### space.fauna
 
 <img src="myplugins/space.fauna/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/space.fauna.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/space.fauna.png" width="130" height="20">
 
 [space.fauna.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.3-space.fauna/space.fauna.zip) | 1.74 mb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/space.fauna/) | <a href="res/imagemd/space.fauna.md">view images</a> [18]<br>
 <br>
@@ -4779,7 +4779,7 @@ screenshots(click to enlarge):<br>
 ### too.many.asteroids
 
 <img src="myplugins/too.many.asteroids/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/too.many.asteroids.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/too.many.asteroids.png" width="130" height="20">
 
 [too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-too.many.asteroids/too.many.asteroids.zip) | 19.47 kb | 2025-01-25 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) | <a href="res/imagemd/too.many.asteroids.md">view images</a> [2]<br>
 <br>
@@ -4876,7 +4876,7 @@ added a python script which generates the asteroids.txt(in case I don't update t
 ### tribute.republic
 
 <img src="myplugins/tribute.republic/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/tribute.republic.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/tribute.republic.png" width="130" height="20">
 
 [tribute.republic.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-tribute.republic/tribute.republic.zip) | 96.81 kb | 2025-08-29 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/tribute.republic/) | <a href="res/imagemd/tribute.republic.md">view images</a> [2]<br>
 <br>
@@ -4945,7 +4945,7 @@ screenshots(click to enlarge):<br>
 ### uniques
 
 <img src="myplugins/uniques/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/uniques.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/uniques.png" width="130" height="20">
 
 [uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.13-uniques/uniques.zip) | 12.75 mb | 2025-10-07 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [186]<br>
 <br>
@@ -5273,7 +5273,7 @@ screenshots(click to enlarge):<br>
 ### vague.improvements
 
 <img src="myplugins/vague.improvements/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/vague.improvements.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/vague.improvements.png" width="130" height="20">
 
 [vague.improvements.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-vague.improvements/vague.improvements.zip) | 35.11 kb | 2025-10-16 | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/vague.improvements/) | <a href="res/imagemd/vague.improvements.md">view images</a> [2]<br>
 <br>
