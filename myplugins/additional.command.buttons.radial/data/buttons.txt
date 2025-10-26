@@ -25,7 +25,7 @@ interface "main buttons" bottom right
 # "Turn left"
 # "Turn right"
 # "Reverse"
-# "Stop Ship"
+# "Stop your Ship"
 # "Mouse turning (hold)"
 # "Fire primary weapon"
 # "Toggle turret tracking"
@@ -162,7 +162,7 @@ interface "main buttons" bottom right
 	sprite "ui/icon_fleet_stop"
 		center -281 -127
 		dimensions 40 40
-	button "Stop Ship"
+	button "Stop your ship"
 		center -281 -127
 		dimensions 64 51
 
