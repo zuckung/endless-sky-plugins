@@ -1,3 +1,4 @@
+2025-10-26 | update: ship.merging
 2025-10-26 | update: mission.helper
 2025-10-25 | update: vague.improvements
 2025-10-24 | update: combat.ai

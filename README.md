@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-26 | update: ship.merging<br>
 2025-10-26 | update: mission.helper<br>
 2025-10-25 | update: vague.improvements<br>
 2025-10-24 | update: combat.ai<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-11 | update: vague.improvements<br>
 2025-10-11 | update: ship.merging<br>
 2025-10-07 | update: uniques<br>
-2025-10-05 | update: control.station<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4412,7 +4412,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/ship.merging/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/ship.merging.png" width="130" height="20">
 
-[ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-ship.merging/ship.merging.zip) v1.0.4 | 2.45 mb | 2025-10-12 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=ship.merging-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) | <a href="res/imagemd/ship.merging.md">view images</a> [10]<br>
+[ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-ship.merging/ship.merging.zip) v1.0.5 | 2.45 mb | 2025-10-26 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=ship.merging-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) | <a href="res/imagemd/ship.merging.md">view images</a> [10]<br>
 <br>
 >This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship. See the README for details.
 
@@ -4439,6 +4439,12 @@ Reduce performance issues by reducing ship amounts or just make single ships mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-10-26<br>
+
+update to 0.10.16<br>
 
 <br>
 
