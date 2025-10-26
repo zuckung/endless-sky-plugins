@@ -10,6 +10,9 @@ Reduce performance issues by reducing ship amounts or just make single ships mor
 <br>
 Changelog:<br>
 <br>
+2025-10-26<br>
+update to 0.10.16<br>
+<br>
 2025-10-12<br>
 reversed ship order inside the job (as wished by Darcy Manoel)<br>
 added multiplication of outfits<br>

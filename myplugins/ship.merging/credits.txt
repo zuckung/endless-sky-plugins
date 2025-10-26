@@ -5,5 +5,7 @@ author:
 images:
 	scene, land, planet
 		ai generated at https://perchance.org/ai-text-to-image-generator
+	outfit
+		ai generated at https://www.craiyon.com/
 idea:
 	unknown_rawrs
