@@ -8,6 +8,9 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 Changelog:<br>
 <br>
+2025-10-26<br>
+updated missions to 0.10.15<br>
+<br>
 2025-10-01<br>
 updated missions to 0.10.15<br>
 <br>

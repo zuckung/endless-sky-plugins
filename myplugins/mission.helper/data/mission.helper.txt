@@ -7990,6 +7990,7 @@ mission "Mission Helper"
 			`starts at: landing`
 			`	source`
 			`		near "Bloptab" 1 100`
+			`		government "Coalition" "Heliarch"`
 			`	to offer`
 			`		has "license: Coalition"`
 			`	to complete`
