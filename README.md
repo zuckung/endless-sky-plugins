@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-26 | update: additional.command.buttons.radial<br>
 2025-10-26 | update: ship.merging<br>
 2025-10-26 | update: mission.helper<br>
 2025-10-25 | update: vague.improvements<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-12 | update: ship.merging<br>
 2025-10-11 | update: vague.improvements<br>
 2025-10-11 | update: ship.merging<br>
-2025-10-07 | update: uniques<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -109,7 +109,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/additional.command.buttons.radial.png" width="130" height="20">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.26-additional.command.buttons.radial/additional.command.buttons.radial.zip) v1.0.26 | 415.99 kb | 2025-10-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=additional.command.buttons.radial-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [64]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.27-additional.command.buttons.radial/additional.command.buttons.radial.zip) v1.0.27 | 416.02 kb | 2025-10-26 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=additional.command.buttons.radial-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [64]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -178,6 +178,12 @@ That resizes the landing image and the frame to their half.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-10-26<br>
+
+fixed 0.10.16 stop ship command renaming<br>
 
 <br>
 
