@@ -25,6 +25,7 @@ outfitter "FlarePlay"
 	"flare avgi flare fusion 0.75 15"
 	"flare avgi flare fusion 1.0 15"
 	"flare avgi flare fusion 2.0 15"
+	"flare avgi flare ntr 1.0 15"
 	"flare bunrodea flare large 0.3 1"
 	"flare bunrodea flare large 0.6 1"
 	"flare bunrodea flare large 0.8 1"
@@ -112,6 +113,10 @@ outfitter "FlarePlay"
 	"steering avgi flare rcs 0.125 30"
 	"steering avgi flare rcs 0.25 30"
 	"steering avgi flare rcs 0.5 15"
+	"steering bunrodea flare large 0.3 1"
+	"steering bunrodea flare large 0.6 1"
+	"steering bunrodea flare large 0.8 1"
+	"steering bunrodea flare large 1.0 1"
 	"steering coalition flare large 1.0 7"
 	"steering coalition flare small 1.0 10"
 	"steering efreti flare large 1.0 6.5"
@@ -664,8 +669,23 @@ outfit "flare avgi flare fusion 2.0 15"
 	description `You don't know what it means or if it is important, but on the package you can read:`
 	description `'avgi flare/fusion sc:2.0/fr:15'`
 
+outfit "flare avgi flare ntr 1.0 15"
+	"display name" "FP5270 size: 1.0"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/avgi flare ntr flare"
+	"cost" 40000
+	"mass" 1
+	"flare sprite" "effect/avgi flare/ntr"
+		"frame rate" 15
+	series "Flareplay"
+	index 99600
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'avgi flare/ntr sc:1.0/fr:15'`
+
 outfit "flare bunrodea flare large 0.3 1"
-	"display name" "FP5270 size: 0.3"
+	"display name" "FP5280 size: 0.3"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/bunrodea flare large flare"
 	"cost" 12000
@@ -682,7 +702,7 @@ outfit "flare bunrodea flare large 0.3 1"
 	description `'bunrodea flare/large sc:0.3/fr:1'`
 
 outfit "flare bunrodea flare large 0.6 1"
-	"display name" "FP5280 size: 0.6"
+	"display name" "FP5290 size: 0.6"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/bunrodea flare large flare"
 	"cost" 24000
@@ -699,7 +719,7 @@ outfit "flare bunrodea flare large 0.6 1"
 	description `'bunrodea flare/large sc:0.6/fr:1'`
 
 outfit "flare bunrodea flare large 0.8 1"
-	"display name" "FP5290 size: 0.8"
+	"display name" "FP5300 size: 0.8"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/bunrodea flare large flare"
 	"cost" 32000
@@ -716,7 +736,7 @@ outfit "flare bunrodea flare large 0.8 1"
 	description `'bunrodea flare/large sc:0.8/fr:1'`
 
 outfit "flare bunrodea flare large 1.0 1"
-	"display name" "FP5300 size: Large"
+	"display name" "FP5310 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/bunrodea flare large flare"
 	"cost" 40000
@@ -732,7 +752,7 @@ outfit "flare bunrodea flare large 1.0 1"
 	description `'bunrodea flare/large sc:1.0/fr:1'`
 
 outfit "flare coalition flare large 1.0 7"
-	"display name" "FP5310 size: Large"
+	"display name" "FP5320 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/coalition flare large flare"
 	"cost" 40000
@@ -747,7 +767,7 @@ outfit "flare coalition flare large 1.0 7"
 	description `'coalition flare/large sc:1.0/fr:7'`
 
 outfit "flare coalition flare small 1.0 10"
-	"display name" "FP5320 size: Small"
+	"display name" "FP5330 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/coalition flare small flare"
 	"cost" 16000
@@ -762,7 +782,7 @@ outfit "flare coalition flare small 1.0 10"
 	description `'coalition flare/small sc:1.0/fr:10'`
 
 outfit "flare efreti flare large 1.0 6.5"
-	"display name" "FP5330 size: Large"
+	"display name" "FP5340 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/efreti flare large flare"
 	"cost" 40000
@@ -777,7 +797,7 @@ outfit "flare efreti flare large 1.0 6.5"
 	description `'efreti flare/large sc:1.0/fr:6.5'`
 
 outfit "flare efreti flare medium 1.0 7"
-	"display name" "FP5340 size: Medium"
+	"display name" "FP5350 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/efreti flare medium flare"
 	"cost" 24000
@@ -792,7 +812,7 @@ outfit "flare efreti flare medium 1.0 7"
 	description `'efreti flare/medium sc:1.0/fr:7'`
 
 outfit "flare efreti flare small 1.0 7.5"
-	"display name" "FP5350 size: Small"
+	"display name" "FP5360 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/efreti flare small flare"
 	"cost" 16000
@@ -807,7 +827,7 @@ outfit "flare efreti flare small 1.0 7.5"
 	description `'efreti flare/small sc:1.0/fr:7.5'`
 
 outfit "flare efreti flare tiny 1.0 8"
-	"display name" "FP5360 size: Tiny"
+	"display name" "FP5370 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/efreti flare tiny flare"
 	"cost" 8000
@@ -822,7 +842,7 @@ outfit "flare efreti flare tiny 1.0 8"
 	description `'efreti flare/tiny sc:1.0/fr:8'`
 
 outfit "flare fissionflare 1.0 30"
-	"display name" "FP5370 size: 1.0"
+	"display name" "FP5380 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/fissionflare flare"
 	"cost" 40000
@@ -838,7 +858,7 @@ outfit "flare fissionflare 1.0 30"
 	description `'fissionflare sc:1.0/fr:30'`
 
 outfit "flare fusionflare 1.0 30"
-	"display name" "FP5380 size: 1.0"
+	"display name" "FP5390 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/fusionflare flare"
 	"cost" 40000
@@ -854,7 +874,7 @@ outfit "flare fusionflare 1.0 30"
 	description `'fusionflare sc:1.0/fr:30'`
 
 outfit "flare graviton flare graviton flare 0.75 5"
-	"display name" "FP5390 size: 0.75"
+	"display name" "FP5400 size: 0.75"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/graviton flare graviton flare flare"
 	"cost" 30000
@@ -870,7 +890,7 @@ outfit "flare graviton flare graviton flare 0.75 5"
 	description `'graviton flare/graviton flare sc:0.75/fr:5'`
 
 outfit "flare graviton flare graviton flare 1.0 5"
-	"display name" "FP5400 size: 1.0"
+	"display name" "FP5410 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/graviton flare graviton flare flare"
 	"cost" 40000
@@ -885,7 +905,7 @@ outfit "flare graviton flare graviton flare 1.0 5"
 	description `'graviton flare/graviton flare sc:1.0/fr:5'`
 
 outfit "flare graviton flare graviton flare 1.25 5"
-	"display name" "FP5410 size: 1.25"
+	"display name" "FP5420 size: 1.25"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/graviton flare graviton flare flare"
 	"cost" 50000
@@ -901,7 +921,7 @@ outfit "flare graviton flare graviton flare 1.25 5"
 	description `'graviton flare/graviton flare sc:1.25/fr:5'`
 
 outfit "flare incipias flare metallic hydrogen large 1.0 24"
-	"display name" "FP5420 size: Large"
+	"display name" "FP5430 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/incipias flare metallic hydrogen large flare"
 	"cost" 40000
@@ -916,7 +936,7 @@ outfit "flare incipias flare metallic hydrogen large 1.0 24"
 	description `'incipias flare/metallic hydrogen large sc:1.0/fr:24'`
 
 outfit "flare incipias flare metallic hydrogen medium 1.0 24"
-	"display name" "FP5430 size: Medium"
+	"display name" "FP5440 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/incipias flare metallic hydrogen medium flare"
 	"cost" 24000
@@ -931,7 +951,7 @@ outfit "flare incipias flare metallic hydrogen medium 1.0 24"
 	description `'incipias flare/metallic hydrogen medium sc:1.0/fr:24'`
 
 outfit "flare incipias flare metallic hydrogen small 1.0 24"
-	"display name" "FP5440 size: Small"
+	"display name" "FP5450 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/incipias flare metallic hydrogen small flare"
 	"cost" 16000
@@ -946,7 +966,7 @@ outfit "flare incipias flare metallic hydrogen small 1.0 24"
 	description `'incipias flare/metallic hydrogen small sc:1.0/fr:24'`
 
 outfit "flare ion flare huge 1.0 0.8"
-	"display name" "FP5450 size: Huge"
+	"display name" "FP5460 size: Huge"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ion flare huge flare"
 	"cost" 48000
@@ -961,7 +981,7 @@ outfit "flare ion flare huge 1.0 0.8"
 	description `'ion flare/huge sc:1.0/fr:0.8'`
 
 outfit "flare ion flare large 1.0 0.9"
-	"display name" "FP5460 size: Large"
+	"display name" "FP5470 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ion flare large flare"
 	"cost" 40000
@@ -976,7 +996,7 @@ outfit "flare ion flare large 1.0 0.9"
 	description `'ion flare/large sc:1.0/fr:0.9'`
 
 outfit "flare ion flare medium 1.0 1.0"
-	"display name" "FP5470 size: Medium"
+	"display name" "FP5480 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ion flare medium flare"
 	"cost" 24000
@@ -991,7 +1011,7 @@ outfit "flare ion flare medium 1.0 1.0"
 	description `'ion flare/medium sc:1.0/fr:1.0'`
 
 outfit "flare ion flare small 1.0 1.1"
-	"display name" "FP5480 size: Small"
+	"display name" "FP5490 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ion flare small flare"
 	"cost" 16000
@@ -1006,7 +1026,7 @@ outfit "flare ion flare small 1.0 1.1"
 	description `'ion flare/small sc:1.0/fr:1.1'`
 
 outfit "flare ion flare tiny 1.0 1.2"
-	"display name" "FP5490 size: Tiny"
+	"display name" "FP5500 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ion flare tiny flare"
 	"cost" 8000
@@ -1021,7 +1041,7 @@ outfit "flare ion flare tiny 1.0 1.2"
 	description `'ion flare/tiny sc:1.0/fr:1.2'`
 
 outfit "flare ka'het flare large 1.0 30"
-	"display name" "FP5500 size: Large"
+	"display name" "FP5510 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ka'het flare large flare"
 	"cost" 40000
@@ -1036,7 +1056,7 @@ outfit "flare ka'het flare large 1.0 30"
 	description `'ka'het flare/large sc:1.0/fr:30'`
 
 outfit "flare ka'het flare medium 1.0 30"
-	"display name" "FP5510 size: Medium"
+	"display name" "FP5520 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ka'het flare medium flare"
 	"cost" 24000
@@ -1051,7 +1071,7 @@ outfit "flare ka'het flare medium 1.0 30"
 	description `'ka'het flare/medium sc:1.0/fr:30'`
 
 outfit "flare korath flare huge 1.0 6"
-	"display name" "FP5520 size: Huge"
+	"display name" "FP5530 size: Huge"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare huge flare"
 	"cost" 48000
@@ -1066,7 +1086,7 @@ outfit "flare korath flare huge 1.0 6"
 	description `'korath flare/huge sc:1.0/fr:6'`
 
 outfit "flare korath flare large 1.0 6.5"
-	"display name" "FP5530 size: Large"
+	"display name" "FP5540 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare large flare"
 	"cost" 40000
@@ -1081,7 +1101,7 @@ outfit "flare korath flare large 1.0 6.5"
 	description `'korath flare/large sc:1.0/fr:6.5'`
 
 outfit "flare korath flare medium 1.0 7"
-	"display name" "FP5540 size: Medium"
+	"display name" "FP5550 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare medium flare"
 	"cost" 24000
@@ -1096,7 +1116,7 @@ outfit "flare korath flare medium 1.0 7"
 	description `'korath flare/medium sc:1.0/fr:7'`
 
 outfit "flare korath flare small 1.0 7.5"
-	"display name" "FP5550 size: Small"
+	"display name" "FP5560 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare small flare"
 	"cost" 16000
@@ -1111,7 +1131,7 @@ outfit "flare korath flare small 1.0 7.5"
 	description `'korath flare/small sc:1.0/fr:7.5'`
 
 outfit "flare korath flare tiny 1.0 8"
-	"display name" "FP5560 size: Tiny"
+	"display name" "FP5570 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare tiny flare"
 	"cost" 8000
@@ -1126,7 +1146,7 @@ outfit "flare korath flare tiny 1.0 8"
 	description `'korath flare/tiny sc:1.0/fr:8'`
 
 outfit "flare plasma exhaust 1.0 16"
-	"display name" "FP5570 size: 1.0"
+	"display name" "FP5580 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma exhaust flare"
 	"cost" 40000
@@ -1141,7 +1161,7 @@ outfit "flare plasma exhaust 1.0 16"
 	description `'plasma exhaust sc:1.0/fr:16'`
 
 outfit "flare plasma flare huge 1.0 9"
-	"display name" "FP5580 size: Huge"
+	"display name" "FP5590 size: Huge"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma flare huge flare"
 	"cost" 48000
@@ -1156,7 +1176,7 @@ outfit "flare plasma flare huge 1.0 9"
 	description `'plasma flare/huge sc:1.0/fr:9'`
 
 outfit "flare plasma flare large 1.0 8"
-	"display name" "FP5590 size: Large"
+	"display name" "FP5600 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma flare large flare"
 	"cost" 40000
@@ -1171,7 +1191,7 @@ outfit "flare plasma flare large 1.0 8"
 	description `'plasma flare/large sc:1.0/fr:8'`
 
 outfit "flare plasma flare medium 1.0 7"
-	"display name" "FP5600 size: Medium"
+	"display name" "FP5610 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma flare medium flare"
 	"cost" 24000
@@ -1186,7 +1206,7 @@ outfit "flare plasma flare medium 1.0 7"
 	description `'plasma flare/medium sc:1.0/fr:7'`
 
 outfit "flare plasma flare small 1.0 6"
-	"display name" "FP5610 size: Small"
+	"display name" "FP5620 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma flare small flare"
 	"cost" 16000
@@ -1201,7 +1221,7 @@ outfit "flare plasma flare small 1.0 6"
 	description `'plasma flare/small sc:1.0/fr:6'`
 
 outfit "flare plasma flare tiny 1.0 5"
-	"display name" "FP5620 size: Tiny"
+	"display name" "FP5630 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma flare tiny flare"
 	"cost" 8000
@@ -1216,7 +1236,7 @@ outfit "flare plasma flare tiny 1.0 5"
 	description `'plasma flare/tiny sc:1.0/fr:5'`
 
 outfit "flare pug flare huge 1.0 23"
-	"display name" "FP5630 size: Huge"
+	"display name" "FP5640 size: Huge"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/pug flare huge flare"
 	"cost" 48000
@@ -1231,7 +1251,7 @@ outfit "flare pug flare huge 1.0 23"
 	description `'pug flare/huge sc:1.0/fr:23'`
 
 outfit "flare pug flare large 1.0 22"
-	"display name" "FP5640 size: Large"
+	"display name" "FP5650 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/pug flare large flare"
 	"cost" 40000
@@ -1246,7 +1266,7 @@ outfit "flare pug flare large 1.0 22"
 	description `'pug flare/large sc:1.0/fr:22'`
 
 outfit "flare pug flare medium 1.0 20"
-	"display name" "FP5650 size: Medium"
+	"display name" "FP5660 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/pug flare medium flare"
 	"cost" 24000
@@ -1261,7 +1281,7 @@ outfit "flare pug flare medium 1.0 20"
 	description `'pug flare/medium sc:1.0/fr:20'`
 
 outfit "flare remnant flare large 1.0 3"
-	"display name" "FP5660 size: Large"
+	"display name" "FP5670 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/remnant flare large flare"
 	"cost" 40000
@@ -1276,7 +1296,7 @@ outfit "flare remnant flare large 1.0 3"
 	description `'remnant flare/large sc:1.0/fr:3'`
 
 outfit "flare remnant flare medium 1.0 4"
-	"display name" "FP5670 size: Medium"
+	"display name" "FP5680 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/remnant flare medium flare"
 	"cost" 24000
@@ -1291,7 +1311,7 @@ outfit "flare remnant flare medium 1.0 4"
 	description `'remnant flare/medium sc:1.0/fr:4'`
 
 outfit "flare remnant flare small 1.0 5"
-	"display name" "FP5680 size: Small"
+	"display name" "FP5690 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/remnant flare small flare"
 	"cost" 16000
@@ -1306,7 +1326,7 @@ outfit "flare remnant flare small 1.0 5"
 	description `'remnant flare/small sc:1.0/fr:5'`
 
 outfit "flare scin flare large 1.0 0.3"
-	"display name" "FP5690 size: Large"
+	"display name" "FP5700 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/scin flare large flare"
 	"cost" 40000
@@ -1321,7 +1341,7 @@ outfit "flare scin flare large 1.0 0.3"
 	description `'scin flare/large sc:1.0/fr:0.3'`
 
 outfit "flare scin flare med 1.0 0.4"
-	"display name" "FP5700 size: Medium"
+	"display name" "FP5710 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/scin flare med flare"
 	"cost" 32000
@@ -1336,7 +1356,7 @@ outfit "flare scin flare med 1.0 0.4"
 	description `'scin flare/med sc:1.0/fr:0.4'`
 
 outfit "flare scin flare small 1.0 0.5"
-	"display name" "FP5710 size: Small"
+	"display name" "FP5720 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/scin flare small flare"
 	"cost" 16000
@@ -1351,7 +1371,7 @@ outfit "flare scin flare small 1.0 0.5"
 	description `'scin flare/small sc:1.0/fr:0.5'`
 
 outfit "flare scin flare tiny 1.0 0.6"
-	"display name" "FP5720 size: Tiny"
+	"display name" "FP5730 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/scin flare tiny flare"
 	"cost" 8000
@@ -1366,7 +1386,7 @@ outfit "flare scin flare tiny 1.0 0.6"
 	description `'scin flare/tiny sc:1.0/fr:0.6'`
 
 outfit "flare vi flare large 1.0 2.3"
-	"display name" "FP5730 size: Large"
+	"display name" "FP5740 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/vi flare large flare"
 	"cost" 40000
@@ -1381,7 +1401,7 @@ outfit "flare vi flare large 1.0 2.3"
 	description `'vi flare/large sc:1.0/fr:2.3'`
 
 outfit "flare vi flare medium 1.0 2.4"
-	"display name" "FP5740 size: Medium"
+	"display name" "FP5750 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/vi flare medium flare"
 	"cost" 24000
@@ -1396,7 +1416,7 @@ outfit "flare vi flare medium 1.0 2.4"
 	description `'vi flare/medium sc:1.0/fr:2.4'`
 
 outfit "flare vi flare small 1.0 2.5"
-	"display name" "FP5750 size: Small"
+	"display name" "FP5760 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/vi flare small flare"
 	"cost" 16000
@@ -1411,7 +1431,7 @@ outfit "flare vi flare small 1.0 2.5"
 	description `'vi flare/small sc:1.0/fr:2.5'`
 
 outfit "flare wanderer flare large 1.0 18"
-	"display name" "FP5760 size: Large"
+	"display name" "FP5770 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/wanderer flare large flare"
 	"cost" 40000
@@ -1426,7 +1446,7 @@ outfit "flare wanderer flare large 1.0 18"
 	description `'wanderer flare/large sc:1.0/fr:18'`
 
 outfit "flare wanderer flare medium 1.0 16"
-	"display name" "FP5770 size: Medium"
+	"display name" "FP5780 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/wanderer flare medium flare"
 	"cost" 24000
@@ -1441,7 +1461,7 @@ outfit "flare wanderer flare medium 1.0 16"
 	description `'wanderer flare/medium sc:1.0/fr:16'`
 
 outfit "flare wanderer flare small 1.0 14"
-	"display name" "FP5780 size: Small"
+	"display name" "FP5790 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/wanderer flare small flare"
 	"cost" 16000
@@ -1456,7 +1476,7 @@ outfit "flare wanderer flare small 1.0 14"
 	description `'wanderer flare/small sc:1.0/fr:14'`
 
 outfit "flare wanderer flare tiny 1.0 12"
-	"display name" "FP5790 size: Tiny"
+	"display name" "FP5800 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/wanderer flare tiny flare"
 	"cost" 8000
@@ -1471,7 +1491,7 @@ outfit "flare wanderer flare tiny 1.0 12"
 	description `'wanderer flare/tiny sc:1.0/fr:12'`
 
 outfit "flare wanderer flare tiny 1.0 5"
-	"display name" "FP5800 size: Tiny"
+	"display name" "FP5810 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/wanderer flare tiny flare"
 	"cost" 8000
@@ -1486,7 +1506,7 @@ outfit "flare wanderer flare tiny 1.0 5"
 	description `'wanderer flare/tiny sc:1.0/fr:5'`
 
 outfit "reverse atomic flare small 1.0 13"
-	"display name" "FP5810 size: Small"
+	"display name" "FP5820 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/atomic flare small reverse"
 	"cost" 12000
@@ -1501,7 +1521,7 @@ outfit "reverse atomic flare small 1.0 13"
 	description `'atomic flare/small sc:1.0/fr:13'`
 
 outfit "reverse atomic flare tiny 0.8 14"
-	"display name" "FP5820 size: 0.8"
+	"display name" "FP5830 size: 0.8"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/atomic flare tiny reverse"
 	"cost" 4800
@@ -1517,7 +1537,7 @@ outfit "reverse atomic flare tiny 0.8 14"
 	description `'atomic flare/tiny sc:0.8/fr:14'`
 
 outfit "reverse atomic flare tiny 1.0 14"
-	"display name" "FP5830 size: Tiny"
+	"display name" "FP5840 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/atomic flare tiny reverse"
 	"cost" 6000
@@ -1532,7 +1552,7 @@ outfit "reverse atomic flare tiny 1.0 14"
 	description `'atomic flare/tiny sc:1.0/fr:14'`
 
 outfit "reverse avgi flare rcs 0.125 30"
-	"display name" "FP5840 size: 0.125"
+	"display name" "FP5850 size: 0.125"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/avgi flare rcs reverse"
 	"cost" 3750
@@ -1548,7 +1568,7 @@ outfit "reverse avgi flare rcs 0.125 30"
 	description `'avgi flare/rcs sc:0.125/fr:30'`
 
 outfit "reverse avgi flare rcs 0.25 30"
-	"display name" "FP5850 size: 0.25"
+	"display name" "FP5860 size: 0.25"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/avgi flare rcs reverse"
 	"cost" 7500
@@ -1564,7 +1584,7 @@ outfit "reverse avgi flare rcs 0.25 30"
 	description `'avgi flare/rcs sc:0.25/fr:30'`
 
 outfit "reverse avgi flare rcs 0.5 30"
-	"display name" "FP5860 size: 0.5"
+	"display name" "FP5870 size: 0.5"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/avgi flare rcs reverse"
 	"cost" 15000
@@ -1580,7 +1600,7 @@ outfit "reverse avgi flare rcs 0.5 30"
 	description `'avgi flare/rcs sc:0.5/fr:30'`
 
 outfit "reverse coalition flare large 1.0 7"
-	"display name" "FP5870 size: Large"
+	"display name" "FP5880 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/coalition flare large reverse"
 	"cost" 30000
@@ -1595,7 +1615,7 @@ outfit "reverse coalition flare large 1.0 7"
 	description `'coalition flare/large sc:1.0/fr:7'`
 
 outfit "reverse coalition flare small 1.0 10"
-	"display name" "FP5880 size: Small"
+	"display name" "FP5890 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/coalition flare small reverse"
 	"cost" 12000
@@ -1610,7 +1630,7 @@ outfit "reverse coalition flare small 1.0 10"
 	description `'coalition flare/small sc:1.0/fr:10'`
 
 outfit "reverse fusionflare 1.0 30"
-	"display name" "FP5890 size: 1.0"
+	"display name" "FP5900 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/fusionflare reverse"
 	"cost" 30000
@@ -1626,7 +1646,7 @@ outfit "reverse fusionflare 1.0 30"
 	description `'fusionflare sc:1.0/fr:30'`
 
 outfit "reverse ion flare tiny 1.0 1.2"
-	"display name" "FP5900 size: Tiny"
+	"display name" "FP5910 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ion flare tiny reverse"
 	"cost" 6000
@@ -1641,7 +1661,7 @@ outfit "reverse ion flare tiny 1.0 1.2"
 	description `'ion flare/tiny sc:1.0/fr:1.2'`
 
 outfit "reverse korath flare huge 1.0 6"
-	"display name" "FP5910 size: Huge"
+	"display name" "FP5920 size: Huge"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare huge reverse"
 	"cost" 36000
@@ -1656,7 +1676,7 @@ outfit "reverse korath flare huge 1.0 6"
 	description `'korath flare/huge sc:1.0/fr:6'`
 
 outfit "reverse korath flare large 1.0 6.5"
-	"display name" "FP5920 size: Large"
+	"display name" "FP5930 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare large reverse"
 	"cost" 30000
@@ -1671,7 +1691,7 @@ outfit "reverse korath flare large 1.0 6.5"
 	description `'korath flare/large sc:1.0/fr:6.5'`
 
 outfit "reverse korath flare medium 1.0 7"
-	"display name" "FP5930 size: Medium"
+	"display name" "FP5940 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare medium reverse"
 	"cost" 18000
@@ -1686,7 +1706,7 @@ outfit "reverse korath flare medium 1.0 7"
 	description `'korath flare/medium sc:1.0/fr:7'`
 
 outfit "reverse korath flare small 1.0 7.5"
-	"display name" "FP5940 size: Small"
+	"display name" "FP5950 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare small reverse"
 	"cost" 12000
@@ -1701,7 +1721,7 @@ outfit "reverse korath flare small 1.0 7.5"
 	description `'korath flare/small sc:1.0/fr:7.5'`
 
 outfit "reverse korath flare tiny 1.0 8"
-	"display name" "FP5950 size: Tiny"
+	"display name" "FP5960 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare tiny reverse"
 	"cost" 6000
@@ -1716,7 +1736,7 @@ outfit "reverse korath flare tiny 1.0 8"
 	description `'korath flare/tiny sc:1.0/fr:8'`
 
 outfit "reverse plasma flare tiny 1.0 5"
-	"display name" "FP5960 size: Tiny"
+	"display name" "FP5970 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma flare tiny reverse"
 	"cost" 6000
@@ -1731,7 +1751,7 @@ outfit "reverse plasma flare tiny 1.0 5"
 	description `'plasma flare/tiny sc:1.0/fr:5'`
 
 outfit "reverse remnant flare medium 1.0 5"
-	"display name" "FP5970 size: Medium"
+	"display name" "FP5980 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/remnant flare medium reverse"
 	"cost" 18000
@@ -1746,7 +1766,7 @@ outfit "reverse remnant flare medium 1.0 5"
 	description `'remnant flare/medium sc:1.0/fr:5'`
 
 outfit "reverse remnant flare small 1.0 5"
-	"display name" "FP5980 size: Small"
+	"display name" "FP5990 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/remnant flare small reverse"
 	"cost" 12000
@@ -1761,7 +1781,7 @@ outfit "reverse remnant flare small 1.0 5"
 	description `'remnant flare/small sc:1.0/fr:5'`
 
 outfit "reverse scin flare large 1.0 0.3"
-	"display name" "FP5990 size: Large"
+	"display name" "FP6000 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/scin flare large reverse"
 	"cost" 30000
@@ -1776,7 +1796,7 @@ outfit "reverse scin flare large 1.0 0.3"
 	description `'scin flare/large sc:1.0/fr:0.3'`
 
 outfit "reverse successor flare large 1.0 20"
-	"display name" "FP6000 size: Large"
+	"display name" "FP6010 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/successor flare large reverse"
 	"cost" 30000
@@ -1791,7 +1811,7 @@ outfit "reverse successor flare large 1.0 20"
 	description `'successor flare/large sc:1.0/fr:20'`
 
 outfit "reverse successor flare medium 1.0 20"
-	"display name" "FP6010 size: Medium"
+	"display name" "FP6020 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/successor flare medium reverse"
 	"cost" 18000
@@ -1806,7 +1826,7 @@ outfit "reverse successor flare medium 1.0 20"
 	description `'successor flare/medium sc:1.0/fr:20'`
 
 outfit "reverse successor flare small 1.0 20"
-	"display name" "FP6020 size: Small"
+	"display name" "FP6030 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/successor flare small reverse"
 	"cost" 12000
@@ -1821,7 +1841,7 @@ outfit "reverse successor flare small 1.0 20"
 	description `'successor flare/small sc:1.0/fr:20'`
 
 outfit "reverse wanderer flare tiny 1.0 5"
-	"display name" "FP6030 size: Tiny"
+	"display name" "FP6040 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/wanderer flare tiny reverse"
 	"cost" 6000
@@ -1836,7 +1856,7 @@ outfit "reverse wanderer flare tiny 1.0 5"
 	description `'wanderer flare/tiny sc:1.0/fr:5'`
 
 outfit "steering atomic flare huge 1.0 10"
-	"display name" "FP6040 size: Huge"
+	"display name" "FP6050 size: Huge"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/atomic flare huge steering"
 	"cost" 36000
@@ -1851,7 +1871,7 @@ outfit "steering atomic flare huge 1.0 10"
 	description `'atomic flare/huge sc:1.0/fr:10'`
 
 outfit "steering atomic flare large 1.0 11"
-	"display name" "FP6050 size: Large"
+	"display name" "FP6060 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/atomic flare large steering"
 	"cost" 30000
@@ -1866,7 +1886,7 @@ outfit "steering atomic flare large 1.0 11"
 	description `'atomic flare/large sc:1.0/fr:11'`
 
 outfit "steering atomic flare medium 1.0 12"
-	"display name" "FP6060 size: Medium"
+	"display name" "FP6070 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/atomic flare medium steering"
 	"cost" 18000
@@ -1881,7 +1901,7 @@ outfit "steering atomic flare medium 1.0 12"
 	description `'atomic flare/medium sc:1.0/fr:12'`
 
 outfit "steering atomic flare small 1.0 13"
-	"display name" "FP6070 size: Small"
+	"display name" "FP6080 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/atomic flare small steering"
 	"cost" 12000
@@ -1896,7 +1916,7 @@ outfit "steering atomic flare small 1.0 13"
 	description `'atomic flare/small sc:1.0/fr:13'`
 
 outfit "steering atomic flare tiny 0.8 14"
-	"display name" "FP6080 size: 0.8"
+	"display name" "FP6090 size: 0.8"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/atomic flare tiny steering"
 	"cost" 4800
@@ -1912,7 +1932,7 @@ outfit "steering atomic flare tiny 0.8 14"
 	description `'atomic flare/tiny sc:0.8/fr:14'`
 
 outfit "steering atomic flare tiny 1.0 14"
-	"display name" "FP6090 size: Tiny"
+	"display name" "FP6100 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/atomic flare tiny steering"
 	"cost" 6000
@@ -1927,7 +1947,7 @@ outfit "steering atomic flare tiny 1.0 14"
 	description `'atomic flare/tiny sc:1.0/fr:14'`
 
 outfit "steering avgi flare rcs 0.0625 30"
-	"display name" "FP6100 size: 0.0625"
+	"display name" "FP6110 size: 0.0625"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/avgi flare rcs steering"
 	"cost" 1875
@@ -1943,7 +1963,7 @@ outfit "steering avgi flare rcs 0.0625 30"
 	description `'avgi flare/rcs sc:0.0625/fr:30'`
 
 outfit "steering avgi flare rcs 0.125 30"
-	"display name" "FP6110 size: 0.125"
+	"display name" "FP6120 size: 0.125"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/avgi flare rcs steering"
 	"cost" 3750
@@ -1959,7 +1979,7 @@ outfit "steering avgi flare rcs 0.125 30"
 	description `'avgi flare/rcs sc:0.125/fr:30'`
 
 outfit "steering avgi flare rcs 0.25 30"
-	"display name" "FP6120 size: 0.25"
+	"display name" "FP6130 size: 0.25"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/avgi flare rcs steering"
 	"cost" 7500
@@ -1975,7 +1995,7 @@ outfit "steering avgi flare rcs 0.25 30"
 	description `'avgi flare/rcs sc:0.25/fr:30'`
 
 outfit "steering avgi flare rcs 0.5 15"
-	"display name" "FP6130 size: 0.5"
+	"display name" "FP6140 size: 0.5"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/avgi flare rcs steering"
 	"cost" 15000
@@ -1990,8 +2010,75 @@ outfit "steering avgi flare rcs 0.5 15"
 	description `You don't know what it means or if it is important, but on the package you can read:`
 	description `'avgi flare/rcs sc:0.5/fr:15'`
 
+outfit "steering bunrodea flare large 0.3 1"
+	"display name" "FP6150 size: 0.3"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/bunrodea flare large steering"
+	"cost" 9000
+	"mass" 1
+	"steering flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+		"scale" 0.3
+	series "Flareplay"
+	index 99800
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'bunrodea flare/large sc:0.3/fr:1'`
+
+outfit "steering bunrodea flare large 0.6 1"
+	"display name" "FP6160 size: 0.6"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/bunrodea flare large steering"
+	"cost" 18000
+	"mass" 1
+	"steering flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+		"scale" 0.6
+	series "Flareplay"
+	index 99800
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'bunrodea flare/large sc:0.6/fr:1'`
+
+outfit "steering bunrodea flare large 0.8 1"
+	"display name" "FP6170 size: 0.8"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/bunrodea flare large steering"
+	"cost" 24000
+	"mass" 1
+	"steering flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+		"scale" 0.8
+	series "Flareplay"
+	index 99800
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'bunrodea flare/large sc:0.8/fr:1'`
+
+outfit "steering bunrodea flare large 1.0 1"
+	"display name" "FP6180 size: Large"
+	category "FlarePlay"
+	"thumbnail" "effect/newflares/bunrodea flare large steering"
+	"cost" 30000
+	"mass" 1
+	"steering flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+	series "Flareplay"
+	index 99800
+	description `This is an engine additive of a company named FlarePlay. An engine exhaust coloration appears when additives like strontium, copper, cesium or others are introduced, burning at high temperatures and emitting vivid colors... red from strontium, green from copper, blue from cesium. The result is a striking exhaust plume used for flight shows, research on combustion efficiency, or just to let your spaceship look cool.`
+	description `Due to varying engine characteristics, additives are limited to their designated propulsion systems: afterburner flare for afterburners, reverse flare for reverse thrusters, steering flare for steering thrusters, and standard flare for primary thrusters.`
+	description `You don't know what it means or if it is important, but on the package you can read:`
+	description `'bunrodea flare/large sc:1.0/fr:1'`
+
 outfit "steering coalition flare large 1.0 7"
-	"display name" "FP6140 size: Large"
+	"display name" "FP6190 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/coalition flare large steering"
 	"cost" 30000
@@ -2006,7 +2093,7 @@ outfit "steering coalition flare large 1.0 7"
 	description `'coalition flare/large sc:1.0/fr:7'`
 
 outfit "steering coalition flare small 1.0 10"
-	"display name" "FP6150 size: Small"
+	"display name" "FP6200 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/coalition flare small steering"
 	"cost" 12000
@@ -2021,7 +2108,7 @@ outfit "steering coalition flare small 1.0 10"
 	description `'coalition flare/small sc:1.0/fr:10'`
 
 outfit "steering efreti flare large 1.0 6.5"
-	"display name" "FP6160 size: Large"
+	"display name" "FP6210 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/efreti flare large steering"
 	"cost" 30000
@@ -2036,7 +2123,7 @@ outfit "steering efreti flare large 1.0 6.5"
 	description `'efreti flare/large sc:1.0/fr:6.5'`
 
 outfit "steering efreti flare medium 1.0 7"
-	"display name" "FP6170 size: Medium"
+	"display name" "FP6220 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/efreti flare medium steering"
 	"cost" 18000
@@ -2051,7 +2138,7 @@ outfit "steering efreti flare medium 1.0 7"
 	description `'efreti flare/medium sc:1.0/fr:7'`
 
 outfit "steering efreti flare small 1.0 7.5"
-	"display name" "FP6180 size: Small"
+	"display name" "FP6230 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/efreti flare small steering"
 	"cost" 12000
@@ -2066,7 +2153,7 @@ outfit "steering efreti flare small 1.0 7.5"
 	description `'efreti flare/small sc:1.0/fr:7.5'`
 
 outfit "steering efreti flare tiny 1.0 8"
-	"display name" "FP6190 size: Tiny"
+	"display name" "FP6240 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/efreti flare tiny steering"
 	"cost" 6000
@@ -2081,7 +2168,7 @@ outfit "steering efreti flare tiny 1.0 8"
 	description `'efreti flare/tiny sc:1.0/fr:8'`
 
 outfit "steering fissionflare 1.0 30"
-	"display name" "FP6200 size: 1.0"
+	"display name" "FP6250 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/fissionflare steering"
 	"cost" 30000
@@ -2097,7 +2184,7 @@ outfit "steering fissionflare 1.0 30"
 	description `'fissionflare sc:1.0/fr:30'`
 
 outfit "steering fusionflare 1.0 30"
-	"display name" "FP6210 size: 1.0"
+	"display name" "FP6260 size: 1.0"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/fusionflare steering"
 	"cost" 30000
@@ -2113,7 +2200,7 @@ outfit "steering fusionflare 1.0 30"
 	description `'fusionflare sc:1.0/fr:30'`
 
 outfit "steering ion flare huge 1.0 0.8"
-	"display name" "FP6220 size: Huge"
+	"display name" "FP6270 size: Huge"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ion flare huge steering"
 	"cost" 36000
@@ -2128,7 +2215,7 @@ outfit "steering ion flare huge 1.0 0.8"
 	description `'ion flare/huge sc:1.0/fr:0.8'`
 
 outfit "steering ion flare large 1.0 0.9"
-	"display name" "FP6230 size: Large"
+	"display name" "FP6280 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ion flare large steering"
 	"cost" 30000
@@ -2143,7 +2230,7 @@ outfit "steering ion flare large 1.0 0.9"
 	description `'ion flare/large sc:1.0/fr:0.9'`
 
 outfit "steering ion flare medium 1.0 1.0"
-	"display name" "FP6240 size: Medium"
+	"display name" "FP6290 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ion flare medium steering"
 	"cost" 18000
@@ -2158,7 +2245,7 @@ outfit "steering ion flare medium 1.0 1.0"
 	description `'ion flare/medium sc:1.0/fr:1.0'`
 
 outfit "steering ion flare small 1.0 1.1"
-	"display name" "FP6250 size: Small"
+	"display name" "FP6300 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ion flare small steering"
 	"cost" 12000
@@ -2173,7 +2260,7 @@ outfit "steering ion flare small 1.0 1.1"
 	description `'ion flare/small sc:1.0/fr:1.1'`
 
 outfit "steering ion flare tiny 1.0 1.2"
-	"display name" "FP6260 size: Tiny"
+	"display name" "FP6310 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ion flare tiny steering"
 	"cost" 6000
@@ -2188,7 +2275,7 @@ outfit "steering ion flare tiny 1.0 1.2"
 	description `'ion flare/tiny sc:1.0/fr:1.2'`
 
 outfit "steering ka'het flare large 1.0 30"
-	"display name" "FP6270 size: Large"
+	"display name" "FP6320 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ka'het flare large steering"
 	"cost" 30000
@@ -2203,7 +2290,7 @@ outfit "steering ka'het flare large 1.0 30"
 	description `'ka'het flare/large sc:1.0/fr:30'`
 
 outfit "steering ka'het flare medium 1.0 30"
-	"display name" "FP6280 size: Medium"
+	"display name" "FP6330 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/ka'het flare medium steering"
 	"cost" 18000
@@ -2218,7 +2305,7 @@ outfit "steering ka'het flare medium 1.0 30"
 	description `'ka'het flare/medium sc:1.0/fr:30'`
 
 outfit "steering korath flare huge 1.0 6"
-	"display name" "FP6290 size: Huge"
+	"display name" "FP6340 size: Huge"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare huge steering"
 	"cost" 36000
@@ -2233,7 +2320,7 @@ outfit "steering korath flare huge 1.0 6"
 	description `'korath flare/huge sc:1.0/fr:6'`
 
 outfit "steering korath flare large 1.0 6.5"
-	"display name" "FP6300 size: Large"
+	"display name" "FP6350 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare large steering"
 	"cost" 30000
@@ -2248,7 +2335,7 @@ outfit "steering korath flare large 1.0 6.5"
 	description `'korath flare/large sc:1.0/fr:6.5'`
 
 outfit "steering korath flare medium 1.0 7"
-	"display name" "FP6310 size: Medium"
+	"display name" "FP6360 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare medium steering"
 	"cost" 18000
@@ -2263,7 +2350,7 @@ outfit "steering korath flare medium 1.0 7"
 	description `'korath flare/medium sc:1.0/fr:7'`
 
 outfit "steering korath flare small 1.0 7.5"
-	"display name" "FP6320 size: Small"
+	"display name" "FP6370 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare small steering"
 	"cost" 12000
@@ -2278,7 +2365,7 @@ outfit "steering korath flare small 1.0 7.5"
 	description `'korath flare/small sc:1.0/fr:7.5'`
 
 outfit "steering korath flare tiny 1.0 8"
-	"display name" "FP6330 size: Tiny"
+	"display name" "FP6380 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/korath flare tiny steering"
 	"cost" 6000
@@ -2293,7 +2380,7 @@ outfit "steering korath flare tiny 1.0 8"
 	description `'korath flare/tiny sc:1.0/fr:8'`
 
 outfit "steering plasma flare huge 1.0 9"
-	"display name" "FP6340 size: Huge"
+	"display name" "FP6390 size: Huge"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma flare huge steering"
 	"cost" 36000
@@ -2308,7 +2395,7 @@ outfit "steering plasma flare huge 1.0 9"
 	description `'plasma flare/huge sc:1.0/fr:9'`
 
 outfit "steering plasma flare large 1.0 8"
-	"display name" "FP6350 size: Large"
+	"display name" "FP6400 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma flare large steering"
 	"cost" 30000
@@ -2323,7 +2410,7 @@ outfit "steering plasma flare large 1.0 8"
 	description `'plasma flare/large sc:1.0/fr:8'`
 
 outfit "steering plasma flare medium 1.0 7"
-	"display name" "FP6360 size: Medium"
+	"display name" "FP6410 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma flare medium steering"
 	"cost" 18000
@@ -2338,7 +2425,7 @@ outfit "steering plasma flare medium 1.0 7"
 	description `'plasma flare/medium sc:1.0/fr:7'`
 
 outfit "steering plasma flare small 1.0 6"
-	"display name" "FP6370 size: Small"
+	"display name" "FP6420 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma flare small steering"
 	"cost" 12000
@@ -2353,7 +2440,7 @@ outfit "steering plasma flare small 1.0 6"
 	description `'plasma flare/small sc:1.0/fr:6'`
 
 outfit "steering plasma flare tiny 1.0 5"
-	"display name" "FP6380 size: Tiny"
+	"display name" "FP6430 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/plasma flare tiny steering"
 	"cost" 6000
@@ -2368,7 +2455,7 @@ outfit "steering plasma flare tiny 1.0 5"
 	description `'plasma flare/tiny sc:1.0/fr:5'`
 
 outfit "steering pug flare huge 1.0 23"
-	"display name" "FP6390 size: Huge"
+	"display name" "FP6440 size: Huge"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/pug flare huge steering"
 	"cost" 36000
@@ -2383,7 +2470,7 @@ outfit "steering pug flare huge 1.0 23"
 	description `'pug flare/huge sc:1.0/fr:23'`
 
 outfit "steering pug flare large 1.0 22"
-	"display name" "FP6400 size: Large"
+	"display name" "FP6450 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/pug flare large steering"
 	"cost" 30000
@@ -2398,7 +2485,7 @@ outfit "steering pug flare large 1.0 22"
 	description `'pug flare/large sc:1.0/fr:22'`
 
 outfit "steering pug flare medium 1.0 20"
-	"display name" "FP6410 size: Medium"
+	"display name" "FP6460 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/pug flare medium steering"
 	"cost" 18000
@@ -2413,7 +2500,7 @@ outfit "steering pug flare medium 1.0 20"
 	description `'pug flare/medium sc:1.0/fr:20'`
 
 outfit "steering remnant flare large 1.0 3"
-	"display name" "FP6420 size: Large"
+	"display name" "FP6470 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/remnant flare large steering"
 	"cost" 30000
@@ -2428,7 +2515,7 @@ outfit "steering remnant flare large 1.0 3"
 	description `'remnant flare/large sc:1.0/fr:3'`
 
 outfit "steering remnant flare medium 1.0 4"
-	"display name" "FP6430 size: Medium"
+	"display name" "FP6480 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/remnant flare medium steering"
 	"cost" 18000
@@ -2443,7 +2530,7 @@ outfit "steering remnant flare medium 1.0 4"
 	description `'remnant flare/medium sc:1.0/fr:4'`
 
 outfit "steering remnant flare small 1.0 5"
-	"display name" "FP6440 size: Small"
+	"display name" "FP6490 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/remnant flare small steering"
 	"cost" 12000
@@ -2458,7 +2545,7 @@ outfit "steering remnant flare small 1.0 5"
 	description `'remnant flare/small sc:1.0/fr:5'`
 
 outfit "steering scin flare med 1.0 0.4"
-	"display name" "FP6450 size: Medium"
+	"display name" "FP6500 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/scin flare med steering"
 	"cost" 24000
@@ -2473,7 +2560,7 @@ outfit "steering scin flare med 1.0 0.4"
 	description `'scin flare/med sc:1.0/fr:0.4'`
 
 outfit "steering scin flare small 1.0 0.5"
-	"display name" "FP6460 size: Small"
+	"display name" "FP6510 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/scin flare small steering"
 	"cost" 12000
@@ -2488,7 +2575,7 @@ outfit "steering scin flare small 1.0 0.5"
 	description `'scin flare/small sc:1.0/fr:0.5'`
 
 outfit "steering scin flare tiny 1.0 0.6"
-	"display name" "FP6470 size: Tiny"
+	"display name" "FP6520 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/scin flare tiny steering"
 	"cost" 6000
@@ -2503,7 +2590,7 @@ outfit "steering scin flare tiny 1.0 0.6"
 	description `'scin flare/tiny sc:1.0/fr:0.6'`
 
 outfit "steering successor flare large 1.0 20"
-	"display name" "FP6480 size: Large"
+	"display name" "FP6530 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/successor flare large steering"
 	"cost" 30000
@@ -2518,7 +2605,7 @@ outfit "steering successor flare large 1.0 20"
 	description `'successor flare/large sc:1.0/fr:20'`
 
 outfit "steering successor flare medium 1.0 20"
-	"display name" "FP6490 size: Medium"
+	"display name" "FP6540 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/successor flare medium steering"
 	"cost" 18000
@@ -2533,7 +2620,7 @@ outfit "steering successor flare medium 1.0 20"
 	description `'successor flare/medium sc:1.0/fr:20'`
 
 outfit "steering successor flare small 1.0 20"
-	"display name" "FP6500 size: Small"
+	"display name" "FP6550 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/successor flare small steering"
 	"cost" 12000
@@ -2548,7 +2635,7 @@ outfit "steering successor flare small 1.0 20"
 	description `'successor flare/small sc:1.0/fr:20'`
 
 outfit "steering successor flare tiny 1.0 20"
-	"display name" "FP6510 size: Tiny"
+	"display name" "FP6560 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/successor flare tiny steering"
 	"cost" 6000
@@ -2563,7 +2650,7 @@ outfit "steering successor flare tiny 1.0 20"
 	description `'successor flare/tiny sc:1.0/fr:20'`
 
 outfit "steering vi flare large 1.0 2.3"
-	"display name" "FP6520 size: Large"
+	"display name" "FP6570 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/vi flare large steering"
 	"cost" 30000
@@ -2578,7 +2665,7 @@ outfit "steering vi flare large 1.0 2.3"
 	description `'vi flare/large sc:1.0/fr:2.3'`
 
 outfit "steering vi flare medium 1.0 2.4"
-	"display name" "FP6530 size: Medium"
+	"display name" "FP6580 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/vi flare medium steering"
 	"cost" 18000
@@ -2593,7 +2680,7 @@ outfit "steering vi flare medium 1.0 2.4"
 	description `'vi flare/medium sc:1.0/fr:2.4'`
 
 outfit "steering vi flare small 1.0 2.4"
-	"display name" "FP6540 size: Small"
+	"display name" "FP6590 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/vi flare small steering"
 	"cost" 12000
@@ -2608,7 +2695,7 @@ outfit "steering vi flare small 1.0 2.4"
 	description `'vi flare/small sc:1.0/fr:2.4'`
 
 outfit "steering wanderer flare large 1.0 18"
-	"display name" "FP6550 size: Large"
+	"display name" "FP6600 size: Large"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/wanderer flare large steering"
 	"cost" 30000
@@ -2623,7 +2710,7 @@ outfit "steering wanderer flare large 1.0 18"
 	description `'wanderer flare/large sc:1.0/fr:18'`
 
 outfit "steering wanderer flare medium 1.0 16"
-	"display name" "FP6560 size: Medium"
+	"display name" "FP6610 size: Medium"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/wanderer flare medium steering"
 	"cost" 18000
@@ -2638,7 +2725,7 @@ outfit "steering wanderer flare medium 1.0 16"
 	description `'wanderer flare/medium sc:1.0/fr:16'`
 
 outfit "steering wanderer flare small 1.0 14"
-	"display name" "FP6570 size: Small"
+	"display name" "FP6620 size: Small"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/wanderer flare small steering"
 	"cost" 12000
@@ -2653,7 +2740,7 @@ outfit "steering wanderer flare small 1.0 14"
 	description `'wanderer flare/small sc:1.0/fr:14'`
 
 outfit "steering wanderer flare tiny 1.0 12"
-	"display name" "FP6580 size: Tiny"
+	"display name" "FP6630 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/wanderer flare tiny steering"
 	"cost" 6000
@@ -2668,7 +2755,7 @@ outfit "steering wanderer flare tiny 1.0 12"
 	description `'wanderer flare/tiny sc:1.0/fr:12'`
 
 outfit "steering wanderer flare tiny 1.0 5"
-	"display name" "FP6590 size: Tiny"
+	"display name" "FP6640 size: Tiny"
 	category "FlarePlay"
 	"thumbnail" "effect/newflares/wanderer flare tiny steering"
 	"cost" 6000

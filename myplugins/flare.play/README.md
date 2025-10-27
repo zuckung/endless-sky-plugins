@@ -9,6 +9,9 @@ Missions and events: On day 1 after plugin installation, a mission shows up, exp
 <br>
 Changelog:<br>
 <br>
+2025-10-27<br>
+update to 0.10.16<br>
+<br>
 2025-09-18<br>
 added 21 recolored avgi flares (thx to Nyx for reducing their size)<br>
 <br>
