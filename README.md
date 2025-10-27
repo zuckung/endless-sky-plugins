@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-27 | update: flare.play<br>
 2025-10-27 | update: boss.loot<br>
 2025-10-26 | update: additional.command.buttons.radial<br>
 2025-10-26 | update: ship.merging<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-23 | update: combat.ai<br>
 2025-10-16 | update: vague.improvements<br>
 2025-10-12 | update: ship.merging<br>
-2025-10-11 | update: vague.improvements<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2173,7 +2173,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/flare.play/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/flare.play.png" width="130" height="20">
 
-[flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-flare.play/flare.play.zip) v1.0.3 | 15.31 mb | 2025-09-18 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=flare.play-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) | <a href="res/imagemd/flare.play.md">view images</a> [687]<br>
+[flare.play.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-flare.play/flare.play.zip) v1.0.4 | 15.39 mb | 2025-10-27 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=flare.play-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/) | <a href="res/imagemd/flare.play.md">view images</a> [691]<br>
 <br>
 >Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by 'Thermognuclear Missile' on discord. See the README for details.
 
@@ -2198,6 +2198,12 @@ Missions and events: On day 1 after plugin installation, a mission shows up, exp
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-10-27<br>
+
+update to 0.10.16<br>
 
 <br>
 
