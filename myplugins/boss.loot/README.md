@@ -1,4 +1,4 @@
-### endgame<br>
+### boss.loot<br>
 <br>
 A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism.<br> 
 <br>
@@ -14,6 +14,10 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 <br>
 Changelog:<br>
+<br>
+2024-10-27<br>
+update to 0.10.16<br>
+changed "endgame" in the files to boss.loot (thx to Kitteh)<br>
 <br>
 2024-10-01<br>
 update to 0.10.15<br>
