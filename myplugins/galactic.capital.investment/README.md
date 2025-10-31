@@ -1,21 +1,19 @@
 ### galactic.capital.investment <br>
 <br>
-Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1 billion credits.<br>
-<br>
-At 1 billion credits cash a longer mission chain starts and enables a reapeatable job board investment of 1 billion credits. The chain has some breaks and finishes after a year.<br>
-There is also a job to deposit and withdraw credits, but at a much lower interest rate. And the same job offers to deposit and withdraw to a family trust, which can be accessed by all your saves/pilots (but without interest).<br>
+Offers different job board banking services. From normal banking with low interest rates, over risky stock exchange, and profitable investments (unlocked by missions), to a family thrust. Available in human, quarg and hai space.<br>
 <br>
 Job board investments:(if enabled)<br>
-1 million = 274 credits daily (12% chance) (10% interest p.a.)<br>
+1 million = 274 credits daily (12% chance) (10% interest p.a.)(unlocked by a mission)<br>
 5 million = 1,520 credits daily (10% chance) (11% interest p.a.)<br>
 10 million = 3,287 credits daily (8% chance) (12% interest p.a.)<br>
 50 million = 17,808 credits daily (6% chance) (13% interest p.a.)<br>
 100 million = 38,356 credits daily (4% chance) (14% interest p.a.)<br>
-1 billion = 410,958 credits daily (2% chance) (15% interest p.a.)<br>
+1 billion = 410,958 credits daily (2% chance) (15% interest p.a.)(unlocked by a mission chain)<br>
 <br>
 Job board bank account, always available:<br>
 Deposit and withdraw from your bank account (4% interest p.a.)<br>
-Deposit and withdraw from your family trust, accessible by all your pilots<br>
+Deposit and withdraw from your family trust, accessible by all your pilots(0% p.a.)<br>
+Stock trading(10 stocks, quarterly dividend payout of 3% (12% p.a. of changing values))<br>
 Sell investments at 10% conversion rate<br>
 Set up the bank account interest as a daily cash payout<br>
 Enable and disable the investment jobs/missions<br>
@@ -23,6 +21,10 @@ Enable and disable the investment jobs/missions<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-10-31<br>
+added more info about cash transfer to bank deposit/withdrw (reported by mikeloeven)<br>
+added stock trading<br>
 <br>
 2025-08-16<br>
 fixed sell investment gives too much credits (reported by NordicRest)<br>

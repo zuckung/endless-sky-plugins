@@ -1,4 +1,4 @@
 name "galactic.capital.investment"
-about "Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits. See the README for details."
+about "Offers different job board banking services. From normal banking with low interest rates, over risky stock exchange, and profitable investments (unlocked by missions), to a family thrust. Available in human, quarg and hai space. See the README for details."
 authors
 	"zuckung"

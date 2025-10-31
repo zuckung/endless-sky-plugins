@@ -1,5 +1,7 @@
 # mission "gci banking account initial"
 # mission "gci banking account update"
+# mission "gci stock setup"
+# mission "gci stock dividends"
 # mission "gci banking terminal"
 
 
@@ -28,6 +30,372 @@ mission "gci banking account update"
 		fail
 
 
+mission "gci stock setup"
+	entering
+	invisible
+	destination "Earth"
+	on offer
+		"stock last day" = "days since start"
+		"stock value Southbound Shipyards" = 1322
+		"stock value Lionheart Shipyards" = 976
+		"stock value Megaparsec Shipyards" = 1110
+		"stock value Syndicate Shipyards" = 1692
+		"stock value Kraz Cybernetics" = 1451
+		"stock value Deep Sky" = 837
+		"stock value Lovelace Labs" = 1791
+		"stock value Delta V" = 788
+		"stock value Betelgeuse Shipyards" = 1224
+		"stock value Tarazed Corporation" = 676
+		"stock amount Southbound Shipyards" = 0
+		"stock amount Lionheart Shipyards" = 0
+		"stock amount Megaparsec Shipyards" = 0
+		"stock amount Syndicate Shipyards" = 0
+		"stock amount Kraz Cybernetics" = 0
+		"stock amount Deep Sky" = 0
+		"stock amount Lovelace Labs" = 0
+		"stock amount Delta V" = 0
+		"stock amount Betelgeuse Shipyards" = 0
+		"stock amount Tarazed Corporation" = 0
+		fail
+
+mission "gci stock dividends"
+	entering
+	invisible
+	repeat
+	non-blocking
+	destination "Earth"
+	to offer
+		or
+			and
+				"day" == 1
+				"month" == 1
+			and
+				"day" == 1
+				"month" == 4
+			and
+				"day" == 1
+				"month" == 7
+			and
+				"day" == 1
+				"month" == 10
+		or
+			"stock amount Southbound Shipyards" > 0
+			"stock amount Lionheart Shipyards" > 0
+			"stock amount Megaparsec Shipyards" > 0
+			"stock amount Syndicate Shipyards" > 0
+			"stock amount Kraz Cybernetics" > 0
+			"stock amount Deep Sky" > 0
+			"stock amount Lovelace Labs" > 0
+			"stock amount Delta V" > 0
+			"stock amount Betelgeuse Shipyards" > 0
+			"stock amount Tarazed Corporation" > 0
+	on offer
+		conversation
+			label "start"
+			action
+				"passed days" = "days since start" - "stock last day"
+			``
+			label "days loop"
+			branch "end"
+				"passed days" == 0
+			action
+				"stock tendency Southbound Shipyards" = "roll: 3" - 1
+				"stock tendency Lionheart Shipyards" = "roll: 3" - 1
+				"stock tendency Megaparsec Shipyards" = "roll: 3" - 1
+				"stock tendency Syndicate Shipyards" = "roll: 3" - 1
+				"stock tendency Kraz Cybernetics" = "roll: 3" - 1
+				"stock tendency Deep Sky" = "roll: 3" - 1
+				"stock tendency Lovelace Labs" = "roll: 3" - 1
+				"stock tendency Delta V" = "roll: 3" - 1
+				"stock tendency Betelgeuse Shipyards" = "roll: 3" - 1
+				"stock tendency Tarazed Corporation" = "roll: 3" - 1
+
+			label "stock loop Southbound Shipyards"
+			branch "notnull Southbound Shipyards"
+				"stock tendency Southbound Shipyards" != 0
+			action
+				"stock tendency Southbound Shipyards" = "roll: 3" - 1
+			branch "stock loop Southbound Shipyards"
+			label "notnull Southbound Shipyards"
+			action
+				"stock change Southbound Shipyards" = "roll: 50" * "stock tendency Southbound Shipyards"
+			branch "positive Southbound Shipyards"
+				"stock value Southbound Shipyards" + "stock change Southbound Shipyards" >= 100
+			action
+				"stock change Southbound Shipyards" *= -1
+			label "positive Southbound Shipyards"
+			action
+				"stock value Southbound Shipyards" += "stock change Southbound Shipyards"
+
+
+			label "stock loop Lionheart Shipyards"
+			branch "notnull Lionheart Shipyards"
+				"stock tendency Lionheart Shipyards" != 0
+			action
+				"stock tendency Lionheart Shipyards" = "roll: 3" - 1
+			branch "stock loop Lionheart Shipyards"
+			label "notnull Lionheart Shipyards"
+			action
+				"stock change Lionheart Shipyards" = "roll: 50" * "stock tendency Lionheart Shipyards"
+			branch "positive Lionheart Shipyards"
+				"stock value Lionheart Shipyards" + "stock change Lionheart Shipyards" >= 100
+			action
+				"stock change Lionheart Shipyards" *= -1
+			label "positive Lionheart Shipyards"
+			action
+				"stock value Lionheart Shipyards" += "stock change Lionheart Shipyards"
+
+
+			label "stock loop Megaparsec Shipyards"
+			branch "notnull Megaparsec Shipyards"
+				"stock tendency Megaparsec Shipyards" != 0
+			action
+				"stock tendency Megaparsec Shipyards" = "roll: 3" - 1
+			branch "stock loop Megaparsec Shipyards"
+			label "notnull Megaparsec Shipyards"
+			action
+				"stock change Megaparsec Shipyards" = "roll: 50" * "stock tendency Megaparsec Shipyards"
+			branch "positive Megaparsec Shipyards"
+				"stock value Megaparsec Shipyards" + "stock change Megaparsec Shipyards" >= 100
+			action
+				"stock change Megaparsec Shipyards" *= -1
+			label "positive Megaparsec Shipyards"
+			action
+				"stock value Megaparsec Shipyards" += "stock change Megaparsec Shipyards"
+
+
+			label "stock loop Syndicate Shipyards"
+			branch "notnull Syndicate Shipyards"
+				"stock tendency Syndicate Shipyards" != 0
+			action
+				"stock tendency Syndicate Shipyards" = "roll: 3" - 1
+			branch "stock loop Syndicate Shipyards"
+			label "notnull Syndicate Shipyards"
+			action
+				"stock change Syndicate Shipyards" = "roll: 50" * "stock tendency Syndicate Shipyards"
+			branch "positive Syndicate Shipyards"
+				"stock value Syndicate Shipyards" + "stock change Syndicate Shipyards" >= 100
+			action
+				"stock change Syndicate Shipyards" *= -1
+			label "positive Syndicate Shipyards"
+			action
+				"stock value Syndicate Shipyards" += "stock change Syndicate Shipyards"
+
+
+			label "stock loop Kraz Cybernetics"
+			branch "notnull Kraz Cybernetics"
+				"stock tendency Kraz Cybernetics" != 0
+			action
+				"stock tendency Kraz Cybernetics" = "roll: 3" - 1
+			branch "stock loop Kraz Cybernetics"
+			label "notnull Kraz Cybernetics"
+			action
+				"stock change Kraz Cybernetics" = "roll: 50" * "stock tendency Kraz Cybernetics"
+			branch "positive Kraz Cybernetics"
+				"stock value Kraz Cybernetics" + "stock change Kraz Cybernetics" >= 100
+			action
+				"stock change Kraz Cybernetics" *= -1
+			label "positive Kraz Cybernetics"
+			action
+				"stock value Kraz Cybernetics" += "stock change Kraz Cybernetics"
+
+
+			label "stock loop Deep Sky"
+			branch "notnull Deep Sky"
+				"stock tendency Deep Sky" != 0
+			action
+				"stock tendency Deep Sky" = "roll: 3" - 1
+			branch "stock loop Deep Sky"
+			label "notnull Deep Sky"
+			action
+				"stock change Deep Sky" = "roll: 50" * "stock tendency Deep Sky"
+			branch "positive Deep Sky"
+				"stock value Deep Sky" + "stock change Deep Sky" >= 100
+			action
+				"stock change Deep Sky" *= -1
+			label "positive Deep Sky"
+			action
+				"stock value Deep Sky" += "stock change Deep Sky"
+
+
+			label "stock loop Lovelace Labs"
+			branch "notnull Lovelace Labs"
+				"stock tendency Lovelace Labs" != 0
+			action
+				"stock tendency Lovelace Labs" = "roll: 3" - 1
+			branch "stock loop Lovelace Labs"
+			label "notnull Lovelace Labs"
+			action
+				"stock change Lovelace Labs" = "roll: 50" * "stock tendency Lovelace Labs"
+			branch "positive Lovelace Labs"
+				"stock value Lovelace Labs" + "stock change Lovelace Labs" >= 100
+			action
+				"stock change Lovelace Labs" *= -1
+			label "positive Lovelace Labs"
+			action
+				"stock value Lovelace Labs" += "stock change Lovelace Labs"
+
+
+			label "stock loop Delta V"
+			branch "notnull Delta V"
+				"stock tendency Delta V" != 0
+			action
+				"stock tendency Delta V" = "roll: 3" - 1
+			branch "stock loop Delta V"
+			label "notnull Delta V"
+			action
+				"stock change Delta V" = "roll: 50" * "stock tendency Delta V"
+			branch "positive Delta V"
+				"stock value Delta V" + "stock change Delta V" >= 100
+			action
+				"stock change Delta V" *= -1
+			label "positive Delta V"
+			action
+				"stock value Delta V" += "stock change Delta V"
+
+
+			label "stock loop Betelgeuse Shipyards"
+			branch "notnull Betelgeuse Shipyards"
+				"stock tendency Betelgeuse Shipyards" != 0
+			action
+				"stock tendency Betelgeuse Shipyards" = "roll: 3" - 1
+			branch "stock loop Betelgeuse Shipyards"
+			label "notnull Betelgeuse Shipyards"
+			action
+				"stock change Betelgeuse Shipyards" = "roll: 50" * "stock tendency Betelgeuse Shipyards"
+			branch "positive Betelgeuse Shipyards"
+				"stock value Betelgeuse Shipyards" + "stock change Betelgeuse Shipyards" >= 100
+			action
+				"stock change Betelgeuse Shipyards" *= -1
+			label "positive Betelgeuse Shipyards"
+			action
+				"stock value Betelgeuse Shipyards" += "stock change Betelgeuse Shipyards"
+
+
+			label "stock loop Tarazed Corporation"
+			branch "notnull Tarazed Corporation"
+				"stock tendency Tarazed Corporation" != 0
+			action
+				"stock tendency Tarazed Corporation" = "roll: 3" - 1
+			branch "stock loop Tarazed Corporation"
+			label "notnull Tarazed Corporation"
+			action
+				"stock change Tarazed Corporation" = "roll: 50" * "stock tendency Tarazed Corporation"
+			branch "positive Tarazed Corporation"
+				"stock value Tarazed Corporation" + "stock change Tarazed Corporation" >= 100
+			action
+				"stock change Tarazed Corporation" *= -1
+			label "positive Tarazed Corporation"
+			action
+				"stock value Tarazed Corporation" += "stock change Tarazed Corporation"
+
+			action
+				"passed days" -= 1
+			branch "days loop"
+			label "end"
+			action
+				"stock last day" = "days since start"
+				"dividend Southbound Shipyards" = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" / 100 * 3
+				"dividend Lionheart Shipyards" = "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" / 100 * 3
+				"dividend Megaparsec Shipyards" = "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" / 100 * 3
+				"dividend Syndicate Shipyards" = "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" / 100 * 3
+				"dividend Kraz Cybernetics" = "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" / 100 * 3
+				"dividend Deep Sky" = "stock amount Deep Sky" * "stock value Deep Sky" / 100 * 3
+				"dividend Lovelace Labs" = "stock amount Lovelace Labs" * "stock value Lovelace Labs" / 100 * 3
+				"dividend Delta V" = "stock amount Delta V" * "stock value Delta V" / 100 * 3
+				"dividend Betelgeuse Shipyards" = "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" / 100 * 3
+				"dividend Tarazed Corporation" = "stock amount Tarazed Corporation" * "stock value Tarazed Corporation" / 100 * 3
+				"stock dividends addi" = "dividend Southbound Shipyards" + "dividend Lionheart Shipyards" + "dividend Megaparsec Shipyards" + "dividend Syndicate Shipyards" + "dividend Kraz Cybernetics" + "dividend Deep Sky" + "dividend Lovelace Labs" + "dividend Delta V" + "dividend Betelgeuse Shipyards" + "dividend Tarazed Corporation"
+				"stock all dividends" = "stock dividends addi"
+
+			label "dividends payment 100k"
+			branch "dividends payment 10k"
+				"stock dividends addi" < 100000
+			action
+				payment 100000
+				"stock dividends addi" -= 100000
+			branch "dividends payment 100k"
+
+			label "dividends payment 10k"
+			branch "dividends payment 1k"
+				"stock dividends addi" < 10000
+			action
+				payment 10000
+				"stock dividends addi" -= 10000
+			branch "dividends payment 10k"
+
+			label "dividends payment 1k"
+			branch "dividends payment 100"
+				"stock dividends addi" < 1000
+			action
+				payment 1000
+				"stock dividends addi" -= 1000
+			branch "dividends payment 1k"
+
+			label "dividends payment 100"
+			branch "dividends payment 10"
+				"stock dividends addi" < 100
+			action
+				payment 100
+				"stock dividends addi" -= 100
+			branch "dividends payment 100"
+
+			label "dividends payment 10"
+			branch "dividends payment 1"
+				"stock dividends addi" < 10
+			action
+				payment 10
+				"stock dividends addi" -= 10
+			branch "dividends payment 10"
+
+			label "dividends payment 1"
+			branch "dividends payment done"
+				"stock dividends addi" < 1
+			action
+				payment 1
+				"stock dividends addi" -= 1
+			branch "dividends payment 1"
+
+			label "dividends payment done"
+			scene "scene/stock_chart_analysis"
+			`This is your quarterly stock report and divident payout.`
+			`You hold &[stock amount Southbound Shipyards] "Southbound Shipyards" stocks at &[stock value Southbound Shipyards] credits each. Dividend(3%): &[dividend Southbound Shipyards]`
+				to display
+					"stock amount Southbound Shipyards" > 0
+			`You hold &[stock amount Lionheart Shipyards] "Lionheart Shipyards" stocks at &[stock value Lionheart Shipyards] credits each. Dividend(3%): &[dividend Lionheart Shipyards]`
+				to display
+					"stock amount Lionheart Shipyards" > 0
+			`You hold &[stock amount Megaparsec Shipyards] "Megaparsec Shipyards" stocks at &[stock value Megaparsec Shipyards] credits each. Dividend(3%): &[dividend Megaparsec Shipyards]`
+				to display
+					"stock amount Megaparsec Shipyards" > 0
+			`You hold &[stock amount Syndicate Shipyards] "Syndicate Shipyards" stocks at &[stock value Syndicate Shipyards] credits each. Dividend(3%): &[dividend Syndicate Shipyards]`
+				to display
+					"stock amount Syndicate Shipyards" > 0
+			`You hold &[stock amount Kraz Cybernetics] "Kraz Cybernetics" stocks at &[stock value Kraz Cybernetics] credits each. Dividend(3%): &[dividend Kraz Cybernetics]`
+				to display
+					"stock amount Kraz Cybernetics" > 0
+			`You hold &[stock amount Deep Sky] "Deep Sky" stocks at &[stock value Deep Sky] credits each. Dividend(3%): &[dividend Deep Sky]`
+				to display
+					"stock amount Deep Sky" > 0
+			`You hold &[stock amount Lovelace Labs] "Lovelace Labs" stocks at &[stock value Lovelace Labs] credits each. Dividend(3%): &[dividend Lovelace Labs]`
+				to display
+					"stock amount Lovelace Labs" > 0
+			`You hold &[stock amount Delta V] "Delta V" stocks at &[stock value Delta V] credits each. Dividend(3%): &[dividend Delta V]`
+				to display
+					"stock amount Delta V" > 0
+			`You hold &[stock amount Betelgeuse Shipyards] "Betelgeuse Shipyards" stocks at &[stock value Betelgeuse Shipyards] credits each. Dividend(3%): &[dividend Betelgeuse Shipyards]`
+				to display
+					"stock amount Betelgeuse Shipyards" > 0
+			`You hold &[stock amount Tarazed Corporation] "Tarazed Corporation" stocks at &[stock value Tarazed Corporation] credits each. Dividend(3%): &[dividend Tarazed Corporation]`
+				to display
+					"stock amount Tarazed Corporation" > 0
+			``
+			`All dividend payouts: &[stock all dividends]`
+				decline
+
+
+
+
 mission "gci banking terminal"
 	name "(Galactic Capital Investment) Bank Service"
 	color selected "gci job: selected"
@@ -41,26 +409,229 @@ mission "gci banking terminal"
 		government "Republic" "Free Worlds" "Syndicate" "Quarg" "Neutral" "Hai" "Pirate"
 	on accept
 		conversation
+			action
+				"passed days" = "days since start" - "stock last day"
+			label "calculations loop"
+			branch "calculations end"
+				"passed days" == 0
+			action
+				"stock tendency Southbound Shipyards" = "roll: 3" - 1
+				"stock tendency Lionheart Shipyards" = "roll: 3" - 1
+				"stock tendency Megaparsec Shipyards" = "roll: 3" - 1
+				"stock tendency Syndicate Shipyards" = "roll: 3" - 1
+				"stock tendency Kraz Cybernetics" = "roll: 3" - 1
+				"stock tendency Deep Sky" = "roll: 3" - 1
+				"stock tendency Lovelace Labs" = "roll: 3" - 1
+				"stock tendency Delta V" = "roll: 3" - 1
+				"stock tendency Betelgeuse Shipyards" = "roll: 3" - 1
+				"stock tendency Tarazed Corporation" = "roll: 3" - 1
+
+			label "stock loop Southbound Shipyards"
+			branch "notnull Southbound Shipyards"
+				"stock tendency Southbound Shipyards" != 0
+			action
+				"stock tendency Southbound Shipyards" = "roll: 3" - 1
+			branch "stock loop Southbound Shipyards"
+			label "notnull Southbound Shipyards"
+			action
+				"stock change Southbound Shipyards" = "roll: 50" * "stock tendency Southbound Shipyards"
+			branch "positive Southbound Shipyards"
+				"stock value Southbound Shipyards" + "stock change Southbound Shipyards" >= 100
+			action
+				"stock change Southbound Shipyards" *= -1
+			label "positive Southbound Shipyards"
+			action
+				"stock value Southbound Shipyards" += "stock change Southbound Shipyards"
+
+
+			label "stock loop Lionheart Shipyards"
+			branch "notnull Lionheart Shipyards"
+				"stock tendency Lionheart Shipyards" != 0
+			action
+				"stock tendency Lionheart Shipyards" = "roll: 3" - 1
+			branch "stock loop Lionheart Shipyards"
+			label "notnull Lionheart Shipyards"
+			action
+				"stock change Lionheart Shipyards" = "roll: 50" * "stock tendency Lionheart Shipyards"
+			branch "positive Lionheart Shipyards"
+				"stock value Lionheart Shipyards" + "stock change Lionheart Shipyards" >= 100
+			action
+				"stock change Lionheart Shipyards" *= -1
+			label "positive Lionheart Shipyards"
+			action
+				"stock value Lionheart Shipyards" += "stock change Lionheart Shipyards"
+
+
+			label "stock loop Megaparsec Shipyards"
+			branch "notnull Megaparsec Shipyards"
+				"stock tendency Megaparsec Shipyards" != 0
+			action
+				"stock tendency Megaparsec Shipyards" = "roll: 3" - 1
+			branch "stock loop Megaparsec Shipyards"
+			label "notnull Megaparsec Shipyards"
+			action
+				"stock change Megaparsec Shipyards" = "roll: 50" * "stock tendency Megaparsec Shipyards"
+			branch "positive Megaparsec Shipyards"
+				"stock value Megaparsec Shipyards" + "stock change Megaparsec Shipyards" >= 100
+			action
+				"stock change Megaparsec Shipyards" *= -1
+			label "positive Megaparsec Shipyards"
+			action
+				"stock value Megaparsec Shipyards" += "stock change Megaparsec Shipyards"
+
+
+			label "stock loop Syndicate Shipyards"
+			branch "notnull Syndicate Shipyards"
+				"stock tendency Syndicate Shipyards" != 0
+			action
+				"stock tendency Syndicate Shipyards" = "roll: 3" - 1
+			branch "stock loop Syndicate Shipyards"
+			label "notnull Syndicate Shipyards"
+			action
+				"stock change Syndicate Shipyards" = "roll: 50" * "stock tendency Syndicate Shipyards"
+			branch "positive Syndicate Shipyards"
+				"stock value Syndicate Shipyards" + "stock change Syndicate Shipyards" >= 100
+			action
+				"stock change Syndicate Shipyards" *= -1
+			label "positive Syndicate Shipyards"
+			action
+				"stock value Syndicate Shipyards" += "stock change Syndicate Shipyards"
+
+
+			label "stock loop Kraz Cybernetics"
+			branch "notnull Kraz Cybernetics"
+				"stock tendency Kraz Cybernetics" != 0
+			action
+				"stock tendency Kraz Cybernetics" = "roll: 3" - 1
+			branch "stock loop Kraz Cybernetics"
+			label "notnull Kraz Cybernetics"
+			action
+				"stock change Kraz Cybernetics" = "roll: 50" * "stock tendency Kraz Cybernetics"
+			branch "positive Kraz Cybernetics"
+				"stock value Kraz Cybernetics" + "stock change Kraz Cybernetics" >= 100
+			action
+				"stock change Kraz Cybernetics" *= -1
+			label "positive Kraz Cybernetics"
+			action
+				"stock value Kraz Cybernetics" += "stock change Kraz Cybernetics"
+
+
+			label "stock loop Deep Sky"
+			branch "notnull Deep Sky"
+				"stock tendency Deep Sky" != 0
+			action
+				"stock tendency Deep Sky" = "roll: 3" - 1
+			branch "stock loop Deep Sky"
+			label "notnull Deep Sky"
+			action
+				"stock change Deep Sky" = "roll: 50" * "stock tendency Deep Sky"
+			branch "positive Deep Sky"
+				"stock value Deep Sky" + "stock change Deep Sky" >= 100
+			action
+				"stock change Deep Sky" *= -1
+			label "positive Deep Sky"
+			action
+				"stock value Deep Sky" += "stock change Deep Sky"
+
+
+			label "stock loop Lovelace Labs"
+			branch "notnull Lovelace Labs"
+				"stock tendency Lovelace Labs" != 0
+			action
+				"stock tendency Lovelace Labs" = "roll: 3" - 1
+			branch "stock loop Lovelace Labs"
+			label "notnull Lovelace Labs"
+			action
+				"stock change Lovelace Labs" = "roll: 50" * "stock tendency Lovelace Labs"
+			branch "positive Lovelace Labs"
+				"stock value Lovelace Labs" + "stock change Lovelace Labs" >= 100
+			action
+				"stock change Lovelace Labs" *= -1
+			label "positive Lovelace Labs"
+			action
+				"stock value Lovelace Labs" += "stock change Lovelace Labs"
+
+
+			label "stock loop Delta V"
+			branch "notnull Delta V"
+				"stock tendency Delta V" != 0
+			action
+				"stock tendency Delta V" = "roll: 3" - 1
+			branch "stock loop Delta V"
+			label "notnull Delta V"
+			action
+				"stock change Delta V" = "roll: 50" * "stock tendency Delta V"
+			branch "positive Delta V"
+				"stock value Delta V" + "stock change Delta V" >= 100
+			action
+				"stock change Delta V" *= -1
+			label "positive Delta V"
+			action
+				"stock value Delta V" += "stock change Delta V"
+
+
+			label "stock loop Betelgeuse Shipyards"
+			branch "notnull Betelgeuse Shipyards"
+				"stock tendency Betelgeuse Shipyards" != 0
+			action
+				"stock tendency Betelgeuse Shipyards" = "roll: 3" - 1
+			branch "stock loop Betelgeuse Shipyards"
+			label "notnull Betelgeuse Shipyards"
+			action
+				"stock change Betelgeuse Shipyards" = "roll: 50" * "stock tendency Betelgeuse Shipyards"
+			branch "positive Betelgeuse Shipyards"
+				"stock value Betelgeuse Shipyards" + "stock change Betelgeuse Shipyards" >= 100
+			action
+				"stock change Betelgeuse Shipyards" *= -1
+			label "positive Betelgeuse Shipyards"
+			action
+				"stock value Betelgeuse Shipyards" += "stock change Betelgeuse Shipyards"
+
+
+			label "stock loop Tarazed Corporation"
+			branch "notnull Tarazed Corporation"
+				"stock tendency Tarazed Corporation" != 0
+			action
+				"stock tendency Tarazed Corporation" = "roll: 3" - 1
+			branch "stock loop Tarazed Corporation"
+			label "notnull Tarazed Corporation"
+			action
+				"stock change Tarazed Corporation" = "roll: 50" * "stock tendency Tarazed Corporation"
+			branch "positive Tarazed Corporation"
+				"stock value Tarazed Corporation" + "stock change Tarazed Corporation" >= 100
+			action
+				"stock change Tarazed Corporation" *= -1
+			label "positive Tarazed Corporation"
+			action
+				"stock value Tarazed Corporation" += "stock change Tarazed Corporation"
+
+			action
+				"passed days" -= 1
+			branch "calculations loop"
+			label "calculations end"
+			action
+				"stock last day" = "days since start"
+
 			label singleline
-			``
 				goto menu
 			label menu
 			scene scene/gci_terminal
 			action
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
+				available = deposit - "salary: Galactic Capital Transfer" / 4 * 100 * 365
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+ 
 			`Welcome to "Galactic Capital Investment Bank Service"! Your last visit is &[datedifference] day/s ago.`
 			``
 			`Cash chip balance:`
 			`	&[credits] credits`
-			`Bank Account balance:`
-			`	&[deposit] credits`
-			`	&[dailyincome] credits daily interest (4% p.a.)`
-			`Daily transfer to you cash chip (already subtracted from the daily interest):`
-			`	&[salary: Galactic Capital Transfer]`
-			`Daily investment salary to your cash chip:`
-			`	&[salary: Galactic Capital]`
-			`Family Trust:`
-			`	&[global: familytrust] credits (for all pilots, 0% p.a.)`
+			`Bank account balance:`
+			`	&[deposit] credits (&[available] credits available, with daily transfer subtracted)`
+			`	&[dailyincome] credits daily interest (4% p.a.) + &[salary: Galactic Capital Transfer] credits daily cash transfer`
+			``
+			`Daily investment salary to your cash chip: &[salary: Galactic Capital] credits`
+			`Stock depot value: &[stocktotalvalue] credits (12% p.a. but risky, quarterly paid)`
+			`Family trust: &[global: familytrust] credits (for all pilots, 0% p.a.)`
 			``
 			choice
 				`	[access to your bank account]`
@@ -69,6 +640,8 @@ mission "gci banking terminal"
 					goto linefamilytrust
 				`	[access to your daily transfer]`
 					goto linecashtransfer
+				`	[access to the stock exchange]`
+					goto linestockexchange
 				`	[sell investments]`
 					to display
 						"salary: Galactic Capital" > 0
@@ -89,6 +662,7 @@ mission "gci banking terminal"
 			label bankaccount
 			action
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
+				available = deposit - "salary: Galactic Capital Transfer" / 4 * 100 * 365
 			scene scene/gci_terminal
 			`Access to your bank account. It will generate an interest, added daily to your bank account, by a rate of 4% per year.`
 			`The daily interest display is lowered by your cash transfer.`
@@ -96,8 +670,9 @@ mission "gci banking terminal"
 			`Cash chip:`
 			`	&[credits] credits`
 			`Account balance:`
-			`	&[deposit] credits`
-			`	&[dailyincome] credits daily interest (4% p.a.)`
+			`	&[deposit] credits (&[available] credits available, with daily transfer subtracted)`
+			`	&[dailyincome] credits daily interest (4% p.a.) + &[salary: Galactic Capital Transfer] credits daily cash transfer`
+			``
 			``
 			choice
 				`	[deposit credits]`
@@ -111,6 +686,7 @@ mission "gci banking terminal"
 			label bankaccountD
 			action
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
+				available = deposit - "salary: Galactic Capital Transfer" / 4 * 100 * 365
 			scene scene/gci_terminal
 			`Access to your bank account. It will generate an interest, added daily to your bank account, by a rate of 4% per year.`
 			`The daily interest display is lowered by your cash transfer.`
@@ -118,8 +694,9 @@ mission "gci banking terminal"
 			`Cash chip:`
 			`	&[credits] credits`
 			`Account balance:`
-			`	&[deposit] credits`
-			`	&[dailyincome] credits daily interest (4% p.a.)`
+			`	&[deposit] credits (&[available] credits available, with daily transfer subtracted)`
+			`	&[dailyincome] credits daily interest (4% p.a.) + &[salary: Galactic Capital Transfer] credits daily cash transfer`
+			``
 			``
 			choice
 				`	[deposit 10,000 credits, daily interest +1 credits]`
@@ -195,6 +772,7 @@ mission "gci banking terminal"
 			label bankaccountW
 			action
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
+				available = deposit - "salary: Galactic Capital Transfer" / 4 * 100 * 365
 			scene scene/gci_terminal
 			`Access to your bank account. It will generate an interest, added daily to your bank account, by a rate of 4% per year.`
 			`The daily interest display is lowered by your cash transfer.`
@@ -202,8 +780,9 @@ mission "gci banking terminal"
 			`Cash chip:`
 			`	&[credits] credits`
 			`Account balance:`
-			`	&[deposit] credits`
-			`	&[dailyincome] credits daily interest (4% p.a.)`
+			`	&[deposit] credits (&[available] credits available, with daily transfer subtracted)`
+			`	&[dailyincome] credits daily interest (4% p.a.) + &[salary: Galactic Capital Transfer] credits daily cash transfer`
+			`	(to withdraw more credits, reduce your daily cash transfer)`
 			``
 			choice
 				`	[withdraw 10,000 credits, daily interest -1 credits]`
@@ -281,7 +860,7 @@ mission "gci banking terminal"
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
 				goto bankaccountW
-# deposit/withdraw of famaly trust
+# deposit/withdraw of family trust
 			label linefamilytrust
 			``
 			label familytrust
@@ -290,7 +869,7 @@ mission "gci banking terminal"
 			``
 			`Cash chip:`
 			`	&[credits] credits`
-			`Family Trust:`
+			`Family trust:`
 			`	&[global: familytrust] credits`
 			``
 			choice
@@ -309,7 +888,7 @@ mission "gci banking terminal"
 			``
 			`Cash chip:`
 			`	&[credits] credits`
-			`Family Trust:`
+			`Family trust:`
 			`	&[global: familytrust] credits`
 			``
 			choice
@@ -376,7 +955,6 @@ mission "gci banking terminal"
 			``
 				goto familytrustD
 
-
 			label linefamilytrustW
 			``
 			label familytrustW
@@ -385,7 +963,7 @@ mission "gci banking terminal"
 			``
 			`Cash chip:`
 			`	&[credits] credits`
-			`Family Trust:`
+			`Family trust:`
 			`	&[global: familytrust] credits`
 			``
 			choice
@@ -452,6 +1030,1633 @@ mission "gci banking terminal"
 				"global: familytrust" -= 1000000000
 			``
 				goto familytrustW
+# stock exchange
+			label linestockexchange
+			``
+				goto stockoverview
+			label "stockoverview"
+			action
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Welcome to Galactic Stock Exchange`
+			``
+			`Cash chip balance: &[credits]`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			choice
+				`	Trade "Southbound Shipyards" stocks at &[stock value Southbound Shipyards] credits each. You hold &[stock amount Southbound Shipyards]`
+					goto "Southbound Shipyards"
+				`	Trade "Lionheart Shipyards" stocks at &[stock value Lionheart Shipyards] credits each. You hold &[stock amount Lionheart Shipyards]`
+					goto "Lionheart Shipyards"
+				`	Trade "Megaparsec Shipyards" stocks at &[stock value Megaparsec Shipyards] credits each. You hold &[stock amount Megaparsec Shipyards]`
+					goto "Megaparsec Shipyards"
+				`	Trade "Syndicate Shipyards" stocks at &[stock value Syndicate Shipyards] credits each. You hold &[stock amount Syndicate Shipyards]`
+					goto "Syndicate Shipyards"
+				`	Trade "Kraz Cybernetics" stocks at &[stock value Kraz Cybernetics] credits each. You hold &[stock amount Kraz Cybernetics]`
+					goto "Kraz Cybernetics"
+				`	Trade "Deep Sky" stocks at &[stock value Deep Sky] credits each. You hold &[stock amount Deep Sky]`
+					goto "Deep Sky"
+				`	Trade "Lovelace Labs" stocks at &[stock value Lovelace Labs] credits each. You hold &[stock amount Lovelace Labs]`
+					goto "Lovelace Labs"
+				`	Trade "Delta V" stocks at &[stock value Delta V] credits each. You hold &[stock amount Delta V]`
+					goto "Delta V"
+				`	Trade "Betelgeuse Shipyards" stocks at &[stock value Betelgeuse Shipyards] credits each. You hold &[stock amount Betelgeuse Shipyards]`
+					goto "Betelgeuse Shipyards"
+				`	Trade "Tarazed Corporation" stocks at &[stock value Tarazed Corporation] credits each. You hold &[stock amount Tarazed Corporation]`
+					goto "Tarazed Corporation"
+				`	[back]`
+					goto "menu"
+			label "Southbound Shipyards"
+			action
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Southbound Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Southbound Shipyards] stocks at &[stock value Southbound Shipyards] credits each..`
+			choice
+				`	Buy 1000 stocks for &[stock value Southbound Shipyards]000 credits.`
+					to display
+						"credits" > "stock value Southbound Shipyards" * 1000
+					goto "Buy 1000 Southbound Shipyards"
+				`	Buy 100 stocks for &[stock value Southbound Shipyards]00 credits.`
+					to display
+						"credits" > "stock value Southbound Shipyards" * 100
+					goto "Buy 100 Southbound Shipyards"
+				`	Buy 10 stocks for &[stock value Southbound Shipyards]0 credits.`
+					to display
+						"credits" > "stock value Southbound Shipyards" * 10
+					goto "Buy 10 Southbound Shipyards"
+				`	Buy 1 stock for &[stock value Southbound Shipyards] credits.`
+					to display
+						"credits" > "stock value Southbound Shipyards" * 1
+					goto "Buy 1 Southbound Shipyards"
+				`	Sell 1000 stocks for &[stock value Southbound Shipyards]000 credits.`
+					to display
+						"stock amount Southbound Shipyards" >= 1000
+					goto "Sell 1000 Southbound Shipyards"
+				`	Sell 100 stocks for &[stock value Southbound Shipyards]00 credits.`
+					to display
+						"stock amount Southbound Shipyards" >= 100
+					goto "Sell 100 Southbound Shipyards"
+				`	Sell 10 stocks for &[stock value Southbound Shipyards]0 credits.`
+					to display
+						"stock amount Southbound Shipyards" >= 10
+					goto "Sell 10 Southbound Shipyards"
+				`	Sell 1 stock for &[stock value Southbound Shipyards] credits.`
+					to display
+						"stock amount Southbound Shipyards" >= 1
+					goto "Sell 1 Southbound Shipyards"
+				`	[back]`
+					goto "stockoverview"
+			label "Lionheart Shipyards"
+			action
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Lionheart Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Lionheart Shipyards] stocks at &[stock value Lionheart Shipyards] credits each..`
+			choice
+				`	Buy 1000 stocks for &[stock value Lionheart Shipyards]000 credits.`
+					to display
+						"credits" > "stock value Lionheart Shipyards" * 1000
+					goto "Buy 1000 Lionheart Shipyards"
+				`	Buy 100 stocks for &[stock value Lionheart Shipyards]00 credits.`
+					to display
+						"credits" > "stock value Lionheart Shipyards" * 100
+					goto "Buy 100 Lionheart Shipyards"
+				`	Buy 10 stocks for &[stock value Lionheart Shipyards]0 credits.`
+					to display
+						"credits" > "stock value Lionheart Shipyards" * 10
+					goto "Buy 10 Lionheart Shipyards"
+				`	Buy 1 stock for &[stock value Lionheart Shipyards] credits.`
+					to display
+						"credits" > "stock value Lionheart Shipyards" * 1
+					goto "Buy 1 Lionheart Shipyards"
+				`	Sell 1000 stocks for &[stock value Lionheart Shipyards]000 credits.`
+					to display
+						"stock amount Lionheart Shipyards" >= 1000
+					goto "Sell 1000 Lionheart Shipyards"
+				`	Sell 100 stocks for &[stock value Lionheart Shipyards]00 credits.`
+					to display
+						"stock amount Lionheart Shipyards" >= 100
+					goto "Sell 100 Lionheart Shipyards"
+				`	Sell 10 stocks for &[stock value Lionheart Shipyards]0 credits.`
+					to display
+						"stock amount Lionheart Shipyards" >= 10
+					goto "Sell 10 Lionheart Shipyards"
+				`	Sell 1 stock for &[stock value Lionheart Shipyards] credits.`
+					to display
+						"stock amount Lionheart Shipyards" >= 1
+					goto "Sell 1 Lionheart Shipyards"
+				`	[back]`
+					goto "stockoverview"
+			label "Megaparsec Shipyards"
+			action
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Megaparsec Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Megaparsec Shipyards] stocks at &[stock value Megaparsec Shipyards] credits each..`
+			choice
+				`	Buy 1000 stocks for &[stock value Megaparsec Shipyards]000 credits.`
+					to display
+						"credits" > "stock value Megaparsec Shipyards" * 1000
+					goto "Buy 1000 Megaparsec Shipyards"
+				`	Buy 100 stocks for &[stock value Megaparsec Shipyards]00 credits.`
+					to display
+						"credits" > "stock value Megaparsec Shipyards" * 100
+					goto "Buy 100 Megaparsec Shipyards"
+				`	Buy 10 stocks for &[stock value Megaparsec Shipyards]0 credits.`
+					to display
+						"credits" > "stock value Megaparsec Shipyards" * 10
+					goto "Buy 10 Megaparsec Shipyards"
+				`	Buy 1 stock for &[stock value Megaparsec Shipyards] credits.`
+					to display
+						"credits" > "stock value Megaparsec Shipyards" * 1
+					goto "Buy 1 Megaparsec Shipyards"
+				`	Sell 1000 stocks for &[stock value Megaparsec Shipyards]000 credits.`
+					to display
+						"stock amount Megaparsec Shipyards" >= 1000
+					goto "Sell 1000 Megaparsec Shipyards"
+				`	Sell 100 stocks for &[stock value Megaparsec Shipyards]00 credits.`
+					to display
+						"stock amount Megaparsec Shipyards" >= 100
+					goto "Sell 100 Megaparsec Shipyards"
+				`	Sell 10 stocks for &[stock value Megaparsec Shipyards]0 credits.`
+					to display
+						"stock amount Megaparsec Shipyards" >= 10
+					goto "Sell 10 Megaparsec Shipyards"
+				`	Sell 1 stock for &[stock value Megaparsec Shipyards] credits.`
+					to display
+						"stock amount Megaparsec Shipyards" >= 1
+					goto "Sell 1 Megaparsec Shipyards"
+				`	[back]`
+					goto "stockoverview"
+			label "Syndicate Shipyards"
+			action
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Syndicate Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Syndicate Shipyards] stocks at &[stock value Syndicate Shipyards] credits each..`
+			choice
+				`	Buy 1000 stocks for &[stock value Syndicate Shipyards]000 credits.`
+					to display
+						"credits" > "stock value Syndicate Shipyards" * 1000
+					goto "Buy 1000 Syndicate Shipyards"
+				`	Buy 100 stocks for &[stock value Syndicate Shipyards]00 credits.`
+					to display
+						"credits" > "stock value Syndicate Shipyards" * 100
+					goto "Buy 100 Syndicate Shipyards"
+				`	Buy 10 stocks for &[stock value Syndicate Shipyards]0 credits.`
+					to display
+						"credits" > "stock value Syndicate Shipyards" * 10
+					goto "Buy 10 Syndicate Shipyards"
+				`	Buy 1 stock for &[stock value Syndicate Shipyards] credits.`
+					to display
+						"credits" > "stock value Syndicate Shipyards" * 1
+					goto "Buy 1 Syndicate Shipyards"
+				`	Sell 1000 stocks for &[stock value Syndicate Shipyards]000 credits.`
+					to display
+						"stock amount Syndicate Shipyards" >= 1000
+					goto "Sell 1000 Syndicate Shipyards"
+				`	Sell 100 stocks for &[stock value Syndicate Shipyards]00 credits.`
+					to display
+						"stock amount Syndicate Shipyards" >= 100
+					goto "Sell 100 Syndicate Shipyards"
+				`	Sell 10 stocks for &[stock value Syndicate Shipyards]0 credits.`
+					to display
+						"stock amount Syndicate Shipyards" >= 10
+					goto "Sell 10 Syndicate Shipyards"
+				`	Sell 1 stock for &[stock value Syndicate Shipyards] credits.`
+					to display
+						"stock amount Syndicate Shipyards" >= 1
+					goto "Sell 1 Syndicate Shipyards"
+				`	[back]`
+					goto "stockoverview"
+			label "Kraz Cybernetics"
+			action
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Kraz Cybernetics`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Kraz Cybernetics] stocks at &[stock value Kraz Cybernetics] credits each..`
+			choice
+				`	Buy 1000 stocks for &[stock value Kraz Cybernetics]000 credits.`
+					to display
+						"credits" > "stock value Kraz Cybernetics" * 1000
+					goto "Buy 1000 Kraz Cybernetics"
+				`	Buy 100 stocks for &[stock value Kraz Cybernetics]00 credits.`
+					to display
+						"credits" > "stock value Kraz Cybernetics" * 100
+					goto "Buy 100 Kraz Cybernetics"
+				`	Buy 10 stocks for &[stock value Kraz Cybernetics]0 credits.`
+					to display
+						"credits" > "stock value Kraz Cybernetics" * 10
+					goto "Buy 10 Kraz Cybernetics"
+				`	Buy 1 stock for &[stock value Kraz Cybernetics] credits.`
+					to display
+						"credits" > "stock value Kraz Cybernetics" * 1
+					goto "Buy 1 Kraz Cybernetics"
+				`	Sell 1000 stocks for &[stock value Kraz Cybernetics]000 credits.`
+					to display
+						"stock amount Kraz Cybernetics" >= 1000
+					goto "Sell 1000 Kraz Cybernetics"
+				`	Sell 100 stocks for &[stock value Kraz Cybernetics]00 credits.`
+					to display
+						"stock amount Kraz Cybernetics" >= 100
+					goto "Sell 100 Kraz Cybernetics"
+				`	Sell 10 stocks for &[stock value Kraz Cybernetics]0 credits.`
+					to display
+						"stock amount Kraz Cybernetics" >= 10
+					goto "Sell 10 Kraz Cybernetics"
+				`	Sell 1 stock for &[stock value Kraz Cybernetics] credits.`
+					to display
+						"stock amount Kraz Cybernetics" >= 1
+					goto "Sell 1 Kraz Cybernetics"
+				`	[back]`
+					goto "stockoverview"
+			label "Deep Sky"
+			action
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Deep Sky`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Deep Sky] stocks at &[stock value Deep Sky] credits each..`
+			choice
+				`	Buy 1000 stocks for &[stock value Deep Sky]000 credits.`
+					to display
+						"credits" > "stock value Deep Sky" * 1000
+					goto "Buy 1000 Deep Sky"
+				`	Buy 100 stocks for &[stock value Deep Sky]00 credits.`
+					to display
+						"credits" > "stock value Deep Sky" * 100
+					goto "Buy 100 Deep Sky"
+				`	Buy 10 stocks for &[stock value Deep Sky]0 credits.`
+					to display
+						"credits" > "stock value Deep Sky" * 10
+					goto "Buy 10 Deep Sky"
+				`	Buy 1 stock for &[stock value Deep Sky] credits.`
+					to display
+						"credits" > "stock value Deep Sky" * 1
+					goto "Buy 1 Deep Sky"
+				`	Sell 1000 stocks for &[stock value Deep Sky]000 credits.`
+					to display
+						"stock amount Deep Sky" >= 1000
+					goto "Sell 1000 Deep Sky"
+				`	Sell 100 stocks for &[stock value Deep Sky]00 credits.`
+					to display
+						"stock amount Deep Sky" >= 100
+					goto "Sell 100 Deep Sky"
+				`	Sell 10 stocks for &[stock value Deep Sky]0 credits.`
+					to display
+						"stock amount Deep Sky" >= 10
+					goto "Sell 10 Deep Sky"
+				`	Sell 1 stock for &[stock value Deep Sky] credits.`
+					to display
+						"stock amount Deep Sky" >= 1
+					goto "Sell 1 Deep Sky"
+				`	[back]`
+					goto "stockoverview"
+			label "Lovelace Labs"
+			action
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Lovelace Labs`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Lovelace Labs] stocks at &[stock value Lovelace Labs] credits each..`
+			choice
+				`	Buy 1000 stocks for &[stock value Lovelace Labs]000 credits.`
+					to display
+						"credits" > "stock value Lovelace Labs" * 1000
+					goto "Buy 1000 Lovelace Labs"
+				`	Buy 100 stocks for &[stock value Lovelace Labs]00 credits.`
+					to display
+						"credits" > "stock value Lovelace Labs" * 100
+					goto "Buy 100 Lovelace Labs"
+				`	Buy 10 stocks for &[stock value Lovelace Labs]0 credits.`
+					to display
+						"credits" > "stock value Lovelace Labs" * 10
+					goto "Buy 10 Lovelace Labs"
+				`	Buy 1 stock for &[stock value Lovelace Labs] credits.`
+					to display
+						"credits" > "stock value Lovelace Labs" * 1
+					goto "Buy 1 Lovelace Labs"
+				`	Sell 1000 stocks for &[stock value Lovelace Labs]000 credits.`
+					to display
+						"stock amount Lovelace Labs" >= 1000
+					goto "Sell 1000 Lovelace Labs"
+				`	Sell 100 stocks for &[stock value Lovelace Labs]00 credits.`
+					to display
+						"stock amount Lovelace Labs" >= 100
+					goto "Sell 100 Lovelace Labs"
+				`	Sell 10 stocks for &[stock value Lovelace Labs]0 credits.`
+					to display
+						"stock amount Lovelace Labs" >= 10
+					goto "Sell 10 Lovelace Labs"
+				`	Sell 1 stock for &[stock value Lovelace Labs] credits.`
+					to display
+						"stock amount Lovelace Labs" >= 1
+					goto "Sell 1 Lovelace Labs"
+				`	[back]`
+					goto "stockoverview"
+			label "Delta V"
+			action
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Delta V`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Delta V] stocks at &[stock value Delta V] credits each..`
+			choice
+				`	Buy 1000 stocks for &[stock value Delta V]000 credits.`
+					to display
+						"credits" > "stock value Delta V" * 1000
+					goto "Buy 1000 Delta V"
+				`	Buy 100 stocks for &[stock value Delta V]00 credits.`
+					to display
+						"credits" > "stock value Delta V" * 100
+					goto "Buy 100 Delta V"
+				`	Buy 10 stocks for &[stock value Delta V]0 credits.`
+					to display
+						"credits" > "stock value Delta V" * 10
+					goto "Buy 10 Delta V"
+				`	Buy 1 stock for &[stock value Delta V] credits.`
+					to display
+						"credits" > "stock value Delta V" * 1
+					goto "Buy 1 Delta V"
+				`	Sell 1000 stocks for &[stock value Delta V]000 credits.`
+					to display
+						"stock amount Delta V" >= 1000
+					goto "Sell 1000 Delta V"
+				`	Sell 100 stocks for &[stock value Delta V]00 credits.`
+					to display
+						"stock amount Delta V" >= 100
+					goto "Sell 100 Delta V"
+				`	Sell 10 stocks for &[stock value Delta V]0 credits.`
+					to display
+						"stock amount Delta V" >= 10
+					goto "Sell 10 Delta V"
+				`	Sell 1 stock for &[stock value Delta V] credits.`
+					to display
+						"stock amount Delta V" >= 1
+					goto "Sell 1 Delta V"
+				`	[back]`
+					goto "stockoverview"
+			label "Betelgeuse Shipyards"
+			action
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Betelgeuse Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Betelgeuse Shipyards] stocks at &[stock value Betelgeuse Shipyards] credits each..`
+			choice
+				`	Buy 1000 stocks for &[stock value Betelgeuse Shipyards]000 credits.`
+					to display
+						"credits" > "stock value Betelgeuse Shipyards" * 1000
+					goto "Buy 1000 Betelgeuse Shipyards"
+				`	Buy 100 stocks for &[stock value Betelgeuse Shipyards]00 credits.`
+					to display
+						"credits" > "stock value Betelgeuse Shipyards" * 100
+					goto "Buy 100 Betelgeuse Shipyards"
+				`	Buy 10 stocks for &[stock value Betelgeuse Shipyards]0 credits.`
+					to display
+						"credits" > "stock value Betelgeuse Shipyards" * 10
+					goto "Buy 10 Betelgeuse Shipyards"
+				`	Buy 1 stock for &[stock value Betelgeuse Shipyards] credits.`
+					to display
+						"credits" > "stock value Betelgeuse Shipyards" * 1
+					goto "Buy 1 Betelgeuse Shipyards"
+				`	Sell 1000 stocks for &[stock value Betelgeuse Shipyards]000 credits.`
+					to display
+						"stock amount Betelgeuse Shipyards" >= 1000
+					goto "Sell 1000 Betelgeuse Shipyards"
+				`	Sell 100 stocks for &[stock value Betelgeuse Shipyards]00 credits.`
+					to display
+						"stock amount Betelgeuse Shipyards" >= 100
+					goto "Sell 100 Betelgeuse Shipyards"
+				`	Sell 10 stocks for &[stock value Betelgeuse Shipyards]0 credits.`
+					to display
+						"stock amount Betelgeuse Shipyards" >= 10
+					goto "Sell 10 Betelgeuse Shipyards"
+				`	Sell 1 stock for &[stock value Betelgeuse Shipyards] credits.`
+					to display
+						"stock amount Betelgeuse Shipyards" >= 1
+					goto "Sell 1 Betelgeuse Shipyards"
+				`	[back]`
+					goto "stockoverview"
+			label "Tarazed Corporation"
+			action
+				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Tarazed Corporation`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Tarazed Corporation] stocks at &[stock value Tarazed Corporation] credits each..`
+			choice
+				`	Buy 1000 stocks for &[stock value Tarazed Corporation]000 credits.`
+					to display
+						"credits" > "stock value Tarazed Corporation" * 1000
+					goto "Buy 1000 Tarazed Corporation"
+				`	Buy 100 stocks for &[stock value Tarazed Corporation]00 credits.`
+					to display
+						"credits" > "stock value Tarazed Corporation" * 100
+					goto "Buy 100 Tarazed Corporation"
+				`	Buy 10 stocks for &[stock value Tarazed Corporation]0 credits.`
+					to display
+						"credits" > "stock value Tarazed Corporation" * 10
+					goto "Buy 10 Tarazed Corporation"
+				`	Buy 1 stock for &[stock value Tarazed Corporation] credits.`
+					to display
+						"credits" > "stock value Tarazed Corporation" * 1
+					goto "Buy 1 Tarazed Corporation"
+				`	Sell 1000 stocks for &[stock value Tarazed Corporation]000 credits.`
+					to display
+						"stock amount Tarazed Corporation" >= 1000
+					goto "Sell 1000 Tarazed Corporation"
+				`	Sell 100 stocks for &[stock value Tarazed Corporation]00 credits.`
+					to display
+						"stock amount Tarazed Corporation" >= 100
+					goto "Sell 100 Tarazed Corporation"
+				`	Sell 10 stocks for &[stock value Tarazed Corporation]0 credits.`
+					to display
+						"stock amount Tarazed Corporation" >= 10
+					goto "Sell 10 Tarazed Corporation"
+				`	Sell 1 stock for &[stock value Tarazed Corporation] credits.`
+					to display
+						"stock amount Tarazed Corporation" >= 1
+					goto "Sell 1 Tarazed Corporation"
+				`	[back]`
+					goto "stockoverview"
+			label "Buy 1000 Southbound Shipyards"
+			action
+				"price" = "stock value Southbound Shipyards" * 1000
+				"stock amount Southbound Shipyards" += 1000
+			`Bought 1000 Southbound Shipyards`
+				goto "buy stocks Southbound Shipyards"
+			label "Buy 100 Southbound Shipyards"
+			action
+				"price" = "stock value Southbound Shipyards" * 100
+				"stock amount Southbound Shipyards" += 100
+			`Bought 100 Southbound Shipyards`
+				goto "buy stocks Southbound Shipyards"
+			label "Buy 10 Southbound Shipyards"
+			action
+				"price" = "stock value Southbound Shipyards" * 10
+				"stock amount Southbound Shipyards" += 10
+			`Bought 10 Southbound Shipyards`
+				goto "buy stocks Southbound Shipyards"
+			label "Buy 1 Southbound Shipyards"
+			action
+				"price" = "stock value Southbound Shipyards" * 1
+				"stock amount Southbound Shipyards" += 1
+			`Bought 1 Southbound Shipyards`
+				goto "buy stocks Southbound Shipyards"
+			label "Sell 1000 Southbound Shipyards"
+			action
+				"price" = "stock value Southbound Shipyards" * 1000
+				"stock amount Southbound Shipyards" -= 1000
+			`Sold 1000 Southbound Shipyards`
+				goto "sell stocks Southbound Shipyards"
+			label "Sell 100 Southbound Shipyards"
+			action
+				"price" = "stock value Southbound Shipyards" * 100
+				"stock amount Southbound Shipyards" -= 100
+			`Sold 100 Southbound Shipyards`
+				goto "sell stocks Southbound Shipyards"
+			label "Sell 10 Southbound Shipyards"
+			action
+				"price" = "stock value Southbound Shipyards" * 10
+				"stock amount Southbound Shipyards" -= 10
+			`Sold 10 Southbound Shipyards`
+				goto "sell stocks Southbound Shipyards"
+			label "Sell 1 Southbound Shipyards"
+			action
+				"price" = "stock value Southbound Shipyards"
+				"stock amount Southbound Shipyards" -= 1
+			`Sold 1 Southbound Shipyards`
+				goto "sell stocks Southbound Shipyards"
+			label "Buy 1000 Lionheart Shipyards"
+			action
+				"price" = "stock value Lionheart Shipyards" * 1000
+				"stock amount Lionheart Shipyards" += 1000
+			`Bought 1000 Lionheart Shipyards`
+				goto "buy stocks Lionheart Shipyards"
+			label "Buy 100 Lionheart Shipyards"
+			action
+				"price" = "stock value Lionheart Shipyards" * 100
+				"stock amount Lionheart Shipyards" += 100
+			`Bought 100 Lionheart Shipyards`
+				goto "buy stocks Lionheart Shipyards"
+			label "Buy 10 Lionheart Shipyards"
+			action
+				"price" = "stock value Lionheart Shipyards" * 10
+				"stock amount Lionheart Shipyards" += 10
+			`Bought 10 Lionheart Shipyards`
+				goto "buy stocks Lionheart Shipyards"
+			label "Buy 1 Lionheart Shipyards"
+			action
+				"price" = "stock value Lionheart Shipyards" * 1
+				"stock amount Lionheart Shipyards" += 1
+			`Bought 1 Lionheart Shipyards`
+				goto "buy stocks Lionheart Shipyards"
+			label "Sell 1000 Lionheart Shipyards"
+			action
+				"price" = "stock value Lionheart Shipyards" * 1000
+				"stock amount Lionheart Shipyards" -= 1000
+			`Sold 1000 Lionheart Shipyards`
+				goto "sell stocks Lionheart Shipyards"
+			label "Sell 100 Lionheart Shipyards"
+			action
+				"price" = "stock value Lionheart Shipyards" * 100
+				"stock amount Lionheart Shipyards" -= 100
+			`Sold 100 Lionheart Shipyards`
+				goto "sell stocks Lionheart Shipyards"
+			label "Sell 10 Lionheart Shipyards"
+			action
+				"price" = "stock value Lionheart Shipyards" * 10
+				"stock amount Lionheart Shipyards" -= 10
+			`Sold 10 Lionheart Shipyards`
+				goto "sell stocks Lionheart Shipyards"
+			label "Sell 1 Lionheart Shipyards"
+			action
+				"price" = "stock value Lionheart Shipyards"
+				"stock amount Lionheart Shipyards" -= 1
+			`Sold 1 Lionheart Shipyards`
+				goto "sell stocks Lionheart Shipyards"
+			label "Buy 1000 Megaparsec Shipyards"
+			action
+				"price" = "stock value Megaparsec Shipyards" * 1000
+				"stock amount Megaparsec Shipyards" += 1000
+			`Bought 1000 Megaparsec Shipyards`
+				goto "buy stocks Megaparsec Shipyards"
+			label "Buy 100 Megaparsec Shipyards"
+			action
+				"price" = "stock value Megaparsec Shipyards" * 100
+				"stock amount Megaparsec Shipyards" += 100
+			`Bought 100 Megaparsec Shipyards`
+				goto "buy stocks Megaparsec Shipyards"
+			label "Buy 10 Megaparsec Shipyards"
+			action
+				"price" = "stock value Megaparsec Shipyards" * 10
+				"stock amount Megaparsec Shipyards" += 10
+			`Bought 10 Megaparsec Shipyards`
+				goto "buy stocks Megaparsec Shipyards"
+			label "Buy 1 Megaparsec Shipyards"
+			action
+				"price" = "stock value Megaparsec Shipyards" * 1
+				"stock amount Megaparsec Shipyards" += 1
+			`Bought 1 Megaparsec Shipyards`
+				goto "buy stocks Megaparsec Shipyards"
+			label "Sell 1000 Megaparsec Shipyards"
+			action
+				"price" = "stock value Megaparsec Shipyards" * 1000
+				"stock amount Megaparsec Shipyards" -= 1000
+			`Sold 1000 Megaparsec Shipyards`
+				goto "sell stocks Megaparsec Shipyards"
+			label "Sell 100 Megaparsec Shipyards"
+			action
+				"price" = "stock value Megaparsec Shipyards" * 100
+				"stock amount Megaparsec Shipyards" -= 100
+			`Sold 100 Megaparsec Shipyards`
+				goto "sell stocks Megaparsec Shipyards"
+			label "Sell 10 Megaparsec Shipyards"
+			action
+				"price" = "stock value Megaparsec Shipyards" * 10
+				"stock amount Megaparsec Shipyards" -= 10
+			`Sold 10 Megaparsec Shipyards`
+				goto "sell stocks Megaparsec Shipyards"
+			label "Sell 1 Megaparsec Shipyards"
+			action
+				"price" = "stock value Megaparsec Shipyards"
+				"stock amount Megaparsec Shipyards" -= 1
+			`Sold 1 Megaparsec Shipyards`
+				goto "sell stocks Megaparsec Shipyards"
+			label "Buy 1000 Syndicate Shipyards"
+			action
+				"price" = "stock value Syndicate Shipyards" * 1000
+				"stock amount Syndicate Shipyards" += 1000
+			`Bought 1000 Syndicate Shipyards`
+				goto "buy stocks Syndicate Shipyards"
+			label "Buy 100 Syndicate Shipyards"
+			action
+				"price" = "stock value Syndicate Shipyards" * 100
+				"stock amount Syndicate Shipyards" += 100
+			`Bought 100 Syndicate Shipyards`
+				goto "buy stocks Syndicate Shipyards"
+			label "Buy 10 Syndicate Shipyards"
+			action
+				"price" = "stock value Syndicate Shipyards" * 10
+				"stock amount Syndicate Shipyards" += 10
+			`Bought 10 Syndicate Shipyards`
+				goto "buy stocks Syndicate Shipyards"
+			label "Buy 1 Syndicate Shipyards"
+			action
+				"price" = "stock value Syndicate Shipyards" * 1
+				"stock amount Syndicate Shipyards" += 1
+			`Bought 1 Syndicate Shipyards`
+				goto "buy stocks Syndicate Shipyards"
+			label "Sell 1000 Syndicate Shipyards"
+			action
+				"price" = "stock value Syndicate Shipyards" * 1000
+				"stock amount Syndicate Shipyards" -= 1000
+			`Sold 1000 Syndicate Shipyards`
+				goto "sell stocks Syndicate Shipyards"
+			label "Sell 100 Syndicate Shipyards"
+			action
+				"price" = "stock value Syndicate Shipyards" * 100
+				"stock amount Syndicate Shipyards" -= 100
+			`Sold 100 Syndicate Shipyards`
+				goto "sell stocks Syndicate Shipyards"
+			label "Sell 10 Syndicate Shipyards"
+			action
+				"price" = "stock value Syndicate Shipyards" * 10
+				"stock amount Syndicate Shipyards" -= 10
+			`Sold 10 Syndicate Shipyards`
+				goto "sell stocks Syndicate Shipyards"
+			label "Sell 1 Syndicate Shipyards"
+			action
+				"price" = "stock value Syndicate Shipyards"
+				"stock amount Syndicate Shipyards" -= 1
+			`Sold 1 Syndicate Shipyards`
+				goto "sell stocks Syndicate Shipyards"
+			label "Buy 1000 Kraz Cybernetics"
+			action
+				"price" = "stock value Kraz Cybernetics" * 1000
+				"stock amount Kraz Cybernetics" += 1000
+			`Bought 1000 Kraz Cybernetics`
+				goto "buy stocks Kraz Cybernetics"
+			label "Buy 100 Kraz Cybernetics"
+			action
+				"price" = "stock value Kraz Cybernetics" * 100
+				"stock amount Kraz Cybernetics" += 100
+			`Bought 100 Kraz Cybernetics`
+				goto "buy stocks Kraz Cybernetics"
+			label "Buy 10 Kraz Cybernetics"
+			action
+				"price" = "stock value Kraz Cybernetics" * 10
+				"stock amount Kraz Cybernetics" += 10
+			`Bought 10 Kraz Cybernetics`
+				goto "buy stocks Kraz Cybernetics"
+			label "Buy 1 Kraz Cybernetics"
+			action
+				"price" = "stock value Kraz Cybernetics" * 1
+				"stock amount Kraz Cybernetics" += 1
+			`Bought 1 Kraz Cybernetics`
+				goto "buy stocks Kraz Cybernetics"
+			label "Sell 1000 Kraz Cybernetics"
+			action
+				"price" = "stock value Kraz Cybernetics" * 1000
+				"stock amount Kraz Cybernetics" -= 1000
+			`Sold 1000 Kraz Cybernetics`
+				goto "sell stocks Kraz Cybernetics"
+			label "Sell 100 Kraz Cybernetics"
+			action
+				"price" = "stock value Kraz Cybernetics" * 100
+				"stock amount Kraz Cybernetics" -= 100
+			`Sold 100 Kraz Cybernetics`
+				goto "sell stocks Kraz Cybernetics"
+			label "Sell 10 Kraz Cybernetics"
+			action
+				"price" = "stock value Kraz Cybernetics" * 10
+				"stock amount Kraz Cybernetics" -= 10
+			`Sold 10 Kraz Cybernetics`
+				goto "sell stocks Kraz Cybernetics"
+			label "Sell 1 Kraz Cybernetics"
+			action
+				"price" = "stock value Kraz Cybernetics"
+				"stock amount Kraz Cybernetics" -= 1
+			`Sold 1 Kraz Cybernetics`
+				goto "sell stocks Kraz Cybernetics"
+			label "Buy 1000 Deep Sky"
+			action
+				"price" = "stock value Deep Sky" * 1000
+				"stock amount Deep Sky" += 1000
+			`Bought 1000 Deep Sky`
+				goto "buy stocks Deep Sky"
+			label "Buy 100 Deep Sky"
+			action
+				"price" = "stock value Deep Sky" * 100
+				"stock amount Deep Sky" += 100
+			`Bought 100 Deep Sky`
+				goto "buy stocks Deep Sky"
+			label "Buy 10 Deep Sky"
+			action
+				"price" = "stock value Deep Sky" * 10
+				"stock amount Deep Sky" += 10
+			`Bought 10 Deep Sky`
+				goto "buy stocks Deep Sky"
+			label "Buy 1 Deep Sky"
+			action
+				"price" = "stock value Deep Sky" * 1
+				"stock amount Deep Sky" += 1
+			`Bought 1 Deep Sky`
+				goto "buy stocks Deep Sky"
+			label "Sell 1000 Deep Sky"
+			action
+				"price" = "stock value Deep Sky" * 1000
+				"stock amount Deep Sky" -= 1000
+			`Sold 1000 Deep Sky`
+				goto "sell stocks Deep Sky"
+			label "Sell 100 Deep Sky"
+			action
+				"price" = "stock value Deep Sky" * 100
+				"stock amount Deep Sky" -= 100
+			`Sold 100 Deep Sky`
+				goto "sell stocks Deep Sky"
+			label "Sell 10 Deep Sky"
+			action
+				"price" = "stock value Deep Sky" * 10
+				"stock amount Deep Sky" -= 10
+			`Sold 10 Deep Sky`
+				goto "sell stocks Deep Sky"
+			label "Sell 1 Deep Sky"
+			action
+				"price" = "stock value Deep Sky"
+				"stock amount Deep Sky" -= 1
+			`Sold 1 Deep Sky`
+				goto "sell stocks Deep Sky"
+			label "Buy 1000 Lovelace Labs"
+			action
+				"price" = "stock value Lovelace Labs" * 1000
+				"stock amount Lovelace Labs" += 1000
+			`Bought 1000 Lovelace Labs`
+				goto "buy stocks Lovelace Labs"
+			label "Buy 100 Lovelace Labs"
+			action
+				"price" = "stock value Lovelace Labs" * 100
+				"stock amount Lovelace Labs" += 100
+			`Bought 100 Lovelace Labs`
+				goto "buy stocks Lovelace Labs"
+			label "Buy 10 Lovelace Labs"
+			action
+				"price" = "stock value Lovelace Labs" * 10
+				"stock amount Lovelace Labs" += 10
+			`Bought 10 Lovelace Labs`
+				goto "buy stocks Lovelace Labs"
+			label "Buy 1 Lovelace Labs"
+			action
+				"price" = "stock value Lovelace Labs" * 1
+				"stock amount Lovelace Labs" += 1
+			`Bought 1 Lovelace Labs`
+				goto "buy stocks Lovelace Labs"
+			label "Sell 1000 Lovelace Labs"
+			action
+				"price" = "stock value Lovelace Labs" * 1000
+				"stock amount Lovelace Labs" -= 1000
+			`Sold 1000 Lovelace Labs`
+				goto "sell stocks Lovelace Labs"
+			label "Sell 100 Lovelace Labs"
+			action
+				"price" = "stock value Lovelace Labs" * 100
+				"stock amount Lovelace Labs" -= 100
+			`Sold 100 Lovelace Labs`
+				goto "sell stocks Lovelace Labs"
+			label "Sell 10 Lovelace Labs"
+			action
+				"price" = "stock value Lovelace Labs" * 10
+				"stock amount Lovelace Labs" -= 10
+			`Sold 10 Lovelace Labs`
+				goto "sell stocks Lovelace Labs"
+			label "Sell 1 Lovelace Labs"
+			action
+				"price" = "stock value Lovelace Labs"
+				"stock amount Lovelace Labs" -= 1
+			`Sold 1 Lovelace Labs`
+				goto "sell stocks Lovelace Labs"
+			label "Buy 1000 Delta V"
+			action
+				"price" = "stock value Delta V" * 1000
+				"stock amount Delta V" += 1000
+			`Bought 1000 Delta V`
+				goto "buy stocks Delta V"
+			label "Buy 100 Delta V"
+			action
+				"price" = "stock value Delta V" * 100
+				"stock amount Delta V" += 100
+			`Bought 100 Delta V`
+				goto "buy stocks Delta V"
+			label "Buy 10 Delta V"
+			action
+				"price" = "stock value Delta V" * 10
+				"stock amount Delta V" += 10
+			`Bought 10 Delta V`
+				goto "buy stocks Delta V"
+			label "Buy 1 Delta V"
+			action
+				"price" = "stock value Delta V" * 1
+				"stock amount Delta V" += 1
+			`Bought 1 Delta V`
+				goto "buy stocks Delta V"
+			label "Sell 1000 Delta V"
+			action
+				"price" = "stock value Delta V" * 1000
+				"stock amount Delta V" -= 1000
+			`Sold 1000 Delta V`
+				goto "sell stocks Delta V"
+			label "Sell 100 Delta V"
+			action
+				"price" = "stock value Delta V" * 100
+				"stock amount Delta V" -= 100
+			`Sold 100 Delta V`
+				goto "sell stocks Delta V"
+			label "Sell 10 Delta V"
+			action
+				"price" = "stock value Delta V" * 10
+				"stock amount Delta V" -= 10
+			`Sold 10 Delta V`
+				goto "sell stocks Delta V"
+			label "Sell 1 Delta V"
+			action
+				"price" = "stock value Delta V"
+				"stock amount Delta V" -= 1
+			`Sold 1 Delta V`
+				goto "sell stocks Delta V"
+			label "Buy 1000 Betelgeuse Shipyards"
+			action
+				"price" = "stock value Betelgeuse Shipyards" * 1000
+				"stock amount Betelgeuse Shipyards" += 1000
+			`Bought 1000 Betelgeuse Shipyards`
+				goto "buy stocks Betelgeuse Shipyards"
+			label "Buy 100 Betelgeuse Shipyards"
+			action
+				"price" = "stock value Betelgeuse Shipyards" * 100
+				"stock amount Betelgeuse Shipyards" += 100
+			`Bought 100 Betelgeuse Shipyards`
+				goto "buy stocks Betelgeuse Shipyards"
+			label "Buy 10 Betelgeuse Shipyards"
+			action
+				"price" = "stock value Betelgeuse Shipyards" * 10
+				"stock amount Betelgeuse Shipyards" += 10
+			`Bought 10 Betelgeuse Shipyards`
+				goto "buy stocks Betelgeuse Shipyards"
+			label "Buy 1 Betelgeuse Shipyards"
+			action
+				"price" = "stock value Betelgeuse Shipyards" * 1
+				"stock amount Betelgeuse Shipyards" += 1
+			`Bought 1 Betelgeuse Shipyards`
+				goto "buy stocks Betelgeuse Shipyards"
+			label "Sell 1000 Betelgeuse Shipyards"
+			action
+				"price" = "stock value Betelgeuse Shipyards" * 1000
+				"stock amount Betelgeuse Shipyards" -= 1000
+			`Sold 1000 Betelgeuse Shipyards`
+				goto "sell stocks Betelgeuse Shipyards"
+			label "Sell 100 Betelgeuse Shipyards"
+			action
+				"price" = "stock value Betelgeuse Shipyards" * 100
+				"stock amount Betelgeuse Shipyards" -= 100
+			`Sold 100 Betelgeuse Shipyards`
+				goto "sell stocks Betelgeuse Shipyards"
+			label "Sell 10 Betelgeuse Shipyards"
+			action
+				"price" = "stock value Betelgeuse Shipyards" * 10
+				"stock amount Betelgeuse Shipyards" -= 10
+			`Sold 10 Betelgeuse Shipyards`
+				goto "sell stocks Betelgeuse Shipyards"
+			label "Sell 1 Betelgeuse Shipyards"
+			action
+				"price" = "stock value Betelgeuse Shipyards"
+				"stock amount Betelgeuse Shipyards" -= 1
+			`Sold 1 Betelgeuse Shipyards`
+				goto "sell stocks Betelgeuse Shipyards"
+			label "Buy 1000 Tarazed Corporation"
+			action
+				"price" = "stock value Tarazed Corporation" * 1000
+				"stock amount Tarazed Corporation" += 1000
+			`Bought 1000 Tarazed Corporation`
+				goto "buy stocks Tarazed Corporation"
+			label "Buy 100 Tarazed Corporation"
+			action
+				"price" = "stock value Tarazed Corporation" * 100
+				"stock amount Tarazed Corporation" += 100
+			`Bought 100 Tarazed Corporation`
+				goto "buy stocks Tarazed Corporation"
+			label "Buy 10 Tarazed Corporation"
+			action
+				"price" = "stock value Tarazed Corporation" * 10
+				"stock amount Tarazed Corporation" += 10
+			`Bought 10 Tarazed Corporation`
+				goto "buy stocks Tarazed Corporation"
+			label "Buy 1 Tarazed Corporation"
+			action
+				"price" = "stock value Tarazed Corporation" * 1
+				"stock amount Tarazed Corporation" += 1
+			`Bought 1 Tarazed Corporation`
+				goto "buy stocks Tarazed Corporation"
+			label "Sell 1000 Tarazed Corporation"
+			action
+				"price" = "stock value Tarazed Corporation" * 1000
+				"stock amount Tarazed Corporation" -= 1000
+			`Sold 1000 Tarazed Corporation`
+				goto "sell stocks Tarazed Corporation"
+			label "Sell 100 Tarazed Corporation"
+			action
+				"price" = "stock value Tarazed Corporation" * 100
+				"stock amount Tarazed Corporation" -= 100
+			`Sold 100 Tarazed Corporation`
+				goto "sell stocks Tarazed Corporation"
+			label "Sell 10 Tarazed Corporation"
+			action
+				"price" = "stock value Tarazed Corporation" * 10
+				"stock amount Tarazed Corporation" -= 10
+			`Sold 10 Tarazed Corporation`
+				goto "sell stocks Tarazed Corporation"
+			label "Sell 1 Tarazed Corporation"
+			action
+				"price" = "stock value Tarazed Corporation"
+				"stock amount Tarazed Corporation" -= 1
+			`Sold 1 Tarazed Corporation`
+				goto "sell stocks Tarazed Corporation"
+			label "buy stocks Southbound Shipyards"
+			label "buy stocks 1000 Southbound Shipyards"
+			branch "buy stocks 100 Southbound Shipyards"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "buy stocks 1000 Southbound Shipyards"
+			label "buy stocks 100 Southbound Shipyards"
+			branch "buy stocks 10 Southbound Shipyards"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "buy stocks 100 Southbound Shipyards"
+			label "buy stocks 10 Southbound Shipyards"
+			branch "buy stocks 1 Southbound Shipyards"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "buy stocks 10 Southbound Shipyards"
+			label "buy stocks 1 Southbound Shipyards"
+			branch "buy stocks end Southbound Shipyards"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "buy stocks 1 Southbound Shipyards"
+
+			label "buy stocks end Southbound Shipyards"
+			branch "Southbound Shipyards"
+
+			label "sell stocks Southbound Shipyards"
+
+			label "sell stocks 1000 Southbound Shipyards"
+			branch "buy stocks 100 Southbound Shipyards"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "sell stocks 1000 Southbound Shipyards"
+			label "sell stocks 100 Southbound Shipyards"
+			branch "buy stocks 10 Southbound Shipyards"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "sell stocks 100 Southbound Shipyards"
+			label "sell stocks 10 Southbound Shipyards"
+			branch "buy stocks 1 Southbound Shipyards"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "sell stocks 10 Southbound Shipyards"
+			label "sell stocks 1 Southbound Shipyards"
+			branch "sell stocks end Southbound Shipyards"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "sell stocks 1 Southbound Shipyards"
+
+			label "sell stocks end Southbound Shipyards"
+			branch "Southbound Shipyards"
+			label "buy stocks Lionheart Shipyards"
+			label "buy stocks 1000 Lionheart Shipyards"
+			branch "buy stocks 100 Lionheart Shipyards"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "buy stocks 1000 Lionheart Shipyards"
+			label "buy stocks 100 Lionheart Shipyards"
+			branch "buy stocks 10 Lionheart Shipyards"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "buy stocks 100 Lionheart Shipyards"
+			label "buy stocks 10 Lionheart Shipyards"
+			branch "buy stocks 1 Lionheart Shipyards"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "buy stocks 10 Lionheart Shipyards"
+			label "buy stocks 1 Lionheart Shipyards"
+			branch "buy stocks end Lionheart Shipyards"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "buy stocks 1 Lionheart Shipyards"
+
+			label "buy stocks end Lionheart Shipyards"
+			branch "Lionheart Shipyards"
+
+			label "sell stocks Lionheart Shipyards"
+
+			label "sell stocks 1000 Lionheart Shipyards"
+			branch "buy stocks 100 Lionheart Shipyards"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "sell stocks 1000 Lionheart Shipyards"
+			label "sell stocks 100 Lionheart Shipyards"
+			branch "buy stocks 10 Lionheart Shipyards"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "sell stocks 100 Lionheart Shipyards"
+			label "sell stocks 10 Lionheart Shipyards"
+			branch "buy stocks 1 Lionheart Shipyards"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "sell stocks 10 Lionheart Shipyards"
+			label "sell stocks 1 Lionheart Shipyards"
+			branch "sell stocks end Lionheart Shipyards"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "sell stocks 1 Lionheart Shipyards"
+
+			label "sell stocks end Lionheart Shipyards"
+			branch "Lionheart Shipyards"
+			label "buy stocks Megaparsec Shipyards"
+			label "buy stocks 1000 Megaparsec Shipyards"
+			branch "buy stocks 100 Megaparsec Shipyards"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "buy stocks 1000 Megaparsec Shipyards"
+			label "buy stocks 100 Megaparsec Shipyards"
+			branch "buy stocks 10 Megaparsec Shipyards"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "buy stocks 100 Megaparsec Shipyards"
+			label "buy stocks 10 Megaparsec Shipyards"
+			branch "buy stocks 1 Megaparsec Shipyards"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "buy stocks 10 Megaparsec Shipyards"
+			label "buy stocks 1 Megaparsec Shipyards"
+			branch "buy stocks end Megaparsec Shipyards"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "buy stocks 1 Megaparsec Shipyards"
+
+			label "buy stocks end Megaparsec Shipyards"
+			branch "Megaparsec Shipyards"
+
+			label "sell stocks Megaparsec Shipyards"
+
+			label "sell stocks 1000 Megaparsec Shipyards"
+			branch "buy stocks 100 Megaparsec Shipyards"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "sell stocks 1000 Megaparsec Shipyards"
+			label "sell stocks 100 Megaparsec Shipyards"
+			branch "buy stocks 10 Megaparsec Shipyards"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "sell stocks 100 Megaparsec Shipyards"
+			label "sell stocks 10 Megaparsec Shipyards"
+			branch "buy stocks 1 Megaparsec Shipyards"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "sell stocks 10 Megaparsec Shipyards"
+			label "sell stocks 1 Megaparsec Shipyards"
+			branch "sell stocks end Megaparsec Shipyards"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "sell stocks 1 Megaparsec Shipyards"
+
+			label "sell stocks end Megaparsec Shipyards"
+			branch "Megaparsec Shipyards"
+			label "buy stocks Syndicate Shipyards"
+			label "buy stocks 1000 Syndicate Shipyards"
+			branch "buy stocks 100 Syndicate Shipyards"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "buy stocks 1000 Syndicate Shipyards"
+			label "buy stocks 100 Syndicate Shipyards"
+			branch "buy stocks 10 Syndicate Shipyards"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "buy stocks 100 Syndicate Shipyards"
+			label "buy stocks 10 Syndicate Shipyards"
+			branch "buy stocks 1 Syndicate Shipyards"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "buy stocks 10 Syndicate Shipyards"
+			label "buy stocks 1 Syndicate Shipyards"
+			branch "buy stocks end Syndicate Shipyards"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "buy stocks 1 Syndicate Shipyards"
+
+			label "buy stocks end Syndicate Shipyards"
+			branch "Syndicate Shipyards"
+
+			label "sell stocks Syndicate Shipyards"
+
+			label "sell stocks 1000 Syndicate Shipyards"
+			branch "buy stocks 100 Syndicate Shipyards"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "sell stocks 1000 Syndicate Shipyards"
+			label "sell stocks 100 Syndicate Shipyards"
+			branch "buy stocks 10 Syndicate Shipyards"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "sell stocks 100 Syndicate Shipyards"
+			label "sell stocks 10 Syndicate Shipyards"
+			branch "buy stocks 1 Syndicate Shipyards"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "sell stocks 10 Syndicate Shipyards"
+			label "sell stocks 1 Syndicate Shipyards"
+			branch "sell stocks end Syndicate Shipyards"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "sell stocks 1 Syndicate Shipyards"
+
+			label "sell stocks end Syndicate Shipyards"
+			branch "Syndicate Shipyards"
+			label "buy stocks Kraz Cybernetics"
+			label "buy stocks 1000 Kraz Cybernetics"
+			branch "buy stocks 100 Kraz Cybernetics"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "buy stocks 1000 Kraz Cybernetics"
+			label "buy stocks 100 Kraz Cybernetics"
+			branch "buy stocks 10 Kraz Cybernetics"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "buy stocks 100 Kraz Cybernetics"
+			label "buy stocks 10 Kraz Cybernetics"
+			branch "buy stocks 1 Kraz Cybernetics"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "buy stocks 10 Kraz Cybernetics"
+			label "buy stocks 1 Kraz Cybernetics"
+			branch "buy stocks end Kraz Cybernetics"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "buy stocks 1 Kraz Cybernetics"
+
+			label "buy stocks end Kraz Cybernetics"
+			branch "Kraz Cybernetics"
+
+			label "sell stocks Kraz Cybernetics"
+
+			label "sell stocks 1000 Kraz Cybernetics"
+			branch "buy stocks 100 Kraz Cybernetics"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "sell stocks 1000 Kraz Cybernetics"
+			label "sell stocks 100 Kraz Cybernetics"
+			branch "buy stocks 10 Kraz Cybernetics"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "sell stocks 100 Kraz Cybernetics"
+			label "sell stocks 10 Kraz Cybernetics"
+			branch "buy stocks 1 Kraz Cybernetics"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "sell stocks 10 Kraz Cybernetics"
+			label "sell stocks 1 Kraz Cybernetics"
+			branch "sell stocks end Kraz Cybernetics"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "sell stocks 1 Kraz Cybernetics"
+
+			label "sell stocks end Kraz Cybernetics"
+			branch "Kraz Cybernetics"
+			label "buy stocks Deep Sky"
+			label "buy stocks 1000 Deep Sky"
+			branch "buy stocks 100 Deep Sky"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "buy stocks 1000 Deep Sky"
+			label "buy stocks 100 Deep Sky"
+			branch "buy stocks 10 Deep Sky"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "buy stocks 100 Deep Sky"
+			label "buy stocks 10 Deep Sky"
+			branch "buy stocks 1 Deep Sky"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "buy stocks 10 Deep Sky"
+			label "buy stocks 1 Deep Sky"
+			branch "buy stocks end Deep Sky"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "buy stocks 1 Deep Sky"
+
+			label "buy stocks end Deep Sky"
+			branch "Deep Sky"
+
+			label "sell stocks Deep Sky"
+
+			label "sell stocks 1000 Deep Sky"
+			branch "buy stocks 100 Deep Sky"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "sell stocks 1000 Deep Sky"
+			label "sell stocks 100 Deep Sky"
+			branch "buy stocks 10 Deep Sky"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "sell stocks 100 Deep Sky"
+			label "sell stocks 10 Deep Sky"
+			branch "buy stocks 1 Deep Sky"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "sell stocks 10 Deep Sky"
+			label "sell stocks 1 Deep Sky"
+			branch "sell stocks end Deep Sky"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "sell stocks 1 Deep Sky"
+
+			label "sell stocks end Deep Sky"
+			branch "Deep Sky"
+			label "buy stocks Lovelace Labs"
+			label "buy stocks 1000 Lovelace Labs"
+			branch "buy stocks 100 Lovelace Labs"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "buy stocks 1000 Lovelace Labs"
+			label "buy stocks 100 Lovelace Labs"
+			branch "buy stocks 10 Lovelace Labs"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "buy stocks 100 Lovelace Labs"
+			label "buy stocks 10 Lovelace Labs"
+			branch "buy stocks 1 Lovelace Labs"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "buy stocks 10 Lovelace Labs"
+			label "buy stocks 1 Lovelace Labs"
+			branch "buy stocks end Lovelace Labs"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "buy stocks 1 Lovelace Labs"
+
+			label "buy stocks end Lovelace Labs"
+			branch "Lovelace Labs"
+
+			label "sell stocks Lovelace Labs"
+
+			label "sell stocks 1000 Lovelace Labs"
+			branch "buy stocks 100 Lovelace Labs"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "sell stocks 1000 Lovelace Labs"
+			label "sell stocks 100 Lovelace Labs"
+			branch "buy stocks 10 Lovelace Labs"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "sell stocks 100 Lovelace Labs"
+			label "sell stocks 10 Lovelace Labs"
+			branch "buy stocks 1 Lovelace Labs"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "sell stocks 10 Lovelace Labs"
+			label "sell stocks 1 Lovelace Labs"
+			branch "sell stocks end Lovelace Labs"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "sell stocks 1 Lovelace Labs"
+
+			label "sell stocks end Lovelace Labs"
+			branch "Lovelace Labs"
+			label "buy stocks Delta V"
+			label "buy stocks 1000 Delta V"
+			branch "buy stocks 100 Delta V"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "buy stocks 1000 Delta V"
+			label "buy stocks 100 Delta V"
+			branch "buy stocks 10 Delta V"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "buy stocks 100 Delta V"
+			label "buy stocks 10 Delta V"
+			branch "buy stocks 1 Delta V"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "buy stocks 10 Delta V"
+			label "buy stocks 1 Delta V"
+			branch "buy stocks end Delta V"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "buy stocks 1 Delta V"
+
+			label "buy stocks end Delta V"
+			branch "Delta V"
+
+			label "sell stocks Delta V"
+
+			label "sell stocks 1000 Delta V"
+			branch "buy stocks 100 Delta V"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "sell stocks 1000 Delta V"
+			label "sell stocks 100 Delta V"
+			branch "buy stocks 10 Delta V"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "sell stocks 100 Delta V"
+			label "sell stocks 10 Delta V"
+			branch "buy stocks 1 Delta V"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "sell stocks 10 Delta V"
+			label "sell stocks 1 Delta V"
+			branch "sell stocks end Delta V"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "sell stocks 1 Delta V"
+
+			label "sell stocks end Delta V"
+			branch "Delta V"
+			label "buy stocks Betelgeuse Shipyards"
+			label "buy stocks 1000 Betelgeuse Shipyards"
+			branch "buy stocks 100 Betelgeuse Shipyards"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "buy stocks 1000 Betelgeuse Shipyards"
+			label "buy stocks 100 Betelgeuse Shipyards"
+			branch "buy stocks 10 Betelgeuse Shipyards"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "buy stocks 100 Betelgeuse Shipyards"
+			label "buy stocks 10 Betelgeuse Shipyards"
+			branch "buy stocks 1 Betelgeuse Shipyards"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "buy stocks 10 Betelgeuse Shipyards"
+			label "buy stocks 1 Betelgeuse Shipyards"
+			branch "buy stocks end Betelgeuse Shipyards"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "buy stocks 1 Betelgeuse Shipyards"
+
+			label "buy stocks end Betelgeuse Shipyards"
+			branch "Betelgeuse Shipyards"
+
+			label "sell stocks Betelgeuse Shipyards"
+
+			label "sell stocks 1000 Betelgeuse Shipyards"
+			branch "buy stocks 100 Betelgeuse Shipyards"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "sell stocks 1000 Betelgeuse Shipyards"
+			label "sell stocks 100 Betelgeuse Shipyards"
+			branch "buy stocks 10 Betelgeuse Shipyards"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "sell stocks 100 Betelgeuse Shipyards"
+			label "sell stocks 10 Betelgeuse Shipyards"
+			branch "buy stocks 1 Betelgeuse Shipyards"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "sell stocks 10 Betelgeuse Shipyards"
+			label "sell stocks 1 Betelgeuse Shipyards"
+			branch "sell stocks end Betelgeuse Shipyards"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "sell stocks 1 Betelgeuse Shipyards"
+
+			label "sell stocks end Betelgeuse Shipyards"
+			branch "Betelgeuse Shipyards"
+			label "buy stocks Tarazed Corporation"
+			label "buy stocks 1000 Tarazed Corporation"
+			branch "buy stocks 100 Tarazed Corporation"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "buy stocks 1000 Tarazed Corporation"
+			label "buy stocks 100 Tarazed Corporation"
+			branch "buy stocks 10 Tarazed Corporation"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "buy stocks 100 Tarazed Corporation"
+			label "buy stocks 10 Tarazed Corporation"
+			branch "buy stocks 1 Tarazed Corporation"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "buy stocks 10 Tarazed Corporation"
+			label "buy stocks 1 Tarazed Corporation"
+			branch "buy stocks end Tarazed Corporation"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "buy stocks 1 Tarazed Corporation"
+
+			label "buy stocks end Tarazed Corporation"
+			branch "Tarazed Corporation"
+
+			label "sell stocks Tarazed Corporation"
+
+			label "sell stocks 1000 Tarazed Corporation"
+			branch "buy stocks 100 Tarazed Corporation"
+				"price" < 1000
+			action
+				payment -1000
+				price -= 1000
+			branch "sell stocks 1000 Tarazed Corporation"
+			label "sell stocks 100 Tarazed Corporation"
+			branch "buy stocks 10 Tarazed Corporation"
+				"price" < 100
+			action
+				payment -100
+				price -= 100
+			branch "sell stocks 100 Tarazed Corporation"
+			label "sell stocks 10 Tarazed Corporation"
+			branch "buy stocks 1 Tarazed Corporation"
+				"price" < 10
+			action
+				payment -10
+				price -= 10
+			branch "sell stocks 10 Tarazed Corporation"
+			label "sell stocks 1 Tarazed Corporation"
+			branch "sell stocks end Tarazed Corporation"
+				"price" < 1
+			action
+				payment -1
+				price -= 1
+			branch "sell stocks 1 Tarazed Corporation"
+
+			label "sell stocks end Tarazed Corporation"
+			branch "Tarazed Corporation"
+
 # sell investments
 			label linesellinvestment
 			``
@@ -536,15 +2741,14 @@ mission "gci banking terminal"
 			scene scene/gci_terminal
 			action
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
+				available = deposit - "salary: Galactic Capital Transfer" / 4 * 100 * 365
 			`Set up a daily transfer of credits, from you bank account to your cash chip. It must be equal or lower than your daily interest.`
 			``
 			`Cash chip:`
 			`	&[credits] credits`
 			`Account balance:`
-			`	&[deposit] credits`
-			`	&[dailyincome] credits daily interest (4% p.a.)`
-			`Cash transfer:`
-			`	&[salary: Galactic Capital Transfer]`
+			`	&[deposit] credits (&[available] credits available, with daily transfer subtracted)`
+			`	&[dailyincome] credits daily interest (4% p.a.)  + &[salary: Galactic Capital Transfer] credits daily cash transfer`
 			``
 			choice
 				`	[transfer 100 credits of your daily interest]`
