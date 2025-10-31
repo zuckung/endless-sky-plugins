@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-31 | update: galactic.capital.investment<br>
 2025-10-27 | update: flare.play<br>
 2025-10-27 | update: boss.loot<br>
 2025-10-26 | update: additional.command.buttons.radial<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-24 | update: combat.ai<br>
 2025-10-23 | update: combat.ai<br>
 2025-10-16 | update: vague.improvements<br>
-2025-10-12 | update: ship.merging<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2261,9 +2261,9 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/galactic.capital.investment.png" width="130" height="20">
 
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.9-galactic.capital.investment/galactic.capital.investment.zip) v1.1.9 | 4.07 mb | 2025-08-15 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=galactic.capital.investment-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) | <a href="res/imagemd/galactic.capital.investment.md">view images</a> [21]<br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.10-galactic.capital.investment/galactic.capital.investment.zip) v1.1.10 | 4.2 mb | 2025-10-31 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=galactic.capital.investment-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) | <a href="res/imagemd/galactic.capital.investment.md">view images</a> [23]<br>
 <br>
->Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1000 million credits. See the README for details.
+>Offers different job board banking services. From normal banking with low interest rates, over risky stock exchange, and profitable investments (unlocked by missions), to a family thrust. Available in human, quarg and hai space. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2271,19 +2271,13 @@ screenshots(click to enlarge):<br>
 
 <br>
 
-Implements a short mission chain that enables repeatable job board investment opportunities which result in small daily income. Available in human, quarg and hai space starting with 2 million credits cash and going up to 1 billion credits.<br>
-
-<br>
-
-At 1 billion credits cash a longer mission chain starts and enables a reapeatable job board investment of 1 billion credits. The chain has some breaks and finishes after a year.<br>
-
-There is also a job to deposit and withdraw credits, but at a much lower interest rate. And the same job offers to deposit and withdraw to a family trust, which can be accessed by all your saves/pilots (but without interest).<br>
+Offers different job board banking services. From normal banking with low interest rates, over risky stock exchange, and profitable investments (unlocked by missions), to a family thrust. Available in human, quarg and hai space.<br>
 
 <br>
 
 Job board investments:(if enabled)<br>
 
-1 million = 274 credits daily (12% chance) (10% interest p.a.)<br>
+1 million = 274 credits daily (12% chance) (10% interest p.a.)(unlocked by a mission)<br>
 
 5 million = 1,520 credits daily (10% chance) (11% interest p.a.)<br>
 
@@ -2293,7 +2287,7 @@ Job board investments:(if enabled)<br>
 
 100 million = 38,356 credits daily (4% chance) (14% interest p.a.)<br>
 
-1 billion = 410,958 credits daily (2% chance) (15% interest p.a.)<br>
+1 billion = 410,958 credits daily (2% chance) (15% interest p.a.)(unlocked by a mission chain)<br>
 
 <br>
 
@@ -2301,7 +2295,9 @@ Job board bank account, always available:<br>
 
 Deposit and withdraw from your bank account (4% interest p.a.)<br>
 
-Deposit and withdraw from your family trust, accessible by all your pilots<br>
+Deposit and withdraw from your family trust, accessible by all your pilots(0% p.a.)<br>
+
+Stock trading(10 stocks, quarterly dividend payout of 3% (12% p.a. of changing values))<br>
 
 Sell investments at 10% conversion rate<br>
 
@@ -2316,6 +2312,14 @@ Enable and disable the investment jobs/missions<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-10-31<br>
+
+added more info about cash transfer to bank deposit/withdrw (reported by mikeloeven)<br>
+
+added stock trading<br>
 
 <br>
 

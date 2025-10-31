@@ -46,15 +46,22 @@ graphic files for the plugin: galactic.capital.investment<br>
 		gci_spaceport@2x.jpg [1080x720]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/scene/gci_terminal.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/scene/gci_terminal.jpg" width="200"></a><br>
 		gci_terminal.jpg [560x200]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship.png" height="200"></a><br>
-		gci_colonyship.png [380x830]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/scene/stock_chart_analysis.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/scene/stock_chart_analysis.jpg" width="200"></a><br>
+		stock_chart_analysis.jpg [560x200]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/scene/stock_chart_analysis@2x.jpg"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/scene/stock_chart_analysis@2x.jpg" width="200"></a><br>
+		stock_chart_analysis@2x.jpg [1120x400]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship.png" height="200"></a><br>
+		gci_colonyship.png [380x830]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/ship/gci_colonyship@2x.png" height="200"></a><br>
 		gci_colonyship@2x.png [760x1660]</td>
+	</tr>
+	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/thumbnail/gci_colonyship.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/thumbnail/gci_colonyship.png" height="200"></a><br>
 		gci_colonyship.png [250x250]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/galactic.capital.investment/images/thumbnail/gci_colonyship@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/galactic.capital.investment/images/thumbnail/gci_colonyship@2x.png" height="200"></a><br>
 		gci_colonyship@2x.png [500x500]</td>
+		<td></td>
 	</tr>
 </table>
