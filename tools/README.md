@@ -18,6 +18,10 @@
 <td>generates the outfits and new thumbnail images for the plugin flare.play out of the data and image folder.</td>
 </tr>
 <tr>
+<td>ES_plugin_script_galactic_capital_investment</td>
+<td>generates the banking job out of a template, mainly the stock exchanges.</td>
+</tr>
+<tr>
 <td>ES_plugin_script_show_reputation</td>
 <td>generates the mission file for the plugin show.reputation out of the ES data folder.</td>
 </tr>

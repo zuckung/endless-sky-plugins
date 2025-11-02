@@ -1,4 +1,4 @@
 name "galactic.capital.investment"
-about "Offers different job board banking services. From normal banking with low interest rates, over risky stock exchange, and profitable investments (unlocked by missions), to a family thrust. Available in human, quarg and hai space. See the README for details."
+about "Offers different job board banking services. From normal banking with low interest rates, over risky stock exchanges, and profitable investments (unlocked by missions), to a family trust. Available in human, quarg and hai space. See the README for details."
 authors
 	"zuckung"

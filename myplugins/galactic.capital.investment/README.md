@@ -1,6 +1,6 @@
 ### galactic.capital.investment <br>
 <br>
-Offers different job board banking services. From normal banking with low interest rates, over risky stock exchange, and profitable investments (unlocked by missions), to a family thrust. Available in human, quarg and hai space.<br>
+Offers different job board banking services. From normal banking with low interest rates, over risky stock exchanges, and profitable investments (unlocked by missions), to a family trust. Available in human, quarg and hai space.<br>
 <br>
 Job board investments:(if enabled)<br>
 1 million = 274 credits daily (12% chance) (10% interest p.a.)(unlocked by a mission)<br>
@@ -21,6 +21,10 @@ Enable and disable the investment jobs/missions<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2025-11-02<br>
+fixed stock selling bug (reported by Glittering_Pea2514)<br>
+fixed typos (by Kassandra Haruki)<br>
 <br>
 2025-10-31<br>
 added more info about cash transfer to bank deposit/withdrw (reported by mikeloeven)<br>

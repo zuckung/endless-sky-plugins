@@ -699,30 +699,30 @@ mission "gci banking terminal"
 			``
 			``
 			choice
-				`	[deposit 10,000 credits, daily interest +1 credits]`
-					to display
-						"credits" >= 10000
-					goto d10,000
-				`	[deposit 100,000 credits, daily interest +10 credits]`
-					to display
-						"credits" >= 100000
-					goto d100,000
-				`	[deposit 1,000,000 credits, daily interest +109 credits]`
-					to display
-						"credits" >= 1000000
-					goto d1,000,000
-				`	[deposit 10,000,000 credits, daily interest +1095 credits]`
-					to display
-						"credits" >= 10000000
-					goto d10,000,000
-				`	[deposit 100,000,000 credits, daily interest +10958 credits]`
-					to display
-						"credits" >= 100000000
-					goto d100,000,000
 				`	[deposit 1,000,000,000 credits, daily interest +109589 credits]`
 					to display
 						"credits" >= 1000000000
 					goto d1,000,000,000
+				`	[deposit 100,000,000 credits, daily interest +10958 credits]`
+					to display
+						"credits" >= 100000000
+					goto d100,000,000
+				`	[deposit 10,000,000 credits, daily interest +1095 credits]`
+					to display
+						"credits" >= 10000000
+					goto d10,000,000
+				`	[deposit 1,000,000 credits, daily interest +109 credits]`
+					to display
+						"credits" >= 1000000
+					goto d1,000,000
+				`	[deposit 100,000 credits, daily interest +10 credits]`
+					to display
+						"credits" >= 100000
+					goto d100,000
+				`	[deposit 10,000 credits, daily interest +1 credits]`
+					to display
+						"credits" >= 10000
+					goto d10,000
 				`	[back]`
 						goto linebankaccount
 			label d10,000
@@ -785,36 +785,36 @@ mission "gci banking terminal"
 			`	(to withdraw more credits, reduce your daily cash transfer)`
 			``
 			choice
-				`	[withdraw 10,000 credits, daily interest -1 credits]`
-					to display
-						deposit >= 10000
-						dailyincome >= 1
-					goto w10,000
-				`	[withdraw 100,000 credits, daily interest -10 credits]`
-					to display
-						deposit >= 100000
-						dailyincome >= 10
-					goto w100,000
-				`	[withdraw 1,000,000 credits, daily interest -109 credits]`
-					to display
-						deposit >= 1000000
-						dailyincome >= 109
-					goto w1,000,000
-				`	[withdraw 10,000,000 credits, daily interest -1095 credits]`
-					to display
-						deposit >= 10000000
-						dailyincome >= 1095
-					goto w10,000,000
-				`	[withdraw 100,000,000 credits, daily interest -10958 credits]`
-					to display
-						deposit >= 100000000
-						dailyincome >= 10958
-					goto w100,000,000
 				`	[withdraw 1,000,000,000 credits, daily interest -10958 credits]`
 					to display
 						deposit >= 1000000000
 						dailyincome >= 109589
 					goto w1,000,000,000
+				`	[withdraw 100,000,000 credits, daily interest -10958 credits]`
+					to display
+						deposit >= 100000000
+						dailyincome >= 10958
+					goto w100,000,000
+				`	[withdraw 10,000,000 credits, daily interest -1095 credits]`
+					to display
+						deposit >= 10000000
+						dailyincome >= 1095
+					goto w10,000,000
+				`	[withdraw 1,000,000 credits, daily interest -109 credits]`
+					to display
+						deposit >= 1000000
+						dailyincome >= 109
+					goto w1,000,000
+				`	[withdraw 100,000 credits, daily interest -10 credits]`
+					to display
+						deposit >= 100000
+						dailyincome >= 10
+					goto w100,000
+				`	[withdraw 10,000 credits, daily interest -1 credits]`
+					to display
+						deposit >= 10000
+						dailyincome >= 1
+					goto w10,000
 				`	[back]`
 					goto linebankaccount
 
@@ -892,30 +892,30 @@ mission "gci banking terminal"
 			`	&[global: familytrust] credits`
 			``
 			choice
-				`	[deposit 10,000 credits]`
-					to display
-						"credits" >= 10000
-					goto td10,000
-				`	[deposit 100,000 credits]`
-					to display
-						"credits" >= 100000
-					goto td100,000
-				`	[deposit 1,000,000 credits]`
-					to display
-						"credits" >= 1000000
-					goto td1,000,000
-				`	[deposit 10,000,000 credits]`
-					to display
-						"credits" >= 10000000
-					goto td10,000,000
-				`	[deposit 100,000,000 credits]`
-					to display
-						"credits" >= 100000000
-					goto td100,000,000
 				`	[deposit 1,00,000,000 credits]`
 					to display
 						"credits" >= 1000000000
 					goto td1,000,000,000
+				`	[deposit 100,000,000 credits]`
+					to display
+						"credits" >= 100000000
+					goto td100,000,000
+				`	[deposit 10,000,000 credits]`
+					to display
+						"credits" >= 10000000
+					goto td10,000,000
+				`	[deposit 1,000,000 credits]`
+					to display
+						"credits" >= 1000000
+					goto td1,000,000
+				`	[deposit 100,000 credits]`
+					to display
+						"credits" >= 100000
+					goto td100,000
+				`	[deposit 10,000 credits]`
+					to display
+						"credits" >= 10000
+					goto td10,000
 				`	[back]`
 					goto linefamilytrust
 			label td10,000
@@ -967,30 +967,30 @@ mission "gci banking terminal"
 			`	&[global: familytrust] credits`
 			``
 			choice
-				`	[withdraw 10,000 credits]`
-					to display
-						"global: familytrust" >= 10000
-					goto tw10,000
-				`	[withdraw 100,000 credits]`
-					to display
-						"global: familytrust" >= 100000
-					goto tw100,000
-				`	[withdraw 1,000,000 credits]`
-					to display
-						"global: familytrust" >= 1000000
-					goto tw1,000,000
-				`	[withdraw 10,000,000 credits]`
-					to display
-						"global: familytrust" >= 10000000
-					goto tw10,000,000
-				`	[withdraw 100,000,000 credits]`
-					to display
-						"global: familytrust" >= 100000000
-					goto tw100,000,000
 				`	[withdraw 1,000,000,000 credits]`
 					to display
 						"global: familytrust" >= 1000000000
 					goto tw1,000,000,000
+				`	[withdraw 100,000,000 credits]`
+					to display
+						"global: familytrust" >= 100000000
+					goto tw100,000,000
+				`	[withdraw 10,000,000 credits]`
+					to display
+						"global: familytrust" >= 10000000
+					goto tw10,000,000
+				`	[withdraw 1,000,000 credits]`
+					to display
+						"global: familytrust" >= 1000000
+					goto tw1,000,000
+				`	[withdraw 100,000 credits]`
+					to display
+						"global: familytrust" >= 100000
+					goto tw100,000
+				`	[withdraw 10,000 credits]`
+					to display
+						"global: familytrust" >= 10000
+					goto tw10,000
 				`	[back]`
 					goto linefamilytrust
 
@@ -1034,6 +1034,8 @@ mission "gci banking terminal"
 			label linestockexchange
 			``
 				goto stockoverview
+			label "linestockoverview"
+			``
 			label "stockoverview"
 			action
 				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
@@ -1044,29 +1046,36 @@ mission "gci banking terminal"
 			`Value of all owned stocks: &[stocktotalvalue] credits`
 			``
 			choice
-				`	Trade "Southbound Shipyards" stocks at &[stock value Southbound Shipyards] credits each. You hold &[stock amount Southbound Shipyards]`
-					goto "Southbound Shipyards"
-				`	Trade "Lionheart Shipyards" stocks at &[stock value Lionheart Shipyards] credits each. You hold &[stock amount Lionheart Shipyards]`
-					goto "Lionheart Shipyards"
-				`	Trade "Megaparsec Shipyards" stocks at &[stock value Megaparsec Shipyards] credits each. You hold &[stock amount Megaparsec Shipyards]`
-					goto "Megaparsec Shipyards"
-				`	Trade "Syndicate Shipyards" stocks at &[stock value Syndicate Shipyards] credits each. You hold &[stock amount Syndicate Shipyards]`
-					goto "Syndicate Shipyards"
-				`	Trade "Kraz Cybernetics" stocks at &[stock value Kraz Cybernetics] credits each. You hold &[stock amount Kraz Cybernetics]`
-					goto "Kraz Cybernetics"
-				`	Trade "Deep Sky" stocks at &[stock value Deep Sky] credits each. You hold &[stock amount Deep Sky]`
-					goto "Deep Sky"
-				`	Trade "Lovelace Labs" stocks at &[stock value Lovelace Labs] credits each. You hold &[stock amount Lovelace Labs]`
-					goto "Lovelace Labs"
-				`	Trade "Delta V" stocks at &[stock value Delta V] credits each. You hold &[stock amount Delta V]`
-					goto "Delta V"
-				`	Trade "Betelgeuse Shipyards" stocks at &[stock value Betelgeuse Shipyards] credits each. You hold &[stock amount Betelgeuse Shipyards]`
-					goto "Betelgeuse Shipyards"
-				`	Trade "Tarazed Corporation" stocks at &[stock value Tarazed Corporation] credits each. You hold &[stock amount Tarazed Corporation]`
-					goto "Tarazed Corporation"
+				`	Trade "Southbound Shipyards" stocks at &[stock value Southbound Shipyards] credits each. You hold &[stock amount Southbound Shipyards].`
+					goto "lineSouthbound Shipyards"
+				`	Trade "Lionheart Shipyards" stocks at &[stock value Lionheart Shipyards] credits each. You hold &[stock amount Lionheart Shipyards].`
+					goto "lineLionheart Shipyards"
+				`	Trade "Megaparsec Shipyards" stocks at &[stock value Megaparsec Shipyards] credits each. You hold &[stock amount Megaparsec Shipyards].`
+					goto "lineMegaparsec Shipyards"
+				`	Trade "Syndicate Shipyards" stocks at &[stock value Syndicate Shipyards] credits each. You hold &[stock amount Syndicate Shipyards].`
+					goto "lineSyndicate Shipyards"
+				`	Trade "Kraz Cybernetics" stocks at &[stock value Kraz Cybernetics] credits each. You hold &[stock amount Kraz Cybernetics].`
+					goto "lineKraz Cybernetics"
+				`	Trade "Deep Sky" stocks at &[stock value Deep Sky] credits each. You hold &[stock amount Deep Sky].`
+					goto "lineDeep Sky"
+				`	Trade "Lovelace Labs" stocks at &[stock value Lovelace Labs] credits each. You hold &[stock amount Lovelace Labs].`
+					goto "lineLovelace Labs"
+				`	Trade "Delta V" stocks at &[stock value Delta V] credits each. You hold &[stock amount Delta V].`
+					goto "lineDelta V"
+				`	Trade "Betelgeuse Shipyards" stocks at &[stock value Betelgeuse Shipyards] credits each. You hold &[stock amount Betelgeuse Shipyards].`
+					goto "lineBetelgeuse Shipyards"
+				`	Trade "Tarazed Corporation" stocks at &[stock value Tarazed Corporation] credits each. You hold &[stock amount Tarazed Corporation].`
+					goto "lineTarazed Corporation"
 				`	[back]`
-					goto "menu"
+					goto clearscreen
+			label "lineSouthbound Shipyards"
+			``
 			label "Southbound Shipyards"
+			action
+				"stock value Southbound Shipyards 10000" = "stock value Southbound Shipyards" * 10000
+				"stock value Southbound Shipyards 1000" = "stock value Southbound Shipyards" * 1000
+				"stock value Southbound Shipyards 100" = "stock value Southbound Shipyards" * 100
+				"stock value Southbound Shipyards 10" = "stock value Southbound Shipyards" * 10
 			action
 				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
 			scene "scene/stock_chart_analysis"
@@ -1077,15 +1086,40 @@ mission "gci banking terminal"
 			``
 			`You hold: &[stock amount Southbound Shipyards] stocks at &[stock value Southbound Shipyards] credits each..`
 			choice
-				`	Buy 1000 stocks for &[stock value Southbound Shipyards]000 credits.`
+				`	Buy Southbound Shipyards stocks`
+					to display
+						"credits" > "stock value Southbound Shipyards"
+					goto "lineBuy Southbound Shipyards"
+				`	Sell Southbound Shipyards stocks`
+					to display
+						"stock amount Southbound Shipyards" > 0
+					goto "lineSell Southbound Shipyards"
+				`	[back]`
+					goto "linestockoverview"
+			label "lineBuy Southbound Shipyards"
+			``
+			label "Buy Southbound Shipyards"
+			scene "scene/stock_chart_analysis"
+			`Southbound Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Southbound Shipyards] stocks at &[stock value Southbound Shipyards] credits each.`
+			choice
+				`	Buy 10000 stocks for &[stock value Southbound Shipyards 10000] credits.`
+					to display
+						"credits" > "stock value Southbound Shipyards" * 10000
+					goto "Buy 10000 Southbound Shipyards"
+				`	Buy 1000 stocks for &[stock value Southbound Shipyards 1000] credits.`
 					to display
 						"credits" > "stock value Southbound Shipyards" * 1000
 					goto "Buy 1000 Southbound Shipyards"
-				`	Buy 100 stocks for &[stock value Southbound Shipyards]00 credits.`
+				`	Buy 100 stocks for &[stock value Southbound Shipyards 100] credits.`
 					to display
 						"credits" > "stock value Southbound Shipyards" * 100
 					goto "Buy 100 Southbound Shipyards"
-				`	Buy 10 stocks for &[stock value Southbound Shipyards]0 credits.`
+				`	Buy 10 stocks for &[stock value Southbound Shipyards 10] credits.`
 					to display
 						"credits" > "stock value Southbound Shipyards" * 10
 					goto "Buy 10 Southbound Shipyards"
@@ -1093,15 +1127,32 @@ mission "gci banking terminal"
 					to display
 						"credits" > "stock value Southbound Shipyards" * 1
 					goto "Buy 1 Southbound Shipyards"
-				`	Sell 1000 stocks for &[stock value Southbound Shipyards]000 credits.`
+				`	[back]`
+					goto "lineSouthbound Shipyards"
+			label "lineSell Southbound Shipyards"
+			``
+			label "Sell Southbound Shipyards"
+			scene "scene/stock_chart_analysis"
+			`Southbound Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Southbound Shipyards] stocks at &[stock value Southbound Shipyards] credits each.`
+			choice
+				`	Sell 10000 stocks for &[stock value Southbound Shipyards 10000] credits.`
+					to display
+						"stock amount Southbound Shipyards" >= 10000
+					goto "Sell 10000 Southbound Shipyards"
+				`	Sell 1000 stocks for &[stock value Southbound Shipyards 1000] credits.`
 					to display
 						"stock amount Southbound Shipyards" >= 1000
 					goto "Sell 1000 Southbound Shipyards"
-				`	Sell 100 stocks for &[stock value Southbound Shipyards]00 credits.`
+				`	Sell 100 stocks for &[stock value Southbound Shipyards 100] credits.`
 					to display
 						"stock amount Southbound Shipyards" >= 100
 					goto "Sell 100 Southbound Shipyards"
-				`	Sell 10 stocks for &[stock value Southbound Shipyards]0 credits.`
+				`	Sell 10 stocks for &[stock value Southbound Shipyards 10] credits.`
 					to display
 						"stock amount Southbound Shipyards" >= 10
 					goto "Sell 10 Southbound Shipyards"
@@ -1110,8 +1161,15 @@ mission "gci banking terminal"
 						"stock amount Southbound Shipyards" >= 1
 					goto "Sell 1 Southbound Shipyards"
 				`	[back]`
-					goto "stockoverview"
+					goto "lineSouthbound Shipyards"
+			label "lineLionheart Shipyards"
+			``
 			label "Lionheart Shipyards"
+			action
+				"stock value Lionheart Shipyards 10000" = "stock value Lionheart Shipyards" * 10000
+				"stock value Lionheart Shipyards 1000" = "stock value Lionheart Shipyards" * 1000
+				"stock value Lionheart Shipyards 100" = "stock value Lionheart Shipyards" * 100
+				"stock value Lionheart Shipyards 10" = "stock value Lionheart Shipyards" * 10
 			action
 				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
 			scene "scene/stock_chart_analysis"
@@ -1122,15 +1180,40 @@ mission "gci banking terminal"
 			``
 			`You hold: &[stock amount Lionheart Shipyards] stocks at &[stock value Lionheart Shipyards] credits each..`
 			choice
-				`	Buy 1000 stocks for &[stock value Lionheart Shipyards]000 credits.`
+				`	Buy Lionheart Shipyards stocks`
+					to display
+						"credits" > "stock value Lionheart Shipyards"
+					goto "lineBuy Lionheart Shipyards"
+				`	Sell Lionheart Shipyards stocks`
+					to display
+						"stock amount Lionheart Shipyards" > 0
+					goto "lineSell Lionheart Shipyards"
+				`	[back]`
+					goto "linestockoverview"
+			label "lineBuy Lionheart Shipyards"
+			``
+			label "Buy Lionheart Shipyards"
+			scene "scene/stock_chart_analysis"
+			`Lionheart Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Lionheart Shipyards] stocks at &[stock value Lionheart Shipyards] credits each.`
+			choice
+				`	Buy 10000 stocks for &[stock value Lionheart Shipyards 10000] credits.`
+					to display
+						"credits" > "stock value Lionheart Shipyards" * 10000
+					goto "Buy 10000 Lionheart Shipyards"
+				`	Buy 1000 stocks for &[stock value Lionheart Shipyards 1000] credits.`
 					to display
 						"credits" > "stock value Lionheart Shipyards" * 1000
 					goto "Buy 1000 Lionheart Shipyards"
-				`	Buy 100 stocks for &[stock value Lionheart Shipyards]00 credits.`
+				`	Buy 100 stocks for &[stock value Lionheart Shipyards 100] credits.`
 					to display
 						"credits" > "stock value Lionheart Shipyards" * 100
 					goto "Buy 100 Lionheart Shipyards"
-				`	Buy 10 stocks for &[stock value Lionheart Shipyards]0 credits.`
+				`	Buy 10 stocks for &[stock value Lionheart Shipyards 10] credits.`
 					to display
 						"credits" > "stock value Lionheart Shipyards" * 10
 					goto "Buy 10 Lionheart Shipyards"
@@ -1138,15 +1221,32 @@ mission "gci banking terminal"
 					to display
 						"credits" > "stock value Lionheart Shipyards" * 1
 					goto "Buy 1 Lionheart Shipyards"
-				`	Sell 1000 stocks for &[stock value Lionheart Shipyards]000 credits.`
+				`	[back]`
+					goto "lineLionheart Shipyards"
+			label "lineSell Lionheart Shipyards"
+			``
+			label "Sell Lionheart Shipyards"
+			scene "scene/stock_chart_analysis"
+			`Lionheart Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Lionheart Shipyards] stocks at &[stock value Lionheart Shipyards] credits each.`
+			choice
+				`	Sell 10000 stocks for &[stock value Lionheart Shipyards 10000] credits.`
+					to display
+						"stock amount Lionheart Shipyards" >= 10000
+					goto "Sell 10000 Lionheart Shipyards"
+				`	Sell 1000 stocks for &[stock value Lionheart Shipyards 1000] credits.`
 					to display
 						"stock amount Lionheart Shipyards" >= 1000
 					goto "Sell 1000 Lionheart Shipyards"
-				`	Sell 100 stocks for &[stock value Lionheart Shipyards]00 credits.`
+				`	Sell 100 stocks for &[stock value Lionheart Shipyards 100] credits.`
 					to display
 						"stock amount Lionheart Shipyards" >= 100
 					goto "Sell 100 Lionheart Shipyards"
-				`	Sell 10 stocks for &[stock value Lionheart Shipyards]0 credits.`
+				`	Sell 10 stocks for &[stock value Lionheart Shipyards 10] credits.`
 					to display
 						"stock amount Lionheart Shipyards" >= 10
 					goto "Sell 10 Lionheart Shipyards"
@@ -1155,8 +1255,15 @@ mission "gci banking terminal"
 						"stock amount Lionheart Shipyards" >= 1
 					goto "Sell 1 Lionheart Shipyards"
 				`	[back]`
-					goto "stockoverview"
+					goto "lineLionheart Shipyards"
+			label "lineMegaparsec Shipyards"
+			``
 			label "Megaparsec Shipyards"
+			action
+				"stock value Megaparsec Shipyards 10000" = "stock value Megaparsec Shipyards" * 10000
+				"stock value Megaparsec Shipyards 1000" = "stock value Megaparsec Shipyards" * 1000
+				"stock value Megaparsec Shipyards 100" = "stock value Megaparsec Shipyards" * 100
+				"stock value Megaparsec Shipyards 10" = "stock value Megaparsec Shipyards" * 10
 			action
 				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
 			scene "scene/stock_chart_analysis"
@@ -1167,15 +1274,40 @@ mission "gci banking terminal"
 			``
 			`You hold: &[stock amount Megaparsec Shipyards] stocks at &[stock value Megaparsec Shipyards] credits each..`
 			choice
-				`	Buy 1000 stocks for &[stock value Megaparsec Shipyards]000 credits.`
+				`	Buy Megaparsec Shipyards stocks`
+					to display
+						"credits" > "stock value Megaparsec Shipyards"
+					goto "lineBuy Megaparsec Shipyards"
+				`	Sell Megaparsec Shipyards stocks`
+					to display
+						"stock amount Megaparsec Shipyards" > 0
+					goto "lineSell Megaparsec Shipyards"
+				`	[back]`
+					goto "linestockoverview"
+			label "lineBuy Megaparsec Shipyards"
+			``
+			label "Buy Megaparsec Shipyards"
+			scene "scene/stock_chart_analysis"
+			`Megaparsec Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Megaparsec Shipyards] stocks at &[stock value Megaparsec Shipyards] credits each.`
+			choice
+				`	Buy 10000 stocks for &[stock value Megaparsec Shipyards 10000] credits.`
+					to display
+						"credits" > "stock value Megaparsec Shipyards" * 10000
+					goto "Buy 10000 Megaparsec Shipyards"
+				`	Buy 1000 stocks for &[stock value Megaparsec Shipyards 1000] credits.`
 					to display
 						"credits" > "stock value Megaparsec Shipyards" * 1000
 					goto "Buy 1000 Megaparsec Shipyards"
-				`	Buy 100 stocks for &[stock value Megaparsec Shipyards]00 credits.`
+				`	Buy 100 stocks for &[stock value Megaparsec Shipyards 100] credits.`
 					to display
 						"credits" > "stock value Megaparsec Shipyards" * 100
 					goto "Buy 100 Megaparsec Shipyards"
-				`	Buy 10 stocks for &[stock value Megaparsec Shipyards]0 credits.`
+				`	Buy 10 stocks for &[stock value Megaparsec Shipyards 10] credits.`
 					to display
 						"credits" > "stock value Megaparsec Shipyards" * 10
 					goto "Buy 10 Megaparsec Shipyards"
@@ -1183,15 +1315,32 @@ mission "gci banking terminal"
 					to display
 						"credits" > "stock value Megaparsec Shipyards" * 1
 					goto "Buy 1 Megaparsec Shipyards"
-				`	Sell 1000 stocks for &[stock value Megaparsec Shipyards]000 credits.`
+				`	[back]`
+					goto "lineMegaparsec Shipyards"
+			label "lineSell Megaparsec Shipyards"
+			``
+			label "Sell Megaparsec Shipyards"
+			scene "scene/stock_chart_analysis"
+			`Megaparsec Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Megaparsec Shipyards] stocks at &[stock value Megaparsec Shipyards] credits each.`
+			choice
+				`	Sell 10000 stocks for &[stock value Megaparsec Shipyards 10000] credits.`
+					to display
+						"stock amount Megaparsec Shipyards" >= 10000
+					goto "Sell 10000 Megaparsec Shipyards"
+				`	Sell 1000 stocks for &[stock value Megaparsec Shipyards 1000] credits.`
 					to display
 						"stock amount Megaparsec Shipyards" >= 1000
 					goto "Sell 1000 Megaparsec Shipyards"
-				`	Sell 100 stocks for &[stock value Megaparsec Shipyards]00 credits.`
+				`	Sell 100 stocks for &[stock value Megaparsec Shipyards 100] credits.`
 					to display
 						"stock amount Megaparsec Shipyards" >= 100
 					goto "Sell 100 Megaparsec Shipyards"
-				`	Sell 10 stocks for &[stock value Megaparsec Shipyards]0 credits.`
+				`	Sell 10 stocks for &[stock value Megaparsec Shipyards 10] credits.`
 					to display
 						"stock amount Megaparsec Shipyards" >= 10
 					goto "Sell 10 Megaparsec Shipyards"
@@ -1200,8 +1349,15 @@ mission "gci banking terminal"
 						"stock amount Megaparsec Shipyards" >= 1
 					goto "Sell 1 Megaparsec Shipyards"
 				`	[back]`
-					goto "stockoverview"
+					goto "lineMegaparsec Shipyards"
+			label "lineSyndicate Shipyards"
+			``
 			label "Syndicate Shipyards"
+			action
+				"stock value Syndicate Shipyards 10000" = "stock value Syndicate Shipyards" * 10000
+				"stock value Syndicate Shipyards 1000" = "stock value Syndicate Shipyards" * 1000
+				"stock value Syndicate Shipyards 100" = "stock value Syndicate Shipyards" * 100
+				"stock value Syndicate Shipyards 10" = "stock value Syndicate Shipyards" * 10
 			action
 				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
 			scene "scene/stock_chart_analysis"
@@ -1212,15 +1368,40 @@ mission "gci banking terminal"
 			``
 			`You hold: &[stock amount Syndicate Shipyards] stocks at &[stock value Syndicate Shipyards] credits each..`
 			choice
-				`	Buy 1000 stocks for &[stock value Syndicate Shipyards]000 credits.`
+				`	Buy Syndicate Shipyards stocks`
+					to display
+						"credits" > "stock value Syndicate Shipyards"
+					goto "lineBuy Syndicate Shipyards"
+				`	Sell Syndicate Shipyards stocks`
+					to display
+						"stock amount Syndicate Shipyards" > 0
+					goto "lineSell Syndicate Shipyards"
+				`	[back]`
+					goto "linestockoverview"
+			label "lineBuy Syndicate Shipyards"
+			``
+			label "Buy Syndicate Shipyards"
+			scene "scene/stock_chart_analysis"
+			`Syndicate Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Syndicate Shipyards] stocks at &[stock value Syndicate Shipyards] credits each.`
+			choice
+				`	Buy 10000 stocks for &[stock value Syndicate Shipyards 10000] credits.`
+					to display
+						"credits" > "stock value Syndicate Shipyards" * 10000
+					goto "Buy 10000 Syndicate Shipyards"
+				`	Buy 1000 stocks for &[stock value Syndicate Shipyards 1000] credits.`
 					to display
 						"credits" > "stock value Syndicate Shipyards" * 1000
 					goto "Buy 1000 Syndicate Shipyards"
-				`	Buy 100 stocks for &[stock value Syndicate Shipyards]00 credits.`
+				`	Buy 100 stocks for &[stock value Syndicate Shipyards 100] credits.`
 					to display
 						"credits" > "stock value Syndicate Shipyards" * 100
 					goto "Buy 100 Syndicate Shipyards"
-				`	Buy 10 stocks for &[stock value Syndicate Shipyards]0 credits.`
+				`	Buy 10 stocks for &[stock value Syndicate Shipyards 10] credits.`
 					to display
 						"credits" > "stock value Syndicate Shipyards" * 10
 					goto "Buy 10 Syndicate Shipyards"
@@ -1228,15 +1409,32 @@ mission "gci banking terminal"
 					to display
 						"credits" > "stock value Syndicate Shipyards" * 1
 					goto "Buy 1 Syndicate Shipyards"
-				`	Sell 1000 stocks for &[stock value Syndicate Shipyards]000 credits.`
+				`	[back]`
+					goto "lineSyndicate Shipyards"
+			label "lineSell Syndicate Shipyards"
+			``
+			label "Sell Syndicate Shipyards"
+			scene "scene/stock_chart_analysis"
+			`Syndicate Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Syndicate Shipyards] stocks at &[stock value Syndicate Shipyards] credits each.`
+			choice
+				`	Sell 10000 stocks for &[stock value Syndicate Shipyards 10000] credits.`
+					to display
+						"stock amount Syndicate Shipyards" >= 10000
+					goto "Sell 10000 Syndicate Shipyards"
+				`	Sell 1000 stocks for &[stock value Syndicate Shipyards 1000] credits.`
 					to display
 						"stock amount Syndicate Shipyards" >= 1000
 					goto "Sell 1000 Syndicate Shipyards"
-				`	Sell 100 stocks for &[stock value Syndicate Shipyards]00 credits.`
+				`	Sell 100 stocks for &[stock value Syndicate Shipyards 100] credits.`
 					to display
 						"stock amount Syndicate Shipyards" >= 100
 					goto "Sell 100 Syndicate Shipyards"
-				`	Sell 10 stocks for &[stock value Syndicate Shipyards]0 credits.`
+				`	Sell 10 stocks for &[stock value Syndicate Shipyards 10] credits.`
 					to display
 						"stock amount Syndicate Shipyards" >= 10
 					goto "Sell 10 Syndicate Shipyards"
@@ -1245,8 +1443,15 @@ mission "gci banking terminal"
 						"stock amount Syndicate Shipyards" >= 1
 					goto "Sell 1 Syndicate Shipyards"
 				`	[back]`
-					goto "stockoverview"
+					goto "lineSyndicate Shipyards"
+			label "lineKraz Cybernetics"
+			``
 			label "Kraz Cybernetics"
+			action
+				"stock value Kraz Cybernetics 10000" = "stock value Kraz Cybernetics" * 10000
+				"stock value Kraz Cybernetics 1000" = "stock value Kraz Cybernetics" * 1000
+				"stock value Kraz Cybernetics 100" = "stock value Kraz Cybernetics" * 100
+				"stock value Kraz Cybernetics 10" = "stock value Kraz Cybernetics" * 10
 			action
 				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
 			scene "scene/stock_chart_analysis"
@@ -1257,15 +1462,40 @@ mission "gci banking terminal"
 			``
 			`You hold: &[stock amount Kraz Cybernetics] stocks at &[stock value Kraz Cybernetics] credits each..`
 			choice
-				`	Buy 1000 stocks for &[stock value Kraz Cybernetics]000 credits.`
+				`	Buy Kraz Cybernetics stocks`
+					to display
+						"credits" > "stock value Kraz Cybernetics"
+					goto "lineBuy Kraz Cybernetics"
+				`	Sell Kraz Cybernetics stocks`
+					to display
+						"stock amount Kraz Cybernetics" > 0
+					goto "lineSell Kraz Cybernetics"
+				`	[back]`
+					goto "linestockoverview"
+			label "lineBuy Kraz Cybernetics"
+			``
+			label "Buy Kraz Cybernetics"
+			scene "scene/stock_chart_analysis"
+			`Kraz Cybernetics`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Kraz Cybernetics] stocks at &[stock value Kraz Cybernetics] credits each.`
+			choice
+				`	Buy 10000 stocks for &[stock value Kraz Cybernetics 10000] credits.`
+					to display
+						"credits" > "stock value Kraz Cybernetics" * 10000
+					goto "Buy 10000 Kraz Cybernetics"
+				`	Buy 1000 stocks for &[stock value Kraz Cybernetics 1000] credits.`
 					to display
 						"credits" > "stock value Kraz Cybernetics" * 1000
 					goto "Buy 1000 Kraz Cybernetics"
-				`	Buy 100 stocks for &[stock value Kraz Cybernetics]00 credits.`
+				`	Buy 100 stocks for &[stock value Kraz Cybernetics 100] credits.`
 					to display
 						"credits" > "stock value Kraz Cybernetics" * 100
 					goto "Buy 100 Kraz Cybernetics"
-				`	Buy 10 stocks for &[stock value Kraz Cybernetics]0 credits.`
+				`	Buy 10 stocks for &[stock value Kraz Cybernetics 10] credits.`
 					to display
 						"credits" > "stock value Kraz Cybernetics" * 10
 					goto "Buy 10 Kraz Cybernetics"
@@ -1273,15 +1503,32 @@ mission "gci banking terminal"
 					to display
 						"credits" > "stock value Kraz Cybernetics" * 1
 					goto "Buy 1 Kraz Cybernetics"
-				`	Sell 1000 stocks for &[stock value Kraz Cybernetics]000 credits.`
+				`	[back]`
+					goto "lineKraz Cybernetics"
+			label "lineSell Kraz Cybernetics"
+			``
+			label "Sell Kraz Cybernetics"
+			scene "scene/stock_chart_analysis"
+			`Kraz Cybernetics`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Kraz Cybernetics] stocks at &[stock value Kraz Cybernetics] credits each.`
+			choice
+				`	Sell 10000 stocks for &[stock value Kraz Cybernetics 10000] credits.`
+					to display
+						"stock amount Kraz Cybernetics" >= 10000
+					goto "Sell 10000 Kraz Cybernetics"
+				`	Sell 1000 stocks for &[stock value Kraz Cybernetics 1000] credits.`
 					to display
 						"stock amount Kraz Cybernetics" >= 1000
 					goto "Sell 1000 Kraz Cybernetics"
-				`	Sell 100 stocks for &[stock value Kraz Cybernetics]00 credits.`
+				`	Sell 100 stocks for &[stock value Kraz Cybernetics 100] credits.`
 					to display
 						"stock amount Kraz Cybernetics" >= 100
 					goto "Sell 100 Kraz Cybernetics"
-				`	Sell 10 stocks for &[stock value Kraz Cybernetics]0 credits.`
+				`	Sell 10 stocks for &[stock value Kraz Cybernetics 10] credits.`
 					to display
 						"stock amount Kraz Cybernetics" >= 10
 					goto "Sell 10 Kraz Cybernetics"
@@ -1290,8 +1537,15 @@ mission "gci banking terminal"
 						"stock amount Kraz Cybernetics" >= 1
 					goto "Sell 1 Kraz Cybernetics"
 				`	[back]`
-					goto "stockoverview"
+					goto "lineKraz Cybernetics"
+			label "lineDeep Sky"
+			``
 			label "Deep Sky"
+			action
+				"stock value Deep Sky 10000" = "stock value Deep Sky" * 10000
+				"stock value Deep Sky 1000" = "stock value Deep Sky" * 1000
+				"stock value Deep Sky 100" = "stock value Deep Sky" * 100
+				"stock value Deep Sky 10" = "stock value Deep Sky" * 10
 			action
 				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
 			scene "scene/stock_chart_analysis"
@@ -1302,15 +1556,40 @@ mission "gci banking terminal"
 			``
 			`You hold: &[stock amount Deep Sky] stocks at &[stock value Deep Sky] credits each..`
 			choice
-				`	Buy 1000 stocks for &[stock value Deep Sky]000 credits.`
+				`	Buy Deep Sky stocks`
+					to display
+						"credits" > "stock value Deep Sky"
+					goto "lineBuy Deep Sky"
+				`	Sell Deep Sky stocks`
+					to display
+						"stock amount Deep Sky" > 0
+					goto "lineSell Deep Sky"
+				`	[back]`
+					goto "linestockoverview"
+			label "lineBuy Deep Sky"
+			``
+			label "Buy Deep Sky"
+			scene "scene/stock_chart_analysis"
+			`Deep Sky`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Deep Sky] stocks at &[stock value Deep Sky] credits each.`
+			choice
+				`	Buy 10000 stocks for &[stock value Deep Sky 10000] credits.`
+					to display
+						"credits" > "stock value Deep Sky" * 10000
+					goto "Buy 10000 Deep Sky"
+				`	Buy 1000 stocks for &[stock value Deep Sky 1000] credits.`
 					to display
 						"credits" > "stock value Deep Sky" * 1000
 					goto "Buy 1000 Deep Sky"
-				`	Buy 100 stocks for &[stock value Deep Sky]00 credits.`
+				`	Buy 100 stocks for &[stock value Deep Sky 100] credits.`
 					to display
 						"credits" > "stock value Deep Sky" * 100
 					goto "Buy 100 Deep Sky"
-				`	Buy 10 stocks for &[stock value Deep Sky]0 credits.`
+				`	Buy 10 stocks for &[stock value Deep Sky 10] credits.`
 					to display
 						"credits" > "stock value Deep Sky" * 10
 					goto "Buy 10 Deep Sky"
@@ -1318,15 +1597,32 @@ mission "gci banking terminal"
 					to display
 						"credits" > "stock value Deep Sky" * 1
 					goto "Buy 1 Deep Sky"
-				`	Sell 1000 stocks for &[stock value Deep Sky]000 credits.`
+				`	[back]`
+					goto "lineDeep Sky"
+			label "lineSell Deep Sky"
+			``
+			label "Sell Deep Sky"
+			scene "scene/stock_chart_analysis"
+			`Deep Sky`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Deep Sky] stocks at &[stock value Deep Sky] credits each.`
+			choice
+				`	Sell 10000 stocks for &[stock value Deep Sky 10000] credits.`
+					to display
+						"stock amount Deep Sky" >= 10000
+					goto "Sell 10000 Deep Sky"
+				`	Sell 1000 stocks for &[stock value Deep Sky 1000] credits.`
 					to display
 						"stock amount Deep Sky" >= 1000
 					goto "Sell 1000 Deep Sky"
-				`	Sell 100 stocks for &[stock value Deep Sky]00 credits.`
+				`	Sell 100 stocks for &[stock value Deep Sky 100] credits.`
 					to display
 						"stock amount Deep Sky" >= 100
 					goto "Sell 100 Deep Sky"
-				`	Sell 10 stocks for &[stock value Deep Sky]0 credits.`
+				`	Sell 10 stocks for &[stock value Deep Sky 10] credits.`
 					to display
 						"stock amount Deep Sky" >= 10
 					goto "Sell 10 Deep Sky"
@@ -1335,8 +1631,15 @@ mission "gci banking terminal"
 						"stock amount Deep Sky" >= 1
 					goto "Sell 1 Deep Sky"
 				`	[back]`
-					goto "stockoverview"
+					goto "lineDeep Sky"
+			label "lineLovelace Labs"
+			``
 			label "Lovelace Labs"
+			action
+				"stock value Lovelace Labs 10000" = "stock value Lovelace Labs" * 10000
+				"stock value Lovelace Labs 1000" = "stock value Lovelace Labs" * 1000
+				"stock value Lovelace Labs 100" = "stock value Lovelace Labs" * 100
+				"stock value Lovelace Labs 10" = "stock value Lovelace Labs" * 10
 			action
 				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
 			scene "scene/stock_chart_analysis"
@@ -1347,15 +1650,40 @@ mission "gci banking terminal"
 			``
 			`You hold: &[stock amount Lovelace Labs] stocks at &[stock value Lovelace Labs] credits each..`
 			choice
-				`	Buy 1000 stocks for &[stock value Lovelace Labs]000 credits.`
+				`	Buy Lovelace Labs stocks`
+					to display
+						"credits" > "stock value Lovelace Labs"
+					goto "lineBuy Lovelace Labs"
+				`	Sell Lovelace Labs stocks`
+					to display
+						"stock amount Lovelace Labs" > 0
+					goto "lineSell Lovelace Labs"
+				`	[back]`
+					goto "linestockoverview"
+			label "lineBuy Lovelace Labs"
+			``
+			label "Buy Lovelace Labs"
+			scene "scene/stock_chart_analysis"
+			`Lovelace Labs`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Lovelace Labs] stocks at &[stock value Lovelace Labs] credits each.`
+			choice
+				`	Buy 10000 stocks for &[stock value Lovelace Labs 10000] credits.`
+					to display
+						"credits" > "stock value Lovelace Labs" * 10000
+					goto "Buy 10000 Lovelace Labs"
+				`	Buy 1000 stocks for &[stock value Lovelace Labs 1000] credits.`
 					to display
 						"credits" > "stock value Lovelace Labs" * 1000
 					goto "Buy 1000 Lovelace Labs"
-				`	Buy 100 stocks for &[stock value Lovelace Labs]00 credits.`
+				`	Buy 100 stocks for &[stock value Lovelace Labs 100] credits.`
 					to display
 						"credits" > "stock value Lovelace Labs" * 100
 					goto "Buy 100 Lovelace Labs"
-				`	Buy 10 stocks for &[stock value Lovelace Labs]0 credits.`
+				`	Buy 10 stocks for &[stock value Lovelace Labs 10] credits.`
 					to display
 						"credits" > "stock value Lovelace Labs" * 10
 					goto "Buy 10 Lovelace Labs"
@@ -1363,15 +1691,32 @@ mission "gci banking terminal"
 					to display
 						"credits" > "stock value Lovelace Labs" * 1
 					goto "Buy 1 Lovelace Labs"
-				`	Sell 1000 stocks for &[stock value Lovelace Labs]000 credits.`
+				`	[back]`
+					goto "lineLovelace Labs"
+			label "lineSell Lovelace Labs"
+			``
+			label "Sell Lovelace Labs"
+			scene "scene/stock_chart_analysis"
+			`Lovelace Labs`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Lovelace Labs] stocks at &[stock value Lovelace Labs] credits each.`
+			choice
+				`	Sell 10000 stocks for &[stock value Lovelace Labs 10000] credits.`
+					to display
+						"stock amount Lovelace Labs" >= 10000
+					goto "Sell 10000 Lovelace Labs"
+				`	Sell 1000 stocks for &[stock value Lovelace Labs 1000] credits.`
 					to display
 						"stock amount Lovelace Labs" >= 1000
 					goto "Sell 1000 Lovelace Labs"
-				`	Sell 100 stocks for &[stock value Lovelace Labs]00 credits.`
+				`	Sell 100 stocks for &[stock value Lovelace Labs 100] credits.`
 					to display
 						"stock amount Lovelace Labs" >= 100
 					goto "Sell 100 Lovelace Labs"
-				`	Sell 10 stocks for &[stock value Lovelace Labs]0 credits.`
+				`	Sell 10 stocks for &[stock value Lovelace Labs 10] credits.`
 					to display
 						"stock amount Lovelace Labs" >= 10
 					goto "Sell 10 Lovelace Labs"
@@ -1380,8 +1725,15 @@ mission "gci banking terminal"
 						"stock amount Lovelace Labs" >= 1
 					goto "Sell 1 Lovelace Labs"
 				`	[back]`
-					goto "stockoverview"
+					goto "lineLovelace Labs"
+			label "lineDelta V"
+			``
 			label "Delta V"
+			action
+				"stock value Delta V 10000" = "stock value Delta V" * 10000
+				"stock value Delta V 1000" = "stock value Delta V" * 1000
+				"stock value Delta V 100" = "stock value Delta V" * 100
+				"stock value Delta V 10" = "stock value Delta V" * 10
 			action
 				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
 			scene "scene/stock_chart_analysis"
@@ -1392,15 +1744,40 @@ mission "gci banking terminal"
 			``
 			`You hold: &[stock amount Delta V] stocks at &[stock value Delta V] credits each..`
 			choice
-				`	Buy 1000 stocks for &[stock value Delta V]000 credits.`
+				`	Buy Delta V stocks`
+					to display
+						"credits" > "stock value Delta V"
+					goto "lineBuy Delta V"
+				`	Sell Delta V stocks`
+					to display
+						"stock amount Delta V" > 0
+					goto "lineSell Delta V"
+				`	[back]`
+					goto "linestockoverview"
+			label "lineBuy Delta V"
+			``
+			label "Buy Delta V"
+			scene "scene/stock_chart_analysis"
+			`Delta V`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Delta V] stocks at &[stock value Delta V] credits each.`
+			choice
+				`	Buy 10000 stocks for &[stock value Delta V 10000] credits.`
+					to display
+						"credits" > "stock value Delta V" * 10000
+					goto "Buy 10000 Delta V"
+				`	Buy 1000 stocks for &[stock value Delta V 1000] credits.`
 					to display
 						"credits" > "stock value Delta V" * 1000
 					goto "Buy 1000 Delta V"
-				`	Buy 100 stocks for &[stock value Delta V]00 credits.`
+				`	Buy 100 stocks for &[stock value Delta V 100] credits.`
 					to display
 						"credits" > "stock value Delta V" * 100
 					goto "Buy 100 Delta V"
-				`	Buy 10 stocks for &[stock value Delta V]0 credits.`
+				`	Buy 10 stocks for &[stock value Delta V 10] credits.`
 					to display
 						"credits" > "stock value Delta V" * 10
 					goto "Buy 10 Delta V"
@@ -1408,15 +1785,32 @@ mission "gci banking terminal"
 					to display
 						"credits" > "stock value Delta V" * 1
 					goto "Buy 1 Delta V"
-				`	Sell 1000 stocks for &[stock value Delta V]000 credits.`
+				`	[back]`
+					goto "lineDelta V"
+			label "lineSell Delta V"
+			``
+			label "Sell Delta V"
+			scene "scene/stock_chart_analysis"
+			`Delta V`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Delta V] stocks at &[stock value Delta V] credits each.`
+			choice
+				`	Sell 10000 stocks for &[stock value Delta V 10000] credits.`
+					to display
+						"stock amount Delta V" >= 10000
+					goto "Sell 10000 Delta V"
+				`	Sell 1000 stocks for &[stock value Delta V 1000] credits.`
 					to display
 						"stock amount Delta V" >= 1000
 					goto "Sell 1000 Delta V"
-				`	Sell 100 stocks for &[stock value Delta V]00 credits.`
+				`	Sell 100 stocks for &[stock value Delta V 100] credits.`
 					to display
 						"stock amount Delta V" >= 100
 					goto "Sell 100 Delta V"
-				`	Sell 10 stocks for &[stock value Delta V]0 credits.`
+				`	Sell 10 stocks for &[stock value Delta V 10] credits.`
 					to display
 						"stock amount Delta V" >= 10
 					goto "Sell 10 Delta V"
@@ -1425,8 +1819,15 @@ mission "gci banking terminal"
 						"stock amount Delta V" >= 1
 					goto "Sell 1 Delta V"
 				`	[back]`
-					goto "stockoverview"
+					goto "lineDelta V"
+			label "lineBetelgeuse Shipyards"
+			``
 			label "Betelgeuse Shipyards"
+			action
+				"stock value Betelgeuse Shipyards 10000" = "stock value Betelgeuse Shipyards" * 10000
+				"stock value Betelgeuse Shipyards 1000" = "stock value Betelgeuse Shipyards" * 1000
+				"stock value Betelgeuse Shipyards 100" = "stock value Betelgeuse Shipyards" * 100
+				"stock value Betelgeuse Shipyards 10" = "stock value Betelgeuse Shipyards" * 10
 			action
 				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
 			scene "scene/stock_chart_analysis"
@@ -1437,15 +1838,40 @@ mission "gci banking terminal"
 			``
 			`You hold: &[stock amount Betelgeuse Shipyards] stocks at &[stock value Betelgeuse Shipyards] credits each..`
 			choice
-				`	Buy 1000 stocks for &[stock value Betelgeuse Shipyards]000 credits.`
+				`	Buy Betelgeuse Shipyards stocks`
+					to display
+						"credits" > "stock value Betelgeuse Shipyards"
+					goto "lineBuy Betelgeuse Shipyards"
+				`	Sell Betelgeuse Shipyards stocks`
+					to display
+						"stock amount Betelgeuse Shipyards" > 0
+					goto "lineSell Betelgeuse Shipyards"
+				`	[back]`
+					goto "linestockoverview"
+			label "lineBuy Betelgeuse Shipyards"
+			``
+			label "Buy Betelgeuse Shipyards"
+			scene "scene/stock_chart_analysis"
+			`Betelgeuse Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Betelgeuse Shipyards] stocks at &[stock value Betelgeuse Shipyards] credits each.`
+			choice
+				`	Buy 10000 stocks for &[stock value Betelgeuse Shipyards 10000] credits.`
+					to display
+						"credits" > "stock value Betelgeuse Shipyards" * 10000
+					goto "Buy 10000 Betelgeuse Shipyards"
+				`	Buy 1000 stocks for &[stock value Betelgeuse Shipyards 1000] credits.`
 					to display
 						"credits" > "stock value Betelgeuse Shipyards" * 1000
 					goto "Buy 1000 Betelgeuse Shipyards"
-				`	Buy 100 stocks for &[stock value Betelgeuse Shipyards]00 credits.`
+				`	Buy 100 stocks for &[stock value Betelgeuse Shipyards 100] credits.`
 					to display
 						"credits" > "stock value Betelgeuse Shipyards" * 100
 					goto "Buy 100 Betelgeuse Shipyards"
-				`	Buy 10 stocks for &[stock value Betelgeuse Shipyards]0 credits.`
+				`	Buy 10 stocks for &[stock value Betelgeuse Shipyards 10] credits.`
 					to display
 						"credits" > "stock value Betelgeuse Shipyards" * 10
 					goto "Buy 10 Betelgeuse Shipyards"
@@ -1453,15 +1879,32 @@ mission "gci banking terminal"
 					to display
 						"credits" > "stock value Betelgeuse Shipyards" * 1
 					goto "Buy 1 Betelgeuse Shipyards"
-				`	Sell 1000 stocks for &[stock value Betelgeuse Shipyards]000 credits.`
+				`	[back]`
+					goto "lineBetelgeuse Shipyards"
+			label "lineSell Betelgeuse Shipyards"
+			``
+			label "Sell Betelgeuse Shipyards"
+			scene "scene/stock_chart_analysis"
+			`Betelgeuse Shipyards`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Betelgeuse Shipyards] stocks at &[stock value Betelgeuse Shipyards] credits each.`
+			choice
+				`	Sell 10000 stocks for &[stock value Betelgeuse Shipyards 10000] credits.`
+					to display
+						"stock amount Betelgeuse Shipyards" >= 10000
+					goto "Sell 10000 Betelgeuse Shipyards"
+				`	Sell 1000 stocks for &[stock value Betelgeuse Shipyards 1000] credits.`
 					to display
 						"stock amount Betelgeuse Shipyards" >= 1000
 					goto "Sell 1000 Betelgeuse Shipyards"
-				`	Sell 100 stocks for &[stock value Betelgeuse Shipyards]00 credits.`
+				`	Sell 100 stocks for &[stock value Betelgeuse Shipyards 100] credits.`
 					to display
 						"stock amount Betelgeuse Shipyards" >= 100
 					goto "Sell 100 Betelgeuse Shipyards"
-				`	Sell 10 stocks for &[stock value Betelgeuse Shipyards]0 credits.`
+				`	Sell 10 stocks for &[stock value Betelgeuse Shipyards 10] credits.`
 					to display
 						"stock amount Betelgeuse Shipyards" >= 10
 					goto "Sell 10 Betelgeuse Shipyards"
@@ -1470,8 +1913,15 @@ mission "gci banking terminal"
 						"stock amount Betelgeuse Shipyards" >= 1
 					goto "Sell 1 Betelgeuse Shipyards"
 				`	[back]`
-					goto "stockoverview"
+					goto "lineBetelgeuse Shipyards"
+			label "lineTarazed Corporation"
+			``
 			label "Tarazed Corporation"
+			action
+				"stock value Tarazed Corporation 10000" = "stock value Tarazed Corporation" * 10000
+				"stock value Tarazed Corporation 1000" = "stock value Tarazed Corporation" * 1000
+				"stock value Tarazed Corporation 100" = "stock value Tarazed Corporation" * 100
+				"stock value Tarazed Corporation 10" = "stock value Tarazed Corporation" * 10
 			action
 				stocktotalvalue = "stock amount Southbound Shipyards" * "stock value Southbound Shipyards" + "stock amount Lionheart Shipyards" * "stock value Lionheart Shipyards" + "stock amount Megaparsec Shipyards" * "stock value Megaparsec Shipyards" + "stock amount Syndicate Shipyards" * "stock value Syndicate Shipyards" + "stock amount Kraz Cybernetics" * "stock value Kraz Cybernetics" + "stock amount Deep Sky" * "stock value Deep Sky" + "stock amount Lovelace Labs" * "stock value Lovelace Labs" + "stock amount Delta V" * "stock value Delta V" + "stock amount Betelgeuse Shipyards" * "stock value Betelgeuse Shipyards" + "stock amount Tarazed Corporation" * "stock value Tarazed Corporation"
 			scene "scene/stock_chart_analysis"
@@ -1482,15 +1932,40 @@ mission "gci banking terminal"
 			``
 			`You hold: &[stock amount Tarazed Corporation] stocks at &[stock value Tarazed Corporation] credits each..`
 			choice
-				`	Buy 1000 stocks for &[stock value Tarazed Corporation]000 credits.`
+				`	Buy Tarazed Corporation stocks`
+					to display
+						"credits" > "stock value Tarazed Corporation"
+					goto "lineBuy Tarazed Corporation"
+				`	Sell Tarazed Corporation stocks`
+					to display
+						"stock amount Tarazed Corporation" > 0
+					goto "lineSell Tarazed Corporation"
+				`	[back]`
+					goto "linestockoverview"
+			label "lineBuy Tarazed Corporation"
+			``
+			label "Buy Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Tarazed Corporation`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Tarazed Corporation] stocks at &[stock value Tarazed Corporation] credits each.`
+			choice
+				`	Buy 10000 stocks for &[stock value Tarazed Corporation 10000] credits.`
+					to display
+						"credits" > "stock value Tarazed Corporation" * 10000
+					goto "Buy 10000 Tarazed Corporation"
+				`	Buy 1000 stocks for &[stock value Tarazed Corporation 1000] credits.`
 					to display
 						"credits" > "stock value Tarazed Corporation" * 1000
 					goto "Buy 1000 Tarazed Corporation"
-				`	Buy 100 stocks for &[stock value Tarazed Corporation]00 credits.`
+				`	Buy 100 stocks for &[stock value Tarazed Corporation 100] credits.`
 					to display
 						"credits" > "stock value Tarazed Corporation" * 100
 					goto "Buy 100 Tarazed Corporation"
-				`	Buy 10 stocks for &[stock value Tarazed Corporation]0 credits.`
+				`	Buy 10 stocks for &[stock value Tarazed Corporation 10] credits.`
 					to display
 						"credits" > "stock value Tarazed Corporation" * 10
 					goto "Buy 10 Tarazed Corporation"
@@ -1498,15 +1973,32 @@ mission "gci banking terminal"
 					to display
 						"credits" > "stock value Tarazed Corporation" * 1
 					goto "Buy 1 Tarazed Corporation"
-				`	Sell 1000 stocks for &[stock value Tarazed Corporation]000 credits.`
+				`	[back]`
+					goto "lineTarazed Corporation"
+			label "lineSell Tarazed Corporation"
+			``
+			label "Sell Tarazed Corporation"
+			scene "scene/stock_chart_analysis"
+			`Tarazed Corporation`
+			``
+			`Cash chip balance: &[credits] credits`
+			`Value of all owned stocks: &[stocktotalvalue] credits`
+			``
+			`You hold: &[stock amount Tarazed Corporation] stocks at &[stock value Tarazed Corporation] credits each.`
+			choice
+				`	Sell 10000 stocks for &[stock value Tarazed Corporation 10000] credits.`
+					to display
+						"stock amount Tarazed Corporation" >= 10000
+					goto "Sell 10000 Tarazed Corporation"
+				`	Sell 1000 stocks for &[stock value Tarazed Corporation 1000] credits.`
 					to display
 						"stock amount Tarazed Corporation" >= 1000
 					goto "Sell 1000 Tarazed Corporation"
-				`	Sell 100 stocks for &[stock value Tarazed Corporation]00 credits.`
+				`	Sell 100 stocks for &[stock value Tarazed Corporation 100] credits.`
 					to display
 						"stock amount Tarazed Corporation" >= 100
 					goto "Sell 100 Tarazed Corporation"
-				`	Sell 10 stocks for &[stock value Tarazed Corporation]0 credits.`
+				`	Sell 10 stocks for &[stock value Tarazed Corporation 10] credits.`
 					to display
 						"stock amount Tarazed Corporation" >= 10
 					goto "Sell 10 Tarazed Corporation"
@@ -1515,7 +2007,13 @@ mission "gci banking terminal"
 						"stock amount Tarazed Corporation" >= 1
 					goto "Sell 1 Tarazed Corporation"
 				`	[back]`
-					goto "stockoverview"
+					goto "lineTarazed Corporation"
+			label "Buy 10000 Southbound Shipyards"
+			action
+				"price" = "stock value Southbound Shipyards" * 10000
+				"stock amount Southbound Shipyards" += 10000
+			`Bought 10000 Southbound Shipyards`
+				goto "buy stocks Southbound Shipyards"
 			label "Buy 1000 Southbound Shipyards"
 			action
 				"price" = "stock value Southbound Shipyards" * 1000
@@ -1540,6 +2038,12 @@ mission "gci banking terminal"
 				"stock amount Southbound Shipyards" += 1
 			`Bought 1 Southbound Shipyards`
 				goto "buy stocks Southbound Shipyards"
+			label "Sell 10000 Southbound Shipyards"
+			action
+				"price" = "stock value Southbound Shipyards" * 10000
+				"stock amount Southbound Shipyards" -= 10000
+			`Sold 10000 Southbound Shipyards`
+				goto "sell stocks Southbound Shipyards"
 			label "Sell 1000 Southbound Shipyards"
 			action
 				"price" = "stock value Southbound Shipyards" * 1000
@@ -1564,6 +2068,12 @@ mission "gci banking terminal"
 				"stock amount Southbound Shipyards" -= 1
 			`Sold 1 Southbound Shipyards`
 				goto "sell stocks Southbound Shipyards"
+			label "Buy 10000 Lionheart Shipyards"
+			action
+				"price" = "stock value Lionheart Shipyards" * 10000
+				"stock amount Lionheart Shipyards" += 10000
+			`Bought 10000 Lionheart Shipyards`
+				goto "buy stocks Lionheart Shipyards"
 			label "Buy 1000 Lionheart Shipyards"
 			action
 				"price" = "stock value Lionheart Shipyards" * 1000
@@ -1588,6 +2098,12 @@ mission "gci banking terminal"
 				"stock amount Lionheart Shipyards" += 1
 			`Bought 1 Lionheart Shipyards`
 				goto "buy stocks Lionheart Shipyards"
+			label "Sell 10000 Lionheart Shipyards"
+			action
+				"price" = "stock value Lionheart Shipyards" * 10000
+				"stock amount Lionheart Shipyards" -= 10000
+			`Sold 10000 Lionheart Shipyards`
+				goto "sell stocks Lionheart Shipyards"
 			label "Sell 1000 Lionheart Shipyards"
 			action
 				"price" = "stock value Lionheart Shipyards" * 1000
@@ -1612,6 +2128,12 @@ mission "gci banking terminal"
 				"stock amount Lionheart Shipyards" -= 1
 			`Sold 1 Lionheart Shipyards`
 				goto "sell stocks Lionheart Shipyards"
+			label "Buy 10000 Megaparsec Shipyards"
+			action
+				"price" = "stock value Megaparsec Shipyards" * 10000
+				"stock amount Megaparsec Shipyards" += 10000
+			`Bought 10000 Megaparsec Shipyards`
+				goto "buy stocks Megaparsec Shipyards"
 			label "Buy 1000 Megaparsec Shipyards"
 			action
 				"price" = "stock value Megaparsec Shipyards" * 1000
@@ -1636,6 +2158,12 @@ mission "gci banking terminal"
 				"stock amount Megaparsec Shipyards" += 1
 			`Bought 1 Megaparsec Shipyards`
 				goto "buy stocks Megaparsec Shipyards"
+			label "Sell 10000 Megaparsec Shipyards"
+			action
+				"price" = "stock value Megaparsec Shipyards" * 10000
+				"stock amount Megaparsec Shipyards" -= 10000
+			`Sold 10000 Megaparsec Shipyards`
+				goto "sell stocks Megaparsec Shipyards"
 			label "Sell 1000 Megaparsec Shipyards"
 			action
 				"price" = "stock value Megaparsec Shipyards" * 1000
@@ -1660,6 +2188,12 @@ mission "gci banking terminal"
 				"stock amount Megaparsec Shipyards" -= 1
 			`Sold 1 Megaparsec Shipyards`
 				goto "sell stocks Megaparsec Shipyards"
+			label "Buy 10000 Syndicate Shipyards"
+			action
+				"price" = "stock value Syndicate Shipyards" * 10000
+				"stock amount Syndicate Shipyards" += 10000
+			`Bought 10000 Syndicate Shipyards`
+				goto "buy stocks Syndicate Shipyards"
 			label "Buy 1000 Syndicate Shipyards"
 			action
 				"price" = "stock value Syndicate Shipyards" * 1000
@@ -1684,6 +2218,12 @@ mission "gci banking terminal"
 				"stock amount Syndicate Shipyards" += 1
 			`Bought 1 Syndicate Shipyards`
 				goto "buy stocks Syndicate Shipyards"
+			label "Sell 10000 Syndicate Shipyards"
+			action
+				"price" = "stock value Syndicate Shipyards" * 10000
+				"stock amount Syndicate Shipyards" -= 10000
+			`Sold 10000 Syndicate Shipyards`
+				goto "sell stocks Syndicate Shipyards"
 			label "Sell 1000 Syndicate Shipyards"
 			action
 				"price" = "stock value Syndicate Shipyards" * 1000
@@ -1708,6 +2248,12 @@ mission "gci banking terminal"
 				"stock amount Syndicate Shipyards" -= 1
 			`Sold 1 Syndicate Shipyards`
 				goto "sell stocks Syndicate Shipyards"
+			label "Buy 10000 Kraz Cybernetics"
+			action
+				"price" = "stock value Kraz Cybernetics" * 10000
+				"stock amount Kraz Cybernetics" += 10000
+			`Bought 10000 Kraz Cybernetics`
+				goto "buy stocks Kraz Cybernetics"
 			label "Buy 1000 Kraz Cybernetics"
 			action
 				"price" = "stock value Kraz Cybernetics" * 1000
@@ -1732,6 +2278,12 @@ mission "gci banking terminal"
 				"stock amount Kraz Cybernetics" += 1
 			`Bought 1 Kraz Cybernetics`
 				goto "buy stocks Kraz Cybernetics"
+			label "Sell 10000 Kraz Cybernetics"
+			action
+				"price" = "stock value Kraz Cybernetics" * 10000
+				"stock amount Kraz Cybernetics" -= 10000
+			`Sold 10000 Kraz Cybernetics`
+				goto "sell stocks Kraz Cybernetics"
 			label "Sell 1000 Kraz Cybernetics"
 			action
 				"price" = "stock value Kraz Cybernetics" * 1000
@@ -1756,6 +2308,12 @@ mission "gci banking terminal"
 				"stock amount Kraz Cybernetics" -= 1
 			`Sold 1 Kraz Cybernetics`
 				goto "sell stocks Kraz Cybernetics"
+			label "Buy 10000 Deep Sky"
+			action
+				"price" = "stock value Deep Sky" * 10000
+				"stock amount Deep Sky" += 10000
+			`Bought 10000 Deep Sky`
+				goto "buy stocks Deep Sky"
 			label "Buy 1000 Deep Sky"
 			action
 				"price" = "stock value Deep Sky" * 1000
@@ -1780,6 +2338,12 @@ mission "gci banking terminal"
 				"stock amount Deep Sky" += 1
 			`Bought 1 Deep Sky`
 				goto "buy stocks Deep Sky"
+			label "Sell 10000 Deep Sky"
+			action
+				"price" = "stock value Deep Sky" * 10000
+				"stock amount Deep Sky" -= 10000
+			`Sold 10000 Deep Sky`
+				goto "sell stocks Deep Sky"
 			label "Sell 1000 Deep Sky"
 			action
 				"price" = "stock value Deep Sky" * 1000
@@ -1804,6 +2368,12 @@ mission "gci banking terminal"
 				"stock amount Deep Sky" -= 1
 			`Sold 1 Deep Sky`
 				goto "sell stocks Deep Sky"
+			label "Buy 10000 Lovelace Labs"
+			action
+				"price" = "stock value Lovelace Labs" * 10000
+				"stock amount Lovelace Labs" += 10000
+			`Bought 10000 Lovelace Labs`
+				goto "buy stocks Lovelace Labs"
 			label "Buy 1000 Lovelace Labs"
 			action
 				"price" = "stock value Lovelace Labs" * 1000
@@ -1828,6 +2398,12 @@ mission "gci banking terminal"
 				"stock amount Lovelace Labs" += 1
 			`Bought 1 Lovelace Labs`
 				goto "buy stocks Lovelace Labs"
+			label "Sell 10000 Lovelace Labs"
+			action
+				"price" = "stock value Lovelace Labs" * 10000
+				"stock amount Lovelace Labs" -= 10000
+			`Sold 10000 Lovelace Labs`
+				goto "sell stocks Lovelace Labs"
 			label "Sell 1000 Lovelace Labs"
 			action
 				"price" = "stock value Lovelace Labs" * 1000
@@ -1852,6 +2428,12 @@ mission "gci banking terminal"
 				"stock amount Lovelace Labs" -= 1
 			`Sold 1 Lovelace Labs`
 				goto "sell stocks Lovelace Labs"
+			label "Buy 10000 Delta V"
+			action
+				"price" = "stock value Delta V" * 10000
+				"stock amount Delta V" += 10000
+			`Bought 10000 Delta V`
+				goto "buy stocks Delta V"
 			label "Buy 1000 Delta V"
 			action
 				"price" = "stock value Delta V" * 1000
@@ -1876,6 +2458,12 @@ mission "gci banking terminal"
 				"stock amount Delta V" += 1
 			`Bought 1 Delta V`
 				goto "buy stocks Delta V"
+			label "Sell 10000 Delta V"
+			action
+				"price" = "stock value Delta V" * 10000
+				"stock amount Delta V" -= 10000
+			`Sold 10000 Delta V`
+				goto "sell stocks Delta V"
 			label "Sell 1000 Delta V"
 			action
 				"price" = "stock value Delta V" * 1000
@@ -1900,6 +2488,12 @@ mission "gci banking terminal"
 				"stock amount Delta V" -= 1
 			`Sold 1 Delta V`
 				goto "sell stocks Delta V"
+			label "Buy 10000 Betelgeuse Shipyards"
+			action
+				"price" = "stock value Betelgeuse Shipyards" * 10000
+				"stock amount Betelgeuse Shipyards" += 10000
+			`Bought 10000 Betelgeuse Shipyards`
+				goto "buy stocks Betelgeuse Shipyards"
 			label "Buy 1000 Betelgeuse Shipyards"
 			action
 				"price" = "stock value Betelgeuse Shipyards" * 1000
@@ -1924,6 +2518,12 @@ mission "gci banking terminal"
 				"stock amount Betelgeuse Shipyards" += 1
 			`Bought 1 Betelgeuse Shipyards`
 				goto "buy stocks Betelgeuse Shipyards"
+			label "Sell 10000 Betelgeuse Shipyards"
+			action
+				"price" = "stock value Betelgeuse Shipyards" * 10000
+				"stock amount Betelgeuse Shipyards" -= 10000
+			`Sold 10000 Betelgeuse Shipyards`
+				goto "sell stocks Betelgeuse Shipyards"
 			label "Sell 1000 Betelgeuse Shipyards"
 			action
 				"price" = "stock value Betelgeuse Shipyards" * 1000
@@ -1948,6 +2548,12 @@ mission "gci banking terminal"
 				"stock amount Betelgeuse Shipyards" -= 1
 			`Sold 1 Betelgeuse Shipyards`
 				goto "sell stocks Betelgeuse Shipyards"
+			label "Buy 10000 Tarazed Corporation"
+			action
+				"price" = "stock value Tarazed Corporation" * 10000
+				"stock amount Tarazed Corporation" += 10000
+			`Bought 10000 Tarazed Corporation`
+				goto "buy stocks Tarazed Corporation"
 			label "Buy 1000 Tarazed Corporation"
 			action
 				"price" = "stock value Tarazed Corporation" * 1000
@@ -1972,6 +2578,12 @@ mission "gci banking terminal"
 				"stock amount Tarazed Corporation" += 1
 			`Bought 1 Tarazed Corporation`
 				goto "buy stocks Tarazed Corporation"
+			label "Sell 10000 Tarazed Corporation"
+			action
+				"price" = "stock value Tarazed Corporation" * 10000
+				"stock amount Tarazed Corporation" -= 10000
+			`Sold 10000 Tarazed Corporation`
+				goto "sell stocks Tarazed Corporation"
 			label "Sell 1000 Tarazed Corporation"
 			action
 				"price" = "stock value Tarazed Corporation" * 1000
@@ -1997,6 +2609,13 @@ mission "gci banking terminal"
 			`Sold 1 Tarazed Corporation`
 				goto "sell stocks Tarazed Corporation"
 			label "buy stocks Southbound Shipyards"
+			label "buy stocks 10000 Southbound Shipyards"
+			branch "buy stocks 1000 Southbound Shipyards"
+				"price" < 10000
+			action
+				payment -10000
+				price -= 10000
+			branch "buy stocks 10000 Southbound Shipyards"
 			label "buy stocks 1000 Southbound Shipyards"
 			branch "buy stocks 100 Southbound Shipyards"
 				"price" < 1000
@@ -2027,42 +2646,56 @@ mission "gci banking terminal"
 			branch "buy stocks 1 Southbound Shipyards"
 
 			label "buy stocks end Southbound Shipyards"
-			branch "Southbound Shipyards"
+			branch "Buy Southbound Shipyards"
 
 			label "sell stocks Southbound Shipyards"
 
+			label "sell stocks 10000 Southbound Shipyards"
+			branch "sell stocks 1000 Southbound Shipyards"
+				"price" < 10000
+			action
+				payment +10000
+				price -= 10000
+			branch "sell stocks 10000 Southbound Shipyards"
 			label "sell stocks 1000 Southbound Shipyards"
-			branch "buy stocks 100 Southbound Shipyards"
+			branch "sell stocks 100 Southbound Shipyards"
 				"price" < 1000
 			action
-				payment -1000
+				payment +1000
 				price -= 1000
 			branch "sell stocks 1000 Southbound Shipyards"
 			label "sell stocks 100 Southbound Shipyards"
-			branch "buy stocks 10 Southbound Shipyards"
+			branch "sell stocks 10 Southbound Shipyards"
 				"price" < 100
 			action
-				payment -100
+				payment +100
 				price -= 100
 			branch "sell stocks 100 Southbound Shipyards"
 			label "sell stocks 10 Southbound Shipyards"
-			branch "buy stocks 1 Southbound Shipyards"
+			branch "sell stocks 1 Southbound Shipyards"
 				"price" < 10
 			action
-				payment -10
+				payment +10
 				price -= 10
 			branch "sell stocks 10 Southbound Shipyards"
 			label "sell stocks 1 Southbound Shipyards"
 			branch "sell stocks end Southbound Shipyards"
 				"price" < 1
 			action
-				payment -1
+				payment +1
 				price -= 1
 			branch "sell stocks 1 Southbound Shipyards"
 
 			label "sell stocks end Southbound Shipyards"
-			branch "Southbound Shipyards"
+			branch "Sell Southbound Shipyards"
 			label "buy stocks Lionheart Shipyards"
+			label "buy stocks 10000 Lionheart Shipyards"
+			branch "buy stocks 1000 Lionheart Shipyards"
+				"price" < 10000
+			action
+				payment -10000
+				price -= 10000
+			branch "buy stocks 10000 Lionheart Shipyards"
 			label "buy stocks 1000 Lionheart Shipyards"
 			branch "buy stocks 100 Lionheart Shipyards"
 				"price" < 1000
@@ -2093,42 +2726,56 @@ mission "gci banking terminal"
 			branch "buy stocks 1 Lionheart Shipyards"
 
 			label "buy stocks end Lionheart Shipyards"
-			branch "Lionheart Shipyards"
+			branch "Buy Lionheart Shipyards"
 
 			label "sell stocks Lionheart Shipyards"
 
+			label "sell stocks 10000 Lionheart Shipyards"
+			branch "sell stocks 1000 Lionheart Shipyards"
+				"price" < 10000
+			action
+				payment +10000
+				price -= 10000
+			branch "sell stocks 10000 Lionheart Shipyards"
 			label "sell stocks 1000 Lionheart Shipyards"
-			branch "buy stocks 100 Lionheart Shipyards"
+			branch "sell stocks 100 Lionheart Shipyards"
 				"price" < 1000
 			action
-				payment -1000
+				payment +1000
 				price -= 1000
 			branch "sell stocks 1000 Lionheart Shipyards"
 			label "sell stocks 100 Lionheart Shipyards"
-			branch "buy stocks 10 Lionheart Shipyards"
+			branch "sell stocks 10 Lionheart Shipyards"
 				"price" < 100
 			action
-				payment -100
+				payment +100
 				price -= 100
 			branch "sell stocks 100 Lionheart Shipyards"
 			label "sell stocks 10 Lionheart Shipyards"
-			branch "buy stocks 1 Lionheart Shipyards"
+			branch "sell stocks 1 Lionheart Shipyards"
 				"price" < 10
 			action
-				payment -10
+				payment +10
 				price -= 10
 			branch "sell stocks 10 Lionheart Shipyards"
 			label "sell stocks 1 Lionheart Shipyards"
 			branch "sell stocks end Lionheart Shipyards"
 				"price" < 1
 			action
-				payment -1
+				payment +1
 				price -= 1
 			branch "sell stocks 1 Lionheart Shipyards"
 
 			label "sell stocks end Lionheart Shipyards"
-			branch "Lionheart Shipyards"
+			branch "Sell Lionheart Shipyards"
 			label "buy stocks Megaparsec Shipyards"
+			label "buy stocks 10000 Megaparsec Shipyards"
+			branch "buy stocks 1000 Megaparsec Shipyards"
+				"price" < 10000
+			action
+				payment -10000
+				price -= 10000
+			branch "buy stocks 10000 Megaparsec Shipyards"
 			label "buy stocks 1000 Megaparsec Shipyards"
 			branch "buy stocks 100 Megaparsec Shipyards"
 				"price" < 1000
@@ -2159,42 +2806,56 @@ mission "gci banking terminal"
 			branch "buy stocks 1 Megaparsec Shipyards"
 
 			label "buy stocks end Megaparsec Shipyards"
-			branch "Megaparsec Shipyards"
+			branch "Buy Megaparsec Shipyards"
 
 			label "sell stocks Megaparsec Shipyards"
 
+			label "sell stocks 10000 Megaparsec Shipyards"
+			branch "sell stocks 1000 Megaparsec Shipyards"
+				"price" < 10000
+			action
+				payment +10000
+				price -= 10000
+			branch "sell stocks 10000 Megaparsec Shipyards"
 			label "sell stocks 1000 Megaparsec Shipyards"
-			branch "buy stocks 100 Megaparsec Shipyards"
+			branch "sell stocks 100 Megaparsec Shipyards"
 				"price" < 1000
 			action
-				payment -1000
+				payment +1000
 				price -= 1000
 			branch "sell stocks 1000 Megaparsec Shipyards"
 			label "sell stocks 100 Megaparsec Shipyards"
-			branch "buy stocks 10 Megaparsec Shipyards"
+			branch "sell stocks 10 Megaparsec Shipyards"
 				"price" < 100
 			action
-				payment -100
+				payment +100
 				price -= 100
 			branch "sell stocks 100 Megaparsec Shipyards"
 			label "sell stocks 10 Megaparsec Shipyards"
-			branch "buy stocks 1 Megaparsec Shipyards"
+			branch "sell stocks 1 Megaparsec Shipyards"
 				"price" < 10
 			action
-				payment -10
+				payment +10
 				price -= 10
 			branch "sell stocks 10 Megaparsec Shipyards"
 			label "sell stocks 1 Megaparsec Shipyards"
 			branch "sell stocks end Megaparsec Shipyards"
 				"price" < 1
 			action
-				payment -1
+				payment +1
 				price -= 1
 			branch "sell stocks 1 Megaparsec Shipyards"
 
 			label "sell stocks end Megaparsec Shipyards"
-			branch "Megaparsec Shipyards"
+			branch "Sell Megaparsec Shipyards"
 			label "buy stocks Syndicate Shipyards"
+			label "buy stocks 10000 Syndicate Shipyards"
+			branch "buy stocks 1000 Syndicate Shipyards"
+				"price" < 10000
+			action
+				payment -10000
+				price -= 10000
+			branch "buy stocks 10000 Syndicate Shipyards"
 			label "buy stocks 1000 Syndicate Shipyards"
 			branch "buy stocks 100 Syndicate Shipyards"
 				"price" < 1000
@@ -2225,42 +2886,56 @@ mission "gci banking terminal"
 			branch "buy stocks 1 Syndicate Shipyards"
 
 			label "buy stocks end Syndicate Shipyards"
-			branch "Syndicate Shipyards"
+			branch "Buy Syndicate Shipyards"
 
 			label "sell stocks Syndicate Shipyards"
 
+			label "sell stocks 10000 Syndicate Shipyards"
+			branch "sell stocks 1000 Syndicate Shipyards"
+				"price" < 10000
+			action
+				payment +10000
+				price -= 10000
+			branch "sell stocks 10000 Syndicate Shipyards"
 			label "sell stocks 1000 Syndicate Shipyards"
-			branch "buy stocks 100 Syndicate Shipyards"
+			branch "sell stocks 100 Syndicate Shipyards"
 				"price" < 1000
 			action
-				payment -1000
+				payment +1000
 				price -= 1000
 			branch "sell stocks 1000 Syndicate Shipyards"
 			label "sell stocks 100 Syndicate Shipyards"
-			branch "buy stocks 10 Syndicate Shipyards"
+			branch "sell stocks 10 Syndicate Shipyards"
 				"price" < 100
 			action
-				payment -100
+				payment +100
 				price -= 100
 			branch "sell stocks 100 Syndicate Shipyards"
 			label "sell stocks 10 Syndicate Shipyards"
-			branch "buy stocks 1 Syndicate Shipyards"
+			branch "sell stocks 1 Syndicate Shipyards"
 				"price" < 10
 			action
-				payment -10
+				payment +10
 				price -= 10
 			branch "sell stocks 10 Syndicate Shipyards"
 			label "sell stocks 1 Syndicate Shipyards"
 			branch "sell stocks end Syndicate Shipyards"
 				"price" < 1
 			action
-				payment -1
+				payment +1
 				price -= 1
 			branch "sell stocks 1 Syndicate Shipyards"
 
 			label "sell stocks end Syndicate Shipyards"
-			branch "Syndicate Shipyards"
+			branch "Sell Syndicate Shipyards"
 			label "buy stocks Kraz Cybernetics"
+			label "buy stocks 10000 Kraz Cybernetics"
+			branch "buy stocks 1000 Kraz Cybernetics"
+				"price" < 10000
+			action
+				payment -10000
+				price -= 10000
+			branch "buy stocks 10000 Kraz Cybernetics"
 			label "buy stocks 1000 Kraz Cybernetics"
 			branch "buy stocks 100 Kraz Cybernetics"
 				"price" < 1000
@@ -2291,42 +2966,56 @@ mission "gci banking terminal"
 			branch "buy stocks 1 Kraz Cybernetics"
 
 			label "buy stocks end Kraz Cybernetics"
-			branch "Kraz Cybernetics"
+			branch "Buy Kraz Cybernetics"
 
 			label "sell stocks Kraz Cybernetics"
 
+			label "sell stocks 10000 Kraz Cybernetics"
+			branch "sell stocks 1000 Kraz Cybernetics"
+				"price" < 10000
+			action
+				payment +10000
+				price -= 10000
+			branch "sell stocks 10000 Kraz Cybernetics"
 			label "sell stocks 1000 Kraz Cybernetics"
-			branch "buy stocks 100 Kraz Cybernetics"
+			branch "sell stocks 100 Kraz Cybernetics"
 				"price" < 1000
 			action
-				payment -1000
+				payment +1000
 				price -= 1000
 			branch "sell stocks 1000 Kraz Cybernetics"
 			label "sell stocks 100 Kraz Cybernetics"
-			branch "buy stocks 10 Kraz Cybernetics"
+			branch "sell stocks 10 Kraz Cybernetics"
 				"price" < 100
 			action
-				payment -100
+				payment +100
 				price -= 100
 			branch "sell stocks 100 Kraz Cybernetics"
 			label "sell stocks 10 Kraz Cybernetics"
-			branch "buy stocks 1 Kraz Cybernetics"
+			branch "sell stocks 1 Kraz Cybernetics"
 				"price" < 10
 			action
-				payment -10
+				payment +10
 				price -= 10
 			branch "sell stocks 10 Kraz Cybernetics"
 			label "sell stocks 1 Kraz Cybernetics"
 			branch "sell stocks end Kraz Cybernetics"
 				"price" < 1
 			action
-				payment -1
+				payment +1
 				price -= 1
 			branch "sell stocks 1 Kraz Cybernetics"
 
 			label "sell stocks end Kraz Cybernetics"
-			branch "Kraz Cybernetics"
+			branch "Sell Kraz Cybernetics"
 			label "buy stocks Deep Sky"
+			label "buy stocks 10000 Deep Sky"
+			branch "buy stocks 1000 Deep Sky"
+				"price" < 10000
+			action
+				payment -10000
+				price -= 10000
+			branch "buy stocks 10000 Deep Sky"
 			label "buy stocks 1000 Deep Sky"
 			branch "buy stocks 100 Deep Sky"
 				"price" < 1000
@@ -2357,42 +3046,56 @@ mission "gci banking terminal"
 			branch "buy stocks 1 Deep Sky"
 
 			label "buy stocks end Deep Sky"
-			branch "Deep Sky"
+			branch "Buy Deep Sky"
 
 			label "sell stocks Deep Sky"
 
+			label "sell stocks 10000 Deep Sky"
+			branch "sell stocks 1000 Deep Sky"
+				"price" < 10000
+			action
+				payment +10000
+				price -= 10000
+			branch "sell stocks 10000 Deep Sky"
 			label "sell stocks 1000 Deep Sky"
-			branch "buy stocks 100 Deep Sky"
+			branch "sell stocks 100 Deep Sky"
 				"price" < 1000
 			action
-				payment -1000
+				payment +1000
 				price -= 1000
 			branch "sell stocks 1000 Deep Sky"
 			label "sell stocks 100 Deep Sky"
-			branch "buy stocks 10 Deep Sky"
+			branch "sell stocks 10 Deep Sky"
 				"price" < 100
 			action
-				payment -100
+				payment +100
 				price -= 100
 			branch "sell stocks 100 Deep Sky"
 			label "sell stocks 10 Deep Sky"
-			branch "buy stocks 1 Deep Sky"
+			branch "sell stocks 1 Deep Sky"
 				"price" < 10
 			action
-				payment -10
+				payment +10
 				price -= 10
 			branch "sell stocks 10 Deep Sky"
 			label "sell stocks 1 Deep Sky"
 			branch "sell stocks end Deep Sky"
 				"price" < 1
 			action
-				payment -1
+				payment +1
 				price -= 1
 			branch "sell stocks 1 Deep Sky"
 
 			label "sell stocks end Deep Sky"
-			branch "Deep Sky"
+			branch "Sell Deep Sky"
 			label "buy stocks Lovelace Labs"
+			label "buy stocks 10000 Lovelace Labs"
+			branch "buy stocks 1000 Lovelace Labs"
+				"price" < 10000
+			action
+				payment -10000
+				price -= 10000
+			branch "buy stocks 10000 Lovelace Labs"
 			label "buy stocks 1000 Lovelace Labs"
 			branch "buy stocks 100 Lovelace Labs"
 				"price" < 1000
@@ -2423,42 +3126,56 @@ mission "gci banking terminal"
 			branch "buy stocks 1 Lovelace Labs"
 
 			label "buy stocks end Lovelace Labs"
-			branch "Lovelace Labs"
+			branch "Buy Lovelace Labs"
 
 			label "sell stocks Lovelace Labs"
 
+			label "sell stocks 10000 Lovelace Labs"
+			branch "sell stocks 1000 Lovelace Labs"
+				"price" < 10000
+			action
+				payment +10000
+				price -= 10000
+			branch "sell stocks 10000 Lovelace Labs"
 			label "sell stocks 1000 Lovelace Labs"
-			branch "buy stocks 100 Lovelace Labs"
+			branch "sell stocks 100 Lovelace Labs"
 				"price" < 1000
 			action
-				payment -1000
+				payment +1000
 				price -= 1000
 			branch "sell stocks 1000 Lovelace Labs"
 			label "sell stocks 100 Lovelace Labs"
-			branch "buy stocks 10 Lovelace Labs"
+			branch "sell stocks 10 Lovelace Labs"
 				"price" < 100
 			action
-				payment -100
+				payment +100
 				price -= 100
 			branch "sell stocks 100 Lovelace Labs"
 			label "sell stocks 10 Lovelace Labs"
-			branch "buy stocks 1 Lovelace Labs"
+			branch "sell stocks 1 Lovelace Labs"
 				"price" < 10
 			action
-				payment -10
+				payment +10
 				price -= 10
 			branch "sell stocks 10 Lovelace Labs"
 			label "sell stocks 1 Lovelace Labs"
 			branch "sell stocks end Lovelace Labs"
 				"price" < 1
 			action
-				payment -1
+				payment +1
 				price -= 1
 			branch "sell stocks 1 Lovelace Labs"
 
 			label "sell stocks end Lovelace Labs"
-			branch "Lovelace Labs"
+			branch "Sell Lovelace Labs"
 			label "buy stocks Delta V"
+			label "buy stocks 10000 Delta V"
+			branch "buy stocks 1000 Delta V"
+				"price" < 10000
+			action
+				payment -10000
+				price -= 10000
+			branch "buy stocks 10000 Delta V"
 			label "buy stocks 1000 Delta V"
 			branch "buy stocks 100 Delta V"
 				"price" < 1000
@@ -2489,42 +3206,56 @@ mission "gci banking terminal"
 			branch "buy stocks 1 Delta V"
 
 			label "buy stocks end Delta V"
-			branch "Delta V"
+			branch "Buy Delta V"
 
 			label "sell stocks Delta V"
 
+			label "sell stocks 10000 Delta V"
+			branch "sell stocks 1000 Delta V"
+				"price" < 10000
+			action
+				payment +10000
+				price -= 10000
+			branch "sell stocks 10000 Delta V"
 			label "sell stocks 1000 Delta V"
-			branch "buy stocks 100 Delta V"
+			branch "sell stocks 100 Delta V"
 				"price" < 1000
 			action
-				payment -1000
+				payment +1000
 				price -= 1000
 			branch "sell stocks 1000 Delta V"
 			label "sell stocks 100 Delta V"
-			branch "buy stocks 10 Delta V"
+			branch "sell stocks 10 Delta V"
 				"price" < 100
 			action
-				payment -100
+				payment +100
 				price -= 100
 			branch "sell stocks 100 Delta V"
 			label "sell stocks 10 Delta V"
-			branch "buy stocks 1 Delta V"
+			branch "sell stocks 1 Delta V"
 				"price" < 10
 			action
-				payment -10
+				payment +10
 				price -= 10
 			branch "sell stocks 10 Delta V"
 			label "sell stocks 1 Delta V"
 			branch "sell stocks end Delta V"
 				"price" < 1
 			action
-				payment -1
+				payment +1
 				price -= 1
 			branch "sell stocks 1 Delta V"
 
 			label "sell stocks end Delta V"
-			branch "Delta V"
+			branch "Sell Delta V"
 			label "buy stocks Betelgeuse Shipyards"
+			label "buy stocks 10000 Betelgeuse Shipyards"
+			branch "buy stocks 1000 Betelgeuse Shipyards"
+				"price" < 10000
+			action
+				payment -10000
+				price -= 10000
+			branch "buy stocks 10000 Betelgeuse Shipyards"
 			label "buy stocks 1000 Betelgeuse Shipyards"
 			branch "buy stocks 100 Betelgeuse Shipyards"
 				"price" < 1000
@@ -2555,42 +3286,56 @@ mission "gci banking terminal"
 			branch "buy stocks 1 Betelgeuse Shipyards"
 
 			label "buy stocks end Betelgeuse Shipyards"
-			branch "Betelgeuse Shipyards"
+			branch "Buy Betelgeuse Shipyards"
 
 			label "sell stocks Betelgeuse Shipyards"
 
+			label "sell stocks 10000 Betelgeuse Shipyards"
+			branch "sell stocks 1000 Betelgeuse Shipyards"
+				"price" < 10000
+			action
+				payment +10000
+				price -= 10000
+			branch "sell stocks 10000 Betelgeuse Shipyards"
 			label "sell stocks 1000 Betelgeuse Shipyards"
-			branch "buy stocks 100 Betelgeuse Shipyards"
+			branch "sell stocks 100 Betelgeuse Shipyards"
 				"price" < 1000
 			action
-				payment -1000
+				payment +1000
 				price -= 1000
 			branch "sell stocks 1000 Betelgeuse Shipyards"
 			label "sell stocks 100 Betelgeuse Shipyards"
-			branch "buy stocks 10 Betelgeuse Shipyards"
+			branch "sell stocks 10 Betelgeuse Shipyards"
 				"price" < 100
 			action
-				payment -100
+				payment +100
 				price -= 100
 			branch "sell stocks 100 Betelgeuse Shipyards"
 			label "sell stocks 10 Betelgeuse Shipyards"
-			branch "buy stocks 1 Betelgeuse Shipyards"
+			branch "sell stocks 1 Betelgeuse Shipyards"
 				"price" < 10
 			action
-				payment -10
+				payment +10
 				price -= 10
 			branch "sell stocks 10 Betelgeuse Shipyards"
 			label "sell stocks 1 Betelgeuse Shipyards"
 			branch "sell stocks end Betelgeuse Shipyards"
 				"price" < 1
 			action
-				payment -1
+				payment +1
 				price -= 1
 			branch "sell stocks 1 Betelgeuse Shipyards"
 
 			label "sell stocks end Betelgeuse Shipyards"
-			branch "Betelgeuse Shipyards"
+			branch "Sell Betelgeuse Shipyards"
 			label "buy stocks Tarazed Corporation"
+			label "buy stocks 10000 Tarazed Corporation"
+			branch "buy stocks 1000 Tarazed Corporation"
+				"price" < 10000
+			action
+				payment -10000
+				price -= 10000
+			branch "buy stocks 10000 Tarazed Corporation"
 			label "buy stocks 1000 Tarazed Corporation"
 			branch "buy stocks 100 Tarazed Corporation"
 				"price" < 1000
@@ -2621,41 +3366,48 @@ mission "gci banking terminal"
 			branch "buy stocks 1 Tarazed Corporation"
 
 			label "buy stocks end Tarazed Corporation"
-			branch "Tarazed Corporation"
+			branch "Buy Tarazed Corporation"
 
 			label "sell stocks Tarazed Corporation"
 
+			label "sell stocks 10000 Tarazed Corporation"
+			branch "sell stocks 1000 Tarazed Corporation"
+				"price" < 10000
+			action
+				payment +10000
+				price -= 10000
+			branch "sell stocks 10000 Tarazed Corporation"
 			label "sell stocks 1000 Tarazed Corporation"
-			branch "buy stocks 100 Tarazed Corporation"
+			branch "sell stocks 100 Tarazed Corporation"
 				"price" < 1000
 			action
-				payment -1000
+				payment +1000
 				price -= 1000
 			branch "sell stocks 1000 Tarazed Corporation"
 			label "sell stocks 100 Tarazed Corporation"
-			branch "buy stocks 10 Tarazed Corporation"
+			branch "sell stocks 10 Tarazed Corporation"
 				"price" < 100
 			action
-				payment -100
+				payment +100
 				price -= 100
 			branch "sell stocks 100 Tarazed Corporation"
 			label "sell stocks 10 Tarazed Corporation"
-			branch "buy stocks 1 Tarazed Corporation"
+			branch "sell stocks 1 Tarazed Corporation"
 				"price" < 10
 			action
-				payment -10
+				payment +10
 				price -= 10
 			branch "sell stocks 10 Tarazed Corporation"
 			label "sell stocks 1 Tarazed Corporation"
 			branch "sell stocks end Tarazed Corporation"
 				"price" < 1
 			action
-				payment -1
+				payment +1
 				price -= 1
 			branch "sell stocks 1 Tarazed Corporation"
 
 			label "sell stocks end Tarazed Corporation"
-			branch "Tarazed Corporation"
+			branch "Sell Tarazed Corporation"
 
 # sell investments
 			label linesellinvestment
@@ -2671,30 +3423,30 @@ mission "gci banking terminal"
 			`	&[salary: Galactic Capital]`
 			``
 			choice
-				`	[sell investment of 1 daily credits for 2,200 credits]`
-					to display
-						"salary: Galactic Capital" >= 1
-					goto si1
-				`	[sell investment of 10 daily credits for 22,000 credits]`
-					to display
-						"salary: Galactic Capital" >= 10
-					goto si10
-				`	[sell investment of 100 daily credits for 220,000 credits]`
-					to display
-						"salary: Galactic Capital" >= 100
-					goto si100
-				`	[sell investment of 1,000 daily credits for 2,200,000 credits]`
-					to display
-						"salary: Galactic Capital" >= 1000
-					goto si1,000
-				`	[sell investment of 10,000 daily credits for 22,000,000 credits]`
-					to display
-						"salary: Galactic Capital" >= 10000
-					goto si10,000
 				`	[sell investment of 100,000 daily credits for 220,000,000 credits]`
 					to display
 						"salary: Galactic Capital" >= 100000
 					goto si100,000
+				`	[sell investment of 10,000 daily credits for 22,000,000 credits]`
+					to display
+						"salary: Galactic Capital" >= 10000
+					goto si10,000
+				`	[sell investment of 1,000 daily credits for 2,200,000 credits]`
+					to display
+						"salary: Galactic Capital" >= 1000
+					goto si1,000
+				`	[sell investment of 100 daily credits for 220,000 credits]`
+					to display
+						"salary: Galactic Capital" >= 100
+					goto si100
+				`	[sell investment of 10 daily credits for 22,000 credits]`
+					to display
+						"salary: Galactic Capital" >= 10
+					goto si10
+				`	[sell investment of 1 daily credits for 2,200 credits]`
+					to display
+						"salary: Galactic Capital" >= 1
+					goto si1
 				`	[back]`
 					goto clearscreen
 			label si1
@@ -2751,88 +3503,134 @@ mission "gci banking terminal"
 			`	&[dailyincome] credits daily interest (4% p.a.)  + &[salary: Galactic Capital Transfer] credits daily cash transfer`
 			``
 			choice
-				`	[transfer 100 credits of your daily interest]`
+				`	[transfer credits from daily interest to daily cash transfer]`
 					to display
 						"dailyincome" >= 100
-					goto t100
-				`	[transfer 1000 credits of your daily interest]`
+					goto "linetransfert"
+				`	[transfer credits from daily cash transfer to daily interest]`
 					to display
-						"dailyincome" >= 1000
-					goto t1,000
-				`	[transfer 10,000 credits of your daily interest]`
-					to display
-						"dailyincome" >= 10000
-					goto t10,000
+						"salary: Galactic Capital Transfer" >= 100
+					goto "linetransferb"
+				`	[back]`
+					goto clearscreen
+			label linetransfert
+			``
+				goto transfert
+			label transfert
+			scene scene/gci_terminal
+			action
+				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
+				available = deposit - "salary: Galactic Capital Transfer" / 4 * 100 * 365
+			`Set up a daily transfer of credits, from you bank account to your cash chip. It must be equal or lower than your daily interest.`
+			``
+			`Cash chip:`
+			`	&[credits] credits`
+			`Account balance:`
+			`	&[deposit] credits (&[available] credits available, with daily transfer subtracted)`
+			`	&[dailyincome] credits daily interest (4% p.a.)  + &[salary: Galactic Capital Transfer] credits daily cash transfer`
+			``
+			choice
 				`	[transfer 100,000 credits of your daily interest]`
 					to display
 						"dailyincome" >= 100000
 					goto t100,000
-				`	[transfer 100 credits back to your daily interest]`
+				`	[transfer 10,000 credits of your daily interest]`
 					to display
-						"salary: Galactic Capital Transfer" >= 100
-					goto b100
-				`	[transfer 1000 credits back to your daily interest]`
+						"dailyincome" >= 10000
+					goto t10,000
+				`	[transfer 1000 credits of your daily interest]`
 					to display
-						"salary: Galactic Capital Transfer" >= 1000
-					goto b1,000
-				`	[transfer 10,000 credits back to your daily interest]`
+						"dailyincome" >= 1000
+					goto t1,000
+				`	[transfer 100 credits of your daily interest]`
 					to display
-						"salary: Galactic Capital Transfer" >= 10000
-					goto b10,000
+						"dailyincome" >= 100
+					goto t100
+				`	[back]`
+					goto linecashtransfer
+			label linetransferb
+			``
+				goto transferb
+			label transferb
+			scene scene/gci_terminal
+			action
+				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
+				available = deposit - "salary: Galactic Capital Transfer" / 4 * 100 * 365
+			`Set up a daily transfer of credits, from you bank account to your cash chip. It must be equal or lower than your daily interest.`
+			``
+			`Cash chip:`
+			`	&[credits] credits`
+			`Account balance:`
+			`	&[deposit] credits (&[available] credits available, with daily transfer subtracted)`
+			`	&[dailyincome] credits daily interest (4% p.a.)  + &[salary: Galactic Capital Transfer] credits daily cash transfer`
+			``
+			choice
 				`	[transfer 100,000 credits back to your daily interest]`
 					to display
 						"salary: Galactic Capital Transfer" >= 100000
 					goto b100,000
+				`	[transfer 10,000 credits back to your daily interest]`
+					to display
+						"salary: Galactic Capital Transfer" >= 10000
+					goto b10,000
+				`	[transfer 1000 credits back to your daily interest]`
+					to display
+						"salary: Galactic Capital Transfer" >= 1000
+					goto b1,000
+				`	[transfer 100 credits back to your daily interest]`
+					to display
+						"salary: Galactic Capital Transfer" >= 100
+					goto b100
 				`	[back]`
-					goto clearscreen
+					goto linecashtransfer
 			label t100
 			action
 				"salary: Galactic Capital Transfer" += 100
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto cashtransfer
+				goto transfert
 			label t1,000
 			action
 				"salary: Galactic Capital Transfer" += 1000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto cashtransfer
+				goto transfert
 			label t10,000
 			action
 				"salary: Galactic Capital Transfer" += 10000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto cashtransfer
+				goto transfert
 			label t100,000
 			action
 				"salary: Galactic Capital Transfer" += 100000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto cashtransfer
+				goto transfert
 			label b100
 			action
 				"salary: Galactic Capital Transfer" -= 100
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto cashtransfer
+				goto transferb
 			label b1,000
 			action
 				"salary: Galactic Capital Transfer" -= 1000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto cashtransfer
+				goto transferb
 			label b10,000
 			action
 				"salary: Galactic Capital Transfer" -= 10000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto cashtransfer
+				goto transferb
 			label b100,000
 			action
 				"salary: Galactic Capital Transfer" -= 100000
 				dailyincome = deposit * 4 / 100 / 365 - "salary: Galactic Capital Transfer"
 			``
-				goto cashtransfer
+				goto transferb
 # activate/deactivate jobs
 			label setjobs0
 			action
@@ -2849,6 +3647,7 @@ mission "gci banking terminal"
 			``
 				goto menu
 			label end
+			``
 			scene scene/gci_terminal
 			`Thank you for using "Galactic Capital Investment Bank Service". Have a nice day!`
 				decline
