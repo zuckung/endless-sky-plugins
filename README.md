@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-11-02 | update: galactic.capital.investment<br>
 2025-10-31 | update: galactic.capital.investment<br>
 2025-10-27 | update: flare.play<br>
 2025-10-27 | update: boss.loot<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-25 | update: vague.improvements<br>
 2025-10-24 | update: combat.ai<br>
 2025-10-23 | update: combat.ai<br>
-2025-10-16 | update: vague.improvements<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2261,9 +2261,9 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/galactic.capital.investment.png" width="130" height="20">
 
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.10-galactic.capital.investment/galactic.capital.investment.zip) v1.1.10 | 4.2 mb | 2025-10-31 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=galactic.capital.investment-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) | <a href="res/imagemd/galactic.capital.investment.md">view images</a> [23]<br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.11-galactic.capital.investment/galactic.capital.investment.zip) v1.1.11 | 4.2 mb | 2025-11-02 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=galactic.capital.investment-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) | <a href="res/imagemd/galactic.capital.investment.md">view images</a> [23]<br>
 <br>
->Offers different job board banking services. From normal banking with low interest rates, over risky stock exchange, and profitable investments (unlocked by missions), to a family thrust. Available in human, quarg and hai space. See the README for details.
+>Offers different job board banking services. From normal banking with low interest rates, over risky stock exchanges, and profitable investments (unlocked by missions), to a family trust. Available in human, quarg and hai space. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -2271,7 +2271,7 @@ screenshots(click to enlarge):<br>
 
 <br>
 
-Offers different job board banking services. From normal banking with low interest rates, over risky stock exchange, and profitable investments (unlocked by missions), to a family thrust. Available in human, quarg and hai space.<br>
+Offers different job board banking services. From normal banking with low interest rates, over risky stock exchanges, and profitable investments (unlocked by missions), to a family trust. Available in human, quarg and hai space.<br>
 
 <br>
 
@@ -2312,6 +2312,14 @@ Enable and disable the investment jobs/missions<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2025-11-02<br>
+
+fixed stock selling bug (reported by Glittering_Pea2514)<br>
+
+fixed typos (by Kassandra Haruki)<br>
 
 <br>
 
@@ -2454,6 +2462,9 @@ screenshots(click to enlarge):<br>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/galactic.capital.investment01.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/galactic.capital.investment02.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/galactic.capital.investment03.jpg" width="200"></td>
+	</tr>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/galactic.capital.investment04.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
