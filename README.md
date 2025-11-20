@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-11-20 | update: captureable.person.ships<br>
 2025-11-02 | update: galactic.capital.investment<br>
 2025-10-31 | update: galactic.capital.investment<br>
 2025-10-27 | update: flare.play<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-26 | update: mission.helper<br>
 2025-10-25 | update: vague.improvements<br>
 2025-10-24 | update: combat.ai<br>
-2025-10-23 | update: combat.ai<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1052,7 +1052,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/captureable.person.ships.png" width="130" height="20">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.9-captureable.person.ships/captureable.person.ships.zip) v1.1.9 | 197.48 kb | 2025-06-19 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=captureable.person.ships-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) | <a href="res/imagemd/captureable.person.ships.md">view images</a> [4]<br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.10-captureable.person.ships/captureable.person.ships.zip) v1.1.10 | 197.5 kb | 2025-11-20 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=captureable.person.ships-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) | <a href="res/imagemd/captureable.person.ships.md">view images</a> [4]<br>
 <br>
 >Makes person ships capturable. See the README for details.
 
@@ -1129,6 +1129,12 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 
 Changelog:<br>
+
+ <br>
+
+2025-11-20<br>
+
+changed original vyu-Ir to despawn(thx to nova1422)<br>
 
 <br>
 
