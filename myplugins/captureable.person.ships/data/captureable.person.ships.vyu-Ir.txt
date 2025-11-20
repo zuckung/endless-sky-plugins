@@ -11,7 +11,7 @@ ship "vyu-Ir" "vyu-Ir(c)"
 	thumbnail "thumbnail/vyuir"
 	swizzle 0
 	attributes
-		category "Heavy Warship"
+		category "Unclassified"
 		"cost" 77777777
 		"shields" 68000
 		"shield generation" 13
