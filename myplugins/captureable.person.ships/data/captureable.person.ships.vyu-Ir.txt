@@ -86,7 +86,7 @@ mission "rework Relic of Pasts"
 	to complete
 		never
 	on offer
-		fail "Relic of the Past"
+		fail "Relic of Pasts"
 	npc save
 		government "Rulei"
 		personality heroic vindictive staying mute unconstrained frugal
