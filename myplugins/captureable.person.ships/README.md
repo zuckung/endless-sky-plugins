@@ -34,6 +34,9 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 <br>
 Changelog:<br>
+ <br>
+2025-11-20<br>
+changed original vyu-Ir to despawn(thx to nova1422)<br>
 <br>
 2025-06-19<br>
 added control.station support<br>
