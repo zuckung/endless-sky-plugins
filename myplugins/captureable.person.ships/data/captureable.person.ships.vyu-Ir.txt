@@ -11,7 +11,7 @@ ship "vyu-Ir" "vyu-Ir(c)"
 	thumbnail "thumbnail/vyuir"
 	swizzle 0
 	attributes
-		category "Heavy Warship"
+		category "Unclassified"
 		"cost" 77777777
 		"shields" 68000
 		"shield generation" 13
@@ -86,7 +86,7 @@ mission "rework Relic of Pasts"
 	to complete
 		never
 	on offer
-		fail "Relic of the Past"
+		fail "Relic of Pasts"
 	npc save
 		government "Rulei"
 		personality heroic vindictive staying mute unconstrained frugal
