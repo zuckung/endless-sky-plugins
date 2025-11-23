@@ -62,7 +62,7 @@ system "Adhile"
 	link "Betelgeuse"
 	arrival 850
 	habitable 850
-	government "Republic"
+	government "Republic (GalTac)"
 	trade Clothing 246
 	trade Electronics 667
 	trade Equipment 621

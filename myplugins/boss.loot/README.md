@@ -15,6 +15,9 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 Changelog:<br>
 <br>
+2024-11-23<br>
+fixed first wormhole government issue (thx to GrayCubeT)<br>
+<br>
 2024-10-27<br>
 update to 0.10.16<br>
 changed "endgame" in the files to boss.loot (thx to Kitteh)<br>
