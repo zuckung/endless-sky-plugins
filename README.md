@@ -705,7 +705,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/boss.loot/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/boss.loot.png" width="130" height="20">
 
-[boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-boss.loot/boss.loot.zip) v1.0.5 | 17.74 mb | 2025-11-29 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=boss.loot-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) | <a href="res/imagemd/boss.loot.md">view images</a> [588]<br>
+[boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-boss.loot/boss.loot.zip) v1.0.6 | 17.74 mb | 2025-11-29 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=boss.loot-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) | <a href="res/imagemd/boss.loot.md">view images</a> [588]<br>
 <br>
 >A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism. See the README for details.
 
