@@ -1,3 +1,4 @@
+2025-11-29 | update: boss.loot
 2025-11-23 | update: boss.loot
 2025-11-20 | update: captureable.person.ships
 2025-11-02 | update: galactic.capital.investment

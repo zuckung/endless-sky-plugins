@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-11-29 | update: boss.loot<br>
 2025-11-23 | update: boss.loot<br>
 2025-11-20 | update: captureable.person.ships<br>
 2025-11-02 | update: galactic.capital.investment<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-26 | update: additional.command.buttons.radial<br>
 2025-10-26 | update: ship.merging<br>
 2025-10-26 | update: mission.helper<br>
-2025-10-25 | update: vague.improvements<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -705,7 +705,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/boss.loot/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/boss.loot.png" width="130" height="20">
 
-[boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-boss.loot/boss.loot.zip) v1.0.4 | 17.74 mb | 2025-11-23 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=boss.loot-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) | <a href="res/imagemd/boss.loot.md">view images</a> [588]<br>
+[boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-boss.loot/boss.loot.zip) v1.0.5 | 17.74 mb | 2025-11-29 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=boss.loot-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) | <a href="res/imagemd/boss.loot.md">view images</a> [588]<br>
 <br>
 >A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism. See the README for details.
 
@@ -745,6 +745,12 @@ Changelog:<br>
 
 <br>
 
+2024-11-29<br>
+
+typo fixes (thx to Nova1422)<br>
+
+<br>
+
 2024-11-23<br>
 
 fixed first wormhole government issue (thx to GrayCubeT)<br>
@@ -778,6 +784,7 @@ added fighters to every boss (thx to Kitteh)<br>
 2024-07-03<br>
 
 initial release<br>
+
 </blockquote>
 </details>
 <br>
