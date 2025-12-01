@@ -21,6 +21,6 @@ Name | chance to appear | sell price per ton<br>
 <br>
 Changelog:<br>
 <br>
-205-12-01<br>
+2025-12-01<br>
 initial release<br>
 
