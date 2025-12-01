@@ -15,6 +15,9 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 Changelog:<br>
 <br>
+2024-11-29<br>
+typo fixes (thx to Nova1422)<br>
+<br>
 2024-11-23<br>
 fixed first wormhole government issue (thx to GrayCubeT)<br>
 <br>
