@@ -1,0 +1,10 @@
+"Chrysalite"|19%
+"Tholium"|14%
+"Glacium"|11%
+"Ferronyte"|11%
+"Crimsonite"|10%
+"Viridit"|9%
+"Azurosteel"|9%
+"Nephryllium"|7%
+"Solarite"|6%
+"Vantarox"|4%

@@ -1,0 +1,43 @@
+# mission "start asteroid rotation"
+# event "asteroid wait"
+# mission "restart asteroid rotation"
+
+
+
+mission "start asteroid rotation"
+	non-blocking
+	landing
+	invisible
+	repeat
+	to offer
+		not "asteroid wait"
+	on offer
+		set "asteroid wait"
+		event "asteroid.pos.1" 1
+		event "asteroid.pos.2" 2
+		event "asteroid.pos.3" 3
+		event "asteroid.pos.4" 4
+		event "asteroid.pos.5" 5
+		event "asteroid.pos.6" 6
+		event "asteroid.pos.7" 7
+		event "asteroid.pos.8" 8
+		event "asteroid.pos.9" 9
+		event "asteroid.pos.10" 10
+		event "asteroid wait" 11
+		fail
+
+
+event "asteroid wait"
+
+
+mission "restart asteroid rotation"
+	non-blocking
+	landing
+	invisible
+	repeat
+	to offer
+		has "asteroid wait"
+		has "event: asteroid wait"
+	on offer
+		clear "asteroid wait"
+		clear "event: asteroid wait"

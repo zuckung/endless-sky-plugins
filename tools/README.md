@@ -10,6 +10,10 @@
 <td>generates the outfits and the missions for the plugin combat.ai out of a simplified text file containing the outfits and mission templates.</td>
 </tr>
 <tr>
+<td>ES_plugin_script_comets</td>
+<td>generates the events for the plugin comets out of a simplified text file containing the systems and the chances.</td>
+</tr>
+<tr>
 <td>plugin_script_expert_crew_members</td>
 <td>generates the mission and outfit files for the plugin expert.crew.members out of a simplified text file containing the experts.</td>
 </tr>

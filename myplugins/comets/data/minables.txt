@@ -1,0 +1,362 @@
+# effect "chrysalite"
+# effect "tholium"
+# effect "glacium"
+# effect "ferronyte"
+# effect "crimsonite"
+# effect "viridit"
+# effect "azurosteel"
+# effect "nephryllium"
+# effect "solarite"
+# effect "vantarox"
+# minable "Chrysalite"    hull 3000 | random 2000 | lead
+# minable "Tholium"       hull 3100 | random 2000 | blue green
+# minable "Glacium"       hull 3200 | random 2200 | white
+# minable "Ferronyte"     hull 3300 | random 2300 | orange
+# minable "Crimsonite"    hull 3400 | random 2300 | red
+# minable "Viridit"       hull 3400 | random 2600 | green
+# minable "Azurosteel"    hull 3800 | random 2600 | blue
+# minable "Nephryllium"   hull 4200 | random 2700 | purple
+# minable "Solarite"      hull 4600 | random 2800 | yellow
+# minable "Vantarox"      hull 5000 | random 3000 | black
+# outfit "Crysalite"     250,000
+# outfit "Tholium"       300,000
+# outfit "Glacium"       350,000
+# outfit "Ferronyte"     400,000
+# outfit "Crimsonite"    450,000
+# outfit "Viridit"     500,000
+# outfit "Azurosteel"    550,000
+# outfit "Nephryllium"   600,000
+# outfit "Solarite"      650,000
+# outfit "Vantarox"      700,000
+
+
+
+effect "chrysalite"
+	sprite "effect/comet/chrysalite"
+		"frame rate" 30
+		"scale" 6
+	zooms
+
+
+effect "tholium"
+	sprite "effect/comet/tholium"
+		"frame rate" 30
+		"scale" 6
+	zooms
+
+
+effect "glacium"
+	sprite "effect/comet/glacium"
+		"frame rate" 30
+		"scale" 6
+	zooms
+
+
+effect "ferronyte"
+	sprite "effect/comet/ferronyte"
+		"frame rate" 30
+		"scale" 6
+	zooms
+
+
+effect "crimsonite"
+	sprite "effect/comet/crimsonite"
+		"frame rate" 30
+		"scale" 6
+	zooms
+
+
+effect "viridite"
+	sprite "effect/comet/verdanite"
+		"frame rate" 30
+		"scale" 6
+	zooms
+
+
+effect "azurosteel"
+	sprite "effect/comet/azurosteel"
+		"frame rate" 30
+		"scale" 6
+	zooms
+
+
+effect "nephryllium"
+	sprite "effect/comet/nephryllium"
+		"frame rate" 30
+		"scale" 6
+	zooms
+
+
+effect "solarite"
+	sprite "effect/comet/solarite"
+		"frame rate" 30
+		"scale" 6
+	zooms
+
+
+effect "vantarox"
+	sprite "effect/comet/vantarox"
+		"frame rate" 30
+		"scale" 6
+	zooms
+
+
+minable "Chrysalite"
+	sprite "asteroid/lead/spin"
+		scale 3
+	hull 3000
+	"random hull" 2000
+	payload "Chrysalite" 16
+		"toughness" 43200
+	explode "smoke" 20
+	explode "bolide" 20
+	explode "asteroid crunch small"
+	"live effect" "chrysalite"
+		"relative to system center"
+
+
+minable "Tholium"
+	sprite "asteroid/asteroid_blue_green/spin"
+		scale 3
+	hull 3100
+	"random hull" 2000
+	payload "Tholium" 16
+		"toughness" 43200
+	explode "smoke" 20
+	explode "bolide" 20
+	explode "asteroid crunch small"
+	"live effect" "tholium"
+		"relative to system center"
+
+
+minable "Glacium"
+	sprite "asteroid/asteroid_white/spin"
+		scale 3
+	hull 3200
+	"random hull" 2200
+	payload "Glacium" 16
+		"toughness" 43200
+	explode "smoke" 20
+	explode "bolide" 20
+	explode "asteroid crunch small"
+	"live effect" "glacium"
+		"relative to system center"
+
+
+minable "Ferronyte"
+	sprite "asteroid/asteroid_orange/spin"
+		scale 3
+	hull 3300
+	"random hull" 2300
+	payload "Ferronyte" 16
+		"toughness" 43200
+	explode "smoke" 20
+	explode "bolide" 20
+	explode "asteroid crunch small"
+	"live effect" "ferronyte"
+		"relative to system center"
+
+
+minable "Crimsonite"
+	sprite "asteroid/asteroid_red/spin"
+		scale 3
+	hull 3400
+	"random hull" 2300
+	payload "Crimsonite" 16
+		"toughness" 43200
+	explode "smoke" 20
+	explode "bolide" 20
+	explode "asteroid crunch small"
+	"live effect" "crimsonite"
+		"relative to system center"
+
+
+minable "Viridit"
+	sprite "asteroid/asteroid_green/spin"
+		scale 3
+	hull 3400
+	"random hull" 2600
+	payload "Viridit" 16
+		"toughness" 43200
+	explode "smoke" 20
+	explode "bolide" 20
+	explode "asteroid crunch small"
+	"live effect" "viridit"
+		"relative to system center"
+
+
+minable "Azurosteel"
+	sprite "asteroid/asteroid_blue/spin"
+		scale 3
+	hull 3800
+	"random hull" 2600
+	payload "Azurosteel" 16
+		"toughness" 43200
+	explode "smoke" 20
+	explode "bolide" 20
+	explode "asteroid crunch small"
+	"live effect" "azurosteel"
+		"relative to system center"
+
+
+minable "Nephryllium"
+	sprite "asteroid/asteroid_purple/spin"
+		scale 3
+	hull 4200
+	"random hull" 2700
+	payload "Nephryllium" 16
+		"toughness" 43200
+	explode "smoke" 20
+	explode "bolide" 20
+	explode "asteroid crunch small"
+	"live effect" "nephryllium"
+		"relative to system center"
+
+
+minable "Solarite"
+	sprite "asteroid/asteroid_yellow/spin"
+		scale 3
+	hull 4600
+	"random hull" 2800
+	payload "Solarite" 16
+		"toughness" 43200
+	explode "smoke" 20
+	explode "bolide" 20
+	explode "asteroid crunch small"
+	"live effect" "solarite"
+		"relative to system center"
+
+
+minable "Vantarox"
+	sprite "asteroid/asteroid_black/spin"
+		scale 3
+	hull 5000
+	"random hull" 3000
+	payload "Vantarox" 16
+		"toughness" 43200
+	explode "smoke" 20
+	explode "bolide" 20
+	explode "asteroid crunch small"
+	"live effect" "vantarox"
+		"relative to system center"
+
+
+outfit "Chrysalite"
+	plural "Chrysalite"
+	category "Minerals"
+	cost 250000
+	thumbnail "outfit/harvested chrysalite"
+	"flotsam sprite" "effect/flotsam chrysalite"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Crysalite is a hydrogen-trapped silicon matrix formed in outer-rim cometary bodies. Its low thermal inertia and optical clarity at cryogenic temperatures make it indispensable for quantum computing substrates and low-noise thermal isolation in sensor arrays."
+
+
+outfit "Tholium"
+	plural "Tholium"
+	category "Minerals"
+	cost 300000
+	thumbnail "outfit/harvested tholium"
+	"flotsam sprite" "effect/flotsam tholium"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Tholium is an actinoid-bearing volcanic mineral found near proto-lava asteroid vents. Its natural radioisotopic decay makes it suitable for compact RTGs (Radioisotope Thermoelectric Generators) used in deep-space probes and autonomous deep-sea planetary crawlers."
+
+
+outfit "Glacium"
+	plural "Glacium"
+	category "Minerals"
+	cost 350000
+	thumbnail "outfit/harvested glacium"
+	"flotsam sprite" "effect/flotsam glacium"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Glacium is a crystalline ammonia-hydrate compound formed in ice dwarf crusts. It maintains molecular cohesion under extreme subzero conditions, making it vital in cryogenic insulation systems and phase-change thermal buffers for exoplanetary infrastructure."
+
+
+outfit "Ferronyte"
+	plural "Ferronyte"
+	category "Minerals"
+	cost 400000
+	thumbnail "outfit/harvested ferronyte"
+	"flotsam sprite" "effect/flotsam ferronyte"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Ferronyte is a ferro-nickel composite ore with remarkable magnetic hysteresis properties. Refined ferronyte is a primary material for flux regulators and dynamic shielding coils in magnetic confinement systems, especially in fusion reactors and ion propulsion modules."
+
+
+outfit "Crimsonite"
+	plural "Crimsonite"
+	category "Minerals"
+	cost 450000
+	thumbnail "outfit/harvested crimsonite"
+	"flotsam sprite" "effect/flotsam crimsonite"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Crimsonite is a ferric-aluminum silicate mineral infused with trace actinides, giving it its deep red hue. It exhibits high thermal conductivity and stability under extreme radiation, making it ideal for heat shielding in fusion-core spacecraft. Due to its crystalline alignment, it also serves as an efficient energy sink in plasma regulation systems."
+
+
+outfit "Viridit"
+	plural "Viridit"
+	category "Minerals"
+	cost 500000
+	thumbnail "outfit/harvested viridit"
+	"flotsam sprite" "effect/flotsam viridit"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Viridit is a beryllium-rich silicate compound with exceptional photonic absorption characteristics in the green spectrum. It is primarily used in high-efficiency solar concentrators. The ore's stable lattice structure allows for nanoscale doping during material synthesis."
+
+
+outfit "Azurosteel"
+	plural "Azurosteel"
+	category "Minerals"
+	cost 550000
+	thumbnail "outfit/harvested azurosteel"
+	"flotsam sprite" "effect/flotsam azurosteel"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Azurosteel is a cobalt-titanium alloy ore known for its anomalously high tensile strength and structural memory. Once refined, it retains form under gravitational stress, making it the material of choice for orbital frame structures and kinetic-impact dampeners. Its strong magnetic resistance also suits it for high-field generator housings."
+
+
+outfit "Nephryllium"
+	plural "Nephryllium"
+	category "Minerals"
+	cost 600000
+	thumbnail "outfit/harvested nephryllium"
+	"flotsam sprite" "effect/flotsam nephryllium"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Nephryllium is a rare lithium-lanthanide silicate exhibiting piezoelectric properties enhanced under vacuum conditions. This makes it valuable in precision sensor arrays and subspace navigation matrices. Its unique electron mobility also allows for stable microcurrent regulation in nanocircuitry."
+
+
+outfit "Solarite"
+	plural "Solarite"
+	category "Minerals"
+	cost 650000
+	thumbnail "outfit/harvested solarite"
+	"flotsam sprite" "effect/flotsam solarite"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Solarite is a sulfur-gold crystalline ore that naturally converts high-frequency solar radiation into direct electrical current via internal photoelectric layers. It is integral to next-generation photovoltaic skin on interstellar ships. Its resistance to UV degradation makes it highly durable in prolonged exposure environments."
+
+
+outfit "Vantarox"
+	plural "Vantarox"
+	category "Minerals"
+	cost 700000
+	thumbnail "outfit/harvested vantarox"
+	"flotsam sprite" "effect/flotsam vantarox"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Vantarox is a carbon-heavy metamaterial formed under ultra-low-temperature, high-pressure asteroid core conditions. It absorbs over 99.99% of incident light across the electromagnetic spectrum, making it essential for stealth hull coatings and deep-space observatories. Its internal nanostructure also exhibits passive EM dampening, reducing detectable emissions from onboard systems. Vantarox’s durability in cryogenic environments further supports its use in sensor shielding and thermal nullification layers."
+

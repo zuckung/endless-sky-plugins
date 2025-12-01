@@ -1,0 +1,700 @@
+system "1 Axis"
+system "10 Pole"
+system "11 Autumn Above"
+system "11 Spring Below"
+system "12 Autumn Above"
+system "14 Pole"
+system "14 Summer Above"
+system "14 Winter Below"
+system "16 Autumn Rising"
+system "3 Axis"
+system "3 Pole"
+system "3 Spring Rising"
+system "4 Axis"
+system "4 Spring Rising"
+system "4 Summer Rising"
+system "4 Winter Rising"
+system "5 Axis"
+system "5 Spring Below"
+system "5 Summer Above"
+system "5 Winter Above"
+system "7 Autumn Rising"
+system "8 Winter Below"
+system "9 Spring Above"
+system Aaura-Kaska
+system Ablodab
+system Ablub
+system Acamar
+system Acapella
+system Achernar
+system Acnanjo
+system Acrux
+system Actannka
+system Adhara
+system "Ae Ce L-332"
+system "Ae Ce Q-761"
+system "Ae Il A-3"
+system "Ae Il B-11"
+system "Ae Il F-46"
+system "Ae Il G-66"
+system "Ae Il H-24"
+system "Ae Il I-99"
+system "Ae Il M-77"
+system "Ae Il O-96"
+system Aescolanus
+system Aierena
+system "Aik Kamgatake"
+system Aileron
+system Aki'il
+system Aksek
+system "Al Dhanab"
+system "Al Hurr"
+system Albaldah
+system Albireo
+system Alcyone
+system Aldebaran
+system Alderamin
+system Aldhibain
+system Aleit
+system Algenib
+system Algieba
+system Algol
+system Algorel
+system Alheka
+system Alhena
+system Alioth
+system Alkaid
+system Almaaz
+system Almach
+system Alnair
+system Alnasl
+system Alnilam
+system Alnitak
+system Alniyat
+system "Alpha Arae"
+system "Alpha Centauri"
+system "Alpha Hydri"
+system Alphard
+system Alphecca
+system Alpheratz
+system Alpherg
+system Altair
+system Aludra
+system Anax
+system Anbrim
+system "Ancient Hope"
+system Ankaa
+system Answer
+system Antares
+system Antevorta
+system Anthem
+system Ap'arak
+system Apeiron
+system Ar-40
+system Arche
+system Arcturus
+system Arculus
+system Arneb
+system As-75
+system Ascella
+system Asikafarnut
+system Asio
+system Aspidiske
+system Atik
+system Atria
+system Auhru
+system Avasaa-Novaa
+system Avior
+system "Avo Chigo"
+system Axiom
+system Aya'k'k
+system B-11
+system Ballad
+system Be-9
+system Beginning
+system Belenos
+system Bellatrix
+system Belonging
+system Belug
+system Belugt
+system "Beta Lupi"
+system Betelgeuse
+system Billow
+system Bloptab
+system Blubipad
+system Blugtad
+system Boral
+system "Bore Fah"
+system "Bosuno Le"
+system "Bote Asu"
+system Br-80
+system "Bright Void"
+system "Broken Bowl"
+system "Bunri Lemeta"
+system C-12
+system Ca-40
+system Caeculus
+system Caesura
+system Canopus
+system Cantata
+system Capella
+system Caph
+system Cardax
+system Cardea
+system Castor
+system Cebalrai
+system Celeborim
+system Chikatip
+system Chimitarp
+system Chirr'ay'akai
+system Chorale
+system Chornifath
+system Chy'chra
+system Chyyra-Osolaa
+system Cinxia
+system Citadelle
+system Cl-35
+system Clepsydra
+system Clip
+system Coluber
+system Companion
+system Concerto
+system Convector
+system "Cor Caroli"
+system Corporeal
+system Cotpoxi
+system Cshudlye
+system "Cura Dic"
+system Current
+system Currus
+system Cusp
+system "Da Ent"
+system "Da Lest"
+system Dabih
+system Danoa
+system "Dark Hills"
+system Debrugt
+system Decet
+system "Deep Space 19K12"
+system "Deep Space 19M1"
+system "Deep Space 19M2"
+system "Deep Space 19M5"
+system "Deep Space 1Q"
+system "Deep Space 1X"
+system "Deep Space 5J"
+system "Deep Space 5N"
+system "Deep Space 5T"
+system "Deep Space 7C"
+system "Deep Space 7F"
+system Delia
+system "Delta Capricorni"
+system "Delta Sagittarii"
+system "Delta Velorum"
+system Demilude
+system Deneb
+system Denebola
+system Devil-Hide
+system Devil-Run
+system Diespiter
+system Diphda
+system Dixere
+system Dokdobaru
+system Dom'us
+system Dschubba
+system Dubhe
+system "Due Yoot"
+system Duet
+system Durax
+system E-4183
+system E-9182
+system Eber
+system Eblumab
+system Edusa
+system Eebu
+system Egeria
+system "Ehma Ti"
+system Ek'kek'ru
+system Ekuarik
+system "Elabi Choati"
+system Elifennka
+system Elnath
+system "Elo Chigo"
+system Eltanin
+system Empeles
+system Empyrean
+system Eneremprukt
+system "Eneva Katta"
+system Enif
+system Ensemble
+system Eogho
+system "Epsilon Leonis"
+system Equus
+system "Era Natta"
+system "Erabu Lemeta"
+system "Eragaru Le"
+system "Erba Yle"
+system Es'sprak'ai
+system Eshkoshtar
+system Esix
+system "Eta Carinae"
+system Eteron
+system Evanescence
+system Evrae
+system F-19
+system "Fah Root"
+system "Fah Soom"
+system Fala
+system "Fallen Leaf"
+system "Far Horizon"
+system Farbutero
+system Farinus
+system Faronektu
+system Fasitopfar
+system Fearis
+system "Fell Omen"
+system Feraticus
+system Fereti
+system Feroteri
+system Ferukistek
+system Fingol
+system Firmament
+system Flugbu
+system Flutter
+system Fomalhaut
+system Fornarep
+system "Four Pillars"
+system Frenzy
+system Fscher
+system Fumalsamakah
+system Furmeliki
+system G-3191
+system G-6183
+system G-719
+system G-819
+system Gacrux
+system Gale
+system "Gamma Cassiopeiae"
+system "Gamma Corvi"
+system Gaungu
+system Ge-73
+system "Genta Bo"
+system "Gento Ah"
+system Gerenus
+system Ghhil
+system Gienah
+system Giribea
+system Girtab
+system Glide
+system Glubatub
+system Gomeisa
+system "Good Omen"
+system Gorvi
+system Gossamer
+system Graffias
+system Gualetri
+system Gupta
+system Gust
+system H-1
+system H-8188
+system H-9187
+system Hadar
+system Hamal
+system Han
+system Hassaleh
+system Hatysa
+system He-4
+system Headwind
+system "Heia Due"
+system Hesselpost
+system Heutesl
+system "Hevru Hai"
+system "Hi Yahr"
+system Hintar
+system Holeb
+system Homeward
+system Host
+system Hui'uc
+system Hunter
+system Huud
+system Ianua
+system Iigen
+system Iinjma
+system Iise
+system Ik'kara'ka
+system Ildaria
+system Iliniza
+system Ilirco
+system Il'le
+system "Imo Dep"
+system Insitor
+system Interlude
+system "Io Lowe"
+system "Io Mann"
+system Ipsing
+system "Is Ce B-139"
+system "Is Ce F-422"
+system "Is Ce G-460"
+system "Is Ce J-591"
+system "Is Il T-127"
+system "Is Il T-94"
+system "Is Il V-263"
+system "Is Il X-626"
+system "Is Il Z-59"
+system "Is Il Z-814"
+system Iyech'yek
+system Izar
+system "Jentu Centi"
+system "Jentu Le"
+system Jied
+system "Jyeg Pvu"
+system Jyelio
+system K-39
+system Ka'ch'chrai
+system Ka'pru
+system Kaliptari
+system Kanguwa
+system "Kappa Centauri"
+system Karhio
+system Kashikt
+system Kasii-Cavaasa
+system Kasii-Sola
+system Kasi-Vasa-Novaa
+system Kasikfar
+system "Kaus Australis"
+system "Kaus Borealis"
+system Kella-Uoasa
+system Khasola-Ryuit
+system Khosa-Kaska
+system Kiiraj-Luue
+system "Ki War Ek"
+system "Kifrana Terberah"
+system Kilema
+system Kiluit
+system Kiro'ku
+system Kiru'kichi
+system Kneirc
+system Kochab
+system "Kor Ak'Mari"
+system "Kor En'lakfar"
+system "Kor Fel'tar"
+system "Kor Men"
+system "Kor Nor'peli"
+system "Kor Tar'bei"
+system "Kor Zena'i"
+system Kornephoros
+system Korsmanath
+system Kr-84
+system Kraz
+system Kugel
+system Kursa
+system L-118
+system L-6181
+system "Last Word"
+system Lesath
+system Levana
+system Li-7
+system Lift
+system Limen
+system Lire
+system Lloloi
+system Lolami
+system "Lom Tahr"
+system "Lone Cloud"
+system Lucina
+system Lumine
+system Lurata
+system Luue-Saqru
+system M-1188
+system MC-42
+system MS-219
+system Madrigal
+system Makferuti
+system Maoni
+system Markab
+system Markeb
+system Maspa-Cavaasa
+system Maspa-Mavra
+system Maspa-Raaqa
+system Matar
+system Mavra-Ijsola
+system Mebla
+system Meblumem
+system Mebsuta
+system Meftarkata
+system "Mego Faro"
+system "Mego Inito"
+system "Mego Seo"
+system "Mei Yohn"
+system Mekislepti
+system Mellow
+system Men
+system Menkalinan
+system Menkar
+system Menkent
+system Merak
+system Mesuket
+system Mg-24
+system Miaplacidus
+system Miblulub
+system Mimosa
+system Minkar
+system Mintaka
+system Mirach
+system Mirfak
+system Mirzam
+system Misam
+system Mizar
+system Mnashyu
+system Mohuwo
+system Moktar
+system Mora
+system Mosaa-Iyra
+system Mote
+system Msalbit
+system Muhlifain
+system Muphrid
+system Myiara-Nnesa
+system Myruet-Kvelq
+system N-14
+system Na-23
+system Naos
+system Naper
+system Ne-20
+system Nenia
+system Nihal
+system Nnatai
+system Nnaug
+system Nocte
+system Nona
+system Nonet
+system Nssryos
+system Nunki
+system O-16
+system O-3184
+system Oblate
+system Octet
+system Oihaug
+system Ojstaan-Sola
+system Ookmya
+system Oosuoro
+system Opera
+system Orbona
+system Orvala
+system Osolaa-Uuoru
+system Ossipago
+system Oublaa-Khora
+system "Over the Rainbow"
+system P-31
+system Paeli
+system Pantica
+system Parca
+system "Paru Paru"
+system Patir
+system Pbelnep
+system Peacock
+system Peak
+system Pearl
+system "Pedita Pri"
+system "Pedita Sec"
+system Pelaa-Muora
+system Pelubta
+system Peragenor
+system Peresedersi
+system Perfica
+system Persian
+system Persitar
+system Phact
+system Phecda
+system Pherkad
+system Phurad
+system Piadenli
+system Pik'ro'iyak
+system Pinnacle
+system Plort
+system Polaris
+system Polerius
+system Pollux
+system Porrima
+system "Porta Terra"
+system Postlude
+system Postverta
+system Prakacha'a
+system Prelude
+system Procyon
+system Prosa
+system Ptetubo
+system Ptobeh
+system "Pug Iyik"
+system Pukako
+system Quartet
+system Quaru
+system Queri
+system Quintessence
+system Quintet
+system Raaqa-Ryuit
+system Rajak
+system Rasalhague
+system Rastaban
+system "Rati Cal"
+system "Ravu Kon"
+system Regor
+system Regulus
+system Relifer
+system Remembrance
+system Rhapsody
+system Rigel
+system Ritilas
+system Rivulet
+system Rota
+system Rouseu
+system Ruchbah
+system Rutilicus
+system S-32
+system Sabik
+system Sabriset
+system Sadalmelik
+system Sadalsuud
+system Sadr
+system "Sagittarius A*"
+system Sail
+system Saiph
+system Salipastart
+system Saquergen
+system Sargas
+system Sarin
+system Sayaiban
+system Scheat
+system Schedar
+system Scija
+system Sedes
+system Segesta
+system Seginus
+system Seketra
+system Sepetrosk
+system Sepriaptu
+system Septet
+system "Sera Natta"
+system Serenade
+system Sevrelect
+system Sextet
+system Shaula
+system Sheratan
+system "Shini Bori"
+system Si-28
+system Si'yak'ku
+system Sich'ka'ara
+system Silikatakfar
+system "Silver Bell"
+system "Silver String"
+system Similisti
+system Sirius
+system Skeruto
+system Sko'karak
+system Soar
+system Sobarati
+system Sol
+system "Sol Arach"
+system "Sol Kimek"
+system "Sol Saryd"
+system Solifar
+system Sonata
+system Sospi
+system Span
+system Speloog
+system Spica
+system Statina
+system "Steep Roof"
+system Stercutus
+system Stiidej-Nnesa
+system Stream
+system Suhail
+system Sumar
+system Sumprast
+system Supra
+system Symphony
+system Tailwind
+system Tais
+system Talita
+system "Tania Australis"
+system Tap
+system Tarazed
+system Tebuteb
+system Tectum
+system Tejat
+system Terminus
+system "Terra Incognita"
+system Thread
+system "Thshybo Le"
+system Thuban
+system Tide
+system Torbab
+system Torrent
+system Tortor
+system Trio
+system Tscera
+system Tumble
+system Turais
+system Tuur-Kella
+system Twirl
+system U-5188
+system Uelawan
+system Uhebe
+system "Ula Mon"
+system "Ultima Thule"
+system Umbral
+system Unagi
+system Unukalhai
+system "Urba Pest"
+system Uttna
+system Uuoru-Kella
+system Uuoru-Sossa
+system "Uwa Fahn"
+system "Uwo Seija"
+system V-2189
+system Vade-Staja
+system Vaiov
+system Valkraa-Uuoru
+system Vanguwo
+system Vasa-Oorua
+system Vaticanus
+system Vega
+system Vesvii
+system Vilacira
+system Vindemiatrix
+system Vivace
+system Volax
+system Vorpal
+system Vorsuke
+system Vulcuja
+system W-3197
+system "Wah Ki"
+system "Wah Oh"
+system "Wah Yoot"
+system Wake
+system Wave
+system Waypoint
+system Wazn
+system Wei
+system Wezen
+system Whirlwind
+system "World's End"
+system Wreoul
+system "Xutluno Fali"
+system "Xutluno Rees"
+system "Ya Hai"
+system "Yed Prior"
+system Yerser
+system Yli
+system Yllke
+system Yranjiu
+system Zaurak
+system Zeinar
+system "Zeta Aquilae"
+system "Zeta Centauri"
+system Zolpulti
+system Zosma
+system "Zuba Zub"
+system Zubenelgenubi
+system Zubenelhakrabi
+system Zubeneschamali
+system "Al Hurr"

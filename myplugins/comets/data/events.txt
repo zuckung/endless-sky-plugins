@@ -1,0 +1,2853 @@
+# "Chrysalite"|19%
+# "Tholium"|14%
+# "Glacium"|11%
+# "Ferronyte"|11%
+# "Crimsonite"|10%
+# "Viridit"|9%
+# "Azurosteel"|9%
+# "Nephryllium"|7%
+# "Solarite"|6%
+# "Vantarox"|4%
+# event "asteroid.pos.1"
+# event "asteroid.pos.2"
+# event "asteroid.pos.3"
+# event "asteroid.pos.4"
+# event "asteroid.pos.5"
+# event "asteroid.pos.6"
+# event "asteroid.pos.7"
+# event "asteroid.pos.8"
+# event "asteroid.pos.9"
+# event "asteroid.pos.10"
+
+
+
+event "asteroid.pos.1"
+	system "1 Axis"
+		add minables "Chrysalite" 1 5
+	system "3 Pole"
+		add minables "Tholium" 1 5
+	system "7 Autumn Rising"
+		add minables "Glacium" 1 5
+	system Acrux
+		add minables "Ferronyte" 1 5
+	system "Ae Il I-99"
+		add minables "Chrysalite" 1 5
+	system "Al Hurr"
+		add minables "Tholium" 1 5
+	system Algol
+		add minables "Glacium" 1 5
+	system Alnilam
+		add minables "Chrysalite" 1 5
+	system Altair
+		add minables "Ferronyte" 1 5
+	system Ap'arak
+		add minables "Crimsonite" 1 5
+	system Asio
+		add minables "Tholium" 1 5
+	system B-11
+		add minables "Chrysalite" 1 5
+	system Betelgeuse
+		add minables "Crimsonite" 1 5
+	system "Bright Void"
+		add minables "Glacium" 1 5
+	system Caph
+		add minables "Ferronyte" 1 5
+	system Chornifath
+		add minables "Chrysalite" 1 5
+	system Concerto
+		add minables "Tholium" 1 5
+	system "Da Ent"
+		add minables "Crimsonite" 1 5
+	system "Deep Space 19M5"
+		add minables "Chrysalite" 1 5
+	system "Delta Sagittarii"
+		add minables "Glacium" 1 5
+	system Dokdobaru
+		add minables "Tholium" 1 5
+	system Eblumab
+		add minables "Ferronyte" 1 5
+	system "Elo Chigo"
+		add minables "Chrysalite" 1 5
+	system Equus
+		add minables "Crimsonite" 1 5
+	system Evanescence
+		add minables "Viridit" 1 5
+	system Faronektu
+		add minables "Tholium" 1 5
+	system Flugbu
+		add minables "Chrysalite" 1 5
+	system G-6183
+		add minables "Glacium" 1 5
+	system "Gento Ah"
+		add minables "Ferronyte" 1 5
+	system Gorvi
+		add minables "Chrysalite" 1 5
+	system Hamal
+		add minables "Tholium" 1 5
+	system "Hi Yahr"
+		add minables "Crimsonite" 1 5
+	system Iinjma
+		add minables "Glacium" 1 5
+	system "Io Lowe"
+		add minables "Chrysalite" 1 5
+	system "Is Il X-626"
+		add minables "Ferronyte" 1 5
+	system K-39
+		add minables "Tholium" 1 5
+	system Kasi-Vasa-Novaa
+		add minables "Crimsonite" 1 5
+	system Kilema
+		add minables "Chrysalite" 1 5
+	system "Kor Nor'peli"
+		add minables "Glacium" 1 5
+	system L-6181
+		add minables "Ferronyte" 1 5
+	system "Lom Tahr"
+		add minables "Tholium" 1 5
+	system Makferuti
+		add minables "Chrysalite" 1 5
+	system Meblumem
+		add minables "Crimsonite" 1 5
+	system Menkalinan
+		add minables "Viridit" 1 5
+	system Mintaka
+		add minables "Chrysalite" 1 5
+	system Mosaa-Iyra
+		add minables "Tholium" 1 5
+	system Naper
+		add minables "Glacium" 1 5
+	system Nunki
+		add minables "Ferronyte" 1 5
+	system Orbona
+		add minables "Viridit" 1 5
+	system "Paru Paru"
+		add minables "Viridit" 1 5
+	system Peragenor
+		add minables "Viridit" 1 5
+	system Pik'ro'iyak
+		add minables "Viridit" 1 5
+	system Prakacha'a
+		add minables "Azurosteel" 1 5
+	system Queri
+		add minables "Azurosteel" 1 5
+	system Regulus
+		add minables "Azurosteel" 1 5
+	system Rutilicus
+		add minables "Azurosteel" 1 5
+	system Salipastart
+		add minables "Azurosteel" 1 5
+	system Seginus
+		add minables "Azurosteel" 1 5
+	system Sheratan
+		add minables "Nephryllium" 1 5
+	system Skeruto
+		add minables "Nephryllium" 1 5
+	system Sospi
+		add minables "Nephryllium" 1 5
+	system Sumar
+		add minables "Nephryllium" 1 5
+	system Tebuteb
+		add minables "Nephryllium" 1 5
+	system Torrent
+		add minables "Solarite" 1 5
+	system Uhebe
+		add minables "Solarite" 1 5
+	system "Uwa Fahn"
+		add minables "Solarite" 1 5
+	system Vesvii
+		add minables "Solarite" 1 5
+	system "Wah Oh"
+		add minables "Vantarox" 1 5
+	system Wreoul
+		add minables "Vantarox" 1 5
+	system Zeinar
+		add minables "Ferronyte" 1 5
+	system "3 Axis"
+		remove minables "Chrysalite" 1 5
+	system "5 Winter Above"
+		remove minables "Tholium" 1 5
+	system Acnanjo
+		remove minables "Glacium" 1 5
+	system "Ae Il H-24"
+		remove minables "Ferronyte" 1 5
+	system "Al Dhanab"
+		remove minables "Chrysalite" 1 5
+	system Algieba
+		remove minables "Tholium" 1 5
+	system Alnasl
+		remove minables "Glacium" 1 5
+	system Alpherg
+		remove minables "Chrysalite" 1 5
+	system Anthem
+		remove minables "Ferronyte" 1 5
+	system Asikafarnut
+		remove minables "Crimsonite" 1 5
+	system Aya'k'k
+		remove minables "Tholium" 1 5
+	system "Beta Lupi"
+		remove minables "Chrysalite" 1 5
+	system Br-80
+		remove minables "Crimsonite" 1 5
+	system Capella
+		remove minables "Glacium" 1 5
+	system Chorale
+		remove minables "Ferronyte" 1 5
+	system Companion
+		remove minables "Chrysalite" 1 5
+	system Cusp
+		remove minables "Tholium" 1 5
+	system "Deep Space 19M2"
+		remove minables "Crimsonite" 1 5
+	system "Delta Capricorni"
+		remove minables "Chrysalite" 1 5
+	system Dixere
+		remove minables "Glacium" 1 5
+	system Eber
+		remove minables "Tholium" 1 5
+	system Elnath
+		remove minables "Ferronyte" 1 5
+	system "Epsilon Leonis"
+		remove minables "Chrysalite" 1 5
+	system Eteron
+		remove minables "Crimsonite" 1 5
+	system Farinus
+		remove minables "Viridit" 1 5
+	system Firmament
+		remove minables "Tholium" 1 5
+	system G-3191
+		remove minables "Chrysalite" 1 5
+	system "Genta Bo"
+		remove minables "Glacium" 1 5
+	system "Good Omen"
+		remove minables "Ferronyte" 1 5
+	system Hadar
+		remove minables "Chrysalite" 1 5
+	system "Hevru Hai"
+		remove minables "Tholium" 1 5
+	system Iigen
+		remove minables "Crimsonite" 1 5
+	system Interlude
+		remove minables "Glacium" 1 5
+	system "Is Il V-263"
+		remove minables "Chrysalite" 1 5
+	system Jyelio
+		remove minables "Ferronyte" 1 5
+	system Kasii-Sola
+		remove minables "Tholium" 1 5
+	system "Kifrana Terberah"
+		remove minables "Crimsonite" 1 5
+	system "Kor Men"
+		remove minables "Chrysalite" 1 5
+	system L-118
+		remove minables "Glacium" 1 5
+	system Lolami
+		remove minables "Ferronyte" 1 5
+	system Madrigal
+		remove minables "Tholium" 1 5
+	system Mebla
+		remove minables "Chrysalite" 1 5
+	system Men
+		remove minables "Crimsonite" 1 5
+	system Minkar
+		remove minables "Viridit" 1 5
+	system Mora
+		remove minables "Chrysalite" 1 5
+	system Naos
+		remove minables "Tholium" 1 5
+	system Nssryos
+		remove minables "Glacium" 1 5
+	system Opera
+		remove minables "Ferronyte" 1 5
+	system Parca
+		remove minables "Viridit" 1 5
+	system Pelubta
+		remove minables "Viridit" 1 5
+	system Piadenli
+		remove minables "Viridit" 1 5
+	system Postverta
+		remove minables "Viridit" 1 5
+	system Quaru
+		remove minables "Azurosteel" 1 5
+	system Regor
+		remove minables "Azurosteel" 1 5
+	system Ruchbah
+		remove minables "Azurosteel" 1 5
+	system Saiph
+		remove minables "Azurosteel" 1 5
+	system Segesta
+		remove minables "Azurosteel" 1 5
+	system Shaula
+		remove minables "Azurosteel" 1 5
+	system Sirius
+		remove minables "Nephryllium" 1 5
+	system Sonata
+		remove minables "Nephryllium" 1 5
+	system Suhail
+		remove minables "Nephryllium" 1 5
+	system Tarazed
+		remove minables "Nephryllium" 1 5
+	system Torbab
+		remove minables "Nephryllium" 1 5
+	system Uelawan
+		remove minables "Solarite" 1 5
+	system Uuoru-Sossa
+		remove minables "Solarite" 1 5
+	system Vega
+		remove minables "Solarite" 1 5
+	system "Wah Ki"
+		remove minables "Solarite" 1 5
+	system "World's End"
+		remove minables "Vantarox" 1 5
+	system Zaurak
+		remove minables "Vantarox" 1 5
+	system "Al Hurr"
+		remove minables "Ferronyte" 1 5
+
+
+event "asteroid.pos.2"
+	system "10 Pole"
+		add minables "Chrysalite" 1 5
+	system "3 Spring Rising"
+		add minables "Tholium" 1 5
+	system "8 Winter Below"
+		add minables "Glacium" 1 5
+	system Actannka
+		add minables "Ferronyte" 1 5
+	system "Ae Il M-77"
+		add minables "Chrysalite" 1 5
+	system Albaldah
+		add minables "Tholium" 1 5
+	system Algorel
+		add minables "Glacium" 1 5
+	system Alnitak
+		add minables "Chrysalite" 1 5
+	system Aludra
+		add minables "Ferronyte" 1 5
+	system Apeiron
+		add minables "Crimsonite" 1 5
+	system Aspidiske
+		add minables "Tholium" 1 5
+	system Ballad
+		add minables "Chrysalite" 1 5
+	system Billow
+		add minables "Crimsonite" 1 5
+	system "Broken Bowl"
+		add minables "Glacium" 1 5
+	system Cardax
+		add minables "Ferronyte" 1 5
+	system Chy'chra
+		add minables "Chrysalite" 1 5
+	system Convector
+		add minables "Tholium" 1 5
+	system "Da Lest"
+		add minables "Crimsonite" 1 5
+	system "Deep Space 1Q"
+		add minables "Chrysalite" 1 5
+	system "Delta Velorum"
+		add minables "Glacium" 1 5
+	system Dom'us
+		add minables "Tholium" 1 5
+	system Edusa
+		add minables "Ferronyte" 1 5
+	system Eltanin
+		add minables "Chrysalite" 1 5
+	system "Era Natta"
+		add minables "Crimsonite" 1 5
+	system Evrae
+		add minables "Viridit" 1 5
+	system Fasitopfar
+		add minables "Tholium" 1 5
+	system Flutter
+		add minables "Chrysalite" 1 5
+	system G-719
+		add minables "Glacium" 1 5
+	system Gerenus
+		add minables "Ferronyte" 1 5
+	system Gossamer
+		add minables "Chrysalite" 1 5
+	system Han
+		add minables "Tholium" 1 5
+	system Hintar
+		add minables "Crimsonite" 1 5
+	system Iise
+		add minables "Glacium" 1 5
+	system "Io Mann"
+		add minables "Chrysalite" 1 5
+	system "Is Il Z-59"
+		add minables "Ferronyte" 1 5
+	system Ka'ch'chrai
+		add minables "Tholium" 1 5
+	system Kasikfar
+		add minables "Crimsonite" 1 5
+	system Kiluit
+		add minables "Chrysalite" 1 5
+	system "Kor Tar'bei"
+		add minables "Glacium" 1 5
+	system "Last Word"
+		add minables "Ferronyte" 1 5
+	system "Lone Cloud"
+		add minables "Tholium" 1 5
+	system Maoni
+		add minables "Chrysalite" 1 5
+	system Mebsuta
+		add minables "Crimsonite" 1 5
+	system Menkar
+		add minables "Viridit" 1 5
+	system Mirach
+		add minables "Chrysalite" 1 5
+	system Mote
+		add minables "Tholium" 1 5
+	system Ne-20
+		add minables "Glacium" 1 5
+	system O-16
+		add minables "Ferronyte" 1 5
+	system Orvala
+		add minables "Viridit" 1 5
+	system Patir
+		add minables "Viridit" 1 5
+	system Peresedersi
+		add minables "Viridit" 1 5
+	system Pinnacle
+		add minables "Viridit" 1 5
+	system Prelude
+		add minables "Azurosteel" 1 5
+	system Quintessence
+		add minables "Azurosteel" 1 5
+	system Relifer
+		add minables "Azurosteel" 1 5
+	system S-32
+		add minables "Azurosteel" 1 5
+	system Saquergen
+		add minables "Azurosteel" 1 5
+	system Seketra
+		add minables "Azurosteel" 1 5
+	system "Shini Bori"
+		add minables "Nephryllium" 1 5
+	system Sko'karak
+		add minables "Nephryllium" 1 5
+	system Span
+		add minables "Nephryllium" 1 5
+	system Sumprast
+		add minables "Nephryllium" 1 5
+	system Tectum
+		add minables "Nephryllium" 1 5
+	system Tortor
+		add minables "Solarite" 1 5
+	system "Ula Mon"
+		add minables "Solarite" 1 5
+	system "Uwo Seija"
+		add minables "Solarite" 1 5
+	system Vilacira
+		add minables "Solarite" 1 5
+	system "Wah Yoot"
+		add minables "Vantarox" 1 5
+	system "Xutluno Fali"
+		add minables "Vantarox" 1 5
+	system "Zeta Aquilae"
+		add minables "Ferronyte" 1 5
+	system "1 Axis"
+		remove minables "Chrysalite" 1 5
+	system "3 Pole"
+		remove minables "Tholium" 1 5
+	system "7 Autumn Rising"
+		remove minables "Glacium" 1 5
+	system Acrux
+		remove minables "Ferronyte" 1 5
+	system "Ae Il I-99"
+		remove minables "Chrysalite" 1 5
+	system "Al Hurr"
+		remove minables "Tholium" 1 5
+	system Algol
+		remove minables "Glacium" 1 5
+	system Alnilam
+		remove minables "Chrysalite" 1 5
+	system Altair
+		remove minables "Ferronyte" 1 5
+	system Ap'arak
+		remove minables "Crimsonite" 1 5
+	system Asio
+		remove minables "Tholium" 1 5
+	system B-11
+		remove minables "Chrysalite" 1 5
+	system Betelgeuse
+		remove minables "Crimsonite" 1 5
+	system "Bright Void"
+		remove minables "Glacium" 1 5
+	system Caph
+		remove minables "Ferronyte" 1 5
+	system Chornifath
+		remove minables "Chrysalite" 1 5
+	system Concerto
+		remove minables "Tholium" 1 5
+	system "Da Ent"
+		remove minables "Crimsonite" 1 5
+	system "Deep Space 19M5"
+		remove minables "Chrysalite" 1 5
+	system "Delta Sagittarii"
+		remove minables "Glacium" 1 5
+	system Dokdobaru
+		remove minables "Tholium" 1 5
+	system Eblumab
+		remove minables "Ferronyte" 1 5
+	system "Elo Chigo"
+		remove minables "Chrysalite" 1 5
+	system Equus
+		remove minables "Crimsonite" 1 5
+	system Evanescence
+		remove minables "Viridit" 1 5
+	system Faronektu
+		remove minables "Tholium" 1 5
+	system Flugbu
+		remove minables "Chrysalite" 1 5
+	system G-6183
+		remove minables "Glacium" 1 5
+	system "Gento Ah"
+		remove minables "Ferronyte" 1 5
+	system Gorvi
+		remove minables "Chrysalite" 1 5
+	system Hamal
+		remove minables "Tholium" 1 5
+	system "Hi Yahr"
+		remove minables "Crimsonite" 1 5
+	system Iinjma
+		remove minables "Glacium" 1 5
+	system "Io Lowe"
+		remove minables "Chrysalite" 1 5
+	system "Is Il X-626"
+		remove minables "Ferronyte" 1 5
+	system K-39
+		remove minables "Tholium" 1 5
+	system Kasi-Vasa-Novaa
+		remove minables "Crimsonite" 1 5
+	system Kilema
+		remove minables "Chrysalite" 1 5
+	system "Kor Nor'peli"
+		remove minables "Glacium" 1 5
+	system L-6181
+		remove minables "Ferronyte" 1 5
+	system "Lom Tahr"
+		remove minables "Tholium" 1 5
+	system Makferuti
+		remove minables "Chrysalite" 1 5
+	system Meblumem
+		remove minables "Crimsonite" 1 5
+	system Menkalinan
+		remove minables "Viridit" 1 5
+	system Mintaka
+		remove minables "Chrysalite" 1 5
+	system Mosaa-Iyra
+		remove minables "Tholium" 1 5
+	system Naper
+		remove minables "Glacium" 1 5
+	system Nunki
+		remove minables "Ferronyte" 1 5
+	system Orbona
+		remove minables "Viridit" 1 5
+	system "Paru Paru"
+		remove minables "Viridit" 1 5
+	system Peragenor
+		remove minables "Viridit" 1 5
+	system Pik'ro'iyak
+		remove minables "Viridit" 1 5
+	system Prakacha'a
+		remove minables "Azurosteel" 1 5
+	system Queri
+		remove minables "Azurosteel" 1 5
+	system Regulus
+		remove minables "Azurosteel" 1 5
+	system Rutilicus
+		remove minables "Azurosteel" 1 5
+	system Salipastart
+		remove minables "Azurosteel" 1 5
+	system Seginus
+		remove minables "Azurosteel" 1 5
+	system Sheratan
+		remove minables "Nephryllium" 1 5
+	system Skeruto
+		remove minables "Nephryllium" 1 5
+	system Sospi
+		remove minables "Nephryllium" 1 5
+	system Sumar
+		remove minables "Nephryllium" 1 5
+	system Tebuteb
+		remove minables "Nephryllium" 1 5
+	system Torrent
+		remove minables "Solarite" 1 5
+	system Uhebe
+		remove minables "Solarite" 1 5
+	system "Uwa Fahn"
+		remove minables "Solarite" 1 5
+	system Vesvii
+		remove minables "Solarite" 1 5
+	system "Wah Oh"
+		remove minables "Vantarox" 1 5
+	system Wreoul
+		remove minables "Vantarox" 1 5
+	system Zeinar
+		remove minables "Ferronyte" 1 5
+
+
+event "asteroid.pos.3"
+	system "11 Autumn Above"
+		add minables "Chrysalite" 1 5
+	system "4 Axis"
+		add minables "Tholium" 1 5
+	system "9 Spring Above"
+		add minables "Glacium" 1 5
+	system Adhara
+		add minables "Ferronyte" 1 5
+	system "Ae Il O-96"
+		add minables "Chrysalite" 1 5
+	system Albireo
+		add minables "Tholium" 1 5
+	system Alheka
+		add minables "Glacium" 1 5
+	system Alniyat
+		add minables "Chrysalite" 1 5
+	system Anax
+		add minables "Ferronyte" 1 5
+	system Ar-40
+		add minables "Crimsonite" 1 5
+	system Atik
+		add minables "Tholium" 1 5
+	system Be-9
+		add minables "Chrysalite" 1 5
+	system Bloptab
+		add minables "Crimsonite" 1 5
+	system "Bunri Lemeta"
+		add minables "Glacium" 1 5
+	system Cardea
+		add minables "Ferronyte" 1 5
+	system Chyyra-Osolaa
+		add minables "Chrysalite" 1 5
+	system "Cor Caroli"
+		add minables "Tholium" 1 5
+	system Dabih
+		add minables "Crimsonite" 1 5
+	system "Deep Space 1X"
+		add minables "Chrysalite" 1 5
+	system Demilude
+		add minables "Glacium" 1 5
+	system Dschubba
+		add minables "Tholium" 1 5
+	system Eebu
+		add minables "Ferronyte" 1 5
+	system Empeles
+		add minables "Chrysalite" 1 5
+	system "Erabu Lemeta"
+		add minables "Crimsonite" 1 5
+	system F-19
+		add minables "Viridit" 1 5
+	system Fearis
+		add minables "Tholium" 1 5
+	system Fomalhaut
+		add minables "Chrysalite" 1 5
+	system G-819
+		add minables "Glacium" 1 5
+	system Ghhil
+		add minables "Ferronyte" 1 5
+	system Graffias
+		add minables "Chrysalite" 1 5
+	system Hassaleh
+		add minables "Tholium" 1 5
+	system Holeb
+		add minables "Crimsonite" 1 5
+	system Ik'kara'ka
+		add minables "Glacium" 1 5
+	system Ipsing
+		add minables "Chrysalite" 1 5
+	system "Is Il Z-814"
+		add minables "Ferronyte" 1 5
+	system Ka'pru
+		add minables "Tholium" 1 5
+	system "Kaus Australis"
+		add minables "Crimsonite" 1 5
+	system Kiro'ku
+		add minables "Chrysalite" 1 5
+	system "Kor Zena'i"
+		add minables "Glacium" 1 5
+	system Lesath
+		add minables "Ferronyte" 1 5
+	system Lucina
+		add minables "Tholium" 1 5
+	system Markab
+		add minables "Chrysalite" 1 5
+	system Meftarkata
+		add minables "Crimsonite" 1 5
+	system Menkent
+		add minables "Viridit" 1 5
+	system Mirfak
+		add minables "Chrysalite" 1 5
+	system Msalbit
+		add minables "Tholium" 1 5
+	system Nenia
+		add minables "Glacium" 1 5
+	system O-3184
+		add minables "Ferronyte" 1 5
+	system Osolaa-Uuoru
+		add minables "Viridit" 1 5
+	system Pbelnep
+		add minables "Viridit" 1 5
+	system Perfica
+		add minables "Viridit" 1 5
+	system Plort
+		add minables "Viridit" 1 5
+	system Procyon
+		add minables "Azurosteel" 1 5
+	system Quintet
+		add minables "Azurosteel" 1 5
+	system Remembrance
+		add minables "Azurosteel" 1 5
+	system Sabik
+		add minables "Azurosteel" 1 5
+	system Sargas
+		add minables "Azurosteel" 1 5
+	system Sepetrosk
+		add minables "Azurosteel" 1 5
+	system Si-28
+		add minables "Nephryllium" 1 5
+	system Soar
+		add minables "Nephryllium" 1 5
+	system Speloog
+		add minables "Nephryllium" 1 5
+	system Supra
+		add minables "Nephryllium" 1 5
+	system Tejat
+		add minables "Nephryllium" 1 5
+	system Trio
+		add minables "Solarite" 1 5
+	system "Ultima Thule"
+		add minables "Solarite" 1 5
+	system V-2189
+		add minables "Solarite" 1 5
+	system Vindemiatrix
+		add minables "Solarite" 1 5
+	system Wake
+		add minables "Vantarox" 1 5
+	system "Xutluno Rees"
+		add minables "Vantarox" 1 5
+	system "Zeta Centauri"
+		add minables "Ferronyte" 1 5
+	system "10 Pole"
+		remove minables "Chrysalite" 1 5
+	system "3 Spring Rising"
+		remove minables "Tholium" 1 5
+	system "8 Winter Below"
+		remove minables "Glacium" 1 5
+	system Actannka
+		remove minables "Ferronyte" 1 5
+	system "Ae Il M-77"
+		remove minables "Chrysalite" 1 5
+	system Albaldah
+		remove minables "Tholium" 1 5
+	system Algorel
+		remove minables "Glacium" 1 5
+	system Alnitak
+		remove minables "Chrysalite" 1 5
+	system Aludra
+		remove minables "Ferronyte" 1 5
+	system Apeiron
+		remove minables "Crimsonite" 1 5
+	system Aspidiske
+		remove minables "Tholium" 1 5
+	system Ballad
+		remove minables "Chrysalite" 1 5
+	system Billow
+		remove minables "Crimsonite" 1 5
+	system "Broken Bowl"
+		remove minables "Glacium" 1 5
+	system Cardax
+		remove minables "Ferronyte" 1 5
+	system Chy'chra
+		remove minables "Chrysalite" 1 5
+	system Convector
+		remove minables "Tholium" 1 5
+	system "Da Lest"
+		remove minables "Crimsonite" 1 5
+	system "Deep Space 1Q"
+		remove minables "Chrysalite" 1 5
+	system "Delta Velorum"
+		remove minables "Glacium" 1 5
+	system Dom'us
+		remove minables "Tholium" 1 5
+	system Edusa
+		remove minables "Ferronyte" 1 5
+	system Eltanin
+		remove minables "Chrysalite" 1 5
+	system "Era Natta"
+		remove minables "Crimsonite" 1 5
+	system Evrae
+		remove minables "Viridit" 1 5
+	system Fasitopfar
+		remove minables "Tholium" 1 5
+	system Flutter
+		remove minables "Chrysalite" 1 5
+	system G-719
+		remove minables "Glacium" 1 5
+	system Gerenus
+		remove minables "Ferronyte" 1 5
+	system Gossamer
+		remove minables "Chrysalite" 1 5
+	system Han
+		remove minables "Tholium" 1 5
+	system Hintar
+		remove minables "Crimsonite" 1 5
+	system Iise
+		remove minables "Glacium" 1 5
+	system "Io Mann"
+		remove minables "Chrysalite" 1 5
+	system "Is Il Z-59"
+		remove minables "Ferronyte" 1 5
+	system Ka'ch'chrai
+		remove minables "Tholium" 1 5
+	system Kasikfar
+		remove minables "Crimsonite" 1 5
+	system Kiluit
+		remove minables "Chrysalite" 1 5
+	system "Kor Tar'bei"
+		remove minables "Glacium" 1 5
+	system "Last Word"
+		remove minables "Ferronyte" 1 5
+	system "Lone Cloud"
+		remove minables "Tholium" 1 5
+	system Maoni
+		remove minables "Chrysalite" 1 5
+	system Mebsuta
+		remove minables "Crimsonite" 1 5
+	system Menkar
+		remove minables "Viridit" 1 5
+	system Mirach
+		remove minables "Chrysalite" 1 5
+	system Mote
+		remove minables "Tholium" 1 5
+	system Ne-20
+		remove minables "Glacium" 1 5
+	system O-16
+		remove minables "Ferronyte" 1 5
+	system Orvala
+		remove minables "Viridit" 1 5
+	system Patir
+		remove minables "Viridit" 1 5
+	system Peresedersi
+		remove minables "Viridit" 1 5
+	system Pinnacle
+		remove minables "Viridit" 1 5
+	system Prelude
+		remove minables "Azurosteel" 1 5
+	system Quintessence
+		remove minables "Azurosteel" 1 5
+	system Relifer
+		remove minables "Azurosteel" 1 5
+	system S-32
+		remove minables "Azurosteel" 1 5
+	system Saquergen
+		remove minables "Azurosteel" 1 5
+	system Seketra
+		remove minables "Azurosteel" 1 5
+	system "Shini Bori"
+		remove minables "Nephryllium" 1 5
+	system Sko'karak
+		remove minables "Nephryllium" 1 5
+	system Span
+		remove minables "Nephryllium" 1 5
+	system Sumprast
+		remove minables "Nephryllium" 1 5
+	system Tectum
+		remove minables "Nephryllium" 1 5
+	system Tortor
+		remove minables "Solarite" 1 5
+	system "Ula Mon"
+		remove minables "Solarite" 1 5
+	system "Uwo Seija"
+		remove minables "Solarite" 1 5
+	system Vilacira
+		remove minables "Solarite" 1 5
+	system "Wah Yoot"
+		remove minables "Vantarox" 1 5
+	system "Xutluno Fali"
+		remove minables "Vantarox" 1 5
+	system "Zeta Aquilae"
+		remove minables "Ferronyte" 1 5
+
+
+event "asteroid.pos.4"
+	system "11 Spring Below"
+		add minables "Chrysalite" 1 5
+	system "4 Spring Rising"
+		add minables "Tholium" 1 5
+	system Aaura-Kaska
+		add minables "Glacium" 1 5
+	system "Ae Ce L-332"
+		add minables "Ferronyte" 1 5
+	system Aescolanus
+		add minables "Chrysalite" 1 5
+	system Alcyone
+		add minables "Tholium" 1 5
+	system Alhena
+		add minables "Glacium" 1 5
+	system "Alpha Arae"
+		add minables "Chrysalite" 1 5
+	system Anbrim
+		add minables "Ferronyte" 1 5
+	system Arche
+		add minables "Crimsonite" 1 5
+	system Atria
+		add minables "Tholium" 1 5
+	system Beginning
+		add minables "Chrysalite" 1 5
+	system Blubipad
+		add minables "Crimsonite" 1 5
+	system C-12
+		add minables "Glacium" 1 5
+	system Castor
+		add minables "Ferronyte" 1 5
+	system Cinxia
+		add minables "Chrysalite" 1 5
+	system Corporeal
+		add minables "Tholium" 1 5
+	system Danoa
+		add minables "Crimsonite" 1 5
+	system "Deep Space 5J"
+		add minables "Chrysalite" 1 5
+	system Deneb
+		add minables "Glacium" 1 5
+	system Dubhe
+		add minables "Tholium" 1 5
+	system Egeria
+		add minables "Ferronyte" 1 5
+	system Empyrean
+		add minables "Chrysalite" 1 5
+	system "Eragaru Le"
+		add minables "Crimsonite" 1 5
+	system "Fah Root"
+		add minables "Viridit" 1 5
+	system "Fell Omen"
+		add minables "Tholium" 1 5
+	system Fornarep
+		add minables "Chrysalite" 1 5
+	system Gacrux
+		add minables "Glacium" 1 5
+	system Gienah
+		add minables "Ferronyte" 1 5
+	system Gualetri
+		add minables "Chrysalite" 1 5
+	system Hatysa
+		add minables "Tholium" 1 5
+	system Homeward
+		add minables "Crimsonite" 1 5
+	system Ildaria
+		add minables "Glacium" 1 5
+	system "Is Ce B-139"
+		add minables "Chrysalite" 1 5
+	system Iyech'yek
+		add minables "Ferronyte" 1 5
+	system Kaliptari
+		add minables "Tholium" 1 5
+	system "Kaus Borealis"
+		add minables "Crimsonite" 1 5
+	system Kiru'kichi
+		add minables "Chrysalite" 1 5
+	system Kornephoros
+		add minables "Glacium" 1 5
+	system Levana
+		add minables "Ferronyte" 1 5
+	system Lumine
+		add minables "Tholium" 1 5
+	system Markeb
+		add minables "Chrysalite" 1 5
+	system "Mego Faro"
+		add minables "Crimsonite" 1 5
+	system Merak
+		add minables "Viridit" 1 5
+	system Mirzam
+		add minables "Chrysalite" 1 5
+	system Muhlifain
+		add minables "Tholium" 1 5
+	system Nihal
+		add minables "Glacium" 1 5
+	system Oblate
+		add minables "Ferronyte" 1 5
+	system Ossipago
+		add minables "Viridit" 1 5
+	system Peacock
+		add minables "Viridit" 1 5
+	system Persian
+		add minables "Viridit" 1 5
+	system Polaris
+		add minables "Viridit" 1 5
+	system Prosa
+		add minables "Azurosteel" 1 5
+	system Raaqa-Ryuit
+		add minables "Azurosteel" 1 5
+	system Rhapsody
+		add minables "Azurosteel" 1 5
+	system Sabriset
+		add minables "Azurosteel" 1 5
+	system Sarin
+		add minables "Azurosteel" 1 5
+	system Sepriaptu
+		add minables "Azurosteel" 1 5
+	system Si'yak'ku
+		add minables "Nephryllium" 1 5
+	system Sobarati
+		add minables "Nephryllium" 1 5
+	system Spica
+		add minables "Nephryllium" 1 5
+	system Symphony
+		add minables "Nephryllium" 1 5
+	system Terminus
+		add minables "Nephryllium" 1 5
+	system Tscera
+		add minables "Solarite" 1 5
+	system Umbral
+		add minables "Solarite" 1 5
+	system Vade-Staja
+		add minables "Solarite" 1 5
+	system Vivace
+		add minables "Solarite" 1 5
+	system Wave
+		add minables "Vantarox" 1 5
+	system "Ya Hai"
+		add minables "Vantarox" 1 5
+	system Zolpulti
+		add minables "Ferronyte" 1 5
+	system "11 Autumn Above"
+		remove minables "Chrysalite" 1 5
+	system "4 Axis"
+		remove minables "Tholium" 1 5
+	system "9 Spring Above"
+		remove minables "Glacium" 1 5
+	system Adhara
+		remove minables "Ferronyte" 1 5
+	system "Ae Il O-96"
+		remove minables "Chrysalite" 1 5
+	system Albireo
+		remove minables "Tholium" 1 5
+	system Alheka
+		remove minables "Glacium" 1 5
+	system Alniyat
+		remove minables "Chrysalite" 1 5
+	system Anax
+		remove minables "Ferronyte" 1 5
+	system Ar-40
+		remove minables "Crimsonite" 1 5
+	system Atik
+		remove minables "Tholium" 1 5
+	system Be-9
+		remove minables "Chrysalite" 1 5
+	system Bloptab
+		remove minables "Crimsonite" 1 5
+	system "Bunri Lemeta"
+		remove minables "Glacium" 1 5
+	system Cardea
+		remove minables "Ferronyte" 1 5
+	system Chyyra-Osolaa
+		remove minables "Chrysalite" 1 5
+	system "Cor Caroli"
+		remove minables "Tholium" 1 5
+	system Dabih
+		remove minables "Crimsonite" 1 5
+	system "Deep Space 1X"
+		remove minables "Chrysalite" 1 5
+	system Demilude
+		remove minables "Glacium" 1 5
+	system Dschubba
+		remove minables "Tholium" 1 5
+	system Eebu
+		remove minables "Ferronyte" 1 5
+	system Empeles
+		remove minables "Chrysalite" 1 5
+	system "Erabu Lemeta"
+		remove minables "Crimsonite" 1 5
+	system F-19
+		remove minables "Viridit" 1 5
+	system Fearis
+		remove minables "Tholium" 1 5
+	system Fomalhaut
+		remove minables "Chrysalite" 1 5
+	system G-819
+		remove minables "Glacium" 1 5
+	system Ghhil
+		remove minables "Ferronyte" 1 5
+	system Graffias
+		remove minables "Chrysalite" 1 5
+	system Hassaleh
+		remove minables "Tholium" 1 5
+	system Holeb
+		remove minables "Crimsonite" 1 5
+	system Ik'kara'ka
+		remove minables "Glacium" 1 5
+	system Ipsing
+		remove minables "Chrysalite" 1 5
+	system "Is Il Z-814"
+		remove minables "Ferronyte" 1 5
+	system Ka'pru
+		remove minables "Tholium" 1 5
+	system "Kaus Australis"
+		remove minables "Crimsonite" 1 5
+	system Kiro'ku
+		remove minables "Chrysalite" 1 5
+	system "Kor Zena'i"
+		remove minables "Glacium" 1 5
+	system Lesath
+		remove minables "Ferronyte" 1 5
+	system Lucina
+		remove minables "Tholium" 1 5
+	system Markab
+		remove minables "Chrysalite" 1 5
+	system Meftarkata
+		remove minables "Crimsonite" 1 5
+	system Menkent
+		remove minables "Viridit" 1 5
+	system Mirfak
+		remove minables "Chrysalite" 1 5
+	system Msalbit
+		remove minables "Tholium" 1 5
+	system Nenia
+		remove minables "Glacium" 1 5
+	system O-3184
+		remove minables "Ferronyte" 1 5
+	system Osolaa-Uuoru
+		remove minables "Viridit" 1 5
+	system Pbelnep
+		remove minables "Viridit" 1 5
+	system Perfica
+		remove minables "Viridit" 1 5
+	system Plort
+		remove minables "Viridit" 1 5
+	system Procyon
+		remove minables "Azurosteel" 1 5
+	system Quintet
+		remove minables "Azurosteel" 1 5
+	system Remembrance
+		remove minables "Azurosteel" 1 5
+	system Sabik
+		remove minables "Azurosteel" 1 5
+	system Sargas
+		remove minables "Azurosteel" 1 5
+	system Sepetrosk
+		remove minables "Azurosteel" 1 5
+	system Si-28
+		remove minables "Nephryllium" 1 5
+	system Soar
+		remove minables "Nephryllium" 1 5
+	system Speloog
+		remove minables "Nephryllium" 1 5
+	system Supra
+		remove minables "Nephryllium" 1 5
+	system Tejat
+		remove minables "Nephryllium" 1 5
+	system Trio
+		remove minables "Solarite" 1 5
+	system "Ultima Thule"
+		remove minables "Solarite" 1 5
+	system V-2189
+		remove minables "Solarite" 1 5
+	system Vindemiatrix
+		remove minables "Solarite" 1 5
+	system Wake
+		remove minables "Vantarox" 1 5
+	system "Xutluno Rees"
+		remove minables "Vantarox" 1 5
+	system "Zeta Centauri"
+		remove minables "Ferronyte" 1 5
+
+
+event "asteroid.pos.5"
+	system "12 Autumn Above"
+		add minables "Chrysalite" 1 5
+	system "4 Summer Rising"
+		add minables "Tholium" 1 5
+	system Ablodab
+		add minables "Glacium" 1 5
+	system "Ae Ce Q-761"
+		add minables "Ferronyte" 1 5
+	system Aierena
+		add minables "Chrysalite" 1 5
+	system Aldebaran
+		add minables "Tholium" 1 5
+	system Alioth
+		add minables "Glacium" 1 5
+	system "Alpha Centauri"
+		add minables "Chrysalite" 1 5
+	system "Ancient Hope"
+		add minables "Ferronyte" 1 5
+	system Arcturus
+		add minables "Crimsonite" 1 5
+	system Auhru
+		add minables "Tholium" 1 5
+	system Belenos
+		add minables "Chrysalite" 1 5
+	system Blugtad
+		add minables "Crimsonite" 1 5
+	system Ca-40
+		add minables "Glacium" 1 5
+	system Cebalrai
+		add minables "Ferronyte" 1 5
+	system Citadelle
+		add minables "Chrysalite" 1 5
+	system Cotpoxi
+		add minables "Tholium" 1 5
+	system "Dark Hills"
+		add minables "Crimsonite" 1 5
+	system "Deep Space 5N"
+		add minables "Chrysalite" 1 5
+	system Denebola
+		add minables "Glacium" 1 5
+	system "Due Yoot"
+		add minables "Tholium" 1 5
+	system "Ehma Ti"
+		add minables "Ferronyte" 1 5
+	system Eneremprukt
+		add minables "Chrysalite" 1 5
+	system "Erba Yle"
+		add minables "Crimsonite" 1 5
+	system "Fah Soom"
+		add minables "Viridit" 1 5
+	system Feraticus
+		add minables "Tholium" 1 5
+	system "Four Pillars"
+		add minables "Chrysalite" 1 5
+	system Gale
+		add minables "Glacium" 1 5
+	system Giribea
+		add minables "Ferronyte" 1 5
+	system Gupta
+		add minables "Chrysalite" 1 5
+	system He-4
+		add minables "Tholium" 1 5
+	system Host
+		add minables "Crimsonite" 1 5
+	system Iliniza
+		add minables "Glacium" 1 5
+	system "Is Ce F-422"
+		add minables "Chrysalite" 1 5
+	system Izar
+		add minables "Ferronyte" 1 5
+	system Kanguwa
+		add minables "Tholium" 1 5
+	system Kella-Uoasa
+		add minables "Crimsonite" 1 5
+	system Kneirc
+		add minables "Chrysalite" 1 5
+	system Korsmanath
+		add minables "Glacium" 1 5
+	system Li-7
+		add minables "Ferronyte" 1 5
+	system Lurata
+		add minables "Tholium" 1 5
+	system Maspa-Cavaasa
+		add minables "Chrysalite" 1 5
+	system "Mego Inito"
+		add minables "Crimsonite" 1 5
+	system Mesuket
+		add minables "Viridit" 1 5
+	system Misam
+		add minables "Chrysalite" 1 5
+	system Muphrid
+		add minables "Tholium" 1 5
+	system Nnatai
+		add minables "Glacium" 1 5
+	system Octet
+		add minables "Ferronyte" 1 5
+	system Oublaa-Khora
+		add minables "Viridit" 1 5
+	system Peak
+		add minables "Viridit" 1 5
+	system Persitar
+		add minables "Viridit" 1 5
+	system Polerius
+		add minables "Viridit" 1 5
+	system Ptetubo
+		add minables "Azurosteel" 1 5
+	system Rajak
+		add minables "Azurosteel" 1 5
+	system Rigel
+		add minables "Azurosteel" 1 5
+	system Sadalmelik
+		add minables "Azurosteel" 1 5
+	system Sayaiban
+		add minables "Azurosteel" 1 5
+	system Septet
+		add minables "Azurosteel" 1 5
+	system Sich'ka'ara
+		add minables "Nephryllium" 1 5
+	system Sol
+		add minables "Nephryllium" 1 5
+	system Statina
+		add minables "Nephryllium" 1 5
+	system Tailwind
+		add minables "Nephryllium" 1 5
+	system "Terra Incognita"
+		add minables "Nephryllium" 1 5
+	system Tumble
+		add minables "Solarite" 1 5
+	system Unagi
+		add minables "Solarite" 1 5
+	system Vaiov
+		add minables "Solarite" 1 5
+	system Volax
+		add minables "Solarite" 1 5
+	system Waypoint
+		add minables "Vantarox" 1 5
+	system "Yed Prior"
+		add minables "Vantarox" 1 5
+	system Zosma
+		add minables "Ferronyte" 1 5
+	system "11 Spring Below"
+		remove minables "Chrysalite" 1 5
+	system "4 Spring Rising"
+		remove minables "Tholium" 1 5
+	system Aaura-Kaska
+		remove minables "Glacium" 1 5
+	system "Ae Ce L-332"
+		remove minables "Ferronyte" 1 5
+	system Aescolanus
+		remove minables "Chrysalite" 1 5
+	system Alcyone
+		remove minables "Tholium" 1 5
+	system Alhena
+		remove minables "Glacium" 1 5
+	system "Alpha Arae"
+		remove minables "Chrysalite" 1 5
+	system Anbrim
+		remove minables "Ferronyte" 1 5
+	system Arche
+		remove minables "Crimsonite" 1 5
+	system Atria
+		remove minables "Tholium" 1 5
+	system Beginning
+		remove minables "Chrysalite" 1 5
+	system Blubipad
+		remove minables "Crimsonite" 1 5
+	system C-12
+		remove minables "Glacium" 1 5
+	system Castor
+		remove minables "Ferronyte" 1 5
+	system Cinxia
+		remove minables "Chrysalite" 1 5
+	system Corporeal
+		remove minables "Tholium" 1 5
+	system Danoa
+		remove minables "Crimsonite" 1 5
+	system "Deep Space 5J"
+		remove minables "Chrysalite" 1 5
+	system Deneb
+		remove minables "Glacium" 1 5
+	system Dubhe
+		remove minables "Tholium" 1 5
+	system Egeria
+		remove minables "Ferronyte" 1 5
+	system Empyrean
+		remove minables "Chrysalite" 1 5
+	system "Eragaru Le"
+		remove minables "Crimsonite" 1 5
+	system "Fah Root"
+		remove minables "Viridit" 1 5
+	system "Fell Omen"
+		remove minables "Tholium" 1 5
+	system Fornarep
+		remove minables "Chrysalite" 1 5
+	system Gacrux
+		remove minables "Glacium" 1 5
+	system Gienah
+		remove minables "Ferronyte" 1 5
+	system Gualetri
+		remove minables "Chrysalite" 1 5
+	system Hatysa
+		remove minables "Tholium" 1 5
+	system Homeward
+		remove minables "Crimsonite" 1 5
+	system Ildaria
+		remove minables "Glacium" 1 5
+	system "Is Ce B-139"
+		remove minables "Chrysalite" 1 5
+	system Iyech'yek
+		remove minables "Ferronyte" 1 5
+	system Kaliptari
+		remove minables "Tholium" 1 5
+	system "Kaus Borealis"
+		remove minables "Crimsonite" 1 5
+	system Kiru'kichi
+		remove minables "Chrysalite" 1 5
+	system Kornephoros
+		remove minables "Glacium" 1 5
+	system Levana
+		remove minables "Ferronyte" 1 5
+	system Lumine
+		remove minables "Tholium" 1 5
+	system Markeb
+		remove minables "Chrysalite" 1 5
+	system "Mego Faro"
+		remove minables "Crimsonite" 1 5
+	system Merak
+		remove minables "Viridit" 1 5
+	system Mirzam
+		remove minables "Chrysalite" 1 5
+	system Muhlifain
+		remove minables "Tholium" 1 5
+	system Nihal
+		remove minables "Glacium" 1 5
+	system Oblate
+		remove minables "Ferronyte" 1 5
+	system Ossipago
+		remove minables "Viridit" 1 5
+	system Peacock
+		remove minables "Viridit" 1 5
+	system Persian
+		remove minables "Viridit" 1 5
+	system Polaris
+		remove minables "Viridit" 1 5
+	system Prosa
+		remove minables "Azurosteel" 1 5
+	system Raaqa-Ryuit
+		remove minables "Azurosteel" 1 5
+	system Rhapsody
+		remove minables "Azurosteel" 1 5
+	system Sabriset
+		remove minables "Azurosteel" 1 5
+	system Sarin
+		remove minables "Azurosteel" 1 5
+	system Sepriaptu
+		remove minables "Azurosteel" 1 5
+	system Si'yak'ku
+		remove minables "Nephryllium" 1 5
+	system Sobarati
+		remove minables "Nephryllium" 1 5
+	system Spica
+		remove minables "Nephryllium" 1 5
+	system Symphony
+		remove minables "Nephryllium" 1 5
+	system Terminus
+		remove minables "Nephryllium" 1 5
+	system Tscera
+		remove minables "Solarite" 1 5
+	system Umbral
+		remove minables "Solarite" 1 5
+	system Vade-Staja
+		remove minables "Solarite" 1 5
+	system Vivace
+		remove minables "Solarite" 1 5
+	system Wave
+		remove minables "Vantarox" 1 5
+	system "Ya Hai"
+		remove minables "Vantarox" 1 5
+	system Zolpulti
+		remove minables "Ferronyte" 1 5
+
+
+event "asteroid.pos.6"
+	system "14 Pole"
+		add minables "Chrysalite" 1 5
+	system "4 Winter Rising"
+		add minables "Tholium" 1 5
+	system Ablub
+		add minables "Glacium" 1 5
+	system "Ae Il A-3"
+		add minables "Ferronyte" 1 5
+	system "Aik Kamgatake"
+		add minables "Chrysalite" 1 5
+	system Alderamin
+		add minables "Tholium" 1 5
+	system Alkaid
+		add minables "Glacium" 1 5
+	system "Alpha Hydri"
+		add minables "Chrysalite" 1 5
+	system Ankaa
+		add minables "Ferronyte" 1 5
+	system Arculus
+		add minables "Crimsonite" 1 5
+	system Avasaa-Novaa
+		add minables "Tholium" 1 5
+	system Bellatrix
+		add minables "Chrysalite" 1 5
+	system Boral
+		add minables "Crimsonite" 1 5
+	system Caeculus
+		add minables "Glacium" 1 5
+	system Celeborim
+		add minables "Ferronyte" 1 5
+	system Cl-35
+		add minables "Chrysalite" 1 5
+	system Cshudlye
+		add minables "Tholium" 1 5
+	system Debrugt
+		add minables "Crimsonite" 1 5
+	system "Deep Space 5T"
+		add minables "Chrysalite" 1 5
+	system Devil-Hide
+		add minables "Glacium" 1 5
+	system Duet
+		add minables "Tholium" 1 5
+	system Ek'kek'ru
+		add minables "Ferronyte" 1 5
+	system "Eneva Katta"
+		add minables "Chrysalite" 1 5
+	system Es'sprak'ai
+		add minables "Crimsonite" 1 5
+	system Fala
+		add minables "Viridit" 1 5
+	system Fereti
+		add minables "Tholium" 1 5
+	system Frenzy
+		add minables "Chrysalite" 1 5
+	system "Gamma Cassiopeiae"
+		add minables "Glacium" 1 5
+	system Girtab
+		add minables "Ferronyte" 1 5
+	system Gust
+		add minables "Chrysalite" 1 5
+	system Headwind
+		add minables "Tholium" 1 5
+	system Hui'uc
+		add minables "Crimsonite" 1 5
+	system Ilirco
+		add minables "Glacium" 1 5
+	system "Is Ce G-460"
+		add minables "Chrysalite" 1 5
+	system "Jentu Centi"
+		add minables "Ferronyte" 1 5
+	system "Kappa Centauri"
+		add minables "Tholium" 1 5
+	system Khasola-Ryuit
+		add minables "Crimsonite" 1 5
+	system Kochab
+		add minables "Chrysalite" 1 5
+	system Kr-84
+		add minables "Glacium" 1 5
+	system Lift
+		add minables "Ferronyte" 1 5
+	system Luue-Saqru
+		add minables "Tholium" 1 5
+	system Maspa-Mavra
+		add minables "Chrysalite" 1 5
+	system "Mego Seo"
+		add minables "Crimsonite" 1 5
+	system Mg-24
+		add minables "Viridit" 1 5
+	system Mizar
+		add minables "Chrysalite" 1 5
+	system Myiara-Nnesa
+		add minables "Tholium" 1 5
+	system Nnaug
+		add minables "Glacium" 1 5
+	system Oihaug
+		add minables "Ferronyte" 1 5
+	system "Over the Rainbow"
+		add minables "Viridit" 1 5
+	system Pearl
+		add minables "Viridit" 1 5
+	system Phact
+		add minables "Viridit" 1 5
+	system Pollux
+		add minables "Viridit" 1 5
+	system Ptobeh
+		add minables "Azurosteel" 1 5
+	system Rasalhague
+		add minables "Azurosteel" 1 5
+	system Ritilas
+		add minables "Azurosteel" 1 5
+	system Sadalsuud
+		add minables "Azurosteel" 1 5
+	system Scheat
+		add minables "Azurosteel" 1 5
+	system "Sera Natta"
+		add minables "Azurosteel" 1 5
+	system Silikatakfar
+		add minables "Nephryllium" 1 5
+	system "Sol Arach"
+		add minables "Nephryllium" 1 5
+	system "Steep Roof"
+		add minables "Nephryllium" 1 5
+	system Tais
+		add minables "Nephryllium" 1 5
+	system Thread
+		add minables "Nephryllium" 1 5
+	system Turais
+		add minables "Solarite" 1 5
+	system Unukalhai
+		add minables "Solarite" 1 5
+	system Valkraa-Uuoru
+		add minables "Solarite" 1 5
+	system Vorpal
+		add minables "Solarite" 1 5
+	system Wazn
+		add minables "Vantarox" 1 5
+	system Yerser
+		add minables "Vantarox" 1 5
+	system "Zuba Zub"
+		add minables "Ferronyte" 1 5
+	system "12 Autumn Above"
+		remove minables "Chrysalite" 1 5
+	system "4 Summer Rising"
+		remove minables "Tholium" 1 5
+	system Ablodab
+		remove minables "Glacium" 1 5
+	system "Ae Ce Q-761"
+		remove minables "Ferronyte" 1 5
+	system Aierena
+		remove minables "Chrysalite" 1 5
+	system Aldebaran
+		remove minables "Tholium" 1 5
+	system Alioth
+		remove minables "Glacium" 1 5
+	system "Alpha Centauri"
+		remove minables "Chrysalite" 1 5
+	system "Ancient Hope"
+		remove minables "Ferronyte" 1 5
+	system Arcturus
+		remove minables "Crimsonite" 1 5
+	system Auhru
+		remove minables "Tholium" 1 5
+	system Belenos
+		remove minables "Chrysalite" 1 5
+	system Blugtad
+		remove minables "Crimsonite" 1 5
+	system Ca-40
+		remove minables "Glacium" 1 5
+	system Cebalrai
+		remove minables "Ferronyte" 1 5
+	system Citadelle
+		remove minables "Chrysalite" 1 5
+	system Cotpoxi
+		remove minables "Tholium" 1 5
+	system "Dark Hills"
+		remove minables "Crimsonite" 1 5
+	system "Deep Space 5N"
+		remove minables "Chrysalite" 1 5
+	system Denebola
+		remove minables "Glacium" 1 5
+	system "Due Yoot"
+		remove minables "Tholium" 1 5
+	system "Ehma Ti"
+		remove minables "Ferronyte" 1 5
+	system Eneremprukt
+		remove minables "Chrysalite" 1 5
+	system "Erba Yle"
+		remove minables "Crimsonite" 1 5
+	system "Fah Soom"
+		remove minables "Viridit" 1 5
+	system Feraticus
+		remove minables "Tholium" 1 5
+	system "Four Pillars"
+		remove minables "Chrysalite" 1 5
+	system Gale
+		remove minables "Glacium" 1 5
+	system Giribea
+		remove minables "Ferronyte" 1 5
+	system Gupta
+		remove minables "Chrysalite" 1 5
+	system He-4
+		remove minables "Tholium" 1 5
+	system Host
+		remove minables "Crimsonite" 1 5
+	system Iliniza
+		remove minables "Glacium" 1 5
+	system "Is Ce F-422"
+		remove minables "Chrysalite" 1 5
+	system Izar
+		remove minables "Ferronyte" 1 5
+	system Kanguwa
+		remove minables "Tholium" 1 5
+	system Kella-Uoasa
+		remove minables "Crimsonite" 1 5
+	system Kneirc
+		remove minables "Chrysalite" 1 5
+	system Korsmanath
+		remove minables "Glacium" 1 5
+	system Li-7
+		remove minables "Ferronyte" 1 5
+	system Lurata
+		remove minables "Tholium" 1 5
+	system Maspa-Cavaasa
+		remove minables "Chrysalite" 1 5
+	system "Mego Inito"
+		remove minables "Crimsonite" 1 5
+	system Mesuket
+		remove minables "Viridit" 1 5
+	system Misam
+		remove minables "Chrysalite" 1 5
+	system Muphrid
+		remove minables "Tholium" 1 5
+	system Nnatai
+		remove minables "Glacium" 1 5
+	system Octet
+		remove minables "Ferronyte" 1 5
+	system Oublaa-Khora
+		remove minables "Viridit" 1 5
+	system Peak
+		remove minables "Viridit" 1 5
+	system Persitar
+		remove minables "Viridit" 1 5
+	system Polerius
+		remove minables "Viridit" 1 5
+	system Ptetubo
+		remove minables "Azurosteel" 1 5
+	system Rajak
+		remove minables "Azurosteel" 1 5
+	system Rigel
+		remove minables "Azurosteel" 1 5
+	system Sadalmelik
+		remove minables "Azurosteel" 1 5
+	system Sayaiban
+		remove minables "Azurosteel" 1 5
+	system Septet
+		remove minables "Azurosteel" 1 5
+	system Sich'ka'ara
+		remove minables "Nephryllium" 1 5
+	system Sol
+		remove minables "Nephryllium" 1 5
+	system Statina
+		remove minables "Nephryllium" 1 5
+	system Tailwind
+		remove minables "Nephryllium" 1 5
+	system "Terra Incognita"
+		remove minables "Nephryllium" 1 5
+	system Tumble
+		remove minables "Solarite" 1 5
+	system Unagi
+		remove minables "Solarite" 1 5
+	system Vaiov
+		remove minables "Solarite" 1 5
+	system Volax
+		remove minables "Solarite" 1 5
+	system Waypoint
+		remove minables "Vantarox" 1 5
+	system "Yed Prior"
+		remove minables "Vantarox" 1 5
+	system Zosma
+		remove minables "Ferronyte" 1 5
+
+
+event "asteroid.pos.7"
+	system "14 Summer Above"
+		add minables "Chrysalite" 1 5
+	system "5 Axis"
+		add minables "Tholium" 1 5
+	system Acamar
+		add minables "Glacium" 1 5
+	system "Ae Il B-11"
+		add minables "Ferronyte" 1 5
+	system Aileron
+		add minables "Chrysalite" 1 5
+	system Aldhibain
+		add minables "Tholium" 1 5
+	system Almaaz
+		add minables "Glacium" 1 5
+	system Alphard
+		add minables "Chrysalite" 1 5
+	system Answer
+		add minables "Ferronyte" 1 5
+	system Arneb
+		add minables "Crimsonite" 1 5
+	system Avior
+		add minables "Tholium" 1 5
+	system Belonging
+		add minables "Chrysalite" 1 5
+	system "Bore Fah"
+		add minables "Crimsonite" 1 5
+	system Caesura
+		add minables "Glacium" 1 5
+	system Chikatip
+		add minables "Ferronyte" 1 5
+	system Clepsydra
+		add minables "Chrysalite" 1 5
+	system "Cura Dic"
+		add minables "Tholium" 1 5
+	system Decet
+		add minables "Crimsonite" 1 5
+	system "Deep Space 7C"
+		add minables "Chrysalite" 1 5
+	system Devil-Run
+		add minables "Glacium" 1 5
+	system Durax
+		add minables "Tholium" 1 5
+	system Ekuarik
+		add minables "Ferronyte" 1 5
+	system Enif
+		add minables "Chrysalite" 1 5
+	system Eshkoshtar
+		add minables "Crimsonite" 1 5
+	system "Fallen Leaf"
+		add minables "Viridit" 1 5
+	system Feroteri
+		add minables "Tholium" 1 5
+	system Fscher
+		add minables "Chrysalite" 1 5
+	system "Gamma Corvi"
+		add minables "Glacium" 1 5
+	system Glide
+		add minables "Ferronyte" 1 5
+	system H-1
+		add minables "Chrysalite" 1 5
+	system "Heia Due"
+		add minables "Tholium" 1 5
+	system Hunter
+		add minables "Crimsonite" 1 5
+	system Il'le
+		add minables "Glacium" 1 5
+	system "Is Ce J-591"
+		add minables "Chrysalite" 1 5
+	system "Jentu Le"
+		add minables "Ferronyte" 1 5
+	system Karhio
+		add minables "Tholium" 1 5
+	system Khosa-Kaska
+		add minables "Crimsonite" 1 5
+	system "Kor Ak'Mari"
+		add minables "Chrysalite" 1 5
+	system Kraz
+		add minables "Glacium" 1 5
+	system Limen
+		add minables "Ferronyte" 1 5
+	system M-1188
+		add minables "Tholium" 1 5
+	system Maspa-Raaqa
+		add minables "Chrysalite" 1 5
+	system "Mei Yohn"
+		add minables "Crimsonite" 1 5
+	system Miaplacidus
+		add minables "Viridit" 1 5
+	system Mnashyu
+		add minables "Chrysalite" 1 5
+	system Myruet-Kvelq
+		add minables "Tholium" 1 5
+	system Nocte
+		add minables "Glacium" 1 5
+	system Ojstaan-Sola
+		add minables "Ferronyte" 1 5
+	system P-31
+		add minables "Viridit" 1 5
+	system "Pedita Pri"
+		add minables "Viridit" 1 5
+	system Phecda
+		add minables "Viridit" 1 5
+	system Porrima
+		add minables "Viridit" 1 5
+	system "Pug Iyik"
+		add minables "Azurosteel" 1 5
+	system Rastaban
+		add minables "Azurosteel" 1 5
+	system Rivulet
+		add minables "Azurosteel" 1 5
+	system Sadr
+		add minables "Azurosteel" 1 5
+	system Schedar
+		add minables "Azurosteel" 1 5
+	system Serenade
+		add minables "Azurosteel" 1 5
+	system "Silver Bell"
+		add minables "Nephryllium" 1 5
+	system "Sol Kimek"
+		add minables "Nephryllium" 1 5
+	system Stercutus
+		add minables "Nephryllium" 1 5
+	system Talita
+		add minables "Nephryllium" 1 5
+	system "Thshybo Le"
+		add minables "Nephryllium" 1 5
+	system Tuur-Kella
+		add minables "Solarite" 1 5
+	system "Urba Pest"
+		add minables "Solarite" 1 5
+	system Vanguwo
+		add minables "Solarite" 1 5
+	system Vorsuke
+		add minables "Solarite" 1 5
+	system Wei
+		add minables "Vantarox" 1 5
+	system Yli
+		add minables "Vantarox" 1 5
+	system Zubenelgenubi
+		add minables "Ferronyte" 1 5
+	system "14 Pole"
+		remove minables "Chrysalite" 1 5
+	system "4 Winter Rising"
+		remove minables "Tholium" 1 5
+	system Ablub
+		remove minables "Glacium" 1 5
+	system "Ae Il A-3"
+		remove minables "Ferronyte" 1 5
+	system "Aik Kamgatake"
+		remove minables "Chrysalite" 1 5
+	system Alderamin
+		remove minables "Tholium" 1 5
+	system Alkaid
+		remove minables "Glacium" 1 5
+	system "Alpha Hydri"
+		remove minables "Chrysalite" 1 5
+	system Ankaa
+		remove minables "Ferronyte" 1 5
+	system Arculus
+		remove minables "Crimsonite" 1 5
+	system Avasaa-Novaa
+		remove minables "Tholium" 1 5
+	system Bellatrix
+		remove minables "Chrysalite" 1 5
+	system Boral
+		remove minables "Crimsonite" 1 5
+	system Caeculus
+		remove minables "Glacium" 1 5
+	system Celeborim
+		remove minables "Ferronyte" 1 5
+	system Cl-35
+		remove minables "Chrysalite" 1 5
+	system Cshudlye
+		remove minables "Tholium" 1 5
+	system Debrugt
+		remove minables "Crimsonite" 1 5
+	system "Deep Space 5T"
+		remove minables "Chrysalite" 1 5
+	system Devil-Hide
+		remove minables "Glacium" 1 5
+	system Duet
+		remove minables "Tholium" 1 5
+	system Ek'kek'ru
+		remove minables "Ferronyte" 1 5
+	system "Eneva Katta"
+		remove minables "Chrysalite" 1 5
+	system Es'sprak'ai
+		remove minables "Crimsonite" 1 5
+	system Fala
+		remove minables "Viridit" 1 5
+	system Fereti
+		remove minables "Tholium" 1 5
+	system Frenzy
+		remove minables "Chrysalite" 1 5
+	system "Gamma Cassiopeiae"
+		remove minables "Glacium" 1 5
+	system Girtab
+		remove minables "Ferronyte" 1 5
+	system Gust
+		remove minables "Chrysalite" 1 5
+	system Headwind
+		remove minables "Tholium" 1 5
+	system Hui'uc
+		remove minables "Crimsonite" 1 5
+	system Ilirco
+		remove minables "Glacium" 1 5
+	system "Is Ce G-460"
+		remove minables "Chrysalite" 1 5
+	system "Jentu Centi"
+		remove minables "Ferronyte" 1 5
+	system "Kappa Centauri"
+		remove minables "Tholium" 1 5
+	system Khasola-Ryuit
+		remove minables "Crimsonite" 1 5
+	system Kochab
+		remove minables "Chrysalite" 1 5
+	system Kr-84
+		remove minables "Glacium" 1 5
+	system Lift
+		remove minables "Ferronyte" 1 5
+	system Luue-Saqru
+		remove minables "Tholium" 1 5
+	system Maspa-Mavra
+		remove minables "Chrysalite" 1 5
+	system "Mego Seo"
+		remove minables "Crimsonite" 1 5
+	system Mg-24
+		remove minables "Viridit" 1 5
+	system Mizar
+		remove minables "Chrysalite" 1 5
+	system Myiara-Nnesa
+		remove minables "Tholium" 1 5
+	system Nnaug
+		remove minables "Glacium" 1 5
+	system Oihaug
+		remove minables "Ferronyte" 1 5
+	system "Over the Rainbow"
+		remove minables "Viridit" 1 5
+	system Pearl
+		remove minables "Viridit" 1 5
+	system Phact
+		remove minables "Viridit" 1 5
+	system Pollux
+		remove minables "Viridit" 1 5
+	system Ptobeh
+		remove minables "Azurosteel" 1 5
+	system Rasalhague
+		remove minables "Azurosteel" 1 5
+	system Ritilas
+		remove minables "Azurosteel" 1 5
+	system Sadalsuud
+		remove minables "Azurosteel" 1 5
+	system Scheat
+		remove minables "Azurosteel" 1 5
+	system "Sera Natta"
+		remove minables "Azurosteel" 1 5
+	system Silikatakfar
+		remove minables "Nephryllium" 1 5
+	system "Sol Arach"
+		remove minables "Nephryllium" 1 5
+	system "Steep Roof"
+		remove minables "Nephryllium" 1 5
+	system Tais
+		remove minables "Nephryllium" 1 5
+	system Thread
+		remove minables "Nephryllium" 1 5
+	system Turais
+		remove minables "Solarite" 1 5
+	system Unukalhai
+		remove minables "Solarite" 1 5
+	system Valkraa-Uuoru
+		remove minables "Solarite" 1 5
+	system Vorpal
+		remove minables "Solarite" 1 5
+	system Wazn
+		remove minables "Vantarox" 1 5
+	system Yerser
+		remove minables "Vantarox" 1 5
+	system "Zuba Zub"
+		remove minables "Ferronyte" 1 5
+
+
+event "asteroid.pos.8"
+	system "14 Winter Below"
+		add minables "Chrysalite" 1 5
+	system "5 Spring Below"
+		add minables "Tholium" 1 5
+	system Acapella
+		add minables "Glacium" 1 5
+	system "Ae Il F-46"
+		add minables "Ferronyte" 1 5
+	system Aki'il
+		add minables "Chrysalite" 1 5
+	system Aleit
+		add minables "Tholium" 1 5
+	system Almach
+		add minables "Glacium" 1 5
+	system Alphecca
+		add minables "Chrysalite" 1 5
+	system Antares
+		add minables "Ferronyte" 1 5
+	system As-75
+		add minables "Crimsonite" 1 5
+	system "Avo Chigo"
+		add minables "Tholium" 1 5
+	system Belug
+		add minables "Chrysalite" 1 5
+	system "Bosuno Le"
+		add minables "Crimsonite" 1 5
+	system Canopus
+		add minables "Glacium" 1 5
+	system Chimitarp
+		add minables "Ferronyte" 1 5
+	system Clip
+		add minables "Chrysalite" 1 5
+	system Current
+		add minables "Tholium" 1 5
+	system "Deep Space 19K12"
+		add minables "Crimsonite" 1 5
+	system "Deep Space 7F"
+		add minables "Chrysalite" 1 5
+	system Diespiter
+		add minables "Glacium" 1 5
+	system E-4183
+		add minables "Tholium" 1 5
+	system "Elabi Choati"
+		add minables "Ferronyte" 1 5
+	system Ensemble
+		add minables "Chrysalite" 1 5
+	system Esix
+		add minables "Crimsonite" 1 5
+	system "Far Horizon"
+		add minables "Viridit" 1 5
+	system Ferukistek
+		add minables "Tholium" 1 5
+	system Fumalsamakah
+		add minables "Chrysalite" 1 5
+	system Gaungu
+		add minables "Glacium" 1 5
+	system Glubatub
+		add minables "Ferronyte" 1 5
+	system H-8188
+		add minables "Chrysalite" 1 5
+	system Hesselpost
+		add minables "Tholium" 1 5
+	system Huud
+		add minables "Crimsonite" 1 5
+	system "Imo Dep"
+		add minables "Glacium" 1 5
+	system "Is Il T-127"
+		add minables "Chrysalite" 1 5
+	system Jied
+		add minables "Ferronyte" 1 5
+	system Kashikt
+		add minables "Tholium" 1 5
+	system Kiiraj-Luue
+		add minables "Crimsonite" 1 5
+	system "Kor En'lakfar"
+		add minables "Chrysalite" 1 5
+	system Kugel
+		add minables "Glacium" 1 5
+	system Lire
+		add minables "Ferronyte" 1 5
+	system MC-42
+		add minables "Tholium" 1 5
+	system Matar
+		add minables "Chrysalite" 1 5
+	system Mekislepti
+		add minables "Crimsonite" 1 5
+	system Miblulub
+		add minables "Viridit" 1 5
+	system Mohuwo
+		add minables "Chrysalite" 1 5
+	system N-14
+		add minables "Tholium" 1 5
+	system Nona
+		add minables "Glacium" 1 5
+	system Ookmya
+		add minables "Ferronyte" 1 5
+	system Paeli
+		add minables "Viridit" 1 5
+	system "Pedita Sec"
+		add minables "Viridit" 1 5
+	system Pherkad
+		add minables "Viridit" 1 5
+	system "Porta Terra"
+		add minables "Viridit" 1 5
+	system Pukako
+		add minables "Azurosteel" 1 5
+	system "Rati Cal"
+		add minables "Azurosteel" 1 5
+	system Rota
+		add minables "Azurosteel" 1 5
+	system "Sagittarius A*"
+		add minables "Azurosteel" 1 5
+	system Scija
+		add minables "Azurosteel" 1 5
+	system Sevrelect
+		add minables "Azurosteel" 1 5
+	system "Silver String"
+		add minables "Nephryllium" 1 5
+	system "Sol Saryd"
+		add minables "Nephryllium" 1 5
+	system Stiidej-Nnesa
+		add minables "Nephryllium" 1 5
+	system "Tania Australis"
+		add minables "Nephryllium" 1 5
+	system Thuban
+		add minables "Nephryllium" 1 5
+	system Twirl
+		add minables "Solarite" 1 5
+	system Uttna
+		add minables "Solarite" 1 5
+	system Vasa-Oorua
+		add minables "Solarite" 1 5
+	system Vulcuja
+		add minables "Solarite" 1 5
+	system Wezen
+		add minables "Vantarox" 1 5
+	system Yllke
+		add minables "Vantarox" 1 5
+	system Zubenelhakrabi
+		add minables "Ferronyte" 1 5
+	system "14 Summer Above"
+		remove minables "Chrysalite" 1 5
+	system "5 Axis"
+		remove minables "Tholium" 1 5
+	system Acamar
+		remove minables "Glacium" 1 5
+	system "Ae Il B-11"
+		remove minables "Ferronyte" 1 5
+	system Aileron
+		remove minables "Chrysalite" 1 5
+	system Aldhibain
+		remove minables "Tholium" 1 5
+	system Almaaz
+		remove minables "Glacium" 1 5
+	system Alphard
+		remove minables "Chrysalite" 1 5
+	system Answer
+		remove minables "Ferronyte" 1 5
+	system Arneb
+		remove minables "Crimsonite" 1 5
+	system Avior
+		remove minables "Tholium" 1 5
+	system Belonging
+		remove minables "Chrysalite" 1 5
+	system "Bore Fah"
+		remove minables "Crimsonite" 1 5
+	system Caesura
+		remove minables "Glacium" 1 5
+	system Chikatip
+		remove minables "Ferronyte" 1 5
+	system Clepsydra
+		remove minables "Chrysalite" 1 5
+	system "Cura Dic"
+		remove minables "Tholium" 1 5
+	system Decet
+		remove minables "Crimsonite" 1 5
+	system "Deep Space 7C"
+		remove minables "Chrysalite" 1 5
+	system Devil-Run
+		remove minables "Glacium" 1 5
+	system Durax
+		remove minables "Tholium" 1 5
+	system Ekuarik
+		remove minables "Ferronyte" 1 5
+	system Enif
+		remove minables "Chrysalite" 1 5
+	system Eshkoshtar
+		remove minables "Crimsonite" 1 5
+	system "Fallen Leaf"
+		remove minables "Viridit" 1 5
+	system Feroteri
+		remove minables "Tholium" 1 5
+	system Fscher
+		remove minables "Chrysalite" 1 5
+	system "Gamma Corvi"
+		remove minables "Glacium" 1 5
+	system Glide
+		remove minables "Ferronyte" 1 5
+	system H-1
+		remove minables "Chrysalite" 1 5
+	system "Heia Due"
+		remove minables "Tholium" 1 5
+	system Hunter
+		remove minables "Crimsonite" 1 5
+	system Il'le
+		remove minables "Glacium" 1 5
+	system "Is Ce J-591"
+		remove minables "Chrysalite" 1 5
+	system "Jentu Le"
+		remove minables "Ferronyte" 1 5
+	system Karhio
+		remove minables "Tholium" 1 5
+	system Khosa-Kaska
+		remove minables "Crimsonite" 1 5
+	system "Kor Ak'Mari"
+		remove minables "Chrysalite" 1 5
+	system Kraz
+		remove minables "Glacium" 1 5
+	system Limen
+		remove minables "Ferronyte" 1 5
+	system M-1188
+		remove minables "Tholium" 1 5
+	system Maspa-Raaqa
+		remove minables "Chrysalite" 1 5
+	system "Mei Yohn"
+		remove minables "Crimsonite" 1 5
+	system Miaplacidus
+		remove minables "Viridit" 1 5
+	system Mnashyu
+		remove minables "Chrysalite" 1 5
+	system Myruet-Kvelq
+		remove minables "Tholium" 1 5
+	system Nocte
+		remove minables "Glacium" 1 5
+	system Ojstaan-Sola
+		remove minables "Ferronyte" 1 5
+	system P-31
+		remove minables "Viridit" 1 5
+	system "Pedita Pri"
+		remove minables "Viridit" 1 5
+	system Phecda
+		remove minables "Viridit" 1 5
+	system Porrima
+		remove minables "Viridit" 1 5
+	system "Pug Iyik"
+		remove minables "Azurosteel" 1 5
+	system Rastaban
+		remove minables "Azurosteel" 1 5
+	system Rivulet
+		remove minables "Azurosteel" 1 5
+	system Sadr
+		remove minables "Azurosteel" 1 5
+	system Schedar
+		remove minables "Azurosteel" 1 5
+	system Serenade
+		remove minables "Azurosteel" 1 5
+	system "Silver Bell"
+		remove minables "Nephryllium" 1 5
+	system "Sol Kimek"
+		remove minables "Nephryllium" 1 5
+	system Stercutus
+		remove minables "Nephryllium" 1 5
+	system Talita
+		remove minables "Nephryllium" 1 5
+	system "Thshybo Le"
+		remove minables "Nephryllium" 1 5
+	system Tuur-Kella
+		remove minables "Solarite" 1 5
+	system "Urba Pest"
+		remove minables "Solarite" 1 5
+	system Vanguwo
+		remove minables "Solarite" 1 5
+	system Vorsuke
+		remove minables "Solarite" 1 5
+	system Wei
+		remove minables "Vantarox" 1 5
+	system Yli
+		remove minables "Vantarox" 1 5
+	system Zubenelgenubi
+		remove minables "Ferronyte" 1 5
+
+
+event "asteroid.pos.9"
+	system "16 Autumn Rising"
+		add minables "Chrysalite" 1 5
+	system "5 Summer Above"
+		add minables "Tholium" 1 5
+	system Achernar
+		add minables "Glacium" 1 5
+	system "Ae Il G-66"
+		add minables "Ferronyte" 1 5
+	system Aksek
+		add minables "Chrysalite" 1 5
+	system Algenib
+		add minables "Tholium" 1 5
+	system Alnair
+		add minables "Glacium" 1 5
+	system Alpheratz
+		add minables "Chrysalite" 1 5
+	system Antevorta
+		add minables "Ferronyte" 1 5
+	system Ascella
+		add minables "Crimsonite" 1 5
+	system Axiom
+		add minables "Tholium" 1 5
+	system Belugt
+		add minables "Chrysalite" 1 5
+	system "Bote Asu"
+		add minables "Crimsonite" 1 5
+	system Cantata
+		add minables "Glacium" 1 5
+	system Chirr'ay'akai
+		add minables "Ferronyte" 1 5
+	system Coluber
+		add minables "Chrysalite" 1 5
+	system Currus
+		add minables "Tholium" 1 5
+	system "Deep Space 19M1"
+		add minables "Crimsonite" 1 5
+	system Delia
+		add minables "Chrysalite" 1 5
+	system Diphda
+		add minables "Glacium" 1 5
+	system E-9182
+		add minables "Tholium" 1 5
+	system Elifennka
+		add minables "Ferronyte" 1 5
+	system Eogho
+		add minables "Chrysalite" 1 5
+	system "Eta Carinae"
+		add minables "Crimsonite" 1 5
+	system Farbutero
+		add minables "Viridit" 1 5
+	system Fingol
+		add minables "Tholium" 1 5
+	system Furmeliki
+		add minables "Chrysalite" 1 5
+	system Ge-73
+		add minables "Glacium" 1 5
+	system Gomeisa
+		add minables "Ferronyte" 1 5
+	system H-9187
+		add minables "Chrysalite" 1 5
+	system Heutesl
+		add minables "Tholium" 1 5
+	system Ianua
+		add minables "Crimsonite" 1 5
+	system Insitor
+		add minables "Glacium" 1 5
+	system "Is Il T-94"
+		add minables "Chrysalite" 1 5
+	system "Jyeg Pvu"
+		add minables "Ferronyte" 1 5
+	system Kasii-Cavaasa
+		add minables "Tholium" 1 5
+	system "Ki War Ek"
+		add minables "Crimsonite" 1 5
+	system "Kor Fel'tar"
+		add minables "Chrysalite" 1 5
+	system Kursa
+		add minables "Glacium" 1 5
+	system Lloloi
+		add minables "Ferronyte" 1 5
+	system MS-219
+		add minables "Tholium" 1 5
+	system Mavra-Ijsola
+		add minables "Chrysalite" 1 5
+	system Mellow
+		add minables "Crimsonite" 1 5
+	system Mimosa
+		add minables "Viridit" 1 5
+	system Moktar
+		add minables "Chrysalite" 1 5
+	system Na-23
+		add minables "Tholium" 1 5
+	system Nonet
+		add minables "Glacium" 1 5
+	system Oosuoro
+		add minables "Ferronyte" 1 5
+	system Pantica
+		add minables "Viridit" 1 5
+	system Pelaa-Muora
+		add minables "Viridit" 1 5
+	system Phurad
+		add minables "Viridit" 1 5
+	system Postlude
+		add minables "Viridit" 1 5
+	system Quartet
+		add minables "Azurosteel" 1 5
+	system "Ravu Kon"
+		add minables "Azurosteel" 1 5
+	system Rouseu
+		add minables "Azurosteel" 1 5
+	system Sail
+		add minables "Azurosteel" 1 5
+	system Sedes
+		add minables "Azurosteel" 1 5
+	system Sextet
+		add minables "Azurosteel" 1 5
+	system Similisti
+		add minables "Nephryllium" 1 5
+	system Solifar
+		add minables "Nephryllium" 1 5
+	system Stream
+		add minables "Nephryllium" 1 5
+	system Tap
+		add minables "Nephryllium" 1 5
+	system Tide
+		add minables "Nephryllium" 1 5
+	system U-5188
+		add minables "Solarite" 1 5
+	system Uuoru-Kella
+		add minables "Solarite" 1 5
+	system Vaticanus
+		add minables "Solarite" 1 5
+	system W-3197
+		add minables "Solarite" 1 5
+	system Whirlwind
+		add minables "Vantarox" 1 5
+	system Yranjiu
+		add minables "Vantarox" 1 5
+	system Zubeneschamali
+		add minables "Ferronyte" 1 5
+	system "14 Winter Below"
+		remove minables "Chrysalite" 1 5
+	system "5 Spring Below"
+		remove minables "Tholium" 1 5
+	system Acapella
+		remove minables "Glacium" 1 5
+	system "Ae Il F-46"
+		remove minables "Ferronyte" 1 5
+	system Aki'il
+		remove minables "Chrysalite" 1 5
+	system Aleit
+		remove minables "Tholium" 1 5
+	system Almach
+		remove minables "Glacium" 1 5
+	system Alphecca
+		remove minables "Chrysalite" 1 5
+	system Antares
+		remove minables "Ferronyte" 1 5
+	system As-75
+		remove minables "Crimsonite" 1 5
+	system "Avo Chigo"
+		remove minables "Tholium" 1 5
+	system Belug
+		remove minables "Chrysalite" 1 5
+	system "Bosuno Le"
+		remove minables "Crimsonite" 1 5
+	system Canopus
+		remove minables "Glacium" 1 5
+	system Chimitarp
+		remove minables "Ferronyte" 1 5
+	system Clip
+		remove minables "Chrysalite" 1 5
+	system Current
+		remove minables "Tholium" 1 5
+	system "Deep Space 19K12"
+		remove minables "Crimsonite" 1 5
+	system "Deep Space 7F"
+		remove minables "Chrysalite" 1 5
+	system Diespiter
+		remove minables "Glacium" 1 5
+	system E-4183
+		remove minables "Tholium" 1 5
+	system "Elabi Choati"
+		remove minables "Ferronyte" 1 5
+	system Ensemble
+		remove minables "Chrysalite" 1 5
+	system Esix
+		remove minables "Crimsonite" 1 5
+	system "Far Horizon"
+		remove minables "Viridit" 1 5
+	system Ferukistek
+		remove minables "Tholium" 1 5
+	system Fumalsamakah
+		remove minables "Chrysalite" 1 5
+	system Gaungu
+		remove minables "Glacium" 1 5
+	system Glubatub
+		remove minables "Ferronyte" 1 5
+	system H-8188
+		remove minables "Chrysalite" 1 5
+	system Hesselpost
+		remove minables "Tholium" 1 5
+	system Huud
+		remove minables "Crimsonite" 1 5
+	system "Imo Dep"
+		remove minables "Glacium" 1 5
+	system "Is Il T-127"
+		remove minables "Chrysalite" 1 5
+	system Jied
+		remove minables "Ferronyte" 1 5
+	system Kashikt
+		remove minables "Tholium" 1 5
+	system Kiiraj-Luue
+		remove minables "Crimsonite" 1 5
+	system "Kor En'lakfar"
+		remove minables "Chrysalite" 1 5
+	system Kugel
+		remove minables "Glacium" 1 5
+	system Lire
+		remove minables "Ferronyte" 1 5
+	system MC-42
+		remove minables "Tholium" 1 5
+	system Matar
+		remove minables "Chrysalite" 1 5
+	system Mekislepti
+		remove minables "Crimsonite" 1 5
+	system Miblulub
+		remove minables "Viridit" 1 5
+	system Mohuwo
+		remove minables "Chrysalite" 1 5
+	system N-14
+		remove minables "Tholium" 1 5
+	system Nona
+		remove minables "Glacium" 1 5
+	system Ookmya
+		remove minables "Ferronyte" 1 5
+	system Paeli
+		remove minables "Viridit" 1 5
+	system "Pedita Sec"
+		remove minables "Viridit" 1 5
+	system Pherkad
+		remove minables "Viridit" 1 5
+	system "Porta Terra"
+		remove minables "Viridit" 1 5
+	system Pukako
+		remove minables "Azurosteel" 1 5
+	system "Rati Cal"
+		remove minables "Azurosteel" 1 5
+	system Rota
+		remove minables "Azurosteel" 1 5
+	system "Sagittarius A*"
+		remove minables "Azurosteel" 1 5
+	system Scija
+		remove minables "Azurosteel" 1 5
+	system Sevrelect
+		remove minables "Azurosteel" 1 5
+	system "Silver String"
+		remove minables "Nephryllium" 1 5
+	system "Sol Saryd"
+		remove minables "Nephryllium" 1 5
+	system Stiidej-Nnesa
+		remove minables "Nephryllium" 1 5
+	system "Tania Australis"
+		remove minables "Nephryllium" 1 5
+	system Thuban
+		remove minables "Nephryllium" 1 5
+	system Twirl
+		remove minables "Solarite" 1 5
+	system Uttna
+		remove minables "Solarite" 1 5
+	system Vasa-Oorua
+		remove minables "Solarite" 1 5
+	system Vulcuja
+		remove minables "Solarite" 1 5
+	system Wezen
+		remove minables "Vantarox" 1 5
+	system Yllke
+		remove minables "Vantarox" 1 5
+	system Zubenelhakrabi
+		remove minables "Ferronyte" 1 5
+
+
+event "asteroid.pos.10"
+	system "3 Axis"
+		add minables "Chrysalite" 1 5
+	system "5 Winter Above"
+		add minables "Tholium" 1 5
+	system Acnanjo
+		add minables "Glacium" 1 5
+	system "Ae Il H-24"
+		add minables "Ferronyte" 1 5
+	system "Al Dhanab"
+		add minables "Chrysalite" 1 5
+	system Algieba
+		add minables "Tholium" 1 5
+	system Alnasl
+		add minables "Glacium" 1 5
+	system Alpherg
+		add minables "Chrysalite" 1 5
+	system Anthem
+		add minables "Ferronyte" 1 5
+	system Asikafarnut
+		add minables "Crimsonite" 1 5
+	system Aya'k'k
+		add minables "Tholium" 1 5
+	system "Beta Lupi"
+		add minables "Chrysalite" 1 5
+	system Br-80
+		add minables "Crimsonite" 1 5
+	system Capella
+		add minables "Glacium" 1 5
+	system Chorale
+		add minables "Ferronyte" 1 5
+	system Companion
+		add minables "Chrysalite" 1 5
+	system Cusp
+		add minables "Tholium" 1 5
+	system "Deep Space 19M2"
+		add minables "Crimsonite" 1 5
+	system "Delta Capricorni"
+		add minables "Chrysalite" 1 5
+	system Dixere
+		add minables "Glacium" 1 5
+	system Eber
+		add minables "Tholium" 1 5
+	system Elnath
+		add minables "Ferronyte" 1 5
+	system "Epsilon Leonis"
+		add minables "Chrysalite" 1 5
+	system Eteron
+		add minables "Crimsonite" 1 5
+	system Farinus
+		add minables "Viridit" 1 5
+	system Firmament
+		add minables "Tholium" 1 5
+	system G-3191
+		add minables "Chrysalite" 1 5
+	system "Genta Bo"
+		add minables "Glacium" 1 5
+	system "Good Omen"
+		add minables "Ferronyte" 1 5
+	system Hadar
+		add minables "Chrysalite" 1 5
+	system "Hevru Hai"
+		add minables "Tholium" 1 5
+	system Iigen
+		add minables "Crimsonite" 1 5
+	system Interlude
+		add minables "Glacium" 1 5
+	system "Is Il V-263"
+		add minables "Chrysalite" 1 5
+	system Jyelio
+		add minables "Ferronyte" 1 5
+	system Kasii-Sola
+		add minables "Tholium" 1 5
+	system "Kifrana Terberah"
+		add minables "Crimsonite" 1 5
+	system "Kor Men"
+		add minables "Chrysalite" 1 5
+	system L-118
+		add minables "Glacium" 1 5
+	system Lolami
+		add minables "Ferronyte" 1 5
+	system Madrigal
+		add minables "Tholium" 1 5
+	system Mebla
+		add minables "Chrysalite" 1 5
+	system Men
+		add minables "Crimsonite" 1 5
+	system Minkar
+		add minables "Viridit" 1 5
+	system Mora
+		add minables "Chrysalite" 1 5
+	system Naos
+		add minables "Tholium" 1 5
+	system Nssryos
+		add minables "Glacium" 1 5
+	system Opera
+		add minables "Ferronyte" 1 5
+	system Parca
+		add minables "Viridit" 1 5
+	system Pelubta
+		add minables "Viridit" 1 5
+	system Piadenli
+		add minables "Viridit" 1 5
+	system Postverta
+		add minables "Viridit" 1 5
+	system Quaru
+		add minables "Azurosteel" 1 5
+	system Regor
+		add minables "Azurosteel" 1 5
+	system Ruchbah
+		add minables "Azurosteel" 1 5
+	system Saiph
+		add minables "Azurosteel" 1 5
+	system Segesta
+		add minables "Azurosteel" 1 5
+	system Shaula
+		add minables "Azurosteel" 1 5
+	system Sirius
+		add minables "Nephryllium" 1 5
+	system Sonata
+		add minables "Nephryllium" 1 5
+	system Suhail
+		add minables "Nephryllium" 1 5
+	system Tarazed
+		add minables "Nephryllium" 1 5
+	system Torbab
+		add minables "Nephryllium" 1 5
+	system Uelawan
+		add minables "Solarite" 1 5
+	system Uuoru-Sossa
+		add minables "Solarite" 1 5
+	system Vega
+		add minables "Solarite" 1 5
+	system "Wah Ki"
+		add minables "Solarite" 1 5
+	system "World's End"
+		add minables "Vantarox" 1 5
+	system Zaurak
+		add minables "Vantarox" 1 5
+	system "Al Hurr"
+		add minables "Ferronyte" 1 5
+	system "16 Autumn Rising"
+		remove minables "Chrysalite" 1 5
+	system "5 Summer Above"
+		remove minables "Tholium" 1 5
+	system Achernar
+		remove minables "Glacium" 1 5
+	system "Ae Il G-66"
+		remove minables "Ferronyte" 1 5
+	system Aksek
+		remove minables "Chrysalite" 1 5
+	system Algenib
+		remove minables "Tholium" 1 5
+	system Alnair
+		remove minables "Glacium" 1 5
+	system Alpheratz
+		remove minables "Chrysalite" 1 5
+	system Antevorta
+		remove minables "Ferronyte" 1 5
+	system Ascella
+		remove minables "Crimsonite" 1 5
+	system Axiom
+		remove minables "Tholium" 1 5
+	system Belugt
+		remove minables "Chrysalite" 1 5
+	system "Bote Asu"
+		remove minables "Crimsonite" 1 5
+	system Cantata
+		remove minables "Glacium" 1 5
+	system Chirr'ay'akai
+		remove minables "Ferronyte" 1 5
+	system Coluber
+		remove minables "Chrysalite" 1 5
+	system Currus
+		remove minables "Tholium" 1 5
+	system "Deep Space 19M1"
+		remove minables "Crimsonite" 1 5
+	system Delia
+		remove minables "Chrysalite" 1 5
+	system Diphda
+		remove minables "Glacium" 1 5
+	system E-9182
+		remove minables "Tholium" 1 5
+	system Elifennka
+		remove minables "Ferronyte" 1 5
+	system Eogho
+		remove minables "Chrysalite" 1 5
+	system "Eta Carinae"
+		remove minables "Crimsonite" 1 5
+	system Farbutero
+		remove minables "Viridit" 1 5
+	system Fingol
+		remove minables "Tholium" 1 5
+	system Furmeliki
+		remove minables "Chrysalite" 1 5
+	system Ge-73
+		remove minables "Glacium" 1 5
+	system Gomeisa
+		remove minables "Ferronyte" 1 5
+	system H-9187
+		remove minables "Chrysalite" 1 5
+	system Heutesl
+		remove minables "Tholium" 1 5
+	system Ianua
+		remove minables "Crimsonite" 1 5
+	system Insitor
+		remove minables "Glacium" 1 5
+	system "Is Il T-94"
+		remove minables "Chrysalite" 1 5
+	system "Jyeg Pvu"
+		remove minables "Ferronyte" 1 5
+	system Kasii-Cavaasa
+		remove minables "Tholium" 1 5
+	system "Ki War Ek"
+		remove minables "Crimsonite" 1 5
+	system "Kor Fel'tar"
+		remove minables "Chrysalite" 1 5
+	system Kursa
+		remove minables "Glacium" 1 5
+	system Lloloi
+		remove minables "Ferronyte" 1 5
+	system MS-219
+		remove minables "Tholium" 1 5
+	system Mavra-Ijsola
+		remove minables "Chrysalite" 1 5
+	system Mellow
+		remove minables "Crimsonite" 1 5
+	system Mimosa
+		remove minables "Viridit" 1 5
+	system Moktar
+		remove minables "Chrysalite" 1 5
+	system Na-23
+		remove minables "Tholium" 1 5
+	system Nonet
+		remove minables "Glacium" 1 5
+	system Oosuoro
+		remove minables "Ferronyte" 1 5
+	system Pantica
+		remove minables "Viridit" 1 5
+	system Pelaa-Muora
+		remove minables "Viridit" 1 5
+	system Phurad
+		remove minables "Viridit" 1 5
+	system Postlude
+		remove minables "Viridit" 1 5
+	system Quartet
+		remove minables "Azurosteel" 1 5
+	system "Ravu Kon"
+		remove minables "Azurosteel" 1 5
+	system Rouseu
+		remove minables "Azurosteel" 1 5
+	system Sail
+		remove minables "Azurosteel" 1 5
+	system Sedes
+		remove minables "Azurosteel" 1 5
+	system Sextet
+		remove minables "Azurosteel" 1 5
+	system Similisti
+		remove minables "Nephryllium" 1 5
+	system Solifar
+		remove minables "Nephryllium" 1 5
+	system Stream
+		remove minables "Nephryllium" 1 5
+	system Tap
+		remove minables "Nephryllium" 1 5
+	system Tide
+		remove minables "Nephryllium" 1 5
+	system U-5188
+		remove minables "Solarite" 1 5
+	system Uuoru-Kella
+		remove minables "Solarite" 1 5
+	system Vaticanus
+		remove minables "Solarite" 1 5
+	system W-3197
+		remove minables "Solarite" 1 5
+	system Whirlwind
+		remove minables "Vantarox" 1 5
+	system Yranjiu
+		remove minables "Vantarox" 1 5
+	system Zubeneschamali
+		remove minables "Ferronyte" 1 5
+
+
