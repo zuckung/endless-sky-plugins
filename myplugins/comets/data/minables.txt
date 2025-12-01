@@ -66,8 +66,8 @@ effect "crimsonite"
 	zooms
 
 
-effect "viridite"
-	sprite "effect/comet/verdanite"
+effect "viridit"
+	sprite "effect/comet/viridit"
 		"frame rate" 30
 		"scale" 6
 	zooms
