@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-12-01 | update: comets<br>
 2025-11-29 | update: boss.loot<br>
 2025-11-23 | update: boss.loot<br>
 2025-11-20 | update: captureable.person.ships<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-27 | update: boss.loot<br>
 2025-10-26 | update: additional.command.buttons.radial<br>
 2025-10-26 | update: ship.merging<br>
-2025-10-26 | update: mission.helper<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -46,6 +46,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#captureablepersonships">captureable.person.ships</a><br>
 <a href="README.md#coalitionshopping">coalition.shopping</a><br>
 <a href="README.md#combatai">combat.ai</a><br>
+<a href="README.md#comets">comets</a><br>
 <a href="README.md#controlstation">control.station</a><br>
 <a href="README.md#disablepersonships">disable.person.ships</a><br>
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
@@ -1609,6 +1610,87 @@ screenshots(click to enlarge):<br>
 <table>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/combat.ai01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
+
+
+---
+
+### comets
+
+<img src="myplugins/comets/icon.png" height="100">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/comets.png" width="130" height="20">
+
+[comets.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-comets/comets.zip) v1.0.0 | 4.86 mb | 2025-12-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=comets-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/comets/) | <a href="res/imagemd/comets.md">view images</a> [504]<br>
+<br>
+>Adds 10 different comet types, as rare spawns to changing systems. These comets are minable and high profitable. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### comets
+
+<br>
+
+<br>
+
+Adds 10 different comet types, as rare spawns to changing systems. These comets are minable and high profitable.<br>
+
+<br>
+
+Every 2 days an event starts and changes the spawn systems of these comets.<br>
+
+WARNING: bloats up the save file when used in ES 0.10.16 or below.<br>
+
+<br>
+
+Name | chance to appear | sell price per ton<br>
+
+"Chrysalite" | 19% | 250,000<br>
+
+"Tholium" | 14% | 300,000<br>
+
+"Glacium" | 11% | 350,000<br>
+
+"Ferronyte" | 11% | 400,000<br>
+
+"Crimsonite" | 10% | 450,000<br>
+
+"Viridit" | 9% | 500,000<br>
+
+"Azurosteel" | 9% | 550,000<br>
+
+"Nephryllium" | 7% | 600,000<br>
+
+"Solarite" | 6% | 650,000<br>
+
+"Vantarox" | 4% | 700,000<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+205-12-01<br>
+
+initial release<br>
+
+
+
+</blockquote>
+</details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/comets01.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/comets02.jpg" width="200"></td>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/comets03.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
