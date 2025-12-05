@@ -1,0 +1,26 @@
+This is the help for reading the requirements to start a mission.
+
+The "passenger" and "cargo" requirements
+"passenger 6" means you need 6 free bunks, "passengers 3 6" means you need 3 to 6 bunks, depending on the random generation of the mission.
+With cargo, it is the same.
+
+The "source" requirement
+The "source" block filters the planet where you can get the mission offered. It can be a planet name, or it can be "near system name 2", which mean up to 2 jumps away from that system, or it can be a government or many governments, so it is on one of the planets of these governments, or it can have attributes. Attributes are phrases planets have, only seen in the planet data files. There are some other rare cases of requirements that can be here.
+
+The "to offer", "to fail", "to complete", "to accept" requirements
+These blocks give a list of requirements to handle the mission. "to offer" is the most used one, and the other 3 are much more rare.
+These blocks are sometimes harder to read. They can have missions, events, conditions, reptutation and other things as requirement for a mission to start. "has" and "not" just filter if the following requirement  has to be true or false.
+If you see this:
+	to offer
+		or
+			has A
+			and
+				has B
+				has C
+		has D
+It is just a chain of requirements. The first "or" says that one of the deeper "children" need to be true. So "A" or "and" (which has its own deeper "children", which have both to be true). The first "or" needs "A", or "B and C". In the first depths it is always an "and", though not written. Which means in any case "D" is needed.
+Overall it means: you need "A" and "D", or you need "B" and "C" and "D".
+
+For detailed information, see the ES scripting wiki for mission creating on github.
+[https://github.com/endless-sky/endless-sky/wiki/CreatingMissions]
+
