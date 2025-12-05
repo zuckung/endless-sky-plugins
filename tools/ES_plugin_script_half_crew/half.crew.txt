@@ -1,0 +1,1488 @@
+ship "Wardragon"
+	attributes
+		"required crew" 80
+		"bunks" 92
+		"outfit space" 796
+
+ship "Marauder Fury"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 260
+
+ship "Lampyrid-Class Transport"
+	attributes
+		"required crew" 2
+		"bunks" 11
+		"outfit space" 284
+
+ship "Modified Osprey"
+	attributes
+		"required crew" 94
+		"bunks" 120
+		"outfit space" 2412
+
+ship "Ursa Polaris"
+	attributes
+		"required crew" 279
+		"bunks" 486
+		"outfit space" 2740
+
+ship "Marauder Bactrian"
+	attributes
+		"required crew" 35
+		"bunks" 46
+		"outfit space" 1620
+
+ship "Modified Boxwing"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 354
+
+ship "Modified Battleship"
+	attributes
+		"required crew" 80
+		"bunks" 106
+		"outfit space" 1364
+
+ship "Modified Ladybug"
+	attributes
+		"required crew" 8
+		"bunks" 16
+		"outfit space" 681
+
+ship "Modified Hauler VI"
+	attributes
+		"required crew" 1
+		"bunks" 6
+		"outfit space" 912
+
+ship "Korath Dredger"
+	attributes
+		"required crew" 68
+		"bunks" 178
+		"outfit space" 1121
+
+ship "Korath Raider"
+	attributes
+		"required crew" 72
+		"bunks" 125
+		"outfit space" 1027
+
+ship "Korath World-Ship"
+	attributes
+		"required crew" 397
+		"bunks" 746
+		"outfit space" 2331
+
+ship "Quarg Skylark"
+	attributes
+		"required crew" 60
+		"bunks" 105
+		"outfit space" 810
+
+ship "Koryfi"
+	attributes
+		"required crew" 1
+		"bunks" 12
+		"outfit space" 168
+
+ship "Melodikos"
+	attributes
+		"required crew" 3
+		"bunks" 72
+		"outfit space" 324
+
+ship "Avlaki"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 150
+
+ship "Harmonikos"
+	attributes
+		"required crew" 3
+		"bunks" 6
+		"outfit space" 192
+
+ship "Frequentia"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 192
+
+ship "Polari"
+	attributes
+		"required crew" 3
+		"bunks" 6
+		"outfit space" 324
+
+ship "Entasi"
+	attributes
+		"required crew" 3
+		"bunks" 6
+		"outfit space" 432
+
+ship "Undsyni"
+	attributes
+		"required crew" 6
+		"bunks" 30
+		"outfit space" 696
+
+ship "Modified Tachytia"
+	attributes
+		"required crew" 300
+		"bunks" 450
+		"outfit space" 2700
+
+ship "Prismaios"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 366
+
+ship "Diaspersi"
+	attributes
+		"required crew" 7
+		"bunks" 18
+		"outfit space" 468
+
+ship "Refraktos"
+	attributes
+		"required crew" 6
+		"bunks" 12
+		"outfit space" 540
+
+ship "Difraktos"
+	attributes
+		"required crew" 7
+		"bunks" 21
+		"outfit space" 582
+
+ship "Atenuatia"
+	attributes
+		"required crew" 30
+		"bunks" 45
+		"outfit space" 786
+
+ship "Akoustiki"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 102
+
+ship "Sasumata"
+	attributes
+		"required crew" 5
+		"bunks" 36
+		"outfit space" 469
+
+ship "Tanto"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 239
+
+ship "Ararebo"
+	attributes
+		"required crew" 7
+		"bunks" 21
+		"outfit space" 638
+
+ship "Tekkan"
+	attributes
+		"required crew" 3
+		"bunks" 4
+		"outfit space" 331
+
+ship "Kunai"
+	attributes
+		"required crew" 7
+		"bunks" 18
+		"outfit space" 445
+
+ship "Kama"
+	attributes
+		"required crew" 19
+		"bunks" 21
+		"outfit space" 617
+
+ship "Chigiriki"
+	attributes
+		"required crew" 24
+		"bunks" 34
+		"outfit space" 817
+
+ship "Arach Freighter"
+	attributes
+		"required crew" 1
+		"bunks" 5
+		"outfit space" 359
+
+ship "Arach Hulk"
+	attributes
+		"required crew" 4
+		"bunks" 7
+		"outfit space" 534
+
+ship "Arach Spindle"
+	attributes
+		"required crew" 2
+		"bunks" 7
+		"outfit space" 448
+
+ship "Arach Transport"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 287
+
+ship "Heliarch Breacher"
+	attributes
+		"required crew" 5
+		"bunks" 7
+		"outfit space" 388
+
+ship "Heliarch Hunter"
+	attributes
+		"required crew" 13
+		"bunks" 20
+		"outfit space" 594
+
+ship "Heliarch Interdictor"
+	attributes
+		"required crew" 21
+		"bunks" 35
+		"outfit space" 614
+
+ship "Heliarch Judicator"
+	attributes
+		"required crew" 15
+		"bunks" 55
+		"outfit space" 634
+
+ship "Heliarch Neutralizer"
+	attributes
+		"required crew" 8
+		"bunks" 12
+		"outfit space" 391
+
+ship "Heliarch Punisher"
+	attributes
+		"required crew" 48
+		"bunks" 72
+		"outfit space" 1031
+
+ship "Heliarch Stalker"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 135
+
+ship "Kimek Briar"
+	attributes
+		"required crew" 1
+		"bunks" 19
+		"outfit space" 283
+
+ship "Kimek Spire"
+	attributes
+		"required crew" 9
+		"bunks" 148
+		"outfit space" 785
+
+ship "Kimek Thistle"
+	attributes
+		"required crew" 3
+		"bunks" 39
+		"outfit space" 399
+
+ship "Kimek Thorn"
+	attributes
+		"required crew" 1
+		"bunks" 5
+		"outfit space" 143
+
+ship "Saryd Runabout"
+	attributes
+		"required crew" 1
+		"bunks" 7
+		"outfit space" 186
+
+ship "Saryd Sojourner"
+	attributes
+		"required crew" 8
+		"bunks" 50
+		"outfit space" 670
+
+ship "Saryd Traveler"
+	attributes
+		"required crew" 5
+		"bunks" 27
+		"outfit space" 520
+
+ship "Saryd Visitor"
+	attributes
+		"required crew" 2
+		"bunks" 16
+		"outfit space" 352
+
+ship "Void Sprite"
+	attributes
+		"required crew" 2
+		"bunks" 2
+		"outfit space" 24
+
+ship "Ember Waste Node"
+	attributes
+		"required crew" 2
+		"bunks" 2
+		"outfit space" 6
+
+ship "Shale"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 121
+
+ship "Dolomite"
+	attributes
+		"required crew" 4
+		"bunks" 39
+		"outfit space" 232
+
+ship "Conglomerate"
+	attributes
+		"required crew" 6
+		"bunks" 25
+		"outfit space" 303
+
+ship "Granofel"
+	attributes
+		"required crew" 5
+		"bunks" 7
+		"outfit space" 246
+
+ship "Gypsum"
+	attributes
+		"required crew" 2
+		"bunks" 4
+		"outfit space" 250
+
+ship "Corundum"
+	attributes
+		"required crew" 3
+		"bunks" 4
+		"outfit space" 326
+
+ship "Protolith"
+	attributes
+		"required crew" 201
+		"bunks" 2020
+		"outfit space" 4982
+
+ship "Augen"
+	attributes
+		"required crew" 140
+		"bunks" 180
+		"outfit space" 2228
+
+ship "Slate"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 126
+
+ship "Schist"
+	attributes
+		"required crew" 11
+		"bunks" 36
+		"outfit space" 372
+
+ship "Rhyolite"
+	attributes
+		"required crew" 2
+		"bunks" 4
+		"outfit space" 230
+
+ship "Eclogite"
+	attributes
+		"required crew" 4
+		"bunks" 6
+		"outfit space" 297
+
+ship "Diorite"
+	attributes
+		"required crew" 7
+		"bunks" 14
+		"outfit space" 483
+
+ship "Hornfel"
+	attributes
+		"required crew" 16
+		"bunks" 24
+		"outfit space" 556
+
+ship "Gneiss"
+	attributes
+		"required crew" 56
+		"bunks" 81
+		"outfit space" 1003
+
+ship "Granulite"
+	attributes
+		"required crew" 26
+		"bunks" 118
+		"outfit space" 889
+
+ship "Mica"
+	attributes
+		"required crew" 1
+		"bunks" 5
+		"outfit space" 128
+
+ship "Coesite"
+	attributes
+		"required crew" 4
+		"bunks" 7
+		"outfit space" 278
+
+ship "Tridymite"
+	attributes
+		"required crew" 3
+		"bunks" 14
+		"outfit space" 230
+
+ship "Felsic"
+	attributes
+		"required crew" 9
+		"bunks" 26
+		"outfit space" 376
+
+ship "Feldspar"
+	attributes
+		"required crew" 66
+		"bunks" 96
+		"outfit space" 758
+
+ship "Epidote"
+	attributes
+		"required crew" 51
+		"bunks" 85
+		"outfit space" 722
+
+ship "Kyanite"
+	attributes
+		"required crew" 33
+		"bunks" 46
+		"outfit space" 474
+
+ship "Geodesic Geocoris"
+	attributes
+		"required crew" 13
+		"bunks" 24
+		"outfit space" 603
+
+ship "Anomalocaris"
+	attributes
+		"required crew" 10
+		"bunks" 13
+		"outfit space" 559
+
+ship "Aphid"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 191
+
+ship "Centipede"
+	attributes
+		"required crew" 17
+		"bunks" 65
+		"outfit space" 507
+
+ship "Cicada"
+	attributes
+		"required crew" 4
+		"bunks" 25
+		"outfit space" 375
+
+ship "Geocoris"
+	attributes
+		"required crew" 7
+		"bunks" 28
+		"outfit space" 638
+
+ship "Grasshopper"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 204
+
+ship "Lightning Bug"
+	attributes
+		"required crew" 2
+		"bunks" 5
+		"outfit space" 288
+
+ship "Ladybug"
+	attributes
+		"required crew" 4
+		"bunks" 16
+		"outfit space" 494
+
+ship "Pond Strider"
+	attributes
+		"required crew" 4
+		"bunks" 9
+		"outfit space" 372
+
+ship "Sea Scorpion"
+	attributes
+		"required crew" 7
+		"bunks" 18
+		"outfit space" 546
+
+ship "Scarab"
+	attributes
+		"required crew" 2
+		"bunks" 13
+		"outfit space" 259
+
+ship "Shield Beetle"
+	attributes
+		"required crew" 23
+		"bunks" 47
+		"outfit space" 894
+
+ship "Emperor Beetle"
+	attributes
+		"required crew" 41
+		"bunks" 45
+		"outfit space" 983
+
+ship "Solifuge"
+	attributes
+		"required crew" 31
+		"bunks" 59
+		"outfit space" 946
+
+ship "Water Bug"
+	attributes
+		"required crew" 2
+		"bunks" 14
+		"outfit space" 398
+
+ship "Racing Flivver"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 162
+
+ship "Emergency Shuttle"
+	attributes
+		"required crew" 1
+		"bunks" 5
+		"outfit space" 49
+
+ship "Unknown Ship Type"
+	attributes
+		"required crew" 32
+		"bunks" 64
+		"outfit space" 938
+
+ship "Kestrel"
+	attributes
+		"required crew" 32
+		"bunks" 64
+		"outfit space" 938
+
+ship "Marauder Arrow"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 216
+
+ship "Marauder Bounder"
+	attributes
+		"required crew" 1
+		"bunks" 9
+		"outfit space" 258
+
+ship "Marauder Falcon"
+	attributes
+		"required crew" 28
+		"bunks" 48
+		"outfit space" 716
+
+ship "Marauder Firebird"
+	attributes
+		"required crew" 5
+		"bunks" 12
+		"outfit space" 476
+
+ship "Marauder Leviathan"
+	attributes
+		"required crew" 24
+		"bunks" 34
+		"outfit space" 750
+
+ship "Marauder Manta"
+	attributes
+		"required crew" 3
+		"bunks" 5
+		"outfit space" 412
+
+ship "Marauder Quicksilver"
+	attributes
+		"required crew" 2
+		"bunks" 3
+		"outfit space" 273
+
+ship "Marauder Raven"
+	attributes
+		"required crew" 3
+		"bunks" 7
+		"outfit space" 324
+
+ship "Marauder Splinter"
+	attributes
+		"required crew" 4
+		"bunks" 11
+		"outfit space" 472
+
+ship "Aerie"
+	attributes
+		"required crew" 5
+		"bunks" 14
+		"outfit space" 418
+
+ship "Argosy"
+	attributes
+		"required crew" 2
+		"bunks" 7
+		"outfit space" 284
+
+ship "Arrow"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 186
+
+ship "Auxiliary"
+	attributes
+		"required crew" 43
+		"bunks" 125
+		"outfit space" 970
+
+ship "Bactrian"
+	attributes
+		"required crew" 35
+		"bunks" 122
+		"outfit space" 986
+
+ship "Barb"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 87
+
+ship "Bastion"
+	attributes
+		"required crew" 8
+		"bunks" 20
+		"outfit space" 510
+
+ship "Behemoth"
+	attributes
+		"required crew" 6
+		"bunks" 15
+		"outfit space" 540
+
+ship "Berserker"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 202
+
+ship "Blackbird"
+	attributes
+		"required crew" 1
+		"bunks" 14
+		"outfit space" 378
+
+ship "Bounder"
+	attributes
+		"required crew" 1
+		"bunks" 8
+		"outfit space" 238
+
+ship "Bulk Freighter"
+	attributes
+		"required crew" 6
+		"bunks" 10
+		"outfit space" 432
+
+ship "Bulwark"
+	attributes
+		"required crew" 9
+		"bunks" 15
+		"outfit space" 553
+
+ship "Carrier"
+	attributes
+		"required crew" 55
+		"bunks" 92
+		"outfit space" 1004
+
+ship "Class C Freighter"
+	attributes
+		"required crew" 9
+		"bunks" 21
+		"outfit space" 454
+
+ship "Clipper"
+	attributes
+		"required crew" 1
+		"bunks" 4
+		"outfit space" 270
+
+ship "Container Transport"
+	attributes
+		"required crew" 3
+		"bunks" 9
+		"outfit space" 428
+
+ship "Corvette"
+	attributes
+		"required crew" 4
+		"bunks" 16
+		"outfit space" 452
+
+ship "Cruiser"
+	attributes
+		"required crew" 40
+		"bunks" 68
+		"outfit space" 896
+
+ship "Cutthroat"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 261
+
+ship "Dreadnought"
+	attributes
+		"required crew" 42
+		"bunks" 73
+		"outfit space" 938
+
+ship "Dropship"
+	attributes
+		"required crew" 1
+		"bunks" 4
+		"outfit space" 110
+
+ship "Enforcer"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 216
+
+ship "Falcon"
+	attributes
+		"required crew" 26
+		"bunks" 45
+		"outfit space" 652
+
+ship "Firebird"
+	attributes
+		"required crew" 3
+		"bunks" 11
+		"outfit space" 422
+
+ship "Flivver"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 134
+
+ship "Freighter"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 258
+
+ship "Frigate"
+	attributes
+		"required crew" 10
+		"bunks" 22
+		"outfit space" 454
+
+ship "Fury"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 164
+
+ship "Gunboat"
+	attributes
+		"required crew" 3
+		"bunks" 6
+		"outfit space" 282
+
+ship "Hauler"
+	attributes
+		"required crew" 1
+		"bunks" 6
+		"outfit space" 362
+
+ship "Hauler II"
+	attributes
+		"required crew" 1
+		"bunks" 6
+		"outfit space" 362
+
+ship "Hauler III"
+	attributes
+		"required crew" 1
+		"bunks" 6
+		"outfit space" 362
+
+ship "Hawk"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 204
+
+ship "Headhunter"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 254
+
+ship "Heavy Shuttle"
+	attributes
+		"required crew" 1
+		"bunks" 5
+		"outfit space" 140
+
+ship "Hogshead"
+	attributes
+		"required crew" 9
+		"bunks" 42
+		"outfit space" 404
+
+ship "Jackal"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 157
+
+ship "Leviathan"
+	attributes
+		"required crew" 21
+		"bunks" 32
+		"outfit space" 684
+
+ship "Mammoth"
+	attributes
+		"required crew" 9
+		"bunks" 15
+		"outfit space" 566
+
+ship "Manta"
+	attributes
+		"required crew" 3
+		"bunks" 5
+		"outfit space" 360
+
+ship "Modified Argosy"
+	attributes
+		"required crew" 2
+		"bunks" 6
+		"outfit space" 352
+
+ship "Monitor"
+	attributes
+		"required crew" 10
+		"bunks" 16
+		"outfit space" 362
+
+ship "Mule"
+	attributes
+		"required crew" 7
+		"bunks" 21
+		"outfit space" 484
+
+ship "Nest"
+	attributes
+		"required crew" 2
+		"bunks" 7
+		"outfit space" 414
+
+ship "Nighthawk"
+	attributes
+		"required crew" 3
+		"bunks" 19
+		"outfit space" 380
+
+ship "Osprey"
+	attributes
+		"required crew" 4
+		"bunks" 12
+		"outfit space" 474
+
+ship "Protector"
+	attributes
+		"required crew" 15
+		"bunks" 34
+		"outfit space" 660
+
+ship "Quicksilver"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 246
+
+ship "Rainmaker"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 248
+
+ship "Raven"
+	attributes
+		"required crew" 3
+		"bunks" 6
+		"outfit space" 294
+
+ship "Roost"
+	attributes
+		"required crew" 3
+		"bunks" 8
+		"outfit space" 466
+
+ship "Saber"
+	attributes
+		"required crew" 8
+		"bunks" 12
+		"outfit space" 306
+
+ship "Scout"
+	attributes
+		"required crew" 1
+		"bunks" 6
+		"outfit space" 232
+
+ship "Scrapper"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 129
+
+ship "Shuttle"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 126
+
+ship "Skein"
+	attributes
+		"required crew" 3
+		"bunks" 9
+		"outfit space" 518
+
+ship "Sparrow"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 134
+
+ship "Splinter"
+	attributes
+		"required crew" 3
+		"bunks" 10
+		"outfit space" 422
+
+ship "Star Barge"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 134
+
+ship "Star Queen"
+	attributes
+		"required crew" 16
+		"bunks" 56
+		"outfit space" 472
+
+ship "Sunder"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 236
+
+ship "Valkyrie"
+	attributes
+		"required crew" 4
+		"bunks" 9
+		"outfit space" 420
+
+ship "Vanguard"
+	attributes
+		"required crew" 11
+		"bunks" 22
+		"outfit space" 606
+
+ship "Wasp"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 152
+
+ship "Jje"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 12
+
+ship "Ayym"
+	attributes
+		"required crew" 2
+		"bunks" 2
+		"outfit space" 14
+
+ship "Venta"
+	attributes
+		"required crew" 20
+		"bunks" 22
+		"outfit space" 598
+
+ship "Nimbus"
+	attributes
+		"required crew" 10
+		"bunks" 20
+		"outfit space" 490
+
+ship "Nimbo Stratus"
+	attributes
+		"required crew" 2
+		"bunks" 5
+		"outfit space" 280
+
+ship "Nimbo Cirrus"
+	attributes
+		"required crew" 3
+		"bunks" 7
+		"outfit space" 174
+
+ship "Gero"
+	attributes
+		"required crew" 5
+		"bunks" 36
+		"outfit space" 230
+
+ship "Tace Mesa"
+	attributes
+		"required crew" 1
+		"bunks" 20
+		"outfit space" 85
+
+ship "Rano'erek"
+	attributes
+		"required crew" 68
+		"bunks" 178
+		"outfit space" 1121
+
+ship "Palavret"
+	attributes
+		"required crew" 72
+		"bunks" 125
+		"outfit space" 1027
+
+ship "Tubfalet"
+	attributes
+		"required crew" 78
+		"bunks" 125
+		"outfit space" 1121
+
+ship "'nra'ret"
+	attributes
+		"required crew" 96
+		"bunks" 110
+		"outfit space" 1165
+
+ship "Rai'alorej"
+	attributes
+		"required crew" 261
+		"bunks" 716
+		"outfit space" 2290
+
+ship "Ikatila'ej"
+	attributes
+		"required crew" 478
+		"bunks" 966
+		"outfit space" 3248
+
+ship "Lor'kas Ik 577"
+	attributes
+		"required crew" 117
+		"bunks" 226
+		"outfit space" 1337
+
+ship "Ra'gru Ik 618"
+	attributes
+		"required crew" 309
+		"bunks" 397
+		"outfit space" 2072
+
+ship "Kas'lor Ik 582"
+	attributes
+		"required crew" 157
+		"bunks" 275
+		"outfit space" 1391
+
+ship "Lor'nag Ik 590"
+	attributes
+		"required crew" 269
+		"bunks" 746
+		"outfit space" 2348
+
+ship "Ra'at Ik 621"
+	attributes
+		"required crew" 397
+		"bunks" 518
+		"outfit space" 2037
+
+ship "Kasichara A'awoj"
+	attributes
+		"required crew" 271
+		"bunks" 998
+		"outfit space" 3036
+
+ship "Korsmanath A'awoj"
+	attributes
+		"required crew" 970
+		"bunks" 15960
+		"outfit space" 35100
+
+ship "Echo-Galleon"
+	attributes
+		"required crew" 121
+		"bunks" 486
+		"outfit space" 1693
+
+ship "Arch-Carrack"
+	attributes
+		"required crew" 27
+		"bunks" 48
+		"outfit space" 680
+
+ship "Charm-Shallop"
+	attributes
+		"required crew" 32
+		"bunks" 101
+		"outfit space" 677
+
+ship "Pug Zibruka"
+	attributes
+		"required crew" 2
+		"bunks" 3
+		"outfit space" 186
+
+ship "Pug Enfolta"
+	attributes
+		"required crew" 9
+		"bunks" 13
+		"outfit space" 388
+
+ship "Pug Maboro"
+	attributes
+		"required crew" 27
+		"bunks" 43
+		"outfit space" 648
+
+ship "Pug Arfecta"
+	attributes
+		"required crew" 18
+		"bunks" 23
+		"outfit space" 686
+
+ship "Quarg Lindwyrm"
+	attributes
+		"required crew" 17
+		"bunks" 20
+		"outfit space" 500
+
+ship "Quarg Guivre"
+	attributes
+		"required crew" 82
+		"bunks" 90
+		"outfit space" 900
+
+ship "Quarg Drake"
+	attributes
+		"required crew" 10
+		"bunks" 15
+		"outfit space" 480
+
+ship "Quarg Wardragon"
+	attributes
+		"required crew" 15
+		"bunks" 20
+		"outfit space" 550
+
+ship "Quarg Wyvern"
+	attributes
+		"required crew" 25
+		"bunks" 30
+		"outfit space" 635
+
+ship "Quarg Hydra"
+	attributes
+		"required crew" 60
+		"bunks" 70
+		"outfit space" 1065
+
+ship "Albatross"
+	attributes
+		"required crew" 22
+		"bunks" 37
+		"outfit space" 748
+
+ship "Modified Dromedary"
+	attributes
+		"required crew" 47
+		"bunks" 150
+		"outfit space" 1040
+
+ship "Gull"
+	attributes
+		"required crew" 1
+		"bunks" 10
+		"outfit space" 331
+
+ship "Heron"
+	attributes
+		"required crew" 500
+		"bunks" 1500
+		"outfit space" 5150
+
+ship "Ibis"
+	attributes
+		"required crew" 8
+		"bunks" 18
+		"outfit space" 463
+
+ship "Merganser"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 185
+
+ship "Pelican"
+	attributes
+		"required crew" 7
+		"bunks" 17
+		"outfit space" 516
+
+ship "Penguin"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 113
+
+ship "Peregrine"
+	attributes
+		"required crew" 4
+		"bunks" 12
+		"outfit space" 548
+
+ship "Petrel"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 137
+
+ship "Puffin"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 82
+
+ship "Smew"
+	attributes
+		"required crew" 1
+		"bunks" 4
+		"outfit space" 88
+
+ship "Starling"
+	attributes
+		"required crew" 3
+		"bunks" 7
+		"outfit space" 332
+
+ship "Emerald Sword"
+	attributes
+		"required crew" 43
+		"bunks" 151
+		"outfit space" 1492
+
+ship "Aaulqra"
+	attributes
+		"required crew" 9
+		"bunks" 12
+		"outfit space" 576
+
+ship "Ejniisde"
+	attributes
+		"required crew" 6
+		"bunks" 32
+		"outfit space" 329
+
+ship "Kaskhorade"
+	attributes
+		"required crew" 17
+		"bunks" 65
+		"outfit space" 700
+
+ship "Kvelqde"
+	attributes
+		"required crew" 1
+		"bunks" 4
+		"outfit space" 170
+
+ship "Kvelqde-Khora"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 203
+
+ship "Myaede"
+	attributes
+		"required crew" 3
+		"bunks" 10
+		"outfit space" 295
+
+ship "Nnaatej"
+	attributes
+		"required crew" 2
+		"bunks" 13
+		"outfit space" 246
+
+ship "Nnesaarau"
+	attributes
+		"required crew" 1
+		"bunks" 2
+		"outfit space" 179
+
+ship "Ojde"
+	attributes
+		"required crew" 4
+		"bunks" 12
+		"outfit space" 354
+
+ship "Seiitej"
+	attributes
+		"required crew" 4
+		"bunks" 18
+		"outfit space" 406
+
+ship "Stolsaqra"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 214
+
+ship "Veusade"
+	attributes
+		"required crew" 2
+		"bunks" 5
+		"outfit space" 380
+
+ship "Vujlet"
+	attributes
+		"required crew" 1
+		"bunks" 3
+		"outfit space" 286
+
+ship "Astral Cetacean"
+	attributes
+		"required crew" 4
+		"bunks" 4
+		"outfit space" 10
+
+ship "Summer Leaf"
+	attributes
+		"required crew" 3
+		"bunks" 7
+		"outfit space" 336
+
+ship "Autumn Leaf"
+	attributes
+		"required crew" 4
+		"bunks" 6
+		"outfit space" 375
+
+ship "Strong Wind"
+	attributes
+		"required crew" 8
+		"bunks" 19
+		"outfit space" 533
+
+ship "Heavy Gust"
+	attributes
+		"required crew" 11
+		"bunks" 17
+		"outfit space" 568
+
+ship "Tempest"
+	attributes
+		"required crew" 19
+		"bunks" 26
+		"outfit space" 661
+
+ship "Derecho"
+	attributes
+		"required crew" 26
+		"bunks" 41
+		"outfit space" 878
+
+ship "Hurricane"
+	attributes
+		"required crew" 38
+		"bunks" 58
+		"outfit space" 1078
+
+ship "Cool Breeze"
+	attributes
+		"required crew" 1
+		"bunks" 1
+		"outfit space" 196
+
+ship "Winter Gale"
+	attributes
+		"required crew" 7
+		"bunks" 11
+		"outfit space" 502
+
+ship "Deep River"
+	attributes
+		"required crew" 6
+		"bunks" 11
+		"outfit space" 385
+
+ship "Deep River Transport"
+	attributes
+		"required crew" 6
+		"bunks" 83
+		"outfit space" 487
+
+ship "Riptide"
+	attributes
+		"required crew" 23
+		"bunks" 116
+		"outfit space" 722
+

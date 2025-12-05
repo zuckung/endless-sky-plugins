@@ -1,0 +1,5550 @@
+ship  "Finch"
+	"display name" "Ember Waste Node"
+
+ship  "Wardragon"
+	"display name" "Atenuatia"
+
+ship  "Marauder Fury"
+	"display name" "Model 16"
+
+ship  "Lampyrid-Class Transport"
+	"display name" "Kestrel"
+
+ship  "Modified Osprey"
+	"display name" "Merganser"
+
+ship  "Ursa Polaris"
+	"display name" "Hogshead"
+
+ship  "Shooting Star"
+	"display name" "Void Sprite"
+
+ship  "Marauder Bactrian"
+	"display name" "Modified Osprey"
+
+ship  "Modified Boxwing"
+	"display name" "Undsyni"
+
+ship  "Modified Battleship"
+	"display name" "Met Par Tek 53"
+
+ship  "Modified Ladybug"
+	"display name" "Heron"
+
+ship  "Waverider"
+	"display name" "Prismaios"
+
+ship  "Modified Hauler VI"
+	"display name" "Starling"
+
+ship  "Grasshopper"
+	"display name" "Heliarch Stalker"
+
+ship  "Korath Dredger"
+	"display name" "Flycatcher"
+
+ship  "Korath Raider"
+	"display name" "Tridymite"
+
+ship  "Korath Chaser"
+	"display name" "Vyrmeid"
+
+ship  "Korath World-Ship"
+	"display name" "Osprey"
+
+ship  "Quarg Skylark"
+	"display name" "Autumn Leaf"
+
+ship  "Koryfi"
+	"display name" "Summer Leaf"
+
+ship  "Melodikos"
+	"display name" "Wardragon"
+
+ship  "Avlaki"
+	"display name" "Ra'at Ik 621"
+
+ship  "Harmonikos"
+	"display name" "Monitor"
+
+ship  "Phononos"
+	"display name" "Frequentia"
+
+ship  "Frequentia"
+	"display name" "Pug Zibruka"
+
+ship  "Polari"
+	"display name" "'nra'ret"
+
+ship  "Entasi"
+	"display name" "Marauder Manta"
+
+ship  "Undsyni"
+	"display name" "Argosy"
+
+ship  "Modified Tachytia"
+	"display name" "Kimek Spire"
+
+ship  "Tremoros"
+	"display name" "Aberrant Triplet"
+
+ship  "Prismaios"
+	"display name" "Marauder Arrow"
+
+ship  "Interferos"
+	"display name" "Waverider"
+
+ship  "Diaspersi"
+	"display name" "Dagger"
+
+ship  "Refraktos"
+	"display name" "Quarg Hydra"
+
+ship  "Difraktos"
+	"display name" "Heavy Shuttle"
+
+ship  "Atenuatia"
+	"display name" "Pollen"
+
+ship  "Akoustiki"
+	"display name" "Earth Shaper"
+
+ship  "Photikon"
+	"display name" "Modified Argosy"
+
+ship  "Vibratia"
+	"display name" "Valkyrie"
+
+ship  "Undulon"
+	"display name" "Saber"
+
+ship  "Optikon"
+	"display name" "Headhunter"
+
+ship  "Sonikis"
+	"display name" "Fetri'sei"
+
+ship  "Windjammer"
+	"display name" "Saryd Traveler"
+
+ship  "Bluejacket"
+	"display name" "'olofez"
+
+ship  "Pollen"
+	"display name" "Quarg Skylark"
+
+ship  "Sprout"
+	"display name" "Cruiser"
+
+ship  "Kaiken"
+	"display name" "Schist"
+
+ship  "Sasumata"
+	"display name" "Veusade"
+
+ship  "Tanto"
+	"display name" "Aberrant Chomper"
+
+ship  "Ararebo"
+	"display name" "Remnant Satellite"
+
+ship  "Tekkan"
+	"display name" "Granulite"
+
+ship  "Kunai"
+	"display name" "Quarg Wardragon"
+
+ship  "Kama"
+	"display name" "Quarg Drake"
+
+ship  "Chigiriki"
+	"display name" "Faes'mar"
+
+ship  "Arach Courier"
+	"display name" "Quicksilver"
+
+ship  "Arach Freighter"
+	"display name" "Frigate"
+
+ship  "Arach Hulk"
+	"display name" "Finch"
+
+ship  "Arach Spindle"
+	"display name" "Freighter"
+
+ship  "Arach Transport"
+	"display name" "Aerie"
+
+ship  "Heliarch Breacher"
+	"display name" "Tempest"
+
+ship  "Heliarch Hunter"
+	"display name" "Star Barge"
+
+ship  "Heliarch Interdictor"
+	"display name" "Cool Breeze"
+
+ship  "Heliarch Judicator"
+	"display name" "Ararebo"
+
+ship  "Heliarch Neutralizer"
+	"display name" "Shuttle"
+
+ship  "Heliarch Punisher"
+	"display name" "Aphid"
+
+ship  "Heliarch Pursuer"
+	"display name" "Kvelqde"
+
+ship  "Heliarch Rover"
+	"display name" "Class C Freighter"
+
+ship  "Heliarch Stalker"
+	"display name" "Deep River Transport"
+
+ship  "Kimek Briar"
+	"display name" "Strong Wind"
+
+ship  "Kimek Spire"
+	"display name" "Aberrant Junior"
+
+ship  "Kimek Thistle"
+	"display name" "Violin Spider"
+
+ship  "Kimek Thorn"
+	"display name" "Peregrine"
+
+ship  "Saryd Runabout"
+	"display name" "Tek Far 109"
+
+ship  "Saryd Sojourner"
+	"display name" "Far Osk 27"
+
+ship  "Saryd Traveler"
+	"display name" "Shale"
+
+ship  "Saryd Visitor"
+	"display name" "Aberrant Dancer"
+
+ship  "Archon"
+	"display name" "Model 8"
+
+ship  "Subsidurial"
+	"display name" "Nimbo Stratus"
+
+ship  "Void Sprite"
+	"display name" "Nanobot"
+
+ship  "Ember Waste Node"
+	"display name" "Aberrant Whiskers"
+
+ship  "Embershade"
+	"display name" "Ojde"
+
+ship  "Embersylph"
+	"display name" "Modified Boxwing"
+
+ship  "Shale"
+	"display name" "Marauder Firebird"
+
+ship  "Dolomite"
+	"display name" "Aberrant Pike"
+
+ship  "Conglomerate"
+	"display name" "Phononos"
+
+ship  "Granofel"
+	"display name" "Blackbird"
+
+ship  "Gypsum"
+	"display name" "Venta"
+
+ship  "Corundum"
+	"display name" "Container Transport"
+
+ship  "Protolith"
+	"display name" "Puffin"
+
+ship  "Dunite"
+	"display name" "Flivver"
+
+ship  "Augen"
+	"display name" "Kimek Thorn"
+
+ship  "Slate"
+	"display name" "Flea"
+
+ship  "Schist"
+	"display name" "Hallucination"
+
+ship  "Rhyolite"
+	"display name" "Aberrant Icebreaker"
+
+ship  "Eclogite"
+	"display name" "Heliarch Neutralizer"
+
+ship  "Diorite"
+	"display name" "Ayym"
+
+ship  "Hornfel"
+	"display name" "Interferos"
+
+ship  "Gneiss"
+	"display name" "Bastion"
+
+ship  "Granulite"
+	"display name" "Kvelqde-Khora"
+
+ship  "Halite"
+	"display name" "Roost"
+
+ship  "Mica"
+	"display name" "Heliarch Interdictor"
+
+ship  "Coesite"
+	"display name" "Gull"
+
+ship  "Tridymite"
+	"display name" "Bulwark"
+
+ship  "Felsic"
+	"display name" "Charm-Shallop"
+
+ship  "Feldspar"
+	"display name" "Kimek Thistle"
+
+ship  "Epidote"
+	"display name" "Conglomerate"
+
+ship  "Kyanite"
+	"display name" "Heavy Gust"
+
+ship  "Geodesic Geocoris"
+	"display name" "Protector"
+
+ship  "Centipede"
+	"display name" "Kama"
+
+ship  "Boxwing"
+	"display name" "Heliarch Judicator"
+
+ship  "Anomalocaris"
+	"display name" "Eclogite"
+
+ship  "Aphid"
+	"display name" "Saryd Sojourner"
+
+ship  "Cicada"
+	"display name" "Splinter"
+
+ship  "Flea"
+	"display name" "Raven"
+
+ship  "Geocoris"
+	"display name" "Harmonikos"
+
+ship  "Lightning Bug"
+	"display name" "Rano'erek"
+
+ship  "Ladybug"
+	"display name" "Vibratia"
+
+ship  "Pond Strider"
+	"display name" "Nest"
+
+ship  "Sea Scorpion"
+	"display name" "Heliarch Rover"
+
+ship  "Scarab"
+	"display name" "Kas'ik Tek 7"
+
+ship  "Shield Beetle"
+	"display name" "Penguin"
+
+ship  "Emperor Beetle"
+	"display name" "Behemoth"
+
+ship  "Solifuge"
+	"display name" "Water Bug"
+
+ship  "Violin Spider"
+	"display name" "Aberrant Mole"
+
+ship  "Water Bug"
+	"display name" "Aberrant Pileup"
+
+ship  "Star Queen"
+	"display name" "Kaiken"
+
+ship  "Bactrian"
+	"display name" "Mining Drone"
+
+ship  "Aerie"
+	"display name" "Emergency Shuttle"
+
+ship  "Argosy"
+	"display name" "Smew"
+
+ship  "Bastion"
+	"display name" "Optikon"
+
+ship  "Berserker"
+	"display name" "Emerald Sword"
+
+ship  "Bounder"
+	"display name" "Wasp"
+
+ship  "Bulk Freighter"
+	"display name" "Akoustiki"
+
+ship  "Clipper"
+	"display name" "Dropship"
+
+ship  "Falcon"
+	"display name" "Gneiss"
+
+ship  "Firebird"
+	"display name" "Hauler III"
+
+ship  "Freighter"
+	"display name" "Kas'lor Ik 582"
+
+ship  "Fury"
+	"display name" "Ra'gru Ik 618"
+
+ship  "Hauler"
+	"display name" "Modified Battleship"
+
+ship  "Hauler II"
+	"display name" "Rainmaker"
+
+ship  "Hawk"
+	"display name" "Undulon"
+
+ship  "Hogshead"
+	"display name" "Hurricane"
+
+ship  "Leviathan"
+	"display name" "Ejniisde"
+
+ship  "Osprey"
+	"display name" "Star Queen"
+
+ship  "Protector"
+	"display name" "Arach Freighter"
+
+ship  "Quicksilver"
+	"display name" "Albatross"
+
+ship  "Scout"
+	"display name" "Carrier"
+
+ship  "Scrapper"
+	"display name" "Combat Drone"
+
+ship  "Splinter"
+	"display name" "Sasumata"
+
+ship  "Sunder"
+	"display name" "Lor'nag Ik 590"
+
+ship  "Mammoth"
+	"display name" "Nnesaarau"
+
+ship  "Gunboat"
+	"display name" "Pincer Beast"
+
+ship  "Hallucination"
+	"display name" "Shooting Star"
+
+ship  "Asteroid"
+	"display name" "Hauler"
+
+ship  "Science Drone"
+	"display name" "Diorite"
+
+ship  "Vanguard"
+	"display name" "Surveillance Drone"
+
+ship  "Racing Flivver"
+	"display name" "Korath Chaser"
+
+ship  "Emergency Shuttle"
+	"display name" "Quarg Lindwyrm"
+
+ship  "Unknown Ship Type"
+	"display name" "Chigiriki"
+
+ship  "Kestrel"
+	"display name" "Seiitej"
+
+ship  "Marauder Arrow"
+	"display name" "Rhyolite"
+
+ship  "Marauder Bounder"
+	"display name" "Mammoth"
+
+ship  "Marauder Falcon"
+	"display name" "Myaede"
+
+ship  "Marauder Firebird"
+	"display name" "Bounder"
+
+ship  "Marauder Leviathan"
+	"display name" "Archon"
+
+ship  "Marauder Manta"
+	"display name" "Korath Raider"
+
+ship  "Marauder Quicksilver"
+	"display name" "Emperor Beetle"
+
+ship  "Marauder Raven"
+	"display name" "Corvette"
+
+ship  "Marauder Splinter"
+	"display name" "Marauder Bactrian"
+
+ship  "Arrow"
+	"display name" "Cicada"
+
+ship  "Auxiliary"
+	"display name" "Protolith"
+
+ship  "Barb"
+	"display name" "Science Drone"
+
+ship  "Behemoth"
+	"display name" "Racing Flivver"
+
+ship  "Blackbird"
+	"display name" "Lance"
+
+ship  "Bulwark"
+	"display name" "Pond Strider"
+
+ship  "Carrier"
+	"display name" "Aberrant Longfellow"
+
+ship  "Class C Freighter"
+	"display name" "Arch-Carrack"
+
+ship  "Combat Drone"
+	"display name" "Ursa Polaris"
+
+ship  "Container Transport"
+	"display name" "Vanguard"
+
+ship  "Corvette"
+	"display name" "Unknown Ship Type"
+
+ship  "Cruiser"
+	"display name" "Quarg Wyvern"
+
+ship  "Cutthroat"
+	"display name" "Corundum"
+
+ship  "Dagger"
+	"display name" "Riptide"
+
+ship  "Dreadnought"
+	"display name" "Nimbus"
+
+ship  "Dropship"
+	"display name" "Nimbo Cirrus"
+
+ship  "Enforcer"
+	"display name" "Saryd Visitor"
+
+ship  "Flivver"
+	"display name" "Sparrow"
+
+ship  "Frigate"
+	"display name" "Pug Arfecta"
+
+ship  "Hauler III"
+	"display name" "vyu-Ir"
+
+ship  "Headhunter"
+	"display name" "Kar Ik Vot 349"
+
+ship  "Heavy Shuttle"
+	"display name" "Astral Cetacean"
+
+ship  "Jackal"
+	"display name" "Cutthroat"
+
+ship  "Lance"
+	"display name" "Gero"
+
+ship  "Manta"
+	"display name" "Marauder Bounder"
+
+ship  "Mining Drone"
+	"display name" "Berserker"
+
+ship  "Modified Argosy"
+	"display name" "Model 512"
+
+ship  "Monitor"
+	"display name" "Barb"
+
+ship  "Mule"
+	"display name" "Epidote"
+
+ship  "Nest"
+	"display name" "Arrow"
+
+ship  "Nighthawk"
+	"display name" "Black Diamond"
+
+ship  "Rainmaker"
+	"display name" "Koryfi"
+
+ship  "Raven"
+	"display name" "Subsidurial"
+
+ship  "Roost"
+	"display name" "Photikon"
+
+ship  "Saber"
+	"display name" "Leviathan"
+
+ship  "Shuttle"
+	"display name" "Falcon"
+
+ship  "Skein"
+	"display name" "Nnaatej"
+
+ship  "Sparrow"
+	"display name" "Vareti'het"
+
+ship  "Star Barge"
+	"display name" "Derecho"
+
+ship  "Surveillance Drone"
+	"display name" "Ladybug"
+
+ship  "Valkyrie"
+	"display name" "Dunite"
+
+ship  "Wasp"
+	"display name" "Windjammer"
+
+ship  "Jje"
+	"display name" "Model 64"
+
+ship  "Ayym"
+	"display name" "Hornfel"
+
+ship  "Nimbus"
+	"display name" "Builder Satellite"
+
+ship  "Venta"
+	"display name" "Kyanite"
+
+ship  "Nimbo Stratus"
+	"display name" "Auxiliary"
+
+ship  "Nimbo Cirrus"
+	"display name" "Model 256"
+
+ship  "Gero"
+	"display name" "Centipede"
+
+ship  "Tace Mesa"
+	"display name" "Rai'alorej"
+
+ship  "Aberrant Latte"
+	"display name" "Dolomite"
+
+ship  "Aberrant Chomper"
+	"display name" "Korath World-Ship"
+
+ship  "Aberrant Pileup"
+	"display name" "Model 32"
+
+ship  "Aberrant Hugger"
+	"display name" "Tanto"
+
+ship  "Aberrant Longfellow"
+	"display name" "Clipper"
+
+ship  "Aberrant Dancer"
+	"display name" "Mica"
+
+ship  "Aberrant Junior"
+	"display name" "Scout"
+
+ship  "Aberrant Icebreaker"
+	"display name" "Felsic"
+
+ship  "Aberrant Pike"
+	"display name" "Palavret"
+
+ship  "Aberrant Mole"
+	"display name" "Scrapper"
+
+ship  "Aberrant Whiskers"
+	"display name" "Skein"
+
+ship  "Aberrant Trip"
+	"display name" "Anomalocaris"
+
+ship  "Aberrant Triplet"
+	"display name" "Jackal"
+
+ship  "Remnant Satellite"
+	"display name" "Deep River"
+
+ship  "Fetri'sei"
+	"display name" "Hauler II"
+
+ship  "Builder Satellite"
+	"display name" "Geodesic Geocoris"
+
+ship  "Maeri'het"
+	"display name" "Marauder Falcon"
+
+ship  "Telis'het"
+	"display name" "Korath Dredger"
+
+ship  "Vareti'het"
+	"display name" "Far Lek 14"
+
+ship  "Selii'mar"
+	"display name" "Tern"
+
+ship  "Faes'mar"
+	"display name" "Bulk Freighter"
+
+ship  "Charm-Shallop"
+	"display name" "Korsmanath A'awoj"
+
+ship  "Rano'erek"
+	"display name" "Heliarch Punisher"
+
+ship  "Palavret"
+	"display name" "Granofel"
+
+ship  "Tubfalet"
+	"display name" "Augen"
+
+ship  "'nra'ret"
+	"display name" "Jje"
+
+ship  "'olofez"
+	"display name" "Gypsum"
+
+ship  "Kas'ik Tek 7"
+	"display name" "Marauder Quicksilver"
+
+ship  "Rai'alorej"
+	"display name" "Difraktos"
+
+ship  "Ikatila'ej"
+	"display name" "Marauder Splinter"
+
+ship  "Lor'kas Ik 577"
+	"display name" "Grasshopper"
+
+ship  "Ra'gru Ik 618"
+	"display name" "Stolsaqra"
+
+ship  "Kas'lor Ik 582"
+	"display name" "Tek Far 71 - Lek"
+
+ship  "Lor'nag Ik 590"
+	"display name" "Quarg Guivre"
+
+ship  "Ra'at Ik 621"
+	"display name" "Asteroid"
+
+ship  "Kasichara A'awoj"
+	"display name" "Entasi"
+
+ship  "Korsmanath A'awoj"
+	"display name" "Polari"
+
+ship  "Echo-Galleon"
+	"display name" "Feldspar"
+
+ship  "Arch-Carrack"
+	"display name" "Embershade"
+
+ship  "Kar Ik Vot 349"
+	"display name" "Saryd Runabout"
+
+ship  "Tek Far 71 - Lek"
+	"display name" "Lor'kas Ik 577"
+
+ship  "Tek Far 78 - Osk"
+	"display name" "Avlaki"
+
+ship  "Tek Far 109"
+	"display name" "Heliarch Hunter"
+
+ship  "Met Par Tek 53"
+	"display name" "Mule"
+
+ship  "Far Lek 14"
+	"display name" "Sonikis"
+
+ship  "Far Osk 27"
+	"display name" "Arach Spindle"
+
+ship  "Model 8"
+	"display name" "Maeri'het"
+
+ship  "Model 16"
+	"display name" "Kimek Briar"
+
+ship  "Model 32"
+	"display name" "Manta"
+
+ship  "Model 64"
+	"display name" "Heliarch Breacher"
+
+ship  "Model 128"
+	"display name" "Fury"
+
+ship  "Model 256"
+	"display name" "Aberrant Latte"
+
+ship  "Model 512"
+	"display name" "Heliarch Pursuer"
+
+ship  "Nanobot"
+	"display name" "Boxwing"
+
+ship  "Pug Zibruka"
+	"display name" "Aaulqra"
+
+ship  "Pug Enfolta"
+	"display name" "Arach Courier"
+
+ship  "Pug Maboro"
+	"display name" "Ibis"
+
+ship  "Pug Arfecta"
+	"display name" "Bactrian"
+
+ship  "Quarg Lindwyrm"
+	"display name" "Aberrant Trip"
+
+ship  "Quarg Guivre"
+	"display name" "Halite"
+
+ship  "Quarg Drake"
+	"display name" "Nighthawk"
+
+ship  "Quarg Wardragon"
+	"display name" "Sea Scorpion"
+
+ship  "Quarg Wyvern"
+	"display name" "Modified Hauler VI"
+
+ship  "Quarg Hydra"
+	"display name" "Tekkan"
+
+ship  "Starling"
+	"display name" "Scarab"
+
+ship  "Albatross"
+	"display name" "Modified Ladybug"
+
+ship  "Modified Dromedary"
+	"display name" "Echo-Galleon"
+
+ship  "Gull"
+	"display name" "Pug Maboro"
+
+ship  "Heron"
+	"display name" "Enforcer"
+
+ship  "Ibis"
+	"display name" "Lightning Bug"
+
+ship  "Merganser"
+	"display name" "Modified Tachytia"
+
+ship  "Pelican"
+	"display name" "Winter Gale"
+
+ship  "Penguin"
+	"display name" "Bluejacket"
+
+ship  "Peregrine"
+	"display name" "Tremoros"
+
+ship  "Petrel"
+	"display name" "Embersylph"
+
+ship  "Puffin"
+	"display name" "Arach Hulk"
+
+ship  "Smew"
+	"display name" "Modified Dromedary"
+
+ship  "Tern"
+	"display name" "Kunai"
+
+ship  "vyu-Ir"
+	"display name" "Refraktos"
+
+ship  "Emerald Sword"
+	"display name" "Geocoris"
+
+ship  "Black Diamond"
+	"display name" "Sunder"
+
+ship  "Aaulqra"
+	"display name" "Ikatila'ej"
+
+ship  "Ejniisde"
+	"display name" "Aberrant Hugger"
+
+ship  "Kaskhorade"
+	"display name" "Model 128"
+
+ship  "Kvelqde"
+	"display name" "Diaspersi"
+
+ship  "Kvelqde-Khora"
+	"display name" "Tubfalet"
+
+ship  "Myaede"
+	"display name" "Shield Beetle"
+
+ship  "Nnaatej"
+	"display name" "Dreadnought"
+
+ship  "Nnesaarau"
+	"display name" "Slate"
+
+ship  "Ojde"
+	"display name" "Marauder Raven"
+
+ship  "Seiitej"
+	"display name" "Lampyrid-Class Transport"
+
+ship  "Stolsaqra"
+	"display name" "Selii'mar"
+
+ship  "Veusade"
+	"display name" "Pug Enfolta"
+
+ship  "Vujlet"
+	"display name" "Vujlet"
+
+ship  "Vyrmeid"
+	"display name" "Sprout"
+
+ship  "Astral Cetacean"
+	"display name" "Arach Transport"
+
+ship  "Earth Shaper"
+	"display name" "Gunboat"
+
+ship  "Flycatcher"
+	"display name" "Firebird"
+
+ship  "Summer Leaf"
+	"display name" "Melodikos"
+
+ship  "Autumn Leaf"
+	"display name" "Kaskhorade"
+
+ship  "Strong Wind"
+	"display name" "Hawk"
+
+ship  "Heavy Gust"
+	"display name" "Telis'het"
+
+ship  "Tempest"
+	"display name" "Marauder Fury"
+
+ship  "Derecho"
+	"display name" "Tek Far 78 - Osk"
+
+ship  "Hurricane"
+	"display name" "Kasichara A'awoj"
+
+ship  "Cool Breeze"
+	"display name" "Coesite"
+
+ship  "Winter Gale"
+	"display name" "Petrel"
+
+ship  "Deep River"
+	"display name" "Solifuge"
+
+ship  "Deep River Transport"
+	"display name" "Pelican"
+
+ship  "Riptide"
+	"display name" "Marauder Leviathan"
+
+ship  "Pincer Beast"
+	"display name" "Tace Mesa"
+
+outfit  "Aluminum"
+	"display name" "Ion Cannon"
+
+outfit  "Copper"
+	"display name" "Thrasher Turret"
+
+outfit  "Gold"
+	"display name" "Energy Blaster"
+
+outfit  "Iron"
+	"display name" "Star Tail"
+
+outfit  "Lead"
+	"display name" "X5200 Ion Steering"
+
+outfit  "Neodymium"
+	"display name" "Void Sprite Parts"
+
+outfit  "Platinum"
+	"display name" "Overcharged Laser Turret"
+
+outfit  "Silicon"
+	"display name" "Tyrant Plasma Thruster"
+
+outfit  "Silver"
+	"display name" "Javelin"
+
+outfit  "Titanium"
+	"display name" "Internal Plasma Exhaust"
+
+outfit  "Tungsten"
+	"display name" "Flamethrower"
+
+outfit  "Uranium"
+	"display name" "Multimodal Armor: Keystone"
+
+outfit  "Yottrite"
+	"display name" "Particle Cannon"
+
+outfit  "Void Orchid"
+	"display name" "LP576a Battery Pack"
+
+outfit  "Voidfish"
+	"display name" "Nami Rift Steering"
+
+outfit  "Integral Wood"
+	"display name" "A865 Atomic Steering"
+
+outfit  "LG Gridfire Turret"
+	"display name" "Catalytic Ramscoop"
+
+outfit  "Crystal Projector"
+	"display name" "Enforcer Riot Staff"
+
+outfit  "Floating Crystal"
+	"display name" "Surveillance Pod"
+
+outfit  "Crystalline Formation"
+	"display name" "Enforcer Confrontation Gear"
+
+outfit  "Hexagonal Crystal"
+	"display name" `"Niis" Inductive Engines`
+
+outfit  "Tree Skeleton Key Stone"
+	"display name" "Ion Torch"
+
+outfit  "Prototype Fusion Cannon"
+	"display name" "Orchid Coast"
+
+outfit  "Emotional Baggage"
+	"display name" "Meteor Missile Pod"
+
+outfit  "Korath Tek'far Reactor"
+	"display name" "Large Shield Relay"
+
+outfit  "Korath Tek'nel Reactor"
+	"display name" "Photoelectric Lamina"
+
+outfit  "Korath Shield Generator"
+	"display name" "Pug Biodefenses"
+
+outfit  "Korath Heat Shunt"
+	"display name" "Pilot's License"
+
+outfit  "Korath Ark'torbal Thruster"
+	"display name" "Steering (Asteroid Class)"
+
+outfit  "Korath Ark'parat Steering"
+	"display name" "Hai Valley Batteries"
+
+outfit  "Korath Jak'torbal Thruster"
+	"display name" "Plasma Repeater"
+
+outfit  "Korath Jak'parat Steering"
+	"display name" "NDR-114 Android"
+
+outfit  "Mass Expansion"
+	"display name" "Forge-Class Steering"
+
+outfit  "Reverse Thruster"
+	"display name" "Forge-Class Thruster"
+
+outfit  "Bullfrog Anti-Missile Turret"
+	"display name" "Quantum Key Stone"
+
+outfit  "Chameleon Anti-Missile Turret"
+	"display name" "Heliarch Attractor"
+
+outfit  "Cruiser License"
+	"display name" "Reactor Overclocker"
+
+outfit  "Carrier License"
+	"display name" "Large Repair Module"
+
+outfit  "Afterburner"
+	"display name" "Thruster (Lunar Class)"
+
+outfit  "Korath Grab-Strike"
+	"display name" "Husk-Slice"
+
+outfit  "Korath Banisher"
+	"display name" "Small Graviton Steering"
+
+outfit  "Korath Warder"
+	"display name" "Gegno Civilian License"
+
+outfit  "Korath Fire-Lance"
+	"display name" "Korath Tek'far Reactor"
+
+outfit  "Korath Repeater"
+	"display name" `"Aqra" Inductive Reverser`
+
+outfit  "Korath Repeater Turret"
+	"display name" "Ka'het Compact Engine"
+
+outfit  "Korath Piercer"
+	"display name" "Orca Plasma Thruster"
+
+outfit  "Korath Piercer Rack"
+	"display name" "Decoy Plating"
+
+outfit  "Korath Piercer Launcher"
+	"display name" "Generator (Candle Class)"
+
+outfit  "Korath Mine"
+	"display name" "Large Collector Module"
+
+outfit  "Korath Mine Rack"
+	"display name" "Integral Wood"
+
+outfit  "Korath Minelayer"
+	"display name" "Typhoon Torpedo"
+
+outfit  "Korath Disruptor"
+	"display name" "Central Repair Hub"
+
+outfit  "Korath Slicer"
+	"display name" "Yottrite"
+
+outfit  "Korath Slicer Turret"
+	"display name" `"Jorv" Shield Cortex`
+
+outfit  "Korath Repeater Rifle"
+	"display name" "Hai Tracker Pod"
+
+outfit  "Nanotech Battery"
+	"display name" "Scin Hoplologist License"
+
+outfit  "Quantum Shield Generator"
+	"display name" "Aeon Cell"
+
+outfit  "Intrusion Countermeasures"
+	"display name" "TeV Electron Bunch"
+
+outfit  "Quarg Skylance"
+	"display name" "Nano Strike"
+
+outfit  "Quarg Anti-Missile"
+	"display name" "Lancet Adamant"
+
+outfit  "Multimodal Armor: Resilient"
+	"display name" "Silver"
+
+outfit  "Nettle Magazine"
+	"display name" "Successor Cooling"
+
+outfit  "Orchid Magazine"
+	"display name" "Remass Injector"
+
+outfit  `Z-3600 "Beam" Amat Torch`
+	"display name" `"Chyyra" Inductive Reverser`
+
+outfit  "Radiative Lamina"
+	"display name" "Plasma Core"
+
+outfit  "Concealment Lamina"
+	"display name" "Bombardment Turret"
+
+outfit  "Magnetic Scoop"
+	"display name" "Blaster Submunition"
+
+outfit  "Plasmadyne Scoop"
+	"display name" "Small Cogeneration Module"
+
+outfit  "Deuterium Slush Tank"
+	"display name" "Pug Gridfire Turret"
+
+outfit  "Cryogenic Deuterium Tank"
+	"display name" "Hai Tracker"
+
+outfit  "Heatsink Partition"
+	"display name" "GeV Electron Bunch"
+
+outfit  "Multispectral Scanner"
+	"display name" "Korath Repeater Turret"
+
+outfit  "Spectrometer Array"
+	"display name" "A120 Atomic Thruster"
+
+outfit  "Diffuse Deflector"
+	"display name" "Beam Laser"
+
+outfit  "Specular Deflector"
+	"display name" "Scin Adjutant License"
+
+outfit  "Concentrating Solar Cell"
+	"display name" "Navy Carrier License"
+
+outfit  "Concentrating Solar Array"
+	"display name" "Tracker Storage Pod"
+
+outfit  "Photoelectric Lamina"
+	"display name" "Hai Corundum Regenerator"
+
+outfit  "Lantern Fission Core"
+	"display name" "Ophrys Terminal"
+
+outfit  "Ultracapacitor Cell"
+	"display name" "Korath Slicer Turret"
+
+outfit  "Ultracapacitor Bank"
+	"display name" "Fuel Processor"
+
+outfit  "Magnetoplasma Drive"
+	"display name" `"Jaase" Shield Cortex`
+
+outfit  "Vapor Nuclear Rocket"
+	"display name" "Supercapacitor"
+
+outfit  `A-3600 "Beam" Amat Drive`
+	"display name" "Pug Seeker"
+
+outfit  `Z-333 "Spark" Fusion Torch`
+	"display name" "Drak Turret (Augmented)"
+
+outfit  `Z-666 "Zap" Fusion Torch`
+	"display name" "Bunk Room"
+
+outfit  `Z-999 "Arc" Fusion Torch`
+	"display name" "Piercer Missile"
+
+outfit  "Remass Injector"
+	"display name" "Geode Reactor"
+
+outfit  "Inductive Extractor"
+	"display name" "Heaver Shard"
+
+outfit  "R-180 RCS Thrusters"
+	"display name" "Sheragi Anti-Missile"
+
+outfit  "R-360 RCS Thrusters"
+	"display name" "Gatling Gun"
+
+outfit  "R-720 RCS Thrusters"
+	"display name" "Tiny VLS"
+
+outfit  "Optical Laser Rifle"
+	"display name" "Optical Laser Rifle"
+
+outfit  "Trefoil Board"
+	"display name" "Hai Fissure Batteries"
+
+outfit  "Damselflyman"
+	"display name" "Chiisana Rift Thruster"
+
+outfit  "Lancet Adamant"
+	"display name" "Orca Plasma Steering"
+
+outfit  "Twilight Guard License"
+	"display name" "Nuclear Missile"
+
+outfit  "Avgi Torch License"
+	"display name" "Speckle Coilgun"
+
+outfit  "Avgi Atomics License"
+	"display name" "Quarg Anti-Missile"
+
+outfit  "Speck Round"
+	"display name" "Aluminum"
+
+outfit  "Speck Magazine"
+	"display name" "Javelin Storage Crate"
+
+outfit  "Speckle Coilgun"
+	"display name" "Luxury Accommodations"
+
+outfit  "Speckle Turret"
+	"display name" `"Nettle" KKV`
+
+outfit  "Speck"
+	"display name" "Firelight Activated"
+
+outfit  "Optical Lasing Generator"
+	"display name" "Ultrarelativistic Electron Beam"
+
+outfit  "Green Optical Laser"
+	"display name" "C27 Campaign Core"
+
+outfit  "Blue Optical Laser"
+	"display name" "Arkrof GP Hybrid Thruster"
+
+outfit  "Ultraviolet Excimer Laser"
+	"display name" "Type 1 Radiant Thruster"
+
+outfit  "Ultrarelativistic Electron Beam"
+	"display name" "nGVF-EE Fuel Cell"
+
+outfit  "TeV Electron Bunch"
+	"display name" "Ancile Shield Generator"
+
+outfit  "UREB Turret"
+	"display name" "LG Gridfire Turret"
+
+outfit  "GeV Electron Bunch"
+	"display name" "C3 Scrap Cell"
+
+outfit  "External Launch Rail"
+	"display name" "Ka'het Electric Stunner"
+
+outfit  "External Launch Tube"
+	"display name" "Gold"
+
+outfit  "Tiny VLS"
+	"display name" "Fission Reactor"
+
+outfit  "Small VLS"
+	"display name" "Afterburner"
+
+outfit  "Medium VLS"
+	"display name" "Shield Relay Booster"
+
+outfit  `"Nettle" KKV`
+	"display name" "Pinecone Launcher"
+
+outfit  "Nettle Active"
+	"display name" "Sunbeam Turret"
+
+outfit  "Nettle Flecks"
+	"display name" "Thermal Repeater"
+
+outfit  `"Orchid" Nuclear Missile`
+	"display name" "Heavy Rocket"
+
+outfit  "Orchid Active"
+	"display name" "Asteroid Weapon Super"
+
+outfit  "Orchid Boost"
+	"display name" "Cooling Module"
+
+outfit  "Orchid Coast"
+	"display name" "Torpedo"
+
+outfit  "Orchid Divert"
+	"display name" "Irate Cannon"
+
+outfit  "Orchid Terminal"
+	"display name" "MH Green-Class Steering"
+
+outfit  "Orchid Boost Stage Expended"
+	"display name" "Drag Cannon"
+
+outfit  "Orchid Divert Stage Expended"
+	"display name" "Primary Power Reserve"
+
+outfit  `"Ophrys" Nuclear Torpedo`
+	"display name" "Slipstream Projector"
+
+outfit  "Ophrys Stockpile"
+	"display name" "Arkrof GP Hybrid Steering"
+
+outfit  "Ophrys Terminal"
+	"display name" "Wanderer Ramscoop"
+
+outfit  "Pinecone Launcher"
+	"display name" "Lasher Pistol"
+
+outfit  "Pollen"
+	"display name" "Breeder Reactor"
+
+outfit  "Jamfruit"
+	"display name" "Afterburner (Stellar Class)"
+
+outfit  "Shield Relay Booster"
+	"display name" "Pincer"
+
+outfit  "Shield Relay Limiter"
+	"display name" "MH Green-Class Thruster"
+
+outfit  "Small Shield Relay"
+	"display name" "Wanderer Heat Sink"
+
+outfit  "Large Shield Relay"
+	"display name" "Solar Cell"
+
+outfit  "Nanite Enhancer"
+	"display name" "Drak Draining Field (Augmented)"
+
+outfit  "Nanite Limiter"
+	"display name" "Bellows-Class Afterburner"
+
+outfit  "Small Nanite Fabricator"
+	"display name" "Multimodal Armor: Heavy"
+
+outfit  "Large Nanite Fabricator"
+	"display name" "Pug Akfar Thruster"
+
+outfit  "Solar Battery"
+	"display name" "Star Tail Projectile"
+
+outfit  "Solar Cell"
+	"display name" "Pug Cormet Steering"
+
+outfit  "Reactor Overclocker"
+	"display name" "LP144a Battery Pack"
+
+outfit  "Reactor Limiter"
+	"display name" "Water Coolant System"
+
+outfit  "Quark Reactor"
+	"display name" "Railgun"
+
+outfit  "Electroweak Reactor"
+	"display name" "Teciimach Pod"
+
+outfit  "Dark Reactor"
+	"display name" "Quad Blaster Turret"
+
+outfit  "Lasher Pistol"
+	"display name" "Secret Cargo"
+
+outfit  "Chiisana Rift Thruster"
+	"display name" "Steering (Stellar Class)"
+
+outfit  "Nami Rift Thruster"
+	"display name" "Reverser (Planetary Class)"
+
+outfit  "Ookii Rift Thruster"
+	"display name" "Pulse Laser Turret"
+
+outfit  "Subarashii Rift Thruster"
+	"display name" `"Ophrys" Nuclear Torpedo`
+
+outfit  "Chiisana Rift Steering"
+	"display name" "Mandible Cannon"
+
+outfit  "Nami Rift Steering"
+	"display name" "Orchid Terminal"
+
+outfit  "Ookii Rift Steering"
+	"display name" "Meteor Missile Box"
+
+outfit  "Subarashii Rift Steering"
+	"display name" "Pug Lohmar Thruster"
+
+outfit  "Locust Blaster"
+	"display name" "Silicon"
+
+outfit  "Locust Turret"
+	"display name" "Small Shield Module"
+
+outfit  "Mandible Cannon"
+	"display name" "Hai Chasm Batteries"
+
+outfit  "Thorax Cannon"
+	"display name" "Liquid Nitrogen Cooler"
+
+outfit  "Swarm Clip"
+	"display name" "Nettle Magazine"
+
+outfit  "Swarm Missile"
+	"display name" "Ramscoop"
+
+outfit  "Swarm Pod"
+	"display name" "Skydagger"
+
+outfit  "Buzzer Anti-Missile"
+	"display name" "Particle Waveform Turret"
+
+outfit  "Small Collector Module"
+	"display name" "Nettle Active"
+
+outfit  "Large Collector Module"
+	"display name" "Phantom Pallet"
+
+outfit  "Small Reactor Module"
+	"display name" "Korath Warder"
+
+outfit  "Large Reactor Module"
+	"display name" "Chameleon Anti-Missile"
+
+outfit  "Small Cogeneration Module"
+	"display name" "Locust Turret"
+
+outfit  "Large Cogeneration Module"
+	"display name" "Outfits Expansion"
+
+outfit  "Small Battery Module"
+	"display name" "Drak Distancer"
+
+outfit  "Large Battery Module"
+	"display name" `"Tuur" Scanning Suite`
+
+outfit  "Small Shield Module"
+	"display name" "Drak Antimatter Fragment (Augmented)"
+
+outfit  "Large Shield Module"
+	"display name" "Plasmadyne Scoop"
+
+outfit  "Overcharged Shield Module"
+	"display name" "Ka'het Sustainer Nacelles"
+
+outfit  "Small Repair Module"
+	"display name" "Concentrating Solar Cell"
+
+outfit  "Large Repair Module"
+	"display name" "Sunbeam"
+
+outfit  "Overclocked Repair Module"
+	"display name" "Chameleon Anti-Missile Turret"
+
+outfit  "Cooling Module"
+	"display name" "Pug Cormet Thruster"
+
+outfit  "Fuel Module"
+	"display name" "High-Velocity Spike Rack"
+
+outfit  "Decoy Plating"
+	"display name" "Aspis Shield Generator"
+
+outfit  "Refueling Module"
+	"display name" "EMP Torpedo"
+
+outfit  "Shield Refactor Module"
+	"display name" "Acuit Artillery"
+
+outfit  "Small Recovery Module"
+	"display name" "Orchid Divert"
+
+outfit  "Scanning Module"
+	"display name" "Banisher Grav-Turret"
+
+outfit  "Outskirts Gauger"
+	"display name" "Liquid-Class Shield"
+
+outfit  "Small Thrust Module"
+	"display name" "Electron Turret"
+
+outfit  "Large Thrust Module"
+	"display name" `"Nnesa" Fusion Core`
+
+outfit  "Small Reverse Module"
+	"display name" "LP288a Battery Pack"
+
+outfit  "Large Reverse Module"
+	"display name" "Ion Rain Gun"
+
+outfit  "Small Steering Module"
+	"display name" "Hicemus Conflict License"
+
+outfit  "Large Steering Module"
+	"display name" "Systems Core (Small)"
+
+outfit  "Enforcer Confrontation Gear"
+	"display name" "Small Hybrid Cooling"
+
+outfit  "Enforcer Riot Staff"
+	"display name" "A860 Atomic Thruster"
+
+outfit  "Anti-Materiel Gun"
+	"display name" "Large Cogeneration Module"
+
+outfit  "Coalition License"
+	"display name" "Dragonflame Cannon"
+
+outfit  "Heliarch License"
+	"display name" "Asteroid Anti-Missile 2"
+
+outfit  "Bombardment Cannon"
+	"display name" `"Benga" Atomic Thruster`
+
+outfit  "Bombardment Turret"
+	"display name" "Fate Divider Activated"
+
+outfit  "Finisher Pod"
+	"display name" "Korath Piercer Rack"
+
+outfit  "Finisher Maegrolain"
+	"display name" "Gatling Turret"
+
+outfit  "Active Finisher"
+	"display name" "D67-TM Shield Generator"
+
+outfit  "Finisher Storage Tube"
+	"display name" "Afterburner (Planetary Class)"
+
+outfit  "Finisher Torpedo"
+	"display name" "Pulse Cannon"
+
+outfit  "Heliarch Attractor"
+	"display name" "Mining Laser"
+
+outfit  "Heliarch Repulsor"
+	"display name" "Navy Cruiser License"
+
+outfit  "Ion Hail Turret"
+	"display name" "Pug Peacekeeping Staff"
+
+outfit  "Ion Rain Gun"
+	"display name" "Burrower"
+
+outfit  "MCS Extractor"
+	"display name" "Tier 3 Anti-Missile"
+
+outfit  "Drak Distancer"
+	"display name" "Korath Inferno"
+
+outfit  "Drak Draining Field"
+	"display name" "Neodymium"
+
+outfit  "Drak Draining Field (Augmented)"
+	"display name" "Small Bunk Room"
+
+outfit  "Drak Anti-Missile Field"
+	"display name" "RG3 Torch Steering"
+
+outfit  "Drak Anti-Missile Field (Augmented)"
+	"display name" "Small Recovery Module"
+
+outfit  "Drak Turret"
+	"display name" "Damselflyman"
+
+outfit  "Drak Turret (Augmented)"
+	"display name" "Blue Optical Laser"
+
+outfit  "Drak Antimatter Cannon"
+	"display name" "Ka'het Shield Restorer"
+
+outfit  "Drak Antimatter Cannon (Augmented)"
+	"display name" "Korath Slicer"
+
+outfit  "Drak Antimatter Fragment"
+	"display name" "NT-200 Nucleovoltaic"
+
+outfit  "Drak Antimatter Fragment (Augmented)"
+	"display name" "Crucible-Class Thruster"
+
+outfit  "Absorption Organ"
+	"display name" "Heliarch License"
+
+outfit   Mouthparts?
+	"display name" "Sidewinder Missile Launcher"
+
+outfit  "R01 Skirmish Battery"
+	"display name" "Ionic Turret Prototype"
+
+outfit  "R02 Battlezone Battery"
+	"display name" "Control Transceiver"
+
+outfit  "R03 Warforge Battery"
+	"display name" `"Ryuit" Fusion Core`
+
+outfit  "R04 Crusade Battery"
+	"display name" "KP-6 Photovoltaic Panel"
+
+outfit  "C3 Scrap Cell"
+	"display name" "Fission Drive"
+
+outfit  "C7 Brawl Cell"
+	"display name" "Green Optical Laser"
+
+outfit  "C17 Warzone Core"
+	"display name" "Sidewinder Missile Pod"
+
+outfit  "C27 Campaign Core"
+	"display name" "Chiisana Rift Steering"
+
+outfit  "I70 Ameliorate Cell"
+	"display name" "Security Station"
+
+outfit  "RG15 Torch Thruster"
+	"display name" "Locust Blaster"
+
+outfit  "RG15 Torch Steering"
+	"display name" "Concentrating Solar Array"
+
+outfit  "RG18 Torch Thruster"
+	"display name" "C7 Brawl Cell"
+
+outfit  "RG18 Torch Steering"
+	"display name" "Ka'het EMP Deployer"
+
+outfit  "RG3 Torch Thruster"
+	"display name" "Ookii Rift Steering"
+
+outfit  "RG3 Torch Steering"
+	"display name" "Drak Anti-Missile Field"
+
+outfit  "SC-1 Plasma Engines"
+	"display name" "Firestorm Torpedo Rack"
+
+outfit  "SC-12 Plasma Thruster"
+	"display name" "X1100 Ion Reverse Thruster"
+
+outfit  "SC-12 Plasma Steering"
+	"display name" "Star Tail Cell"
+
+outfit  "SC-14 Plasma Thruster"
+	"display name" "Hai Gorge Batteries"
+
+outfit  "SC-14 Plasma Steering"
+	"display name" "Epoch Cell"
+
+outfit  "SC-15 Plasma Thrusters"
+	"display name" "Modified Blaster"
+
+outfit  "Irate Cannon"
+	"display name" "Thorax Cannon"
+
+outfit  "Irate Cannon Turret"
+	"display name" "Ka'het Ravager Beam"
+
+outfit  "Choleric Cannon"
+	"display name" "Star Tail Storage"
+
+outfit  "Choleric Cannon Turret"
+	"display name" "Korath Disruptor"
+
+outfit  "Ballistic Cannon"
+	"display name" "Metallic Hydrogen Cell"
+
+outfit  "Ballistic Cannon Turret"
+	"display name" "Boulder Reactor"
+
+outfit  "Astuit Battery"
+	"display name" "Shard Fabricator"
+
+outfit  "Acuit Artillery"
+	"display name" "Astral Mouth"
+
+outfit  "Acumen Bolt Cannon"
+	"display name" "Liquid Helium Cooler"
+
+outfit  "Guile Pulse Laser"
+	"display name" "Korath Jak'torbal Thruster"
+
+outfit  "Excavator"
+	"display name" "Quantum Shield Generator"
+
+outfit  "Burrower"
+	"display name" "Korath Ark'parat Steering"
+
+outfit  "Ion Torch"
+	"display name" "X1700 Ion Thruster"
+
+outfit  "Savagery Bludgeon"
+	"display name" "Acumen Bolt Cannon"
+
+outfit  "Savagery Pike"
+	"display name" "Deuterium Slush Tank"
+
+outfit  "Irate Carronade"
+	"display name" "MH Blue-Class Steering"
+
+outfit  "Plasmasickle"
+	"display name" `A-3600 "Beam" Amat Drive`
+
+outfit  "Plasma Grenades"
+	"display name" "Moonbeam"
+
+outfit  "Gegno Civilian License"
+	"display name" "Type 4 Radiant Thruster"
+
+outfit  "Gegno Driller License"
+	"display name" "Plankton Mouth"
+
+outfit  "Vi Lord License"
+	"display name" "Puny"
+
+outfit  "Vi Centurion License"
+	"display name" "nGVF-DD Fuel Cell"
+
+outfit  "Vi Evocati License"
+	"display name" "Shunt-Strike Turret"
+
+outfit  "Scin Hoplologist License"
+	"display name" "Ka'het Machinery"
+
+outfit  "Scin Architect License"
+	"display name" `6-"Ruuv" Betavoltaic Cell`
+
+outfit  "Scin Adjutant License"
+	"display name" "Korath Shield Generator"
+
+outfit  "Phantom Pallet"
+	"display name" `"Ojet" Bimodal Coilgun`
+
+outfit  "Holovid Zone"
+	"display name" "Ballistic Cannon"
+
+outfit  "Pulse Cannon"
+	"display name" "Torpedo Storage Rack"
+
+outfit  "Pulse Turret"
+	"display name" "Remnant License"
+
+outfit  "Tripulse Shredder"
+	"display name" "Nucleolysis Beam"
+
+outfit  "Ion Cannon"
+	"display name" "Firelight Missile Bank"
+
+outfit  "Ionic Blaster Prototype"
+	"display name" "Afterburner (Comet Class)"
+
+outfit  "Ionic Turret Prototype"
+	"display name" "Thunderhead Storage Array"
+
+outfit  "Railgun Slug"
+	"display name" "Copper"
+
+outfit  "Railgun Slug Rack"
+	"display name" "Ka'het Support Cooling"
+
+outfit  "Railgun"
+	"display name" "Orchid Active"
+
+outfit  "Hai Tracker"
+	"display name" "Speck"
+
+outfit  "Tracker Storage Pod"
+	"display name" "Guile Pulse Laser"
+
+outfit  "Hai Tracker Pod"
+	"display name" "RG15 Torch Thruster"
+
+outfit  "Bullfrog Anti-Missile"
+	"display name" "Modified Blaster Submunition"
+
+outfit  "Chameleon Anti-Missile"
+	"display name" "Thermoelectric Cooler"
+
+outfit  "Hai Cuttlefish Jammer"
+	"display name" "D23-QP Shield Generator"
+
+outfit  "Hai Octopus Jammer"
+	"display name" "Small Graviton Thruster"
+
+outfit  "Hai Corundum Regenerator"
+	"display name" "nGVF-BB Fuel Cell"
+
+outfit  "Hai Diamond Regenerator"
+	"display name" "Double Plasma Core"
+
+outfit  "Hai Williwaw Cooling"
+	"display name" `"Benga" Reverse Thruster`
+
+outfit  "Quantum Keystone"
+	"display name" `"Veldt" Combat Scanner`
+
+outfit  "Value Detector"
+	"display name" "Firestorm Torpedo"
+
+outfit  "Hai Chasm Batteries"
+	"display name" "Cluster Mine Rack"
+
+outfit  "Hai Fissure Batteries"
+	"display name" `"Ej" Shield Cortex`
+
+outfit  "Hai Gorge Batteries"
+	"display name" `"Biroo" Atomic Thruster`
+
+outfit  "Hai Ravine Batteries"
+	"display name" "Twin Blaster"
+
+outfit  "Hai Valley Batteries"
+	"display name" "Millennium Cell"
+
+outfit  "Boulder Reactor"
+	"display name" "Hai Ravine Batteries"
+
+outfit  "Geode Reactor"
+	"display name" "Avgi Torch License"
+
+outfit  "Pebble Core"
+	"display name" "Subarashii Rift Steering"
+
+outfit  "Sand Cell"
+	"display name" "SC-12 Plasma Thruster"
+
+outfit  `"Baellie" Atomic Engines`
+	"display name" "Reverser (Lunar Class)"
+
+outfit  `"Basrem" Atomic Thruster`
+	"display name" "Large Radar Jammer"
+
+outfit  `"Benga" Atomic Thruster`
+	"display name" "Small VLS"
+
+outfit  `"Biroo" Atomic Thruster`
+	"display name" "Vi Evocati License"
+
+outfit  `"Bondir" Atomic Thruster`
+	"display name" "LP036a Battery Pack"
+
+outfit  `"Bufaer" Atomic Thruster`
+	"display name" "Gas-Class Shield"
+
+outfit  `"Basrem" Reverse Thruster`
+	"display name" "X2700 Ion Thruster"
+
+outfit  `"Benga" Reverse Thruster`
+	"display name" "plasma particle"
+
+outfit  `"Biroo" Reverse Thruster`
+	"display name" "Cloaking Device"
+
+outfit  `"Basrem" Atomic Steering`
+	"display name" "Small EM Battery"
+
+outfit  `"Benga" Atomic Steering`
+	"display name" "Type 3 Radiant Steering"
+
+outfit  `"Biroo" Atomic Steering`
+	"display name" "Shard inactive"
+
+outfit  `"Bondir" Atomic Steering`
+	"display name" "Cluster Mine"
+
+outfit  `"Bufaer" Atomic Steering`
+	"display name" "Ballistic Cannon Turret"
+
+outfit  "Pulse Rifle"
+	"display name" "Hai Williwaw Cooling"
+
+outfit  "Shield Beetle Pendant"
+	"display name" "Bimodal Coilgun Turret"
+
+outfit  "Failed Control System"
+	"display name" "Astral Ribault"
+
+outfit  "Volcano Afterburner"
+	"display name" "Systems Core (Medium)"
+
+outfit  "Caldera Afterburner"
+	"display name" "External Launch Tube"
+
+outfit  "Ionic Afterburner"
+	"display name" "nGVF-CC Fuel Cell"
+
+outfit  "X1050 Ion Engines"
+	"display name" "Microbot Grinder"
+
+outfit  "X1700 Ion Thruster"
+	"display name" "Voidfish"
+
+outfit  "X2700 Ion Thruster"
+	"display name" "Orchid Magazine"
+
+outfit  "X3700 Ion Thruster"
+	"display name" "High-Velocity Spike"
+
+outfit  "X4700 Ion Thruster"
+	"display name" "Thunderhead Launcher"
+
+outfit  "X5700 Ion Thruster"
+	"display name" "Subarashii Rift Thruster"
+
+outfit  "X1200 Ion Steering"
+	"display name" "Navy License"
+
+outfit  "X2200 Ion Steering"
+	"display name" "Speck Magazine"
+
+outfit  "X3200 Ion Steering"
+	"display name" "Speck Round"
+
+outfit  "X4200 Ion Steering"
+	"display name" "S-970 Regenerator"
+
+outfit  "X5200 Ion Steering"
+	"display name" `"Basrem" Reverse Thruster`
+
+outfit  "X1100 Ion Reverse Thruster"
+	"display name" "Ka'het Nullifier"
+
+outfit  "Chipmunk Plasma Thruster"
+	"display name" "Small Heat Shunt"
+
+outfit  "Greyhound Plasma Thruster"
+	"display name" "Quarg Skylance"
+
+outfit  "Impala Plasma Thruster"
+	"display name" "X3200 Ion Steering"
+
+outfit  "Orca Plasma Thruster"
+	"display name" "Korath Piercer"
+
+outfit  "Tyrant Plasma Thruster"
+	"display name" "Antimatter Core"
+
+outfit  "Chipmunk Plasma Steering"
+	"display name" "City-Ship License"
+
+outfit  "Greyhound Plasma Steering"
+	"display name" "SC-12 Plasma Steering"
+
+outfit  "Impala Plasma Steering"
+	"display name" "Thruster (Stellar Class)"
+
+outfit  "Orca Plasma Steering"
+	"display name" "R-360 RCS Thrusters"
+
+outfit  "Tyrant Plasma Steering"
+	"display name" "Cryogenic Deuterium Tank"
+
+outfit  "Capybara Reverse Thruster"
+	"display name" "Swarm Missile"
+
+outfit  "A120 Atomic Thruster"
+	"display name" "Twin Modified Blaster"
+
+outfit  "A250 Atomic Thruster"
+	"display name" `"Benga" Atomic Steering`
+
+outfit  "A370 Atomic Thruster"
+	"display name" "Finisher Storage Tube"
+
+outfit  "A520 Atomic Thruster"
+	"display name" "Command Center"
+
+outfit  "A860 Atomic Thruster"
+	"display name" "Quantum Vacuum Battery"
+
+outfit  "A125 Atomic Steering"
+	"display name" "Ophrys Stockpile"
+
+outfit  "A255 Atomic Steering"
+	"display name" "SC-14 Plasma Steering"
+
+outfit  "A375 Atomic Steering"
+	"display name" "Void Orchid"
+
+outfit  "A525 Atomic Steering"
+	"display name" "Large Battery Module"
+
+outfit  "A865 Atomic Steering"
+	"display name" "Heavy Rocket Launcher"
+
+outfit  "AR120 Reverse Thruster"
+	"display name" "Strange Ray"
+
+outfit  "Imaginary Weapon"
+	"display name" "Asteroid Jump Drive"
+
+outfit  "Cooling Ducts"
+	"display name" "Inhibitor Cannon"
+
+outfit  "Water Coolant System"
+	"display name" "Intrusion Countermeasures"
+
+outfit  "Liquid Nitrogen Cooler"
+	"display name" "LP072a Battery Pack"
+
+outfit  "Liquid Helium Cooler"
+	"display name" "Firestorm Battery"
+
+outfit  "D14-RN Shield Generator"
+	"display name" "KP-6 Photovoltaic Array"
+
+outfit  "D23-QP Shield Generator"
+	"display name" "Cruiser License"
+
+outfit  "D41-HY Shield Generator"
+	"display name" "Telis Engine Nacelles"
+
+outfit  "D67-TM Shield Generator"
+	"display name" "Asteroid Scanner"
+
+outfit  "D94-YV Shield Generator"
+	"display name" "Scanning Module"
+
+outfit  "S-270 Regenerator"
+	"display name" "Magnetoplasma Drive"
+
+outfit  "S-970 Regenerator"
+	"display name" "RG15 Torch Steering"
+
+outfit  "Small Radar Jammer"
+	"display name" "Blood of Surtr"
+
+outfit  "Large Radar Jammer"
+	"display name" "Small Thrust Module"
+
+outfit  "Ramscoop"
+	"display name" "Torpedo Pod"
+
+outfit  "Catalytic Ramscoop"
+	"display name" "Medium VLS"
+
+outfit  "Hyperdrive"
+	"display name" "Large Graviton Steering"
+
+outfit  "Scram Drive"
+	"display name" "Thruster (Planetary Class)"
+
+outfit  "Jump Drive"
+	"display name" "Cloak Checker"
+
+outfit  "Jump Drive (Broken)"
+	"display name" "Type 2 Radiant Thruster"
+
+outfit  "Cargo Scanner"
+	"display name" "Electron Beam"
+
+outfit  "Outfit Scanner"
+	"display name" "Stack Core"
+
+outfit  "Asteroid Scanner"
+	"display name" "Ka'het Grand Restorer"
+
+outfit  "Tactical Scanner"
+	"display name" "Large Hybrid Cooling"
+
+outfit  "Surveillance Pod"
+	"display name" "Hyperdrive"
+
+outfit  "Cloaking Device"
+	"display name" "Successor License"
+
+outfit  "Outfits Expansion"
+	"display name" "Tear of Skade"
+
+outfit  "Cargo Expansion"
+	"display name" "Korath Fire-Lance"
+
+outfit  "Bunk Room"
+	"display name" "Thunderhead Missile"
+
+outfit  "Small Bunk Room"
+	"display name" "Small Biochemical Cell"
+
+outfit  "Brig"
+	"display name" "Anvil-Class Engine"
+
+outfit  "Luxury Accommodations"
+	"display name" "Korath Detainer"
+
+outfit  "Fuel Pod"
+	"display name" "Astuit Battery"
+
+outfit  "Interference Plating"
+	"display name" "Plasmasickle"
+
+outfit  "Laser Rifle"
+	"display name" "Sand Cell"
+
+outfit  "Fragmentation Grenades"
+	"display name" "White Sun Reactor"
+
+outfit  "Security Station"
+	"display name" "Thermal Repeater Turret"
+
+outfit  "Nerve Gas"
+	"display name" "Type 3 Radiant Thruster"
+
+outfit  "Mug"
+	"display name" "Stagnation Beam"
+
+outfit  "Antigrav Glass"
+	"display name" `Z-666 "Zap" Fusion Torch`
+
+outfit  "Old Man's Sword"
+	"display name" "Pug Zapper"
+
+outfit  "Puny"
+	"display name" `"Baellie" Atomic Engines`
+
+outfit  "Tear of Skade"
+	"display name" "Gegno Driller License"
+
+outfit  "Blood of Surtr"
+	"display name" `"Basrem" Atomic Thruster`
+
+outfit  "Local Map"
+	"display name" "Jump Drive"
+
+outfit  "Pilot's License"
+	"display name" "Greyhound Plasma Thruster"
+
+outfit  "Navy License"
+	"display name" "Orchid Boost"
+
+outfit  "Navy Auxiliary License"
+	"display name" "Savagery Pike"
+
+outfit  "Navy Cruiser License"
+	"display name" `"Bondir" Atomic Steering`
+
+outfit  "Navy Carrier License"
+	"display name" "Fate Sealer"
+
+outfit  "Militia License"
+	"display name" "Swarm Pod"
+
+outfit  "City-Ship License"
+	"display name" "Scram Drive"
+
+outfit  "Secret Cargo"
+	"display name" "Magnetic Scoop"
+
+outfit  "Supercapacitor"
+	"display name" `"Aqra" Inductive Thruster`
+
+outfit  "LP036a Battery Pack"
+	"display name" "Firelight Missile"
+
+outfit  "LP072a Battery Pack"
+	"display name" "Orchid Divert Stage Expended"
+
+outfit  "LP144a Battery Pack"
+	"display name" "Afterburner (Lunar Class)"
+
+outfit  "LP288a Battery Pack"
+	"display name" "Small Shield Relay"
+
+outfit  "LP576a Battery Pack"
+	"display name" "Typhoon Pod"
+
+outfit  "KP-6 Photovoltaic Panel"
+	"display name" "Steering (Comet Class)"
+
+outfit  "KP-6 Photovoltaic Array"
+	"display name" "Teciimach Bay"
+
+outfit  "nGVF-AA Fuel Cell"
+	"display name" "Phalanx System"
+
+outfit  "nGVF-BB Fuel Cell"
+	"display name" "R-720 RCS Thrusters"
+
+outfit  "nGVF-CC Fuel Cell"
+	"display name" "A125 Atomic Steering"
+
+outfit  "nGVF-DD Fuel Cell"
+	"display name" `"Chyyra" Inductive Thruster`
+
+outfit  "nGVF-EE Fuel Cell"
+	"display name" "Korath Banisher"
+
+outfit  "RT-I Radiothermal"
+	"display name" "Ka'het Emergency Deployer"
+
+outfit  "S3 Thermionic"
+	"display name" "Reasoning Node"
+
+outfit  "NT-200 Nucleovoltaic"
+	"display name" "Laser Turret"
+
+outfit  "Dwarf Core"
+	"display name" "Excavator"
+
+outfit  "Fission Reactor"
+	"display name" "A375 Atomic Steering"
+
+outfit  "Breeder Reactor"
+	"display name" "Elysian Ranseur"
+
+outfit  "Fusion Reactor"
+	"display name" "Annihilator Projectile"
+
+outfit  "Armageddon Core"
+	"display name" "Overcharged Shield Module"
+
+outfit  "Stack Core"
+	"display name" "Avgi Atomics License"
+
+outfit  "Energy Blaster"
+	"display name" "Kinetic Rail Rifle"
+
+outfit  "Twin Blaster"
+	"display name" "Generator (Inferno Class)"
+
+outfit  "Blaster Submunition"
+	"display name" "Antimatter Power Cell"
+
+outfit  "Blaster Turret"
+	"display name" "Korath Jak'parat Steering"
+
+outfit  "Quad Blaster Turret"
+	"display name" "Asteroid Weapon Small"
+
+outfit  "Modified Blaster"
+	"display name" "Refueling Module"
+
+outfit  "Twin Modified Blaster"
+	"display name" "Torpedo Launcher"
+
+outfit  "Modified Blaster Submunition"
+	"display name" "X4200 Ion Steering"
+
+outfit  "Modified Blaster Turret"
+	"display name"  Mouthparts?
+
+outfit  "Heavy Blaster"
+	"display name" "Crucible-Class Steering"
+
+outfit  "Beam Laser"
+	"display name" "Ultracapacitor Bank"
+
+outfit  "Laser Turret"
+	"display name" "Digger Mining Turret"
+
+outfit  "Heavy Laser"
+	"display name" "Hai Octopus Jammer"
+
+outfit  "Heavy Laser Turret"
+	"display name" "Gaktem GP Hybrid Steering"
+
+outfit  "Mining Laser"
+	"display name" `"Bondir" Atomic Thruster`
+
+outfit  "Mining Laser Turret"
+	"display name" "R04 Crusade Battery"
+
+outfit  "Tractor Beam"
+	"display name" "Prototype Fusion Cannon"
+
+outfit  "Electron Beam"
+	"display name" "Piercer Missile Launcher"
+
+outfit  "Electron Turret"
+	"display name" "Pug Anti-Missile"
+
+outfit  "Anti-Missile Turret"
+	"display name" "Fate Divider"
+
+outfit  "Heavy Anti-Missile Turret"
+	"display name" "Small Reactor Module"
+
+outfit  "Particle Cannon"
+	"display name" "Small Steering Module"
+
+outfit  "Proton Gun"
+	"display name" "Firelight Turning"
+
+outfit  "Proton Fragment"
+	"display name" "Firelight Storage Rack"
+
+outfit  "Proton Turret"
+	"display name" "Overcharged Pulse Laser"
+
+outfit  "Plasma Cannon"
+	"display name" "Tactical Scanner"
+
+outfit  "Plasma Turret"
+	"display name" "Digger Mining Beam"
+
+outfit  "Plasma Repeater"
+	"display name" `"Sjeja" Kinetic Lance`
+
+outfit  "Flamethrower"
+	"display name" "Vi Centurion License"
+
+outfit  "Flamethrower Projectile"
+	"display name" "Ka'het Annihilator Turret"
+
+outfit  "Meteor Missile"
+	"display name" "Fate Sealer Activated"
+
+outfit  "Meteor Missile Box"
+	"display name" "Dark Reactor"
+
+outfit  "Meteor Missile Launcher"
+	"display name" "Nerve Gas"
+
+outfit  "Meteor Missile Pod"
+	"display name" "Jamfruit"
+
+outfit  "Sidewinder Missile"
+	"display name" "SC-14 Plasma Thruster"
+
+outfit  "Sidewinder Missile Rack"
+	"display name" "Brig"
+
+outfit  "Sidewinder Missile Launcher"
+	"display name" "X1050 Ion Engines"
+
+outfit  "Sidewinder Missile Pod"
+	"display name" "MH Red-Class Thruster"
+
+outfit  "Javelin"
+	"display name" "Microbot Defense Station"
+
+outfit  "Javelin Storage Crate"
+	"display name" "Korath Repeater Rifle"
+
+outfit  "Javelin Pod"
+	"display name" "Uranium"
+
+outfit  "Javelin Mini Pod"
+	"display name" "Aberrant Spiker"
+
+outfit  "Javelin Turret"
+	"display name" "Small Radar Jammer"
+
+outfit  "Torpedo"
+	"display name" "Cargo Expansion"
+
+outfit  "Torpedo Storage Rack"
+	"display name" "Dark Storm Shielding"
+
+outfit  "Torpedo Launcher"
+	"display name" "Outskirts Gauger"
+
+outfit  "Torpedo Pod"
+	"display name" "Gatling Gun Ammo"
+
+outfit  "Typhoon Torpedo"
+	"display name" "Korath Grab-Strike"
+
+outfit  "Typhoon Storage Tube"
+	"display name" "Heavy Anti-Missile Turret"
+
+outfit  "Typhoon Launcher"
+	"display name" "Large Shield Module"
+
+outfit  "Typhoon Pod"
+	"display name" "SC-15 Plasma Thrusters"
+
+outfit  "Heavy Rocket"
+	"display name" "Pollen"
+
+outfit  "Heavy Rocket Rack"
+	"display name" "Typhoon Launcher"
+
+outfit  "Heavy Rocket Launcher"
+	"display name" "High Houses License"
+
+outfit  "Heavy Rocket Pod"
+	"display name" "Ultracapacitor Cell"
+
+outfit  "Nuclear Missile"
+	"display name" `Z-999 "Arc" Fusion Torch`
+
+outfit  "Gatling Gun Ammo"
+	"display name" "Langrage Hyper-Heaver"
+
+outfit  "Bullet Boxes"
+	"display name" "Finisher Torpedo"
+
+outfit  "Gatling Gun"
+	"display name" "X4700 Ion Thruster"
+
+outfit  "Gatling Turret"
+	"display name" "Bright Cloud Shielding"
+
+outfit  "gbullet"
+	"display name" "Fuel Removal"
+
+outfit  "Plasma Discharger"
+	"display name" "Ka'het MHD Generator"
+
+outfit  "plasma particle"
+	"display name" "Smelter-Class Thruster"
+
+outfit  "Stagnation Beam"
+	"display name" "C17 Warzone Core"
+
+outfit  "Star Tail"
+	"display name" "Vareti Engine Block"
+
+outfit  "Star Tail Projectile"
+	"display name" "Blaster Turret"
+
+outfit  "Star Tail Cell"
+	"display name" "Reverser (Asteroid Class)"
+
+outfit  "Star Tail Storage"
+	"display name" "Gaktem GP Hybrid Thruster"
+
+outfit  "Horizon Grappler"
+	"display name" "Impala Plasma Thruster"
+
+outfit  "Gas-Class Shield"
+	"display name" "Fire-Lance"
+
+outfit  "Liquid-Class Shield"
+	"display name" "Pulse Turret"
+
+outfit  "Metallic Hydrogen Cell"
+	"display name" "Drak Draining Field"
+
+outfit  "MH Blue-Class Thruster"
+	"display name" "Multimodal Armor: Resilient"
+
+outfit  "MH Blue-Class Steering"
+	"display name" "Large Heat Shunt"
+
+outfit  "MH Green-Class Thruster"
+	"display name" "Chipmunk Plasma Steering"
+
+outfit  "MH Green-Class Steering"
+	"display name" "Korath Minelayer"
+
+outfit  "MH Red-Class Thruster"
+	"display name" "Type 1 Radiant Steering"
+
+outfit  "MH Red-Class Steering"
+	"display name" "A370 Atomic Thruster"
+
+outfit  "Cloud Piercer"
+	"display name" "Void Rifle"
+
+outfit  "Hicemus Conflict License"
+	"display name" "Heavy Rocket Pod"
+
+outfit  "Strange Ray"
+	"display name" "Impala Plasma Steering"
+
+outfit  "Internal Plasma Exhaust"
+	"display name" "Heavy Ion Fragment"
+
+outfit  "Aberrant Spiker"
+	"display name" "Quasar Core"
+
+outfit  "Nucleolysis Beam"
+	"display name" "Carrier License"
+
+outfit  "Telescopic Antimissile"
+	"display name" "Shield Beetle Pendant"
+
+outfit  "Anomalous Shield Restorer"
+	"display name" `"Veusa" Inductive Reverser`
+
+outfit  "Antimatter Power Cell"
+	"display name" "Heavy Rocket Rack"
+
+outfit  "Anomalous Mass"
+	"display name" "Plasma Cannon"
+
+outfit  "Asteroid Anti-Missile"
+	"display name" "Hai Diamond Regenerator"
+
+outfit  "Asteroid Anti-Missile 2"
+	"display name" `1-"Uurau" Betavoltaic Cell`
+
+outfit  "Asteroid Weapon Small"
+	"display name" "Inhibitor Turret"
+
+outfit  "Asteroid Circle Submunition"
+	"display name" "Nettle Flecks"
+
+outfit  "Asteroid Weapon Large"
+	"display name" "Medium Graviton Steering"
+
+outfit  "Asteroid Jump Drive"
+	"display name" "Pug Zapper Turret"
+
+outfit  "Cloak Checker"
+	"display name" "Medium Graviton Thruster"
+
+outfit  "Asteroid Weapon Super"
+	"display name" "Korath Mine Submunition"
+
+outfit  "Fuel Removal"
+	"display name" "Specular Deflector"
+
+outfit  "Ka'het Machinery"
+	"display name" "Large Steering Module"
+
+outfit  "Ka'het Nullifier"
+	"display name" "Pulse Rifle"
+
+outfit  "Ka'het Ravager Beam"
+	"display name" "Nanite Enhancer"
+
+outfit  "Ka'het Ravager Turret"
+	"display name" "Hexagonal Crystal"
+
+outfit  "Ka'het Annihilator"
+	"display name" "Typhoon Storage Tube"
+
+outfit  "Ka'het Annihilator Turret"
+	"display name" "Aegis Shield Generator"
+
+outfit  "Annihilator Projectile"
+	"display name" "Twilight Guard License"
+
+outfit  "Ka'het EMP Deployer"
+	"display name" "Korath Repeater"
+
+outfit  "Ka'het Emergency Deployer"
+	"display name" "Laser Rifle"
+
+outfit  "Ka'het Support Cooling"
+	"display name" "Engine (Meteor Class)"
+
+outfit  "Ka'het Primary Cooling"
+	"display name" "Moonbeam Turret"
+
+outfit  "Ka'het Shield Restorer"
+	"display name" "Choleric Cannon"
+
+outfit  "Ka'het Grand Restorer"
+	"display name" "Cooling Ducts"
+
+outfit  "Ka'het MHD Generator"
+	"display name" "Quark Reactor"
+
+outfit  "Ka'het Reserve Accumulator"
+	"display name" "Anomalous Mass"
+
+outfit  "Maeri Engine Nacelles"
+	"display name" "Plasma Discharger"
+
+outfit  "Ka'het Sustainer Nacelles"
+	"display name" "Anomalous Shield Restorer"
+
+outfit  "Telis Engine Nacelles"
+	"display name" "Swarm Clip"
+
+outfit  "Vareti Engine Block"
+	"display name" "Caldera Afterburner"
+
+outfit  "Ka'het Compact Engine"
+	"display name" "Multimodal Armor: Light"
+
+outfit  "Ka'het Electric Stunner"
+	"display name" "Crystal Projector"
+
+outfit  "Generator (Candle Class)"
+	"display name" "Titanium"
+
+outfit  "Generator (Furnace Class)"
+	"display name" "Farves GP Hybrid Steering"
+
+outfit  "Generator (Inferno Class)"
+	"display name" "Thermal Repeater Rifle"
+
+outfit  "Plasma Core"
+	"display name" "Singularity Core"
+
+outfit  "Double Plasma Core"
+	"display name" "Multimodal Armor: Regen"
+
+outfit  "Triple Plasma Core"
+	"display name" "X5700 Ion Thruster"
+
+outfit  "Small Heat Shunt"
+	"display name" "Nanite Limiter"
+
+outfit  "Large Heat Shunt"
+	"display name" "Small Battery Module"
+
+outfit  "Liquid Sodium Cooler"
+	"display name" "MCS Extractor"
+
+outfit  "Systems Core (Tiny)"
+	"display name" "Yellow Sun Reactor"
+
+outfit  "Systems Core (Small)"
+	"display name" "MH Blue-Class Thruster"
+
+outfit  "Systems Core (Medium)"
+	"display name" "Peripheral Repair Hub"
+
+outfit  "Systems Core (Large)"
+	"display name" "S-270 Regenerator"
+
+outfit  "Fuel Processor"
+	"display name" `"Biroo" Reverse Thruster`
+
+outfit  "Command Center"
+	"display name" "Outfit Scanner"
+
+outfit  "Reasoning Node"
+	"display name" "Concealment Lamina"
+
+outfit  "Control Transceiver"
+	"display name" "Ionic Blaster Prototype"
+
+outfit  "Afterburner (Asteroid Class)"
+	"display name" `"Chyyra" Inductive Steering`
+
+outfit  "Afterburner (Comet Class)"
+	"display name" "Navy Auxiliary License"
+
+outfit  "Afterburner (Lunar Class)"
+	"display name" "Shield Cortex Interface"
+
+outfit  "Afterburner (Planetary Class)"
+	"display name" "Stratospear"
+
+outfit  "Afterburner (Stellar Class)"
+	"display name" "Crystal Capacitor"
+
+outfit  "Engine (Meteor Class)"
+	"display name" "Dwarf Core"
+
+outfit  "Bow Drive (Meteor Class)"
+	"display name" "Research Laboratory"
+
+outfit  "Reverser (Asteroid Class)"
+	"display name" "Ka'het Ravager Turret"
+
+outfit  "Reverser (Comet Class)"
+	"display name" "Farves GP Hybrid Thruster"
+
+outfit  "Reverser (Lunar Class)"
+	"display name" "Absorption Organ"
+
+outfit  "Reverser (Planetary Class)"
+	"display name" "Auxiliary Power Reserve"
+
+outfit  "Reverser (Stellar Class)"
+	"display name" "Bullet Boxes"
+
+outfit  "Thruster (Asteroid Class)"
+	"display name" "Generator (Furnace Class)"
+
+outfit  "Thruster (Comet Class)"
+	"display name" "Javelin Pod"
+
+outfit  "Thruster (Lunar Class)"
+	"display name" "Local Map"
+
+outfit  "Thruster (Planetary Class)"
+	"display name" "Dual Sunbeam Turret"
+
+outfit  "Thruster (Stellar Class)"
+	"display name" "Salvage Scanner"
+
+outfit  "Steering (Asteroid Class)"
+	"display name" "Bimodal Switch"
+
+outfit  "Steering (Comet Class)"
+	"display name" "Modified Blaster Turret"
+
+outfit  "Steering (Lunar Class)"
+	"display name" "Capybara Reverse Thruster"
+
+outfit  "Steering (Planetary Class)"
+	"display name" "Drak Antimatter Cannon"
+
+outfit  "Steering (Stellar Class)"
+	"display name" "D14-RN Shield Generator"
+
+outfit  "Arkrof GP Hybrid Thruster"
+	"display name" "Thruster (Asteroid Class)"
+
+outfit  "Farves GP Hybrid Thruster"
+	"display name" "Mining Laser Turret"
+
+outfit  "Gaktem GP Hybrid Thruster"
+	"display name" "Korath Ark'torbal Thruster"
+
+outfit  "Nelmeb GP Hybrid Thruster"
+	"display name" "EMP Torpedo Bay"
+
+outfit  "Arkrof GP Hybrid Steering"
+	"display name" "Tripulse Shredder"
+
+outfit  "Farves GP Hybrid Steering"
+	"display name" "Telescopic Antimissile"
+
+outfit  "Gaktem GP Hybrid Steering"
+	"display name" `3-"Kaska" Betavoltaic Cell`
+
+outfit  "Nelmeb GP Hybrid Steering"
+	"display name" "Pug Akfar Steering"
+
+outfit  "Thermal Repeater Rifle"
+	"display name" "Railgun Slug Rack"
+
+outfit  "Microbot Defense Station"
+	"display name" "Large Biochemical Cell"
+
+outfit  "Grab-Strike Turret"
+	"display name" "Bullfrog Anti-Missile Turret"
+
+outfit  "Shunt-Strike Turret"
+	"display name" "Large EM Battery"
+
+outfit  "Banisher Grav-Turret"
+	"display name" "Volcano Afterburner"
+
+outfit  "Expeller Grav-Ray"
+	"display name" "Heliarch Repulsor"
+
+outfit  "Warder Anti-Missile"
+	"display name" "Chipmunk Plasma Thruster"
+
+outfit  "Fire-Lance"
+	"display name" "SC-1 Plasma Engines"
+
+outfit  "Blaze-Pike Turret"
+	"display name" "Heavy Laser Turret"
+
+outfit  "Korath Inferno"
+	"display name" "Javelin Turret"
+
+outfit  "Thermal Repeater"
+	"display name" "Multispectral Scanner"
+
+outfit  "Thermal Repeater Turret"
+	"display name" "RG18 Torch Thruster"
+
+outfit  "Piercer Missile"
+	"display name" "Old Man's Sword"
+
+outfit  "Piercer Missile Rack"
+	"display name" "Maeri Engine Nacelles"
+
+outfit  "Piercer Missile Launcher"
+	"display name" "RT-I Radiothermal"
+
+outfit  "Korath Detainer"
+	"display name" "Iron"
+
+outfit  "Cluster Mine"
+	"display name" "Steering (Lunar Class)"
+
+outfit  "Cluster Mine Rack"
+	"display name" "Cluster Mine Layer"
+
+outfit  "Cluster Mine Layer"
+	"display name" "Finisher Maegrolain"
+
+outfit  "Korath Mine Submunition"
+	"display name" "Boomerang Organ"
+
+outfit  "Shield Disruptor Turret"
+	"display name" "R02 Battlezone Battery"
+
+outfit  "Husk-Slice"
+	"display name" "Fusion Reactor"
+
+outfit  "Husk-Slice Turret"
+	"display name" "Smelter-Class Steering"
+
+outfit  "Digger Mining Turret"
+	"display name" "Pebble Core"
+
+outfit  "Digger Mining Beam"
+	"display name" "Large Reverse Module"
+
+outfit  "Langrage Hyper-Heaver"
+	"display name" "Javelin Mini Pod"
+
+outfit  "Heaver Shard"
+	"display name" "Meteor Missile Launcher"
+
+outfit  "Heaver Splinter"
+	"display name" "Korath Mine"
+
+outfit  "Firelight Storage Rack"
+	"display name" "Tuning Rifle"
+
+outfit  "Firelight Missile"
+	"display name" "Finisher Pod"
+
+outfit  "Firelight Missile Bank"
+	"display name" "Wanderer License"
+
+outfit  "Firelight Turning"
+	"display name" "Korath Heat Shunt"
+
+outfit  "Firelight Activated"
+	"display name" "Floating Crystal"
+
+outfit  "Microbot Grinder"
+	"display name" "Cargo Scanner"
+
+outfit  "Firestorm Torpedo"
+	"display name" "Wanderer Outfits License"
+
+outfit  "Firestorm Torpedo Rack"
+	"display name" "Railgun Slug"
+
+outfit  "Firestorm Battery"
+	"display name" "Crystalline Formation"
+
+outfit  "Nano Strike"
+	"display name" "Small Repair Module"
+
+outfit  "Pug Zapper"
+	"display name" "Timer Weapon"
+
+outfit  "Pug Zapper Turret"
+	"display name" "Plasma Turret"
+
+outfit  "Pug Seeker"
+	"display name" "Irate Carronade"
+
+outfit  "Pug Anti-Missile"
+	"display name" "Bullfrog Anti-Missile"
+
+outfit  "Tier 3 Anti-Missile"
+	"display name" "A250 Atomic Thruster"
+
+outfit  "Pug Gridfire Turret"
+	"display name" "Anti-Materiel Gun"
+
+outfit  "Pug Akfar Thruster"
+	"display name" "Point Defense Turret"
+
+outfit  "Pug Akfar Steering"
+	"display name" "Interference Plating"
+
+outfit  "Pug Cormet Thruster"
+	"display name" "Proton Fragment"
+
+outfit  "Pug Cormet Steering"
+	"display name" "Horizon Grappler"
+
+outfit  "Pug Lohmar Thruster"
+	"display name" "A255 Atomic Steering"
+
+outfit  "Pug Lohmar Steering"
+	"display name" "Tyrant Plasma Steering"
+
+outfit  "Pug Biodefenses"
+	"display name" "Timer Submunition"
+
+outfit  "Pug Peacekeeping Staff"
+	"display name" "Lantern Fission Core"
+
+outfit  "Small Graviton Thruster"
+	"display name" "Fuel Pod"
+
+outfit  "Small Graviton Steering"
+	"display name" "Wanderer Anti-Missile"
+
+outfit  "Medium Graviton Thruster"
+	"display name" "R01 Skirmish Battery"
+
+outfit  "Medium Graviton Steering"
+	"display name" "Plasma Grenades"
+
+outfit  "Large Graviton Thruster"
+	"display name" "Drak Antimatter Fragment"
+
+outfit  "Large Graviton Steering"
+	"display name" "Teciimach Canister Rack"
+
+outfit  "Quantum Vacuum Battery"
+	"display name" "Successor Pulse Laser"
+
+outfit  "Antimatter Core"
+	"display name" "Expeller Grav-Ray"
+
+outfit  "Singularity Core"
+	"display name" "Thrasher Cannon"
+
+outfit  "Quasar Core"
+	"display name" "Bombardment Cannon"
+
+outfit  "Aspis Shield Generator"
+	"display name" "Nelmeb GP Hybrid Steering"
+
+outfit  "Ancile Shield Generator"
+	"display name" "D41-HY Shield Generator"
+
+outfit  "Aegis Shield Generator"
+	"display name" "Heaver Splinter"
+
+outfit  "Peripheral Repair Hub"
+	"display name" "Active Finisher"
+
+outfit  "Central Repair Hub"
+	"display name" "Optical Lasing Generator"
+
+outfit  "Skydagger"
+	"display name" "Asteroid Circle Submunition"
+
+outfit  "Skylance"
+	"display name" "nGVF-AA Fuel Cell"
+
+outfit  "Stratospear"
+	"display name" "MH Red-Class Steering"
+
+outfit  "Elysian Ranseur"
+	"display name" "Shield Relay Limiter"
+
+outfit  "Celestial Culverin"
+	"display name" "External Launch Rail"
+
+outfit  "Astral Ribault"
+	"display name" "Ookii Rift Thruster"
+
+outfit  "Slipstream Projector"
+	"display name" "Mass Expansion"
+
+outfit  "Phalanx System"
+	"display name" "Ion Hail Turret"
+
+outfit  "Suicide Gun"
+	"display name" "Failed Control System"
+
+outfit  "Inhibitor Cannon"
+	"display name" "Fragmentation Grenades"
+
+outfit  "Inhibitor Turret"
+	"display name" "Ember Tear"
+
+outfit  "Thrasher Cannon"
+	"display name" "Nelmeb GP Hybrid Thruster"
+
+outfit  "Thrasher Turret"
+	"display name" "Choleric Cannon Turret"
+
+outfit  "Point Defense Turret"
+	"display name" "Type 2 Radiant Steering"
+
+outfit  "EMP Torpedo"
+	"display name" "Anti-Missile Turret"
+
+outfit  "EMP Torpedo Storage Bay"
+	"display name" `"Bufaer" Atomic Steering`
+
+outfit  "EMP Torpedo Bay"
+	"display name" "Korath Piercer Launcher"
+
+outfit  "Teciimach Canister"
+	"display name" "Shield Refactor Module"
+
+outfit  "Teciimach Canister Rack"
+	"display name" "Diffuse Deflector"
+
+outfit  "Teciimach Bay"
+	"display name" "Savagery Bludgeon"
+
+outfit  "Teciimach Pod"
+	"display name" "Asteroid Anti-Missile"
+
+outfit  "Ember Tear"
+	"display name" "Coalition License"
+
+outfit  "Crystal Capacitor"
+	"display name" "Speckle Turret"
+
+outfit  "Millennium Cell"
+	"display name" "Cloud Piercer"
+
+outfit  "Epoch Cell"
+	"display name" "Warder Anti-Missile"
+
+outfit  "Aeon Cell"
+	"display name" "Ultraviolet Excimer Laser"
+
+outfit  "Thermoelectric Cooler"
+	"display name" "Korath Tek'nel Reactor"
+
+outfit  "Emergency Ramscoop"
+	"display name" "S3 Thermionic"
+
+outfit  "NDR-114 Android"
+	"display name" "Systems Core (Large)"
+
+outfit  "Research Laboratory"
+	"display name" "Electronic Warfare System"
+
+outfit  "Quantum Key Stone"
+	"display name" "Drak Antimatter Cannon (Augmented)"
+
+outfit  "Salvage Scanner"
+	"display name" "Blue Sun Reactor"
+
+outfit  "Bellows-Class Afterburner"
+	"display name" "Ka'het Primary Cooling"
+
+outfit  "Anvil-Class Engine"
+	"display name" "Large Nanite Fabricator"
+
+outfit  "Crucible-Class Thruster"
+	"display name" "Grab-Strike Turret"
+
+outfit  "Forge-Class Thruster"
+	"display name" "RG3 Torch Thruster"
+
+outfit  "Smelter-Class Thruster"
+	"display name" "Korath Mine Rack"
+
+outfit  "Crucible-Class Steering"
+	"display name" "Reactor Limiter"
+
+outfit  "Forge-Class Steering"
+	"display name" "Suicide Gun"
+
+outfit  "Smelter-Class Steering"
+	"display name" "Small Collector Module"
+
+outfit  "Tuning Rifle"
+	"display name" "Thruster (Comet Class)"
+
+outfit  "Void Rifle"
+	"display name" "Blaze-Pike Turret"
+
+outfit  "Void Sprite Parts"
+	"display name" "Solar Battery"
+
+outfit  "Remnant License"
+	"display name" "Vi Lord License"
+
+outfit  "Remnant Capital License"
+	"display name" "EMP Torpedo Storage Bay"
+
+outfit  "Fate Sealer"
+	"display name" "Mug"
+
+outfit  "Fate Sealer Activated"
+	"display name" `"Basrem" Atomic Steering`
+
+outfit  "Fate Divider"
+	"display name" `Z-333 "Spark" Fusion Torch`
+
+outfit  "Fate Divider Activated"
+	"display name" "gbullet"
+
+outfit  "Abyssal Composer"
+	"display name" "AR120 Reverse Thruster"
+
+outfit  "Timer Weapon"
+	"display name" "Spectrometer Array"
+
+outfit  "Timer Submunition"
+	"display name" "Abyssal Composer"
+
+outfit  "Small EM Battery"
+	"display name" "Pug Lohmar Steering"
+
+outfit  "Large EM Battery"
+	"display name" "Thunderhead"
+
+outfit  "Small Hybrid Cooling"
+	"display name" "UREB Turret"
+
+outfit  "Large Hybrid Cooling"
+	"display name" "Piercer Missile Rack"
+
+outfit  "Fission Drive"
+	"display name" "Small Reverse Module"
+
+outfit  "Fusion Drive"
+	"display name" "Red Sun Reactor"
+
+outfit  "Electronic Warfare System"
+	"display name" "Militia License"
+
+outfit  "Dragonflame Cannon"
+	"display name" "Remnant Capital License"
+
+outfit  "Sheragi Anti-Missile"
+	"display name" "Emotional Baggage"
+
+outfit  "Particle Waveform Turret"
+	"display name" "Shield Disruptor Turret"
+
+outfit  "Shard Fabricator"
+	"display name" "Radiative Lamina"
+
+outfit  "Shard inactive"
+	"display name" "Systems Core (Tiny)"
+
+outfit  "Heavy Ion Cyclotron"
+	"display name" "RG18 Torch Steering"
+
+outfit  "Heavy Ion Fragment"
+	"display name" "Triple Plasma Core"
+
+outfit  "Successor License"
+	"display name" "Ka'het Annihilator"
+
+outfit  "High Houses License"
+	"display name" "Quantum Keystone"
+
+outfit  `"Byiaa" Shield Cortex`
+	"display name" "Antigrav Glass"
+
+outfit  `"Ej" Shield Cortex`
+	"display name" "X3700 Ion Thruster"
+
+outfit  `"Jaase" Shield Cortex`
+	"display name" "I70 Ameliorate Cell"
+
+outfit  `"Jorv" Shield Cortex`
+	"display name" `"Orchid" Nuclear Missile`
+
+outfit  "Shield Cortex Interface"
+	"display name" "Meteor Missile"
+
+outfit  `1-"Uurau" Betavoltaic Cell`
+	"display name" "A525 Atomic Steering"
+
+outfit  `OC-"Mavra" Betavoltaic Cell`
+	"display name" "Greyhound Plasma Steering"
+
+outfit  `3-"Kaska" Betavoltaic Cell`
+	"display name" "Value Detector"
+
+outfit  `6-"Ruuv" Betavoltaic Cell`
+	"display name" `"Veusa" Inductive Steering`
+
+outfit  "Auxiliary Power Reserve"
+	"display name" "Proton Turret"
+
+outfit  "Primary Power Reserve"
+	"display name" "Nami Rift Thruster"
+
+outfit  `"Nnesa" Fusion Core`
+	"display name" "Afterburner (Asteroid Class)"
+
+outfit  `"Ryuit" Fusion Core`
+	"display name" "Armageddon Core"
+
+outfit  `"Uoret" Fusion Core`
+	"display name" "Steering (Planetary Class)"
+
+outfit  "Successor Cooling"
+	"display name" "D94-YV Shield Generator"
+
+outfit  "Successor Fuel Sail"
+	"display name" `"Bufaer" Atomic Thruster`
+
+outfit  `"Veldt" Combat Scanner`
+	"display name" "Scin Architect License"
+
+outfit  `"Tuur" Scanning Suite`
+	"display name" "Jump Drive (Broken)"
+
+outfit  `"Niis" Inductive Engines`
+	"display name" "Bow Drive (Meteor Class)"
+
+outfit  `"Aqra" Inductive Thruster`
+	"display name" "Small Nanite Fabricator"
+
+outfit  `"Aqra" Inductive Steering`
+	"display name" "Trefoil Board"
+
+outfit  `"Aqra" Inductive Reverser`
+	"display name" "Holovid Zone"
+
+outfit  `"Chyyra" Inductive Thruster`
+	"display name" `"Aqra" Inductive Steering`
+
+outfit  `"Chyyra" Inductive Steering`
+	"display name" `OC-"Mavra" Betavoltaic Cell`
+
+outfit  `"Chyyra" Inductive Reverser`
+	"display name" "Sidewinder Missile Rack"
+
+outfit  `"Veusa" Inductive Thruster`
+	"display name" "Husk-Slice Turret"
+
+outfit  `"Veusa" Inductive Steering`
+	"display name" "Overclocked Repair Module"
+
+outfit  `"Veusa" Inductive Reverser`
+	"display name" "Imaginary Weapon"
+
+outfit  "Multimodal Armor: Light"
+	"display name" "R03 Warforge Battery"
+
+outfit  "Multimodal Armor: Heavy"
+	"display name" "Teciimach Canister"
+
+outfit  "Multimodal Armor: Regen"
+	"display name" "Heavy Ion Cyclotron"
+
+outfit  "Multimodal Armor: Keystone"
+	"display name" "Proton Gun"
+
+outfit  "Kinetic Rail Rifle"
+	"display name" "Inductive Extractor"
+
+outfit  `"Ojet" Bimodal Coilgun`
+	"display name" "X2200 Ion Steering"
+
+outfit  "Bimodal Coilgun Turret"
+	"display name" "Hai Cuttlefish Jammer"
+
+outfit  "Bimodal Switch"
+	"display name" "Large Reactor Module"
+
+outfit  "Drag Cannon"
+	"display name" "Vapor Nuclear Rocket"
+
+outfit  "Drag Projectile"
+	"display name" `"Uoret" Fusion Core`
+
+outfit  "Successor Pulse Laser"
+	"display name" "Heavy Laser"
+
+outfit  "Pulse Laser Turret"
+	"display name" "Fuel Module"
+
+outfit  "Overcharged Pulse Laser"
+	"display name" "Nanotech Battery"
+
+outfit  "Overcharged Laser Turret"
+	"display name" "Electroweak Reactor"
+
+outfit  `"Sjeja" Kinetic Lance`
+	"display name" "Drak Turret"
+
+outfit  "High-Velocity Spike"
+	"display name" "Liquid Sodium Cooler"
+
+outfit  "High-Velocity Spike Rack"
+	"display name" `"Biroo" Atomic Steering`
+
+outfit  "Plankton Mouth"
+	"display name" "Emergency Ramscoop"
+
+outfit  "Boomerang Organ"
+	"display name" "Ionic Afterburner"
+
+outfit  "Astral Mouth"
+	"display name" "Platinum"
+
+outfit  "Sunbeam"
+	"display name" "Fusion Drive"
+
+outfit  "Sunbeam Turret"
+	"display name" "Buzzer Anti-Missile"
+
+outfit  "Dual Sunbeam Turret"
+	"display name" "Sidewinder Missile"
+
+outfit  "Moonbeam"
+	"display name" "A520 Atomic Thruster"
+
+outfit  "Moonbeam Turret"
+	"display name" "Successor Fuel Sail"
+
+outfit  "Wanderer Anti-Missile"
+	"display name" "Large Thrust Module"
+
+outfit  "Thunderhead Launcher"
+	"display name" "Skylance"
+
+outfit  "Thunderhead Missile"
+	"display name" "Flamethrower Projectile"
+
+outfit  "Thunderhead"
+	"display name" "Lead"
+
+outfit  "Thunderhead Storage Array"
+	"display name" "Tree Skeleton Key Stone"
+
+outfit  "Small Biochemical Cell"
+	"display name" `Z-3600 "Beam" Amat Torch`
+
+outfit  "Large Biochemical Cell"
+	"display name" `"Byiaa" Shield Cortex`
+
+outfit  "Red Sun Reactor"
+	"display name" "Type 4 Radiant Steering"
+
+outfit  "Yellow Sun Reactor"
+	"display name" "Celestial Culverin"
+
+outfit  "White Sun Reactor"
+	"display name" "Irate Cannon Turret"
+
+outfit  "Blue Sun Reactor"
+	"display name" "Heavy Blaster"
+
+outfit  "Bright Cloud Shielding"
+	"display name" "Reverser (Comet Class)"
+
+outfit  "Dark Storm Shielding"
+	"display name" "Reverse Thruster"
+
+outfit  "Wanderer Ramscoop"
+	"display name" "X1200 Ion Steering"
+
+outfit  "Wanderer Heat Sink"
+	"display name" "Ka'het Reserve Accumulator"
+
+outfit  "Type 1 Radiant Thruster"
+	"display name" "Tungsten"
+
+outfit  "Type 2 Radiant Thruster"
+	"display name" "R-180 RCS Thrusters"
+
+outfit  "Type 3 Radiant Thruster"
+	"display name" "Heatsink Partition"
+
+outfit  "Type 4 Radiant Thruster"
+	"display name" "Drag Projectile"
+
+outfit  "Type 1 Radiant Steering"
+	"display name" "Orchid Boost Stage Expended"
+
+outfit  "Type 2 Radiant Steering"
+	"display name" "Asteroid Weapon Large"
+
+outfit  "Type 3 Radiant Steering"
+	"display name" "Large Graviton Thruster"
+
+outfit  "Type 4 Radiant Steering"
+	"display name" "Tractor Beam"
+
+outfit  "Wanderer Outfits License"
+	"display name" "Reverser (Stellar Class)"
+
+outfit  "Wanderer License"
+	"display name" "Wanderer Military License"
+
+outfit  "Wanderer Military License"
+	"display name" "Drak Anti-Missile Field (Augmented)"
+
+outfit  "Pincer"
+	"display name" `"Veusa" Inductive Thruster`
+
+system   Athiri
+	"display name"  Maoni
+
+system   Balnii
+	"display name"  Sumprast
+
+system   Chanai
+	"display name"  Zubenelhakrabi
+
+system   Ghila
+	"display name"  Albaldah
+
+system   Lathia
+	"display name"  Sheratan
+
+system   Maithi
+	"display name" "Ae Il F-46"
+
+system   Mitera
+	"display name" "Kor Zena'i"
+
+system   Sarifa
+	"display name"  Flugbu
+
+system   Thepa
+	"display name"  Hunter
+
+system  "1 Axis"
+	"display name"  Kiluit
+
+system  "10 Pole"
+	"display name"  Mebsuta
+
+system  "11 Autumn Above"
+	"display name"  Mebla
+
+system  "11 Spring Below"
+	"display name" "Erba Yle"
+
+system  "12 Autumn Above"
+	"display name"  Arculus
+
+system  "14 Pole"
+	"display name"  Maspa-Cavaasa
+
+system  "14 Summer Above"
+	"display name"  Iyech'yek
+
+system  "14 Winter Below"
+	"display name" "Rati Cal"
+
+system  "16 Autumn Rising"
+	"display name"  Peak
+
+system  "3 Axis"
+	"display name" "Al Hurr"
+
+system  "3 Pole"
+	"display name"  Alnasl
+
+system  "3 Spring Rising"
+	"display name"  Seketra
+
+system  "4 Axis"
+	"display name"  Beginning
+
+system  "4 Spring Rising"
+	"display name"  Nunki
+
+system  "4 Summer Rising"
+	"display name"  Phurad
+
+system  "4 Winter Rising"
+	"display name"  Aierena
+
+system  "5 Axis"
+	"display name"  Caesura
+
+system  "5 Spring Below"
+	"display name"  Sepriaptu
+
+system  "5 Summer Above"
+	"display name"  Devil-Hide
+
+system  "5 Winter Above"
+	"display name"  G-819
+
+system  "7 Autumn Rising"
+	"display name"  Phecda
+
+system  "8 Winter Below"
+	"display name" "11 Autumn Above"
+
+system  "9 Spring Above"
+	"display name"  Mora
+
+system   Aaura-Kaska
+	"display name"  Pelaa-Muora
+
+system   Ablodab
+	"display name"  Acamar
+
+system   Ablub
+	"display name"  H-1
+
+system   Acamar
+	"display name"  Delia
+
+system   Acapella
+	"display name"  Fscher
+
+system   Achernar
+	"display name"  Thuban
+
+system   Acnanjo
+	"display name" "Fallen Leaf"
+
+system   Acrux
+	"display name"  Chirr'ay'akai
+
+system   Actannka
+	"display name"  Skeruto
+
+system   Adhara
+	"display name"  Khosa-Kaska
+
+system  "Ae Ce L-332"
+	"display name"  Chanai
+
+system  "Ae Ce Q-761"
+	"display name"  Yerser
+
+system  "Ae Il A-3"
+	"display name" "Pedita Sec"
+
+system  "Ae Il B-11"
+	"display name"  Wei
+
+system  "Ae Il F-46"
+	"display name"  Ilirco
+
+system  "Ae Il G-66"
+	"display name"  Aldebaran
+
+system  "Ae Il H-24"
+	"display name"  Sayaiban
+
+system  "Ae Il I-99"
+	"display name"  Lesath
+
+system  "Ae Il M-77"
+	"display name"  Kiru'kichi
+
+system  "Ae Il O-96"
+	"display name"  Corporeal
+
+system   Aescolanus
+	"display name"  Sko'karak
+
+system   Aierena
+	"display name"  Octet
+
+system  "Aik Kamgatake"
+	"display name"  Jyelio
+
+system   Aileron
+	"display name"  Betelgeuse
+
+system   Aki'il
+	"display name" "Elabi Choati"
+
+system   Aksek
+	"display name"  Vanguwo
+
+system  "Al Dhanab"
+	"display name"  Eblumab
+
+system  "Al Hurr"
+	"display name"  Evrae
+
+system   Albaldah
+	"display name" "Delta Sagittarii"
+
+system   Albireo
+	"display name"  Paeli
+
+system   Alcyone
+	"display name" "Delta Capricorni"
+
+system   Aldebaran
+	"display name" "Paru Paru"
+
+system   Alderamin
+	"display name"  Zaurak
+
+system   Aldhibain
+	"display name"  Torbab
+
+system   Aleit
+	"display name"  Sedes
+
+system   Algenib
+	"display name"  Tailwind
+
+system   Algieba
+	"display name"  Pik'ro'iyak
+
+system   Algol
+	"display name"  Ferukistek
+
+system   Algorel
+	"display name" "Eragaru Le"
+
+system   Alheka
+	"display name"  Hamal
+
+system   Alhena
+	"display name"  Evanescence
+
+system   Alioth
+	"display name"  Ar-40
+
+system   Alkaid
+	"display name"  Scheat
+
+system   Almaaz
+	"display name"  Tuur-Kella
+
+system   Almach
+	"display name"  C-12
+
+system   Alnair
+	"display name"  Ojstaan-Sola
+
+system   Alnasl
+	"display name"  Shaula
+
+system   Alnilam
+	"display name" "Is Ce F-422"
+
+system   Alnitak
+	"display name"  Fala
+
+system   Alniyat
+	"display name"  Hassaleh
+
+system  "Alpha Arae"
+	"display name"  Misam
+
+system  "Alpha Centauri"
+	"display name"  Men
+
+system  "Alpha Hydri"
+	"display name" "Ultima Thule"
+
+system   Alphard
+	"display name"  Levana
+
+system   Alphecca
+	"display name"  Wezen
+
+system   Alpheratz
+	"display name"  Pelubta
+
+system   Alpherg
+	"display name"  Similisti
+
+system   Altair
+	"display name" "Sol Arach"
+
+system   Aludra
+	"display name"  Ghhil
+
+system   Anax
+	"display name"  Khasola-Ryuit
+
+system   Anbrim
+	"display name"  Opera
+
+system  "Ancient Hope"
+	"display name" "Jentu Centi"
+
+system   Ankaa
+	"display name"  Moktar
+
+system   Answer
+	"display name"  Lurata
+
+system   Antares
+	"display name"  Kiiraj-Luue
+
+system   Antevorta
+	"display name"  Zolpulti
+
+system   Anthem
+	"display name" "Zuba Zub"
+
+system   Ap'arak
+	"display name"  Alnitak
+
+system   Apeiron
+	"display name"  G-719
+
+system   Ar-40
+	"display name" "Ravu Kon"
+
+system   Arche
+	"display name"  Limen
+
+system   Arcturus
+	"display name"  Cl-35
+
+system   Arculus
+	"display name"  Iliniza
+
+system   Arneb
+	"display name"  Belenos
+
+system   As-75
+	"display name"  Aki'il
+
+system   Ascella
+	"display name" "Kor Tar'bei"
+
+system   Asikafarnut
+	"display name"  Remembrance
+
+system   Asio
+	"display name"  Ablodab
+
+system   Aspidiske
+	"display name" "World's End"
+
+system   Atik
+	"display name"  Polaris
+
+system   Atria
+	"display name"  Tscera
+
+system   Auhru
+	"display name"  Current
+
+system   Avasaa-Novaa
+	"display name"  Gust
+
+system   Avior
+	"display name"  Iinjma
+
+system  "Avo Chigo"
+	"display name"  Chornifath
+
+system   Axiom
+	"display name"  Alnair
+
+system   Aya'k'k
+	"display name"  Porrima
+
+system   B-11
+	"display name"  Soar
+
+system   Ballad
+	"display name" "Deep Space 19M2"
+
+system   Be-9
+	"display name" "Ya Hai"
+
+system   Beginning
+	"display name"  Nihal
+
+system   Belenos
+	"display name" "Cor Caroli"
+
+system   Bellatrix
+	"display name"  Septet
+
+system   Belonging
+	"display name" "Deep Space 1X"
+
+system   Belug
+	"display name"  Albireo
+
+system   Belugt
+	"display name"  Kneirc
+
+system  "Beta Lupi"
+	"display name"  Maspa-Raaqa
+
+system   Betelgeuse
+	"display name"  Capella
+
+system   Billow
+	"display name"  Markab
+
+system   Bloptab
+	"display name" "Is Il T-94"
+
+system   Blubipad
+	"display name"  Eogho
+
+system   Blugtad
+	"display name" "14 Winter Below"
+
+system   Boral
+	"display name" "Ancient Hope"
+
+system  "Bore Fah"
+	"display name" "Bote Asu"
+
+system  "Bosuno Le"
+	"display name" "Xutluno Rees"
+
+system  "Bote Asu"
+	"display name"  Zosma
+
+system   Br-80
+	"display name"  Madrigal
+
+system  "Bright Void"
+	"display name"  Pantica
+
+system  "Broken Bowl"
+	"display name"  Dokdobaru
+
+system  "Bunri Lemeta"
+	"display name"  Algol
+
+system   C-12
+	"display name"  Wreoul
+
+system   Ca-40
+	"display name"  Bellatrix
+
+system   Caeculus
+	"display name"  Nenia
+
+system   Caesura
+	"display name" "Ae Il B-11"
+
+system   Canopus
+	"display name"  Oihaug
+
+system   Cantata
+	"display name"  Naper
+
+system   Capella
+	"display name"  Persian
+
+system   Caph
+	"display name"  Faronektu
+
+system   Cardax
+	"display name"  Avasaa-Novaa
+
+system   Cardea
+	"display name" "Deep Space 5N"
+
+system   Castor
+	"display name"  Merak
+
+system   Cebalrai
+	"display name"  Piadenli
+
+system   Celeborim
+	"display name"  Lolami
+
+system   Chikatip
+	"display name"  Zeinar
+
+system   Chimitarp
+	"display name"  Axiom
+
+system   Chirr'ay'akai
+	"display name"  Quintet
+
+system   Chorale
+	"display name" "10 Pole"
+
+system   Chornifath
+	"display name"  E-9182
+
+system   Chy'chra
+	"display name" "Fah Soom"
+
+system   Chyyra-Osolaa
+	"display name"  Denebola
+
+system   Cinxia
+	"display name"  Alcyone
+
+system   Citadelle
+	"display name"  Lathia
+
+system   Cl-35
+	"display name" "5 Axis"
+
+system   Clepsydra
+	"display name" "Bunri Lemeta"
+
+system   Clip
+	"display name"  Achernar
+
+system   Coluber
+	"display name"  Whirlwind
+
+system   Companion
+	"display name"  Interlude
+
+system   Concerto
+	"display name"  Hintar
+
+system   Convector
+	"display name" "Hi Yahr"
+
+system  "Cor Caroli"
+	"display name"  Hesselpost
+
+system   Corporeal
+	"display name"  Aescolanus
+
+system   Cotpoxi
+	"display name"  Menkent
+
+system   Cshudlye
+	"display name" "Is Il V-263"
+
+system  "Cura Dic"
+	"display name"  Decet
+
+system   Current
+	"display name"  Aldhibain
+
+system   Currus
+	"display name"  Msalbit
+
+system   Cusp
+	"display name"  Luue-Saqru
+
+system  "Da Ent"
+	"display name"  Gerenus
+
+system  "Da Lest"
+	"display name" "Fell Omen"
+
+system   Dabih
+	"display name"  Mohuwo
+
+system   Danoa
+	"display name"  Zubeneschamali
+
+system  "Dark Hills"
+	"display name"  Empeles
+
+system   Debrugt
+	"display name"  Glide
+
+system   Decet
+	"display name" "Xutluno Fali"
+
+system  "Deep Space 19K12"
+	"display name" "Da Ent"
+
+system  "Deep Space 19M1"
+	"display name"  Kasii-Sola
+
+system  "Deep Space 19M2"
+	"display name"  Chikatip
+
+system  "Deep Space 19M5"
+	"display name"  Huud
+
+system  "Deep Space 1Q"
+	"display name"  Stream
+
+system  "Deep Space 1X"
+	"display name" "Yed Prior"
+
+system  "Deep Space 5J"
+	"display name"  Flutter
+
+system  "Deep Space 5N"
+	"display name"  Polerius
+
+system  "Deep Space 5T"
+	"display name" "Kor En'lakfar"
+
+system  "Deep Space 7C"
+	"display name"  Volax
+
+system  "Deep Space 7F"
+	"display name"  Ipsing
+
+system   Delia
+	"display name"  Ptobeh
+
+system  "Delta Capricorni"
+	"display name"  Quartet
+
+system  "Delta Sagittarii"
+	"display name" "Zeta Aquilae"
+
+system  "Delta Velorum"
+	"display name" "Kor Ak'Mari"
+
+system   Demilude
+	"display name"  Rutilicus
+
+system   Deneb
+	"display name"  Salipastart
+
+system   Denebola
+	"display name" "8 Winter Below"
+
+system   Devil-Hide
+	"display name"  Pherkad
+
+system   Devil-Run
+	"display name" "Fah Root"
+
+system   Diespiter
+	"display name"  Cusp
+
+system   Diphda
+	"display name"  Ianua
+
+system   Dixere
+	"display name"  Miblulub
+
+system   Dokdobaru
+	"display name"  Egeria
+
+system   Dom'us
+	"display name"  Sadr
+
+system   Dschubba
+	"display name"  Kashikt
+
+system   Dubhe
+	"display name"  Citadelle
+
+system  "Due Yoot"
+	"display name" "Alpha Hydri"
+
+system   Duet
+	"display name"  Headwind
+
+system   Durax
+	"display name" "Broken Bowl"
+
+system   E-4183
+	"display name"  Zubenelgenubi
+
+system   E-9182
+	"display name" "Wah Ki"
+
+system   Eber
+	"display name"  Makferuti
+
+system   Eblumab
+	"display name"  Algieba
+
+system   Edusa
+	"display name" "Heia Due"
+
+system   Eebu
+	"display name" "4 Spring Rising"
+
+system   Egeria
+	"display name"  Diphda
+
+system  "Ehma Ti"
+	"display name"  Vorsuke
+
+system   Ek'kek'ru
+	"display name"  Prelude
+
+system   Ekuarik
+	"display name" "Thshybo Le"
+
+system  "Elabi Choati"
+	"display name"  Blubipad
+
+system   Elifennka
+	"display name" "Deep Space 19M5"
+
+system   Elnath
+	"display name"  Bloptab
+
+system  "Elo Chigo"
+	"display name"  H-8188
+
+system   Eltanin
+	"display name"  Eebu
+
+system   Empeles
+	"display name" "Deep Space 7C"
+
+system   Empyrean
+	"display name" "Gento Ah"
+
+system   Eneremprukt
+	"display name"  Rota
+
+system  "Eneva Katta"
+	"display name" "1 Axis"
+
+system   Enif
+	"display name" "Last Word"
+
+system   Ensemble
+	"display name"  Aspidiske
+
+system   Eogho
+	"display name"  Anbrim
+
+system  "Epsilon Leonis"
+	"display name"  Naos
+
+system   Equus
+	"display name"  MC-42
+
+system  "Era Natta"
+	"display name"  Menkalinan
+
+system  "Erabu Lemeta"
+	"display name"  Mirfak
+
+system  "Eragaru Le"
+	"display name"  Mg-24
+
+system  "Erba Yle"
+	"display name"  Vega
+
+system   Es'sprak'ai
+	"display name" "Due Yoot"
+
+system   Eshkoshtar
+	"display name" "Uwa Fahn"
+
+system   Esix
+	"display name"  Asikafarnut
+
+system  "Eta Carinae"
+	"display name"  Ankaa
+
+system   Eteron
+	"display name"  Kochab
+
+system   Evanescence
+	"display name"  Waypoint
+
+system   Evrae
+	"display name"  Gossamer
+
+system   F-19
+	"display name" "Mego Faro"
+
+system  "Fah Root"
+	"display name" "Bore Fah"
+
+system  "Fah Soom"
+	"display name"  Acrux
+
+system   Fala
+	"display name"  Patir
+
+system  "Fallen Leaf"
+	"display name" "Cura Dic"
+
+system  "Far Horizon"
+	"display name" "Pedita Pri"
+
+system   Farbutero
+	"display name"  Athiri
+
+system   Farinus
+	"display name"  Vorpal
+
+system   Faronektu
+	"display name"  Ghila
+
+system   Fasitopfar
+	"display name"  MS-219
+
+system   Fearis
+	"display name"  Vasa-Oorua
+
+system  "Fell Omen"
+	"display name" "Al Dhanab"
+
+system   Feraticus
+	"display name"  Rajak
+
+system   Fereti
+	"display name" "Gamma Corvi"
+
+system   Feroteri
+	"display name"  Vilacira
+
+system   Ferukistek
+	"display name"  Twirl
+
+system   Fingol
+	"display name"  Elifennka
+
+system   Firmament
+	"display name" "Lone Cloud"
+
+system   Flugbu
+	"display name"  Dom'us
+
+system   Flutter
+	"display name"  Sospi
+
+system   Fomalhaut
+	"display name"  Pbelnep
+
+system   Fornarep
+	"display name" "Eneva Katta"
+
+system  "Four Pillars"
+	"display name"  Clip
+
+system   Frenzy
+	"display name" "4 Winter Rising"
+
+system   Fscher
+	"display name"  Raaqa-Ryuit
+
+system   Fumalsamakah
+	"display name"  Vaiov
+
+system   Furmeliki
+	"display name"  Kasii-Cavaasa
+
+system   G-3191
+	"display name"  Kiro'ku
+
+system   G-6183
+	"display name" "Jyeg Pvu"
+
+system   G-719
+	"display name" "Is Il T-127"
+
+system   G-819
+	"display name"  Parca
+
+system   Gacrux
+	"display name"  Answer
+
+system   Gale
+	"display name" "5 Winter Above"
+
+system  "Gamma Cassiopeiae"
+	"display name"  As-75
+
+system  "Gamma Corvi"
+	"display name"  Kr-84
+
+system   Gaungu
+	"display name"  Mizar
+
+system   Ge-73
+	"display name"  Alphard
+
+system  "Genta Bo"
+	"display name"  Lucina
+
+system  "Gento Ah"
+	"display name"  Celeborim
+
+system   Gerenus
+	"display name" "Lom Tahr"
+
+system   Ghhil
+	"display name"  Castor
+
+system   Gienah
+	"display name"  Antevorta
+
+system   Giribea
+	"display name"  Furmeliki
+
+system   Girtab
+	"display name"  Atik
+
+system   Glide
+	"display name" "Ae Il G-66"
+
+system   Glubatub
+	"display name"  Tap
+
+system   Gomeisa
+	"display name"  Sabriset
+
+system  "Good Omen"
+	"display name" "Mego Seo"
+
+system   Gorvi
+	"display name" "12 Autumn Above"
+
+system   Gossamer
+	"display name"  Auhru
+
+system   Graffias
+	"display name" "4 Axis"
+
+system   Gualetri
+	"display name" "Hevru Hai"
+
+system   Gupta
+	"display name"  L-6181
+
+system   Gust
+	"display name"  Kraz
+
+system   H-1
+	"display name"  Algenib
+
+system   H-8188
+	"display name"  Nonet
+
+system   H-9187
+	"display name" "Ae Il H-24"
+
+system   Hadar
+	"display name"  Speloog
+
+system   Hamal
+	"display name"  Aya'k'k
+
+system   Han
+	"display name" "Deep Space 19M1"
+
+system   Hassaleh
+	"display name"  Peresedersi
+
+system   Hatysa
+	"display name"  Saquergen
+
+system   He-4
+	"display name" "Terra Incognita"
+
+system   Headwind
+	"display name"  Tarazed
+
+system  "Heia Due"
+	"display name"  Quaru
+
+system   Hesselpost
+	"display name"  Alderamin
+
+system   Heutesl
+	"display name" "Jentu Le"
+
+system  "Hevru Hai"
+	"display name" "Gamma Cassiopeiae"
+
+system  "Hi Yahr"
+	"display name"  Mesuket
+
+system   Hintar
+	"display name"  Actannka
+
+system   Holeb
+	"display name"  Peragenor
+
+system   Homeward
+	"display name"  Balnii
+
+system   Host
+	"display name"  Mellow
+
+system   Hui'uc
+	"display name"  Sobarati
+
+system   Hunter
+	"display name"  Yranjiu
+
+system   Huud
+	"display name"  Tejat
+
+system   Ianua
+	"display name"  Cshudlye
+
+system   Iigen
+	"display name"  Debrugt
+
+system   Iinjma
+	"display name" "14 Summer Above"
+
+system   Iise
+	"display name"  Girtab
+
+system   Ik'kara'ka
+	"display name"  Pearl
+
+system   Ildaria
+	"display name" "Kaus Australis"
+
+system   Iliniza
+	"display name"  Sarifa
+
+system   Ilirco
+	"display name"  Algorel
+
+system   Il'le
+	"display name" "Tania Australis"
+
+system  "Imo Dep"
+	"display name"  Kella-Uoasa
+
+system   Insitor
+	"display name"  Saiph
+
+system   Interlude
+	"display name"  Feroteri
+
+system  "Io Lowe"
+	"display name"  Chyyra-Osolaa
+
+system  "Io Mann"
+	"display name"  Lloloi
+
+system   Ipsing
+	"display name"  Nnaug
+
+system  "Is Ce B-139"
+	"display name"  Hatysa
+
+system  "Is Ce F-422"
+	"display name"  Canopus
+
+system  "Is Ce G-460"
+	"display name"  Alkaid
+
+system  "Is Ce J-591"
+	"display name"  Diespiter
+
+system  "Is Il T-127"
+	"display name"  Alheka
+
+system  "Is Il T-94"
+	"display name"  Terminus
+
+system  "Is Il V-263"
+	"display name"  Billow
+
+system  "Is Il X-626"
+	"display name"  G-3191
+
+system  "Is Il Z-59"
+	"display name" "11 Spring Below"
+
+system  "Is Il Z-814"
+	"display name"  Dabih
+
+system   Iyech'yek
+	"display name"  U-5188
+
+system   Izar
+	"display name"  Osolaa-Uuoru
+
+system  "Jentu Centi"
+	"display name"  Regulus
+
+system  "Jentu Le"
+	"display name"  Farbutero
+
+system   Jied
+	"display name"  Supra
+
+system  "Jyeg Pvu"
+	"display name"  Deneb
+
+system   Jyelio
+	"display name"  Persitar
+
+system   K-39
+	"display name"  Devil-Run
+
+system   Ka'ch'chrai
+	"display name"  Iise
+
+system   Ka'pru
+	"display name" "Kifrana Terberah"
+
+system   Kaliptari
+	"display name"  Enif
+
+system   Kanguwa
+	"display name"  Ap'arak
+
+system  "Kappa Centauri"
+	"display name"  Aludra
+
+system   Karhio
+	"display name"  Apeiron
+
+system   Kashikt
+	"display name"  Mnashyu
+
+system   Kasii-Cavaasa
+	"display name" "Steep Roof"
+
+system   Kasii-Sola
+	"display name"  Clepsydra
+
+system   Kasi-Vasa-Novaa
+	"display name"  Kasi-Vasa-Novaa
+
+system   Kasikfar
+	"display name"  O-3184
+
+system  "Kaus Australis"
+	"display name"  Uelawan
+
+system  "Kaus Borealis"
+	"display name"  Regor
+
+system   Kella-Uoasa
+	"display name"  Postverta
+
+system   Khasola-Ryuit
+	"display name"  Mitera
+
+system   Khosa-Kaska
+	"display name"  Orbona
+
+system   Kiiraj-Luue
+	"display name"  Sail
+
+system  "Ki War Ek"
+	"display name"  Ka'ch'chrai
+
+system  "Kifrana Terberah"
+	"display name"  Mirach
+
+system   Kilema
+	"display name"  Oblate
+
+system   Kiluit
+	"display name"  Uhebe
+
+system   Kiro'ku
+	"display name"  Umbral
+
+system   Kiru'kichi
+	"display name"  Asio
+
+system   Kneirc
+	"display name"  Mavra-Ijsola
+
+system   Kochab
+	"display name"  Rastaban
+
+system  "Kor Ak'Mari"
+	"display name"  Oosuoro
+
+system  "Kor En'lakfar"
+	"display name"  Kornephoros
+
+system  "Kor Fel'tar"
+	"display name"  Wazn
+
+system  "Kor Men"
+	"display name"  Wake
+
+system  "Kor Nor'peli"
+	"display name"  Belug
+
+system  "Kor Tar'bei"
+	"display name"  Ka'pru
+
+system  "Kor Zena'i"
+	"display name"  Mintaka
+
+system   Kornephoros
+	"display name" "Alpha Arae"
+
+system   Korsmanath
+	"display name"  Fingol
+
+system   Kr-84
+	"display name"  Maithi
+
+system   Kraz
+	"display name" "Pug Iyik"
+
+system   Kugel
+	"display name"  S-32
+
+system   Kursa
+	"display name"  Alioth
+
+system   L-118
+	"display name"  Tectum
+
+system   L-6181
+	"display name" "Era Natta"
+
+system  "Last Word"
+	"display name" "9 Spring Above"
+
+system   Lesath
+	"display name"  Matar
+
+system   Levana
+	"display name"  Cardax
+
+system   Li-7
+	"display name" "Over the Rainbow"
+
+system   Lift
+	"display name"  Tumble
+
+system   Limen
+	"display name"  Cinxia
+
+system   Lire
+	"display name"  Rouseu
+
+system   Lloloi
+	"display name"  Silikatakfar
+
+system   Lolami
+	"display name" "Shini Bori"
+
+system  "Lom Tahr"
+	"display name" "Ae Ce Q-761"
+
+system  "Lone Cloud"
+	"display name"  Prosa
+
+system   Lucina
+	"display name"  Rigel
+
+system   Lumine
+	"display name"  Lire
+
+system   Lurata
+	"display name"  Boral
+
+system   Luue-Saqru
+	"display name"  Segesta
+
+system   M-1188
+	"display name" "Sagittarius A*"
+
+system   MC-42
+	"display name"  Atria
+
+system   MS-219
+	"display name"  Anthem
+
+system   Madrigal
+	"display name"  Coluber
+
+system   Makferuti
+	"display name"  Sargas
+
+system   Maoni
+	"display name" "Mego Inito"
+
+system   Markab
+	"display name"  Convector
+
+system   Markeb
+	"display name" "Deep Space 19K12"
+
+system   Maspa-Cavaasa
+	"display name"  Cebalrai
+
+system   Maspa-Mavra
+	"display name" "Ae Il A-3"
+
+system   Maspa-Raaqa
+	"display name"  Postlude
+
+system   Matar
+	"display name"  Kanguwa
+
+system   Mavra-Ijsola
+	"display name"  Br-80
+
+system   Mebla
+	"display name"  Fornarep
+
+system   Meblumem
+	"display name" "4 Summer Rising"
+
+system   Mebsuta
+	"display name"  Ensemble
+
+system   Meftarkata
+	"display name"  Acnanjo
+
+system  "Mego Faro"
+	"display name"  Rasalhague
+
+system  "Mego Inito"
+	"display name"  Glubatub
+
+system  "Mego Seo"
+	"display name"  Plort
+
+system  "Mei Yohn"
+	"display name"  Peacock
+
+system   Mekislepti
+	"display name" "Delta Velorum"
+
+system   Mellow
+	"display name"  Graffias
+
+system   Men
+	"display name"  Eber
+
+system   Menkalinan
+	"display name" "Is Ce B-139"
+
+system   Menkar
+	"display name"  Homeward
+
+system   Menkent
+	"display name" "Ae Il O-96"
+
+system   Merak
+	"display name"  Stercutus
+
+system   Mesuket
+	"display name"  Ruchbah
+
+system   Mg-24
+	"display name"  Belugt
+
+system   Miaplacidus
+	"display name"  Vesvii
+
+system   Miblulub
+	"display name"  Vindemiatrix
+
+system   Mimosa
+	"display name"  Holeb
+
+system   Minkar
+	"display name"  Muhlifain
+
+system   Mintaka
+	"display name"  Fasitopfar
+
+system   Mirach
+	"display name"  Blugtad
+
+system   Mirfak
+	"display name"  Torrent
+
+system   Mirzam
+	"display name"  Hadar
+
+system   Misam
+	"display name"  Ritilas
+
+system   Mizar
+	"display name" "Ehma Ti"
+
+system   Mnashyu
+	"display name"  Sonata
+
+system   Mohuwo
+	"display name" "Ae Il M-77"
+
+system   Moktar
+	"display name"  Ildaria
+
+system   Mora
+	"display name"  Gupta
+
+system   Mosaa-Iyra
+	"display name"  Fumalsamakah
+
+system   Mote
+	"display name"  Yllke
+
+system   Msalbit
+	"display name"  Feraticus
+
+system   Muhlifain
+	"display name"  Ookmya
+
+system   Muphrid
+	"display name"  Serenade
+
+system   Myiara-Nnesa
+	"display name"  Ek'kek'ru
+
+system   Myruet-Kvelq
+	"display name"  Eteron
+
+system   N-14
+	"display name" "Wah Oh"
+
+system   Na-23
+	"display name"  Acapella
+
+system   Naos
+	"display name" "3 Axis"
+
+system   Naper
+	"display name"  Lumine
+
+system   Ne-20
+	"display name"  Mimosa
+
+system   Nenia
+	"display name"  Valkraa-Uuoru
+
+system   Nihal
+	"display name"  Spica
+
+system   Nnatai
+	"display name"  Kasikfar
+
+system   Nnaug
+	"display name"  Myiara-Nnesa
+
+system   Nocte
+	"display name" "Avo Chigo"
+
+system   Nona
+	"display name" "Sol Kimek"
+
+system   Nonet
+	"display name"  Cantata
+
+system   Nssryos
+	"display name"  Sabik
+
+system   Nunki
+	"display name"  M-1188
+
+system   O-16
+	"display name"  Dubhe
+
+system   O-3184
+	"display name"  Vulcuja
+
+system   Oblate
+	"display name"  L-118
+
+system   Octet
+	"display name" "Deep Space 5J"
+
+system   Oihaug
+	"display name"  Kugel
+
+system   Ojstaan-Sola
+	"display name"  Anax
+
+system   Ookmya
+	"display name"  Gienah
+
+system   Oosuoro
+	"display name"  Talita
+
+system   Opera
+	"display name"  Izar
+
+system   Orbona
+	"display name"  Yli
+
+system   Orvala
+	"display name"  Mosaa-Iyra
+
+system   Osolaa-Uuoru
+	"display name"  B-11
+
+system   Ossipago
+	"display name"  Hui'uc
+
+system   Oublaa-Khora
+	"display name"  Quintessence
+
+system  "Over the Rainbow"
+	"display name"  Tide
+
+system   P-31
+	"display name"  Kilema
+
+system   Paeli
+	"display name"  Caph
+
+system   Pantica
+	"display name"  Sepetrosk
+
+system   Parca
+	"display name"  Alnilam
+
+system  "Paru Paru"
+	"display name"  F-19
+
+system   Patir
+	"display name"  Sumar
+
+system   Pbelnep
+	"display name"  Kaliptari
+
+system   Peacock
+	"display name"  Frenzy
+
+system   Peak
+	"display name"  Karhio
+
+system   Pearl
+	"display name"  Meftarkata
+
+system  "Pedita Pri"
+	"display name"  Ptetubo
+
+system  "Pedita Sec"
+	"display name"  Span
+
+system   Pelaa-Muora
+	"display name" "Aik Kamgatake"
+
+system   Pelubta
+	"display name"  Sextet
+
+system   Peragenor
+	"display name" "Silver Bell"
+
+system   Peresedersi
+	"display name"  Host
+
+system   Perfica
+	"display name"  G-6183
+
+system   Persian
+	"display name" "Sera Natta"
+
+system   Persitar
+	"display name"  Aksek
+
+system   Phact
+	"display name"  Eneremprukt
+
+system   Phecda
+	"display name" "Io Lowe"
+
+system   Pherkad
+	"display name"  Ekuarik
+
+system   Phurad
+	"display name"  E-4183
+
+system   Piadenli
+	"display name"  Phact
+
+system   Pik'ro'iyak
+	"display name" "14 Pole"
+
+system   Pinnacle
+	"display name" "Ae Il I-99"
+
+system   Plort
+	"display name"  Aaura-Kaska
+
+system   Polaris
+	"display name"  Alhena
+
+system   Polerius
+	"display name"  Mote
+
+system   Pollux
+	"display name"  N-14
+
+system   Porrima
+	"display name"  Ballad
+
+system  "Porta Terra"
+	"display name" "Far Horizon"
+
+system   Postlude
+	"display name" "Deep Space 1Q"
+
+system   Postverta
+	"display name"  Muphrid
+
+system   Prakacha'a
+	"display name"  Miaplacidus
+
+system   Prelude
+	"display name" "Is Ce J-591"
+
+system   Procyon
+	"display name"  Equus
+
+system   Prosa
+	"display name"  Arcturus
+
+system   Ptetubo
+	"display name" "Elo Chigo"
+
+system   Ptobeh
+	"display name" "Is Il Z-814"
+
+system  "Pug Iyik"
+	"display name"  Cotpoxi
+
+system   Pukako
+	"display name"  Pukako
+
+system   Quartet
+	"display name" "Deep Space 5T"
+
+system   Quaru
+	"display name" "Uwo Seija"
+
+system   Queri
+	"display name"  Be-9
+
+system   Quintessence
+	"display name"  V-2189
+
+system   Quintet
+	"display name"  Sol
+
+system   Raaqa-Ryuit
+	"display name"  Ca-40
+
+system   Rajak
+	"display name"  Nocte
+
+system   Rasalhague
+	"display name"  Jied
+
+system   Rastaban
+	"display name"  Avior
+
+system  "Rati Cal"
+	"display name"  Vaticanus
+
+system  "Ravu Kon"
+	"display name"  Seginus
+
+system   Regor
+	"display name" "Silver String"
+
+system   Regulus
+	"display name"  Oublaa-Khora
+
+system   Relifer
+	"display name"  Alphecca
+
+system   Remembrance
+	"display name"  Kursa
+
+system   Rhapsody
+	"display name"  Sarin
+
+system   Rigel
+	"display name"  Uuoru-Kella
+
+system   Ritilas
+	"display name" "Is Ce G-460"
+
+system   Rivulet
+	"display name"  Dixere
+
+system   Rota
+	"display name" "Imo Dep"
+
+system   Rouseu
+	"display name"  Chy'chra
+
+system   Ruchbah
+	"display name"  Sadalmelik
+
+system   Rutilicus
+	"display name"  P-31
+
+system   S-32
+	"display name"  Companion
+
+system   Sabik
+	"display name" "3 Spring Rising"
+
+system   Sabriset
+	"display name" "Ki War Ek"
+
+system   Sadalmelik
+	"display name" "Kor Men"
+
+system   Sadalsuud
+	"display name"  Caeculus
+
+system   Sadr
+	"display name"  K-39
+
+system  "Sagittarius A*"
+	"display name"  Han
+
+system   Sail
+	"display name" "Deep Space 7F"
+
+system   Saiph
+	"display name"  Vivace
+
+system   Salipastart
+	"display name"  Tais
+
+system   Saquergen
+	"display name" "Kor Nor'peli"
+
+system   Sargas
+	"display name" "Ae Ce L-332"
+
+system   Sarin
+	"display name"  Trio
+
+system   Sayaiban
+	"display name"  Uttna
+
+system   Scheat
+	"display name"  Mirzam
+
+system   Schedar
+	"display name"  Rivulet
+
+system   Scija
+	"display name" "Kaus Borealis"
+
+system   Sedes
+	"display name" "Four Pillars"
+
+system   Segesta
+	"display name"  Mekislepti
+
+system   Seginus
+	"display name"  Menkar
+
+system   Seketra
+	"display name"  Insitor
+
+system   Sepetrosk
+	"display name" "Epsilon Leonis"
+
+system   Sepriaptu
+	"display name"  Nnatai
+
+system   Septet
+	"display name" "5 Spring Below"
+
+system  "Sera Natta"
+	"display name"  Queri
+
+system   Serenade
+	"display name"  Na-23
+
+system   Sevrelect
+	"display name"  Nona
+
+system   Sextet
+	"display name" "Porta Terra"
+
+system   Shaula
+	"display name"  Gale
+
+system   Sheratan
+	"display name"  Ne-20
+
+system  "Shini Bori"
+	"display name"  Thepa
+
+system   Si-28
+	"display name"  Gualetri
+
+system   Si'yak'ku
+	"display name"  Sadalsuud
+
+system   Sich'ka'ara
+	"display name"  Uuoru-Sossa
+
+system   Silikatakfar
+	"display name" "Erabu Lemeta"
+
+system  "Silver Bell"
+	"display name"  Fomalhaut
+
+system  "Silver String"
+	"display name"  Procyon
+
+system   Similisti
+	"display name" "Dark Hills"
+
+system   Sirius
+	"display name" "Beta Lupi"
+
+system   Skeruto
+	"display name"  Pinnacle
+
+system   Sko'karak
+	"display name" "Ula Mon"
+
+system   Soar
+	"display name" "16 Autumn Rising"
+
+system   Sobarati
+	"display name" "Zeta Centauri"
+
+system   Sol
+	"display name"  Orvala
+
+system  "Sol Arach"
+	"display name" "Kappa Centauri"
+
+system  "Sol Kimek"
+	"display name"  Altair
+
+system  "Sol Saryd"
+	"display name" "Good Omen"
+
+system   Solifar
+	"display name"  Fearis
+
+system   Sonata
+	"display name"  Vade-Staja
+
+system   Sospi
+	"display name"  Heutesl
+
+system   Span
+	"display name"  Gomeisa
+
+system   Speloog
+	"display name"  Perfica
+
+system   Spica
+	"display name"  Cardea
+
+system   Statina
+	"display name"  Durax
+
+system  "Steep Roof"
+	"display name"  Scija
+
+system   Stercutus
+	"display name"  Alniyat
+
+system   Stiidej-Nnesa
+	"display name"  Almaaz
+
+system   Stream
+	"display name"  Esix
+
+system   Suhail
+	"display name"  Empyrean
+
+system   Sumar
+	"display name"  Ik'kara'ka
+
+system   Sumprast
+	"display name"  Myruet-Kvelq
+
+system   Supra
+	"display name" "Bright Void"
+
+system   Symphony
+	"display name"  Korsmanath
+
+system   Tailwind
+	"display name"  Sich'ka'ara
+
+system   Tais
+	"display name"  Thread
+
+system   Talita
+	"display name"  Gaungu
+
+system  "Tania Australis"
+	"display name"  Edusa
+
+system   Tap
+	"display name" "Bosuno Le"
+
+system   Tarazed
+	"display name"  Gacrux
+
+system   Tebuteb
+	"display name"  Duet
+
+system   Tectum
+	"display name"  Eshkoshtar
+
+system   Tejat
+	"display name"  Unagi
+
+system   Terminus
+	"display name" "Sol Saryd"
+
+system  "Terra Incognita"
+	"display name" "Alpha Centauri"
+
+system   Thread
+	"display name"  H-9187
+
+system  "Thshybo Le"
+	"display name" "Urba Pest"
+
+system   Thuban
+	"display name" "7 Autumn Rising"
+
+system   Tide
+	"display name"  Arneb
+
+system   Torbab
+	"display name"  Sirius
+
+system   Torrent
+	"display name"  Ascella
+
+system   Tortor
+	"display name"  Gorvi
+
+system   Trio
+	"display name"  Arche
+
+system   Tscera
+	"display name"  Solifar
+
+system   Tumble
+	"display name"  Si'yak'ku
+
+system   Turais
+	"display name"  Nssryos
+
+system   Tuur-Kella
+	"display name"  Elnath
+
+system   Twirl
+	"display name"  Almach
+
+system   U-5188
+	"display name"  Danoa
+
+system   Uelawan
+	"display name"  Symphony
+
+system   Uhebe
+	"display name"  Dschubba
+
+system  "Ula Mon"
+	"display name"  Giribea
+
+system  "Ultima Thule"
+	"display name" "Genta Bo"
+
+system   Umbral
+	"display name"  Fereti
+
+system   Unagi
+	"display name"  Alpheratz
+
+system   Unukalhai
+	"display name"  Pollux
+
+system  "Urba Pest"
+	"display name" "Mei Yohn"
+
+system   Uttna
+	"display name"  Rhapsody
+
+system   Uuoru-Kella
+	"display name" "Io Mann"
+
+system   Uuoru-Sossa
+	"display name"  Lift
+
+system  "Uwa Fahn"
+	"display name"  Alpherg
+
+system  "Uwo Seija"
+	"display name"  Firmament
+
+system   V-2189
+	"display name"  Es'sprak'ai
+
+system   Vade-Staja
+	"display name"  Demilude
+
+system   Vaiov
+	"display name"  Sevrelect
+
+system   Valkraa-Uuoru
+	"display name"  Adhara
+
+system   Vanguwo
+	"display name"  Ossipago
+
+system   Vasa-Oorua
+	"display name" "Is Il X-626"
+
+system   Vaticanus
+	"display name"  Concerto
+
+system   Vega
+	"display name"  Antares
+
+system   Vesvii
+	"display name" "5 Summer Above"
+
+system   Vilacira
+	"display name" "Kor Fel'tar"
+
+system   Vindemiatrix
+	"display name"  Meblumem
+
+system   Vivace
+	"display name"  Minkar
+
+system   Volax
+	"display name"  Aleit
+
+system   Vorpal
+	"display name"  He-4
+
+system   Vorsuke
+	"display name"  Statina
+
+system   Vulcuja
+	"display name"  Aileron
+
+system   W-3197
+	"display name"  Turais
+
+system  "Wah Ki"
+	"display name"  Ablub
+
+system  "Wah Oh"
+	"display name"  Markeb
+
+system  "Wah Yoot"
+	"display name" "Eta Carinae"
+
+system   Wake
+	"display name"  Eltanin
+
+system   Wave
+	"display name"  Ge-73
+
+system   Waypoint
+	"display name"  Stiidej-Nnesa
+
+system   Wazn
+	"display name"  W-3197
+
+system   Wei
+	"display name" "Da Lest"
+
+system   Wezen
+	"display name"  Tortor
+
+system   Whirlwind
+	"display name"  Wave
+
+system  "World's End"
+	"display name"  Chimitarp
+
+system   Wreoul
+	"display name"  Maspa-Mavra
+
+system  "Xutluno Fali"
+	"display name"  Il'le
+
+system  "Xutluno Rees"
+	"display name"  Currus
+
+system  "Ya Hai"
+	"display name"  Relifer
+
+system  "Yed Prior"
+	"display name" "Wah Yoot"
+
+system   Yerser
+	"display name"  Suhail
+
+system   Yli
+	"display name"  Tebuteb
+
+system   Yllke
+	"display name"  Prakacha'a
+
+system   Yranjiu
+	"display name"  Li-7
+
+system   Zaurak
+	"display name"  O-16
+
+system   Zeinar
+	"display name" "3 Pole"
+
+system  "Zeta Aquilae"
+	"display name"  Iigen
+
+system  "Zeta Centauri"
+	"display name" "Is Il Z-59"
+
+system   Zolpulti
+	"display name"  Unukalhai
+
+system   Zosma
+	"display name"  Farinus
+
+system  "Zuba Zub"
+	"display name"  Belonging
+
+system   Zubenelgenubi
+	"display name"  Schedar
+
+system   Zubenelhakrabi
+	"display name"  Chorale
+
+system   Zubeneschamali
+	"display name"  Si-28
+
