@@ -1,7 +1,6 @@
 import os
 
 
-
 def read_everything(data_folder):
 	print('\nreading data folder')
 	obj, obj_path, obj_name = [], [], []
@@ -9,51 +8,42 @@ def read_everything(data_folder):
 	folders = os.listdir(data_folder)
 	folders.append('')
 	folders.sort()
-	for folder in  folders:
-		if os.path.isdir(data_folder + folder):
+	for folder in folders:
+		if os.path.isdir(os.path.join(data_folder + folder)):
 			text_files = os.listdir(data_folder + folder)
 			text_files.sort()
 			for text_file in text_files:
-				if os.path.isfile(data_folder + folder + os.sep + text_file) == False:
+				path = os.path.join(data_folder, folder, text_file)
+				if not os.path.isfile(path):
 					continue
+				padding = ''
 				if len(folder + text_file)  < 80: # just for displaying / max len = 44(currently)
 					count = 80 - len(folder + text_file)
-					spaces = ''
-					for i in range(0, count):
-						spaces += ' '
-				print('	reading: ' + folder + os.sep + text_file + spaces, end = '\r', flush= True)
-				with open(data_folder + folder + os.sep + text_file, 'r') as source_file:
+					padding = ' ' * count
+				print('	reading: ' + path + padding, end = '\r', flush= True)
+				with open(path, 'r') as source_file:
 					lines = source_file.readlines()
 				for line in lines:
+					if line.isspace():
+						continue
+					if line.lstrip().startswith('#'):
+						continue
 					# remove comments in line
 					if '#' in line:
 						pos1 = line.find('#')
-						pos2 = line.find('\n')
 						line = line[:pos1].rstrip() + '\n'
-					if line[:1] == '#':
-						continue
-					elif line == '\n':
-						continue
-					elif line == '\t\n':
-						continue
-					elif line == '\t\t\n':
-						continue
 					elif line[:1] != '\t': # or line == lines[len(lines)-1]:
-						if started == True:
+						if started:
 							obj.append(txt.replace('<', '&#60;').replace('>', '&#62;'))
 							obj_path.append(txt2)
 							obj_name.append(txt3.replace('\t', ' '))
 							started = False
 						txt = line
-						if folder != '':
-							folder_fix = folder + os.sep
-						else:
-							folder_fix = folder
-						txt2 = 'data' + os.sep + folder_fix + text_file
+						txt2 = os.path.join('data', text_file)
 						txt3 = line[:len(line)-1]
 						started = True
 					else:
-						if started == True:
+						if started:
 							txt += line
 	print('	\n	DONE')
 	return obj, obj_path, obj_name
