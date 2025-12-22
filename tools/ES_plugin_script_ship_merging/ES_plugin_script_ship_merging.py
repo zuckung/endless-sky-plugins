@@ -39,7 +39,8 @@ def read_everything(data_folder, folder_exclude):
 			if '#' in line:
 				pos1 = line.find('#')
 				line = line[:pos1].rstrip() + '\n'
-			elif line[:1] != '\t': # or line == lines[len(lines)-1]:
+
+			if line[:1] != '\t': # or line == lines[len(lines)-1]:
 				if started:
 					obj.append(txt.replace('<', '&#60;').replace('>', '&#62;'))
 					obj_path.append(txt2)
