@@ -1,64 +1,60 @@
 import os
 
 
-
-def read_everything(data_folder):
+def read_everything(data_folder, folder_exclude):
 	print('\nreading data folder')
 	obj, obj_path, obj_name = [], [], []
 	started = False
-	folders = os.listdir(data_folder)
-	folders.append('')
-	folders.sort()
-	for folder in  folders:
-		if os.path.isdir(data_folder + folder):
-			text_files = os.listdir(data_folder + folder)
-			text_files.sort()
-			for text_file in text_files:
-				if os.path.isfile(data_folder + folder + os.sep + text_file) == False:
-					continue
-				if len(folder + text_file)  < 80: # just for displaying / max len = 44(currently)
-					count = 80 - len(folder + text_file)
-					spaces = ''
-					for i in range(0, count):
-						spaces += ' '
-				print('	reading: ' + folder + os.sep + text_file + spaces, end = '\r', flush= True)
-				with open(data_folder + folder + os.sep + text_file, 'r') as source_file:
-					lines = source_file.readlines()
-				for line in lines:
-					# remove comments in line
-					if '#' in line:
-						pos1 = line.find('#')
-						pos2 = line.find('\n')
-						line = line[:pos1].rstrip() + '\n'
-					if line[:1] == '#':
-						continue
-					elif line == '\n':
-						continue
-					elif line == '\t\n':
-						continue
-					elif line == '\t\t\n':
-						continue
-					elif line[:1] != '\t': # or line == lines[len(lines)-1]:
-						if started == True:
-							obj.append(txt.replace('<', '&#60;').replace('>', '&#62;'))
-							obj_path.append(txt2)
-							obj_name.append(txt3.replace('\t', ' '))
-							started = False
-						txt = line
-						if folder != '':
-							folder_fix = folder + os.sep
-						else:
-							folder_fix = folder
-						txt2 = 'data' + os.sep + folder_fix + text_file
-						txt3 = line[:len(line)-1]
-						started = True
-					else:
-						if started == True:
-							txt += line
+
+	# get all text files
+	text_files = []
+	for root, dirs, files in os.walk(data_folder):
+		for exclusion in folder_exclude:
+			if exclusion in dirs:
+				dirs.remove(exclusion)
+		for file in files:
+			if file.lower().endswith('.txt'):
+				text_files.append(os.path.join(root, file))
+	text_files.sort()
+
+	for text_file in text_files:
+		padding = ''
+		folder = text_file.split(os.sep)[-2]
+		file_name = text_file.split(os.sep)[-1]
+		if len(folder + file_name)  < 80: # just for displaying / max len = 44(currently)
+			count = 80 - len(folder + file_name)
+			padding = ' ' * count
+		print('	reading: ' + folder + os.sep + file_name + padding, end = '\r', flush= True)
+
+		with open(text_file, 'r') as source_file:
+			lines = source_file.readlines()
+
+		for line in lines:
+			if line.isspace():
+				continue
+			if line.lstrip().startswith('#'):
+				continue
+
+			# remove comments in line
+			if '#' in line:
+				pos1 = line.find('#')
+				line = line[:pos1].rstrip() + '\n'
+
+			if line[:1] != '\t': # or line == lines[len(lines)-1]:
+				if started:
+					obj.append(txt.replace('<', '&#60;').replace('>', '&#62;'))
+					obj_path.append(txt2)
+					obj_name.append(txt3.replace('\t', ' '))
+					started = False
+				txt = line
+				txt2 = os.path.join('data', text_file)
+				txt3 = line[:len(line)-1]
+				started = True
+			else:
+				if started:
+					txt += line
 	print('	\n	DONE')
 	return obj, obj_path, obj_name
-
-
 
 
 def write_ships(tiers, obj, ship_exclude, nodes_exclude):
@@ -369,10 +365,11 @@ def write_mission(ship_names):
 def run():
 	#data_folder = '/storage/emulated/0/Download/data/'
 	data_folder = '/storage/9C33-6BBD/endless sky/data/'
+	folder_exclude = ['_deprecated', '_ui']
 	node_exclude = ['\tattributes', '\t\tcategory', '\t\tlicenses', '\t\tweapon', '\t\t\t', '\t\t"flare', '\t\t"steering', '\t\t"reverse', '\t\t"heat dissipation', '\t\t"waterlining', '\t\t"gaslining', '\t\t"automaton', '#', '\t\t#']
-	ship_exclude = ["Ayym", "Korath Dredger", "Korath Raider", "Korath Chaser", "Korath World-Ship", "Windjammer", "Bluejacket", "Pollen", "Sprout", "Archon", "Void Sprite", "Ember Waste Node", "Embershade", "Embersylph", "Hallucination", "Asteroid", "Science Drone", "Emergency Shuttle", "Unknown Ship Type", "Surveillance Drone", "Aberrant Latte", "Aberrant Chomper", "Aberrant Pileup", "Aberrant Hugger", "Aberrant Longfellow", "Aberrant Dancer", "Aberrant Junior", "Aberrant Icebreaker", "Aberrant Pike", "Aberrant Mole", "Aberrant Whiskers", "Aberrant Trip", "Aberrant Triplet", "Asteroid Large 1", "Asteroid Large 2", "Asteroid Large 3", "Asteroid Large 4", "Asteroid Large 5", "Asteroid Medium", "Asteroid Young 1", "Asteroid Young 2", "Asteroid Young 3", "Asteroid Young 4", "Cloak Check", "Asteroid Planet", "Remnant Satellite", "Asteroid Blocker", "Maeri'het",  "Telis'het", "Vareti'het", "Nanobot", "_Ion Timer Ship", "Rescue Dummy", "Timer Ship", "Vyrmeid", "Astral Cetacean", "Pincer Beast"]
+	ship_exclude = ["Ayym", "Quarg Skylark", "Korath Dredger", "Korath Raider", "Korath Chaser", "Korath World-Ship", "Windjammer", "Bluejacket", "Pollen", "Sprout", "Archon", "Void Sprite", "Ember Waste Node", "Embershade", "Embersylph", "Hallucination", "Asteroid", "Science Drone", "Emergency Shuttle", "Unknown Ship Type", "Surveillance Drone", "Aberrant Latte", "Aberrant Chomper", "Aberrant Pileup", "Aberrant Hugger", "Aberrant Longfellow", "Aberrant Dancer", "Aberrant Junior", "Aberrant Icebreaker", "Aberrant Pike", "Aberrant Mole", "Aberrant Whiskers", "Aberrant Trip", "Aberrant Triplet", "Asteroid Large 1", "Asteroid Large 2", "Asteroid Large 3", "Asteroid Large 4", "Asteroid Large 5", "Asteroid Medium", "Asteroid Young 1", "Asteroid Young 2", "Asteroid Young 3", "Asteroid Young 4", "Cloak Check", "Asteroid Planet", "Remnant Satellite", "Asteroid Blocker", "Maeri'het",  "Telis'het", "Vareti'het", "Nanobot", "_Ion Timer Ship", "Rescue Dummy", "Timer Ship", "Vyrmeid", "Astral Cetacean", "Pincer Beast"]
 	tiers = [1,2,3,4,5,6,7,8,9,10]
-	obj, obj_path, obj_name = read_everything(data_folder)
+	obj, obj_path, obj_name = read_everything(data_folder, folder_exclude)
 	print('data done')
 	ship_names = write_ships(tiers, obj, ship_exclude, node_exclude)
 	print('write ships done')
