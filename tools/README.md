@@ -26,6 +26,10 @@
 <td>generates the banking job out of a template, mainly the stock exchanges.</td>
 </tr>
 <tr>
+<td>ES_plugin_script_job_coloring</td>
+<td>re-generates all jobs with colors, for the plugin job.coloring.</td>
+</tr>
+<tr>
 <td>ES_plugin_script_show_reputation</td>
 <td>generates the mission file for the plugin show.reputation out of the ES data folder.</td>
 </tr>

@@ -1,0 +1,4 @@
+name "job.coloring"
+about "Recolors all jobs to sort them by category(cargo/passenger/escort/etc). See the README for details."
+authors
+	"zuckung"
