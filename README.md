@@ -2988,7 +2988,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/job.coloring/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/job.coloring.png" width="130" height="20">
 
-[job.coloring.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-job.coloring/job.coloring.zip) v1.0.0 | 100.02 kb | 2025-12-26 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=job.coloring-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/job.coloring/) | <a href="res/imagemd/job.coloring.md">view images</a> [2]<br>
+[job.coloring.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-job.coloring/job.coloring.zip) v1.0.1 | 105.35 kb | 2025-12-26 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=job.coloring-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/job.coloring/) | <a href="res/imagemd/job.coloring.md">view images</a> [2]<br>
 <br>
 >Recolors all jobs to sort them by category(cargo/passenger/escort/etc). See the README for details.
 
@@ -3024,7 +3024,7 @@ Current colors:
 
 <br>
 
-The old jobs got disabled, and new jobs with a space at the end and recolored script got created. So missions that are based on these jobs won't see if the jobs are done.<br>
+The old jobs got disabled, and new jobs with a space at the end and recolored script got created. The new jobs also get a "set missionname: done" and "offered" in the "on complete" block, to keep compatibility.<br>
 
 <br>
 
