@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-12-26 | update: job.coloring<br>
 2025-12-01 | update: comets<br>
 2025-11-29 | update: boss.loot<br>
 2025-11-23 | update: boss.loot<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-27 | update: flare.play<br>
 2025-10-27 | update: boss.loot<br>
 2025-10-26 | update: additional.command.buttons.radial<br>
-2025-10-26 | update: ship.merging<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -58,6 +58,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
 <a href="README.md#highrollersltd">highrollers.ltd</a><br>
 <a href="README.md#humanlabels">human.labels</a><br>
+<a href="README.md#jobcoloring">job.coloring</a><br>
 <a href="README.md#jumpgates">jump.gates</a><br>
 <a href="README.md#kestrelunlocks">kestrel.unlocks</a><br>
 <a href="README.md#korefretshipyard">kor.efret.shipyard</a><br>
@@ -2973,6 +2974,77 @@ screenshots(click to enlarge):<br>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels01.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels02.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/human.labels03.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
+
+
+---
+
+### job.coloring
+
+<img src="myplugins/job.coloring/icon.png" height="100">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/job.coloring.png" width="130" height="20">
+
+[job.coloring.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-job.coloring/job.coloring.zip) v1.0.0 | 100.02 kb | 2025-12-26 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=job.coloring-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/job.coloring/) | <a href="res/imagemd/job.coloring.md">view images</a> [2]<br>
+<br>
+>Recolors all jobs to sort them by category(cargo/passenger/escort/etc). See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### job.coloring <br>
+
+<br>
+
+Recolors all jobs to sort them by category(cargo/passenger/escort/etc).<br>
+
+<br>
+
+Current colors:
+
+<ul>
+
+<li>Passengers blue</li>
+
+<li>Cargo cyan</li>
+
+<li>Escort yellow</li>
+
+<li>Bounty orange</li>
+
+<li>Mining brown</li>
+
+<li>Pirate Stuff is untouched red</li>
+
+<li>Other plugin's jobs are still grey</li>
+
+</ul>
+
+<br>
+
+The old jobs got disabled, and new jobs with a space at the end and recolored script got created. So missions that are based on these jobs won't see if the jobs are done.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2025-12-26<br>
+
+initial release<br>
+
+</blockquote>
+</details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/job.coloring01.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
