@@ -13,7 +13,7 @@ Current colors:
 <li>Other plugin's jobs are still grey</li>
 </ul>
 <br>
-The old jobs got disabled, and new jobs with a space at the end and recolored script got created. So missions that are based on these jobs won't see if the jobs are done.<br>
+The old jobs got disabled, and new jobs with a space at the end and recolored script got created. The new jobs also get a "set missionname: done" and "offered" in the "on complete" block, to keep compatibility.<br>
 <br>
 <br>
 Changelog:<br>
