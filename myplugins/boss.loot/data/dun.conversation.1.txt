@@ -20,7 +20,7 @@
 # 2ndloot|25%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_07
 # 2ndloot|25%|Voidshell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_08
 conversation dun1_conversation_1
-	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've defeated the enemy! While scanning the debris field you've found an unstable data drive with the code frequency for the next wormhole. It will probably break when you enter human space.`
 	`You've also found: `
 	action
 		"dun_random2"  = "roll: 10" + 1
@@ -152,7 +152,7 @@ conversation dun1_conversation_1
 # 2ndloot|25%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_11
 # 2ndloot|25%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_12
 conversation dun1_conversation_2
-	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've defeated the enemy! While scanning the debris field you've found an unstable data drive with the code frequency for the next wormhole. It will probably break when you enter human space.`
 	`You've also found: `
 	action
 		"dun_random2"  = "roll: 10" + 1
@@ -284,7 +284,7 @@ conversation dun1_conversation_2
 # 2ndloot|25%|Grav Injector (hull repair multiplier)|dun1_rare_outfit_3|outfit/dun1/dun1_device_03
 # 2ndloot|25%|Grav Weaver (hull multiplier)|dun1_rare_outfit_4|outfit/dun1/dun1_device_04
 conversation dun1_conversation_3
-	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've defeated the enemy! While scanning the debris field you've found an unstable data drive with the code frequency for the next wormhole. It will probably break when you enter human space.`
 	`You've also found: `
 	action
 		"dun_random2"  = "roll: 10" + 1
@@ -425,7 +425,7 @@ conversation dun1_conversation_3
 # 2ndloot|8%|Grav Weaver (hull multiplier)|dun1_rare_outfit_4|outfit/dun1/dun1_device_04
 # 2ndloot|4%|Synthesizer (income)|dun1_rare_outfit_13|outfit/dun1/dun1_device_13
 conversation dun1_conversation_4
-	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've defeated the enemy! While scanning the debris field you've found an unstable data drive with the code frequency for the next wormhole. It will probably break when you enter human space.`
 	`You've also found: `
 	action
 		"dun_random2"  = "roll: 10" + 1
@@ -647,7 +647,7 @@ conversation dun1_conversation_4
 # 2ndloot|8%|Grav Weaver (hull multiplier)|dun1_rare_outfit_4|outfit/dun1/dun1_device_04
 # 2ndloot|4%|Synthesizer (income)|dun1_rare_outfit_13|outfit/dun1/dun1_device_13
 conversation dun1_conversation_5
-	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've defeated the enemy! While scanning the debris field you've found an unstable data drive with the code frequency for the next wormhole. It will probably break when you enter human space.`
 	`You've also found: `
 	action
 		"dun_random2"  = "roll: 10" + 1
@@ -859,7 +859,7 @@ conversation dun1_conversation_5
 # 2ndloot|35%|Purple Nanite Swarm (T2 weapon upgrade item)|Nanite Swarm Purple|outfit/nanites/naniteswarmpurple
 # 2ndloot|15%|Orange Nanite Swarm (T3 weapon upgrade item)|Nanite Swarm Orange|outfit/nanites/naniteswarmorange
 conversation dun1_conversation_6
-	`You've defeated the enemy! While scanning the debris field you've found a data drive with the code frequency for the next wormhole.`
+	`You've defeated the enemy! While scanning the debris field you've found an unstable data drive with the code frequency for the next wormhole. It will probably break when you enter human space.`
 	`You've also found: `
 	action
 		"dun_random2"  = "roll: 10" + 1
