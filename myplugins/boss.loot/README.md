@@ -15,6 +15,11 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 Changelog:<br>
 <br>
+2026-01-04<br>
+text adjustment (thx to andtim1)<br>
+image display fix (thx to andtim1)<br>
+added universal ammo restock for upgraded weapons (reported by andtim1)<br>
+<br>
 2024-11-29<br>
 typo fixes (thx to Nova1422)<br>
 <br>

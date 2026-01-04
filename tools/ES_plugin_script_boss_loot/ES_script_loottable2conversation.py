@@ -33,7 +33,7 @@ def write_loottable():
 				if line.startswith('conversation'):
 					t.writelines(line + '\n')
 					t.writelines("\t`You've defeated the enemy! While scanning the debris field you've found " +\
-						"a data drive with the code frequency for the next wormhole.`\n")
+						"an unstable data drive with the code frequency for the next wormhole. It will probably break when you enter human space.`\n")
 					t.writelines("\t`You've also found: `\n")
 					t.writelines('\taction\n')
 					t.writelines('\t\t"dun_random2"  = "roll: 10" + 1\n')

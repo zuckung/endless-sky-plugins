@@ -6,10 +6,10 @@ conversation dun1_conversation_1
 9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
 7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
 5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
-2ndloot|25%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_05
-2ndloot|25%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_06
-2ndloot|25%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_07
-2ndloot|25%|Voidshell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_08
+2ndloot|25%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_09
+2ndloot|25%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_10
+2ndloot|25%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_11
+2ndloot|25%|Voidstream Shell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_12
 
 conversation dun1_conversation_2
 56%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
@@ -19,10 +19,10 @@ conversation dun1_conversation_2
 9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
 7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
 5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
-2ndloot|25%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_09
-2ndloot|25%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_10
-2ndloot|25%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_11
-2ndloot|25%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_12
+2ndloot|25%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_05
+2ndloot|25%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_06
+2ndloot|25%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_07
+2ndloot|25%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_08
 
 conversation dun1_conversation_3
 56%|Blue Nanite Swarm (T1 weapon upgrade item)|Nanite Swarm Blue|outfit/nanites/naniteswarmblue
@@ -45,14 +45,14 @@ conversation dun1_conversation_4
 9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
 7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
 5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
-2ndloot|8%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_05
-2ndloot|8%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_06
-2ndloot|8%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_07
-2ndloot|8%|Voidshell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_08
-2ndloot|8%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_09
-2ndloot|8%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_10
-2ndloot|8%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_11
-2ndloot|8%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_12
+2ndloot|8%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_09
+2ndloot|8%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_10
+2ndloot|8%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_11
+2ndloot|8%|Voidstream Shell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_12
+2ndloot|8%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_05
+2ndloot|8%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_06
+2ndloot|8%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_07
+2ndloot|8%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_08
 2ndloot|8%|Helix Pulse (shield generation multiplier)|dun1_rare_outfit_1|outfit/dun1/dun1_device_01
 2ndloot|8%|Helix Overframe (shield multiplier)|dun1_rare_outfit_2|outfit/dun1/dun1_device_02
 2ndloot|8%|Grav Injector (hull repair multiplier)|dun1_rare_outfit_3|outfit/dun1/dun1_device_03
@@ -67,14 +67,14 @@ conversation dun1_conversation_5
 9%|Plasma Disruptor (h2h outfit medium)|dun1_h2h_2|outfit/dun1/dun1_gun_02
 7%|Plasmacaster (h2h outfit strong)|dun1_h2h_3|outfit/dun1/dun1_automatic_01
 5%|Plasmastream (h2h outfit very strong)|dun1_h2h_4|outfit/dun1/dun1_automatic_01
-2ndloot|8%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_05
-2ndloot|8%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_06
-2ndloot|8%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_07
-2ndloot|8%|Voidshell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_08
-2ndloot|8%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_09
-2ndloot|8%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_10
-2ndloot|8%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_11
-2ndloot|8%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_12
+2ndloot|8%|Voidstream Actuators (turn multiplier)|dun1_rare_outfit_5|outfit/dun1/dun1_device_09
+2ndloot|8%|Voidstream Replicator (acceleration multiplier)|dun1_rare_outfit_6|outfit/dun1/dun1_device_10
+2ndloot|8%|Voidstream Interdictors (thrust)|dun1_rare_outfit_7|outfit/dun1/dun1_device_11
+2ndloot|8%|Voidstream Shell (resistance)|dun1_rare_outfit_8|outfit/dun1/dun1_device_12
+2ndloot|8%|Dimensional Storage (cargo)|dun1_rare_outfit_9|outfit/dun1/dun1_device_05
+2ndloot|8%|Dimensional Refrigerator (cooling)|dun1_rare_outfit_10|outfit/dun1/dun1_device_06
+2ndloot|8%|Spa'ark Plug (energy)|dun1_rare_outfit_11|outfit/dun1/dun1_device_07
+2ndloot|8%|Spa'ark Cell (battery)|dun1_rare_outfit_12|outfit/dun1/dun1_device_08
 2ndloot|8%|Helix Pulse (shield generation multiplier)|dun1_rare_outfit_1|outfit/dun1/dun1_device_01
 2ndloot|8%|Helix Overframe (shield multiplier)|dun1_rare_outfit_2|outfit/dun1/dun1_device_02
 2ndloot|8%|Grav Injector (hull repair multiplier)|dun1_rare_outfit_3|outfit/dun1/dun1_device_03

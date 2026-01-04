@@ -2,17 +2,13 @@ import os
 from PIL import Image
 
 
-# 2 do
-# outfit blacklist
-# add has outfit nanite
-
 
 def setup():
 	print('setting global variables')
 	global data_folder, image_folder
 	global damage_increase, price_increase, rarity, ranks, upgrades
-	data_folder = '/storage/9C33-6BBD/endless sky/data/' # change to your folder
-	image_folder = '/storage/9C33-6BBD/endless sky/images/' # change to your folder
+	data_folder = 'C:/Users/woot/AppData/Local/ESLauncher2/instances/release/data/' # change to your folder
+	image_folder = 'C:/Users/woot/AppData/Local/ESLauncher2/instances/release/images/' # change to your folder
 	damage_increase = [1.33, 1.66, 2] # weapon damages * damage_increase
 	price_increase = [1.33, 1.66, 2]
 	rarity = ['(T1)', '(T2)', '(T3)'] # name changes
@@ -77,7 +73,21 @@ def read_everything():
 	return obj, obj_path, obj_name
 
 
-def filter_weapons(obj, obj_name, rank):
+def find_weapons(obj, obj_name):
+	# find weapon outfits
+	weapons = []
+	weapon_names = []
+	print('	filtering outfits')
+	for each in obj:
+		if each.startswith('outfit '):
+			if '\tweapon\n' in each:
+				index = obj.index(each)
+				weapons.append(each)
+				weapon_names.append(obj_name[index])
+	return weapons, weapon_names
+
+
+def filter_weapons(obj, obj_name, rank, weapons, weapons_names):
 	def find_value(weapon,dmg,changed,name):
 		# find the damage value and replace it
 		if dmg in weapon:
@@ -99,17 +109,6 @@ def filter_weapons(obj, obj_name, rank):
 			changed = True
 		#print ('	changed', name, '|', dmg.replace('\t\t', ''), 'from', value, 'to', newvalue)
 		return weapon, changed
-	# find weapon outfits
-	print('\ncreate new weapons with weapon damage *', damage_increase[rank-1])
-	weapons = []
-	weapons_names = []
-	print('	filtering outfits')
-	for each in obj:
-		if each.startswith('outfit '):
-			if '\tweapon\n' in each:
-				index = obj.index(each)
-				weapons.append(each)
-				weapons_names.append(obj_name[index])
 	# change weapon outfits
 	new_weapons = []
 	thumbnails = []
@@ -135,6 +134,8 @@ def filter_weapons(obj, obj_name, rank):
 		dmg = '\t\t"scrambling damage"'
 		weapon, changed = find_value(weapon,dmg,changed,name)
 		dmg = '\t\t"energy damage"'
+		weapon, changed = find_value(weapon,dmg,changed,name)
+		dmg = '\t\t"fuel damage"'
 		weapon, changed = find_value(weapon,dmg,changed,name)
 		if changed:
 			# change cost
@@ -179,12 +180,12 @@ def filter_weapons(obj, obj_name, rank):
 			if '\tthumbnail ' in weapon:
 				pos1 = weapon.find('\tthumbnail')
 				pos2 = weapon.find('\n', pos1)
-				thumbnail = weapon[pos1+12:pos2-1].replace('/', os.sep)
+				thumbnail = weapon[pos1+12:pos2-1]
 				weapon = weapon.replace(thumbnail, thumbnail + rarity[rank-1])
 				if not thumbnail in thumbnails:
 					thumbnails.append(thumbnail)
 			new_weapons.append(weapon + '\n')
-	# writing file
+	# writing files
 	weaponcount = 0
 	print('	writing weapons.txt')
 	with open('dun.weapons' + str(rarity[rank-1]) + '.txt', 'w') as target:
@@ -193,7 +194,7 @@ def filter_weapons(obj, obj_name, rank):
 			target.writelines(weapon)
 	print('	weapons changed:', str(weaponcount))
 	print('	DONE')
-	return thumbnails
+	return thumbnails, weapons
 
 
 def create_thumbnails(thumbnails, rank):
@@ -343,56 +344,62 @@ def create_mission():
 		print()
 
 
+def create_universal_outfitter(weapons, ranks):
+	# creating universal ammo restock rule outfitters
+	outfitter_text = ''
+	ammo_types, ammo_weapons = [], []
+	for weapon in weapons:
+		if '		ammo ' in weapon:
+			ammo_weapons.append(weapon)
+			ammo_name = weapon[weapon.find('		ammo ')+7:weapon.find('\n', weapon.find('		ammo '))]. strip()
+			if '`' in ammo_name:
+				ammo_name = ammo_name[1:ammo_name.find('`', 1)]  #: Cluster Mine
+			else:
+				ammo_name = ammo_name[1:ammo_name.find('"', 1)]  #: Cluster Mine
+			if not ammo_name in ammo_types:
+				ammo_types.append(ammo_name)
+	for ammo_type in ammo_types:
+		outfitter_text += '' +\
+			'outfitter "dun ' + ammo_type.replace('"', '') + ' Restock"\n' +\
+			'	to sell\n' +\
+			'		has "gamerule: universal ammo restocking"\n' +\
+			'		or\n'
+		for weapon in ammo_weapons:
+			ammo_name = weapon[weapon.find('		ammo ')+7:weapon.find('\n', weapon.find('		ammo '))]. strip()
+			if '`' in ammo_name:
+				ammo_name = ammo_name[1:ammo_name.find('`', 1)]  #: Cluster Mine
+			else:
+				ammo_name = ammo_name[1:ammo_name.find('"', 1)]  #: Cluster Mine
+			if not ammo_name in ammo_types:
+				ammo_types.append(ammo_name)
+			if ammo_type == ammo_name:
+				weapon_name = weapon[:weapon.find('\n')].replace('outfit ', '')[1:-1] #: Cluster Mine Layer
+				for rank in ranks:
+					if '"' in weapon_name:
+						outfitter_text += '			has `outfit: ' + weapon_name + '(T' + str(rank) + ')`\n'
+					else:
+						outfitter_text += '			has "outfit: ' + weapon_name + '(T' + str(rank) + ')"\n'
+		outfitter_text += '' +\
+			'	location\n' +\
+			'		attributes "outfitter"\n' +\
+			'	stock\n' +\
+			'		"' + ammo_type + '"\n\n'
+	# write to file
+	with open('outfitters.txt', 'w') as target:
+		target.writelines(outfitter_text)
+
+
 def menu():
 	setup()
 	obj, obj_path, obj_name = read_everything()
-	choice = ''
-	first = True
-	while not choice == 'e':
-		os.system('clear') # clear screen
-		print('weapon outfit modification and redrawing of images')
-		print('	type "1" for generating first rank outfits:', rarity[0], ',damage:', damage_increase[0], 'price:', price_increase[0])
-		print('	type "2" for generating second rank outfits:', rarity[1], ',damage:', damage_increase[1], 'price:', price_increase[1])
-		print('	type "3" for generating third rank outfits:', rarity[2], ',damage:', damage_increase[2], 'price:', price_increase[2])
-		print('	type "4" for generating all three ranks')
-		print('	type "5" for generating a mission for all three ranks')
-		print('	type "e" for exit')
-		print('')
-		if first:
-			choice = input('choose: ')
-			print("\033[1A\x1b[2K", end="")
-			print("\033[1A\x1b[2K", end="")
-			print('')
-			first = False
-		if choice == '1':
-			print('generating first rank outfits')
-			rank = 1
-			thumbnails = filter_weapons(obj, obj_name, rank)
-			create_thumbnails(thumbnails, rank)
-		elif choice == '2':
-			print('generating second rank outfits')
-			rank = 2
-			thumbnails = filter_weapons(obj, obj_name, rank)
-			create_thumbnails(thumbnails, rank)
-		elif choice == '3':
-			print('generating third rank outfits')
-			rank = 3
-			thumbnails = filter_weapons(obj, obj_name, rank)
-			create_thumbnails(thumbnails, rank)
-		elif choice == '4':
-			print('generating all three ranks')
-			for each in ranks:
-				rank = each
-				print('\ncreating stuff for rank:', rank, rarity[rank-1])
-				thumbnails = filter_weapons(obj, obj_name, rank)
-				create_thumbnails(thumbnails, rank)
-		elif choice == '5':
-			print('generating a mission for all three ranks')
-			create_mission()
-		elif choice == 'e':
-			exit()
-		print('')
-		choice = input('choose: ')
+	weapons, weapon_names = find_weapons(obj, obj_name)
+	for rank in ranks:
+		print('\ncreating stuff for rank:', rank, rarity[rank-1])
+		thumbnails, weapons = filter_weapons(obj, obj_name, rank, weapons, weapon_names)
+		create_thumbnails(thumbnails, rank)
+	create_mission()
+	create_universal_outfitter(weapons, ranks)
+
 
 
 if __name__ == '__main__':

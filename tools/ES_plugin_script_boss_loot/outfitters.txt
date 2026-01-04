@@ -1,0 +1,411 @@
+outfitter "dun Korath Piercer Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Korath Piercer Launcher(T1)"
+			has "outfit: Korath Piercer Launcher(T2)"
+			has "outfit: Korath Piercer Launcher(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Korath Piercer"
+
+outfitter "dun Korath Mine Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Korath Minelayer(T1)"
+			has "outfit: Korath Minelayer(T2)"
+			has "outfit: Korath Minelayer(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Korath Mine"
+
+outfitter "dun Speck Round Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Speckle Coilgun(T1)"
+			has "outfit: Speckle Coilgun(T2)"
+			has "outfit: Speckle Coilgun(T3)"
+			has "outfit: Speckle Turret(T1)"
+			has "outfit: Speckle Turret(T2)"
+			has "outfit: Speckle Turret(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Speck Round"
+
+outfitter "dun Ophrys Nuclear Torpedo Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: External Launch Rail(T1)"
+			has "outfit: External Launch Rail(T2)"
+			has "outfit: External Launch Rail(T3)"
+	location
+		attributes "outfitter"
+	stock
+		""Ophrys" Nuclear Torpedo"
+
+outfitter "dun Orchid Nuclear Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: External Launch Tube(T1)"
+			has "outfit: External Launch Tube(T2)"
+			has "outfit: External Launch Tube(T3)"
+	location
+		attributes "outfitter"
+	stock
+		""Orchid" Nuclear Missile"
+
+outfitter "dun Nettle KKV Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Tiny VLS(T1)"
+			has "outfit: Tiny VLS(T2)"
+			has "outfit: Tiny VLS(T3)"
+			has "outfit: Small VLS(T1)"
+			has "outfit: Small VLS(T2)"
+			has "outfit: Small VLS(T3)"
+			has "outfit: Medium VLS(T1)"
+			has "outfit: Medium VLS(T2)"
+			has "outfit: Medium VLS(T3)"
+	location
+		attributes "outfitter"
+	stock
+		""Nettle" KKV"
+
+outfitter "dun Swarm Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Swarm Pod(T1)"
+			has "outfit: Swarm Pod(T2)"
+			has "outfit: Swarm Pod(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Swarm Missile"
+
+outfitter "dun Finisher Torpedo Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Finisher Pod(T1)"
+			has "outfit: Finisher Pod(T2)"
+			has "outfit: Finisher Pod(T3)"
+			has "outfit: Finisher Maegrolain(T1)"
+			has "outfit: Finisher Maegrolain(T2)"
+			has "outfit: Finisher Maegrolain(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Finisher Torpedo"
+
+outfitter "dun Jump Drive Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Drak Draining Field (Augmented)(T1)"
+			has "outfit: Drak Draining Field (Augmented)(T2)"
+			has "outfit: Drak Draining Field (Augmented)(T3)"
+			has "outfit: Drak Anti-Missile Field (Augmented)(T1)"
+			has "outfit: Drak Anti-Missile Field (Augmented)(T2)"
+			has "outfit: Drak Anti-Missile Field (Augmented)(T3)"
+			has "outfit: Drak Turret (Augmented)(T1)"
+			has "outfit: Drak Turret (Augmented)(T2)"
+			has "outfit: Drak Turret (Augmented)(T3)"
+			has "outfit: Drak Antimatter Cannon (Augmented)(T1)"
+			has "outfit: Drak Antimatter Cannon (Augmented)(T2)"
+			has "outfit: Drak Antimatter Cannon (Augmented)(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Jump Drive"
+
+outfitter "dun Railgun Slug Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Railgun(T1)"
+			has "outfit: Railgun(T2)"
+			has "outfit: Railgun(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Railgun Slug"
+
+outfitter "dun Hai Tracker Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Hai Tracker Pod(T1)"
+			has "outfit: Hai Tracker Pod(T2)"
+			has "outfit: Hai Tracker Pod(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Hai Tracker"
+
+outfitter "dun Meteor Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Meteor Missile Launcher(T1)"
+			has "outfit: Meteor Missile Launcher(T2)"
+			has "outfit: Meteor Missile Launcher(T3)"
+			has "outfit: Meteor Missile Pod(T1)"
+			has "outfit: Meteor Missile Pod(T2)"
+			has "outfit: Meteor Missile Pod(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Meteor Missile"
+
+outfitter "dun Sidewinder Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Sidewinder Missile Launcher(T1)"
+			has "outfit: Sidewinder Missile Launcher(T2)"
+			has "outfit: Sidewinder Missile Launcher(T3)"
+			has "outfit: Sidewinder Missile Pod(T1)"
+			has "outfit: Sidewinder Missile Pod(T2)"
+			has "outfit: Sidewinder Missile Pod(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Sidewinder Missile"
+
+outfitter "dun Javelin Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Javelin Pod(T1)"
+			has "outfit: Javelin Pod(T2)"
+			has "outfit: Javelin Pod(T3)"
+			has "outfit: Javelin Mini Pod(T1)"
+			has "outfit: Javelin Mini Pod(T2)"
+			has "outfit: Javelin Mini Pod(T3)"
+			has "outfit: Javelin Turret(T1)"
+			has "outfit: Javelin Turret(T2)"
+			has "outfit: Javelin Turret(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Javelin"
+
+outfitter "dun Torpedo Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Torpedo Launcher(T1)"
+			has "outfit: Torpedo Launcher(T2)"
+			has "outfit: Torpedo Launcher(T3)"
+			has "outfit: Torpedo Pod(T1)"
+			has "outfit: Torpedo Pod(T2)"
+			has "outfit: Torpedo Pod(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Torpedo"
+
+outfitter "dun Typhoon Torpedo Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Typhoon Launcher(T1)"
+			has "outfit: Typhoon Launcher(T2)"
+			has "outfit: Typhoon Launcher(T3)"
+			has "outfit: Typhoon Pod(T1)"
+			has "outfit: Typhoon Pod(T2)"
+			has "outfit: Typhoon Pod(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Typhoon Torpedo"
+
+outfitter "dun Heavy Rocket Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Heavy Rocket Launcher(T1)"
+			has "outfit: Heavy Rocket Launcher(T2)"
+			has "outfit: Heavy Rocket Launcher(T3)"
+			has "outfit: Heavy Rocket Pod(T1)"
+			has "outfit: Heavy Rocket Pod(T2)"
+			has "outfit: Heavy Rocket Pod(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Heavy Rocket"
+
+outfitter "dun Nuclear Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Nuclear Missile(T1)"
+			has "outfit: Nuclear Missile(T2)"
+			has "outfit: Nuclear Missile(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Nuclear Missile"
+
+outfitter "dun Gatling Gun Ammo Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Gatling Gun(T1)"
+			has "outfit: Gatling Gun(T2)"
+			has "outfit: Gatling Gun(T3)"
+			has "outfit: Gatling Turret(T1)"
+			has "outfit: Gatling Turret(T2)"
+			has "outfit: Gatling Turret(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Gatling Gun Ammo"
+
+outfitter "dun Star Tail Cell Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Star Tail(T1)"
+			has "outfit: Star Tail(T2)"
+			has "outfit: Star Tail(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Star Tail Cell"
+
+outfitter "dun EMP Torpedo Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Ka'het EMP Deployer(T1)"
+			has "outfit: Ka'het EMP Deployer(T2)"
+			has "outfit: Ka'het EMP Deployer(T3)"
+			has "outfit: EMP Torpedo Bay(T1)"
+			has "outfit: EMP Torpedo Bay(T2)"
+			has "outfit: EMP Torpedo Bay(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"EMP Torpedo"
+
+outfitter "dun Ka'het MHD Generator Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Ka'het Emergency Deployer(T1)"
+			has "outfit: Ka'het Emergency Deployer(T2)"
+			has "outfit: Ka'het Emergency Deployer(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Ka'het MHD Generator"
+
+outfitter "dun Piercer Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Piercer Missile Launcher(T1)"
+			has "outfit: Piercer Missile Launcher(T2)"
+			has "outfit: Piercer Missile Launcher(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Piercer Missile"
+
+outfitter "dun Cluster Mine Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Cluster Mine Layer(T1)"
+			has "outfit: Cluster Mine Layer(T2)"
+			has "outfit: Cluster Mine Layer(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Cluster Mine"
+
+outfitter "dun Firelight Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Firelight Missile Bank(T1)"
+			has "outfit: Firelight Missile Bank(T2)"
+			has "outfit: Firelight Missile Bank(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Firelight Missile"
+
+outfitter "dun Firestorm Torpedo Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Firestorm Battery(T1)"
+			has "outfit: Firestorm Battery(T2)"
+			has "outfit: Firestorm Battery(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Firestorm Torpedo"
+
+outfitter "dun Teciimach Canister Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Teciimach Bay(T1)"
+			has "outfit: Teciimach Bay(T2)"
+			has "outfit: Teciimach Bay(T3)"
+			has "outfit: Teciimach Pod(T1)"
+			has "outfit: Teciimach Pod(T2)"
+			has "outfit: Teciimach Pod(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Teciimach Canister"
+
+outfitter "dun Abyssal Composer Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Abyssal Composer(T1)"
+			has "outfit: Abyssal Composer(T2)"
+			has "outfit: Abyssal Composer(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Abyssal Composer"
+
+outfitter "dun High-Velocity Spike Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has `outfit: "Sjeja" Kinetic Lance(T1)`
+			has `outfit: "Sjeja" Kinetic Lance(T2)`
+			has `outfit: "Sjeja" Kinetic Lance(T3)`
+	location
+		attributes "outfitter"
+	stock
+		"High-Velocity Spike"
+
+outfitter "dun Thunderhead Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Thunderhead Launcher(T1)"
+			has "outfit: Thunderhead Launcher(T2)"
+			has "outfit: Thunderhead Launcher(T3)"
+	location
+		attributes "outfitter"
+	stock
+		"Thunderhead Missile"
+
