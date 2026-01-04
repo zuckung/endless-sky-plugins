@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-01-04 | update: boss.loot<br>
 2025-12-26 | update: job.coloring<br>
 2025-12-01 | update: comets<br>
 2025-11-29 | update: boss.loot<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-31 | update: galactic.capital.investment<br>
 2025-10-27 | update: flare.play<br>
 2025-10-27 | update: boss.loot<br>
-2025-10-26 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -715,7 +715,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/boss.loot/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/boss.loot.png" width="130" height="20">
 
-[boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-boss.loot/boss.loot.zip) v1.0.6 | 17.74 mb | 2025-11-29 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=boss.loot-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) | <a href="res/imagemd/boss.loot.md">view images</a> [588]<br>
+[boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-boss.loot/boss.loot.zip) v1.0.7 | 17.74 mb | 2026-01-04 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=boss.loot-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) | <a href="res/imagemd/boss.loot.md">view images</a> [588]<br>
 <br>
 >A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism. See the README for details.
 
@@ -752,6 +752,16 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-01-04<br>
+
+text adjustment (thx to andtim1)<br>
+
+image display fix (thx to andtim1)<br>
+
+added universal ammo restock for upgraded weapons (reported by andtim1)<br>
 
 <br>
 
