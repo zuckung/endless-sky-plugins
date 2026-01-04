@@ -382,8 +382,11 @@ def create_universal_outfitter(weapons, ranks):
 		outfitter_text += '' +\
 			'	location\n' +\
 			'		attributes "outfitter"\n' +\
-			'	stock\n' +\
-			'		"' + ammo_type + '"\n\n'
+			'	stock\n'
+		if '"' in ammo_type:
+			outfitter_text += '		`' + ammo_type + '`\n\n'
+		else:
+			outfitter_text += '		"' + ammo_type + '"\n\n'
 	# write to file
 	with open('outfitters.txt', 'w') as target:
 		target.writelines(outfitter_text)
