@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-01-05 | update: job.coloring<br>
 2026-01-04 | update: boss.loot<br>
 2025-12-26 | update: job.coloring<br>
 2025-12-01 | update: comets<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-11-02 | update: galactic.capital.investment<br>
 2025-10-31 | update: galactic.capital.investment<br>
 2025-10-27 | update: flare.play<br>
-2025-10-27 | update: boss.loot<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2998,7 +2998,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/job.coloring/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/job.coloring.png" width="130" height="20">
 
-[job.coloring.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-job.coloring/job.coloring.zip) v1.0.1 | 105.35 kb | 2025-12-26 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=job.coloring-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/job.coloring/) | <a href="res/imagemd/job.coloring.md">view images</a> [2]<br>
+[job.coloring.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-job.coloring/job.coloring.zip) v1.0.2 | 105.63 kb | 2026-01-05 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=job.coloring-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/job.coloring/) | <a href="res/imagemd/job.coloring.md">view images</a> [2]<br>
 <br>
 >Recolors all jobs to sort them by category(cargo/passenger/escort/etc). See the README for details.
 
@@ -3041,6 +3041,12 @@ The old jobs got disabled, and new jobs with a space at the end and recolored sc
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-01-05<br>
+
+fixed followup missions not offering (reported by the114dragon)<br>
 
 <br>
 
