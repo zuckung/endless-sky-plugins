@@ -18,5 +18,8 @@ The old jobs got disabled, and new jobs with a space at the end and recolored sc
 <br>
 Changelog:<br>
 <br>
+2026-01-05<br>
+fixed followup missions not offering (reported by the114dragon)<br>
+<br>
 2025-12-26<br>
 initial release<br>
