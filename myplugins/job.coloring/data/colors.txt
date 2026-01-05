@@ -1,0 +1,21 @@
+# passenger blue
+color "coloring job passenger: selected" 0.30 0.65 0.85 0.
+color "coloring job passenger: unselected" 0.22 0.50 0.65 0.
+color "coloring job passenger: unavailable" 0.14 0.32 0.45 0.
+# cargo cyan
+color "coloring job cargo: selected" 0.20 0.75 0.70 0.
+color "coloring job cargo: unselected" 0.18 0.55 0.55 0.
+color "coloring job cargo: unavailable" 0.12 0.32 0.38 0.
+# escort yellow
+color "coloring job escort: selected" 0.95 0.80 0.30 0.
+color "coloring job escort: unselected" 0.75 0.65 0.30 0.
+color "coloring job escort: unavailable" 0.50 0.45 0.25 0.
+# bounty orange
+color "coloring job bounty: selected" 0.95 0.55 0.20 0.
+color "coloring job bounty: unselected" 0.75 0.45 0.25 0.
+color "coloring job bounty: unavailable" 0.50 0.32 0.22 0.
+# mining brown
+color "coloring job mining: selected" 0.60 0.45 0.25 0.
+color "coloring job mining: unselected" 0.45 0.35 0.22 0.
+color "coloring job mining: unavailable" 0.30 0.25 0.18 0.
+	
