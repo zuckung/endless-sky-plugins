@@ -2,7 +2,8 @@
 I aim at developing small, modular and maximally compatible plugins that don't break vanilla lore too much. <br>
 Please excuse bad English, spelling, grammar, etc... English isn't my mother tongue. Feel free to correct me.<br>
 <a href="https://github.com/zuckung/endless-sky-plugins/pulls">Pull requests</a>, <a href="https://github.com/zuckung/endless-sky-plugins/discussions">discussions</a> and <a href="https://github.com/zuckung/endless-sky-plugins/issues">Issue reports</a> are welcome! <br>
-If you want to contribute (beside finding bugs, or suggesting changes), see my to-do list (<a href="https://github.com/zuckung/endless-sky-plugins/res/2do.txt">2do.txt</a>).<br>
+<br>
+If you want to contribute (beside finding bugs, or suggesting changes), see my to-do list (<a href="https://github.com/zuckung/endless-sky-plugins/blob/main/res/2do.txt">2do.txt</a>).<br>
 <br>
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
