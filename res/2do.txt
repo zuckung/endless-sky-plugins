@@ -1,0 +1,124 @@
+
+to do list:
+
+
+additional.command.buttons.radial
+	interface "map"
+		value "max zoom" 2
+		value "min zoom" -2
+		value "zoom animation duration" 10
+	flipp flagship hull r to l 
+
+
+boss.loot
+  negative weapon dmg bug?
+  add a 2nd wormhole chain, new ships, ne balancing, new rewards
+
+
+bunrodea.missions
+  add some gambling (like highrollers.ltd plugin)
+  personships should not be bunrodea
+  sidemissions with variable startpoint
+  salary at 1000 rep maybe more at higher rep
+  balanced border system fight bun/korath
+
+
+combat.ai
+  full reset/deactivation
+  inbuilt hyper/jump: faster jumping
+  fix decline to not get combat ai on next landing
+  fix fw jump drive mission
+
+
+control.station
+  set missions done / reset
+    coalition 1 + lunarium + heliarch
+    wanderer
+    first contact bunrodea
+    first contact gegno
+    first contact avgi
+    first contact successors
+    bactrian chain
+    rim archeology
+
+
+disable.spaceport.repeatables
+  mission "Avgi: Aberrant Blockade"
+  speedracer mission
+
+
+expert.crew.members
+  upgrade experts / based on time/experience / maybe missions
+
+
+flare.play
+  matching colors for afterburner Flares /to colors of other flares
+
+
+glactic.capital.investment
+  10b and 100b bank
+  higher stock buy
+
+
+landing.images
+  planet kaeyin, planet veliante,  wrong image
+  maybe do avgi landing images?
+
+
+more.person.ships
+  planet express & others: swizzle 0
+  make planet express stronger
+  make korath ship more special, since it is now in vanilla
+  add dark star (from uniques plugin)
+  add battlestar galactica (from boss.loot plugin)
+  add more ships
+
+
+outfits.weapon.slot
+  repair drone hub
+  solar array
+
+
+planet.map
+  improve story
+  improve content
+  sidemission lumberjack , hunting expedition, oil drilling team
+  more jobs, transport of resources
+  add a distant city
+  more areas, lumberjacks, oil drills, quarry, research station on an island/desert
+  more landmarks
+  fix event wormhole closing not instantly
+
+
+space.fauna
+  scintific mission chains
+  mission to visit human one?
+  mission to help wounded?
+  mission after found all 4?
+  more planetary objects?
+  add new systems (starting from 0.10.9)
+  @2x images missing / space.fauna land(1) planet(1) ship(14)
+
+ 
+uniques
+  pets
+    critters suggested by kitteh
+    langoliers suggested by kitteh
+    kangaroo jack
+  repair drone / "hull repair rate" / escort, asteroid impact, buy drone from contractor who created it by himself
+  scan scrambler / inscrutable / human space: pirates hire you to test, transport of illegal goods, betray the pirates
+  stardust collector / "operating income" 500 / ramscoop / remnant space: rescue mission
+  planetary anomaly scanner / "atmosphere scan" 50 / "LIDAR scan" 1 / human space: hired to find a crashed ship / new uninhabited planets
+    followups: several uninhabited ship wreck missions with lots of h2h uniques & credits
+  soylent green?
+  more holographic advertisments
+    turner inc?
+    high rollers ltd?
+  more derelict bording
+    add other races
+  check for possible vanilla items 
+    hai translator
+    coalition translator
+    avgi translator?
+    tmbr? signed poster? audio chips?
+  longer missions
