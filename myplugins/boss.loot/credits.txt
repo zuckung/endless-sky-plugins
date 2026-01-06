@@ -10,7 +10,9 @@ images:
 		Battlestar (https://fantastic-plastic.com/battlestar-pegasus-19600-from-battlestar-galactica-by-fantastic-plastic-models.html)
 		Raider (https://blackcampbell.com/wp-content/uploads/2009/11/bg_cylon-raider-schematic1.jpg)
 		Tiger, Raptor, Viper, from physical model photos and heavyly AI edited
-	outfit, label, land
+	label, land
 		ai generated at https://perchance.org/ai-text-to-image-generator
+	outfits
+		ai generated at https://gemini.google.com/ (prompted by andtim1)
 	planet, map, star, weapon outfits, asteroid, effect
 		vanilla ES images recolored and edited
