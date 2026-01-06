@@ -380,8 +380,8 @@ graphic files for the plugin: boss.loot<br>
 	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/dun1/dun1_device_01.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/dun1/dun1_device_01.png" width="180" height="180"></a><br>
 		dun1_device_01.png [180x180]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/dun1/dun1_device_01@_2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/dun1/dun1_device_01@_2x.png" height="200"></a><br>
-		dun1_device_01@_2x.png [360x360]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/dun1/dun1_device_01@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/dun1/dun1_device_01@2x.png" height="200"></a><br>
+		dun1_device_01@2x.png [360x360]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/boss.loot/images/outfit/dun1/dun1_device_02.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/boss.loot/images/outfit/dun1/dun1_device_02.png" width="180" height="180"></a><br>
 		dun1_device_02.png [180x180]</td>
 	</tr>
