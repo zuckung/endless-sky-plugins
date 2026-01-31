@@ -42,7 +42,6 @@ def change_version_plugintxt(p, corrected):
 				part += osplit[x] + '.'
 			new_version = part + new_version
 			line = corrected + '|' + new_version + '\n' # complete updated line
-		newlines.append(line)
 	if found == 0: # if new plugin, without version number
 		new_version = '1.0.0'
 	# change plugin.txt'
