@@ -2601,7 +2601,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/gegno.pirates/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/gegno.pirates.png" width="130" height="20">
 
-[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-gegno.pirates/gegno.pirates.zip) v1.0.5 | 347.13 kb | 2026-01-31 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=gegno.pirates-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) | <a href="res/imagemd/gegno.pirates.md">view images</a> [8]<br>
+[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-gegno.pirates/gegno.pirates.zip) v1.0.6 | 347.13 kb | 2026-01-31 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=gegno.pirates-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) | <a href="res/imagemd/gegno.pirates.md">view images</a> [8]<br>
 <br>
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the README for details.
 
