@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-01-31 | update: gegno.pirates<br>
 2026-01-05 | update: job.coloring<br>
 2026-01-04 | update: boss.loot<br>
 2025-12-26 | update: job.coloring<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2025-11-20 | update: captureable.person.ships<br>
 2025-11-02 | update: galactic.capital.investment<br>
 2025-10-31 | update: galactic.capital.investment<br>
-2025-10-27 | update: flare.play<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2601,7 +2601,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/gegno.pirates/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/gegno.pirates.png" width="130" height="20">
 
-[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-gegno.pirates/gegno.pirates.zip) v1.0.4 | 347.1 kb | 2025-08-29 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=gegno.pirates-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) | <a href="res/imagemd/gegno.pirates.md">view images</a> [8]<br>
+[gegno.pirates.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-gegno.pirates/gegno.pirates.zip) v1.0.5 | 347.13 kb | 2026-01-31 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=gegno.pirates-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/) | <a href="res/imagemd/gegno.pirates.md">view images</a> [8]<br>
 <br>
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the README for details.
 
@@ -2632,6 +2632,12 @@ After gaining full reputation for all planets and obtaining all Gegno licenses y
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-01-30<br>
+
+typo fix (reported by failure)<br>
 
 <br>
 
