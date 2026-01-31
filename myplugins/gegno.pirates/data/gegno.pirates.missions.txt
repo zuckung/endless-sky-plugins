@@ -321,7 +321,7 @@ mission "Boarding Gegno Pirates (Scin Adjutant License)"
 
 
 conversation "con boarding gegno pirate"
-	`As you board the Gegno pirate ship "<origin>", the crew entrenches on the bridge. While searching for valuables you find a small chest with jewels worth <payment> credits.`
+	`As you board the Gegno pirate ship "<origin>", the crew entrenches on the bridge. While searching for valuables you find a small chest with jewels worth <payment>.`
 		decline
 
 

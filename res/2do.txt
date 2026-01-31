@@ -12,7 +12,7 @@ additional.command.buttons.radial
 
 boss.loot
   negative weapon dmg bug?
-  add a 2nd wormhole chain, new ships, ne balancing, new rewards
+  add a 2nd wormhole chain, new ships, new balancing, new rewards
 
 
 bunrodea.missions
@@ -55,7 +55,7 @@ flare.play
   matching colors for afterburner Flares /to colors of other flares
 
 
-glactic.capital.investment
+galactic.capital.investment
   10b and 100b bank
   higher stock buy
 
@@ -101,6 +101,7 @@ space.fauna
 
  
 uniques
+  RedTechGamer236 - Southbound is not on Wayfarer (that's the Tarazed Corporation). It's on Zug.
   pets
     critters suggested by kitteh
     langoliers suggested by kitteh

@@ -24,6 +24,47 @@ def correct_characters(p):
 		corrected = corrected[:len(corrected)-1]
 	return corrected
 
+def change_version_plugintxt(p, corrected):
+	# read all versions
+	if not os.path.isdir('../versioning'):
+		os.mkdir('../versioning')
+	with open('../res/versioning.txt', 'r') as vfile:
+		lines = vfile.readlines()
+	# find right version for plugin
+	found = 0
+	for line in lines:
+		linesplit = line.split('|')
+		if linesplit[0] == corrected:
+			found = 1
+			part = ''
+			old_version = linesplit[1]
+			osplit = old_version.split('.')
+			new_version = str(int(osplit[len(osplit)-1]) + 1) # new_version = last number + 1
+			for x in range(0, len(osplit)-1): # part = first part of version - last number
+				part += osplit[x] + '.'
+			new_version = part + new_version
+			line = corrected + '|' + new_version + '\n' # complete updated line
+		newlines.append(line)
+	if found == 0: # if new plugin, without version number
+		new_version = '1.0.0'
+	# change plugin.txt'
+	with open('myplugins/' + p + '/plugin.txt', 'r') as source:
+		lines = source.readlines()
+	newlines = ''
+	foundversion = False
+	for line in lines:
+		if line.startswith('version '):
+			newlines += 'version ' + new_version + '\n'
+			foundversion = True
+		else:
+			newlines += line
+	if foundversion == False:
+		newlines += 'version ' + new_version + '\n'
+	# write plugin.txt
+	with open('myplugins/' + p + '/plugin.txt', 'w') as target:
+		target.writelines(newlines)
+
+
 def create_zip(p, corrected):
 	os.chdir('myplugins/')
 	subprocess.run(["zip", "-r", "../" + corrected + ".zip", p], stdout=subprocess.DEVNULL)
@@ -84,6 +125,7 @@ def run():
 	p = os.environ['INPUT_STORE'] # plugin.name
 	check_spelling(p)
 	corrected = correct_characters(p) # correct characters that get changed by github release
+	change_version_plugintxt(p, corrected)
 	create_zip(p, corrected)
 	versioning(p, corrected)
 	write_news(p)

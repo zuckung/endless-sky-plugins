@@ -12,6 +12,9 @@ After gaining full reputation for all planets and obtaining all Gegno licenses y
 <br>
 Changelog:<br>
 <br>
+2026-01-30<br>
+typo fix (reported by failure)<br>
+<br>
 2025-08-29<br>
 typo fixes by snoggles<br>
 icon@2x, plugintxt changes<br>
