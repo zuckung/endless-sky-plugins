@@ -53,9 +53,13 @@ def change_version_plugintxt(p, corrected):
 		if line.startswith('version '):
 			newlines += 'version ' + new_version + '\n'
 			foundversion = True
+			lastline = 'version xxx\n'
 		else:
 			newlines += line
+			lastline = line
 	if foundversion == False:
+		if not lastline.endswith('\n'):
+			newlines += '\n'
 		newlines += 'version ' + new_version + '\n'
 	# write plugin.txt
 	with open('myplugins/' + p + '/plugin.txt', 'w') as target:
