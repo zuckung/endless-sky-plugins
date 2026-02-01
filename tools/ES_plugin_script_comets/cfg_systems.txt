@@ -1,3 +1,12 @@
+system Athiri
+system Balnii
+system Chanai
+system Ghila
+system Lathia
+system Maithi
+system Mitera
+system Sarifa
+system Thepa
 system "1 Axis"
 system "10 Pole"
 system "11 Autumn Above"
@@ -48,7 +57,6 @@ system Aileron
 system Aki'il
 system Aksek
 system "Al Dhanab"
-system "Al Hurr"
 system Albaldah
 system Albireo
 system Alcyone
@@ -175,17 +183,6 @@ system Danoa
 system "Dark Hills"
 system Debrugt
 system Decet
-system "Deep Space 19K12"
-system "Deep Space 19M1"
-system "Deep Space 19M2"
-system "Deep Space 19M5"
-system "Deep Space 1Q"
-system "Deep Space 1X"
-system "Deep Space 5J"
-system "Deep Space 5N"
-system "Deep Space 5T"
-system "Deep Space 7C"
-system "Deep Space 7F"
 system Delia
 system "Delta Capricorni"
 system "Delta Sagittarii"
@@ -193,8 +190,6 @@ system "Delta Velorum"
 system Demilude
 system Deneb
 system Denebola
-system Devil-Hide
-system Devil-Run
 system Diespiter
 system Diphda
 system Dixere
@@ -697,4 +692,3 @@ system "Zuba Zub"
 system Zubenelgenubi
 system Zubenelhakrabi
 system Zubeneschamali
-system "Al Hurr"

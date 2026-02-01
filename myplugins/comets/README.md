@@ -4,7 +4,6 @@
 Adds 10 different comet types, as rare spawns to changing systems. These comets are minable and high profitable.<br>
 <br>
 Every 2 days an event starts and changes the spawn systems of these comets.<br>
-WARNING: bloats up the save file when used in ES 0.10.16 or below.<br>
 <br>
 Name | chance to appear | sell price per ton<br>
 "Chrysalite" | 19% | 250,000<br>
@@ -20,6 +19,9 @@ Name | chance to appear | sell price per ton<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2026-02-01<br>
+updated to 0.11.0 systems<br>
 <br>
 2025-12-01<br>
 initial release<br>

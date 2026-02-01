@@ -59,47 +59,29 @@ def initialwrite(obj):
 			target.writelines(system + '\n')
 
 
-def systemlist(obj):
-	print('CHECKING FOR NEW SYSTEMS')
-	datasystemlist, filesystemlist, systemadditions = [], [], []
-	# read data folder
-	for each in obj:
-		if each.startswith('system '):
-			pos2 = each.find('\n')
-			datasystemlist.append(each[:pos2])
-	# read systems.txt
-	if os.path.isfile('cfg_systems.txt'):
-		with open('cfg_systems.txt', 'r') as source:
-			filesystemlist = source.readlines()
-	# compare
-	for each in datasystemlist:
-		if not each + '\n' in filesystemlist:
-			systemadditions.append(each)
-	# add to txt
-	if systemadditions != []:
-		with open('cfg_systems.txt', 'a') as target:
-			for system in systemadditions:
-				target.writelines(system + '\n')
-	print('\tNEW SYSTEMS:',systemadditions)
-
-
 def createevents():
 	print('CREATING EVENTS')
 	# create a whole event text
 	def create_event(list1, list2, minables, no):
 		print('\tWRITING EVENT', no)
 		text = 'event "asteroid.pos.' + str(no) + '"\n'
+		#print(list1)
+		#print(len(list1))
+		#print(list2)
+		#print(len(list2))
+		#print(minables)
+		#print(len(minables))
 		for each in list1:
 			index = list1.index(each)
 			text += '\t' + each
-			if index == len(minables) -1:
-				index -= 100
+			if index >= len(minables) -1:
+				index -= 10
 			text += '\t\tadd minables ' + minables[index].strip() + ' 1 5\n'
 		for each in list2:
 			index = list2.index(each)
 			text += '\t' + each
-			if index == len(minables) -1:
-				index -= 100
+			if index >= len(minables) -1:
+				index -= 10
 			text += '\t\tremove minables ' + minables[index].strip() + ' 1 5\n'
 		text += '\n\n'
 		return text
@@ -194,10 +176,9 @@ def createevents():
 
 
 def run():
-	data_folder = '/storage/9C33-6BBD/endless sky/data/'
+	data_folder = 'd:/games/endless sky/data/'
 	obj, obj_path, obj_name = get_ES_data(data_folder)
-	#initialwrite(obj) # to create the systems.txt out of the data folder
-	systemlist(obj) # update the systems.txt from the data folder(in case new systems got added)
+	initialwrite(obj) # to create the cfg_systems.txt out of the data folder
 	createevents() # create the 10 events and write them to file
 
 
