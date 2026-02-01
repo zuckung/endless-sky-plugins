@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-02-01 | update: space.fauna<br>
 2026-02-01 | update: too.many.asteroids<br>
 2026-02-01 | update: hai.side.mission.unlocker<br>
 2026-02-01 | update: mission.helper<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2025-12-26 | update: job.coloring<br>
 2025-12-01 | update: comets<br>
 2025-11-29 | update: boss.loot<br>
-2025-11-23 | update: boss.loot<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4969,7 +4969,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/space.fauna/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/space.fauna.png" width="130" height="20">
 
-[space.fauna.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.3-space.fauna/space.fauna.zip) v1.1.3 | 1.74 mb | 2025-08-29 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=space.fauna-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/space.fauna/) | <a href="res/imagemd/space.fauna.md">view images</a> [18]<br>
+[space.fauna.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-space.fauna/space.fauna.zip) v1.1.4 | 1.75 mb | 2026-02-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=space.fauna-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/space.fauna/) | <a href="res/imagemd/space.fauna.md">view images</a> [18]<br>
 <br>
 >Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive. See the README for details.
 
@@ -4992,6 +4992,12 @@ There are 14 different organisms, 1 titan-sized, 3 superheavy-sized, 4 heavy-siz
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-02-01<br>
+
+updated systems to 0.11.0<br>
 
 <br>
 
