@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-02-01 | update: too.many.asteroids<br>
 2026-02-01 | update: hai.side.mission.unlocker<br>
 2026-02-01 | update: mission.helper<br>
 2026-01-31 | update: gegno.pirates<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2025-12-01 | update: comets<br>
 2025-11-29 | update: boss.loot<br>
 2025-11-23 | update: boss.loot<br>
-2025-11-20 | update: captureable.person.ships<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -5045,7 +5045,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/too.many.asteroids/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/too.many.asteroids.png" width="130" height="20">
 
-[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-too.many.asteroids/too.many.asteroids.zip) v1.0.4 | 19.47 kb | 2025-01-25 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=too.many.asteroids-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) | <a href="res/imagemd/too.many.asteroids.md">view images</a> [2]<br>
+[too.many.asteroids.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-too.many.asteroids/too.many.asteroids.zip) v1.0.5 | 86.78 kb | 2026-02-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=too.many.asteroids-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/) | <a href="res/imagemd/too.many.asteroids.md">view images</a> [2]<br>
 <br>
 >Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. Increases game performance. See the README for details.
 
@@ -5072,6 +5072,12 @@ Every of the 699 base game systems (0.10.11) is edited via a remove command for 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-02-01<br>
+
+updated to 0.11.0<br>
 
 <br>
 
