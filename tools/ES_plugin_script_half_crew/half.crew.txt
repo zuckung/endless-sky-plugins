@@ -478,12 +478,6 @@ ship "Kyanite"
 		"bunks" 46
 		"outfit space" 474
 
-ship "Geodesic Geocoris"
-	attributes
-		"required crew" 13
-		"bunks" 24
-		"outfit space" 603
-
 ship "Anomalocaris"
 	attributes
 		"required crew" 10

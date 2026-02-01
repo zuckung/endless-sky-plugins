@@ -157,7 +157,7 @@ def writefile(list):
 
 
 def run():
-	data_folder = '/storage/9C33-6BBD/endless sky/data/'
+	data_folder = 'd:/games/endless sky/data/'
 	objs, obj_paths, obj_names = read_everything(data_folder)
 	shiplist = return_list(objs, obj_paths, 'ship ', False)
 	filteredships = filterlist(shiplist)
