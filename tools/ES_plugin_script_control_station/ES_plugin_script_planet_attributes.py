@@ -79,11 +79,25 @@ def filter_planets(obj):
 	with open('control.station.2.planet.attributes.txt', 'w') as target:
 		target.writelines(mission + '\n\n' +event1txt + '\n\n' + event2txt)
 
+
+def event_reveal_vanilla(obj):
+	systems = []
+	for each in obj:
+		if each.startswith('system'):
+			pos = each.find('\n')
+			systemname = '	visit "' + each[:pos].replace('system ', '').replace('"', '').strip() + '"'
+			print(systemname)
+			systems.append(systemname)
+	with open('reveal_systems.txt', 'w') as target:
+		for each in systems:
+			target.writelines(each + '\n')
+
 	
 def run():
-	data_folder = '/storage/9C33-6BBD/endless sky/data/' # change to your folder
+	data_folder = 'd:/games/endless sky/data/' # change to your folder
 	obj, obj_path, obj_name = read_everything(data_folder)
 	filter_planets(obj)
+	event_reveal_vanilla(obj)
 	
 
 if __name__ == "__main__":
