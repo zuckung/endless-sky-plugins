@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-02-01 | update: mission.helper<br>
 2026-01-31 | update: gegno.pirates<br>
 2026-01-05 | update: job.coloring<br>
 2026-01-04 | update: boss.loot<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2025-11-23 | update: boss.loot<br>
 2025-11-20 | update: captureable.person.ships<br>
 2025-11-02 | update: galactic.capital.investment<br>
-2025-10-31 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2777,6 +2777,12 @@ Changelog:<br>
 
 <br>
 
+2026-02-01<br>
+
+removed devil run systems<br>
+
+<br>
+
 2025-06-05<br>
 
 removed nanachi and expanding business from plugin (0.10.13 enabled them now)<br>
@@ -3680,7 +3686,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/mission.helper/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/mission.helper.png" width="130" height="20">
 
-[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-mission.helper/mission.helper.zip) v1.0.9 | 159.51 kb | 2025-10-26 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=mission.helper-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) | <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
+[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-mission.helper/mission.helper.zip) v1.0.10 | 155.97 kb | 2026-02-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=mission.helper-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) | <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
 <br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 'source' and 'to offer' of these missions, so you can easily find them. See the README for details.
 
@@ -3703,6 +3709,12 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-02-01<br>
+
+updated missions to 0.11.0<br>
 
 <br>
 
