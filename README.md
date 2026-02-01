@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-02-01 | update: comets<br>
 2026-02-01 | update: show.reputation<br>
 2026-02-01 | update: space.fauna<br>
 2026-02-01 | update: too.many.asteroids<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-01-05 | update: job.coloring<br>
 2026-01-04 | update: boss.loot<br>
 2025-12-26 | update: job.coloring<br>
-2025-12-01 | update: comets<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1645,7 +1645,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/comets/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/comets.png" width="130" height="20">
 
-[comets.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-comets/comets.zip) v1.0.0 | 4.86 mb | 2025-12-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=comets-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/comets/) | <a href="res/imagemd/comets.md">view images</a> [504]<br>
+[comets.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-comets/comets.zip) v1.0.1 | 4.86 mb | 2026-02-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=comets-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/comets/) | <a href="res/imagemd/comets.md">view images</a> [504]<br>
 <br>
 >Adds 10 different comet types, as rare spawns to changing systems. These comets are minable and high profitable. See the README for details.
 
@@ -1662,8 +1662,6 @@ Adds 10 different comet types, as rare spawns to changing systems. These comets 
 <br>
 
 Every 2 days an event starts and changes the spawn systems of these comets.<br>
-
-WARNING: bloats up the save file when used in ES 0.10.16 or below.<br>
 
 <br>
 
@@ -1694,6 +1692,12 @@ Name | chance to appear | sell price per ton<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-02-01<br>
+
+updated to 0.11.0 systems<br>
 
 <br>
 

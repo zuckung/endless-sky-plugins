@@ -2,3 +2,4 @@ name "comets"
 about "Adds 10 different comet types, as rare spawns to changing systems. These comets are minable and high profitable. See the README for details."
 authors
 	"zuckung"
+version 1.0.1
