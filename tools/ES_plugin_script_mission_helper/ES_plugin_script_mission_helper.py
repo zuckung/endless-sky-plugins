@@ -5,7 +5,7 @@ def set_globals():
 	print('setting global variables')
 	global obj, obj_path, obj_name, data_folder
 	obj, obj_path, obj_name = [], [], []
-	data_folder = '/storage/9C33-6BBD/endless sky/data/' # change to your folder
+	data_folder = 'd:/games/endless sky/data/' # change to your folder
 
 
 def read_everything(): # reading the data folder
@@ -296,7 +296,7 @@ def write_mission(missions, mission_texts, mission_paths, systems, govs, blackli
 		# start menu races/folder
 		categories = []
 		for path in mission_paths:
-			pathpath, pathfile = path.split('/')
+			datapath, pathpath, pathfile = path.split(os.sep)
 			if pathpath in categories:
 				continue
 			# filter races
@@ -334,9 +334,9 @@ def write_mission(missions, mission_texts, mission_paths, systems, govs, blackli
 			target.writelines('\t\t\t\t`[back to "Races"]`\n')
 			target.writelines('\t\t\t\t\tgoto "start"\n')	
 			for path in mission_paths:
-				if not path.startswith(category):
+				if not path.startswith('data' + os.sep + category):
 					continue
-				file = path.split('/')[1]
+				file = path.split(os.sep)[2]
 				if file in files:
 					continue
 				files.append(file)
@@ -354,7 +354,7 @@ def write_mission(missions, mission_texts, mission_paths, systems, govs, blackli
 				target.writelines('\t\t\t\t\tgoto "start"\n')
 				for mission in missions:
 					index = missions.index(mission)
-					if not category + '/' + file in mission_paths[index]:
+					if not category + os.sep + file in mission_paths[index]:
 						continue
 					target.writelines('\t\t\t\t`' + mission + '`\n')
 					target.writelines('\t\t\t\t\tto display\n')
@@ -366,7 +366,7 @@ def write_mission(missions, mission_texts, mission_paths, systems, govs, blackli
 			target.writelines('\t\t\tlabel "' + mission + '"\n')
 			target.writelines('\t\t\t`' + mission_paths[index] + ' | mission "' + mission + '"`\n')
 			target.writelines('\t\t\t`starts at: ' + starts[index] + '`\n')
-			category, subcategory = mission_paths[index].split('/')
+			datapath, category, subcategory = mission_paths[index].split(os.sep)
 			splitted = mission_texts[index].split('\n')
 			for each in splitted:
 				target.writelines('\t\t\t`' + each + '`\n')
