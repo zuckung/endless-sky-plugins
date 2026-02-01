@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-02-01 | update: control.station<br>
 2026-02-01 | update: comets<br>
 2026-02-01 | update: show.reputation<br>
 2026-02-01 | update: space.fauna<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-01-31 | update: gegno.pirates<br>
 2026-01-05 | update: job.coloring<br>
 2026-01-04 | update: boss.loot<br>
-2025-12-26 | update: job.coloring<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1730,7 +1730,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/control.station/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/control.station.png" width="130" height="20">
 
-[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-control.station/control.station.zip) v1.0.6 | 3.22 mb | 2025-10-05 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=control.station-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) | <a href="res/imagemd/control.station.md">view images</a> [405]<br>
+[control.station.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-control.station/control.station.zip) v1.0.7 | 3.22 mb | 2026-02-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=control.station-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/) | <a href="res/imagemd/control.station.md">view images</a> [405]<br>
 <br>
 >Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details.
 
@@ -1785,6 +1785,12 @@ Completing the campaigns might not exactly have the same result as if the campai
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-02-01<br>
+
+updated to 0.11.0<br>
 
 <br>
 

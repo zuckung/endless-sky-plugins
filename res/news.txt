@@ -1,3 +1,4 @@
+2026-02-01 | update: control.station
 2026-02-01 | update: comets
 2026-02-01 | update: show.reputation
 2026-02-01 | update: space.fauna

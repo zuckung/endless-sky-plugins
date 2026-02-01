@@ -2,3 +2,4 @@ name "control.station"
 about "Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details."
 authors
 	"zuckung"
+version 1.0.7
