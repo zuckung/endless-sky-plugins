@@ -15,6 +15,9 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 Changelog:<br>
 <br>
+2026-02-01<br>
+updated to 0.11.0 / fixed removed governments<br>
+<br>
 2026-01-04<br>
 text adjustment (thx to andtim1)<br>
 image display fix (thx to andtim1)<br>
