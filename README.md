@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-02-01 | update: show.reputation<br>
 2026-02-01 | update: space.fauna<br>
 2026-02-01 | update: too.many.asteroids<br>
 2026-02-01 | update: hai.side.mission.unlocker<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-01-04 | update: boss.loot<br>
 2025-12-26 | update: job.coloring<br>
 2025-12-01 | update: comets<br>
-2025-11-29 | update: boss.loot<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4757,7 +4757,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/show.reputation/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/show.reputation.png" width="130" height="20">
 
-[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-show.reputation/show.reputation.zip) v1.0.5 | 159.85 kb | 2025-06-21 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=show.reputation-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) | <a href="res/imagemd/show.reputation.md">view images</a> [5]<br>
+[show.reputation.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-show.reputation/show.reputation.zip) v1.0.6 | 159.43 kb | 2026-02-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=show.reputation-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/) | <a href="res/imagemd/show.reputation.md">view images</a> [5]<br>
 <br>
 >Enables a job on the Earth job board, that shows the reputation values. See the README for details.
 
@@ -4780,6 +4780,12 @@ Accept the job and the reputations conversation pops up. Then you can choose bet
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-02-01<br>
+
+updated to 0.11.0<br>
 
 <br>
 

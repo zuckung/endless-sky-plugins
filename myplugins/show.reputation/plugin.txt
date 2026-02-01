@@ -2,3 +2,4 @@ name "show.reputation"
 about "Enables a job on the Earth job board, that shows the reputation values. See the README for details."
 authors
 	"zuckung"
+version 1.0.6

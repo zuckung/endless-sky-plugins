@@ -43,7 +43,7 @@ planet.pluto|1.0.2
 quarg.farm|1.0.6
 real.fluff|1.0.8
 ship.merging|1.0.5
-show.reputation|1.0.5
+show.reputation|1.0.6
 snowfeather.robotics|1.0.6
 space.fauna|1.1.4
 too.many.asteroids|1.0.5
