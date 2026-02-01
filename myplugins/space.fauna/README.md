@@ -8,6 +8,9 @@ There are 14 different organisms, 1 titan-sized, 3 superheavy-sized, 4 heavy-siz
 <br>
 Changelog:<br>
 <br>
+2026-02-01<br>
+updated systems to 0.11.0<br>
+<br>
 2025-08-29<br>
 license, README, icon@2x, plugintxt changes<br>
 <br>

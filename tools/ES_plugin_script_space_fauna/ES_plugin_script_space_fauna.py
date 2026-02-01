@@ -16,7 +16,7 @@ def set_globals():
 	global systems_empty
 	global systems_land
 	obj, obj_path, obj_name, systems_empty, systems_land = [], [], [], [], []
-	data_folder = '/storage/9C33-6BBD/endless sky/data/' # change to your folder
+	data_folder = 'd:/games/endless sky/data/' # change to your folder
 
 	
 def read_everything():

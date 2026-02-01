@@ -1,1122 +1,1392 @@
 # for systems WITHOUT landable planets the fleet spawn is between 6.000 and 12.000
 # for systems WITH landable planets the fleet spawn is between 12.000 and 24.000
 # systems without landable planets:
+system Balnii
+	add fleet "space fauna 01" 11098
+system Lathia
+	add fleet "space fauna 01" 7797
+system Sarifa
+	add fleet "space fauna 01" 7917
+system Thepa
+	add fleet "space fauna 01" 6400
 system "11 Autumn Above"
-	add fleet "space fauna 01" 10266
+	add fleet "space fauna 01" 8164
 system "16 Autumn Rising"
-	add fleet "space fauna 01" 9738
+	add fleet "space fauna 01" 8971
 system "5 Spring Below"
-	add fleet "space fauna 01" 8390
+	add fleet "space fauna 01" 10066
 system Acamar
-	add fleet "space fauna 01" 6187
+	add fleet "space fauna 01" 11383
+system Acapella
+	add fleet "space fauna 01" 7691
 system Acnanjo
-	add fleet "space fauna 01" 9114
+	add fleet "space fauna 01" 8693
 system "Ae Ce L-332"
-	add fleet "space fauna 01" 6231
+	add fleet "space fauna 01" 6654
 system "Ae Ce Q-761"
-	add fleet "space fauna 01" 11592
+	add fleet "space fauna 01" 9823
 system "Ae Il A-3"
-	add fleet "space fauna 01" 9920
+	add fleet "space fauna 01" 10997
 system "Ae Il B-11"
-	add fleet "space fauna 01" 9237
+	add fleet "space fauna 01" 11190
 system "Ae Il F-46"
-	add fleet "space fauna 01" 10294
+	add fleet "space fauna 01" 9846
 system "Ae Il G-66"
-	add fleet "space fauna 01" 9781
+	add fleet "space fauna 01" 8877
 system "Ae Il H-24"
-	add fleet "space fauna 01" 10051
+	add fleet "space fauna 01" 10226
 system "Ae Il I-99"
-	add fleet "space fauna 01" 8390
+	add fleet "space fauna 01" 7798
 system "Ae Il O-96"
-	add fleet "space fauna 01" 7476
+	add fleet "space fauna 01" 10537
 system Aierena
-	add fleet "space fauna 01" 7985
+	add fleet "space fauna 01" 9697
 system "Aik Kamgatake"
-	add fleet "space fauna 01" 8782
+	add fleet "space fauna 01" 7933
+system Aileron
+	add fleet "space fauna 01" 11776
 system Aksek
-	add fleet "space fauna 01" 6230
+	add fleet "space fauna 01" 8501
 system Alnasl
-	add fleet "space fauna 01" 8797
+	add fleet "space fauna 01" 7295
 system "Alpha Arae"
-	add fleet "space fauna 01" 7277
+	add fleet "space fauna 01" 9892
 system Anbrim
-	add fleet "space fauna 01" 9097
+	add fleet "space fauna 01" 8524
 system Antevorta
-	add fleet "space fauna 01" 11622
+	add fleet "space fauna 01" 9802
+system Apeiron
+	add fleet "space fauna 01" 11117
+system Ar-40
+	add fleet "space fauna 01" 8120
+system As-75
+	add fleet "space fauna 01" 6840
 system Atik
-	add fleet "space fauna 01" 7983
+	add fleet "space fauna 01" 9679
+system Avasaa-Novaa
+	add fleet "space fauna 01" 7634
+system Axiom
+	add fleet "space fauna 01" 11888
+system B-11
+	add fleet "space fauna 01" 9173
+system Ballad
+	add fleet "space fauna 01" 9114
+system Be-9
+	add fleet "space fauna 01" 9276
 system "Beta Lupi"
-	add fleet "space fauna 01" 7556
+	add fleet "space fauna 01" 9396
 system Boral
-	add fleet "space fauna 01" 11557
+	add fleet "space fauna 01" 11836
+system Br-80
+	add fleet "space fauna 01" 7710
 system "Bright Void"
-	add fleet "space fauna 01" 11783
+	add fleet "space fauna 01" 6552
+system C-12
+	add fleet "space fauna 01" 6899
+system Ca-40
+	add fleet "space fauna 01" 6204
 system Caeculus
-	add fleet "space fauna 01" 7805
+	add fleet "space fauna 01" 10121
+system Caesura
+	add fleet "space fauna 01" 9561
+system Cantata
+	add fleet "space fauna 01" 6965
 system Cardax
-	add fleet "space fauna 01" 7660
+	add fleet "space fauna 01" 10436
+system Chorale
+	add fleet "space fauna 01" 6384
+system Cl-35
+	add fleet "space fauna 01" 10618
+system Clepsydra
+	add fleet "space fauna 01" 9435
 system Cotpoxi
-	add fleet "space fauna 01" 8925
+	add fleet "space fauna 01" 8809
 system Cshudlye
-	add fleet "space fauna 01" 6704
+	add fleet "space fauna 01" 8595
+system Currus
+	add fleet "space fauna 01" 7901
+system Cusp
+	add fleet "space fauna 01" 9967
 system Danoa
-	add fleet "space fauna 01" 11087
+	add fleet "space fauna 01" 8809
 system "Dark Hills"
-	add fleet "space fauna 01" 6373
-system "Deep Space 19K12"
-	add fleet "space fauna 01" 7934
-system "Deep Space 19M1"
-	add fleet "space fauna 01" 11259
-system "Deep Space 19M2"
-	add fleet "space fauna 01" 6562
-system "Deep Space 19M5"
-	add fleet "space fauna 01" 7444
-system "Deep Space 1Q"
-	add fleet "space fauna 01" 9084
-system "Deep Space 1X"
-	add fleet "space fauna 01" 8548
-system "Deep Space 5J"
-	add fleet "space fauna 01" 7809
-system "Deep Space 5N"
-	add fleet "space fauna 01" 9558
-system "Deep Space 5T"
-	add fleet "space fauna 01" 8369
-system "Deep Space 7F"
-	add fleet "space fauna 01" 6371
-system Delia
-	add fleet "space fauna 01" 10072
+	add fleet "space fauna 01" 8235
+system Decet
+	add fleet "space fauna 01" 6972
 system Diespiter
-	add fleet "space fauna 01" 6515
+	add fleet "space fauna 01" 9591
+system Duet
+	add fleet "space fauna 01" 9088
 system Durax
-	add fleet "space fauna 01" 8258
+	add fleet "space fauna 01" 9406
 system E-4183
-	add fleet "space fauna 01" 11959
+	add fleet "space fauna 01" 6905
 system E-9182
-	add fleet "space fauna 01" 9487
+	add fleet "space fauna 01" 10116
 system Eber
-	add fleet "space fauna 01" 7633
+	add fleet "space fauna 01" 7538
 system Eebu
-	add fleet "space fauna 01" 11896
+	add fleet "space fauna 01" 6172
 system Egeria
-	add fleet "space fauna 01" 6728
+	add fleet "space fauna 01" 9243
 system Elifennka
-	add fleet "space fauna 01" 9573
+	add fleet "space fauna 01" 11567
 system Eltanin
-	add fleet "space fauna 01" 8570
+	add fleet "space fauna 01" 9797
 system Empeles
-	add fleet "space fauna 01" 10612
+	add fleet "space fauna 01" 6463
+system Empyrean
+	add fleet "space fauna 01" 9234
 system Eogho
-	add fleet "space fauna 01" 11871
+	add fleet "space fauna 01" 7246
+system "Eta Carinae"
+	add fleet "space fauna 01" 8298
 system Eteron
-	add fleet "space fauna 01" 7165
+	add fleet "space fauna 01" 7954
+system F-19
+	add fleet "space fauna 01" 7407
 system Fala
-	add fleet "space fauna 01" 6091
+	add fleet "space fauna 01" 7988
 system Farinus
-	add fleet "space fauna 01" 6862
+	add fleet "space fauna 01" 10010
 system Fasitopfar
-	add fleet "space fauna 01" 11505
+	add fleet "space fauna 01" 11421
 system Feraticus
-	add fleet "space fauna 01" 9861
+	add fleet "space fauna 01" 6982
+system Flutter
+	add fleet "space fauna 01" 11865
 system Fscher
-	add fleet "space fauna 01" 11991
+	add fleet "space fauna 01" 9392
 system Fumalsamakah
-	add fleet "space fauna 01" 6980
+	add fleet "space fauna 01" 11470
 system G-3191
-	add fleet "space fauna 01" 9667
+	add fleet "space fauna 01" 11500
 system G-6183
-	add fleet "space fauna 01" 7182
+	add fleet "space fauna 01" 8655
 system G-719
-	add fleet "space fauna 01" 7565
+	add fleet "space fauna 01" 9338
 system G-819
-	add fleet "space fauna 01" 6943
-system Gacrux
-	add fleet "space fauna 01" 8796
+	add fleet "space fauna 01" 6702
 system "Gamma Cassiopeiae"
-	add fleet "space fauna 01" 8771
+	add fleet "space fauna 01" 7777
 system Gaungu
-	add fleet "space fauna 01" 8135
+	add fleet "space fauna 01" 6085
+system Ge-73
+	add fleet "space fauna 01" 10185
 system "Genta Bo"
-	add fleet "space fauna 01" 9240
+	add fleet "space fauna 01" 8989
 system "Gento Ah"
-	add fleet "space fauna 01" 10834
+	add fleet "space fauna 01" 7661
 system Gorvi
-	add fleet "space fauna 01" 9656
+	add fleet "space fauna 01" 7967
 system Gualetri
-	add fleet "space fauna 01" 8863
+	add fleet "space fauna 01" 7412
 system H-8188
-	add fleet "space fauna 01" 6888
+	add fleet "space fauna 01" 7105
 system H-9187
-	add fleet "space fauna 01" 8632
+	add fleet "space fauna 01" 6884
 system Hassaleh
-	add fleet "space fauna 01" 9527
+	add fleet "space fauna 01" 10515
 system Hatysa
-	add fleet "space fauna 01" 8005
+	add fleet "space fauna 01" 10807
+system He-4
+	add fleet "space fauna 01" 7723
 system Hintar
-	add fleet "space fauna 01" 9224
+	add fleet "space fauna 01" 10571
 system Holeb
-	add fleet "space fauna 01" 6553
+	add fleet "space fauna 01" 7507
+system Ianua
+	add fleet "space fauna 01" 11021
 system Iigen
-	add fleet "space fauna 01" 10636
+	add fleet "space fauna 01" 11713
 system Iinjma
-	add fleet "space fauna 01" 8231
+	add fleet "space fauna 01" 8324
 system Iise
-	add fleet "space fauna 01" 8406
+	add fleet "space fauna 01" 7464
 system Ildaria
-	add fleet "space fauna 01" 8341
+	add fleet "space fauna 01" 7796
 system Ipsing
-	add fleet "space fauna 01" 8045
+	add fleet "space fauna 01" 6749
 system "Is Ce B-139"
-	add fleet "space fauna 01" 7339
+	add fleet "space fauna 01" 7097
 system "Is Ce F-422"
-	add fleet "space fauna 01" 10446
+	add fleet "space fauna 01" 6903
 system "Is Ce G-460"
-	add fleet "space fauna 01" 10858
+	add fleet "space fauna 01" 10856
 system "Is Ce J-591"
-	add fleet "space fauna 01" 10233
+	add fleet "space fauna 01" 11318
 system "Is Il T-127"
-	add fleet "space fauna 01" 7889
+	add fleet "space fauna 01" 7595
 system "Is Il T-94"
-	add fleet "space fauna 01" 6649
+	add fleet "space fauna 01" 8138
 system "Is Il V-263"
-	add fleet "space fauna 01" 11590
+	add fleet "space fauna 01" 11055
 system "Is Il X-626"
-	add fleet "space fauna 01" 7815
+	add fleet "space fauna 01" 7456
 system "Is Il Z-59"
-	add fleet "space fauna 01" 8791
+	add fleet "space fauna 01" 8361
 system "Is Il Z-814"
-	add fleet "space fauna 01" 8291
+	add fleet "space fauna 01" 6076
 system Jied
-	add fleet "space fauna 01" 8433
-system Jyelio
-	add fleet "space fauna 01" 7587
+	add fleet "space fauna 01" 7175
+system K-39
+	add fleet "space fauna 01" 9122
 system Karhio
-	add fleet "space fauna 01" 9174
+	add fleet "space fauna 01" 11865
+system Kasi-Vasa-Novaa
+	add fleet "space fauna 01" 9419
 system Kasikfar
-	add fleet "space fauna 01" 8664
+	add fleet "space fauna 01" 9675
+system Khasola-Ryuit
+	add fleet "space fauna 01" 11611
+system Kiiraj-Luue
+	add fleet "space fauna 01" 6804
 system "Kor Ak'Mari"
-	add fleet "space fauna 01" 10384
-system Kugel
-	add fleet "space fauna 01" 6534
+	add fleet "space fauna 01" 9117
 system L-118
-	add fleet "space fauna 01" 10780
+	add fleet "space fauna 01" 7585
 system L-6181
-	add fleet "space fauna 01" 6197
+	add fleet "space fauna 01" 8495
 system Lesath
-	add fleet "space fauna 01" 9538
+	add fleet "space fauna 01" 10426
 system Levana
-	add fleet "space fauna 01" 8408
+	add fleet "space fauna 01" 9623
+system Li-7
+	add fleet "space fauna 01" 7908
+system Lift
+	add fleet "space fauna 01" 8567
 system Limen
-	add fleet "space fauna 01" 7180
+	add fleet "space fauna 01" 11044
 system Lloloi
-	add fleet "space fauna 01" 8143
+	add fleet "space fauna 01" 7172
 system Lolami
-	add fleet "space fauna 01" 10172
+	add fleet "space fauna 01" 9950
 system Lurata
-	add fleet "space fauna 01" 9432
+	add fleet "space fauna 01" 9601
 system M-1188
-	add fleet "space fauna 01" 10351
+	add fleet "space fauna 01" 8127
 system MC-42
-	add fleet "space fauna 01" 8916
+	add fleet "space fauna 01" 11865
 system MS-219
-	add fleet "space fauna 01" 6572
+	add fleet "space fauna 01" 11152
+system Madrigal
+	add fleet "space fauna 01" 10511
 system Maoni
-	add fleet "space fauna 01" 7252
+	add fleet "space fauna 01" 7042
+system Mavra-Ijsola
+	add fleet "space fauna 01" 6929
 system Meftarkata
-	add fleet "space fauna 01" 6820
+	add fleet "space fauna 01" 9585
 system Menkalinan
-	add fleet "space fauna 01" 10413
+	add fleet "space fauna 01" 9591
 system Mesuket
-	add fleet "space fauna 01" 10765
-system Minkar
-	add fleet "space fauna 01" 7329
-system Mintaka
+	add fleet "space fauna 01" 9485
+system Mg-24
 	add fleet "space fauna 01" 6062
+system Minkar
+	add fleet "space fauna 01" 7616
+system Mintaka
+	add fleet "space fauna 01" 11113
 system Mirzam
-	add fleet "space fauna 01" 11759
+	add fleet "space fauna 01" 8219
 system Mizar
-	add fleet "space fauna 01" 10069
+	add fleet "space fauna 01" 9216
 system Mohuwo
-	add fleet "space fauna 01" 11499
+	add fleet "space fauna 01" 10684
 system Moktar
-	add fleet "space fauna 01" 7162
+	add fleet "space fauna 01" 6175
 system Mora
-	add fleet "space fauna 01" 11245
+	add fleet "space fauna 01" 7476
 system Msalbit
-	add fleet "space fauna 01" 8125
+	add fleet "space fauna 01" 9688
 system Muphrid
-	add fleet "space fauna 01" 10179
+	add fleet "space fauna 01" 7711
+system N-14
+	add fleet "space fauna 01" 7217
+system Na-23
+	add fleet "space fauna 01" 8458
 system Naper
-	add fleet "space fauna 01" 9991
+	add fleet "space fauna 01" 11937
 system Nnatai
-	add fleet "space fauna 01" 6365
-system Nocte
-	add fleet "space fauna 01" 10225
+	add fleet "space fauna 01" 8736
+system O-16
+	add fleet "space fauna 01" 6211
 system O-3184
-	add fleet "space fauna 01" 7151
+	add fleet "space fauna 01" 8796
 system Oblate
-	add fleet "space fauna 01" 10630
+	add fleet "space fauna 01" 11553
+system Octet
+	add fleet "space fauna 01" 11655
 system Oihaug
-	add fleet "space fauna 01" 6699
+	add fleet "space fauna 01" 8178
+system Opera
+	add fleet "space fauna 01" 9374
 system Orbona
-	add fleet "space fauna 01" 10857
+	add fleet "space fauna 01" 10207
 system Orvala
-	add fleet "space fauna 01" 9566
+	add fleet "space fauna 01" 6260
+system P-31
+	add fleet "space fauna 01" 10337
 system "Paru Paru"
-	add fleet "space fauna 01" 11090
+	add fleet "space fauna 01" 6689
+system Peak
+	add fleet "space fauna 01" 7067
+system Pearl
+	add fleet "space fauna 01" 6092
 system Peresedersi
-	add fleet "space fauna 01" 11549
+	add fleet "space fauna 01" 8163
 system Perfica
-	add fleet "space fauna 01" 8634
+	add fleet "space fauna 01" 6262
 system Persian
-	add fleet "space fauna 01" 6642
+	add fleet "space fauna 01" 8718
 system Persitar
-	add fleet "space fauna 01" 6498
+	add fleet "space fauna 01" 7421
+system Postlude
+	add fleet "space fauna 01" 9952
 system Prakacha'a
-	add fleet "space fauna 01" 11158
-system Procyon
-	add fleet "space fauna 01" 7260
+	add fleet "space fauna 01" 6704
 system Prosa
-	add fleet "space fauna 01" 10144
+	add fleet "space fauna 01" 11897
 system Ptobeh
-	add fleet "space fauna 01" 11116
+	add fleet "space fauna 01" 10284
 system Queri
-	add fleet "space fauna 01" 7362
+	add fleet "space fauna 01" 8163
+system Quintessence
+	add fleet "space fauna 01" 10342
 system Rajak
-	add fleet "space fauna 01" 11279
+	add fleet "space fauna 01" 10932
 system Regulus
-	add fleet "space fauna 01" 11855
+	add fleet "space fauna 01" 11756
+system Rhapsody
+	add fleet "space fauna 01" 11107
 system Rigel
-	add fleet "space fauna 01" 7557
+	add fleet "space fauna 01" 11472
+system S-32
+	add fleet "space fauna 01" 10502
 system Sabriset
-	add fleet "space fauna 01" 8657
+	add fleet "space fauna 01" 7473
 system Sadr
-	add fleet "space fauna 01" 11474
+	add fleet "space fauna 01" 6762
 system "Sagittarius A*"
-	add fleet "space fauna 01" 7846
+	add fleet "space fauna 01" 9624
 system Salipastart
-	add fleet "space fauna 01" 11389
+	add fleet "space fauna 01" 8739
 system Saquergen
-	add fleet "space fauna 01" 7718
+	add fleet "space fauna 01" 10011
 system Sayaiban
-	add fleet "space fauna 01" 11022
+	add fleet "space fauna 01" 10805
+system Sedes
+	add fleet "space fauna 01" 6424
 system Sepriaptu
-	add fleet "space fauna 01" 8057
+	add fleet "space fauna 01" 7912
+system Septet
+	add fleet "space fauna 01" 6258
+system Serenade
+	add fleet "space fauna 01" 9967
+system Si-28
+	add fleet "space fauna 01" 11615
 system Sko'karak
-	add fleet "space fauna 01" 10131
+	add fleet "space fauna 01" 8806
+system Sonata
+	add fleet "space fauna 01" 11714
 system Sospi
-	add fleet "space fauna 01" 9513
+	add fleet "space fauna 01" 7807
 system Stercutus
-	add fleet "space fauna 01" 8482
+	add fleet "space fauna 01" 11219
+system Stream
+	add fleet "space fauna 01" 9164
 system Sumar
-	add fleet "space fauna 01" 6672
+	add fleet "space fauna 01" 9375
+system Tailwind
+	add fleet "space fauna 01" 8018
 system Tais
-	add fleet "space fauna 01" 6999
+	add fleet "space fauna 01" 11680
+system Tectum
+	add fleet "space fauna 01" 7507
 system Thuban
-	add fleet "space fauna 01" 11691
+	add fleet "space fauna 01" 8555
+system Tide
+	add fleet "space fauna 01" 10407
 system Torbab
-	add fleet "space fauna 01" 11591
+	add fleet "space fauna 01" 9804
+system Torrent
+	add fleet "space fauna 01" 10214
 system Tortor
-	add fleet "space fauna 01" 7341
+	add fleet "space fauna 01" 10761
 system Tscera
-	add fleet "space fauna 01" 7002
+	add fleet "space fauna 01" 11733
+system Twirl
+	add fleet "space fauna 01" 9682
 system U-5188
-	add fleet "space fauna 01" 8383
+	add fleet "space fauna 01" 8399
 system Uelawan
-	add fleet "space fauna 01" 7249
+	add fleet "space fauna 01" 10241
 system Uhebe
-	add fleet "space fauna 01" 8433
+	add fleet "space fauna 01" 11898
 system Umbral
-	add fleet "space fauna 01" 8448
+	add fleet "space fauna 01" 10672
 system Unagi
-	add fleet "space fauna 01" 11469
-system Uttna
-	add fleet "space fauna 01" 9964
+	add fleet "space fauna 01" 11971
 system "Uwo Seija"
-	add fleet "space fauna 01" 7114
+	add fleet "space fauna 01" 9950
 system V-2189
-	add fleet "space fauna 01" 10107
+	add fleet "space fauna 01" 7305
 system Vaiov
-	add fleet "space fauna 01" 9807
+	add fleet "space fauna 01" 8005
 system Vanguwo
-	add fleet "space fauna 01" 7298
+	add fleet "space fauna 01" 8489
 system Vesvii
-	add fleet "space fauna 01" 11965
+	add fleet "space fauna 01" 7391
 system Vilacira
-	add fleet "space fauna 01" 6660
+	add fleet "space fauna 01" 9176
+system Vivace
+	add fleet "space fauna 01" 9872
 system Volax
-	add fleet "space fauna 01" 9699
+	add fleet "space fauna 01" 6221
+system Vorpal
+	add fleet "space fauna 01" 10240
 system Vulcuja
-	add fleet "space fauna 01" 11222
+	add fleet "space fauna 01" 6965
 system W-3197
-	add fleet "space fauna 01" 8392
+	add fleet "space fauna 01" 9905
+system Wave
+	add fleet "space fauna 01" 8478
+system Whirlwind
+	add fleet "space fauna 01" 10519
 system "World's End"
-	add fleet "space fauna 01" 7784
+	add fleet "space fauna 01" 8580
 system "Xutluno Fali"
-	add fleet "space fauna 01" 11651
+	add fleet "space fauna 01" 7018
 system "Xutluno Rees"
-	add fleet "space fauna 01" 8207
+	add fleet "space fauna 01" 9101
 system Yerser
-	add fleet "space fauna 01" 10969
+	add fleet "space fauna 01" 8643
 system Yllke
-	add fleet "space fauna 01" 9169
+	add fleet "space fauna 01" 8573
 system Yranjiu
-	add fleet "space fauna 01" 8665
+	add fleet "space fauna 01" 11127
 system Zolpulti
-	add fleet "space fauna 01" 6153
+	add fleet "space fauna 01" 7969
 system Zubenelgenubi
-	add fleet "space fauna 01" 8768
+	add fleet "space fauna 01" 9465
 # systems with landable planets:
-system "1 Axis"
-	add fleet "space fauna 01" 20441
-system "10 Pole"
-	add fleet "space fauna 01" 13199
-system "11 Spring Below"
-	add fleet "space fauna 01" 15492
-system "12 Autumn Above"
-	add fleet "space fauna 01" 21502
-system "14 Pole"
-	add fleet "space fauna 01" 21106
-system "14 Summer Above"
-	add fleet "space fauna 01" 21735
-system "14 Winter Below"
-	add fleet "space fauna 01" 20060
-system "3 Axis"
-	add fleet "space fauna 01" 23222
-system "3 Pole"
-	add fleet "space fauna 01" 20536
-system "3 Spring Rising"
-	add fleet "space fauna 01" 17825
-system "4 Axis"
-	add fleet "space fauna 01" 13928
-system "4 Spring Rising"
-	add fleet "space fauna 01" 23257
-system "4 Summer Rising"
-	add fleet "space fauna 01" 21862
-system "4 Winter Rising"
-	add fleet "space fauna 01" 19375
-system "5 Axis"
-	add fleet "space fauna 01" 13531
-system "5 Summer Above"
-	add fleet "space fauna 01" 15959
-system "5 Winter Above"
-	add fleet "space fauna 01" 15746
-system "7 Autumn Rising"
-	add fleet "space fauna 01" 12522
-system "8 Winter Below"
-	add fleet "space fauna 01" 22080
-system "9 Spring Above"
-	add fleet "space fauna 01" 16579
-system Ablodab
-	add fleet "space fauna 01" 20169
-system Ablub
-	add fleet "space fauna 01" 12764
-system Achernar
-	add fleet "space fauna 01" 14033
-system Acrux
-	add fleet "space fauna 01" 18988
-system Actannka
-	add fleet "space fauna 01" 14781
-system Adhara
-	add fleet "space fauna 01" 21682
-system "Ae Il M-77"
-	add fleet "space fauna 01" 15812
-system Aescolanus
-	add fleet "space fauna 01" 19782
-system Aki'il
-	add fleet "space fauna 01" 22841
-system "Al Dhanab"
-	add fleet "space fauna 01" 14609
-system "Al Hurr"
-	add fleet "space fauna 01" 19972
-system Albaldah
-	add fleet "space fauna 01" 13457
-system Albireo
-	add fleet "space fauna 01" 21113
-system Alcyone
-	add fleet "space fauna 01" 19074
-system Aldebaran
-	add fleet "space fauna 01" 19931
-system Alderamin
-	add fleet "space fauna 01" 13412
-system Aldhibain
-	add fleet "space fauna 01" 21806
-system Aleit
-	add fleet "space fauna 01" 20614
-system Algenib
-	add fleet "space fauna 01" 19089
-system Algieba
-	add fleet "space fauna 01" 14358
-system Algol
-	add fleet "space fauna 01" 13129
-system Algorel
-	add fleet "space fauna 01" 23432
-system Alheka
-	add fleet "space fauna 01" 17784
-system Alhena
-	add fleet "space fauna 01" 20751
-system Alioth
-	add fleet "space fauna 01" 23720
-system Alkaid
-	add fleet "space fauna 01" 23330
-system Almaaz
-	add fleet "space fauna 01" 16026
-system Almach
-	add fleet "space fauna 01" 23131
-system Alnair
-	add fleet "space fauna 01" 17728
-system Alnilam
-	add fleet "space fauna 01" 17676
-system Alnitak
-	add fleet "space fauna 01" 23696
-system Alniyat
-	add fleet "space fauna 01" 22268
-system "Alpha Centauri"
-	add fleet "space fauna 01" 19314
-system "Alpha Hydri"
-	add fleet "space fauna 01" 14095
-system Alphard
-	add fleet "space fauna 01" 12777
-system Alphecca
-	add fleet "space fauna 01" 16572
-system Alpheratz
-	add fleet "space fauna 01" 12384
-system Alpherg
-	add fleet "space fauna 01" 13100
-system Altair
-	add fleet "space fauna 01" 12495
-system Aludra
-	add fleet "space fauna 01" 16629
-system "Ancient Hope"
-	add fleet "space fauna 01" 12646
-system Ankaa
-	add fleet "space fauna 01" 13190
-system Answer
-	add fleet "space fauna 01" 12445
-system Antares
-	add fleet "space fauna 01" 22302
-system Ap'arak
-	add fleet "space fauna 01" 13126
-system Arcturus
-	add fleet "space fauna 01" 19986
-system Arculus
-	add fleet "space fauna 01" 23191
-system Arneb
-	add fleet "space fauna 01" 22517
-system Ascella
-	add fleet "space fauna 01" 15032
-system Asikafarnut
-	add fleet "space fauna 01" 13273
-system Asio
-	add fleet "space fauna 01" 14296
-system Aspidiske
-	add fleet "space fauna 01" 22284
-system Atria
-	add fleet "space fauna 01" 23182
-system Auhru
-	add fleet "space fauna 01" 16671
-system Avior
-	add fleet "space fauna 01" 21850
-system "Avo Chigo"
-	add fleet "space fauna 01" 23085
-system Aya'k'k
-	add fleet "space fauna 01" 21446
-system Beginning
-	add fleet "space fauna 01" 22187
-system Belenos
-	add fleet "space fauna 01" 15187
-system Bellatrix
-	add fleet "space fauna 01" 20399
-system Belonging
-	add fleet "space fauna 01" 21855
-system Belug
-	add fleet "space fauna 01" 19611
-system Belugt
-	add fleet "space fauna 01" 19063
-system Betelgeuse
-	add fleet "space fauna 01" 13149
-system Bloptab
-	add fleet "space fauna 01" 18030
-system Blubipad
-	add fleet "space fauna 01" 17912
-system Blugtad
-	add fleet "space fauna 01" 16154
-system "Bore Fah"
-	add fleet "space fauna 01" 22040
-system "Bosuno Le"
-	add fleet "space fauna 01" 20706
-system "Bote Asu"
-	add fleet "space fauna 01" 20348
-system "Broken Bowl"
-	add fleet "space fauna 01" 19328
-system "Bunri Lemeta"
-	add fleet "space fauna 01" 18214
-system Canopus
-	add fleet "space fauna 01" 20566
-system Capella
-	add fleet "space fauna 01" 23192
-system Caph
-	add fleet "space fauna 01" 14922
-system Cardea
-	add fleet "space fauna 01" 12295
-system Castor
-	add fleet "space fauna 01" 23638
-system Cebalrai
-	add fleet "space fauna 01" 19518
-system Celeborim
-	add fleet "space fauna 01" 23006
-system Chikatip
-	add fleet "space fauna 01" 18658
-system Chimitarp
-	add fleet "space fauna 01" 16264
-system Chirr'ay'akai
-	add fleet "space fauna 01" 18746
-system Chornifath
-	add fleet "space fauna 01" 15648
-system Chy'chra
-	add fleet "space fauna 01" 12849
-system Cinxia
-	add fleet "space fauna 01" 13946
-system Citadelle
-	add fleet "space fauna 01" 15685
-system Coluber
-	add fleet "space fauna 01" 15620
-system Companion
-	add fleet "space fauna 01" 19223
-system Convector
-	add fleet "space fauna 01" 13811
-system "Cor Caroli"
-	add fleet "space fauna 01" 21933
-system "Da Ent"
-	add fleet "space fauna 01" 16643
-system "Da Lest"
-	add fleet "space fauna 01" 23761
-system Dabih
-	add fleet "space fauna 01" 17142
-system Debrugt
-	add fleet "space fauna 01" 21889
-system "Deep Space 7C"
-	add fleet "space fauna 01" 17069
-system "Delta Capricorni"
-	add fleet "space fauna 01" 15168
-system "Delta Sagittarii"
-	add fleet "space fauna 01" 23663
-system "Delta Velorum"
-	add fleet "space fauna 01" 12258
-system Deneb
-	add fleet "space fauna 01" 19824
-system Denebola
-	add fleet "space fauna 01" 14863
-system Devil-Hide
-	add fleet "space fauna 01" 13064
-system Devil-Run
-	add fleet "space fauna 01" 19753
-system Diphda
-	add fleet "space fauna 01" 13759
-system Dixere
-	add fleet "space fauna 01" 21161
-system Dokdobaru
-	add fleet "space fauna 01" 20750
-system Dschubba
-	add fleet "space fauna 01" 15669
-system Dubhe
-	add fleet "space fauna 01" 14431
-system "Due Yoot"
-	add fleet "space fauna 01" 18507
-system Eblumab
-	add fleet "space fauna 01" 16702
-system Edusa
-	add fleet "space fauna 01" 18830
-system "Ehma Ti"
-	add fleet "space fauna 01" 23586
-system Ek'kek'ru
-	add fleet "space fauna 01" 22149
-system Ekuarik
-	add fleet "space fauna 01" 21115
-system "Elabi Choati"
-	add fleet "space fauna 01" 16114
-system Elnath
-	add fleet "space fauna 01" 20898
-system "Elo Chigo"
-	add fleet "space fauna 01" 18996
-system Eneremprukt
-	add fleet "space fauna 01" 14703
-system "Eneva Katta"
-	add fleet "space fauna 01" 16502
-system Enif
-	add fleet "space fauna 01" 18321
-system "Epsilon Leonis"
-	add fleet "space fauna 01" 21489
-system "Era Natta"
-	add fleet "space fauna 01" 22240
-system "Erabu Lemeta"
-	add fleet "space fauna 01" 20154
-system "Eragaru Le"
-	add fleet "space fauna 01" 15556
-system "Erba Yle"
-	add fleet "space fauna 01" 17633
-system Es'sprak'ai
-	add fleet "space fauna 01" 18973
-system Eshkoshtar
-	add fleet "space fauna 01" 14090
-system Esix
-	add fleet "space fauna 01" 18147
-system Evrae
-	add fleet "space fauna 01" 13039
-system "Fah Root"
-	add fleet "space fauna 01" 17822
-system "Fah Soom"
-	add fleet "space fauna 01" 23015
-system "Fallen Leaf"
-	add fleet "space fauna 01" 14513
-system "Far Horizon"
-	add fleet "space fauna 01" 18643
-system Farbutero
-	add fleet "space fauna 01" 18306
-system Faronektu
-	add fleet "space fauna 01" 12677
-system Fearis
-	add fleet "space fauna 01" 16185
-system "Fell Omen"
-	add fleet "space fauna 01" 20446
-system Fereti
-	add fleet "space fauna 01" 22977
-system Feroteri
-	add fleet "space fauna 01" 18209
-system Ferukistek
-	add fleet "space fauna 01" 21532
-system Fingol
-	add fleet "space fauna 01" 18809
-system Flugbu
-	add fleet "space fauna 01" 14979
-system Fomalhaut
-	add fleet "space fauna 01" 23575
-system Fornarep
-	add fleet "space fauna 01" 15918
-system "Four Pillars"
-	add fleet "space fauna 01" 22190
-system Furmeliki
-	add fleet "space fauna 01" 22364
-system "Gamma Corvi"
-	add fleet "space fauna 01" 17905
-system Gerenus
-	add fleet "space fauna 01" 16162
-system Ghhil
-	add fleet "space fauna 01" 20744
-system Gienah
-	add fleet "space fauna 01" 12328
-system Giribea
-	add fleet "space fauna 01" 23845
-system Girtab
-	add fleet "space fauna 01" 14887
-system Glubatub
-	add fleet "space fauna 01" 21611
-system Gomeisa
-	add fleet "space fauna 01" 13727
-system "Good Omen"
-	add fleet "space fauna 01" 16930
-system Graffias
-	add fleet "space fauna 01" 13789
-system Gupta
-	add fleet "space fauna 01" 20356
-system Hadar
-	add fleet "space fauna 01" 15407
-system Hamal
-	add fleet "space fauna 01" 12993
-system Han
-	add fleet "space fauna 01" 23274
-system "Heia Due"
-	add fleet "space fauna 01" 13130
-system Hesselpost
-	add fleet "space fauna 01" 14628
-system Heutesl
-	add fleet "space fauna 01" 12951
-system "Hevru Hai"
-	add fleet "space fauna 01" 22814
-system "Hi Yahr"
-	add fleet "space fauna 01" 12508
-system Homeward
-	add fleet "space fauna 01" 17351
-system Host
-	add fleet "space fauna 01" 21991
-system Hunter
-	add fleet "space fauna 01" 23223
-system Huud
-	add fleet "space fauna 01" 20664
-system Ik'kara'ka
-	add fleet "space fauna 01" 15285
-system Iliniza
-	add fleet "space fauna 01" 16780
-system Ilirco
-	add fleet "space fauna 01" 13345
-system "Imo Dep"
-	add fleet "space fauna 01" 18636
-system Insitor
-	add fleet "space fauna 01" 13068
-system "Io Lowe"
-	add fleet "space fauna 01" 17002
-system "Io Mann"
-	add fleet "space fauna 01" 19469
-system Iyech'yek
-	add fleet "space fauna 01" 23776
-system Izar
-	add fleet "space fauna 01" 13623
-system "Jentu Centi"
-	add fleet "space fauna 01" 22528
-system "Jentu Le"
-	add fleet "space fauna 01" 12408
-system "Jyeg Pvu"
-	add fleet "space fauna 01" 17549
-system Ka'ch'chrai
-	add fleet "space fauna 01" 15239
-system Ka'pru
-	add fleet "space fauna 01" 14683
-system Kaliptari
-	add fleet "space fauna 01" 18526
-system Kanguwa
-	add fleet "space fauna 01" 14343
-system "Kappa Centauri"
-	add fleet "space fauna 01" 17508
-system Kashikt
-	add fleet "space fauna 01" 21623
-system "Kaus Australis"
-	add fleet "space fauna 01" 15238
-system "Kaus Borealis"
-	add fleet "space fauna 01" 15661
-system "Ki War Ek"
-	add fleet "space fauna 01" 17733
-system "Kifrana Terberah"
-	add fleet "space fauna 01" 22737
-system Kilema
-	add fleet "space fauna 01" 15610
-system Kiluit
-	add fleet "space fauna 01" 15288
-system Kiro'ku
-	add fleet "space fauna 01" 22409
-system Kiru'kichi
-	add fleet "space fauna 01" 18366
-system Kneirc
-	add fleet "space fauna 01" 22759
-system Kochab
-	add fleet "space fauna 01" 20067
-system "Kor En'lakfar"
-	add fleet "space fauna 01" 17505
-system "Kor Fel'tar"
-	add fleet "space fauna 01" 16063
-system "Kor Men"
-	add fleet "space fauna 01" 20712
-system "Kor Nor'peli"
-	add fleet "space fauna 01" 15096
-system "Kor Tar'bei"
-	add fleet "space fauna 01" 13117
-system "Kor Zena'i"
-	add fleet "space fauna 01" 13567
-system Kornephoros
-	add fleet "space fauna 01" 20203
-system Korsmanath
-	add fleet "space fauna 01" 21020
-system Kraz
-	add fleet "space fauna 01" 23691
-system Kursa
-	add fleet "space fauna 01" 15331
-system "Last Word"
-	add fleet "space fauna 01" 17192
-system Lire
-	add fleet "space fauna 01" 16305
-system "Lom Tahr"
-	add fleet "space fauna 01" 16745
-system "Lone Cloud"
-	add fleet "space fauna 01" 21099
-system Lucina
-	add fleet "space fauna 01" 22834
-system Makferuti
-	add fleet "space fauna 01" 12406
-system Markab
-	add fleet "space fauna 01" 13950
-system Markeb
-	add fleet "space fauna 01" 16454
-system Matar
-	add fleet "space fauna 01" 12074
-system Mebla
-	add fleet "space fauna 01" 15899
-system Meblumem
-	add fleet "space fauna 01" 19336
-system Mebsuta
-	add fleet "space fauna 01" 16000
-system "Mego Faro"
-	add fleet "space fauna 01" 13584
-system "Mego Inito"
-	add fleet "space fauna 01" 22081
-system "Mego Seo"
-	add fleet "space fauna 01" 18825
-system "Mei Yohn"
-	add fleet "space fauna 01" 21433
-system Mekislepti
-	add fleet "space fauna 01" 20143
-system Men
-	add fleet "space fauna 01" 14010
-system Menkar
-	add fleet "space fauna 01" 20372
-system Menkent
-	add fleet "space fauna 01" 21785
-system Merak
-	add fleet "space fauna 01" 19520
-system Miaplacidus
-	add fleet "space fauna 01" 13914
-system Miblulub
-	add fleet "space fauna 01" 16666
-system Mimosa
-	add fleet "space fauna 01" 17204
-system Mirach
-	add fleet "space fauna 01" 20307
-system Mirfak
-	add fleet "space fauna 01" 18226
-system Misam
-	add fleet "space fauna 01" 21763
-system Mnashyu
-	add fleet "space fauna 01" 17545
-system Muhlifain
-	add fleet "space fauna 01" 15476
-system Naos
-	add fleet "space fauna 01" 23530
-system Nenia
-	add fleet "space fauna 01" 14633
-system Nihal
-	add fleet "space fauna 01" 18436
-system Nnaug
-	add fleet "space fauna 01" 22208
-system Nona
-	add fleet "space fauna 01" 22789
-system Nssryos
-	add fleet "space fauna 01" 12923
-system Nunki
-	add fleet "space fauna 01" 21109
-system Ookmya
-	add fleet "space fauna 01" 13330
-system Oosuoro
-	add fleet "space fauna 01" 18775
-system Ossipago
-	add fleet "space fauna 01" 20354
-system "Over the Rainbow"
-	add fleet "space fauna 01" 13216
-system Paeli
-	add fleet "space fauna 01" 22978
-system Pantica
-	add fleet "space fauna 01" 20063
-system Parca
-	add fleet "space fauna 01" 14516
-system Patir
-	add fleet "space fauna 01" 17131
-system Pbelnep
-	add fleet "space fauna 01" 19346
-system Peacock
-	add fleet "space fauna 01" 17818
-system Pelubta
-	add fleet "space fauna 01" 16940
-system Peragenor
-	add fleet "space fauna 01" 13673
-system Phact
-	add fleet "space fauna 01" 21489
-system Phecda
-	add fleet "space fauna 01" 18718
-system Pherkad
-	add fleet "space fauna 01" 21105
-system Phurad
-	add fleet "space fauna 01" 15453
-system Piadenli
-	add fleet "space fauna 01" 21703
-system Pik'ro'iyak
-	add fleet "space fauna 01" 15049
-system Plort
-	add fleet "space fauna 01" 23824
-system Polaris
-	add fleet "space fauna 01" 22320
-system Polerius
-	add fleet "space fauna 01" 16180
-system Pollux
-	add fleet "space fauna 01" 12890
-system Porrima
-	add fleet "space fauna 01" 23897
-system Postverta
-	add fleet "space fauna 01" 14879
-system Ptetubo
-	add fleet "space fauna 01" 20713
-system "Pug Iyik"
-	add fleet "space fauna 01" 16847
-system Pukako
-	add fleet "space fauna 01" 21882
-system Quaru
-	add fleet "space fauna 01" 15465
-system Rasalhague
-	add fleet "space fauna 01" 13915
-system Rastaban
-	add fleet "space fauna 01" 23674
-system "Rati Cal"
-	add fleet "space fauna 01" 18065
-system "Ravu Kon"
-	add fleet "space fauna 01" 12928
-system Regor
-	add fleet "space fauna 01" 19855
-system Relifer
-	add fleet "space fauna 01" 16625
-system Remembrance
-	add fleet "space fauna 01" 22254
-system Ritilas
-	add fleet "space fauna 01" 23307
-system Rouseu
-	add fleet "space fauna 01" 22632
-system Ruchbah
-	add fleet "space fauna 01" 22703
-system Rutilicus
-	add fleet "space fauna 01" 13895
-system Sabik
-	add fleet "space fauna 01" 17009
-system Sadalmelik
-	add fleet "space fauna 01" 16292
-system Sadalsuud
-	add fleet "space fauna 01" 23471
-system Saiph
-	add fleet "space fauna 01" 22696
-system Sargas
-	add fleet "space fauna 01" 20836
-system Sarin
-	add fleet "space fauna 01" 12064
-system Scheat
-	add fleet "space fauna 01" 17060
-system Schedar
-	add fleet "space fauna 01" 20446
-system Scija
-	add fleet "space fauna 01" 19047
-system Segesta
-	add fleet "space fauna 01" 23805
-system Seginus
-	add fleet "space fauna 01" 20830
-system Seketra
-	add fleet "space fauna 01" 17566
-system Sepetrosk
-	add fleet "space fauna 01" 16555
-system "Sera Natta"
-	add fleet "space fauna 01" 18362
-system Sevrelect
-	add fleet "space fauna 01" 14354
-system Shaula
-	add fleet "space fauna 01" 23535
-system Sheratan
-	add fleet "space fauna 01" 20746
-system "Shini Bori"
-	add fleet "space fauna 01" 18430
-system Si'yak'ku
-	add fleet "space fauna 01" 22535
-system Sich'ka'ara
-	add fleet "space fauna 01" 17312
-system Silikatakfar
-	add fleet "space fauna 01" 20131
-system "Silver Bell"
-	add fleet "space fauna 01" 18885
-system "Silver String"
-	add fleet "space fauna 01" 21553
-system Similisti
-	add fleet "space fauna 01" 21870
-system Sirius
-	add fleet "space fauna 01" 17568
-system Skeruto
-	add fleet "space fauna 01" 20757
-system Sobarati
-	add fleet "space fauna 01" 23586
-system Sol
-	add fleet "space fauna 01" 20333
-system "Sol Arach"
-	add fleet "space fauna 01" 17132
-system "Sol Kimek"
-	add fleet "space fauna 01" 22571
-system "Sol Saryd"
-	add fleet "space fauna 01" 16905
-system Solifar
-	add fleet "space fauna 01" 15572
-system Speloog
-	add fleet "space fauna 01" 12721
-system Spica
-	add fleet "space fauna 01" 19357
-system Statina
-	add fleet "space fauna 01" 15202
-system "Steep Roof"
-	add fleet "space fauna 01" 15582
-system Suhail
-	add fleet "space fauna 01" 23482
-system Sumprast
-	add fleet "space fauna 01" 16950
-system Talita
-	add fleet "space fauna 01" 21194
-system "Tania Australis"
-	add fleet "space fauna 01" 18841
-system Tarazed
-	add fleet "space fauna 01" 18161
-system Tebuteb
-	add fleet "space fauna 01" 18087
-system Tejat
-	add fleet "space fauna 01" 22018
-system Terminus
-	add fleet "space fauna 01" 22716
-system "Terra Incognita"
-	add fleet "space fauna 01" 20619
-system "Thshybo Le"
-	add fleet "space fauna 01" 14754
-system Turais
-	add fleet "space fauna 01" 13746
-system "Ula Mon"
-	add fleet "space fauna 01" 13009
-system "Ultima Thule"
-	add fleet "space fauna 01" 13309
-system Unukalhai
-	add fleet "space fauna 01" 16435
-system "Urba Pest"
-	add fleet "space fauna 01" 18631
-system "Uwa Fahn"
-	add fleet "space fauna 01" 21219
-system Vaticanus
-	add fleet "space fauna 01" 23610
-system Vega
-	add fleet "space fauna 01" 22570
-system Vindemiatrix
-	add fleet "space fauna 01" 19683
-system Vorsuke
-	add fleet "space fauna 01" 21251
-system "Wah Ki"
+system Athiri
+	add fleet "space fauna 01" 19922
+system Chanai
 	add fleet "space fauna 01" 19070
+system Ghila
+	add fleet "space fauna 01" 22915
+system Maithi
+	add fleet "space fauna 01" 20326
+system Mitera
+	add fleet "space fauna 01" 13903
+system "1 Axis"
+	add fleet "space fauna 01" 19552
+system "10 Pole"
+	add fleet "space fauna 01" 13287
+system "11 Spring Below"
+	add fleet "space fauna 01" 23970
+system "12 Autumn Above"
+	add fleet "space fauna 01" 17011
+system "14 Pole"
+	add fleet "space fauna 01" 17533
+system "14 Summer Above"
+	add fleet "space fauna 01" 23812
+system "14 Winter Below"
+	add fleet "space fauna 01" 14898
+system "3 Axis"
+	add fleet "space fauna 01" 19165
+system "3 Pole"
+	add fleet "space fauna 01" 18110
+system "3 Spring Rising"
+	add fleet "space fauna 01" 14722
+system "4 Axis"
+	add fleet "space fauna 01" 14909
+system "4 Spring Rising"
+	add fleet "space fauna 01" 14431
+system "4 Summer Rising"
+	add fleet "space fauna 01" 16250
+system "4 Winter Rising"
+	add fleet "space fauna 01" 19677
+system "5 Axis"
+	add fleet "space fauna 01" 15058
+system "5 Summer Above"
+	add fleet "space fauna 01" 14688
+system "5 Winter Above"
+	add fleet "space fauna 01" 12086
+system "7 Autumn Rising"
+	add fleet "space fauna 01" 18287
+system "8 Winter Below"
+	add fleet "space fauna 01" 19535
+system "9 Spring Above"
+	add fleet "space fauna 01" 23453
+system Aaura-Kaska
+	add fleet "space fauna 01" 18400
+system Ablodab
+	add fleet "space fauna 01" 16367
+system Ablub
+	add fleet "space fauna 01" 23131
+system Achernar
+	add fleet "space fauna 01" 20343
+system Acrux
+	add fleet "space fauna 01" 13106
+system Actannka
+	add fleet "space fauna 01" 21822
+system Adhara
+	add fleet "space fauna 01" 15308
+system "Ae Il M-77"
+	add fleet "space fauna 01" 18122
+system Aescolanus
+	add fleet "space fauna 01" 22195
+system Aki'il
+	add fleet "space fauna 01" 16092
+system "Al Dhanab"
+	add fleet "space fauna 01" 22995
+system Albaldah
+	add fleet "space fauna 01" 14410
+system Albireo
+	add fleet "space fauna 01" 21562
+system Alcyone
+	add fleet "space fauna 01" 16584
+system Aldebaran
+	add fleet "space fauna 01" 22056
+system Alderamin
+	add fleet "space fauna 01" 19809
+system Aldhibain
+	add fleet "space fauna 01" 19723
+system Aleit
+	add fleet "space fauna 01" 16048
+system Algenib
+	add fleet "space fauna 01" 16906
+system Algieba
+	add fleet "space fauna 01" 18130
+system Algol
+	add fleet "space fauna 01" 18929
+system Algorel
+	add fleet "space fauna 01" 21905
+system Alheka
+	add fleet "space fauna 01" 22122
+system Alhena
+	add fleet "space fauna 01" 16281
+system Alioth
+	add fleet "space fauna 01" 19863
+system Alkaid
+	add fleet "space fauna 01" 12001
+system Almaaz
+	add fleet "space fauna 01" 14367
+system Almach
+	add fleet "space fauna 01" 16875
+system Alnair
+	add fleet "space fauna 01" 17442
+system Alnilam
+	add fleet "space fauna 01" 15567
+system Alnitak
+	add fleet "space fauna 01" 16412
+system Alniyat
+	add fleet "space fauna 01" 18329
+system "Alpha Centauri"
+	add fleet "space fauna 01" 19360
+system "Alpha Hydri"
+	add fleet "space fauna 01" 21114
+system Alphard
+	add fleet "space fauna 01" 21051
+system Alphecca
+	add fleet "space fauna 01" 22812
+system Alpheratz
+	add fleet "space fauna 01" 19403
+system Alpherg
+	add fleet "space fauna 01" 13725
+system Altair
+	add fleet "space fauna 01" 19600
+system Aludra
+	add fleet "space fauna 01" 23355
+system Anax
+	add fleet "space fauna 01" 14084
+system "Ancient Hope"
+	add fleet "space fauna 01" 16595
+system Ankaa
+	add fleet "space fauna 01" 21790
+system Answer
+	add fleet "space fauna 01" 17847
+system Antares
+	add fleet "space fauna 01" 14505
+system Anthem
+	add fleet "space fauna 01" 16852
+system Ap'arak
+	add fleet "space fauna 01" 18294
+system Arche
+	add fleet "space fauna 01" 21838
+system Arcturus
+	add fleet "space fauna 01" 14071
+system Arculus
+	add fleet "space fauna 01" 12457
+system Arneb
+	add fleet "space fauna 01" 12818
+system Ascella
+	add fleet "space fauna 01" 23378
+system Asikafarnut
+	add fleet "space fauna 01" 17598
+system Asio
+	add fleet "space fauna 01" 19498
+system Aspidiske
+	add fleet "space fauna 01" 15000
+system Atria
+	add fleet "space fauna 01" 18112
+system Auhru
+	add fleet "space fauna 01" 19252
+system Avior
+	add fleet "space fauna 01" 21613
+system "Avo Chigo"
+	add fleet "space fauna 01" 22634
+system Aya'k'k
+	add fleet "space fauna 01" 17312
+system Beginning
+	add fleet "space fauna 01" 21297
+system Belenos
+	add fleet "space fauna 01" 20744
+system Bellatrix
+	add fleet "space fauna 01" 21861
+system Belonging
+	add fleet "space fauna 01" 20442
+system Belug
+	add fleet "space fauna 01" 14399
+system Belugt
+	add fleet "space fauna 01" 15400
+system Betelgeuse
+	add fleet "space fauna 01" 15074
+system Billow
+	add fleet "space fauna 01" 14890
+system Bloptab
+	add fleet "space fauna 01" 16169
+system Blubipad
+	add fleet "space fauna 01" 12746
+system Blugtad
+	add fleet "space fauna 01" 17583
+system "Bore Fah"
+	add fleet "space fauna 01" 19763
+system "Bosuno Le"
+	add fleet "space fauna 01" 17339
+system "Bote Asu"
+	add fleet "space fauna 01" 15331
+system "Broken Bowl"
+	add fleet "space fauna 01" 21794
+system "Bunri Lemeta"
+	add fleet "space fauna 01" 13814
+system Canopus
+	add fleet "space fauna 01" 22367
+system Capella
+	add fleet "space fauna 01" 17885
+system Caph
+	add fleet "space fauna 01" 19040
+system Cardea
+	add fleet "space fauna 01" 17064
+system Castor
+	add fleet "space fauna 01" 19583
+system Cebalrai
+	add fleet "space fauna 01" 16204
+system Celeborim
+	add fleet "space fauna 01" 12222
+system Chikatip
+	add fleet "space fauna 01" 17674
+system Chimitarp
+	add fleet "space fauna 01" 12839
+system Chirr'ay'akai
+	add fleet "space fauna 01" 20332
+system Chornifath
+	add fleet "space fauna 01" 17254
+system Chy'chra
+	add fleet "space fauna 01" 16410
+system Chyyra-Osolaa
+	add fleet "space fauna 01" 17193
+system Cinxia
+	add fleet "space fauna 01" 17776
+system Citadelle
+	add fleet "space fauna 01" 15701
+system Clip
+	add fleet "space fauna 01" 13620
+system Coluber
+	add fleet "space fauna 01" 15937
+system Companion
+	add fleet "space fauna 01" 12339
+system Concerto
+	add fleet "space fauna 01" 21777
+system Convector
+	add fleet "space fauna 01" 14834
+system "Cor Caroli"
+	add fleet "space fauna 01" 14254
+system Corporeal
+	add fleet "space fauna 01" 19526
+system "Cura Dic"
+	add fleet "space fauna 01" 16524
+system Current
+	add fleet "space fauna 01" 22006
+system "Da Ent"
+	add fleet "space fauna 01" 16485
+system "Da Lest"
+	add fleet "space fauna 01" 23428
+system Dabih
+	add fleet "space fauna 01" 18350
+system Debrugt
+	add fleet "space fauna 01" 20718
+system Delia
+	add fleet "space fauna 01" 14282
+system "Delta Capricorni"
+	add fleet "space fauna 01" 20197
+system "Delta Sagittarii"
+	add fleet "space fauna 01" 22697
+system "Delta Velorum"
+	add fleet "space fauna 01" 14229
+system Demilude
+	add fleet "space fauna 01" 15805
+system Deneb
+	add fleet "space fauna 01" 20484
+system Denebola
+	add fleet "space fauna 01" 17026
+system Diphda
+	add fleet "space fauna 01" 12411
+system Dixere
+	add fleet "space fauna 01" 16361
+system Dokdobaru
+	add fleet "space fauna 01" 19136
+system Dom'us
+	add fleet "space fauna 01" 16316
+system Dschubba
+	add fleet "space fauna 01" 13469
+system Dubhe
+	add fleet "space fauna 01" 17640
+system "Due Yoot"
+	add fleet "space fauna 01" 22123
+system Eblumab
+	add fleet "space fauna 01" 16487
+system Edusa
+	add fleet "space fauna 01" 20083
+system "Ehma Ti"
+	add fleet "space fauna 01" 15475
+system Ek'kek'ru
+	add fleet "space fauna 01" 15994
+system Ekuarik
+	add fleet "space fauna 01" 13114
+system "Elabi Choati"
+	add fleet "space fauna 01" 21500
+system Elnath
+	add fleet "space fauna 01" 16547
+system "Elo Chigo"
+	add fleet "space fauna 01" 14722
+system Eneremprukt
+	add fleet "space fauna 01" 16427
+system "Eneva Katta"
+	add fleet "space fauna 01" 16898
+system Enif
+	add fleet "space fauna 01" 21340
+system Ensemble
+	add fleet "space fauna 01" 17737
+system "Epsilon Leonis"
+	add fleet "space fauna 01" 12744
+system Equus
+	add fleet "space fauna 01" 14835
+system "Era Natta"
+	add fleet "space fauna 01" 17006
+system "Erabu Lemeta"
+	add fleet "space fauna 01" 14451
+system "Eragaru Le"
+	add fleet "space fauna 01" 19577
+system "Erba Yle"
+	add fleet "space fauna 01" 23297
+system Es'sprak'ai
+	add fleet "space fauna 01" 15189
+system Eshkoshtar
+	add fleet "space fauna 01" 16283
+system Esix
+	add fleet "space fauna 01" 12346
+system Evanescence
+	add fleet "space fauna 01" 16407
+system Evrae
+	add fleet "space fauna 01" 19743
+system "Fah Root"
+	add fleet "space fauna 01" 23396
+system "Fah Soom"
+	add fleet "space fauna 01" 17367
+system "Fallen Leaf"
+	add fleet "space fauna 01" 16266
+system "Far Horizon"
+	add fleet "space fauna 01" 21271
+system Farbutero
+	add fleet "space fauna 01" 12415
+system Faronektu
+	add fleet "space fauna 01" 17649
+system Fearis
+	add fleet "space fauna 01" 23000
+system "Fell Omen"
+	add fleet "space fauna 01" 21176
+system Fereti
+	add fleet "space fauna 01" 15634
+system Feroteri
+	add fleet "space fauna 01" 15280
+system Ferukistek
+	add fleet "space fauna 01" 19682
+system Fingol
+	add fleet "space fauna 01" 21421
+system Firmament
+	add fleet "space fauna 01" 15848
+system Flugbu
+	add fleet "space fauna 01" 21476
+system Fomalhaut
+	add fleet "space fauna 01" 23617
+system Fornarep
+	add fleet "space fauna 01" 19170
+system "Four Pillars"
+	add fleet "space fauna 01" 22954
+system Frenzy
+	add fleet "space fauna 01" 13489
+system Furmeliki
+	add fleet "space fauna 01" 22688
+system Gacrux
+	add fleet "space fauna 01" 16876
+system Gale
+	add fleet "space fauna 01" 18280
+system "Gamma Corvi"
+	add fleet "space fauna 01" 17835
+system Gerenus
+	add fleet "space fauna 01" 20395
+system Ghhil
+	add fleet "space fauna 01" 16912
+system Gienah
+	add fleet "space fauna 01" 13096
+system Giribea
+	add fleet "space fauna 01" 16385
+system Girtab
+	add fleet "space fauna 01" 12343
+system Glide
+	add fleet "space fauna 01" 22741
+system Glubatub
+	add fleet "space fauna 01" 23849
+system Gomeisa
+	add fleet "space fauna 01" 20637
+system "Good Omen"
+	add fleet "space fauna 01" 15945
+system Gossamer
+	add fleet "space fauna 01" 12560
+system Graffias
+	add fleet "space fauna 01" 22423
+system Gupta
+	add fleet "space fauna 01" 13879
+system Gust
+	add fleet "space fauna 01" 14844
+system H-1
+	add fleet "space fauna 01" 21745
+system Hadar
+	add fleet "space fauna 01" 20099
+system Hamal
+	add fleet "space fauna 01" 14097
+system Han
+	add fleet "space fauna 01" 14060
+system Headwind
+	add fleet "space fauna 01" 21167
+system "Heia Due"
+	add fleet "space fauna 01" 23160
+system Hesselpost
+	add fleet "space fauna 01" 15850
+system Heutesl
+	add fleet "space fauna 01" 19202
+system "Hevru Hai"
+	add fleet "space fauna 01" 23606
+system "Hi Yahr"
+	add fleet "space fauna 01" 19731
+system Homeward
+	add fleet "space fauna 01" 20896
+system Host
+	add fleet "space fauna 01" 20439
+system Hui'uc
+	add fleet "space fauna 01" 15649
+system Hunter
+	add fleet "space fauna 01" 20528
+system Huud
+	add fleet "space fauna 01" 16987
+system Ik'kara'ka
+	add fleet "space fauna 01" 21593
+system Iliniza
+	add fleet "space fauna 01" 21581
+system Ilirco
+	add fleet "space fauna 01" 12352
+system Il'le
+	add fleet "space fauna 01" 23890
+system "Imo Dep"
+	add fleet "space fauna 01" 13990
+system Insitor
+	add fleet "space fauna 01" 20581
+system Interlude
+	add fleet "space fauna 01" 12719
+system "Io Lowe"
+	add fleet "space fauna 01" 14427
+system "Io Mann"
+	add fleet "space fauna 01" 21772
+system Iyech'yek
+	add fleet "space fauna 01" 14881
+system Izar
+	add fleet "space fauna 01" 15621
+system "Jentu Centi"
+	add fleet "space fauna 01" 21020
+system "Jentu Le"
+	add fleet "space fauna 01" 21429
+system "Jyeg Pvu"
+	add fleet "space fauna 01" 21981
+system Jyelio
+	add fleet "space fauna 01" 20838
+system Ka'ch'chrai
+	add fleet "space fauna 01" 15507
+system Ka'pru
+	add fleet "space fauna 01" 22740
+system Kaliptari
+	add fleet "space fauna 01" 13770
+system Kanguwa
+	add fleet "space fauna 01" 20698
+system "Kappa Centauri"
+	add fleet "space fauna 01" 21216
+system Kashikt
+	add fleet "space fauna 01" 22003
+system Kasii-Cavaasa
+	add fleet "space fauna 01" 20665
+system Kasii-Sola
+	add fleet "space fauna 01" 18331
+system "Kaus Australis"
+	add fleet "space fauna 01" 14670
+system "Kaus Borealis"
+	add fleet "space fauna 01" 13223
+system Kella-Uoasa
+	add fleet "space fauna 01" 16724
+system Khosa-Kaska
+	add fleet "space fauna 01" 16034
+system "Ki War Ek"
+	add fleet "space fauna 01" 22172
+system "Kifrana Terberah"
+	add fleet "space fauna 01" 22701
+system Kilema
+	add fleet "space fauna 01" 13503
+system Kiluit
+	add fleet "space fauna 01" 16557
+system Kiro'ku
+	add fleet "space fauna 01" 17742
+system Kiru'kichi
+	add fleet "space fauna 01" 14406
+system Kneirc
+	add fleet "space fauna 01" 13411
+system Kochab
+	add fleet "space fauna 01" 22716
+system "Kor En'lakfar"
+	add fleet "space fauna 01" 23314
+system "Kor Fel'tar"
+	add fleet "space fauna 01" 16595
+system "Kor Men"
+	add fleet "space fauna 01" 17900
+system "Kor Nor'peli"
+	add fleet "space fauna 01" 19245
+system "Kor Tar'bei"
+	add fleet "space fauna 01" 20774
+system "Kor Zena'i"
+	add fleet "space fauna 01" 15428
+system Kornephoros
+	add fleet "space fauna 01" 13390
+system Korsmanath
+	add fleet "space fauna 01" 22037
+system Kr-84
+	add fleet "space fauna 01" 15379
+system Kraz
+	add fleet "space fauna 01" 21914
+system Kugel
+	add fleet "space fauna 01" 21263
+system Kursa
+	add fleet "space fauna 01" 23853
+system "Last Word"
+	add fleet "space fauna 01" 13020
+system Lire
+	add fleet "space fauna 01" 18166
+system "Lom Tahr"
+	add fleet "space fauna 01" 14603
+system "Lone Cloud"
+	add fleet "space fauna 01" 18097
+system Lucina
+	add fleet "space fauna 01" 13896
+system Lumine
+	add fleet "space fauna 01" 17025
+system Luue-Saqru
+	add fleet "space fauna 01" 17479
+system Makferuti
+	add fleet "space fauna 01" 21083
+system Markab
+	add fleet "space fauna 01" 12502
+system Markeb
+	add fleet "space fauna 01" 12315
+system Maspa-Cavaasa
+	add fleet "space fauna 01" 23981
+system Maspa-Mavra
+	add fleet "space fauna 01" 15419
+system Maspa-Raaqa
+	add fleet "space fauna 01" 23861
+system Matar
+	add fleet "space fauna 01" 15077
+system Mebla
+	add fleet "space fauna 01" 22644
+system Meblumem
+	add fleet "space fauna 01" 17487
+system Mebsuta
+	add fleet "space fauna 01" 13791
+system "Mego Faro"
+	add fleet "space fauna 01" 22971
+system "Mego Inito"
+	add fleet "space fauna 01" 16777
+system "Mego Seo"
+	add fleet "space fauna 01" 13720
+system "Mei Yohn"
+	add fleet "space fauna 01" 15544
+system Mekislepti
+	add fleet "space fauna 01" 18561
+system Mellow
+	add fleet "space fauna 01" 20456
+system Men
+	add fleet "space fauna 01" 16654
+system Menkar
+	add fleet "space fauna 01" 14862
+system Menkent
+	add fleet "space fauna 01" 14065
+system Merak
+	add fleet "space fauna 01" 19397
+system Miaplacidus
+	add fleet "space fauna 01" 22404
+system Miblulub
+	add fleet "space fauna 01" 16468
+system Mimosa
+	add fleet "space fauna 01" 23498
+system Mirach
+	add fleet "space fauna 01" 22180
+system Mirfak
+	add fleet "space fauna 01" 23269
+system Misam
+	add fleet "space fauna 01" 15632
+system Mnashyu
+	add fleet "space fauna 01" 18224
+system Mosaa-Iyra
+	add fleet "space fauna 01" 17944
+system Mote
+	add fleet "space fauna 01" 15946
+system Muhlifain
+	add fleet "space fauna 01" 15025
+system Myiara-Nnesa
+	add fleet "space fauna 01" 18352
+system Myruet-Kvelq
+	add fleet "space fauna 01" 19136
+system Naos
+	add fleet "space fauna 01" 16520
+system Ne-20
+	add fleet "space fauna 01" 17648
+system Nenia
+	add fleet "space fauna 01" 17993
+system Nihal
+	add fleet "space fauna 01" 12520
+system Nnaug
+	add fleet "space fauna 01" 22742
+system Nocte
+	add fleet "space fauna 01" 20061
+system Nona
+	add fleet "space fauna 01" 21720
+system Nonet
+	add fleet "space fauna 01" 23007
+system Nssryos
+	add fleet "space fauna 01" 19735
+system Nunki
+	add fleet "space fauna 01" 17982
+system Ojstaan-Sola
+	add fleet "space fauna 01" 13134
+system Ookmya
+	add fleet "space fauna 01" 15598
+system Oosuoro
+	add fleet "space fauna 01" 15992
+system Osolaa-Uuoru
+	add fleet "space fauna 01" 23754
+system Ossipago
+	add fleet "space fauna 01" 18795
+system Oublaa-Khora
+	add fleet "space fauna 01" 22497
+system "Over the Rainbow"
+	add fleet "space fauna 01" 18922
+system Paeli
+	add fleet "space fauna 01" 14074
+system Pantica
+	add fleet "space fauna 01" 23500
+system Parca
+	add fleet "space fauna 01" 14957
+system Patir
+	add fleet "space fauna 01" 12020
+system Pbelnep
+	add fleet "space fauna 01" 16117
+system Peacock
+	add fleet "space fauna 01" 16462
+system "Pedita Pri"
+	add fleet "space fauna 01" 16603
+system "Pedita Sec"
+	add fleet "space fauna 01" 13816
+system Pelaa-Muora
+	add fleet "space fauna 01" 22319
+system Pelubta
+	add fleet "space fauna 01" 15064
+system Peragenor
+	add fleet "space fauna 01" 17530
+system Phact
+	add fleet "space fauna 01" 18636
+system Phecda
+	add fleet "space fauna 01" 21887
+system Pherkad
+	add fleet "space fauna 01" 21351
+system Phurad
+	add fleet "space fauna 01" 13512
+system Piadenli
+	add fleet "space fauna 01" 18536
+system Pik'ro'iyak
+	add fleet "space fauna 01" 21279
+system Pinnacle
+	add fleet "space fauna 01" 16336
+system Plort
+	add fleet "space fauna 01" 12531
+system Polaris
+	add fleet "space fauna 01" 21144
+system Polerius
+	add fleet "space fauna 01" 18928
+system Pollux
+	add fleet "space fauna 01" 20159
+system Porrima
+	add fleet "space fauna 01" 22908
+system "Porta Terra"
+	add fleet "space fauna 01" 19357
+system Postverta
+	add fleet "space fauna 01" 23126
+system Prelude
+	add fleet "space fauna 01" 20015
+system Procyon
+	add fleet "space fauna 01" 20124
+system Ptetubo
+	add fleet "space fauna 01" 22357
+system "Pug Iyik"
+	add fleet "space fauna 01" 14083
+system Pukako
+	add fleet "space fauna 01" 20906
+system Quartet
+	add fleet "space fauna 01" 14333
+system Quaru
+	add fleet "space fauna 01" 21577
+system Quintet
+	add fleet "space fauna 01" 18077
+system Raaqa-Ryuit
+	add fleet "space fauna 01" 20644
+system Rasalhague
+	add fleet "space fauna 01" 13495
+system Rastaban
+	add fleet "space fauna 01" 21302
+system "Rati Cal"
+	add fleet "space fauna 01" 22043
+system "Ravu Kon"
+	add fleet "space fauna 01" 21426
+system Regor
+	add fleet "space fauna 01" 17246
+system Relifer
+	add fleet "space fauna 01" 22766
+system Remembrance
+	add fleet "space fauna 01" 21433
+system Ritilas
+	add fleet "space fauna 01" 23988
+system Rivulet
+	add fleet "space fauna 01" 19741
+system Rota
+	add fleet "space fauna 01" 21033
+system Rouseu
+	add fleet "space fauna 01" 19550
+system Ruchbah
+	add fleet "space fauna 01" 15173
+system Rutilicus
+	add fleet "space fauna 01" 15812
+system Sabik
+	add fleet "space fauna 01" 15649
+system Sadalmelik
+	add fleet "space fauna 01" 12861
+system Sadalsuud
+	add fleet "space fauna 01" 12273
+system Sail
+	add fleet "space fauna 01" 16679
+system Saiph
+	add fleet "space fauna 01" 22146
+system Sargas
+	add fleet "space fauna 01" 21919
+system Sarin
+	add fleet "space fauna 01" 22118
+system Scheat
+	add fleet "space fauna 01" 18523
+system Schedar
+	add fleet "space fauna 01" 16959
+system Scija
+	add fleet "space fauna 01" 12659
+system Segesta
+	add fleet "space fauna 01" 17340
+system Seginus
+	add fleet "space fauna 01" 18915
+system Seketra
+	add fleet "space fauna 01" 19760
+system Sepetrosk
+	add fleet "space fauna 01" 16485
+system "Sera Natta"
+	add fleet "space fauna 01" 12273
+system Sevrelect
+	add fleet "space fauna 01" 21407
+system Sextet
+	add fleet "space fauna 01" 18413
+system Shaula
+	add fleet "space fauna 01" 21909
+system Sheratan
+	add fleet "space fauna 01" 22687
+system "Shini Bori"
+	add fleet "space fauna 01" 20798
+system Si'yak'ku
+	add fleet "space fauna 01" 17913
+system Sich'ka'ara
+	add fleet "space fauna 01" 13436
+system Silikatakfar
+	add fleet "space fauna 01" 19054
+system "Silver Bell"
+	add fleet "space fauna 01" 18786
+system "Silver String"
+	add fleet "space fauna 01" 23033
+system Similisti
+	add fleet "space fauna 01" 12752
+system Sirius
+	add fleet "space fauna 01" 21297
+system Skeruto
+	add fleet "space fauna 01" 19365
+system Soar
+	add fleet "space fauna 01" 15873
+system Sobarati
+	add fleet "space fauna 01" 22252
+system Sol
+	add fleet "space fauna 01" 20541
+system "Sol Arach"
+	add fleet "space fauna 01" 18812
+system "Sol Kimek"
+	add fleet "space fauna 01" 21012
+system "Sol Saryd"
+	add fleet "space fauna 01" 20504
+system Solifar
+	add fleet "space fauna 01" 21994
+system Span
+	add fleet "space fauna 01" 17856
+system Speloog
+	add fleet "space fauna 01" 21536
+system Spica
+	add fleet "space fauna 01" 17632
+system Statina
+	add fleet "space fauna 01" 20565
+system "Steep Roof"
+	add fleet "space fauna 01" 17262
+system Stiidej-Nnesa
+	add fleet "space fauna 01" 12900
+system Suhail
+	add fleet "space fauna 01" 21251
+system Sumprast
+	add fleet "space fauna 01" 17405
+system Supra
+	add fleet "space fauna 01" 19084
+system Symphony
+	add fleet "space fauna 01" 15379
+system Talita
+	add fleet "space fauna 01" 17644
+system "Tania Australis"
+	add fleet "space fauna 01" 16675
+system Tap
+	add fleet "space fauna 01" 18494
+system Tarazed
+	add fleet "space fauna 01" 12834
+system Tebuteb
+	add fleet "space fauna 01" 14828
+system Tejat
+	add fleet "space fauna 01" 17676
+system Terminus
+	add fleet "space fauna 01" 21495
+system "Terra Incognita"
+	add fleet "space fauna 01" 18463
+system Thread
+	add fleet "space fauna 01" 17912
+system "Thshybo Le"
+	add fleet "space fauna 01" 20594
+system Trio
+	add fleet "space fauna 01" 14933
+system Tumble
+	add fleet "space fauna 01" 18377
+system Turais
+	add fleet "space fauna 01" 23876
+system Tuur-Kella
+	add fleet "space fauna 01" 15347
+system "Ula Mon"
+	add fleet "space fauna 01" 13567
+system "Ultima Thule"
+	add fleet "space fauna 01" 22095
+system Unukalhai
+	add fleet "space fauna 01" 13514
+system "Urba Pest"
+	add fleet "space fauna 01" 23920
+system Uttna
+	add fleet "space fauna 01" 17241
+system Uuoru-Kella
+	add fleet "space fauna 01" 23014
+system Uuoru-Sossa
+	add fleet "space fauna 01" 19335
+system "Uwa Fahn"
+	add fleet "space fauna 01" 17578
+system Vade-Staja
+	add fleet "space fauna 01" 16664
+system Valkraa-Uuoru
+	add fleet "space fauna 01" 20162
+system Vasa-Oorua
+	add fleet "space fauna 01" 14222
+system Vaticanus
+	add fleet "space fauna 01" 19820
+system Vega
+	add fleet "space fauna 01" 12825
+system Vindemiatrix
+	add fleet "space fauna 01" 15552
+system Vorsuke
+	add fleet "space fauna 01" 16158
+system "Wah Ki"
+	add fleet "space fauna 01" 22593
 system "Wah Oh"
-	add fleet "space fauna 01" 22071
+	add fleet "space fauna 01" 16389
 system "Wah Yoot"
-	add fleet "space fauna 01" 16581
+	add fleet "space fauna 01" 18816
+system Wake
+	add fleet "space fauna 01" 15190
 system Waypoint
-	add fleet "space fauna 01" 15276
+	add fleet "space fauna 01" 12185
 system Wazn
-	add fleet "space fauna 01" 16464
+	add fleet "space fauna 01" 22383
 system Wei
-	add fleet "space fauna 01" 13685
+	add fleet "space fauna 01" 15658
 system Wezen
-	add fleet "space fauna 01" 18191
+	add fleet "space fauna 01" 18621
 system Wreoul
-	add fleet "space fauna 01" 14184
+	add fleet "space fauna 01" 14132
 system "Ya Hai"
-	add fleet "space fauna 01" 20204
+	add fleet "space fauna 01" 13173
 system "Yed Prior"
-	add fleet "space fauna 01" 15144
+	add fleet "space fauna 01" 19113
 system Yli
-	add fleet "space fauna 01" 13468
+	add fleet "space fauna 01" 14693
 system Zaurak
-	add fleet "space fauna 01" 19952
+	add fleet "space fauna 01" 17233
 system Zeinar
-	add fleet "space fauna 01" 20882
+	add fleet "space fauna 01" 12767
 system "Zeta Aquilae"
-	add fleet "space fauna 01" 16059
+	add fleet "space fauna 01" 18988
 system "Zeta Centauri"
-	add fleet "space fauna 01" 19423
+	add fleet "space fauna 01" 21821
 system Zosma
-	add fleet "space fauna 01" 14924
+	add fleet "space fauna 01" 19779
 system "Zuba Zub"
-	add fleet "space fauna 01" 19019
+	add fleet "space fauna 01" 19393
 system Zubenelhakrabi
-	add fleet "space fauna 01" 18217
+	add fleet "space fauna 01" 14171
 system Zubeneschamali
-	add fleet "space fauna 01" 16890
-system "Al Hurr"
-	add fleet "space fauna 01" 18815
+	add fleet "space fauna 01" 14593
