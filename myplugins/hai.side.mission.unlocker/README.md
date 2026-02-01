@@ -15,6 +15,9 @@ And removes hidden tag from "Devil-Hide" and "Al Hurr", both Hai Reveal systems.
 <br>
 Changelog:<br>
 <br>
+2026-02-01<br>
+removed devil run systems<br>
+<br>
 2025-06-05<br>
 removed nanachi and expanding business from plugin (0.10.13 enabled them now)<br>
 <br>
