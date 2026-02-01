@@ -19,6 +19,7 @@ def read_everything(data_folder, folder_exclude):
 
 	for text_file in text_files:
 		padding = ''
+		print(text_file)
 		folder = text_file.split(os.sep)[-2]
 		file_name = text_file.split(os.sep)[-1]
 		if len(folder + file_name)  < 80: # just for displaying / max len = 44(currently)
@@ -363,8 +364,7 @@ def write_mission(ship_names):
 
 
 def run():
-	#data_folder = '/storage/emulated/0/Download/data/'
-	data_folder = '/storage/9C33-6BBD/endless sky/data/'
+	data_folder = 'd:/games/endless sky/data/'
 	folder_exclude = ['_deprecated', '_ui']
 	node_exclude = ['\tattributes', '\t\tcategory', '\t\tlicenses', '\t\tweapon', '\t\t\t', '\t\t"flare', '\t\t"steering', '\t\t"reverse', '\t\t"heat dissipation', '\t\t"waterlining', '\t\t"gaslining', '\t\t"automaton', '#', '\t\t#']
 	ship_exclude = ["Ayym", "Quarg Skylark", "Korath Dredger", "Korath Raider", "Korath Chaser", "Korath World-Ship", "Windjammer", "Bluejacket", "Pollen", "Sprout", "Archon", "Void Sprite", "Ember Waste Node", "Embershade", "Embersylph", "Hallucination", "Asteroid", "Science Drone", "Emergency Shuttle", "Unknown Ship Type", "Surveillance Drone", "Aberrant Latte", "Aberrant Chomper", "Aberrant Pileup", "Aberrant Hugger", "Aberrant Longfellow", "Aberrant Dancer", "Aberrant Junior", "Aberrant Icebreaker", "Aberrant Pike", "Aberrant Mole", "Aberrant Whiskers", "Aberrant Trip", "Aberrant Triplet", "Asteroid Large 1", "Asteroid Large 2", "Asteroid Large 3", "Asteroid Large 4", "Asteroid Large 5", "Asteroid Medium", "Asteroid Young 1", "Asteroid Young 2", "Asteroid Young 3", "Asteroid Young 4", "Cloak Check", "Asteroid Planet", "Remnant Satellite", "Asteroid Blocker", "Maeri'het",  "Telis'het", "Vareti'het", "Nanobot", "_Ion Timer Ship", "Rescue Dummy", "Timer Ship", "Vyrmeid", "Astral Cetacean", "Pincer Beast"]

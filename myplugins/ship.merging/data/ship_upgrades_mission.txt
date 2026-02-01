@@ -1001,11 +1001,6 @@ mission "upgrade ships"
 						"ship model: Anomalocaris" >= 3
 						"ship model: Anomalocaris (T9)" >= 1
 					goto "Anomalocaris (T9)"
-				`	merge 3x "Geodesic Geocoris" and 1x "Geodesic Geocoris (T9)" into a "Geodesic Geocoris(T10)"`
-					to display
-						"ship model: Geodesic Geocoris" >= 3
-						"ship model: Geodesic Geocoris (T9)" >= 1
-					goto "Geodesic Geocoris (T9)"
 				`	merge 3x "Kyanite" and 1x "Kyanite (T9)" into a "Kyanite(T10)"`
 					to display
 						"ship model: Kyanite" >= 3
@@ -2446,11 +2441,6 @@ mission "upgrade ships"
 						"ship model: Anomalocaris" >= 3
 						"ship model: Anomalocaris (T8)" >= 1
 					goto "Anomalocaris (T8)"
-				`	merge 3x "Geodesic Geocoris" and 1x "Geodesic Geocoris (T8)" into a "Geodesic Geocoris(T9)"`
-					to display
-						"ship model: Geodesic Geocoris" >= 3
-						"ship model: Geodesic Geocoris (T8)" >= 1
-					goto "Geodesic Geocoris (T8)"
 				`	merge 3x "Kyanite" and 1x "Kyanite (T8)" into a "Kyanite(T9)"`
 					to display
 						"ship model: Kyanite" >= 3
@@ -3891,11 +3881,6 @@ mission "upgrade ships"
 						"ship model: Anomalocaris" >= 3
 						"ship model: Anomalocaris (T7)" >= 1
 					goto "Anomalocaris (T7)"
-				`	merge 3x "Geodesic Geocoris" and 1x "Geodesic Geocoris (T7)" into a "Geodesic Geocoris(T8)"`
-					to display
-						"ship model: Geodesic Geocoris" >= 3
-						"ship model: Geodesic Geocoris (T7)" >= 1
-					goto "Geodesic Geocoris (T7)"
 				`	merge 3x "Kyanite" and 1x "Kyanite (T7)" into a "Kyanite(T8)"`
 					to display
 						"ship model: Kyanite" >= 3
@@ -5336,11 +5321,6 @@ mission "upgrade ships"
 						"ship model: Anomalocaris" >= 3
 						"ship model: Anomalocaris (T6)" >= 1
 					goto "Anomalocaris (T6)"
-				`	merge 3x "Geodesic Geocoris" and 1x "Geodesic Geocoris (T6)" into a "Geodesic Geocoris(T7)"`
-					to display
-						"ship model: Geodesic Geocoris" >= 3
-						"ship model: Geodesic Geocoris (T6)" >= 1
-					goto "Geodesic Geocoris (T6)"
 				`	merge 3x "Kyanite" and 1x "Kyanite (T6)" into a "Kyanite(T7)"`
 					to display
 						"ship model: Kyanite" >= 3
@@ -6781,11 +6761,6 @@ mission "upgrade ships"
 						"ship model: Anomalocaris" >= 3
 						"ship model: Anomalocaris (T5)" >= 1
 					goto "Anomalocaris (T5)"
-				`	merge 3x "Geodesic Geocoris" and 1x "Geodesic Geocoris (T5)" into a "Geodesic Geocoris(T6)"`
-					to display
-						"ship model: Geodesic Geocoris" >= 3
-						"ship model: Geodesic Geocoris (T5)" >= 1
-					goto "Geodesic Geocoris (T5)"
 				`	merge 3x "Kyanite" and 1x "Kyanite (T5)" into a "Kyanite(T6)"`
 					to display
 						"ship model: Kyanite" >= 3
@@ -8226,11 +8201,6 @@ mission "upgrade ships"
 						"ship model: Anomalocaris" >= 3
 						"ship model: Anomalocaris (T4)" >= 1
 					goto "Anomalocaris (T4)"
-				`	merge 3x "Geodesic Geocoris" and 1x "Geodesic Geocoris (T4)" into a "Geodesic Geocoris(T5)"`
-					to display
-						"ship model: Geodesic Geocoris" >= 3
-						"ship model: Geodesic Geocoris (T4)" >= 1
-					goto "Geodesic Geocoris (T4)"
 				`	merge 3x "Kyanite" and 1x "Kyanite (T4)" into a "Kyanite(T5)"`
 					to display
 						"ship model: Kyanite" >= 3
@@ -9671,11 +9641,6 @@ mission "upgrade ships"
 						"ship model: Anomalocaris" >= 3
 						"ship model: Anomalocaris (T3)" >= 1
 					goto "Anomalocaris (T3)"
-				`	merge 3x "Geodesic Geocoris" and 1x "Geodesic Geocoris (T3)" into a "Geodesic Geocoris(T4)"`
-					to display
-						"ship model: Geodesic Geocoris" >= 3
-						"ship model: Geodesic Geocoris (T3)" >= 1
-					goto "Geodesic Geocoris (T3)"
 				`	merge 3x "Kyanite" and 1x "Kyanite (T3)" into a "Kyanite(T4)"`
 					to display
 						"ship model: Kyanite" >= 3
@@ -11116,11 +11081,6 @@ mission "upgrade ships"
 						"ship model: Anomalocaris" >= 3
 						"ship model: Anomalocaris (T2)" >= 1
 					goto "Anomalocaris (T2)"
-				`	merge 3x "Geodesic Geocoris" and 1x "Geodesic Geocoris (T2)" into a "Geodesic Geocoris(T3)"`
-					to display
-						"ship model: Geodesic Geocoris" >= 3
-						"ship model: Geodesic Geocoris (T2)" >= 1
-					goto "Geodesic Geocoris (T2)"
 				`	merge 3x "Kyanite" and 1x "Kyanite (T2)" into a "Kyanite(T3)"`
 					to display
 						"ship model: Kyanite" >= 3
@@ -12561,11 +12521,6 @@ mission "upgrade ships"
 						"ship model: Anomalocaris" >= 3
 						"ship model: Anomalocaris (T1)" >= 1
 					goto "Anomalocaris (T1)"
-				`	merge 3x "Geodesic Geocoris" and 1x "Geodesic Geocoris (T1)" into a "Geodesic Geocoris(T2)"`
-					to display
-						"ship model: Geodesic Geocoris" >= 3
-						"ship model: Geodesic Geocoris (T1)" >= 1
-					goto "Geodesic Geocoris (T1)"
 				`	merge 3x "Kyanite" and 1x "Kyanite (T1)" into a "Kyanite(T2)"`
 					to display
 						"ship model: Kyanite" >= 3
@@ -13810,10 +13765,6 @@ mission "upgrade ships"
 					to display
 						"ship model: Anomalocaris" >= 4
 					goto "Anomalocaris"
-				`	merge 4x "Geodesic Geocoris" into a "Geodesic Geocoris (T1)"`
-					to display
-						"ship model: Geodesic Geocoris" >= 4
-					goto "Geodesic Geocoris"
 				`	merge 4x "Kyanite" into a "Kyanite (T1)"`
 					to display
 						"ship model: Kyanite" >= 4
@@ -15751,14 +15702,6 @@ mission "upgrade ships"
 				take ship "Anomalocaris (T9)"
 				give ship "Anomalocaris (T10)"
 			`3x "Anomalocaris" removed, 1x "Anomalocaris (T9)" removed | 1x "Anomalocaris (T10)" given`
-				goto menu
-			label "Geodesic Geocoris (T9)"
-			action
-				take ship "Geodesic Geocoris"
-					count 3
-				take ship "Geodesic Geocoris (T9)"
-				give ship "Geodesic Geocoris (T10)"
-			`3x "Geodesic Geocoris" removed, 1x "Geodesic Geocoris (T9)" removed | 1x "Geodesic Geocoris (T10)" given`
 				goto menu
 			label "Kyanite (T9)"
 			action
@@ -18064,14 +18007,6 @@ mission "upgrade ships"
 				give ship "Anomalocaris (T9)"
 			`3x "Anomalocaris" removed, 1x "Anomalocaris (T8)" removed | 1x "Anomalocaris (T9)" given`
 				goto menu
-			label "Geodesic Geocoris (T8)"
-			action
-				take ship "Geodesic Geocoris"
-					count 3
-				take ship "Geodesic Geocoris (T8)"
-				give ship "Geodesic Geocoris (T9)"
-			`3x "Geodesic Geocoris" removed, 1x "Geodesic Geocoris (T8)" removed | 1x "Geodesic Geocoris (T9)" given`
-				goto menu
 			label "Kyanite (T8)"
 			action
 				take ship "Kyanite"
@@ -20375,14 +20310,6 @@ mission "upgrade ships"
 				take ship "Anomalocaris (T7)"
 				give ship "Anomalocaris (T8)"
 			`3x "Anomalocaris" removed, 1x "Anomalocaris (T7)" removed | 1x "Anomalocaris (T8)" given`
-				goto menu
-			label "Geodesic Geocoris (T7)"
-			action
-				take ship "Geodesic Geocoris"
-					count 3
-				take ship "Geodesic Geocoris (T7)"
-				give ship "Geodesic Geocoris (T8)"
-			`3x "Geodesic Geocoris" removed, 1x "Geodesic Geocoris (T7)" removed | 1x "Geodesic Geocoris (T8)" given`
 				goto menu
 			label "Kyanite (T7)"
 			action
@@ -22688,14 +22615,6 @@ mission "upgrade ships"
 				give ship "Anomalocaris (T7)"
 			`3x "Anomalocaris" removed, 1x "Anomalocaris (T6)" removed | 1x "Anomalocaris (T7)" given`
 				goto menu
-			label "Geodesic Geocoris (T6)"
-			action
-				take ship "Geodesic Geocoris"
-					count 3
-				take ship "Geodesic Geocoris (T6)"
-				give ship "Geodesic Geocoris (T7)"
-			`3x "Geodesic Geocoris" removed, 1x "Geodesic Geocoris (T6)" removed | 1x "Geodesic Geocoris (T7)" given`
-				goto menu
 			label "Kyanite (T6)"
 			action
 				take ship "Kyanite"
@@ -24999,14 +24918,6 @@ mission "upgrade ships"
 				take ship "Anomalocaris (T5)"
 				give ship "Anomalocaris (T6)"
 			`3x "Anomalocaris" removed, 1x "Anomalocaris (T5)" removed | 1x "Anomalocaris (T6)" given`
-				goto menu
-			label "Geodesic Geocoris (T5)"
-			action
-				take ship "Geodesic Geocoris"
-					count 3
-				take ship "Geodesic Geocoris (T5)"
-				give ship "Geodesic Geocoris (T6)"
-			`3x "Geodesic Geocoris" removed, 1x "Geodesic Geocoris (T5)" removed | 1x "Geodesic Geocoris (T6)" given`
 				goto menu
 			label "Kyanite (T5)"
 			action
@@ -27312,14 +27223,6 @@ mission "upgrade ships"
 				give ship "Anomalocaris (T5)"
 			`3x "Anomalocaris" removed, 1x "Anomalocaris (T4)" removed | 1x "Anomalocaris (T5)" given`
 				goto menu
-			label "Geodesic Geocoris (T4)"
-			action
-				take ship "Geodesic Geocoris"
-					count 3
-				take ship "Geodesic Geocoris (T4)"
-				give ship "Geodesic Geocoris (T5)"
-			`3x "Geodesic Geocoris" removed, 1x "Geodesic Geocoris (T4)" removed | 1x "Geodesic Geocoris (T5)" given`
-				goto menu
 			label "Kyanite (T4)"
 			action
 				take ship "Kyanite"
@@ -29623,14 +29526,6 @@ mission "upgrade ships"
 				take ship "Anomalocaris (T3)"
 				give ship "Anomalocaris (T4)"
 			`3x "Anomalocaris" removed, 1x "Anomalocaris (T3)" removed | 1x "Anomalocaris (T4)" given`
-				goto menu
-			label "Geodesic Geocoris (T3)"
-			action
-				take ship "Geodesic Geocoris"
-					count 3
-				take ship "Geodesic Geocoris (T3)"
-				give ship "Geodesic Geocoris (T4)"
-			`3x "Geodesic Geocoris" removed, 1x "Geodesic Geocoris (T3)" removed | 1x "Geodesic Geocoris (T4)" given`
 				goto menu
 			label "Kyanite (T3)"
 			action
@@ -31936,14 +31831,6 @@ mission "upgrade ships"
 				give ship "Anomalocaris (T3)"
 			`3x "Anomalocaris" removed, 1x "Anomalocaris (T2)" removed | 1x "Anomalocaris (T3)" given`
 				goto menu
-			label "Geodesic Geocoris (T2)"
-			action
-				take ship "Geodesic Geocoris"
-					count 3
-				take ship "Geodesic Geocoris (T2)"
-				give ship "Geodesic Geocoris (T3)"
-			`3x "Geodesic Geocoris" removed, 1x "Geodesic Geocoris (T2)" removed | 1x "Geodesic Geocoris (T3)" given`
-				goto menu
 			label "Kyanite (T2)"
 			action
 				take ship "Kyanite"
@@ -34248,14 +34135,6 @@ mission "upgrade ships"
 				give ship "Anomalocaris (T2)"
 			`3x "Anomalocaris" removed, 1x "Anomalocaris (T1)" removed | 1x "Anomalocaris (T2)" given`
 				goto menu
-			label "Geodesic Geocoris (T1)"
-			action
-				take ship "Geodesic Geocoris"
-					count 3
-				take ship "Geodesic Geocoris (T1)"
-				give ship "Geodesic Geocoris (T2)"
-			`3x "Geodesic Geocoris" removed, 1x "Geodesic Geocoris (T1)" removed | 1x "Geodesic Geocoris (T2)" given`
-				goto menu
 			label "Kyanite (T1)"
 			action
 				take ship "Kyanite"
@@ -36363,13 +36242,6 @@ mission "upgrade ships"
 					count 4
 				give ship "Anomalocaris (T1)"
 			`4x "Anomalocaris" removed | 1x "Anomalocaris (T1)" given`
-				goto menu
-			label "Geodesic Geocoris"
-			action
-				take ship "Geodesic Geocoris"
-					count 4
-				give ship "Geodesic Geocoris (T1)"
-			`4x "Geodesic Geocoris" removed | 1x "Geodesic Geocoris (T1)" given`
 				goto menu
 			label "Kyanite"
 			action

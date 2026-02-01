@@ -10,6 +10,9 @@ Reduce performance issues by reducing ship amounts or just make single ships mor
 <br>
 Changelog:<br>
 <br>
+2026-02-01<br>
+update to 0.11.0<br>
+<br>
 2025-10-26<br>
 update to 0.10.16<br>
 <br>
