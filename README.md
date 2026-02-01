@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-02-01 | update: more.boarding.missions<br>
 2026-02-01 | update: control.station<br>
 2026-02-01 | update: comets<br>
 2026-02-01 | update: show.reputation<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-02-01 | update: mission.helper<br>
 2026-01-31 | update: gegno.pirates<br>
 2026-01-05 | update: job.coloring<br>
-2026-01-04 | update: boss.loot<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3907,7 +3907,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/more.boarding.missions.png" width="130" height="20">
 
-[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.5-more.boarding.missions/more.boarding.missions.zip) v1.1.5 | 5.66 mb | 2025-06-05 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=more.boarding.missions-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) | <a href="res/imagemd/more.boarding.missions.md">view images</a> [50]<br>
+[more.boarding.missions.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.6-more.boarding.missions/more.boarding.missions.zip) v1.1.6 | 5.66 mb | 2026-02-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=more.boarding.missions-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/) | <a href="res/imagemd/more.boarding.missions.md">view images</a> [50]<br>
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the README for details.
 
@@ -3978,6 +3978,12 @@ Only natural spawning ships can trigger these missions and ships spawned from jo
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-02-01<br>
+
+updated to 0.11.0<br>
 
 <br>
 
