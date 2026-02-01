@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-02-01 | update: boss.loot<br>
 2026-02-01 | update: more.boarding.missions<br>
 2026-02-01 | update: control.station<br>
 2026-02-01 | update: comets<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-02-01 | update: hai.side.mission.unlocker<br>
 2026-02-01 | update: mission.helper<br>
 2026-01-31 | update: gegno.pirates<br>
-2026-01-05 | update: job.coloring<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -717,7 +717,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/boss.loot/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/boss.loot.png" width="130" height="20">
 
-[boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-boss.loot/boss.loot.zip) v1.0.7 | 17.74 mb | 2026-01-04 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=boss.loot-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) | <a href="res/imagemd/boss.loot.md">view images</a> [588]<br>
+[boss.loot.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-boss.loot/boss.loot.zip) v1.0.8 | 18.37 mb | 2026-02-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=boss.loot-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/) | <a href="res/imagemd/boss.loot.md">view images</a> [588]<br>
 <br>
 >A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism. See the README for details.
 
@@ -754,6 +754,12 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-02-01<br>
+
+updated to 0.11.0 / fixed removed governments<br>
 
 <br>
 

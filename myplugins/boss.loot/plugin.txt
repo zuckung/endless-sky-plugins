@@ -3,3 +3,4 @@ about "A series of dungeon-like boss encounters for a single ship. With loottabl
 authors 
 	"Unknown_Rawrs"
 	"zuckung"
+version 1.0.8
