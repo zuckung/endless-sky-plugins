@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-02-01 | update: ship.merging<br>
 2026-02-01 | update: boss.loot<br>
 2026-02-01 | update: more.boarding.missions<br>
 2026-02-01 | update: control.station<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-02-01 | update: too.many.asteroids<br>
 2026-02-01 | update: hai.side.mission.unlocker<br>
 2026-02-01 | update: mission.helper<br>
-2026-01-31 | update: gegno.pirates<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4686,7 +4686,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/ship.merging/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/ship.merging.png" width="130" height="20">
 
-[ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-ship.merging/ship.merging.zip) v1.0.5 | 2.45 mb | 2025-10-26 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=ship.merging-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) | <a href="res/imagemd/ship.merging.md">view images</a> [10]<br>
+[ship.merging.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-ship.merging/ship.merging.zip) v1.0.6 | 2.44 mb | 2026-02-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=ship.merging-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/) | <a href="res/imagemd/ship.merging.md">view images</a> [10]<br>
 <br>
 >This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship. See the README for details.
 
@@ -4713,6 +4713,12 @@ Reduce performance issues by reducing ship amounts or just make single ships mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-02-01<br>
+
+update to 0.11.0<br>
 
 <br>
 

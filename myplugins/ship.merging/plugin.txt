@@ -3,3 +3,4 @@ about "This plugin allows you to merge several ships of the same type into one w
 authors
 	"zuckung"
 	"unknown_rawrs"
+version 1.0.6
