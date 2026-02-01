@@ -11,7 +11,7 @@ def set_globals():
 	global data_folder
 	global govs
 	global selected_govs
-	data_folder = '/storage/9C33-6BBD/endless sky/data/' # change to your folder
+	data_folder = 'd:/games/endless sky/data/' # change to your folder
 	govs = []
 	# see goverment list in data/governments.txt or inside the generated mission file
 	# and choose here which you want inside the selected list.
