@@ -10,6 +10,9 @@ Every of the 699 base game systems (0.10.11) is edited via a remove command for 
 <br>
 Changelog:<br>
 <br>
+2026-02-01<br>
+updated to 0.11.0<br>
+<br>
 2025-08-29<br>
 icon@2x, plugintxt changes<br>
 <br>

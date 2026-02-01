@@ -1,5 +1,5 @@
-# number of systems: 699
-# number of asteroid entries: 3149
+# number of systems: 685
+# number of asteroid entries: 3086
 
 system "1 Axis"
 	remove asteroids "small rock"
@@ -351,8 +351,6 @@ system "Al Dhanab"
 	remove asteroids "small metal"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
-
-system "Al Hurr"
 
 system Albaldah
 	remove asteroids "small rock"
@@ -1171,85 +1169,6 @@ system Debrugt
 
 system Decet
 
-system "Deep Space 19K12"
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-
-system "Deep Space 19M1"
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-	remove asteroids "large rock"
-	remove asteroids "small metal"
-	remove asteroids "medium metal"
-	remove asteroids "large metal"
-
-system "Deep Space 19M2"
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-	remove asteroids "large rock"
-	remove asteroids "small metal"
-	remove asteroids "medium metal"
-	remove asteroids "large metal"
-
-system "Deep Space 19M5"
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-	remove asteroids "large rock"
-	remove asteroids "small metal"
-	remove asteroids "medium metal"
-	remove asteroids "large metal"
-
-system "Deep Space 1Q"
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-	remove asteroids "large rock"
-	remove asteroids "small metal"
-	remove asteroids "medium metal"
-	remove asteroids "large metal"
-
-system "Deep Space 1X"
-	remove asteroids "medium rock"
-	remove asteroids "small metal"
-
-system "Deep Space 5J"
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-	remove asteroids "large rock"
-	remove asteroids "small metal"
-	remove asteroids "large metal"
-
-system "Deep Space 5N"
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-	remove asteroids "large rock"
-	remove asteroids "small metal"
-	remove asteroids "medium metal"
-	remove asteroids "large metal"
-
-system "Deep Space 5T"
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-	remove asteroids "large rock"
-	remove asteroids "small metal"
-	remove asteroids "medium metal"
-	remove asteroids "large metal"
-
-system "Deep Space 7C"
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-	remove asteroids "large rock"
-	remove asteroids "small metal"
-	remove asteroids "medium metal"
-	remove asteroids "large metal"
-
-system "Deep Space 7F"
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-	remove asteroids "large rock"
-	remove asteroids "small metal"
-	remove asteroids "medium metal"
-	remove asteroids "large metal"
-
 system Delia
 	remove asteroids "large metal"
 	remove asteroids "large rock"
@@ -1300,16 +1219,6 @@ system Denebola
 	remove asteroids "large rock"
 	remove asteroids "medium metal"
 	remove asteroids "large metal"
-
-system Devil-Hide
-	remove asteroids "small rock"
-	remove asteroids "medium rock"
-	remove asteroids "large rock"
-	remove asteroids "small metal"
-	remove asteroids "medium metal"
-	remove asteroids "large metal"
-
-system Devil-Run
 
 system Diespiter
 	remove asteroids "small rock"

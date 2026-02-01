@@ -9,7 +9,7 @@ def remove_asteroids():
 	systemcount = 0
 	asteroidcount = 0
 	wlines = []
-	sourcefile = "/storage/9C33-6BBD/endless sky/data/map systems.txt"
+	sourcefile = "d:/games/endless sky/data/map systems.txt"
 	targetfile = "asteroids.txt"
 	with open(sourcefile, "r") as sourcefile:
 		lines = sourcefile.readlines()
