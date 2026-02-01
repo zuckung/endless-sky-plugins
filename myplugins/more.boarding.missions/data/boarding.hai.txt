@@ -157,7 +157,7 @@ mission "Assisting Hai Unfettered (Interceptor)"
 	to offer
 		random > 79
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Interceptor"
 	on offer
 		payment 30000
@@ -175,7 +175,7 @@ mission "Assisting Hai Unfettered (Light Warship)"
 	to offer
 		random > 79
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Light Warship"
 	on offer
 		payment 36000
@@ -193,7 +193,7 @@ mission "Assisting Hai Unfettered (Light Freighter)"
 	to offer
 		random > 79
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Light Freighter"
 	on offer
 		payment 54000
@@ -211,7 +211,7 @@ mission "Assisting Hai Unfettered (Medium Warship)"
 	to offer
 		random > 79
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Medium Warship"
 	on offer
 		payment 60000
@@ -229,7 +229,7 @@ mission "Assisting Hai Unfettered (Heavy Warship)"
 	to offer
 		random > 79
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Heavy Warship"
 	on offer
 		payment 90000
@@ -247,7 +247,7 @@ mission "Boarding Hai Unfettered (Interceptor)"
 	to offer
 		random > 89
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Interceptor"
 	on offer
 		payment 30000
@@ -265,7 +265,7 @@ mission "Boarding Hai Unfettered (Light Warship)"
 	to offer
 		random > 89
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Light Warship"
 	on offer
 		payment 36000
@@ -283,7 +283,7 @@ mission "Boarding Hai Unfettered (Light Freighter)"
 	to offer
 		random > 89
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Light Freighter"
 	on offer
 		payment 54000
@@ -301,7 +301,7 @@ mission "Boarding Hai Unfettered (Medium Warship)"
 	to offer
 		random > 89
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Medium Warship"
 	on offer
 		payment 60000
@@ -319,7 +319,7 @@ mission "Boarding Hai Unfettered (Heavy Warship)"
 	to offer
 		random > 89
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Heavy Warship"
 	on offer
 		payment 90000
@@ -337,7 +337,7 @@ mission "Boarding Hai Unfettered (tripulse shredder)"
 	to offer
 		random > 96
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Heavy Warship" "Medium Warship" "Light Freighter" "Light Warship"
 	on offer
 		outfit "Tripulse Shredder" 1
@@ -355,7 +355,7 @@ mission "Boarding Hai Unfettered (ionic blaster)"
 	to offer
 		random > 96
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Heavy Warship" "Medium Warship" "Light Freighter" "Light Warship"
 	on offer
 		outfit "Ionic Blaster Prototype" 1
@@ -373,7 +373,7 @@ mission "Boarding Hai Unfettered (ionic turret)"
 	to offer
 		random > 96
 	source
-		government "Hai (Unfettered)" "Hai (Friendly Unfettered)" "Hai (Unfettered Civilians)"
+		government "Hai (Unfettered)" "Hai (Unfettered Civilians)"
 		category "Heavy Warship" "Medium Warship" "Light Freighter" "Light Warship"
 	on offer
 		outfit "Ionic Turret Prototype" 1
