@@ -7,7 +7,7 @@ def get_version():
 	with open('changelog.txt', 'wb') as changelog:
 		changelog.write(request.content) # downloading the changelog
 	with open('changelog.txt', 'r') as sourcefile:
-		onlineversion = 'v' + sourcefile.readline().replace('Version ', '').replace('\n', '') # result example: v0.10.10
+		onlineversion = 'v' + sourcefile.readline().replace('Version ', '').replace('\n', '').replace(':', '') # result example: v0.10.10
 	releasev = 'EndlessSky-win64-' + onlineversion + '.zip '
 	env_file = os.getenv('GITHUB_ENV')
 	with open(env_file, "a") as envfile:
