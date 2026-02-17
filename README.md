@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-02-17 | update: heavy.traffic<br>
 2026-02-01 | update: ship.merging<br>
 2026-02-01 | update: boss.loot<br>
 2026-02-01 | update: more.boarding.missions<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-02-01 | update: space.fauna<br>
 2026-02-01 | update: too.many.asteroids<br>
 2026-02-01 | update: hai.side.mission.unlocker<br>
-2026-02-01 | update: mission.helper<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -58,6 +58,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
 <a href="README.md#haisidemissionunlocker">hai.side.mission.unlocker</a><br>
+<a href="README.md#heavytraffic">heavy.traffic</a><br>
 <a href="README.md#highrollersltd">highrollers.ltd</a><br>
 <a href="README.md#humanlabels">human.labels</a><br>
 <a href="README.md#jobcoloring">job.coloring</a><br>
@@ -69,8 +70,8 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <a href="README.md#licenses">licenses</a><br>
 <a href="README.md#missionhelper">mission.helper</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
-<a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
@@ -2837,6 +2838,67 @@ initial release<br>
 
 </blockquote>
 </details>
+
+<br>
+
+
+---
+
+### heavy.traffic
+
+<img src="myplugins/heavy.traffic/icon.png" height="100">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/heavy.traffic.png" width="130" height="20">
+
+[heavy.traffic.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-heavy.traffic/heavy.traffic.zip) v1.0.0 | 195.89 kb | 2026-02-17 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=heavy.traffic-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/heavy.traffic/) | <a href="res/imagemd/heavy.traffic.md">view images</a> [2]<br>
+<br>
+>Offers thousands of new jobs with high cargo and passengers. See the README for details.
+
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>### heavy.traffic
+
+<br>
+
+<br>
+
+Offers thousands of new jobs with high cargo and passengers.<br>
+
+<br>
+
+This plugin is script-generated. All vanilla cargo and passenger jobs got copied, renamed and added with 10 different high capacity cargo/passenger settings.<br>
+
+<br>
+
+Currently it adds:<br>
+
+2790 cargo jobs, 10 for every of the 279 vanilla cargo jobs.<br>
+
+2480 passenger jobs, 10 for every of the 248 vanilla passenger jobs.<br>
+
+<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2026-02-17<br>
+
+initial release (requested and tested by Lowry)<br>
+
+</blockquote>
+</details>
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/heavy.traffic01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
 
 <br>
 

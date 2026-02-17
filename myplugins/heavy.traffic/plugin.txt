@@ -2,3 +2,4 @@ name "heavy.traffic"
 about "Offers thousands of new jobs with high cargo and passengers. See the README for details."
 authors
 	"zuckung"
+version 1.0.0
