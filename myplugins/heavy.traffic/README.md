@@ -14,4 +14,4 @@ Currently it adds:<br>
 Changelog:<br>
 <br>
 2026-02-17<br>
-intial release (requested and tested by Lowry)<br>
+initial release (requested and tested by Lowry)<br>
