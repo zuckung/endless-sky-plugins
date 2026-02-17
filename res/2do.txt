@@ -96,7 +96,6 @@ space.fauna
   mission to help wounded?
   mission after found all 4?
   more planetary objects?
-  add new systems (starting from 0.10.9)
   @2x images missing / space.fauna land(1) planet(1) ship(14)
 
  

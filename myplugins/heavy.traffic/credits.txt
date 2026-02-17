@@ -1,0 +1,7 @@
+heavy.traffic
+author:
+	zuckung 
+	https://github.com/zuckung/endless-sky-plugins
+images:
+	icon
+		ai generated at https://www.craiyon.com/
