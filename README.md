@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-02-22 | update: galactic.capital.investment<br>
 2026-02-17 | update: heavy.traffic<br>
 2026-02-01 | update: ship.merging<br>
 2026-02-01 | update: boss.loot<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-02-01 | update: show.reputation<br>
 2026-02-01 | update: space.fauna<br>
 2026-02-01 | update: too.many.asteroids<br>
-2026-02-01 | update: hai.side.mission.unlocker<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2400,7 +2400,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/galactic.capital.investment.png" width="130" height="20">
 
-[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.11-galactic.capital.investment/galactic.capital.investment.zip) v1.1.11 | 4.2 mb | 2025-11-02 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=galactic.capital.investment-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) | <a href="res/imagemd/galactic.capital.investment.md">view images</a> [23]<br>
+[galactic.capital.investment.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.12-galactic.capital.investment/galactic.capital.investment.zip) v1.1.12 | 4.21 mb | 2026-02-22 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=galactic.capital.investment-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/) | <a href="res/imagemd/galactic.capital.investment.md">view images</a> [23]<br>
 <br>
 >Offers different job board banking services. From normal banking with low interest rates, over risky stock exchanges, and profitable investments (unlocked by missions), to a family trust. Available in human, quarg and hai space. See the README for details.
 
@@ -2451,6 +2451,12 @@ Enable and disable the investment jobs/missions<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-02-22<br>
+
+added stock selling/buying of 100k and 1m<br>
 
 <br>
 

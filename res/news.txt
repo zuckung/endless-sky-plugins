@@ -1,3 +1,4 @@
+2026-02-22 | update: galactic.capital.investment
 2026-02-17 | update: heavy.traffic
 2026-02-01 | update: ship.merging
 2026-02-01 | update: boss.loot
