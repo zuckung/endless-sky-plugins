@@ -210,6 +210,8 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		'			``\n' +\
 		'			label "%%"\n' +\
 		'			action\n' +\
+		'				"stock value %% 1000000" = "stock value %%" * 1000000\n' +\
+		'				"stock value %% 100000" = "stock value %%" * 100000\n' +\
 		'				"stock value %% 10000" = "stock value %%" * 10000\n' +\
 		'				"stock value %% 1000" = "stock value %%" * 1000\n' +\
 		'				"stock value %% 100" = "stock value %%" * 100\n' +\
@@ -245,11 +247,19 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		'			``\n' +\
 		'			`You hold: &[stock amount %%] stocks at &[stock value %%] credits each.`\n' +\
 		'			choice\n' +\
-		'				`	Buy 10000 stocks for &[stock value %% 10000] credits.`\n' +\
+		'				`	Buy 1,000,000 stocks for &[stock value %% 1000000] credits.`\n' +\
+		'					to display\n' +\
+		'						"credits" > "stock value %%" * 1000000\n' +\
+		'					goto "Buy 1000000 %%"\n' +\
+		'				`	Buy 100,000 stocks for &[stock value %% 100000] credits.`\n' +\
+		'					to display\n' +\
+		'						"credits" > "stock value %%" * 100000\n' +\
+		'					goto "Buy 100000 %%"\n' +\
+		'				`	Buy 10,000 stocks for &[stock value %% 10000] credits.`\n' +\
 		'					to display\n' +\
 		'						"credits" > "stock value %%" * 10000\n' +\
-		'					goto "Buy 10000 %%"\n' +\
-		'				`	Buy 1000 stocks for &[stock value %% 1000] credits.`\n' +\
+		'					goto "Buy 100000 %%"\n' +\
+		'				`	Buy 1,000 stocks for &[stock value %% 1000] credits.`\n' +\
 		'					to display\n' +\
 		'						"credits" > "stock value %%" * 1000\n' +\
 		'					goto "Buy 1000 %%"\n' +\
@@ -278,11 +288,19 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		'			``\n' +\
 		'			`You hold: &[stock amount %%] stocks at &[stock value %%] credits each.`\n' +\
 		'			choice\n' +\
-		'				`	Sell 10000 stocks for &[stock value %% 10000] credits.`\n' +\
+		'				`	Sell 1,000,000 stocks for &[stock value %% 1000000] credits.`\n' +\
+		'					to display\n' +\
+		'						"stock amount %%" >= 1000000\n' +\
+		'					goto "Sell 1000000 %%"\n' +\
+		'				`	Sell 100,000 stocks for &[stock value %% 100000] credits.`\n' +\
+		'					to display\n' +\
+		'						"stock amount %%" >= 100000\n' +\
+		'					goto "Sell 100000 %%"\n' +\
+		'				`	Sell 10,000 stocks for &[stock value %% 10000] credits.`\n' +\
 		'					to display\n' +\
 		'						"stock amount %%" >= 10000\n' +\
 		'					goto "Sell 10000 %%"\n' +\
-		'				`	Sell 1000 stocks for &[stock value %% 1000] credits.`\n' +\
+		'				`	Sell 1,000 stocks for &[stock value %% 1000] credits.`\n' +\
 		'					to display\n' +\
 		'						"stock amount %%" >= 1000\n' +\
 		'					goto "Sell 1000 %%"\n' +\
@@ -318,17 +336,29 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		'			action\n' +\
 		'				"stock value %%" += "stock change %%"\n'
 	labelstocktemplate = '' +\
+		'			label "Buy 1000000 %%"\n' +\
+		'			action\n' +\
+		'				"price" = "stock value %%" * 1000000\n' +\
+		'				"stock amount %%" += 1000000\n' +\
+		'			`Bought 1,000,000 %%`\n' +\
+		'				goto "buy stocks %%"\n' +\
+		'			label "Buy 100000 %%"\n' +\
+		'			action\n' +\
+		'				"price" = "stock value %%" * 100000\n' +\
+		'				"stock amount %%" += 100000\n' +\
+		'			`Bought 100,000 %%`\n' +\
+		'				goto "buy stocks %%"\n' +\
 		'			label "Buy 10000 %%"\n' +\
 		'			action\n' +\
 		'				"price" = "stock value %%" * 10000\n' +\
 		'				"stock amount %%" += 10000\n' +\
-		'			`Bought 10000 %%`\n' +\
+		'			`Bought 10,000 %%`\n' +\
 		'				goto "buy stocks %%"\n' +\
 		'			label "Buy 1000 %%"\n' +\
 		'			action\n' +\
 		'				"price" = "stock value %%" * 1000\n' +\
 		'				"stock amount %%" += 1000\n' +\
-		'			`Bought 1000 %%`\n' +\
+		'			`Bought 1,000 %%`\n' +\
 		'				goto "buy stocks %%"\n' +\
 		'			label "Buy 100 %%"\n' +\
 		'			action\n' +\
@@ -348,6 +378,18 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		'				"stock amount %%" += 1\n' +\
 		'			`Bought 1 %%`\n' +\
 		'				goto "buy stocks %%"\n' +\
+		'			label "Sell 1000000 %%"\n' +\
+		'			action\n' +\
+		'				"price" = "stock value %%" * 1000000\n' +\
+		'				"stock amount %%" -= 1000000\n' +\
+		'			`Sold 1,000,000 %%`\n' +\
+		'				goto "sell stocks %%"\n' +\
+		'			label "Sell 100000 %%"\n' +\
+		'			action\n' +\
+		'				"price" = "stock value %%" * 100000\n' +\
+		'				"stock amount %%" -= 100000\n' +\
+		'			`Sold 100,000 %%`\n' +\
+		'				goto "sell stocks %%"\n' +\
 		'			label "Sell 10000 %%"\n' +\
 		'			action\n' +\
 		'				"price" = "stock value %%" * 10000\n' +\
@@ -380,6 +422,20 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		'				goto "sell stocks %%"\n'
 	realsellingtemplate = '' +\
 		'			label "buy stocks %%"\n' +\
+		'			label "buy stocks 1000000 %%"\n' +\
+		'			branch "buy stocks 100000 %%"\n' +\
+		'				"price" < 1000000\n' +\
+		'			action\n' +\
+		'				payment -1000000\n' +\
+		'				price -= 1000000\n' +\
+		'			branch "buy stocks 1000000 %%"\n' +\
+		'			label "buy stocks 100000 %%"\n' +\
+		'			branch "buy stocks 10000 %%"\n' +\
+		'				"price" < 100000\n' +\
+		'			action\n' +\
+		'				payment -100000\n' +\
+		'				price -= 100000\n' +\
+		'			branch "buy stocks 100000 %%"\n' +\
 		'			label "buy stocks 10000 %%"\n' +\
 		'			branch "buy stocks 1000 %%"\n' +\
 		'				"price" < 10000\n' +\
@@ -421,6 +477,20 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		'\n' +\
 		'			label "sell stocks %%"\n' +\
 		'\n' +\
+		'			label "sell stocks 1000000 %%"\n' +\
+		'			branch "sell stocks 100000 %%"\n' +\
+		'				"price" < 1000000\n' +\
+		'			action\n' +\
+		'				payment +1000000\n' +\
+		'				price -= 1000000\n' +\
+		'			branch "sell stocks 100000 %%"\n' +\
+		'			label "sell stocks 100000 %%"\n' +\
+		'			branch "sell stocks 10000 %%"\n' +\
+		'				"price" < 100000\n' +\
+		'			action\n' +\
+		'				payment +100000\n' +\
+		'				price -= 100000\n' +\
+		'			branch "sell stocks 100000 %%"\n' +\
 		'			label "sell stocks 10000 %%"\n' +\
 		'			branch "sell stocks 1000 %%"\n' +\
 		'				"price" < 10000\n' +\

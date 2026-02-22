@@ -22,6 +22,9 @@ Enable and disable the investment jobs/missions<br>
 <br>
 Changelog:<br>
 <br>
+2026-02-22<br>
+added stock selling/buying of 100k and 1m<br>
+<br>
 2025-11-02<br>
 fixed stock selling bug (reported by Glittering_Pea2514)<br>
 fixed typos (by Kassandra Haruki)<br>
