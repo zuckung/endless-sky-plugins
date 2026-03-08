@@ -258,7 +258,7 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		'				`	Buy 10,000 stocks for &[stock value %% 10000] credits.`\n' +\
 		'					to display\n' +\
 		'						"credits" > "stock value %%" * 10000\n' +\
-		'					goto "Buy 100000 %%"\n' +\
+		'					goto "Buy 10000 %%"\n' +\
 		'				`	Buy 1,000 stocks for &[stock value %% 1000] credits.`\n' +\
 		'					to display\n' +\
 		'						"credits" > "stock value %%" * 1000\n' +\

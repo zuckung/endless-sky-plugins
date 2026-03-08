@@ -22,6 +22,9 @@ Enable and disable the investment jobs/missions<br>
 <br>
 Changelog:<br>
 <br>
+2026-03-08<br>
+fixed stock buying 10k (reported by CodeMagic)<br>
+<br>
 2026-02-22<br>
 added stock selling/buying of 100k and 1m<br>
 <br>

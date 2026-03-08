@@ -1120,7 +1120,7 @@ mission "gci banking terminal"
 				`	Buy 10,000 stocks for &[stock value Southbound Shipyards 10000] credits.`
 					to display
 						"credits" > "stock value Southbound Shipyards" * 10000
-					goto "Buy 100000 Southbound Shipyards"
+					goto "Buy 10000 Southbound Shipyards"
 				`	Buy 1,000 stocks for &[stock value Southbound Shipyards 1000] credits.`
 					to display
 						"credits" > "stock value Southbound Shipyards" * 1000
@@ -1232,7 +1232,7 @@ mission "gci banking terminal"
 				`	Buy 10,000 stocks for &[stock value Lionheart Shipyards 10000] credits.`
 					to display
 						"credits" > "stock value Lionheart Shipyards" * 10000
-					goto "Buy 100000 Lionheart Shipyards"
+					goto "Buy 10000 Lionheart Shipyards"
 				`	Buy 1,000 stocks for &[stock value Lionheart Shipyards 1000] credits.`
 					to display
 						"credits" > "stock value Lionheart Shipyards" * 1000
@@ -1344,7 +1344,7 @@ mission "gci banking terminal"
 				`	Buy 10,000 stocks for &[stock value Megaparsec Shipyards 10000] credits.`
 					to display
 						"credits" > "stock value Megaparsec Shipyards" * 10000
-					goto "Buy 100000 Megaparsec Shipyards"
+					goto "Buy 10000 Megaparsec Shipyards"
 				`	Buy 1,000 stocks for &[stock value Megaparsec Shipyards 1000] credits.`
 					to display
 						"credits" > "stock value Megaparsec Shipyards" * 1000
@@ -1456,7 +1456,7 @@ mission "gci banking terminal"
 				`	Buy 10,000 stocks for &[stock value Syndicate Shipyards 10000] credits.`
 					to display
 						"credits" > "stock value Syndicate Shipyards" * 10000
-					goto "Buy 100000 Syndicate Shipyards"
+					goto "Buy 10000 Syndicate Shipyards"
 				`	Buy 1,000 stocks for &[stock value Syndicate Shipyards 1000] credits.`
 					to display
 						"credits" > "stock value Syndicate Shipyards" * 1000
@@ -1568,7 +1568,7 @@ mission "gci banking terminal"
 				`	Buy 10,000 stocks for &[stock value Kraz Cybernetics 10000] credits.`
 					to display
 						"credits" > "stock value Kraz Cybernetics" * 10000
-					goto "Buy 100000 Kraz Cybernetics"
+					goto "Buy 10000 Kraz Cybernetics"
 				`	Buy 1,000 stocks for &[stock value Kraz Cybernetics 1000] credits.`
 					to display
 						"credits" > "stock value Kraz Cybernetics" * 1000
@@ -1680,7 +1680,7 @@ mission "gci banking terminal"
 				`	Buy 10,000 stocks for &[stock value Deep Sky 10000] credits.`
 					to display
 						"credits" > "stock value Deep Sky" * 10000
-					goto "Buy 100000 Deep Sky"
+					goto "Buy 10000 Deep Sky"
 				`	Buy 1,000 stocks for &[stock value Deep Sky 1000] credits.`
 					to display
 						"credits" > "stock value Deep Sky" * 1000
@@ -1792,7 +1792,7 @@ mission "gci banking terminal"
 				`	Buy 10,000 stocks for &[stock value Lovelace Labs 10000] credits.`
 					to display
 						"credits" > "stock value Lovelace Labs" * 10000
-					goto "Buy 100000 Lovelace Labs"
+					goto "Buy 10000 Lovelace Labs"
 				`	Buy 1,000 stocks for &[stock value Lovelace Labs 1000] credits.`
 					to display
 						"credits" > "stock value Lovelace Labs" * 1000
@@ -1904,7 +1904,7 @@ mission "gci banking terminal"
 				`	Buy 10,000 stocks for &[stock value Delta V 10000] credits.`
 					to display
 						"credits" > "stock value Delta V" * 10000
-					goto "Buy 100000 Delta V"
+					goto "Buy 10000 Delta V"
 				`	Buy 1,000 stocks for &[stock value Delta V 1000] credits.`
 					to display
 						"credits" > "stock value Delta V" * 1000
@@ -2016,7 +2016,7 @@ mission "gci banking terminal"
 				`	Buy 10,000 stocks for &[stock value Betelgeuse Shipyards 10000] credits.`
 					to display
 						"credits" > "stock value Betelgeuse Shipyards" * 10000
-					goto "Buy 100000 Betelgeuse Shipyards"
+					goto "Buy 10000 Betelgeuse Shipyards"
 				`	Buy 1,000 stocks for &[stock value Betelgeuse Shipyards 1000] credits.`
 					to display
 						"credits" > "stock value Betelgeuse Shipyards" * 1000
@@ -2128,7 +2128,7 @@ mission "gci banking terminal"
 				`	Buy 10,000 stocks for &[stock value Tarazed Corporation 10000] credits.`
 					to display
 						"credits" > "stock value Tarazed Corporation" * 10000
-					goto "Buy 100000 Tarazed Corporation"
+					goto "Buy 10000 Tarazed Corporation"
 				`	Buy 1,000 stocks for &[stock value Tarazed Corporation 1000] credits.`
 					to display
 						"credits" > "stock value Tarazed Corporation" * 1000
