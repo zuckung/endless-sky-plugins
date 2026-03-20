@@ -56,13 +56,19 @@ def read_everything(data_folder):
 	return objs, obj_paths, obj_names
 
 
-def filter_jobs(objs):
+def filter_jobs(objs, mission_blacklist):
 	print('checking for jobs with cargo/passengers')
 	# filter out jobs with cargo
 	cargojobs, passengerjobs = [], []
 	for obj in objs:
 		if obj.startswith('mission '):
 			if '\tjob' in obj:
+				ignore = False
+				for blacklisted in mission_blacklist:
+					if blacklisted in obj:
+						ignore = True
+				if ignore == True:
+					continue
 				if 'Bounty ' in obj: # exclude bounty jobs
 					continue
 				if '\tcargo' in obj and not '\tpassengers' in obj:
@@ -205,8 +211,9 @@ def filter_jobs(objs):
 
 def run():
 	data_folder = 'd:/games/endless sky/data/'
+	mission_blacklist = ['mission "A wolf, a goat, and a cabbage"', 'mission "Tourists out [0]"']
 	objs, obj_paths, obj_names = read_everything(data_folder)
-	filter_jobs(objs)
+	filter_jobs(objs, mission_blacklist)
 
 
 if __name__ == "__main__":
