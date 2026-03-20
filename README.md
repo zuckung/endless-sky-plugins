@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-03-20 | update: heavy.traffic<br>
 2026-03-11 | update: job.coloring<br>
 2026-03-08 | update: galactic.capital.investment<br>
 2026-02-22 | update: galactic.capital.investment<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-02-01 | update: more.boarding.missions<br>
 2026-02-01 | update: control.station<br>
 2026-02-01 | update: comets<br>
-2026-02-01 | update: show.reputation<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2861,7 +2861,7 @@ initial release<br>
 <img src="myplugins/heavy.traffic/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/heavy.traffic.png" width="130" height="20">
 
-[heavy.traffic.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-heavy.traffic/heavy.traffic.zip) v1.0.0 | 195.89 kb | 2026-02-17 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=heavy.traffic-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/heavy.traffic/) | <a href="res/imagemd/heavy.traffic.md">view images</a> [2]<br>
+[heavy.traffic.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-heavy.traffic/heavy.traffic.zip) v1.0.1 | 195.0 kb | 2026-03-20 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=heavy.traffic-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/heavy.traffic/) | <a href="res/imagemd/heavy.traffic.md">view images</a> [2]<br>
 <br>
 >Offers thousands of new jobs with high cargo and passengers. See the README for details.
 
@@ -2881,11 +2881,7 @@ This plugin is script-generated. All vanilla cargo and passenger jobs got copied
 
 <br>
 
-Currently it adds:<br>
-
-2790 cargo jobs, 10 for every of the 279 vanilla cargo jobs.<br>
-
-2480 passenger jobs, 10 for every of the 248 vanilla passenger jobs.<br>
+Currently it adds 5000+ new jobs.<br>
 
 <br>
 
@@ -2897,10 +2893,17 @@ Changelog:<br>
 
 <br>
 
+2026-03-20<br>
+
+removed mission from multiplying "A wolf, a goat, and a cabbage" (reported by Witch of many Colours)<br>
+
+removed mission from multiplying "Tourists out [0]" (reported by TGIF-41)<br>
+
+<br>
+
 2026-02-17<br>
 
 initial release (requested and tested by Lowry)<br>
-
 </blockquote>
 </details>
 <br>
