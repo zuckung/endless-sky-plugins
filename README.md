@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-04-08 | update: job.coloring<br>
 2026-03-20 | update: heavy.traffic<br>
 2026-03-11 | update: job.coloring<br>
 2026-03-08 | update: galactic.capital.investment<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-02-01 | update: boss.loot<br>
 2026-02-01 | update: more.boarding.missions<br>
 2026-02-01 | update: control.station<br>
-2026-02-01 | update: comets<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3105,7 +3105,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/job.coloring/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/job.coloring.png" width="130" height="20">
 
-[job.coloring.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-job.coloring/job.coloring.zip) v1.0.3 | 106.03 kb | 2026-03-11 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=job.coloring-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/job.coloring/) | <a href="res/imagemd/job.coloring.md">view images</a> [2]<br>
+[job.coloring.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-job.coloring/job.coloring.zip) v1.0.4 | 90.89 kb | 2026-04-08 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=job.coloring-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/job.coloring/) | <a href="res/imagemd/job.coloring.md">view images</a> [2]<br>
 <br>
 >Recolors all jobs to sort them by category(cargo/passenger/escort/etc). See the README for details.
 
@@ -3141,13 +3141,19 @@ Current colors:
 
 <br>
 
-The old jobs got disabled, and new jobs with a space at the end and recolored script got created. The new jobs also get a "set missionname: done" and "offered" in the "on complete" block, to keep compatibility.<br>
-
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-04-08<br>
+
+changed missions from disabled and recreated to "overwrite"<br>
+
+slightly more intense colors<br>
 
 <br>
 
