@@ -55,20 +55,19 @@ def read_everything(data_folder):
 	return objs, obj_paths, obj_names
 
 def recolor_jobs(objs):
-	full_text = 'disable mission\n'
+	print('coloring jobs')
+	full_text = ''
 	all_jobs = []
+	alrdy_colored = 0
 	# get all jobs
 	for obj in objs:
 		if '	job\n' in obj:
 			if not '	color ' in obj: # ignore 65 pirate jobs, already red colored
 				all_jobs.append(obj)
-	print('\tjobs found: ', str(len(all_jobs)))
-	# disable all jobs
-	for job in all_jobs:
-		pos = job.find('\n')
-		name = job[:pos].replace('mission ', '')
-		full_text += '	' + name + '\n'
-	full_text += '\n'
+			else:
+				alrdy_colored += 1
+	print('\tuncolored jobs found: ', str(len(all_jobs)))
+	print('\tcolored jobs found(ignored): ', str(alrdy_colored))
 	# add changed jobs
 	uncolored = 0
 	uncolored_list = []
@@ -76,44 +75,38 @@ def recolor_jobs(objs):
 		pos = job.find('\n')
 		firstline = job[:pos]
 		name = firstline.replace('"', '').replace('mission ', '')
-		# set old mission name done
-		oncomplete = '\ton complete\n' +\
-			'\t\t"' + name + ': done" += 1\n' +\
-			'\t\t"' + name + ': offered" += 1\n'
 		# decide coloring
 		if '	passengers' in job:
-			replace = '\nmission "' + name.strip() + ' "\n	color selected "coloring job passenger: selected"\n	color unselected "coloring job passenger: unselected"\n	color unavailable "coloring job passenger: unavailable"'
+			replace = '\nmission "' + name.strip() + '"\n	color selected "coloring job passenger: selected"\n	color unselected "coloring job passenger: unselected"\n	color unavailable "coloring job passenger: unavailable"'
 		elif '	cargo' in job:
-			replace = '\nmission "' + name.strip() + ' "\n	color selected "coloring job cargo: selected"\n	color unselected "coloring job cargo: unselected"\n	color unavailable "coloring job cargo: unavailable"'
+			replace = '\nmission "' + name.strip() + '"\n	color selected "coloring job cargo: selected"\n	color unselected "coloring job cargo: unselected"\n	color unavailable "coloring job cargo: unavailable"'
 		elif '	npc accompany save' in job:
-			replace = '\nmission "' + name.strip() + ' "\n	color selected "coloring job escort: selected"\n	color unselected "coloring job escort: unselected"\n	color unavailable "coloring job escort: unavailable"'
+			replace = '\nmission "' + name.strip() + '"\n	color selected "coloring job escort: selected"\n	color unselected "coloring job escort: unselected"\n	color unavailable "coloring job escort: unavailable"'
 		elif '	npc kill' in job:
-			replace = '\nmission "' + name.strip() + ' "\n	color selected "coloring job bounty: selected"\n	color unselected "coloring job bounty: unselected"\n	color unavailable "coloring job bounty: unavailable"'
+			replace = '\nmission "' + name.strip() + '"\n	color selected "coloring job bounty: selected"\n	color unselected "coloring job bounty: unselected"\n	color unavailable "coloring job bounty: unavailable"'
 		elif '	name "Harvested' in job or 'Asteroid Mining' in job:
-			replace = '\nmission "' + name.strip() + ' "\n	color selected "coloring job mining: selected"\n	color unselected "coloring job mining: unselected"\n	color unavailable "coloring job mining: unavailable"'
+			replace = '\nmission "' + name.strip() + '"\n	color selected "coloring job mining: selected"\n	color unselected "coloring job mining: unselected"\n	color unavailable "coloring job mining: unavailable"'
 		else: # no change
 			uncolored += 1
 			uncolored_list.append(name)
-			replace = '\nmission "' + name.strip() + ' "'
-			oncomplete = '\ton complete\n'
+			continue
 		# create script text
-		full_text += job.replace(firstline, replace).replace('\ton complete\n', oncomplete)
+		full_text += '\noverwrite' + job.replace(firstline, replace)
 	# list missed jobs
-	print('\tuncolored: ', uncolored)
+	print('\tDONE')
+	print('\tuncolored(uncatgorized): ', uncolored)
 	for each in uncolored_list:
 		print('\t\t' + each)
 	return full_text
 
 def write_file(full_text):
+	print('writing to file')
 	with open('coloring.jobs.txt', 'w') as target:
 		target.writelines(full_text)
-	
-	
-			
-
+	print('\tDONE')
 
 if __name__ == "__main__":
-	data_folder = 'C:/Users/woot/AppData/Local/ESLauncher2/instances/release/data/'
+	data_folder = 'D:/games/Endless Sky/data/'
 	objs, obj_paths, obj_names = read_everything(data_folder)
 	full_text = recolor_jobs(objs)
 	write_file(full_text)

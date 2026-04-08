@@ -13,10 +13,13 @@ Current colors:
 <li>Other plugin's jobs are still grey</li>
 </ul>
 <br>
-The old jobs got disabled, and new jobs with a space at the end and recolored script got created. The new jobs also get a "set missionname: done" and "offered" in the "on complete" block, to keep compatibility.<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2026-04-08<br>
+changed missions from disabled and recreated to "overwrite"<br>
+slightly more intense colors<br>
 <br>
 2026-03-11<br>
 updated to 0.11.0 (by RedTechGamer236)<br>
