@@ -55,10 +55,15 @@ Special: Inbuild Cloaking|max 1|"cloak" .01|"cloaking energy" 1|"cloaking fuel" 
 <br>
 <br>
 Changelog:<br>
-br>
+<br>
+2025-04-10<br>
+fixed initial mission question if the combat ai should stay or get removed<br>
+added control.station option to activate/deactivate the plugin missions<br>
+hopefully fixed FW Pug 2C missions when jump drive is offered<br>
+<br>
 2025-10-24<br>
 added energy gen, missile storage, jamming (wished by Kitteh)<br>
-br>
+<br>
 2025-10-23<br>
 added the option to reject combat.ai on a fresh pilot<br>
 added inbuild scram drive, inbuild jump drive, inbuild cloaking and passive income<br>

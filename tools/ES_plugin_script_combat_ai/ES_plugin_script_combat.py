@@ -1,7 +1,7 @@
 
 def read_templates():
 	outfitlines = []
-	xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template, substitutions = '', '', '', '', '', '', '', ''
+	xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template, mission5template, substitutions = '', '', '', '', '', '', '', '', ''
 	with open('data.txt', 'r') as source:
 		data = source.readlines()
 	for line in data:
@@ -26,10 +26,12 @@ def read_templates():
 			mission3template += line
 		elif curPos.startswith('# mission 4:'):
 			mission4template += line
+		elif curPos.startswith('# mission 5:'):
+			mission5template += line
 		elif curPos.startswith('# substitutions'):
 			substitutions += line
 	outfittxt += '\n\n'
-	return outfitlines, xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template, substitutions
+	return outfitlines, xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template, mission5template, substitutions
 
 
 def create_outfits(outfitlines, outfittxt, outfittemplate):
@@ -245,20 +247,20 @@ def create_mission4(outfitnames, mission4template):
 	return mission4txt
 
 
-def write_file(outfittxt, mission1txt, mission2txt, mission3txt, mission4txt, substitutions):
+def write_file(outfittxt, mission1txt, mission2txt, mission3txt, mission4txt, mission5template, substitutions):
 	# write to file
 	with open('combatAI.txt', 'w') as target:
-		target.writelines(substitutions + '\n\n' + outfittxt + '\n\n' + mission1txt + '\n\n' + mission2txt + '\n\n' + mission3txt + '\n\n' + mission4txt)
+		target.writelines(substitutions + '\n\n' + outfittxt + '\n\n' + mission1txt + '\n\n' + mission2txt + '\n\n' + mission3txt + '\n\n' + mission4txt + '\n\n' + mission5template)
 
 
 def run():
-	outfitlines, xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template, substitutions = read_templates()
+	outfitlines, xp, outfittxt, outfittemplate, mission1template, mission2template, mission3template, mission4template, mission5template, substitutions = read_templates()
 	outfittxt, outfitnames, displaynames, maxranks = create_outfits(outfitlines, outfittxt, outfittemplate)
 	mission1txt = create_mission1(outfitnames, mission1template)
 	mission2txt = create_mission2(xp, outfitnames, maxranks, displaynames, mission2template)
 	mission3txt = create_mission3(outfitnames, displaynames, mission3template)
 	mission4txt = create_mission4(outfitnames, mission4template)
-	write_file(outfittxt, mission1txt, mission2txt, mission3txt, mission4txt, substitutions)
+	write_file(outfittxt, mission1txt, mission2txt, mission3txt, mission4txt, mission5template, substitutions)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,74 @@
+# mission "combat.ai FW Pug 2C: inbuild scram"
+# mission "combat.ai FW Pug 2C: inbuilt jump"
+# overwrite mission "FW Pug Jump Drive Check"
+
+
+
+mission "combat.ai FW Pug 2C: inbuild scram"
+	landing
+	name "Investigate the Pug"
+	description "Travel to the Deneb system to investigate the Pug; if possible, make contact with them and determine what their goals and desires are."
+	source Hephaestus
+	destination Pugglemug
+	clearance
+	to offer
+		has "FW Pug 2B: done"
+		not "fw given jump drive"
+		has "outfit (flagship installed): combat_ai_advanced_scram_drive"
+	passengers 1
+	on fail
+		dialog phrase "free worlds failed"
+	on offer
+		conversation
+			`You are directed to land in a hangar some distance away from the spaceport, in a cluster of buildings owned by Syndicated Systems. A team of engineers meets you and quickly and efficiently removes your hyperdrive and replaces it with a strange, alien-looking device that you assume must be a jump drive. "Now, be careful with your fuel gauge," one of them tells you. "This thing guzzles twice as much fuel per jump as an ordinary hyperdrive, and you don't want to become stranded while outside human space."`
+				accept
+	on accept
+		outfit "Jump Drive" 1
+		set "fw given jump drive"
+	on visit
+		dialog `You land on <planet>, but realize that your escort carrying Alondo hasn't entered the system yet. Better depart and wait for it to arrive.`
+	on complete
+		set "FW Pug 2C: done"
+
+
+mission "combat.ai FW Pug 2C: inbuilt jump"
+	landing
+	name "Investigate the Pug"
+	description "Travel to the Deneb system to investigate the Pug; if possible, make contact with them and determine what their goals and desires are."
+	source Hephaestus
+	destination Pugglemug
+	clearance
+	to offer
+		has "FW Pug 2B: done"
+		not "fw given jump drive"
+		has "outfit (flagship installed): combat_ai_special_jump_drive"
+	passengers 1
+	on fail
+		dialog phrase "free worlds failed"
+	on offer
+		conversation
+			`You are directed to land in a hangar some distance away from the spaceport, in a cluster of buildings owned by Syndicated Systems. A team of engineers meets you and asks if they can look over your ship; a few minutes later, one of them says in surprise, "You've already got a jump drive! How did you manage that?" Since you don't need their equipment, they urge you to head directly for Pug space and continue your mission.`
+				accept
+	on accept
+		set "fw given jump drive"
+		set "already had jump drive"
+	on visit
+		dialog `You land on <planet>, but realize that your escort carrying Alondo hasn't entered the system yet. Better depart and wait for it to arrive.`
+	on complete
+		set "FW Pug 2C: done"
+
+
+overwrite
+mission "FW Pug Jump Drive Check"
+	landing
+	to offer
+		has "fw given jump drive"
+		or
+			not "outfit (all): Jump Drive"
+			not "outfit (all): combat_ai_special_jump_drive"
+		not "event: reconnected delta capricorni"
+	on offer
+		conversation
+			`Somehow, you've misplaced or lost the jump drive needed to continue the Free Worlds story! If you are unable to find your jump drive, you should revert to the autosave or another earlier snapshot of the game.`
+			`Alternatively, you could try to track down the Korath raiders that the Syndicate mentioned, and steal another jump drive from them, but it sounds like the Korath can put up quite a fight...`
+				decline

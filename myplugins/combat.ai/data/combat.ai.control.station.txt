@@ -19,11 +19,23 @@ mission "plugin: combat.ai"
 			label "start"
 			`Plugin: combat.ai`
 			``
+			`IMPORTANT: `
+				to display
+					has "combat.ai.declined"
+			`YOU'VE DECLINED COMBAT AI INSTALLATION. YOU NEED TO START A FRESH PILOT TO USE IT.`
+				to display
+					has "combat.ai.declined"
 			choice
 				`	show plugin README`
 					goto "readme"
 				`	save current combat.ai (on a fresh start you continue from this point)`
+					to display
+						not "combat.ai.declined"
 					goto "save cr"
+				`	activate/deactivate combat.ai`
+					to display
+						not "combat.ai.declined"
+					goto "actdeact"
 				`	done`
 					goto "end"
 			label "readme"
@@ -87,6 +99,54 @@ mission "plugin: combat.ai"
 				"global: combat.ai" = "combat rating"
 			`Combat.ai saved!`
 			`After you started a new pilot, you will be asked, if you want to continue combat.ai from this savepoint.`
+			choice
+				`	continue`
+					goto "start"
+			label "actdeact"
+			`Combat.ai is currently: ACTIVATED.`
+				to display
+					"combat.ai.activated" == 1
+			`Combat.ai is currently: DEACTIVATED.`
+				to display
+					"combat.ai.activated" == 0
+			``
+			`On deactivation`
+			`- the current combat rating will be saved for future reload.`
+			`- all combat.ai missions for update and restoration of updates will be blocked.`
+			`- installed updates and outfits will remain on the current flagship.`
+			``
+			`On activation`
+			`- the saved combat rating will be loaded.`
+			`- all combat.ai missions for update and restoration of updates will work again.`
+			``
+			choice
+				`	activate combat.ai`
+					to display
+						"combat.ai.activated" == 0
+					goto "activate"
+				`	deactivate combat.ai`
+					to display
+						"combat.ai.activated" == 1
+					goto "deactivate"
+				`	back to previous menu`
+					goto "start"
+
+			label "activate"
+			action
+				"combat.ai.activated" = 1
+				"combat rating" = "combat.ai.activated.saved.cr"
+			`combat.ai is activated now!`
+			``
+			choice
+				`	continue`
+					goto "start"
+
+			label "deactivate"
+			action
+				"combat.ai.activated" = 0
+				"combat.ai.activated.saved.cr" = "combat rating"
+			`combat.ai is deactivated now!`
+			``
 			choice
 				`	continue`
 					goto "start"
