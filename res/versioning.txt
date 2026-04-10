@@ -8,7 +8,7 @@ boss.loot|1.0.8
 bunrodea.missions|1.0.9
 captureable.person.ships|1.1.10
 coalition.shopping|1.0.7
-combat.ai|1.0.11
+combat.ai|1.0.12
 comets|1.0.1
 control.station|1.0.7
 devil-run.unhidden|1.0.1

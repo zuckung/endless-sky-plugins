@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-04-10 | update: combat.ai<br>
 2026-04-08 | update: job.coloring<br>
 2026-03-20 | update: heavy.traffic<br>
 2026-03-11 | update: job.coloring<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-02-01 | update: ship.merging<br>
 2026-02-01 | update: boss.loot<br>
 2026-02-01 | update: more.boarding.missions<br>
-2026-02-01 | update: control.station<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1431,7 +1431,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/combat.ai/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/combat.ai.png" width="130" height="20">
 
-[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.11-combat.ai/combat.ai.zip) v1.0.11 | 333.64 kb | 2025-10-24 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=combat.ai-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) | <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
+[combat.ai.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.12-combat.ai/combat.ai.zip) v1.0.12 | 335.58 kb | 2026-04-10 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=combat.ai-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/) | <a href="res/imagemd/combat.ai.md">view images</a> [6]<br>
 <br>
 >Offers a mission to install a combat AI, which increases your ship stats based on combat experience. See the README for details.
 
@@ -1551,13 +1551,23 @@ Special: Inbuild Cloaking|max 1|"cloak" .01|"cloaking energy" 1|"cloaking fuel" 
 
 Changelog:<br>
 
-br>
+<br>
+
+2025-04-10<br>
+
+fixed initial mission question if the combat ai should stay or get removed<br>
+
+added control.station option to activate/deactivate the plugin missions<br>
+
+hopefully fixed FW Pug 2C missions when jump drive is offered<br>
+
+<br>
 
 2025-10-24<br>
 
 added energy gen, missile storage, jamming (wished by Kitteh)<br>
 
-br>
+<br>
 
 2025-10-23<br>
 
