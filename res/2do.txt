@@ -23,13 +23,6 @@ bunrodea.missions
   balanced border system fight bun/korath
 
 
-combat.ai
-  full reset/deactivation
-  inbuilt hyper/jump: faster jumping
-  fix decline to not get combat ai on next landing
-  fix fw jump drive mission
-
-
 control.station
   set missions done / reset
     coalition 1 + lunarium + heliarch
@@ -66,10 +59,6 @@ landing.images
 
 
 more.person.ships
-  planet express & others: swizzle 0
-  make planet express stronger
-  make korath ship more special, since it is now in vanilla
-  add dark star (from uniques plugin)
   add battlestar galactica (from boss.loot plugin)
   add more ships
 

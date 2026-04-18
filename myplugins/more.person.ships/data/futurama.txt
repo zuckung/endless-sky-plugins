@@ -51,6 +51,7 @@ outfit "mps_giraffe_3_net"
 
 
 ship "mps_old_bessie"
+	"swizzle" 0
 	"display name" "Old Bessie"
 	sprite "ship/planetexpress"
 	attributes
@@ -69,6 +70,7 @@ ship "mps_old_bessie"
 		"outfit space" 600
 		"weapon capacity" 190
 		"engine capacity" 120
+		"hull repair rate" 0.4
 		"drill port" 1
 		"drill lock" -1
 		weapon

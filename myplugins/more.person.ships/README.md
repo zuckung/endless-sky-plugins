@@ -4,7 +4,7 @@
 This plugin adds more person ships.<br>
 <br>
 I renamed my plugin pirate.warlords and added more person ships.<br>
-These ships have a frequency of 1000, are all captureable and currently there are 8 persons.<br>
+These ships have a frequency of 1000, are all captureable and currently there are 10 persons.<br>
 <br>
 List of new person ships:<br>
 <br>
@@ -17,9 +17,16 @@ Explorer Corps | Human territory | 3xBadger (new ship)<br>
 Coinin Tapa | east of Gegno territory| Coinin (new ship with new outfits)<br>
 Sesk Lem | Korath territory | Ikatila'ej (new ship, vanilla sprites)(@2x in official hdpi plugin)<br>
 Planet Express | everywhere | Old Bessie (new ship, stats by timeout.fu)
+Dark Star | Human territory | Dark Star (new ship)<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2026-04-18<br>
+removed stray pixels from badger and planet express<br>
+added swizzle 0 to the ships<br>
+made planet express and ikatila'ey'ey stronger<br>
+added dark star<br>
 <br>
 2025-06-05<br>
 colored job<br>

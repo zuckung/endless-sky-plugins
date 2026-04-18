@@ -4,6 +4,7 @@
 # ship "Eco"
 # ship "ESS Essess"
 # ship "Korath Ikatila'ej"
+# ship "MPS Dark Star"
 
 
 
@@ -88,6 +89,7 @@ ship "Modified Bactrian"
 
 
 ship "Badger"
+	"swizzle" 0
 	sprite "ship/badger"
 	attributes
 		category "Light Warship"
@@ -139,6 +141,7 @@ ship "Badger"
 
 
 ship "Eco"
+	"swizzle" 0
 	sprite "ship/eco"
 	attributes
 		category "Utility"
@@ -203,6 +206,7 @@ ship "Eco"
 
 
 ship "ESS Essess"
+	"swizzle" 0
 	"display name" "Coinin"
 	plural "ESS Essesses"
 	sprite "ship/essess"
@@ -263,23 +267,23 @@ ship "ESS Essess"
 
 
 ship "Korath Ikatila'ej"
-	"display name" "Ikatila'ej"
+	"display name" "Ikatila'ej'ej"
 	sprite "ship/ikatila-ej"
 	attributes
 		category "Utility"
 		"cost" 35500000
-		"shields" 38000
-		"hull" 20000
+		"shields" 80000
+		"hull" 100000
 		"required crew" 150
 		"bunks" 300
-		"mass" 3542
+		"mass" 10000
 		"drag" 32.5
 		"heat dissipation" .24
 		"fuel capacity" 800
 		"cargo space" 250
 		"outfit space" 1050
-		"weapon capacity" 380
-		"engine capacity" 210
+		"weapon capacity" 440
+		"engine capacity" 260
 		weapon
 			"blast radius" 300
 			"shield damage" 4600
@@ -323,3 +327,60 @@ ship "Korath Ikatila'ej"
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
 	description "This seems to be an experimental Korath ship. The usual Korath fighter bays are missing and it has more weapons."
+
+
+ship "MPS Dark Star"
+	"display name" "Dark Star"
+	sprite "ship/darkstar"
+	thumbnail "thumbnail/argosy"
+	attributes
+		category "Heavy Freighter"
+		"cost" 1960000
+		"shields" 8000
+		"hull" 100000
+		"required crew" 4
+		"bunks" 10
+		"mass" 480
+		"drag" 100
+		"heat dissipation" .56
+		"fuel capacity" 400
+		"cargo space" 1200
+		"outfit space" 570
+		"weapon capacity" 180
+		"engine capacity" 160
+		weapon
+			"blast radius" 20000
+			"hull damage" 79999
+			"piercing" 1
+			"hit force" -8200
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Hyperdrive"
+	engine -25 91 0.6
+	engine -14 91 0.8
+	engine 14 91 0.8
+	engine 25 91 0.6
+	gun -22 -37 "Energy Blaster"
+	gun -22 -37 "Meteor Missile Launcher"
+	gun 22 -37 "Energy Blaster"
+	gun 22 -37 "Meteor Missile Launcher"
+	turret 0 -12.5 "Blaster Turret"
+	turret 0 9.5 "Anti-Missile Turret"
+	leak "leak" 60 50
+	leak "flame" 60 80
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "You should not be seeing the description of this ship."

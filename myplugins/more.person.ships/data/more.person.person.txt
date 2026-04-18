@@ -8,6 +8,7 @@
 # person "Explorer Corps"
 # person "Coinin"
 # person "Sesk Lem"
+# person "Dark Star"
 
 
 
@@ -166,3 +167,19 @@ person "Sesk Lem"
 			"Kor Nor'peli"
 			"Kor Ak'Mari"
 	ship "Korath Ikatila'ej" "Sesk Lem"
+
+
+person "Dark Star"
+	frequency 1000
+	government "Author"
+	personality
+		plunders heroic disables unconstrained surveillance
+	system
+		government "Free Worlds" "Republic" "Syndicate" "Independent" "Pirate"
+	phrase
+		word
+			"Let there be light."
+			"They’re beautiful… the stars are so beautiful."
+			"We’re all gonna die!"
+			"I’m going to stay here… with the stars."
+	ship "MPS Dark Star" "Dark Star"
