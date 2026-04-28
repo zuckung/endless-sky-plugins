@@ -2,6 +2,7 @@ category "outfit"
 	"Crew"
 
 outfit "combat isaac wirth"
+	"plural" "combat isaac wirth"
 	category "Crew"
 	"display name" "(Combat) Isaac Wirth"
 	thumbnail "portrait/ecmbm03"
@@ -16,6 +17,7 @@ outfit "combat isaac wirth"
 	description `This is a highly educated employee focused on hand-to-hand combat. He is a Human, grown up in "rim".`
 
 outfit "combat jessy tuta"
+	"plural" "combat jessy tuta"
 	category "Crew"
 	"display name" "(Combat) Jessy Tuta"
 	thumbnail "portrait/ecmbf02"
@@ -30,6 +32,7 @@ outfit "combat jessy tuta"
 	description `This is a highly educated employee focused on hand-to-hand combat. She is a Human, grown up in "south".`
 
 outfit "combat kianoush royston"
+	"plural" "combat kianoush royston"
 	category "Crew"
 	"display name" "(Combat) Kianoush Royston"
 	thumbnail "portrait/ecmam03"
@@ -44,6 +47,7 @@ outfit "combat kianoush royston"
 	description `This is a highly educated employee focused on hand-to-hand combat. He is a Human, grown up in "dirt belt".`
 
 outfit "combat rodrigo bain"
+	"plural" "combat rodrigo bain"
 	category "Crew"
 	"display name" "(Combat) Rodrigo Bain"
 	thumbnail "portrait/ecmbm04"
@@ -58,6 +62,7 @@ outfit "combat rodrigo bain"
 	description `This is a highly educated employee focused on hand-to-hand combat. He is a Human, grown up in "deep".`
 
 outfit "combat tieeitch"
+	"plural" "combat tieeitch"
 	category "Crew"
 	"display name" "(Combat) Tieeitch"
 	thumbnail "portrait/gegno01"
@@ -72,6 +77,7 @@ outfit "combat tieeitch"
 	description `This is a highly educated employee focused on hand-to-hand combat. He is a Gegno.`
 
 outfit "combat ainem wahpip"
+	"plural" "combat ainem wahpip"
 	category "Crew"
 	"display name" "(Combat) Ainem Wahpip"
 	thumbnail "portrait/hai02"
@@ -86,6 +92,7 @@ outfit "combat ainem wahpip"
 	description `This is a highly educated employee focused on hand-to-hand combat. He is a Hai.`
 
 outfit "combat asvip rap"
+	"plural" "combat asvip rap"
 	category "Crew"
 	"display name" "(Combat) Asvip Rap"
 	thumbnail "portrait/korath03"
@@ -100,6 +107,7 @@ outfit "combat asvip rap"
 	description `This is a highly educated employee focused on hand-to-hand combat. She is a Korath.`
 
 outfit "combat ry'i"
+	"plural" "combat ry'i"
 	category "Crew"
 	"display name" "(Combat) Ry'i"
 	thumbnail "portrait/kimek03"
@@ -114,6 +122,7 @@ outfit "combat ry'i"
 	description `This is a highly educated employee focused on hand-to-hand combat. He is a Kimek.`
 
 outfit "combat lugub"
+	"plural" "combat lugub"
 	category "Crew"
 	"display name" "(Combat) Lugub"
 	thumbnail "portrait/arachi04"
@@ -128,6 +137,7 @@ outfit "combat lugub"
 	description `This is a highly educated employee focused on hand-to-hand combat. She is an Arach.`
 
 outfit "combat biana"
+	"plural" "combat biana"
 	category "Crew"
 	"display name" "(Combat) Biana"
 	thumbnail "portrait/avgi01"
@@ -142,6 +152,7 @@ outfit "combat biana"
 	description `This is a highly educated employee focused on hand-to-hand combat. She is an Avgi.`
 
 outfit "cooling atreus bodilsen"
+	"plural" "cooling atreus bodilsen"
 	category "Crew"
 	"display name" "(Cooling) Atreus Bodilsen"
 	thumbnail "portrait/ecmwm01"
@@ -156,6 +167,7 @@ outfit "cooling atreus bodilsen"
 	description `This is a highly educated employee focused on cooling technologies. He is a Human, grown up in "south".`
 
 outfit "cooling beckah feidhelm"
+	"plural" "cooling beckah feidhelm"
 	category "Crew"
 	"display name" "(Cooling) Beckah Feidhelm"
 	thumbnail "portrait/ecmwf01"
@@ -170,6 +182,7 @@ outfit "cooling beckah feidhelm"
 	description `This is a highly educated employee focused on cooling technologies. She is a Human, grown up in "deep".`
 
 outfit "cooling caspar laurentinus"
+	"plural" "cooling caspar laurentinus"
 	plural "(Cooling) Caspar Laurentinus"
 	category "Crew"
 	"display name" "(Cooling) Caspar Laurentinus"
@@ -185,6 +198,7 @@ outfit "cooling caspar laurentinus"
 	description `This is a highly educated employee focused on cooling technologies. He is a Human, grown up in "rim".`
 
 outfit "cooling itoro signe"
+	"plural" "cooling itoro signe"
 	category "Crew"
 	"display name" "(Cooling) Itoro Signe"
 	thumbnail "portrait/ecmaf01"
@@ -199,6 +213,7 @@ outfit "cooling itoro signe"
 	description `This is a highly educated employee focused on cooling technologies. She is a Human, grown up in "dirt belt".`
 
 outfit "cooling dyeisc"
+	"plural" "cooling dyeisc"
 	category "Crew"
 	"display name" "(Cooling) Dyeisc"
 	thumbnail "portrait/gegno05"
@@ -213,6 +228,7 @@ outfit "cooling dyeisc"
 	description `This is a highly educated employee focused on cooling technologies. He is a Gegno.`
 
 outfit "cooling lohmahow monuden"
+	"plural" "cooling lohmahow monuden"
 	category "Crew"
 	"display name" "(Cooling) Lohmahow Monuden"
 	thumbnail "portrait/hai05"
@@ -227,6 +243,7 @@ outfit "cooling lohmahow monuden"
 	description `This is a highly educated employee focused on cooling technologies. She is a Hai.`
 
 outfit "cooling krikey"
+	"plural" "cooling krikey"
 	category "Crew"
 	"display name" "(Cooling) Krikey"
 	thumbnail "portrait/wanderer10"
@@ -241,6 +258,7 @@ outfit "cooling krikey"
 	description `This is a highly educated employee focused on cooling technologies. He is a Wanderer.`
 
 outfit "cooling kemme ranris"
+	"plural" "cooling kemme ranris"
 	plural "(Cooling) Kemme Ranris"
 	category "Crew"
 	"display name" "(Cooling) Kemme Ranris"
@@ -256,6 +274,7 @@ outfit "cooling kemme ranris"
 	description `This is a highly educated employee focused on cooling technologies. She is a Korath.`
 
 outfit "cooling lotura"
+	"plural" "cooling lotura"
 	category "Crew"
 	"display name" "(Cooling) Lotura"
 	thumbnail "portrait/saryd01"
@@ -270,6 +289,7 @@ outfit "cooling lotura"
 	description `This is a highly educated employee focused on cooling technologies. She is a Saryd.`
 
 outfit "cooling chana"
+	"plural" "cooling chana"
 	category "Crew"
 	"display name" "(Cooling) Chana"
 	thumbnail "portrait/avgi02"
@@ -284,6 +304,7 @@ outfit "cooling chana"
 	description `This is a highly educated employee focused on cooling technologies. She is an Avgi.`
 
 outfit "energy deirdre ciaran"
+	"plural" "energy deirdre ciaran"
 	category "Crew"
 	"display name" "(Energy) Deirdre Ciaran"
 	thumbnail "portrait/ecmwf02"
@@ -298,6 +319,7 @@ outfit "energy deirdre ciaran"
 	description `This is a highly educated employee focused on energy technologies. She is a Human, grown up in "rim".`
 
 outfit "energy lisa zola"
+	"plural" "energy lisa zola"
 	category "Crew"
 	"display name" "(Energy) Lisa Zola"
 	thumbnail "portrait/ecmwf03"
@@ -312,6 +334,7 @@ outfit "energy lisa zola"
 	description `This is a highly educated employee focused on energy technologies. She is a Human, grown up in "south".`
 
 outfit "energy normand kiran"
+	"plural" "energy normand kiran"
 	category "Crew"
 	"display name" "(Energy) Normand Kiran"
 	thumbnail "portrait/ecmwm10"
@@ -326,6 +349,7 @@ outfit "energy normand kiran"
 	description `This is a highly educated employee focused on energy technologies. He is a Human, grown up in "near earth".`
 
 outfit "energy simona branka"
+	"plural" "energy simona branka"
 	category "Crew"
 	"display name" "(Energy) Simona Branka"
 	thumbnail "portrait/ecmwf04"
@@ -340,6 +364,7 @@ outfit "energy simona branka"
 	description `This is a highly educated employee focused on energy technologies. She is a Human, grown up in "deep".`
 
 outfit "energy auriiel"
+	"plural" "energy auriiel"
 	category "Crew"
 	"display name" "(Energy) Auriiel"
 	thumbnail "portrait/gegno02"
@@ -354,6 +379,7 @@ outfit "energy auriiel"
 	description `This is a highly educated employee focused on energy technologies. He is a Gegno.`
 
 outfit "energy akane sakai"
+	"plural" "energy akane sakai"
 	category "Crew"
 	"display name" "(Energy) Akane Sakai"
 	thumbnail "portrait/bunrodea01"
@@ -368,6 +394,7 @@ outfit "energy akane sakai"
 	description `This is a highly educated employee focused on energy technologies. She is a Bunrodea.`
 
 outfit "energy aikach"
+	"plural" "energy aikach"
 	category "Crew"
 	"display name" "(Energy) Aikach"
 	thumbnail "portrait/wanderer01"
@@ -382,6 +409,7 @@ outfit "energy aikach"
 	description `This is a highly educated employee focused on energy technologies. She is a Wanderer.`
 
 outfit "energy raindrop"
+	"plural" "energy raindrop"
 	category "Crew"
 	"display name" "(Energy) Raindrop"
 	thumbnail "portrait/remnant04"
@@ -396,6 +424,7 @@ outfit "energy raindrop"
 	description `This is a highly educated employee focused on energy technologies. She is a Remnant.`
 
 outfit "energy paicha"
+	"plural" "energy paicha"
 	category "Crew"
 	"display name" "(Energy) Paicha"
 	thumbnail "portrait/kimek01"
@@ -410,6 +439,7 @@ outfit "energy paicha"
 	description `This is a highly educated employee focused on energy technologies. He is a Kimek.`
 
 outfit "energy pilos"
+	"plural" "energy pilos"
 	plural "(Energy) Pilos"
 	category "Crew"
 	"display name" "(Energy) Pilos"
@@ -425,6 +455,7 @@ outfit "energy pilos"
 	description `This is a highly educated employee focused on energy technologies. He is an Avgi.`
 
 outfit "engine anahit bodil"
+	"plural" "engine anahit bodil"
 	category "Crew"
 	"display name" "(Engine) Anahit Bodil"
 	thumbnail "portrait/ecmbf03"
@@ -440,6 +471,7 @@ outfit "engine anahit bodil"
 	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "core".`
 
 outfit "engine chetana jaleh"
+	"plural" "engine chetana jaleh"
 	category "Crew"
 	"display name" "(Engine) Chetana Jaleh"
 	thumbnail "portrait/ecmbf01"
@@ -455,6 +487,7 @@ outfit "engine chetana jaleh"
 	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "deep".`
 
 outfit "engine neal fransson"
+	"plural" "engine neal fransson"
 	category "Crew"
 	"display name" "(Engine) Neal Fransson"
 	thumbnail "portrait/ecmwm03"
@@ -470,6 +503,7 @@ outfit "engine neal fransson"
 	description `This is a highly educated employee focused on engine technologies. He is a Human, grown up in "south".`
 
 outfit "engine valeriya jannick"
+	"plural" "engine valeriya jannick"
 	category "Crew"
 	"display name" "(Engine) Valeriya Jannick"
 	thumbnail "portrait/ecmwf05"
@@ -485,6 +519,7 @@ outfit "engine valeriya jannick"
 	description `This is a highly educated employee focused on engine technologies. She is a Human, grown up in "near earth".`
 
 outfit "engine efeduefyu"
+	"plural" "engine efeduefyu"
 	category "Crew"
 	"display name" "(Engine) Efeduefyu"
 	thumbnail "portrait/gegno04"
@@ -500,6 +535,7 @@ outfit "engine efeduefyu"
 	description `This is a highly educated employee focused on engine technologies. He is a Gegno.`
 
 outfit "engine riko ishii"
+	"plural" "engine riko ishii"
 	category "Crew"
 	"display name" "(Engine) Riko Ishii"
 	thumbnail "portrait/bunrodea02"
@@ -515,6 +551,7 @@ outfit "engine riko ishii"
 	description `This is a highly educated employee focused on engine technologies. She is a Bunrodea.`
 
 outfit "engine ifir rakik"
+	"plural" "engine ifir rakik"
 	category "Crew"
 	"display name" "(Engine) Ifir Rakik"
 	thumbnail "portrait/korath05"
@@ -530,6 +567,7 @@ outfit "engine ifir rakik"
 	description `This is a highly educated employee focused on engine technologies. He is a Korath.`
 
 outfit "engine midnight"
+	"plural" "engine midnight"
 	category "Crew"
 	"display name" "(Engine) Midnight"
 	thumbnail "portrait/remnant09"
@@ -545,6 +583,7 @@ outfit "engine midnight"
 	description `This is a highly educated employee focused on engine technologies. He is a Remnant.`
 
 outfit "engine kyree"
+	"plural" "engine kyree"
 	category "Crew"
 	"display name" "(Engine) Kyree"
 	thumbnail "portrait/kimek04"
@@ -560,6 +599,7 @@ outfit "engine kyree"
 	description `This is a highly educated employee focused on engine technologies. She is a Kimek.`
 
 outfit "engine ulos"
+	"plural" "engine ulos"
 	plural "(Engine) Ulos"
 	category "Crew"
 	"display name" "(Engine) Ulos"
@@ -576,6 +616,7 @@ outfit "engine ulos"
 	description `This is a highly educated employee focused on engine technologies. He is an Avgi.`
 
 outfit "fuel carl ahmad"
+	"plural" "fuel carl ahmad"
 	category "Crew"
 	"display name" "(Fuel) Carl Ahmad"
 	thumbnail "portrait/ecmam04"
@@ -590,6 +631,7 @@ outfit "fuel carl ahmad"
 	description `This is a highly educated employee focused on fuel technologies. He is a Human, grown up in "core".`
 
 outfit "fuel kfir balam"
+	"plural" "fuel kfir balam"
 	category "Crew"
 	"display name" "(Fuel) Kfir Balam"
 	thumbnail "portrait/ecmbm01"
@@ -604,6 +646,7 @@ outfit "fuel kfir balam"
 	description `This is a highly educated employee focused on fuel technologies. He is a Human, grown up in "dirt belt".`
 
 outfit "fuel kostis joona"
+	"plural" "fuel kostis joona"
 	category "Crew"
 	"display name" "(Fuel) Kostis Joona"
 	thumbnail "portrait/ecmwm04"
@@ -618,6 +661,7 @@ outfit "fuel kostis joona"
 	description `This is a highly educated employee focused on fuel technologies. He is a Human, grown up in "near earth".`
 
 outfit "fuel nina sotiroula"
+	"plural" "fuel nina sotiroula"
 	category "Crew"
 	"display name" "(Fuel) Nina Sotiroula"
 	thumbnail "portrait/ecmbf04"
@@ -632,6 +676,7 @@ outfit "fuel nina sotiroula"
 	description `This is a highly educated employee focused on fuel technologies. She is a Human, grown up in "north".`
 
 outfit "fuel sookot dulur"
+	"plural" "fuel sookot dulur"
 	category "Crew"
 	"display name" "(Fuel) Sookot Dulur"
 	thumbnail "portrait/hai06"
@@ -646,6 +691,7 @@ outfit "fuel sookot dulur"
 	description `This is a highly educated employee focused on fuel technologies. She is a Hai.`
 
 outfit "fuel voriar"
+	"plural" "fuel voriar"
 	category "Crew"
 	"display name" "(Fuel) Voriar"
 	thumbnail "portrait/wanderer02"
@@ -660,6 +706,7 @@ outfit "fuel voriar"
 	description `This is a highly educated employee focused on fuel technologies. She is a Wanderer.`
 
 outfit "fuel ozon"
+	"plural" "fuel ozon"
 	category "Crew"
 	"display name" "(Fuel) Ozon"
 	thumbnail "portrait/remnant06"
@@ -674,6 +721,7 @@ outfit "fuel ozon"
 	description `This is a highly educated employee focused on fuel technologies. He is a Remnant.`
 
 outfit "fuel comseci"
+	"plural" "fuel comseci"
 	category "Crew"
 	"display name" "(Fuel) Comseci"
 	thumbnail "portrait/saryd05"
@@ -688,6 +736,7 @@ outfit "fuel comseci"
 	description `This is a highly educated employee focused on fuel technologies. He is a Saryd.`
 
 outfit "fuel boudaa"
+	"plural" "fuel boudaa"
 	category "Crew"
 	"display name" "(Fuel) Boudaa"
 	thumbnail "portrait/successor01"
@@ -702,6 +751,7 @@ outfit "fuel boudaa"
 	description `This is a highly educated employee focused on fuel technologies. He is a Successor.`
 
 outfit "fuel isi"
+	"plural" "fuel isi"
 	category "Crew"
 	"display name" "(Fuel) Isi"
 	thumbnail "portrait/avgi05"
@@ -716,6 +766,7 @@ outfit "fuel isi"
 	description `This is a highly educated employee focused on fuel technologies. She is an Avgi.`
 
 outfit "hull anuradha talin"
+	"plural" "hull anuradha talin"
 	category "Crew"
 	"display name" "(Hull) Anuradha Talin"
 	thumbnail "portrait/ecmaf03"
@@ -730,6 +781,7 @@ outfit "hull anuradha talin"
 	description `This is a highly educated employee focused on hull effectivity. She is a Human, grown up in "core".`
 
 outfit "hull julia grainne"
+	"plural" "hull julia grainne"
 	category "Crew"
 	"display name" "(Hull) Julia Grainne"
 	thumbnail "portrait/ecmwf06"
@@ -744,6 +796,7 @@ outfit "hull julia grainne"
 	description `This is a highly educated employee focused on hull effectivity. She is a Human, grown up in "paradise".`
 
 outfit "hull silvius hildegard"
+	"plural" "hull silvius hildegard"
 	category "Crew"
 	"display name" "(Hull) Silvius Hildegard"
 	thumbnail "portrait/ecmwm05"
@@ -759,6 +812,7 @@ outfit "hull silvius hildegard"
 	description `This is a highly educated employee focused on hull effectivity. He is a Human, grown up in "north".`
 
 outfit "hull sabina draga"
+	"plural" "hull sabina draga"
 	category "Crew"
 	"display name" "(Hull) Sabina Draga"
 	thumbnail "portrait/ecmwf07"
@@ -773,6 +827,7 @@ outfit "hull sabina draga"
 	description `This is a highly educated employee focused on hull effectivity. She is a Human, grown up in "south".`
 
 outfit "hull atras"
+	"plural" "hull atras"
 	plural "(Hull) Atras"
 	category "Crew"
 	"display name" "(Hull) Atras"
@@ -789,6 +844,7 @@ outfit "hull atras"
 	description `This is a highly educated employee focused on hull effectivity. He is an Incipias.`
 
 outfit "hull shiro kan"
+	"plural" "hull shiro kan"
 	category "Crew"
 	"display name" "(Hull) Shiro Kan"
 	thumbnail "portrait/bunrodea03"
@@ -804,6 +860,7 @@ outfit "hull shiro kan"
 	description `This is a highly educated employee focused on hull effectivity. He is a Bunrodea.`
 
 outfit "hull ak'en oaip"
+	"plural" "hull ak'en oaip"
 	category "Crew"
 	"display name" "(Hull) Ak'en Oaip"
 	thumbnail "portrait/korath07"
@@ -818,6 +875,7 @@ outfit "hull ak'en oaip"
 	description `This is a highly educated employee focused on hull effectivity. He is a Korath.`
 
 outfit "hull achee"
+	"plural" "hull achee"
 	category "Crew"
 	"display name" "(Hull) Achee"
 	thumbnail "portrait/kimek02"
@@ -833,6 +891,7 @@ outfit "hull achee"
 	description `This is a highly educated employee focused on hull effectivity. He is a Kimek.`
 
 outfit "hull potamog"
+	"plural" "hull potamog"
 	category "Crew"
 	"display name" "(Hull) Potamog"
 	thumbnail "portrait/arachi01"
@@ -847,6 +906,7 @@ outfit "hull potamog"
 	description `This is a highly educated employee focused on hull effectivity. He is an Arach.`
 
 outfit "hull kinmi"
+	"plural" "hull kinmi"
 	category "Crew"
 	"display name" "(Hull) Kinmi"
 	thumbnail "portrait/successor02"
@@ -862,6 +922,7 @@ outfit "hull kinmi"
 	description `This is a highly educated employee focused on hull effectivity. She is a Successor.`
 
 outfit "jamming aline mai"
+	"plural" "jamming aline mai"
 	category "Crew"
 	"display name" "(Jamming) Aline Mai"
 	thumbnail "portrait/ecmaf04"
@@ -876,6 +937,7 @@ outfit "jamming aline mai"
 	description `This is a highly educated employee focused on jamming technologies. She is a Human, grown up in "paradise".`
 
 outfit "jamming dominik bullock"
+	"plural" "jamming dominik bullock"
 	category "Crew"
 	"display name" "(Jamming) Dominik Bullock"
 	thumbnail "portrait/ecmwm06"
@@ -890,6 +952,7 @@ outfit "jamming dominik bullock"
 	description `This is a highly educated employee focused on jamming technologies. He is a Human, grown up in "dirt belt".`
 
 outfit "jamming enver diefenbach"
+	"plural" "jamming enver diefenbach"
 	category "Crew"
 	"display name" "(Jamming) Enver Diefenbach"
 	thumbnail "portrait/ecmwm07"
@@ -904,6 +967,7 @@ outfit "jamming enver diefenbach"
 	description `This is a highly educated employee focused on jamming technologies. He is a Human, grown up in "north".`
 
 outfit "jamming raban fields"
+	"plural" "jamming raban fields"
 	plural "(Jamming) Raban Fields"
 	category "Crew"
 	"display name" "(Jamming) Raban Fields"
@@ -919,6 +983,7 @@ outfit "jamming raban fields"
 	description `This is a highly educated employee focused on jamming technologies. He is a Human, grown up in "core".`
 
 outfit "jamming umeo ageta"
+	"plural" "jamming umeo ageta"
 	category "Crew"
 	"display name" "(Jamming) Umeo Ageta"
 	thumbnail "portrait/bunrodea07"
@@ -933,6 +998,7 @@ outfit "jamming umeo ageta"
 	description `This is a highly educated employee focused on jamming technologies. He is a Bunrodea.`
 
 outfit "jamming merus"
+	"plural" "jamming merus"
 	plural "(Jamming) Merus"
 	category "Crew"
 	"display name" "(Jamming) Merus"
@@ -948,6 +1014,7 @@ outfit "jamming merus"
 	description `This is a highly educated employee focused on jamming technologies. He is an Incipias.`
 
 outfit "jamming snowfall"
+	"plural" "jamming snowfall"
 	category "Crew"
 	"display name" "(Jamming) Snowfall"
 	thumbnail "portrait/remnant01"
@@ -962,6 +1029,7 @@ outfit "jamming snowfall"
 	description `This is a highly educated employee focused on jamming technologies. She is a Remnant.`
 
 outfit "jamming temtuor"
+	"plural" "jamming temtuor"
 	category "Crew"
 	"display name" "(Jamming) Temtuor"
 	thumbnail "portrait/saryd04"
@@ -976,6 +1044,7 @@ outfit "jamming temtuor"
 	description `This is a highly educated employee focused on jamming technologies. He is a Saryd.`
 
 outfit "jamming plortab"
+	"plural" "jamming plortab"
 	category "Crew"
 	"display name" "(Jamming) Plortab"
 	thumbnail "portrait/arachi02"
@@ -990,6 +1059,7 @@ outfit "jamming plortab"
 	description `This is a highly educated employee focused on jamming technologies. He is an Arach.`
 
 outfit "jamming naaq"
+	"plural" "jamming naaq"
 	category "Crew"
 	"display name" "(Jamming) Naaq"
 	thumbnail "portrait/successor03"
@@ -1004,6 +1074,7 @@ outfit "jamming naaq"
 	description `This is a highly educated employee focused on jamming technologies. He is a Successor.`
 
 outfit "scanner ivanus kozlov"
+	"plural" "scanner ivanus kozlov"
 	category "Crew"
 	"display name" "(Scanner) Ivanus Kozlov"
 	thumbnail "portrait/ecmwm08"
@@ -1019,6 +1090,7 @@ outfit "scanner ivanus kozlov"
 	description `This is a highly educated employee focused on scanner technologies. He is a Human, grown up in "paradise".`
 
 outfit "scanner mikmel wanjala"
+	"plural" "scanner mikmel wanjala"
 	category "Crew"
 	"display name" "(Scanner) Mikmel Wanjala"
 	thumbnail "portrait/ecmbm05"
@@ -1034,6 +1106,7 @@ outfit "scanner mikmel wanjala"
 	description `This is a highly educated employee focused on scanner technologies. He is a Human, grown up in "core".`
 
 outfit "scanner saffira ivka"
+	"plural" "scanner saffira ivka"
 	category "Crew"
 	"display name" "(Scanner) Saffira Ivka"
 	thumbnail "portrait/ecmaf05"
@@ -1049,6 +1122,7 @@ outfit "scanner saffira ivka"
 	description `This is a highly educated employee focused on scanner technologies. She is a Human, grown up in "near earth".`
 
 outfit "scanner kasar"
+	"plural" "scanner kasar"
 	category "Crew"
 	"display name" "(Scanner) Kasar"
 	thumbnail "portrait/incipias03"
@@ -1064,6 +1138,7 @@ outfit "scanner kasar"
 	description `This is a highly educated employee focused on scanner technologies. He is an Incipias.`
 
 outfit "scanner tichaona yong"
+	"plural" "scanner tichaona yong"
 	category "Crew"
 	"display name" "(Scanner) Tichaona Yong"
 	thumbnail "portrait/ecmaf02"
@@ -1079,6 +1154,7 @@ outfit "scanner tichaona yong"
 	description `This is a highly educated employee focused on scanner technologies. She is a Human, grown up in "north".`
 
 outfit "scanner rashi vaitle"
+	"plural" "scanner rashi vaitle"
 	category "Crew"
 	"display name" "(Scanner) Rashi Vaitle"
 	thumbnail "portrait/hai10"
@@ -1094,6 +1170,7 @@ outfit "scanner rashi vaitle"
 	description `This is a highly educated employee focused on scanner technologies. He is a Hai.`
 
 outfit "scanner kriik"
+	"plural" "scanner kriik"
 	category "Crew"
 	"display name" "(Scanner) Kriik"
 	thumbnail "portrait/wanderer05"
@@ -1109,6 +1186,7 @@ outfit "scanner kriik"
 	description `This is a highly educated employee focused on scanner technologies. She is a Wanderer.`
 
 outfit "scanner expari"
+	"plural" "scanner expari"
 	category "Crew"
 	"display name" "(Scanner) Expari"
 	thumbnail "portrait/saryd03"
@@ -1124,6 +1202,7 @@ outfit "scanner expari"
 	description `This is a highly educated employee focused on scanner technologies. She is a Saryd.`
 
 outfit "scanner tugrup"
+	"plural" "scanner tugrup"
 	category "Crew"
 	"display name" "(Scanner) Tugrup"
 	thumbnail "portrait/arachi03"
@@ -1139,6 +1218,7 @@ outfit "scanner tugrup"
 	description `This is a highly educated employee focused on scanner technologies. He is an Arach.`
 
 outfit "scanner oublaa"
+	"plural" "scanner oublaa"
 	category "Crew"
 	"display name" "(Scanner) Oublaa"
 	thumbnail "portrait/successor04"
@@ -1154,6 +1234,7 @@ outfit "scanner oublaa"
 	description `This is a highly educated employee focused on scanner technologies. She is a Successor.`
 
 outfit "shield lucille meritites"
+	"plural" "shield lucille meritites"
 	plural "(Shield) Lucille Meritites"
 	category "Crew"
 	"display name" "(Shield) Lucille Meritites"
@@ -1169,6 +1250,7 @@ outfit "shield lucille meritites"
 	description `This is a highly educated employee focused on shield effectivity. She is a Human, grown up in "paradise".`
 
 outfit "shield sonja halimah"
+	"plural" "shield sonja halimah"
 	category "Crew"
 	"display name" "(Shield) Sonja Halimah"
 	thumbnail "portrait/ecmwf10"
@@ -1183,6 +1265,7 @@ outfit "shield sonja halimah"
 	description `This is a highly educated employee focused on shield effectivity. She is a Human, grown up in "north".`
 
 outfit "shield taisto nithin"
+	"plural" "shield taisto nithin"
 	category "Crew"
 	"display name" "(Shield) Taisto Nithin"
 	thumbnail "portrait/ecmam01"
@@ -1198,6 +1281,7 @@ outfit "shield taisto nithin"
 	description `This is a highly educated employee focused on shield effectivity. He is a Human, grown up in "rim".`
 
 outfit "shield lativa"
+	"plural" "shield lativa"
 	category "Crew"
 	"display name" "(Shield) Lativa"
 	thumbnail "portrait/incipias02"
@@ -1212,6 +1296,7 @@ outfit "shield lativa"
 	description `This is a highly educated employee focused on shield effectivity. She is an Incipias.`
 
 outfit "shield monika raganhildis"
+	"plural" "shield monika raganhildis"
 	plural "(Shield) Monika Raganhildis"
 	category "Crew"
 	"display name" "(Shield) Monika Raganhildis"
@@ -1227,6 +1312,7 @@ outfit "shield monika raganhildis"
 	description `This is a highly educated employee focused on shield effectivity. She is a Human, grown up in "near earth".`
 
 outfit "shield saburo aoki"
+	"plural" "shield saburo aoki"
 	category "Crew"
 	"display name" "(Shield) Saburo Aoki"
 	thumbnail "portrait/bunrodea09"
@@ -1241,6 +1327,7 @@ outfit "shield saburo aoki"
 	description `This is a highly educated employee focused on shield effectivity. He is a Bunrodea.`
 
 outfit "shield ilesam bableh"
+	"plural" "shield ilesam bableh"
 	category "Crew"
 	"display name" "(Shield) Ilesam Bableh"
 	thumbnail "portrait/korath10"
@@ -1256,6 +1343,7 @@ outfit "shield ilesam bableh"
 	description `This is a highly educated employee focused on shield effectivity. He is a Korath.`
 
 outfit "shield nisieum"
+	"plural" "shield nisieum"
 	category "Crew"
 	"display name" "(Shield) Nisieum"
 	thumbnail "portrait/saryd02"
@@ -1270,6 +1358,7 @@ outfit "shield nisieum"
 	description `This is a highly educated employee focused on shield effectivity. She is a Saryd.`
 
 outfit "shield chi'a"
+	"plural" "shield chi'a"
 	category "Crew"
 	"display name" "(Shield) Chi'a"
 	thumbnail "portrait/kimek05"
@@ -1284,6 +1373,7 @@ outfit "shield chi'a"
 	description `This is a highly educated employee focused on shield effectivity. She is a Kimek.`
 
 outfit "shield uondi"
+	"plural" "shield uondi"
 	category "Crew"
 	"display name" "(Shield) Uondi"
 	thumbnail "portrait/successor05"
@@ -1299,6 +1389,7 @@ outfit "shield uondi"
 	description `This is a highly educated employee focused on shield effectivity. He is a Successor.`
 
 outfit "storage darius hasegawa"
+	"plural" "storage darius hasegawa"
 	category "Crew"
 	"display name" "(Storage) Darius Hasegawa"
 	thumbnail "portrait/ecmam02"
@@ -1313,6 +1404,7 @@ outfit "storage darius hasegawa"
 	description `This is a highly educated employee focused on storage management. He is a Human, grown up in "deep".`
 
 outfit "storage eduardo wapasha"
+	"plural" "storage eduardo wapasha"
 	category "Crew"
 	"display name" "(Storage) Eduardo Wapasha"
 	thumbnail "portrait/ecmbm02"
@@ -1327,6 +1419,7 @@ outfit "storage eduardo wapasha"
 	description `This is a highly educated employee focused on storage management. He is a Human, grown up in "rim".`
 
 outfit "storage mani godefrid"
+	"plural" "storage mani godefrid"
 	category "Crew"
 	"display name" "(Storage) Mani Godefrid"
 	thumbnail "portrait/ecmwm09"
@@ -1341,6 +1434,7 @@ outfit "storage mani godefrid"
 	description `This is a highly educated employee focused on storage management. He is a Human, grown up in "dirt belt".`
 
 outfit "storage aelia"
+	"plural" "storage aelia"
 	category "Crew"
 	"display name" "(Storage) Aelia"
 	thumbnail "portrait/incipias01"
@@ -1355,6 +1449,7 @@ outfit "storage aelia"
 	description `This is a highly educated employee focused on storage management. She is an Incipias.`
 
 outfit "storage marie zohreh"
+	"plural" "storage marie zohreh"
 	category "Crew"
 	"display name" "(Storage) Marie Zohreh"
 	thumbnail "portrait/ecmwf09"
@@ -1369,6 +1464,7 @@ outfit "storage marie zohreh"
 	description `This is a highly educated employee focused on storage management. She is a Human, grown up in "paradise".`
 
 outfit "storage yxoorevyt"
+	"plural" "storage yxoorevyt"
 	category "Crew"
 	"display name" "(Storage) Yxoorevyt"
 	thumbnail "portrait/gegno03"
@@ -1383,6 +1479,7 @@ outfit "storage yxoorevyt"
 	description `This is a highly educated employee focused on storage management. He is a Gegno.`
 
 outfit "storage touna farchi"
+	"plural" "storage touna farchi"
 	category "Crew"
 	"display name" "(Storage) Touna Farchi"
 	thumbnail "portrait/hai07"
@@ -1397,6 +1494,7 @@ outfit "storage touna farchi"
 	description `This is a highly educated employee focused on storage management. She is a Hai.`
 
 outfit "storage reisek"
+	"plural" "storage reisek"
 	category "Crew"
 	"display name" "(Storage) Reisek"
 	thumbnail "portrait/wanderer06"
@@ -1411,6 +1509,7 @@ outfit "storage reisek"
 	description `This is a highly educated employee focused on storage management. He is a Wanderer.`
 
 outfit "storage swift"
+	"plural" "storage swift"
 	category "Crew"
 	"display name" "(Storage) Swift"
 	thumbnail "portrait/remnant02"
@@ -1425,6 +1524,7 @@ outfit "storage swift"
 	description `This is a highly educated employee focused on storage management. She is a Remnant.`
 
 outfit "storage mupoop"
+	"plural" "storage mupoop"
 	category "Crew"
 	"display name" "(Storage) Mupoop"
 	thumbnail "portrait/arachi05"

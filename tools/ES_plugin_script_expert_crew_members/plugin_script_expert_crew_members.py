@@ -257,6 +257,7 @@ def write_files():
 						raceindex = '12100'
 					# writing the outfit
 					outfits_file.writelines('outfit "' + fields[index] + ' '  + names[index] + '"\n')
+					outfits_file.writelines('\t"plural" "' + fields[index] + ' '  + names[index] + '"\n')
 					saveedit3.append('\t\t"' + fields[index] + ' '  + names[index] + '"\n')
 					if names[index][len(names[index])-1:] == 's':
 						outfits_file.writelines('\tplural "(' + fields[index].capitalize() + ') ' + fullname + '"\n')
