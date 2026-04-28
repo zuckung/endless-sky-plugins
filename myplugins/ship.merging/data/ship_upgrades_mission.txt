@@ -176,6 +176,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T9)" >= 1
 					goto "Tern (T9)"
+				`	merge 3x "Swan" and 1x "Swan (T9)" into a "Swan(T10)"`
+					to display
+						"ship model: Swan" >= 3
+						"ship model: Swan (T9)" >= 1
+					goto "Swan (T9)"
 				`	merge 3x "Starling" and 1x "Starling (T9)" into a "Starling(T10)"`
 					to display
 						"ship model: Starling" >= 3
@@ -291,6 +296,66 @@ mission "upgrade ships"
 						"ship model: Pug Zibruka" >= 3
 						"ship model: Pug Zibruka (T9)" >= 1
 					goto "Pug Zibruka (T9)"
+				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T9)" into a "Modified Hauler VI(T10)"`
+					to display
+						"ship model: Modified Hauler VI" >= 3
+						"ship model: Modified Hauler VI (T9)" >= 1
+					goto "Modified Hauler VI (T9)"
+				`	merge 3x "Waverider" and 1x "Waverider (T9)" into a "Waverider(T10)"`
+					to display
+						"ship model: Waverider" >= 3
+						"ship model: Waverider (T9)" >= 1
+					goto "Waverider (T9)"
+				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T9)" into a "Modified Ladybug(T10)"`
+					to display
+						"ship model: Modified Ladybug" >= 3
+						"ship model: Modified Ladybug (T9)" >= 1
+					goto "Modified Ladybug (T9)"
+				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T9)" into a "Modified Battleship(T10)"`
+					to display
+						"ship model: Modified Battleship" >= 3
+						"ship model: Modified Battleship (T9)" >= 1
+					goto "Modified Battleship (T9)"
+				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T9)" into a "Modified Boxwing(T10)"`
+					to display
+						"ship model: Modified Boxwing" >= 3
+						"ship model: Modified Boxwing (T9)" >= 1
+					goto "Modified Boxwing (T9)"
+				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T9)" into a "Marauder Bactrian(T10)"`
+					to display
+						"ship model: Marauder Bactrian" >= 3
+						"ship model: Marauder Bactrian (T9)" >= 1
+					goto "Marauder Bactrian (T9)"
+				`	merge 3x "Shooting Star" and 1x "Shooting Star (T9)" into a "Shooting Star(T10)"`
+					to display
+						"ship model: Shooting Star" >= 3
+						"ship model: Shooting Star (T9)" >= 1
+					goto "Shooting Star (T9)"
+				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T9)" into a "Ursa Polaris(T10)"`
+					to display
+						"ship model: Ursa Polaris" >= 3
+						"ship model: Ursa Polaris (T9)" >= 1
+					goto "Ursa Polaris (T9)"
+				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T9)" into a "Modified Osprey(T10)"`
+					to display
+						"ship model: Modified Osprey" >= 3
+						"ship model: Modified Osprey (T9)" >= 1
+					goto "Modified Osprey (T9)"
+				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T9)" into a "Lampyrid-Class Transport(T10)"`
+					to display
+						"ship model: Lampyrid-Class Transport" >= 3
+						"ship model: Lampyrid-Class Transport (T9)" >= 1
+					goto "Lampyrid-Class Transport (T9)"
+				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T9)" into a "Marauder Fury(T10)"`
+					to display
+						"ship model: Marauder Fury" >= 3
+						"ship model: Marauder Fury (T9)" >= 1
+					goto "Marauder Fury (T9)"
+				`	merge 3x "Wardragon" and 1x "Wardragon (T9)" into a "Wardragon(T10)"`
+					to display
+						"ship model: Wardragon" >= 3
+						"ship model: Wardragon (T9)" >= 1
+					goto "Wardragon (T9)"
 				`	merge 3x "Model 512" and 1x "Model 512 (T9)" into a "Model 512(T10)"`
 					to display
 						"ship model: Model 512" >= 3
@@ -1396,71 +1461,6 @@ mission "upgrade ships"
 						"ship model: Koryfi" >= 3
 						"ship model: Koryfi (T9)" >= 1
 					goto "Koryfi (T9)"
-				`	merge 3x "Quarg Skylark" and 1x "Quarg Skylark (T9)" into a "Quarg Skylark(T10)"`
-					to display
-						"ship model: Quarg Skylark" >= 3
-						"ship model: Quarg Skylark (T9)" >= 1
-					goto "Quarg Skylark (T9)"
-				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T9)" into a "Modified Hauler VI(T10)"`
-					to display
-						"ship model: Modified Hauler VI" >= 3
-						"ship model: Modified Hauler VI (T9)" >= 1
-					goto "Modified Hauler VI (T9)"
-				`	merge 3x "Waverider" and 1x "Waverider (T9)" into a "Waverider(T10)"`
-					to display
-						"ship model: Waverider" >= 3
-						"ship model: Waverider (T9)" >= 1
-					goto "Waverider (T9)"
-				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T9)" into a "Modified Ladybug(T10)"`
-					to display
-						"ship model: Modified Ladybug" >= 3
-						"ship model: Modified Ladybug (T9)" >= 1
-					goto "Modified Ladybug (T9)"
-				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T9)" into a "Modified Battleship(T10)"`
-					to display
-						"ship model: Modified Battleship" >= 3
-						"ship model: Modified Battleship (T9)" >= 1
-					goto "Modified Battleship (T9)"
-				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T9)" into a "Modified Boxwing(T10)"`
-					to display
-						"ship model: Modified Boxwing" >= 3
-						"ship model: Modified Boxwing (T9)" >= 1
-					goto "Modified Boxwing (T9)"
-				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T9)" into a "Marauder Bactrian(T10)"`
-					to display
-						"ship model: Marauder Bactrian" >= 3
-						"ship model: Marauder Bactrian (T9)" >= 1
-					goto "Marauder Bactrian (T9)"
-				`	merge 3x "Shooting Star" and 1x "Shooting Star (T9)" into a "Shooting Star(T10)"`
-					to display
-						"ship model: Shooting Star" >= 3
-						"ship model: Shooting Star (T9)" >= 1
-					goto "Shooting Star (T9)"
-				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T9)" into a "Ursa Polaris(T10)"`
-					to display
-						"ship model: Ursa Polaris" >= 3
-						"ship model: Ursa Polaris (T9)" >= 1
-					goto "Ursa Polaris (T9)"
-				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T9)" into a "Modified Osprey(T10)"`
-					to display
-						"ship model: Modified Osprey" >= 3
-						"ship model: Modified Osprey (T9)" >= 1
-					goto "Modified Osprey (T9)"
-				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T9)" into a "Lampyrid-Class Transport(T10)"`
-					to display
-						"ship model: Lampyrid-Class Transport" >= 3
-						"ship model: Lampyrid-Class Transport (T9)" >= 1
-					goto "Lampyrid-Class Transport (T9)"
-				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T9)" into a "Marauder Fury(T10)"`
-					to display
-						"ship model: Marauder Fury" >= 3
-						"ship model: Marauder Fury (T9)" >= 1
-					goto "Marauder Fury (T9)"
-				`	merge 3x "Wardragon" and 1x "Wardragon (T9)" into a "Wardragon(T10)"`
-					to display
-						"ship model: Wardragon" >= 3
-						"ship model: Wardragon (T9)" >= 1
-					goto "Wardragon (T9)"
 				`	merge 3x "Riptide" and 1x "Riptide (T8)" into a "Riptide(T9)"`
 					to display
 						"ship model: Riptide" >= 3
@@ -1616,6 +1616,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T8)" >= 1
 					goto "Tern (T8)"
+				`	merge 3x "Swan" and 1x "Swan (T8)" into a "Swan(T9)"`
+					to display
+						"ship model: Swan" >= 3
+						"ship model: Swan (T8)" >= 1
+					goto "Swan (T8)"
 				`	merge 3x "Starling" and 1x "Starling (T8)" into a "Starling(T9)"`
 					to display
 						"ship model: Starling" >= 3
@@ -1731,6 +1736,66 @@ mission "upgrade ships"
 						"ship model: Pug Zibruka" >= 3
 						"ship model: Pug Zibruka (T8)" >= 1
 					goto "Pug Zibruka (T8)"
+				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T8)" into a "Modified Hauler VI(T9)"`
+					to display
+						"ship model: Modified Hauler VI" >= 3
+						"ship model: Modified Hauler VI (T8)" >= 1
+					goto "Modified Hauler VI (T8)"
+				`	merge 3x "Waverider" and 1x "Waverider (T8)" into a "Waverider(T9)"`
+					to display
+						"ship model: Waverider" >= 3
+						"ship model: Waverider (T8)" >= 1
+					goto "Waverider (T8)"
+				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T8)" into a "Modified Ladybug(T9)"`
+					to display
+						"ship model: Modified Ladybug" >= 3
+						"ship model: Modified Ladybug (T8)" >= 1
+					goto "Modified Ladybug (T8)"
+				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T8)" into a "Modified Battleship(T9)"`
+					to display
+						"ship model: Modified Battleship" >= 3
+						"ship model: Modified Battleship (T8)" >= 1
+					goto "Modified Battleship (T8)"
+				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T8)" into a "Modified Boxwing(T9)"`
+					to display
+						"ship model: Modified Boxwing" >= 3
+						"ship model: Modified Boxwing (T8)" >= 1
+					goto "Modified Boxwing (T8)"
+				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T8)" into a "Marauder Bactrian(T9)"`
+					to display
+						"ship model: Marauder Bactrian" >= 3
+						"ship model: Marauder Bactrian (T8)" >= 1
+					goto "Marauder Bactrian (T8)"
+				`	merge 3x "Shooting Star" and 1x "Shooting Star (T8)" into a "Shooting Star(T9)"`
+					to display
+						"ship model: Shooting Star" >= 3
+						"ship model: Shooting Star (T8)" >= 1
+					goto "Shooting Star (T8)"
+				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T8)" into a "Ursa Polaris(T9)"`
+					to display
+						"ship model: Ursa Polaris" >= 3
+						"ship model: Ursa Polaris (T8)" >= 1
+					goto "Ursa Polaris (T8)"
+				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T8)" into a "Modified Osprey(T9)"`
+					to display
+						"ship model: Modified Osprey" >= 3
+						"ship model: Modified Osprey (T8)" >= 1
+					goto "Modified Osprey (T8)"
+				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T8)" into a "Lampyrid-Class Transport(T9)"`
+					to display
+						"ship model: Lampyrid-Class Transport" >= 3
+						"ship model: Lampyrid-Class Transport (T8)" >= 1
+					goto "Lampyrid-Class Transport (T8)"
+				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T8)" into a "Marauder Fury(T9)"`
+					to display
+						"ship model: Marauder Fury" >= 3
+						"ship model: Marauder Fury (T8)" >= 1
+					goto "Marauder Fury (T8)"
+				`	merge 3x "Wardragon" and 1x "Wardragon (T8)" into a "Wardragon(T9)"`
+					to display
+						"ship model: Wardragon" >= 3
+						"ship model: Wardragon (T8)" >= 1
+					goto "Wardragon (T8)"
 				`	merge 3x "Model 512" and 1x "Model 512 (T8)" into a "Model 512(T9)"`
 					to display
 						"ship model: Model 512" >= 3
@@ -2836,71 +2901,6 @@ mission "upgrade ships"
 						"ship model: Koryfi" >= 3
 						"ship model: Koryfi (T8)" >= 1
 					goto "Koryfi (T8)"
-				`	merge 3x "Quarg Skylark" and 1x "Quarg Skylark (T8)" into a "Quarg Skylark(T9)"`
-					to display
-						"ship model: Quarg Skylark" >= 3
-						"ship model: Quarg Skylark (T8)" >= 1
-					goto "Quarg Skylark (T8)"
-				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T8)" into a "Modified Hauler VI(T9)"`
-					to display
-						"ship model: Modified Hauler VI" >= 3
-						"ship model: Modified Hauler VI (T8)" >= 1
-					goto "Modified Hauler VI (T8)"
-				`	merge 3x "Waverider" and 1x "Waverider (T8)" into a "Waverider(T9)"`
-					to display
-						"ship model: Waverider" >= 3
-						"ship model: Waverider (T8)" >= 1
-					goto "Waverider (T8)"
-				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T8)" into a "Modified Ladybug(T9)"`
-					to display
-						"ship model: Modified Ladybug" >= 3
-						"ship model: Modified Ladybug (T8)" >= 1
-					goto "Modified Ladybug (T8)"
-				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T8)" into a "Modified Battleship(T9)"`
-					to display
-						"ship model: Modified Battleship" >= 3
-						"ship model: Modified Battleship (T8)" >= 1
-					goto "Modified Battleship (T8)"
-				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T8)" into a "Modified Boxwing(T9)"`
-					to display
-						"ship model: Modified Boxwing" >= 3
-						"ship model: Modified Boxwing (T8)" >= 1
-					goto "Modified Boxwing (T8)"
-				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T8)" into a "Marauder Bactrian(T9)"`
-					to display
-						"ship model: Marauder Bactrian" >= 3
-						"ship model: Marauder Bactrian (T8)" >= 1
-					goto "Marauder Bactrian (T8)"
-				`	merge 3x "Shooting Star" and 1x "Shooting Star (T8)" into a "Shooting Star(T9)"`
-					to display
-						"ship model: Shooting Star" >= 3
-						"ship model: Shooting Star (T8)" >= 1
-					goto "Shooting Star (T8)"
-				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T8)" into a "Ursa Polaris(T9)"`
-					to display
-						"ship model: Ursa Polaris" >= 3
-						"ship model: Ursa Polaris (T8)" >= 1
-					goto "Ursa Polaris (T8)"
-				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T8)" into a "Modified Osprey(T9)"`
-					to display
-						"ship model: Modified Osprey" >= 3
-						"ship model: Modified Osprey (T8)" >= 1
-					goto "Modified Osprey (T8)"
-				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T8)" into a "Lampyrid-Class Transport(T9)"`
-					to display
-						"ship model: Lampyrid-Class Transport" >= 3
-						"ship model: Lampyrid-Class Transport (T8)" >= 1
-					goto "Lampyrid-Class Transport (T8)"
-				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T8)" into a "Marauder Fury(T9)"`
-					to display
-						"ship model: Marauder Fury" >= 3
-						"ship model: Marauder Fury (T8)" >= 1
-					goto "Marauder Fury (T8)"
-				`	merge 3x "Wardragon" and 1x "Wardragon (T8)" into a "Wardragon(T9)"`
-					to display
-						"ship model: Wardragon" >= 3
-						"ship model: Wardragon (T8)" >= 1
-					goto "Wardragon (T8)"
 				`	merge 3x "Riptide" and 1x "Riptide (T7)" into a "Riptide(T8)"`
 					to display
 						"ship model: Riptide" >= 3
@@ -3056,6 +3056,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T7)" >= 1
 					goto "Tern (T7)"
+				`	merge 3x "Swan" and 1x "Swan (T7)" into a "Swan(T8)"`
+					to display
+						"ship model: Swan" >= 3
+						"ship model: Swan (T7)" >= 1
+					goto "Swan (T7)"
 				`	merge 3x "Starling" and 1x "Starling (T7)" into a "Starling(T8)"`
 					to display
 						"ship model: Starling" >= 3
@@ -3171,6 +3176,66 @@ mission "upgrade ships"
 						"ship model: Pug Zibruka" >= 3
 						"ship model: Pug Zibruka (T7)" >= 1
 					goto "Pug Zibruka (T7)"
+				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T7)" into a "Modified Hauler VI(T8)"`
+					to display
+						"ship model: Modified Hauler VI" >= 3
+						"ship model: Modified Hauler VI (T7)" >= 1
+					goto "Modified Hauler VI (T7)"
+				`	merge 3x "Waverider" and 1x "Waverider (T7)" into a "Waverider(T8)"`
+					to display
+						"ship model: Waverider" >= 3
+						"ship model: Waverider (T7)" >= 1
+					goto "Waverider (T7)"
+				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T7)" into a "Modified Ladybug(T8)"`
+					to display
+						"ship model: Modified Ladybug" >= 3
+						"ship model: Modified Ladybug (T7)" >= 1
+					goto "Modified Ladybug (T7)"
+				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T7)" into a "Modified Battleship(T8)"`
+					to display
+						"ship model: Modified Battleship" >= 3
+						"ship model: Modified Battleship (T7)" >= 1
+					goto "Modified Battleship (T7)"
+				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T7)" into a "Modified Boxwing(T8)"`
+					to display
+						"ship model: Modified Boxwing" >= 3
+						"ship model: Modified Boxwing (T7)" >= 1
+					goto "Modified Boxwing (T7)"
+				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T7)" into a "Marauder Bactrian(T8)"`
+					to display
+						"ship model: Marauder Bactrian" >= 3
+						"ship model: Marauder Bactrian (T7)" >= 1
+					goto "Marauder Bactrian (T7)"
+				`	merge 3x "Shooting Star" and 1x "Shooting Star (T7)" into a "Shooting Star(T8)"`
+					to display
+						"ship model: Shooting Star" >= 3
+						"ship model: Shooting Star (T7)" >= 1
+					goto "Shooting Star (T7)"
+				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T7)" into a "Ursa Polaris(T8)"`
+					to display
+						"ship model: Ursa Polaris" >= 3
+						"ship model: Ursa Polaris (T7)" >= 1
+					goto "Ursa Polaris (T7)"
+				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T7)" into a "Modified Osprey(T8)"`
+					to display
+						"ship model: Modified Osprey" >= 3
+						"ship model: Modified Osprey (T7)" >= 1
+					goto "Modified Osprey (T7)"
+				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T7)" into a "Lampyrid-Class Transport(T8)"`
+					to display
+						"ship model: Lampyrid-Class Transport" >= 3
+						"ship model: Lampyrid-Class Transport (T7)" >= 1
+					goto "Lampyrid-Class Transport (T7)"
+				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T7)" into a "Marauder Fury(T8)"`
+					to display
+						"ship model: Marauder Fury" >= 3
+						"ship model: Marauder Fury (T7)" >= 1
+					goto "Marauder Fury (T7)"
+				`	merge 3x "Wardragon" and 1x "Wardragon (T7)" into a "Wardragon(T8)"`
+					to display
+						"ship model: Wardragon" >= 3
+						"ship model: Wardragon (T7)" >= 1
+					goto "Wardragon (T7)"
 				`	merge 3x "Model 512" and 1x "Model 512 (T7)" into a "Model 512(T8)"`
 					to display
 						"ship model: Model 512" >= 3
@@ -4276,71 +4341,6 @@ mission "upgrade ships"
 						"ship model: Koryfi" >= 3
 						"ship model: Koryfi (T7)" >= 1
 					goto "Koryfi (T7)"
-				`	merge 3x "Quarg Skylark" and 1x "Quarg Skylark (T7)" into a "Quarg Skylark(T8)"`
-					to display
-						"ship model: Quarg Skylark" >= 3
-						"ship model: Quarg Skylark (T7)" >= 1
-					goto "Quarg Skylark (T7)"
-				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T7)" into a "Modified Hauler VI(T8)"`
-					to display
-						"ship model: Modified Hauler VI" >= 3
-						"ship model: Modified Hauler VI (T7)" >= 1
-					goto "Modified Hauler VI (T7)"
-				`	merge 3x "Waverider" and 1x "Waverider (T7)" into a "Waverider(T8)"`
-					to display
-						"ship model: Waverider" >= 3
-						"ship model: Waverider (T7)" >= 1
-					goto "Waverider (T7)"
-				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T7)" into a "Modified Ladybug(T8)"`
-					to display
-						"ship model: Modified Ladybug" >= 3
-						"ship model: Modified Ladybug (T7)" >= 1
-					goto "Modified Ladybug (T7)"
-				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T7)" into a "Modified Battleship(T8)"`
-					to display
-						"ship model: Modified Battleship" >= 3
-						"ship model: Modified Battleship (T7)" >= 1
-					goto "Modified Battleship (T7)"
-				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T7)" into a "Modified Boxwing(T8)"`
-					to display
-						"ship model: Modified Boxwing" >= 3
-						"ship model: Modified Boxwing (T7)" >= 1
-					goto "Modified Boxwing (T7)"
-				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T7)" into a "Marauder Bactrian(T8)"`
-					to display
-						"ship model: Marauder Bactrian" >= 3
-						"ship model: Marauder Bactrian (T7)" >= 1
-					goto "Marauder Bactrian (T7)"
-				`	merge 3x "Shooting Star" and 1x "Shooting Star (T7)" into a "Shooting Star(T8)"`
-					to display
-						"ship model: Shooting Star" >= 3
-						"ship model: Shooting Star (T7)" >= 1
-					goto "Shooting Star (T7)"
-				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T7)" into a "Ursa Polaris(T8)"`
-					to display
-						"ship model: Ursa Polaris" >= 3
-						"ship model: Ursa Polaris (T7)" >= 1
-					goto "Ursa Polaris (T7)"
-				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T7)" into a "Modified Osprey(T8)"`
-					to display
-						"ship model: Modified Osprey" >= 3
-						"ship model: Modified Osprey (T7)" >= 1
-					goto "Modified Osprey (T7)"
-				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T7)" into a "Lampyrid-Class Transport(T8)"`
-					to display
-						"ship model: Lampyrid-Class Transport" >= 3
-						"ship model: Lampyrid-Class Transport (T7)" >= 1
-					goto "Lampyrid-Class Transport (T7)"
-				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T7)" into a "Marauder Fury(T8)"`
-					to display
-						"ship model: Marauder Fury" >= 3
-						"ship model: Marauder Fury (T7)" >= 1
-					goto "Marauder Fury (T7)"
-				`	merge 3x "Wardragon" and 1x "Wardragon (T7)" into a "Wardragon(T8)"`
-					to display
-						"ship model: Wardragon" >= 3
-						"ship model: Wardragon (T7)" >= 1
-					goto "Wardragon (T7)"
 				`	merge 3x "Riptide" and 1x "Riptide (T6)" into a "Riptide(T7)"`
 					to display
 						"ship model: Riptide" >= 3
@@ -4496,6 +4496,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T6)" >= 1
 					goto "Tern (T6)"
+				`	merge 3x "Swan" and 1x "Swan (T6)" into a "Swan(T7)"`
+					to display
+						"ship model: Swan" >= 3
+						"ship model: Swan (T6)" >= 1
+					goto "Swan (T6)"
 				`	merge 3x "Starling" and 1x "Starling (T6)" into a "Starling(T7)"`
 					to display
 						"ship model: Starling" >= 3
@@ -4611,6 +4616,66 @@ mission "upgrade ships"
 						"ship model: Pug Zibruka" >= 3
 						"ship model: Pug Zibruka (T6)" >= 1
 					goto "Pug Zibruka (T6)"
+				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T6)" into a "Modified Hauler VI(T7)"`
+					to display
+						"ship model: Modified Hauler VI" >= 3
+						"ship model: Modified Hauler VI (T6)" >= 1
+					goto "Modified Hauler VI (T6)"
+				`	merge 3x "Waverider" and 1x "Waverider (T6)" into a "Waverider(T7)"`
+					to display
+						"ship model: Waverider" >= 3
+						"ship model: Waverider (T6)" >= 1
+					goto "Waverider (T6)"
+				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T6)" into a "Modified Ladybug(T7)"`
+					to display
+						"ship model: Modified Ladybug" >= 3
+						"ship model: Modified Ladybug (T6)" >= 1
+					goto "Modified Ladybug (T6)"
+				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T6)" into a "Modified Battleship(T7)"`
+					to display
+						"ship model: Modified Battleship" >= 3
+						"ship model: Modified Battleship (T6)" >= 1
+					goto "Modified Battleship (T6)"
+				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T6)" into a "Modified Boxwing(T7)"`
+					to display
+						"ship model: Modified Boxwing" >= 3
+						"ship model: Modified Boxwing (T6)" >= 1
+					goto "Modified Boxwing (T6)"
+				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T6)" into a "Marauder Bactrian(T7)"`
+					to display
+						"ship model: Marauder Bactrian" >= 3
+						"ship model: Marauder Bactrian (T6)" >= 1
+					goto "Marauder Bactrian (T6)"
+				`	merge 3x "Shooting Star" and 1x "Shooting Star (T6)" into a "Shooting Star(T7)"`
+					to display
+						"ship model: Shooting Star" >= 3
+						"ship model: Shooting Star (T6)" >= 1
+					goto "Shooting Star (T6)"
+				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T6)" into a "Ursa Polaris(T7)"`
+					to display
+						"ship model: Ursa Polaris" >= 3
+						"ship model: Ursa Polaris (T6)" >= 1
+					goto "Ursa Polaris (T6)"
+				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T6)" into a "Modified Osprey(T7)"`
+					to display
+						"ship model: Modified Osprey" >= 3
+						"ship model: Modified Osprey (T6)" >= 1
+					goto "Modified Osprey (T6)"
+				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T6)" into a "Lampyrid-Class Transport(T7)"`
+					to display
+						"ship model: Lampyrid-Class Transport" >= 3
+						"ship model: Lampyrid-Class Transport (T6)" >= 1
+					goto "Lampyrid-Class Transport (T6)"
+				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T6)" into a "Marauder Fury(T7)"`
+					to display
+						"ship model: Marauder Fury" >= 3
+						"ship model: Marauder Fury (T6)" >= 1
+					goto "Marauder Fury (T6)"
+				`	merge 3x "Wardragon" and 1x "Wardragon (T6)" into a "Wardragon(T7)"`
+					to display
+						"ship model: Wardragon" >= 3
+						"ship model: Wardragon (T6)" >= 1
+					goto "Wardragon (T6)"
 				`	merge 3x "Model 512" and 1x "Model 512 (T6)" into a "Model 512(T7)"`
 					to display
 						"ship model: Model 512" >= 3
@@ -5716,71 +5781,6 @@ mission "upgrade ships"
 						"ship model: Koryfi" >= 3
 						"ship model: Koryfi (T6)" >= 1
 					goto "Koryfi (T6)"
-				`	merge 3x "Quarg Skylark" and 1x "Quarg Skylark (T6)" into a "Quarg Skylark(T7)"`
-					to display
-						"ship model: Quarg Skylark" >= 3
-						"ship model: Quarg Skylark (T6)" >= 1
-					goto "Quarg Skylark (T6)"
-				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T6)" into a "Modified Hauler VI(T7)"`
-					to display
-						"ship model: Modified Hauler VI" >= 3
-						"ship model: Modified Hauler VI (T6)" >= 1
-					goto "Modified Hauler VI (T6)"
-				`	merge 3x "Waverider" and 1x "Waverider (T6)" into a "Waverider(T7)"`
-					to display
-						"ship model: Waverider" >= 3
-						"ship model: Waverider (T6)" >= 1
-					goto "Waverider (T6)"
-				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T6)" into a "Modified Ladybug(T7)"`
-					to display
-						"ship model: Modified Ladybug" >= 3
-						"ship model: Modified Ladybug (T6)" >= 1
-					goto "Modified Ladybug (T6)"
-				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T6)" into a "Modified Battleship(T7)"`
-					to display
-						"ship model: Modified Battleship" >= 3
-						"ship model: Modified Battleship (T6)" >= 1
-					goto "Modified Battleship (T6)"
-				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T6)" into a "Modified Boxwing(T7)"`
-					to display
-						"ship model: Modified Boxwing" >= 3
-						"ship model: Modified Boxwing (T6)" >= 1
-					goto "Modified Boxwing (T6)"
-				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T6)" into a "Marauder Bactrian(T7)"`
-					to display
-						"ship model: Marauder Bactrian" >= 3
-						"ship model: Marauder Bactrian (T6)" >= 1
-					goto "Marauder Bactrian (T6)"
-				`	merge 3x "Shooting Star" and 1x "Shooting Star (T6)" into a "Shooting Star(T7)"`
-					to display
-						"ship model: Shooting Star" >= 3
-						"ship model: Shooting Star (T6)" >= 1
-					goto "Shooting Star (T6)"
-				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T6)" into a "Ursa Polaris(T7)"`
-					to display
-						"ship model: Ursa Polaris" >= 3
-						"ship model: Ursa Polaris (T6)" >= 1
-					goto "Ursa Polaris (T6)"
-				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T6)" into a "Modified Osprey(T7)"`
-					to display
-						"ship model: Modified Osprey" >= 3
-						"ship model: Modified Osprey (T6)" >= 1
-					goto "Modified Osprey (T6)"
-				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T6)" into a "Lampyrid-Class Transport(T7)"`
-					to display
-						"ship model: Lampyrid-Class Transport" >= 3
-						"ship model: Lampyrid-Class Transport (T6)" >= 1
-					goto "Lampyrid-Class Transport (T6)"
-				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T6)" into a "Marauder Fury(T7)"`
-					to display
-						"ship model: Marauder Fury" >= 3
-						"ship model: Marauder Fury (T6)" >= 1
-					goto "Marauder Fury (T6)"
-				`	merge 3x "Wardragon" and 1x "Wardragon (T6)" into a "Wardragon(T7)"`
-					to display
-						"ship model: Wardragon" >= 3
-						"ship model: Wardragon (T6)" >= 1
-					goto "Wardragon (T6)"
 				`	merge 3x "Riptide" and 1x "Riptide (T5)" into a "Riptide(T6)"`
 					to display
 						"ship model: Riptide" >= 3
@@ -5936,6 +5936,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T5)" >= 1
 					goto "Tern (T5)"
+				`	merge 3x "Swan" and 1x "Swan (T5)" into a "Swan(T6)"`
+					to display
+						"ship model: Swan" >= 3
+						"ship model: Swan (T5)" >= 1
+					goto "Swan (T5)"
 				`	merge 3x "Starling" and 1x "Starling (T5)" into a "Starling(T6)"`
 					to display
 						"ship model: Starling" >= 3
@@ -6051,6 +6056,66 @@ mission "upgrade ships"
 						"ship model: Pug Zibruka" >= 3
 						"ship model: Pug Zibruka (T5)" >= 1
 					goto "Pug Zibruka (T5)"
+				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T5)" into a "Modified Hauler VI(T6)"`
+					to display
+						"ship model: Modified Hauler VI" >= 3
+						"ship model: Modified Hauler VI (T5)" >= 1
+					goto "Modified Hauler VI (T5)"
+				`	merge 3x "Waverider" and 1x "Waverider (T5)" into a "Waverider(T6)"`
+					to display
+						"ship model: Waverider" >= 3
+						"ship model: Waverider (T5)" >= 1
+					goto "Waverider (T5)"
+				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T5)" into a "Modified Ladybug(T6)"`
+					to display
+						"ship model: Modified Ladybug" >= 3
+						"ship model: Modified Ladybug (T5)" >= 1
+					goto "Modified Ladybug (T5)"
+				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T5)" into a "Modified Battleship(T6)"`
+					to display
+						"ship model: Modified Battleship" >= 3
+						"ship model: Modified Battleship (T5)" >= 1
+					goto "Modified Battleship (T5)"
+				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T5)" into a "Modified Boxwing(T6)"`
+					to display
+						"ship model: Modified Boxwing" >= 3
+						"ship model: Modified Boxwing (T5)" >= 1
+					goto "Modified Boxwing (T5)"
+				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T5)" into a "Marauder Bactrian(T6)"`
+					to display
+						"ship model: Marauder Bactrian" >= 3
+						"ship model: Marauder Bactrian (T5)" >= 1
+					goto "Marauder Bactrian (T5)"
+				`	merge 3x "Shooting Star" and 1x "Shooting Star (T5)" into a "Shooting Star(T6)"`
+					to display
+						"ship model: Shooting Star" >= 3
+						"ship model: Shooting Star (T5)" >= 1
+					goto "Shooting Star (T5)"
+				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T5)" into a "Ursa Polaris(T6)"`
+					to display
+						"ship model: Ursa Polaris" >= 3
+						"ship model: Ursa Polaris (T5)" >= 1
+					goto "Ursa Polaris (T5)"
+				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T5)" into a "Modified Osprey(T6)"`
+					to display
+						"ship model: Modified Osprey" >= 3
+						"ship model: Modified Osprey (T5)" >= 1
+					goto "Modified Osprey (T5)"
+				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T5)" into a "Lampyrid-Class Transport(T6)"`
+					to display
+						"ship model: Lampyrid-Class Transport" >= 3
+						"ship model: Lampyrid-Class Transport (T5)" >= 1
+					goto "Lampyrid-Class Transport (T5)"
+				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T5)" into a "Marauder Fury(T6)"`
+					to display
+						"ship model: Marauder Fury" >= 3
+						"ship model: Marauder Fury (T5)" >= 1
+					goto "Marauder Fury (T5)"
+				`	merge 3x "Wardragon" and 1x "Wardragon (T5)" into a "Wardragon(T6)"`
+					to display
+						"ship model: Wardragon" >= 3
+						"ship model: Wardragon (T5)" >= 1
+					goto "Wardragon (T5)"
 				`	merge 3x "Model 512" and 1x "Model 512 (T5)" into a "Model 512(T6)"`
 					to display
 						"ship model: Model 512" >= 3
@@ -7156,71 +7221,6 @@ mission "upgrade ships"
 						"ship model: Koryfi" >= 3
 						"ship model: Koryfi (T5)" >= 1
 					goto "Koryfi (T5)"
-				`	merge 3x "Quarg Skylark" and 1x "Quarg Skylark (T5)" into a "Quarg Skylark(T6)"`
-					to display
-						"ship model: Quarg Skylark" >= 3
-						"ship model: Quarg Skylark (T5)" >= 1
-					goto "Quarg Skylark (T5)"
-				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T5)" into a "Modified Hauler VI(T6)"`
-					to display
-						"ship model: Modified Hauler VI" >= 3
-						"ship model: Modified Hauler VI (T5)" >= 1
-					goto "Modified Hauler VI (T5)"
-				`	merge 3x "Waverider" and 1x "Waverider (T5)" into a "Waverider(T6)"`
-					to display
-						"ship model: Waverider" >= 3
-						"ship model: Waverider (T5)" >= 1
-					goto "Waverider (T5)"
-				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T5)" into a "Modified Ladybug(T6)"`
-					to display
-						"ship model: Modified Ladybug" >= 3
-						"ship model: Modified Ladybug (T5)" >= 1
-					goto "Modified Ladybug (T5)"
-				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T5)" into a "Modified Battleship(T6)"`
-					to display
-						"ship model: Modified Battleship" >= 3
-						"ship model: Modified Battleship (T5)" >= 1
-					goto "Modified Battleship (T5)"
-				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T5)" into a "Modified Boxwing(T6)"`
-					to display
-						"ship model: Modified Boxwing" >= 3
-						"ship model: Modified Boxwing (T5)" >= 1
-					goto "Modified Boxwing (T5)"
-				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T5)" into a "Marauder Bactrian(T6)"`
-					to display
-						"ship model: Marauder Bactrian" >= 3
-						"ship model: Marauder Bactrian (T5)" >= 1
-					goto "Marauder Bactrian (T5)"
-				`	merge 3x "Shooting Star" and 1x "Shooting Star (T5)" into a "Shooting Star(T6)"`
-					to display
-						"ship model: Shooting Star" >= 3
-						"ship model: Shooting Star (T5)" >= 1
-					goto "Shooting Star (T5)"
-				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T5)" into a "Ursa Polaris(T6)"`
-					to display
-						"ship model: Ursa Polaris" >= 3
-						"ship model: Ursa Polaris (T5)" >= 1
-					goto "Ursa Polaris (T5)"
-				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T5)" into a "Modified Osprey(T6)"`
-					to display
-						"ship model: Modified Osprey" >= 3
-						"ship model: Modified Osprey (T5)" >= 1
-					goto "Modified Osprey (T5)"
-				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T5)" into a "Lampyrid-Class Transport(T6)"`
-					to display
-						"ship model: Lampyrid-Class Transport" >= 3
-						"ship model: Lampyrid-Class Transport (T5)" >= 1
-					goto "Lampyrid-Class Transport (T5)"
-				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T5)" into a "Marauder Fury(T6)"`
-					to display
-						"ship model: Marauder Fury" >= 3
-						"ship model: Marauder Fury (T5)" >= 1
-					goto "Marauder Fury (T5)"
-				`	merge 3x "Wardragon" and 1x "Wardragon (T5)" into a "Wardragon(T6)"`
-					to display
-						"ship model: Wardragon" >= 3
-						"ship model: Wardragon (T5)" >= 1
-					goto "Wardragon (T5)"
 				`	merge 3x "Riptide" and 1x "Riptide (T4)" into a "Riptide(T5)"`
 					to display
 						"ship model: Riptide" >= 3
@@ -7376,6 +7376,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T4)" >= 1
 					goto "Tern (T4)"
+				`	merge 3x "Swan" and 1x "Swan (T4)" into a "Swan(T5)"`
+					to display
+						"ship model: Swan" >= 3
+						"ship model: Swan (T4)" >= 1
+					goto "Swan (T4)"
 				`	merge 3x "Starling" and 1x "Starling (T4)" into a "Starling(T5)"`
 					to display
 						"ship model: Starling" >= 3
@@ -7491,6 +7496,66 @@ mission "upgrade ships"
 						"ship model: Pug Zibruka" >= 3
 						"ship model: Pug Zibruka (T4)" >= 1
 					goto "Pug Zibruka (T4)"
+				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T4)" into a "Modified Hauler VI(T5)"`
+					to display
+						"ship model: Modified Hauler VI" >= 3
+						"ship model: Modified Hauler VI (T4)" >= 1
+					goto "Modified Hauler VI (T4)"
+				`	merge 3x "Waverider" and 1x "Waverider (T4)" into a "Waverider(T5)"`
+					to display
+						"ship model: Waverider" >= 3
+						"ship model: Waverider (T4)" >= 1
+					goto "Waverider (T4)"
+				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T4)" into a "Modified Ladybug(T5)"`
+					to display
+						"ship model: Modified Ladybug" >= 3
+						"ship model: Modified Ladybug (T4)" >= 1
+					goto "Modified Ladybug (T4)"
+				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T4)" into a "Modified Battleship(T5)"`
+					to display
+						"ship model: Modified Battleship" >= 3
+						"ship model: Modified Battleship (T4)" >= 1
+					goto "Modified Battleship (T4)"
+				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T4)" into a "Modified Boxwing(T5)"`
+					to display
+						"ship model: Modified Boxwing" >= 3
+						"ship model: Modified Boxwing (T4)" >= 1
+					goto "Modified Boxwing (T4)"
+				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T4)" into a "Marauder Bactrian(T5)"`
+					to display
+						"ship model: Marauder Bactrian" >= 3
+						"ship model: Marauder Bactrian (T4)" >= 1
+					goto "Marauder Bactrian (T4)"
+				`	merge 3x "Shooting Star" and 1x "Shooting Star (T4)" into a "Shooting Star(T5)"`
+					to display
+						"ship model: Shooting Star" >= 3
+						"ship model: Shooting Star (T4)" >= 1
+					goto "Shooting Star (T4)"
+				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T4)" into a "Ursa Polaris(T5)"`
+					to display
+						"ship model: Ursa Polaris" >= 3
+						"ship model: Ursa Polaris (T4)" >= 1
+					goto "Ursa Polaris (T4)"
+				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T4)" into a "Modified Osprey(T5)"`
+					to display
+						"ship model: Modified Osprey" >= 3
+						"ship model: Modified Osprey (T4)" >= 1
+					goto "Modified Osprey (T4)"
+				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T4)" into a "Lampyrid-Class Transport(T5)"`
+					to display
+						"ship model: Lampyrid-Class Transport" >= 3
+						"ship model: Lampyrid-Class Transport (T4)" >= 1
+					goto "Lampyrid-Class Transport (T4)"
+				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T4)" into a "Marauder Fury(T5)"`
+					to display
+						"ship model: Marauder Fury" >= 3
+						"ship model: Marauder Fury (T4)" >= 1
+					goto "Marauder Fury (T4)"
+				`	merge 3x "Wardragon" and 1x "Wardragon (T4)" into a "Wardragon(T5)"`
+					to display
+						"ship model: Wardragon" >= 3
+						"ship model: Wardragon (T4)" >= 1
+					goto "Wardragon (T4)"
 				`	merge 3x "Model 512" and 1x "Model 512 (T4)" into a "Model 512(T5)"`
 					to display
 						"ship model: Model 512" >= 3
@@ -8596,71 +8661,6 @@ mission "upgrade ships"
 						"ship model: Koryfi" >= 3
 						"ship model: Koryfi (T4)" >= 1
 					goto "Koryfi (T4)"
-				`	merge 3x "Quarg Skylark" and 1x "Quarg Skylark (T4)" into a "Quarg Skylark(T5)"`
-					to display
-						"ship model: Quarg Skylark" >= 3
-						"ship model: Quarg Skylark (T4)" >= 1
-					goto "Quarg Skylark (T4)"
-				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T4)" into a "Modified Hauler VI(T5)"`
-					to display
-						"ship model: Modified Hauler VI" >= 3
-						"ship model: Modified Hauler VI (T4)" >= 1
-					goto "Modified Hauler VI (T4)"
-				`	merge 3x "Waverider" and 1x "Waverider (T4)" into a "Waverider(T5)"`
-					to display
-						"ship model: Waverider" >= 3
-						"ship model: Waverider (T4)" >= 1
-					goto "Waverider (T4)"
-				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T4)" into a "Modified Ladybug(T5)"`
-					to display
-						"ship model: Modified Ladybug" >= 3
-						"ship model: Modified Ladybug (T4)" >= 1
-					goto "Modified Ladybug (T4)"
-				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T4)" into a "Modified Battleship(T5)"`
-					to display
-						"ship model: Modified Battleship" >= 3
-						"ship model: Modified Battleship (T4)" >= 1
-					goto "Modified Battleship (T4)"
-				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T4)" into a "Modified Boxwing(T5)"`
-					to display
-						"ship model: Modified Boxwing" >= 3
-						"ship model: Modified Boxwing (T4)" >= 1
-					goto "Modified Boxwing (T4)"
-				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T4)" into a "Marauder Bactrian(T5)"`
-					to display
-						"ship model: Marauder Bactrian" >= 3
-						"ship model: Marauder Bactrian (T4)" >= 1
-					goto "Marauder Bactrian (T4)"
-				`	merge 3x "Shooting Star" and 1x "Shooting Star (T4)" into a "Shooting Star(T5)"`
-					to display
-						"ship model: Shooting Star" >= 3
-						"ship model: Shooting Star (T4)" >= 1
-					goto "Shooting Star (T4)"
-				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T4)" into a "Ursa Polaris(T5)"`
-					to display
-						"ship model: Ursa Polaris" >= 3
-						"ship model: Ursa Polaris (T4)" >= 1
-					goto "Ursa Polaris (T4)"
-				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T4)" into a "Modified Osprey(T5)"`
-					to display
-						"ship model: Modified Osprey" >= 3
-						"ship model: Modified Osprey (T4)" >= 1
-					goto "Modified Osprey (T4)"
-				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T4)" into a "Lampyrid-Class Transport(T5)"`
-					to display
-						"ship model: Lampyrid-Class Transport" >= 3
-						"ship model: Lampyrid-Class Transport (T4)" >= 1
-					goto "Lampyrid-Class Transport (T4)"
-				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T4)" into a "Marauder Fury(T5)"`
-					to display
-						"ship model: Marauder Fury" >= 3
-						"ship model: Marauder Fury (T4)" >= 1
-					goto "Marauder Fury (T4)"
-				`	merge 3x "Wardragon" and 1x "Wardragon (T4)" into a "Wardragon(T5)"`
-					to display
-						"ship model: Wardragon" >= 3
-						"ship model: Wardragon (T4)" >= 1
-					goto "Wardragon (T4)"
 				`	merge 3x "Riptide" and 1x "Riptide (T3)" into a "Riptide(T4)"`
 					to display
 						"ship model: Riptide" >= 3
@@ -8816,6 +8816,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T3)" >= 1
 					goto "Tern (T3)"
+				`	merge 3x "Swan" and 1x "Swan (T3)" into a "Swan(T4)"`
+					to display
+						"ship model: Swan" >= 3
+						"ship model: Swan (T3)" >= 1
+					goto "Swan (T3)"
 				`	merge 3x "Starling" and 1x "Starling (T3)" into a "Starling(T4)"`
 					to display
 						"ship model: Starling" >= 3
@@ -8931,6 +8936,66 @@ mission "upgrade ships"
 						"ship model: Pug Zibruka" >= 3
 						"ship model: Pug Zibruka (T3)" >= 1
 					goto "Pug Zibruka (T3)"
+				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T3)" into a "Modified Hauler VI(T4)"`
+					to display
+						"ship model: Modified Hauler VI" >= 3
+						"ship model: Modified Hauler VI (T3)" >= 1
+					goto "Modified Hauler VI (T3)"
+				`	merge 3x "Waverider" and 1x "Waverider (T3)" into a "Waverider(T4)"`
+					to display
+						"ship model: Waverider" >= 3
+						"ship model: Waverider (T3)" >= 1
+					goto "Waverider (T3)"
+				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T3)" into a "Modified Ladybug(T4)"`
+					to display
+						"ship model: Modified Ladybug" >= 3
+						"ship model: Modified Ladybug (T3)" >= 1
+					goto "Modified Ladybug (T3)"
+				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T3)" into a "Modified Battleship(T4)"`
+					to display
+						"ship model: Modified Battleship" >= 3
+						"ship model: Modified Battleship (T3)" >= 1
+					goto "Modified Battleship (T3)"
+				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T3)" into a "Modified Boxwing(T4)"`
+					to display
+						"ship model: Modified Boxwing" >= 3
+						"ship model: Modified Boxwing (T3)" >= 1
+					goto "Modified Boxwing (T3)"
+				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T3)" into a "Marauder Bactrian(T4)"`
+					to display
+						"ship model: Marauder Bactrian" >= 3
+						"ship model: Marauder Bactrian (T3)" >= 1
+					goto "Marauder Bactrian (T3)"
+				`	merge 3x "Shooting Star" and 1x "Shooting Star (T3)" into a "Shooting Star(T4)"`
+					to display
+						"ship model: Shooting Star" >= 3
+						"ship model: Shooting Star (T3)" >= 1
+					goto "Shooting Star (T3)"
+				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T3)" into a "Ursa Polaris(T4)"`
+					to display
+						"ship model: Ursa Polaris" >= 3
+						"ship model: Ursa Polaris (T3)" >= 1
+					goto "Ursa Polaris (T3)"
+				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T3)" into a "Modified Osprey(T4)"`
+					to display
+						"ship model: Modified Osprey" >= 3
+						"ship model: Modified Osprey (T3)" >= 1
+					goto "Modified Osprey (T3)"
+				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T3)" into a "Lampyrid-Class Transport(T4)"`
+					to display
+						"ship model: Lampyrid-Class Transport" >= 3
+						"ship model: Lampyrid-Class Transport (T3)" >= 1
+					goto "Lampyrid-Class Transport (T3)"
+				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T3)" into a "Marauder Fury(T4)"`
+					to display
+						"ship model: Marauder Fury" >= 3
+						"ship model: Marauder Fury (T3)" >= 1
+					goto "Marauder Fury (T3)"
+				`	merge 3x "Wardragon" and 1x "Wardragon (T3)" into a "Wardragon(T4)"`
+					to display
+						"ship model: Wardragon" >= 3
+						"ship model: Wardragon (T3)" >= 1
+					goto "Wardragon (T3)"
 				`	merge 3x "Model 512" and 1x "Model 512 (T3)" into a "Model 512(T4)"`
 					to display
 						"ship model: Model 512" >= 3
@@ -10036,71 +10101,6 @@ mission "upgrade ships"
 						"ship model: Koryfi" >= 3
 						"ship model: Koryfi (T3)" >= 1
 					goto "Koryfi (T3)"
-				`	merge 3x "Quarg Skylark" and 1x "Quarg Skylark (T3)" into a "Quarg Skylark(T4)"`
-					to display
-						"ship model: Quarg Skylark" >= 3
-						"ship model: Quarg Skylark (T3)" >= 1
-					goto "Quarg Skylark (T3)"
-				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T3)" into a "Modified Hauler VI(T4)"`
-					to display
-						"ship model: Modified Hauler VI" >= 3
-						"ship model: Modified Hauler VI (T3)" >= 1
-					goto "Modified Hauler VI (T3)"
-				`	merge 3x "Waverider" and 1x "Waverider (T3)" into a "Waverider(T4)"`
-					to display
-						"ship model: Waverider" >= 3
-						"ship model: Waverider (T3)" >= 1
-					goto "Waverider (T3)"
-				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T3)" into a "Modified Ladybug(T4)"`
-					to display
-						"ship model: Modified Ladybug" >= 3
-						"ship model: Modified Ladybug (T3)" >= 1
-					goto "Modified Ladybug (T3)"
-				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T3)" into a "Modified Battleship(T4)"`
-					to display
-						"ship model: Modified Battleship" >= 3
-						"ship model: Modified Battleship (T3)" >= 1
-					goto "Modified Battleship (T3)"
-				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T3)" into a "Modified Boxwing(T4)"`
-					to display
-						"ship model: Modified Boxwing" >= 3
-						"ship model: Modified Boxwing (T3)" >= 1
-					goto "Modified Boxwing (T3)"
-				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T3)" into a "Marauder Bactrian(T4)"`
-					to display
-						"ship model: Marauder Bactrian" >= 3
-						"ship model: Marauder Bactrian (T3)" >= 1
-					goto "Marauder Bactrian (T3)"
-				`	merge 3x "Shooting Star" and 1x "Shooting Star (T3)" into a "Shooting Star(T4)"`
-					to display
-						"ship model: Shooting Star" >= 3
-						"ship model: Shooting Star (T3)" >= 1
-					goto "Shooting Star (T3)"
-				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T3)" into a "Ursa Polaris(T4)"`
-					to display
-						"ship model: Ursa Polaris" >= 3
-						"ship model: Ursa Polaris (T3)" >= 1
-					goto "Ursa Polaris (T3)"
-				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T3)" into a "Modified Osprey(T4)"`
-					to display
-						"ship model: Modified Osprey" >= 3
-						"ship model: Modified Osprey (T3)" >= 1
-					goto "Modified Osprey (T3)"
-				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T3)" into a "Lampyrid-Class Transport(T4)"`
-					to display
-						"ship model: Lampyrid-Class Transport" >= 3
-						"ship model: Lampyrid-Class Transport (T3)" >= 1
-					goto "Lampyrid-Class Transport (T3)"
-				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T3)" into a "Marauder Fury(T4)"`
-					to display
-						"ship model: Marauder Fury" >= 3
-						"ship model: Marauder Fury (T3)" >= 1
-					goto "Marauder Fury (T3)"
-				`	merge 3x "Wardragon" and 1x "Wardragon (T3)" into a "Wardragon(T4)"`
-					to display
-						"ship model: Wardragon" >= 3
-						"ship model: Wardragon (T3)" >= 1
-					goto "Wardragon (T3)"
 				`	merge 3x "Riptide" and 1x "Riptide (T2)" into a "Riptide(T3)"`
 					to display
 						"ship model: Riptide" >= 3
@@ -10256,6 +10256,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T2)" >= 1
 					goto "Tern (T2)"
+				`	merge 3x "Swan" and 1x "Swan (T2)" into a "Swan(T3)"`
+					to display
+						"ship model: Swan" >= 3
+						"ship model: Swan (T2)" >= 1
+					goto "Swan (T2)"
 				`	merge 3x "Starling" and 1x "Starling (T2)" into a "Starling(T3)"`
 					to display
 						"ship model: Starling" >= 3
@@ -10371,6 +10376,66 @@ mission "upgrade ships"
 						"ship model: Pug Zibruka" >= 3
 						"ship model: Pug Zibruka (T2)" >= 1
 					goto "Pug Zibruka (T2)"
+				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T2)" into a "Modified Hauler VI(T3)"`
+					to display
+						"ship model: Modified Hauler VI" >= 3
+						"ship model: Modified Hauler VI (T2)" >= 1
+					goto "Modified Hauler VI (T2)"
+				`	merge 3x "Waverider" and 1x "Waverider (T2)" into a "Waverider(T3)"`
+					to display
+						"ship model: Waverider" >= 3
+						"ship model: Waverider (T2)" >= 1
+					goto "Waverider (T2)"
+				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T2)" into a "Modified Ladybug(T3)"`
+					to display
+						"ship model: Modified Ladybug" >= 3
+						"ship model: Modified Ladybug (T2)" >= 1
+					goto "Modified Ladybug (T2)"
+				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T2)" into a "Modified Battleship(T3)"`
+					to display
+						"ship model: Modified Battleship" >= 3
+						"ship model: Modified Battleship (T2)" >= 1
+					goto "Modified Battleship (T2)"
+				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T2)" into a "Modified Boxwing(T3)"`
+					to display
+						"ship model: Modified Boxwing" >= 3
+						"ship model: Modified Boxwing (T2)" >= 1
+					goto "Modified Boxwing (T2)"
+				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T2)" into a "Marauder Bactrian(T3)"`
+					to display
+						"ship model: Marauder Bactrian" >= 3
+						"ship model: Marauder Bactrian (T2)" >= 1
+					goto "Marauder Bactrian (T2)"
+				`	merge 3x "Shooting Star" and 1x "Shooting Star (T2)" into a "Shooting Star(T3)"`
+					to display
+						"ship model: Shooting Star" >= 3
+						"ship model: Shooting Star (T2)" >= 1
+					goto "Shooting Star (T2)"
+				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T2)" into a "Ursa Polaris(T3)"`
+					to display
+						"ship model: Ursa Polaris" >= 3
+						"ship model: Ursa Polaris (T2)" >= 1
+					goto "Ursa Polaris (T2)"
+				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T2)" into a "Modified Osprey(T3)"`
+					to display
+						"ship model: Modified Osprey" >= 3
+						"ship model: Modified Osprey (T2)" >= 1
+					goto "Modified Osprey (T2)"
+				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T2)" into a "Lampyrid-Class Transport(T3)"`
+					to display
+						"ship model: Lampyrid-Class Transport" >= 3
+						"ship model: Lampyrid-Class Transport (T2)" >= 1
+					goto "Lampyrid-Class Transport (T2)"
+				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T2)" into a "Marauder Fury(T3)"`
+					to display
+						"ship model: Marauder Fury" >= 3
+						"ship model: Marauder Fury (T2)" >= 1
+					goto "Marauder Fury (T2)"
+				`	merge 3x "Wardragon" and 1x "Wardragon (T2)" into a "Wardragon(T3)"`
+					to display
+						"ship model: Wardragon" >= 3
+						"ship model: Wardragon (T2)" >= 1
+					goto "Wardragon (T2)"
 				`	merge 3x "Model 512" and 1x "Model 512 (T2)" into a "Model 512(T3)"`
 					to display
 						"ship model: Model 512" >= 3
@@ -11476,71 +11541,6 @@ mission "upgrade ships"
 						"ship model: Koryfi" >= 3
 						"ship model: Koryfi (T2)" >= 1
 					goto "Koryfi (T2)"
-				`	merge 3x "Quarg Skylark" and 1x "Quarg Skylark (T2)" into a "Quarg Skylark(T3)"`
-					to display
-						"ship model: Quarg Skylark" >= 3
-						"ship model: Quarg Skylark (T2)" >= 1
-					goto "Quarg Skylark (T2)"
-				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T2)" into a "Modified Hauler VI(T3)"`
-					to display
-						"ship model: Modified Hauler VI" >= 3
-						"ship model: Modified Hauler VI (T2)" >= 1
-					goto "Modified Hauler VI (T2)"
-				`	merge 3x "Waverider" and 1x "Waverider (T2)" into a "Waverider(T3)"`
-					to display
-						"ship model: Waverider" >= 3
-						"ship model: Waverider (T2)" >= 1
-					goto "Waverider (T2)"
-				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T2)" into a "Modified Ladybug(T3)"`
-					to display
-						"ship model: Modified Ladybug" >= 3
-						"ship model: Modified Ladybug (T2)" >= 1
-					goto "Modified Ladybug (T2)"
-				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T2)" into a "Modified Battleship(T3)"`
-					to display
-						"ship model: Modified Battleship" >= 3
-						"ship model: Modified Battleship (T2)" >= 1
-					goto "Modified Battleship (T2)"
-				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T2)" into a "Modified Boxwing(T3)"`
-					to display
-						"ship model: Modified Boxwing" >= 3
-						"ship model: Modified Boxwing (T2)" >= 1
-					goto "Modified Boxwing (T2)"
-				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T2)" into a "Marauder Bactrian(T3)"`
-					to display
-						"ship model: Marauder Bactrian" >= 3
-						"ship model: Marauder Bactrian (T2)" >= 1
-					goto "Marauder Bactrian (T2)"
-				`	merge 3x "Shooting Star" and 1x "Shooting Star (T2)" into a "Shooting Star(T3)"`
-					to display
-						"ship model: Shooting Star" >= 3
-						"ship model: Shooting Star (T2)" >= 1
-					goto "Shooting Star (T2)"
-				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T2)" into a "Ursa Polaris(T3)"`
-					to display
-						"ship model: Ursa Polaris" >= 3
-						"ship model: Ursa Polaris (T2)" >= 1
-					goto "Ursa Polaris (T2)"
-				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T2)" into a "Modified Osprey(T3)"`
-					to display
-						"ship model: Modified Osprey" >= 3
-						"ship model: Modified Osprey (T2)" >= 1
-					goto "Modified Osprey (T2)"
-				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T2)" into a "Lampyrid-Class Transport(T3)"`
-					to display
-						"ship model: Lampyrid-Class Transport" >= 3
-						"ship model: Lampyrid-Class Transport (T2)" >= 1
-					goto "Lampyrid-Class Transport (T2)"
-				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T2)" into a "Marauder Fury(T3)"`
-					to display
-						"ship model: Marauder Fury" >= 3
-						"ship model: Marauder Fury (T2)" >= 1
-					goto "Marauder Fury (T2)"
-				`	merge 3x "Wardragon" and 1x "Wardragon (T2)" into a "Wardragon(T3)"`
-					to display
-						"ship model: Wardragon" >= 3
-						"ship model: Wardragon (T2)" >= 1
-					goto "Wardragon (T2)"
 				`	merge 3x "Riptide" and 1x "Riptide (T1)" into a "Riptide(T2)"`
 					to display
 						"ship model: Riptide" >= 3
@@ -11696,6 +11696,11 @@ mission "upgrade ships"
 						"ship model: Tern" >= 3
 						"ship model: Tern (T1)" >= 1
 					goto "Tern (T1)"
+				`	merge 3x "Swan" and 1x "Swan (T1)" into a "Swan(T2)"`
+					to display
+						"ship model: Swan" >= 3
+						"ship model: Swan (T1)" >= 1
+					goto "Swan (T1)"
 				`	merge 3x "Starling" and 1x "Starling (T1)" into a "Starling(T2)"`
 					to display
 						"ship model: Starling" >= 3
@@ -11811,6 +11816,66 @@ mission "upgrade ships"
 						"ship model: Pug Zibruka" >= 3
 						"ship model: Pug Zibruka (T1)" >= 1
 					goto "Pug Zibruka (T1)"
+				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T1)" into a "Modified Hauler VI(T2)"`
+					to display
+						"ship model: Modified Hauler VI" >= 3
+						"ship model: Modified Hauler VI (T1)" >= 1
+					goto "Modified Hauler VI (T1)"
+				`	merge 3x "Waverider" and 1x "Waverider (T1)" into a "Waverider(T2)"`
+					to display
+						"ship model: Waverider" >= 3
+						"ship model: Waverider (T1)" >= 1
+					goto "Waverider (T1)"
+				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T1)" into a "Modified Ladybug(T2)"`
+					to display
+						"ship model: Modified Ladybug" >= 3
+						"ship model: Modified Ladybug (T1)" >= 1
+					goto "Modified Ladybug (T1)"
+				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T1)" into a "Modified Battleship(T2)"`
+					to display
+						"ship model: Modified Battleship" >= 3
+						"ship model: Modified Battleship (T1)" >= 1
+					goto "Modified Battleship (T1)"
+				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T1)" into a "Modified Boxwing(T2)"`
+					to display
+						"ship model: Modified Boxwing" >= 3
+						"ship model: Modified Boxwing (T1)" >= 1
+					goto "Modified Boxwing (T1)"
+				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T1)" into a "Marauder Bactrian(T2)"`
+					to display
+						"ship model: Marauder Bactrian" >= 3
+						"ship model: Marauder Bactrian (T1)" >= 1
+					goto "Marauder Bactrian (T1)"
+				`	merge 3x "Shooting Star" and 1x "Shooting Star (T1)" into a "Shooting Star(T2)"`
+					to display
+						"ship model: Shooting Star" >= 3
+						"ship model: Shooting Star (T1)" >= 1
+					goto "Shooting Star (T1)"
+				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T1)" into a "Ursa Polaris(T2)"`
+					to display
+						"ship model: Ursa Polaris" >= 3
+						"ship model: Ursa Polaris (T1)" >= 1
+					goto "Ursa Polaris (T1)"
+				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T1)" into a "Modified Osprey(T2)"`
+					to display
+						"ship model: Modified Osprey" >= 3
+						"ship model: Modified Osprey (T1)" >= 1
+					goto "Modified Osprey (T1)"
+				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T1)" into a "Lampyrid-Class Transport(T2)"`
+					to display
+						"ship model: Lampyrid-Class Transport" >= 3
+						"ship model: Lampyrid-Class Transport (T1)" >= 1
+					goto "Lampyrid-Class Transport (T1)"
+				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T1)" into a "Marauder Fury(T2)"`
+					to display
+						"ship model: Marauder Fury" >= 3
+						"ship model: Marauder Fury (T1)" >= 1
+					goto "Marauder Fury (T1)"
+				`	merge 3x "Wardragon" and 1x "Wardragon (T1)" into a "Wardragon(T2)"`
+					to display
+						"ship model: Wardragon" >= 3
+						"ship model: Wardragon (T1)" >= 1
+					goto "Wardragon (T1)"
 				`	merge 3x "Model 512" and 1x "Model 512 (T1)" into a "Model 512(T2)"`
 					to display
 						"ship model: Model 512" >= 3
@@ -12916,71 +12981,6 @@ mission "upgrade ships"
 						"ship model: Koryfi" >= 3
 						"ship model: Koryfi (T1)" >= 1
 					goto "Koryfi (T1)"
-				`	merge 3x "Quarg Skylark" and 1x "Quarg Skylark (T1)" into a "Quarg Skylark(T2)"`
-					to display
-						"ship model: Quarg Skylark" >= 3
-						"ship model: Quarg Skylark (T1)" >= 1
-					goto "Quarg Skylark (T1)"
-				`	merge 3x "Modified Hauler VI" and 1x "Modified Hauler VI (T1)" into a "Modified Hauler VI(T2)"`
-					to display
-						"ship model: Modified Hauler VI" >= 3
-						"ship model: Modified Hauler VI (T1)" >= 1
-					goto "Modified Hauler VI (T1)"
-				`	merge 3x "Waverider" and 1x "Waverider (T1)" into a "Waverider(T2)"`
-					to display
-						"ship model: Waverider" >= 3
-						"ship model: Waverider (T1)" >= 1
-					goto "Waverider (T1)"
-				`	merge 3x "Modified Ladybug" and 1x "Modified Ladybug (T1)" into a "Modified Ladybug(T2)"`
-					to display
-						"ship model: Modified Ladybug" >= 3
-						"ship model: Modified Ladybug (T1)" >= 1
-					goto "Modified Ladybug (T1)"
-				`	merge 3x "Modified Battleship" and 1x "Modified Battleship (T1)" into a "Modified Battleship(T2)"`
-					to display
-						"ship model: Modified Battleship" >= 3
-						"ship model: Modified Battleship (T1)" >= 1
-					goto "Modified Battleship (T1)"
-				`	merge 3x "Modified Boxwing" and 1x "Modified Boxwing (T1)" into a "Modified Boxwing(T2)"`
-					to display
-						"ship model: Modified Boxwing" >= 3
-						"ship model: Modified Boxwing (T1)" >= 1
-					goto "Modified Boxwing (T1)"
-				`	merge 3x "Marauder Bactrian" and 1x "Marauder Bactrian (T1)" into a "Marauder Bactrian(T2)"`
-					to display
-						"ship model: Marauder Bactrian" >= 3
-						"ship model: Marauder Bactrian (T1)" >= 1
-					goto "Marauder Bactrian (T1)"
-				`	merge 3x "Shooting Star" and 1x "Shooting Star (T1)" into a "Shooting Star(T2)"`
-					to display
-						"ship model: Shooting Star" >= 3
-						"ship model: Shooting Star (T1)" >= 1
-					goto "Shooting Star (T1)"
-				`	merge 3x "Ursa Polaris" and 1x "Ursa Polaris (T1)" into a "Ursa Polaris(T2)"`
-					to display
-						"ship model: Ursa Polaris" >= 3
-						"ship model: Ursa Polaris (T1)" >= 1
-					goto "Ursa Polaris (T1)"
-				`	merge 3x "Modified Osprey" and 1x "Modified Osprey (T1)" into a "Modified Osprey(T2)"`
-					to display
-						"ship model: Modified Osprey" >= 3
-						"ship model: Modified Osprey (T1)" >= 1
-					goto "Modified Osprey (T1)"
-				`	merge 3x "Lampyrid-Class Transport" and 1x "Lampyrid-Class Transport (T1)" into a "Lampyrid-Class Transport(T2)"`
-					to display
-						"ship model: Lampyrid-Class Transport" >= 3
-						"ship model: Lampyrid-Class Transport (T1)" >= 1
-					goto "Lampyrid-Class Transport (T1)"
-				`	merge 3x "Marauder Fury" and 1x "Marauder Fury (T1)" into a "Marauder Fury(T2)"`
-					to display
-						"ship model: Marauder Fury" >= 3
-						"ship model: Marauder Fury (T1)" >= 1
-					goto "Marauder Fury (T1)"
-				`	merge 3x "Wardragon" and 1x "Wardragon (T1)" into a "Wardragon(T2)"`
-					to display
-						"ship model: Wardragon" >= 3
-						"ship model: Wardragon (T1)" >= 1
-					goto "Wardragon (T1)"
 				`	merge 4x "Riptide" into a "Riptide (T1)"`
 					to display
 						"ship model: Riptide" >= 4
@@ -13105,6 +13105,10 @@ mission "upgrade ships"
 					to display
 						"ship model: Tern" >= 4
 					goto "Tern"
+				`	merge 4x "Swan" into a "Swan (T1)"`
+					to display
+						"ship model: Swan" >= 4
+					goto "Swan"
 				`	merge 4x "Starling" into a "Starling (T1)"`
 					to display
 						"ship model: Starling" >= 4
@@ -13197,6 +13201,54 @@ mission "upgrade ships"
 					to display
 						"ship model: Pug Zibruka" >= 4
 					goto "Pug Zibruka"
+				`	merge 4x "Modified Hauler VI" into a "Modified Hauler VI (T1)"`
+					to display
+						"ship model: Modified Hauler VI" >= 4
+					goto "Modified Hauler VI"
+				`	merge 4x "Waverider" into a "Waverider (T1)"`
+					to display
+						"ship model: Waverider" >= 4
+					goto "Waverider"
+				`	merge 4x "Modified Ladybug" into a "Modified Ladybug (T1)"`
+					to display
+						"ship model: Modified Ladybug" >= 4
+					goto "Modified Ladybug"
+				`	merge 4x "Modified Battleship" into a "Modified Battleship (T1)"`
+					to display
+						"ship model: Modified Battleship" >= 4
+					goto "Modified Battleship"
+				`	merge 4x "Modified Boxwing" into a "Modified Boxwing (T1)"`
+					to display
+						"ship model: Modified Boxwing" >= 4
+					goto "Modified Boxwing"
+				`	merge 4x "Marauder Bactrian" into a "Marauder Bactrian (T1)"`
+					to display
+						"ship model: Marauder Bactrian" >= 4
+					goto "Marauder Bactrian"
+				`	merge 4x "Shooting Star" into a "Shooting Star (T1)"`
+					to display
+						"ship model: Shooting Star" >= 4
+					goto "Shooting Star"
+				`	merge 4x "Ursa Polaris" into a "Ursa Polaris (T1)"`
+					to display
+						"ship model: Ursa Polaris" >= 4
+					goto "Ursa Polaris"
+				`	merge 4x "Modified Osprey" into a "Modified Osprey (T1)"`
+					to display
+						"ship model: Modified Osprey" >= 4
+					goto "Modified Osprey"
+				`	merge 4x "Lampyrid-Class Transport" into a "Lampyrid-Class Transport (T1)"`
+					to display
+						"ship model: Lampyrid-Class Transport" >= 4
+					goto "Lampyrid-Class Transport"
+				`	merge 4x "Marauder Fury" into a "Marauder Fury (T1)"`
+					to display
+						"ship model: Marauder Fury" >= 4
+					goto "Marauder Fury"
+				`	merge 4x "Wardragon" into a "Wardragon (T1)"`
+					to display
+						"ship model: Wardragon" >= 4
+					goto "Wardragon"
 				`	merge 4x "Model 512" into a "Model 512 (T1)"`
 					to display
 						"ship model: Model 512" >= 4
@@ -14081,58 +14133,6 @@ mission "upgrade ships"
 					to display
 						"ship model: Koryfi" >= 4
 					goto "Koryfi"
-				`	merge 4x "Quarg Skylark" into a "Quarg Skylark (T1)"`
-					to display
-						"ship model: Quarg Skylark" >= 4
-					goto "Quarg Skylark"
-				`	merge 4x "Modified Hauler VI" into a "Modified Hauler VI (T1)"`
-					to display
-						"ship model: Modified Hauler VI" >= 4
-					goto "Modified Hauler VI"
-				`	merge 4x "Waverider" into a "Waverider (T1)"`
-					to display
-						"ship model: Waverider" >= 4
-					goto "Waverider"
-				`	merge 4x "Modified Ladybug" into a "Modified Ladybug (T1)"`
-					to display
-						"ship model: Modified Ladybug" >= 4
-					goto "Modified Ladybug"
-				`	merge 4x "Modified Battleship" into a "Modified Battleship (T1)"`
-					to display
-						"ship model: Modified Battleship" >= 4
-					goto "Modified Battleship"
-				`	merge 4x "Modified Boxwing" into a "Modified Boxwing (T1)"`
-					to display
-						"ship model: Modified Boxwing" >= 4
-					goto "Modified Boxwing"
-				`	merge 4x "Marauder Bactrian" into a "Marauder Bactrian (T1)"`
-					to display
-						"ship model: Marauder Bactrian" >= 4
-					goto "Marauder Bactrian"
-				`	merge 4x "Shooting Star" into a "Shooting Star (T1)"`
-					to display
-						"ship model: Shooting Star" >= 4
-					goto "Shooting Star"
-				`	merge 4x "Ursa Polaris" into a "Ursa Polaris (T1)"`
-					to display
-						"ship model: Ursa Polaris" >= 4
-					goto "Ursa Polaris"
-				`	merge 4x "Modified Osprey" into a "Modified Osprey (T1)"`
-					to display
-						"ship model: Modified Osprey" >= 4
-					goto "Modified Osprey"
-				`	merge 4x "Lampyrid-Class Transport" into a "Lampyrid-Class Transport (T1)"`
-					to display
-						"ship model: Lampyrid-Class Transport" >= 4
-					goto "Lampyrid-Class Transport"
-				`	merge 4x "Marauder Fury" into a "Marauder Fury (T1)"`
-					to display
-						"ship model: Marauder Fury" >= 4
-					goto "Marauder Fury"
-				`	merge 4x "Wardragon" into a "Wardragon (T1)"`
-					to display
-						"ship model: Wardragon" >= 4
-					goto "Wardragon"
 				`close`
 					goto "end"
 			label "Riptide (T9)"
@@ -14383,6 +14383,14 @@ mission "upgrade ships"
 				give ship "Tern (T10)"
 			`3x "Tern" removed, 1x "Tern (T9)" removed | 1x "Tern (T10)" given`
 				goto menu
+			label "Swan (T9)"
+			action
+				take ship "Swan"
+					count 3
+				take ship "Swan (T9)"
+				give ship "Swan (T10)"
+			`3x "Swan" removed, 1x "Swan (T9)" removed | 1x "Swan (T10)" given`
+				goto menu
 			label "Starling (T9)"
 			action
 				take ship "Starling"
@@ -14566,6 +14574,102 @@ mission "upgrade ships"
 				take ship "Pug Zibruka (T9)"
 				give ship "Pug Zibruka (T10)"
 			`3x "Pug Zibruka" removed, 1x "Pug Zibruka (T9)" removed | 1x "Pug Zibruka (T10)" given`
+				goto menu
+			label "Modified Hauler VI (T9)"
+			action
+				take ship "Modified Hauler VI"
+					count 3
+				take ship "Modified Hauler VI (T9)"
+				give ship "Modified Hauler VI (T10)"
+			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T9)" removed | 1x "Modified Hauler VI (T10)" given`
+				goto menu
+			label "Waverider (T9)"
+			action
+				take ship "Waverider"
+					count 3
+				take ship "Waverider (T9)"
+				give ship "Waverider (T10)"
+			`3x "Waverider" removed, 1x "Waverider (T9)" removed | 1x "Waverider (T10)" given`
+				goto menu
+			label "Modified Ladybug (T9)"
+			action
+				take ship "Modified Ladybug"
+					count 3
+				take ship "Modified Ladybug (T9)"
+				give ship "Modified Ladybug (T10)"
+			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T9)" removed | 1x "Modified Ladybug (T10)" given`
+				goto menu
+			label "Modified Battleship (T9)"
+			action
+				take ship "Modified Battleship"
+					count 3
+				take ship "Modified Battleship (T9)"
+				give ship "Modified Battleship (T10)"
+			`3x "Modified Battleship" removed, 1x "Modified Battleship (T9)" removed | 1x "Modified Battleship (T10)" given`
+				goto menu
+			label "Modified Boxwing (T9)"
+			action
+				take ship "Modified Boxwing"
+					count 3
+				take ship "Modified Boxwing (T9)"
+				give ship "Modified Boxwing (T10)"
+			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T9)" removed | 1x "Modified Boxwing (T10)" given`
+				goto menu
+			label "Marauder Bactrian (T9)"
+			action
+				take ship "Marauder Bactrian"
+					count 3
+				take ship "Marauder Bactrian (T9)"
+				give ship "Marauder Bactrian (T10)"
+			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T9)" removed | 1x "Marauder Bactrian (T10)" given`
+				goto menu
+			label "Shooting Star (T9)"
+			action
+				take ship "Shooting Star"
+					count 3
+				take ship "Shooting Star (T9)"
+				give ship "Shooting Star (T10)"
+			`3x "Shooting Star" removed, 1x "Shooting Star (T9)" removed | 1x "Shooting Star (T10)" given`
+				goto menu
+			label "Ursa Polaris (T9)"
+			action
+				take ship "Ursa Polaris"
+					count 3
+				take ship "Ursa Polaris (T9)"
+				give ship "Ursa Polaris (T10)"
+			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T9)" removed | 1x "Ursa Polaris (T10)" given`
+				goto menu
+			label "Modified Osprey (T9)"
+			action
+				take ship "Modified Osprey"
+					count 3
+				take ship "Modified Osprey (T9)"
+				give ship "Modified Osprey (T10)"
+			`3x "Modified Osprey" removed, 1x "Modified Osprey (T9)" removed | 1x "Modified Osprey (T10)" given`
+				goto menu
+			label "Lampyrid-Class Transport (T9)"
+			action
+				take ship "Lampyrid-Class Transport"
+					count 3
+				take ship "Lampyrid-Class Transport (T9)"
+				give ship "Lampyrid-Class Transport (T10)"
+			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T9)" removed | 1x "Lampyrid-Class Transport (T10)" given`
+				goto menu
+			label "Marauder Fury (T9)"
+			action
+				take ship "Marauder Fury"
+					count 3
+				take ship "Marauder Fury (T9)"
+				give ship "Marauder Fury (T10)"
+			`3x "Marauder Fury" removed, 1x "Marauder Fury (T9)" removed | 1x "Marauder Fury (T10)" given`
+				goto menu
+			label "Wardragon (T9)"
+			action
+				take ship "Wardragon"
+					count 3
+				take ship "Wardragon (T9)"
+				give ship "Wardragon (T10)"
+			`3x "Wardragon" removed, 1x "Wardragon (T9)" removed | 1x "Wardragon (T10)" given`
 				goto menu
 			label "Model 512 (T9)"
 			action
@@ -16335,110 +16439,6 @@ mission "upgrade ships"
 				give ship "Koryfi (T10)"
 			`3x "Koryfi" removed, 1x "Koryfi (T9)" removed | 1x "Koryfi (T10)" given`
 				goto menu
-			label "Quarg Skylark (T9)"
-			action
-				take ship "Quarg Skylark"
-					count 3
-				take ship "Quarg Skylark (T9)"
-				give ship "Quarg Skylark (T10)"
-			`3x "Quarg Skylark" removed, 1x "Quarg Skylark (T9)" removed | 1x "Quarg Skylark (T10)" given`
-				goto menu
-			label "Modified Hauler VI (T9)"
-			action
-				take ship "Modified Hauler VI"
-					count 3
-				take ship "Modified Hauler VI (T9)"
-				give ship "Modified Hauler VI (T10)"
-			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T9)" removed | 1x "Modified Hauler VI (T10)" given`
-				goto menu
-			label "Waverider (T9)"
-			action
-				take ship "Waverider"
-					count 3
-				take ship "Waverider (T9)"
-				give ship "Waverider (T10)"
-			`3x "Waverider" removed, 1x "Waverider (T9)" removed | 1x "Waverider (T10)" given`
-				goto menu
-			label "Modified Ladybug (T9)"
-			action
-				take ship "Modified Ladybug"
-					count 3
-				take ship "Modified Ladybug (T9)"
-				give ship "Modified Ladybug (T10)"
-			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T9)" removed | 1x "Modified Ladybug (T10)" given`
-				goto menu
-			label "Modified Battleship (T9)"
-			action
-				take ship "Modified Battleship"
-					count 3
-				take ship "Modified Battleship (T9)"
-				give ship "Modified Battleship (T10)"
-			`3x "Modified Battleship" removed, 1x "Modified Battleship (T9)" removed | 1x "Modified Battleship (T10)" given`
-				goto menu
-			label "Modified Boxwing (T9)"
-			action
-				take ship "Modified Boxwing"
-					count 3
-				take ship "Modified Boxwing (T9)"
-				give ship "Modified Boxwing (T10)"
-			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T9)" removed | 1x "Modified Boxwing (T10)" given`
-				goto menu
-			label "Marauder Bactrian (T9)"
-			action
-				take ship "Marauder Bactrian"
-					count 3
-				take ship "Marauder Bactrian (T9)"
-				give ship "Marauder Bactrian (T10)"
-			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T9)" removed | 1x "Marauder Bactrian (T10)" given`
-				goto menu
-			label "Shooting Star (T9)"
-			action
-				take ship "Shooting Star"
-					count 3
-				take ship "Shooting Star (T9)"
-				give ship "Shooting Star (T10)"
-			`3x "Shooting Star" removed, 1x "Shooting Star (T9)" removed | 1x "Shooting Star (T10)" given`
-				goto menu
-			label "Ursa Polaris (T9)"
-			action
-				take ship "Ursa Polaris"
-					count 3
-				take ship "Ursa Polaris (T9)"
-				give ship "Ursa Polaris (T10)"
-			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T9)" removed | 1x "Ursa Polaris (T10)" given`
-				goto menu
-			label "Modified Osprey (T9)"
-			action
-				take ship "Modified Osprey"
-					count 3
-				take ship "Modified Osprey (T9)"
-				give ship "Modified Osprey (T10)"
-			`3x "Modified Osprey" removed, 1x "Modified Osprey (T9)" removed | 1x "Modified Osprey (T10)" given`
-				goto menu
-			label "Lampyrid-Class Transport (T9)"
-			action
-				take ship "Lampyrid-Class Transport"
-					count 3
-				take ship "Lampyrid-Class Transport (T9)"
-				give ship "Lampyrid-Class Transport (T10)"
-			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T9)" removed | 1x "Lampyrid-Class Transport (T10)" given`
-				goto menu
-			label "Marauder Fury (T9)"
-			action
-				take ship "Marauder Fury"
-					count 3
-				take ship "Marauder Fury (T9)"
-				give ship "Marauder Fury (T10)"
-			`3x "Marauder Fury" removed, 1x "Marauder Fury (T9)" removed | 1x "Marauder Fury (T10)" given`
-				goto menu
-			label "Wardragon (T9)"
-			action
-				take ship "Wardragon"
-					count 3
-				take ship "Wardragon (T9)"
-				give ship "Wardragon (T10)"
-			`3x "Wardragon" removed, 1x "Wardragon (T9)" removed | 1x "Wardragon (T10)" given`
-				goto menu
 			label "Riptide (T8)"
 			action
 				take ship "Riptide"
@@ -16687,6 +16687,14 @@ mission "upgrade ships"
 				give ship "Tern (T9)"
 			`3x "Tern" removed, 1x "Tern (T8)" removed | 1x "Tern (T9)" given`
 				goto menu
+			label "Swan (T8)"
+			action
+				take ship "Swan"
+					count 3
+				take ship "Swan (T8)"
+				give ship "Swan (T9)"
+			`3x "Swan" removed, 1x "Swan (T8)" removed | 1x "Swan (T9)" given`
+				goto menu
 			label "Starling (T8)"
 			action
 				take ship "Starling"
@@ -16870,6 +16878,102 @@ mission "upgrade ships"
 				take ship "Pug Zibruka (T8)"
 				give ship "Pug Zibruka (T9)"
 			`3x "Pug Zibruka" removed, 1x "Pug Zibruka (T8)" removed | 1x "Pug Zibruka (T9)" given`
+				goto menu
+			label "Modified Hauler VI (T8)"
+			action
+				take ship "Modified Hauler VI"
+					count 3
+				take ship "Modified Hauler VI (T8)"
+				give ship "Modified Hauler VI (T9)"
+			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T8)" removed | 1x "Modified Hauler VI (T9)" given`
+				goto menu
+			label "Waverider (T8)"
+			action
+				take ship "Waverider"
+					count 3
+				take ship "Waverider (T8)"
+				give ship "Waverider (T9)"
+			`3x "Waverider" removed, 1x "Waverider (T8)" removed | 1x "Waverider (T9)" given`
+				goto menu
+			label "Modified Ladybug (T8)"
+			action
+				take ship "Modified Ladybug"
+					count 3
+				take ship "Modified Ladybug (T8)"
+				give ship "Modified Ladybug (T9)"
+			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T8)" removed | 1x "Modified Ladybug (T9)" given`
+				goto menu
+			label "Modified Battleship (T8)"
+			action
+				take ship "Modified Battleship"
+					count 3
+				take ship "Modified Battleship (T8)"
+				give ship "Modified Battleship (T9)"
+			`3x "Modified Battleship" removed, 1x "Modified Battleship (T8)" removed | 1x "Modified Battleship (T9)" given`
+				goto menu
+			label "Modified Boxwing (T8)"
+			action
+				take ship "Modified Boxwing"
+					count 3
+				take ship "Modified Boxwing (T8)"
+				give ship "Modified Boxwing (T9)"
+			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T8)" removed | 1x "Modified Boxwing (T9)" given`
+				goto menu
+			label "Marauder Bactrian (T8)"
+			action
+				take ship "Marauder Bactrian"
+					count 3
+				take ship "Marauder Bactrian (T8)"
+				give ship "Marauder Bactrian (T9)"
+			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T8)" removed | 1x "Marauder Bactrian (T9)" given`
+				goto menu
+			label "Shooting Star (T8)"
+			action
+				take ship "Shooting Star"
+					count 3
+				take ship "Shooting Star (T8)"
+				give ship "Shooting Star (T9)"
+			`3x "Shooting Star" removed, 1x "Shooting Star (T8)" removed | 1x "Shooting Star (T9)" given`
+				goto menu
+			label "Ursa Polaris (T8)"
+			action
+				take ship "Ursa Polaris"
+					count 3
+				take ship "Ursa Polaris (T8)"
+				give ship "Ursa Polaris (T9)"
+			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T8)" removed | 1x "Ursa Polaris (T9)" given`
+				goto menu
+			label "Modified Osprey (T8)"
+			action
+				take ship "Modified Osprey"
+					count 3
+				take ship "Modified Osprey (T8)"
+				give ship "Modified Osprey (T9)"
+			`3x "Modified Osprey" removed, 1x "Modified Osprey (T8)" removed | 1x "Modified Osprey (T9)" given`
+				goto menu
+			label "Lampyrid-Class Transport (T8)"
+			action
+				take ship "Lampyrid-Class Transport"
+					count 3
+				take ship "Lampyrid-Class Transport (T8)"
+				give ship "Lampyrid-Class Transport (T9)"
+			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T8)" removed | 1x "Lampyrid-Class Transport (T9)" given`
+				goto menu
+			label "Marauder Fury (T8)"
+			action
+				take ship "Marauder Fury"
+					count 3
+				take ship "Marauder Fury (T8)"
+				give ship "Marauder Fury (T9)"
+			`3x "Marauder Fury" removed, 1x "Marauder Fury (T8)" removed | 1x "Marauder Fury (T9)" given`
+				goto menu
+			label "Wardragon (T8)"
+			action
+				take ship "Wardragon"
+					count 3
+				take ship "Wardragon (T8)"
+				give ship "Wardragon (T9)"
+			`3x "Wardragon" removed, 1x "Wardragon (T8)" removed | 1x "Wardragon (T9)" given`
 				goto menu
 			label "Model 512 (T8)"
 			action
@@ -18639,110 +18743,6 @@ mission "upgrade ships"
 				give ship "Koryfi (T9)"
 			`3x "Koryfi" removed, 1x "Koryfi (T8)" removed | 1x "Koryfi (T9)" given`
 				goto menu
-			label "Quarg Skylark (T8)"
-			action
-				take ship "Quarg Skylark"
-					count 3
-				take ship "Quarg Skylark (T8)"
-				give ship "Quarg Skylark (T9)"
-			`3x "Quarg Skylark" removed, 1x "Quarg Skylark (T8)" removed | 1x "Quarg Skylark (T9)" given`
-				goto menu
-			label "Modified Hauler VI (T8)"
-			action
-				take ship "Modified Hauler VI"
-					count 3
-				take ship "Modified Hauler VI (T8)"
-				give ship "Modified Hauler VI (T9)"
-			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T8)" removed | 1x "Modified Hauler VI (T9)" given`
-				goto menu
-			label "Waverider (T8)"
-			action
-				take ship "Waverider"
-					count 3
-				take ship "Waverider (T8)"
-				give ship "Waverider (T9)"
-			`3x "Waverider" removed, 1x "Waverider (T8)" removed | 1x "Waverider (T9)" given`
-				goto menu
-			label "Modified Ladybug (T8)"
-			action
-				take ship "Modified Ladybug"
-					count 3
-				take ship "Modified Ladybug (T8)"
-				give ship "Modified Ladybug (T9)"
-			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T8)" removed | 1x "Modified Ladybug (T9)" given`
-				goto menu
-			label "Modified Battleship (T8)"
-			action
-				take ship "Modified Battleship"
-					count 3
-				take ship "Modified Battleship (T8)"
-				give ship "Modified Battleship (T9)"
-			`3x "Modified Battleship" removed, 1x "Modified Battleship (T8)" removed | 1x "Modified Battleship (T9)" given`
-				goto menu
-			label "Modified Boxwing (T8)"
-			action
-				take ship "Modified Boxwing"
-					count 3
-				take ship "Modified Boxwing (T8)"
-				give ship "Modified Boxwing (T9)"
-			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T8)" removed | 1x "Modified Boxwing (T9)" given`
-				goto menu
-			label "Marauder Bactrian (T8)"
-			action
-				take ship "Marauder Bactrian"
-					count 3
-				take ship "Marauder Bactrian (T8)"
-				give ship "Marauder Bactrian (T9)"
-			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T8)" removed | 1x "Marauder Bactrian (T9)" given`
-				goto menu
-			label "Shooting Star (T8)"
-			action
-				take ship "Shooting Star"
-					count 3
-				take ship "Shooting Star (T8)"
-				give ship "Shooting Star (T9)"
-			`3x "Shooting Star" removed, 1x "Shooting Star (T8)" removed | 1x "Shooting Star (T9)" given`
-				goto menu
-			label "Ursa Polaris (T8)"
-			action
-				take ship "Ursa Polaris"
-					count 3
-				take ship "Ursa Polaris (T8)"
-				give ship "Ursa Polaris (T9)"
-			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T8)" removed | 1x "Ursa Polaris (T9)" given`
-				goto menu
-			label "Modified Osprey (T8)"
-			action
-				take ship "Modified Osprey"
-					count 3
-				take ship "Modified Osprey (T8)"
-				give ship "Modified Osprey (T9)"
-			`3x "Modified Osprey" removed, 1x "Modified Osprey (T8)" removed | 1x "Modified Osprey (T9)" given`
-				goto menu
-			label "Lampyrid-Class Transport (T8)"
-			action
-				take ship "Lampyrid-Class Transport"
-					count 3
-				take ship "Lampyrid-Class Transport (T8)"
-				give ship "Lampyrid-Class Transport (T9)"
-			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T8)" removed | 1x "Lampyrid-Class Transport (T9)" given`
-				goto menu
-			label "Marauder Fury (T8)"
-			action
-				take ship "Marauder Fury"
-					count 3
-				take ship "Marauder Fury (T8)"
-				give ship "Marauder Fury (T9)"
-			`3x "Marauder Fury" removed, 1x "Marauder Fury (T8)" removed | 1x "Marauder Fury (T9)" given`
-				goto menu
-			label "Wardragon (T8)"
-			action
-				take ship "Wardragon"
-					count 3
-				take ship "Wardragon (T8)"
-				give ship "Wardragon (T9)"
-			`3x "Wardragon" removed, 1x "Wardragon (T8)" removed | 1x "Wardragon (T9)" given`
-				goto menu
 			label "Riptide (T7)"
 			action
 				take ship "Riptide"
@@ -18991,6 +18991,14 @@ mission "upgrade ships"
 				give ship "Tern (T8)"
 			`3x "Tern" removed, 1x "Tern (T7)" removed | 1x "Tern (T8)" given`
 				goto menu
+			label "Swan (T7)"
+			action
+				take ship "Swan"
+					count 3
+				take ship "Swan (T7)"
+				give ship "Swan (T8)"
+			`3x "Swan" removed, 1x "Swan (T7)" removed | 1x "Swan (T8)" given`
+				goto menu
 			label "Starling (T7)"
 			action
 				take ship "Starling"
@@ -19174,6 +19182,102 @@ mission "upgrade ships"
 				take ship "Pug Zibruka (T7)"
 				give ship "Pug Zibruka (T8)"
 			`3x "Pug Zibruka" removed, 1x "Pug Zibruka (T7)" removed | 1x "Pug Zibruka (T8)" given`
+				goto menu
+			label "Modified Hauler VI (T7)"
+			action
+				take ship "Modified Hauler VI"
+					count 3
+				take ship "Modified Hauler VI (T7)"
+				give ship "Modified Hauler VI (T8)"
+			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T7)" removed | 1x "Modified Hauler VI (T8)" given`
+				goto menu
+			label "Waverider (T7)"
+			action
+				take ship "Waverider"
+					count 3
+				take ship "Waverider (T7)"
+				give ship "Waverider (T8)"
+			`3x "Waverider" removed, 1x "Waverider (T7)" removed | 1x "Waverider (T8)" given`
+				goto menu
+			label "Modified Ladybug (T7)"
+			action
+				take ship "Modified Ladybug"
+					count 3
+				take ship "Modified Ladybug (T7)"
+				give ship "Modified Ladybug (T8)"
+			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T7)" removed | 1x "Modified Ladybug (T8)" given`
+				goto menu
+			label "Modified Battleship (T7)"
+			action
+				take ship "Modified Battleship"
+					count 3
+				take ship "Modified Battleship (T7)"
+				give ship "Modified Battleship (T8)"
+			`3x "Modified Battleship" removed, 1x "Modified Battleship (T7)" removed | 1x "Modified Battleship (T8)" given`
+				goto menu
+			label "Modified Boxwing (T7)"
+			action
+				take ship "Modified Boxwing"
+					count 3
+				take ship "Modified Boxwing (T7)"
+				give ship "Modified Boxwing (T8)"
+			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T7)" removed | 1x "Modified Boxwing (T8)" given`
+				goto menu
+			label "Marauder Bactrian (T7)"
+			action
+				take ship "Marauder Bactrian"
+					count 3
+				take ship "Marauder Bactrian (T7)"
+				give ship "Marauder Bactrian (T8)"
+			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T7)" removed | 1x "Marauder Bactrian (T8)" given`
+				goto menu
+			label "Shooting Star (T7)"
+			action
+				take ship "Shooting Star"
+					count 3
+				take ship "Shooting Star (T7)"
+				give ship "Shooting Star (T8)"
+			`3x "Shooting Star" removed, 1x "Shooting Star (T7)" removed | 1x "Shooting Star (T8)" given`
+				goto menu
+			label "Ursa Polaris (T7)"
+			action
+				take ship "Ursa Polaris"
+					count 3
+				take ship "Ursa Polaris (T7)"
+				give ship "Ursa Polaris (T8)"
+			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T7)" removed | 1x "Ursa Polaris (T8)" given`
+				goto menu
+			label "Modified Osprey (T7)"
+			action
+				take ship "Modified Osprey"
+					count 3
+				take ship "Modified Osprey (T7)"
+				give ship "Modified Osprey (T8)"
+			`3x "Modified Osprey" removed, 1x "Modified Osprey (T7)" removed | 1x "Modified Osprey (T8)" given`
+				goto menu
+			label "Lampyrid-Class Transport (T7)"
+			action
+				take ship "Lampyrid-Class Transport"
+					count 3
+				take ship "Lampyrid-Class Transport (T7)"
+				give ship "Lampyrid-Class Transport (T8)"
+			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T7)" removed | 1x "Lampyrid-Class Transport (T8)" given`
+				goto menu
+			label "Marauder Fury (T7)"
+			action
+				take ship "Marauder Fury"
+					count 3
+				take ship "Marauder Fury (T7)"
+				give ship "Marauder Fury (T8)"
+			`3x "Marauder Fury" removed, 1x "Marauder Fury (T7)" removed | 1x "Marauder Fury (T8)" given`
+				goto menu
+			label "Wardragon (T7)"
+			action
+				take ship "Wardragon"
+					count 3
+				take ship "Wardragon (T7)"
+				give ship "Wardragon (T8)"
+			`3x "Wardragon" removed, 1x "Wardragon (T7)" removed | 1x "Wardragon (T8)" given`
 				goto menu
 			label "Model 512 (T7)"
 			action
@@ -20943,110 +21047,6 @@ mission "upgrade ships"
 				give ship "Koryfi (T8)"
 			`3x "Koryfi" removed, 1x "Koryfi (T7)" removed | 1x "Koryfi (T8)" given`
 				goto menu
-			label "Quarg Skylark (T7)"
-			action
-				take ship "Quarg Skylark"
-					count 3
-				take ship "Quarg Skylark (T7)"
-				give ship "Quarg Skylark (T8)"
-			`3x "Quarg Skylark" removed, 1x "Quarg Skylark (T7)" removed | 1x "Quarg Skylark (T8)" given`
-				goto menu
-			label "Modified Hauler VI (T7)"
-			action
-				take ship "Modified Hauler VI"
-					count 3
-				take ship "Modified Hauler VI (T7)"
-				give ship "Modified Hauler VI (T8)"
-			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T7)" removed | 1x "Modified Hauler VI (T8)" given`
-				goto menu
-			label "Waverider (T7)"
-			action
-				take ship "Waverider"
-					count 3
-				take ship "Waverider (T7)"
-				give ship "Waverider (T8)"
-			`3x "Waverider" removed, 1x "Waverider (T7)" removed | 1x "Waverider (T8)" given`
-				goto menu
-			label "Modified Ladybug (T7)"
-			action
-				take ship "Modified Ladybug"
-					count 3
-				take ship "Modified Ladybug (T7)"
-				give ship "Modified Ladybug (T8)"
-			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T7)" removed | 1x "Modified Ladybug (T8)" given`
-				goto menu
-			label "Modified Battleship (T7)"
-			action
-				take ship "Modified Battleship"
-					count 3
-				take ship "Modified Battleship (T7)"
-				give ship "Modified Battleship (T8)"
-			`3x "Modified Battleship" removed, 1x "Modified Battleship (T7)" removed | 1x "Modified Battleship (T8)" given`
-				goto menu
-			label "Modified Boxwing (T7)"
-			action
-				take ship "Modified Boxwing"
-					count 3
-				take ship "Modified Boxwing (T7)"
-				give ship "Modified Boxwing (T8)"
-			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T7)" removed | 1x "Modified Boxwing (T8)" given`
-				goto menu
-			label "Marauder Bactrian (T7)"
-			action
-				take ship "Marauder Bactrian"
-					count 3
-				take ship "Marauder Bactrian (T7)"
-				give ship "Marauder Bactrian (T8)"
-			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T7)" removed | 1x "Marauder Bactrian (T8)" given`
-				goto menu
-			label "Shooting Star (T7)"
-			action
-				take ship "Shooting Star"
-					count 3
-				take ship "Shooting Star (T7)"
-				give ship "Shooting Star (T8)"
-			`3x "Shooting Star" removed, 1x "Shooting Star (T7)" removed | 1x "Shooting Star (T8)" given`
-				goto menu
-			label "Ursa Polaris (T7)"
-			action
-				take ship "Ursa Polaris"
-					count 3
-				take ship "Ursa Polaris (T7)"
-				give ship "Ursa Polaris (T8)"
-			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T7)" removed | 1x "Ursa Polaris (T8)" given`
-				goto menu
-			label "Modified Osprey (T7)"
-			action
-				take ship "Modified Osprey"
-					count 3
-				take ship "Modified Osprey (T7)"
-				give ship "Modified Osprey (T8)"
-			`3x "Modified Osprey" removed, 1x "Modified Osprey (T7)" removed | 1x "Modified Osprey (T8)" given`
-				goto menu
-			label "Lampyrid-Class Transport (T7)"
-			action
-				take ship "Lampyrid-Class Transport"
-					count 3
-				take ship "Lampyrid-Class Transport (T7)"
-				give ship "Lampyrid-Class Transport (T8)"
-			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T7)" removed | 1x "Lampyrid-Class Transport (T8)" given`
-				goto menu
-			label "Marauder Fury (T7)"
-			action
-				take ship "Marauder Fury"
-					count 3
-				take ship "Marauder Fury (T7)"
-				give ship "Marauder Fury (T8)"
-			`3x "Marauder Fury" removed, 1x "Marauder Fury (T7)" removed | 1x "Marauder Fury (T8)" given`
-				goto menu
-			label "Wardragon (T7)"
-			action
-				take ship "Wardragon"
-					count 3
-				take ship "Wardragon (T7)"
-				give ship "Wardragon (T8)"
-			`3x "Wardragon" removed, 1x "Wardragon (T7)" removed | 1x "Wardragon (T8)" given`
-				goto menu
 			label "Riptide (T6)"
 			action
 				take ship "Riptide"
@@ -21295,6 +21295,14 @@ mission "upgrade ships"
 				give ship "Tern (T7)"
 			`3x "Tern" removed, 1x "Tern (T6)" removed | 1x "Tern (T7)" given`
 				goto menu
+			label "Swan (T6)"
+			action
+				take ship "Swan"
+					count 3
+				take ship "Swan (T6)"
+				give ship "Swan (T7)"
+			`3x "Swan" removed, 1x "Swan (T6)" removed | 1x "Swan (T7)" given`
+				goto menu
 			label "Starling (T6)"
 			action
 				take ship "Starling"
@@ -21478,6 +21486,102 @@ mission "upgrade ships"
 				take ship "Pug Zibruka (T6)"
 				give ship "Pug Zibruka (T7)"
 			`3x "Pug Zibruka" removed, 1x "Pug Zibruka (T6)" removed | 1x "Pug Zibruka (T7)" given`
+				goto menu
+			label "Modified Hauler VI (T6)"
+			action
+				take ship "Modified Hauler VI"
+					count 3
+				take ship "Modified Hauler VI (T6)"
+				give ship "Modified Hauler VI (T7)"
+			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T6)" removed | 1x "Modified Hauler VI (T7)" given`
+				goto menu
+			label "Waverider (T6)"
+			action
+				take ship "Waverider"
+					count 3
+				take ship "Waverider (T6)"
+				give ship "Waverider (T7)"
+			`3x "Waverider" removed, 1x "Waverider (T6)" removed | 1x "Waverider (T7)" given`
+				goto menu
+			label "Modified Ladybug (T6)"
+			action
+				take ship "Modified Ladybug"
+					count 3
+				take ship "Modified Ladybug (T6)"
+				give ship "Modified Ladybug (T7)"
+			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T6)" removed | 1x "Modified Ladybug (T7)" given`
+				goto menu
+			label "Modified Battleship (T6)"
+			action
+				take ship "Modified Battleship"
+					count 3
+				take ship "Modified Battleship (T6)"
+				give ship "Modified Battleship (T7)"
+			`3x "Modified Battleship" removed, 1x "Modified Battleship (T6)" removed | 1x "Modified Battleship (T7)" given`
+				goto menu
+			label "Modified Boxwing (T6)"
+			action
+				take ship "Modified Boxwing"
+					count 3
+				take ship "Modified Boxwing (T6)"
+				give ship "Modified Boxwing (T7)"
+			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T6)" removed | 1x "Modified Boxwing (T7)" given`
+				goto menu
+			label "Marauder Bactrian (T6)"
+			action
+				take ship "Marauder Bactrian"
+					count 3
+				take ship "Marauder Bactrian (T6)"
+				give ship "Marauder Bactrian (T7)"
+			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T6)" removed | 1x "Marauder Bactrian (T7)" given`
+				goto menu
+			label "Shooting Star (T6)"
+			action
+				take ship "Shooting Star"
+					count 3
+				take ship "Shooting Star (T6)"
+				give ship "Shooting Star (T7)"
+			`3x "Shooting Star" removed, 1x "Shooting Star (T6)" removed | 1x "Shooting Star (T7)" given`
+				goto menu
+			label "Ursa Polaris (T6)"
+			action
+				take ship "Ursa Polaris"
+					count 3
+				take ship "Ursa Polaris (T6)"
+				give ship "Ursa Polaris (T7)"
+			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T6)" removed | 1x "Ursa Polaris (T7)" given`
+				goto menu
+			label "Modified Osprey (T6)"
+			action
+				take ship "Modified Osprey"
+					count 3
+				take ship "Modified Osprey (T6)"
+				give ship "Modified Osprey (T7)"
+			`3x "Modified Osprey" removed, 1x "Modified Osprey (T6)" removed | 1x "Modified Osprey (T7)" given`
+				goto menu
+			label "Lampyrid-Class Transport (T6)"
+			action
+				take ship "Lampyrid-Class Transport"
+					count 3
+				take ship "Lampyrid-Class Transport (T6)"
+				give ship "Lampyrid-Class Transport (T7)"
+			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T6)" removed | 1x "Lampyrid-Class Transport (T7)" given`
+				goto menu
+			label "Marauder Fury (T6)"
+			action
+				take ship "Marauder Fury"
+					count 3
+				take ship "Marauder Fury (T6)"
+				give ship "Marauder Fury (T7)"
+			`3x "Marauder Fury" removed, 1x "Marauder Fury (T6)" removed | 1x "Marauder Fury (T7)" given`
+				goto menu
+			label "Wardragon (T6)"
+			action
+				take ship "Wardragon"
+					count 3
+				take ship "Wardragon (T6)"
+				give ship "Wardragon (T7)"
+			`3x "Wardragon" removed, 1x "Wardragon (T6)" removed | 1x "Wardragon (T7)" given`
 				goto menu
 			label "Model 512 (T6)"
 			action
@@ -23247,110 +23351,6 @@ mission "upgrade ships"
 				give ship "Koryfi (T7)"
 			`3x "Koryfi" removed, 1x "Koryfi (T6)" removed | 1x "Koryfi (T7)" given`
 				goto menu
-			label "Quarg Skylark (T6)"
-			action
-				take ship "Quarg Skylark"
-					count 3
-				take ship "Quarg Skylark (T6)"
-				give ship "Quarg Skylark (T7)"
-			`3x "Quarg Skylark" removed, 1x "Quarg Skylark (T6)" removed | 1x "Quarg Skylark (T7)" given`
-				goto menu
-			label "Modified Hauler VI (T6)"
-			action
-				take ship "Modified Hauler VI"
-					count 3
-				take ship "Modified Hauler VI (T6)"
-				give ship "Modified Hauler VI (T7)"
-			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T6)" removed | 1x "Modified Hauler VI (T7)" given`
-				goto menu
-			label "Waverider (T6)"
-			action
-				take ship "Waverider"
-					count 3
-				take ship "Waverider (T6)"
-				give ship "Waverider (T7)"
-			`3x "Waverider" removed, 1x "Waverider (T6)" removed | 1x "Waverider (T7)" given`
-				goto menu
-			label "Modified Ladybug (T6)"
-			action
-				take ship "Modified Ladybug"
-					count 3
-				take ship "Modified Ladybug (T6)"
-				give ship "Modified Ladybug (T7)"
-			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T6)" removed | 1x "Modified Ladybug (T7)" given`
-				goto menu
-			label "Modified Battleship (T6)"
-			action
-				take ship "Modified Battleship"
-					count 3
-				take ship "Modified Battleship (T6)"
-				give ship "Modified Battleship (T7)"
-			`3x "Modified Battleship" removed, 1x "Modified Battleship (T6)" removed | 1x "Modified Battleship (T7)" given`
-				goto menu
-			label "Modified Boxwing (T6)"
-			action
-				take ship "Modified Boxwing"
-					count 3
-				take ship "Modified Boxwing (T6)"
-				give ship "Modified Boxwing (T7)"
-			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T6)" removed | 1x "Modified Boxwing (T7)" given`
-				goto menu
-			label "Marauder Bactrian (T6)"
-			action
-				take ship "Marauder Bactrian"
-					count 3
-				take ship "Marauder Bactrian (T6)"
-				give ship "Marauder Bactrian (T7)"
-			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T6)" removed | 1x "Marauder Bactrian (T7)" given`
-				goto menu
-			label "Shooting Star (T6)"
-			action
-				take ship "Shooting Star"
-					count 3
-				take ship "Shooting Star (T6)"
-				give ship "Shooting Star (T7)"
-			`3x "Shooting Star" removed, 1x "Shooting Star (T6)" removed | 1x "Shooting Star (T7)" given`
-				goto menu
-			label "Ursa Polaris (T6)"
-			action
-				take ship "Ursa Polaris"
-					count 3
-				take ship "Ursa Polaris (T6)"
-				give ship "Ursa Polaris (T7)"
-			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T6)" removed | 1x "Ursa Polaris (T7)" given`
-				goto menu
-			label "Modified Osprey (T6)"
-			action
-				take ship "Modified Osprey"
-					count 3
-				take ship "Modified Osprey (T6)"
-				give ship "Modified Osprey (T7)"
-			`3x "Modified Osprey" removed, 1x "Modified Osprey (T6)" removed | 1x "Modified Osprey (T7)" given`
-				goto menu
-			label "Lampyrid-Class Transport (T6)"
-			action
-				take ship "Lampyrid-Class Transport"
-					count 3
-				take ship "Lampyrid-Class Transport (T6)"
-				give ship "Lampyrid-Class Transport (T7)"
-			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T6)" removed | 1x "Lampyrid-Class Transport (T7)" given`
-				goto menu
-			label "Marauder Fury (T6)"
-			action
-				take ship "Marauder Fury"
-					count 3
-				take ship "Marauder Fury (T6)"
-				give ship "Marauder Fury (T7)"
-			`3x "Marauder Fury" removed, 1x "Marauder Fury (T6)" removed | 1x "Marauder Fury (T7)" given`
-				goto menu
-			label "Wardragon (T6)"
-			action
-				take ship "Wardragon"
-					count 3
-				take ship "Wardragon (T6)"
-				give ship "Wardragon (T7)"
-			`3x "Wardragon" removed, 1x "Wardragon (T6)" removed | 1x "Wardragon (T7)" given`
-				goto menu
 			label "Riptide (T5)"
 			action
 				take ship "Riptide"
@@ -23599,6 +23599,14 @@ mission "upgrade ships"
 				give ship "Tern (T6)"
 			`3x "Tern" removed, 1x "Tern (T5)" removed | 1x "Tern (T6)" given`
 				goto menu
+			label "Swan (T5)"
+			action
+				take ship "Swan"
+					count 3
+				take ship "Swan (T5)"
+				give ship "Swan (T6)"
+			`3x "Swan" removed, 1x "Swan (T5)" removed | 1x "Swan (T6)" given`
+				goto menu
 			label "Starling (T5)"
 			action
 				take ship "Starling"
@@ -23782,6 +23790,102 @@ mission "upgrade ships"
 				take ship "Pug Zibruka (T5)"
 				give ship "Pug Zibruka (T6)"
 			`3x "Pug Zibruka" removed, 1x "Pug Zibruka (T5)" removed | 1x "Pug Zibruka (T6)" given`
+				goto menu
+			label "Modified Hauler VI (T5)"
+			action
+				take ship "Modified Hauler VI"
+					count 3
+				take ship "Modified Hauler VI (T5)"
+				give ship "Modified Hauler VI (T6)"
+			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T5)" removed | 1x "Modified Hauler VI (T6)" given`
+				goto menu
+			label "Waverider (T5)"
+			action
+				take ship "Waverider"
+					count 3
+				take ship "Waverider (T5)"
+				give ship "Waverider (T6)"
+			`3x "Waverider" removed, 1x "Waverider (T5)" removed | 1x "Waverider (T6)" given`
+				goto menu
+			label "Modified Ladybug (T5)"
+			action
+				take ship "Modified Ladybug"
+					count 3
+				take ship "Modified Ladybug (T5)"
+				give ship "Modified Ladybug (T6)"
+			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T5)" removed | 1x "Modified Ladybug (T6)" given`
+				goto menu
+			label "Modified Battleship (T5)"
+			action
+				take ship "Modified Battleship"
+					count 3
+				take ship "Modified Battleship (T5)"
+				give ship "Modified Battleship (T6)"
+			`3x "Modified Battleship" removed, 1x "Modified Battleship (T5)" removed | 1x "Modified Battleship (T6)" given`
+				goto menu
+			label "Modified Boxwing (T5)"
+			action
+				take ship "Modified Boxwing"
+					count 3
+				take ship "Modified Boxwing (T5)"
+				give ship "Modified Boxwing (T6)"
+			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T5)" removed | 1x "Modified Boxwing (T6)" given`
+				goto menu
+			label "Marauder Bactrian (T5)"
+			action
+				take ship "Marauder Bactrian"
+					count 3
+				take ship "Marauder Bactrian (T5)"
+				give ship "Marauder Bactrian (T6)"
+			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T5)" removed | 1x "Marauder Bactrian (T6)" given`
+				goto menu
+			label "Shooting Star (T5)"
+			action
+				take ship "Shooting Star"
+					count 3
+				take ship "Shooting Star (T5)"
+				give ship "Shooting Star (T6)"
+			`3x "Shooting Star" removed, 1x "Shooting Star (T5)" removed | 1x "Shooting Star (T6)" given`
+				goto menu
+			label "Ursa Polaris (T5)"
+			action
+				take ship "Ursa Polaris"
+					count 3
+				take ship "Ursa Polaris (T5)"
+				give ship "Ursa Polaris (T6)"
+			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T5)" removed | 1x "Ursa Polaris (T6)" given`
+				goto menu
+			label "Modified Osprey (T5)"
+			action
+				take ship "Modified Osprey"
+					count 3
+				take ship "Modified Osprey (T5)"
+				give ship "Modified Osprey (T6)"
+			`3x "Modified Osprey" removed, 1x "Modified Osprey (T5)" removed | 1x "Modified Osprey (T6)" given`
+				goto menu
+			label "Lampyrid-Class Transport (T5)"
+			action
+				take ship "Lampyrid-Class Transport"
+					count 3
+				take ship "Lampyrid-Class Transport (T5)"
+				give ship "Lampyrid-Class Transport (T6)"
+			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T5)" removed | 1x "Lampyrid-Class Transport (T6)" given`
+				goto menu
+			label "Marauder Fury (T5)"
+			action
+				take ship "Marauder Fury"
+					count 3
+				take ship "Marauder Fury (T5)"
+				give ship "Marauder Fury (T6)"
+			`3x "Marauder Fury" removed, 1x "Marauder Fury (T5)" removed | 1x "Marauder Fury (T6)" given`
+				goto menu
+			label "Wardragon (T5)"
+			action
+				take ship "Wardragon"
+					count 3
+				take ship "Wardragon (T5)"
+				give ship "Wardragon (T6)"
+			`3x "Wardragon" removed, 1x "Wardragon (T5)" removed | 1x "Wardragon (T6)" given`
 				goto menu
 			label "Model 512 (T5)"
 			action
@@ -25551,110 +25655,6 @@ mission "upgrade ships"
 				give ship "Koryfi (T6)"
 			`3x "Koryfi" removed, 1x "Koryfi (T5)" removed | 1x "Koryfi (T6)" given`
 				goto menu
-			label "Quarg Skylark (T5)"
-			action
-				take ship "Quarg Skylark"
-					count 3
-				take ship "Quarg Skylark (T5)"
-				give ship "Quarg Skylark (T6)"
-			`3x "Quarg Skylark" removed, 1x "Quarg Skylark (T5)" removed | 1x "Quarg Skylark (T6)" given`
-				goto menu
-			label "Modified Hauler VI (T5)"
-			action
-				take ship "Modified Hauler VI"
-					count 3
-				take ship "Modified Hauler VI (T5)"
-				give ship "Modified Hauler VI (T6)"
-			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T5)" removed | 1x "Modified Hauler VI (T6)" given`
-				goto menu
-			label "Waverider (T5)"
-			action
-				take ship "Waverider"
-					count 3
-				take ship "Waverider (T5)"
-				give ship "Waverider (T6)"
-			`3x "Waverider" removed, 1x "Waverider (T5)" removed | 1x "Waverider (T6)" given`
-				goto menu
-			label "Modified Ladybug (T5)"
-			action
-				take ship "Modified Ladybug"
-					count 3
-				take ship "Modified Ladybug (T5)"
-				give ship "Modified Ladybug (T6)"
-			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T5)" removed | 1x "Modified Ladybug (T6)" given`
-				goto menu
-			label "Modified Battleship (T5)"
-			action
-				take ship "Modified Battleship"
-					count 3
-				take ship "Modified Battleship (T5)"
-				give ship "Modified Battleship (T6)"
-			`3x "Modified Battleship" removed, 1x "Modified Battleship (T5)" removed | 1x "Modified Battleship (T6)" given`
-				goto menu
-			label "Modified Boxwing (T5)"
-			action
-				take ship "Modified Boxwing"
-					count 3
-				take ship "Modified Boxwing (T5)"
-				give ship "Modified Boxwing (T6)"
-			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T5)" removed | 1x "Modified Boxwing (T6)" given`
-				goto menu
-			label "Marauder Bactrian (T5)"
-			action
-				take ship "Marauder Bactrian"
-					count 3
-				take ship "Marauder Bactrian (T5)"
-				give ship "Marauder Bactrian (T6)"
-			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T5)" removed | 1x "Marauder Bactrian (T6)" given`
-				goto menu
-			label "Shooting Star (T5)"
-			action
-				take ship "Shooting Star"
-					count 3
-				take ship "Shooting Star (T5)"
-				give ship "Shooting Star (T6)"
-			`3x "Shooting Star" removed, 1x "Shooting Star (T5)" removed | 1x "Shooting Star (T6)" given`
-				goto menu
-			label "Ursa Polaris (T5)"
-			action
-				take ship "Ursa Polaris"
-					count 3
-				take ship "Ursa Polaris (T5)"
-				give ship "Ursa Polaris (T6)"
-			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T5)" removed | 1x "Ursa Polaris (T6)" given`
-				goto menu
-			label "Modified Osprey (T5)"
-			action
-				take ship "Modified Osprey"
-					count 3
-				take ship "Modified Osprey (T5)"
-				give ship "Modified Osprey (T6)"
-			`3x "Modified Osprey" removed, 1x "Modified Osprey (T5)" removed | 1x "Modified Osprey (T6)" given`
-				goto menu
-			label "Lampyrid-Class Transport (T5)"
-			action
-				take ship "Lampyrid-Class Transport"
-					count 3
-				take ship "Lampyrid-Class Transport (T5)"
-				give ship "Lampyrid-Class Transport (T6)"
-			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T5)" removed | 1x "Lampyrid-Class Transport (T6)" given`
-				goto menu
-			label "Marauder Fury (T5)"
-			action
-				take ship "Marauder Fury"
-					count 3
-				take ship "Marauder Fury (T5)"
-				give ship "Marauder Fury (T6)"
-			`3x "Marauder Fury" removed, 1x "Marauder Fury (T5)" removed | 1x "Marauder Fury (T6)" given`
-				goto menu
-			label "Wardragon (T5)"
-			action
-				take ship "Wardragon"
-					count 3
-				take ship "Wardragon (T5)"
-				give ship "Wardragon (T6)"
-			`3x "Wardragon" removed, 1x "Wardragon (T5)" removed | 1x "Wardragon (T6)" given`
-				goto menu
 			label "Riptide (T4)"
 			action
 				take ship "Riptide"
@@ -25903,6 +25903,14 @@ mission "upgrade ships"
 				give ship "Tern (T5)"
 			`3x "Tern" removed, 1x "Tern (T4)" removed | 1x "Tern (T5)" given`
 				goto menu
+			label "Swan (T4)"
+			action
+				take ship "Swan"
+					count 3
+				take ship "Swan (T4)"
+				give ship "Swan (T5)"
+			`3x "Swan" removed, 1x "Swan (T4)" removed | 1x "Swan (T5)" given`
+				goto menu
 			label "Starling (T4)"
 			action
 				take ship "Starling"
@@ -26086,6 +26094,102 @@ mission "upgrade ships"
 				take ship "Pug Zibruka (T4)"
 				give ship "Pug Zibruka (T5)"
 			`3x "Pug Zibruka" removed, 1x "Pug Zibruka (T4)" removed | 1x "Pug Zibruka (T5)" given`
+				goto menu
+			label "Modified Hauler VI (T4)"
+			action
+				take ship "Modified Hauler VI"
+					count 3
+				take ship "Modified Hauler VI (T4)"
+				give ship "Modified Hauler VI (T5)"
+			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T4)" removed | 1x "Modified Hauler VI (T5)" given`
+				goto menu
+			label "Waverider (T4)"
+			action
+				take ship "Waverider"
+					count 3
+				take ship "Waverider (T4)"
+				give ship "Waverider (T5)"
+			`3x "Waverider" removed, 1x "Waverider (T4)" removed | 1x "Waverider (T5)" given`
+				goto menu
+			label "Modified Ladybug (T4)"
+			action
+				take ship "Modified Ladybug"
+					count 3
+				take ship "Modified Ladybug (T4)"
+				give ship "Modified Ladybug (T5)"
+			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T4)" removed | 1x "Modified Ladybug (T5)" given`
+				goto menu
+			label "Modified Battleship (T4)"
+			action
+				take ship "Modified Battleship"
+					count 3
+				take ship "Modified Battleship (T4)"
+				give ship "Modified Battleship (T5)"
+			`3x "Modified Battleship" removed, 1x "Modified Battleship (T4)" removed | 1x "Modified Battleship (T5)" given`
+				goto menu
+			label "Modified Boxwing (T4)"
+			action
+				take ship "Modified Boxwing"
+					count 3
+				take ship "Modified Boxwing (T4)"
+				give ship "Modified Boxwing (T5)"
+			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T4)" removed | 1x "Modified Boxwing (T5)" given`
+				goto menu
+			label "Marauder Bactrian (T4)"
+			action
+				take ship "Marauder Bactrian"
+					count 3
+				take ship "Marauder Bactrian (T4)"
+				give ship "Marauder Bactrian (T5)"
+			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T4)" removed | 1x "Marauder Bactrian (T5)" given`
+				goto menu
+			label "Shooting Star (T4)"
+			action
+				take ship "Shooting Star"
+					count 3
+				take ship "Shooting Star (T4)"
+				give ship "Shooting Star (T5)"
+			`3x "Shooting Star" removed, 1x "Shooting Star (T4)" removed | 1x "Shooting Star (T5)" given`
+				goto menu
+			label "Ursa Polaris (T4)"
+			action
+				take ship "Ursa Polaris"
+					count 3
+				take ship "Ursa Polaris (T4)"
+				give ship "Ursa Polaris (T5)"
+			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T4)" removed | 1x "Ursa Polaris (T5)" given`
+				goto menu
+			label "Modified Osprey (T4)"
+			action
+				take ship "Modified Osprey"
+					count 3
+				take ship "Modified Osprey (T4)"
+				give ship "Modified Osprey (T5)"
+			`3x "Modified Osprey" removed, 1x "Modified Osprey (T4)" removed | 1x "Modified Osprey (T5)" given`
+				goto menu
+			label "Lampyrid-Class Transport (T4)"
+			action
+				take ship "Lampyrid-Class Transport"
+					count 3
+				take ship "Lampyrid-Class Transport (T4)"
+				give ship "Lampyrid-Class Transport (T5)"
+			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T4)" removed | 1x "Lampyrid-Class Transport (T5)" given`
+				goto menu
+			label "Marauder Fury (T4)"
+			action
+				take ship "Marauder Fury"
+					count 3
+				take ship "Marauder Fury (T4)"
+				give ship "Marauder Fury (T5)"
+			`3x "Marauder Fury" removed, 1x "Marauder Fury (T4)" removed | 1x "Marauder Fury (T5)" given`
+				goto menu
+			label "Wardragon (T4)"
+			action
+				take ship "Wardragon"
+					count 3
+				take ship "Wardragon (T4)"
+				give ship "Wardragon (T5)"
+			`3x "Wardragon" removed, 1x "Wardragon (T4)" removed | 1x "Wardragon (T5)" given`
 				goto menu
 			label "Model 512 (T4)"
 			action
@@ -27855,110 +27959,6 @@ mission "upgrade ships"
 				give ship "Koryfi (T5)"
 			`3x "Koryfi" removed, 1x "Koryfi (T4)" removed | 1x "Koryfi (T5)" given`
 				goto menu
-			label "Quarg Skylark (T4)"
-			action
-				take ship "Quarg Skylark"
-					count 3
-				take ship "Quarg Skylark (T4)"
-				give ship "Quarg Skylark (T5)"
-			`3x "Quarg Skylark" removed, 1x "Quarg Skylark (T4)" removed | 1x "Quarg Skylark (T5)" given`
-				goto menu
-			label "Modified Hauler VI (T4)"
-			action
-				take ship "Modified Hauler VI"
-					count 3
-				take ship "Modified Hauler VI (T4)"
-				give ship "Modified Hauler VI (T5)"
-			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T4)" removed | 1x "Modified Hauler VI (T5)" given`
-				goto menu
-			label "Waverider (T4)"
-			action
-				take ship "Waverider"
-					count 3
-				take ship "Waverider (T4)"
-				give ship "Waverider (T5)"
-			`3x "Waverider" removed, 1x "Waverider (T4)" removed | 1x "Waverider (T5)" given`
-				goto menu
-			label "Modified Ladybug (T4)"
-			action
-				take ship "Modified Ladybug"
-					count 3
-				take ship "Modified Ladybug (T4)"
-				give ship "Modified Ladybug (T5)"
-			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T4)" removed | 1x "Modified Ladybug (T5)" given`
-				goto menu
-			label "Modified Battleship (T4)"
-			action
-				take ship "Modified Battleship"
-					count 3
-				take ship "Modified Battleship (T4)"
-				give ship "Modified Battleship (T5)"
-			`3x "Modified Battleship" removed, 1x "Modified Battleship (T4)" removed | 1x "Modified Battleship (T5)" given`
-				goto menu
-			label "Modified Boxwing (T4)"
-			action
-				take ship "Modified Boxwing"
-					count 3
-				take ship "Modified Boxwing (T4)"
-				give ship "Modified Boxwing (T5)"
-			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T4)" removed | 1x "Modified Boxwing (T5)" given`
-				goto menu
-			label "Marauder Bactrian (T4)"
-			action
-				take ship "Marauder Bactrian"
-					count 3
-				take ship "Marauder Bactrian (T4)"
-				give ship "Marauder Bactrian (T5)"
-			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T4)" removed | 1x "Marauder Bactrian (T5)" given`
-				goto menu
-			label "Shooting Star (T4)"
-			action
-				take ship "Shooting Star"
-					count 3
-				take ship "Shooting Star (T4)"
-				give ship "Shooting Star (T5)"
-			`3x "Shooting Star" removed, 1x "Shooting Star (T4)" removed | 1x "Shooting Star (T5)" given`
-				goto menu
-			label "Ursa Polaris (T4)"
-			action
-				take ship "Ursa Polaris"
-					count 3
-				take ship "Ursa Polaris (T4)"
-				give ship "Ursa Polaris (T5)"
-			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T4)" removed | 1x "Ursa Polaris (T5)" given`
-				goto menu
-			label "Modified Osprey (T4)"
-			action
-				take ship "Modified Osprey"
-					count 3
-				take ship "Modified Osprey (T4)"
-				give ship "Modified Osprey (T5)"
-			`3x "Modified Osprey" removed, 1x "Modified Osprey (T4)" removed | 1x "Modified Osprey (T5)" given`
-				goto menu
-			label "Lampyrid-Class Transport (T4)"
-			action
-				take ship "Lampyrid-Class Transport"
-					count 3
-				take ship "Lampyrid-Class Transport (T4)"
-				give ship "Lampyrid-Class Transport (T5)"
-			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T4)" removed | 1x "Lampyrid-Class Transport (T5)" given`
-				goto menu
-			label "Marauder Fury (T4)"
-			action
-				take ship "Marauder Fury"
-					count 3
-				take ship "Marauder Fury (T4)"
-				give ship "Marauder Fury (T5)"
-			`3x "Marauder Fury" removed, 1x "Marauder Fury (T4)" removed | 1x "Marauder Fury (T5)" given`
-				goto menu
-			label "Wardragon (T4)"
-			action
-				take ship "Wardragon"
-					count 3
-				take ship "Wardragon (T4)"
-				give ship "Wardragon (T5)"
-			`3x "Wardragon" removed, 1x "Wardragon (T4)" removed | 1x "Wardragon (T5)" given`
-				goto menu
 			label "Riptide (T3)"
 			action
 				take ship "Riptide"
@@ -28207,6 +28207,14 @@ mission "upgrade ships"
 				give ship "Tern (T4)"
 			`3x "Tern" removed, 1x "Tern (T3)" removed | 1x "Tern (T4)" given`
 				goto menu
+			label "Swan (T3)"
+			action
+				take ship "Swan"
+					count 3
+				take ship "Swan (T3)"
+				give ship "Swan (T4)"
+			`3x "Swan" removed, 1x "Swan (T3)" removed | 1x "Swan (T4)" given`
+				goto menu
 			label "Starling (T3)"
 			action
 				take ship "Starling"
@@ -28390,6 +28398,102 @@ mission "upgrade ships"
 				take ship "Pug Zibruka (T3)"
 				give ship "Pug Zibruka (T4)"
 			`3x "Pug Zibruka" removed, 1x "Pug Zibruka (T3)" removed | 1x "Pug Zibruka (T4)" given`
+				goto menu
+			label "Modified Hauler VI (T3)"
+			action
+				take ship "Modified Hauler VI"
+					count 3
+				take ship "Modified Hauler VI (T3)"
+				give ship "Modified Hauler VI (T4)"
+			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T3)" removed | 1x "Modified Hauler VI (T4)" given`
+				goto menu
+			label "Waverider (T3)"
+			action
+				take ship "Waverider"
+					count 3
+				take ship "Waverider (T3)"
+				give ship "Waverider (T4)"
+			`3x "Waverider" removed, 1x "Waverider (T3)" removed | 1x "Waverider (T4)" given`
+				goto menu
+			label "Modified Ladybug (T3)"
+			action
+				take ship "Modified Ladybug"
+					count 3
+				take ship "Modified Ladybug (T3)"
+				give ship "Modified Ladybug (T4)"
+			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T3)" removed | 1x "Modified Ladybug (T4)" given`
+				goto menu
+			label "Modified Battleship (T3)"
+			action
+				take ship "Modified Battleship"
+					count 3
+				take ship "Modified Battleship (T3)"
+				give ship "Modified Battleship (T4)"
+			`3x "Modified Battleship" removed, 1x "Modified Battleship (T3)" removed | 1x "Modified Battleship (T4)" given`
+				goto menu
+			label "Modified Boxwing (T3)"
+			action
+				take ship "Modified Boxwing"
+					count 3
+				take ship "Modified Boxwing (T3)"
+				give ship "Modified Boxwing (T4)"
+			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T3)" removed | 1x "Modified Boxwing (T4)" given`
+				goto menu
+			label "Marauder Bactrian (T3)"
+			action
+				take ship "Marauder Bactrian"
+					count 3
+				take ship "Marauder Bactrian (T3)"
+				give ship "Marauder Bactrian (T4)"
+			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T3)" removed | 1x "Marauder Bactrian (T4)" given`
+				goto menu
+			label "Shooting Star (T3)"
+			action
+				take ship "Shooting Star"
+					count 3
+				take ship "Shooting Star (T3)"
+				give ship "Shooting Star (T4)"
+			`3x "Shooting Star" removed, 1x "Shooting Star (T3)" removed | 1x "Shooting Star (T4)" given`
+				goto menu
+			label "Ursa Polaris (T3)"
+			action
+				take ship "Ursa Polaris"
+					count 3
+				take ship "Ursa Polaris (T3)"
+				give ship "Ursa Polaris (T4)"
+			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T3)" removed | 1x "Ursa Polaris (T4)" given`
+				goto menu
+			label "Modified Osprey (T3)"
+			action
+				take ship "Modified Osprey"
+					count 3
+				take ship "Modified Osprey (T3)"
+				give ship "Modified Osprey (T4)"
+			`3x "Modified Osprey" removed, 1x "Modified Osprey (T3)" removed | 1x "Modified Osprey (T4)" given`
+				goto menu
+			label "Lampyrid-Class Transport (T3)"
+			action
+				take ship "Lampyrid-Class Transport"
+					count 3
+				take ship "Lampyrid-Class Transport (T3)"
+				give ship "Lampyrid-Class Transport (T4)"
+			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T3)" removed | 1x "Lampyrid-Class Transport (T4)" given`
+				goto menu
+			label "Marauder Fury (T3)"
+			action
+				take ship "Marauder Fury"
+					count 3
+				take ship "Marauder Fury (T3)"
+				give ship "Marauder Fury (T4)"
+			`3x "Marauder Fury" removed, 1x "Marauder Fury (T3)" removed | 1x "Marauder Fury (T4)" given`
+				goto menu
+			label "Wardragon (T3)"
+			action
+				take ship "Wardragon"
+					count 3
+				take ship "Wardragon (T3)"
+				give ship "Wardragon (T4)"
+			`3x "Wardragon" removed, 1x "Wardragon (T3)" removed | 1x "Wardragon (T4)" given`
 				goto menu
 			label "Model 512 (T3)"
 			action
@@ -30159,110 +30263,6 @@ mission "upgrade ships"
 				give ship "Koryfi (T4)"
 			`3x "Koryfi" removed, 1x "Koryfi (T3)" removed | 1x "Koryfi (T4)" given`
 				goto menu
-			label "Quarg Skylark (T3)"
-			action
-				take ship "Quarg Skylark"
-					count 3
-				take ship "Quarg Skylark (T3)"
-				give ship "Quarg Skylark (T4)"
-			`3x "Quarg Skylark" removed, 1x "Quarg Skylark (T3)" removed | 1x "Quarg Skylark (T4)" given`
-				goto menu
-			label "Modified Hauler VI (T3)"
-			action
-				take ship "Modified Hauler VI"
-					count 3
-				take ship "Modified Hauler VI (T3)"
-				give ship "Modified Hauler VI (T4)"
-			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T3)" removed | 1x "Modified Hauler VI (T4)" given`
-				goto menu
-			label "Waverider (T3)"
-			action
-				take ship "Waverider"
-					count 3
-				take ship "Waverider (T3)"
-				give ship "Waverider (T4)"
-			`3x "Waverider" removed, 1x "Waverider (T3)" removed | 1x "Waverider (T4)" given`
-				goto menu
-			label "Modified Ladybug (T3)"
-			action
-				take ship "Modified Ladybug"
-					count 3
-				take ship "Modified Ladybug (T3)"
-				give ship "Modified Ladybug (T4)"
-			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T3)" removed | 1x "Modified Ladybug (T4)" given`
-				goto menu
-			label "Modified Battleship (T3)"
-			action
-				take ship "Modified Battleship"
-					count 3
-				take ship "Modified Battleship (T3)"
-				give ship "Modified Battleship (T4)"
-			`3x "Modified Battleship" removed, 1x "Modified Battleship (T3)" removed | 1x "Modified Battleship (T4)" given`
-				goto menu
-			label "Modified Boxwing (T3)"
-			action
-				take ship "Modified Boxwing"
-					count 3
-				take ship "Modified Boxwing (T3)"
-				give ship "Modified Boxwing (T4)"
-			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T3)" removed | 1x "Modified Boxwing (T4)" given`
-				goto menu
-			label "Marauder Bactrian (T3)"
-			action
-				take ship "Marauder Bactrian"
-					count 3
-				take ship "Marauder Bactrian (T3)"
-				give ship "Marauder Bactrian (T4)"
-			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T3)" removed | 1x "Marauder Bactrian (T4)" given`
-				goto menu
-			label "Shooting Star (T3)"
-			action
-				take ship "Shooting Star"
-					count 3
-				take ship "Shooting Star (T3)"
-				give ship "Shooting Star (T4)"
-			`3x "Shooting Star" removed, 1x "Shooting Star (T3)" removed | 1x "Shooting Star (T4)" given`
-				goto menu
-			label "Ursa Polaris (T3)"
-			action
-				take ship "Ursa Polaris"
-					count 3
-				take ship "Ursa Polaris (T3)"
-				give ship "Ursa Polaris (T4)"
-			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T3)" removed | 1x "Ursa Polaris (T4)" given`
-				goto menu
-			label "Modified Osprey (T3)"
-			action
-				take ship "Modified Osprey"
-					count 3
-				take ship "Modified Osprey (T3)"
-				give ship "Modified Osprey (T4)"
-			`3x "Modified Osprey" removed, 1x "Modified Osprey (T3)" removed | 1x "Modified Osprey (T4)" given`
-				goto menu
-			label "Lampyrid-Class Transport (T3)"
-			action
-				take ship "Lampyrid-Class Transport"
-					count 3
-				take ship "Lampyrid-Class Transport (T3)"
-				give ship "Lampyrid-Class Transport (T4)"
-			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T3)" removed | 1x "Lampyrid-Class Transport (T4)" given`
-				goto menu
-			label "Marauder Fury (T3)"
-			action
-				take ship "Marauder Fury"
-					count 3
-				take ship "Marauder Fury (T3)"
-				give ship "Marauder Fury (T4)"
-			`3x "Marauder Fury" removed, 1x "Marauder Fury (T3)" removed | 1x "Marauder Fury (T4)" given`
-				goto menu
-			label "Wardragon (T3)"
-			action
-				take ship "Wardragon"
-					count 3
-				take ship "Wardragon (T3)"
-				give ship "Wardragon (T4)"
-			`3x "Wardragon" removed, 1x "Wardragon (T3)" removed | 1x "Wardragon (T4)" given`
-				goto menu
 			label "Riptide (T2)"
 			action
 				take ship "Riptide"
@@ -30511,6 +30511,14 @@ mission "upgrade ships"
 				give ship "Tern (T3)"
 			`3x "Tern" removed, 1x "Tern (T2)" removed | 1x "Tern (T3)" given`
 				goto menu
+			label "Swan (T2)"
+			action
+				take ship "Swan"
+					count 3
+				take ship "Swan (T2)"
+				give ship "Swan (T3)"
+			`3x "Swan" removed, 1x "Swan (T2)" removed | 1x "Swan (T3)" given`
+				goto menu
 			label "Starling (T2)"
 			action
 				take ship "Starling"
@@ -30694,6 +30702,102 @@ mission "upgrade ships"
 				take ship "Pug Zibruka (T2)"
 				give ship "Pug Zibruka (T3)"
 			`3x "Pug Zibruka" removed, 1x "Pug Zibruka (T2)" removed | 1x "Pug Zibruka (T3)" given`
+				goto menu
+			label "Modified Hauler VI (T2)"
+			action
+				take ship "Modified Hauler VI"
+					count 3
+				take ship "Modified Hauler VI (T2)"
+				give ship "Modified Hauler VI (T3)"
+			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T2)" removed | 1x "Modified Hauler VI (T3)" given`
+				goto menu
+			label "Waverider (T2)"
+			action
+				take ship "Waverider"
+					count 3
+				take ship "Waverider (T2)"
+				give ship "Waverider (T3)"
+			`3x "Waverider" removed, 1x "Waverider (T2)" removed | 1x "Waverider (T3)" given`
+				goto menu
+			label "Modified Ladybug (T2)"
+			action
+				take ship "Modified Ladybug"
+					count 3
+				take ship "Modified Ladybug (T2)"
+				give ship "Modified Ladybug (T3)"
+			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T2)" removed | 1x "Modified Ladybug (T3)" given`
+				goto menu
+			label "Modified Battleship (T2)"
+			action
+				take ship "Modified Battleship"
+					count 3
+				take ship "Modified Battleship (T2)"
+				give ship "Modified Battleship (T3)"
+			`3x "Modified Battleship" removed, 1x "Modified Battleship (T2)" removed | 1x "Modified Battleship (T3)" given`
+				goto menu
+			label "Modified Boxwing (T2)"
+			action
+				take ship "Modified Boxwing"
+					count 3
+				take ship "Modified Boxwing (T2)"
+				give ship "Modified Boxwing (T3)"
+			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T2)" removed | 1x "Modified Boxwing (T3)" given`
+				goto menu
+			label "Marauder Bactrian (T2)"
+			action
+				take ship "Marauder Bactrian"
+					count 3
+				take ship "Marauder Bactrian (T2)"
+				give ship "Marauder Bactrian (T3)"
+			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T2)" removed | 1x "Marauder Bactrian (T3)" given`
+				goto menu
+			label "Shooting Star (T2)"
+			action
+				take ship "Shooting Star"
+					count 3
+				take ship "Shooting Star (T2)"
+				give ship "Shooting Star (T3)"
+			`3x "Shooting Star" removed, 1x "Shooting Star (T2)" removed | 1x "Shooting Star (T3)" given`
+				goto menu
+			label "Ursa Polaris (T2)"
+			action
+				take ship "Ursa Polaris"
+					count 3
+				take ship "Ursa Polaris (T2)"
+				give ship "Ursa Polaris (T3)"
+			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T2)" removed | 1x "Ursa Polaris (T3)" given`
+				goto menu
+			label "Modified Osprey (T2)"
+			action
+				take ship "Modified Osprey"
+					count 3
+				take ship "Modified Osprey (T2)"
+				give ship "Modified Osprey (T3)"
+			`3x "Modified Osprey" removed, 1x "Modified Osprey (T2)" removed | 1x "Modified Osprey (T3)" given`
+				goto menu
+			label "Lampyrid-Class Transport (T2)"
+			action
+				take ship "Lampyrid-Class Transport"
+					count 3
+				take ship "Lampyrid-Class Transport (T2)"
+				give ship "Lampyrid-Class Transport (T3)"
+			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T2)" removed | 1x "Lampyrid-Class Transport (T3)" given`
+				goto menu
+			label "Marauder Fury (T2)"
+			action
+				take ship "Marauder Fury"
+					count 3
+				take ship "Marauder Fury (T2)"
+				give ship "Marauder Fury (T3)"
+			`3x "Marauder Fury" removed, 1x "Marauder Fury (T2)" removed | 1x "Marauder Fury (T3)" given`
+				goto menu
+			label "Wardragon (T2)"
+			action
+				take ship "Wardragon"
+					count 3
+				take ship "Wardragon (T2)"
+				give ship "Wardragon (T3)"
+			`3x "Wardragon" removed, 1x "Wardragon (T2)" removed | 1x "Wardragon (T3)" given`
 				goto menu
 			label "Model 512 (T2)"
 			action
@@ -32463,110 +32567,6 @@ mission "upgrade ships"
 				give ship "Koryfi (T3)"
 			`3x "Koryfi" removed, 1x "Koryfi (T2)" removed | 1x "Koryfi (T3)" given`
 				goto menu
-			label "Quarg Skylark (T2)"
-			action
-				take ship "Quarg Skylark"
-					count 3
-				take ship "Quarg Skylark (T2)"
-				give ship "Quarg Skylark (T3)"
-			`3x "Quarg Skylark" removed, 1x "Quarg Skylark (T2)" removed | 1x "Quarg Skylark (T3)" given`
-				goto menu
-			label "Modified Hauler VI (T2)"
-			action
-				take ship "Modified Hauler VI"
-					count 3
-				take ship "Modified Hauler VI (T2)"
-				give ship "Modified Hauler VI (T3)"
-			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T2)" removed | 1x "Modified Hauler VI (T3)" given`
-				goto menu
-			label "Waverider (T2)"
-			action
-				take ship "Waverider"
-					count 3
-				take ship "Waverider (T2)"
-				give ship "Waverider (T3)"
-			`3x "Waverider" removed, 1x "Waverider (T2)" removed | 1x "Waverider (T3)" given`
-				goto menu
-			label "Modified Ladybug (T2)"
-			action
-				take ship "Modified Ladybug"
-					count 3
-				take ship "Modified Ladybug (T2)"
-				give ship "Modified Ladybug (T3)"
-			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T2)" removed | 1x "Modified Ladybug (T3)" given`
-				goto menu
-			label "Modified Battleship (T2)"
-			action
-				take ship "Modified Battleship"
-					count 3
-				take ship "Modified Battleship (T2)"
-				give ship "Modified Battleship (T3)"
-			`3x "Modified Battleship" removed, 1x "Modified Battleship (T2)" removed | 1x "Modified Battleship (T3)" given`
-				goto menu
-			label "Modified Boxwing (T2)"
-			action
-				take ship "Modified Boxwing"
-					count 3
-				take ship "Modified Boxwing (T2)"
-				give ship "Modified Boxwing (T3)"
-			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T2)" removed | 1x "Modified Boxwing (T3)" given`
-				goto menu
-			label "Marauder Bactrian (T2)"
-			action
-				take ship "Marauder Bactrian"
-					count 3
-				take ship "Marauder Bactrian (T2)"
-				give ship "Marauder Bactrian (T3)"
-			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T2)" removed | 1x "Marauder Bactrian (T3)" given`
-				goto menu
-			label "Shooting Star (T2)"
-			action
-				take ship "Shooting Star"
-					count 3
-				take ship "Shooting Star (T2)"
-				give ship "Shooting Star (T3)"
-			`3x "Shooting Star" removed, 1x "Shooting Star (T2)" removed | 1x "Shooting Star (T3)" given`
-				goto menu
-			label "Ursa Polaris (T2)"
-			action
-				take ship "Ursa Polaris"
-					count 3
-				take ship "Ursa Polaris (T2)"
-				give ship "Ursa Polaris (T3)"
-			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T2)" removed | 1x "Ursa Polaris (T3)" given`
-				goto menu
-			label "Modified Osprey (T2)"
-			action
-				take ship "Modified Osprey"
-					count 3
-				take ship "Modified Osprey (T2)"
-				give ship "Modified Osprey (T3)"
-			`3x "Modified Osprey" removed, 1x "Modified Osprey (T2)" removed | 1x "Modified Osprey (T3)" given`
-				goto menu
-			label "Lampyrid-Class Transport (T2)"
-			action
-				take ship "Lampyrid-Class Transport"
-					count 3
-				take ship "Lampyrid-Class Transport (T2)"
-				give ship "Lampyrid-Class Transport (T3)"
-			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T2)" removed | 1x "Lampyrid-Class Transport (T3)" given`
-				goto menu
-			label "Marauder Fury (T2)"
-			action
-				take ship "Marauder Fury"
-					count 3
-				take ship "Marauder Fury (T2)"
-				give ship "Marauder Fury (T3)"
-			`3x "Marauder Fury" removed, 1x "Marauder Fury (T2)" removed | 1x "Marauder Fury (T3)" given`
-				goto menu
-			label "Wardragon (T2)"
-			action
-				take ship "Wardragon"
-					count 3
-				take ship "Wardragon (T2)"
-				give ship "Wardragon (T3)"
-			`3x "Wardragon" removed, 1x "Wardragon (T2)" removed | 1x "Wardragon (T3)" given`
-				goto menu
 			label "Riptide (T1)"
 			action
 				take ship "Riptide"
@@ -32815,6 +32815,14 @@ mission "upgrade ships"
 				give ship "Tern (T2)"
 			`3x "Tern" removed, 1x "Tern (T1)" removed | 1x "Tern (T2)" given`
 				goto menu
+			label "Swan (T1)"
+			action
+				take ship "Swan"
+					count 3
+				take ship "Swan (T1)"
+				give ship "Swan (T2)"
+			`3x "Swan" removed, 1x "Swan (T1)" removed | 1x "Swan (T2)" given`
+				goto menu
 			label "Starling (T1)"
 			action
 				take ship "Starling"
@@ -32998,6 +33006,102 @@ mission "upgrade ships"
 				take ship "Pug Zibruka (T1)"
 				give ship "Pug Zibruka (T2)"
 			`3x "Pug Zibruka" removed, 1x "Pug Zibruka (T1)" removed | 1x "Pug Zibruka (T2)" given`
+				goto menu
+			label "Modified Hauler VI (T1)"
+			action
+				take ship "Modified Hauler VI"
+					count 3
+				take ship "Modified Hauler VI (T1)"
+				give ship "Modified Hauler VI (T2)"
+			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T1)" removed | 1x "Modified Hauler VI (T2)" given`
+				goto menu
+			label "Waverider (T1)"
+			action
+				take ship "Waverider"
+					count 3
+				take ship "Waverider (T1)"
+				give ship "Waverider (T2)"
+			`3x "Waverider" removed, 1x "Waverider (T1)" removed | 1x "Waverider (T2)" given`
+				goto menu
+			label "Modified Ladybug (T1)"
+			action
+				take ship "Modified Ladybug"
+					count 3
+				take ship "Modified Ladybug (T1)"
+				give ship "Modified Ladybug (T2)"
+			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T1)" removed | 1x "Modified Ladybug (T2)" given`
+				goto menu
+			label "Modified Battleship (T1)"
+			action
+				take ship "Modified Battleship"
+					count 3
+				take ship "Modified Battleship (T1)"
+				give ship "Modified Battleship (T2)"
+			`3x "Modified Battleship" removed, 1x "Modified Battleship (T1)" removed | 1x "Modified Battleship (T2)" given`
+				goto menu
+			label "Modified Boxwing (T1)"
+			action
+				take ship "Modified Boxwing"
+					count 3
+				take ship "Modified Boxwing (T1)"
+				give ship "Modified Boxwing (T2)"
+			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T1)" removed | 1x "Modified Boxwing (T2)" given`
+				goto menu
+			label "Marauder Bactrian (T1)"
+			action
+				take ship "Marauder Bactrian"
+					count 3
+				take ship "Marauder Bactrian (T1)"
+				give ship "Marauder Bactrian (T2)"
+			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T1)" removed | 1x "Marauder Bactrian (T2)" given`
+				goto menu
+			label "Shooting Star (T1)"
+			action
+				take ship "Shooting Star"
+					count 3
+				take ship "Shooting Star (T1)"
+				give ship "Shooting Star (T2)"
+			`3x "Shooting Star" removed, 1x "Shooting Star (T1)" removed | 1x "Shooting Star (T2)" given`
+				goto menu
+			label "Ursa Polaris (T1)"
+			action
+				take ship "Ursa Polaris"
+					count 3
+				take ship "Ursa Polaris (T1)"
+				give ship "Ursa Polaris (T2)"
+			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T1)" removed | 1x "Ursa Polaris (T2)" given`
+				goto menu
+			label "Modified Osprey (T1)"
+			action
+				take ship "Modified Osprey"
+					count 3
+				take ship "Modified Osprey (T1)"
+				give ship "Modified Osprey (T2)"
+			`3x "Modified Osprey" removed, 1x "Modified Osprey (T1)" removed | 1x "Modified Osprey (T2)" given`
+				goto menu
+			label "Lampyrid-Class Transport (T1)"
+			action
+				take ship "Lampyrid-Class Transport"
+					count 3
+				take ship "Lampyrid-Class Transport (T1)"
+				give ship "Lampyrid-Class Transport (T2)"
+			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T1)" removed | 1x "Lampyrid-Class Transport (T2)" given`
+				goto menu
+			label "Marauder Fury (T1)"
+			action
+				take ship "Marauder Fury"
+					count 3
+				take ship "Marauder Fury (T1)"
+				give ship "Marauder Fury (T2)"
+			`3x "Marauder Fury" removed, 1x "Marauder Fury (T1)" removed | 1x "Marauder Fury (T2)" given`
+				goto menu
+			label "Wardragon (T1)"
+			action
+				take ship "Wardragon"
+					count 3
+				take ship "Wardragon (T1)"
+				give ship "Wardragon (T2)"
+			`3x "Wardragon" removed, 1x "Wardragon (T1)" removed | 1x "Wardragon (T2)" given`
 				goto menu
 			label "Model 512 (T1)"
 			action
@@ -34767,110 +34871,6 @@ mission "upgrade ships"
 				give ship "Koryfi (T2)"
 			`3x "Koryfi" removed, 1x "Koryfi (T1)" removed | 1x "Koryfi (T2)" given`
 				goto menu
-			label "Quarg Skylark (T1)"
-			action
-				take ship "Quarg Skylark"
-					count 3
-				take ship "Quarg Skylark (T1)"
-				give ship "Quarg Skylark (T2)"
-			`3x "Quarg Skylark" removed, 1x "Quarg Skylark (T1)" removed | 1x "Quarg Skylark (T2)" given`
-				goto menu
-			label "Modified Hauler VI (T1)"
-			action
-				take ship "Modified Hauler VI"
-					count 3
-				take ship "Modified Hauler VI (T1)"
-				give ship "Modified Hauler VI (T2)"
-			`3x "Modified Hauler VI" removed, 1x "Modified Hauler VI (T1)" removed | 1x "Modified Hauler VI (T2)" given`
-				goto menu
-			label "Waverider (T1)"
-			action
-				take ship "Waverider"
-					count 3
-				take ship "Waverider (T1)"
-				give ship "Waverider (T2)"
-			`3x "Waverider" removed, 1x "Waverider (T1)" removed | 1x "Waverider (T2)" given`
-				goto menu
-			label "Modified Ladybug (T1)"
-			action
-				take ship "Modified Ladybug"
-					count 3
-				take ship "Modified Ladybug (T1)"
-				give ship "Modified Ladybug (T2)"
-			`3x "Modified Ladybug" removed, 1x "Modified Ladybug (T1)" removed | 1x "Modified Ladybug (T2)" given`
-				goto menu
-			label "Modified Battleship (T1)"
-			action
-				take ship "Modified Battleship"
-					count 3
-				take ship "Modified Battleship (T1)"
-				give ship "Modified Battleship (T2)"
-			`3x "Modified Battleship" removed, 1x "Modified Battleship (T1)" removed | 1x "Modified Battleship (T2)" given`
-				goto menu
-			label "Modified Boxwing (T1)"
-			action
-				take ship "Modified Boxwing"
-					count 3
-				take ship "Modified Boxwing (T1)"
-				give ship "Modified Boxwing (T2)"
-			`3x "Modified Boxwing" removed, 1x "Modified Boxwing (T1)" removed | 1x "Modified Boxwing (T2)" given`
-				goto menu
-			label "Marauder Bactrian (T1)"
-			action
-				take ship "Marauder Bactrian"
-					count 3
-				take ship "Marauder Bactrian (T1)"
-				give ship "Marauder Bactrian (T2)"
-			`3x "Marauder Bactrian" removed, 1x "Marauder Bactrian (T1)" removed | 1x "Marauder Bactrian (T2)" given`
-				goto menu
-			label "Shooting Star (T1)"
-			action
-				take ship "Shooting Star"
-					count 3
-				take ship "Shooting Star (T1)"
-				give ship "Shooting Star (T2)"
-			`3x "Shooting Star" removed, 1x "Shooting Star (T1)" removed | 1x "Shooting Star (T2)" given`
-				goto menu
-			label "Ursa Polaris (T1)"
-			action
-				take ship "Ursa Polaris"
-					count 3
-				take ship "Ursa Polaris (T1)"
-				give ship "Ursa Polaris (T2)"
-			`3x "Ursa Polaris" removed, 1x "Ursa Polaris (T1)" removed | 1x "Ursa Polaris (T2)" given`
-				goto menu
-			label "Modified Osprey (T1)"
-			action
-				take ship "Modified Osprey"
-					count 3
-				take ship "Modified Osprey (T1)"
-				give ship "Modified Osprey (T2)"
-			`3x "Modified Osprey" removed, 1x "Modified Osprey (T1)" removed | 1x "Modified Osprey (T2)" given`
-				goto menu
-			label "Lampyrid-Class Transport (T1)"
-			action
-				take ship "Lampyrid-Class Transport"
-					count 3
-				take ship "Lampyrid-Class Transport (T1)"
-				give ship "Lampyrid-Class Transport (T2)"
-			`3x "Lampyrid-Class Transport" removed, 1x "Lampyrid-Class Transport (T1)" removed | 1x "Lampyrid-Class Transport (T2)" given`
-				goto menu
-			label "Marauder Fury (T1)"
-			action
-				take ship "Marauder Fury"
-					count 3
-				take ship "Marauder Fury (T1)"
-				give ship "Marauder Fury (T2)"
-			`3x "Marauder Fury" removed, 1x "Marauder Fury (T1)" removed | 1x "Marauder Fury (T2)" given`
-				goto menu
-			label "Wardragon (T1)"
-			action
-				take ship "Wardragon"
-					count 3
-				take ship "Wardragon (T1)"
-				give ship "Wardragon (T2)"
-			`3x "Wardragon" removed, 1x "Wardragon (T1)" removed | 1x "Wardragon (T2)" given`
-				goto menu
 			label "Riptide"
 			action
 				take ship "Riptide"
@@ -35088,6 +35088,13 @@ mission "upgrade ships"
 				give ship "Tern (T1)"
 			`4x "Tern" removed | 1x "Tern (T1)" given`
 				goto menu
+			label "Swan"
+			action
+				take ship "Swan"
+					count 4
+				give ship "Swan (T1)"
+			`4x "Swan" removed | 1x "Swan (T1)" given`
+				goto menu
 			label "Starling"
 			action
 				take ship "Starling"
@@ -35248,6 +35255,90 @@ mission "upgrade ships"
 					count 4
 				give ship "Pug Zibruka (T1)"
 			`4x "Pug Zibruka" removed | 1x "Pug Zibruka (T1)" given`
+				goto menu
+			label "Modified Hauler VI"
+			action
+				take ship "Modified Hauler VI"
+					count 4
+				give ship "Modified Hauler VI (T1)"
+			`4x "Modified Hauler VI" removed | 1x "Modified Hauler VI (T1)" given`
+				goto menu
+			label "Waverider"
+			action
+				take ship "Waverider"
+					count 4
+				give ship "Waverider (T1)"
+			`4x "Waverider" removed | 1x "Waverider (T1)" given`
+				goto menu
+			label "Modified Ladybug"
+			action
+				take ship "Modified Ladybug"
+					count 4
+				give ship "Modified Ladybug (T1)"
+			`4x "Modified Ladybug" removed | 1x "Modified Ladybug (T1)" given`
+				goto menu
+			label "Modified Battleship"
+			action
+				take ship "Modified Battleship"
+					count 4
+				give ship "Modified Battleship (T1)"
+			`4x "Modified Battleship" removed | 1x "Modified Battleship (T1)" given`
+				goto menu
+			label "Modified Boxwing"
+			action
+				take ship "Modified Boxwing"
+					count 4
+				give ship "Modified Boxwing (T1)"
+			`4x "Modified Boxwing" removed | 1x "Modified Boxwing (T1)" given`
+				goto menu
+			label "Marauder Bactrian"
+			action
+				take ship "Marauder Bactrian"
+					count 4
+				give ship "Marauder Bactrian (T1)"
+			`4x "Marauder Bactrian" removed | 1x "Marauder Bactrian (T1)" given`
+				goto menu
+			label "Shooting Star"
+			action
+				take ship "Shooting Star"
+					count 4
+				give ship "Shooting Star (T1)"
+			`4x "Shooting Star" removed | 1x "Shooting Star (T1)" given`
+				goto menu
+			label "Ursa Polaris"
+			action
+				take ship "Ursa Polaris"
+					count 4
+				give ship "Ursa Polaris (T1)"
+			`4x "Ursa Polaris" removed | 1x "Ursa Polaris (T1)" given`
+				goto menu
+			label "Modified Osprey"
+			action
+				take ship "Modified Osprey"
+					count 4
+				give ship "Modified Osprey (T1)"
+			`4x "Modified Osprey" removed | 1x "Modified Osprey (T1)" given`
+				goto menu
+			label "Lampyrid-Class Transport"
+			action
+				take ship "Lampyrid-Class Transport"
+					count 4
+				give ship "Lampyrid-Class Transport (T1)"
+			`4x "Lampyrid-Class Transport" removed | 1x "Lampyrid-Class Transport (T1)" given`
+				goto menu
+			label "Marauder Fury"
+			action
+				take ship "Marauder Fury"
+					count 4
+				give ship "Marauder Fury (T1)"
+			`4x "Marauder Fury" removed | 1x "Marauder Fury (T1)" given`
+				goto menu
+			label "Wardragon"
+			action
+				take ship "Wardragon"
+					count 4
+				give ship "Wardragon (T1)"
+			`4x "Wardragon" removed | 1x "Wardragon (T1)" given`
 				goto menu
 			label "Model 512"
 			action
@@ -36795,97 +36886,6 @@ mission "upgrade ships"
 					count 4
 				give ship "Koryfi (T1)"
 			`4x "Koryfi" removed | 1x "Koryfi (T1)" given`
-				goto menu
-			label "Quarg Skylark"
-			action
-				take ship "Quarg Skylark"
-					count 4
-				give ship "Quarg Skylark (T1)"
-			`4x "Quarg Skylark" removed | 1x "Quarg Skylark (T1)" given`
-				goto menu
-			label "Modified Hauler VI"
-			action
-				take ship "Modified Hauler VI"
-					count 4
-				give ship "Modified Hauler VI (T1)"
-			`4x "Modified Hauler VI" removed | 1x "Modified Hauler VI (T1)" given`
-				goto menu
-			label "Waverider"
-			action
-				take ship "Waverider"
-					count 4
-				give ship "Waverider (T1)"
-			`4x "Waverider" removed | 1x "Waverider (T1)" given`
-				goto menu
-			label "Modified Ladybug"
-			action
-				take ship "Modified Ladybug"
-					count 4
-				give ship "Modified Ladybug (T1)"
-			`4x "Modified Ladybug" removed | 1x "Modified Ladybug (T1)" given`
-				goto menu
-			label "Modified Battleship"
-			action
-				take ship "Modified Battleship"
-					count 4
-				give ship "Modified Battleship (T1)"
-			`4x "Modified Battleship" removed | 1x "Modified Battleship (T1)" given`
-				goto menu
-			label "Modified Boxwing"
-			action
-				take ship "Modified Boxwing"
-					count 4
-				give ship "Modified Boxwing (T1)"
-			`4x "Modified Boxwing" removed | 1x "Modified Boxwing (T1)" given`
-				goto menu
-			label "Marauder Bactrian"
-			action
-				take ship "Marauder Bactrian"
-					count 4
-				give ship "Marauder Bactrian (T1)"
-			`4x "Marauder Bactrian" removed | 1x "Marauder Bactrian (T1)" given`
-				goto menu
-			label "Shooting Star"
-			action
-				take ship "Shooting Star"
-					count 4
-				give ship "Shooting Star (T1)"
-			`4x "Shooting Star" removed | 1x "Shooting Star (T1)" given`
-				goto menu
-			label "Ursa Polaris"
-			action
-				take ship "Ursa Polaris"
-					count 4
-				give ship "Ursa Polaris (T1)"
-			`4x "Ursa Polaris" removed | 1x "Ursa Polaris (T1)" given`
-				goto menu
-			label "Modified Osprey"
-			action
-				take ship "Modified Osprey"
-					count 4
-				give ship "Modified Osprey (T1)"
-			`4x "Modified Osprey" removed | 1x "Modified Osprey (T1)" given`
-				goto menu
-			label "Lampyrid-Class Transport"
-			action
-				take ship "Lampyrid-Class Transport"
-					count 4
-				give ship "Lampyrid-Class Transport (T1)"
-			`4x "Lampyrid-Class Transport" removed | 1x "Lampyrid-Class Transport (T1)" given`
-				goto menu
-			label "Marauder Fury"
-			action
-				take ship "Marauder Fury"
-					count 4
-				give ship "Marauder Fury (T1)"
-			`4x "Marauder Fury" removed | 1x "Marauder Fury (T1)" given`
-				goto menu
-			label "Wardragon"
-			action
-				take ship "Wardragon"
-					count 4
-				give ship "Wardragon (T1)"
-			`4x "Wardragon" removed | 1x "Wardragon (T1)" given`
 				goto menu
 			label "end"
 			`The merging sequence ends. The Lumeshi exchange soft, trilling tones, excitement expressed through calm precision rather than chaos.`

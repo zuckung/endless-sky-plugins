@@ -20,8 +20,8 @@ def read_everything(data_folder, folder_exclude):
 	for text_file in text_files:
 		padding = ''
 		print(text_file)
-		folder = text_file.split(os.sep)[-2]
-		file_name = text_file.split(os.sep)[-1]
+		folder = text_file.split('/')[-2]
+		file_name = text_file.split('/')[-1]
 		if len(folder + file_name)  < 80: # just for displaying / max len = 44(currently)
 			count = 80 - len(folder + file_name)
 			padding = ' ' * count
