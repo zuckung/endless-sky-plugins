@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-04-28 | update: vague.improvements<br>
 2026-04-28 | update: captureable.person.ships<br>
 2026-04-28 | update: uniques<br>
 2026-04-28 | update: expert.crew.members<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-04-08 | update: job.coloring<br>
 2026-03-20 | update: heavy.traffic<br>
 2026-03-11 | update: job.coloring<br>
-2026-03-08 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -5732,7 +5732,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/vague.improvements/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/vague.improvements.png" width="130" height="20">
 
-[vague.improvements.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-vague.improvements/vague.improvements.zip) v1.0.2 | 35.16 kb | 2025-10-25 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=vague.improvements-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/vague.improvements/) | <a href="res/imagemd/vague.improvements.md">view images</a> [2]<br>
+[vague.improvements.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-vague.improvements/vague.improvements.zip) v1.0.3 | 34.84 kb | 2026-04-28 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=vague.improvements-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/vague.improvements/) | <a href="res/imagemd/vague.improvements.md">view images</a> [2]<br>
 <br>
 >A bunch of small QoL adjustment plugins. Just delete the unwanted and enjoy the wanted tweaks. See the README for details.
 
@@ -5760,8 +5760,6 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 
 <li> bunrodea.first.contact.100percent.txt - increases chance to meet bunrodea from 10% to 100%</li>
 
-<li> gamerules.txt - changes some gamerules(person ships/player fighter)</li>
-
 <li> illegal.txt - removes the fines for illegal outfits</li>
 
 <li> increased.pirate.bactrian.spawn.txt - increases the spawnrate of the bactrian in the 3 northern pirate systems</li>
@@ -5785,6 +5783,12 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-04-28<br>
+
+removed gamerules because you can configure them ingame now<br>
 
 <br>
 

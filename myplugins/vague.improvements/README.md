@@ -23,7 +23,7 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 Changelog:<br>
 <br>
 2026-04-28<br>
-removed gamerules because you can configurate them ingame now<br>
+removed gamerules because you can configure them ingame now<br>
 <br>
 2025-10-25<br>
 adjusted bunrodea.first.contact to no offer when bunrodea.missions is installed<br>
