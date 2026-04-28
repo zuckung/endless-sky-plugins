@@ -451,7 +451,7 @@ ship "unq uncap Korsmanath A'awoj (wreck)"
 		"solar collection" 4.2
 		"fuel capacity" 1000
 		"cargo space" 1864
-		"outfit space" 3180
+		"outfit space" 3187
 		"weapon capacity" 1148
 		"engine capacity" 480
 		"atmosphere scan" 100

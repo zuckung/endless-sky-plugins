@@ -57,6 +57,11 @@ In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to
 <br>
 Changelog:<br>
 <br>
+2026-04-28<br>
+fixed lone pixel errors for some ship images<br>
+fixed changed korsmanath outfit space<br>
+fixed new 0.11.1 plural definition errors<br>
+<br>
 2025-10-07<br>
 added derelict scanner Korsmanath story (by Lunella)<br>
 <br>
