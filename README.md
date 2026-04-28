@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-04-28 | update: uniques<br>
 2026-04-28 | update: expert.crew.members<br>
 2026-04-28 | update: ship.merging<br>
 2026-04-28 | update: mission.helper<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-03-11 | update: job.coloring<br>
 2026-03-08 | update: galactic.capital.investment<br>
 2026-02-22 | update: galactic.capital.investment<br>
-2026-02-17 | update: heavy.traffic<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -413,7 +413,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/automata.destruction.0percent.png" width="130" height="20">
 
-[automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) v1.0.1 | 44.08 kb | 2024-06-07 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=automata.destruction.0percent-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [2]<br>
+[automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) v1.0.1 | N/A | N/A | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=automata.destruction.0percent-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [2]<br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
@@ -5388,7 +5388,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/uniques/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/uniques.png" width="130" height="20">
 
-[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.13-uniques/uniques.zip) v1.0.13 | 12.75 mb | 2025-10-07 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=uniques-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [186]<br>
+[uniques.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.14-uniques/uniques.zip) v1.0.14 | 12.73 mb | 2026-04-28 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=uniques-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/) | <a href="res/imagemd/uniques.md">view images</a> [186]<br>
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -5509,6 +5509,16 @@ In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-04-28<br>
+
+fixed lone pixel errors for some ship images<br>
+
+fixed changed korsmanath outfit space<br>
+
+fixed new 0.11.1 plural definition errors<br>
 
 <br>
 

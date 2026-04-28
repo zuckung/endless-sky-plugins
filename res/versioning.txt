@@ -49,5 +49,5 @@ snowfeather.robotics|1.0.6
 space.fauna|1.1.4
 too.many.asteroids|1.0.5
 tribute.republic|1.0.3
-uniques|1.0.13
+uniques|1.0.14
 vague.improvements|1.0.2
