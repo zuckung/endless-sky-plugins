@@ -10,7 +10,7 @@ captureable.person.ships|1.1.11
 coalition.shopping|1.0.7
 combat.ai|1.0.12
 comets|1.0.1
-control.station|1.0.7
+control.station|1.0.8
 devil-run.unhidden|1.0.1
 disable.person.ships|1.0.0
 disable.spaceport.repeatables|1.1.1
