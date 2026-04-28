@@ -13,13 +13,9 @@
 #	"Brick"                1000  everywhere  3xmodified boxwing
 #	"Gefullte Taubenbrust" 1000  everywhere  modified battleship
 #	"MasterOfGrey"         1000  hai         modified ladybug
-# "Patrol Team"          1000  everywhere  5x waverider
-# "Danau"                1000  human space  1xmodified hauler IV, 2x hauler III, 2x hauler II, 2xhauler
+# 	"Patrol Team"          1000  everywhere  5x waverider
+# 	"Danau"                1000  human space  1xmodified hauler IV, 2x hauler III, 2x hauler II, 2xhauler
 
-
-gamerules
-	"no person spawn weight" 0
-#	"person spawn period" 2000 # original 36000 which is 10 minutes
 
 
 disable person

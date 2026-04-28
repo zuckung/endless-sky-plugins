@@ -11,7 +11,7 @@ At Earth's job board you can find a repeatable job that displays which persons y
 After you've killed them all, you receive a small unique gift.<br>
 <br>
 I tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and I tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
-In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in around half a minute.<br>
+If you set the gamerules to	"person spawn period" 2000 and "person spawn weight" 0 , the spawning speed is increased to one spawn in around half a minute.<br>
 <ul>
 <li>"vyu-Ir" (not a person ship, but unique | found south-western of Gegno)</li>
 <li>"Michael Zahniser" (found everywhere | Kestrel + Finch)</li>
@@ -34,7 +34,10 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 <br>
 <br>
 Changelog:<br>
- <br>
+<br>
+2026-04-28<br>
+removed gamerules settings<br>
+<br>
 2025-11-20<br>
 changed original vyu-Ir to despawn(thx to nova1422)<br>
 <br>
