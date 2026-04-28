@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-04-28 | update: expert.crew.members<br>
 2026-04-28 | update: ship.merging<br>
 2026-04-28 | update: mission.helper<br>
 2026-04-10 | update: combat.ai<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-03-08 | update: galactic.capital.investment<br>
 2026-02-22 | update: galactic.capital.investment<br>
 2026-02-17 | update: heavy.traffic<br>
-2026-02-01 | update: ship.merging<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2111,7 +2111,7 @@ added icon.png<br>
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/expert.crew.members.png" width="130" height="20">
 
-[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-expert.crew.members/expert.crew.members.zip) v1.0.9 | 8.07 mb | 2025-06-25 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=expert.crew.members-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) | <a href="res/imagemd/expert.crew.members.md">view images</a> [204]<br>
+[expert.crew.members.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-expert.crew.members/expert.crew.members.zip) v1.0.10 | 8.07 mb | 2026-04-28 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=expert.crew.members-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/) | <a href="res/imagemd/expert.crew.members.md">view images</a> [204]<br>
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the README for details.
 
@@ -2144,6 +2144,12 @@ See <a href='https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-04-28<br>
+
+fixed new plural errors from ES 0.11.1<br>
 
 <br>
 
