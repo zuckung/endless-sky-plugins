@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-04-28 | update: mission.helper<br>
 2026-04-10 | update: combat.ai<br>
 2026-04-08 | update: job.coloring<br>
 2026-03-20 | update: heavy.traffic<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-02-17 | update: heavy.traffic<br>
 2026-02-01 | update: ship.merging<br>
 2026-02-01 | update: boss.loot<br>
-2026-02-01 | update: more.boarding.missions<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3801,7 +3801,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/mission.helper/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/mission.helper.png" width="130" height="20">
 
-[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-mission.helper/mission.helper.zip) v1.0.10 | 155.97 kb | 2026-02-01 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=mission.helper-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) | <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
+[mission.helper.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.11-mission.helper/mission.helper.zip) v1.0.11 | 156.56 kb | 2026-04-28 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=mission.helper-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/) | <a href="res/imagemd/mission.helper.md">view images</a> [2]<br>
 <br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 'source' and 'to offer' of these missions, so you can easily find them. See the README for details.
 
@@ -3824,6 +3824,12 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-04-28<br>
+
+updated missions to 0.11.1<br>
 
 <br>
 
@@ -4228,7 +4234,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/more.person.ships/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/more.person.ships.png" width="130" height="20">
 
-[more.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-more.person.ships/more.person.ships.zip) v1.0.3 | 4.67 mb | 2025-06-05 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=more.person.ships-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/) | <a href="res/imagemd/more.person.ships.md">view images</a> [32]<br>
+[more.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-more.person.ships/more.person.ships.zip) v1.0.3 | 4.67 mb | 2025-06-05 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=more.person.ships-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/) | <a href="res/imagemd/more.person.ships.md">view images</a> [34]<br>
 <br>
 >This plugin adds more person ships to the different regions of the galaxy. See the README for details.
 
@@ -4246,7 +4252,7 @@ This plugin adds more person ships.<br>
 
 I renamed my plugin pirate.warlords and added more person ships.<br>
 
-These ships have a frequency of 1000, are all captureable and currently there are 8 persons.<br>
+These ships have a frequency of 1000, are all captureable and currently there are 10 persons.<br>
 
 <br>
 
@@ -4272,11 +4278,25 @@ Sesk Lem | Korath territory | Ikatila'ej (new ship, vanilla sprites)(@2x in offi
 
 Planet Express | everywhere | Old Bessie (new ship, stats by timeout.fu)
 
+Dark Star | Human territory | Dark Star (new ship)<br>
+
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-04-18<br>
+
+removed stray pixels from badger and planet express<br>
+
+added swizzle 0 to the ships<br>
+
+made planet express and ikatila'ey'ey stronger<br>
+
+added dark star<br>
 
 <br>
 

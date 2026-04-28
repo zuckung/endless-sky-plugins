@@ -68,24 +68,31 @@ graphic files for the plugin: more.person.ships<br>
 	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/badger.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/badger.png" width="140" height="200"></a><br>
 		badger.png [140x200]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/badger2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/badger2x.png" height="200"></a><br>
-		badger2x.png [280x400]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/eco.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/eco.png" height="200"></a><br>
-		eco.png [400x860]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/badger@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/badger@2x.png" height="200"></a><br>
+		badger@2x.png [280x400]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/darkstar.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/darkstar.png" height="200"></a><br>
+		darkstar.png [340x720]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/darkstar@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/darkstar@2x.png" height="200"></a><br>
+		darkstar@2x.png [680x1440]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/eco.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/eco.png" height="200"></a><br>
+		eco.png [400x860]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/eco@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/eco@2x.png" height="200"></a><br>
 		eco@2x.png [800x1720]</td>
+	</tr>
+	<tr valign="bottom">
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/essess.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/essess.png" width="200"></a><br>
 		essess.png [660x560]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/essess@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/essess@2x.png" width="200"></a><br>
 		essess@2x.png [1320x1120]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/planetexpress.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/planetexpress.png" height="200"></a><br>
+		planetexpress.png [120x370]</td>
 	</tr>
 	<tr valign="bottom">
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/planetexpress.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/planetexpress.png" height="200"></a><br>
-		planetexpress.png [120x372]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/more.person.ships/images/ship/planetexpress@2x.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/more.person.ships/images/ship/planetexpress@2x.png" height="200"></a><br>
 		planetexpress@2x.png [240x740]</td>
+		<td></td>
 		<td></td>
 	</tr>
 </table>
