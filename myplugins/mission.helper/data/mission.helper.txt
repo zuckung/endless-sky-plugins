@@ -2161,30 +2161,6 @@ mission "Mission Helper"
 					to display
 						not "Exotic Life: Buccaneer Bay: offered"
 					goto "Exotic Life: Buccaneer Bay"
-				`Exotic Life: Delve`
-					to display
-						not "Exotic Life: Delve: offered"
-					goto "Exotic Life: Delve"
-				`Exotic Life: Ada`
-					to display
-						not "Exotic Life: Ada: offered"
-					goto "Exotic Life: Ada"
-				`Exotic Life: Bluestone`
-					to display
-						not "Exotic Life: Bluestone: offered"
-					goto "Exotic Life: Bluestone"
-				`Exotic Life: Geyser`
-					to display
-						not "Exotic Life: Geyser: offered"
-					goto "Exotic Life: Geyser"
-				`Exotic Life: Bloodsea`
-					to display
-						not "Exotic Life: Bloodsea: offered"
-					goto "Exotic Life: Bloodsea"
-				`Exotic Life: Albatross`
-					to display
-						not "Exotic Life: Albatross: offered"
-					goto "Exotic Life: Albatross"
 				`Exotic Life: New Greenland`
 					to display
 						not "Exotic Life: New Greenland: offered"
@@ -2193,10 +2169,6 @@ mission "Mission Helper"
 					to display
 						not "Exotic Life: Mainsail: offered"
 					goto "Exotic Life: Mainsail"
-				`Little Vienna in New Austria`
-					to display
-						not "Little Vienna in New Austria: offered"
-					goto "Little Vienna in New Austria"
 				`Struggling Author Gone Missing`
 					to display
 						not "Struggling Author Gone Missing: offered"
@@ -4189,34 +4161,6 @@ mission "Mission Helper"
 					to display
 						not "Syndicate Business 5: offered"
 					goto "Syndicate Business 5"
-				`Syndicate Business 5.1 A 10m Expansion Update`
-					to display
-						not "Syndicate Business 5.1 A 10m Expansion Update: offered"
-					goto "Syndicate Business 5.1 A 10m Expansion Update"
-				`Syndicate Business 5.1 B 10m Expansion Crossroads Update`
-					to display
-						not "Syndicate Business 5.1 B 10m Expansion Crossroads Update: offered"
-					goto "Syndicate Business 5.1 B 10m Expansion Crossroads Update"
-				`Syndicate Business 6`
-					to display
-						not "Syndicate Business 6: offered"
-					goto "Syndicate Business 6"
-				`Syndicate Business 7`
-					to display
-						not "Syndicate Business 7: offered"
-					goto "Syndicate Business 7"
-				`Syndicate Business 8`
-					to display
-						not "Syndicate Business 8: offered"
-					goto "Syndicate Business 8"
-				`Syndicate Business 9`
-					to display
-						not "Syndicate Business 9: offered"
-					goto "Syndicate Business 9"
-				`Syndicate Business 10`
-					to display
-						not "Syndicate Business 10: offered"
-					goto "Syndicate Business 10"
 				`Timothy Radrickson 1: Stowaway`
 					to display
 						not "Timothy Radrickson 1: Stowaway: offered"
@@ -4891,10 +4835,114 @@ mission "Mission Helper"
 					to display
 						not "Ka'het: Patir Mystery 13.2: offered"
 					goto "Ka'het: Patir Mystery 13.2"
+				`Ka'het: Patir Mystery 14`
+					to display
+						not "Ka'het: Patir Mystery 14: offered"
+					goto "Ka'het: Patir Mystery 14"
+				`Ka'het: Patir Mystery 15`
+					to display
+						not "Ka'het: Patir Mystery 15: offered"
+					goto "Ka'het: Patir Mystery 15"
+				`Ka'het: Patir Mystery 16`
+					to display
+						not "Ka'het: Patir Mystery 16: offered"
+					goto "Ka'het: Patir Mystery 16"
+				`Ka'het: Patir Mystery 17`
+					to display
+						not "Ka'het: Patir Mystery 17: offered"
+					goto "Ka'het: Patir Mystery 17"
+				`Ka'het: Patir Mystery 18`
+					to display
+						not "Ka'het: Patir Mystery 18: offered"
+					goto "Ka'het: Patir Mystery 18"
+				`Ka'het: Patir Mystery 19`
+					to display
+						not "Ka'het: Patir Mystery 19: offered"
+					goto "Ka'het: Patir Mystery 19"
+				`Ka'het: Patir Mystery 20`
+					to display
+						not "Ka'het: Patir Mystery 20: offered"
+					goto "Ka'het: Patir Mystery 20"
+				`Ka'het: Patir Mystery 21`
+					to display
+						not "Ka'het: Patir Mystery 21: offered"
+					goto "Ka'het: Patir Mystery 21"
+				`Ka'het: Patir Mystery 22`
+					to display
+						not "Ka'het: Patir Mystery 22: offered"
+					goto "Ka'het: Patir Mystery 22"
+				`Ka'het: Patir Mystery 23`
+					to display
+						not "Ka'het: Patir Mystery 23: offered"
+					goto "Ka'het: Patir Mystery 23"
+				`Ka'het: Patir Mystery 24`
+					to display
+						not "Ka'het: Patir Mystery 24: offered"
+					goto "Ka'het: Patir Mystery 24"
+				`Ka'het: Patir Mystery 25`
+					to display
+						not "Ka'het: Patir Mystery 25: offered"
+					goto "Ka'het: Patir Mystery 25"
+				`Ka'het: Patir Mystery 26A`
+					to display
+						not "Ka'het: Patir Mystery 26A: offered"
+					goto "Ka'het: Patir Mystery 26A"
+				`Ka'het: Patir Mystery 26B`
+					to display
+						not "Ka'het: Patir Mystery 26B: offered"
+					goto "Ka'het: Patir Mystery 26B"
+				`Ka'het: Patir Mystery 27`
+					to display
+						not "Ka'het: Patir Mystery 27: offered"
+					goto "Ka'het: Patir Mystery 27"
+				`Ka'het: Patir Mystery 28`
+					to display
+						not "Ka'het: Patir Mystery 28: offered"
+					goto "Ka'het: Patir Mystery 28"
+				`Ka'het: Patir Mystery 29`
+					to display
+						not "Ka'het: Patir Mystery 29: offered"
+					goto "Ka'het: Patir Mystery 29"
+				`Ka'het: Patir Mystery 30`
+					to display
+						not "Ka'het: Patir Mystery 30: offered"
+					goto "Ka'het: Patir Mystery 30"
+				`Ka'het: Patir Mystery 30 - Postverta fleet`
+					to display
+						not "Ka'het: Patir Mystery 30 - Postverta fleet: offered"
+					goto "Ka'het: Patir Mystery 30 - Postverta fleet"
+				`Ka'het: Patir Mystery 31`
+					to display
+						not "Ka'het: Patir Mystery 31: offered"
+					goto "Ka'het: Patir Mystery 31"
+				`Ka'het: Patir Mystery 32`
+					to display
+						not "Ka'het: Patir Mystery 32: offered"
+					goto "Ka'het: Patir Mystery 32"
+				`Ka'het: Patir Mystery 32 - Patir fleet`
+					to display
+						not "Ka'het: Patir Mystery 32 - Patir fleet: offered"
+					goto "Ka'het: Patir Mystery 32 - Patir fleet"
+				`Ka'het: Patir Mystery 33`
+					to display
+						not "Ka'het: Patir Mystery 33: offered"
+					goto "Ka'het: Patir Mystery 33"
+				`Ka'het: Patir Mystery 34`
+					to display
+						not "Ka'het: Patir Mystery 34: offered"
+					goto "Ka'het: Patir Mystery 34"
+				`Ka'het: Patir Mystery 35`
+					to display
+						not "Ka'het: Patir Mystery 35: offered"
+					goto "Ka'het: Patir Mystery 35"
 				`Ka'het: Voice From The Past 0`
 					to display
 						not "Ka'het: Voice From The Past 0: offered"
 					goto "Ka'het: Voice From The Past 0"
+				`Ka'het: Voice From The Past 0 Patir 3`
+					to display
+						not "Ka'het: Voice From The Past 0 Patir 3: offered"
+					goto "Ka'het: Voice From The Past 0 Patir 3"
 				`Ka'het: Voice From The Past 1`
 					to display
 						not "Ka'het: Voice From The Past 1: offered"
@@ -5109,6 +5157,8 @@ mission "Mission Helper"
 					goto "remnant/remnant 2 cognizance.txt"
 				`remnant 2 side missions`
 					goto "remnant/remnant 2 side missions.txt"
+				`remnant events`
+					goto "remnant/remnant events.txt"
 			label "remnant/remnant 1 introduction.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Remnant | Remnant 1 introduction | Mission:`
@@ -5621,6 +5671,18 @@ mission "Mission Helper"
 					to display
 						not "Remnant: Will Not Someone Please Think Of The Children: offered"
 					goto "Remnant: Will Not Someone Please Think Of The Children"
+			label "remnant/remnant events.txt"
+			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
+			`Remnant | Remnant events | Mission:`
+			choice
+				`[back to "Remnant"]`
+					goto "remnant"
+				`[back to "Races"]`
+					goto "start"
+				`Remnant: Teciimach Compatibility`
+					to display
+						not "Remnant: Teciimach Compatibility: offered"
+					goto "Remnant: Teciimach Compatibility"
 			label "rulei"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Rulei | Sub category:`
@@ -15756,102 +15818,6 @@ mission "Mission Helper"
 					goto "human"
 				`[back to "Races"]`
 					goto "start"
-			label "Exotic Life: Delve"
-			`data\human\culture conversations.txt | mission "Exotic Life: Delve"`
-			`starts at: spaceport`
-			`	source Delve`
-			`	to offer`
-			`		random < 20`
-			``
-			`You have the following missions, events and conditions:`
-			``
-			choice
-				`[back to "Human | Culture conversations""]`
-					goto "human/culture conversations.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Exotic Life: Ada"
-			`data\human\culture conversations.txt | mission "Exotic Life: Ada"`
-			`starts at: spaceport`
-			`	source Ada`
-			`	to offer`
-			`		random < 10`
-			``
-			`You have the following missions, events and conditions:`
-			``
-			choice
-				`[back to "Human | Culture conversations""]`
-					goto "human/culture conversations.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Exotic Life: Bluestone"
-			`data\human\culture conversations.txt | mission "Exotic Life: Bluestone"`
-			`starts at: spaceport`
-			`	source Bluestone`
-			`	to offer`
-			`		random < 10`
-			``
-			`You have the following missions, events and conditions:`
-			``
-			choice
-				`[back to "Human | Culture conversations""]`
-					goto "human/culture conversations.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Exotic Life: Geyser"
-			`data\human\culture conversations.txt | mission "Exotic Life: Geyser"`
-			`starts at: spaceport`
-			`	source Geyser`
-			`	to offer`
-			`		random < 10`
-			``
-			`You have the following missions, events and conditions:`
-			``
-			choice
-				`[back to "Human | Culture conversations""]`
-					goto "human/culture conversations.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Exotic Life: Bloodsea"
-			`data\human\culture conversations.txt | mission "Exotic Life: Bloodsea"`
-			`starts at: spaceport`
-			`	source Bloodsea`
-			`	to offer`
-			`		random < 10`
-			``
-			`You have the following missions, events and conditions:`
-			``
-			choice
-				`[back to "Human | Culture conversations""]`
-					goto "human/culture conversations.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Exotic Life: Albatross"
-			`data\human\culture conversations.txt | mission "Exotic Life: Albatross"`
-			`starts at: spaceport`
-			`	source Albatross`
-			`	to offer`
-			`		random < 10`
-			``
-			`You have the following missions, events and conditions:`
-			``
-			choice
-				`[back to "Human | Culture conversations""]`
-					goto "human/culture conversations.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
 			label "Exotic Life: New Greenland"
 			`data\human\culture conversations.txt | mission "Exotic Life: New Greenland"`
 			`starts at: spaceport`
@@ -15872,22 +15838,6 @@ mission "Mission Helper"
 			`data\human\culture conversations.txt | mission "Exotic Life: Mainsail"`
 			`starts at: spaceport`
 			`	source Mainsail`
-			`	to offer`
-			`		random < 10`
-			``
-			`You have the following missions, events and conditions:`
-			``
-			choice
-				`[back to "Human | Culture conversations""]`
-					goto "human/culture conversations.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Little Vienna in New Austria"
-			`data\human\culture conversations.txt | mission "Little Vienna in New Austria"`
-			`starts at: spaceport`
-			`	source "New Austria"`
 			`	to offer`
 			`		random < 10`
 			``
@@ -16016,6 +15966,8 @@ mission "Mission Helper"
 			`		or`
 			`			not "chosen sides"`
 			`			has "main plot completed"`
+			`		not "Deep: Tarazed Convoy: active"`
+			`		not "Deep: Kraz Convoy: active"`
 			``
 			`You have the following missions, events and conditions:`
 			`"combat rating" > 65`
@@ -16030,6 +15982,12 @@ mission "Mission Helper"
 			`has "main plot completed"`
 				to display
 					has "main plot completed"
+			`not "Deep: Tarazed Convoy: active"`
+				to display
+					not "Deep: Tarazed Convoy: active"
+			`not "Deep: Kraz Convoy: active"`
+				to display
+					not "Deep: Kraz Convoy: active"
 			``
 			choice
 				`[back to "Human | Deep missions""]`
@@ -16051,6 +16009,8 @@ mission "Mission Helper"
 			`		or`
 			`			not "chosen sides"`
 			`			has "main plot completed"`
+			`		not "Deep: Syndicate Convoy: active"`
+			`		not "Deep: Kraz Convoy: active"`
 			``
 			`You have the following missions, events and conditions:`
 			`"combat rating" > 65`
@@ -16065,6 +16025,12 @@ mission "Mission Helper"
 			`has "main plot completed"`
 				to display
 					has "main plot completed"
+			`not "Deep: Syndicate Convoy: active"`
+				to display
+					not "Deep: Syndicate Convoy: active"
+			`not "Deep: Kraz Convoy: active"`
+				to display
+					not "Deep: Kraz Convoy: active"
 			``
 			choice
 				`[back to "Human | Deep missions""]`
@@ -16086,6 +16052,8 @@ mission "Mission Helper"
 			`		or`
 			`			not "chosen sides"`
 			`			has "main plot completed"`
+			`		not "Deep: Syndicate Convoy: active"`
+			`		not "Deep: Tarazed Convoy: active"`
 			``
 			`You have the following missions, events and conditions:`
 			`"combat rating" > 80`
@@ -16100,6 +16068,12 @@ mission "Mission Helper"
 			`has "main plot completed"`
 				to display
 					has "main plot completed"
+			`not "Deep: Syndicate Convoy: active"`
+				to display
+					not "Deep: Syndicate Convoy: active"
+			`not "Deep: Tarazed Convoy: active"`
+				to display
+					not "Deep: Tarazed Convoy: active"
 			``
 			choice
 				`[back to "Human | Deep missions""]`
@@ -23873,11 +23847,15 @@ mission "Mission Helper"
 			`		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"`
 			`	to offer`
 			`		"pirate attraction" >= 5`
+			`		has "gamerule: spawn raid fleets"`
 			``
 			`You have the following missions, events and conditions:`
 			`"pirate attraction" >= 5`
 				to display
 					"pirate attraction" >= 5
+			`has "gamerule: spawn raid fleets"`
+				to display
+					has "gamerule: spawn raid fleets"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -26816,201 +26794,6 @@ mission "Mission Helper"
 			`has "Syndicate Business 4: done"`
 				to display
 					has "Syndicate Business 4: done"
-			``
-			choice
-				`[back to "Human | Human missions""]`
-					goto "human/human missions.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Syndicate Business 5.1 A 10m Expansion Update"
-			`data\human\human missions.txt | mission "Syndicate Business 5.1 A 10m Expansion Update"`
-			`starts at: landing`
-			`	source`
-			`		near Ruchbah 0 20`
-			`	to offer`
-			`		has "Syndicate Business 5: done"`
-			`		has "event: syndicate business 10m investment done"`
-			`		or`
-			`			has "Syndicate Business expansion 10m good"`
-			`			has "Syndicate Business expansion 10m neutral"`
-			`			has "Syndicate Business expansion 10m evil"`
-			``
-			`You have the following missions, events and conditions:`
-			`has "Syndicate Business 5: done"`
-				to display
-					has "Syndicate Business 5: done"
-			`has "event: syndicate business 10m investment done"`
-				to display
-					has "event: syndicate business 10m investment done"
-			`has "Syndicate Business expansion 10m good"`
-				to display
-					has "Syndicate Business expansion 10m good"
-			`has "Syndicate Business expansion 10m neutral"`
-				to display
-					has "Syndicate Business expansion 10m neutral"
-			`has "Syndicate Business expansion 10m evil"`
-				to display
-					has "Syndicate Business expansion 10m evil"
-			``
-			choice
-				`[back to "Human | Human missions""]`
-					goto "human/human missions.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Syndicate Business 5.1 B 10m Expansion Crossroads Update"
-			`data\human\human missions.txt | mission "Syndicate Business 5.1 B 10m Expansion Crossroads Update"`
-			`starts at: spaceport`
-			`	source "Crossroads"`
-			`	to offer`
-			`		has "Syndicate Business 5: done"`
-			`		has "event: syndicate business 10m investment done"`
-			`		or`
-			`			has "Syndicate Business expansion 10m good"`
-			`			has "Syndicate Business expansion 10m neutral"`
-			`			has "Syndicate Business expansion 10m evil"`
-			`		random < 85`
-			``
-			`You have the following missions, events and conditions:`
-			`has "Syndicate Business 5: done"`
-				to display
-					has "Syndicate Business 5: done"
-			`has "event: syndicate business 10m investment done"`
-				to display
-					has "event: syndicate business 10m investment done"
-			`has "Syndicate Business expansion 10m good"`
-				to display
-					has "Syndicate Business expansion 10m good"
-			`has "Syndicate Business expansion 10m neutral"`
-				to display
-					has "Syndicate Business expansion 10m neutral"
-			`has "Syndicate Business expansion 10m evil"`
-				to display
-					has "Syndicate Business expansion 10m evil"
-			``
-			choice
-				`[back to "Human | Human missions""]`
-					goto "human/human missions.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Syndicate Business 6"
-			`data\human\human missions.txt | mission "Syndicate Business 6"`
-			`starts at: spaceport`
-			`	source`
-			`		government "Syndicate"`
-			`		not planet "Sunracer"`
-			`	to offer`
-			`		has "Syndicate Business 5: done"`
-			`		has "Syndicate Business 5.1 A 10m Expansion Update: offered"`
-			`		has "event: syndicate business 10m investment done"`
-			`		random < 50`
-			`		or`
-			`			credits > 300000000`
-			`			"net worth" > 600000000`
-			``
-			`You have the following missions, events and conditions:`
-			`has "Syndicate Business 5: done"`
-				to display
-					has "Syndicate Business 5: done"
-			`has "Syndicate Business 5.1 A 10m Expansion Update: offered"`
-				to display
-					has "Syndicate Business 5.1 A 10m Expansion Update: offered"
-			`has "event: syndicate business 10m investment done"`
-				to display
-					has "event: syndicate business 10m investment done"
-			`credits > 300000000`
-				to display
-					credits > 300000000
-			`"net worth" > 600000000`
-				to display
-					"net worth" > 600000000
-			``
-			choice
-				`[back to "Human | Human missions""]`
-					goto "human/human missions.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Syndicate Business 7"
-			`data\human\human missions.txt | mission "Syndicate Business 7"`
-			`starts at: spaceport`
-			`	source "Sunracer"`
-			`	to offer`
-			`		has "Syndicate Business 6: done"`
-			``
-			`You have the following missions, events and conditions:`
-			`has "Syndicate Business 6: done"`
-				to display
-					has "Syndicate Business 6: done"
-			``
-			choice
-				`[back to "Human | Human missions""]`
-					goto "human/human missions.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Syndicate Business 8"
-			`data\human\human missions.txt | mission "Syndicate Business 8"`
-			`starts at: spaceport`
-			`	source "Canyon"`
-			`	to offer`
-			`		has "Syndicate Business 7: done"`
-			``
-			`You have the following missions, events and conditions:`
-			`has "Syndicate Business 7: done"`
-				to display
-					has "Syndicate Business 7: done"
-			``
-			choice
-				`[back to "Human | Human missions""]`
-					goto "human/human missions.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Syndicate Business 9"
-			`data\human\human missions.txt | mission "Syndicate Business 9"`
-			`starts at: landing`
-			`	source`
-			`		near "Sol" 0 100`
-			`		not planet "Hephaestus"`
-			`	to offer`
-			`		has "Syndicate Business 8: done"`
-			`		has "event: syndicate business Howard schmoozing"`
-			``
-			`You have the following missions, events and conditions:`
-			`has "Syndicate Business 8: done"`
-				to display
-					has "Syndicate Business 8: done"
-			`has "event: syndicate business Howard schmoozing"`
-				to display
-					has "event: syndicate business Howard schmoozing"
-			``
-			choice
-				`[back to "Human | Human missions""]`
-					goto "human/human missions.txt"
-				`[back to "Human"]`
-					goto "human"
-				`[back to "Races"]`
-					goto "start"
-			label "Syndicate Business 10"
-			`data\human\human missions.txt | mission "Syndicate Business 10"`
-			`starts at: spaceport`
-			`	source "Hephaestus"`
-			`	to offer`
-			`		has "Syndicate Business 9: done"`
-			``
-			`You have the following missions, events and conditions:`
-			`has "Syndicate Business 9: done"`
-				to display
-					has "Syndicate Business 9: done"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -30743,6 +30526,552 @@ mission "Mission Helper"
 					goto "kahet"
 				`[back to "Races"]`
 					goto "start"
+			label "Ka'het: Patir Mystery 14"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 14"`
+			`starts at: spaceport`
+			`	source`
+			`		government "Remnant"`
+			`		attributes "remnant primary"`
+			`	to offer`
+			`		random < 60`
+			`		has "event: patir mystery 2 timer"`
+			`		has "event: remnant: tubfalet appearance"`
+			`		not "ka'het: beyond Patir"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: patir mystery 2 timer"`
+				to display
+					has "event: patir mystery 2 timer"
+			`has "event: remnant: tubfalet appearance"`
+				to display
+					has "event: remnant: tubfalet appearance"
+			`not "ka'het: beyond Patir"`
+				to display
+					not "ka'het: beyond Patir"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 15"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 15"`
+			`starts at: spaceport`
+			`	source`
+			`		government "Remnant"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 14: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 14: done"`
+				to display
+					has "Ka'het: Patir Mystery 14: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 16"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 16"`
+			`starts at: landing`
+			`	passengers 3`
+			`	source "Ssil Vida"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 14: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 14: done"`
+				to display
+					has "Ka'het: Patir Mystery 14: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 17"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 17"`
+			`starts at: landing`
+			`	passengers 4`
+			`	cargo "Ka'het intimidation mechanism and reserved space" 65`
+			`	source "Caelian"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 16: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 16: done"`
+				to display
+					has "Ka'het: Patir Mystery 16: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 18"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 18"`
+			`starts at: spaceport`
+			`	passengers 4`
+			`	cargo "equipment and asteroid material" 3`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 17: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 17: done"`
+				to display
+					has "Ka'het: Patir Mystery 17: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 19"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 19"`
+			`starts at: landing`
+			`	passengers 4`
+			`	cargo "equipment and asteroid material" 3`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 18: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 18: done"`
+				to display
+					has "Ka'het: Patir Mystery 18: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 20"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 20"`
+			`starts at: spaceport`
+			`	passengers 5`
+			`	cargo "Patir surface payload" 9`
+			`	source "Caelian"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 19: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 19: done"`
+				to display
+					has "Ka'het: Patir Mystery 19: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 21"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 21"`
+			`starts at: landing`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 20: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 20: done"`
+				to display
+					has "Ka'het: Patir Mystery 20: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 22"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 22"`
+			`starts at: landing`
+			`	source "Pacili"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 21: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 21: done"`
+				to display
+					has "Ka'het: Patir Mystery 21: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 23"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 23"`
+			`starts at: spaceport`
+			`	passengers 5`
+			`	cargo "Patir samples" 8`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		or`
+			`			has "Ka'het: Patir Mystery 22: done"`
+			`			has "Ka'het: Patir Mystery Safety Net Early: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 22: done"`
+				to display
+					has "Ka'het: Patir Mystery 22: done"
+			`has "Ka'het: Patir Mystery Safety Net Early: done"`
+				to display
+					has "Ka'het: Patir Mystery Safety Net Early: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 24"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 24"`
+			`starts at: spaceport`
+			`	passengers 5`
+			`	cargo "scientific payload" 135`
+			`	source "Caelian"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 23: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 23: done"`
+				to display
+					has "Ka'het: Patir Mystery 23: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 25"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 25"`
+			`starts at: landing`
+			`	passengers 5`
+			`	cargo "scientific payload" 135`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 24: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 24: done"`
+				to display
+					has "Ka'het: Patir Mystery 24: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 26A"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 26A"`
+			`starts at: landing`
+			`	passengers 5`
+			`	cargo "scientific payload and samples" 135`
+			`	source "Chanai Structure"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 25: offered"`
+			`		has "Ka'het: Patir Mystery 12.1A: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 25: offered"`
+				to display
+					has "Ka'het: Patir Mystery 25: offered"
+			`has "Ka'het: Patir Mystery 12.1A: done"`
+				to display
+					has "Ka'het: Patir Mystery 12.1A: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 26B"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 26B"`
+			`starts at: landing`
+			`	passengers 5`
+			`	cargo "scientific payload and samples" 135`
+			`	source "Chanai Structure"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 25: offered"`
+			`		not "Ka'het: Patir Mystery 12.1A: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 25: offered"`
+				to display
+					has "Ka'het: Patir Mystery 25: offered"
+			`not "Ka'het: Patir Mystery 12.1A: done"`
+				to display
+					not "Ka'het: Patir Mystery 12.1A: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 27"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 27"`
+			`starts at: spaceport`
+			`	passengers 5`
+			`	cargo "scientific payload and samples" 55`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		or`
+			`			has "Ka'het: Patir Mystery 26A: done"`
+			`			has "Ka'het: Patir Mystery 26B: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 26A: done"`
+				to display
+					has "Ka'het: Patir Mystery 26A: done"
+			`has "Ka'het: Patir Mystery 26B: done"`
+				to display
+					has "Ka'het: Patir Mystery 26B: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 28"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 28"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	source "Caelian"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 27: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 27: done"`
+				to display
+					has "Ka'het: Patir Mystery 27: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 29"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 29"`
+			`starts at: spaceport`
+			`	source "Ssil Vida"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 28: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 28: done"`
+				to display
+					has "Ka'het: Patir Mystery 28: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 30"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 30"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	source "Ssil Vida"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 29: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 29: done"`
+				to display
+					has "Ka'het: Patir Mystery 29: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 30 - Postverta fleet"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 30 - Postverta fleet"`
+			`starts at: landing`
+			`	source "Aventine"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 30: done"`
+			`	to complete`
+			`		never`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 30: done"`
+				to display
+					has "Ka'het: Patir Mystery 30: done"
+			`never`
+				to display
+					never
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 31"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 31"`
+			`starts at: landing`
+			`	source "Aventine"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 30: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 30: done"`
+				to display
+					has "Ka'het: Patir Mystery 30: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 32"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 32"`
+			`starts at: spaceport`
+			`	passengers 10`
+			`	cargo "scientific payload" 130`
+			`	source "Caelian"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 31: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 31: done"`
+				to display
+					has "Ka'het: Patir Mystery 31: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 32 - Patir fleet"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 32 - Patir fleet"`
+			`starts at: landing`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 32: done"`
+			`	to complete`
+			`		never`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 32: done"`
+				to display
+					has "Ka'het: Patir Mystery 32: done"
+			`never`
+				to display
+					never
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 33"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 33"`
+			`starts at: landing`
+			`	passengers 5`
+			`	cargo "scientific payload" 110`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 32: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 32: done"`
+				to display
+					has "Ka'het: Patir Mystery 32: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 34"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 34"`
+			`starts at: landing`
+			`	passengers 5`
+			`	cargo "scientific payload" 105`
+			`	source "Magic Asteroid Planet"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 33: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 33: done"`
+				to display
+					has "Ka'het: Patir Mystery 33: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Patir Mystery 35"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Patir Mystery 35"`
+			`starts at: spaceport`
+			`	passengers 10`
+			`	cargo "scientific payload" 130`
+			`	source "Builder Settlement"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 34: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 34: done"`
+				to display
+					has "Ka'het: Patir Mystery 34: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
 			label "Ka'het: Voice From The Past 0"
 			`data\kahet\kahet missions.txt | mission "Ka'het: Voice From The Past 0"`
 			`starts at: landing`
@@ -30755,6 +31084,33 @@ mission "Mission Helper"
 			`has "event: patir mystery timer"`
 				to display
 					has "event: patir mystery timer"
+			`never`
+				to display
+					never
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Voice From The Past 0 Patir 3"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Voice From The Past 0 Patir 3"`
+			`starts at: landing`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 35: done"`
+			`		not "builder signal"`
+			`	to complete`
+			`		never`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 35: done"`
+				to display
+					has "Ka'het: Patir Mystery 35: done"
+			`not "builder signal"`
+				to display
+					not "builder signal"
 			`never`
 				to display
 					never
@@ -34445,6 +34801,24 @@ mission "Mission Helper"
 			choice
 				`[back to "Remnant | Remnant 2 side missions""]`
 					goto "remnant/remnant 2 side missions.txt"
+				`[back to "Remnant"]`
+					goto "remnant"
+				`[back to "Races"]`
+					goto "start"
+			label "Remnant: Teciimach Compatibility"
+			`data\remnant\remnant events.txt | mission "Remnant: Teciimach Compatibility"`
+			`starts at: landing`
+			`	to offer`
+			`		has "event: remnant: teciimach deployment"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: remnant: teciimach deployment"`
+				to display
+					has "event: remnant: teciimach deployment"
+			``
+			choice
+				`[back to "Remnant | Remnant events""]`
+					goto "remnant/remnant events.txt"
 				`[back to "Remnant"]`
 					goto "remnant"
 				`[back to "Races"]`
