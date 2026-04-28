@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-04-28 | update: captureable.person.ships<br>
 2026-04-28 | update: uniques<br>
 2026-04-28 | update: expert.crew.members<br>
 2026-04-28 | update: ship.merging<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-03-20 | update: heavy.traffic<br>
 2026-03-11 | update: job.coloring<br>
 2026-03-08 | update: galactic.capital.investment<br>
-2026-02-22 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -413,7 +413,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/automata.destruction.0percent.png" width="130" height="20">
 
-[automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) v1.0.1 | N/A | N/A | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=automata.destruction.0percent-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [2]<br>
+[automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) v1.0.1 | 44.08 kb | 2024-06-07 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=automata.destruction.0percent-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [2]<br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
@@ -1094,7 +1094,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/captureable.person.ships.png" width="130" height="20">
 
-[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.10-captureable.person.ships/captureable.person.ships.zip) v1.1.10 | 197.5 kb | 2025-11-20 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=captureable.person.ships-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) | <a href="res/imagemd/captureable.person.ships.md">view images</a> [4]<br>
+[captureable.person.ships.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.11-captureable.person.ships/captureable.person.ships.zip) v1.1.11 | 197.44 kb | 2026-04-28 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=captureable.person.ships-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/) | <a href="res/imagemd/captureable.person.ships.md">view images</a> [4]<br>
 <br>
 >Makes person ships capturable. See the README for details.
 
@@ -1126,7 +1126,7 @@ After you've killed them all, you receive a small unique gift.<br>
 
 I tested this plugin with 10x KIV349, all equipped with Mereti beam weapons, was probably an overkill on most. Boarding "Zitchas"(1000 crew) needed an Echo-Galleon, and I tried it with hand2hand outfits plugin. Maybe it works with nerve gas too.<br>
 
-In cap_persons.txt you find the following line under gamerules: "#	"person spawn period" 2000". If you remove the "#" the spawning speed is increased to one spawn in around half a minute.<br>
+If you set the gamerules to	"person spawn period" 2000 and "person spawn weight" 0 , the spawning speed is increased to one spawn in around half a minute.<br>
 
 <ul>
 
@@ -1172,7 +1172,13 @@ In cap_persons.txt you find the following line under gamerules: "#	"person spawn
 
 Changelog:<br>
 
- <br>
+<br>
+
+2026-04-28<br>
+
+removed gamerules settings<br>
+
+<br>
 
 2025-11-20<br>
 
