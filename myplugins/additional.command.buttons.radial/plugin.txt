@@ -2,3 +2,4 @@ name "additional.command.buttons.radial"
 about "Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details."
 authors 
 	"zuckung"
+version 1.0.28

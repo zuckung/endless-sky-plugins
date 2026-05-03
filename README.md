@@ -19,6 +19,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-05-03 | update: additional.command.buttons.radial<br>
 2026-04-28 | update: control.station<br>
 2026-04-28 | update: vague.improvements<br>
 2026-04-28 | update: captureable.person.ships<br>
@@ -28,7 +29,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-04-28 | update: mission.helper<br>
 2026-04-10 | update: combat.ai<br>
 2026-04-08 | update: job.coloring<br>
-2026-03-20 | update: heavy.traffic<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -121,7 +121,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/additional.command.buttons.radial.png" width="130" height="20">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.27-additional.command.buttons.radial/additional.command.buttons.radial.zip) v1.0.27 | 416.02 kb | 2025-10-26 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=additional.command.buttons.radial-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [64]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.28-additional.command.buttons.radial/additional.command.buttons.radial.zip) v1.0.28 | 416.09 kb | 2026-05-03 | [view versions](https://github.com/zuckung/endless-sky-plugins/releases?q=additional.command.buttons.radial-&expanded=true) | [view files](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [64]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -190,6 +190,12 @@ That resizes the landing image and the frame to their half.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-05-03<br>
+
+fixed not working radar (reported by Jawster)<br>
 
 <br>
 
