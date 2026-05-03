@@ -31,6 +31,9 @@ That resizes the landing image and the frame to their half.<br>
 <br>
 Changelog:<br>
 <br>
+2026-05-03<br>
+fixed not working radar (reported by Jawster)<br>
+<br>
 2025-10-26<br>
 fixed 0.10.16 stop ship command renaming<br>
 <br>

@@ -111,6 +111,9 @@ interface "hud"
 	sprite "ui/red alert"
 		from 10 10
 		align top left
+	visible if "nuke alert"
+	sprite "icon/nuke"
+		from 24 24
 	visible
 	sprite "ui/radar"
 		from 0 0
@@ -118,6 +121,7 @@ interface "hud"
 	point "radar"
 		center 128 128
 	value "radar radius" 110
+	value "radar scale" .025
 	value "radar pointer radius" 130
 	
 	sprite "ui/navigation"
