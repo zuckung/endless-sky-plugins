@@ -9,6 +9,7 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 <ul>
 <li> after.war.defense.pact.txt - removes the need to complete these missions before the FW war begins</li>
 <li> bunrodea.first.contact.100percent.txt - increases chance to meet bunrodea from 10% to 100%</li>
+<li> disable.bounty.hunters.txt - removes the mission that spawns bounty hunters</li>
 <li> illegal.txt - removes the fines for illegal outfits</li>
 <li> increased.pirate.bactrian.spawn.txt - increases the spawnrate of the bactrian in the 3 northern pirate systems</li>
 <li> increased.korath.rare.spawn.txt - increases the spawnrate of the 2 super rare korath longships</li>
@@ -21,6 +22,9 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 <br>
 <br>
 Changelog:<br>
+<br>
+2026-05-10<br>
+added bounty hunter removal<br>
 <br>
 2026-04-28<br>
 removed gamerules because you can configure them ingame now<br>
