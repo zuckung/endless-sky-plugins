@@ -71,33 +71,37 @@ def make_imagemd(name, current_repo):
 				target.writelines('		<td></td>\n')
 				target.writelines('	</tr>\n')
 			target.writelines('</table>\n')
-		link = '<a href="res/imagemd/' + name + '.md">view images</a> [' + str(pos) + ']'
+		link = name
+		amount = str(pos)
 	else:
 		link = 'N/A'
+		amount = ''
 	print(name + '.md with all images written to res/imagemd/')
-	return link
+	return link, amount
 
 
 def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo):
 	# useable variables inside template.txt:
-	# %news%           html table of the news
-	# %pluginlist%     html table of anchor links to the plugins
-	# %name%           the plugin name
-	# %icon%           html img with plugin icon url
-	# %assetfile%      release zip name of the plugin, special chars and spaces are replaced by dots
-	# %assetfullpath%  url to the plugin release
-	# %size%           plugin size in mb or kb, or 'N/A' if no release found
-	# %lastmodified%   last modified date of the plugin release zip file, or 'N/A' if no release found
-	# %pluginurl%      url path to the plugin folder
-	# %pluginnameurl%  plugin folder name, with space replaced by %20
-	# %imagemd%        html link to a seperate plugin md file with all images of that plugin
-	# %description%    content of the plugin's' plugin.txt or about.txt, or 'N/A' if none found
-	# %readme%         content of the plugin's' README.md or 'N/A' if none found
-	# %screenshots%    html table of the plugin screenshots from the screenshot folder, or '' if none found
-	# %version%        version number
-	# %orgrepo%        organisation/repository
-	# %organisation%   organisation
-	# %repository%     repository
+	# %news%                html table of the news
+	# %pluginlist%          html table of anchor links to the plugins
+	# %name%                the plugin name
+	# %icon%                html img with plugin icon url
+	# %assetfile%           release zip name of the plugin, special chars and spaces are replaced by dots
+	# %assetfullpath%       url to the plugin release
+	# %size%                plugin size in mb or kb, or 'N/A' if no release found
+	# %lastmodified%        last modified date of the plugin release zip file, or 'N/A' if no release found
+	# %pluginurl%           url path to the plugin folder
+	# %pluginnameurl%       plugin folder name, with space replaced by %20
+	# %imagemdamount%       number of graphic files in the plugin images md
+	# %description%         content of the plugin's' plugin.txt or about.txt, or 'N/A' if none found
+	# %readme%              content of the plugin's' README.md or 'N/A' if none found
+	# %screenshots%         html table of the plugin screenshots from the screenshot folder, or '' if none found
+	# %version%             version number
+	# %orgrepo%             organisation/repository
+	# %organisation%        organisation
+	# %repository%          repository
+	# %sizebadge%           plugin size in mb or kb, or 'N/A' if no release found, space is replaced by "_"
+	# %lastmodifiedbadge%   last modified date of the plugin release zip file, or 'N/A' if no release found, "-" is replaced by "--"
 
 	# read templates
 	with open(templatefile, 'r') as file1:
@@ -245,19 +249,23 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 		else:
 			icon = ''
 		# create imagemd and return link, this is the %imagemd% (imagemdlink) variable
-		imagemdlink = make_imagemd(entry, current_repo)
+		imagemdname, imagemdamount = make_imagemd(entry, current_repo)
+		
 		# replace template with %variables%
 		pa_template = pa_template.replace('%name%', entry)
 		pa_template = pa_template.replace('%assetfullpath%', assetfiles)
 		pa_template = pa_template.replace('%assetfile%', withdots + '.zip')
 		if assetsize != 'N/A':
 			pa_template = pa_template.replace('%size%', str(round(assetsize, 2)) + form)
+			pa_template = pa_template.replace('%sizebadge%', str(round(assetsize, 2)) + form.replace(' ', '_'))
 		else:
 			pa_template = pa_template.replace('%size%', assetsize)
+			pa_template = pa_template.replace('%sizebadge%', assetsize)
 		pa_template = pa_template.replace('%lastmodified%', modif)
+		pa_template = pa_template.replace('%lastmodifiedbadge%', modif.replace('-', '--'))
 		pa_template = pa_template.replace('%pluginurl%', pluginurl)
 		pa_template = pa_template.replace('%pluginnameurl%', forweb)
-		pa_template = pa_template.replace('%imagemd%', imagemdlink)
+		pa_template = pa_template.replace('%imagemdamount%', imagemdamount)
 		pa_template = pa_template.replace('%description%', description)
 		pa_template = pa_template.replace('%readme%', readme)
 		pa_template = pa_template.replace('%icon%', icon)

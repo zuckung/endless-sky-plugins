@@ -89,6 +89,7 @@ space.fauna
 
  
 uniques
+  smileytechie - Found a typo in unq_landing_computer, "negotiatiins"
   RedTechGamer236 - Southbound is not on Wayfarer (that's the Tarazed Corporation). It's on Zug.
   pets
     critters suggested by kitteh
