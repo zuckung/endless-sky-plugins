@@ -7,12 +7,10 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <br>
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/total.png" width="130" height="20">
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/zuckung/endless-sky-plugins/myplugins?label=plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/commit-activity/t/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/archive/refs/heads/main.zip"><img src="https://img.shields.io/github/repo-size/zuckung/endless-sky-plugins"></a>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/code-size/zuckung/endless-sky-plugins"></a>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/top/zuckung/endless-sky-plugins"></a>
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/total.png" width="130" height="20">
 <br>
 
 ## Latest News:
@@ -121,22 +119,20 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/additional.command.buttons.radial.png" width="130" height="20">
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.28-additional.command.buttons.radial/additional.command.buttons.radial.zip) 
-<img src="https://img.shields.io/badge/v1.0.28-bfbfbf"> 
-<img src="https://img.shields.io/badge/416.09_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--05--03-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=additional.command.buttons.radial-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/)
-[<img src="https://img.shields.io/badge/view_images_[64]-262626">](res/imagemd/additional.command.buttons.radial.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.28-additional.command.buttons.radial/additional.command.buttons.radial.zip) 
+<img src="https://img.shields.io/badge/v1.0.28-707070"> 
+<img src="https://img.shields.io/badge/416.09_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--05--03-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=additional.command.buttons.radial-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/)
+[<img src="https://img.shields.io/badge/view_images_[64]-707070">](res/imagemd/additional.command.buttons.radial.md)<br>
 
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### additional.command.buttons <br>
 
@@ -409,9 +405,8 @@ exchanged some of the button positions<br>
 initial release<br>
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -435,22 +430,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/automata.destruction.0percent.png" width="130" height="20">
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) 
-<img src="https://img.shields.io/badge/v1.0.1-bfbfbf"> 
-<img src="https://img.shields.io/badge/44.08_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2024--06--07-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=automata.destruction.0percent-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/automata.destruction.0percent.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) 
+<img src="https://img.shields.io/badge/v1.0.1-707070"> 
+<img src="https://img.shields.io/badge/44.08_kb-707070"> 
+<img src="https://img.shields.io/badge/2024--06--07-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=automata.destruction.0percent-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/automata.destruction.0percent.md)<br>
 
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### automata.destruction.0percent
 
@@ -520,9 +513,8 @@ changed readme<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 
@@ -536,22 +528,20 @@ changed readme<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/automata.in.human.space.png" width="130" height="20">
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-automata.in.human.space/automata.in.human.space.zip) 
-<img src="https://img.shields.io/badge/v1.0.2-bfbfbf"> 
-<img src="https://img.shields.io/badge/96.62_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--08--29-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=automata.in.human.space-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/automata.in.human.space.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-automata.in.human.space/automata.in.human.space.zip) 
+<img src="https://img.shields.io/badge/v1.0.2-707070"> 
+<img src="https://img.shields.io/badge/96.62_kb-707070"> 
+<img src="https://img.shields.io/badge/2025--08--29-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=automata.in.human.space-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/automata.in.human.space.md)<br>
 
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### automata.in.human.space
 
@@ -605,9 +595,8 @@ changed icon.png<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 
@@ -621,22 +610,20 @@ changed icon.png<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/better.starts.png" width="130" height="20">
 <img src="myplugins/better.starts/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-better.starts/better.starts.zip) 
-<img src="https://img.shields.io/badge/v1.0.5-bfbfbf"> 
-<img src="https://img.shields.io/badge/804.25_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--06--17-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=better.starts-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/)
-[<img src="https://img.shields.io/badge/view_images_[6]-262626">](res/imagemd/better.starts.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-better.starts/better.starts.zip) 
+<img src="https://img.shields.io/badge/v1.0.5-707070"> 
+<img src="https://img.shields.io/badge/804.25_kb-707070"> 
+<img src="https://img.shields.io/badge/2025--06--17-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=better.starts-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/better.starts/)
+[<img src="https://img.shields.io/badge/view_images_[6]-707070">](res/imagemd/better.starts.md)<br>
 
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### better.starts <br>
 
@@ -764,9 +751,8 @@ added Start Explorer to Automata<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -788,22 +774,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/boss.loot.png" width="130" height="20">
 <img src="myplugins/boss.loot/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-boss.loot/boss.loot.zip) 
-<img src="https://img.shields.io/badge/v1.0.8-bfbfbf"> 
-<img src="https://img.shields.io/badge/18.37_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--02--01-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=boss.loot-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/)
-[<img src="https://img.shields.io/badge/view_images_[588]-262626">](res/imagemd/boss.loot.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-boss.loot/boss.loot.zip) 
+<img src="https://img.shields.io/badge/v1.0.8-707070"> 
+<img src="https://img.shields.io/badge/18.37_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--02--01-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=boss.loot-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/)
+[<img src="https://img.shields.io/badge/view_images_[588]-707070">](res/imagemd/boss.loot.md)<br>
 
 >A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### boss.loot<br>
 
@@ -897,9 +881,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -928,22 +911,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/bunrodea.missions.png" width="130" height="20">
 <img src="myplugins/bunrodea.missions/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-bunrodea.missions/bunrodea.missions.zip) 
-<img src="https://img.shields.io/badge/v1.0.9-bfbfbf"> 
-<img src="https://img.shields.io/badge/2.95_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--06--19-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=bunrodea.missions-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/)
-[<img src="https://img.shields.io/badge/view_images_[46]-262626">](res/imagemd/bunrodea.missions.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-bunrodea.missions/bunrodea.missions.zip) 
+<img src="https://img.shields.io/badge/v1.0.9-707070"> 
+<img src="https://img.shields.io/badge/2.95_mb-707070"> 
+<img src="https://img.shields.io/badge/2025--06--19-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=bunrodea.missions-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/bunrodea.missions/)
+[<img src="https://img.shields.io/badge/view_images_[46]-707070">](res/imagemd/bunrodea.missions.md)<br>
 
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### bunrodea.missions
 
@@ -1165,9 +1146,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -1196,22 +1176,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/captureable.person.ships.png" width="130" height="20">
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.11-captureable.person.ships/captureable.person.ships.zip) 
-<img src="https://img.shields.io/badge/v1.1.11-bfbfbf"> 
-<img src="https://img.shields.io/badge/197.44_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--04--28-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=captureable.person.ships-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/)
-[<img src="https://img.shields.io/badge/view_images_[4]-262626">](res/imagemd/captureable.person.ships.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.11-captureable.person.ships/captureable.person.ships.zip) 
+<img src="https://img.shields.io/badge/v1.1.11-707070"> 
+<img src="https://img.shields.io/badge/197.44_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--04--28-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=captureable.person.ships-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/)
+[<img src="https://img.shields.io/badge/view_images_[4]-707070">](res/imagemd/captureable.person.ships.md)<br>
 
 >Makes person ships capturable. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### capturable.person.ships
 
@@ -1431,9 +1409,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -1455,22 +1432,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/coalition.shopping.png" width="130" height="20">
 <img src="myplugins/coalition.shopping/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-coalition.shopping/coalition.shopping.zip) 
-<img src="https://img.shields.io/badge/v1.0.7-bfbfbf"> 
-<img src="https://img.shields.io/badge/451.88_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--08--29-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=coalition.shopping-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/)
-[<img src="https://img.shields.io/badge/view_images_[6]-262626">](res/imagemd/coalition.shopping.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-coalition.shopping/coalition.shopping.zip) 
+<img src="https://img.shields.io/badge/v1.0.7-707070"> 
+<img src="https://img.shields.io/badge/451.88_kb-707070"> 
+<img src="https://img.shields.io/badge/2025--08--29-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=coalition.shopping-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/)
+[<img src="https://img.shields.io/badge/view_images_[6]-707070">](res/imagemd/coalition.shopping.md)<br>
 
 >Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in the 'Homeward' system. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### coalition.shopping
 
@@ -1546,9 +1521,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -1571,22 +1545,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/combat.ai.png" width="130" height="20">
 <img src="myplugins/combat.ai/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.12-combat.ai/combat.ai.zip) 
-<img src="https://img.shields.io/badge/v1.0.12-bfbfbf"> 
-<img src="https://img.shields.io/badge/335.58_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--04--10-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=combat.ai-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/)
-[<img src="https://img.shields.io/badge/view_images_[6]-262626">](res/imagemd/combat.ai.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.12-combat.ai/combat.ai.zip) 
+<img src="https://img.shields.io/badge/v1.0.12-707070"> 
+<img src="https://img.shields.io/badge/335.58_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--04--10-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=combat.ai-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/)
+[<img src="https://img.shields.io/badge/view_images_[6]-707070">](res/imagemd/combat.ai.md)<br>
 
 >Offers a mission to install a combat AI, which increases your ship stats based on combat experience. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### combat.ai
 
@@ -1794,9 +1766,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -1818,22 +1789,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/comets.png" width="130" height="20">
 <img src="myplugins/comets/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-comets/comets.zip) 
-<img src="https://img.shields.io/badge/v1.0.1-bfbfbf"> 
-<img src="https://img.shields.io/badge/4.86_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--02--01-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=comets-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/comets/)
-[<img src="https://img.shields.io/badge/view_images_[504]-262626">](res/imagemd/comets.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-comets/comets.zip) 
+<img src="https://img.shields.io/badge/v1.0.1-707070"> 
+<img src="https://img.shields.io/badge/4.86_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--02--01-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=comets-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/comets/)
+[<img src="https://img.shields.io/badge/view_images_[504]-707070">](res/imagemd/comets.md)<br>
 
 >Adds 10 different comet types, as rare spawns to changing systems. These comets are minable and high profitable. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### comets
 
@@ -1893,9 +1862,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -1919,22 +1887,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/control.station.png" width="130" height="20">
 <img src="myplugins/control.station/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-control.station/control.station.zip) 
-<img src="https://img.shields.io/badge/v1.0.8-bfbfbf"> 
-<img src="https://img.shields.io/badge/3.22_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--04--28-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=control.station-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/)
-[<img src="https://img.shields.io/badge/view_images_[405]-262626">](res/imagemd/control.station.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-control.station/control.station.zip) 
+<img src="https://img.shields.io/badge/v1.0.8-707070"> 
+<img src="https://img.shields.io/badge/3.22_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--04--28-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=control.station-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/)
+[<img src="https://img.shields.io/badge/view_images_[405]-707070">](res/imagemd/control.station.md)<br>
 
 >Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### control.station
 
@@ -2068,9 +2034,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -2093,22 +2058,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/disable.person.ships.png" width="130" height="20">
 <img src="myplugins/disable.person.ships/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-disable.person.ships/disable.person.ships.zip) 
-<img src="https://img.shields.io/badge/v1.0.0-bfbfbf"> 
-<img src="https://img.shields.io/badge/20.08_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2024--04--06-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=disable.person.ships-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/disable.person.ships.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0-disable.person.ships/disable.person.ships.zip) 
+<img src="https://img.shields.io/badge/v1.0.0-707070"> 
+<img src="https://img.shields.io/badge/20.08_kb-707070"> 
+<img src="https://img.shields.io/badge/2024--04--06-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=disable.person.ships-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.person.ships/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/disable.person.ships.md)<br>
 
 >Disables all person ships. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### disable.person.ships <br>
 
@@ -2185,9 +2148,8 @@ added plugin.txt<br>
 added icon.png<br>
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 
@@ -2201,22 +2163,20 @@ added icon.png<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/disable.spaceport.repeatables.png" width="130" height="20">
 <img src="myplugins/disable.spaceport.repeatables/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.1-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) 
-<img src="https://img.shields.io/badge/v1.1.1-bfbfbf"> 
-<img src="https://img.shields.io/badge/20.57_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2024--05--26-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=disable.spaceport.repeatables-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/disable.spaceport.repeatables.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.1-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) 
+<img src="https://img.shields.io/badge/v1.1.1-707070"> 
+<img src="https://img.shields.io/badge/20.57_kb-707070"> 
+<img src="https://img.shields.io/badge/2024--05--26-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=disable.spaceport.repeatables-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/disable.spaceport.repeatables.md)<br>
 
 >Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### disable.spaceport.repeatables
 
@@ -2321,9 +2281,8 @@ added the 3 pirate occupation missions<br>
 added icon.png<br>
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 
@@ -2337,22 +2296,20 @@ added icon.png<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/expert.crew.members.png" width="130" height="20">
 <img src="myplugins/expert.crew.members/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-expert.crew.members/expert.crew.members.zip) 
-<img src="https://img.shields.io/badge/v1.0.10-bfbfbf"> 
-<img src="https://img.shields.io/badge/8.07_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--04--28-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=expert.crew.members-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/)
-[<img src="https://img.shields.io/badge/view_images_[204]-262626">](res/imagemd/expert.crew.members.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.10-expert.crew.members/expert.crew.members.zip) 
+<img src="https://img.shields.io/badge/v1.0.10-707070"> 
+<img src="https://img.shields.io/badge/8.07_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--04--28-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=expert.crew.members-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/expert.crew.members/)
+[<img src="https://img.shields.io/badge/view_images_[204]-707070">](res/imagemd/expert.crew.members.md)<br>
 
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### expert.crew.members
 
@@ -2539,9 +2496,8 @@ added 20 more crew members<br>
 initial release<br>
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -2570,22 +2526,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/flare.play.png" width="130" height="20">
 <img src="myplugins/flare.play/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-flare.play/flare.play.zip) 
-<img src="https://img.shields.io/badge/v1.0.4-bfbfbf"> 
-<img src="https://img.shields.io/badge/15.39_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--10--27-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=flare.play-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/)
-[<img src="https://img.shields.io/badge/view_images_[691]-262626">](res/imagemd/flare.play.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-flare.play/flare.play.zip) 
+<img src="https://img.shields.io/badge/v1.0.4-707070"> 
+<img src="https://img.shields.io/badge/15.39_mb-707070"> 
+<img src="https://img.shields.io/badge/2025--10--27-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=flare.play-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/flare.play/)
+[<img src="https://img.shields.io/badge/view_images_[691]-707070">](res/imagemd/flare.play.md)<br>
 
 >Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by 'Thermognuclear Missile' on discord. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### flare.play<br>
 
@@ -2643,9 +2597,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -2674,22 +2627,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/galactic.capital.investment.png" width="130" height="20">
 <img src="myplugins/galactic.capital.investment/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.13-galactic.capital.investment/galactic.capital.investment.zip) 
-<img src="https://img.shields.io/badge/v1.1.13-bfbfbf"> 
-<img src="https://img.shields.io/badge/4.21_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--03--08-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=galactic.capital.investment-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/)
-[<img src="https://img.shields.io/badge/view_images_[23]-262626">](res/imagemd/galactic.capital.investment.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.13-galactic.capital.investment/galactic.capital.investment.zip) 
+<img src="https://img.shields.io/badge/v1.1.13-707070"> 
+<img src="https://img.shields.io/badge/4.21_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--03--08-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=galactic.capital.investment-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/galactic.capital.investment/)
+[<img src="https://img.shields.io/badge/view_images_[23]-707070">](res/imagemd/galactic.capital.investment.md)<br>
 
 >Offers different job board banking services. From normal banking with low interest rates, over risky stock exchanges, and profitable investments (unlocked by missions), to a family trust. Available in human, quarg and hai space. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### galactic.capital.investment <br>
 
@@ -2891,9 +2842,8 @@ moved investment missions from spaceport mission to job board<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -2920,22 +2870,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/gegno.pirates.png" width="130" height="20">
 <img src="myplugins/gegno.pirates/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-gegno.pirates/gegno.pirates.zip) 
-<img src="https://img.shields.io/badge/v1.0.6-bfbfbf"> 
-<img src="https://img.shields.io/badge/347.13_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--01--31-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=gegno.pirates-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/)
-[<img src="https://img.shields.io/badge/view_images_[8]-262626">](res/imagemd/gegno.pirates.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-gegno.pirates/gegno.pirates.zip) 
+<img src="https://img.shields.io/badge/v1.0.6-707070"> 
+<img src="https://img.shields.io/badge/347.13_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--01--31-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=gegno.pirates-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/gegno.pirates/)
+[<img src="https://img.shields.io/badge/view_images_[8]-707070">](res/imagemd/gegno.pirates.md)<br>
 
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### gegno.pirates
 
@@ -3047,9 +2995,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -3072,22 +3019,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/hai.side.mission.unlocker.png" width="130" height="20">
 <img src="myplugins/hai.side.mission.unlocker/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.7-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) 
-<img src="https://img.shields.io/badge/v1.1.7-bfbfbf"> 
-<img src="https://img.shields.io/badge/96.75_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--02--01-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=hai.side.mission.unlocker-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/hai.side.mission.unlocker.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.7-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) 
+<img src="https://img.shields.io/badge/v1.1.7-707070"> 
+<img src="https://img.shields.io/badge/96.75_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--02--01-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=hai.side.mission.unlocker-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/hai.side.mission.unlocker.md)<br>
 
 >Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### hai.side.mission.unlocker
 
@@ -3167,9 +3112,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 
@@ -3183,22 +3127,20 @@ initial release<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/heavy.traffic.png" width="130" height="20">
 <img src="myplugins/heavy.traffic/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-heavy.traffic/heavy.traffic.zip) 
-<img src="https://img.shields.io/badge/v1.0.1-bfbfbf"> 
-<img src="https://img.shields.io/badge/195.0_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--03--20-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=heavy.traffic-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/heavy.traffic/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/heavy.traffic.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-heavy.traffic/heavy.traffic.zip) 
+<img src="https://img.shields.io/badge/v1.0.1-707070"> 
+<img src="https://img.shields.io/badge/195.0_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--03--20-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=heavy.traffic-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/heavy.traffic/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/heavy.traffic.md)<br>
 
 >Offers thousands of new jobs with high cargo and passengers. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### heavy.traffic
 
@@ -3239,9 +3181,8 @@ removed mission from multiplying "Tourists out [0]" (reported by TGIF-41)<br>
 initial release (requested and tested by Lowry)<br>
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -3263,22 +3204,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/highrollers.ltd.png" width="130" height="20">
 <img src="myplugins/highrollers.ltd/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-highrollers.ltd/highrollers.ltd.zip) 
-<img src="https://img.shields.io/badge/v1.0.2-bfbfbf"> 
-<img src="https://img.shields.io/badge/1.06_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--08--29-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=highrollers.ltd-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/highrollers.ltd/)
-[<img src="https://img.shields.io/badge/view_images_[15]-262626">](res/imagemd/highrollers.ltd.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-highrollers.ltd/highrollers.ltd.zip) 
+<img src="https://img.shields.io/badge/v1.0.2-707070"> 
+<img src="https://img.shields.io/badge/1.06_mb-707070"> 
+<img src="https://img.shields.io/badge/2025--08--29-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=highrollers.ltd-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/highrollers.ltd/)
+[<img src="https://img.shields.io/badge/view_images_[15]-707070">](res/imagemd/highrollers.ltd.md)<br>
 
 >This plugin adds some casino space stations where you can gamble. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### highrollers.ltd
 
@@ -3326,9 +3265,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -3350,22 +3288,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/human.labels.png" width="130" height="20">
 <img src="myplugins/human.labels/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-human.labels/human.labels.zip) 
-<img src="https://img.shields.io/badge/v1.0.7-bfbfbf"> 
-<img src="https://img.shields.io/badge/2.01_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--06--21-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=human.labels-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/)
-[<img src="https://img.shields.io/badge/view_images_[411]-262626">](res/imagemd/human.labels.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-human.labels/human.labels.zip) 
+<img src="https://img.shields.io/badge/v1.0.7-707070"> 
+<img src="https://img.shields.io/badge/2.01_mb-707070"> 
+<img src="https://img.shields.io/badge/2025--06--21-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=human.labels-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/)
+[<img src="https://img.shields.io/badge/view_images_[411]-707070">](res/imagemd/human.labels.md)<br>
 
 >Reworks the Human area labels and adds area borders. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### human.labels
 
@@ -3449,9 +3385,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -3475,22 +3410,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/job.coloring.png" width="130" height="20">
 <img src="myplugins/job.coloring/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-job.coloring/job.coloring.zip) 
-<img src="https://img.shields.io/badge/v1.0.4-bfbfbf"> 
-<img src="https://img.shields.io/badge/90.89_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--04--08-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=job.coloring-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/job.coloring/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/job.coloring.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-job.coloring/job.coloring.zip) 
+<img src="https://img.shields.io/badge/v1.0.4-707070"> 
+<img src="https://img.shields.io/badge/90.89_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--04--08-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=job.coloring-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/job.coloring/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/job.coloring.md)<br>
 
 >Recolors all jobs to sort them by category(cargo/passenger/escort/etc). See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### job.coloring <br>
 
@@ -3556,9 +3489,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -3580,22 +3512,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/jump.gates.png" width="130" height="20">
 <img src="myplugins/jump.gates/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-jump.gates/jump.gates.zip) 
-<img src="https://img.shields.io/badge/v1.0.4-bfbfbf"> 
-<img src="https://img.shields.io/badge/2.11_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--08--29-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=jump.gates-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/)
-[<img src="https://img.shields.io/badge/view_images_[24]-262626">](res/imagemd/jump.gates.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-jump.gates/jump.gates.zip) 
+<img src="https://img.shields.io/badge/v1.0.4-707070"> 
+<img src="https://img.shields.io/badge/2.11_mb-707070"> 
+<img src="https://img.shields.io/badge/2025--08--29-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=jump.gates-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/jump.gates/)
+[<img src="https://img.shields.io/badge/view_images_[24]-707070">](res/imagemd/jump.gates.md)<br>
 
 >Adds a ring of 'jump gates' at the borders of human space to create shortcuts inside the human space. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### jump.gates
 
@@ -3655,9 +3585,8 @@ text corrections (thx to TheGiraffe3)<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -3681,22 +3610,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/kestrel.unlocks.png" width="130" height="20">
 <img src="myplugins/kestrel.unlocks/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-kestrel.unlocks/kestrel.unlocks.zip) 
-<img src="https://img.shields.io/badge/v1.0.1-bfbfbf"> 
-<img src="https://img.shields.io/badge/57.37_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--08--31-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=kestrel.unlocks-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kestrel.unlocks/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/kestrel.unlocks.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-kestrel.unlocks/kestrel.unlocks.zip) 
+<img src="https://img.shields.io/badge/v1.0.1-707070"> 
+<img src="https://img.shields.io/badge/57.37_kb-707070"> 
+<img src="https://img.shields.io/badge/2025--08--31-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=kestrel.unlocks-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kestrel.unlocks/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/kestrel.unlocks.md)<br>
 
 >Unlocks all Kestrel variants after you have unlocked the first one. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### kestrel.unlocks
 
@@ -3742,9 +3669,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 
@@ -3758,22 +3684,20 @@ initial release<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/kor.efret.shipyard.png" width="130" height="20">
 <img src="myplugins/kor.efret.shipyard/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-kor.efret.shipyard/kor.efret.shipyard.zip) 
-<img src="https://img.shields.io/badge/v1.0.3-bfbfbf"> 
-<img src="https://img.shields.io/badge/107.05_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--08--29-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=kor.efret.shipyard-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor.efret.shipyard/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/kor.efret.shipyard.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-kor.efret.shipyard/kor.efret.shipyard.zip) 
+<img src="https://img.shields.io/badge/v1.0.3-707070"> 
+<img src="https://img.shields.io/badge/107.05_kb-707070"> 
+<img src="https://img.shields.io/badge/2025--08--29-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=kor.efret.shipyard-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/kor.efret.shipyard/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/kor.efret.shipyard.md)<br>
 
 >Adds a shipyard with the three Kor Efret ships to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships and some Korath Exiles outfits. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### kor.efret.shipyard
 
@@ -3961,9 +3885,8 @@ reworked readme<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 
@@ -3977,22 +3900,20 @@ reworked readme<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/landing.images.png" width="130" height="20">
 <img src="myplugins/landing.images/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-landing.images/landing.images.zip) 
-<img src="https://img.shields.io/badge/v1.0.5-bfbfbf"> 
-<img src="https://img.shields.io/badge/15.45_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--08--25-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=landing.images-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/)
-[<img src="https://img.shields.io/badge/view_images_[527]-262626">](res/imagemd/landing.images.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-landing.images/landing.images.zip) 
+<img src="https://img.shields.io/badge/v1.0.5-707070"> 
+<img src="https://img.shields.io/badge/15.45_mb-707070"> 
+<img src="https://img.shields.io/badge/2025--08--25-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=landing.images-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images/)
+[<img src="https://img.shields.io/badge/view_images_[527]-707070">](res/imagemd/landing.images.md)<br>
 
 >Replaces all planet landing images with better fitting ones. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### landing.images
 
@@ -4044,9 +3965,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -4075,22 +3995,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/landing.images.highres.png" width="130" height="20">
 <img src="myplugins/landing.images.highres/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images.highres/landing.images.highres.zip) 
-<img src="https://img.shields.io/badge/v1.0.3-bfbfbf"> 
-<img src="https://img.shields.io/badge/67.35_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--08--25-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=landing.images.highres-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/)
-[<img src="https://img.shields.io/badge/view_images_[527]-262626">](res/imagemd/landing.images.highres.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-landing.images.highres/landing.images.highres.zip) 
+<img src="https://img.shields.io/badge/v1.0.3-707070"> 
+<img src="https://img.shields.io/badge/67.35_mb-707070"> 
+<img src="https://img.shields.io/badge/2025--08--25-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=landing.images.highres-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/landing.images.highres/)
+[<img src="https://img.shields.io/badge/view_images_[527]-707070">](res/imagemd/landing.images.highres.md)<br>
 
 >High resolution files for landing.images plugin. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### landing.images.highres
 
@@ -4144,9 +4062,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 
@@ -4160,22 +4077,20 @@ initial release<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/licenses.png" width="130" height="20">
 <img src="myplugins/licenses/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-licenses/licenses.zip) 
-<img src="https://img.shields.io/badge/v1.0.1-bfbfbf"> 
-<img src="https://img.shields.io/badge/928.85_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--05--08-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=licenses-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/licenses/)
-[<img src="https://img.shields.io/badge/view_images_[18]-262626">](res/imagemd/licenses.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-licenses/licenses.zip) 
+<img src="https://img.shields.io/badge/v1.0.1-707070"> 
+<img src="https://img.shields.io/badge/928.85_kb-707070"> 
+<img src="https://img.shields.io/badge/2025--05--08-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=licenses-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/licenses/)
+[<img src="https://img.shields.io/badge/view_images_[18]-707070">](res/imagemd/licenses.md)<br>
 
 >Adds several side missions to acquire unobtainable licenses. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### licenses
 
@@ -4247,9 +4162,8 @@ typo fixes(by snoggles)<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -4273,22 +4187,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/mission.helper.png" width="130" height="20">
 <img src="myplugins/mission.helper/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.11-mission.helper/mission.helper.zip) 
-<img src="https://img.shields.io/badge/v1.0.11-bfbfbf"> 
-<img src="https://img.shields.io/badge/156.56_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--04--28-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=mission.helper-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/mission.helper.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.11-mission.helper/mission.helper.zip) 
+<img src="https://img.shields.io/badge/v1.0.11-707070"> 
+<img src="https://img.shields.io/badge/156.56_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--04--28-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=mission.helper-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/mission.helper.md)<br>
 
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 'source' and 'to offer' of these missions, so you can easily find them. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### mission.helper
 
@@ -4410,9 +4322,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -4434,22 +4345,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/more.arfectas.png" width="130" height="20">
 <img src="myplugins/more.arfectas/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-more.arfectas/more.arfectas.zip) 
-<img src="https://img.shields.io/badge/v1.0.2-bfbfbf"> 
-<img src="https://img.shields.io/badge/30.79_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2024--04--15-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=more.arfectas-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/more.arfectas.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-more.arfectas/more.arfectas.zip) 
+<img src="https://img.shields.io/badge/v1.0.2-707070"> 
+<img src="https://img.shields.io/badge/30.79_kb-707070"> 
+<img src="https://img.shields.io/badge/2024--04--15-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=more.arfectas-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.arfectas/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/more.arfectas.md)<br>
 
 >Adds the new system 'Mego Pug', in eastern Bunrodea space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### more.arfectas <br>
 
@@ -4497,9 +4406,8 @@ added plugin.txt<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -4522,22 +4430,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/more.boarding.missions.png" width="130" height="20">
 <img src="myplugins/more.boarding.missions/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.6-more.boarding.missions/more.boarding.missions.zip) 
-<img src="https://img.shields.io/badge/v1.1.6-bfbfbf"> 
-<img src="https://img.shields.io/badge/5.66_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--02--01-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=more.boarding.missions-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/)
-[<img src="https://img.shields.io/badge/view_images_[50]-262626">](res/imagemd/more.boarding.missions.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.6-more.boarding.missions/more.boarding.missions.zip) 
+<img src="https://img.shields.io/badge/v1.1.6-707070"> 
+<img src="https://img.shields.io/badge/5.66_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--02--01-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=more.boarding.missions-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.boarding.missions/)
+[<img src="https://img.shields.io/badge/view_images_[50]-707070">](res/imagemd/more.boarding.missions.md)<br>
 
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### more.boarding.missions <br>
 
@@ -4723,9 +4629,8 @@ added icon and reworked readme<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -4754,22 +4659,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/more.person.ships.png" width="130" height="20">
 <img src="myplugins/more.person.ships/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-more.person.ships/more.person.ships.zip) 
-<img src="https://img.shields.io/badge/v1.0.3-bfbfbf"> 
-<img src="https://img.shields.io/badge/4.67_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--06--05-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=more.person.ships-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/)
-[<img src="https://img.shields.io/badge/view_images_[34]-262626">](res/imagemd/more.person.ships.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-more.person.ships/more.person.ships.zip) 
+<img src="https://img.shields.io/badge/v1.0.3-707070"> 
+<img src="https://img.shields.io/badge/4.67_mb-707070"> 
+<img src="https://img.shields.io/badge/2025--06--05-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=more.person.ships-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/more.person.ships/)
+[<img src="https://img.shields.io/badge/view_images_[34]-707070">](res/imagemd/more.person.ships.md)<br>
 
 >This plugin adds more person ships to the different regions of the galaxy. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### more.person.ships
 
@@ -4887,9 +4790,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -4913,22 +4815,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/no.more.mereti.mines.png" width="130" height="20">
 <img src="myplugins/no.more.mereti.mines/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-no.more.mereti.mines/no.more.mereti.mines.zip) 
-<img src="https://img.shields.io/badge/v1.0.4-bfbfbf"> 
-<img src="https://img.shields.io/badge/154.06_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--08--29-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=no.more.mereti.mines-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/)
-[<img src="https://img.shields.io/badge/view_images_[4]-262626">](res/imagemd/no.more.mereti.mines.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-no.more.mereti.mines/no.more.mereti.mines.zip) 
+<img src="https://img.shields.io/badge/v1.0.4-707070"> 
+<img src="https://img.shields.io/badge/154.06_kb-707070"> 
+<img src="https://img.shields.io/badge/2025--08--29-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=no.more.mereti.mines-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/no.more.mereti.mines/)
+[<img src="https://img.shields.io/badge/view_images_[4]-707070">](res/imagemd/no.more.mereti.mines.md)<br>
 
 >Removes the mines from Mereti ships and replaces them with Husk-Slice and Shield Disruptor guns to increase game performance. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### no.more.mereti.mines
 
@@ -4984,9 +4884,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 
@@ -5000,22 +4899,20 @@ initial release<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/outfits.weapon.slot.png" width="130" height="20">
 <img src="myplugins/outfits.weapon.slot/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-outfits.weapon.slot/outfits.weapon.slot.zip) 
-<img src="https://img.shields.io/badge/v1.0.1-bfbfbf"> 
-<img src="https://img.shields.io/badge/930.24_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--06--05-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=outfits.weapon.slot-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/outfits.weapon.slot/)
-[<img src="https://img.shields.io/badge/view_images_[28]-262626">](res/imagemd/outfits.weapon.slot.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-outfits.weapon.slot/outfits.weapon.slot.zip) 
+<img src="https://img.shields.io/badge/v1.0.1-707070"> 
+<img src="https://img.shields.io/badge/930.24_kb-707070"> 
+<img src="https://img.shields.io/badge/2025--06--05-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=outfits.weapon.slot-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/outfits.weapon.slot/)
+[<img src="https://img.shields.io/badge/view_images_[28]-707070">](res/imagemd/outfits.weapon.slot.md)<br>
 
 >Adds several non-weapon outfits for gun and turret ports. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### outfits.weapon.slot
 
@@ -5061,9 +4958,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -5086,22 +4982,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/paint.your.ships.png" width="130" height="20">
 <img src="myplugins/paint.your.ships/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-paint.your.ships/paint.your.ships.zip) 
-<img src="https://img.shields.io/badge/v1.0.3-bfbfbf"> 
-<img src="https://img.shields.io/badge/191.19_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--06--21-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=paint.your.ships-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/paint.your.ships/)
-[<img src="https://img.shields.io/badge/view_images_[4]-262626">](res/imagemd/paint.your.ships.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-paint.your.ships/paint.your.ships.zip) 
+<img src="https://img.shields.io/badge/v1.0.3-707070"> 
+<img src="https://img.shields.io/badge/191.19_kb-707070"> 
+<img src="https://img.shields.io/badge/2025--06--21-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=paint.your.ships-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/paint.your.ships/)
+[<img src="https://img.shields.io/badge/view_images_[4]-707070">](res/imagemd/paint.your.ships.md)<br>
 
 >Offers a job on Earth to paint your ships. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### paint.your.ships
 
@@ -5149,9 +5043,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -5173,22 +5066,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/planet.map.png" width="130" height="20">
 <img src="myplugins/planet.map/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-planet.map/planet.map.zip) 
-<img src="https://img.shields.io/badge/v1.0.3-bfbfbf"> 
-<img src="https://img.shields.io/badge/15.2_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--04--14-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=planet.map-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/)
-[<img src="https://img.shields.io/badge/view_images_[62]-262626">](res/imagemd/planet.map.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-planet.map/planet.map.zip) 
+<img src="https://img.shields.io/badge/v1.0.3-707070"> 
+<img src="https://img.shields.io/badge/15.2_mb-707070"> 
+<img src="https://img.shields.io/badge/2025--04--14-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=planet.map-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/planet.map/)
+[<img src="https://img.shields.io/badge/view_images_[62]-707070">](res/imagemd/planet.map.md)<br>
 
 >This is a storyline entirely on a planets surface(with fitting visuals). Available at the outfitter on planet Memory. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### planet.map
 
@@ -5276,9 +5167,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -5305,22 +5195,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/quarg.farm.png" width="130" height="20">
 <img src="myplugins/quarg.farm/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-quarg.farm/quarg.farm.zip) 
-<img src="https://img.shields.io/badge/v1.0.6-bfbfbf"> 
-<img src="https://img.shields.io/badge/111.13_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--09--15-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=quarg.farm-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/quarg.farm.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-quarg.farm/quarg.farm.zip) 
+<img src="https://img.shields.io/badge/v1.0.6-707070"> 
+<img src="https://img.shields.io/badge/111.13_kb-707070"> 
+<img src="https://img.shields.io/badge/2025--09--15-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=quarg.farm-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/quarg.farm/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/quarg.farm.md)<br>
 
 >Adds a new system 'Saquerver' (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### quarg.farm
 
@@ -5396,9 +5284,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -5421,22 +5308,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/ship.merging.png" width="130" height="20">
 <img src="myplugins/ship.merging/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-ship.merging/ship.merging.zip) 
-<img src="https://img.shields.io/badge/v1.0.7-bfbfbf"> 
-<img src="https://img.shields.io/badge/2.45_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--04--28-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=ship.merging-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/)
-[<img src="https://img.shields.io/badge/view_images_[10]-262626">](res/imagemd/ship.merging.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-ship.merging/ship.merging.zip) 
+<img src="https://img.shields.io/badge/v1.0.7-707070"> 
+<img src="https://img.shields.io/badge/2.45_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--04--28-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=ship.merging-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/)
+[<img src="https://img.shields.io/badge/view_images_[10]-707070">](res/imagemd/ship.merging.md)<br>
 
 >This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### ship.merging
 
@@ -5518,9 +5403,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -5542,22 +5426,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/show.reputation.png" width="130" height="20">
 <img src="myplugins/show.reputation/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-show.reputation/show.reputation.zip) 
-<img src="https://img.shields.io/badge/v1.0.6-bfbfbf"> 
-<img src="https://img.shields.io/badge/159.43_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--02--01-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=show.reputation-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/)
-[<img src="https://img.shields.io/badge/view_images_[5]-262626">](res/imagemd/show.reputation.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-show.reputation/show.reputation.zip) 
+<img src="https://img.shields.io/badge/v1.0.6-707070"> 
+<img src="https://img.shields.io/badge/159.43_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--02--01-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=show.reputation-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/)
+[<img src="https://img.shields.io/badge/view_images_[5]-707070">](res/imagemd/show.reputation.md)<br>
 
 >Enables a job on the Earth job board, that shows the reputation values. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### show.reputation
 
@@ -5635,9 +5517,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -5660,22 +5541,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/snowfeather.robotics.png" width="130" height="20">
 <img src="myplugins/snowfeather.robotics/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-snowfeather.robotics/snowfeather.robotics.zip) 
-<img src="https://img.shields.io/badge/v1.0.6-bfbfbf"> 
-<img src="https://img.shields.io/badge/1.78_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--06--05-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=snowfeather.robotics-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/)
-[<img src="https://img.shields.io/badge/view_images_[22]-262626">](res/imagemd/snowfeather.robotics.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-snowfeather.robotics/snowfeather.robotics.zip) 
+<img src="https://img.shields.io/badge/v1.0.6-707070"> 
+<img src="https://img.shields.io/badge/1.78_mb-707070"> 
+<img src="https://img.shields.io/badge/2025--06--05-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=snowfeather.robotics-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/snowfeather.robotics/)
+[<img src="https://img.shields.io/badge/view_images_[22]-707070">](res/imagemd/snowfeather.robotics.md)<br>
 
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). Starts on Snowfeather(Bore Fah) when having at least one android installed. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### snowfeather.robotics <br>
 
@@ -5766,9 +5645,8 @@ added plugin.txt<br>
 removed remnant mission requirement<br>
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -5792,22 +5670,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/space.fauna.png" width="130" height="20">
 <img src="myplugins/space.fauna/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-space.fauna/space.fauna.zip) 
-<img src="https://img.shields.io/badge/v1.1.4-bfbfbf"> 
-<img src="https://img.shields.io/badge/1.75_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--02--01-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=space.fauna-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/space.fauna/)
-[<img src="https://img.shields.io/badge/view_images_[18]-262626">](res/imagemd/space.fauna.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.4-space.fauna/space.fauna.zip) 
+<img src="https://img.shields.io/badge/v1.1.4-707070"> 
+<img src="https://img.shields.io/badge/1.75_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--02--01-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=space.fauna-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/space.fauna/)
+[<img src="https://img.shields.io/badge/view_images_[18]-707070">](res/imagemd/space.fauna.md)<br>
 
 >Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### space.fauna
 
@@ -5865,9 +5741,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -5890,22 +5765,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/too.many.asteroids.png" width="130" height="20">
 <img src="myplugins/too.many.asteroids/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-too.many.asteroids/too.many.asteroids.zip) 
-<img src="https://img.shields.io/badge/v1.0.5-bfbfbf"> 
-<img src="https://img.shields.io/badge/86.78_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--02--01-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=too.many.asteroids-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/too.many.asteroids.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-too.many.asteroids/too.many.asteroids.zip) 
+<img src="https://img.shields.io/badge/v1.0.5-707070"> 
+<img src="https://img.shields.io/badge/86.78_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--02--01-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=too.many.asteroids-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/too.many.asteroids/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/too.many.asteroids.md)<br>
 
 >Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. Increases game performance. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### too.many.asteroids <br>
 
@@ -5993,9 +5866,8 @@ added a python script which generates the asteroids.txt(in case I don't update t
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 
@@ -6009,22 +5881,20 @@ added a python script which generates the asteroids.txt(in case I don't update t
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/tribute.republic.png" width="130" height="20">
 <img src="myplugins/tribute.republic/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-tribute.republic/tribute.republic.zip) 
-<img src="https://img.shields.io/badge/v1.0.3-bfbfbf"> 
-<img src="https://img.shields.io/badge/96.81_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2025--08--29-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=tribute.republic-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/tribute.republic/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/tribute.republic.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-tribute.republic/tribute.republic.zip) 
+<img src="https://img.shields.io/badge/v1.0.3-707070"> 
+<img src="https://img.shields.io/badge/96.81_kb-707070"> 
+<img src="https://img.shields.io/badge/2025--08--29-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=tribute.republic-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/tribute.republic/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/tribute.republic.md)<br>
 
 >Allows you to tribute all Republic planets, without losing Free Worlds or Deep Security reputation. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### tribute.republic
 
@@ -6070,9 +5940,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -6094,22 +5963,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/uniques.png" width="130" height="20">
 <img src="myplugins/uniques/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.14-uniques/uniques.zip) 
-<img src="https://img.shields.io/badge/v1.0.14-bfbfbf"> 
-<img src="https://img.shields.io/badge/12.73_mb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--04--28-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=uniques-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/)
-[<img src="https://img.shields.io/badge/view_images_[186]-262626">](res/imagemd/uniques.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.14-uniques/uniques.zip) 
+<img src="https://img.shields.io/badge/v1.0.14-707070"> 
+<img src="https://img.shields.io/badge/12.73_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--04--28-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=uniques-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/)
+[<img src="https://img.shields.io/badge/view_images_[186]-707070">](res/imagemd/uniques.md)<br>
 
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### uniques
 
@@ -6419,9 +6286,8 @@ changed icon.png<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 <br>
@@ -6448,22 +6314,20 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/vague.improvements.png" width="130" height="20">
 <img src="myplugins/vague.improvements/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-vague.improvements/vague.improvements.zip) 
-<img src="https://img.shields.io/badge/v1.0.4-bfbfbf"> 
-<img src="https://img.shields.io/badge/35.14_kb-bfbfbf"> 
-<img src="https://img.shields.io/badge/2026--05--10-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/zuckung/endless-sky-plugins/releases?q=vague.improvements-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/vague.improvements/)
-[<img src="https://img.shields.io/badge/view_images_[2]-262626">](res/imagemd/vague.improvements.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-vague.improvements/vague.improvements.zip) 
+<img src="https://img.shields.io/badge/v1.0.4-707070"> 
+<img src="https://img.shields.io/badge/35.14_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--05--10-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=vague.improvements-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/vague.improvements/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/vague.improvements.md)<br>
 
 >A bunch of small QoL adjustment plugins. Just delete the unwanted and enjoy the wanted tweaks. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
-
-<small>
 
 ### vague.improvements
 
@@ -6549,9 +6413,8 @@ initial release<br>
 
 
 
-</small>
-
 </blockquote>
+
 </details>
 
 
