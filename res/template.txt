@@ -7,12 +7,10 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <br>
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/total.png" width="130" height="20">
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/zuckung/endless-sky-plugins/myplugins?label=plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/commit-activity/t/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/archive/refs/heads/main.zip"><img src="https://img.shields.io/github/repo-size/zuckung/endless-sky-plugins"></a>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/code-size/zuckung/endless-sky-plugins"></a>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/top/zuckung/endless-sky-plugins"></a>
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/total.png" width="130" height="20">
 <br>
 
 %news%
@@ -52,13 +50,13 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/%name%.png" width="130" height="20">
 %icon%
 
-[<img src="https://img.shields.io/badge/download_zip-262626">](%assetfullpath%%assetfile%) 
-<img src="https://img.shields.io/badge/v%version%-bfbfbf"> 
-<img src="https://img.shields.io/badge/%sizebadge%-bfbfbf"> 
-<img src="https://img.shields.io/badge/%lastmodifiedbadge%-bfbfbf"> 
-[<img src="https://img.shields.io/badge/older_versions-262626">](https://github.com/%orgrepo%/releases?q=%name%-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-262626">](%pluginurl%%pluginnameurl%/)
-[<img src="https://img.shields.io/badge/view_images_[%imagemdamount%]-262626">](res/imagemd/%name%.md)<br>
+[<img src="https://img.shields.io/badge/download_zip-707070">](%assetfullpath%%assetfile%) 
+<img src="https://img.shields.io/badge/v%version%-707070"> 
+<img src="https://img.shields.io/badge/%sizebadge%-707070"> 
+<img src="https://img.shields.io/badge/%lastmodifiedbadge%-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/%orgrepo%/releases?q=%name%-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](%pluginurl%%pluginnameurl%/)
+[<img src="https://img.shields.io/badge/view_images_[%imagemdamount%]-707070">](res/imagemd/%name%.md)<br>
 
 %description%
 <details>
@@ -69,6 +67,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 %readme%
 
 </blockquote>
+
 </details>
 
 %screenshots%
