@@ -66,7 +66,11 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 
 <blockquote>
 
+<small>
+
 %readme%
+
+</small>
 
 </blockquote>
 </details>
