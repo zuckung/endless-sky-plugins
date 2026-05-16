@@ -62,15 +62,11 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 
 %description%
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
-<small>
-
 %readme%
-
-</small>
 
 </blockquote>
 </details>
