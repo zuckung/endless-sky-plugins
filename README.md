@@ -136,6 +136,8 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 
 <blockquote>
 
+<small>
+
 ### additional.command.buttons <br>
 
 <br>
@@ -407,6 +409,8 @@ exchanged some of the button positions<br>
 initial release<br>
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -445,6 +449,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### automata.destruction.0percent
 
@@ -514,6 +520,8 @@ changed readme<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -542,6 +550,8 @@ changed readme<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### automata.in.human.space
 
@@ -595,6 +605,8 @@ changed icon.png<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -623,6 +635,8 @@ changed icon.png<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### better.starts <br>
 
@@ -750,6 +764,8 @@ added Start Explorer to Automata<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -786,6 +802,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### boss.loot<br>
 
@@ -879,6 +897,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -922,6 +942,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### bunrodea.missions
 
@@ -1143,6 +1165,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -1186,6 +1210,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### capturable.person.ships
 
@@ -1405,6 +1431,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -1441,6 +1469,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### coalition.shopping
 
@@ -1516,6 +1546,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -1553,6 +1585,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### combat.ai
 
@@ -1760,6 +1794,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -1796,6 +1832,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### comets
 
@@ -1855,6 +1893,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -1893,6 +1933,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### control.station
 
@@ -2026,6 +2068,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -2063,6 +2107,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### disable.person.ships <br>
 
@@ -2139,6 +2185,8 @@ added plugin.txt<br>
 added icon.png<br>
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -2167,6 +2215,8 @@ added icon.png<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### disable.spaceport.repeatables
 
@@ -2271,6 +2321,8 @@ added the 3 pirate occupation missions<br>
 added icon.png<br>
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -2299,6 +2351,8 @@ added icon.png<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### expert.crew.members
 
@@ -2485,6 +2539,8 @@ added 20 more crew members<br>
 initial release<br>
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -2528,6 +2584,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### flare.play<br>
 
@@ -2585,6 +2643,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -2628,6 +2688,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### galactic.capital.investment <br>
 
@@ -2829,6 +2891,8 @@ moved investment missions from spaceport mission to job board<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -2870,6 +2934,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### gegno.pirates
 
@@ -2981,6 +3047,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -3018,6 +3086,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### hai.side.mission.unlocker
 
@@ -3097,6 +3167,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -3125,6 +3197,8 @@ initial release<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### heavy.traffic
 
@@ -3165,6 +3239,8 @@ removed mission from multiplying "Tourists out [0]" (reported by TGIF-41)<br>
 initial release (requested and tested by Lowry)<br>
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -3201,6 +3277,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### highrollers.ltd
 
@@ -3248,6 +3326,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -3284,6 +3364,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### human.labels
 
@@ -3367,6 +3449,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -3405,6 +3489,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### job.coloring <br>
 
@@ -3470,6 +3556,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -3506,6 +3594,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### jump.gates
 
@@ -3565,6 +3655,8 @@ text corrections (thx to TheGiraffe3)<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -3603,6 +3695,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### kestrel.unlocks
 
@@ -3648,6 +3742,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -3676,6 +3772,8 @@ initial release<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### kor.efret.shipyard
 
@@ -3863,6 +3961,8 @@ reworked readme<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -3891,6 +3991,8 @@ reworked readme<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### landing.images
 
@@ -3942,6 +4044,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -3985,6 +4089,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### landing.images.highres
 
@@ -4038,6 +4144,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -4066,6 +4174,8 @@ initial release<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### licenses
 
@@ -4137,6 +4247,8 @@ typo fixes(by snoggles)<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -4175,6 +4287,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### mission.helper
 
@@ -4296,6 +4410,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -4332,6 +4448,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### more.arfectas <br>
 
@@ -4379,6 +4497,8 @@ added plugin.txt<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -4416,6 +4536,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### more.boarding.missions <br>
 
@@ -4601,6 +4723,8 @@ added icon and reworked readme<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -4644,6 +4768,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### more.person.ships
 
@@ -4761,6 +4887,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -4799,6 +4927,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### no.more.mereti.mines
 
@@ -4854,6 +4984,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -4882,6 +5014,8 @@ initial release<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### outfits.weapon.slot
 
@@ -4927,6 +5061,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -4964,6 +5100,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### paint.your.ships
 
@@ -5011,6 +5149,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -5047,6 +5187,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### planet.map
 
@@ -5134,6 +5276,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -5175,6 +5319,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### quarg.farm
 
@@ -5250,6 +5396,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -5287,6 +5435,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### ship.merging
 
@@ -5368,6 +5518,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -5404,6 +5556,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### show.reputation
 
@@ -5481,6 +5635,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -5518,6 +5674,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### snowfeather.robotics <br>
 
@@ -5608,6 +5766,8 @@ added plugin.txt<br>
 removed remnant mission requirement<br>
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -5646,6 +5806,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### space.fauna
 
@@ -5703,6 +5865,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -5740,6 +5904,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### too.many.asteroids <br>
 
@@ -5827,6 +5993,8 @@ added a python script which generates the asteroids.txt(in case I don't update t
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -5855,6 +6023,8 @@ added a python script which generates the asteroids.txt(in case I don't update t
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### tribute.republic
 
@@ -5900,6 +6070,8 @@ initial release<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -5936,6 +6108,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### uniques
 
@@ -6245,6 +6419,8 @@ changed icon.png<br>
 
 
 
+</small>
+
 </blockquote>
 </details>
 
@@ -6286,6 +6462,8 @@ screenshots(click to enlarge):<br>
 <summary>:blue_book: Plugin readme</summary>
 
 <blockquote>
+
+<small>
 
 ### vague.improvements
 
@@ -6370,6 +6548,8 @@ added fw defense pact missions after FW war<br>
 initial release<br>
 
 
+
+</small>
 
 </blockquote>
 </details>
