@@ -2,3 +2,4 @@ name "fleet.mercy"
 about "Adds the disables personality to all fleets that do not already have it, increasing the likelihood of ships being disabled rather than destroyed during AI vs. AI combat. See the README for more details."
 authors
 	"zuckung"
+version 1.0.0

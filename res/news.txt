@@ -1,3 +1,4 @@
+2026-05-22 | update: fleet.mercy
 2026-05-10 | update: vague.improvements
 2026-05-03 | update: additional.command.buttons.radial
 2026-04-28 | update: control.station

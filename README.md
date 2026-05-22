@@ -17,6 +17,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-05-22 | update: fleet.mercy<br>
 2026-05-10 | update: vague.improvements<br>
 2026-05-03 | update: additional.command.buttons.radial<br>
 2026-04-28 | update: control.station<br>
@@ -26,7 +27,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-04-28 | update: expert.crew.members<br>
 2026-04-28 | update: ship.merging<br>
 2026-04-28 | update: mission.helper<br>
-2026-04-10 | update: combat.ai<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -52,6 +52,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <a href="README.md#disablespaceportrepeatables">disable.spaceport.repeatables</a><br>
 <a href="README.md#expertcrewmembers">expert.crew.members</a><br>
 <a href="README.md#flareplay">flare.play</a><br>
+<a href="README.md#fleetmercy">fleet.mercy</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#galacticcapitalinvestment">galactic.capital.investment</a><br>
 <a href="README.md#gegnopirates">gegno.pirates</a><br>
@@ -2616,6 +2617,64 @@ screenshots(click to enlarge):<br>
 	</tr>
 </table>
 <br>
+
+<br>
+
+
+---
+
+### fleet.mercy
+
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/fleet.mercy.png" width="130" height="20">
+<img src="myplugins/fleet.mercy/icon.png" height="100">
+
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-fleet.mercy/fleet.mercy.zip) 
+<img src="https://img.shields.io/badge/v1.0.0-707070"> 
+<img src="https://img.shields.io/badge/96.51_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--05--22-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=fleet.mercy-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/fleet.mercy/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/fleet.mercy.md)<br>
+
+>Adds the disables personality to all fleets that do not already have it, increasing the likelihood of ships being disabled rather than destroyed during AI vs. AI combat. See the README for more details.
+
+<details>
+<summary>show README</summary>
+
+<blockquote>
+
+### fleet.mercy<br>
+
+<br>
+
+Adds the disables personality to all fleets that do not already have it, increasing the likelihood of ships being disabled rather than destroyed during AI vs. AI combat.<br>
+
+<br>
+
+<br>
+
+Modifies nearly 200 fleets to encourage disabling enemy ships instead of destroying them during combat. As a result, if you disable a ship, allied NPCs such as Republic ships are less likely to finish it off.<br>
+
+Fleets that already use this personality remain unchanged. Certain special fleets, such as derelict fleets, are also excluded.<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2025-05-23<br>
+
+initial release<br>
+
+
+
+</blockquote>
+
+</details>
+
 
 <br>
 
