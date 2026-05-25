@@ -95,8 +95,10 @@ def change_fleets(objs, blacklisted):
 					new_personality_lines = personality_lines + '\t\tdisables\n'
 				else:
 					new_personality_lines = personality_lines[:-1] + ' disables\n'
-				obj = obj.replace(personality_lines, new_personality_lines)
-			modfleets.append(obj)
+				#obj = obj.replace(personality_lines, new_personality_lines)
+				pos = obj.find('\n')
+				new_obj = obj[:pos+1] + new_personality_lines
+			modfleets.append(new_obj)
 	print('reading fleets')
 	print('\tall fleets ', len(allfleets))
 	print('\tfleets with "disables" ', len(disablefleets))
@@ -110,7 +112,7 @@ def change_fleets(objs, blacklisted):
 		target.writelines('# blacklisted fleets: ' + str(len(blacklisted)) + '\n')
 		target.writelines('# fleets changed: ' + str(len(modfleets)) + '\n\n\n')
 		for each in modfleets:
-			target.writelines('overwrite\n' + each + '\n\n')
+			target.writelines(each + '\n\n')
 	print('\tDONE')
 
 
