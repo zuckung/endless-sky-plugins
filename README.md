@@ -17,6 +17,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-05-25 | update: hai.side.mission.unlocker<br>
 2026-05-22 | update: fleet.mercy<br>
 2026-05-10 | update: vague.improvements<br>
 2026-05-03 | update: additional.command.buttons.radial<br>
@@ -26,7 +27,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-04-28 | update: uniques<br>
 2026-04-28 | update: expert.crew.members<br>
 2026-04-28 | update: ship.merging<br>
-2026-04-28 | update: mission.helper<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2665,6 +2665,12 @@ Changelog:<br>
 
 <br>
 
+2026-05-25<br>
+
+changed fleet definition for other plugin compatibility<br>
+
+<br>
+
 2026-05-23<br>
 
 initial release<br>
@@ -3078,10 +3084,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/hai.side.mission.unlocker.png" width="130" height="20">
 <img src="myplugins/hai.side.mission.unlocker/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.7-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) 
-<img src="https://img.shields.io/badge/v1.1.7-707070"> 
-<img src="https://img.shields.io/badge/96.75_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--02--01-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.8-hai.side.mission.unlocker/hai.side.mission.unlocker.zip) 
+<img src="https://img.shields.io/badge/v1.1.8-707070"> 
+<img src="https://img.shields.io/badge/96.78_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--05--25-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=hai.side.mission.unlocker-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/hai.side.mission.unlocker/)
 [<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/hai.side.mission.unlocker.md)<br>
@@ -3124,6 +3130,12 @@ And removes hidden tag from "Devil-Hide" and "Al Hurr", both Hai Reveal systems.
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-05-25<br>
+
+added "overwrite" to missions for more compatibility<br>
 
 <br>
 
