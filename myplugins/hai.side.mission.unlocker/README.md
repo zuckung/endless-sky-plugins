@@ -16,7 +16,7 @@ And removes hidden tag from "Devil-Hide" and "Al Hurr", both Hai Reveal systems.
 Changelog:<br>
 <br>
 2026-05-25<br>
-added "overwrite" to missions for more compability<br>
+added "overwrite" to missions for more compatibility<br>
 <br>
 2026-02-01<br>
 removed devil run systems<br>
