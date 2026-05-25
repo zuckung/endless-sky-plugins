@@ -17,6 +17,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-05-25 | update: fleet.mercy<br>
 2026-05-25 | update: hai.side.mission.unlocker<br>
 2026-05-22 | update: fleet.mercy<br>
 2026-05-10 | update: vague.improvements<br>
@@ -26,7 +27,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-04-28 | update: captureable.person.ships<br>
 2026-04-28 | update: uniques<br>
 2026-04-28 | update: expert.crew.members<br>
-2026-04-28 | update: ship.merging<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2628,10 +2628,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/fleet.mercy.png" width="130" height="20">
 <img src="myplugins/fleet.mercy/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-fleet.mercy/fleet.mercy.zip) 
-<img src="https://img.shields.io/badge/v1.0.0-707070"> 
-<img src="https://img.shields.io/badge/96.51_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--05--22-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-fleet.mercy/fleet.mercy.zip) 
+<img src="https://img.shields.io/badge/v1.0.1-707070"> 
+<img src="https://img.shields.io/badge/85.05_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--05--25-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=fleet.mercy-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/fleet.mercy/)
 [<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/fleet.mercy.md)<br>
