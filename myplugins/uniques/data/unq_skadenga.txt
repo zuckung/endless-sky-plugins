@@ -1,11 +1,6 @@
-# disable mission
 # outfit "unq_skadenga"
-# mission "unq The Book of Skadenga"
-# mission "unq skadenga patch"
+# mission "The Book of Skadenga"
 
-
-disable mission
-	"The Book of Skadenga"
 
 
 outfit "unq_skadenga"
@@ -20,7 +15,8 @@ outfit "unq_skadenga"
 	description `This is an old-style book, bound up in a green cover, titled: "The Skadenga Saga: Against All Odds, by Hjlod Hrimnirsdottir". It is the story of the Skadenge and how you've helped them. Reading it lets you feel very nostalgic.`
 
 
-mission "unq The Book of Skadenga"
+overwrite
+mission "The Book of Skadenga"
 	minor
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -28,11 +24,9 @@ mission "unq The Book of Skadenga"
 		random < 10
 		has "event: the book"
 	on offer
-		set "The Book of Skadenga: offered"
-		set "The Book of Skadenga: declined"
 		conversation
 			`As you wander through the spaceport, something catches your eye at a kiosk selling gifts, trinkets, and other odds and ends.`
-			`	There's an old-style book there, bound up in a green cover, titled: "The Skadenga Saga: Against All Odds, by Hjlod Hrimnirsdottir."`
+			`	There's an old-style book there, bound up in an ice-blue cover, titled: "The Skadenga Saga: Against All Odds, by Hjlod Hrimnirsdottir."`
 			choice
 				`	(Ignore the book and move on.)`
 					goto ignore
@@ -52,37 +46,16 @@ mission "unq The Book of Skadenga"
 			`	You place the book back on its stand as the attendant notices you. "It's pretty popular, that one. I hear it started this whole 'back-to-nature' primalism cult." He shrugs. "Whatever sells, ya know. Anyways, you buying?"`
 			choice
 				`	You decline. You already know that story.`
-					goto nope
-				`	It's also your story, so buy it.`
+					decline
+				`	It's also your story, so you buy it.`
 					goto buy
 			label buy
 			action
 				payment -40
 				outfit "unq_skadenga" 1
 				set "bought skadenga book"
-			``
-				decline
-			label nope
-			action
-				set "declined skadenga book"
-			``
+			`You pay for the book and walk away.`
 				decline
 			label ignore
-			action
-				set "declined skadenga book"
 			`	You keep walking. You already know that story.`
 				decline
-
-
-mission "unq skadenga patch"
-	invisible
-	landing
-	to offer
-		has "The Book of Skadenga: declined"
-		not "bought skadenga book"
-		not "declined skadenga book"
-	on offer
-		set "unq The Book of Skadenga: offered"
-		set "unq The Book of Skadenga: done"
-		outfit "unq_skadenga" 1
-		fail

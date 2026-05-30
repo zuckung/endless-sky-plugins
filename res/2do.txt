@@ -21,6 +21,8 @@ bunrodea.missions
   sidemissions with variable startpoint
   salary at 1000 rep maybe more at higher rep
   balanced border system fight bun/korath
+  more news
+  defense mission can appear at the same time, fix it
 
 
 control.station
@@ -58,6 +60,9 @@ landing.images
   maybe do avgi landing images?
 
 
+more.boarding.missions
+  korath cloaking ` wrong chars (reported by the114dragon)
+
 more.person.ships
   add battlestar galactica (from boss.loot plugin)
   add more ships
@@ -89,8 +94,6 @@ space.fauna
 
  
 uniques
-  smileytechie - Found a typo in unq_landing_computer, "negotiatiins"
-  RedTechGamer236 - Southbound is not on Wayfarer (that's the Tarazed Corporation). It's on Zug.
   pets
     critters suggested by kitteh
     langoliers suggested by kitteh
@@ -101,9 +104,6 @@ uniques
   planetary anomaly scanner / "atmosphere scan" 50 / "LIDAR scan" 1 / human space: hired to find a crashed ship / new uninhabited planets
     followups: several uninhabited ship wreck missions with lots of h2h uniques & credits
   soylent green?
-  more holographic advertisments
-    turner inc?
-    high rollers ltd?
   more derelict bording
     add other races
   check for possible vanilla items 

@@ -9,6 +9,7 @@
 # mission "unq_bioluminescent_offspring_science01"
 # mission "unq_bioluminescent_offspring_science02"
 # mission "unq_bioluminescent_offspring_science03"
+# mission "unq_bioluminescent_offspring_science04"
 
 
 
@@ -179,6 +180,8 @@ mission "unq_bioluminescent_offspring_science02"
 mission "unq_bioluminescent_offspring_science03"
 	repeat
 	job
+	color selected "unq job: selected"
+	color unselected "unq job: unselected"
 	name "Dr. Neuberg's Bio Reactor"
 	description "Dr. Neuberg, the scientist you've transported some time ago, can create a bio reactor out of two bioluminescent plant offsprings."
 	source "Geyser"
@@ -191,5 +194,26 @@ mission "unq_bioluminescent_offspring_science03"
 		conversation
 			scene "outfit/unq_bioreactor"
 			`You visit Dr. Neuberg at his laboratory. He already created a bio reactor out of the last plant offspring and sells it to you for two new offsprings.`
+				decline
+		fail
+
+
+mission "unq_bioluminescent_offspring_science04"
+	repeat
+	job
+	color selected "unq job: selected"
+	color unselected "unq job: unselected"
+	name "Dr. Neuberg's Bio Reactor(10 offsprings)"
+	description "Dr. Neuberg, the scientist you've transported some time ago, can create five bio reactors out of ten bioluminescent plant offsprings."
+	source "Geyser"
+	to offer
+		has "unq_bioluminescent_offspring_science02: done"
+		"outfit (flagship installed): unq_bioluminescent_offspring" > 9
+	on accept
+		outfit "unq_bioreactor" 5
+		outfit "unq_bioluminescent_offspring" -10
+		conversation
+			scene "outfit/unq_bioreactor"
+			`You visit Dr. Neuberg at his laboratory. He already created five bio reactors out of the last plant offsprings and sells it to you for ten new offsprings.`
 				decline
 		fail

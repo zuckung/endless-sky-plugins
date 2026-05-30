@@ -1,14 +1,8 @@
-# disable mission
 # outfit "unq_archive"
-# mission "unq Human Cultural Archives"
-# mission "unq Remnant: Salvage 1"
-# mission "unq archige patch"
+# mission "Human Cultural Archives"
+# mission "Remnant: Salvage 1"
+# mission "Coalition: Struggling Author - Human Media 1"
 
-
-
-disable mission
-	"Human Cultural Archives"
-	"Remnant: Salvage 1"
 
 
 outfit "unq_archive"
@@ -23,14 +17,14 @@ outfit "unq_archive"
 	description `This is a copy of the "Human Cultural Archive". You bought it at the souvenir shop of the great library of Alexandria, a space station dedicated to the conservation of human knowledge.`
 
 
-mission "unq Human Cultural Archives"
-	description "Eruk, the Hai technologist on <origin>, has agreed to give you a translation machine if you can somehow get him a copy of the human cultural data from <destination>."
+overwrite
+mission "Human Cultural Archives"
 	landing
+	description "Eruk, the Hai technologist on <origin>, has agreed to give you a translation machine if you can somehow get him a copy of the human cultural data from <destination>."
 	source "Greenwater"
 	destination "Alexandria"
 	to offer
 		has "Wanderers: Translation Machine: done"
-		not "unq archive patch: offered"
 		not "human cultural data"
 	on offer
 		conversation "eruk cultural data"
@@ -40,13 +34,12 @@ mission "unq Human Cultural Archives"
 			`	Go earn some money, then return here.`
 	on complete
 		set "human cultural data"
-		set "Human Cultural Archives: offered"
-		set "Human Cultural Archives: done"
 		outfit "unq_archive" 1
 		payment -40
-		
-		
-mission "unq Remnant: Salvage 1"
+
+
+overwrite
+mission "Remnant: Salvage 1"
 	name "Remnant History Updates"
 	description `The Remnant are interested in learning about what has happened in human space since they left. Find a copy of human history on <destination>.`
 	minor
@@ -54,14 +47,9 @@ mission "unq Remnant: Salvage 1"
 	destination "Alexandria"
 	to offer
 		not "human cultural data"
-		not "unq archive patch: offered"
 		has "Remnant: Learn Sign Follow Up: offered"
 		random < 50
-		or
-			has "Remnant: Catalytic Ramscoop: done"
-			has "Remnant: Plasma Cannon: done"
-			has "Remnant: Heavy Laser: done"
-			has "Remnant: Tech Retrieval: done"
+		has "Remnant: Tech Retrieval: done"
 	on offer
 		conversation "taely cultural data"
 	on visit
@@ -70,22 +58,97 @@ mission "unq Remnant: Salvage 1"
 			`	Go earn some money, then return here.`
 	on complete
 		set "human cultural data"
-		set "Remnant: Salvage 1: offered"
-		set "Remnant: Salvage 1: done"
 		outfit "unq_archive" 1
 		payment -40
 
-
-mission "unq archive patch"
-	invisible
-	landing
+overwrite
+mission "Coalition: Struggling Author - Human Media 1"
+	minor
+	name "Get Kachachee Cultural Information"
+	description "A group of Coalition citizens have asked you for information on the human race. You can find that information on <stopovers>."
+	source "Ki Patek Ka"
+	stopover "Alexandria"
+	destination "Ki Patek Ka"
 	to offer
-		or
-			has "Remnant: Salvage 1: done"
-			has "Human Cultural Archives: done"
-		has "human cultural data"
-		not "unq Remnant: Salvage 1: done"
-		not "unq Human Cultural Archives: done"
+		has "Coalition: First Contact: done"
 	on offer
-		outfit "unq_archive" 1
-		fail
+		conversation
+			`As you walk through the spaceport, you see a group of Kimek and an Arachi seated at a table, deep in conversation. One of them glances toward you. As if something suddenly clicked, the group quickly rises from their seats and begin approaching you.`
+			choice
+				`	"Excuse me, what do you all want?"`
+					goto "literature collectors"
+				`	"Hello? What is it?"`
+					goto "literature collectors"
+				`	(Reach for my gun.)`
+			`	The lead Kimek jumps back. "Mean you harm, we did not. Unrelated to violence, our quest is. Speak to you, may we?"`
+			choice
+				`	"What do you want?"`
+					goto "literature collectors violent"
+				`	"No, you may not. Goodbye."`
+			`	The group of Coalition citizens go back to their table with disappointed expressions.`
+				decline
+			label "literature collectors violent"
+			`	"Collectors of literature, we are. Curious about your race, and the books they have written, we are, so for you, a mission we have," says the lead Kimek, who then introduces themselves as Kachachee. "Literature of many kinds, we read, from science fiction to tales of alien worlds outside of our homeland.`
+				goto "literature collector choice"
+			label "literature collectors"
+			`	"Greetings, human friend. Collectors of literature, we are. Curious about your race, and the books they have written, we are, so for you, a mission we have," says a Kimek, who then introduces themselves as Kachachee. "Literature of many kinds, we read, from science fiction to tales of alien worlds outside of our homeland.`
+			label "literature collector choice"
+			`	"A small mission, it is. Knowledge from your race, we seek. Pay you <payment> and very grateful, we would be, if accept this mission, you will," they explain.`
+			choice
+				`	"I'm in. What do you want me to collect?"`
+				`	"Sorry, I'm not interested."`
+					decline
+			`	"Anything. A translation device, we have. To translate the human language into our own, we are able. Tales of vile oppressors and the heroic stands against them, always popular amongst our peoples, the topic is. Stories of brave battles, tyrants and rebels. Histories of humanity's resistance movements, we seek."`
+			label decision
+			choice
+				`	"Why do you want this knowledge? What is your group about?"`
+					goto "group question"
+					to display
+						not "coalition: asked about kachachee"
+				`	"I see. I will bring you all the knowledge you want."`
+				`	"I'm not interested. Sorry."`
+					decline
+			`	"Thank you. Enlighten us and the rest of the Coalition, your actions will. A safe trip, we hope you have." They give you instructions on where to find them.`
+			branch "don't have"
+				not "human cultural data"
+			`	You recall that your ship has a datachip containing a copy of Alexandria's archives, which may be what the group wants. You walk to your ship, make a copy of the datachip, and return to the group.`
+			`	Kachachee then approaches you as you hand them the datachip. "Very speedy, your return was."`
+			choice
+				`	"Happy to help."`
+				`	"I hope you enjoy whatever my race has to offer for you."`
+			action
+				event "coalition citizens discover fangvin" 14 27
+				payment 180000
+			`	"Thank you. Enlighten me and my friends, this datachip will. And as promised, a chip of <payment>, we have." Kachachee places it in your hand.`
+				decline
+			label "group question"
+			action
+				set "coalition: asked about kachachee"
+			`	"A group who likes to read books together, we are. Science fiction, I believe the term is, especially."`
+				goto decision
+			label "don't have"
+			`	A quick search of the Worlds Wide Web reveals that the library of <stopovers> has data chips containing a complete database of all human culture and history. You return to your ship and prepare for the journey there to acquire one.`
+				accept
+	on decline
+		clear "coalition: asked about kachachee"
+	on accept
+		clear "coalition: asked about kachachee"
+	on stopover
+		conversation
+			branch broke
+				"credits" < 40
+			action
+				payment -40
+				set "human cultural data"
+				outfit "unq_archive" 1
+			`You had wondered how you would get a copy of the entire cultural archive, but it turns out to be easier than expected. The station has a small museum gift shop, which sells a copy of the archives on a data card. ("The perfect gift for the budding historian in your family! Hold all of human history in the palm of your hand. On sale now for only 39.99!") Given that a cheap data card costs a fraction of a credit, it's a bit of a rip-off, but you gladly buy one to take back to Kachachee.`
+				decline
+			label broke
+			`The station has a small museum gift shop that sells a copy of the entire archive on a data card. It only costs 40 credits, but because you have done a horrible job at managing your finances you do not have even that much cash on hand right now.`
+			`	Go earn some money, then return here.`
+				decline
+	on complete
+		event "coalition citizens discover fangvin" 20 40
+		payment 180000
+		conversation
+			`You head to the bar where you first met Kachachee. When you arrive, the Kimek greets you, "Thank you. Enlighten me and my friends, this datachip will. A chip of <payment>, as promised, we have." Kachachee places it in your hand.`

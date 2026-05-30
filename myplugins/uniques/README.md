@@ -21,6 +21,7 @@ In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to
 <li> vanilla: puts outfit Ka'het Electric Stunner into unique category</li>
 <li> new vanilla: rewrote Skadenga book mission, so you can buy the unique book</li>
 <li> new vanilla: rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique archive chip</li>
+<li> new vanilla: rewrote coalition beyond the hyperdrive book</li>
 <li> new unique pet: alien "Snuggles" (with derelict scanner, land somewhere, hidden destination is the Danoa system (based on the Alien movies))</li>
 <li> new unique pet: alien "Exotic" (with derelict scanner, land somewhere, hidden destination is the Unagi system (based on the Dark Star movie))</li>
 <li> new unique pet: alien "Audrey II" (with derelict scanner, land somewhere, hidden destination is the "5 Spring Below" system (based on the Little Shop of Horrors movie))</li>
@@ -56,6 +57,18 @@ In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to
 <br>
 <br>
 Changelog:<br>
+br>
+unreleased<br>
+fixed glass cat mission not offering<br>
+fixed landing computer typo (thx to smileytechie)<br>
+moved Southbound holo ad from Wayfarer to Zug (thx to RedTechGamer236)<br>
+changed skadenga book & cultural archive missions to "overwrite"<br>
+changed snowfeather holo ad to offer earlier<br>
+added coalition "Coalition: Struggling Author - Human Media 1" to give cultural archive<br>
+added coalition beyond the hyperdrive book<br>
+added infinite tribble population growth mission<br>
+added 3 new holo ads (turner incorporated, wayfarer corporation, highrollers ltd.)<br>
+added bioluminescent reactor mission for turning in 10 offsprings<br>
 <br>
 2026-04-28<br>
 fixed lone pixel errors for some ship images<br>

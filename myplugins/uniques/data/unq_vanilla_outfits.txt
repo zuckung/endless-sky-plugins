@@ -1,3 +1,4 @@
+# colors
 # outfit "Cloaking Device"
 # outfit "Outskirts Gauger"	
 # outfit "Puny"
@@ -6,6 +7,11 @@
 # outfit "Trefoil Board"
 # outfit "Damselflyman"
 # outfit "Ka'het Electric Stunner"
+
+
+
+color "unq job: selected" .529 .029 .949 0.
+color "unq job: unselected" .329 .173 .580 0.
 
 
 outfit "Cloaking Device"	

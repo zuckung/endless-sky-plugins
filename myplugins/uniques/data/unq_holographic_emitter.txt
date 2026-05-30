@@ -10,6 +10,10 @@
 # mission "unq_holo_deltav"
 # mission "unq_holo_gci"
 # mission "unq_holo_sr"
+# mission "unq_holo_wayfarer"
+# mission "unq_holo_turner"
+# mission "unq_holo_highrollers"
+
 
 
 
@@ -61,7 +65,7 @@ mission "unq_install_holo"
 mission "unq_holo_southbound"
 	invisible
 	landing
-	source "Wayfarer"
+	source "Zug"
 	to offer
 		has "outfit (flagship installed): unq_holographic_emitter"
 	on offer
@@ -190,7 +194,6 @@ mission "unq_holo_sr"
 	source "Snowfeather"
 	to offer
 		has "outfit (flagship installed): unq_holographic_emitter"
-		has "event: hr: exploration period"
 	on offer
 		"salary: Holo Ads" += 500
 		conversation
@@ -199,3 +202,43 @@ mission "unq_holo_sr"
 				decline
 
 
+mission "unq_holo_wayfarer"
+	invisible
+	landing
+	source "Wayfarer"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_wayfarer"
+			`Upon landing the neon ads remind you that this world is the home of "Wafarer Corporation". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline
+				
+
+mission "unq_holo_turner"
+	invisible
+	landing
+	source "Greenwater"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_turner"
+			`Upon landing the neon ads remind you that this world is the home of "Turner Incorporated". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline
+
+
+mission "unq_holo_highrollers"
+	invisible
+	landing
+	source "Mars"
+	to offer
+		has "outfit (flagship installed): unq_holographic_emitter"
+	on offer
+		"salary: Holo Ads" += 500
+		conversation
+			scene "outfit/logo/unq_highroller"
+			`Upon landing the neon ads remind you that this world is the home of "Highrollers Ltd.". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+				decline

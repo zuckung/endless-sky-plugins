@@ -68,7 +68,7 @@ mission "plugin: uniques"
 			`Pet: alien "Exotic" (with derelict scanner, land somewhere, hidden destination is Unagi system (based on the Dark Star movie))`
 				to display
 					not "exotic mission 1: failed"
-			`Pet: alien "Audrey II" (with derelict scanner, land somewhere, hidden destination is the "5 Spring Below" system (based on the Little Shop of Horrors movie))`
+			`Pet: alien "Audrey II" (with derelict scanner, land somewhere, hidden destination is the "5 Spring Below"(Coalition Space) system (based on the Little Shop of Horrors movie))`
 				to display
 					not "unq_audreyii: failed"
 			`Pet: alien "Furbel" (Vibrant Water (Coalition Space) (based on Tribbles in Star Trek))`
@@ -83,7 +83,7 @@ mission "plugin: uniques"
 			`Unique: "Bawdy Magazines" (during "The Exotic" pet mission)`
 				to display
 					not "exotic mission 1: failed"
-			`unique: "Alien Handgun" (Alix, 10% chance)`
+			`unique: "Alien Handgun" (Alix(Ember Waste), 10% chance)`
 				to display
 					not "unq_crashed_alien_ship: declined"
 			`unique: "Old Whisky Bottles" (Socket, 10% chance)`
@@ -110,31 +110,34 @@ mission "plugin: uniques"
 			`unique: "Toolbox" (Clark, 3% chance)`
 				to display
 					not "unq toolbox: declined"
-			`unique: "Korath Pillow" (Laki Nemparu, 3% chance)`
+			`unique: "Korath Pillow" (Laki Nemparu(Korath Efreti), 3% chance)`
 				to display
 					not "unq_korathpillow: done"
-			`unique: "Gegno Starmap" (Wye Tzeou, 10% chance)`
+			`unique: "Gegno Starmap" (Wye Tzeou(Gegno Space), 10% chance)`
 				to display
 					not "unq_crashedgegno: declined"
 			`unique: "Nav Buoys" (human outfitter, after discovering shrouded systems, 20% chance)`
 				to display
 					not "unq_get_nav_buoys: declined"
-			`unique: "Landing Computer" (Ahr(coalition), 30% chance)`
+			`unique: "Landing Computer" (Ahr(Coalition space), 30% chance)`
 				to display
 					not "unq_landing_computer6: done"
 			``
 			`unique: "Derelict Scanner" (Oblivion, outfitter, 100k credits, 10% chance)`
 				to display
 					not "buy advanced sanner: declined"
-			`Mission derelict in Sospi (with derelict scanner)`
+			`Mission derelict 3x Argosy (Sospi, with derelict scanner)`
 				to display
 					not "derelict sospi swap: declined"
-			`Mission derelict in Sadr (with derelict scanner)`
+			`Mission derelict Dromedary (Sadr, with derelict scanner)`
 				to display
 					not "derelict sadr swap: declined"
-			`Mission derelict in Orbona (with derelict scanner)`
+			`Mission derelict Navy Carrier (Orbona, with derelict scanner)`
 				to display
 					not "derelict orbona swap: declined"
+			`Mission derelict Korsmanath (Setar Fort(Korath Efreti), with derelict scanner and "wanderers sestor done")`
+				to display
+					not "unq_korsmanath_2: done"	
 			``
 			`unique: "Bioluminescent Plant" (Aesila, 10% chance)`
 				to display
@@ -146,7 +149,7 @@ mission "plugin: uniques"
 			`unique: "External Holo Emitter" (Luna, 6% chance)`
 				to display
 					not "unq_install_holo: declined"
-			`Mission Holo advert (Wayfarer, holo emitter installed needed)`
+			`Mission Holo advert (Zug, holo emitter installed needed)`
 				to display
 					not "unq_holo_southbound: declined"
 			`Mission Holo advert (Valhalla, holo emitter installed needed)`
@@ -173,9 +176,18 @@ mission "plugin: uniques"
 			`Mission Holo advert (Earth, holo emitter installed needed)`
 				to display
 					not "unq_holo_gci: declined"
-			`Mission Holo advert (Snowfeather, after hai reveal 0, holo emitter installed needed)`
+			`Mission Holo advert (Wafarer, holo emitter installed needed)`
+				to display
+					not "unq_holo_wayfarer: declined"
+			`Mission Holo advert (Mars, holo emitter installed needed)`
+				to display
+					not "unq_holo_highrollers: declined"
+			`Mission Holo advert (Snowfeather(Hai), holo emitter installed needed)`
 				to display
 					not "unq_holo_sr: declined"
+			`Mission Holo advert (Greenwater(Hai), holo emitter installed needed)`
+				to display
+					not "unq_holo_turner: declined"
 			choice
 				`continue`
 					goto "menu"

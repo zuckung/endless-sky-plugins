@@ -16,6 +16,8 @@
 # outfit "fluffy_exotic"
 # outfit "fluffy_chicken"
 # outfit "fluffy_audreyii"
+# outfit "fluffy_tribble"
+# outfit "fluffy_tribbles"
 
 
 
@@ -332,3 +334,32 @@ outfit "fluffy_audreyii"
 	"capture defense" 1.1
 	thumbnail "outfit/fluffy_audreyii"
 	description `"Audrey II" is a bizarre, plantlike alien you stumbled upon in the husk of a derelict ship. At first, it looks terrifying, an enormous flytrap with a mouth full of what can only be described as salad-themed teeth, but once you get to know it, it's oddly charming, like a cat that hisses at you for three days straight before deciding to nap on your lap. You've called it Audrey "II", because it reminded you, strangely enough, of your crewmate Audrey, though this one is considerably louder, hungrier, and far less hygienic. The name also serves as a warning: this is Audrey, but more drama, more appetite, and definitely more vines.`
+
+
+outfit "fluffy_tribble"
+	category "Pets"
+	series "Functional Unique"
+	index 99100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `"Furbel"`
+	"capture attack" 0.1
+	"capture defense" 0.1
+	cost 40
+	thumbnail "outfit/fluffy_tribble"
+	description `"Furbel" is less a pet and more a portable pile of sentient lint that somehow developed a purr. It doesn't walk, run, or jump - it simply exists, vibrating happily like a warm beanbag with opinions. Furbel's hobbies include multiplying when you're not looking, rolling dramatically under furniture, and staring at you with the judgmental intensity of a thousand fluffballs. Owning Furbel is like having a living dust bunny that unionized.`
+
+
+outfit "fluffy_tribbles"
+	category "Pets"
+	series "Functional Unique"
+	index 99100
+	"unique" 1
+	"unplunderable" 1
+	"display name" `more Tribbles`
+	"plural" `Tribbles`
+	"capture attack" 0.1
+	"capture defense" 0.1
+	cost 40
+	thumbnail "outfit/fluffy_tribbles"
+	description `Furbel's "kids" are basically copy-paste errors in the shape of squeaky pom-poms. They roll in herds, squeal like squeaky toys with stage fright, and collectively shed enough fluff to knit a sweater for a yeti. Together, they form a living carpet that judges you for daring to own only one chair.`

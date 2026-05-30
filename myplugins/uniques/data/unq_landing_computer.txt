@@ -101,7 +101,7 @@ mission "unq_landing_computer2"
 			choice
 				`	Wait at the ship`
 					goto "wait"
-				`	Follow Ezekiel to see how his negotiatiins go`
+				`	Follow Ezekiel to see how his negotiations go`
 					goto "follow"
 			label "wait"
 			`You decide to stay behind. No need to get involved with data licensing politics. Hours pass, and eventually Ezekiel returns - surprisingly victorious.`

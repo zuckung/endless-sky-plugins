@@ -1,0 +1,60 @@
+# outfit "unq_beyond_the_hyperdrive"
+# mission "Coalition: Struggling Author 5B"
+
+
+
+outfit "unq_beyond_the_hyperdrive"
+	"display name" "Beyond the Hyperdrive"
+	category "Unique"
+	series "Non-Functional Unique"
+	index 01200
+	thumbnail "outfit/unq_beyond_the_hyperdrive"
+	"unique" 1
+	"unplunderable" 1
+	cost 40
+	description `This unique edition of "Beyond the Hyperdrive" by Anna Fangvin was translated into your language specifically as a personal gift for your assistance in helping distribute the original work within Coalition space. Heliarch linguists worked closely on the translation, attempting to preserve the spirit of the story while adapting concepts that did not translate well into Coalition culture.`
+	description `Although the main plot remains intact, parts of the original text were altered or removed to make the novel more suitable for the Coalition, according to the translator's own notes included in the first pages of the book.`
+
+
+overwrite
+mission "Coalition: Struggling Author 5A"
+	landing
+	name "Visit Anna"
+	description "Visit the author Anna Fangvin on <destination>."
+	source
+		not government "Coalition"
+	destination "Inmost Blue"
+	to offer
+		has "event: beyond the hyperdrive is published"
+		not "Coalition: Struggling Author 5B: offered"
+	on offer
+		conversation
+			`Checking your computer feed for the latest galactic news and trade prices, you get a reminder.`
+			`	You read it, and recall that you had helped an author named Anna Fangvin get her book, "Beyond the Hyperdrive," published about half a year ago in Coalition space. You should return to <destination> and check on her.`
+				accept
+	on complete
+		payment 750000
+		outfit "unq_beyond_the_hyperdrive" 1
+		conversation "anna invites you to book signing"
+
+
+
+overwrite
+mission "Coalition: Struggling Author 5B"
+	landing
+	name "Visit Anna"
+	description "Visit the author Anna Fangvin on <destination>."
+	source
+		government "Coalition"
+	destination "Inmost Blue"
+	to offer
+		has "event: beyond the hyperdrive is published"
+		not "Coalition: Struggling Author 5A: offered"
+	on offer
+		conversation
+			`As you land on the spaceport, you check your messages and see a notification from Anna Fangvin, the author who you helped about half a year ago. In the message, she explains that her novel, "Beyond the Hyperdrive," has been approved. You should return to <destination> and meet her.`
+				accept
+	on complete
+		payment 750000
+		outfit "unq_beyond_the_hyperdrive" 1
+		conversation "anna invites you to book signing"
