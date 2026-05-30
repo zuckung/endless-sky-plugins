@@ -20,3 +20,4 @@ disable mission
 	"Republic Navy Advisory System [wildfire cargo]"
 	"Republic Navy Advisory System [wildfire firefighters]"
 	"Small Scale Delivery"
+	"Avgi: Aberrant Blockade"

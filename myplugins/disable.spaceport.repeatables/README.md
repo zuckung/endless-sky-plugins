@@ -31,6 +31,9 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 <br>
 Changelog:<br>
 <br>
+unreleased<br>
+disabled avgi on landinging defense missions<br>
+<br>
 2025-08-29<br>
 license, README, icon@2x, plugintxt changes<br>
 <br>
