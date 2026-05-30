@@ -23,6 +23,9 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 <br>
 Changelog:<br>
 <br>
+unreleased<br>
+damselflyman chance is now 50%<br>
+<br>
 2026-05-10<br>
 added bounty hunter removal<br>
 <br>
