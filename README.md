@@ -3,7 +3,6 @@ I aim at developing small, modular and maximally compatible plugins that don't b
 Please excuse bad English, spelling, grammar, etc... English isn't my mother tongue. Feel free to correct me.<br>
 <a href="https://github.com/zuckung/endless-sky-plugins/pulls">Pull requests</a>, <a href="https://github.com/zuckung/endless-sky-plugins/discussions">discussions</a> and <a href="https://github.com/zuckung/endless-sky-plugins/issues">Issue reports</a> are welcome! <br>
 <br>
-If you want to contribute (beside finding bugs, or suggesting changes), see my to-do list (<a href="https://github.com/zuckung/endless-sky-plugins/blob/main/res/2do.txt">2do.txt</a>).<br>
 <br>
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
@@ -17,6 +16,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-06-01 | update: uniques<br>
 2026-05-25 | update: fleet.mercy<br>
 2026-05-25 | update: hai.side.mission.unlocker<br>
 2026-05-22 | update: fleet.mercy<br>
@@ -26,7 +26,6 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 2026-04-28 | update: vague.improvements<br>
 2026-04-28 | update: captureable.person.ships<br>
 2026-04-28 | update: uniques<br>
-2026-04-28 | update: expert.crew.members<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2242,6 +2241,12 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 <br>
 
 Changelog:<br>
+
+<br>
+
+unreleased<br>
+
+disabled avgi on landinging defense missions<br>
 
 <br>
 
@@ -4584,6 +4589,12 @@ Changelog:<br>
 
 <br>
 
+unreleased<br>
+
+korath boarding typo fix (reported by the114dragon)<br>
+
+<br>
+
 2026-02-01<br>
 
 updated to 0.11.0<br>
@@ -6034,13 +6045,13 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/uniques.png" width="130" height="20">
 <img src="myplugins/uniques/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.14-uniques/uniques.zip) 
-<img src="https://img.shields.io/badge/v1.0.14-707070"> 
-<img src="https://img.shields.io/badge/12.73_mb-707070"> 
-<img src="https://img.shields.io/badge/2026--04--28-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.15-uniques/uniques.zip) 
+<img src="https://img.shields.io/badge/v1.0.15-707070"> 
+<img src="https://img.shields.io/badge/12.94_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--06--01-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=uniques-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/uniques/)
-[<img src="https://img.shields.io/badge/view_images_[186]-707070">](res/imagemd/uniques.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[194]-707070">](res/imagemd/uniques.md)<br>
 
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
@@ -6094,6 +6105,8 @@ In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to
 <li> new vanilla: rewrote Skadenga book mission, so you can buy the unique book</li>
 
 <li> new vanilla: rewrote Wanderer and Remnant missions for human cultural archive, so you get the unique archive chip</li>
+
+<li> new vanilla: rewrote coalition beyond the hyperdrive book</li>
 
 <li> new unique pet: alien "Snuggles" (with derelict scanner, land somewhere, hidden destination is the Danoa system (based on the Alien movies))</li>
 
@@ -6164,6 +6177,30 @@ In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to
 <br>
 
 Changelog:<br>
+
+br>
+
+2026-06-01<br>
+
+fixed glass cat mission not offering<br>
+
+fixed landing computer typo (thx to smileytechie)<br>
+
+moved Southbound holo ad from Wayfarer to Zug (thx to RedTechGamer236)<br>
+
+changed skadenga book & cultural archive missions to "overwrite"<br>
+
+changed snowfeather holo ad to offer earlier<br>
+
+added coalition "Coalition: Struggling Author - Human Media 1" to give cultural archive<br>
+
+added coalition beyond the hyperdrive book<br>
+
+added infinite tribble population growth mission<br>
+
+added 3 new holo ads (turner incorporated, wayfarer corporation, highrollers ltd.)<br>
+
+added bioluminescent reactor mission for turning in 10 offsprings<br>
 
 <br>
 
@@ -6367,10 +6404,6 @@ screenshots(click to enlarge):<br>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques01.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques02.jpg" width="200"></td>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques03.jpg" width="200"></td>
-	</tr>
-	<tr>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/uniques04.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
@@ -6447,6 +6480,12 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+unreleased<br>
+
+damselflyman chance is now 50%<br>
 
 <br>
 
