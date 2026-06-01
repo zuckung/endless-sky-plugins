@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-06-01 | update: boss.loot<br>
 2026-06-01 | update: uniques<br>
 2026-05-25 | update: fleet.mercy<br>
 2026-05-25 | update: hai.side.mission.unlocker<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-04-28 | update: control.station<br>
 2026-04-28 | update: vague.improvements<br>
 2026-04-28 | update: captureable.person.ships<br>
-2026-04-28 | update: uniques<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -774,10 +774,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/boss.loot.png" width="130" height="20">
 <img src="myplugins/boss.loot/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-boss.loot/boss.loot.zip) 
-<img src="https://img.shields.io/badge/v1.0.8-707070"> 
-<img src="https://img.shields.io/badge/18.37_mb-707070"> 
-<img src="https://img.shields.io/badge/2026--02--01-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-boss.loot/boss.loot.zip) 
+<img src="https://img.shields.io/badge/v1.0.9-707070"> 
+<img src="https://img.shields.io/badge/17.78_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--06--01-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=boss.loot-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/boss.loot/)
 [<img src="https://img.shields.io/badge/view_images_[588]-707070">](res/imagemd/boss.loot.md)<br>
@@ -820,6 +820,14 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-06-01<br>
+
+removed lone pixels in images<br>
+
+fixed some script errors<br>
 
 <br>
 
