@@ -6178,7 +6178,7 @@ In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to
 
 Changelog:<br>
 
-br>
+<br>
 
 2026-06-01<br>
 
