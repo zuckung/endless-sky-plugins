@@ -11,6 +11,9 @@ Beside showing the concept there is a storyline, 9 cities/outpost, 9 areas with 
 <br>
 Changelog:<br>
 <br>
+unreleased<br>
+fixed lone pixel in dragon image<br>
+<br>
 2025-08-29<br>
 typo fixes by snoggles<br>
 <br>
