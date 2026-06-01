@@ -32,6 +32,9 @@ Only natural spawning ships can trigger these missions and ships spawned from jo
 <br>
 Changelog:<br>
 <br>
+unreleased<br>
+korath boarding typo fix (reported by the114dragon)<br>
+<br>
 2026-02-01<br>
 updated to 0.11.0<br>
 <br>
