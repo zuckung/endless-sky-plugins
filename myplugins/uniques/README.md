@@ -58,7 +58,7 @@ In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to
 <br>
 Changelog:<br>
 br>
-unreleased<br>
+2026-06-01<br>
 fixed glass cat mission not offering<br>
 fixed landing computer typo (thx to smileytechie)<br>
 moved Southbound holo ad from Wayfarer to Zug (thx to RedTechGamer236)<br>
