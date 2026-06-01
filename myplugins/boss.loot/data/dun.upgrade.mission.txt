@@ -605,6 +605,16 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Asteroid Weapon Super"
 						has "outfit (flagship installed): Nanite Swarm Blue"
 					goto "Asteroid Weapon Super"
+				`	"Fuel Removal" (&[outfit (flagship installed): Fuel Removal])`
+					to display
+						has "outfit (flagship installed): Fuel Removal"
+						has "outfit (flagship installed): Nanite Swarm Blue"
+					goto "Fuel Removal"
+				`	"Ka'het Machinery" (&[outfit (flagship installed): Ka'het Machinery])`
+					to display
+						has "outfit (flagship installed): Ka'het Machinery"
+						has "outfit (flagship installed): Nanite Swarm Blue"
+					goto "Ka'het Machinery"
 				`	"Ka'het Nullifier" (&[outfit (flagship installed): Ka'het Nullifier])`
 					to display
 						has "outfit (flagship installed): Ka'het Nullifier"
@@ -1538,6 +1548,16 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Asteroid Weapon Super(T1)"
 						has "outfit (flagship installed): Nanite Swarm Purple"
 					goto "Asteroid Weapon Super(T1)"
+				`	"Fuel Removal(T1)" (&[outfit (flagship installed): Fuel Removal(T1)])`
+					to display
+						has "outfit (flagship installed): Fuel Removal(T1)"
+						has "outfit (flagship installed): Nanite Swarm Purple"
+					goto "Fuel Removal(T1)"
+				`	"Ka'het Machinery(T1)" (&[outfit (flagship installed): Ka'het Machinery(T1)])`
+					to display
+						has "outfit (flagship installed): Ka'het Machinery(T1)"
+						has "outfit (flagship installed): Nanite Swarm Purple"
+					goto "Ka'het Machinery(T1)"
 				`	"Ka'het Nullifier(T1)" (&[outfit (flagship installed): Ka'het Nullifier(T1)])`
 					to display
 						has "outfit (flagship installed): Ka'het Nullifier(T1)"
@@ -2471,6 +2491,16 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Asteroid Weapon Super(T2)"
 						has "outfit (flagship installed): Nanite Swarm Orange"
 					goto "Asteroid Weapon Super(T2)"
+				`	"Fuel Removal(T2)" (&[outfit (flagship installed): Fuel Removal(T2)])`
+					to display
+						has "outfit (flagship installed): Fuel Removal(T2)"
+						has "outfit (flagship installed): Nanite Swarm Orange"
+					goto "Fuel Removal(T2)"
+				`	"Ka'het Machinery(T2)" (&[outfit (flagship installed): Ka'het Machinery(T2)])`
+					to display
+						has "outfit (flagship installed): Ka'het Machinery(T2)"
+						has "outfit (flagship installed): Nanite Swarm Orange"
+					goto "Ka'het Machinery(T2)"
 				`	"Ka'het Nullifier(T2)" (&[outfit (flagship installed): Ka'het Nullifier(T2)])`
 					to display
 						has "outfit (flagship installed): Ka'het Nullifier(T2)"
@@ -3637,6 +3667,20 @@ mission "upgrade outfits"
 				outfit "Nanite Swarm Blue" -1
 				outfit "Asteroid Weapon Super(T1)" 1
 			`	outfit "Asteroid Weapon Super(T1)" +1`
+				goto menu
+			label "Fuel Removal"
+			action
+				outfit "Fuel Removal" -1
+				outfit "Nanite Swarm Blue" -1
+				outfit "Fuel Removal(T1)" 1
+			`	outfit "Fuel Removal(T1)" +1`
+				goto menu
+			label "Ka'het Machinery"
+			action
+				outfit "Ka'het Machinery" -1
+				outfit "Nanite Swarm Blue" -1
+				outfit "Ka'het Machinery(T1)" 1
+			`	outfit "Ka'het Machinery(T1)" +1`
 				goto menu
 			label "Ka'het Nullifier"
 			action
@@ -4947,6 +4991,20 @@ mission "upgrade outfits"
 				outfit "Asteroid Weapon Super(T2)" 1
 			`	outfit "Asteroid Weapon Super(T2)" +1`
 				goto menu
+			label "Fuel Removal(T1)"
+			action
+				outfit "Fuel Removal(T1)" -1
+				outfit "Nanite Swarm Purple" -1
+				outfit "Fuel Removal(T2)" 1
+			`	outfit "Fuel Removal(T2)" +1`
+				goto menu
+			label "Ka'het Machinery(T1)"
+			action
+				outfit "Ka'het Machinery(T1)" -1
+				outfit "Nanite Swarm Purple" -1
+				outfit "Ka'het Machinery(T2)" 1
+			`	outfit "Ka'het Machinery(T2)" +1`
+				goto menu
 			label "Ka'het Nullifier(T1)"
 			action
 				outfit "Ka'het Nullifier(T1)" -1
@@ -6255,6 +6313,20 @@ mission "upgrade outfits"
 				outfit "Nanite Swarm Orange" -1
 				outfit "Asteroid Weapon Super(T3)" 1
 			`	outfit "Asteroid Weapon Super(T3)" +1`
+				goto menu
+			label "Fuel Removal(T2)"
+			action
+				outfit "Fuel Removal(T2)" -1
+				outfit "Nanite Swarm Orange" -1
+				outfit "Fuel Removal(T3)" 1
+			`	outfit "Fuel Removal(T3)" +1`
+				goto menu
+			label "Ka'het Machinery(T2)"
+			action
+				outfit "Ka'het Machinery(T2)" -1
+				outfit "Nanite Swarm Orange" -1
+				outfit "Ka'het Machinery(T3)" 1
+			`	outfit "Ka'het Machinery(T3)" +1`
 				goto menu
 			label "Ka'het Nullifier(T2)"
 			action

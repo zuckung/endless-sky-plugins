@@ -15,6 +15,10 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 Changelog:<br>
 <br>
+2026-06-01<br>
+removed lone pixels in images<br>
+fixed some script errors<br>
+<br>
 2026-02-01<br>
 updated to 0.11.0 / fixed removed governments<br>
 <br>
