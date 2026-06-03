@@ -1,4 +1,4 @@
 name "paint.your.ships"
-about "Offers a job on Earth to paint your ships. See the README for details."
+about "Offers jobs on human job boards to paint your ships. See the README for details."
 authors
 	"zuckung"

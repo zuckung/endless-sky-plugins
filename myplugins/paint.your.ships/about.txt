@@ -1,1 +1,1 @@
-Offers a job on Earth to paint your ships. See the README for details.
+Offers jobs on human job boards to paint your ships. See the README for details.

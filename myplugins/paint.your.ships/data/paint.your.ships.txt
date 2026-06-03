@@ -1,5 +1,6 @@
 # color
-# mission "plugin: paint.your.ships" # for control.station
+# mission "Paint your ships control station"
+# mission "Paint your ships no money"
 # mission "Paint your ships"
 # event "swizzle00"
 # event "swizzle01"
@@ -31,23 +32,84 @@
 
 
 
-color "paint.your.ships job: selected" 0. .7 1. 0.
-color "paint.your.ships job: unselected" .3 .5 .8 0.
+color "paint.your.ships job: selected" .529 .029 .949 0.
+color "paint.your.ships job: unselected" .329 .173 .580 0.
 
 
-mission "plugin: paint.your.ships"
+mission "Paint your ships control station"
 	name "[4] plugin: paint.your.ships"
 	color selected "control.station plugin job: selected"
 	color unselected "control.station plugin job: unselected"
 	job
 	repeat
+	description "Options for the plugin paint.your.ships. Available option: enable/disable costs for color changing"
+	source "Control Station"
 	to offer
 		has "installed plugin: control.station"
-	source "Control Station"
-	description "Change ship color."
+	on accept
+		conversation
+			label "first"
+			``
+			label "start"
+			`Options for the plugin paint.your.ships`
+			``
+			`	costs are : ENABLED`
+				to display
+					not "paint your ships nomoney"
+			`	costs are : DISABLED`
+				to display
+					has "paint your ships nomoney"
+			``
+			choice
+				`	show readme`
+					goto "readme"
+				`	enable costs for color changing`
+					to display
+						has "paint your ships nomoney"
+					goto "costs"
+				`	disable costs for color changing`
+					to display
+						not "paint your ships nomoney"
+					goto "nocosts"
+				`	done`
+					goto end
+			label "costs"
+			action
+				clear "paint your ships nomoney"
+			branch "start"
+			label "nocosts"
+			action
+				set "paint your ships nomoney"
+			branch "start"
+			label "readme"
+			`README`
+			``
+			`Offers jobs on human job boards to paint your ships.`
+			``
+			`There are already like five plugins that change the swizzle color, but this one has some additional features, like the colors being displayed ingame (image by amazinite) or that you have to pay for each color changing. You can change the color of your ships on every human world with an outfitter. To do so, visit the job board and click the job. If the plugin control.station is installed, you can enable/disable the need of paying credits for the color changing.`
+			choice
+				`	continue`
+					goto "start"
+			label "end"
+			``
+			
+
+mission "Paint your ships no money"
+	name "(Paint your ships)"
+	color selected "paint.your.ships job: selected"
+	color unselected "paint.your.ships job: unselected"
+	description "Repaint your Ships (no costs)"
+	job
+	repeat
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
+	to offer
+		has "paint your ships nomoney"
 	on accept
 		conversation
 			scene "scene/paint.your.ships.swizzle"
+			`Thanks for using "Paint your Ship" services.`
 			`Choose color:`
 			choice
 				`	faded green`
@@ -242,22 +304,28 @@ mission "plugin: paint.your.ships"
 			`faded magenta chosen`
 				goto end
 			label "end"
-			``
+			`Thanks for using our painting service! Have a nice day!`
 		fail
+
 
 mission "Paint your ships"
 	name "(Paint your ships)"
 	color selected "paint.your.ships job: selected"
 	color unselected "paint.your.ships job: unselected"
+	description "Repaint your Ships for 50.000 credits."
 	job
 	repeat
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		attributes "outfitter"
 	to offer
-		not "installed plugin: control.station"
-	source "Earth"
-	description "Change ship color."
+		not "paint your ships nomoney"
+		"credits" > 50000
 	on accept
+		payment -50000
 		conversation
 			scene "scene/paint.your.ships.swizzle"
+			`Thanks for using "Paint your Ship" services. Your current credit balance is &[credits]`
 			`Choose color:`
 			choice
 				`	faded green`
@@ -452,7 +520,7 @@ mission "Paint your ships"
 			`faded magenta chosen`
 				goto end
 			label "end"
-			``
+			`Thanks for using our painting service! Have a nice day!`
 		fail
 
 
