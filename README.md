@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-06-03 | update: paint.your.ships<br>
 2026-06-01 | update: boss.loot<br>
 2026-06-01 | update: uniques<br>
 2026-05-25 | update: fleet.mercy<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-05-03 | update: additional.command.buttons.radial<br>
 2026-04-28 | update: control.station<br>
 2026-04-28 | update: vague.improvements<br>
-2026-04-28 | update: captureable.person.ships<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -5072,15 +5072,15 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/paint.your.ships.png" width="130" height="20">
 <img src="myplugins/paint.your.ships/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-paint.your.ships/paint.your.ships.zip) 
-<img src="https://img.shields.io/badge/v1.0.3-707070"> 
-<img src="https://img.shields.io/badge/191.19_kb-707070"> 
-<img src="https://img.shields.io/badge/2025--06--21-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-paint.your.ships/paint.your.ships.zip) 
+<img src="https://img.shields.io/badge/v1.0.4-707070"> 
+<img src="https://img.shields.io/badge/190.99_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--06--03-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=paint.your.ships-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/paint.your.ships/)
 [<img src="https://img.shields.io/badge/view_images_[4]-707070">](res/imagemd/paint.your.ships.md)<br>
 
->Offers a job on Earth to paint your ships. See the README for details.
+>Offers jobs on human job boards to paint your ships. See the README for details.
 
 <details>
 <summary>show README</summary>
@@ -5093,17 +5093,27 @@ screenshots(click to enlarge):<br>
 
 <br>
 
-Offers a job on Earth to paint your ships.<br>
+Offers jobs on human job boards to paint your ships.<br>
 
 <br>
 
-There are already like five plugins that change the swizzle color, but this one has the colors displayed ingame (image by amazinite). If the plugin control.station is installed, the job changes from Earth to that station.<br>
+There are already like five plugins that change the swizzle color, but this one has some additional features, like the colors being displayed ingame (image by amazinite) or that you have to pay for each color changing. You can change the color of your ships on every human world with an outfitter. To do so, visit the job board and click the job. If the plugin control.station is installed, you can enable/disable the need of paying cr3edits for the color changing.<br>
 
 <br>
 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-06-03<br>
+
+added control station options<br>
+
+added job to all human worlds with outfitter<br>
+
+added costs to painting jobs<br>
 
 <br>
 
@@ -5194,6 +5204,12 @@ Beside showing the concept there is a storyline, 9 cities/outpost, 9 areas with 
 <br>
 
 Changelog:<br>
+
+<br>
+
+unreleased<br>
+
+fixed lone pixel in dragon image<br>
 
 <br>
 
