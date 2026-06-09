@@ -2,3 +2,4 @@ name "paint.your.ships"
 about "Offers jobs on human job boards to paint your ships. See the README for details."
 authors
 	"zuckung"
+version 1.0.4
