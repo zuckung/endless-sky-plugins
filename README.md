@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-06-09 | update: combat.ai<br>
 2026-06-03 | update: paint.your.ships<br>
 2026-06-01 | update: boss.loot<br>
 2026-06-01 | update: uniques<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-05-10 | update: vague.improvements<br>
 2026-05-03 | update: additional.command.buttons.radial<br>
 2026-04-28 | update: control.station<br>
-2026-04-28 | update: vague.improvements<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1553,10 +1553,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/combat.ai.png" width="130" height="20">
 <img src="myplugins/combat.ai/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.12-combat.ai/combat.ai.zip) 
-<img src="https://img.shields.io/badge/v1.0.12-707070"> 
-<img src="https://img.shields.io/badge/335.58_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--04--10-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.13-combat.ai/combat.ai.zip) 
+<img src="https://img.shields.io/badge/v1.0.13-707070"> 
+<img src="https://img.shields.io/badge/335.91_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--06--09-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=combat.ai-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/combat.ai/)
 [<img src="https://img.shields.io/badge/view_images_[6]-707070">](res/imagemd/combat.ai.md)<br>
@@ -1580,7 +1580,7 @@ Offers a mission to install a combat AI, which increases your ship stats based o
 
 You can get the mission to install the AI on any human planet.<br>
 
-Every 3,000 combat xp you can choose between 11 basic updates, every 7,000 between 12 advanced updates, and every 11,000 between 16 special updates.<br>
+Every 3,000 combat xp you can choose between 12 basic updates, every 7,000 between 12 advanced updates, and every 11,000 between 16 special updates.<br>
 
 Some updates have max ranks and others can get raised infinitely. These updates are done by adding invisible outfits with stats to the ship.<br>
 
@@ -1610,11 +1610,13 @@ Basic: Cooling +600|unlimited|"cooling" 10<br>
 
 Basic: Energy Capacity +3000|unlimited|"energy capacity" 3000<br>
 
-Basic: Energy Generation +300|unlimited|"energy generation" 5<br>
+Basic: Energy Generation +60|unlimited|"energy generation" 1<br>
 
 Basic: Ammo Capacity|max 10|+ all ammo capacities<br>
 
 Basic: Passive Income + 500|max 20|"operating income" 500<br>
+
+Basic: Keystone|max 1|"quantum keystone" 1
 
 <br>
 
@@ -1632,7 +1634,7 @@ Advanced: Turn +2%|-|"turn multiplier" .02<br>
 
 Advanced: Protection +0.02|unlimited|+ all protection types<br>
 
-Advanced: Missile Jamming|4|"radar jamming" .25|"optical jamming" .25<br>
+Advanced: Missile Jamming|4|"radar jamming" .75|"optical jamming" .75<br>
 
 Advanced: Weapon Capacity +10|max 10|"weapon capacity" 10<br>
 
@@ -1644,7 +1646,7 @@ Advanced: Inbuilt Scram Drive|max 1|"scram drive" .2|"jump fuel" 150|"hyperdrive
 
 <br>
 
-Special: Refueling|unlimited|"ramscoop" 2|"fuel generation" .07<br>
+Special: Refueling|unlimited|"ramscoop" .6|"fuel generation" .07<br>
 
 Special: Outfit Space +20|max 10|"outfit space" 20<br>
 
@@ -1656,7 +1658,7 @@ Special: Force Protection|max 5|"force protection" 0.2|"slowing resistance" 0.5<
 
 Special: Scanner|max 5|+ all scanning types<br>
 
-Special: Drag Reduction +0.2|max 5|"drag reduction" .5<br>
+Special: Drag Reduction +0.5|max 5|"drag reduction" .5<br>
 
 Special: Capture Attack +200|max 3|"capture attack" 200<br>
 
@@ -1681,6 +1683,24 @@ Special: Inbuild Cloaking|max 1|"cloak" .01|"cloaking energy" 1|"cloaking fuel" 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-06-09<br>
+
+change basic energy generation from 300 to 60<br>
+
+changed advanced jamming from 0.25 to 0.75<br>
+
+change special refueling ramscoop from 2 to 0.6 and fuel gen from 0.07 to 0.02<br>
+
+fixed drag reduction typo<br>
+
+fixed ammo restock for several ammo types<br>
+
+added basic quantum keystone upgrade<br>
+
+(thx to mernom and ulyssesword for feedback and values)<br>
 
 <br>
 
