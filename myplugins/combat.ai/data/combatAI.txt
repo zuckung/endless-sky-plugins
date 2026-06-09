@@ -173,13 +173,13 @@ outfit "combat_ai_basic_energy_capacity"
 
 
 outfit "combat_ai_basic_energy_generation"
-	"display name" "Basic: Energy Generation +300"
-	"plural" "Basic: Energy Generation +300"
+	"display name" "Basic: Energy Generation +60"
+	"plural" "Basic: Energy Generation +60"
 	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
 	index 01100
-	"energy generation" 5
+	"energy generation" 1
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -215,8 +215,8 @@ outfit "combat_ai_basic_ammo"
 	"teciimach canister capacity" 9
 	"spike capacity" 16
 	"thunderhead capacity" 20
-	ammo "Korath Piercer"
-	ammo "Korath Mine"
+	ammo "Piercer Missile"
+	ammo "Cluster Mine"
 	ammo `"Nettle" KKV`
 	ammo `"Orchid" Nuclear Missile`
 	ammo "Speck Round"
@@ -233,6 +233,13 @@ outfit "combat_ai_basic_ammo"
 	ammo "Heavy Rocket"
 	ammo "Gatling Gun Ammo"
 	ammo "Star Tail Cell"
+	ammo "Teciimach Canister"
+	ammo "Nuclear Missile"
+	ammo "EMP Torpedo"
+	ammo "Firelight Missile"
+	ammo "Firestorm Torpedo"
+	ammo "High-Velocity Spike"
+	ammo "Thunderhead Missile"
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -245,6 +252,18 @@ outfit "combat_ai_basic_credits"
 	series "Functional Unique"
 	index 01100
 	"operating income" 500
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
+outfit "combat_ai_basic_keystone"
+	"display name" "Basic: Keystone"
+	"plural" "Basic: Keystone"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+	"quantum keystone" 1
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -351,8 +370,8 @@ outfit "combat_ai_advanced_missile_jamming"
 	category "Combat AI Updates"
 	series "Functional Unique"
 	index 01100
-	"radar jamming" .25
-	"optical jamming" .25
+	"radar jamming" .75
+	"optical jamming" .75
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -414,8 +433,8 @@ outfit "combat_ai_special_refueling"
 	category "Combat AI Updates"
 	series "Functional Unique"
 	index 01100
-	"ramscoop" 2
-	"fuel generation" .07
+	"ramscoop" .6
+	"fuel generation" .02
 	"unplunderable" 1
 	description `This is a database update for the combat AI.`
 
@@ -496,8 +515,8 @@ outfit "combat_ai_special_scanner"
 
 
 outfit "combat_ai_special_drag_reduction"
-	"display name" "Special: Drag Reduction +0.2"
-	"plural" "Special: Drag Reduction +0.2"
+	"display name" "Special: Drag Reduction +0.5"
+	"plural" "Special: Drag Reduction +0.5"
 	thumbnail "outfit/unq_combat_ai"
 	category "Combat AI Updates"
 	series "Functional Unique"
@@ -651,6 +670,7 @@ mission "combat_ai_start"
 		"combat_ai_installed_basic_energy_generation" = 0
 		"combat_ai_installed_basic_ammo" = 0
 		"combat_ai_installed_basic_credits" = 0
+		"combat_ai_installed_basic_keystone" = 0
 		"combat_ai_installed_advanced_hull" = 0
 		"combat_ai_installed_advanced_hull_repair" = 0
 		"combat_ai_installed_advanced_shield" = 0
@@ -920,7 +940,7 @@ mission "combat_ai_update"
 					goto "basic_cooling"
 				`	Basic: Energy Capacity +3000 (current rank: &[combat_ai_installed_basic_energy_capacity])`
 					goto "basic_energy_capacity"
-				`	Basic: Energy Generation +300 (current rank: &[combat_ai_installed_basic_energy_generation])`
+				`	Basic: Energy Generation +60 (current rank: &[combat_ai_installed_basic_energy_generation])`
 					goto "basic_energy_generation"
 				`	Basic: Ammo Capacity (current rank: &[combat_ai_installed_basic_ammo] max 10)`
 					to display
@@ -930,6 +950,10 @@ mission "combat_ai_update"
 					to display
 						"combat_ai_installed_basic_credits" < 20
 					goto "basic_credits"
+				`	Basic: Keystone (current rank: &[combat_ai_installed_basic_keystone] max 1)`
+					to display
+						"combat_ai_installed_basic_keystone" < 1
+					goto "basic_keystone"
 				`	Enough updates for today! (continue on next day)`
 					goto "delay1"
 			label "basic_outfit_space"
@@ -984,7 +1008,7 @@ mission "combat_ai_update"
 			action
 				outfit "combat_ai_basic_energy_generation" 1
 				"combat_ai_installed_basic_energy_generation" ++
-			`	Installed Basic: Energy Generation +300 rank &[combat_ai_installed_basic_energy_generation]...`
+			`	Installed Basic: Energy Generation +60 rank &[combat_ai_installed_basic_energy_generation]...`
 				goto "start1"
 			label "basic_ammo"
 			action
@@ -997,6 +1021,12 @@ mission "combat_ai_update"
 				outfit "combat_ai_basic_credits" 1
 				"combat_ai_installed_basic_credits" ++
 			`	Installed Basic: Passive Income + 500 rank &[combat_ai_installed_basic_credits]...`
+				goto "start1"
+			label "basic_keystone"
+			action
+				outfit "combat_ai_basic_keystone" 1
+				"combat_ai_installed_basic_keystone" ++
+			`	Installed Basic: Keystone rank &[combat_ai_installed_basic_keystone]...`
 				goto "start1"
 			label "2"
 			branch "3"
@@ -1227,7 +1257,7 @@ mission "combat_ai_update"
 					to display
 						"combat_ai_installed_special_scanner" < 5
 					goto "special_scanner"
-				`	Special: Drag Reduction +0.2 (current rank: &[combat_ai_installed_special_drag_reduction] max 5)`
+				`	Special: Drag Reduction +0.5 (current rank: &[combat_ai_installed_special_drag_reduction] max 5)`
 					to display
 						"combat_ai_installed_special_drag_reduction" < 5
 					goto "special_drag_reduction"
@@ -1309,7 +1339,7 @@ mission "combat_ai_update"
 			action
 				outfit "combat_ai_special_drag_reduction" 1
 				"combat_ai_installed_special_drag_reduction" ++
-			`	Installed Special: Drag Reduction +0.2 rank &[combat_ai_installed_special_drag_reduction]...`
+			`	Installed Special: Drag Reduction +0.5 rank &[combat_ai_installed_special_drag_reduction]...`
 				goto "start3"
 			label "special_capture_attack"
 			action
@@ -1458,6 +1488,7 @@ mission "combat_ai_lost"
 			"outfit (flagship installed): combat_ai_basic_energy_generation" < "combat_ai_installed_basic_energy_generation"
 			"outfit (flagship installed): combat_ai_basic_ammo" < "combat_ai_installed_basic_ammo"
 			"outfit (flagship installed): combat_ai_basic_credits" < "combat_ai_installed_basic_credits"
+			"outfit (flagship installed): combat_ai_basic_keystone" < "combat_ai_installed_basic_keystone"
 			"outfit (flagship installed): combat_ai_advanced_hull" < "combat_ai_installed_advanced_hull"
 			"outfit (flagship installed): combat_ai_advanced_hull_repair" < "combat_ai_installed_advanced_hull_repair"
 			"outfit (flagship installed): combat_ai_advanced_shield" < "combat_ai_installed_advanced_shield"
@@ -1615,7 +1646,7 @@ mission "combat_ai_lost"
 			label "precheck basic_ammo"
 			branch "check basic_ammo"
 				"combat_ai_counter" == 0
-			`	restored &[combat_ai_counter] x Basic: Energy Generation +300`
+			`	restored &[combat_ai_counter] x Basic: Energy Generation +60`
 			action
 				"combat_ai_counter" = 0
 			label "check basic_ammo"
@@ -1632,16 +1663,29 @@ mission "combat_ai_lost"
 			action
 				"combat_ai_counter" = 0
 			label "check basic_credits"
-			branch "precheck advanced_hull"
+			branch "precheck basic_keystone"
 				"outfit (flagship installed): combat_ai_basic_credits" == "combat_ai_installed_basic_credits"
 			action
 				outfit "combat_ai_basic_credits" 1
 				"combat_ai_counter" ++
 			branch "check basic_credits"
+			label "precheck basic_keystone"
+			branch "check basic_keystone"
+				"combat_ai_counter" == 0
+			`	restored &[combat_ai_counter] x Basic: Passive Income + 500`
+			action
+				"combat_ai_counter" = 0
+			label "check basic_keystone"
+			branch "precheck advanced_hull"
+				"outfit (flagship installed): combat_ai_basic_keystone" == "combat_ai_installed_basic_keystone"
+			action
+				outfit "combat_ai_basic_keystone" 1
+				"combat_ai_counter" ++
+			branch "check basic_keystone"
 			label "precheck advanced_hull"
 			branch "check advanced_hull"
 				"combat_ai_counter" == 0
-			`	restored &[combat_ai_counter] x Basic: Passive Income + 500`
+			`	restored &[combat_ai_counter] x Basic: Keystone`
 			action
 				"combat_ai_counter" = 0
 			label "check advanced_hull"
@@ -1888,7 +1932,7 @@ mission "combat_ai_lost"
 			label "precheck special_capture_attack"
 			branch "check special_capture_attack"
 				"combat_ai_counter" == 0
-			`	restored  &[combat_ai_counter] x  Special: Drag Reduction +0.2`
+			`	restored  &[combat_ai_counter] x  Special: Drag Reduction +0.5`
 			action
 				"combat_ai_counter" = 0
 			label "check special_capture_attack"
@@ -2094,11 +2138,17 @@ mission "combat_ai_new_update"
 				outfit "combat_ai_basic_ammo" -1
 			branch "check basic_ammo"
 			label "check basic_credits"
-			branch "check advanced_hull"
+			branch "check basic_keystone"
 				"outfit (flagship installed): combat_ai_basic_credits" == 0
 			action
 				outfit "combat_ai_basic_credits" -1
 			branch "check basic_credits"
+			label "check basic_keystone"
+			branch "check advanced_hull"
+				"outfit (flagship installed): combat_ai_basic_keystone" == 0
+			action
+				outfit "combat_ai_basic_keystone" -1
+			branch "check basic_keystone"
 			label "check advanced_hull"
 			branch "check advanced_hull_repair"
 				"outfit (flagship installed): combat_ai_advanced_hull" == 0
