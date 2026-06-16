@@ -212,7 +212,7 @@ mission "unq_holo_wayfarer"
 		"salary: Holo Ads" += 500
 		conversation
 			scene "outfit/logo/unq_wayfarer"
-			`Upon landing the neon ads remind you that this world is the home of "Wafarer Corporation". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
+			`Upon landing the neon ads remind you that this world is the home of "Tarazed Corporation". So you visit their offices and sign a contract to advertise with your, to your ship hull attached, Holo Generator. They are paying you 500 credits daily.`
 				decline
 				
 
