@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-06-30 | update: heavy.traffic<br>
 2026-06-30 | update: fleet.mercy<br>
 2026-06-30 | update: ship.cores<br>
 2026-06-09 | update: combat.ai<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-05-25 | update: fleet.mercy<br>
 2026-05-25 | update: hai.side.mission.unlocker<br>
 2026-05-22 | update: fleet.mercy<br>
-2026-05-10 | update: vague.improvements<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3238,10 +3238,10 @@ initial release<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/heavy.traffic.png" width="130" height="20">
 <img src="myplugins/heavy.traffic/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-heavy.traffic/heavy.traffic.zip) 
-<img src="https://img.shields.io/badge/v1.0.1-707070"> 
-<img src="https://img.shields.io/badge/195.0_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--03--20-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-heavy.traffic/heavy.traffic.zip) 
+<img src="https://img.shields.io/badge/v1.0.2-707070"> 
+<img src="https://img.shields.io/badge/190.51_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--06--30-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=heavy.traffic-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/heavy.traffic/)
 [<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/heavy.traffic.md)<br>
@@ -3276,6 +3276,14 @@ Currently it adds 5000+ new jobs.<br>
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-06-30<br>
+
+excluded 23 jobs with "passenger 1" from multiplying<br>
+
+updated to ES 0.11.2, with new destination filter changes, some text changes<br>
 
 <br>
 
