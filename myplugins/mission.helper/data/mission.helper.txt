@@ -459,6 +459,10 @@ mission "Mission Helper"
 					to display
 						not "Avgi: Twilight Escape 3: offered"
 					goto "Avgi: Twilight Escape 3"
+				`Discovery of Decet Magnetar`
+					to display
+						not "Discovery of Decet Magnetar: offered"
+					goto "Discovery of Decet Magnetar"
 			label "avgi/avgi culture conversations.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Avgi | Avgi culture conversations | Mission:`
@@ -2173,6 +2177,10 @@ mission "Mission Helper"
 					to display
 						not "Struggling Author Gone Missing: offered"
 					goto "Struggling Author Gone Missing"
+				`Exotic Life: Bloodsea`
+					to display
+						not "Exotic Life: Bloodsea: offered"
+					goto "Exotic Life: Bloodsea"
 			label "human/deep jobs.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Human | Deep jobs | Mission:`
@@ -2825,6 +2833,10 @@ mission "Mission Helper"
 					to display
 						not "FW Pirates: Attack 2: offered"
 					goto "FW Pirates: Attack 2"
+				`FW Pirates: Invasion Fleet`
+					to display
+						not "FW Pirates: Invasion Fleet: offered"
+					goto "FW Pirates: Invasion Fleet"
 				`FW Pirates: Attack 3`
 					to display
 						not "FW Pirates: Attack 3: offered"
@@ -6954,6 +6966,21 @@ mission "Mission Helper"
 			`has "Avgi: Twilight Escape 2: done"`
 				to display
 					has "Avgi: Twilight Escape 2: done"
+			``
+			choice
+				`[back to "Avgi | Avgi 0 first contact""]`
+					goto "avgi/avgi 0 first contact.txt"
+				`[back to "Avgi"]`
+					goto "avgi"
+				`[back to "Races"]`
+					goto "start"
+			label "Discovery of Decet Magnetar"
+			`data\avgi\avgi 0 first contact.txt | mission "Discovery of Decet Magnetar"`
+			`starts at: entering`
+			`	source`
+			`		system "Decet"`
+			``
+			`You have the following missions, events and conditions:`
 			``
 			choice
 				`[back to "Avgi | Avgi 0 first contact""]`
@@ -15870,6 +15897,22 @@ mission "Mission Helper"
 					goto "human"
 				`[back to "Races"]`
 					goto "start"
+			label "Exotic Life: Bloodsea"
+			`data\human\culture conversations.txt | mission "Exotic Life: Bloodsea"`
+			`starts at: spaceport`
+			`	source Bloodsea`
+			`	to offer`
+			`		random < 10`
+			``
+			`You have the following missions, events and conditions:`
+			``
+			choice
+				`[back to "Human | Culture conversations""]`
+					goto "human/culture conversations.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
 			label "Deep Security Package Reveal"
 			`data\human\deep jobs.txt | mission "Deep Security Package Reveal"`
 			`starts at: spaceport`
@@ -19754,6 +19797,35 @@ mission "Mission Helper"
 			`has "FW Pirates: Attack 1: done"`
 				to display
 					has "FW Pirates: Attack 1: done"
+			``
+			choice
+				`[back to "Human | Free worlds 1 start""]`
+					goto "human/free worlds 1 start.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "FW Pirates: Invasion Fleet"
+			`data\human\free worlds 1 start.txt | mission "FW Pirates: Invasion Fleet"`
+			`starts at: landing`
+			`	source "Trinket"`
+			`	to offer`
+			`		has "FW Pirates: Attack 1: done"`
+			`	to complete`
+			`		has "FW Pirates: Attack 2: done"`
+			`	to fail`
+			`		has "FW Pirates: Attack 2: declined"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "FW Pirates: Attack 1: done"`
+				to display
+					has "FW Pirates: Attack 1: done"
+			`has "FW Pirates: Attack 2: done"`
+				to display
+					has "FW Pirates: Attack 2: done"
+			`has "FW Pirates: Attack 2: declined"`
+				to display
+					has "FW Pirates: Attack 2: declined"
 			``
 			choice
 				`[back to "Human | Free worlds 1 start""]`
@@ -27392,14 +27464,14 @@ mission "Mission Helper"
 			`data\human\human missions.txt | mission "Timothy Radrickson: Log Fix 6"`
 			`starts at: landing`
 			`	to offer`
-			`		has "Timothy Radrickson 5a: Timshank Redemption: offered"`
+			`		has "Timothy Radrickson 6: News of Death: offered"`
 			`		not "timothy radrickson 6 log entry correct"`
 			`		not "Timothy Radrickson: Log Fix 4: offered"`
 			``
 			`You have the following missions, events and conditions:`
-			`has "Timothy Radrickson 5a: Timshank Redemption: offered"`
+			`has "Timothy Radrickson 6: News of Death: offered"`
 				to display
-					has "Timothy Radrickson 5a: Timshank Redemption: offered"
+					has "Timothy Radrickson 6: News of Death: offered"
 			`not "timothy radrickson 6 log entry correct"`
 				to display
 					not "timothy radrickson 6 log entry correct"
