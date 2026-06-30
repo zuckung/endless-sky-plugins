@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-06-30 | update: ship.cores<br>
 2026-06-09 | update: combat.ai<br>
 2026-06-03 | update: paint.your.ships<br>
 2026-06-01 | update: boss.loot<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-05-22 | update: fleet.mercy<br>
 2026-05-10 | update: vague.improvements<br>
 2026-05-03 | update: additional.command.buttons.radial<br>
-2026-04-28 | update: control.station<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -68,14 +68,15 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#licenses">licenses</a><br>
 <a href="README.md#missionhelper">mission.helper</a><br>
 <a href="README.md#morearfectas">more.arfectas</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#moreboardingmissions">more.boarding.missions</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#morepersonships">more.person.ships</a><br>
 <a href="README.md#nomoremeretimines">no.more.mereti.mines</a><br>
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
 <a href="README.md#paintyourships">paint.your.ships</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
 <a href="README.md#quargfarm">quarg.farm</a><br>
+<a href="README.md#shipcores">ship.cores</a><br>
 <a href="README.md#shipmerging">ship.merging</a><br>
 <a href="README.md#showreputation">show.reputation</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
@@ -5429,6 +5430,78 @@ screenshots(click to enlarge):<br>
 
 ---
 
+### ship.cores
+
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/ship.cores.png" width="130" height="20">
+<img src="myplugins/ship.cores/icon.png" height="100">
+
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-ship.cores/ship.cores.zip) 
+<img src="https://img.shields.io/badge/v1.0.0-707070"> 
+<img src="https://img.shields.io/badge/439.22_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--06--30-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=ship.cores-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.cores/)
+[<img src="https://img.shields.io/badge/view_images_[4]-707070">](res/imagemd/ship.cores.md)<br>
+
+>This plugin removes most attributes from ships and puts them into an outfit. You can exchange these core outfits between ships. See the README for details.
+
+<details>
+<summary>show README</summary>
+
+<blockquote>
+
+### ship.merging
+
+<br>
+
+<br>
+
+This plugin removes most attributes from ships and puts them into an outfit. You can exchange these core outfits between ships.<br>
+
+<br>
+
+Every vanilla ship and ship variant now comes equipped with a unique outfit called a **Core**. Each ship can have exactly one Core installed at a time. Cores can be removed and swapped with those from other ships, changing the vessel's performance and statistics.<br>
+
+Cores can be purchased from outfitters on planets with a shipyard or salvaged from disabled ships. Since a Core is worth roughly half the value of its original ship, disabling and looting enemy vessels can become a highly profitable source of income. The system also encourages all kinds of unusual and fun ship builds by combining different hulls and Cores.<br>
+
+To maximize compatibility with plugins and existing savegames, several hull-specific attributes remain part of the ship itself rather than the Core. These include Outfit Space, Weapon Capacity, Engine Capacity, Cargo Space, and a handful of other fundamental hull properties.<br>
+
+<br>
+
+(idea, brainstorming, testing by Kassandra Haruki)<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+2026-06-30<br>
+
+initial release<br>
+
+
+
+
+
+</blockquote>
+
+</details>
+
+<br>
+screenshots(click to enlarge):<br>
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/ship.cores01.jpg" width="200"></td>
+	</tr>
+</table>
+<br>
+
+<br>
+
+
+---
+
 ### ship.merging
 
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/ship.merging.png" width="130" height="20">
@@ -6221,6 +6294,12 @@ In the rootfoldet of this plugin you can find the file "plugin re-shroud.txt" to
 <br>
 
 Changelog:<br>
+
+<br>
+
+unreleased<br>
+
+fixed tarazed wayfarer lore related typos (thx to RedTechGamer236)<br>
 
 <br>
 

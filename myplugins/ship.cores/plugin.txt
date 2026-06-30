@@ -3,3 +3,4 @@ about "This plugin removes most attributes from ships and puts them into an outf
 authors
 	"zuckung"
 	"Kassandra Haruki"
+version 1.0.0
