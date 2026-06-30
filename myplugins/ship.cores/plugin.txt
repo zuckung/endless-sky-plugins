@@ -1,0 +1,5 @@
+name "ship.cores"
+about "This plugin removes most attributes from ships and puts them into an outfit. You can exchange these core outfits between ships. See the README for details."
+authors
+	"zuckung"
+	"Kassandra Haruki"

@@ -1,0 +1,411 @@
+outfitter "Avgi Solar Light Cores"
+	"Koryfi Core"
+	"Avlaki Core"
+
+
+outfitter "Avgi Solar Heavy Cores"
+	"Melodikos Core"
+	"Harmonikos Core"
+	"Entasi Core"
+
+
+outfitter "Avgi Utility Ultralight Cores"
+	"Akoustiki Core"
+	"Sonikis Core"
+
+
+outfitter "Avgi Utility Light Cores"
+	"Entasi Core"
+	"Frequentia Core"
+
+
+outfitter "Avgi Utility Heavy Cores"
+	"Undsyni Core"
+
+
+outfitter "Avgi Militia Cores"
+	"Tremoros Core"
+	"Phononos Core"
+	"Interferos Core"
+
+
+outfitter "Avgi Research Cores"
+	"Polari Core"
+	"Optikon Core"
+
+
+outfitter "Twilight Guard Ultralight Cores"
+	"Tremoros Core"
+	"Photikon Core"
+	"Optikon Core"
+	"Undulon Core"
+	"Vibratia Core"
+
+
+outfitter "Twilight Guard Light Cores"
+	"Tremoros Core"
+	"Prismaios Core"
+	"Interferos Core"
+	"Photikon Core"
+	"Undulon Core"
+	"Vibratia Core"
+
+
+outfitter "Twilight Guard Heavy Cores"
+	"Interferos Core"
+	"Prismaios Core"
+	"Diaspersi Core"
+	"Refraktos Core"
+	"Difraktos Core"
+	"Atenuatia Core"
+
+
+outfitter "Bunrodea Basic Cores"
+	"Kaiken Core"
+	"Tanto Core"
+	"Tekkan Core"
+
+
+outfitter "Bunrodea Advanced Cores"
+	"Ararebo Core"
+	"Kunai Core"
+	"Kama Core"
+
+
+outfitter "Bunrodea Capital Cores"
+	"Sasumata Core"
+	"Chigiriki Core"
+
+
+outfitter "Arach Cores"
+	"Arach Courier Core"
+	"Arach Freighter Core"
+	"Arach Hulk Core"
+	"Arach Spindle Core"
+	"Arach Transport Core"
+
+
+outfitter "Kimek Cores"
+	"Kimek Briar Core"
+	"Kimek Spire Core"
+	"Kimek Thistle Core"
+	"Kimek Thorn Core"
+
+
+outfitter "Saryd Cores"
+	"Saryd Runabout Core"
+	"Saryd Sojourner Core"
+	"Saryd Traveler Core"
+	"Saryd Visitor Core"
+
+
+outfitter "Coalition Basics Cores"
+	"Arach Courier Core"
+	"Kimek Thorn Core"
+	"Saryd Runabout Core"
+
+
+outfitter "Gegno Basic Cores"
+	"Dolomite Core"
+	"Shale Core"
+
+
+outfitter "Gegno Intermediate Cores"
+	"Conglomerate Core"
+	"Granofel Core"
+
+
+outfitter "Gegno Advanced Cores"
+	"Gypsum Core"
+	"Corundum Core"
+
+
+outfitter "Vi Cargo Cores"
+	"Slate Core"
+	"Schist Core"
+
+
+outfitter "Vi Warships I Cores"
+	"Hornfel Core"
+	"Gneiss Core"
+
+
+outfitter "Vi Warships II Cores"
+	"Eclogite Core"
+	"Diorite Core"
+
+
+outfitter "Vi Utility Cores"
+	"Granulite Core"
+
+
+outfitter "Scin Cargo Cores"
+	"Mica Core"
+	"Felsic Core"
+
+
+outfitter "Scin Warships Cores"
+	"Coesite Core"
+	"Felsic Core"
+	"Feldspar Core"
+
+
+outfitter "Scin Utility Cores"
+	"Halite Core"
+	"Epidote Core"
+	"Tridymite Core"
+
+
+outfitter "Imo Loo Mer Basics Cores"
+	"Scarab Core"
+	"Lightning Bug Core"
+
+
+outfitter "Imo Loo Mer Advanced Cores"
+	"Centipede Core"
+	"Geocoris Core"
+
+
+outfitter "Mon Ki o'Uden Advanced Cores"
+	"Sea Scorpion Core"
+
+
+outfitter "Mon Ki i'Hiya Basics Cores"
+	"Aphid Core"
+
+
+outfitter "Mon Ki i'Hiya Advanced Cores"
+	"Shield Beetle Core"
+
+
+outfitter "Yeer e Ki Basics Cores"
+	"Aphid Core"
+	"Grasshopper Core"
+
+
+outfitter "Yeer e Ki Advanced Cores"
+	"Water Bug Core"
+	"Cicada Core"
+
+
+outfitter "Basic Ships Cores"
+	"Shuttle Core"
+	"Sparrow Core"
+	"Star Barge Core"
+
+
+outfitter "Tarazed Basics Cores"
+	"Sparrow Core"
+	"Hawk Core"
+	"Blackbird Core"
+
+
+outfitter "Tarazed Advanced Cores"
+	"Osprey Core"
+	"Falcon Core"
+
+
+outfitter "Southbound Basics Cores"
+	"Clipper Core"
+	"Fury Core"
+	"Argosy Core"
+	"Hauler Core"
+
+
+outfitter "Southbound Advanced Cores"
+	"Hauler II Core"
+	"Hauler III Core"
+	"Bastion Core"
+
+
+outfitter "Lionheart Basics Cores"
+	"Scout Core"
+	"Dagger Core"
+	"Flivver Core"
+	"Headhunter Core"
+	"Raven Core"
+	"Mule Core"
+
+
+outfitter "Lionheart Advanced Cores"
+	"Aerie Core"
+	"Corvette Core"
+	"Bactrian Core"
+
+
+outfitter "Betelgeuse Basics Cores"
+	"Shuttle Core"
+	"Heavy Shuttle Core"
+	"Berserker Core"
+	"Firebird Core"
+
+
+outfitter "Betelgeuse Advanced Cores"
+	"Leviathan Core"
+	"Behemoth Core"
+	"Star Queen Core"
+	"Hauler Core"
+
+
+outfitter "Tycho Crater Advanced Cores"
+	"Hogshead Core"
+
+
+outfitter "Navy Basics Cores"
+	"Rainmaker Core"
+	"Gunboat Core"
+	"Lance Core"
+	"Combat Drone Core"
+	"Surveillance Drone Core"
+	"Dropship Core"
+
+
+outfitter "Navy Advanced Cores"
+	"Frigate Core"
+	"Cruiser Core"
+	"Carrier Core"
+	"Auxiliary Core"
+
+
+outfitter "Megaparsec Basics Cores"
+	"Quicksilver Core"
+	"Bounder Core"
+	"Hauler Core"
+
+
+outfitter "Megaparsec Advanced Cores"
+	"Splinter Core"
+	"Manta Core"
+	"Hauler II Core"
+
+
+outfitter "Syndicate Basics Cores"
+	"Star Barge Core"
+	"Wasp Core"
+	"Freighter Core"
+	"Sunder Core"
+	"Mining Drone Core"
+
+
+outfitter "Syndicate Advanced Cores"
+	"Bulk Freighter Core"
+	"Container Transport Core"
+	"Protector Core"
+	"Vanguard Core"
+	"Arrow Core"
+
+
+outfitter "Northern Pirates Cores"
+	"Berserker Core"
+	"Dagger Core"
+	"Firebird Core"
+	"Headhunter Core"
+	"Scrapper Core"
+
+
+outfitter "Advanced Northern Pirates Cores"
+	"Aerie Core"
+	"Leviathan Core"
+	"Mule Core"
+
+
+outfitter "Southern Pirates Cores"
+	"Argosy Core"
+	"Clipper Core"
+	"Fury Core"
+	"Hawk Core"
+	"Scrapper Core"
+
+
+outfitter "Advanced Southern Pirates Cores"
+	"Falcon Core"
+	"Modified Argosy Core"
+	"Osprey Core"
+
+
+outfitter "Core Pirates Cores"
+	"Manta Core"
+	"Quicksilver Core"
+	"Scrapper Core"
+	"Splinter Core"
+	"Wasp Core"
+
+
+outfitter "Advanced Core Pirates Cores"
+	"Protector Core"
+	"Vanguard Core"
+
+
+outfitter "Luxury Ships Cores"
+	"Shuttle Core"
+	"Blackbird Core"
+	"Falcon Core"
+	"Arrow Core"
+	"Star Queen Core"
+	"Flivver Core"
+
+
+outfitter "Hicemus Cores"
+	"Nimbo Cirrus Core"
+	"Nimbo Stratus Core"
+	"Nimbus Core"
+	"Gero Core"
+
+
+outfitter "Remnant Cores"
+	"Starling Core"
+	"Gull Core"
+	"Albatross Core"
+	"Ibis Core"
+	"Pelican Core"
+	"Petrel Core"
+	"Smew Core"
+	"Tern Core"
+
+
+outfitter "Remnant Puffin Cores"
+	"Puffin Core"
+
+
+outfitter "Remnant Salvage Ships Cores"
+	"'olofez Core"
+
+
+outfitter "Successor Civilian Cores"
+	"Ejniisde Core"
+
+
+outfitter "Successor Heavy Cores"
+	"Ejniisde Core"
+	"Nnaatej Core"
+
+
+outfitter "Waterlining Cores"
+	"Nnaatej Core"
+
+
+outfitter "High Houses Light Cores"
+	"Seiitej Core"
+
+
+outfitter "High Houses Heavy Cores"
+	"Seiitej Core"
+	"Kaskhorade Core"
+
+
+outfitter "People's Houses Cores"
+	"Kvelqde-Khora Core"
+
+
+outfitter "Wanderer Basics Cores"
+	"Earth Shaper Core"
+	"Summer Leaf Core"
+
+
+outfitter "Wanderer Advanced Cores"
+	"Earth Shaper Core"
+	"Summer Leaf Core"
+	"Strong Wind Core"
+	"Deep River Core"
+
+

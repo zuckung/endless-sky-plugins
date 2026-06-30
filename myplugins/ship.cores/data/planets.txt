@@ -1,0 +1,535 @@
+planet Aava-Aasa-Khora
+	add outfitter "High Houses Light Cores"
+	add outfitter "Successor Basics Cores"
+	add outfitter "Successor Civilian Cores"
+
+
+planet Ada
+	add outfitter "Basic Ships Cores"
+	add outfitter "Betelgeuse Basics Cores"
+	add outfitter "Betelgeuse Advanced Cores"
+	add outfitter "Navy Basics Cores"
+	add outfitter "Megaparsec Basics Cores"
+	add outfitter "Tycho Crater Advanced Cores"
+
+
+planet Ahr
+	add outfitter "Coalition Basics Cores"
+	add outfitter "Arach Cores"
+
+
+planet Asgard
+	add outfitter "Lionheart Basics Cores"
+	add outfitter "Lionheart Advanced Cores"
+
+
+planet Aventine
+	add outfitter "Remnant Cores"
+
+
+planet "Bank of Blugtad"
+	add outfitter "Coalition Basics Cores"
+	add outfitter "Arach Cores"
+
+
+planet "Blue Interior"
+	add outfitter "Coalition Basics Cores"
+	add outfitter "Kimek Cores"
+
+
+planet Bosunothro
+	add outfitter "Bunrodea Basic Cores"
+	add outfitter "Bunrodea Advanced Cores"
+
+
+planet "Bright Echo"
+	add outfitter "Coalition Basics Cores"
+	add outfitter "Saryd Cores"
+
+
+planet "Buccaneer Bay"
+	add outfitter "Core Pirates Cores"
+	add outfitter "Advanced Core Pirates Cores"
+	add outfitter "Southern Pirates Cores"
+	add outfitter "Northern Pirates Cores"
+
+
+planet Caelian
+	add outfitter "Remnant Cores"
+
+
+planet Chiron
+	add outfitter "Basic Ships Cores"
+	add outfitter "Betelgeuse Basics Cores"
+	add outfitter "Betelgeuse Advanced Cores"
+	add outfitter "Tycho Crater Advanced Cores"
+
+
+planet "Chosen Nexus"
+	add outfitter "Coalition Basics Cores"
+	add outfitter "Arach Cores"
+	add outfitter "Kimek Cores"
+	add outfitter "Saryd Cores"
+
+
+planet Clark
+	add outfitter "Basic Ships Cores"
+
+
+planet Cloudfire
+	add outfitter "Imo Loo Mer Basics Cores"
+	add outfitter "Mon Ki i'Hiya Basics Cores"
+
+
+planet Covert
+	add outfitter "Southern Pirates Cores"
+	add outfitter "Core Pirates Cores"
+
+
+planet Darkcloak
+	add outfitter "Mon Ki o'Uden Advanced Cores"
+
+
+planet Delve
+	add outfitter "Basic Ships Cores"
+	add outfitter "Syndicate Basics Cores"
+
+
+planet Disara
+	add outfitter "Bunrodea Basic Cores"
+	add outfitter "Bunrodea Advanced Cores"
+
+
+planet "Dueitch Ae"
+	add outfitter "Scin Cargo Cores"
+
+
+planet "Dueyu Eitch"
+	add outfitter "Gegno Basic Cores"
+	add outfitter "Gegno Intermediate Cores"
+
+
+planet "Ef Aourtdye"
+	add outfitter "Gegno Intermediate Cores"
+
+
+planet Enbye
+	add outfitter "Vi Warships I Cores"
+	add outfitter "Vi Utility Cores"
+
+
+planet "Enn Bue"
+	add outfitter "Scin Cargo Cores"
+	add outfitter "Scin Warships Cores"
+
+
+planet Erabuthro
+	add outfitter "Bunrodea Basic Cores"
+	add outfitter "Bunrodea Advanced Cores"
+	add outfitter "Bunrodea Capital Cores"
+
+
+planet Eragarthro
+	add outfitter "Bunrodea Basic Cores"
+
+
+planet "Far Home"
+	add outfitter "Coalition Basics Cores"
+	add outfitter "Arach Cores"
+	add outfitter "Kimek Cores"
+	add outfitter "Saryd Cores"
+
+
+planet "Feo Platform"
+	add outfitter "Avgi Utility Ultralight Cores"
+	add outfitter "Twilight Guard Ultralight Cores"
+	add outfitter "Twilight Guard Light Cores"
+
+
+planet Follower
+	add outfitter "Betelgeuse Basics Cores"
+	add outfitter "Betelgeuse Advanced Cores"
+	add outfitter "Lionheart Basics Cores"
+
+
+planet Foundry
+	add outfitter "Basic Ships Cores"
+	add outfitter "Syndicate Basics Cores"
+	add outfitter "Syndicate Advanced Cores"
+	add outfitter "Megaparsec Basics Cores"
+	add outfitter "Megaparsec Advanced Cores"
+
+
+planet Freedom
+	add outfitter "Basic Ships Cores"
+	add outfitter "Northern Pirates Cores"
+	add outfitter "Betelgeuse Basics Cores"
+
+
+planet Geminus
+	add outfitter "Basic Ships Cores"
+	add outfitter "Navy Basics Cores"
+	add outfitter "Navy Advanced Cores"
+	add outfitter "Betelgeuse Basics Cores"
+	add outfitter "Lionheart Basics Cores"
+
+
+planet Giverstone
+	add outfitter "Imo Loo Mer Basics Cores"
+	add outfitter "Mon Ki i'Hiya Basics Cores"
+	add outfitter "Yeer e Ki Basics Cores"
+
+
+planet Glaze
+	add outfitter "Basic Ships Cores"
+	add outfitter "Southbound Basics Cores"
+
+
+planet Graede
+	add outfitter "Vi Cargo Cores"
+	add outfitter "Vi Warships I Cores"
+
+
+planet Greenrock
+	add outfitter "Core Pirates Cores"
+	add outfitter "Southern Pirates Cores"
+	add outfitter "Advanced Southern Pirates Cores"
+	add outfitter "Northern Pirates Cores"
+
+
+planet Greenwater
+	add outfitter "Imo Loo Mer Basics Cores"
+	add outfitter "Mon Ki i'Hiya Basics Cores"
+	add outfitter "Yeer e Ki Basics Cores"
+
+
+planet "Gue Faur"
+	add outfitter "Scin Utility Cores"
+
+
+planet Hai-home
+	add outfitter "Mon Ki i'Hiya Advanced Cores"
+	add outfitter "Mon Ki i'Hiya Basics Cores"
+	add outfitter "Imo Loo Mer Advanced Cores"
+	add outfitter "Imo Loo Mer Basics Cores"
+	add outfitter "Yeer e Ki Basics Cores"
+
+
+planet "Hammer of Debrugt"
+	add outfitter "Coalition Basics Cores"
+	add outfitter "Arach Cores"
+
+
+planet Haven
+	add outfitter "Core Pirates Cores"
+	add outfitter "Northern Pirates Cores"
+	add outfitter "Advanced Northern Pirates Cores"
+
+
+planet Haze
+	add outfitter "Lionheart Basics Cores"
+
+
+planet Heartvalley
+	add outfitter "Imo Loo Mer Basics Cores"
+	add outfitter "Mon Ki i'Hiya Basics Cores"
+
+
+planet Hephaestus
+	add outfitter "Basic Ships Cores"
+	add outfitter "Megaparsec Basics Cores"
+	add outfitter "Syndicate Basics Cores"
+	add outfitter "Syndicate Advanced Cores"
+
+
+planet Icelake
+	add outfitter "Imo Loo Mer Basics Cores"
+	add outfitter "Mon Ki i'Hiya Basics Cores"
+	add outfitter "Yeer e Ki Basics Cores"
+
+
+planet "Illbo Avo"
+	add outfitter "Bunrodea Basic Cores"
+	add outfitter "Bunrodea Advanced Cores"
+
+
+planet Jentuthro
+	add outfitter "Bunrodea Basic Cores"
+
+
+planet Kasii-Cavasaa-Oa
+	add outfitter "Successor Civilian Cores"
+	add outfitter "New Houses Light Cores"
+
+
+planet Kasii-Tuur-Saqru
+	add outfitter "People's Houses Cores"
+	add outfitter "Successor Basics Cores"
+
+
+planet Khora-Vasa-Reyyaa
+	add outfitter "High Houses Heavy Cores"
+	add outfitter "Successor Heavy Cores"
+
+
+planet "Ki Patek Ka"
+	add outfitter "Coalition Basics Cores"
+	add outfitter "Kimek Cores"
+
+
+planet Luna
+	add outfitter "Basic Ships Cores"
+	add outfitter "Navy Basics Cores"
+	add outfitter "Betelgeuse Basics Cores"
+	add outfitter "Syndicate Basics Cores"
+	add outfitter "Tycho Crater Advanced Cores"
+
+
+planet Mainsail
+	add outfitter "Basic Ships Cores"
+	add outfitter "Betelgeuse Basics Cores"
+	add outfitter "Luxury Ships Cores"
+
+
+planet Makerplace
+	add outfitter "Yeer e Ki Advanced Cores"
+	add outfitter "Yeer e Ki Basics Cores"
+	add outfitter "Imo Loo Mer Basics Cores"
+	add outfitter "Mon Ki i'Hiya Basics Cores"
+
+
+planet "Market of Gupta"
+	add outfitter "Coalition Basics Cores"
+	add outfitter "Arach Cores"
+
+
+planet Melenci
+	add outfitter "Bunrodea Basic Cores"
+
+
+planet Midgard
+	add outfitter "Basic Ships Cores"
+	add outfitter "Lionheart Basics Cores"
+	add outfitter "Lionheart Advanced Cores"
+
+
+planet "Midway Emerald"
+	add outfitter "Coalition Basics Cores"
+
+
+planet Mordente-Bridi
+	add outfitter "Advanced Southern Pirates Cores"
+	add outfitter "Betelgeuse Advanced Cores"
+	add outfitter "Betelgeuse Basics Cores"
+	add outfitter "Southern Pirates Cores"
+
+
+planet "Navigeo Yards"
+	add outfitter "Avgi Utility Ultralight Cores"
+	add outfitter "Avgi Militia Cores"
+	add outfitter "Avgi Research Cores"
+	add outfitter "Twilight Guard Ultralight Cores"
+	add outfitter "Twilight Guard Light Cores"
+	add outfitter "Twilight Guard Heavy Cores"
+
+
+planet "New Boston"
+	add outfitter "Basic Ships Cores"
+
+
+planet "New Britain"
+	add outfitter "Basic Ships Cores"
+	add outfitter "Tarazed Basics Cores"
+
+
+planet "New Tortuga"
+	add outfitter "Basic Ships Cores"
+	add outfitter "Core Pirates Cores"
+	add outfitter "Advanced Core Pirates Cores"
+	add outfitter "Southern Pirates Cores"
+	add outfitter "Northern Pirates Cores"
+	add outfitter "Megaparsec Basics Cores"
+
+
+planet Norn
+	add outfitter "Lionheart Basics Cores"
+
+
+planet O-Vasa-Oa
+	add outfitter "New Houses Light Cores"
+	add outfitter "High Houses Heavy Cores"
+	add outfitter "Successor Heavy Cores"
+
+
+planet Okoity
+	add outfitter "Bunrodea Basic Cores"
+
+
+planet "Outpost Enka"
+	add outfitter "Avgi Solar Light Cores"
+	add outfitter "Avgi Solar Heavy Cores"
+	add outfitter "Avgi Utility Ultralight Cores"
+	add outfitter "Avgi Utility Light Cores"
+	add outfitter "Avgi Militia Cores"
+	add outfitter "Avgi Research Cores"
+
+
+planet "Outpost Tekis"
+	add outfitter "Avgi Solar Light Cores"
+	add outfitter "Avgi Solar Heavy Cores"
+	add outfitter "Avgi Utility Ultralight Cores"
+	add outfitter "Avgi Utility Light Cores"
+	add outfitter "Avgi Utility Heavy Cores"
+	add outfitter "Avgi Militia Cores"
+
+
+planet Peripheria
+	add outfitter "Avgi Solar Light Cores"
+	add outfitter "Avgi Solar Heavy Cores"
+	add outfitter "Avgi Utility Ultralight Cores"
+	add outfitter "Avgi Utility Light Cores"
+	add outfitter "Avgi Research Cores"
+	add outfitter "Twilight Guard Ultralight Cores"
+
+
+planet Pon'tes
+	add outfitter "Hicemus Cores"
+
+
+planet Prime
+	add outfitter "Betelgeuse Basics Cores"
+	add outfitter "Betelgeuse Advanced Cores"
+	add outfitter "Navy Basics Cores"
+	add outfitter "Megaparsec Basics Cores"
+
+
+planet Raaqa-Puan-Uuoru
+	add outfitter "High Houses Light Cores"
+	add outfitter "New Houses Light Cores"
+	add outfitter "Successor Basics Cores"
+
+
+planet "Remote Blue"
+	add outfitter "Kimek Cores"
+
+
+planet Reunion
+	add outfitter "Basic Ships Cores"
+	add outfitter "Syndicate Basics Cores"
+	add outfitter "Megaparsec Basics Cores"
+	add outfitter "Tycho Crater Advanced Cores"
+
+
+planet Rust
+	add outfitter "Basic Ships Cores"
+	add outfitter "Southbound Basics Cores"
+	add outfitter "Southbound Advanced Cores"
+
+
+planet "Rusty Second"
+	add outfitter "Coalition Basics Cores"
+
+
+planet Saros
+	add outfitter "Coalition Basics Cores"
+	add outfitter "Saryd Cores"
+
+
+planet Shangri-La
+	add outfitter "Syndicate Basics Cores"
+	add outfitter "Megaparsec Basics Cores"
+
+
+planet Shroud
+	add outfitter "Luxury Ships Cores"
+
+
+planet "Smuggler's Den"
+	add outfitter "Southern Pirates Cores"
+	add outfitter "Advanced Southern Pirates Cores"
+	add outfitter "Core Pirates Cores"
+	add outfitter "Advanced Core Pirates Cores"
+
+
+planet Sopoyra
+	add outfitter "Bunrodea Basic Cores"
+
+
+planet "Starting Rubin"
+	add outfitter "Kimek Cores"
+
+
+planet Stonebreak
+	add outfitter "Imo Loo Mer Advanced Cores"
+	add outfitter "Imo Loo Mer Basics Cores"
+	add outfitter "Mon Ki i'Hiya Basics Cores"
+	add outfitter "Yeer e Ki Basics Cores"
+
+
+planet Sunracer
+	add outfitter "Basic Ships Cores"
+	add outfitter "Syndicate Basics Cores"
+	add outfitter "Megaparsec Basics Cores"
+	add outfitter "Megaparsec Advanced Cores"
+
+
+planet Tinker
+	add outfitter "Basic Ships Cores"
+	add outfitter "Syndicate Basics Cores"
+	add outfitter "Megaparsec Basics Cores"
+
+
+planet Tuur-Aasa-Kaska
+	add outfitter "Successor Basics Cores"
+
+
+planet Valhalla
+	add outfitter "Basic Ships Cores"
+	add outfitter "Lionheart Basics Cores"
+	add outfitter "Lionheart Advanced Cores"
+	add outfitter "Betelgeuse Basics Cores"
+
+
+planet "Var' Kar'i'i"
+	add outfitter "Wanderer Basics Cores"
+
+
+planet "Var' Kayi"
+	add outfitter "Wanderer Advanced Cores"
+
+
+planet "Vara Rakak"
+	add outfitter "Wanderer Basics Cores"
+
+
+planet "Varu K'est"
+	add outfitter "Wanderer Basics Cores"
+
+
+planet "Varu Mer'ek"
+	add outfitter "Wanderer Advanced Cores"
+
+
+planet Viminal
+	add outfitter "Remnant Cores"
+
+
+planet Wayfarer
+	add outfitter "Basic Ships Cores"
+	add outfitter "Tarazed Basics Cores"
+	add outfitter "Tarazed Advanced Cores"
+	add outfitter "Southbound Basics Cores"
+
+
+planet Yoqqa-Vasa-Vasa
+	add outfitter "New Houses Light Cores"
+	add outfitter "High Houses Heavy Cores"
+	add outfitter "Successor Civilian Cores"
+
+
+planet Zug
+	add outfitter "Basic Ships Cores"
+	add outfitter "Southbound Basics Cores"
+	add outfitter "Southbound Advanced Cores"
+
+
