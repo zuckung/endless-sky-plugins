@@ -74,6 +74,12 @@ def filter_jobs(objs, mission_blacklist):
 				if '\tcargo' in obj and not '\tpassengers' in obj:
 					cargojobs.append(obj)
 				elif '\tpassengers' in obj and not '\tcargo' in obj:
+					# get passengers line
+					pos1 = obj.find('\tpassengers ')
+					pos2 = obj.find('\n', pos1)
+					passengerline = obj[pos1:pos2].strip()
+					if passengerline == 'passengers 1':
+						continue
 					passengerjobs.append(obj)
 	print('\t', len(cargojobs), ' cargo jobs found')
 	print('\t', len(passengerjobs), ' passenger jobs found')
