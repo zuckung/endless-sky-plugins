@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-06-30 | update: mission.helper<br>
 2026-06-30 | update: heavy.traffic<br>
 2026-06-30 | update: fleet.mercy<br>
 2026-06-30 | update: ship.cores<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-06-01 | update: uniques<br>
 2026-05-25 | update: fleet.mercy<br>
 2026-05-25 | update: hai.side.mission.unlocker<br>
-2026-05-22 | update: fleet.mercy<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4306,10 +4306,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/mission.helper.png" width="130" height="20">
 <img src="myplugins/mission.helper/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.11-mission.helper/mission.helper.zip) 
-<img src="https://img.shields.io/badge/v1.0.11-707070"> 
-<img src="https://img.shields.io/badge/156.56_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--04--28-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.12-mission.helper/mission.helper.zip) 
+<img src="https://img.shields.io/badge/v1.0.12-707070"> 
+<img src="https://img.shields.io/badge/156.74_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--06--30-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=mission.helper-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/)
 [<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/mission.helper.md)<br>
@@ -4338,6 +4338,12 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-07-01<br>
+
+updated missions to 0.11.2<br>
 
 <br>
 
