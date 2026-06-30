@@ -9,6 +9,9 @@ Fleets that already use this personality remain unchanged. Certain special fleet
 <br>
 Changelog:<br>
 <br>
+2026-06-30<br>
+updated to 0.11.2<br>
+<br>
 2026-05-25<br>
 changed fleet definition for other plugin compatibility<br>
 <br>

@@ -1,7 +1,7 @@
-# fleets found: 223
+# fleets found: 222
 # fleets with "disables": 41
 # blacklisted fleets: 4
-# fleets changed: 178
+# fleets changed: 177
 
 
 fleet "Avgi Core Defense"
@@ -464,13 +464,6 @@ fleet "Large Core Pirates"
 fleet "Large Northern Pirates"
 	personality
 		plunders harvests getaway disables
-
-
-fleet "pirate explosive"
-	personality
-		nemesis plunders harvests
-		confusion 20
-		disables
 
 
 fleet "Syndicate Extremists"
