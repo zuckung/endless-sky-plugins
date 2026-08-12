@@ -1,4 +1,4 @@
-# mission "jump gates announcement" 3014 11 16 or 1 month after pluginstart
+# mission "jump gates announcement" 3014 11 16 or 1 year after pluginstart
 # mission "jump gates building 0" 14 days later
 # mission "jump gates building 25" 1 month later
 # mission "jump gates building 50" 1 month later
@@ -29,6 +29,7 @@
 # government "Jump Gates"
 
 
+# Jump gates building process
 
 mission "jump gates announcement"
 	invisible
@@ -36,9 +37,23 @@ mission "jump gates announcement"
 	source
 		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
 	to offer
+		has "visited system: Naos"
+		has "visited system: Spica"
+		has "visited system: Alniyat"
+		has "visited system: Tarazed"
+		has "visited system: Sheratan"
+		has "visited system: Alnitak"
+		or
+			not "event: war begins"
+			and
+				has "event: fw tarazed republic"
+				"days since start" - "event: fw tarazed republic" > 60
+		or
+			not "wanderers: found the sestor fleet"
+			has "wanderers: scattered remnant: alnitak clear"
 		or
 			has "event: jump gate research"
-			"days since start" > 30
+			"days since start" > 365
 	on offer
 		event "wait for start" 14
 		conversation
@@ -59,6 +74,14 @@ mission "jump gates building 0"
 		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
 	to offer
 		has "event: wait for start"
+		or
+			not "event: war begins"
+			and
+				has "event: fw tarazed republic"
+				"days since start" - "event: fw tarazed republic" > 60
+		or
+			not "wanderers: found the sestor fleet"
+			has "wanderers: scattered remnant: alnitak clear"
 	on offer
 		event "wait for 25" 30
 		conversation
@@ -76,6 +99,14 @@ mission "jump gates building 25"
 		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
 	to offer
 		has "event: wait for 25"
+		or
+			not "event: war begins"
+			and
+				has "event: fw tarazed republic"
+				"days since start" - "event: fw tarazed republic" > 60
+		or
+			not "wanderers: found the sestor fleet"
+			has "wanderers: scattered remnant: alnitak clear"
 	on offer
 		event "wait for 50" 30
 		conversation
@@ -93,6 +124,14 @@ mission "jump gates building 50"
 		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
 	to offer
 		has "event: wait for 50"
+		or
+			not "event: war begins"
+			and
+				has "event: fw tarazed republic"
+				"days since start" - "event: fw tarazed republic" > 60
+		or
+			not "wanderers: found the sestor fleet"
+			has "wanderers: scattered remnant: alnitak clear"
 	on offer
 		event "wait for 75" 30
 		conversation
@@ -110,6 +149,14 @@ mission "jump gates building 75"
 		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
 	to offer
 		has "event: wait for 75"
+		or
+			not "event: war begins"
+			and
+				has "event: fw tarazed republic"
+				"days since start" - "event: fw tarazed republic" > 60
+		or
+			not "wanderers: found the sestor fleet"
+			has "wanderers: scattered remnant: alnitak clear"
 	on offer
 		event "wait for 99" 30
 		conversation
@@ -129,6 +176,14 @@ mission "jump gates building 99"
 		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
 	to offer
 		has "event: wait for 99"
+		or
+			not "event: war begins"
+			and
+				has "event: fw tarazed republic"
+				"days since start" - "event: fw tarazed republic" > 60
+		or
+			not "wanderers: found the sestor fleet"
+			has "wanderers: scattered remnant: alnitak clear"
 	on offer
 		event "wait for active" 30
 		conversation
@@ -139,8 +194,6 @@ mission "jump gates building 99"
 				decline
 
 
-
-
 mission "jump gates done"
 	invisible
 	landing
@@ -148,6 +201,14 @@ mission "jump gates done"
 		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Pirate"
 	to offer
 		has "event: wait for active"
+		or
+			not "event: war begins"
+			and
+				has "event: fw tarazed republic"
+				"days since start" - "event: fw tarazed republic" > 60
+		or
+			not "wanderers: found the sestor fleet"
+			has "wanderers: scattered remnant: alnitak clear"
 	on offer
 		conversation
 			scene "scene/holonews_100"
@@ -323,8 +384,7 @@ event "jump gates compatibility fix"
 
 
 event "jump gate research"
-	date 16 12 3013
-
+	date 16 11 3014
 
 event "wait for start"
 
