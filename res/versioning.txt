@@ -23,7 +23,7 @@ gegno.pirates|1.0.6
 hai.side.mission.unlocker|1.1.8
 heavy.traffic|1.0.2
 highrollers.ltd|1.0.2
-human.labels|1.0.7
+human.labels|1.0.8
 job.coloring|1.0.4
 jump.gates|1.0.4
 kestrel.unlocks|1.0.1

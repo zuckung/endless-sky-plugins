@@ -16,6 +16,8 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-08-13 | update: human.labels<br>
+2026-08-01 | Hooray! 50 stars!<br>
 2026-07-10 | update: disable.spaceport.repeatables<br>
 2026-07-09 | update: ship.cores<br>
 2026-07-08 | update: galactic.capital.investment<br>
@@ -24,8 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-06-30 | update: mission.helper<br>
 2026-06-30 | update: heavy.traffic<br>
 2026-06-30 | update: fleet.mercy<br>
-2026-06-30 | update: ship.cores<br>
-2026-06-09 | update: combat.ai<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -3427,15 +3427,15 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/human.labels.png" width="130" height="20">
 <img src="myplugins/human.labels/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-human.labels/human.labels.zip) 
-<img src="https://img.shields.io/badge/v1.0.7-707070"> 
-<img src="https://img.shields.io/badge/2.01_mb-707070"> 
-<img src="https://img.shields.io/badge/2025--06--21-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-human.labels/human.labels.zip) 
+<img src="https://img.shields.io/badge/v1.0.8-707070"> 
+<img src="https://img.shields.io/badge/2.33_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--08--13-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=human.labels-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/human.labels/)
-[<img src="https://img.shields.io/badge/view_images_[411]-707070">](res/imagemd/human.labels.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[541]-707070">](res/imagemd/human.labels.md)<br>
 
->Reworks the Human area labels and adds area borders. See the README for details.
+>Reworks the area labels and adds Human area borders. See the README for details.
 
 <details>
 <summary>show README</summary>
@@ -3458,9 +3458,29 @@ On Earth's job board you can find a mission to change the color of the labels (l
 
 <br>
 
+In case you want to add a new set of labels, with its own color and font, feel free to send it to me. Doing that you have to keep the filenames and resolution of the 48 images.<br>
+
+<br>
+
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-08-13<br>
+
+added 3 new label styles<br>
+
+undiscovered labels stay hidden now<br>
+
+activate/deactivate the human area borders<br>
+
+better revert back to vanilla labels<br>
+
+instant labelchange while inside the job conversation<br>
+
+using a python script now, to easily add new style sets<br>
 
 <br>
 

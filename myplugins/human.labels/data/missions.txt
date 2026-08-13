@@ -1,0 +1,3733 @@
+# colors
+# mission "Map Labels and Borders"
+# mission "Map Labels and Borders Control Station"
+# 121 recolor-on-area-discovery missions
+
+
+
+color "human.labels job: selected" 0. .7 1. 0.
+color "human.labels job: unselected" .3 .5 .8 0.
+
+
+mission "Map Labels and Borders"
+	name "(Map Labels and Borders)"
+	color selected "human.labels job: selected"
+	color unselected "human.labels job: unselected"
+	job
+	repeat
+	description "Changes the color and style of the map area labels."
+	source "Earth"
+	to offer
+		not "installed plugin: control.station"
+	on accept
+		conversation
+			label "start"			scene "scene/colors"
+			`Choose a style for the map area labels:`
+			choice
+				`	blue`
+					goto "blue"
+				`	darkgray`
+					goto "darkgray"
+				`	gray`
+					goto "gray"
+				`	green`
+					goto "green"
+				`	orange`
+					goto "orange"
+				`	purple`
+					goto "purple"
+				`	red`
+					goto "red"
+				`	yellow`
+					goto "yellow"
+				`	AsteraWhite`
+					goto "AsteraWhite"
+				`	StarWars`
+					goto "StarWars"
+				`	VerminRed`
+					goto "VerminRed"
+				`	revert back to original labels`
+					goto "original"
+				`	activate the human area borders`
+					to display
+						"borders" == 0
+					goto "activate borders"
+				`	deactivate the human area borders`
+					to display
+						"borders" == 1
+					goto "deactivate borders"
+				`	done`
+					goto end
+			# blue
+			label "blue"
+			action
+				"label color" = 1
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change blue" 0
+			label "blue Avgi"
+			branch "blue Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change blue avgi" 0
+			label "blue Coalition"
+			branch "blue Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change blue coalition" 0
+			label "blue Gegno"
+			branch "blue Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change blue gegno" 0
+			label "blue Hai"
+			branch "blue Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change blue hai" 0
+			label "blue Incipias"
+			branch "blue Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change blue incipias" 0
+			label "blue Graveyard"
+			branch "blue Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change blue graveyard" 0
+			label "blue Korath"
+			branch "blue Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change blue korath" 0
+			label "blue Remnant"
+			branch "blue Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change blue waste" 0
+			label "blue Umbral"
+			branch "blue Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change blue umbral" 0
+			label "blue Successors"
+			branch "blue Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change blue successors" 0
+			label "blue Wanderer"
+			branch "blue Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change blue wanderers" 0
+			label "blue Bunrodea"
+			branch "blue finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change blue bunrodea" 0
+			label "blue finish"
+			`Label color and style changed to "blue"!`
+				goto start
+			# darkgray
+			label "darkgray"
+			action
+				"label color" = 2
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change darkgray" 0
+			label "darkgray Avgi"
+			branch "darkgray Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change darkgray avgi" 0
+			label "darkgray Coalition"
+			branch "darkgray Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change darkgray coalition" 0
+			label "darkgray Gegno"
+			branch "darkgray Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change darkgray gegno" 0
+			label "darkgray Hai"
+			branch "darkgray Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change darkgray hai" 0
+			label "darkgray Incipias"
+			branch "darkgray Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change darkgray incipias" 0
+			label "darkgray Graveyard"
+			branch "darkgray Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change darkgray graveyard" 0
+			label "darkgray Korath"
+			branch "darkgray Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change darkgray korath" 0
+			label "darkgray Remnant"
+			branch "darkgray Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change darkgray waste" 0
+			label "darkgray Umbral"
+			branch "darkgray Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change darkgray umbral" 0
+			label "darkgray Successors"
+			branch "darkgray Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change darkgray successors" 0
+			label "darkgray Wanderer"
+			branch "darkgray Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change darkgray wanderers" 0
+			label "darkgray Bunrodea"
+			branch "darkgray finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change darkgray bunrodea" 0
+			label "darkgray finish"
+			`Label color and style changed to "darkgray"!`
+				goto start
+			# gray
+			label "gray"
+			action
+				"label color" = 3
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change gray" 0
+			label "gray Avgi"
+			branch "gray Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change gray avgi" 0
+			label "gray Coalition"
+			branch "gray Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change gray coalition" 0
+			label "gray Gegno"
+			branch "gray Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change gray gegno" 0
+			label "gray Hai"
+			branch "gray Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change gray hai" 0
+			label "gray Incipias"
+			branch "gray Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change gray incipias" 0
+			label "gray Graveyard"
+			branch "gray Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change gray graveyard" 0
+			label "gray Korath"
+			branch "gray Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change gray korath" 0
+			label "gray Remnant"
+			branch "gray Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change gray waste" 0
+			label "gray Umbral"
+			branch "gray Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change gray umbral" 0
+			label "gray Successors"
+			branch "gray Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change gray successors" 0
+			label "gray Wanderer"
+			branch "gray Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change gray wanderers" 0
+			label "gray Bunrodea"
+			branch "gray finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change gray bunrodea" 0
+			label "gray finish"
+			`Label color and style changed to "gray"!`
+				goto start
+			# green
+			label "green"
+			action
+				"label color" = 4
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change green" 0
+			label "green Avgi"
+			branch "green Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change green avgi" 0
+			label "green Coalition"
+			branch "green Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change green coalition" 0
+			label "green Gegno"
+			branch "green Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change green gegno" 0
+			label "green Hai"
+			branch "green Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change green hai" 0
+			label "green Incipias"
+			branch "green Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change green incipias" 0
+			label "green Graveyard"
+			branch "green Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change green graveyard" 0
+			label "green Korath"
+			branch "green Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change green korath" 0
+			label "green Remnant"
+			branch "green Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change green waste" 0
+			label "green Umbral"
+			branch "green Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change green umbral" 0
+			label "green Successors"
+			branch "green Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change green successors" 0
+			label "green Wanderer"
+			branch "green Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change green wanderers" 0
+			label "green Bunrodea"
+			branch "green finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change green bunrodea" 0
+			label "green finish"
+			`Label color and style changed to "green"!`
+				goto start
+			# orange
+			label "orange"
+			action
+				"label color" = 5
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change orange" 0
+			label "orange Avgi"
+			branch "orange Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change orange avgi" 0
+			label "orange Coalition"
+			branch "orange Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change orange coalition" 0
+			label "orange Gegno"
+			branch "orange Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change orange gegno" 0
+			label "orange Hai"
+			branch "orange Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change orange hai" 0
+			label "orange Incipias"
+			branch "orange Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change orange incipias" 0
+			label "orange Graveyard"
+			branch "orange Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change orange graveyard" 0
+			label "orange Korath"
+			branch "orange Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change orange korath" 0
+			label "orange Remnant"
+			branch "orange Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change orange waste" 0
+			label "orange Umbral"
+			branch "orange Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change orange umbral" 0
+			label "orange Successors"
+			branch "orange Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change orange successors" 0
+			label "orange Wanderer"
+			branch "orange Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change orange wanderers" 0
+			label "orange Bunrodea"
+			branch "orange finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change orange bunrodea" 0
+			label "orange finish"
+			`Label color and style changed to "orange"!`
+				goto start
+			# purple
+			label "purple"
+			action
+				"label color" = 6
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change purple" 0
+			label "purple Avgi"
+			branch "purple Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change purple avgi" 0
+			label "purple Coalition"
+			branch "purple Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change purple coalition" 0
+			label "purple Gegno"
+			branch "purple Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change purple gegno" 0
+			label "purple Hai"
+			branch "purple Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change purple hai" 0
+			label "purple Incipias"
+			branch "purple Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change purple incipias" 0
+			label "purple Graveyard"
+			branch "purple Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change purple graveyard" 0
+			label "purple Korath"
+			branch "purple Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change purple korath" 0
+			label "purple Remnant"
+			branch "purple Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change purple waste" 0
+			label "purple Umbral"
+			branch "purple Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change purple umbral" 0
+			label "purple Successors"
+			branch "purple Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change purple successors" 0
+			label "purple Wanderer"
+			branch "purple Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change purple wanderers" 0
+			label "purple Bunrodea"
+			branch "purple finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change purple bunrodea" 0
+			label "purple finish"
+			`Label color and style changed to "purple"!`
+				goto start
+			# red
+			label "red"
+			action
+				"label color" = 7
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change red" 0
+			label "red Avgi"
+			branch "red Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change red avgi" 0
+			label "red Coalition"
+			branch "red Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change red coalition" 0
+			label "red Gegno"
+			branch "red Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change red gegno" 0
+			label "red Hai"
+			branch "red Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change red hai" 0
+			label "red Incipias"
+			branch "red Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change red incipias" 0
+			label "red Graveyard"
+			branch "red Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change red graveyard" 0
+			label "red Korath"
+			branch "red Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change red korath" 0
+			label "red Remnant"
+			branch "red Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change red waste" 0
+			label "red Umbral"
+			branch "red Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change red umbral" 0
+			label "red Successors"
+			branch "red Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change red successors" 0
+			label "red Wanderer"
+			branch "red Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change red wanderers" 0
+			label "red Bunrodea"
+			branch "red finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change red bunrodea" 0
+			label "red finish"
+			`Label color and style changed to "red"!`
+				goto start
+			# yellow
+			label "yellow"
+			action
+				"label color" = 8
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change yellow" 0
+			label "yellow Avgi"
+			branch "yellow Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change yellow avgi" 0
+			label "yellow Coalition"
+			branch "yellow Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change yellow coalition" 0
+			label "yellow Gegno"
+			branch "yellow Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change yellow gegno" 0
+			label "yellow Hai"
+			branch "yellow Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change yellow hai" 0
+			label "yellow Incipias"
+			branch "yellow Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change yellow incipias" 0
+			label "yellow Graveyard"
+			branch "yellow Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change yellow graveyard" 0
+			label "yellow Korath"
+			branch "yellow Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change yellow korath" 0
+			label "yellow Remnant"
+			branch "yellow Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change yellow waste" 0
+			label "yellow Umbral"
+			branch "yellow Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change yellow umbral" 0
+			label "yellow Successors"
+			branch "yellow Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change yellow successors" 0
+			label "yellow Wanderer"
+			branch "yellow Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change yellow wanderers" 0
+			label "yellow Bunrodea"
+			branch "yellow finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change yellow bunrodea" 0
+			label "yellow finish"
+			`Label color and style changed to "yellow"!`
+				goto start
+			# AsteraWhite
+			label "AsteraWhite"
+			action
+				"label color" = 9
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change AsteraWhite" 0
+			label "AsteraWhite Avgi"
+			branch "AsteraWhite Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change AsteraWhite avgi" 0
+			label "AsteraWhite Coalition"
+			branch "AsteraWhite Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change AsteraWhite coalition" 0
+			label "AsteraWhite Gegno"
+			branch "AsteraWhite Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change AsteraWhite gegno" 0
+			label "AsteraWhite Hai"
+			branch "AsteraWhite Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change AsteraWhite hai" 0
+			label "AsteraWhite Incipias"
+			branch "AsteraWhite Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change AsteraWhite incipias" 0
+			label "AsteraWhite Graveyard"
+			branch "AsteraWhite Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change AsteraWhite graveyard" 0
+			label "AsteraWhite Korath"
+			branch "AsteraWhite Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change AsteraWhite korath" 0
+			label "AsteraWhite Remnant"
+			branch "AsteraWhite Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change AsteraWhite waste" 0
+			label "AsteraWhite Umbral"
+			branch "AsteraWhite Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change AsteraWhite umbral" 0
+			label "AsteraWhite Successors"
+			branch "AsteraWhite Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change AsteraWhite successors" 0
+			label "AsteraWhite Wanderer"
+			branch "AsteraWhite Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change AsteraWhite wanderers" 0
+			label "AsteraWhite Bunrodea"
+			branch "AsteraWhite finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change AsteraWhite bunrodea" 0
+			label "AsteraWhite finish"
+			`Label color and style changed to "AsteraWhite"!`
+				goto start
+			# StarWars
+			label "StarWars"
+			action
+				"label color" = 10
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change StarWars" 0
+			label "StarWars Avgi"
+			branch "StarWars Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change StarWars avgi" 0
+			label "StarWars Coalition"
+			branch "StarWars Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change StarWars coalition" 0
+			label "StarWars Gegno"
+			branch "StarWars Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change StarWars gegno" 0
+			label "StarWars Hai"
+			branch "StarWars Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change StarWars hai" 0
+			label "StarWars Incipias"
+			branch "StarWars Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change StarWars incipias" 0
+			label "StarWars Graveyard"
+			branch "StarWars Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change StarWars graveyard" 0
+			label "StarWars Korath"
+			branch "StarWars Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change StarWars korath" 0
+			label "StarWars Remnant"
+			branch "StarWars Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change StarWars waste" 0
+			label "StarWars Umbral"
+			branch "StarWars Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change StarWars umbral" 0
+			label "StarWars Successors"
+			branch "StarWars Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change StarWars successors" 0
+			label "StarWars Wanderer"
+			branch "StarWars Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change StarWars wanderers" 0
+			label "StarWars Bunrodea"
+			branch "StarWars finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change StarWars bunrodea" 0
+			label "StarWars finish"
+			`Label color and style changed to "StarWars"!`
+				goto start
+			# VerminRed
+			label "VerminRed"
+			action
+				"label color" = 11
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change VerminRed" 0
+			label "VerminRed Avgi"
+			branch "VerminRed Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change VerminRed avgi" 0
+			label "VerminRed Coalition"
+			branch "VerminRed Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change VerminRed coalition" 0
+			label "VerminRed Gegno"
+			branch "VerminRed Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change VerminRed gegno" 0
+			label "VerminRed Hai"
+			branch "VerminRed Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change VerminRed hai" 0
+			label "VerminRed Incipias"
+			branch "VerminRed Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change VerminRed incipias" 0
+			label "VerminRed Graveyard"
+			branch "VerminRed Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change VerminRed graveyard" 0
+			label "VerminRed Korath"
+			branch "VerminRed Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change VerminRed korath" 0
+			label "VerminRed Remnant"
+			branch "VerminRed Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change VerminRed waste" 0
+			label "VerminRed Umbral"
+			branch "VerminRed Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change VerminRed umbral" 0
+			label "VerminRed Successors"
+			branch "VerminRed Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change VerminRed successors" 0
+			label "VerminRed Wanderer"
+			branch "VerminRed Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change VerminRed wanderers" 0
+			label "VerminRed Bunrodea"
+			branch "VerminRed finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change VerminRed bunrodea" 0
+			label "VerminRed finish"
+			`Label color and style changed to "VerminRed"!`
+				goto start
+			label "activate borders"
+			action
+				"borders" = 1
+				event "activate borders" 0
+			`Area borders are visible now!`
+				goto "start"
+			label "deactivate borders"
+			action
+				"borders" = 0
+				event "deactivate borders" 0
+			`Area borders are visible now!`
+				goto "start"
+			# original
+			label "original"
+			action
+				"label color" = 0
+				event "change original" 0
+			label "original Avgi"
+			branch "original Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change original avgi" 0
+			label "original Coalition"
+			branch "original Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change original coalition" 0
+			label "original Gegno"
+			branch "original Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change original gegno" 0
+			label "original Hai"
+			branch "original Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change original hai" 0
+			label "original Incipias"
+			branch "original Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change original incipias" 0
+			label "original Graveyard"
+			branch "original Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change original graveyard" 0
+			label "original Korath"
+			branch "original Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change original korath" 0
+			label "original Remnant"
+			branch "original Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change original waste" 0
+			label "original Umbral"
+			branch "original Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change original umbral" 0
+			label "original Successors"
+			branch "original Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change original successors" 0
+			label "original Wanderer"
+			branch "original Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change original wanderers" 0
+			label "original Bunrodea"
+			branch "original finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change original bunrodea" 0
+			label "original finish"
+			`Label color and style changed back to original!`
+				goto start
+			label end
+			`Thanks for using this plugin :)`
+		fail
+
+
+mission "Map Labels and Borders Control Station"
+	name "[4] plugin: human.labels"
+	color selected "human.labels job: selected"
+	color unselected "human.labels job: unselected"
+	job
+	repeat
+	description "Changes the color and style of the map area labels."
+	source "Control Station"
+	to offer
+		has "installed plugin: control.station"
+	on accept
+		conversation
+			label "start"			scene "scene/colors"
+			`Choose a style for the map area labels:`
+			choice
+				`	blue`
+					goto "blue"
+				`	darkgray`
+					goto "darkgray"
+				`	gray`
+					goto "gray"
+				`	green`
+					goto "green"
+				`	orange`
+					goto "orange"
+				`	purple`
+					goto "purple"
+				`	red`
+					goto "red"
+				`	yellow`
+					goto "yellow"
+				`	AsteraWhite`
+					goto "AsteraWhite"
+				`	StarWars`
+					goto "StarWars"
+				`	VerminRed`
+					goto "VerminRed"
+				`	revert back to original labels`
+					goto "original"
+				`	activate the human area borders`
+					to display
+						"borders" == 0
+					goto "activate borders"
+				`	deactivate the human area borders`
+					to display
+						"borders" == 1
+					goto "deactivate borders"
+				`	done`
+					goto end
+			# blue
+			label "blue"
+			action
+				"label color" = 1
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change blue" 0
+			label "blue Avgi"
+			branch "blue Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change blue avgi" 0
+			label "blue Coalition"
+			branch "blue Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change blue coalition" 0
+			label "blue Gegno"
+			branch "blue Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change blue gegno" 0
+			label "blue Hai"
+			branch "blue Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change blue hai" 0
+			label "blue Incipias"
+			branch "blue Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change blue incipias" 0
+			label "blue Graveyard"
+			branch "blue Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change blue graveyard" 0
+			label "blue Korath"
+			branch "blue Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change blue korath" 0
+			label "blue Remnant"
+			branch "blue Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change blue waste" 0
+			label "blue Umbral"
+			branch "blue Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change blue umbral" 0
+			label "blue Successors"
+			branch "blue Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change blue successors" 0
+			label "blue Wanderer"
+			branch "blue Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change blue wanderers" 0
+			label "blue Bunrodea"
+			branch "blue finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change blue bunrodea" 0
+			label "blue finish"
+			`Label color and style changed to "blue"!`
+				goto start
+			# darkgray
+			label "darkgray"
+			action
+				"label color" = 2
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change darkgray" 0
+			label "darkgray Avgi"
+			branch "darkgray Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change darkgray avgi" 0
+			label "darkgray Coalition"
+			branch "darkgray Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change darkgray coalition" 0
+			label "darkgray Gegno"
+			branch "darkgray Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change darkgray gegno" 0
+			label "darkgray Hai"
+			branch "darkgray Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change darkgray hai" 0
+			label "darkgray Incipias"
+			branch "darkgray Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change darkgray incipias" 0
+			label "darkgray Graveyard"
+			branch "darkgray Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change darkgray graveyard" 0
+			label "darkgray Korath"
+			branch "darkgray Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change darkgray korath" 0
+			label "darkgray Remnant"
+			branch "darkgray Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change darkgray waste" 0
+			label "darkgray Umbral"
+			branch "darkgray Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change darkgray umbral" 0
+			label "darkgray Successors"
+			branch "darkgray Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change darkgray successors" 0
+			label "darkgray Wanderer"
+			branch "darkgray Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change darkgray wanderers" 0
+			label "darkgray Bunrodea"
+			branch "darkgray finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change darkgray bunrodea" 0
+			label "darkgray finish"
+			`Label color and style changed to "darkgray"!`
+				goto start
+			# gray
+			label "gray"
+			action
+				"label color" = 3
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change gray" 0
+			label "gray Avgi"
+			branch "gray Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change gray avgi" 0
+			label "gray Coalition"
+			branch "gray Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change gray coalition" 0
+			label "gray Gegno"
+			branch "gray Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change gray gegno" 0
+			label "gray Hai"
+			branch "gray Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change gray hai" 0
+			label "gray Incipias"
+			branch "gray Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change gray incipias" 0
+			label "gray Graveyard"
+			branch "gray Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change gray graveyard" 0
+			label "gray Korath"
+			branch "gray Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change gray korath" 0
+			label "gray Remnant"
+			branch "gray Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change gray waste" 0
+			label "gray Umbral"
+			branch "gray Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change gray umbral" 0
+			label "gray Successors"
+			branch "gray Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change gray successors" 0
+			label "gray Wanderer"
+			branch "gray Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change gray wanderers" 0
+			label "gray Bunrodea"
+			branch "gray finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change gray bunrodea" 0
+			label "gray finish"
+			`Label color and style changed to "gray"!`
+				goto start
+			# green
+			label "green"
+			action
+				"label color" = 4
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change green" 0
+			label "green Avgi"
+			branch "green Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change green avgi" 0
+			label "green Coalition"
+			branch "green Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change green coalition" 0
+			label "green Gegno"
+			branch "green Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change green gegno" 0
+			label "green Hai"
+			branch "green Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change green hai" 0
+			label "green Incipias"
+			branch "green Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change green incipias" 0
+			label "green Graveyard"
+			branch "green Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change green graveyard" 0
+			label "green Korath"
+			branch "green Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change green korath" 0
+			label "green Remnant"
+			branch "green Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change green waste" 0
+			label "green Umbral"
+			branch "green Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change green umbral" 0
+			label "green Successors"
+			branch "green Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change green successors" 0
+			label "green Wanderer"
+			branch "green Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change green wanderers" 0
+			label "green Bunrodea"
+			branch "green finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change green bunrodea" 0
+			label "green finish"
+			`Label color and style changed to "green"!`
+				goto start
+			# orange
+			label "orange"
+			action
+				"label color" = 5
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change orange" 0
+			label "orange Avgi"
+			branch "orange Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change orange avgi" 0
+			label "orange Coalition"
+			branch "orange Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change orange coalition" 0
+			label "orange Gegno"
+			branch "orange Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change orange gegno" 0
+			label "orange Hai"
+			branch "orange Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change orange hai" 0
+			label "orange Incipias"
+			branch "orange Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change orange incipias" 0
+			label "orange Graveyard"
+			branch "orange Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change orange graveyard" 0
+			label "orange Korath"
+			branch "orange Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change orange korath" 0
+			label "orange Remnant"
+			branch "orange Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change orange waste" 0
+			label "orange Umbral"
+			branch "orange Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change orange umbral" 0
+			label "orange Successors"
+			branch "orange Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change orange successors" 0
+			label "orange Wanderer"
+			branch "orange Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change orange wanderers" 0
+			label "orange Bunrodea"
+			branch "orange finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change orange bunrodea" 0
+			label "orange finish"
+			`Label color and style changed to "orange"!`
+				goto start
+			# purple
+			label "purple"
+			action
+				"label color" = 6
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change purple" 0
+			label "purple Avgi"
+			branch "purple Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change purple avgi" 0
+			label "purple Coalition"
+			branch "purple Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change purple coalition" 0
+			label "purple Gegno"
+			branch "purple Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change purple gegno" 0
+			label "purple Hai"
+			branch "purple Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change purple hai" 0
+			label "purple Incipias"
+			branch "purple Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change purple incipias" 0
+			label "purple Graveyard"
+			branch "purple Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change purple graveyard" 0
+			label "purple Korath"
+			branch "purple Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change purple korath" 0
+			label "purple Remnant"
+			branch "purple Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change purple waste" 0
+			label "purple Umbral"
+			branch "purple Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change purple umbral" 0
+			label "purple Successors"
+			branch "purple Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change purple successors" 0
+			label "purple Wanderer"
+			branch "purple Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change purple wanderers" 0
+			label "purple Bunrodea"
+			branch "purple finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change purple bunrodea" 0
+			label "purple finish"
+			`Label color and style changed to "purple"!`
+				goto start
+			# red
+			label "red"
+			action
+				"label color" = 7
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change red" 0
+			label "red Avgi"
+			branch "red Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change red avgi" 0
+			label "red Coalition"
+			branch "red Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change red coalition" 0
+			label "red Gegno"
+			branch "red Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change red gegno" 0
+			label "red Hai"
+			branch "red Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change red hai" 0
+			label "red Incipias"
+			branch "red Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change red incipias" 0
+			label "red Graveyard"
+			branch "red Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change red graveyard" 0
+			label "red Korath"
+			branch "red Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change red korath" 0
+			label "red Remnant"
+			branch "red Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change red waste" 0
+			label "red Umbral"
+			branch "red Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change red umbral" 0
+			label "red Successors"
+			branch "red Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change red successors" 0
+			label "red Wanderer"
+			branch "red Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change red wanderers" 0
+			label "red Bunrodea"
+			branch "red finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change red bunrodea" 0
+			label "red finish"
+			`Label color and style changed to "red"!`
+				goto start
+			# yellow
+			label "yellow"
+			action
+				"label color" = 8
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change yellow" 0
+			label "yellow Avgi"
+			branch "yellow Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change yellow avgi" 0
+			label "yellow Coalition"
+			branch "yellow Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change yellow coalition" 0
+			label "yellow Gegno"
+			branch "yellow Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change yellow gegno" 0
+			label "yellow Hai"
+			branch "yellow Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change yellow hai" 0
+			label "yellow Incipias"
+			branch "yellow Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change yellow incipias" 0
+			label "yellow Graveyard"
+			branch "yellow Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change yellow graveyard" 0
+			label "yellow Korath"
+			branch "yellow Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change yellow korath" 0
+			label "yellow Remnant"
+			branch "yellow Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change yellow waste" 0
+			label "yellow Umbral"
+			branch "yellow Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change yellow umbral" 0
+			label "yellow Successors"
+			branch "yellow Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change yellow successors" 0
+			label "yellow Wanderer"
+			branch "yellow Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change yellow wanderers" 0
+			label "yellow Bunrodea"
+			branch "yellow finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change yellow bunrodea" 0
+			label "yellow finish"
+			`Label color and style changed to "yellow"!`
+				goto start
+			# AsteraWhite
+			label "AsteraWhite"
+			action
+				"label color" = 9
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change AsteraWhite" 0
+			label "AsteraWhite Avgi"
+			branch "AsteraWhite Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change AsteraWhite avgi" 0
+			label "AsteraWhite Coalition"
+			branch "AsteraWhite Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change AsteraWhite coalition" 0
+			label "AsteraWhite Gegno"
+			branch "AsteraWhite Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change AsteraWhite gegno" 0
+			label "AsteraWhite Hai"
+			branch "AsteraWhite Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change AsteraWhite hai" 0
+			label "AsteraWhite Incipias"
+			branch "AsteraWhite Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change AsteraWhite incipias" 0
+			label "AsteraWhite Graveyard"
+			branch "AsteraWhite Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change AsteraWhite graveyard" 0
+			label "AsteraWhite Korath"
+			branch "AsteraWhite Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change AsteraWhite korath" 0
+			label "AsteraWhite Remnant"
+			branch "AsteraWhite Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change AsteraWhite waste" 0
+			label "AsteraWhite Umbral"
+			branch "AsteraWhite Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change AsteraWhite umbral" 0
+			label "AsteraWhite Successors"
+			branch "AsteraWhite Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change AsteraWhite successors" 0
+			label "AsteraWhite Wanderer"
+			branch "AsteraWhite Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change AsteraWhite wanderers" 0
+			label "AsteraWhite Bunrodea"
+			branch "AsteraWhite finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change AsteraWhite bunrodea" 0
+			label "AsteraWhite finish"
+			`Label color and style changed to "AsteraWhite"!`
+				goto start
+			# StarWars
+			label "StarWars"
+			action
+				"label color" = 10
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change StarWars" 0
+			label "StarWars Avgi"
+			branch "StarWars Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change StarWars avgi" 0
+			label "StarWars Coalition"
+			branch "StarWars Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change StarWars coalition" 0
+			label "StarWars Gegno"
+			branch "StarWars Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change StarWars gegno" 0
+			label "StarWars Hai"
+			branch "StarWars Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change StarWars hai" 0
+			label "StarWars Incipias"
+			branch "StarWars Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change StarWars incipias" 0
+			label "StarWars Graveyard"
+			branch "StarWars Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change StarWars graveyard" 0
+			label "StarWars Korath"
+			branch "StarWars Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change StarWars korath" 0
+			label "StarWars Remnant"
+			branch "StarWars Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change StarWars waste" 0
+			label "StarWars Umbral"
+			branch "StarWars Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change StarWars umbral" 0
+			label "StarWars Successors"
+			branch "StarWars Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change StarWars successors" 0
+			label "StarWars Wanderer"
+			branch "StarWars Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change StarWars wanderers" 0
+			label "StarWars Bunrodea"
+			branch "StarWars finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change StarWars bunrodea" 0
+			label "StarWars finish"
+			`Label color and style changed to "StarWars"!`
+				goto start
+			# VerminRed
+			label "VerminRed"
+			action
+				"label color" = 11
+				clear "event: change blue"
+				clear "event: change darkgray"
+				clear "event: change gray"
+				clear "event: change green"
+				clear "event: change orange"
+				clear "event: change purple"
+				clear "event: change red"
+				clear "event: change yellow"
+				clear "event: change AsteraWhite"
+				clear "event: change StarWars"
+				clear "event: change VerminRed"
+				event "change VerminRed" 0
+			label "VerminRed Avgi"
+			branch "VerminRed Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change VerminRed avgi" 0
+			label "VerminRed Coalition"
+			branch "VerminRed Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change VerminRed coalition" 0
+			label "VerminRed Gegno"
+			branch "VerminRed Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change VerminRed gegno" 0
+			label "VerminRed Hai"
+			branch "VerminRed Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change VerminRed hai" 0
+			label "VerminRed Incipias"
+			branch "VerminRed Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change VerminRed incipias" 0
+			label "VerminRed Graveyard"
+			branch "VerminRed Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change VerminRed graveyard" 0
+			label "VerminRed Korath"
+			branch "VerminRed Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change VerminRed korath" 0
+			label "VerminRed Remnant"
+			branch "VerminRed Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change VerminRed waste" 0
+			label "VerminRed Umbral"
+			branch "VerminRed Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change VerminRed umbral" 0
+			label "VerminRed Successors"
+			branch "VerminRed Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change VerminRed successors" 0
+			label "VerminRed Wanderer"
+			branch "VerminRed Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change VerminRed wanderers" 0
+			label "VerminRed Bunrodea"
+			branch "VerminRed finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change VerminRed bunrodea" 0
+			label "VerminRed finish"
+			`Label color and style changed to "VerminRed"!`
+				goto start
+			label "activate borders"
+			action
+				"borders" = 1
+				event "activate borders" 0
+			`Area borders are visible now!`
+				goto "start"
+			label "deactivate borders"
+			action
+				"borders" = 0
+				event "deactivate borders" 0
+			`Area borders are visible now!`
+				goto "start"
+			# original
+			label "original"
+			action
+				"label color" = 0
+				event "change original" 0
+			label "original Avgi"
+			branch "original Coalition"
+				not "Avgi: First Contact: offered"
+			action
+				event "change original avgi" 0
+			label "original Coalition"
+			branch "original Gegno"
+				not "Discovered Coalition Space: offered"
+			action
+				event "change original coalition" 0
+			label "original Gegno"
+			branch "original Hai"
+				not "Giaru Gegno: Quarg Contact: offered"
+			action
+				event "change original gegno" 0
+			label "original Hai"
+			branch "original Incipias"
+				not "Discovered Hai Space: offered"
+			action
+				event "change original hai" 0
+			label "original Incipias"
+			branch "original Graveyard"
+				not "Incipias: Warning of the Guardian: offered"
+			action
+				event "change original incipias" 0
+			label "original Graveyard"
+			branch "original Korath"
+				not "Graveyard Label: offered"
+			action
+				event "change original graveyard" 0
+			label "original Korath"
+			branch "original Remnant"
+				not "Discovered Korath Space: offered"
+			action
+				event "change original korath" 0
+			label "original Remnant"
+			branch "original Umbral"
+				not "First Contact: Remnant: offered"
+			action
+				event "change original waste" 0
+			label "original Umbral"
+			branch "original Successors"
+				not "Rulei: Umbral Reach: offered"
+			action
+				event "change original umbral" 0
+			label "original Successors"
+			branch "original Wanderer"
+				not "Successors: First Contact 1: offered"
+			action
+				event "change original successors" 0
+			label "original Wanderer"
+			branch "original Bunrodea"
+				not "Discovered Wanderer Space: offered"
+			action
+				event "change original wanderers" 0
+			label "original Bunrodea"
+			branch "original finish"
+				not "First Contact: Bunrodea (Hostile): offered"
+			action
+				event "change original bunrodea" 0
+			label "original finish"
+			`Label color and style changed back to original!`
+				goto start
+			label end
+			`Thanks for using this plugin :)`
+		fail
+
+
+
+
+mission "label blue discovery avgi"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Avgi: First Contact: offered"
+		not "event: change blue avgi"
+		"label color" == 1
+	on offer
+		event "change blue avgi" 0
+		fail
+
+
+mission "label blue discovery coalition"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Coalition Space: offered"
+		not "event: change blue coalition"
+		"label color" == 1
+	on offer
+		event "change blue coalition" 0
+		fail
+
+
+mission "label blue discovery gegno"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Giaru Gegno: Quarg Contact: offered"
+		not "event: change blue gegno"
+		"label color" == 1
+	on offer
+		event "change blue gegno" 0
+		fail
+
+
+mission "label blue discovery hai"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Hai Space: offered"
+		not "event: change blue hai"
+		"label color" == 1
+	on offer
+		event "change blue hai" 0
+		fail
+
+
+mission "label blue discovery incipias"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Incipias: Warning of the Guardian: offered"
+		not "event: change blue incipias"
+		"label color" == 1
+	on offer
+		event "change blue incipias" 0
+		fail
+
+
+mission "label blue discovery graveyard"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Graveyard Label: offered"
+		not "event: change blue graveyard"
+		"label color" == 1
+	on offer
+		event "change blue graveyard" 0
+		fail
+
+
+mission "label blue discovery remnant"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Remnant: offered"
+		not "event: change blue waste"
+		"label color" == 1
+	on offer
+		event "change blue waste" 0
+		fail
+
+
+mission "label blue discovery korath"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Korath Space: offered"
+		not "event: change blue korath"
+		"label color" == 1
+	on offer
+		event "change blue korath" 0
+		fail
+
+
+mission "label blue discovery umbral"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Rulei: Umbral Reach: offered"
+		not "event: change blue umbral"
+		"label color" == 1
+	on offer
+		event "change blue umbral" 0
+		fail
+
+
+mission "label blue discovery successors"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Successors: First Contact 1: offered"
+		not "event: change blue successors"
+		"label color" == 1
+	on offer
+		event "change blue successors" 0
+		fail
+
+
+mission "label blue discovery wanderer"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Wanderer Space: offered"
+		not "event: change blue wanderers"
+		"label color" == 1
+	on offer
+		event "change blue wanderers" 0
+		fail
+
+
+mission "label blue discovery bunrodea"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Bunrodea (Hostile): offered"
+		not "event: change blue bunrodea"
+		"label color" == 1
+	on offer
+		event "change blue bunrodea" 0
+		fail
+
+
+mission "label darkgray discovery avgi"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Avgi: First Contact: offered"
+		not "event: change darkgray avgi"
+		"label color" == 2
+	on offer
+		event "change darkgray avgi" 0
+		fail
+
+
+mission "label darkgray discovery coalition"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Coalition Space: offered"
+		not "event: change darkgray coalition"
+		"label color" == 2
+	on offer
+		event "change darkgray coalition" 0
+		fail
+
+
+mission "label darkgray discovery gegno"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Giaru Gegno: Quarg Contact: offered"
+		not "event: change darkgray gegno"
+		"label color" == 2
+	on offer
+		event "change darkgray gegno" 0
+		fail
+
+
+mission "label darkgray discovery hai"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Hai Space: offered"
+		not "event: change darkgray hai"
+		"label color" == 2
+	on offer
+		event "change darkgray hai" 0
+		fail
+
+
+mission "label darkgray discovery incipias"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Incipias: Warning of the Guardian: offered"
+		not "event: change darkgray incipias"
+		"label color" == 2
+	on offer
+		event "change darkgray incipias" 0
+		fail
+
+
+mission "label darkgray discovery graveyard"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Graveyard Label: offered"
+		not "event: change darkgray graveyard"
+		"label color" == 2
+	on offer
+		event "change darkgray graveyard" 0
+		fail
+
+
+mission "label darkgray discovery remnant"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Remnant: offered"
+		not "event: change darkgray waste"
+		"label color" == 2
+	on offer
+		event "change darkgray waste" 0
+		fail
+
+
+mission "label darkgray discovery korath"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Korath Space: offered"
+		not "event: change darkgray korath"
+		"label color" == 2
+	on offer
+		event "change darkgray korath" 0
+		fail
+
+
+mission "label darkgray discovery umbral"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Rulei: Umbral Reach: offered"
+		not "event: change darkgray umbral"
+		"label color" == 2
+	on offer
+		event "change darkgray umbral" 0
+		fail
+
+
+mission "label darkgray discovery successors"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Successors: First Contact 1: offered"
+		not "event: change darkgray successors"
+		"label color" == 2
+	on offer
+		event "change darkgray successors" 0
+		fail
+
+
+mission "label darkgray discovery wanderer"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Wanderer Space: offered"
+		not "event: change darkgray wanderers"
+		"label color" == 2
+	on offer
+		event "change darkgray wanderers" 0
+		fail
+
+
+mission "label darkgray discovery bunrodea"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Bunrodea (Hostile): offered"
+		not "event: change darkgray bunrodea"
+		"label color" == 2
+	on offer
+		event "change darkgray bunrodea" 0
+		fail
+
+
+mission "label gray discovery avgi"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Avgi: First Contact: offered"
+		not "event: change gray avgi"
+		"label color" == 3
+	on offer
+		event "change gray avgi" 0
+		fail
+
+
+mission "label gray discovery coalition"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Coalition Space: offered"
+		not "event: change gray coalition"
+		"label color" == 3
+	on offer
+		event "change gray coalition" 0
+		fail
+
+
+mission "label gray discovery gegno"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Giaru Gegno: Quarg Contact: offered"
+		not "event: change gray gegno"
+		"label color" == 3
+	on offer
+		event "change gray gegno" 0
+		fail
+
+
+mission "label gray discovery hai"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Hai Space: offered"
+		not "event: change gray hai"
+		"label color" == 3
+	on offer
+		event "change gray hai" 0
+		fail
+
+
+mission "label gray discovery incipias"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Incipias: Warning of the Guardian: offered"
+		not "event: change gray incipias"
+		"label color" == 3
+	on offer
+		event "change gray incipias" 0
+		fail
+
+
+mission "label gray discovery graveyard"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Graveyard Label: offered"
+		not "event: change gray graveyard"
+		"label color" == 3
+	on offer
+		event "change gray graveyard" 0
+		fail
+
+
+mission "label gray discovery remnant"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Remnant: offered"
+		not "event: change gray waste"
+		"label color" == 3
+	on offer
+		event "change gray waste" 0
+		fail
+
+
+mission "label gray discovery korath"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Korath Space: offered"
+		not "event: change gray korath"
+		"label color" == 3
+	on offer
+		event "change gray korath" 0
+		fail
+
+
+mission "label gray discovery umbral"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Rulei: Umbral Reach: offered"
+		not "event: change gray umbral"
+		"label color" == 3
+	on offer
+		event "change gray umbral" 0
+		fail
+
+
+mission "label gray discovery successors"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Successors: First Contact 1: offered"
+		not "event: change gray successors"
+		"label color" == 3
+	on offer
+		event "change gray successors" 0
+		fail
+
+
+mission "label gray discovery wanderer"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Wanderer Space: offered"
+		not "event: change gray wanderers"
+		"label color" == 3
+	on offer
+		event "change gray wanderers" 0
+		fail
+
+
+mission "label gray discovery bunrodea"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Bunrodea (Hostile): offered"
+		not "event: change gray bunrodea"
+		"label color" == 3
+	on offer
+		event "change gray bunrodea" 0
+		fail
+
+
+mission "label green discovery avgi"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Avgi: First Contact: offered"
+		not "event: change green avgi"
+		"label color" == 4
+	on offer
+		event "change green avgi" 0
+		fail
+
+
+mission "label green discovery coalition"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Coalition Space: offered"
+		not "event: change green coalition"
+		"label color" == 4
+	on offer
+		event "change green coalition" 0
+		fail
+
+
+mission "label green discovery gegno"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Giaru Gegno: Quarg Contact: offered"
+		not "event: change green gegno"
+		"label color" == 4
+	on offer
+		event "change green gegno" 0
+		fail
+
+
+mission "label green discovery hai"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Hai Space: offered"
+		not "event: change green hai"
+		"label color" == 4
+	on offer
+		event "change green hai" 0
+		fail
+
+
+mission "label green discovery incipias"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Incipias: Warning of the Guardian: offered"
+		not "event: change green incipias"
+		"label color" == 4
+	on offer
+		event "change green incipias" 0
+		fail
+
+
+mission "label green discovery graveyard"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Graveyard Label: offered"
+		not "event: change green graveyard"
+		"label color" == 4
+	on offer
+		event "change green graveyard" 0
+		fail
+
+
+mission "label green discovery remnant"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Remnant: offered"
+		not "event: change green waste"
+		"label color" == 4
+	on offer
+		event "change green waste" 0
+		fail
+
+
+mission "label green discovery korath"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Korath Space: offered"
+		not "event: change green korath"
+		"label color" == 4
+	on offer
+		event "change green korath" 0
+		fail
+
+
+mission "label green discovery umbral"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Rulei: Umbral Reach: offered"
+		not "event: change green umbral"
+		"label color" == 4
+	on offer
+		event "change green umbral" 0
+		fail
+
+
+mission "label green discovery successors"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Successors: First Contact 1: offered"
+		not "event: change green successors"
+		"label color" == 4
+	on offer
+		event "change green successors" 0
+		fail
+
+
+mission "label green discovery wanderer"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Wanderer Space: offered"
+		not "event: change green wanderers"
+		"label color" == 4
+	on offer
+		event "change green wanderers" 0
+		fail
+
+
+mission "label green discovery bunrodea"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Bunrodea (Hostile): offered"
+		not "event: change green bunrodea"
+		"label color" == 4
+	on offer
+		event "change green bunrodea" 0
+		fail
+
+
+mission "label orange discovery avgi"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Avgi: First Contact: offered"
+		not "event: change orange avgi"
+		"label color" == 5
+	on offer
+		event "change orange avgi" 0
+		fail
+
+
+mission "label orange discovery coalition"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Coalition Space: offered"
+		not "event: change orange coalition"
+		"label color" == 5
+	on offer
+		event "change orange coalition" 0
+		fail
+
+
+mission "label orange discovery gegno"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Giaru Gegno: Quarg Contact: offered"
+		not "event: change orange gegno"
+		"label color" == 5
+	on offer
+		event "change orange gegno" 0
+		fail
+
+
+mission "label orange discovery hai"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Hai Space: offered"
+		not "event: change orange hai"
+		"label color" == 5
+	on offer
+		event "change orange hai" 0
+		fail
+
+
+mission "label orange discovery incipias"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Incipias: Warning of the Guardian: offered"
+		not "event: change orange incipias"
+		"label color" == 5
+	on offer
+		event "change orange incipias" 0
+		fail
+
+
+mission "label orange discovery graveyard"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Graveyard Label: offered"
+		not "event: change orange graveyard"
+		"label color" == 5
+	on offer
+		event "change orange graveyard" 0
+		fail
+
+
+mission "label orange discovery remnant"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Remnant: offered"
+		not "event: change orange waste"
+		"label color" == 5
+	on offer
+		event "change orange waste" 0
+		fail
+
+
+mission "label orange discovery korath"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Korath Space: offered"
+		not "event: change orange korath"
+		"label color" == 5
+	on offer
+		event "change orange korath" 0
+		fail
+
+
+mission "label orange discovery umbral"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Rulei: Umbral Reach: offered"
+		not "event: change orange umbral"
+		"label color" == 5
+	on offer
+		event "change orange umbral" 0
+		fail
+
+
+mission "label orange discovery successors"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Successors: First Contact 1: offered"
+		not "event: change orange successors"
+		"label color" == 5
+	on offer
+		event "change orange successors" 0
+		fail
+
+
+mission "label orange discovery wanderer"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Wanderer Space: offered"
+		not "event: change orange wanderers"
+		"label color" == 5
+	on offer
+		event "change orange wanderers" 0
+		fail
+
+
+mission "label orange discovery bunrodea"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Bunrodea (Hostile): offered"
+		not "event: change orange bunrodea"
+		"label color" == 5
+	on offer
+		event "change orange bunrodea" 0
+		fail
+
+
+mission "label purple discovery avgi"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Avgi: First Contact: offered"
+		not "event: change purple avgi"
+		"label color" == 6
+	on offer
+		event "change purple avgi" 0
+		fail
+
+
+mission "label purple discovery coalition"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Coalition Space: offered"
+		not "event: change purple coalition"
+		"label color" == 6
+	on offer
+		event "change purple coalition" 0
+		fail
+
+
+mission "label purple discovery gegno"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Giaru Gegno: Quarg Contact: offered"
+		not "event: change purple gegno"
+		"label color" == 6
+	on offer
+		event "change purple gegno" 0
+		fail
+
+
+mission "label purple discovery hai"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Hai Space: offered"
+		not "event: change purple hai"
+		"label color" == 6
+	on offer
+		event "change purple hai" 0
+		fail
+
+
+mission "label purple discovery incipias"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Incipias: Warning of the Guardian: offered"
+		not "event: change purple incipias"
+		"label color" == 6
+	on offer
+		event "change purple incipias" 0
+		fail
+
+
+mission "label purple discovery graveyard"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Graveyard Label: offered"
+		not "event: change purple graveyard"
+		"label color" == 6
+	on offer
+		event "change purple graveyard" 0
+		fail
+
+
+mission "label purple discovery remnant"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Remnant: offered"
+		not "event: change purple waste"
+		"label color" == 6
+	on offer
+		event "change purple waste" 0
+		fail
+
+
+mission "label purple discovery korath"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Korath Space: offered"
+		not "event: change purple korath"
+		"label color" == 6
+	on offer
+		event "change purple korath" 0
+		fail
+
+
+mission "label purple discovery umbral"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Rulei: Umbral Reach: offered"
+		not "event: change purple umbral"
+		"label color" == 6
+	on offer
+		event "change purple umbral" 0
+		fail
+
+
+mission "label purple discovery successors"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Successors: First Contact 1: offered"
+		not "event: change purple successors"
+		"label color" == 6
+	on offer
+		event "change purple successors" 0
+		fail
+
+
+mission "label purple discovery wanderer"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Wanderer Space: offered"
+		not "event: change purple wanderers"
+		"label color" == 6
+	on offer
+		event "change purple wanderers" 0
+		fail
+
+
+mission "label purple discovery bunrodea"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Bunrodea (Hostile): offered"
+		not "event: change purple bunrodea"
+		"label color" == 6
+	on offer
+		event "change purple bunrodea" 0
+		fail
+
+
+mission "label red discovery avgi"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Avgi: First Contact: offered"
+		not "event: change red avgi"
+		"label color" == 7
+	on offer
+		event "change red avgi" 0
+		fail
+
+
+mission "label red discovery coalition"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Coalition Space: offered"
+		not "event: change red coalition"
+		"label color" == 7
+	on offer
+		event "change red coalition" 0
+		fail
+
+
+mission "label red discovery gegno"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Giaru Gegno: Quarg Contact: offered"
+		not "event: change red gegno"
+		"label color" == 7
+	on offer
+		event "change red gegno" 0
+		fail
+
+
+mission "label red discovery hai"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Hai Space: offered"
+		not "event: change red hai"
+		"label color" == 7
+	on offer
+		event "change red hai" 0
+		fail
+
+
+mission "label red discovery incipias"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Incipias: Warning of the Guardian: offered"
+		not "event: change red incipias"
+		"label color" == 7
+	on offer
+		event "change red incipias" 0
+		fail
+
+
+mission "label red discovery graveyard"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Graveyard Label: offered"
+		not "event: change red graveyard"
+		"label color" == 7
+	on offer
+		event "change red graveyard" 0
+		fail
+
+
+mission "label red discovery remnant"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Remnant: offered"
+		not "event: change red waste"
+		"label color" == 7
+	on offer
+		event "change red waste" 0
+		fail
+
+
+mission "label red discovery korath"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Korath Space: offered"
+		not "event: change red korath"
+		"label color" == 7
+	on offer
+		event "change red korath" 0
+		fail
+
+
+mission "label red discovery umbral"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Rulei: Umbral Reach: offered"
+		not "event: change red umbral"
+		"label color" == 7
+	on offer
+		event "change red umbral" 0
+		fail
+
+
+mission "label red discovery successors"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Successors: First Contact 1: offered"
+		not "event: change red successors"
+		"label color" == 7
+	on offer
+		event "change red successors" 0
+		fail
+
+
+mission "label red discovery wanderer"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Wanderer Space: offered"
+		not "event: change red wanderers"
+		"label color" == 7
+	on offer
+		event "change red wanderers" 0
+		fail
+
+
+mission "label red discovery bunrodea"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Bunrodea (Hostile): offered"
+		not "event: change red bunrodea"
+		"label color" == 7
+	on offer
+		event "change red bunrodea" 0
+		fail
+
+
+mission "label yellow discovery avgi"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Avgi: First Contact: offered"
+		not "event: change yellow avgi"
+		"label color" == 8
+	on offer
+		event "change yellow avgi" 0
+		fail
+
+
+mission "label yellow discovery coalition"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Coalition Space: offered"
+		not "event: change yellow coalition"
+		"label color" == 8
+	on offer
+		event "change yellow coalition" 0
+		fail
+
+
+mission "label yellow discovery gegno"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Giaru Gegno: Quarg Contact: offered"
+		not "event: change yellow gegno"
+		"label color" == 8
+	on offer
+		event "change yellow gegno" 0
+		fail
+
+
+mission "label yellow discovery hai"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Hai Space: offered"
+		not "event: change yellow hai"
+		"label color" == 8
+	on offer
+		event "change yellow hai" 0
+		fail
+
+
+mission "label yellow discovery incipias"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Incipias: Warning of the Guardian: offered"
+		not "event: change yellow incipias"
+		"label color" == 8
+	on offer
+		event "change yellow incipias" 0
+		fail
+
+
+mission "label yellow discovery graveyard"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Graveyard Label: offered"
+		not "event: change yellow graveyard"
+		"label color" == 8
+	on offer
+		event "change yellow graveyard" 0
+		fail
+
+
+mission "label yellow discovery remnant"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Remnant: offered"
+		not "event: change yellow waste"
+		"label color" == 8
+	on offer
+		event "change yellow waste" 0
+		fail
+
+
+mission "label yellow discovery korath"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Korath Space: offered"
+		not "event: change yellow korath"
+		"label color" == 8
+	on offer
+		event "change yellow korath" 0
+		fail
+
+
+mission "label yellow discovery umbral"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Rulei: Umbral Reach: offered"
+		not "event: change yellow umbral"
+		"label color" == 8
+	on offer
+		event "change yellow umbral" 0
+		fail
+
+
+mission "label yellow discovery successors"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Successors: First Contact 1: offered"
+		not "event: change yellow successors"
+		"label color" == 8
+	on offer
+		event "change yellow successors" 0
+		fail
+
+
+mission "label yellow discovery wanderer"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Wanderer Space: offered"
+		not "event: change yellow wanderers"
+		"label color" == 8
+	on offer
+		event "change yellow wanderers" 0
+		fail
+
+
+mission "label yellow discovery bunrodea"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Bunrodea (Hostile): offered"
+		not "event: change yellow bunrodea"
+		"label color" == 8
+	on offer
+		event "change yellow bunrodea" 0
+		fail
+
+
+mission "label AsteraWhite discovery avgi"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Avgi: First Contact: offered"
+		not "event: change AsteraWhite avgi"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite avgi" 0
+		fail
+
+
+mission "label AsteraWhite discovery coalition"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Coalition Space: offered"
+		not "event: change AsteraWhite coalition"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite coalition" 0
+		fail
+
+
+mission "label AsteraWhite discovery gegno"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Giaru Gegno: Quarg Contact: offered"
+		not "event: change AsteraWhite gegno"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite gegno" 0
+		fail
+
+
+mission "label AsteraWhite discovery hai"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Hai Space: offered"
+		not "event: change AsteraWhite hai"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite hai" 0
+		fail
+
+
+mission "label AsteraWhite discovery incipias"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Incipias: Warning of the Guardian: offered"
+		not "event: change AsteraWhite incipias"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite incipias" 0
+		fail
+
+
+mission "label AsteraWhite discovery graveyard"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Graveyard Label: offered"
+		not "event: change AsteraWhite graveyard"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite graveyard" 0
+		fail
+
+
+mission "label AsteraWhite discovery remnant"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Remnant: offered"
+		not "event: change AsteraWhite waste"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite waste" 0
+		fail
+
+
+mission "label AsteraWhite discovery korath"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Korath Space: offered"
+		not "event: change AsteraWhite korath"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite korath" 0
+		fail
+
+
+mission "label AsteraWhite discovery umbral"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Rulei: Umbral Reach: offered"
+		not "event: change AsteraWhite umbral"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite umbral" 0
+		fail
+
+
+mission "label AsteraWhite discovery successors"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Successors: First Contact 1: offered"
+		not "event: change AsteraWhite successors"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite successors" 0
+		fail
+
+
+mission "label AsteraWhite discovery wanderer"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Wanderer Space: offered"
+		not "event: change AsteraWhite wanderers"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite wanderers" 0
+		fail
+
+
+mission "label AsteraWhite discovery bunrodea"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Bunrodea (Hostile): offered"
+		not "event: change AsteraWhite bunrodea"
+		"label color" == 9
+	on offer
+		event "change AsteraWhite bunrodea" 0
+		fail
+
+
+mission "label StarWars discovery avgi"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Avgi: First Contact: offered"
+		not "event: change StarWars avgi"
+		"label color" == 10
+	on offer
+		event "change StarWars avgi" 0
+		fail
+
+
+mission "label StarWars discovery coalition"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Coalition Space: offered"
+		not "event: change StarWars coalition"
+		"label color" == 10
+	on offer
+		event "change StarWars coalition" 0
+		fail
+
+
+mission "label StarWars discovery gegno"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Giaru Gegno: Quarg Contact: offered"
+		not "event: change StarWars gegno"
+		"label color" == 10
+	on offer
+		event "change StarWars gegno" 0
+		fail
+
+
+mission "label StarWars discovery hai"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Hai Space: offered"
+		not "event: change StarWars hai"
+		"label color" == 10
+	on offer
+		event "change StarWars hai" 0
+		fail
+
+
+mission "label StarWars discovery incipias"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Incipias: Warning of the Guardian: offered"
+		not "event: change StarWars incipias"
+		"label color" == 10
+	on offer
+		event "change StarWars incipias" 0
+		fail
+
+
+mission "label StarWars discovery graveyard"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Graveyard Label: offered"
+		not "event: change StarWars graveyard"
+		"label color" == 10
+	on offer
+		event "change StarWars graveyard" 0
+		fail
+
+
+mission "label StarWars discovery remnant"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Remnant: offered"
+		not "event: change StarWars waste"
+		"label color" == 10
+	on offer
+		event "change StarWars waste" 0
+		fail
+
+
+mission "label StarWars discovery korath"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Korath Space: offered"
+		not "event: change StarWars korath"
+		"label color" == 10
+	on offer
+		event "change StarWars korath" 0
+		fail
+
+
+mission "label StarWars discovery umbral"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Rulei: Umbral Reach: offered"
+		not "event: change StarWars umbral"
+		"label color" == 10
+	on offer
+		event "change StarWars umbral" 0
+		fail
+
+
+mission "label StarWars discovery successors"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Successors: First Contact 1: offered"
+		not "event: change StarWars successors"
+		"label color" == 10
+	on offer
+		event "change StarWars successors" 0
+		fail
+
+
+mission "label StarWars discovery wanderer"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Wanderer Space: offered"
+		not "event: change StarWars wanderers"
+		"label color" == 10
+	on offer
+		event "change StarWars wanderers" 0
+		fail
+
+
+mission "label StarWars discovery bunrodea"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Bunrodea (Hostile): offered"
+		not "event: change StarWars bunrodea"
+		"label color" == 10
+	on offer
+		event "change StarWars bunrodea" 0
+		fail
+
+
+mission "label VerminRed discovery avgi"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Avgi: First Contact: offered"
+		not "event: change VerminRed avgi"
+		"label color" == 11
+	on offer
+		event "change VerminRed avgi" 0
+		fail
+
+
+mission "label VerminRed discovery coalition"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Coalition Space: offered"
+		not "event: change VerminRed coalition"
+		"label color" == 11
+	on offer
+		event "change VerminRed coalition" 0
+		fail
+
+
+mission "label VerminRed discovery gegno"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Giaru Gegno: Quarg Contact: offered"
+		not "event: change VerminRed gegno"
+		"label color" == 11
+	on offer
+		event "change VerminRed gegno" 0
+		fail
+
+
+mission "label VerminRed discovery hai"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Hai Space: offered"
+		not "event: change VerminRed hai"
+		"label color" == 11
+	on offer
+		event "change VerminRed hai" 0
+		fail
+
+
+mission "label VerminRed discovery incipias"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Incipias: Warning of the Guardian: offered"
+		not "event: change VerminRed incipias"
+		"label color" == 11
+	on offer
+		event "change VerminRed incipias" 0
+		fail
+
+
+mission "label VerminRed discovery graveyard"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Graveyard Label: offered"
+		not "event: change VerminRed graveyard"
+		"label color" == 11
+	on offer
+		event "change VerminRed graveyard" 0
+		fail
+
+
+mission "label VerminRed discovery remnant"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Remnant: offered"
+		not "event: change VerminRed waste"
+		"label color" == 11
+	on offer
+		event "change VerminRed waste" 0
+		fail
+
+
+mission "label VerminRed discovery korath"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Korath Space: offered"
+		not "event: change VerminRed korath"
+		"label color" == 11
+	on offer
+		event "change VerminRed korath" 0
+		fail
+
+
+mission "label VerminRed discovery umbral"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Rulei: Umbral Reach: offered"
+		not "event: change VerminRed umbral"
+		"label color" == 11
+	on offer
+		event "change VerminRed umbral" 0
+		fail
+
+
+mission "label VerminRed discovery successors"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Successors: First Contact 1: offered"
+		not "event: change VerminRed successors"
+		"label color" == 11
+	on offer
+		event "change VerminRed successors" 0
+		fail
+
+
+mission "label VerminRed discovery wanderer"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Discovered Wanderer Space: offered"
+		not "event: change VerminRed wanderers"
+		"label color" == 11
+	on offer
+		event "change VerminRed wanderers" 0
+		fail
+
+
+mission "label VerminRed discovery bunrodea"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "First Contact: Bunrodea (Hostile): offered"
+		not "event: change VerminRed bunrodea"
+		"label color" == 11
+	on offer
+		event "change VerminRed bunrodea" 0
+		fail
