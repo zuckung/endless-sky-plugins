@@ -136,7 +136,7 @@ mission "jump gates building 25"
 			scene "scene/holonews_25"
 			`On the way through the spaceport you see a holoprojector showing the news. Since it's about the jump gates, you stop and watch it.`
 			`	"The twelve jump gates are about a quarter finished. We see a live image of one of the Spica gates here. Interested observers can see similar progress at the other space construction sites. A real business boom has developed on the worlds of the six systems. Manufacturing plants have been built and material distribution centers set up. As the construction industry has grown stronger, all other industries and service providers have also grown. Tourism has also grown; tours to view the space construction site are already being offered and taken. There is a significant economic upturn on neighboring worlds."`
-			`	"Local governments ot the systems where jump gates are located are of course happy with this economic growth, but are discussing other strategic and security aspects regarding gates management. One of the foreseen solution would be to assign some responsibility regarding traffic watch to each of the local governments."`
+			`	"Local governments of the systems where jump gates are located are of course happy with this economic growth, but are discussing other strategic and security aspects regarding gates management. One of the foreseen solution would be to assign some responsibility regarding traffic watch to each of the local governments."`
 			`	So this project is starting again after stalling quite some time during the war...`
 				to display
 					has "event: war begins"
