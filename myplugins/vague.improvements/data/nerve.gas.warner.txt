@@ -1,0 +1,99 @@
+# mission "nerve gas warner"
+# mission "nerve gas warner landing"
+# mission "nerve gas warner reset"
+# mission "microbot defense station warner"
+# mission "microbot defense station warner landing"
+# mission "microbot defense station warner reset"
+
+
+
+mission "nerve gas warner"
+	entering
+	non-blocking
+	repeat
+	destination "Earth"
+	to offer
+		has "outfit: Nerve Gas"
+		not "nerve gas detected"
+	on offer
+		set "nerve gas detected"
+		conversation
+			scene "outfit/nerve gas"
+			`Your sensors register the illegal outfit "Nerve Gas" on one of your ships. You should be careful when landing on non-pirate planets. The fine for owning this illegal outfit is 1.000.000 credits! In case you don't remove that outfit on next landing, you will get another warning.`
+				decline
+
+
+mission "nerve gas warner landing"
+	landing
+	non-blocking
+	repeat
+	destination "Earth"
+	to offer
+		has "nerve gas detected"
+		not "nerve gas detected landing"
+	on offer
+		set "nerve gas detected landing"
+		conversation
+			scene "outfit/nerve gas"
+			`You still have the outfit "Nerve Gas" installed on one of your ships. Consider removing it to avoid fines. There will be no more warnings till you have removed that outfit.`
+				decline
+
+
+mission "nerve gas warner reset"
+	entering
+	non-blocking
+	repeat
+	destination "Earth"
+	to offer
+		has "nerve gas detected"
+		not "outfit: Nerve Gas"
+	on offer
+		clear "nerve gas detected"
+		clear "nerve gas detected landing"
+		fail
+
+
+mission "microbot defense station warner"
+	entering
+	non-blocking
+	repeat
+	destination "Earth"
+	to offer
+		has "outfit: Microbot Defense Station"
+		not "microbot defense station detected"
+	on offer
+		set "microbot defense station detected"
+		conversation
+			scene "outfit/microbot defense station"
+			`Your sensors register the illegal outfit "Microbot Defense Station" on one of your ships. You should be careful when landing on non-pirate planets. The fine for owning this illegal outfit is 10.000.000 credits! In case you don't remove that outfit on next landing, you will get another warning.`
+				decline
+
+
+mission "microbot defense station warner landing"
+	landing
+	non-blocking
+	repeat
+	destination "Earth"
+	to offer
+		has "microbot defense station detected"
+		not "microbot defense station detected landing"
+	on offer
+		set "microbot defense station detected landing"
+		conversation
+			scene "outfit/microbot defense station"
+			`You still have the outfit "Microbot Defense Station" installed on one of your ships. Consider removing it to avoid fines. There will be no more warnings till you have removed that outfit.`
+				decline
+
+
+mission "microbot defense station warner reset"
+	entering
+	non-blocking
+	repeat
+	destination "Earth"
+	to offer
+		has "microbot defense station detected"
+		not "outfit: Microbot Defense Station"
+	on offer
+		clear "microbot defense station detected"
+		clear "microbot defense station detected landing"
+		fail

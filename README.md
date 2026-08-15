@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-08-15 | update: vague.improvements<br>
 2026-08-13 | update: human.labels<br>
 2026-08-01 | Hooray! 50 stars!<br>
 2026-07-10 | update: disable.spaceport.repeatables<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-07-05 | update: ship.cores<br>
 2026-06-30 | update: mission.helper<br>
 2026-06-30 | update: heavy.traffic<br>
-2026-06-30 | update: fleet.mercy<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -6625,10 +6625,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/vague.improvements.png" width="130" height="20">
 <img src="myplugins/vague.improvements/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-vague.improvements/vague.improvements.zip) 
-<img src="https://img.shields.io/badge/v1.0.4-707070"> 
-<img src="https://img.shields.io/badge/35.14_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--05--10-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.5-vague.improvements/vague.improvements.zip) 
+<img src="https://img.shields.io/badge/v1.0.5-707070"> 
+<img src="https://img.shields.io/badge/38.11_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--08--15-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=vague.improvements-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/vague.improvements/)
 [<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/vague.improvements.md)<br>
@@ -6662,19 +6662,23 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 
 <li> bunrodea.first.contact.100percent.txt - increases chance to meet bunrodea from 10% to 100%</li>
 
+<li> damselflyman.txt - increases the chance for the damselflyman superpowers to 50%</li>
+
 <li> disable.bounty.hunters.txt - removes the mission that spawns bounty hunters</li>
 
 <li> illegal.txt - removes the fines for illegal outfits</li>
 
-<li> increased.pirate.bactrian.spawn.txt - increases the spawnrate of the bactrian in the 3 northern pirate systems</li>
-
 <li> increased.korath.rare.spawn.txt - increases the spawnrate of the 2 super rare korath longships</li>
+
+<li> increased.pirate.bactrian.spawn.txt - increases the spawnrate of the bactrian in the 3 northern pirate systems</li>
 
 <li> korath.names.jump.txt - changes korath ship names to display if they have a jump drive</li>
 
 <li> modified.tachytia.txt - removes the self destruction chance of the modified tachytia in the avgi wandering fleet</li>
 
 <li> navy.shipyard.txt - adds a Navy Advanced shipyard to Geminus</li>
+
+<li> nerve.gas.warner.txt - creates warning messages when you have Nerve Gas or Microbot Defense Station installed on one of your ships</li> 
 
 <li> unfettered.wah.ki.no.flee.txt - removes the fleeing from unfettered fleets in wah ki</li>
 
@@ -6690,9 +6694,11 @@ Changelog:<br>
 
 <br>
 
-unreleased<br>
+2026-08-15<br>
 
-damselflyman chance is now 50%<br>
+damselflyman superpowers chance is now 50%<br>
+
+added nervegaswarner<br>
 
 <br>
 

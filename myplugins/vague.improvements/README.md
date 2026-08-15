@@ -9,13 +9,15 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 <ul>
 <li> after.war.defense.pact.txt - removes the need to complete these missions before the FW war begins</li>
 <li> bunrodea.first.contact.100percent.txt - increases chance to meet bunrodea from 10% to 100%</li>
+<li> damselflyman.txt - increases the chance for the damselflyman superpowers to 50%</li>
 <li> disable.bounty.hunters.txt - removes the mission that spawns bounty hunters</li>
 <li> illegal.txt - removes the fines for illegal outfits</li>
-<li> increased.pirate.bactrian.spawn.txt - increases the spawnrate of the bactrian in the 3 northern pirate systems</li>
 <li> increased.korath.rare.spawn.txt - increases the spawnrate of the 2 super rare korath longships</li>
+<li> increased.pirate.bactrian.spawn.txt - increases the spawnrate of the bactrian in the 3 northern pirate systems</li>
 <li> korath.names.jump.txt - changes korath ship names to display if they have a jump drive</li>
 <li> modified.tachytia.txt - removes the self destruction chance of the modified tachytia in the avgi wandering fleet</li>
 <li> navy.shipyard.txt - adds a Navy Advanced shipyard to Geminus</li>
+<li> nerve.gas.warner.txt - creates warning messages when you have Nerve Gas or Microbot Defense Station installed on one of your ships</li> 
 <li> unfettered.wah.ki.no.flee.txt - removes the fleeing from unfettered fleets in wah ki</li>
 <li> wanderer.3.arfectas.capture.txt - allows to capture the 3 arfectas during the wanderer campaign, without consequences</li>
 </ul>
@@ -23,8 +25,9 @@ If you don't want one of these features, just delete the unwanted txt file.<br>
 <br>
 Changelog:<br>
 <br>
-unreleased<br>
-damselflyman chance is now 50%<br>
+2026-08-15<br>
+damselflyman superpowers chance is now 50%<br>
+added nervegaswarner<br>
 <br>
 2026-05-10<br>
 added bounty hunter removal<br>
