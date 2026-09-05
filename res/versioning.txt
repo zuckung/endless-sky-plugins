@@ -7,7 +7,7 @@ better.starts|1.0.5
 boss.loot|1.0.10
 bunrodea.missions|1.0.9
 captureable.person.ships|1.1.11
-coalition.shopping|1.0.7
+coalition.shopping|1.0.8
 combat.ai|1.0.13
 comets|1.0.1
 control.station|1.0.8

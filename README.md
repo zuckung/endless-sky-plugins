@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-09-05 | update: coalition.shopping<br>
 2026-09-03 | update: boss.loot<br>
 2026-08-15 | update: vague.improvements<br>
 2026-08-13 | update: human.labels<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-07-08 | update: galactic.capital.investment<br>
 2026-07-06 | update: ship.cores<br>
 2026-07-05 | update: ship.cores<br>
-2026-06-30 | update: mission.helper<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1447,10 +1447,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/coalition.shopping.png" width="130" height="20">
 <img src="myplugins/coalition.shopping/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-coalition.shopping/coalition.shopping.zip) 
-<img src="https://img.shields.io/badge/v1.0.7-707070"> 
-<img src="https://img.shields.io/badge/451.88_kb-707070"> 
-<img src="https://img.shields.io/badge/2025--08--29-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-coalition.shopping/coalition.shopping.zip) 
+<img src="https://img.shields.io/badge/v1.0.8-707070"> 
+<img src="https://img.shields.io/badge/451.93_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--09--05-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=coalition.shopping-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/coalition.shopping/)
 [<img src="https://img.shields.io/badge/view_images_[6]-707070">](res/imagemd/coalition.shopping.md)<br>
@@ -1481,6 +1481,12 @@ To start the mission to enable these outfitters and shipyards, you have to join 
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-09-05<br>
+
+added ship heliarch persuer (by RedTechGamer236)<br>
 
 <br>
 
