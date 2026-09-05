@@ -9,6 +9,9 @@ To start the mission to enable these outfitters and shipyards, you have to join 
 <br>
 Changelog:<br>
 <br>
+2026-09-05<br>
+added ship heliarch persuer (by RedTechGamer236)<br>
+<br>
 2025-08-29<br>
 typo fixes by snoggles<br>
 icon@2x, plugintxt changes<br>
