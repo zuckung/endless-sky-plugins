@@ -1,0 +1,71 @@
+# outfitter "everywhere"
+# shipyard "outfitter ship"
+# ship "po.turtle"
+
+
+
+outfitter "everywhere"
+	to sell
+		has "ship model: po.turtle"
+
+
+shipyard "outfitter ship"
+	location
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent"
+		attributes "shipyard"
+	"po.turtle"
+
+
+ship "po.turtle"
+	"display name" "Turtle"
+	plural "Turtles"
+	sprite "ship/modified dromedary"
+	thumbnail "thumbnail/modified dromedary"
+	attributes
+		category "Utility"
+		"cost" 50000000
+		"shields" 3000000
+		"hull" 1000000
+		"required crew" 275
+		"bunks" 300
+		"mass" 2500
+		"drag" 28.7
+		"heat dissipation" .22
+		"fuel capacity" 1000
+		"cargo space" 0
+		"outfit space" 140
+		"weapon capacity" 73
+		"engine capacity" 0
+		"thrust" 110
+		"thrusting energy" 5
+		"turn" 3100
+		"turning energy" 4
+		"reverse thrust" 80
+		"reverse thrusting energy" 3
+		"energy capacity" 50000
+		"energy generation" 12
+		"shield generation" 1.4
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Scram Drive"
+		"Heavy Anti-Missile Turret" 2
+	engine 32.5 207
+	engine 3 207
+	engine -27.5 207
+	turret -21.5 -57.5 "Heavy Anti-Missile Turret"
+	turret 52.5 143 "Heavy Anti-Missile Turret"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description `Luna Starworks' Turtle was designed to allow starship captains to make critical repairs on any planet after sustaining heavy damage during pirate attacks. This was based on the Tycho Crater Cooperative's Dromedary; however, its cargo hold was removed, and its weapon and fighter bays were dismantled—retaining only the turret mounts for defense on this near-indestructible ship—to accommodate the required infrastructure within.`
+	description "	Because the ship is so heavily crewed and densely packed, there is no room to rearrange cargo. To solve this, Luna Starworks integrated the engines and the energy and shield regeneration systems directly into the ship's hull."
+

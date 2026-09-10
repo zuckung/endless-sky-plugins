@@ -1,0 +1,1 @@
+Adds a new ship, the Turtle, to human shipyards. With that ship in your fleet, you can use an outfitter on every planet you land on. See the README for details.

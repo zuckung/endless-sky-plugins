@@ -1,0 +1,4 @@
+portable.outfitter
+author:
+	Lunella, zuckung 
+	https://github.com/zuckung/endless-sky-plugins
