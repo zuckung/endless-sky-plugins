@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-09-10 | update: portable.outfitter<br>
 2026-09-05 | update: coalition.shopping<br>
 2026-09-03 | update: boss.loot<br>
 2026-08-15 | update: vague.improvements<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-07-09 | update: ship.cores<br>
 2026-07-08 | update: galactic.capital.investment<br>
 2026-07-06 | update: ship.cores<br>
-2026-07-05 | update: ship.cores<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -75,6 +75,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#outfitsweaponslot">outfits.weapon.slot</a><br>
 <a href="README.md#paintyourships">paint.your.ships</a><br>
 <a href="README.md#planetmap">planet.map</a><br>
+<a href="README.md#portableoutfitter">portable.outfitter</a><br>
 <a href="README.md#quargfarm">quarg.farm</a><br>
 <a href="README.md#shipcores">ship.cores</a><br>
 <a href="README.md#shipmerging">ship.merging</a><br>
@@ -102,6 +103,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
     <a href="https://github.com/geojak/YouKnowWho-s-ES-Plugins" target="about:blank">https://github.com/geojak/YouKnowWho-s-ES-Plugins</a><br>
     <a href="https://github.com/Nova1422/plugins" target="about:blank">https://github.com/Nova1422/plugins</a><br>
     <a href="https://github.com/kaiboyjiang/endless-sky-plugins" target="about:blank">https://github.com/kaiboyjiang/endless-sky-plugins</a><br>
+	<a href="https://github.com/Yanncha/ES_plugins" target="about:blank">https://github.com/Yanncha/ES_plugins</a><br>
   </li>
   <li>
     Furthermore, I'd like to present <a href="https://zuckung.github.io/ES-DataParser/">https://zuckung.github.io/ES-DataParser/</a> to other plugin creators or people who seek information inside the data folder. Basically it is a very fast way to view every object (root node) of the data folder on a website, especially when you don't know where to find something. For an easier browsing and comparing of game objects, like missions, ships, systems, and others.<br>
@@ -5383,6 +5385,65 @@ screenshots(click to enlarge):<br>
 	</tr>
 </table>
 <br>
+
+<br>
+
+
+---
+
+### portable.outfitter
+
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/portable.outfitter.png" width="130" height="20">
+<img src="myplugins/portable.outfitter/icon.png" height="100">
+
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.0-portable.outfitter/portable.outfitter.zip) 
+<img src="https://img.shields.io/badge/v1.0.0-707070"> 
+<img src="https://img.shields.io/badge/114.91_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--09--10-707070"> 
+[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=portable.outfitter-&expanded=true) 
+[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/portable.outfitter/)
+[<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/portable.outfitter.md)<br>
+
+>Adds a new ship, the Turtle, to human shipyards. With that ship in your fleet, you can use an outfitter on every planet you land on. See the README for details.
+
+<details>
+<summary>show README</summary>
+
+<blockquote>
+
+### portable.outfitter <br>
+
+<br>
+
+Adds a new ship, the Turtle, to human shipyards. With that ship in your fleet, you can use an outfitter on every planet you land on.<br>
+
+<br>
+
+The ship costs 50 million credits and is available in every human shipyard. If you have the ship in your active fleet it offers an outfitter on every planet you land on, even on uninhabited planets.
+
+<br>
+
+Idea and shipdesign by Lunella<br>
+
+<br>
+
+<br>
+
+<br>
+
+Changelog:<br>
+
+<br>
+
+2026-09-09<br>
+
+initial release<br>
+
+
+</blockquote>
+
+</details>
+
 
 <br>
 

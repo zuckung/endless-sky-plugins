@@ -3,3 +3,4 @@ about "Adds a new ship, the Turtle, to human shipyards. With that ship in your f
 authors
 	"Lunella"
 	"zuckung"
+version 1.0.0
