@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-09-13 | update: control.station<br>
 2026-09-10 | update: portable.outfitter<br>
 2026-09-05 | update: coalition.shopping<br>
 2026-09-03 | update: boss.loot<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-07-10 | update: disable.spaceport.repeatables<br>
 2026-07-09 | update: ship.cores<br>
 2026-07-08 | update: galactic.capital.investment<br>
-2026-07-06 | update: ship.cores<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1930,10 +1930,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/control.station.png" width="130" height="20">
 <img src="myplugins/control.station/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-control.station/control.station.zip) 
-<img src="https://img.shields.io/badge/v1.0.8-707070"> 
-<img src="https://img.shields.io/badge/3.22_mb-707070"> 
-<img src="https://img.shields.io/badge/2026--04--28-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.9-control.station/control.station.zip) 
+<img src="https://img.shields.io/badge/v1.0.9-707070"> 
+<img src="https://img.shields.io/badge/3.11_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--09--13-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=control.station-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/control.station/)
 [<img src="https://img.shields.io/badge/view_images_[405]-707070">](res/imagemd/control.station.md)<br>
@@ -1994,6 +1994,12 @@ Completing the campaigns might not exactly have the same result as if the campai
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-09-13<br>
+
+changed planet attribute showing from event based to condition based (requested by Mernom)<br>
 
 <br>
 
