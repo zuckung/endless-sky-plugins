@@ -24,6 +24,9 @@ Completing the campaigns might not exactly have the same result as if the campai
 <br>
 Changelog:<br>
 <br>
+2026-09-13<br>
+changed planet attribute showing from event based to condition based (requested by Mernom)<br>
+<br>
 2026-04-28<br>
 fixed teccimach event naming from 0.11.1<br>
 <br>

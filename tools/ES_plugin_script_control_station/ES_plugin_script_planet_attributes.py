@@ -55,7 +55,6 @@ def read_everything(data_folder):
 def filter_planets(obj):
 	event1txt, event2txt = '', ''
 	event1txt = 'event "add planet attributes"\n'
-	event2txt = 'event "remove planet attributes"\n'
 	with open('ES_plugin_script_planet_attributes_template.txt', 'r') as source:
 		mission = source.read()
 	for each in obj:
@@ -74,10 +73,13 @@ def filter_planets(obj):
 					pos2 = each.find('`', pos1 + 15)
 					olddescription += each[pos1:pos2+1] + '\n'
 					each = each[pos2:]
-				event1txt += '\t' + planet + '\n\t\tadd description `[attributes: ' + attributes + ']`\n'
+				event1txt += '\t' + planet + '\n' +\
+					'\t\tadd description `[attributes: ' + attributes + ']`\n' +\
+					'\t\t\tto display\n' +\
+					'\t\t\t\thas "show planet attributes"\n'
 				event2txt += '\t' + planet + '\n' + olddescription.replace('\t', '\t\t')
 	with open('control.station.2.planet.attributes.txt', 'w') as target:
-		target.writelines(mission + '\n\n' +event1txt + '\n\n' + event2txt)
+		target.writelines(mission + '\n\n' +event1txt + '\n')
 
 
 def event_reveal_vanilla(obj):
