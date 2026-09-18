@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-09-18 | update: show.reputation<br>
 2026-09-13 | update: control.station<br>
 2026-09-10 | update: portable.outfitter<br>
 2026-09-05 | update: coalition.shopping<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-08-01 | Hooray! 50 stars!<br>
 2026-07-10 | update: disable.spaceport.repeatables<br>
 2026-07-09 | update: ship.cores<br>
-2026-07-08 | update: galactic.capital.investment<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -5788,13 +5788,13 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/show.reputation.png" width="130" height="20">
 <img src="myplugins/show.reputation/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.6-show.reputation/show.reputation.zip) 
-<img src="https://img.shields.io/badge/v1.0.6-707070"> 
-<img src="https://img.shields.io/badge/159.43_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--02--01-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-show.reputation/show.reputation.zip) 
+<img src="https://img.shields.io/badge/v1.0.7-707070"> 
+<img src="https://img.shields.io/badge/140.15_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--09--18-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=show.reputation-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/show.reputation/)
-[<img src="https://img.shields.io/badge/view_images_[5]-707070">](res/imagemd/show.reputation.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[4]-707070">](res/imagemd/show.reputation.md)<br>
 
 >Enables a job on the Earth job board, that shows the reputation values. See the README for details.
 
@@ -5820,6 +5820,14 @@ Accept the job and the reputations conversation pops up. Then you can choose bet
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-09-18<br>
+
+added missing reputations<br>
+
+improved format<br>
 
 <br>
 
