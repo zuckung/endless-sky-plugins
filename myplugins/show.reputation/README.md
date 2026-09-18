@@ -8,6 +8,10 @@ Accept the job and the reputations conversation pops up. Then you can choose bet
 <br>
 Changelog:<br>
 <br>
+2026-09-18<br>
+added missing reputations<br>
+improved format<br>
+<br>
 2026-02-01<br>
 updated to 0.11.0<br>
 <br>

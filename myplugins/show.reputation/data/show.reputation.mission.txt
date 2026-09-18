@@ -1,7 +1,17 @@
+# 2x color for control station
+# mission "show reputation"
+# mission "plugin: show.eputations"
+
+
+color "show.reputation job: selected" 0. .7 1. 0.
+color "show.reputation job: unselected" .3 .5 .8 0.
+
 mission "show reputation"
 	job
 	repeat
 	name "(Show Reputations)"
+	color selected "show.reputation job: selected"
+	color unselected "show.reputation job: unselected"
 	description "Shows a list of reputations. Accept mission, start and land again."
 	on accept
 		conversation
@@ -10,178 +20,623 @@ mission "show reputation"
 			``
 			`Menu:`
 			choice
-				`	Reputation List (selected 35)`
+				`	Reputation List (sorted by race)`
 					goto selrep
-				`	Reputation List (all)`
+				`	Reputation List (sorted alphabetically)`
 					goto fullrep
 				`	close this conversation`
 					goto end
 			label selrep
-			`Reputation List (selected 35)`
+			`Reputation List (sorted by race)`
 			``
-			`&[reputation: Author]	Author`
-			`&[reputation: Bunrodea]	Bunrodea`
-			`&[reputation: Coalition]	Coalition`
-			`&[reputation: Deep]	Deep`
-			`&[reputation: Deep Security]	Deep Security`
-			`&[reputation: Free Worlds]	Free Worlds`
-			`&[reputation: Gegno]	Gegno`
-			`&[reputation: Gegno Scin]	Gegno Scin`
-			`&[reputation: Gegno Vi]	Gegno Vi`
-			`&[reputation: Hai]	Hai`
-			`&[reputation: Hai Merchant (Sympathizers)]	Hai Merchant (Sympathizers)`
-			`&[reputation: Hai (Unfettered)]	Hai (Unfettered)`
-			`&[reputation: Heliarch]	Heliarch`
-			`&[reputation: Independent]	Independent`
-			`&[reputation: Ka'het]	Ka'het`
-			`&[reputation: Korath]	Korath`
-			`&[reputation: Korath (Civilian)]	Korath (Civilian)`
-			`&[reputation: Kor Efret]	Kor Efret`
-			`&[reputation: Lunarium]	Lunarium`
-			`&[reputation: Merchant]	Merchant`
-			`&[reputation: Militia]	Militia`
-			`&[reputation: Navy Intelligence]	Navy Intelligence`
-			`&[reputation: Navy (Oathkeeper)]	Navy (Oathkeeper)`
-			`&[reputation: Pirate]	Pirate`
-			`&[reputation: Pug]	Pug`
-			`&[reputation: Pug (Wanderer)]	Pug (Wanderer)`
-			`&[reputation: Quarg]	Quarg`
-			`&[reputation: Quarg (Hai)]	Quarg (Hai)`
-			`&[reputation: Quarg (Kor Efret)]	Quarg (Kor Efret)`
-			`&[reputation: Quarg (Gegno)]	Quarg (Gegno)`
-			`&[reputation: Remnant]	Remnant`
-			`&[reputation: Republic]	Republic`
-			`&[reputation: Republic Intelligence]	Republic Intelligence`
-			`&[reputation: Syndicate]	Syndicate`
-			`&[reputation: Wanderer]	Wanderer`
+			`Human`
+			`	Republic	&[reputation: Republic]`
+			`	Deep	&[reputation: Deep]`
+			`	Syndicate	&[reputation: Syndicate]`
+			`	Free Worlds	&[reputation: Free Worlds]`
+			`	Pirate	&[reputation: Pirate]`
+			`	Merchant	&[reputation: Merchant]`
+			`	Militia	&[reputation: Militia]`
+			`	Neutral	&[reputation: Neutral]`
+			`	Independent	&[reputation: Independent]`
+			`		Republic (Friendly)	&[reputation: Republic (Friendly)]`
+			`		Navy Intelligence	&[reputation: Navy Intelligence]`
+			`		Navy (Oathkeeper)	&[reputation: Navy (Oathkeeper)]`
+			`		Deep Security	&[reputation: Deep Security]`
+			`		Syndicate (Extremist)	&[reputation: Syndicate (Extremist)]`
+			`		Syndicate (Hostile)	&[reputation: Syndicate (Hostile)]`
+			`		Bounty	&[reputation: Bounty]`
+			`		Bounty (Disguised)	&[reputation: Bounty (Disguised)]`
+			`		Bounty Hunter	&[reputation: Bounty Hunter]`
+			`		Marauder	&[reputation: Marauder]`
+			`		Pirate (Rival)	&[reputation: Pirate (Rival)]`
+			`		Merchant (Hostile)	&[reputation: Merchant (Hostile)]`
+			`		Scar's Legion	&[reputation: Scar's Legion]`
+			`		Scar's Legion (Killable)	&[reputation: Scar's Legion (Killable)]`
+			`		Independent (Killable)	&[reputation: Independent (Killable)]`
+			`		Escort	&[reputation: Escort]`
+			`		Escort (Betraying)	&[reputation: Escort (Betraying)]`
+			`		Alpha	&[reputation: Alpha]`
+			`		Bad Trip	&[reputation: Bad Trip]`
+			`		Derelict	&[reputation: Derelict]`
+			`		Derelict (Boardable)	&[reputation: Derelict (Boardable)]`
+			`		Team Blue	&[reputation: Team Blue]`
+			`		Team Red	&[reputation: Team Red]`
+			`		Test Dummy	&[reputation: Test Dummy]`
+			``
+			`Quarg`
+			`	Quarg	&[reputation: Quarg]`
+			`	Quarg (Hai)	&[reputation: Quarg (Hai)]`
+			`	Quarg (Kor Efret)	&[reputation: Quarg (Kor Efret)]`
+			`	Quarg (Gegno)	&[reputation: Quarg (Gegno)]`
+			`	Quarg (Incipias)	&[reputation: Quarg (Incipias)]`
+			``
+			`Pug`
+			`	Pug	&[reputation: Pug]`
+			`	Pug (Wanderer)	&[reputation: Pug (Wanderer)]`
+			``
+			`Hai`
+			`	Hai	&[reputation: Hai]`
+			`	Hai (Unfettered)	&[reputation: Hai (Unfettered)]`
+			`		Hai Merchant	&[reputation: Hai Merchant]`
+			`		Hai Merchant (Sympathizers)	&[reputation: Hai Merchant (Sympathizers)]`
+			`		Hai Merchant (Human)	&[reputation: Hai Merchant (Human)]`
+			`		Hai (Unfettered Challenger)	&[reputation: Hai (Unfettered Challenger)]`
+			`		Hai (Unfettered Civilians)	&[reputation: Hai (Unfettered Civilians)]`
+			`		Hai (Unfettered Wanderer Tribute)	&[reputation: Hai (Unfettered Wanderer Tribute)]`
+			`		Hai (Wormhole Access)	&[reputation: Hai (Wormhole Access)]`
+			``
+			`Korath`
+			`	Korath	&[reputation: Korath]`
+			`	Korath (Civilian)	&[reputation: Korath (Civilian)]`
+			`	Kor Efret	&[reputation: Kor Efret]`
+			`	Kor Mereti	&[reputation: Kor Mereti]`
+			`	Kor Sestor	&[reputation: Kor Sestor]`
+			`		Korath Nanobots	&[reputation: Korath Nanobots]`
+			`		Kor Mereti (Hostile)	&[reputation: Kor Mereti (Hostile)]`
+			``
+			`Remnant`
+			`	Remnant	&[reputation: Remnant]`
+			`		Remnant (Research)	&[reputation: Remnant (Research)]`
+			`		Remnant (Postverta)	&[reputation: Remnant (Postverta)]`
+			`		Builder	&[reputation: Builder]`
+			`		Ember Waste	&[reputation: Ember Waste]`
+			`		Magic Asteroid	&[reputation: Magic Asteroid]`
+			`		Magic Asteroid (Disabled)	&[reputation: Magic Asteroid (Disabled)]`
+			`		Magic Asteroid (Patir 12.2)	&[reputation: Magic Asteroid (Patir 12.2)]`
+			`		Ka'het	&[reputation: Ka'het]`
+			`		Ka'het (Infighting)	&[reputation: Ka'het (Infighting)]`
+			`		Ka'sei	&[reputation: Ka'sei]`
+			`		Ka'sei (12.2)	&[reputation: Ka'sei (12.2)]`
+			`		Ka'sei (Patir 18)	&[reputation: Ka'sei (Patir 18)]`
+			``
+			`Coalition`
+			`	Coalition	&[reputation: Coalition]`
+			`	Heliarch	&[reputation: Heliarch]`
+			`	Lunarium	&[reputation: Lunarium]`
+			`		Heliarch Test Dummy	&[reputation: Heliarch Test Dummy]`
+			`		Lunarium (Hidden)	&[reputation: Lunarium (Hidden)]`
+			``
+			`Gegno`
+			`	Gegno	&[reputation: Gegno]`
+			`	Gegno Scin	&[reputation: Gegno Scin]`
+			`	Gegno Vi	&[reputation: Gegno Vi]`
+			`		Gegno Scin (Combative)	&[reputation: Gegno Scin (Combative)]`
+			`		Gegno Scin (Neutral)	&[reputation: Gegno Scin (Neutral)]`
+			`		Gegno Vi (Combative)	&[reputation: Gegno Vi (Combative)]`
+			`		Gegno Vi (Duelist A)	&[reputation: Gegno Vi (Duelist A)]`
+			`		Gegno Vi (Duelist B)	&[reputation: Gegno Vi (Duelist B)]`
+			`		Gegno Vi (Neutral)	&[reputation: Gegno Vi (Neutral)]`
+			``
+			`Bunrodea`
+			`	Bunrodea	&[reputation: Bunrodea]`
+			`	Bunrodea (Erabu)	&[reputation: Bunrodea (Erabu)]`
+			`	Bunrodea (Guard)	&[reputation: Bunrodea (Guard)]`
+			`	Bunrodea (Megasa)	&[reputation: Bunrodea (Megasa)]`
+			``
+			`Avgi`
+			`	Avgi	&[reputation: Avgi]`
+			`	Avgi (Consonance)	&[reputation: Avgi (Consonance)]`
+			`	Avgi (Dissonance)	&[reputation: Avgi (Dissonance)]`
+			`		Avgi (Dissonance Angry)	&[reputation: Avgi (Dissonance Angry)]`
+			`		Avgi (Twilight Guard)	&[reputation: Avgi (Twilight Guard)]`
+			`		Avgi (Wandering Fleet)	&[reputation: Avgi (Wandering Fleet)]`
+			`		Aberrant	&[reputation: Aberrant]`
+			``
+			`Successors`
+			`	Successor	&[reputation: Successor]`
+			`	New Houses	&[reputation: New Houses]`
+			`	Old Houses	&[reputation: Old Houses]`
+			`	People's Houses	&[reputation: People's Houses]`
+			`	House Aqrabe	&[reputation: House Aqrabe]`
+			`	House Chydiyi	&[reputation: House Chydiyi]`
+			`	House Kaatrij	&[reputation: House Kaatrij]`
+			`	House Myurej	&[reputation: House Myurej]`
+			`	House Seineq	&[reputation: House Seineq]`
+			`	House Sioeora	&[reputation: House Sioeora]`
+			`		Predecessor	&[reputation: Predecessor]`
+			`		People's Houses (Hostile)	&[reputation: People's Houses (Hostile)]`
+			``
+			`Incipias`
+			`	Hicemus	&[reputation: Hicemus]`
+			`	Conlatio	&[reputation: Conlatio]`
+			`	Incipias Civilian	&[reputation: Incipias Civilian]`
+			``
+			`Wanderer`
+			`	Wanderer	&[reputation: Wanderer]`
+			`		Wormhole Alpha	&[reputation: Wormhole Alpha]`
+			``
+			`Author`
+			`	Author	&[reputation: Author]`
+			`	Parrot	&[reputation: Parrot]`
+			``
+			`Other`
+			`	Drak	&[reputation: Drak]`
+			`	Drak (Hostile)	&[reputation: Drak (Hostile)]`
+			`	Drak (Incipias)	&[reputation: Drak (Incipias)]`
+			`	Indigenous Lifeform	&[reputation: Indigenous Lifeform]`
+			`	Indigenous Lifeform (Acheron)	&[reputation: Indigenous Lifeform (Acheron)]`
+			`	Indigenous Lifeform (Astral)	&[reputation: Indigenous Lifeform (Astral)]`
+			`	Indigenous Lifeform (Subsidurial)	&[reputation: Indigenous Lifeform (Subsidurial)]`
+			`	Indigenous Lifeform (Tree)	&[reputation: Indigenous Lifeform (Tree)]`
+			`	Indigenous Lifeform (Tree Two)	&[reputation: Indigenous Lifeform (Tree Two)]`
+			`	Rulei	&[reputation: Rulei]`
+			`	Sheragi	&[reputation: Sheragi]`
+			`	Silent Ones	&[reputation: Silent Ones]`
+			`	Uninhabited	&[reputation: Uninhabited]`
 				goto menu
 			label fullrep
-			`Reputation List (all)`
+			`Reputation List (sorted alphabetically)`
 			``
-			`&[reputation: Aberrant]	Aberrant`
-			`&[reputation: Alpha]	Alpha`
-			`&[reputation: Author]	Author`
-			`&[reputation: Avgi]	Avgi`
-			`&[reputation: Avgi (Consonance)]	Avgi (Consonance)`
-			`&[reputation: Avgi (Dissonance)]	Avgi (Dissonance)`
-			`&[reputation: Avgi (Dissonance Angry)]	Avgi (Dissonance Angry)`
-			`&[reputation: Avgi (Twilight Guard)]	Avgi (Twilight Guard)`
-			`&[reputation: Avgi (Wandering Fleet)]	Avgi (Wandering Fleet)`
-			`&[reputation: Bad Trip]	Bad Trip`
-			`&[reputation: Bounty]	Bounty`
-			`&[reputation: Bounty (Disguised)]	Bounty (Disguised)`
-			`&[reputation: Bounty Hunter]	Bounty Hunter`
-			`&[reputation: Builder]	Builder`
-			`&[reputation: Bunrodea]	Bunrodea`
-			`&[reputation: Bunrodea (Erabu)]	Bunrodea (Erabu)`
-			`&[reputation: Bunrodea (Guard)]	Bunrodea (Guard)`
-			`&[reputation: Bunrodea (Megasa)]	Bunrodea (Megasa)`
-			`&[reputation: Coalition]	Coalition`
-			`&[reputation: Conlatio]	Conlatio`
-			`&[reputation: Deep]	Deep`
-			`&[reputation: Deep Security]	Deep Security`
-			`&[reputation: Derelict]	Derelict`
-			`&[reputation: Derelict (Boardable)]	Derelict (Boardable)`
-			`&[reputation: Drak]	Drak`
-			`&[reputation: Drak (Hostile)]	Drak (Hostile)`
-			`&[reputation: Drak (Incipias)]	Drak (Incipias)`
-			`&[reputation: Ember Waste]	Ember Waste`
-			`&[reputation: Escort]	Escort`
-			`&[reputation: Escort (Betraying)]	Escort (Betraying)`
-			`&[reputation: Free Worlds]	Free Worlds`
-			`&[reputation: Gegno]	Gegno`
-			`&[reputation: Gegno Scin]	Gegno Scin`
-			`&[reputation: Gegno Scin (Combative)]	Gegno Scin (Combative)`
-			`&[reputation: Gegno Scin (Neutral)]	Gegno Scin (Neutral)`
-			`&[reputation: Gegno Vi]	Gegno Vi`
-			`&[reputation: Gegno Vi (Combative)]	Gegno Vi (Combative)`
-			`&[reputation: Gegno Vi (Duelist A)]	Gegno Vi (Duelist A)`
-			`&[reputation: Gegno Vi (Duelist B)]	Gegno Vi (Duelist B)`
-			`&[reputation: Gegno Vi (Neutral)]	Gegno Vi (Neutral)`
-			`&[reputation: Hai]	Hai`
-			`&[reputation: Hai Merchant]	Hai Merchant`
-			`&[reputation: Hai Merchant (Sympathizers)]	Hai Merchant (Sympathizers)`
-			`&[reputation: Hai Merchant (Human)]	Hai Merchant (Human)`
-			`&[reputation: Hai (Unfettered)]	Hai (Unfettered)`
-			`&[reputation: Hai (Unfettered Challenger)]	Hai (Unfettered Challenger)`
-			`&[reputation: Hai (Unfettered Civilians)]	Hai (Unfettered Civilians)`
-			`&[reputation: Hai (Unfettered Wanderer Tribute)]	Hai (Unfettered Wanderer Tribute)`
-			`&[reputation: Hai (Wormhole Access)]	Hai (Wormhole Access)`
-			`&[reputation: Heliarch]	Heliarch`
-			`&[reputation: Heliarch Test Dummy]	Heliarch Test Dummy`
-			`&[reputation: Hicemus]	Hicemus`
-			`&[reputation: House Aqrabe]	House Aqrabe`
-			`&[reputation: House Chydiyi]	House Chydiyi`
-			`&[reputation: House Kaatrij]	House Kaatrij`
-			`&[reputation: House Myurej]	House Myurej`
-			`&[reputation: House Seineq]	House Seineq`
-			`&[reputation: House Sioeora]	House Sioeora`
-			`&[reputation: Incipias Civilian]	Incipias Civilian`
-			`&[reputation: Independent]	Independent`
-			`&[reputation: Independent (Killable)]	Independent (Killable)`
-			`&[reputation: Indigenous Lifeform]	Indigenous Lifeform`
-			`&[reputation: Indigenous Lifeform (Acheron)]	Indigenous Lifeform (Acheron)`
-			`&[reputation: Indigenous Lifeform (Astral)]	Indigenous Lifeform (Astral)`
-			`&[reputation: Indigenous Lifeform (Subsidurial)]	Indigenous Lifeform (Subsidurial)`
-			`&[reputation: Indigenous Lifeform (Tree)]	Indigenous Lifeform (Tree)`
-			`&[reputation: Indigenous Lifeform (Tree Two)]	Indigenous Lifeform (Tree Two)`
-			`&[reputation: Ka'het]	Ka'het`
-			`&[reputation: Ka'het (Infighting)]	Ka'het (Infighting)`
-			`&[reputation: Ka'sei]	Ka'sei`
-			`&[reputation: Ka'sei (12.2)]	Ka'sei (12.2)`
-			`&[reputation: Kor Efret]	Kor Efret`
-			`&[reputation: Kor Mereti]	Kor Mereti`
-			`&[reputation: Kor Mereti (Hostile)]	Kor Mereti (Hostile)`
-			`&[reputation: Kor Sestor]	Kor Sestor`
-			`&[reputation: Korath]	Korath`
-			`&[reputation: Korath (Civilian)]	Korath (Civilian)`
-			`&[reputation: Korath Nanobots]	Korath Nanobots`
-			`&[reputation: Lunarium]	Lunarium`
-			`&[reputation: Lunarium (Hidden)]	Lunarium (Hidden)`
-			`&[reputation: Magic Asteroid]	Magic Asteroid`
-			`&[reputation: Marauder]	Marauder`
-			`&[reputation: Merchant]	Merchant`
-			`&[reputation: Merchant (Hostile)]	Merchant (Hostile)`
-			`&[reputation: Militia]	Militia`
-			`&[reputation: Navy Intelligence]	Navy Intelligence`
-			`&[reputation: Navy (Oathkeeper)]	Navy (Oathkeeper)`
-			`&[reputation: Neutral]	Neutral`
-			`&[reputation: New Houses]	New Houses`
-			`&[reputation: Old Houses]	Old Houses`
-			`&[reputation: Parrot]	Parrot`
-			`&[reputation: People's Houses]	People's Houses`
-			`&[reputation: People's Houses (Hostile)]	People's Houses (Hostile)`
-			`&[reputation: Pirate]	Pirate`
-			`&[reputation: Pirate (Rival)]	Pirate (Rival)`
-			`&[reputation: Predecessor]	Predecessor`
-			`&[reputation: Pug]	Pug`
-			`&[reputation: Pug (Wanderer)]	Pug (Wanderer)`
-			`&[reputation: Quarg]	Quarg`
-			`&[reputation: Quarg (Gegno)]	Quarg (Gegno)`
-			`&[reputation: Quarg (Hai)]	Quarg (Hai)`
-			`&[reputation: Quarg (Incipias)]	Quarg (Incipias)`
-			`&[reputation: Quarg (Kor Efret)]	Quarg (Kor Efret)`
-			`&[reputation: Remnant]	Remnant`
-			`&[reputation: Remnant (Research)]	Remnant (Research)`
-			`&[reputation: Republic]	Republic`
-			`&[reputation: Republic (Friendly)]	Republic (Friendly)`
-			`&[reputation: Rulei]	Rulei`
-			`&[reputation: Scar's Legion]	Scar's Legion`
-			`&[reputation: Scar's Legion (Killable)]	Scar's Legion (Killable)`
-			`&[reputation: Sheragi]	Sheragi`
-			`&[reputation: Silent Ones]	Silent Ones`
-			`&[reputation: Successor]	Successor`
-			`&[reputation: Syndicate]	Syndicate`
-			`&[reputation: Syndicate (Extremist)]	Syndicate (Extremist)`
-			`&[reputation: Team Blue]	Team Blue`
-			`&[reputation: Team Red]	Team Red`
-			`&[reputation: Test Dummy]	Test Dummy`
-			`&[reputation: Uninhabited]	Uninhabited`
-			`&[reputation: Wanderer]	Wanderer`
-			`&[reputation: Wormhole Alpha]	Wormhole Alpha`
-			`&[reputation: Syndicate (Hostile)]	Syndicate (Hostile)`
+			`Aberrant	&[reputation: Aberrant]`
+			`Alpha	&[reputation: Alpha]`
+			`Author	&[reputation: Author]`
+			`Avgi	&[reputation: Avgi]`
+			`Avgi (Consonance)	&[reputation: Avgi (Consonance)]`
+			`Avgi (Dissonance)	&[reputation: Avgi (Dissonance)]`
+			`Avgi (Dissonance Angry)	&[reputation: Avgi (Dissonance Angry)]`
+			`Avgi (Twilight Guard)	&[reputation: Avgi (Twilight Guard)]`
+			`Avgi (Wandering Fleet)	&[reputation: Avgi (Wandering Fleet)]`
+			`Bad Trip	&[reputation: Bad Trip]`
+			`Bounty	&[reputation: Bounty]`
+			`Bounty (Disguised)	&[reputation: Bounty (Disguised)]`
+			`Bounty Hunter	&[reputation: Bounty Hunter]`
+			`Builder	&[reputation: Builder]`
+			`Bunrodea	&[reputation: Bunrodea]`
+			`Bunrodea (Erabu)	&[reputation: Bunrodea (Erabu)]`
+			`Bunrodea (Guard)	&[reputation: Bunrodea (Guard)]`
+			`Bunrodea (Megasa)	&[reputation: Bunrodea (Megasa)]`
+			`Coalition	&[reputation: Coalition]`
+			`Conlatio	&[reputation: Conlatio]`
+			`Deep	&[reputation: Deep]`
+			`Deep Security	&[reputation: Deep Security]`
+			`Derelict	&[reputation: Derelict]`
+			`Derelict (Boardable)	&[reputation: Derelict (Boardable)]`
+			`Drak	&[reputation: Drak]`
+			`Drak (Hostile)	&[reputation: Drak (Hostile)]`
+			`Drak (Incipias)	&[reputation: Drak (Incipias)]`
+			`Ember Waste	&[reputation: Ember Waste]`
+			`Escort	&[reputation: Escort]`
+			`Escort (Betraying)	&[reputation: Escort (Betraying)]`
+			`Free Worlds	&[reputation: Free Worlds]`
+			`Gegno	&[reputation: Gegno]`
+			`Gegno Scin	&[reputation: Gegno Scin]`
+			`Gegno Scin (Combative)	&[reputation: Gegno Scin (Combative)]`
+			`Gegno Scin (Neutral)	&[reputation: Gegno Scin (Neutral)]`
+			`Gegno Vi	&[reputation: Gegno Vi]`
+			`Gegno Vi (Combative)	&[reputation: Gegno Vi (Combative)]`
+			`Gegno Vi (Duelist A)	&[reputation: Gegno Vi (Duelist A)]`
+			`Gegno Vi (Duelist B)	&[reputation: Gegno Vi (Duelist B)]`
+			`Gegno Vi (Neutral)	&[reputation: Gegno Vi (Neutral)]`
+			`Hai	&[reputation: Hai]`
+			`Hai Merchant	&[reputation: Hai Merchant]`
+			`Hai Merchant (Sympathizers)	&[reputation: Hai Merchant (Sympathizers)]`
+			`Hai Merchant (Human)	&[reputation: Hai Merchant (Human)]`
+			`Hai (Unfettered)	&[reputation: Hai (Unfettered)]`
+			`Hai (Unfettered Challenger)	&[reputation: Hai (Unfettered Challenger)]`
+			`Hai (Unfettered Civilians)	&[reputation: Hai (Unfettered Civilians)]`
+			`Hai (Unfettered Wanderer Tribute)	&[reputation: Hai (Unfettered Wanderer Tribute)]`
+			`Hai (Wormhole Access)	&[reputation: Hai (Wormhole Access)]`
+			`Heliarch	&[reputation: Heliarch]`
+			`Heliarch Test Dummy	&[reputation: Heliarch Test Dummy]`
+			`Hicemus	&[reputation: Hicemus]`
+			`House Aqrabe	&[reputation: House Aqrabe]`
+			`House Chydiyi	&[reputation: House Chydiyi]`
+			`House Kaatrij	&[reputation: House Kaatrij]`
+			`House Myurej	&[reputation: House Myurej]`
+			`House Seineq	&[reputation: House Seineq]`
+			`House Sioeora	&[reputation: House Sioeora]`
+			`Incipias Civilian	&[reputation: Incipias Civilian]`
+			`Independent	&[reputation: Independent]`
+			`Independent (Killable)	&[reputation: Independent (Killable)]`
+			`Indigenous Lifeform	&[reputation: Indigenous Lifeform]`
+			`Indigenous Lifeform (Acheron)	&[reputation: Indigenous Lifeform (Acheron)]`
+			`Indigenous Lifeform (Astral)	&[reputation: Indigenous Lifeform (Astral)]`
+			`Indigenous Lifeform (Subsidurial)	&[reputation: Indigenous Lifeform (Subsidurial)]`
+			`Indigenous Lifeform (Tree)	&[reputation: Indigenous Lifeform (Tree)]`
+			`Indigenous Lifeform (Tree Two)	&[reputation: Indigenous Lifeform (Tree Two)]`
+			`Ka'het	&[reputation: Ka'het]`
+			`Ka'het (Infighting)	&[reputation: Ka'het (Infighting)]`
+			`Ka'sei	&[reputation: Ka'sei]`
+			`Ka'sei (12.2)	&[reputation: Ka'sei (12.2)]`
+			`Ka'sei (Patir 18)	&[reputation: Ka'sei (Patir 18)]`
+			`Kor Efret	&[reputation: Kor Efret]`
+			`Kor Mereti	&[reputation: Kor Mereti]`
+			`Kor Mereti (Hostile)	&[reputation: Kor Mereti (Hostile)]`
+			`Kor Sestor	&[reputation: Kor Sestor]`
+			`Korath	&[reputation: Korath]`
+			`Korath (Civilian)	&[reputation: Korath (Civilian)]`
+			`Korath Nanobots	&[reputation: Korath Nanobots]`
+			`Lunarium	&[reputation: Lunarium]`
+			`Lunarium (Hidden)	&[reputation: Lunarium (Hidden)]`
+			`Magic Asteroid	&[reputation: Magic Asteroid]`
+			`Magic Asteroid (Disabled)	&[reputation: Magic Asteroid (Disabled)]`
+			`Magic Asteroid (Patir 12.2)	&[reputation: Magic Asteroid (Patir 12.2)]`
+			`Marauder	&[reputation: Marauder]`
+			`Merchant	&[reputation: Merchant]`
+			`Merchant (Hostile)	&[reputation: Merchant (Hostile)]`
+			`Militia	&[reputation: Militia]`
+			`Navy Intelligence	&[reputation: Navy Intelligence]`
+			`Navy (Oathkeeper)	&[reputation: Navy (Oathkeeper)]`
+			`Neutral	&[reputation: Neutral]`
+			`New Houses	&[reputation: New Houses]`
+			`Old Houses	&[reputation: Old Houses]`
+			`Parrot	&[reputation: Parrot]`
+			`People's Houses	&[reputation: People's Houses]`
+			`People's Houses (Hostile)	&[reputation: People's Houses (Hostile)]`
+			`Pirate	&[reputation: Pirate]`
+			`Pirate (Rival)	&[reputation: Pirate (Rival)]`
+			`Predecessor	&[reputation: Predecessor]`
+			`Pug	&[reputation: Pug]`
+			`Pug (Wanderer)	&[reputation: Pug (Wanderer)]`
+			`Quarg	&[reputation: Quarg]`
+			`Quarg (Gegno)	&[reputation: Quarg (Gegno)]`
+			`Quarg (Hai)	&[reputation: Quarg (Hai)]`
+			`Quarg (Incipias)	&[reputation: Quarg (Incipias)]`
+			`Quarg (Kor Efret)	&[reputation: Quarg (Kor Efret)]`
+			`Remnant	&[reputation: Remnant]`
+			`Remnant (Research)	&[reputation: Remnant (Research)]`
+			`Remnant (Postverta)	&[reputation: Remnant (Postverta)]`
+			`Republic	&[reputation: Republic]`
+			`Republic (Friendly)	&[reputation: Republic (Friendly)]`
+			`Rulei	&[reputation: Rulei]`
+			`Scar's Legion	&[reputation: Scar's Legion]`
+			`Scar's Legion (Killable)	&[reputation: Scar's Legion (Killable)]`
+			`Sheragi	&[reputation: Sheragi]`
+			`Silent Ones	&[reputation: Silent Ones]`
+			`Successor	&[reputation: Successor]`
+			`Syndicate	&[reputation: Syndicate]`
+			`Syndicate (Extremist)	&[reputation: Syndicate (Extremist)]`
+			`Team Blue	&[reputation: Team Blue]`
+			`Team Red	&[reputation: Team Red]`
+			`Test Dummy	&[reputation: Test Dummy]`
+			`Uninhabited	&[reputation: Uninhabited]`
+			`Wanderer	&[reputation: Wanderer]`
+			`Wormhole Alpha	&[reputation: Wormhole Alpha]`
+			`Syndicate (Hostile)	&[reputation: Syndicate (Hostile)]`
 				goto menu
 			label end
 				decline
 	on daily
 		fail
+
+
+
+
+mission "plugin: show.eputations"
+	name "[4] plugin: show.reputations"
+	color selected "control.station plugin job: selected"
+	color unselected "control.station plugin job: unselected"
+	job
+	repeat
+	description "Shows a list of reputations. Accept mission, start and land again."
+	to offer
+		has "installed plugin: control.station"
+	source "Control Station"
+	on accept
+		conversation
+			label menu
+			scene "outfit/icon"
+			``
+			`Menu:`
+			choice
+				`	Reputation List (sorted by race)`
+					goto selrep
+				`	Reputation List (sorted alphabetically)`
+					goto fullrep
+				`	close this conversation`
+					goto end
+			label selrep
+			`Reputation List (sorted by race)`
+			``
+			`Human`
+			`	Republic	&[reputation: Republic]`
+			`	Deep	&[reputation: Deep]`
+			`	Syndicate	&[reputation: Syndicate]`
+			`	Free Worlds	&[reputation: Free Worlds]`
+			`	Pirate	&[reputation: Pirate]`
+			`	Merchant	&[reputation: Merchant]`
+			`	Militia	&[reputation: Militia]`
+			`	Neutral	&[reputation: Neutral]`
+			`	Independent	&[reputation: Independent]`
+			`		Republic (Friendly)	&[reputation: Republic (Friendly)]`
+			`		Navy Intelligence	&[reputation: Navy Intelligence]`
+			`		Navy (Oathkeeper)	&[reputation: Navy (Oathkeeper)]`
+			`		Deep Security	&[reputation: Deep Security]`
+			`		Syndicate (Extremist)	&[reputation: Syndicate (Extremist)]`
+			`		Syndicate (Hostile)	&[reputation: Syndicate (Hostile)]`
+			`		Bounty	&[reputation: Bounty]`
+			`		Bounty (Disguised)	&[reputation: Bounty (Disguised)]`
+			`		Bounty Hunter	&[reputation: Bounty Hunter]`
+			`		Marauder	&[reputation: Marauder]`
+			`		Pirate (Rival)	&[reputation: Pirate (Rival)]`
+			`		Merchant (Hostile)	&[reputation: Merchant (Hostile)]`
+			`		Scar's Legion	&[reputation: Scar's Legion]`
+			`		Scar's Legion (Killable)	&[reputation: Scar's Legion (Killable)]`
+			`		Independent (Killable)	&[reputation: Independent (Killable)]`
+			`		Escort	&[reputation: Escort]`
+			`		Escort (Betraying)	&[reputation: Escort (Betraying)]`
+			`		Alpha	&[reputation: Alpha]`
+			`		Bad Trip	&[reputation: Bad Trip]`
+			`		Derelict	&[reputation: Derelict]`
+			`		Derelict (Boardable)	&[reputation: Derelict (Boardable)]`
+			`		Team Blue	&[reputation: Team Blue]`
+			`		Team Red	&[reputation: Team Red]`
+			`		Test Dummy	&[reputation: Test Dummy]`
+			``
+			`Quarg`
+			`	Quarg	&[reputation: Quarg]`
+			`	Quarg (Hai)	&[reputation: Quarg (Hai)]`
+			`	Quarg (Kor Efret)	&[reputation: Quarg (Kor Efret)]`
+			`	Quarg (Gegno)	&[reputation: Quarg (Gegno)]`
+			`	Quarg (Incipias)	&[reputation: Quarg (Incipias)]`
+			``
+			`Pug`
+			`	Pug	&[reputation: Pug]`
+			`	Pug (Wanderer)	&[reputation: Pug (Wanderer)]`
+			``
+			`Hai`
+			`	Hai	&[reputation: Hai]`
+			`	Hai (Unfettered)	&[reputation: Hai (Unfettered)]`
+			`		Hai Merchant	&[reputation: Hai Merchant]`
+			`		Hai Merchant (Sympathizers)	&[reputation: Hai Merchant (Sympathizers)]`
+			`		Hai Merchant (Human)	&[reputation: Hai Merchant (Human)]`
+			`		Hai (Unfettered Challenger)	&[reputation: Hai (Unfettered Challenger)]`
+			`		Hai (Unfettered Civilians)	&[reputation: Hai (Unfettered Civilians)]`
+			`		Hai (Unfettered Wanderer Tribute)	&[reputation: Hai (Unfettered Wanderer Tribute)]`
+			`		Hai (Wormhole Access)	&[reputation: Hai (Wormhole Access)]`
+			``
+			`Korath`
+			`	Korath	&[reputation: Korath]`
+			`	Korath (Civilian)	&[reputation: Korath (Civilian)]`
+			`	Kor Efret	&[reputation: Kor Efret]`
+			`	Kor Mereti	&[reputation: Kor Mereti]`
+			`	Kor Sestor	&[reputation: Kor Sestor]`
+			`		Korath Nanobots	&[reputation: Korath Nanobots]`
+			`		Kor Mereti (Hostile)	&[reputation: Kor Mereti (Hostile)]`
+			``
+			`Remnant`
+			`	Remnant	&[reputation: Remnant]`
+			`		Remnant (Research)	&[reputation: Remnant (Research)]`
+			`		Remnant (Postverta)	&[reputation: Remnant (Postverta)]`
+			`		Builder	&[reputation: Builder]`
+			`		Ember Waste	&[reputation: Ember Waste]`
+			`		Magic Asteroid	&[reputation: Magic Asteroid]`
+			`		Magic Asteroid (Disabled)	&[reputation: Magic Asteroid (Disabled)]`
+			`		Magic Asteroid (Patir 12.2)	&[reputation: Magic Asteroid (Patir 12.2)]`
+			`		Ka'het	&[reputation: Ka'het]`
+			`		Ka'het (Infighting)	&[reputation: Ka'het (Infighting)]`
+			`		Ka'sei	&[reputation: Ka'sei]`
+			`		Ka'sei (12.2)	&[reputation: Ka'sei (12.2)]`
+			`		Ka'sei (Patir 18)	&[reputation: Ka'sei (Patir 18)]`
+			``
+			`Coalition`
+			`	Coalition	&[reputation: Coalition]`
+			`	Heliarch	&[reputation: Heliarch]`
+			`	Lunarium	&[reputation: Lunarium]`
+			`		Heliarch Test Dummy	&[reputation: Heliarch Test Dummy]`
+			`		Lunarium (Hidden)	&[reputation: Lunarium (Hidden)]`
+			``
+			`Gegno`
+			`	Gegno	&[reputation: Gegno]`
+			`	Gegno Scin	&[reputation: Gegno Scin]`
+			`	Gegno Vi	&[reputation: Gegno Vi]`
+			`		Gegno Scin (Combative)	&[reputation: Gegno Scin (Combative)]`
+			`		Gegno Scin (Neutral)	&[reputation: Gegno Scin (Neutral)]`
+			`		Gegno Vi (Combative)	&[reputation: Gegno Vi (Combative)]`
+			`		Gegno Vi (Duelist A)	&[reputation: Gegno Vi (Duelist A)]`
+			`		Gegno Vi (Duelist B)	&[reputation: Gegno Vi (Duelist B)]`
+			`		Gegno Vi (Neutral)	&[reputation: Gegno Vi (Neutral)]`
+			``
+			`Bunrodea`
+			`	Bunrodea	&[reputation: Bunrodea]`
+			`	Bunrodea (Erabu)	&[reputation: Bunrodea (Erabu)]`
+			`	Bunrodea (Guard)	&[reputation: Bunrodea (Guard)]`
+			`	Bunrodea (Megasa)	&[reputation: Bunrodea (Megasa)]`
+			``
+			`Avgi`
+			`	Avgi	&[reputation: Avgi]`
+			`	Avgi (Consonance)	&[reputation: Avgi (Consonance)]`
+			`	Avgi (Dissonance)	&[reputation: Avgi (Dissonance)]`
+			`		Avgi (Dissonance Angry)	&[reputation: Avgi (Dissonance Angry)]`
+			`		Avgi (Twilight Guard)	&[reputation: Avgi (Twilight Guard)]`
+			`		Avgi (Wandering Fleet)	&[reputation: Avgi (Wandering Fleet)]`
+			`		Aberrant	&[reputation: Aberrant]`
+			``
+			`Successors`
+			`	Successor	&[reputation: Successor]`
+			`	New Houses	&[reputation: New Houses]`
+			`	Old Houses	&[reputation: Old Houses]`
+			`	People's Houses	&[reputation: People's Houses]`
+			`	House Aqrabe	&[reputation: House Aqrabe]`
+			`	House Chydiyi	&[reputation: House Chydiyi]`
+			`	House Kaatrij	&[reputation: House Kaatrij]`
+			`	House Myurej	&[reputation: House Myurej]`
+			`	House Seineq	&[reputation: House Seineq]`
+			`	House Sioeora	&[reputation: House Sioeora]`
+			`		Predecessor	&[reputation: Predecessor]`
+			`		People's Houses (Hostile)	&[reputation: People's Houses (Hostile)]`
+			``
+			`Incipias`
+			`	Hicemus	&[reputation: Hicemus]`
+			`	Conlatio	&[reputation: Conlatio]`
+			`	Incipias Civilian	&[reputation: Incipias Civilian]`
+			``
+			`Wanderer`
+			`	Wanderer	&[reputation: Wanderer]`
+			`		Wormhole Alpha	&[reputation: Wormhole Alpha]`
+			``
+			`Author`
+			`	Author	&[reputation: Author]`
+			`	Parrot	&[reputation: Parrot]`
+			``
+			`Other`
+			`	Drak	&[reputation: Drak]`
+			`	Drak (Hostile)	&[reputation: Drak (Hostile)]`
+			`	Drak (Incipias)	&[reputation: Drak (Incipias)]`
+			`	Indigenous Lifeform	&[reputation: Indigenous Lifeform]`
+			`	Indigenous Lifeform (Acheron)	&[reputation: Indigenous Lifeform (Acheron)]`
+			`	Indigenous Lifeform (Astral)	&[reputation: Indigenous Lifeform (Astral)]`
+			`	Indigenous Lifeform (Subsidurial)	&[reputation: Indigenous Lifeform (Subsidurial)]`
+			`	Indigenous Lifeform (Tree)	&[reputation: Indigenous Lifeform (Tree)]`
+			`	Indigenous Lifeform (Tree Two)	&[reputation: Indigenous Lifeform (Tree Two)]`
+			`	Rulei	&[reputation: Rulei]`
+			`	Sheragi	&[reputation: Sheragi]`
+			`	Silent Ones	&[reputation: Silent Ones]`
+			`	Uninhabited	&[reputation: Uninhabited]`
+				goto menu
+			label fullrep
+			`Reputation List (sorted alphabetically)`
+			``
+			`Aberrant	&[reputation: Aberrant]`
+			`Alpha	&[reputation: Alpha]`
+			`Author	&[reputation: Author]`
+			`Avgi	&[reputation: Avgi]`
+			`Avgi (Consonance)	&[reputation: Avgi (Consonance)]`
+			`Avgi (Dissonance)	&[reputation: Avgi (Dissonance)]`
+			`Avgi (Dissonance Angry)	&[reputation: Avgi (Dissonance Angry)]`
+			`Avgi (Twilight Guard)	&[reputation: Avgi (Twilight Guard)]`
+			`Avgi (Wandering Fleet)	&[reputation: Avgi (Wandering Fleet)]`
+			`Bad Trip	&[reputation: Bad Trip]`
+			`Bounty	&[reputation: Bounty]`
+			`Bounty (Disguised)	&[reputation: Bounty (Disguised)]`
+			`Bounty Hunter	&[reputation: Bounty Hunter]`
+			`Builder	&[reputation: Builder]`
+			`Bunrodea	&[reputation: Bunrodea]`
+			`Bunrodea (Erabu)	&[reputation: Bunrodea (Erabu)]`
+			`Bunrodea (Guard)	&[reputation: Bunrodea (Guard)]`
+			`Bunrodea (Megasa)	&[reputation: Bunrodea (Megasa)]`
+			`Coalition	&[reputation: Coalition]`
+			`Conlatio	&[reputation: Conlatio]`
+			`Deep	&[reputation: Deep]`
+			`Deep Security	&[reputation: Deep Security]`
+			`Derelict	&[reputation: Derelict]`
+			`Derelict (Boardable)	&[reputation: Derelict (Boardable)]`
+			`Drak	&[reputation: Drak]`
+			`Drak (Hostile)	&[reputation: Drak (Hostile)]`
+			`Drak (Incipias)	&[reputation: Drak (Incipias)]`
+			`Ember Waste	&[reputation: Ember Waste]`
+			`Escort	&[reputation: Escort]`
+			`Escort (Betraying)	&[reputation: Escort (Betraying)]`
+			`Free Worlds	&[reputation: Free Worlds]`
+			`Gegno	&[reputation: Gegno]`
+			`Gegno Scin	&[reputation: Gegno Scin]`
+			`Gegno Scin (Combative)	&[reputation: Gegno Scin (Combative)]`
+			`Gegno Scin (Neutral)	&[reputation: Gegno Scin (Neutral)]`
+			`Gegno Vi	&[reputation: Gegno Vi]`
+			`Gegno Vi (Combative)	&[reputation: Gegno Vi (Combative)]`
+			`Gegno Vi (Duelist A)	&[reputation: Gegno Vi (Duelist A)]`
+			`Gegno Vi (Duelist B)	&[reputation: Gegno Vi (Duelist B)]`
+			`Gegno Vi (Neutral)	&[reputation: Gegno Vi (Neutral)]`
+			`Hai	&[reputation: Hai]`
+			`Hai Merchant	&[reputation: Hai Merchant]`
+			`Hai Merchant (Sympathizers)	&[reputation: Hai Merchant (Sympathizers)]`
+			`Hai Merchant (Human)	&[reputation: Hai Merchant (Human)]`
+			`Hai (Unfettered)	&[reputation: Hai (Unfettered)]`
+			`Hai (Unfettered Challenger)	&[reputation: Hai (Unfettered Challenger)]`
+			`Hai (Unfettered Civilians)	&[reputation: Hai (Unfettered Civilians)]`
+			`Hai (Unfettered Wanderer Tribute)	&[reputation: Hai (Unfettered Wanderer Tribute)]`
+			`Hai (Wormhole Access)	&[reputation: Hai (Wormhole Access)]`
+			`Heliarch	&[reputation: Heliarch]`
+			`Heliarch Test Dummy	&[reputation: Heliarch Test Dummy]`
+			`Hicemus	&[reputation: Hicemus]`
+			`House Aqrabe	&[reputation: House Aqrabe]`
+			`House Chydiyi	&[reputation: House Chydiyi]`
+			`House Kaatrij	&[reputation: House Kaatrij]`
+			`House Myurej	&[reputation: House Myurej]`
+			`House Seineq	&[reputation: House Seineq]`
+			`House Sioeora	&[reputation: House Sioeora]`
+			`Incipias Civilian	&[reputation: Incipias Civilian]`
+			`Independent	&[reputation: Independent]`
+			`Independent (Killable)	&[reputation: Independent (Killable)]`
+			`Indigenous Lifeform	&[reputation: Indigenous Lifeform]`
+			`Indigenous Lifeform (Acheron)	&[reputation: Indigenous Lifeform (Acheron)]`
+			`Indigenous Lifeform (Astral)	&[reputation: Indigenous Lifeform (Astral)]`
+			`Indigenous Lifeform (Subsidurial)	&[reputation: Indigenous Lifeform (Subsidurial)]`
+			`Indigenous Lifeform (Tree)	&[reputation: Indigenous Lifeform (Tree)]`
+			`Indigenous Lifeform (Tree Two)	&[reputation: Indigenous Lifeform (Tree Two)]`
+			`Ka'het	&[reputation: Ka'het]`
+			`Ka'het (Infighting)	&[reputation: Ka'het (Infighting)]`
+			`Ka'sei	&[reputation: Ka'sei]`
+			`Ka'sei (12.2)	&[reputation: Ka'sei (12.2)]`
+			`Ka'sei (Patir 18)	&[reputation: Ka'sei (Patir 18)]`
+			`Kor Efret	&[reputation: Kor Efret]`
+			`Kor Mereti	&[reputation: Kor Mereti]`
+			`Kor Mereti (Hostile)	&[reputation: Kor Mereti (Hostile)]`
+			`Kor Sestor	&[reputation: Kor Sestor]`
+			`Korath	&[reputation: Korath]`
+			`Korath (Civilian)	&[reputation: Korath (Civilian)]`
+			`Korath Nanobots	&[reputation: Korath Nanobots]`
+			`Lunarium	&[reputation: Lunarium]`
+			`Lunarium (Hidden)	&[reputation: Lunarium (Hidden)]`
+			`Magic Asteroid	&[reputation: Magic Asteroid]`
+			`Magic Asteroid (Disabled)	&[reputation: Magic Asteroid (Disabled)]`
+			`Magic Asteroid (Patir 12.2)	&[reputation: Magic Asteroid (Patir 12.2)]`
+			`Marauder	&[reputation: Marauder]`
+			`Merchant	&[reputation: Merchant]`
+			`Merchant (Hostile)	&[reputation: Merchant (Hostile)]`
+			`Militia	&[reputation: Militia]`
+			`Navy Intelligence	&[reputation: Navy Intelligence]`
+			`Navy (Oathkeeper)	&[reputation: Navy (Oathkeeper)]`
+			`Neutral	&[reputation: Neutral]`
+			`New Houses	&[reputation: New Houses]`
+			`Old Houses	&[reputation: Old Houses]`
+			`Parrot	&[reputation: Parrot]`
+			`People's Houses	&[reputation: People's Houses]`
+			`People's Houses (Hostile)	&[reputation: People's Houses (Hostile)]`
+			`Pirate	&[reputation: Pirate]`
+			`Pirate (Rival)	&[reputation: Pirate (Rival)]`
+			`Predecessor	&[reputation: Predecessor]`
+			`Pug	&[reputation: Pug]`
+			`Pug (Wanderer)	&[reputation: Pug (Wanderer)]`
+			`Quarg	&[reputation: Quarg]`
+			`Quarg (Gegno)	&[reputation: Quarg (Gegno)]`
+			`Quarg (Hai)	&[reputation: Quarg (Hai)]`
+			`Quarg (Incipias)	&[reputation: Quarg (Incipias)]`
+			`Quarg (Kor Efret)	&[reputation: Quarg (Kor Efret)]`
+			`Remnant	&[reputation: Remnant]`
+			`Remnant (Research)	&[reputation: Remnant (Research)]`
+			`Remnant (Postverta)	&[reputation: Remnant (Postverta)]`
+			`Republic	&[reputation: Republic]`
+			`Republic (Friendly)	&[reputation: Republic (Friendly)]`
+			`Rulei	&[reputation: Rulei]`
+			`Scar's Legion	&[reputation: Scar's Legion]`
+			`Scar's Legion (Killable)	&[reputation: Scar's Legion (Killable)]`
+			`Sheragi	&[reputation: Sheragi]`
+			`Silent Ones	&[reputation: Silent Ones]`
+			`Successor	&[reputation: Successor]`
+			`Syndicate	&[reputation: Syndicate]`
+			`Syndicate (Extremist)	&[reputation: Syndicate (Extremist)]`
+			`Team Blue	&[reputation: Team Blue]`
+			`Team Red	&[reputation: Team Red]`
+			`Test Dummy	&[reputation: Test Dummy]`
+			`Uninhabited	&[reputation: Uninhabited]`
+			`Wanderer	&[reputation: Wanderer]`
+			`Wormhole Alpha	&[reputation: Wormhole Alpha]`
+			`Syndicate (Hostile)	&[reputation: Syndicate (Hostile)]`
+				goto menu
+			label end
+				decline
+	on daily
+		fail
+
