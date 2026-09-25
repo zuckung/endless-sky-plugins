@@ -2,9 +2,18 @@ interface "main buttons" bottom right
 
 # LAYOUT
 #
-# TOP LEFT                            TOP RIGHT
-# fast forward | main menu            attack | hold fire | gather | stop | hold fire | formations | harvest | ammo switch | fleet jump
-#                zoom +-
+# TOP LEFT
+# fast forward pause bg | call planet | view message log | view player info | esc
+#                
+#                                     TOP RIGHT
+#                                     formations | scan target | harvest | ammo switch | turret tracking
+#                                     attack | hold fire | gather | stop | fleet jump
+#
+#                                     TOP RIGHT
+#                                     group button 1 | button 2 | button 3 | button 4
+#
+#                                     BOTTOM RIGHT
+#                                     fast forward | pause | zoom+ | zoom-
 #
 #                                     BOTTOM RIGHT
 #                                     target asteroid  target enemy  target ship   reverse   afterburner
@@ -14,7 +23,7 @@ interface "main buttons" bottom right
 #
 
 
-# missing:  "View message log" "View player info"
+# missing:  "Fleet: Scan my target" "Talk to selected planet"
 
 
 #
@@ -57,6 +66,7 @@ interface "main buttons" bottom right
 # "Fleet: Toggle ammo usage"
 # "Fleet: Toggle Formation"
 # "Auto steer"
+
 
 # BOTTOM RIGHT: button box
 
@@ -359,159 +369,277 @@ interface "main buttons" bottom right
 	box "ammo"
 		from -230 -207 to -320 -362
 
-# TOP RIGHT: button box
+# BOTTOM RIGHT: fast forward | pause | zoom+- 
+
+	# bottom right fast forward and pause buttons
+	anchor bottom right
+	visible
+	sprite "ui/zoom"
+		from 3 -340
+		to -87 -400
+	active
+	sprite "ui/fast forward"
+		center -60 -370
+		dimensions 19 19
+	button "Toggle fast-forward"
+		from -40 -340
+		to -80 -400
+	active
+	sprite "ui/paused"
+		center -20 -370
+		dimensions 18 18
+	button "Pause"
+		from -2 -340
+		to -40 -400
+
+	# bottom right zoom button +
+	anchor bottom right
+	visible
+	sprite "ui/zoom"
+		from 43 -292
+		to -47 -352
+	active if "!min zoom2"
+	button + "+"
+		from -5 -292
+		to -40 -352
+		size 18
+
+	# bottom right zoom button -
+	anchor bottom right
+	visible
+	sprite "ui/zoom"
+		from 43 -252
+		to -47 -312
+	active if "!min zoom2"
+	button - "-"
+		from -5 -252
+		to -40 -312
+		size 18
+
+
+# TOP RIGHT: fleet commands button box
 
 	# top right buttonbox
 	anchor top right
 	visible
-	sprite "ui/buttonbox2"
-		from -158 0 to -653 80
-	label "Fleet Commands"
-		from -400 20
-		size 14
+	sprite "ui/buttonbox3"
+		from -160 0 to -494 116
+#	label "Fleet Commands"
+#		from -400 20
+#		size 14
 
-# TOP RIGHT: fleet commands: attack | hold fire | gather | stop | formations | harvest | ammo switch | fleet jump
-
-	# top right fleet attack button
-	anchor top right
-	visible
-	sprite "ui/round_button_bg"
-		center -586 52
-		dimensions 50 50
-	sprite "ui/icon_fleet_fight_d"
-		center -586 52
-		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_fleet_fight"
-		center -586 52
-		dimensions 40 40
-	button "Fleet: Fight my target"
-		center -586 52
-		radius 22
-
-	# top right fleet hold fire button
-	anchor top right
-	visible
-	sprite "ui/round_button_bg"
-		center -534 52
-		dimensions 50 50
-	sprite "ui/icon_hold_fire_d"
-		center -534 52
-		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_hold_fire"
-		center -534 52
-		dimensions 40 40
-	button "Fleet: Toggle hold fire"
-		center -534 52
-		radius 22
-
-
-
-
-	# top right fleet gather button
-	anchor top right
-	visible
-	sprite "ui/round_button_bg"
-		center -482 52
-		dimensions 50 50
-	sprite "ui/icon_fleet_gather_d"
-		center -482 52
-		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_fleet_gather"
-		center -482 52
-		dimensions 40 40
-	button "Fleet: Gather around me"
-		center -482 52
-		radius 22
-
-	# top right fleet stop button
-	anchor top right
-	visible
-	sprite "ui/round_button_bg"
-		center -430 52
-		dimensions 50 50
-	sprite "ui/icon_fleet_stop_d"
-		center -430 52
-		dimensions 40 40
-	visible if "has fleet"
-	sprite "ui/icon_fleet_stop"
-		center -430 52
-		dimensions 40 40
-	button "Fleet: Hold position"
-		center -430 52
-		radius 22
+# TOP RIGHT: first row buttons: formations | scan | harvest | ammo switch | turret tracking
 
 	# top right fleet formations button
 	anchor top right
 	visible
 	sprite "ui/round_button_bg"
-		center -378 52
+		center -422 36
 		dimensions 50 50
 	sprite "ui/icon_fleet_formation_d"
-		center -378 52
+		center -422 36
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_formation"
-		center -378 52
+		center -422 36
 		dimensions 40 40
 	button "Fleet: Toggle Formation"
-		center -378 52
+		center -422 36
+		radius 22
+
+	# top right fleet scan order button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -370 36
+		dimensions 50 50
+	sprite "ui/icon_scan_d"
+		center -370 36
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_scan"
+		center -370 36
+		dimensions 40 40
+	button "Fleet: Scan my target"
+		center -370 36
 		radius 22
 
 	# top right fleet harvest button
 	anchor top right
 	visible
 	sprite "ui/round_button_bg"
-		center -326 52
+		center -318 36
 		dimensions 50 50
 	sprite "ui/icon_fleet_harvest_d"
-		center -326 52
+		center -318 36
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_harvest"
-		center -326 52
+		center -318 36
 		dimensions 40 40
 	button "Fleet: Harvest flotsam"
-		center -326 52
+		center -318 36
 		radius 22
 
 	# top right fleet ammo switch button
 	anchor top right
 	visible
 	sprite "ui/round_button_bg"
-		center -274 52
+		center -266 36
 		dimensions 50 50
 	sprite "ui/icon_fleet_ammo_d"
-		center -274 52
+		center -266 36
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_ammo"
-		center -274 52
+		center -266 36
 		dimensions 40 40
 	button "Fleet: Toggle ammo usage"
-		center -274 52
+		center -266 36
+		radius 22
+
+	# top right turret tracking
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -214 36
+		dimensions 50 50
+	sprite "ui/icon_fleet_turret_d"
+		center -214 36
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_fleet_turret"
+		center -214 36
+		dimensions 40 40
+	button "Toggle turret tracking"
+		center -214 36
+		radius 22
+
+# TOP RIGHT: second row buttons: attack | hold fire | gather | stop | fleet jump
+
+	# top right fleet attack button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -422 88
+		dimensions 50 50
+	sprite "ui/icon_fleet_fight_d"
+		center -422 88
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_fleet_fight"
+		center -422 88
+		dimensions 40 40
+	button "Fleet: Fight my target"
+		center -422 88
+		radius 22
+
+	# top right fleet hold fire button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -370 88
+		dimensions 50 50
+	sprite "ui/icon_hold_fire_d"
+		center -370 88
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_hold_fire"
+		center -370 88
+		dimensions 40 40
+	button "Fleet: Toggle hold fire"
+		center -370 88
+		radius 22
+
+	# top right fleet gather button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -318 88
+		dimensions 50 50
+	sprite "ui/icon_fleet_gather_d"
+		center -318 88
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_fleet_gather"
+		center -318 88
+		dimensions 40 40
+	button "Fleet: Gather around me"
+		center -318 88
+		radius 22
+
+	# top right fleet stop button
+	anchor top right
+	visible
+	sprite "ui/round_button_bg"
+		center -266 88
+		dimensions 50 50
+	sprite "ui/icon_fleet_stop_d"
+		center -266 88
+		dimensions 40 40
+	visible if "has fleet"
+	sprite "ui/icon_fleet_stop"
+		center -266 88
+		dimensions 40 40
+	button "Fleet: Hold position"
+		center -266 88
 		radius 22
 
 	# top right fleet jump
 	anchor top right
 	visible
 	sprite "ui/round_button_bg"
-		center -222 52
+		center -214 88
 		dimensions 50 50
 	sprite "ui/icon_fleet_jump_d"
-		center -222 52
+		center -214 88
 		dimensions 40 40
 	visible if "has fleet"
 	sprite "ui/icon_fleet_jump"
-		center -222 52
+		center -214 88
 		dimensions 40 40
 	button "Initiate fleet jump"
-		center -222 52
+		center -214 88
 		radius 22
 
-# TOP LEFT: near radar: fast-forward pause background | zoom+-
+# TOP RIGHT: group button 1 | button 2 | button 3 | button 4
+
+	# top right group button 1 and 2
+	anchor top right
+	visible
+	sprite "ui/zoom"
+		from -170 74
+		to -80 134
+	active if "has fleet"
+	button 1 "1"
+		from -163 74
+		to -130 134
+		size 14
+	active if "has fleet"
+	button 2 "2"
+		from -121 74
+		to -90 134
+		size 14
+
+	# top right group button 3 and 4
+	anchor top right
+	visible
+	sprite "ui/zoom"
+		from -90 74
+		to 0 134
+	active if "has fleet"
+	button 3 "3"
+		from -82 74
+		to -50 134
+		size 14
+	active if "has fleet"
+	button 4 "4"
+		from -41 74
+		to -10 134
+		size 14
+
+
+# TOP LEFT: near radar: fast-forward pause background | talk to selected planet | view message log | view player info | main menu
 
 	anchor top left
 	visible
@@ -520,80 +648,38 @@ interface "main buttons" bottom right
 		from 3 3
 		to 16 16
 
-	# top left zoom buttons
+	# top left call planet and message log
 	anchor top left
 	sprite "ui/zoom"
-		from 375 0
-		to 465 60
-#		from 250 40
-#		to 340 100
-	active if "!max zoom"
-	button + "_+"
-		from 385 0
-		to 415 60
-		size 18
-	active if "!min zoom"
-	button - "_-"
-		from 425 0
-		to 455 60
-		size 18
-
-# TOP LEFT: 2nd row: main menu | view message log | view player info | fast forward | pause 
-
-	# top left show main menu
-	anchor top left
-	visible
+		from 250 45
+		to 340 105
 	active
-	sprite "ui/icon_main_menu"
-		center 270 80
-		radius 22
-	button "Show main menu"
-		center 270 80
-		radius 22
-
-	# top left corner message log button
-	anchor top left
-	visible
+	button "Talk to selected planet" "Call"
+		from 259 45
+		to 290 105
+		size 14
 	active
-	sprite "ui/icon_message_log"
-		center 317 80
-		radius 22
-	button "View message log"
-		center 317 80
-		radius 22
+	button "View message log" "Log"
+		from 299 45
+		to 330 105
+		size 14
 
-	# top left corner player info button
+	# top left player info and main menu
 	anchor top left
-	visible
+	sprite "ui/zoom"
+		from 330 45
+		to 420 105
 	active
-	sprite "ui/icon_player_info"
-		center 364 80
-		radius 22
-	button "View player info"
-		center 364 80
-		radius 22
+	button "View player info" "Info"
+		from 339 45
+		to 370 105
+		size 14
+	active
+	button "Show main menu" "Esc"
+		from 379 45
+		to 410 105
+		size 14
 
-	# top left corner fast-forward button
-	anchor top left
-	visible
-	active
-	sprite "ui/icon_ff"
-		center 411 80
-		radius 22
-	button "Toggle fast-forward"
-		center 411 80
-		radius 22
-
-	# top left corner pause button
-	anchor top left
-	visible
-	active
-	sprite "ui/icon_pause"
-		center 458 80
-		radius 22
-	button "Pause"
-		center 458 80
-		radius 22
 
 # OTHER CONTROL ELEMENTS
 
@@ -618,3 +704,245 @@ interface "main buttons" bottom right
 	button ^ ""
 		center 128 -128
 		radius 96
+
+
+# REMOVED OR RELOCATED BUTTONS
+
+# PREVIOUS LAYOUT
+#
+# TOP LEFT                            TOP RIGHT
+# fast forward | main menu            attack | hold fire | gather | stop | hold fire | formations | harvest | ammo switch | fleet jump
+#                zoom +-
+#
+#                                     BOTTOM RIGHT
+#                                     target asteroid  target enemy  target ship   reverse   afterburner
+#                                     stop             hail                secondary     primary
+#                                     board            scan                secondary     primary
+#                                     land             cloak         deploy        jump      map   
+#
+
+# TOP LEFT: zoom+- 
+
+	# top left zoom buttons
+#	anchor top left
+#	sprite "ui/zoom"
+#		from 375 0
+#		to 465 60
+#		from 250 40
+#		to 340 100
+#	active if "!max zoom"
+#	button + "_+"
+#		from 385 0
+#		to 415 60
+#		size 18
+#	active if "!min zoom"
+#	button - "_-"
+#		from 425 0
+#		to 455 60
+#		size 18
+
+# TOP LEFT: 2nd row: main menu | view message log | view player info | fast forward | pause 
+
+	# top left show main menu
+#	anchor top left
+#	visible
+#	active
+#	sprite "ui/icon_main_menu"
+#		center 270 80
+#		radius 22
+#	button "Show main menu"
+#		center 270 80
+#		radius 22
+
+	# top left corner message log button
+#	anchor top right
+#	visible
+#	active
+#	sprite "ui/icon_message_log"
+#		center 317 80
+#		radius 22
+#	button "View message log"
+#		center 317 80
+#		radius 22
+
+	# top left corner player info button
+#	anchor top right
+#	visible
+#	active
+#	sprite "ui/icon_player_info"
+#		center 364 80
+#		radius 22
+#	button "View player info"
+#		center 364 80
+#		radius 22
+
+	# top left corner fast-forward button
+#	anchor top right
+#	visible
+#	active
+#	sprite "ui/icon_ff"
+#		center 411 80
+#		radius 22
+#	button "Toggle fast-forward"
+#		center 411 80
+#		radius 22
+
+	# top left corner pause button
+#	anchor top right
+#	visible
+#	active
+#	sprite "ui/icon_pause"
+#		center 458 80
+#		radius 22
+#	button "Pause"
+#		center 458 80
+#		radius 22
+
+# TOP RIGHT: button box
+
+	# top right buttonbox
+#	anchor top right
+#	visible
+#	sprite "ui/buttonbox2"
+#		from -158 0 to -653 80
+#	label "Fleet Commands"
+#		from -400 20
+#		size 14
+
+# TOP RIGHT: fleet commands: attack | hold fire | gather | stop | formations | harvest | ammo switch | fleet jump
+
+	# top right fleet attack button
+#	anchor top right
+#	visible
+#	sprite "ui/round_button_bg"
+#		center -586 52
+#		dimensions 50 50
+#	sprite "ui/icon_fleet_fight_d"
+#		center -586 52
+#		dimensions 40 40
+#	visible if "has fleet"
+#	sprite "ui/icon_fleet_fight"
+#		center -586 52
+#		dimensions 40 40
+#	button "Fleet: Fight my target"
+#		center -586 52
+#		radius 22
+
+	# top right fleet hold fire button
+#	anchor top right
+#	visible
+#	sprite "ui/round_button_bg"
+#		center -534 52
+#		dimensions 50 50
+#	sprite "ui/icon_hold_fire_d"
+#		center -534 52
+#		dimensions 40 40
+#	visible if "has fleet"
+#	sprite "ui/icon_hold_fire"
+#		center -534 52
+#		dimensions 40 40
+#	button "Fleet: Toggle hold fire"
+#		center -534 52
+#		radius 22
+
+	# top right fleet gather button
+#	anchor top right
+#	visible
+#	sprite "ui/round_button_bg"
+#		center -482 52
+#		dimensions 50 50
+#	sprite "ui/icon_fleet_gather_d"
+#		center -482 52
+#		dimensions 40 40
+#	visible if "has fleet"
+#	sprite "ui/icon_fleet_gather"
+#		center -482 52
+#		dimensions 40 40
+#	button "Fleet: Gather around me"
+#		center -482 52
+#		radius 22
+
+	# top right fleet stop button
+#	anchor top right
+#	visible
+#	sprite "ui/round_button_bg"
+#		center -430 52
+#		dimensions 50 50
+#	sprite "ui/icon_fleet_stop_d"
+#		center -430 52
+#		dimensions 40 40
+#	visible if "has fleet"
+#	sprite "ui/icon_fleet_stop"
+#		center -430 52
+#		dimensions 40 40
+#	button "Fleet: Hold position"
+#		center -430 52
+#		radius 22
+
+	# top right fleet formations button
+#	anchor top right
+#	visible
+#	sprite "ui/round_button_bg"
+#		center -378 52
+#		dimensions 50 50
+#	sprite "ui/icon_fleet_formation_d"
+#		center -378 52
+#		dimensions 40 40
+#	visible if "has fleet"
+#	sprite "ui/icon_fleet_formation"
+#		center -378 52
+#		dimensions 40 40
+#	button "Fleet: Toggle Formation"
+#		center -378 52
+#		radius 22
+
+	# top right fleet harvest button
+#	anchor top right
+#	visible
+#	sprite "ui/round_button_bg"
+#		center -326 52
+#		dimensions 50 50
+#	sprite "ui/icon_fleet_harvest_d"
+#		center -326 52
+#		dimensions 40 40
+#	visible if "has fleet"
+#	sprite "ui/icon_fleet_harvest"
+#		center -326 52
+#		dimensions 40 40
+#	button "Fleet: Harvest flotsam"
+#		center -326 52
+#		radius 22
+
+	# top right fleet ammo switch button
+#	anchor top right
+#	visible
+#	sprite "ui/round_button_bg"
+#		center -274 52
+#		dimensions 50 50
+#	sprite "ui/icon_fleet_ammo_d"
+#		center -274 52
+#		dimensions 40 40
+#	visible if "has fleet"
+#	sprite "ui/icon_fleet_ammo"
+#		center -274 52
+#		dimensions 40 40
+#	button "Fleet: Toggle ammo usage"
+#		center -274 52
+#		radius 22
+
+	# top right fleet jump
+#	anchor top right
+#	visible
+#	sprite "ui/round_button_bg"
+#		center -222 52
+#		dimensions 50 50
+#	sprite "ui/icon_fleet_jump_d"
+#		center -222 52
+#		dimensions 40 40
+#	visible if "has fleet"
+#	sprite "ui/icon_fleet_jump"
+#		center -222 52
+#		dimensions 40 40
+#	button "Initiate fleet jump"
+#		center -222 52
+#		radius 22

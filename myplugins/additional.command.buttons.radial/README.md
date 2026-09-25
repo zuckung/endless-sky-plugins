@@ -28,8 +28,13 @@ If that doesn't help, open the zip, edit 'additional.command.buttons.radial/data
 		dimensions 265 150
 That resizes the landing image and the frame to their half.<br>
 <br>
+For the Escort groups you need a special onscreen keyboard. See https://github.com/zuckung/endless-sky-plugins/discussions/81<br>
+<br>
 <br>
 Changelog:<br>
+<br>
+2026-09-25<br>
+polishing UI rework by Quaz<br>
 <br>
 2026-05-03<br>
 fixed not working radar (reported by Jawster)<br>
