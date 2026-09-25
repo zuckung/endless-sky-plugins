@@ -18,82 +18,90 @@ graphic files for the plugin: additional.command.buttons.radial<br>
 		buttonbox2_old.png [438x80]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/buttonbox3.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/buttonbox3.png" width="200"></a><br>
+		buttonbox3.png [334x116]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/fast forward_bg.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/fast forward_bg.png" width="12" height="12"></a><br>
 		fast forward_bg.png [12x12]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/fast forward_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/fast forward_d.png" width="12" height="12"></a><br>
 		fast forward_d.png [12x12]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/fleetbox.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/fleetbox.png" width="200"></a><br>
-		fleetbox.png [722x56]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/fleetbox.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/fleetbox.png" width="200"></a><br>
+		fleetbox.png [722x56]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/frame.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/frame.png" width="200"></a><br>
 		frame.png [759x390]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_afterburner.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_afterburner.png" width="64" height="64"></a><br>
 		icon_afterburner.png [64x64]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_afterburner_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_afterburner_d.png" width="64" height="64"></a><br>
-		icon_afterburner_d.png [64x64]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_afterburner_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_afterburner_d.png" width="64" height="64"></a><br>
+		icon_afterburner_d.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_board.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_board.png" width="64" height="64"></a><br>
 		icon_board.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_cloak.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_cloak.png" width="64" height="64"></a><br>
 		icon_cloak.png [64x64]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_cloak_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_cloak_d.png" width="64" height="64"></a><br>
-		icon_cloak_d.png [64x64]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_cloak_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_cloak_d.png" width="64" height="64"></a><br>
+		icon_cloak_d.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_deploy.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_deploy.png" width="64" height="64"></a><br>
 		icon_deploy.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_deploy_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_deploy_d.png" width="64" height="64"></a><br>
 		icon_deploy_d.png [64x64]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_empty.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_empty.png" width="64" height="64"></a><br>
-		icon_empty.png [64x64]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_empty.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_empty.png" width="64" height="64"></a><br>
+		icon_empty.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_ff.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_ff.png" width="64" height="64"></a><br>
 		icon_ff.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fire.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fire.png" width="64" height="64"></a><br>
 		icon_fire.png [64x64]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fire_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fire_d.png" width="64" height="64"></a><br>
-		icon_fire_d.png [64x64]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fire_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fire_d.png" width="64" height="64"></a><br>
+		icon_fire_d.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_ammo.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_ammo.png" width="64" height="64"></a><br>
 		icon_fleet_ammo.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_ammo_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_ammo_d.png" width="64" height="64"></a><br>
 		icon_fleet_ammo_d.png [64x64]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_fight.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_fight.png" width="64" height="64"></a><br>
-		icon_fleet_fight.png [64x64]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_fight.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_fight.png" width="64" height="64"></a><br>
+		icon_fleet_fight.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_fight_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_fight_d.png" width="64" height="64"></a><br>
 		icon_fleet_fight_d.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_formation.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_formation.png" width="64" height="64"></a><br>
 		icon_fleet_formation.png [64x64]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_formation_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_formation_d.png" width="64" height="64"></a><br>
-		icon_fleet_formation_d.png [64x64]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_formation_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_formation_d.png" width="64" height="64"></a><br>
+		icon_fleet_formation_d.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_gather.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_gather.png" width="64" height="64"></a><br>
 		icon_fleet_gather.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_gather_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_gather_d.png" width="64" height="64"></a><br>
 		icon_fleet_gather_d.png [64x64]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_harvest.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_harvest.png" width="64" height="64"></a><br>
-		icon_fleet_harvest.png [64x64]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_harvest.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_harvest.png" width="64" height="64"></a><br>
+		icon_fleet_harvest.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_harvest_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_harvest_d.png" width="64" height="64"></a><br>
 		icon_fleet_harvest_d.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_jump.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_jump.png" width="64" height="64"></a><br>
 		icon_fleet_jump.png [64x64]</td>
-		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_jump_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_jump_d.png" width="64" height="64"></a><br>
-		icon_fleet_jump_d.png [64x64]</td>
 	</tr>
 	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_jump_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_jump_d.png" width="64" height="64"></a><br>
+		icon_fleet_jump_d.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_stop.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_stop.png" width="64" height="64"></a><br>
 		icon_fleet_stop.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_stop_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_stop_d.png" width="64" height="64"></a><br>
 		icon_fleet_stop_d.png [64x64]</td>
+	</tr>
+	<tr valign="bottom">
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_turret.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_turret.png" width="64" height="64"></a><br>
+		icon_fleet_turret.png [64x64]</td>
+		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_turret_d.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_fleet_turret_d.png" width="64" height="64"></a><br>
+		icon_fleet_turret_d.png [64x64]</td>
 		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/myplugins/additional.command.buttons.radial/images/ui/icon_hold_fire.png"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/myplugins/additional.command.buttons.radial/images/ui/icon_hold_fire.png" width="64" height="64"></a><br>
 		icon_hold_fire.png [64x64]</td>
 	</tr>

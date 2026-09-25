@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-09-25 | update: additional.command.buttons.radial<br>
 2026-09-18 | update: show.reputation<br>
 2026-09-13 | update: control.station<br>
 2026-09-10 | update: portable.outfitter<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-08-13 | update: human.labels<br>
 2026-08-01 | Hooray! 50 stars!<br>
 2026-07-10 | update: disable.spaceport.repeatables<br>
-2026-07-09 | update: ship.cores<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -122,13 +122,13 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/additional.command.buttons.radial.png" width="130" height="20">
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.28-additional.command.buttons.radial/additional.command.buttons.radial.zip) 
-<img src="https://img.shields.io/badge/v1.0.28-707070"> 
-<img src="https://img.shields.io/badge/416.09_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--05--03-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.29-additional.command.buttons.radial/additional.command.buttons.radial.zip) 
+<img src="https://img.shields.io/badge/v1.0.29-707070"> 
+<img src="https://img.shields.io/badge/425.67_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--09--25-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=additional.command.buttons.radial-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/)
-[<img src="https://img.shields.io/badge/view_images_[64]-707070">](res/imagemd/additional.command.buttons.radial.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[67]-707070">](res/imagemd/additional.command.buttons.radial.md)<br>
 
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -197,9 +197,19 @@ That resizes the landing image and the frame to their half.<br>
 
 <br>
 
+For the Escort groups you need a special onscreen keyboard. See https://github.com/zuckung/endless-sky-plugins/discussions/81<br>
+
+<br>
+
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-09-25<br>
+
+polishing UI rework by Quaz<br>
 
 <br>
 
