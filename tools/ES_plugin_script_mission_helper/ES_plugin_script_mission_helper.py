@@ -402,7 +402,7 @@ def write_mission(missions, mission_texts, mission_paths, systems, govs, blackli
 				elif each.startswith('\tcargo'):
 					continue
 				else:
-					mstatus = each.replace('\t', '').strip()
+					mstatus = each.strip()
 					target.writelines('\t\t\t`' + mstatus + '`\n')
 					target.writelines('\t\t\t\tto display\n')
 					target.writelines('\t\t\t\t\t' + mstatus + '\n')

@@ -2181,6 +2181,14 @@ mission "Mission Helper"
 					to display
 						not "Exotic Life: Bloodsea: offered"
 					goto "Exotic Life: Bloodsea"
+				`Exotic Life: Delve`
+					to display
+						not "Exotic Life: Delve: offered"
+					goto "Exotic Life: Delve"
+				`Exotic Life: Ada`
+					to display
+						not "Exotic Life: Ada: offered"
+					goto "Exotic Life: Ada"
 			label "human/deep jobs.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Human | Deep jobs | Mission:`
@@ -4983,6 +4991,58 @@ mission "Mission Helper"
 					to display
 						not "Ka'het: Voice From The Past 6: offered"
 					goto "Ka'het: Voice From The Past 6"
+				`Ka'het: Cloud Probe 1`
+					to display
+						not "Ka'het: Cloud Probe 1: offered"
+					goto "Ka'het: Cloud Probe 1"
+				`Ka'het: Cloud Probe 2`
+					to display
+						not "Ka'het: Cloud Probe 2: offered"
+					goto "Ka'het: Cloud Probe 2"
+				`Ka'het: Cloud Probe 3`
+					to display
+						not "Ka'het: Cloud Probe 3: offered"
+					goto "Ka'het: Cloud Probe 3"
+				`Ka'het: Cloud Probe 4`
+					to display
+						not "Ka'het: Cloud Probe 4: offered"
+					goto "Ka'het: Cloud Probe 4"
+				`Ka'het: Cloud Probe 5`
+					to display
+						not "Ka'het: Cloud Probe 5: offered"
+					goto "Ka'het: Cloud Probe 5"
+				`Ka'het: Lightning in a Bottle 1`
+					to display
+						not "Ka'het: Lightning in a Bottle 1: offered"
+					goto "Ka'het: Lightning in a Bottle 1"
+				`Ka'het: Lightning in a Bottle 2`
+					to display
+						not "Ka'het: Lightning in a Bottle 2: offered"
+					goto "Ka'het: Lightning in a Bottle 2"
+				`Ka'het: Lightning in a Bottle 3`
+					to display
+						not "Ka'het: Lightning in a Bottle 3: offered"
+					goto "Ka'het: Lightning in a Bottle 3"
+				`Ka'het: Lightning in a Bottle 4A`
+					to display
+						not "Ka'het: Lightning in a Bottle 4A: offered"
+					goto "Ka'het: Lightning in a Bottle 4A"
+				`Ka'het: Lightning in a Bottle 4B`
+					to display
+						not "Ka'het: Lightning in a Bottle 4B: offered"
+					goto "Ka'het: Lightning in a Bottle 4B"
+				`Ka'het: Lightning in a Bottle 5`
+					to display
+						not "Ka'het: Lightning in a Bottle 5: offered"
+					goto "Ka'het: Lightning in a Bottle 5"
+				`Ka'het: Lightning in a Bottle Epilogue 1`
+					to display
+						not "Ka'het: Lightning in a Bottle Epilogue 1: offered"
+					goto "Ka'het: Lightning in a Bottle Epilogue 1"
+				`Ka'het: Lightning in a Bottle Epilogue 2`
+					to display
+						not "Ka'het: Lightning in a Bottle Epilogue 2: offered"
+					goto "Ka'het: Lightning in a Bottle Epilogue 2"
 			label "korath"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Korath | Sub category:`
@@ -5895,6 +5955,12 @@ mission "Mission Helper"
 					goto "start"
 				`successor 1 prologue`
 					goto "successors/successor 1 prologue.txt"
+				`successor 2 ghosts aqrabe`
+					goto "successors/successor 2 ghosts aqrabe.txt"
+				`successor 2 ghosts myurej`
+					goto "successors/successor 2 ghosts myurej.txt"
+				`successor 2 ghosts`
+					goto "successors/successor 2 ghosts.txt"
 				`successor culture conversations`
 					goto "successors/successor culture conversations.txt"
 				`successor side missions`
@@ -5947,6 +6013,254 @@ mission "Mission Helper"
 					to display
 						not "Successors: Trusted: offered"
 					goto "Successors: Trusted"
+			label "successors/successor 2 ghosts aqrabe.txt"
+			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
+			`Successors | Successor 2 ghosts aqrabe | Mission:`
+			choice
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+				`Successors: Ghosts Aqrabe 1`
+					to display
+						not "Successors: Ghosts Aqrabe 1: offered"
+					goto "Successors: Ghosts Aqrabe 1"
+				`Successors: Ghosts Aqrabe Remnant`
+					to display
+						not "Successors: Ghosts Aqrabe Remnant: offered"
+					goto "Successors: Ghosts Aqrabe Remnant"
+				`Successors: Ghosts Aqrabe Hai`
+					to display
+						not "Successors: Ghosts Aqrabe Hai: offered"
+					goto "Successors: Ghosts Aqrabe Hai"
+				`Successors: Ghosts Aqrabe 2`
+					to display
+						not "Successors: Ghosts Aqrabe 2: offered"
+					goto "Successors: Ghosts Aqrabe 2"
+				`Successors: Ghosts Aqrabe 3`
+					to display
+						not "Successors: Ghosts Aqrabe 3: offered"
+					goto "Successors: Ghosts Aqrabe 3"
+				`Successors: Ghosts Aqrabe 4`
+					to display
+						not "Successors: Ghosts Aqrabe 4: offered"
+					goto "Successors: Ghosts Aqrabe 4"
+				`Successors: Ghosts Aqrabe 5`
+					to display
+						not "Successors: Ghosts Aqrabe 5: offered"
+					goto "Successors: Ghosts Aqrabe 5"
+				`Successors: Ghosts Aqrabe 6`
+					to display
+						not "Successors: Ghosts Aqrabe 6: offered"
+					goto "Successors: Ghosts Aqrabe 6"
+				`Successors: Ghosts Aqrabe 7`
+					to display
+						not "Successors: Ghosts Aqrabe 7: offered"
+					goto "Successors: Ghosts Aqrabe 7"
+			label "successors/successor 2 ghosts myurej.txt"
+			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
+			`Successors | Successor 2 ghosts myurej | Mission:`
+			choice
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+				`Successors: Ghosts Myurej 1`
+					to display
+						not "Successors: Ghosts Myurej 1: offered"
+					goto "Successors: Ghosts Myurej 1"
+				`Successors: Ghosts Myurej 2`
+					to display
+						not "Successors: Ghosts Myurej 2: offered"
+					goto "Successors: Ghosts Myurej 2"
+				`Successors: Ghosts Myurej 3`
+					to display
+						not "Successors: Ghosts Myurej 3: offered"
+					goto "Successors: Ghosts Myurej 3"
+				`Successors: Ghosts Myurej 3 Direct`
+					to display
+						not "Successors: Ghosts Myurej 3 Direct: offered"
+					goto "Successors: Ghosts Myurej 3 Direct"
+				`Successors: Ghosts Myurej 3 Checking`
+					to display
+						not "Successors: Ghosts Myurej 3 Checking: offered"
+					goto "Successors: Ghosts Myurej 3 Checking"
+				`Successors: Ghosts Myurej 4`
+					to display
+						not "Successors: Ghosts Myurej 4: offered"
+					goto "Successors: Ghosts Myurej 4"
+				`Successors: Ghosts Myurej 5`
+					to display
+						not "Successors: Ghosts Myurej 5: offered"
+					goto "Successors: Ghosts Myurej 5"
+				`Successors: Ghosts Myurej 6`
+					to display
+						not "Successors: Ghosts Myurej 6: offered"
+					goto "Successors: Ghosts Myurej 6"
+				`Successors: Ghosts Myurej 7`
+					to display
+						not "Successors: Ghosts Myurej 7: offered"
+					goto "Successors: Ghosts Myurej 7"
+				`Successors: Ghosts Myurej 8`
+					to display
+						not "Successors: Ghosts Myurej 8: offered"
+					goto "Successors: Ghosts Myurej 8"
+			label "successors/successor 2 ghosts.txt"
+			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
+			`Successors | Successor 2 ghosts | Mission:`
+			choice
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+				`Successors: Ghosts Prelude Timer`
+					to display
+						not "Successors: Ghosts Prelude Timer: offered"
+					goto "Successors: Ghosts Prelude Timer"
+				`Successors: Ghosts Prelude Wedding`
+					to display
+						not "Successors: Ghosts Prelude Wedding: offered"
+					goto "Successors: Ghosts Prelude Wedding"
+				`Successors: Ghosts Prelude Incident`
+					to display
+						not "Successors: Ghosts Prelude Incident: offered"
+					goto "Successors: Ghosts Prelude Incident"
+				`Successors: Ghosts QSI 2`
+					to display
+						not "Successors: Ghosts QSI 2: offered"
+					goto "Successors: Ghosts QSI 2"
+				`Successors: Ghosts QSI 3`
+					to display
+						not "Successors: Ghosts QSI 3: offered"
+					goto "Successors: Ghosts QSI 3"
+				`Successors: Ghosts 1`
+					to display
+						not "Successors: Ghosts 1: offered"
+					goto "Successors: Ghosts 1"
+				`Successors: Ghosts 2`
+					to display
+						not "Successors: Ghosts 2: offered"
+					goto "Successors: Ghosts 2"
+				`Successors: Ghosts 3a Sioeora`
+					to display
+						not "Successors: Ghosts 3a Sioeora: offered"
+					goto "Successors: Ghosts 3a Sioeora"
+				`Successors: Ghosts 3b Kaatrij`
+					to display
+						not "Successors: Ghosts 3b Kaatrij: offered"
+					goto "Successors: Ghosts 3b Kaatrij"
+				`Successors: Ghosts 4`
+					to display
+						not "Successors: Ghosts 4: offered"
+					goto "Successors: Ghosts 4"
+				`Successors: Ghosts Mark Houses`
+					to display
+						not "Successors: Ghosts Mark Houses: offered"
+					goto "Successors: Ghosts Mark Houses"
+				`Successors: Ghosts Seineq Attacked`
+					to display
+						not "Successors: Ghosts Seineq Attacked: offered"
+					goto "Successors: Ghosts Seineq Attacked"
+				`Successors: Ghosts Seineq Memorial`
+					to display
+						not "Successors: Ghosts Seineq Memorial: offered"
+					goto "Successors: Ghosts Seineq Memorial"
+				`Successors: Ghosts 5`
+					to display
+						not "Successors: Ghosts 5: offered"
+					goto "Successors: Ghosts 5"
+				`Successors: Ghosts 6`
+					to display
+						not "Successors: Ghosts 6: offered"
+					goto "Successors: Ghosts 6"
+				`Successors: Ghosts 7a`
+					to display
+						not "Successors: Ghosts 7a: offered"
+					goto "Successors: Ghosts 7a"
+				`Successors: Ghosts 7b`
+					to display
+						not "Successors: Ghosts 7b: offered"
+					goto "Successors: Ghosts 7b"
+				`Successors: Ghosts Cloak Prompt`
+					to display
+						not "Successors: Ghosts Cloak Prompt: offered"
+					goto "Successors: Ghosts Cloak Prompt"
+				`Successors: Ghosts 8`
+					to display
+						not "Successors: Ghosts 8: offered"
+					goto "Successors: Ghosts 8"
+				`Successors: Ghosts 9`
+					to display
+						not "Successors: Ghosts 9: offered"
+					goto "Successors: Ghosts 9"
+				`Successors: Ghosts 10`
+					to display
+						not "Successors: Ghosts 10: offered"
+					goto "Successors: Ghosts 10"
+				`Successors: Ghosts 11`
+					to display
+						not "Successors: Ghosts 11: offered"
+					goto "Successors: Ghosts 11"
+				`Successors: Ghosts 12`
+					to display
+						not "Successors: Ghosts 12: offered"
+					goto "Successors: Ghosts 12"
+				`Successors: Ghosts 13`
+					to display
+						not "Successors: Ghosts 13: offered"
+					goto "Successors: Ghosts 13"
+				`Successors: Ghosts 14`
+					to display
+						not "Successors: Ghosts 14: offered"
+					goto "Successors: Ghosts 14"
+				`Successors: Ghosts 15`
+					to display
+						not "Successors: Ghosts 15: offered"
+					goto "Successors: Ghosts 15"
+				`Successors: Saajret Remarks`
+					to display
+						not "Successors: Saajret Remarks: offered"
+					goto "Successors: Saajret Remarks"
+				`Successors: Ghosts 16`
+					to display
+						not "Successors: Ghosts 16: offered"
+					goto "Successors: Ghosts 16"
+				`Successors: Ghosts 17`
+					to display
+						not "Successors: Ghosts 17: offered"
+					goto "Successors: Ghosts 17"
+				`Successors: Ghosts Scout Escorts`
+					to display
+						not "Successors: Ghosts Scout Escorts: offered"
+					goto "Successors: Ghosts Scout Escorts"
+				`Successors: Ghosts 18`
+					to display
+						not "Successors: Ghosts 18: offered"
+					goto "Successors: Ghosts 18"
+				`Successors: Ghosts 19`
+					to display
+						not "Successors: Ghosts 19: offered"
+					goto "Successors: Ghosts 19"
+				`Successors: Ghosts Salvage Fleet`
+					to display
+						not "Successors: Ghosts Salvage Fleet: offered"
+					goto "Successors: Ghosts Salvage Fleet"
+				`Successors: Ghosts 20`
+					to display
+						not "Successors: Ghosts 20: offered"
+					goto "Successors: Ghosts 20"
+				`Successors: Ghosts Black Box`
+					to display
+						not "Successors: Ghosts Black Box: offered"
+					goto "Successors: Ghosts Black Box"
+				`Successors: Ghosts Reincarnation`
+					to display
+						not "Successors: Ghosts Reincarnation: offered"
+					goto "Successors: Ghosts Reincarnation"
+				`Successors: Ghosts Abandoned Kaatrij`
+					to display
+						not "Successors: Ghosts Abandoned Kaatrij: offered"
+					goto "Successors: Ghosts Abandoned Kaatrij"
 			label "successors/successor culture conversations.txt"
 			`Choose a race, choose a sub category, and choose a mission to see the conditions for offering.`
 			`Successors | Successor culture conversations | Mission:`
@@ -8193,11 +8507,15 @@ mission "Mission Helper"
 			`	source "Second Cerulean"`
 			`	to offer`
 			`		has "Coalition: First Contact: done"`
+			`		has "ship attribute: jump drive"`
 			``
 			`You have the following missions, events and conditions:`
 			`has "Coalition: First Contact: done"`
 				to display
 					has "Coalition: First Contact: done"
+			`has "ship attribute: jump drive"`
+				to display
+					has "ship attribute: jump drive"
 			``
 			choice
 				`[back to "Coalition | Coalition missions""]`
@@ -8428,11 +8746,15 @@ mission "Mission Helper"
 			`	to offer`
 			`		has "Coalition: First Contact: done"`
 			`		random < 35`
+			`		has "ship attribute: jump drive"`
 			``
 			`You have the following missions, events and conditions:`
 			`has "Coalition: First Contact: done"`
 				to display
 					has "Coalition: First Contact: done"
+			`has "ship attribute: jump drive"`
+				to display
+					has "ship attribute: jump drive"
 			``
 			choice
 				`[back to "Coalition | Coalition missions""]`
@@ -8940,11 +9262,15 @@ mission "Mission Helper"
 			`	to offer`
 			`		"coalition jobs" >= 40`
 			`		random < 5`
+			`		has "ship attribute: jump drive"`
 			``
 			`You have the following missions, events and conditions:`
 			`"coalition jobs" >= 40`
 				to display
 					"coalition jobs" >= 40
+			`has "ship attribute: jump drive"`
+				to display
+					has "ship attribute: jump drive"
 			``
 			choice
 				`[back to "Coalition | Coalition missions""]`
@@ -14483,26 +14809,13 @@ mission "Mission Helper"
 			`		not planet "Darkmetal" "Dustmaker" "Stonebreak" "Skyfarm"`
 			`	to offer`
 			`		random < 10`
-			`		or`
-			`			has "outfit: Quantum Keystone"`
-			`			has "outfit: Quantum Key Stone"`
-			`			has "outfit: Shield Beetle Pendant"`
-			`			has "outfit: Tree Skeleton Key Stone"`
+			`		has "ship attribute: quantum keystone"`
 			`		has "First Contact: Hai: offered"`
 			``
 			`You have the following missions, events and conditions:`
-			`has "outfit: Quantum Keystone"`
+			`has "ship attribute: quantum keystone"`
 				to display
-					has "outfit: Quantum Keystone"
-			`has "outfit: Quantum Key Stone"`
-				to display
-					has "outfit: Quantum Key Stone"
-			`has "outfit: Shield Beetle Pendant"`
-				to display
-					has "outfit: Shield Beetle Pendant"
-			`has "outfit: Tree Skeleton Key Stone"`
-				to display
-					has "outfit: Tree Skeleton Key Stone"
+					has "ship attribute: quantum keystone"
 			`has "First Contact: Hai: offered"`
 				to display
 					has "First Contact: Hai: offered"
@@ -14821,8 +15134,8 @@ mission "Mission Helper"
 			`		not "Hai Legacy 1: declined"`
 			`		has "First Contact: Unfettered: offered"`
 			`		"reputation: Hai (Unfettered)" < 0`
-			`		not "Unfettered Jump Drive 2: offered"`
-			`		"credits" >= 10000000`
+			`		not "Unfettered Jump Drive 1: offered"`
+			`		"credits" + "net worth" * ( 1 - "Hai Legacy 1: deferred" ) >= 10000000`
 			`	to complete`
 			`		has "ship model: Anomalocaris"`
 			``
@@ -14836,12 +15149,12 @@ mission "Mission Helper"
 			`"reputation: Hai (Unfettered)" < 0`
 				to display
 					"reputation: Hai (Unfettered)" < 0
-			`not "Unfettered Jump Drive 2: offered"`
+			`not "Unfettered Jump Drive 1: offered"`
 				to display
-					not "Unfettered Jump Drive 2: offered"
-			`"credits" >= 10000000`
+					not "Unfettered Jump Drive 1: offered"
+			`"credits" + "net worth" * ( 1 - "Hai Legacy 1: deferred" ) >= 10000000`
 				to display
-					"credits" >= 10000000
+					"credits" + "net worth" * ( 1 - "Hai Legacy 1: deferred" ) >= 10000000
 			`has "ship model: Anomalocaris"`
 				to display
 					has "ship model: Anomalocaris"
@@ -15905,6 +16218,42 @@ mission "Mission Helper"
 			`		random < 10`
 			``
 			`You have the following missions, events and conditions:`
+			``
+			choice
+				`[back to "Human | Culture conversations""]`
+					goto "human/culture conversations.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Exotic Life: Delve"
+			`data\human\culture conversations.txt | mission "Exotic Life: Delve"`
+			`starts at: spaceport`
+			`	source Delve`
+			`	to offer`
+			`		random < 20`
+			``
+			`You have the following missions, events and conditions:`
+			``
+			choice
+				`[back to "Human | Culture conversations""]`
+					goto "human/culture conversations.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Exotic Life: Ada"
+			`data\human\culture conversations.txt | mission "Exotic Life: Ada"`
+			`starts at: spaceport`
+			`	source Ada`
+			`	to offer`
+			`		random < 20`
+			`		has "Exotic Life: Delve: declined"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Exotic Life: Delve: declined"`
+				to display
+					has "Exotic Life: Delve: declined"
 			``
 			choice
 				`[back to "Human | Culture conversations""]`
@@ -27224,7 +27573,7 @@ mission "Mission Helper"
 					goto "start"
 			label "Timothy Radrickson 5e: Back to Oblivion"
 			`data\human\human missions.txt | mission "Timothy Radrickson 5e: Back to Oblivion"`
-			`starts at: spaceport`
+			`starts at: landing`
 			`	source Oblivion`
 			`	to offer`
 			`		has "Timothy Radrickson 5a: Timshank Redemption: done"`
@@ -31336,6 +31685,271 @@ mission "Mission Helper"
 					goto "kahet"
 				`[back to "Races"]`
 					goto "start"
+			label "Ka'het: Cloud Probe 1"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Cloud Probe 1"`
+			`starts at: spaceport`
+			`	source`
+			`		government "Remnant"`
+			`		attributes "remnant primary"`
+			`	to offer`
+			`		has "Ka'het: Patir Mystery 35: done"`
+			`		random < 30`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Patir Mystery 35: done"`
+				to display
+					has "Ka'het: Patir Mystery 35: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Cloud Probe 2"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Cloud Probe 2"`
+			`starts at: landing`
+			`	source "Crataegusa"`
+			`	to offer`
+			`		has "Ka'het: Cloud Probe 1: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Cloud Probe 1: done"`
+				to display
+					has "Ka'het: Cloud Probe 1: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Cloud Probe 3"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Cloud Probe 3"`
+			`starts at: landing`
+			`	source "Antamesa"`
+			`	to offer`
+			`		has "Ka'het: Cloud Probe 2: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Cloud Probe 2: done"`
+				to display
+					has "Ka'het: Cloud Probe 2: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Cloud Probe 4"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Cloud Probe 4"`
+			`starts at: landing`
+			`	source "Baliesa"`
+			`	to offer`
+			`		has "Ka'het: Cloud Probe 3: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Cloud Probe 3: done"`
+				to display
+					has "Ka'het: Cloud Probe 3: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Cloud Probe 5"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Cloud Probe 5"`
+			`starts at: landing`
+			`	source "Meligara"`
+			`	to offer`
+			`		has "Ka'het: Cloud Probe 4: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Cloud Probe 4: done"`
+				to display
+					has "Ka'het: Cloud Probe 4: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Lightning in a Bottle 1"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Lightning in a Bottle 1"`
+			`starts at: spaceport`
+			`	source`
+			`		government "Remnant"`
+			`	to offer`
+			`		has "event: ka'het: gaslining probe storm"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: ka'het: gaslining probe storm"`
+				to display
+					has "event: ka'het: gaslining probe storm"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Lightning in a Bottle 2"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Lightning in a Bottle 2"`
+			`starts at: landing`
+			`	source "Aventine"`
+			`	to offer`
+			`		has "Ka'het: Lightning in a Bottle 1: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Lightning in a Bottle 1: done"`
+				to display
+					has "Ka'het: Lightning in a Bottle 1: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Lightning in a Bottle 3"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Lightning in a Bottle 3"`
+			`starts at: landing`
+			`	source "Meligara"`
+			`	to offer`
+			`		has "Ka'het: Lightning in a Bottle 2: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Lightning in a Bottle 2: done"`
+				to display
+					has "Ka'het: Lightning in a Bottle 2: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Lightning in a Bottle 4A"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Lightning in a Bottle 4A"`
+			`starts at: spaceport`
+			`	source "Aventine"`
+			`	to offer`
+			`		has "Ka'het: Lightning in a Bottle 3: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Lightning in a Bottle 3: done"`
+				to display
+					has "Ka'het: Lightning in a Bottle 3: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Lightning in a Bottle 4B"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Lightning in a Bottle 4B"`
+			`starts at: spaceport`
+			`	source "Aventine"`
+			`	to offer`
+			`		has "Ka'het: Lightning in a Bottle 2: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Lightning in a Bottle 2: done"`
+				to display
+					has "Ka'het: Lightning in a Bottle 2: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Lightning in a Bottle 5"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Lightning in a Bottle 5"`
+			`starts at: spaceport`
+			`	source "Meligara"`
+			`	to offer`
+			`		has "Ka'het: Lightning in a Bottle 4A: done"`
+			`		or`
+			`			not "ka'het: fighting for the cloud probe"`
+			`			has "Ka'het: Lightning in a Bottle 4B: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Lightning in a Bottle 4A: done"`
+				to display
+					has "Ka'het: Lightning in a Bottle 4A: done"
+			`not "ka'het: fighting for the cloud probe"`
+				to display
+					not "ka'het: fighting for the cloud probe"
+			`has "Ka'het: Lightning in a Bottle 4B: done"`
+				to display
+					has "Ka'het: Lightning in a Bottle 4B: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Lightning in a Bottle Epilogue 1"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Lightning in a Bottle Epilogue 1"`
+			`starts at: spaceport`
+			`	to offer`
+			`		has "Ka'het: Lightning in a Bottle 5: done"`
+			`		has "Ka'het: Voice From The Past 4: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Ka'het: Lightning in a Bottle 5: done"`
+				to display
+					has "Ka'het: Lightning in a Bottle 5: done"
+			`has "Ka'het: Voice From The Past 4: done"`
+				to display
+					has "Ka'het: Voice From The Past 4: done"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
+			label "Ka'het: Lightning in a Bottle Epilogue 2"
+			`data\kahet\kahet missions.txt | mission "Ka'het: Lightning in a Bottle Epilogue 2"`
+			`starts at: landing`
+			`	source`
+			`		government "Remnant"`
+			`		attributes "outfitter"`
+			`	to offer`
+			`		has "event: Lightning in a Bottle epilogue"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: Lightning in a Bottle epilogue"`
+				to display
+					has "event: Lightning in a Bottle epilogue"
+			``
+			choice
+				`[back to "Kahet | Kahet missions""]`
+					goto "kahet/kahet missions.txt"
+				`[back to "Kahet"]`
+					goto "kahet"
+				`[back to "Races"]`
+					goto "start"
 			label "Korath Far'en Lai Prayer"
 			`data\korath\korath culture conversations.txt | mission "Korath Far'en Lai Prayer"`
 			`starts at: spaceport`
@@ -32531,11 +33145,15 @@ mission "Mission Helper"
 			`starts at: spaceport`
 			`	source "Viminal"`
 			`	to offer`
+			`		has "outfit: Heavy Laser"`
 			`		or`
 			`			has "Remnant: Tech Retrieval: active"`
 			`			has "Remnant: Tech Retrieval: done"`
 			``
 			`You have the following missions, events and conditions:`
+			`has "outfit: Heavy Laser"`
+				to display
+					has "outfit: Heavy Laser"
 			`has "Remnant: Tech Retrieval: active"`
 				to display
 					has "Remnant: Tech Retrieval: active"
@@ -32555,11 +33173,15 @@ mission "Mission Helper"
 			`starts at: spaceport`
 			`	source "Viminal"`
 			`	to offer`
+			`		has "outfit: Plasma Cannon"`
 			`		or`
 			`			has "Remnant: Tech Retrieval: active"`
 			`			has "Remnant: Tech Retrieval: done"`
 			``
 			`You have the following missions, events and conditions:`
+			`has "outfit: Plasma Cannon"`
+				to display
+					has "outfit: Plasma Cannon"
 			`has "Remnant: Tech Retrieval: active"`
 				to display
 					has "Remnant: Tech Retrieval: active"
@@ -32579,11 +33201,15 @@ mission "Mission Helper"
 			`starts at: spaceport`
 			`	source "Viminal"`
 			`	to offer`
+			`		has "outfit: Catalytic Ramscoop"`
 			`		or`
 			`			has "Remnant: Tech Retrieval: active"`
 			`			has "Remnant: Tech Retrieval: done"`
 			``
 			`You have the following missions, events and conditions:`
+			`has "outfit: Catalytic Ramscoop"`
+				to display
+					has "outfit: Catalytic Ramscoop"
 			`has "Remnant: Tech Retrieval: active"`
 				to display
 					has "Remnant: Tech Retrieval: active"
@@ -32603,11 +33229,15 @@ mission "Mission Helper"
 			`starts at: spaceport`
 			`	source "Viminal"`
 			`	to offer`
+			`		has "outfit: Electron Beam"`
 			`		or`
 			`			has "Remnant: Tech Retrieval: active"`
 			`			has "Remnant: Tech Retrieval: done"`
 			``
 			`You have the following missions, events and conditions:`
+			`has "outfit: Electron Beam"`
+				to display
+					has "outfit: Electron Beam"
 			`has "Remnant: Tech Retrieval: active"`
 				to display
 					has "Remnant: Tech Retrieval: active"
@@ -32627,11 +33257,15 @@ mission "Mission Helper"
 			`starts at: spaceport`
 			`	source "Viminal"`
 			`	to offer`
+			`		has "outfit: D94-YV Shield Generator"`
 			`		or`
 			`			has "Remnant: Tech Retrieval: active"`
 			`			has "Remnant: Tech Retrieval: done"`
 			``
 			`You have the following missions, events and conditions:`
+			`has "outfit: D94-YV Shield Generator"`
+				to display
+					has "outfit: D94-YV Shield Generator"
 			`has "Remnant: Tech Retrieval: active"`
 				to display
 					has "Remnant: Tech Retrieval: active"
@@ -32651,11 +33285,15 @@ mission "Mission Helper"
 			`starts at: spaceport`
 			`	source "Viminal"`
 			`	to offer`
+			`		has "outfit: S-970 Regenerator"`
 			`		or`
 			`			has "Remnant: Tech Retrieval: active"`
 			`			has "Remnant: Tech Retrieval: done"`
 			``
 			`You have the following missions, events and conditions:`
+			`has "outfit: S-970 Regenerator"`
+				to display
+					has "outfit: S-970 Regenerator"
 			`has "Remnant: Tech Retrieval: active"`
 				to display
 					has "Remnant: Tech Retrieval: active"
@@ -33710,11 +34348,15 @@ mission "Mission Helper"
 			`		government "Remnant"`
 			`	to offer`
 			`		has "Remnant: Expanded Horizons Astral 1: done"`
+			`		has "ship attribute: jump drive"`
 			``
 			`You have the following missions, events and conditions:`
 			`has "Remnant: Expanded Horizons Astral 1: done"`
 				to display
 					has "Remnant: Expanded Horizons Astral 1: done"
+			`has "ship attribute: jump drive"`
+				to display
+					has "ship attribute: jump drive"
 			``
 			choice
 				`[back to "Remnant | Remnant 1 introduction""]`
@@ -36009,6 +36651,1295 @@ mission "Mission Helper"
 			choice
 				`[back to "Successors | Successor 1 prologue""]`
 					goto "successors/successor 1 prologue.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Aqrabe 1"
+			`data\successors\successor 2 ghosts aqrabe.txt | mission "Successors: Ghosts Aqrabe 1"`
+			`starts at: landing`
+			`	source "Kasii-Cavasaa-Oa"`
+			`	to offer`
+			`		has "Successors: Ghosts 4: offered"`
+			`	to complete`
+			`		or`
+			`			has "Successors: Ghosts Aqrabe Remnant: done"`
+			`			has "Successors: Ghosts Aqrabe Hai: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 4: offered"`
+				to display
+					has "Successors: Ghosts 4: offered"
+			`has "Successors: Ghosts Aqrabe Remnant: done"`
+				to display
+					has "Successors: Ghosts Aqrabe Remnant: done"
+			`has "Successors: Ghosts Aqrabe Hai: done"`
+				to display
+					has "Successors: Ghosts Aqrabe Hai: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts aqrabe""]`
+					goto "successors/successor 2 ghosts aqrabe.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Aqrabe Remnant"
+			`data\successors\successor 2 ghosts aqrabe.txt | mission "Successors: Ghosts Aqrabe Remnant"`
+			`starts at: landing`
+			`	source "Kasii-Cavasaa-Oa"`
+			`	to fail`
+			`		or`
+			`			has "Successors: Ghosts Aqrabe Hai: done"`
+			`			has "Successors: Ghosts Aqrabe 1: declined"`
+			`	to offer`
+			`		has "Successors: Ghosts 4: offered"`
+			`		has "license: Remnant"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Aqrabe Hai: done"`
+				to display
+					has "Successors: Ghosts Aqrabe Hai: done"
+			`has "Successors: Ghosts Aqrabe 1: declined"`
+				to display
+					has "Successors: Ghosts Aqrabe 1: declined"
+			`has "Successors: Ghosts 4: offered"`
+				to display
+					has "Successors: Ghosts 4: offered"
+			`has "license: Remnant"`
+				to display
+					has "license: Remnant"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts aqrabe""]`
+					goto "successors/successor 2 ghosts aqrabe.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Aqrabe Hai"
+			`data\successors\successor 2 ghosts aqrabe.txt | mission "Successors: Ghosts Aqrabe Hai"`
+			`starts at: landing`
+			`	source "Kasii-Cavasaa-Oa"`
+			`	to fail`
+			`		or`
+			`			has "Successors: Ghosts Aqrabe Remnant: done"`
+			`			has "Successors: Ghosts Aqrabe 1: declined"`
+			`	to offer`
+			`		has "Successors: Ghosts 4: offered"`
+			`		has "First Contact: Hai: offered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Aqrabe Remnant: done"`
+				to display
+					has "Successors: Ghosts Aqrabe Remnant: done"
+			`has "Successors: Ghosts Aqrabe 1: declined"`
+				to display
+					has "Successors: Ghosts Aqrabe 1: declined"
+			`has "Successors: Ghosts 4: offered"`
+				to display
+					has "Successors: Ghosts 4: offered"
+			`has "First Contact: Hai: offered"`
+				to display
+					has "First Contact: Hai: offered"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts aqrabe""]`
+					goto "successors/successor 2 ghosts aqrabe.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Aqrabe 2"
+			`data\successors\successor 2 ghosts aqrabe.txt | mission "Successors: Ghosts Aqrabe 2"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	source "Kasii-Cavasaa-Oa"`
+			`	to offer`
+			`		or`
+			`			has "Successors: Ghosts Aqrabe Remnant: done"`
+			`			has "Successors: Ghosts Aqrabe Hai: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Aqrabe Remnant: done"`
+				to display
+					has "Successors: Ghosts Aqrabe Remnant: done"
+			`has "Successors: Ghosts Aqrabe Hai: done"`
+				to display
+					has "Successors: Ghosts Aqrabe Hai: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts aqrabe""]`
+					goto "successors/successor 2 ghosts aqrabe.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Aqrabe 3"
+			`data\successors\successor 2 ghosts aqrabe.txt | mission "Successors: Ghosts Aqrabe 3"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	source "Kasii-Cavasaa-Oa"`
+			`	to offer`
+			`		has	"Successors: Ghosts Aqrabe 2: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has	"Successors: Ghosts Aqrabe 2: done"`
+				to display
+					has	"Successors: Ghosts Aqrabe 2: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts aqrabe""]`
+					goto "successors/successor 2 ghosts aqrabe.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Aqrabe 4"
+			`data\successors\successor 2 ghosts aqrabe.txt | mission "Successors: Ghosts Aqrabe 4"`
+			`starts at: spaceport`
+			`	source "Kasii-Cavasaa-Oa"`
+			`	to offer`
+			`		has	"Successors: Ghosts Aqrabe 3: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has	"Successors: Ghosts Aqrabe 3: done"`
+				to display
+					has	"Successors: Ghosts Aqrabe 3: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts aqrabe""]`
+					goto "successors/successor 2 ghosts aqrabe.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Aqrabe 5"
+			`data\successors\successor 2 ghosts aqrabe.txt | mission "Successors: Ghosts Aqrabe 5"`
+			`starts at: landing`
+			`	source "Raaqa-Puan-Uuoru"`
+			`	to offer`
+			`		has	"Successors: Ghosts Aqrabe 4: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has	"Successors: Ghosts Aqrabe 4: done"`
+				to display
+					has	"Successors: Ghosts Aqrabe 4: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts aqrabe""]`
+					goto "successors/successor 2 ghosts aqrabe.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Aqrabe 6"
+			`data\successors\successor 2 ghosts aqrabe.txt | mission "Successors: Ghosts Aqrabe 6"`
+			`starts at: spaceport`
+			`	cargo "Reserved space" 40`
+			`	passengers 2`
+			`	source "Kasii-Cavasaa-Oa"`
+			`	to offer`
+			`		has	"Successors: Ghosts Aqrabe 5: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has	"Successors: Ghosts Aqrabe 5: done"`
+				to display
+					has	"Successors: Ghosts Aqrabe 5: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts aqrabe""]`
+					goto "successors/successor 2 ghosts aqrabe.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Aqrabe 7"
+			`data\successors\successor 2 ghosts aqrabe.txt | mission "Successors: Ghosts Aqrabe 7"`
+			`starts at: landing`
+			`	cargo "Stellar metal" 40`
+			`	passengers 2`
+			`	source "Exotic Metal Garden"`
+			`	to offer`
+			`		has	"Successors: Ghosts Aqrabe 6: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has	"Successors: Ghosts Aqrabe 6: done"`
+				to display
+					has	"Successors: Ghosts Aqrabe 6: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts aqrabe""]`
+					goto "successors/successor 2 ghosts aqrabe.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Myurej 1"
+			`data\successors\successor 2 ghosts myurej.txt | mission "Successors: Ghosts Myurej 1"`
+			`starts at: landing`
+			`	source Raaqa-Kvelq-Ryuit`
+			`	to offer`
+			`		or`
+			`			and`
+			`				has "Successors: Ghosts Prelude Wedding: offered"`
+			`				random < 40`
+			`			and`
+			`				has "Successors: Ghosts Prelude Wedding: offered"`
+			`				has "Successors: Ghosts 4: offered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Prelude Wedding: offered"`
+				to display
+					has "Successors: Ghosts Prelude Wedding: offered"
+			`has "Successors: Ghosts Prelude Wedding: offered"`
+				to display
+					has "Successors: Ghosts Prelude Wedding: offered"
+			`has "Successors: Ghosts 4: offered"`
+				to display
+					has "Successors: Ghosts 4: offered"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts myurej""]`
+					goto "successors/successor 2 ghosts myurej.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Myurej 2"
+			`data\successors\successor 2 ghosts myurej.txt | mission "Successors: Ghosts Myurej 2"`
+			`starts at: landing`
+			`	source Kasii-Tuur-Saqru`
+			`	to offer`
+			`		has "Successors: Ghosts Myurej 1: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Myurej 1: done"`
+				to display
+					has "Successors: Ghosts Myurej 1: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts myurej""]`
+					goto "successors/successor 2 ghosts myurej.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Myurej 3"
+			`data\successors\successor 2 ghosts myurej.txt | mission "Successors: Ghosts Myurej 3"`
+			`starts at: landing`
+			`	source Vade-Osolaa-Kaska`
+			`	to offer`
+			`		has "Successors: Ghosts Myurej 2: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Myurej 2: done"`
+				to display
+					has "Successors: Ghosts Myurej 2: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts myurej""]`
+					goto "successors/successor 2 ghosts myurej.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Myurej 3 Direct"
+			`data\successors\successor 2 ghosts myurej.txt | mission "Successors: Ghosts Myurej 3 Direct"`
+			`starts at: landing`
+			`	source Myiara-Sola-Tej`
+			`	to fail`
+			`		has "Successors: Ghosts Myurej 4: offered"`
+			`	to offer`
+			`		has "Successors: Ghosts Myurej 3: done"`
+			`		has "visited planet: Maspa-Viir-Kella"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Myurej 4: offered"`
+				to display
+					has "Successors: Ghosts Myurej 4: offered"
+			`has "Successors: Ghosts Myurej 3: done"`
+				to display
+					has "Successors: Ghosts Myurej 3: done"
+			`has "visited planet: Maspa-Viir-Kella"`
+				to display
+					has "visited planet: Maspa-Viir-Kella"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts myurej""]`
+					goto "successors/successor 2 ghosts myurej.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Myurej 3 Checking"
+			`data\successors\successor 2 ghosts myurej.txt | mission "Successors: Ghosts Myurej 3 Checking"`
+			`starts at: landing`
+			`	source Myiara-Sola-Tej`
+			`	to fail`
+			`		has "flagship planet: Maspa-Viir-Kella"`
+			`	to offer`
+			`		has "Successors: Ghosts Myurej 3: done"`
+			`		not "visited planet: Maspa-Viir-Kella"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "flagship planet: Maspa-Viir-Kella"`
+				to display
+					has "flagship planet: Maspa-Viir-Kella"
+			`has "Successors: Ghosts Myurej 3: done"`
+				to display
+					has "Successors: Ghosts Myurej 3: done"
+			`not "visited planet: Maspa-Viir-Kella"`
+				to display
+					not "visited planet: Maspa-Viir-Kella"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts myurej""]`
+					goto "successors/successor 2 ghosts myurej.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Myurej 4"
+			`data\successors\successor 2 ghosts myurej.txt | mission "Successors: Ghosts Myurej 4"`
+			`starts at: landing`
+			`	source Maspa-Viir-Kella`
+			`	to offer`
+			`		has "Successors: Ghosts Myurej 3: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Myurej 3: done"`
+				to display
+					has "Successors: Ghosts Myurej 3: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts myurej""]`
+					goto "successors/successor 2 ghosts myurej.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Myurej 5"
+			`data\successors\successor 2 ghosts myurej.txt | mission "Successors: Ghosts Myurej 5"`
+			`starts at: spaceport`
+			`	passengers 3`
+			`	source Raaqa-Kvelq-Ryuit`
+			`	to offer`
+			`		has "Successors: Ghosts Myurej 4: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Myurej 4: done"`
+				to display
+					has "Successors: Ghosts Myurej 4: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts myurej""]`
+					goto "successors/successor 2 ghosts myurej.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Myurej 6"
+			`data\successors\successor 2 ghosts myurej.txt | mission "Successors: Ghosts Myurej 6"`
+			`starts at: landing`
+			`	passengers 3`
+			`	source Kella-Uuoru-Sossa`
+			`	to offer`
+			`		has "Successors: Ghosts Myurej 5: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Myurej 5: done"`
+				to display
+					has "Successors: Ghosts Myurej 5: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts myurej""]`
+					goto "successors/successor 2 ghosts myurej.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Myurej 7"
+			`data\successors\successor 2 ghosts myurej.txt | mission "Successors: Ghosts Myurej 7"`
+			`starts at: landing`
+			`	source`
+			`		attributes successor`
+			`		not attributes uninhabited`
+			`	to offer`
+			`		has "Successors: Ghosts Myurej 6: done"`
+			`		random < 40`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Myurej 6: done"`
+				to display
+					has "Successors: Ghosts Myurej 6: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts myurej""]`
+					goto "successors/successor 2 ghosts myurej.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Myurej 8"
+			`data\successors\successor 2 ghosts myurej.txt | mission "Successors: Ghosts Myurej 8"`
+			`starts at: landing`
+			`	cargo "Wedding supplies" 5`
+			`	source Raaqa-Kvelq-Ryuit`
+			`	to offer`
+			`		has "Successors: Ghosts Myurej 7: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Myurej 7: done"`
+				to display
+					has "Successors: Ghosts Myurej 7: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts myurej""]`
+					goto "successors/successor 2 ghosts myurej.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Prelude Timer"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Prelude Timer"`
+			`starts at: landing`
+			`	to offer`
+			`		has "trusted by the successors"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "trusted by the successors"`
+				to display
+					has "trusted by the successors"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Prelude Wedding"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Prelude Wedding"`
+			`starts at: landing`
+			`	source`
+			`		attributes "successor"`
+			`		not attributes "quiet" "uninhabited"`
+			`	to offer`
+			`		has "event: successors: ghosts initial timer"`
+			`		random < 50`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: successors: ghosts initial timer"`
+				to display
+					has "event: successors: ghosts initial timer"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Prelude Incident"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Prelude Incident"`
+			`starts at: landing`
+			`	source`
+			`		attributes "successor"`
+			`		not attributes "quiet" "uninhabited"`
+			`	to offer`
+			`		has "event: successors: ghosts initial timer"`
+			`		random < 50`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: successors: ghosts initial timer"`
+				to display
+					has "event: successors: ghosts initial timer"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts QSI 2"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts QSI 2"`
+			`starts at: spaceport`
+			`	source`
+			`		government "House Kaatrij"`
+			`	to offer`
+			`		has "event: successors: ghosts restrict"`
+			`		not "Successors: Ghosts 10: offered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: successors: ghosts restrict"`
+				to display
+					has "event: successors: ghosts restrict"
+			`not "Successors: Ghosts 10: offered"`
+				to display
+					not "Successors: Ghosts 10: offered"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts QSI 3"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts QSI 3"`
+			`starts at: landing`
+			`	source`
+			`		attributes "successor"`
+			`	to offer`
+			`		has "event: successors: ghosts saajret contact"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: successors: ghosts saajret contact"`
+				to display
+					has "event: successors: ghosts saajret contact"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 1"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 1"`
+			`starts at: landing`
+			`	source`
+			`		attributes "successor"`
+			`		not attributes "uninhabited"`
+			`		not planet "Shassa-Wyra-Orrou"`
+			`	to offer`
+			`		has "Successors: Ghosts Prelude Incident: offered"`
+			`		random < 50`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Prelude Incident: offered"`
+				to display
+					has "Successors: Ghosts Prelude Incident: offered"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 2"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 2"`
+			`starts at: landing`
+			`	cargo "Successor sensor drones" 6`
+			`	source "Shassa-Wyra-Orrou"`
+			`	to offer`
+			`		has "Successors: Ghosts 1: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 1: done"`
+				to display
+					has "Successors: Ghosts 1: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 3a Sioeora"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 3a Sioeora"`
+			`starts at: landing`
+			`	source`
+			`		attributes successor`
+			`		not attributes uninhabited`
+			`	to offer`
+			`		has "successors sioeora patron"`
+			`		has "Successors: Ghosts 2: accepted"`
+			`	to complete`
+			`		has "event: successors: ghosts message delay"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "successors sioeora patron"`
+				to display
+					has "successors sioeora patron"
+			`has "Successors: Ghosts 2: accepted"`
+				to display
+					has "Successors: Ghosts 2: accepted"
+			`has "event: successors: ghosts message delay"`
+				to display
+					has "event: successors: ghosts message delay"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 3b Kaatrij"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 3b Kaatrij"`
+			`starts at: landing`
+			`	source`
+			`		attributes successor`
+			`		not attributes uninhabited`
+			`	to offer`
+			`		has "successors kaatrij patron"`
+			`		has "Successors: Ghosts 2: accepted"`
+			`	to complete`
+			`		has "event: successors: ghosts message delay"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "successors kaatrij patron"`
+				to display
+					has "successors kaatrij patron"
+			`has "Successors: Ghosts 2: accepted"`
+				to display
+					has "Successors: Ghosts 2: accepted"
+			`has "event: successors: ghosts message delay"`
+				to display
+					has "event: successors: ghosts message delay"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 4"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 4"`
+			`starts at: spaceport`
+			`	source "Shassa-Wyra-Orrou"`
+			`	to offer`
+			`		has "Successors: Ghosts 2: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 2: done"`
+				to display
+					has "Successors: Ghosts 2: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Mark Houses"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Mark Houses"`
+			`starts at: spaceport`
+			`	to offer`
+			`		has "Successors: Ghosts 4: declined"`
+			`	to fail`
+			`		has "Successors: Ghosts Aqrabe 1: offered"`
+			`		has "Successors: Ghosts Myurej 1: offered"`
+			`	to complete`
+			`		never`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 4: declined"`
+				to display
+					has "Successors: Ghosts 4: declined"
+			`has "Successors: Ghosts Aqrabe 1: offered"`
+				to display
+					has "Successors: Ghosts Aqrabe 1: offered"
+			`has "Successors: Ghosts Myurej 1: offered"`
+				to display
+					has "Successors: Ghosts Myurej 1: offered"
+			`never`
+				to display
+					never
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Seineq Attacked"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Seineq Attacked"`
+			`starts at: landing`
+			`	source`
+			`		attributes successor`
+			`		not attributes uninhabited quiet`
+			`		not planet "Shassa-Wyra-Orrou"`
+			`	to offer`
+			`		has "event: successors: ghosts seineq attacked"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: successors: ghosts seineq attacked"`
+				to display
+					has "event: successors: ghosts seineq attacked"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Seineq Memorial"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Seineq Memorial"`
+			`starts at: spaceport`
+			`	source "Yoqqa-Vasa-Vasa"`
+			`	to offer`
+			`		has "event: successors: ghosts seineq memorial"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: successors: ghosts seineq memorial"`
+				to display
+					has "event: successors: ghosts seineq memorial"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 5"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 5"`
+			`starts at: landing`
+			`	cargo "Scientific equipment" 10`
+			`	passengers 3`
+			`	source`
+			`		government "Successor" "New Houses" # So, not the homeworlds of any of the other houses.`
+			`	to offer`
+			`		or`
+			`			"successors: ghosts suspicion" >= 4`
+			`			"successors: ghosts houses dealt with" >= 2`
+			`		has "event: successors: ghosts seineq attacked"`
+			``
+			`You have the following missions, events and conditions:`
+			`"successors: ghosts suspicion" >= 4`
+				to display
+					"successors: ghosts suspicion" >= 4
+			`"successors: ghosts houses dealt with" >= 2`
+				to display
+					"successors: ghosts houses dealt with" >= 2
+			`has "event: successors: ghosts seineq attacked"`
+				to display
+					has "event: successors: ghosts seineq attacked"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 6"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 6"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	source "Raaqa-Puan-Uuoru"`
+			`	to offer`
+			`		has "Successors: Ghosts 5: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 5: done"`
+				to display
+					has "Successors: Ghosts 5: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 7a"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 7a"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	to offer`
+			`		has "Successors: Ghosts 6: done"`
+			`		has "Successors: Ghosts Helped Saajret"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 6: done"`
+				to display
+					has "Successors: Ghosts 6: done"
+			`has "Successors: Ghosts Helped Saajret"`
+				to display
+					has "Successors: Ghosts Helped Saajret"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 7b"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 7b"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	to offer`
+			`		has "Successors: Ghosts 6: done"`
+			`		not "Successors: Ghosts Helped Saajret"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 6: done"`
+				to display
+					has "Successors: Ghosts 6: done"
+			`not "Successors: Ghosts Helped Saajret"`
+				to display
+					not "Successors: Ghosts Helped Saajret"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Cloak Prompt"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Cloak Prompt"`
+			`starts at: landing`
+			`	source`
+			`		attributes successor`
+			`		not attributes uninhabited crime`
+			`	to offer`
+			`		has "event: successors: ghosts cloak prompt delay"`
+			`		not "Successors: Ghosts 8: offered"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: successors: ghosts cloak prompt delay"`
+				to display
+					has "event: successors: ghosts cloak prompt delay"
+			`not "Successors: Ghosts 8: offered"`
+				to display
+					not "Successors: Ghosts 8: offered"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 8"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 8"`
+			`starts at: landing`
+			`	source "Qasa-Sija-Iri"`
+			`	to offer`
+			`		or`
+			`			has "Successors: Ghosts 7a: done"`
+			`			has "Successors: Ghosts 7b: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 7a: done"`
+				to display
+					has "Successors: Ghosts 7a: done"
+			`has "Successors: Ghosts 7b: done"`
+				to display
+					has "Successors: Ghosts 7b: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 9"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 9"`
+			`starts at: landing`
+			`	source`
+			`		attributes "human quarg" "hai quarg"`
+			`	to offer`
+			`		has "successors: ghosts seen quarg"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "successors: ghosts seen quarg"`
+				to display
+					has "successors: ghosts seen quarg"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 10"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 10"`
+			`starts at: landing`
+			`	source`
+			`		government "Successor" "New Houses"`
+			`	to offer`
+			`		has "Successors: Ghosts 9: declined"`
+			`		has "successors: ghosts dealt with aqrabe"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 9: declined"`
+				to display
+					has "Successors: Ghosts 9: declined"
+			`has "successors: ghosts dealt with aqrabe"`
+				to display
+					has "successors: ghosts dealt with aqrabe"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 11"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 11"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	source "Qasa-Sija-Iri"`
+			`	to offer`
+			`		has "Successors: Ghosts 10: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 10: done"`
+				to display
+					has "Successors: Ghosts 10: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 12"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 12"`
+			`starts at: spaceport`
+			`	source "Qasa-Sija-Iri"`
+			`	to offer`
+			`		has "Successors: Ghosts 11: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 11: done"`
+				to display
+					has "Successors: Ghosts 11: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 13"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 13"`
+			`starts at: landing`
+			`	cargo "Harmonic Keystones" 16`
+			`	source "Kasii-Cavasaa-Oa"`
+			`	to offer`
+			`		has "Successors: Ghosts 12: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 12: done"`
+				to display
+					has "Successors: Ghosts 12: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 14"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 14"`
+			`starts at: spaceport`
+			`	passengers 1`
+			`	source "Qasa-Sija-Iri"`
+			`	to offer`
+			`		has "Successors: Ghosts 13: done"`
+			`	to complete`
+			`		has "successors: ghosts entered kasii-sola"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 13: done"`
+				to display
+					has "Successors: Ghosts 13: done"
+			`has "successors: ghosts entered kasii-sola"`
+				to display
+					has "successors: ghosts entered kasii-sola"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 15"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 15"`
+			`starts at: spaceport`
+			`	to offer`
+			`		has "event: successors: ghosts ijra-ea decloak"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: successors: ghosts ijra-ea decloak"`
+				to display
+					has "event: successors: ghosts ijra-ea decloak"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Saajret Remarks"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Saajret Remarks"`
+			`starts at: entering`
+			`	source`
+			`		not attributes "tangled shroud" "predecessor" "successor"`
+			`	to offer`
+			`		or`
+			`			has "Successors: Ghosts 14: active"`
+			`			has "Successors: Ghosts 15: active"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 14: active"`
+				to display
+					has "Successors: Ghosts 14: active"
+			`has "Successors: Ghosts 15: active"`
+				to display
+					has "Successors: Ghosts 15: active"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 16"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 16"`
+			`starts at: spaceport`
+			`	source "Qasa-Sija-Iri"`
+			`	to offer`
+			`		has "Successors: Ghosts 15: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 15: done"`
+				to display
+					has "Successors: Ghosts 15: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 17"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 17"`
+			`starts at: landing`
+			`	source "Ijra-Ea, Shimmering Veil"`
+			`	to offer`
+			`		has "Successors: Ghosts 16: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 16: done"`
+				to display
+					has "Successors: Ghosts 16: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Scout Escorts"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Scout Escorts"`
+			`starts at: entering`
+			`	source`
+			`		system "Oublaa-Khora"`
+			`	to offer`
+			`		has "Successors: Ghosts 17: active"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 17: active"`
+				to display
+					has "Successors: Ghosts 17: active"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 18"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 18"`
+			`starts at: landing`
+			`	cargo "Cloak detection node" 10`
+			`	source "Qasa-Sija-Iri"`
+			`	to offer`
+			`		has "Successors: Ghosts 17: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 17: done"`
+				to display
+					has "Successors: Ghosts 17: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 19"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 19"`
+			`starts at: landing`
+			`	source "Myiara-Aret-Iir"`
+			`	to offer`
+			`		has "Successors: Ghosts 18: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 18: done"`
+				to display
+					has "Successors: Ghosts 18: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Salvage Fleet"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Salvage Fleet"`
+			`starts at: spaceport`
+			`	to complete`
+			`		never`
+			`	to offer`
+			`		has "Successors: Ghosts 19: done"`
+			``
+			`You have the following missions, events and conditions:`
+			`never`
+				to display
+					never
+			`has "Successors: Ghosts 19: done"`
+				to display
+					has "Successors: Ghosts 19: done"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 20"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 20"`
+			`starts at: landing`
+			`	source`
+			`		attributes "successor"`
+			`		not attributes "uninhabited"`
+			`	to offer`
+			`		random < 33`
+			`		has "Successors: Ghosts 19: done"`
+			`		has "successors: ghosts dealt with myurej"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 19: done"`
+				to display
+					has "Successors: Ghosts 19: done"
+			`has "successors: ghosts dealt with myurej"`
+				to display
+					has "successors: ghosts dealt with myurej"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Black Box"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Black Box"`
+			`starts at: landing`
+			`	source`
+			`		attributes "successor"`
+			`	to offer`
+			`		has "Successors: Ghosts 20: done"`
+			`		or`
+			`			has "Successors: Ghosts Resja transmission"`
+			`			has "Successors: Ghosts Queru transmission"`
+			`			has "Successors: Ghosts Hasur transmission"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 20: done"`
+				to display
+					has "Successors: Ghosts 20: done"
+			`has "Successors: Ghosts Resja transmission"`
+				to display
+					has "Successors: Ghosts Resja transmission"
+			`has "Successors: Ghosts Queru transmission"`
+				to display
+					has "Successors: Ghosts Queru transmission"
+			`has "Successors: Ghosts Hasur transmission"`
+				to display
+					has "Successors: Ghosts Hasur transmission"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Reincarnation"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Reincarnation"`
+			`starts at: landing`
+			`	source "Raaqa-Puan-Uuoru"`
+			`	to offer`
+			`		has "Successors: Ghosts Messages from the Past"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts Messages from the Past"`
+				to display
+					has "Successors: Ghosts Messages from the Past"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts Abandoned Kaatrij"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts Abandoned Kaatrij"`
+			`starts at: entering`
+			`	to complete`
+			`		never`
+			`	to offer`
+			`		has "event: successors: ghosts abandoned kaatrij"`
+			`		not "Successors: Ghosts killed heirloom"`
+			``
+			`You have the following missions, events and conditions:`
+			`never`
+				to display
+					never
+			`has "event: successors: ghosts abandoned kaatrij"`
+				to display
+					has "event: successors: ghosts abandoned kaatrij"
+			`not "Successors: Ghosts killed heirloom"`
+				to display
+					not "Successors: Ghosts killed heirloom"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
 				`[back to "Successors"]`
 					goto "successors"
 				`[back to "Races"]`
