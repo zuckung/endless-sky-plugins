@@ -91,6 +91,11 @@ mission "upgrade ships"
 						"ship model: Earth Shaper" >= 3
 						"ship model: Earth Shaper (T9)" >= 1
 					goto "Earth Shaper (T9)"
+				`	merge 3x "Vujlet-Usaqri" and 1x "Vujlet-Usaqri (T9)" into a "Vujlet-Usaqri(T10)"`
+					to display
+						"ship model: Vujlet-Usaqri" >= 3
+						"ship model: Vujlet-Usaqri (T9)" >= 1
+					goto "Vujlet-Usaqri (T9)"
 				`	merge 3x "Vujlet" and 1x "Vujlet (T9)" into a "Vujlet(T10)"`
 					to display
 						"ship model: Vujlet" >= 3
@@ -146,6 +151,11 @@ mission "upgrade ships"
 						"ship model: Kaskhorade" >= 3
 						"ship model: Kaskhorade (T9)" >= 1
 					goto "Kaskhorade (T9)"
+				`	merge 3x "Ejniisde-Khora" and 1x "Ejniisde-Khora (T9)" into a "Ejniisde-Khora(T10)"`
+					to display
+						"ship model: Ejniisde-Khora" >= 3
+						"ship model: Ejniisde-Khora (T9)" >= 1
+					goto "Ejniisde-Khora (T9)"
 				`	merge 3x "Ejniisde" and 1x "Ejniisde (T9)" into a "Ejniisde(T10)"`
 					to display
 						"ship model: Ejniisde" >= 3
@@ -156,6 +166,26 @@ mission "upgrade ships"
 						"ship model: Aaulqra" >= 3
 						"ship model: Aaulqra (T9)" >= 1
 					goto "Aaulqra (T9)"
+				`	merge 3x "Valkkyiara-Khorasaqra" and 1x "Valkkyiara-Khorasaqra (T9)" into a "Valkkyiara-Khorasaqra(T10)"`
+					to display
+						"ship model: Valkkyiara-Khorasaqra" >= 3
+						"ship model: Valkkyiara-Khorasaqra (T9)" >= 1
+					goto "Valkkyiara-Khorasaqra (T9)"
+				`	merge 3x "Queru, Luminous Gaze" and 1x "Queru, Luminous Gaze (T9)" into a "Queru, Luminous Gaze(T10)"`
+					to display
+						"ship model: Queru, Luminous Gaze" >= 3
+						"ship model: Queru, Luminous Gaze (T9)" >= 1
+					goto "Queru, Luminous Gaze (T9)"
+				`	merge 3x "Hasur, Vowsworn" and 1x "Hasur, Vowsworn (T9)" into a "Hasur, Vowsworn(T10)"`
+					to display
+						"ship model: Hasur, Vowsworn" >= 3
+						"ship model: Hasur, Vowsworn (T9)" >= 1
+					goto "Hasur, Vowsworn (T9)"
+				`	merge 3x "Resja, of the Nine Eyes" and 1x "Resja, of the Nine Eyes (T9)" into a "Resja, of the Nine Eyes(T10)"`
+					to display
+						"ship model: Resja, of the Nine Eyes" >= 3
+						"ship model: Resja, of the Nine Eyes (T9)" >= 1
+					goto "Resja, of the Nine Eyes (T9)"
 				`	merge 3x "Black Diamond" and 1x "Black Diamond (T9)" into a "Black Diamond(T10)"`
 					to display
 						"ship model: Black Diamond" >= 3
@@ -1531,6 +1561,11 @@ mission "upgrade ships"
 						"ship model: Earth Shaper" >= 3
 						"ship model: Earth Shaper (T8)" >= 1
 					goto "Earth Shaper (T8)"
+				`	merge 3x "Vujlet-Usaqri" and 1x "Vujlet-Usaqri (T8)" into a "Vujlet-Usaqri(T9)"`
+					to display
+						"ship model: Vujlet-Usaqri" >= 3
+						"ship model: Vujlet-Usaqri (T8)" >= 1
+					goto "Vujlet-Usaqri (T8)"
 				`	merge 3x "Vujlet" and 1x "Vujlet (T8)" into a "Vujlet(T9)"`
 					to display
 						"ship model: Vujlet" >= 3
@@ -1586,6 +1621,11 @@ mission "upgrade ships"
 						"ship model: Kaskhorade" >= 3
 						"ship model: Kaskhorade (T8)" >= 1
 					goto "Kaskhorade (T8)"
+				`	merge 3x "Ejniisde-Khora" and 1x "Ejniisde-Khora (T8)" into a "Ejniisde-Khora(T9)"`
+					to display
+						"ship model: Ejniisde-Khora" >= 3
+						"ship model: Ejniisde-Khora (T8)" >= 1
+					goto "Ejniisde-Khora (T8)"
 				`	merge 3x "Ejniisde" and 1x "Ejniisde (T8)" into a "Ejniisde(T9)"`
 					to display
 						"ship model: Ejniisde" >= 3
@@ -1596,6 +1636,26 @@ mission "upgrade ships"
 						"ship model: Aaulqra" >= 3
 						"ship model: Aaulqra (T8)" >= 1
 					goto "Aaulqra (T8)"
+				`	merge 3x "Valkkyiara-Khorasaqra" and 1x "Valkkyiara-Khorasaqra (T8)" into a "Valkkyiara-Khorasaqra(T9)"`
+					to display
+						"ship model: Valkkyiara-Khorasaqra" >= 3
+						"ship model: Valkkyiara-Khorasaqra (T8)" >= 1
+					goto "Valkkyiara-Khorasaqra (T8)"
+				`	merge 3x "Queru, Luminous Gaze" and 1x "Queru, Luminous Gaze (T8)" into a "Queru, Luminous Gaze(T9)"`
+					to display
+						"ship model: Queru, Luminous Gaze" >= 3
+						"ship model: Queru, Luminous Gaze (T8)" >= 1
+					goto "Queru, Luminous Gaze (T8)"
+				`	merge 3x "Hasur, Vowsworn" and 1x "Hasur, Vowsworn (T8)" into a "Hasur, Vowsworn(T9)"`
+					to display
+						"ship model: Hasur, Vowsworn" >= 3
+						"ship model: Hasur, Vowsworn (T8)" >= 1
+					goto "Hasur, Vowsworn (T8)"
+				`	merge 3x "Resja, of the Nine Eyes" and 1x "Resja, of the Nine Eyes (T8)" into a "Resja, of the Nine Eyes(T9)"`
+					to display
+						"ship model: Resja, of the Nine Eyes" >= 3
+						"ship model: Resja, of the Nine Eyes (T8)" >= 1
+					goto "Resja, of the Nine Eyes (T8)"
 				`	merge 3x "Black Diamond" and 1x "Black Diamond (T8)" into a "Black Diamond(T9)"`
 					to display
 						"ship model: Black Diamond" >= 3
@@ -2971,6 +3031,11 @@ mission "upgrade ships"
 						"ship model: Earth Shaper" >= 3
 						"ship model: Earth Shaper (T7)" >= 1
 					goto "Earth Shaper (T7)"
+				`	merge 3x "Vujlet-Usaqri" and 1x "Vujlet-Usaqri (T7)" into a "Vujlet-Usaqri(T8)"`
+					to display
+						"ship model: Vujlet-Usaqri" >= 3
+						"ship model: Vujlet-Usaqri (T7)" >= 1
+					goto "Vujlet-Usaqri (T7)"
 				`	merge 3x "Vujlet" and 1x "Vujlet (T7)" into a "Vujlet(T8)"`
 					to display
 						"ship model: Vujlet" >= 3
@@ -3026,6 +3091,11 @@ mission "upgrade ships"
 						"ship model: Kaskhorade" >= 3
 						"ship model: Kaskhorade (T7)" >= 1
 					goto "Kaskhorade (T7)"
+				`	merge 3x "Ejniisde-Khora" and 1x "Ejniisde-Khora (T7)" into a "Ejniisde-Khora(T8)"`
+					to display
+						"ship model: Ejniisde-Khora" >= 3
+						"ship model: Ejniisde-Khora (T7)" >= 1
+					goto "Ejniisde-Khora (T7)"
 				`	merge 3x "Ejniisde" and 1x "Ejniisde (T7)" into a "Ejniisde(T8)"`
 					to display
 						"ship model: Ejniisde" >= 3
@@ -3036,6 +3106,26 @@ mission "upgrade ships"
 						"ship model: Aaulqra" >= 3
 						"ship model: Aaulqra (T7)" >= 1
 					goto "Aaulqra (T7)"
+				`	merge 3x "Valkkyiara-Khorasaqra" and 1x "Valkkyiara-Khorasaqra (T7)" into a "Valkkyiara-Khorasaqra(T8)"`
+					to display
+						"ship model: Valkkyiara-Khorasaqra" >= 3
+						"ship model: Valkkyiara-Khorasaqra (T7)" >= 1
+					goto "Valkkyiara-Khorasaqra (T7)"
+				`	merge 3x "Queru, Luminous Gaze" and 1x "Queru, Luminous Gaze (T7)" into a "Queru, Luminous Gaze(T8)"`
+					to display
+						"ship model: Queru, Luminous Gaze" >= 3
+						"ship model: Queru, Luminous Gaze (T7)" >= 1
+					goto "Queru, Luminous Gaze (T7)"
+				`	merge 3x "Hasur, Vowsworn" and 1x "Hasur, Vowsworn (T7)" into a "Hasur, Vowsworn(T8)"`
+					to display
+						"ship model: Hasur, Vowsworn" >= 3
+						"ship model: Hasur, Vowsworn (T7)" >= 1
+					goto "Hasur, Vowsworn (T7)"
+				`	merge 3x "Resja, of the Nine Eyes" and 1x "Resja, of the Nine Eyes (T7)" into a "Resja, of the Nine Eyes(T8)"`
+					to display
+						"ship model: Resja, of the Nine Eyes" >= 3
+						"ship model: Resja, of the Nine Eyes (T7)" >= 1
+					goto "Resja, of the Nine Eyes (T7)"
 				`	merge 3x "Black Diamond" and 1x "Black Diamond (T7)" into a "Black Diamond(T8)"`
 					to display
 						"ship model: Black Diamond" >= 3
@@ -4411,6 +4501,11 @@ mission "upgrade ships"
 						"ship model: Earth Shaper" >= 3
 						"ship model: Earth Shaper (T6)" >= 1
 					goto "Earth Shaper (T6)"
+				`	merge 3x "Vujlet-Usaqri" and 1x "Vujlet-Usaqri (T6)" into a "Vujlet-Usaqri(T7)"`
+					to display
+						"ship model: Vujlet-Usaqri" >= 3
+						"ship model: Vujlet-Usaqri (T6)" >= 1
+					goto "Vujlet-Usaqri (T6)"
 				`	merge 3x "Vujlet" and 1x "Vujlet (T6)" into a "Vujlet(T7)"`
 					to display
 						"ship model: Vujlet" >= 3
@@ -4466,6 +4561,11 @@ mission "upgrade ships"
 						"ship model: Kaskhorade" >= 3
 						"ship model: Kaskhorade (T6)" >= 1
 					goto "Kaskhorade (T6)"
+				`	merge 3x "Ejniisde-Khora" and 1x "Ejniisde-Khora (T6)" into a "Ejniisde-Khora(T7)"`
+					to display
+						"ship model: Ejniisde-Khora" >= 3
+						"ship model: Ejniisde-Khora (T6)" >= 1
+					goto "Ejniisde-Khora (T6)"
 				`	merge 3x "Ejniisde" and 1x "Ejniisde (T6)" into a "Ejniisde(T7)"`
 					to display
 						"ship model: Ejniisde" >= 3
@@ -4476,6 +4576,26 @@ mission "upgrade ships"
 						"ship model: Aaulqra" >= 3
 						"ship model: Aaulqra (T6)" >= 1
 					goto "Aaulqra (T6)"
+				`	merge 3x "Valkkyiara-Khorasaqra" and 1x "Valkkyiara-Khorasaqra (T6)" into a "Valkkyiara-Khorasaqra(T7)"`
+					to display
+						"ship model: Valkkyiara-Khorasaqra" >= 3
+						"ship model: Valkkyiara-Khorasaqra (T6)" >= 1
+					goto "Valkkyiara-Khorasaqra (T6)"
+				`	merge 3x "Queru, Luminous Gaze" and 1x "Queru, Luminous Gaze (T6)" into a "Queru, Luminous Gaze(T7)"`
+					to display
+						"ship model: Queru, Luminous Gaze" >= 3
+						"ship model: Queru, Luminous Gaze (T6)" >= 1
+					goto "Queru, Luminous Gaze (T6)"
+				`	merge 3x "Hasur, Vowsworn" and 1x "Hasur, Vowsworn (T6)" into a "Hasur, Vowsworn(T7)"`
+					to display
+						"ship model: Hasur, Vowsworn" >= 3
+						"ship model: Hasur, Vowsworn (T6)" >= 1
+					goto "Hasur, Vowsworn (T6)"
+				`	merge 3x "Resja, of the Nine Eyes" and 1x "Resja, of the Nine Eyes (T6)" into a "Resja, of the Nine Eyes(T7)"`
+					to display
+						"ship model: Resja, of the Nine Eyes" >= 3
+						"ship model: Resja, of the Nine Eyes (T6)" >= 1
+					goto "Resja, of the Nine Eyes (T6)"
 				`	merge 3x "Black Diamond" and 1x "Black Diamond (T6)" into a "Black Diamond(T7)"`
 					to display
 						"ship model: Black Diamond" >= 3
@@ -5851,6 +5971,11 @@ mission "upgrade ships"
 						"ship model: Earth Shaper" >= 3
 						"ship model: Earth Shaper (T5)" >= 1
 					goto "Earth Shaper (T5)"
+				`	merge 3x "Vujlet-Usaqri" and 1x "Vujlet-Usaqri (T5)" into a "Vujlet-Usaqri(T6)"`
+					to display
+						"ship model: Vujlet-Usaqri" >= 3
+						"ship model: Vujlet-Usaqri (T5)" >= 1
+					goto "Vujlet-Usaqri (T5)"
 				`	merge 3x "Vujlet" and 1x "Vujlet (T5)" into a "Vujlet(T6)"`
 					to display
 						"ship model: Vujlet" >= 3
@@ -5906,6 +6031,11 @@ mission "upgrade ships"
 						"ship model: Kaskhorade" >= 3
 						"ship model: Kaskhorade (T5)" >= 1
 					goto "Kaskhorade (T5)"
+				`	merge 3x "Ejniisde-Khora" and 1x "Ejniisde-Khora (T5)" into a "Ejniisde-Khora(T6)"`
+					to display
+						"ship model: Ejniisde-Khora" >= 3
+						"ship model: Ejniisde-Khora (T5)" >= 1
+					goto "Ejniisde-Khora (T5)"
 				`	merge 3x "Ejniisde" and 1x "Ejniisde (T5)" into a "Ejniisde(T6)"`
 					to display
 						"ship model: Ejniisde" >= 3
@@ -5916,6 +6046,26 @@ mission "upgrade ships"
 						"ship model: Aaulqra" >= 3
 						"ship model: Aaulqra (T5)" >= 1
 					goto "Aaulqra (T5)"
+				`	merge 3x "Valkkyiara-Khorasaqra" and 1x "Valkkyiara-Khorasaqra (T5)" into a "Valkkyiara-Khorasaqra(T6)"`
+					to display
+						"ship model: Valkkyiara-Khorasaqra" >= 3
+						"ship model: Valkkyiara-Khorasaqra (T5)" >= 1
+					goto "Valkkyiara-Khorasaqra (T5)"
+				`	merge 3x "Queru, Luminous Gaze" and 1x "Queru, Luminous Gaze (T5)" into a "Queru, Luminous Gaze(T6)"`
+					to display
+						"ship model: Queru, Luminous Gaze" >= 3
+						"ship model: Queru, Luminous Gaze (T5)" >= 1
+					goto "Queru, Luminous Gaze (T5)"
+				`	merge 3x "Hasur, Vowsworn" and 1x "Hasur, Vowsworn (T5)" into a "Hasur, Vowsworn(T6)"`
+					to display
+						"ship model: Hasur, Vowsworn" >= 3
+						"ship model: Hasur, Vowsworn (T5)" >= 1
+					goto "Hasur, Vowsworn (T5)"
+				`	merge 3x "Resja, of the Nine Eyes" and 1x "Resja, of the Nine Eyes (T5)" into a "Resja, of the Nine Eyes(T6)"`
+					to display
+						"ship model: Resja, of the Nine Eyes" >= 3
+						"ship model: Resja, of the Nine Eyes (T5)" >= 1
+					goto "Resja, of the Nine Eyes (T5)"
 				`	merge 3x "Black Diamond" and 1x "Black Diamond (T5)" into a "Black Diamond(T6)"`
 					to display
 						"ship model: Black Diamond" >= 3
@@ -7291,6 +7441,11 @@ mission "upgrade ships"
 						"ship model: Earth Shaper" >= 3
 						"ship model: Earth Shaper (T4)" >= 1
 					goto "Earth Shaper (T4)"
+				`	merge 3x "Vujlet-Usaqri" and 1x "Vujlet-Usaqri (T4)" into a "Vujlet-Usaqri(T5)"`
+					to display
+						"ship model: Vujlet-Usaqri" >= 3
+						"ship model: Vujlet-Usaqri (T4)" >= 1
+					goto "Vujlet-Usaqri (T4)"
 				`	merge 3x "Vujlet" and 1x "Vujlet (T4)" into a "Vujlet(T5)"`
 					to display
 						"ship model: Vujlet" >= 3
@@ -7346,6 +7501,11 @@ mission "upgrade ships"
 						"ship model: Kaskhorade" >= 3
 						"ship model: Kaskhorade (T4)" >= 1
 					goto "Kaskhorade (T4)"
+				`	merge 3x "Ejniisde-Khora" and 1x "Ejniisde-Khora (T4)" into a "Ejniisde-Khora(T5)"`
+					to display
+						"ship model: Ejniisde-Khora" >= 3
+						"ship model: Ejniisde-Khora (T4)" >= 1
+					goto "Ejniisde-Khora (T4)"
 				`	merge 3x "Ejniisde" and 1x "Ejniisde (T4)" into a "Ejniisde(T5)"`
 					to display
 						"ship model: Ejniisde" >= 3
@@ -7356,6 +7516,26 @@ mission "upgrade ships"
 						"ship model: Aaulqra" >= 3
 						"ship model: Aaulqra (T4)" >= 1
 					goto "Aaulqra (T4)"
+				`	merge 3x "Valkkyiara-Khorasaqra" and 1x "Valkkyiara-Khorasaqra (T4)" into a "Valkkyiara-Khorasaqra(T5)"`
+					to display
+						"ship model: Valkkyiara-Khorasaqra" >= 3
+						"ship model: Valkkyiara-Khorasaqra (T4)" >= 1
+					goto "Valkkyiara-Khorasaqra (T4)"
+				`	merge 3x "Queru, Luminous Gaze" and 1x "Queru, Luminous Gaze (T4)" into a "Queru, Luminous Gaze(T5)"`
+					to display
+						"ship model: Queru, Luminous Gaze" >= 3
+						"ship model: Queru, Luminous Gaze (T4)" >= 1
+					goto "Queru, Luminous Gaze (T4)"
+				`	merge 3x "Hasur, Vowsworn" and 1x "Hasur, Vowsworn (T4)" into a "Hasur, Vowsworn(T5)"`
+					to display
+						"ship model: Hasur, Vowsworn" >= 3
+						"ship model: Hasur, Vowsworn (T4)" >= 1
+					goto "Hasur, Vowsworn (T4)"
+				`	merge 3x "Resja, of the Nine Eyes" and 1x "Resja, of the Nine Eyes (T4)" into a "Resja, of the Nine Eyes(T5)"`
+					to display
+						"ship model: Resja, of the Nine Eyes" >= 3
+						"ship model: Resja, of the Nine Eyes (T4)" >= 1
+					goto "Resja, of the Nine Eyes (T4)"
 				`	merge 3x "Black Diamond" and 1x "Black Diamond (T4)" into a "Black Diamond(T5)"`
 					to display
 						"ship model: Black Diamond" >= 3
@@ -8731,6 +8911,11 @@ mission "upgrade ships"
 						"ship model: Earth Shaper" >= 3
 						"ship model: Earth Shaper (T3)" >= 1
 					goto "Earth Shaper (T3)"
+				`	merge 3x "Vujlet-Usaqri" and 1x "Vujlet-Usaqri (T3)" into a "Vujlet-Usaqri(T4)"`
+					to display
+						"ship model: Vujlet-Usaqri" >= 3
+						"ship model: Vujlet-Usaqri (T3)" >= 1
+					goto "Vujlet-Usaqri (T3)"
 				`	merge 3x "Vujlet" and 1x "Vujlet (T3)" into a "Vujlet(T4)"`
 					to display
 						"ship model: Vujlet" >= 3
@@ -8786,6 +8971,11 @@ mission "upgrade ships"
 						"ship model: Kaskhorade" >= 3
 						"ship model: Kaskhorade (T3)" >= 1
 					goto "Kaskhorade (T3)"
+				`	merge 3x "Ejniisde-Khora" and 1x "Ejniisde-Khora (T3)" into a "Ejniisde-Khora(T4)"`
+					to display
+						"ship model: Ejniisde-Khora" >= 3
+						"ship model: Ejniisde-Khora (T3)" >= 1
+					goto "Ejniisde-Khora (T3)"
 				`	merge 3x "Ejniisde" and 1x "Ejniisde (T3)" into a "Ejniisde(T4)"`
 					to display
 						"ship model: Ejniisde" >= 3
@@ -8796,6 +8986,26 @@ mission "upgrade ships"
 						"ship model: Aaulqra" >= 3
 						"ship model: Aaulqra (T3)" >= 1
 					goto "Aaulqra (T3)"
+				`	merge 3x "Valkkyiara-Khorasaqra" and 1x "Valkkyiara-Khorasaqra (T3)" into a "Valkkyiara-Khorasaqra(T4)"`
+					to display
+						"ship model: Valkkyiara-Khorasaqra" >= 3
+						"ship model: Valkkyiara-Khorasaqra (T3)" >= 1
+					goto "Valkkyiara-Khorasaqra (T3)"
+				`	merge 3x "Queru, Luminous Gaze" and 1x "Queru, Luminous Gaze (T3)" into a "Queru, Luminous Gaze(T4)"`
+					to display
+						"ship model: Queru, Luminous Gaze" >= 3
+						"ship model: Queru, Luminous Gaze (T3)" >= 1
+					goto "Queru, Luminous Gaze (T3)"
+				`	merge 3x "Hasur, Vowsworn" and 1x "Hasur, Vowsworn (T3)" into a "Hasur, Vowsworn(T4)"`
+					to display
+						"ship model: Hasur, Vowsworn" >= 3
+						"ship model: Hasur, Vowsworn (T3)" >= 1
+					goto "Hasur, Vowsworn (T3)"
+				`	merge 3x "Resja, of the Nine Eyes" and 1x "Resja, of the Nine Eyes (T3)" into a "Resja, of the Nine Eyes(T4)"`
+					to display
+						"ship model: Resja, of the Nine Eyes" >= 3
+						"ship model: Resja, of the Nine Eyes (T3)" >= 1
+					goto "Resja, of the Nine Eyes (T3)"
 				`	merge 3x "Black Diamond" and 1x "Black Diamond (T3)" into a "Black Diamond(T4)"`
 					to display
 						"ship model: Black Diamond" >= 3
@@ -10171,6 +10381,11 @@ mission "upgrade ships"
 						"ship model: Earth Shaper" >= 3
 						"ship model: Earth Shaper (T2)" >= 1
 					goto "Earth Shaper (T2)"
+				`	merge 3x "Vujlet-Usaqri" and 1x "Vujlet-Usaqri (T2)" into a "Vujlet-Usaqri(T3)"`
+					to display
+						"ship model: Vujlet-Usaqri" >= 3
+						"ship model: Vujlet-Usaqri (T2)" >= 1
+					goto "Vujlet-Usaqri (T2)"
 				`	merge 3x "Vujlet" and 1x "Vujlet (T2)" into a "Vujlet(T3)"`
 					to display
 						"ship model: Vujlet" >= 3
@@ -10226,6 +10441,11 @@ mission "upgrade ships"
 						"ship model: Kaskhorade" >= 3
 						"ship model: Kaskhorade (T2)" >= 1
 					goto "Kaskhorade (T2)"
+				`	merge 3x "Ejniisde-Khora" and 1x "Ejniisde-Khora (T2)" into a "Ejniisde-Khora(T3)"`
+					to display
+						"ship model: Ejniisde-Khora" >= 3
+						"ship model: Ejniisde-Khora (T2)" >= 1
+					goto "Ejniisde-Khora (T2)"
 				`	merge 3x "Ejniisde" and 1x "Ejniisde (T2)" into a "Ejniisde(T3)"`
 					to display
 						"ship model: Ejniisde" >= 3
@@ -10236,6 +10456,26 @@ mission "upgrade ships"
 						"ship model: Aaulqra" >= 3
 						"ship model: Aaulqra (T2)" >= 1
 					goto "Aaulqra (T2)"
+				`	merge 3x "Valkkyiara-Khorasaqra" and 1x "Valkkyiara-Khorasaqra (T2)" into a "Valkkyiara-Khorasaqra(T3)"`
+					to display
+						"ship model: Valkkyiara-Khorasaqra" >= 3
+						"ship model: Valkkyiara-Khorasaqra (T2)" >= 1
+					goto "Valkkyiara-Khorasaqra (T2)"
+				`	merge 3x "Queru, Luminous Gaze" and 1x "Queru, Luminous Gaze (T2)" into a "Queru, Luminous Gaze(T3)"`
+					to display
+						"ship model: Queru, Luminous Gaze" >= 3
+						"ship model: Queru, Luminous Gaze (T2)" >= 1
+					goto "Queru, Luminous Gaze (T2)"
+				`	merge 3x "Hasur, Vowsworn" and 1x "Hasur, Vowsworn (T2)" into a "Hasur, Vowsworn(T3)"`
+					to display
+						"ship model: Hasur, Vowsworn" >= 3
+						"ship model: Hasur, Vowsworn (T2)" >= 1
+					goto "Hasur, Vowsworn (T2)"
+				`	merge 3x "Resja, of the Nine Eyes" and 1x "Resja, of the Nine Eyes (T2)" into a "Resja, of the Nine Eyes(T3)"`
+					to display
+						"ship model: Resja, of the Nine Eyes" >= 3
+						"ship model: Resja, of the Nine Eyes (T2)" >= 1
+					goto "Resja, of the Nine Eyes (T2)"
 				`	merge 3x "Black Diamond" and 1x "Black Diamond (T2)" into a "Black Diamond(T3)"`
 					to display
 						"ship model: Black Diamond" >= 3
@@ -11611,6 +11851,11 @@ mission "upgrade ships"
 						"ship model: Earth Shaper" >= 3
 						"ship model: Earth Shaper (T1)" >= 1
 					goto "Earth Shaper (T1)"
+				`	merge 3x "Vujlet-Usaqri" and 1x "Vujlet-Usaqri (T1)" into a "Vujlet-Usaqri(T2)"`
+					to display
+						"ship model: Vujlet-Usaqri" >= 3
+						"ship model: Vujlet-Usaqri (T1)" >= 1
+					goto "Vujlet-Usaqri (T1)"
 				`	merge 3x "Vujlet" and 1x "Vujlet (T1)" into a "Vujlet(T2)"`
 					to display
 						"ship model: Vujlet" >= 3
@@ -11666,6 +11911,11 @@ mission "upgrade ships"
 						"ship model: Kaskhorade" >= 3
 						"ship model: Kaskhorade (T1)" >= 1
 					goto "Kaskhorade (T1)"
+				`	merge 3x "Ejniisde-Khora" and 1x "Ejniisde-Khora (T1)" into a "Ejniisde-Khora(T2)"`
+					to display
+						"ship model: Ejniisde-Khora" >= 3
+						"ship model: Ejniisde-Khora (T1)" >= 1
+					goto "Ejniisde-Khora (T1)"
 				`	merge 3x "Ejniisde" and 1x "Ejniisde (T1)" into a "Ejniisde(T2)"`
 					to display
 						"ship model: Ejniisde" >= 3
@@ -11676,6 +11926,26 @@ mission "upgrade ships"
 						"ship model: Aaulqra" >= 3
 						"ship model: Aaulqra (T1)" >= 1
 					goto "Aaulqra (T1)"
+				`	merge 3x "Valkkyiara-Khorasaqra" and 1x "Valkkyiara-Khorasaqra (T1)" into a "Valkkyiara-Khorasaqra(T2)"`
+					to display
+						"ship model: Valkkyiara-Khorasaqra" >= 3
+						"ship model: Valkkyiara-Khorasaqra (T1)" >= 1
+					goto "Valkkyiara-Khorasaqra (T1)"
+				`	merge 3x "Queru, Luminous Gaze" and 1x "Queru, Luminous Gaze (T1)" into a "Queru, Luminous Gaze(T2)"`
+					to display
+						"ship model: Queru, Luminous Gaze" >= 3
+						"ship model: Queru, Luminous Gaze (T1)" >= 1
+					goto "Queru, Luminous Gaze (T1)"
+				`	merge 3x "Hasur, Vowsworn" and 1x "Hasur, Vowsworn (T1)" into a "Hasur, Vowsworn(T2)"`
+					to display
+						"ship model: Hasur, Vowsworn" >= 3
+						"ship model: Hasur, Vowsworn (T1)" >= 1
+					goto "Hasur, Vowsworn (T1)"
+				`	merge 3x "Resja, of the Nine Eyes" and 1x "Resja, of the Nine Eyes (T1)" into a "Resja, of the Nine Eyes(T2)"`
+					to display
+						"ship model: Resja, of the Nine Eyes" >= 3
+						"ship model: Resja, of the Nine Eyes (T1)" >= 1
+					goto "Resja, of the Nine Eyes (T1)"
 				`	merge 3x "Black Diamond" and 1x "Black Diamond (T1)" into a "Black Diamond(T2)"`
 					to display
 						"ship model: Black Diamond" >= 3
@@ -13037,6 +13307,10 @@ mission "upgrade ships"
 					to display
 						"ship model: Earth Shaper" >= 4
 					goto "Earth Shaper"
+				`	merge 4x "Vujlet-Usaqri" into a "Vujlet-Usaqri (T1)"`
+					to display
+						"ship model: Vujlet-Usaqri" >= 4
+					goto "Vujlet-Usaqri"
 				`	merge 4x "Vujlet" into a "Vujlet (T1)"`
 					to display
 						"ship model: Vujlet" >= 4
@@ -13081,6 +13355,10 @@ mission "upgrade ships"
 					to display
 						"ship model: Kaskhorade" >= 4
 					goto "Kaskhorade"
+				`	merge 4x "Ejniisde-Khora" into a "Ejniisde-Khora (T1)"`
+					to display
+						"ship model: Ejniisde-Khora" >= 4
+					goto "Ejniisde-Khora"
 				`	merge 4x "Ejniisde" into a "Ejniisde (T1)"`
 					to display
 						"ship model: Ejniisde" >= 4
@@ -13089,6 +13367,22 @@ mission "upgrade ships"
 					to display
 						"ship model: Aaulqra" >= 4
 					goto "Aaulqra"
+				`	merge 4x "Valkkyiara-Khorasaqra" into a "Valkkyiara-Khorasaqra (T1)"`
+					to display
+						"ship model: Valkkyiara-Khorasaqra" >= 4
+					goto "Valkkyiara-Khorasaqra"
+				`	merge 4x "Queru, Luminous Gaze" into a "Queru, Luminous Gaze (T1)"`
+					to display
+						"ship model: Queru, Luminous Gaze" >= 4
+					goto "Queru, Luminous Gaze"
+				`	merge 4x "Hasur, Vowsworn" into a "Hasur, Vowsworn (T1)"`
+					to display
+						"ship model: Hasur, Vowsworn" >= 4
+					goto "Hasur, Vowsworn"
+				`	merge 4x "Resja, of the Nine Eyes" into a "Resja, of the Nine Eyes (T1)"`
+					to display
+						"ship model: Resja, of the Nine Eyes" >= 4
+					goto "Resja, of the Nine Eyes"
 				`	merge 4x "Black Diamond" into a "Black Diamond (T1)"`
 					to display
 						"ship model: Black Diamond" >= 4
@@ -14247,6 +14541,14 @@ mission "upgrade ships"
 				give ship "Earth Shaper (T10)"
 			`3x "Earth Shaper" removed, 1x "Earth Shaper (T9)" removed | 1x "Earth Shaper (T10)" given`
 				goto menu
+			label "Vujlet-Usaqri (T9)"
+			action
+				take ship "Vujlet-Usaqri"
+					count 3
+				take ship "Vujlet-Usaqri (T9)"
+				give ship "Vujlet-Usaqri (T10)"
+			`3x "Vujlet-Usaqri" removed, 1x "Vujlet-Usaqri (T9)" removed | 1x "Vujlet-Usaqri (T10)" given`
+				goto menu
 			label "Vujlet (T9)"
 			action
 				take ship "Vujlet"
@@ -14335,6 +14637,14 @@ mission "upgrade ships"
 				give ship "Kaskhorade (T10)"
 			`3x "Kaskhorade" removed, 1x "Kaskhorade (T9)" removed | 1x "Kaskhorade (T10)" given`
 				goto menu
+			label "Ejniisde-Khora (T9)"
+			action
+				take ship "Ejniisde-Khora"
+					count 3
+				take ship "Ejniisde-Khora (T9)"
+				give ship "Ejniisde-Khora (T10)"
+			`3x "Ejniisde-Khora" removed, 1x "Ejniisde-Khora (T9)" removed | 1x "Ejniisde-Khora (T10)" given`
+				goto menu
 			label "Ejniisde (T9)"
 			action
 				take ship "Ejniisde"
@@ -14350,6 +14660,38 @@ mission "upgrade ships"
 				take ship "Aaulqra (T9)"
 				give ship "Aaulqra (T10)"
 			`3x "Aaulqra" removed, 1x "Aaulqra (T9)" removed | 1x "Aaulqra (T10)" given`
+				goto menu
+			label "Valkkyiara-Khorasaqra (T9)"
+			action
+				take ship "Valkkyiara-Khorasaqra"
+					count 3
+				take ship "Valkkyiara-Khorasaqra (T9)"
+				give ship "Valkkyiara-Khorasaqra (T10)"
+			`3x "Valkkyiara-Khorasaqra" removed, 1x "Valkkyiara-Khorasaqra (T9)" removed | 1x "Valkkyiara-Khorasaqra (T10)" given`
+				goto menu
+			label "Queru, Luminous Gaze (T9)"
+			action
+				take ship "Queru, Luminous Gaze"
+					count 3
+				take ship "Queru, Luminous Gaze (T9)"
+				give ship "Queru, Luminous Gaze (T10)"
+			`3x "Queru, Luminous Gaze" removed, 1x "Queru, Luminous Gaze (T9)" removed | 1x "Queru, Luminous Gaze (T10)" given`
+				goto menu
+			label "Hasur, Vowsworn (T9)"
+			action
+				take ship "Hasur, Vowsworn"
+					count 3
+				take ship "Hasur, Vowsworn (T9)"
+				give ship "Hasur, Vowsworn (T10)"
+			`3x "Hasur, Vowsworn" removed, 1x "Hasur, Vowsworn (T9)" removed | 1x "Hasur, Vowsworn (T10)" given`
+				goto menu
+			label "Resja, of the Nine Eyes (T9)"
+			action
+				take ship "Resja, of the Nine Eyes"
+					count 3
+				take ship "Resja, of the Nine Eyes (T9)"
+				give ship "Resja, of the Nine Eyes (T10)"
+			`3x "Resja, of the Nine Eyes" removed, 1x "Resja, of the Nine Eyes (T9)" removed | 1x "Resja, of the Nine Eyes (T10)" given`
 				goto menu
 			label "Black Diamond (T9)"
 			action
@@ -16551,6 +16893,14 @@ mission "upgrade ships"
 				give ship "Earth Shaper (T9)"
 			`3x "Earth Shaper" removed, 1x "Earth Shaper (T8)" removed | 1x "Earth Shaper (T9)" given`
 				goto menu
+			label "Vujlet-Usaqri (T8)"
+			action
+				take ship "Vujlet-Usaqri"
+					count 3
+				take ship "Vujlet-Usaqri (T8)"
+				give ship "Vujlet-Usaqri (T9)"
+			`3x "Vujlet-Usaqri" removed, 1x "Vujlet-Usaqri (T8)" removed | 1x "Vujlet-Usaqri (T9)" given`
+				goto menu
 			label "Vujlet (T8)"
 			action
 				take ship "Vujlet"
@@ -16639,6 +16989,14 @@ mission "upgrade ships"
 				give ship "Kaskhorade (T9)"
 			`3x "Kaskhorade" removed, 1x "Kaskhorade (T8)" removed | 1x "Kaskhorade (T9)" given`
 				goto menu
+			label "Ejniisde-Khora (T8)"
+			action
+				take ship "Ejniisde-Khora"
+					count 3
+				take ship "Ejniisde-Khora (T8)"
+				give ship "Ejniisde-Khora (T9)"
+			`3x "Ejniisde-Khora" removed, 1x "Ejniisde-Khora (T8)" removed | 1x "Ejniisde-Khora (T9)" given`
+				goto menu
 			label "Ejniisde (T8)"
 			action
 				take ship "Ejniisde"
@@ -16654,6 +17012,38 @@ mission "upgrade ships"
 				take ship "Aaulqra (T8)"
 				give ship "Aaulqra (T9)"
 			`3x "Aaulqra" removed, 1x "Aaulqra (T8)" removed | 1x "Aaulqra (T9)" given`
+				goto menu
+			label "Valkkyiara-Khorasaqra (T8)"
+			action
+				take ship "Valkkyiara-Khorasaqra"
+					count 3
+				take ship "Valkkyiara-Khorasaqra (T8)"
+				give ship "Valkkyiara-Khorasaqra (T9)"
+			`3x "Valkkyiara-Khorasaqra" removed, 1x "Valkkyiara-Khorasaqra (T8)" removed | 1x "Valkkyiara-Khorasaqra (T9)" given`
+				goto menu
+			label "Queru, Luminous Gaze (T8)"
+			action
+				take ship "Queru, Luminous Gaze"
+					count 3
+				take ship "Queru, Luminous Gaze (T8)"
+				give ship "Queru, Luminous Gaze (T9)"
+			`3x "Queru, Luminous Gaze" removed, 1x "Queru, Luminous Gaze (T8)" removed | 1x "Queru, Luminous Gaze (T9)" given`
+				goto menu
+			label "Hasur, Vowsworn (T8)"
+			action
+				take ship "Hasur, Vowsworn"
+					count 3
+				take ship "Hasur, Vowsworn (T8)"
+				give ship "Hasur, Vowsworn (T9)"
+			`3x "Hasur, Vowsworn" removed, 1x "Hasur, Vowsworn (T8)" removed | 1x "Hasur, Vowsworn (T9)" given`
+				goto menu
+			label "Resja, of the Nine Eyes (T8)"
+			action
+				take ship "Resja, of the Nine Eyes"
+					count 3
+				take ship "Resja, of the Nine Eyes (T8)"
+				give ship "Resja, of the Nine Eyes (T9)"
+			`3x "Resja, of the Nine Eyes" removed, 1x "Resja, of the Nine Eyes (T8)" removed | 1x "Resja, of the Nine Eyes (T9)" given`
 				goto menu
 			label "Black Diamond (T8)"
 			action
@@ -18855,6 +19245,14 @@ mission "upgrade ships"
 				give ship "Earth Shaper (T8)"
 			`3x "Earth Shaper" removed, 1x "Earth Shaper (T7)" removed | 1x "Earth Shaper (T8)" given`
 				goto menu
+			label "Vujlet-Usaqri (T7)"
+			action
+				take ship "Vujlet-Usaqri"
+					count 3
+				take ship "Vujlet-Usaqri (T7)"
+				give ship "Vujlet-Usaqri (T8)"
+			`3x "Vujlet-Usaqri" removed, 1x "Vujlet-Usaqri (T7)" removed | 1x "Vujlet-Usaqri (T8)" given`
+				goto menu
 			label "Vujlet (T7)"
 			action
 				take ship "Vujlet"
@@ -18943,6 +19341,14 @@ mission "upgrade ships"
 				give ship "Kaskhorade (T8)"
 			`3x "Kaskhorade" removed, 1x "Kaskhorade (T7)" removed | 1x "Kaskhorade (T8)" given`
 				goto menu
+			label "Ejniisde-Khora (T7)"
+			action
+				take ship "Ejniisde-Khora"
+					count 3
+				take ship "Ejniisde-Khora (T7)"
+				give ship "Ejniisde-Khora (T8)"
+			`3x "Ejniisde-Khora" removed, 1x "Ejniisde-Khora (T7)" removed | 1x "Ejniisde-Khora (T8)" given`
+				goto menu
 			label "Ejniisde (T7)"
 			action
 				take ship "Ejniisde"
@@ -18958,6 +19364,38 @@ mission "upgrade ships"
 				take ship "Aaulqra (T7)"
 				give ship "Aaulqra (T8)"
 			`3x "Aaulqra" removed, 1x "Aaulqra (T7)" removed | 1x "Aaulqra (T8)" given`
+				goto menu
+			label "Valkkyiara-Khorasaqra (T7)"
+			action
+				take ship "Valkkyiara-Khorasaqra"
+					count 3
+				take ship "Valkkyiara-Khorasaqra (T7)"
+				give ship "Valkkyiara-Khorasaqra (T8)"
+			`3x "Valkkyiara-Khorasaqra" removed, 1x "Valkkyiara-Khorasaqra (T7)" removed | 1x "Valkkyiara-Khorasaqra (T8)" given`
+				goto menu
+			label "Queru, Luminous Gaze (T7)"
+			action
+				take ship "Queru, Luminous Gaze"
+					count 3
+				take ship "Queru, Luminous Gaze (T7)"
+				give ship "Queru, Luminous Gaze (T8)"
+			`3x "Queru, Luminous Gaze" removed, 1x "Queru, Luminous Gaze (T7)" removed | 1x "Queru, Luminous Gaze (T8)" given`
+				goto menu
+			label "Hasur, Vowsworn (T7)"
+			action
+				take ship "Hasur, Vowsworn"
+					count 3
+				take ship "Hasur, Vowsworn (T7)"
+				give ship "Hasur, Vowsworn (T8)"
+			`3x "Hasur, Vowsworn" removed, 1x "Hasur, Vowsworn (T7)" removed | 1x "Hasur, Vowsworn (T8)" given`
+				goto menu
+			label "Resja, of the Nine Eyes (T7)"
+			action
+				take ship "Resja, of the Nine Eyes"
+					count 3
+				take ship "Resja, of the Nine Eyes (T7)"
+				give ship "Resja, of the Nine Eyes (T8)"
+			`3x "Resja, of the Nine Eyes" removed, 1x "Resja, of the Nine Eyes (T7)" removed | 1x "Resja, of the Nine Eyes (T8)" given`
 				goto menu
 			label "Black Diamond (T7)"
 			action
@@ -21159,6 +21597,14 @@ mission "upgrade ships"
 				give ship "Earth Shaper (T7)"
 			`3x "Earth Shaper" removed, 1x "Earth Shaper (T6)" removed | 1x "Earth Shaper (T7)" given`
 				goto menu
+			label "Vujlet-Usaqri (T6)"
+			action
+				take ship "Vujlet-Usaqri"
+					count 3
+				take ship "Vujlet-Usaqri (T6)"
+				give ship "Vujlet-Usaqri (T7)"
+			`3x "Vujlet-Usaqri" removed, 1x "Vujlet-Usaqri (T6)" removed | 1x "Vujlet-Usaqri (T7)" given`
+				goto menu
 			label "Vujlet (T6)"
 			action
 				take ship "Vujlet"
@@ -21247,6 +21693,14 @@ mission "upgrade ships"
 				give ship "Kaskhorade (T7)"
 			`3x "Kaskhorade" removed, 1x "Kaskhorade (T6)" removed | 1x "Kaskhorade (T7)" given`
 				goto menu
+			label "Ejniisde-Khora (T6)"
+			action
+				take ship "Ejniisde-Khora"
+					count 3
+				take ship "Ejniisde-Khora (T6)"
+				give ship "Ejniisde-Khora (T7)"
+			`3x "Ejniisde-Khora" removed, 1x "Ejniisde-Khora (T6)" removed | 1x "Ejniisde-Khora (T7)" given`
+				goto menu
 			label "Ejniisde (T6)"
 			action
 				take ship "Ejniisde"
@@ -21262,6 +21716,38 @@ mission "upgrade ships"
 				take ship "Aaulqra (T6)"
 				give ship "Aaulqra (T7)"
 			`3x "Aaulqra" removed, 1x "Aaulqra (T6)" removed | 1x "Aaulqra (T7)" given`
+				goto menu
+			label "Valkkyiara-Khorasaqra (T6)"
+			action
+				take ship "Valkkyiara-Khorasaqra"
+					count 3
+				take ship "Valkkyiara-Khorasaqra (T6)"
+				give ship "Valkkyiara-Khorasaqra (T7)"
+			`3x "Valkkyiara-Khorasaqra" removed, 1x "Valkkyiara-Khorasaqra (T6)" removed | 1x "Valkkyiara-Khorasaqra (T7)" given`
+				goto menu
+			label "Queru, Luminous Gaze (T6)"
+			action
+				take ship "Queru, Luminous Gaze"
+					count 3
+				take ship "Queru, Luminous Gaze (T6)"
+				give ship "Queru, Luminous Gaze (T7)"
+			`3x "Queru, Luminous Gaze" removed, 1x "Queru, Luminous Gaze (T6)" removed | 1x "Queru, Luminous Gaze (T7)" given`
+				goto menu
+			label "Hasur, Vowsworn (T6)"
+			action
+				take ship "Hasur, Vowsworn"
+					count 3
+				take ship "Hasur, Vowsworn (T6)"
+				give ship "Hasur, Vowsworn (T7)"
+			`3x "Hasur, Vowsworn" removed, 1x "Hasur, Vowsworn (T6)" removed | 1x "Hasur, Vowsworn (T7)" given`
+				goto menu
+			label "Resja, of the Nine Eyes (T6)"
+			action
+				take ship "Resja, of the Nine Eyes"
+					count 3
+				take ship "Resja, of the Nine Eyes (T6)"
+				give ship "Resja, of the Nine Eyes (T7)"
+			`3x "Resja, of the Nine Eyes" removed, 1x "Resja, of the Nine Eyes (T6)" removed | 1x "Resja, of the Nine Eyes (T7)" given`
 				goto menu
 			label "Black Diamond (T6)"
 			action
@@ -23463,6 +23949,14 @@ mission "upgrade ships"
 				give ship "Earth Shaper (T6)"
 			`3x "Earth Shaper" removed, 1x "Earth Shaper (T5)" removed | 1x "Earth Shaper (T6)" given`
 				goto menu
+			label "Vujlet-Usaqri (T5)"
+			action
+				take ship "Vujlet-Usaqri"
+					count 3
+				take ship "Vujlet-Usaqri (T5)"
+				give ship "Vujlet-Usaqri (T6)"
+			`3x "Vujlet-Usaqri" removed, 1x "Vujlet-Usaqri (T5)" removed | 1x "Vujlet-Usaqri (T6)" given`
+				goto menu
 			label "Vujlet (T5)"
 			action
 				take ship "Vujlet"
@@ -23551,6 +24045,14 @@ mission "upgrade ships"
 				give ship "Kaskhorade (T6)"
 			`3x "Kaskhorade" removed, 1x "Kaskhorade (T5)" removed | 1x "Kaskhorade (T6)" given`
 				goto menu
+			label "Ejniisde-Khora (T5)"
+			action
+				take ship "Ejniisde-Khora"
+					count 3
+				take ship "Ejniisde-Khora (T5)"
+				give ship "Ejniisde-Khora (T6)"
+			`3x "Ejniisde-Khora" removed, 1x "Ejniisde-Khora (T5)" removed | 1x "Ejniisde-Khora (T6)" given`
+				goto menu
 			label "Ejniisde (T5)"
 			action
 				take ship "Ejniisde"
@@ -23566,6 +24068,38 @@ mission "upgrade ships"
 				take ship "Aaulqra (T5)"
 				give ship "Aaulqra (T6)"
 			`3x "Aaulqra" removed, 1x "Aaulqra (T5)" removed | 1x "Aaulqra (T6)" given`
+				goto menu
+			label "Valkkyiara-Khorasaqra (T5)"
+			action
+				take ship "Valkkyiara-Khorasaqra"
+					count 3
+				take ship "Valkkyiara-Khorasaqra (T5)"
+				give ship "Valkkyiara-Khorasaqra (T6)"
+			`3x "Valkkyiara-Khorasaqra" removed, 1x "Valkkyiara-Khorasaqra (T5)" removed | 1x "Valkkyiara-Khorasaqra (T6)" given`
+				goto menu
+			label "Queru, Luminous Gaze (T5)"
+			action
+				take ship "Queru, Luminous Gaze"
+					count 3
+				take ship "Queru, Luminous Gaze (T5)"
+				give ship "Queru, Luminous Gaze (T6)"
+			`3x "Queru, Luminous Gaze" removed, 1x "Queru, Luminous Gaze (T5)" removed | 1x "Queru, Luminous Gaze (T6)" given`
+				goto menu
+			label "Hasur, Vowsworn (T5)"
+			action
+				take ship "Hasur, Vowsworn"
+					count 3
+				take ship "Hasur, Vowsworn (T5)"
+				give ship "Hasur, Vowsworn (T6)"
+			`3x "Hasur, Vowsworn" removed, 1x "Hasur, Vowsworn (T5)" removed | 1x "Hasur, Vowsworn (T6)" given`
+				goto menu
+			label "Resja, of the Nine Eyes (T5)"
+			action
+				take ship "Resja, of the Nine Eyes"
+					count 3
+				take ship "Resja, of the Nine Eyes (T5)"
+				give ship "Resja, of the Nine Eyes (T6)"
+			`3x "Resja, of the Nine Eyes" removed, 1x "Resja, of the Nine Eyes (T5)" removed | 1x "Resja, of the Nine Eyes (T6)" given`
 				goto menu
 			label "Black Diamond (T5)"
 			action
@@ -25767,6 +26301,14 @@ mission "upgrade ships"
 				give ship "Earth Shaper (T5)"
 			`3x "Earth Shaper" removed, 1x "Earth Shaper (T4)" removed | 1x "Earth Shaper (T5)" given`
 				goto menu
+			label "Vujlet-Usaqri (T4)"
+			action
+				take ship "Vujlet-Usaqri"
+					count 3
+				take ship "Vujlet-Usaqri (T4)"
+				give ship "Vujlet-Usaqri (T5)"
+			`3x "Vujlet-Usaqri" removed, 1x "Vujlet-Usaqri (T4)" removed | 1x "Vujlet-Usaqri (T5)" given`
+				goto menu
 			label "Vujlet (T4)"
 			action
 				take ship "Vujlet"
@@ -25855,6 +26397,14 @@ mission "upgrade ships"
 				give ship "Kaskhorade (T5)"
 			`3x "Kaskhorade" removed, 1x "Kaskhorade (T4)" removed | 1x "Kaskhorade (T5)" given`
 				goto menu
+			label "Ejniisde-Khora (T4)"
+			action
+				take ship "Ejniisde-Khora"
+					count 3
+				take ship "Ejniisde-Khora (T4)"
+				give ship "Ejniisde-Khora (T5)"
+			`3x "Ejniisde-Khora" removed, 1x "Ejniisde-Khora (T4)" removed | 1x "Ejniisde-Khora (T5)" given`
+				goto menu
 			label "Ejniisde (T4)"
 			action
 				take ship "Ejniisde"
@@ -25870,6 +26420,38 @@ mission "upgrade ships"
 				take ship "Aaulqra (T4)"
 				give ship "Aaulqra (T5)"
 			`3x "Aaulqra" removed, 1x "Aaulqra (T4)" removed | 1x "Aaulqra (T5)" given`
+				goto menu
+			label "Valkkyiara-Khorasaqra (T4)"
+			action
+				take ship "Valkkyiara-Khorasaqra"
+					count 3
+				take ship "Valkkyiara-Khorasaqra (T4)"
+				give ship "Valkkyiara-Khorasaqra (T5)"
+			`3x "Valkkyiara-Khorasaqra" removed, 1x "Valkkyiara-Khorasaqra (T4)" removed | 1x "Valkkyiara-Khorasaqra (T5)" given`
+				goto menu
+			label "Queru, Luminous Gaze (T4)"
+			action
+				take ship "Queru, Luminous Gaze"
+					count 3
+				take ship "Queru, Luminous Gaze (T4)"
+				give ship "Queru, Luminous Gaze (T5)"
+			`3x "Queru, Luminous Gaze" removed, 1x "Queru, Luminous Gaze (T4)" removed | 1x "Queru, Luminous Gaze (T5)" given`
+				goto menu
+			label "Hasur, Vowsworn (T4)"
+			action
+				take ship "Hasur, Vowsworn"
+					count 3
+				take ship "Hasur, Vowsworn (T4)"
+				give ship "Hasur, Vowsworn (T5)"
+			`3x "Hasur, Vowsworn" removed, 1x "Hasur, Vowsworn (T4)" removed | 1x "Hasur, Vowsworn (T5)" given`
+				goto menu
+			label "Resja, of the Nine Eyes (T4)"
+			action
+				take ship "Resja, of the Nine Eyes"
+					count 3
+				take ship "Resja, of the Nine Eyes (T4)"
+				give ship "Resja, of the Nine Eyes (T5)"
+			`3x "Resja, of the Nine Eyes" removed, 1x "Resja, of the Nine Eyes (T4)" removed | 1x "Resja, of the Nine Eyes (T5)" given`
 				goto menu
 			label "Black Diamond (T4)"
 			action
@@ -28071,6 +28653,14 @@ mission "upgrade ships"
 				give ship "Earth Shaper (T4)"
 			`3x "Earth Shaper" removed, 1x "Earth Shaper (T3)" removed | 1x "Earth Shaper (T4)" given`
 				goto menu
+			label "Vujlet-Usaqri (T3)"
+			action
+				take ship "Vujlet-Usaqri"
+					count 3
+				take ship "Vujlet-Usaqri (T3)"
+				give ship "Vujlet-Usaqri (T4)"
+			`3x "Vujlet-Usaqri" removed, 1x "Vujlet-Usaqri (T3)" removed | 1x "Vujlet-Usaqri (T4)" given`
+				goto menu
 			label "Vujlet (T3)"
 			action
 				take ship "Vujlet"
@@ -28159,6 +28749,14 @@ mission "upgrade ships"
 				give ship "Kaskhorade (T4)"
 			`3x "Kaskhorade" removed, 1x "Kaskhorade (T3)" removed | 1x "Kaskhorade (T4)" given`
 				goto menu
+			label "Ejniisde-Khora (T3)"
+			action
+				take ship "Ejniisde-Khora"
+					count 3
+				take ship "Ejniisde-Khora (T3)"
+				give ship "Ejniisde-Khora (T4)"
+			`3x "Ejniisde-Khora" removed, 1x "Ejniisde-Khora (T3)" removed | 1x "Ejniisde-Khora (T4)" given`
+				goto menu
 			label "Ejniisde (T3)"
 			action
 				take ship "Ejniisde"
@@ -28174,6 +28772,38 @@ mission "upgrade ships"
 				take ship "Aaulqra (T3)"
 				give ship "Aaulqra (T4)"
 			`3x "Aaulqra" removed, 1x "Aaulqra (T3)" removed | 1x "Aaulqra (T4)" given`
+				goto menu
+			label "Valkkyiara-Khorasaqra (T3)"
+			action
+				take ship "Valkkyiara-Khorasaqra"
+					count 3
+				take ship "Valkkyiara-Khorasaqra (T3)"
+				give ship "Valkkyiara-Khorasaqra (T4)"
+			`3x "Valkkyiara-Khorasaqra" removed, 1x "Valkkyiara-Khorasaqra (T3)" removed | 1x "Valkkyiara-Khorasaqra (T4)" given`
+				goto menu
+			label "Queru, Luminous Gaze (T3)"
+			action
+				take ship "Queru, Luminous Gaze"
+					count 3
+				take ship "Queru, Luminous Gaze (T3)"
+				give ship "Queru, Luminous Gaze (T4)"
+			`3x "Queru, Luminous Gaze" removed, 1x "Queru, Luminous Gaze (T3)" removed | 1x "Queru, Luminous Gaze (T4)" given`
+				goto menu
+			label "Hasur, Vowsworn (T3)"
+			action
+				take ship "Hasur, Vowsworn"
+					count 3
+				take ship "Hasur, Vowsworn (T3)"
+				give ship "Hasur, Vowsworn (T4)"
+			`3x "Hasur, Vowsworn" removed, 1x "Hasur, Vowsworn (T3)" removed | 1x "Hasur, Vowsworn (T4)" given`
+				goto menu
+			label "Resja, of the Nine Eyes (T3)"
+			action
+				take ship "Resja, of the Nine Eyes"
+					count 3
+				take ship "Resja, of the Nine Eyes (T3)"
+				give ship "Resja, of the Nine Eyes (T4)"
+			`3x "Resja, of the Nine Eyes" removed, 1x "Resja, of the Nine Eyes (T3)" removed | 1x "Resja, of the Nine Eyes (T4)" given`
 				goto menu
 			label "Black Diamond (T3)"
 			action
@@ -30375,6 +31005,14 @@ mission "upgrade ships"
 				give ship "Earth Shaper (T3)"
 			`3x "Earth Shaper" removed, 1x "Earth Shaper (T2)" removed | 1x "Earth Shaper (T3)" given`
 				goto menu
+			label "Vujlet-Usaqri (T2)"
+			action
+				take ship "Vujlet-Usaqri"
+					count 3
+				take ship "Vujlet-Usaqri (T2)"
+				give ship "Vujlet-Usaqri (T3)"
+			`3x "Vujlet-Usaqri" removed, 1x "Vujlet-Usaqri (T2)" removed | 1x "Vujlet-Usaqri (T3)" given`
+				goto menu
 			label "Vujlet (T2)"
 			action
 				take ship "Vujlet"
@@ -30463,6 +31101,14 @@ mission "upgrade ships"
 				give ship "Kaskhorade (T3)"
 			`3x "Kaskhorade" removed, 1x "Kaskhorade (T2)" removed | 1x "Kaskhorade (T3)" given`
 				goto menu
+			label "Ejniisde-Khora (T2)"
+			action
+				take ship "Ejniisde-Khora"
+					count 3
+				take ship "Ejniisde-Khora (T2)"
+				give ship "Ejniisde-Khora (T3)"
+			`3x "Ejniisde-Khora" removed, 1x "Ejniisde-Khora (T2)" removed | 1x "Ejniisde-Khora (T3)" given`
+				goto menu
 			label "Ejniisde (T2)"
 			action
 				take ship "Ejniisde"
@@ -30478,6 +31124,38 @@ mission "upgrade ships"
 				take ship "Aaulqra (T2)"
 				give ship "Aaulqra (T3)"
 			`3x "Aaulqra" removed, 1x "Aaulqra (T2)" removed | 1x "Aaulqra (T3)" given`
+				goto menu
+			label "Valkkyiara-Khorasaqra (T2)"
+			action
+				take ship "Valkkyiara-Khorasaqra"
+					count 3
+				take ship "Valkkyiara-Khorasaqra (T2)"
+				give ship "Valkkyiara-Khorasaqra (T3)"
+			`3x "Valkkyiara-Khorasaqra" removed, 1x "Valkkyiara-Khorasaqra (T2)" removed | 1x "Valkkyiara-Khorasaqra (T3)" given`
+				goto menu
+			label "Queru, Luminous Gaze (T2)"
+			action
+				take ship "Queru, Luminous Gaze"
+					count 3
+				take ship "Queru, Luminous Gaze (T2)"
+				give ship "Queru, Luminous Gaze (T3)"
+			`3x "Queru, Luminous Gaze" removed, 1x "Queru, Luminous Gaze (T2)" removed | 1x "Queru, Luminous Gaze (T3)" given`
+				goto menu
+			label "Hasur, Vowsworn (T2)"
+			action
+				take ship "Hasur, Vowsworn"
+					count 3
+				take ship "Hasur, Vowsworn (T2)"
+				give ship "Hasur, Vowsworn (T3)"
+			`3x "Hasur, Vowsworn" removed, 1x "Hasur, Vowsworn (T2)" removed | 1x "Hasur, Vowsworn (T3)" given`
+				goto menu
+			label "Resja, of the Nine Eyes (T2)"
+			action
+				take ship "Resja, of the Nine Eyes"
+					count 3
+				take ship "Resja, of the Nine Eyes (T2)"
+				give ship "Resja, of the Nine Eyes (T3)"
+			`3x "Resja, of the Nine Eyes" removed, 1x "Resja, of the Nine Eyes (T2)" removed | 1x "Resja, of the Nine Eyes (T3)" given`
 				goto menu
 			label "Black Diamond (T2)"
 			action
@@ -32679,6 +33357,14 @@ mission "upgrade ships"
 				give ship "Earth Shaper (T2)"
 			`3x "Earth Shaper" removed, 1x "Earth Shaper (T1)" removed | 1x "Earth Shaper (T2)" given`
 				goto menu
+			label "Vujlet-Usaqri (T1)"
+			action
+				take ship "Vujlet-Usaqri"
+					count 3
+				take ship "Vujlet-Usaqri (T1)"
+				give ship "Vujlet-Usaqri (T2)"
+			`3x "Vujlet-Usaqri" removed, 1x "Vujlet-Usaqri (T1)" removed | 1x "Vujlet-Usaqri (T2)" given`
+				goto menu
 			label "Vujlet (T1)"
 			action
 				take ship "Vujlet"
@@ -32767,6 +33453,14 @@ mission "upgrade ships"
 				give ship "Kaskhorade (T2)"
 			`3x "Kaskhorade" removed, 1x "Kaskhorade (T1)" removed | 1x "Kaskhorade (T2)" given`
 				goto menu
+			label "Ejniisde-Khora (T1)"
+			action
+				take ship "Ejniisde-Khora"
+					count 3
+				take ship "Ejniisde-Khora (T1)"
+				give ship "Ejniisde-Khora (T2)"
+			`3x "Ejniisde-Khora" removed, 1x "Ejniisde-Khora (T1)" removed | 1x "Ejniisde-Khora (T2)" given`
+				goto menu
 			label "Ejniisde (T1)"
 			action
 				take ship "Ejniisde"
@@ -32782,6 +33476,38 @@ mission "upgrade ships"
 				take ship "Aaulqra (T1)"
 				give ship "Aaulqra (T2)"
 			`3x "Aaulqra" removed, 1x "Aaulqra (T1)" removed | 1x "Aaulqra (T2)" given`
+				goto menu
+			label "Valkkyiara-Khorasaqra (T1)"
+			action
+				take ship "Valkkyiara-Khorasaqra"
+					count 3
+				take ship "Valkkyiara-Khorasaqra (T1)"
+				give ship "Valkkyiara-Khorasaqra (T2)"
+			`3x "Valkkyiara-Khorasaqra" removed, 1x "Valkkyiara-Khorasaqra (T1)" removed | 1x "Valkkyiara-Khorasaqra (T2)" given`
+				goto menu
+			label "Queru, Luminous Gaze (T1)"
+			action
+				take ship "Queru, Luminous Gaze"
+					count 3
+				take ship "Queru, Luminous Gaze (T1)"
+				give ship "Queru, Luminous Gaze (T2)"
+			`3x "Queru, Luminous Gaze" removed, 1x "Queru, Luminous Gaze (T1)" removed | 1x "Queru, Luminous Gaze (T2)" given`
+				goto menu
+			label "Hasur, Vowsworn (T1)"
+			action
+				take ship "Hasur, Vowsworn"
+					count 3
+				take ship "Hasur, Vowsworn (T1)"
+				give ship "Hasur, Vowsworn (T2)"
+			`3x "Hasur, Vowsworn" removed, 1x "Hasur, Vowsworn (T1)" removed | 1x "Hasur, Vowsworn (T2)" given`
+				goto menu
+			label "Resja, of the Nine Eyes (T1)"
+			action
+				take ship "Resja, of the Nine Eyes"
+					count 3
+				take ship "Resja, of the Nine Eyes (T1)"
+				give ship "Resja, of the Nine Eyes (T2)"
+			`3x "Resja, of the Nine Eyes" removed, 1x "Resja, of the Nine Eyes (T1)" removed | 1x "Resja, of the Nine Eyes (T2)" given`
 				goto menu
 			label "Black Diamond (T1)"
 			action
@@ -34969,6 +35695,13 @@ mission "upgrade ships"
 				give ship "Earth Shaper (T1)"
 			`4x "Earth Shaper" removed | 1x "Earth Shaper (T1)" given`
 				goto menu
+			label "Vujlet-Usaqri"
+			action
+				take ship "Vujlet-Usaqri"
+					count 4
+				give ship "Vujlet-Usaqri (T1)"
+			`4x "Vujlet-Usaqri" removed | 1x "Vujlet-Usaqri (T1)" given`
+				goto menu
 			label "Vujlet"
 			action
 				take ship "Vujlet"
@@ -35046,6 +35779,13 @@ mission "upgrade ships"
 				give ship "Kaskhorade (T1)"
 			`4x "Kaskhorade" removed | 1x "Kaskhorade (T1)" given`
 				goto menu
+			label "Ejniisde-Khora"
+			action
+				take ship "Ejniisde-Khora"
+					count 4
+				give ship "Ejniisde-Khora (T1)"
+			`4x "Ejniisde-Khora" removed | 1x "Ejniisde-Khora (T1)" given`
+				goto menu
 			label "Ejniisde"
 			action
 				take ship "Ejniisde"
@@ -35059,6 +35799,34 @@ mission "upgrade ships"
 					count 4
 				give ship "Aaulqra (T1)"
 			`4x "Aaulqra" removed | 1x "Aaulqra (T1)" given`
+				goto menu
+			label "Valkkyiara-Khorasaqra"
+			action
+				take ship "Valkkyiara-Khorasaqra"
+					count 4
+				give ship "Valkkyiara-Khorasaqra (T1)"
+			`4x "Valkkyiara-Khorasaqra" removed | 1x "Valkkyiara-Khorasaqra (T1)" given`
+				goto menu
+			label "Queru, Luminous Gaze"
+			action
+				take ship "Queru, Luminous Gaze"
+					count 4
+				give ship "Queru, Luminous Gaze (T1)"
+			`4x "Queru, Luminous Gaze" removed | 1x "Queru, Luminous Gaze (T1)" given`
+				goto menu
+			label "Hasur, Vowsworn"
+			action
+				take ship "Hasur, Vowsworn"
+					count 4
+				give ship "Hasur, Vowsworn (T1)"
+			`4x "Hasur, Vowsworn" removed | 1x "Hasur, Vowsworn (T1)" given`
+				goto menu
+			label "Resja, of the Nine Eyes"
+			action
+				take ship "Resja, of the Nine Eyes"
+					count 4
+				give ship "Resja, of the Nine Eyes (T1)"
+			`4x "Resja, of the Nine Eyes" removed | 1x "Resja, of the Nine Eyes (T1)" given`
 				goto menu
 			label "Black Diamond"
 			action
