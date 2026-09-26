@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-09-26 | update: ship.merging<br>
 2026-09-26 | update: mission.helper<br>
 2026-09-25 | update: additional.command.buttons.radial<br>
 2026-09-18 | update: show.reputation<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-09-03 | update: boss.loot<br>
 2026-08-15 | update: vague.improvements<br>
 2026-08-13 | update: human.labels<br>
-2026-08-01 | Hooray! 50 stars!<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -833,6 +833,12 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-09-27<br>
+
+updated to 0.11.3<br>
 
 <br>
 
@@ -5686,10 +5692,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/ship.merging.png" width="130" height="20">
 <img src="myplugins/ship.merging/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.7-ship.merging/ship.merging.zip) 
-<img src="https://img.shields.io/badge/v1.0.7-707070"> 
-<img src="https://img.shields.io/badge/2.45_mb-707070"> 
-<img src="https://img.shields.io/badge/2026--04--28-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.8-ship.merging/ship.merging.zip) 
+<img src="https://img.shields.io/badge/v1.0.8-707070"> 
+<img src="https://img.shields.io/badge/2.49_mb-707070"> 
+<img src="https://img.shields.io/badge/2026--09--26-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=ship.merging-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.merging/)
 [<img src="https://img.shields.io/badge/view_images_[10]-707070">](res/imagemd/ship.merging.md)<br>
@@ -5722,6 +5728,12 @@ Reduce performance issues by reducing ship amounts or just make single ships mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-09-27<br>
+
+update to 0.11.3<br>
 
 <br>
 
