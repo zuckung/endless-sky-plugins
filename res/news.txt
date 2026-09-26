@@ -1,3 +1,4 @@
+2026-09-26 | update: mission.helper
 2026-09-25 | update: additional.command.buttons.radial
 2026-09-18 | update: show.reputation
 2026-09-13 | update: control.station

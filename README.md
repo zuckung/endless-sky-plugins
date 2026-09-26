@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-09-26 | update: mission.helper<br>
 2026-09-25 | update: additional.command.buttons.radial<br>
 2026-09-18 | update: show.reputation<br>
 2026-09-13 | update: control.station<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-08-15 | update: vague.improvements<br>
 2026-08-13 | update: human.labels<br>
 2026-08-01 | Hooray! 50 stars!<br>
-2026-07-10 | update: disable.spaceport.repeatables<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4376,10 +4376,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/mission.helper.png" width="130" height="20">
 <img src="myplugins/mission.helper/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.12-mission.helper/mission.helper.zip) 
-<img src="https://img.shields.io/badge/v1.0.12-707070"> 
-<img src="https://img.shields.io/badge/156.74_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--06--30-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.13-mission.helper/mission.helper.zip) 
+<img src="https://img.shields.io/badge/v1.0.13-707070"> 
+<img src="https://img.shields.io/badge/160.85_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--09--26-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=mission.helper-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/)
 [<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/mission.helper.md)<br>
@@ -4408,6 +4408,12 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-09-26<br>
+
+updated missions to 0.11.3<br>
 
 <br>
 
