@@ -15,6 +15,9 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 Changelog:<br>
 <br>
+2026-09-27<br>
+updated to 0.11.3<br>
+<br>
 2026-09-03<br>
 fixed unlimited upgrades when swarm amount is negative(reported by Mernom)<br>
 <br>

@@ -103,6 +103,7 @@ system "dun1_sys_01"
 	"jump range" 1
 	haze _menu/haze-dark-nebula
 	minables "Verdanite" 1 5
+	habitable 500
 	object
 		sprite star/dun1_02
 		period 10
@@ -145,6 +146,7 @@ system "dun1_sys_02"
 	"jump range" 1
 	haze _menu/haze-dark-nebula
 	minables "Verdanite" 3 5
+	habitable 500
 	object
 		sprite star/dun1_05
 		period 10
@@ -182,6 +184,7 @@ system "dun1_sys_03"
 	"jump range" 1
 	haze _menu/haze-dark-nebula
 	minables "Verdanite" 1 5
+	habitable 500
 	object
 		sprite star/dun1_05
 		period 10
@@ -214,6 +217,7 @@ system "dun1_sys_04"
 	"jump range" 1
 	haze _menu/haze-dark-nebula
 	minables "Verdanite" 2 5
+	habitable 500
 	object
 		sprite star/dun1_05
 		period 10
@@ -250,6 +254,7 @@ system "dun1_sys_b_01"
 	link "dun1_sys_02"
 	"jump range" 1
 	haze _menu/haze-dark-nebula
+	habitable 500
 	object
 		sprite star/dun1_04
 		period 10
@@ -269,6 +274,7 @@ system "dun1_sys_b_02"
 	link "dun1_sys_02"
 	"jump range" 1
 	haze _menu/haze-dark-nebula
+	habitable 500
 	object
 		sprite star/dun1_06
 		period 10
@@ -295,6 +301,7 @@ system "dun1_sys_b_03"
 	link "dun1_sys_02"
 	"jump range" 1
 	haze _menu/haze-dark-nebula
+	habitable 500
 	object
 		sprite star/dun1_01
 		period 10
@@ -316,6 +323,7 @@ system "dun1_sys_b_04"
 	link "dun1_sys_04"
 	"jump range" 1
 	haze _menu/haze-dark-nebula
+	habitable 500
 	object
 		sprite star/dun1_05
 		period 10
@@ -337,6 +345,7 @@ system "dun1_sys_b_05"
 	link "dun1_sys_04"
 	"jump range" 1
 	haze _menu/haze-dark-nebula
+	habitable 500
 	object
 		sprite star/dun1_03
 		period 10
@@ -361,6 +370,7 @@ system "dun1_sys_b_06"
 	pos -6370 -6800
 	"jump range" 1
 	haze _menu/haze-dark-nebula
+	habitable 500
 	object
 		sprite star/dun1_03
 		period 10

@@ -1284,7 +1284,7 @@ outfit "Bombardment Cannon(T2)"
 		"firing heat" 14
 		"shield damage" 36.52
 		"hull damage" 41.5
-	description `The Bombardment Cannon was designed during the original war with the Quarg, in order to give Heliarch civilian ships a way to strike Quarg warships from a safe distance. But now, as with all their weapons, its use is limited to Heliarch warships.`
+	description `The Bombardment Cannon was designed during the original war with the Quarg, in order to give Coalition civilian ships a way to strike Quarg warships from a safe distance. But now, as with all their weapons, its use is limited to Heliarch warships.`
 
 outfit "Bombardment Turret(T2)"
 	category "Turrets"
@@ -3231,7 +3231,7 @@ outfit "Flamethrower(T2)"
 		"lifetime" 5
 		"reload" 1
 		"firing energy" .1
-		"firing fuel" .4
+		"firing fuel" .15
 		"firing heat" 4
 	description "A crude but impressive-looking weapon, the Flamethrower ignites your hyperspace fuel and directs a stream of it towards your adversaries. The damage it does is relatively minor, but it can be useful for causing a target that is already operating near its thermal capacity to overheat, temporarily taking it out of the fight."
 
@@ -3246,10 +3246,10 @@ outfit "Flamethrower Projectile(T2)"
 		"lifetime" 18
 		"random lifetime" 8
 		"damage dropoff" 0 198
-		"dropoff modifier" .5
+		"dropoff modifier" .7
 		"shield damage" 1.33
 		"hull damage" 1.16
-		"heat damage" 207.5
+		"heat damage" 265.6
 
 outfit "Meteor Missile Launcher(T2)"
 	category "Secondary Weapons"
@@ -7997,6 +7997,194 @@ outfit "Heavy Ion Fragment(T2)"
 		"hit force" 4.5
 		"shield damage" 2.97
 		"hull damage" 2.44
+
+outfit `"Iasa," Lethal Word(T2)`
+	category "Guns"
+	series "Guns"
+	index 11050
+	cost 6972000
+	thumbnail "outfit/bimodal coilgun(T2)"
+	"mass" 17
+	"outfit space" -17
+	"weapon capacity" -17
+	"gun ports" -1
+	unique 1
+	weapon
+		sprite "projectile/iasa"
+			"frame time" 3
+			"no repeat"
+		sound "bimodal"
+		"hit effect" "bimodal impact"
+		"fire effect" "iasa fire"
+		"inaccuracy" 3
+		"velocity" 30
+		"lifetime" 16
+		"reload" 9
+		"firing energy" 15
+		"firing heat" 21
+		"shield damage" 60.76
+		"hull damage" 88.64
+		"hit force" 18
+		"piercing" 0.33
+		"firing shields" 11
+	description `Resja's chosen implement of death, Iasa was a drone ship's perfect coilgun, a fearsome, hungry weapon with respect for the shields of neither friend nor foe. It remains remarkably efficient, even after fifteen hundred years of waiting.`
+
+outfit `"Kis," Lethal Wish(T2)`
+	plural `"Kis," Lethal Wishes`
+	category "Guns"
+	series "Guns"
+	index 11060
+	cost 12450000
+	thumbnail "outfit/bimodal coilgun(T2)"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	unique 1
+	weapon
+		sound "drag cannon"
+		"hit effect" "kis impact" 12
+		"fire effect" "moonbeam fleck" 4
+		"range override" 1350
+		"velocity override" 10
+		"reload" 90
+		"firing energy" 400
+		"firing heat" 600
+		"firing shields" 120
+		"submunition" "kis short range(T2)" 4
+	description `Like a cold and ravenous beast, the frightful Kis tears through the defenses of anything that dares stride close enough to its jaws. At long range this weapon loses its high shield penetration but continues to output respectable damage, encouraging enemies to retreat while they still can.`
+
+outfit "kis short range(T2)"
+	weapon
+		sprite "projectile/kis"
+			"frame time" 3
+			"no repeat"
+		"hit effect" "small explosion"
+		"hit effect" "kis impact" 3
+		"inaccuracy" 3
+		"velocity" 10
+		"lifetime" 20
+		"piercing" 0.5
+		"inaccuracy" 6
+		"submunition" "kis long range(T2)" 3
+
+outfit "kis long range(T2)"
+	weapon
+		sprite "projectile/drag cannon"
+			"start frame" 1
+			"frame rate" 20
+			"no repeat"
+		"hit effect" "kis impact"
+		"velocity" 10
+		"lifetime" 100
+		"random lifetime" 30
+		"shield damage" 71.38
+		"hull damage" 96.28
+
+outfit `"Torji," Lethal Sight(T2)`
+	category "Guns"
+	series "Guns"
+	index 11060
+	cost 12450000
+	thumbnail "outfit/bimodal coilgun(T2)"
+	"mass" 106
+	"outfit space" -106
+	"weapon capacity" -106
+	"gun ports" -1
+	weapon
+		sprite "projectile/sjeja kinetic lance"
+		sound "sjeja lance"
+		"fire effect" "moonbeam fleck" 2
+		"hit effect" "dragonflame debris"
+		"hit effect" "dragonflame plasma"
+		"inaccuracy" 3
+		"velocity" 40
+		"lifetime" 45
+		"reload" 24
+		"firing energy" 520
+		"firing heat" 1360
+		"firing shields" 310
+		"firing force" 400
+		"shield damage" 863.2
+		"hull damage" 1195.2
+		"hit force" 400
+	description `Resja designed a complex loading system to enable this weapon to fire as quickly as it does. The drone ship Queru was built around it, a paired ship and weapon to surpass at range all prior designs of the Myiara.`
+
+outfit `"Sarija" Heirloom Coilgun(T2)`
+	category "Guns"
+	series "Guns"
+	index 11011
+	cost 41915000
+	thumbnail "outfit/unknown(T2)"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	weapon
+		sprite "projectile/bimodal"
+			"frame rate" 5
+			"start frame" 0
+			"no repeat"
+		sound "bimodal"
+		"hit effect" "bimodal impact"
+		"fire effect" "moonbeam fleck" 4
+		"inaccuracy" 1
+		"velocity" 45
+		"lifetime" 10
+		"range override" 900
+		"burst count" 12
+		"burst reload" 6
+		"reload" 22
+		"firing energy" 60
+		"firing heat" 80
+		"firing force" 25
+		"shield damage" -156.04
+		# 70 (parent) - 4*48 (child)
+		"hull damage" 124.5
+		# 185 (parent) - 4*20 (child)
+		"hit force" 120
+		"cluster"
+		"submunition" "Bimodal Switch(T2)" 3
+	description "Secretly stashed away by the High Houses since the collapse of the old empire, this lovingly-maintained coilgun is far more powerful than any of the Successors' modern technology."
+
+outfit `"Tijra" Heirloom Lance(T2)`
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 11011
+	cost 2274200
+	thumbnail "outfit/unknown(T2)"
+	"mass" 70
+	"outfit space" -70
+	"weapon capacity" -70
+	"gun ports" -1
+	"spike capacity" 30
+	"spinal mount" -1
+	"unplunderable" 1
+	weapon
+		sprite "projectile/sjeja kinetic lance"
+			"frame rate" 4
+			"random start frame"
+		sound "sjeja lance"
+		ammo "High-Velocity Spike"
+		icon "icon/hv spike"
+		"fire effect" "moonbeam fleck" 5
+		"hit effect" "dragonflame debris" 4
+		"hit effect" "dragonflame plasma" 4
+		"inaccuracy" .3
+		"velocity" 320
+		"lifetime" 8
+		"reload" 120
+		"firing energy" 2000
+		"firing ion" 2.2
+		"firing heat" 4000
+		"shield damage" 2324.0
+		"hull damage" 3320.0
+		"piercing" 0.15
+		"firing force" 800
+		"hit force" 800
+		"ion damage" 33.2
+		"penetration count" 5
+	description "Among the largest and most powerful of the Predecessors' weapons, this massive coilgun propels its magnetic projectiles to a sizable fraction of the speed of light, delivering enough kinetic energy on impact to destroy a small city or, alternatively, a large warship."
 
 outfit `"Ojet" Bimodal Coilgun(T2)`
 	category "Guns"

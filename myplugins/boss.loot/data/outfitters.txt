@@ -380,6 +380,9 @@ outfitter "dun High-Velocity Spike Restock"
 	to sell
 		has "gamerule: universal ammo restocking"
 		or
+			has `outfit: "Tijra" Heirloom Lance(T1)`
+			has `outfit: "Tijra" Heirloom Lance(T2)`
+			has `outfit: "Tijra" Heirloom Lance(T3)`
 			has `outfit: "Sjeja" Kinetic Lance(T1)`
 			has `outfit: "Sjeja" Kinetic Lance(T2)`
 			has `outfit: "Sjeja" Kinetic Lance(T3)`

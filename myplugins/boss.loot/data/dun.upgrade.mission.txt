@@ -890,6 +890,26 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Heavy Ion Cyclotron"
 						"outfit (flagship installed): Nanite Swarm Blue" > 0
 					goto "Heavy Ion Cyclotron"
+				`	"Iasa," Lethal Word (&[outfit (flagship installed): Iasa, Lethal Word])`
+					to display
+						has `outfit (flagship installed): "Iasa," Lethal Word`
+					goto `"Iasa," Lethal Word`
+				`	"Kis," Lethal Wish (&[outfit (flagship installed): Kis, Lethal Wish])`
+					to display
+						has `outfit (flagship installed): "Kis," Lethal Wish`
+					goto `"Kis," Lethal Wish`
+				`	"Torji," Lethal Sight (&[outfit (flagship installed): Torji, Lethal Sight])`
+					to display
+						has `outfit (flagship installed): "Torji," Lethal Sight`
+					goto `"Torji," Lethal Sight`
+				`	"Sarija" Heirloom Coilgun (&[outfit (flagship installed): Sarija Heirloom Coilgun])`
+					to display
+						has `outfit (flagship installed): "Sarija" Heirloom Coilgun`
+					goto `"Sarija" Heirloom Coilgun`
+				`	"Tijra" Heirloom Lance (&[outfit (flagship installed): Tijra Heirloom Lance])`
+					to display
+						has `outfit (flagship installed): "Tijra" Heirloom Lance`
+					goto `"Tijra" Heirloom Lance`
 				`	"Ojet" Bimodal Coilgun (&[outfit (flagship installed): Ojet Bimodal Coilgun])`
 					to display
 						has `outfit (flagship installed): "Ojet" Bimodal Coilgun`
@@ -1833,6 +1853,26 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Heavy Ion Cyclotron(T1)"
 						"outfit (flagship installed): Nanite Swarm Purple" > 0
 					goto "Heavy Ion Cyclotron(T1)"
+				`	"Iasa," Lethal Word(T1) (&[outfit (flagship installed): Iasa, Lethal Word(T1)])`
+					to display
+						has `outfit (flagship installed): "Iasa," Lethal Word(T1)`
+					goto `"Iasa," Lethal Word(T1)`
+				`	"Kis," Lethal Wish(T1) (&[outfit (flagship installed): Kis, Lethal Wish(T1)])`
+					to display
+						has `outfit (flagship installed): "Kis," Lethal Wish(T1)`
+					goto `"Kis," Lethal Wish(T1)`
+				`	"Torji," Lethal Sight(T1) (&[outfit (flagship installed): Torji, Lethal Sight(T1)])`
+					to display
+						has `outfit (flagship installed): "Torji," Lethal Sight(T1)`
+					goto `"Torji," Lethal Sight(T1)`
+				`	"Sarija" Heirloom Coilgun(T1) (&[outfit (flagship installed): Sarija Heirloom Coilgun(T1)])`
+					to display
+						has `outfit (flagship installed): "Sarija" Heirloom Coilgun(T1)`
+					goto `"Sarija" Heirloom Coilgun(T1)`
+				`	"Tijra" Heirloom Lance(T1) (&[outfit (flagship installed): Tijra Heirloom Lance(T1)])`
+					to display
+						has `outfit (flagship installed): "Tijra" Heirloom Lance(T1)`
+					goto `"Tijra" Heirloom Lance(T1)`
 				`	"Ojet" Bimodal Coilgun(T1) (&[outfit (flagship installed): Ojet Bimodal Coilgun(T1)])`
 					to display
 						has `outfit (flagship installed): "Ojet" Bimodal Coilgun(T1)`
@@ -2776,6 +2816,26 @@ mission "upgrade outfits"
 						has "outfit (flagship installed): Heavy Ion Cyclotron(T2)"
 						"outfit (flagship installed): Nanite Swarm Orange" > 0
 					goto "Heavy Ion Cyclotron(T2)"
+				`	"Iasa," Lethal Word(T2) (&[outfit (flagship installed): Iasa, Lethal Word(T2)])`
+					to display
+						has `outfit (flagship installed): "Iasa," Lethal Word(T2)`
+					goto `"Iasa," Lethal Word(T2)`
+				`	"Kis," Lethal Wish(T2) (&[outfit (flagship installed): Kis, Lethal Wish(T2)])`
+					to display
+						has `outfit (flagship installed): "Kis," Lethal Wish(T2)`
+					goto `"Kis," Lethal Wish(T2)`
+				`	"Torji," Lethal Sight(T2) (&[outfit (flagship installed): Torji, Lethal Sight(T2)])`
+					to display
+						has `outfit (flagship installed): "Torji," Lethal Sight(T2)`
+					goto `"Torji," Lethal Sight(T2)`
+				`	"Sarija" Heirloom Coilgun(T2) (&[outfit (flagship installed): Sarija Heirloom Coilgun(T2)])`
+					to display
+						has `outfit (flagship installed): "Sarija" Heirloom Coilgun(T2)`
+					goto `"Sarija" Heirloom Coilgun(T2)`
+				`	"Tijra" Heirloom Lance(T2) (&[outfit (flagship installed): Tijra Heirloom Lance(T2)])`
+					to display
+						has `outfit (flagship installed): "Tijra" Heirloom Lance(T2)`
+					goto `"Tijra" Heirloom Lance(T2)`
 				`	"Ojet" Bimodal Coilgun(T2) (&[outfit (flagship installed): Ojet Bimodal Coilgun(T2)])`
 					to display
 						has `outfit (flagship installed): "Ojet" Bimodal Coilgun(T2)`
@@ -4066,6 +4126,41 @@ mission "upgrade outfits"
 				outfit "Nanite Swarm Blue" -1
 				outfit "Heavy Ion Cyclotron(T1)" 1
 			`	outfit "Heavy Ion Cyclotron(T1)" +1`
+				goto menu
+			label `"Iasa," Lethal Word`
+			action
+				outfit `"Iasa," Lethal Word` -1
+				outfit "Nanite Swarm Blue" -1
+				outfit `"Iasa," Lethal Word(T1)` 1
+			`	outfit "Iasa," Lethal Word(T1) +1`
+				goto menu
+			label `"Kis," Lethal Wish`
+			action
+				outfit `"Kis," Lethal Wish` -1
+				outfit "Nanite Swarm Blue" -1
+				outfit `"Kis," Lethal Wish(T1)` 1
+			`	outfit "Kis," Lethal Wish(T1) +1`
+				goto menu
+			label `"Torji," Lethal Sight`
+			action
+				outfit `"Torji," Lethal Sight` -1
+				outfit "Nanite Swarm Blue" -1
+				outfit `"Torji," Lethal Sight(T1)` 1
+			`	outfit "Torji," Lethal Sight(T1) +1`
+				goto menu
+			label `"Sarija" Heirloom Coilgun`
+			action
+				outfit `"Sarija" Heirloom Coilgun` -1
+				outfit "Nanite Swarm Blue" -1
+				outfit `"Sarija" Heirloom Coilgun(T1)` 1
+			`	outfit "Sarija" Heirloom Coilgun(T1) +1`
+				goto menu
+			label `"Tijra" Heirloom Lance`
+			action
+				outfit `"Tijra" Heirloom Lance` -1
+				outfit "Nanite Swarm Blue" -1
+				outfit `"Tijra" Heirloom Lance(T1)` 1
+			`	outfit "Tijra" Heirloom Lance(T1) +1`
 				goto menu
 			label `"Ojet" Bimodal Coilgun`
 			action
@@ -5390,6 +5485,41 @@ mission "upgrade outfits"
 				outfit "Heavy Ion Cyclotron(T2)" 1
 			`	outfit "Heavy Ion Cyclotron(T2)" +1`
 				goto menu
+			label `"Iasa," Lethal Word(T1)`
+			action
+				outfit `"Iasa," Lethal Word(T1)` -1
+				outfit "Nanite Swarm Purple" -1
+				outfit `"Iasa," Lethal Word(T2)` 1
+			`	outfit "Iasa," Lethal Word(T2) +1`
+				goto menu
+			label `"Kis," Lethal Wish(T1)`
+			action
+				outfit `"Kis," Lethal Wish(T1)` -1
+				outfit "Nanite Swarm Purple" -1
+				outfit `"Kis," Lethal Wish(T2)` 1
+			`	outfit "Kis," Lethal Wish(T2) +1`
+				goto menu
+			label `"Torji," Lethal Sight(T1)`
+			action
+				outfit `"Torji," Lethal Sight(T1)` -1
+				outfit "Nanite Swarm Purple" -1
+				outfit `"Torji," Lethal Sight(T2)` 1
+			`	outfit "Torji," Lethal Sight(T2) +1`
+				goto menu
+			label `"Sarija" Heirloom Coilgun(T1)`
+			action
+				outfit `"Sarija" Heirloom Coilgun(T1)` -1
+				outfit "Nanite Swarm Purple" -1
+				outfit `"Sarija" Heirloom Coilgun(T2)` 1
+			`	outfit "Sarija" Heirloom Coilgun(T2) +1`
+				goto menu
+			label `"Tijra" Heirloom Lance(T1)`
+			action
+				outfit `"Tijra" Heirloom Lance(T1)` -1
+				outfit "Nanite Swarm Purple" -1
+				outfit `"Tijra" Heirloom Lance(T2)` 1
+			`	outfit "Tijra" Heirloom Lance(T2) +1`
+				goto menu
 			label `"Ojet" Bimodal Coilgun(T1)`
 			action
 				outfit `"Ojet" Bimodal Coilgun(T1)` -1
@@ -6712,6 +6842,41 @@ mission "upgrade outfits"
 				outfit "Nanite Swarm Orange" -1
 				outfit "Heavy Ion Cyclotron(T3)" 1
 			`	outfit "Heavy Ion Cyclotron(T3)" +1`
+				goto menu
+			label `"Iasa," Lethal Word(T2)`
+			action
+				outfit `"Iasa," Lethal Word(T2)` -1
+				outfit "Nanite Swarm Orange" -1
+				outfit `"Iasa," Lethal Word(T3)` 1
+			`	outfit "Iasa," Lethal Word(T3) +1`
+				goto menu
+			label `"Kis," Lethal Wish(T2)`
+			action
+				outfit `"Kis," Lethal Wish(T2)` -1
+				outfit "Nanite Swarm Orange" -1
+				outfit `"Kis," Lethal Wish(T3)` 1
+			`	outfit "Kis," Lethal Wish(T3) +1`
+				goto menu
+			label `"Torji," Lethal Sight(T2)`
+			action
+				outfit `"Torji," Lethal Sight(T2)` -1
+				outfit "Nanite Swarm Orange" -1
+				outfit `"Torji," Lethal Sight(T3)` 1
+			`	outfit "Torji," Lethal Sight(T3) +1`
+				goto menu
+			label `"Sarija" Heirloom Coilgun(T2)`
+			action
+				outfit `"Sarija" Heirloom Coilgun(T2)` -1
+				outfit "Nanite Swarm Orange" -1
+				outfit `"Sarija" Heirloom Coilgun(T3)` 1
+			`	outfit "Sarija" Heirloom Coilgun(T3) +1`
+				goto menu
+			label `"Tijra" Heirloom Lance(T2)`
+			action
+				outfit `"Tijra" Heirloom Lance(T2)` -1
+				outfit "Nanite Swarm Orange" -1
+				outfit `"Tijra" Heirloom Lance(T3)` 1
+			`	outfit "Tijra" Heirloom Lance(T3) +1`
 				goto menu
 			label `"Ojet" Bimodal Coilgun(T2)`
 			action
