@@ -3,6 +3,9 @@ I aim at developing small, modular and maximally compatible plugins that don't b
 Please excuse bad English, spelling, grammar, etc... English isn't my mother tongue. Feel free to correct me.<br>
 <a href="https://github.com/zuckung/endless-sky-plugins/pulls">Pull requests</a>, <a href="https://github.com/zuckung/endless-sky-plugins/discussions">discussions</a> and <a href="https://github.com/zuckung/endless-sky-plugins/issues">Issue reports</a> are welcome! <br>
 <br>
+<img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/res/ai.png" width="130"><br>
+(Nearly all images are AI generated, and some texts are corrected/rephrased by AI)<br>
+<br>
 <br>
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
@@ -16,6 +19,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-10-04 | removed ship.cores plugindue to unsolvable script problems<br>
 2026-09-26 | update: ship.merging<br>
 2026-09-26 | update: mission.helper<br>
 2026-09-25 | update: additional.command.buttons.radial<br>
@@ -25,7 +29,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-09-05 | update: coalition.shopping<br>
 2026-09-03 | update: boss.loot<br>
 2026-08-15 | update: vague.improvements<br>
-2026-08-13 | update: human.labels<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -77,7 +80,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#planetmap">planet.map</a><br>
 <a href="README.md#portableoutfitter">portable.outfitter</a><br>
 <a href="README.md#quargfarm">quarg.farm</a><br>
-<a href="README.md#shipcores">ship.cores</a><br>
 <a href="README.md#shipmerging">ship.merging</a><br>
 <a href="README.md#showreputation">show.reputation</a><br>
 <a href="README.md#snowfeatherrobotics">snowfeather.robotics</a><br>
@@ -5582,102 +5584,6 @@ screenshots(click to enlarge):<br>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/quarg.farm01.jpg" width="200"></td>
 		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/quarg.farm02.jpg" width="200"></td>
-	</tr>
-</table>
-<br>
-
-<br>
-
-
----
-
-### ship.cores
-
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/ship.cores.png" width="130" height="20">
-<img src="myplugins/ship.cores/icon.png" height="100">
-
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-ship.cores/ship.cores.zip) 
-<img src="https://img.shields.io/badge/v1.0.3-707070"> 
-<img src="https://img.shields.io/badge/445.79_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--07--09-707070"> 
-[<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=ship.cores-&expanded=true) 
-[<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.cores/)
-[<img src="https://img.shields.io/badge/view_images_[4]-707070">](res/imagemd/ship.cores.md)<br>
-
->This plugin removes most attributes from ships and puts them into an outfit. You can exchange these core outfits between ships. See the README for details.
-
-<details>
-<summary>show README</summary>
-
-<blockquote>
-
-### ship.merging
-
-<br>
-
-<br>
-
-This plugin removes most attributes from ships and puts them into an outfit. You can exchange these core outfits between ships.<br>
-
-<br>
-
-Every vanilla ship and ship variant now comes equipped with a unique outfit called a **Core**. Each ship can have exactly one Core installed at a time. Cores can be removed and swapped with those from other ships, changing the vessel's performance and statistics.<br>
-
-Cores can be purchased from outfitters on planets with a shipyard or salvaged from disabled ships. Since a Core is worth roughly half the value of its original ship, disabling and looting enemy vessels can become a highly profitable source of income. The system also encourages all kinds of unusual and fun ship builds by combining different hulls and Cores.<br>
-
-To maximize compatibility with plugins and existing savegames, several hull-specific attributes remain part of the ship itself rather than the Core. These include Outfit Space, Weapon Capacity, Engine Capacity, Cargo Space, and a handful of other fundamental hull properties.<br>
-
-<br>
-
-(idea, brainstorming, testing by Kassandra Haruki)<br>
-
-<br>
-
-<br>
-
-Changelog:<br>
-
-<br>
-
-2026-07-09<br>
-
-fixed core remove problem because of negative attributes (reported by ulyssessword)<br>
-
-<br>
-
-2026-07-06<br>
-
-added ship description to core (suggested by Kassandra Haruki)<br>
-
-fixed bug that prevents reading last line of txt file<br>
-
-<br>
-
-2026-07-05<br>
-
-fixed core remove problem because of required crew (reported by ulyssessword)<br>
-
-<br>
-
-2026-06-30<br>
-
-initial release<br>
-
-
-
-
-
-
-
-</blockquote>
-
-</details>
-
-<br>
-screenshots(click to enlarge):<br>
-<table>
-	<tr>
-		<td><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/ship.cores01.jpg" width="200"></td>
 	</tr>
 </table>
 <br>
