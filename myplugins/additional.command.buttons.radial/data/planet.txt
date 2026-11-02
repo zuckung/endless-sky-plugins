@@ -1,3 +1,4 @@
+overwrite
 interface "planet"
 	image "land"
 		center -60 -210

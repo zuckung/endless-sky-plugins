@@ -1,3 +1,4 @@
+overwrite
 interface "hud"
 # Player status.
 	anchor top right
@@ -23,29 +24,29 @@ interface "hud"
 	anchor bottom right
 	visible if "!fast hud sprites"
 	outline "player sprite"
-		center -147 -310 #was -113
+		center -113 -310 #-135
 		dimensions 100 100
 	visible if "fast hud sprites"
 	image "player sprite"
-		center -147 -310
+		center -113 -310
 		dimensions 100 100
 	visible
 	ring "shields"
-		center -147 -310
+		center -113 -310
 		dimensions 150 150
 		color "shields"
 		size 2
 		"start angle" 100
 		"span angle" 200
 	ring "hull"
-		center -147 -310
+		center -113 -310
 		dimensions 140 140
 		color "hull"
 		size 2
 		"start angle" 100
 		"span angle" 200
 	ring "disabled hull"
-		center -147 -310
+		center -113 -310
 		dimensions 140 140
 		color "disabled hull"
 		size 2

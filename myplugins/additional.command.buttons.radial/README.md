@@ -33,6 +33,10 @@ For the Escort groups you need a special onscreen keyboard. See https://github.c
 <br>
 Changelog:<br>
 <br>
+2026-11-02<br>
+ES 0.11.4 ui fix<br>
+moved fast forward/pause/zoom to top left<br>
+<br>
 2026-09-25<br>
 polishing UI rework by Quaz<br>
 <br>

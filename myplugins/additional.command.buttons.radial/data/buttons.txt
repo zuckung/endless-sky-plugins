@@ -1,32 +1,6 @@
+overwrite
 interface "main buttons" bottom right
 
-# LAYOUT
-#
-# TOP LEFT
-# fast forward pause bg | call planet | view message log | view player info | esc
-#                
-#                                     TOP RIGHT
-#                                     formations | scan target | harvest | ammo switch | turret tracking
-#                                     attack | hold fire | gather | stop | fleet jump
-#
-#                                     TOP RIGHT
-#                                     group button 1 | button 2 | button 3 | button 4
-#
-#                                     BOTTOM RIGHT
-#                                     fast forward | pause | zoom+ | zoom-
-#
-#                                     BOTTOM RIGHT
-#                                     target asteroid  target enemy  target ship   reverse   afterburner
-#                                     stop             hail                secondary     primary
-#                                     board            scan                secondary     primary
-#                                     land             cloak         deploy        jump      map   
-#
-
-
-# missing:  "Fleet: Scan my target" "Talk to selected planet"
-
-
-#
 # LIST OF POSSIBLE BUTTON COMMANDS
 # "Show main menu"
 # "Forward thrust"
@@ -369,54 +343,6 @@ interface "main buttons" bottom right
 	box "ammo"
 		from -230 -207 to -320 -362
 
-# BOTTOM RIGHT: fast forward | pause | zoom+- 
-
-	# bottom right fast forward and pause buttons
-	anchor bottom right
-	visible
-	sprite "ui/zoom"
-		from 3 -340
-		to -87 -400
-	active
-	sprite "ui/fast forward"
-		center -60 -370
-		dimensions 19 19
-	button "Toggle fast-forward"
-		from -40 -340
-		to -80 -400
-	active
-	sprite "ui/paused"
-		center -20 -370
-		dimensions 18 18
-	button "Pause"
-		from -2 -340
-		to -40 -400
-
-	# bottom right zoom button +
-	anchor bottom right
-	visible
-	sprite "ui/zoom"
-		from 43 -292
-		to -47 -352
-	active if "!min zoom2"
-	button + "+"
-		from -5 -292
-		to -40 -352
-		size 18
-
-	# bottom right zoom button -
-	anchor bottom right
-	visible
-	sprite "ui/zoom"
-		from 43 -252
-		to -47 -312
-	active if "!min zoom2"
-	button - "-"
-		from -5 -252
-		to -40 -312
-		size 18
-
-
 # TOP RIGHT: fleet commands button box
 
 	# top right buttonbox
@@ -639,7 +565,8 @@ interface "main buttons" bottom right
 		size 14
 
 
-# TOP LEFT: near radar: fast-forward pause background | talk to selected planet | view message log | view player info | main menu
+# TOP LEFT: near radar: call planet | message log | player info | main menu
+# 			 fast forward | pause | zoom+ | zoom- 
 
 	anchor top left
 	visible
@@ -648,7 +575,7 @@ interface "main buttons" bottom right
 		from 3 3
 		to 16 16
 
-	# top left call planet and message log
+	# top left line 1: call planet and message log
 	anchor top left
 	sprite "ui/zoom"
 		from 250 45
@@ -664,7 +591,7 @@ interface "main buttons" bottom right
 		to 330 105
 		size 14
 
-	# top left player info and main menu
+	# top left line 1: player info and main menu
 	anchor top left
 	sprite "ui/zoom"
 		from 330 45
@@ -679,6 +606,47 @@ interface "main buttons" bottom right
 		from 379 45
 		to 410 105
 		size 14
+		
+	# top left line 2: fast forward and pause buttons
+	anchor top left
+	visible
+	sprite "ui/zoom"
+		from 250 85
+		to 340 150
+	active
+	sprite "ui/fast forward"
+		from 259 85
+		to 290 150
+	button "Toggle fast-forward"
+		from 259 85
+		to 290 150
+
+	active
+	sprite "ui/paused"
+		from 299 85
+		to 330 150
+	button "Pause"
+		from 299 85
+		to 330 150
+
+	# top left line 2: zoom button + -
+	anchor top left
+	visible
+	sprite "ui/zoom"
+		from 330 85
+		to 420 150
+	active if "!min zoom2"
+	button + "+"
+		from 339 85
+		to 370 150
+		size 18
+
+	active if "!min zoom2"
+	button - "-"
+		from 379 85
+		to 410 150
+		size 18
+
 
 
 # OTHER CONTROL ELEMENTS

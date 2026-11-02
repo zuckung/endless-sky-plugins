@@ -1,0 +1,5 @@
+overwrite
+interface "map"
+	value "max zoom" 10
+	value "min zoom" -2
+	value "zoom animation duration" 10
