@@ -1,3 +1,4 @@
+2026-11-03 | update: ship.merging
 2026-11-02 | update: additional.command.buttons.radial
 2026-10-04 | removed ship.cores plugindue to unsolvable script problems
 2026-09-26 | update: ship.merging
