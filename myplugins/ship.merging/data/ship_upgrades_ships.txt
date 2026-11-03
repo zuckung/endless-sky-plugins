@@ -8529,12 +8529,12 @@ ship "Berserker (T1)"
 	attributes
 		category "Interceptor"
 		"cost" 1040000.0
-		"shields" 4400.0
-		"hull" 1000.0
+		"shields" 4800.0
+		"hull" 1800.0
 		"required crew" 2.0
 		"bunks" 4.0
-		"mass" 260.0
-		"drag" 5.0
+		"mass" 400.0
+		"drag" 5.6
 		"heat dissipation" .74
 		"fuel capacity" 800.0
 		"cargo space" 20.0
@@ -15935,6 +15935,7 @@ ship "Ursa Polaris (T1)"
 	plural "Ursa Polaris"
 	sprite "ship/localworldship"
 	"administrative cost" 10
+	"never disabled"
 	attributes
 		category "Unclassified"
 		cost 285714.0
@@ -18823,6 +18824,7 @@ ship "Resja, of the Nine Eyes (T1)"
 	sprite "ship/resja of the nine eyes"
 	thumbnail "thumbnail/resja of the nine eyes"
 	"never disabled"
+	"administrative cost" 5
 	attributes
 		category "Medium Warship"
 		"cost" 110000000.0
@@ -18922,6 +18924,7 @@ ship "Hasur, Vowsworn (T1)"
 	sprite "ship/hasur vowsworn"
 	thumbnail "thumbnail/hasur vowsworn"
 	"never disabled"
+	"administrative cost" 4
 	attributes
 		category "Light Warship"
 		"cost" 110000000.0
@@ -19007,6 +19010,7 @@ ship "Queru, Luminous Gaze (T1)"
 	sprite "ship/queru luminous gaze"
 	thumbnail "thumbnail/queru luminous gaze"
 	"never disabled"
+	"administrative cost" 3
 	attributes
 		category "Light Warship"
 		"cost" 110000000.0
@@ -19093,6 +19097,7 @@ ship "Valkkyiara-Khorasaqra (T1)"
 	thumbnail "thumbnail/valkkyiara-khorasaqra"
 	"plural" "Valkkyiara-Khorasaqran"
 	"never disabled"
+	"administrative cost" 8
 	attributes
 		category "Medium Warship"
 		"cost" 800000000.0
@@ -19364,6 +19369,7 @@ ship "Ejniisde-Khora (T1)"
 	plural "Ejniisden-Khora"
 	sprite "ship/ejniisde-khora"
 	thumbnail "thumbnail/ejniisde-khora"
+	"administrative cost" 5
 	attributes
 		licenses
 			"Successor"
@@ -20405,6 +20411,7 @@ ship "Vujlet-Usaqri (T1)"
 	plural "Vujleten-Usaqri"
 	sprite "ship/vujlet modified"
 	thumbnail "thumbnail/vujlet modified"
+	"administrative cost" 3
 	attributes
 		licenses
 			"High Houses"
@@ -30806,12 +30813,12 @@ ship "Berserker (T2)"
 	attributes
 		category "Interceptor"
 		"cost" 1560000.0
-		"shields" 6600.0
-		"hull" 1500.0
+		"shields" 7200.0
+		"hull" 2700.0
 		"required crew" 3.0
 		"bunks" 6.0
-		"mass" 390.0
-		"drag" 7.5
+		"mass" 600.0
+		"drag" 8.399999999999999
 		"heat dissipation" .74
 		"fuel capacity" 1200.0
 		"cargo space" 30.0
@@ -39136,6 +39143,7 @@ ship "Ursa Polaris (T2)"
 	plural "Ursa Polaris"
 	sprite "ship/localworldship"
 	"administrative cost" 10
+	"never disabled"
 	attributes
 		category "Unclassified"
 		cost 428571.0
@@ -42355,6 +42363,7 @@ ship "Resja, of the Nine Eyes (T2)"
 	sprite "ship/resja of the nine eyes"
 	thumbnail "thumbnail/resja of the nine eyes"
 	"never disabled"
+	"administrative cost" 5
 	attributes
 		category "Medium Warship"
 		"cost" 165000000.0
@@ -42463,6 +42472,7 @@ ship "Hasur, Vowsworn (T2)"
 	sprite "ship/hasur vowsworn"
 	thumbnail "thumbnail/hasur vowsworn"
 	"never disabled"
+	"administrative cost" 4
 	attributes
 		category "Light Warship"
 		"cost" 165000000.0
@@ -42552,6 +42562,7 @@ ship "Queru, Luminous Gaze (T2)"
 	sprite "ship/queru luminous gaze"
 	thumbnail "thumbnail/queru luminous gaze"
 	"never disabled"
+	"administrative cost" 3
 	attributes
 		category "Light Warship"
 		"cost" 165000000.0
@@ -42642,6 +42653,7 @@ ship "Valkkyiara-Khorasaqra (T2)"
 	thumbnail "thumbnail/valkkyiara-khorasaqra"
 	"plural" "Valkkyiara-Khorasaqran"
 	"never disabled"
+	"administrative cost" 8
 	attributes
 		category "Medium Warship"
 		"cost" 1200000000.0
@@ -42933,6 +42945,7 @@ ship "Ejniisde-Khora (T2)"
 	plural "Ejniisden-Khora"
 	sprite "ship/ejniisde-khora"
 	thumbnail "thumbnail/ejniisde-khora"
+	"administrative cost" 5
 	attributes
 		licenses
 			"Successor"
@@ -44031,6 +44044,7 @@ ship "Vujlet-Usaqri (T2)"
 	plural "Vujleten-Usaqri"
 	sprite "ship/vujlet modified"
 	thumbnail "thumbnail/vujlet modified"
+	"administrative cost" 3
 	attributes
 		licenses
 			"High Houses"
@@ -55500,12 +55514,12 @@ ship "Berserker (T3)"
 	attributes
 		category "Interceptor"
 		"cost" 2080000.0
-		"shields" 8800.0
-		"hull" 2000.0
+		"shields" 9600.0
+		"hull" 3600.0
 		"required crew" 4.0
 		"bunks" 8.0
-		"mass" 520.0
-		"drag" 10.0
+		"mass" 800.0
+		"drag" 11.2
 		"heat dissipation" .74
 		"fuel capacity" 1600.0
 		"cargo space" 40.0
@@ -64754,6 +64768,7 @@ ship "Ursa Polaris (T3)"
 	plural "Ursa Polaris"
 	sprite "ship/localworldship"
 	"administrative cost" 10
+	"never disabled"
 	attributes
 		category "Unclassified"
 		cost 571428.0
@@ -68304,6 +68319,7 @@ ship "Resja, of the Nine Eyes (T3)"
 	sprite "ship/resja of the nine eyes"
 	thumbnail "thumbnail/resja of the nine eyes"
 	"never disabled"
+	"administrative cost" 5
 	attributes
 		category "Medium Warship"
 		"cost" 220000000.0
@@ -68421,6 +68437,7 @@ ship "Hasur, Vowsworn (T3)"
 	sprite "ship/hasur vowsworn"
 	thumbnail "thumbnail/hasur vowsworn"
 	"never disabled"
+	"administrative cost" 4
 	attributes
 		category "Light Warship"
 		"cost" 220000000.0
@@ -68514,6 +68531,7 @@ ship "Queru, Luminous Gaze (T3)"
 	sprite "ship/queru luminous gaze"
 	thumbnail "thumbnail/queru luminous gaze"
 	"never disabled"
+	"administrative cost" 3
 	attributes
 		category "Light Warship"
 		"cost" 220000000.0
@@ -68608,6 +68626,7 @@ ship "Valkkyiara-Khorasaqra (T3)"
 	thumbnail "thumbnail/valkkyiara-khorasaqra"
 	"plural" "Valkkyiara-Khorasaqran"
 	"never disabled"
+	"administrative cost" 8
 	attributes
 		category "Medium Warship"
 		"cost" 1600000000.0
@@ -68919,6 +68938,7 @@ ship "Ejniisde-Khora (T3)"
 	plural "Ejniisden-Khora"
 	sprite "ship/ejniisde-khora"
 	thumbnail "thumbnail/ejniisde-khora"
+	"administrative cost" 5
 	attributes
 		licenses
 			"Successor"
@@ -70074,6 +70094,7 @@ ship "Vujlet-Usaqri (T3)"
 	plural "Vujleten-Usaqri"
 	sprite "ship/vujlet modified"
 	thumbnail "thumbnail/vujlet modified"
+	"administrative cost" 3
 	attributes
 		licenses
 			"High Houses"
@@ -82611,12 +82632,12 @@ ship "Berserker (T4)"
 	attributes
 		category "Interceptor"
 		"cost" 2600000.0
-		"shields" 11000.0
-		"hull" 2500.0
+		"shields" 12000.0
+		"hull" 4500.0
 		"required crew" 5.0
 		"bunks" 10.0
-		"mass" 650.0
-		"drag" 12.5
+		"mass" 1000.0
+		"drag" 14.0
 		"heat dissipation" .74
 		"fuel capacity" 2000.0
 		"cargo space" 50.0
@@ -92789,6 +92810,7 @@ ship "Ursa Polaris (T4)"
 	plural "Ursa Polaris"
 	sprite "ship/localworldship"
 	"administrative cost" 10
+	"never disabled"
 	attributes
 		category "Unclassified"
 		cost 714285.0
@@ -96670,6 +96692,7 @@ ship "Resja, of the Nine Eyes (T4)"
 	sprite "ship/resja of the nine eyes"
 	thumbnail "thumbnail/resja of the nine eyes"
 	"never disabled"
+	"administrative cost" 5
 	attributes
 		category "Medium Warship"
 		"cost" 275000000.0
@@ -96796,6 +96819,7 @@ ship "Hasur, Vowsworn (T4)"
 	sprite "ship/hasur vowsworn"
 	thumbnail "thumbnail/hasur vowsworn"
 	"never disabled"
+	"administrative cost" 4
 	attributes
 		category "Light Warship"
 		"cost" 275000000.0
@@ -96893,6 +96917,7 @@ ship "Queru, Luminous Gaze (T4)"
 	sprite "ship/queru luminous gaze"
 	thumbnail "thumbnail/queru luminous gaze"
 	"never disabled"
+	"administrative cost" 3
 	attributes
 		category "Light Warship"
 		"cost" 275000000.0
@@ -96991,6 +97016,7 @@ ship "Valkkyiara-Khorasaqra (T4)"
 	thumbnail "thumbnail/valkkyiara-khorasaqra"
 	"plural" "Valkkyiara-Khorasaqran"
 	"never disabled"
+	"administrative cost" 8
 	attributes
 		category "Medium Warship"
 		"cost" 2000000000.0
@@ -97322,6 +97348,7 @@ ship "Ejniisde-Khora (T4)"
 	plural "Ejniisden-Khora"
 	sprite "ship/ejniisde-khora"
 	thumbnail "thumbnail/ejniisde-khora"
+	"administrative cost" 5
 	attributes
 		licenses
 			"Successor"
@@ -98534,6 +98561,7 @@ ship "Vujlet-Usaqri (T4)"
 	plural "Vujleten-Usaqri"
 	sprite "ship/vujlet modified"
 	thumbnail "thumbnail/vujlet modified"
+	"administrative cost" 3
 	attributes
 		licenses
 			"High Houses"
@@ -112139,12 +112167,12 @@ ship "Berserker (T5)"
 	attributes
 		category "Interceptor"
 		"cost" 3120000.0
-		"shields" 13200.0
-		"hull" 3000.0
+		"shields" 14400.0
+		"hull" 5400.0
 		"required crew" 6.0
 		"bunks" 12.0
-		"mass" 780.0
-		"drag" 15.0
+		"mass" 1200.0
+		"drag" 16.799999999999997
 		"heat dissipation" .74
 		"fuel capacity" 2400.0
 		"cargo space" 60.0
@@ -123241,6 +123269,7 @@ ship "Ursa Polaris (T5)"
 	plural "Ursa Polaris"
 	sprite "ship/localworldship"
 	"administrative cost" 10
+	"never disabled"
 	attributes
 		category "Unclassified"
 		cost 857142.0
@@ -127453,6 +127482,7 @@ ship "Resja, of the Nine Eyes (T5)"
 	sprite "ship/resja of the nine eyes"
 	thumbnail "thumbnail/resja of the nine eyes"
 	"never disabled"
+	"administrative cost" 5
 	attributes
 		category "Medium Warship"
 		"cost" 330000000.0
@@ -127588,6 +127618,7 @@ ship "Hasur, Vowsworn (T5)"
 	sprite "ship/hasur vowsworn"
 	thumbnail "thumbnail/hasur vowsworn"
 	"never disabled"
+	"administrative cost" 4
 	attributes
 		category "Light Warship"
 		"cost" 330000000.0
@@ -127689,6 +127720,7 @@ ship "Queru, Luminous Gaze (T5)"
 	sprite "ship/queru luminous gaze"
 	thumbnail "thumbnail/queru luminous gaze"
 	"never disabled"
+	"administrative cost" 3
 	attributes
 		category "Light Warship"
 		"cost" 330000000.0
@@ -127791,6 +127823,7 @@ ship "Valkkyiara-Khorasaqra (T5)"
 	thumbnail "thumbnail/valkkyiara-khorasaqra"
 	"plural" "Valkkyiara-Khorasaqran"
 	"never disabled"
+	"administrative cost" 8
 	attributes
 		category "Medium Warship"
 		"cost" 2400000000.0
@@ -128142,6 +128175,7 @@ ship "Ejniisde-Khora (T5)"
 	plural "Ejniisden-Khora"
 	sprite "ship/ejniisde-khora"
 	thumbnail "thumbnail/ejniisde-khora"
+	"administrative cost" 5
 	attributes
 		licenses
 			"Successor"
@@ -129411,6 +129445,7 @@ ship "Vujlet-Usaqri (T5)"
 	plural "Vujleten-Usaqri"
 	sprite "ship/vujlet modified"
 	thumbnail "thumbnail/vujlet modified"
+	"administrative cost" 3
 	attributes
 		licenses
 			"High Houses"
@@ -144084,12 +144119,12 @@ ship "Berserker (T6)"
 	attributes
 		category "Interceptor"
 		"cost" 3640000.0
-		"shields" 15400.0
-		"hull" 3500.0
+		"shields" 16800.0
+		"hull" 6300.0
 		"required crew" 7.0
 		"bunks" 14.0
-		"mass" 910.0
-		"drag" 17.5
+		"mass" 1400.0
+		"drag" 19.599999999999998
 		"heat dissipation" .74
 		"fuel capacity" 2800.0
 		"cargo space" 70.0
@@ -156110,6 +156145,7 @@ ship "Ursa Polaris (T6)"
 	plural "Ursa Polaris"
 	sprite "ship/localworldship"
 	"administrative cost" 10
+	"never disabled"
 	attributes
 		category "Unclassified"
 		cost 999999.0
@@ -160653,6 +160689,7 @@ ship "Resja, of the Nine Eyes (T6)"
 	sprite "ship/resja of the nine eyes"
 	thumbnail "thumbnail/resja of the nine eyes"
 	"never disabled"
+	"administrative cost" 5
 	attributes
 		category "Medium Warship"
 		"cost" 385000000.0
@@ -160797,6 +160834,7 @@ ship "Hasur, Vowsworn (T6)"
 	sprite "ship/hasur vowsworn"
 	thumbnail "thumbnail/hasur vowsworn"
 	"never disabled"
+	"administrative cost" 4
 	attributes
 		category "Light Warship"
 		"cost" 385000000.0
@@ -160902,6 +160940,7 @@ ship "Queru, Luminous Gaze (T6)"
 	sprite "ship/queru luminous gaze"
 	thumbnail "thumbnail/queru luminous gaze"
 	"never disabled"
+	"administrative cost" 3
 	attributes
 		category "Light Warship"
 		"cost" 385000000.0
@@ -161008,6 +161047,7 @@ ship "Valkkyiara-Khorasaqra (T6)"
 	thumbnail "thumbnail/valkkyiara-khorasaqra"
 	"plural" "Valkkyiara-Khorasaqran"
 	"never disabled"
+	"administrative cost" 8
 	attributes
 		category "Medium Warship"
 		"cost" 2800000000.0
@@ -161379,6 +161419,7 @@ ship "Ejniisde-Khora (T6)"
 	plural "Ejniisden-Khora"
 	sprite "ship/ejniisde-khora"
 	thumbnail "thumbnail/ejniisde-khora"
+	"administrative cost" 5
 	attributes
 		licenses
 			"Successor"
@@ -162705,6 +162746,7 @@ ship "Vujlet-Usaqri (T6)"
 	plural "Vujleten-Usaqri"
 	sprite "ship/vujlet modified"
 	thumbnail "thumbnail/vujlet modified"
+	"administrative cost" 3
 	attributes
 		licenses
 			"High Houses"
@@ -178446,12 +178488,12 @@ ship "Berserker (T7)"
 	attributes
 		category "Interceptor"
 		"cost" 4160000.0
-		"shields" 17600.0
-		"hull" 4000.0
+		"shields" 19200.0
+		"hull" 7200.0
 		"required crew" 8.0
 		"bunks" 16.0
-		"mass" 1040.0
-		"drag" 20.0
+		"mass" 1600.0
+		"drag" 22.4
 		"heat dissipation" .74
 		"fuel capacity" 3200.0
 		"cargo space" 80.0
@@ -191396,6 +191438,7 @@ ship "Ursa Polaris (T7)"
 	plural "Ursa Polaris"
 	sprite "ship/localworldship"
 	"administrative cost" 10
+	"never disabled"
 	attributes
 		category "Unclassified"
 		cost 1142856.0
@@ -196270,6 +196313,7 @@ ship "Resja, of the Nine Eyes (T7)"
 	sprite "ship/resja of the nine eyes"
 	thumbnail "thumbnail/resja of the nine eyes"
 	"never disabled"
+	"administrative cost" 5
 	attributes
 		category "Medium Warship"
 		"cost" 440000000.0
@@ -196423,6 +196467,7 @@ ship "Hasur, Vowsworn (T7)"
 	sprite "ship/hasur vowsworn"
 	thumbnail "thumbnail/hasur vowsworn"
 	"never disabled"
+	"administrative cost" 4
 	attributes
 		category "Light Warship"
 		"cost" 440000000.0
@@ -196532,6 +196577,7 @@ ship "Queru, Luminous Gaze (T7)"
 	sprite "ship/queru luminous gaze"
 	thumbnail "thumbnail/queru luminous gaze"
 	"never disabled"
+	"administrative cost" 3
 	attributes
 		category "Light Warship"
 		"cost" 440000000.0
@@ -196642,6 +196688,7 @@ ship "Valkkyiara-Khorasaqra (T7)"
 	thumbnail "thumbnail/valkkyiara-khorasaqra"
 	"plural" "Valkkyiara-Khorasaqran"
 	"never disabled"
+	"administrative cost" 8
 	attributes
 		category "Medium Warship"
 		"cost" 3200000000.0
@@ -197033,6 +197080,7 @@ ship "Ejniisde-Khora (T7)"
 	plural "Ejniisden-Khora"
 	sprite "ship/ejniisde-khora"
 	thumbnail "thumbnail/ejniisde-khora"
+	"administrative cost" 5
 	attributes
 		licenses
 			"Successor"
@@ -198416,6 +198464,7 @@ ship "Vujlet-Usaqri (T7)"
 	plural "Vujleten-Usaqri"
 	sprite "ship/vujlet modified"
 	thumbnail "thumbnail/vujlet modified"
+	"administrative cost" 3
 	attributes
 		licenses
 			"High Houses"
@@ -215225,12 +215274,12 @@ ship "Berserker (T8)"
 	attributes
 		category "Interceptor"
 		"cost" 4680000.0
-		"shields" 19800.0
-		"hull" 4500.0
+		"shields" 21600.0
+		"hull" 8100.0
 		"required crew" 9.0
 		"bunks" 18.0
-		"mass" 1170.0
-		"drag" 22.5
+		"mass" 1800.0
+		"drag" 25.2
 		"heat dissipation" .74
 		"fuel capacity" 3600.0
 		"cargo space" 90.0
@@ -229099,6 +229148,7 @@ ship "Ursa Polaris (T8)"
 	plural "Ursa Polaris"
 	sprite "ship/localworldship"
 	"administrative cost" 10
+	"never disabled"
 	attributes
 		category "Unclassified"
 		cost 1285713.0
@@ -234304,6 +234354,7 @@ ship "Resja, of the Nine Eyes (T8)"
 	sprite "ship/resja of the nine eyes"
 	thumbnail "thumbnail/resja of the nine eyes"
 	"never disabled"
+	"administrative cost" 5
 	attributes
 		category "Medium Warship"
 		"cost" 495000000.0
@@ -234466,6 +234517,7 @@ ship "Hasur, Vowsworn (T8)"
 	sprite "ship/hasur vowsworn"
 	thumbnail "thumbnail/hasur vowsworn"
 	"never disabled"
+	"administrative cost" 4
 	attributes
 		category "Light Warship"
 		"cost" 495000000.0
@@ -234579,6 +234631,7 @@ ship "Queru, Luminous Gaze (T8)"
 	sprite "ship/queru luminous gaze"
 	thumbnail "thumbnail/queru luminous gaze"
 	"never disabled"
+	"administrative cost" 3
 	attributes
 		category "Light Warship"
 		"cost" 495000000.0
@@ -234693,6 +234746,7 @@ ship "Valkkyiara-Khorasaqra (T8)"
 	thumbnail "thumbnail/valkkyiara-khorasaqra"
 	"plural" "Valkkyiara-Khorasaqran"
 	"never disabled"
+	"administrative cost" 8
 	attributes
 		category "Medium Warship"
 		"cost" 3600000000.0
@@ -235104,6 +235158,7 @@ ship "Ejniisde-Khora (T8)"
 	plural "Ejniisden-Khora"
 	sprite "ship/ejniisde-khora"
 	thumbnail "thumbnail/ejniisde-khora"
+	"administrative cost" 5
 	attributes
 		licenses
 			"Successor"
@@ -236544,6 +236599,7 @@ ship "Vujlet-Usaqri (T8)"
 	plural "Vujleten-Usaqri"
 	sprite "ship/vujlet modified"
 	thumbnail "thumbnail/vujlet modified"
+	"administrative cost" 3
 	attributes
 		licenses
 			"High Houses"
@@ -254421,12 +254477,12 @@ ship "Berserker (T9)"
 	attributes
 		category "Interceptor"
 		"cost" 5200000.0
-		"shields" 22000.0
-		"hull" 5000.0
+		"shields" 24000.0
+		"hull" 9000.0
 		"required crew" 10.0
 		"bunks" 20.0
-		"mass" 1300.0
-		"drag" 25.0
+		"mass" 2000.0
+		"drag" 28.0
 		"heat dissipation" .74
 		"fuel capacity" 4000.0
 		"cargo space" 100.0
@@ -269219,6 +269275,7 @@ ship "Ursa Polaris (T9)"
 	plural "Ursa Polaris"
 	sprite "ship/localworldship"
 	"administrative cost" 10
+	"never disabled"
 	attributes
 		category "Unclassified"
 		cost 1428570.0
@@ -274755,6 +274812,7 @@ ship "Resja, of the Nine Eyes (T9)"
 	sprite "ship/resja of the nine eyes"
 	thumbnail "thumbnail/resja of the nine eyes"
 	"never disabled"
+	"administrative cost" 5
 	attributes
 		category "Medium Warship"
 		"cost" 550000000.0
@@ -274926,6 +274984,7 @@ ship "Hasur, Vowsworn (T9)"
 	sprite "ship/hasur vowsworn"
 	thumbnail "thumbnail/hasur vowsworn"
 	"never disabled"
+	"administrative cost" 4
 	attributes
 		category "Light Warship"
 		"cost" 550000000.0
@@ -275043,6 +275102,7 @@ ship "Queru, Luminous Gaze (T9)"
 	sprite "ship/queru luminous gaze"
 	thumbnail "thumbnail/queru luminous gaze"
 	"never disabled"
+	"administrative cost" 3
 	attributes
 		category "Light Warship"
 		"cost" 550000000.0
@@ -275161,6 +275221,7 @@ ship "Valkkyiara-Khorasaqra (T9)"
 	thumbnail "thumbnail/valkkyiara-khorasaqra"
 	"plural" "Valkkyiara-Khorasaqran"
 	"never disabled"
+	"administrative cost" 8
 	attributes
 		category "Medium Warship"
 		"cost" 4000000000.0
@@ -275592,6 +275653,7 @@ ship "Ejniisde-Khora (T9)"
 	plural "Ejniisden-Khora"
 	sprite "ship/ejniisde-khora"
 	thumbnail "thumbnail/ejniisde-khora"
+	"administrative cost" 5
 	attributes
 		licenses
 			"Successor"
@@ -277089,6 +277151,7 @@ ship "Vujlet-Usaqri (T9)"
 	plural "Vujleten-Usaqri"
 	sprite "ship/vujlet modified"
 	thumbnail "thumbnail/vujlet modified"
+	"administrative cost" 3
 	attributes
 		licenses
 			"High Houses"
@@ -296034,12 +296097,12 @@ ship "Berserker (T10)"
 	attributes
 		category "Interceptor"
 		"cost" 5720000.0
-		"shields" 24200.0
-		"hull" 5500.0
+		"shields" 26400.0
+		"hull" 9900.0
 		"required crew" 11.0
 		"bunks" 22.0
-		"mass" 1430.0
-		"drag" 27.5
+		"mass" 2200.0
+		"drag" 30.799999999999997
 		"heat dissipation" .74
 		"fuel capacity" 4400.0
 		"cargo space" 110.0
@@ -311756,6 +311819,7 @@ ship "Ursa Polaris (T10)"
 	plural "Ursa Polaris"
 	sprite "ship/localworldship"
 	"administrative cost" 10
+	"never disabled"
 	attributes
 		category "Unclassified"
 		cost 1571427.0
@@ -317623,6 +317687,7 @@ ship "Resja, of the Nine Eyes (T10)"
 	sprite "ship/resja of the nine eyes"
 	thumbnail "thumbnail/resja of the nine eyes"
 	"never disabled"
+	"administrative cost" 5
 	attributes
 		category "Medium Warship"
 		"cost" 605000000.0
@@ -317803,6 +317868,7 @@ ship "Hasur, Vowsworn (T10)"
 	sprite "ship/hasur vowsworn"
 	thumbnail "thumbnail/hasur vowsworn"
 	"never disabled"
+	"administrative cost" 4
 	attributes
 		category "Light Warship"
 		"cost" 605000000.0
@@ -317924,6 +317990,7 @@ ship "Queru, Luminous Gaze (T10)"
 	sprite "ship/queru luminous gaze"
 	thumbnail "thumbnail/queru luminous gaze"
 	"never disabled"
+	"administrative cost" 3
 	attributes
 		category "Light Warship"
 		"cost" 605000000.0
@@ -318046,6 +318113,7 @@ ship "Valkkyiara-Khorasaqra (T10)"
 	thumbnail "thumbnail/valkkyiara-khorasaqra"
 	"plural" "Valkkyiara-Khorasaqran"
 	"never disabled"
+	"administrative cost" 8
 	attributes
 		category "Medium Warship"
 		"cost" 4400000000.0
@@ -318497,6 +318565,7 @@ ship "Ejniisde-Khora (T10)"
 	plural "Ejniisden-Khora"
 	sprite "ship/ejniisde-khora"
 	thumbnail "thumbnail/ejniisde-khora"
+	"administrative cost" 5
 	attributes
 		licenses
 			"Successor"
@@ -320051,6 +320120,7 @@ ship "Vujlet-Usaqri (T10)"
 	plural "Vujleten-Usaqri"
 	sprite "ship/vujlet modified"
 	thumbnail "thumbnail/vujlet modified"
+	"administrative cost" 3
 	attributes
 		licenses
 			"High Houses"

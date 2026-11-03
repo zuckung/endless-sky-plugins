@@ -4061,10 +4061,18 @@ mission "Mission Helper"
 					to display
 						not "Lost Racer 2 - Continued: offered"
 					goto "Lost Racer 2 - Continued"
+				`Lost Racer 2 - Deadline`
+					to display
+						not "Lost Racer 2 - Deadline: offered"
+					goto "Lost Racer 2 - Deadline"
 				`Lost Racer 2 - Failed`
 					to display
 						not "Lost Racer 2 - Failed: offered"
 					goto "Lost Racer 2 - Failed"
+				`Lost Racer 2 - August Reached Glory`
+					to display
+						not "Lost Racer 2 - August Reached Glory: offered"
+					goto "Lost Racer 2 - August Reached Glory"
 				`Lost Racer 3`
 					to display
 						not "Lost Racer 3: offered"
@@ -6213,6 +6221,10 @@ mission "Mission Helper"
 					to display
 						not "Successors: Ghosts 14: offered"
 					goto "Successors: Ghosts 14"
+				`Successors: Ghosts 14 to 15 Patch`
+					to display
+						not "Successors: Ghosts 14 to 15 Patch: offered"
+					goto "Successors: Ghosts 14 to 15 Patch"
 				`Successors: Ghosts 15`
 					to display
 						not "Successors: Ghosts 15: offered"
@@ -14954,6 +14966,7 @@ mission "Mission Helper"
 			`	to offer`
 			`		has "First Contact: Unfettered: offered"`
 			`		not "Wanderers: Jump Drive Source: active"`
+			`		has "outfit (removable): Jump Drive"`
 			`	to fail`
 			`		has "event: wanderers: unfettered invasion starts"`
 			`	to complete`
@@ -14966,6 +14979,9 @@ mission "Mission Helper"
 			`not "Wanderers: Jump Drive Source: active"`
 				to display
 					not "Wanderers: Jump Drive Source: active"
+			`has "outfit (removable): Jump Drive"`
+				to display
+					has "outfit (removable): Jump Drive"
 			`has "event: wanderers: unfettered invasion starts"`
 				to display
 					has "event: wanderers: unfettered invasion starts"
@@ -14988,6 +15004,7 @@ mission "Mission Helper"
 			`	to offer`
 			`		has "Unfettered Jump Drive 1: offered"`
 			`		not "Wanderers: Jump Drive Source: active"`
+			`		has "outfit (removable): Jump Drive"`
 			`	to fail`
 			`		has "event: wanderers: unfettered invasion starts"`
 			`	to complete`
@@ -15000,6 +15017,9 @@ mission "Mission Helper"
 			`not "Wanderers: Jump Drive Source: active"`
 				to display
 					not "Wanderers: Jump Drive Source: active"
+			`has "outfit (removable): Jump Drive"`
+				to display
+					has "outfit (removable): Jump Drive"
 			`has "event: wanderers: unfettered invasion starts"`
 				to display
 					has "event: wanderers: unfettered invasion starts"
@@ -15022,6 +15042,7 @@ mission "Mission Helper"
 			`	to offer`
 			`		has "Unfettered Jump Drive 2: offered"`
 			`		not "Wanderers: Jump Drive Source: active"`
+			`		has "outfit (removable): Jump Drive"`
 			``
 			`You have the following missions, events and conditions:`
 			`has "Unfettered Jump Drive 2: offered"`
@@ -15030,6 +15051,9 @@ mission "Mission Helper"
 			`not "Wanderers: Jump Drive Source: active"`
 				to display
 					not "Wanderers: Jump Drive Source: active"
+			`has "outfit (removable): Jump Drive"`
+				to display
+					has "outfit (removable): Jump Drive"
 			``
 			choice
 				`[back to "Hai | Unfettered 0 prologue""]`
@@ -15043,6 +15067,7 @@ mission "Mission Helper"
 			`starts at: landing`
 			`	source "Darkcloak"`
 			`	to offer`
+			`		has "outfit (removable): Jump Drive"`
 			`		has "Unfettered Jump Drive 3: offered"`
 			`		not "Wanderers: Jump Drive Source: active"`
 			`		not "Wanderers: Jump Drive Source: done"`
@@ -15052,6 +15077,9 @@ mission "Mission Helper"
 			`		random < 20 + 8 * "Unfettered Jump Drive 4: failed"`
 			``
 			`You have the following missions, events and conditions:`
+			`has "outfit (removable): Jump Drive"`
+				to display
+					has "outfit (removable): Jump Drive"
 			`has "Unfettered Jump Drive 3: offered"`
 				to display
 					has "Unfettered Jump Drive 3: offered"
@@ -26540,6 +26568,29 @@ mission "Mission Helper"
 					goto "human"
 				`[back to "Races"]`
 					goto "start"
+			label "Lost Racer 2 - Deadline"
+			`data\human\human missions.txt | mission "Lost Racer 2 - Deadline"`
+			`starts at: entering`
+			`	passengers 1`
+			`	to offer`
+			`		has "event: lost racer deadline"`
+			`		not "lost racer found artemis"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "event: lost racer deadline"`
+				to display
+					has "event: lost racer deadline"
+			`not "lost racer found artemis"`
+				to display
+					not "lost racer found artemis"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
 			label "Lost Racer 2 - Failed"
 			`data\human\human missions.txt | mission "Lost Racer 2 - Failed"`
 			`starts at: entering`
@@ -26547,13 +26598,32 @@ mission "Mission Helper"
 			`	source`
 			`		system "Acamar"`
 			`	to offer`
-			`		has "Lost Racer 2 - Continued: failed"`
+			`		not "lost racer august aborted"`
 			`		has "lost racer august to glory"`
 			``
 			`You have the following missions, events and conditions:`
-			`has "Lost Racer 2 - Continued: failed"`
+			`not "lost racer august aborted"`
 				to display
-					has "Lost Racer 2 - Continued: failed"
+					not "lost racer august aborted"
+			`has "lost racer august to glory"`
+				to display
+					has "lost racer august to glory"
+			``
+			choice
+				`[back to "Human | Human missions""]`
+					goto "human/human missions.txt"
+				`[back to "Human"]`
+					goto "human"
+				`[back to "Races"]`
+					goto "start"
+			label "Lost Racer 2 - August Reached Glory"
+			`data\human\human missions.txt | mission "Lost Racer 2 - August Reached Glory"`
+			`starts at: landing`
+			`	source "Glory"`
+			`	to offer`
+			`		has "lost racer august to glory"`
+			``
+			`You have the following missions, events and conditions:`
 			`has "lost racer august to glory"`
 				to display
 					has "lost racer august to glory"
@@ -26572,11 +26642,15 @@ mission "Mission Helper"
 			`	source "Sandswell"`
 			`	to offer`
 			`		has "Lost Racer 2 - Continued: done"`
+			`		not "event: lost racer deadline"`
 			``
 			`You have the following missions, events and conditions:`
 			`has "Lost Racer 2 - Continued: done"`
 				to display
 					has "Lost Racer 2 - Continued: done"
+			`not "event: lost racer deadline"`
+				to display
+					not "event: lost racer deadline"
 			``
 			choice
 				`[back to "Human | Human missions""]`
@@ -31881,7 +31955,7 @@ mission "Mission Helper"
 					goto "start"
 			label "Ka'het: Lightning in a Bottle 5"
 			`data\kahet\kahet missions.txt | mission "Ka'het: Lightning in a Bottle 5"`
-			`starts at: spaceport`
+			`starts at: landing`
 			`	source "Meligara"`
 			`	to offer`
 			`		has "Ka'het: Lightning in a Bottle 4A: done"`
@@ -31909,7 +31983,7 @@ mission "Mission Helper"
 					goto "start"
 			label "Ka'het: Lightning in a Bottle Epilogue 1"
 			`data\kahet\kahet missions.txt | mission "Ka'het: Lightning in a Bottle Epilogue 1"`
-			`starts at: spaceport`
+			`starts at: landing`
 			`	to offer`
 			`		has "Ka'het: Lightning in a Bottle 5: done"`
 			`		has "Ka'het: Voice From The Past 4: done"`
@@ -37668,6 +37742,28 @@ mission "Mission Helper"
 			`has "successors: ghosts entered kasii-sola"`
 				to display
 					has "successors: ghosts entered kasii-sola"
+			``
+			choice
+				`[back to "Successors | Successor 2 ghosts""]`
+					goto "successors/successor 2 ghosts.txt"
+				`[back to "Successors"]`
+					goto "successors"
+				`[back to "Races"]`
+					goto "start"
+			label "Successors: Ghosts 14 to 15 Patch"
+			`data\successors\successor 2 ghosts.txt | mission "Successors: Ghosts 14 to 15 Patch"`
+			`starts at: landing`
+			`	to offer`
+			`		has "Successors: Ghosts 15: done"`
+			`		not "successors: ghosts entered kasii-sola"`
+			``
+			`You have the following missions, events and conditions:`
+			`has "Successors: Ghosts 15: done"`
+				to display
+					has "Successors: Ghosts 15: done"
+			`not "successors: ghosts entered kasii-sola"`
+				to display
+					not "successors: ghosts entered kasii-sola"
 			``
 			choice
 				`[back to "Successors | Successor 2 ghosts""]`
