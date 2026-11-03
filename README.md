@@ -19,6 +19,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-11-03 | update: mission.helper<br>
 2026-11-02 | update: additional.command.buttons.radial<br>
 2026-10-04 | removed ship.cores plugindue to unsolvable script problems<br>
 2026-09-26 | update: ship.merging<br>
@@ -28,7 +29,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-09-13 | update: control.station<br>
 2026-09-10 | update: portable.outfitter<br>
 2026-09-05 | update: coalition.shopping<br>
-2026-09-03 | update: boss.loot<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -4392,10 +4392,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/mission.helper.png" width="130" height="20">
 <img src="myplugins/mission.helper/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.13-mission.helper/mission.helper.zip) 
-<img src="https://img.shields.io/badge/v1.0.13-707070"> 
-<img src="https://img.shields.io/badge/160.85_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--09--26-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.14-mission.helper/mission.helper.zip) 
+<img src="https://img.shields.io/badge/v1.0.14-707070"> 
+<img src="https://img.shields.io/badge/161.1_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--11--03-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=mission.helper-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/mission.helper/)
 [<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/mission.helper.md)<br>
@@ -4424,6 +4424,12 @@ Accept the job "(mission.helper)" and click your way to the mission you want mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-09-26<br>
+
+updated missions to 0.11.4<br>
 
 <br>
 
@@ -5642,6 +5648,12 @@ Reduce performance issues by reducing ship amounts or just make single ships mor
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-11-03<br>
+
+update to 0.11.4<br>
 
 <br>
 
