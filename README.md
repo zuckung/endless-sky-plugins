@@ -20,6 +20,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <tr>
 <td><img width="882" height="1"><br>
 2026-11-03 | update: ship.merging<br>
+2026-11-03 | update: mission.helper<br>
 2026-11-02 | update: additional.command.buttons.radial<br>
 2026-10-04 | removed ship.cores plugindue to unsolvable script problems<br>
 2026-09-26 | update: ship.merging<br>
@@ -28,7 +29,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-09-18 | update: show.reputation<br>
 2026-09-13 | update: control.station<br>
 2026-09-10 | update: portable.outfitter<br>
-2026-09-05 | update: coalition.shopping<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
