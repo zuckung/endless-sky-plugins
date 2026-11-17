@@ -53,7 +53,7 @@ mission "plugin: Show Person Ship List"
 			label "readme"
 			`Plugin README`
 			``
-			`Well, technically this plugin disables the person ships, and creates new ones which are captureable (with changed names to "<name> (C)", due to limitations of changing parts of the originals). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesn't flee. And changed "Zitchas" personality to "decloaked", so it doesn't flee and regenerate while cloaked.`
+			`New script mechanics make it possible, the person ships ar now overwritten, instead of rplaced :). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesn't flee. And changed "Zitchas" personality to "decloaked", so it doesn't flee and regenerate while cloaked.`
 			`Attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average 10 minutes.`
 			``
 			`At Earth's job board you can find a repeatable job that displays which persons you have already killed, which are alive, and where to find them.`

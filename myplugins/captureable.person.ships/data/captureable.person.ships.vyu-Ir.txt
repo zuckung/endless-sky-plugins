@@ -1,10 +1,8 @@
-# ship "vyu-Ir" "vyu-Ir(c)"
-# disable mission
-# mission "rework Relic of Pasts"
+# ship "vyu-Ir"
 
 
-
-ship "vyu-Ir" "vyu-Ir(c)"
+overwrite
+ship "vyu-Ir"
 	noun "entity"
 	sprite "ship/vyuir/vyuir"
 		"frame rate" 4
@@ -59,7 +57,6 @@ ship "vyu-Ir" "vyu-Ir(c)"
 		"Abyssal Composer"
 		"Fate Sealer" 2
 		"Fate Divider" 2
-		"Jump Drive" 1
 	engine 0 200
 	"steering engine" 0 200
 	"reverse engine" 0 200
@@ -77,18 +74,4 @@ ship "vyu-Ir" "vyu-Ir(c)"
 	description `The vyu-Ir is an ancient ship of the Vyu, one of several chambers of the Rulei. It is not known whether or not this was their final ship-class, or one of many, but the technology found on it may represent the height of the Rulei's advancements, as well as the cause of their downfall.`
 
 
-disable mission
-	"Relic of Pasts"
 
-mission "rework Relic of Pasts"
-	invisible
-	landing
-	to complete
-		never
-	on offer
-		fail "Relic of Pasts"
-	npc save
-		government "Rulei"
-		personality heroic vindictive staying mute unconstrained frugal
-		system "Kanguwa"
-		ship "vyu-Ir(c)" "Solemnity"

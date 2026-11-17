@@ -1,4 +1,4 @@
-# name                   freq  where       ship
+#   name                   freq  where       ship
 #	"Michael Zahniser"     1000  everywhere  kestrel + finch
 #	"Cap'n Pester"         1000  everywhere  quarg wardragon
 #	"Marauding Max"        1000  everywhere  marauder fury
@@ -17,101 +17,117 @@
 # 	"Danau"                1000  human space  1xmodified hauler IV, 2x hauler III, 2x hauler II, 2xhauler
 
 
+# person "Michael Zahniser"
+# ship "Kestrel" "Kestrel (MZ)"
+# ship "Finch" "Finch (MZ)"
+# person "Cap'n Pester"
+# ship "Wardragon"
+# person "Marauding Max"
+# person "Captain Nate"
+# ship "Vanguard" "Vanguard (Pointedstick)"
+# person "Tranquility"
+# ship "Lampyrid-Class Transport"
+# person "Power of the People"
+# ship "Modified Osprey"
+# person "Local God"
+# ship "Ursa Polaris"
+# person "Subsidurial"
+# ship "Subsidurial"
+# person "Rais Iris XVIII"
+# ship "Marauder Bactrian"
+# person "Zitchas"
+# person "Brick"
+# ship "Modified Boxwing"
+# person "Gefullte Taubenbrust"
+# ship "Modified Battleship"
+# person "MasterOfGrey"
+# ship "Modified Ladybug"
+# person "Patrol Team"
+# ship "Waverider"
+# person "Danau"
+# ship "Modified Hauler VI"
 
-disable person
-	"Michael Zahniser"
-	"Cap'n Pester"
-	"Marauding Max"
-	"Captain Nate"
-	"Tranquility"
-	"Power of the People"
-	"Local God"
-	"Subsidurial"
-	"Prototype B3-CC4"
-	"Rais Iris XVIII"
-	"Zitchas"
-	"Brick"
-	"Gefullte Taubenbrust"
-	"MasterOfGrey"
-	"Patrol Team"
-	"Danau"
 
 
-person "Michael Zahniser (C)"
+
+overwrite
+person "Michael Zahniser"
 	government "Author"
-	frequency 1000
 	personality
-		disables heroic surveillance
+		plunders
 	phrase
 		word
 			"I hope you're enjoying the game!"
-	ship Kestrel Kestrel
-		sprite "ship/kestreloriginal"
-		thumbnail "thumbnail/kestreloriginal"
-		attributes
-			category "Heavy Warship"
-			"cost" 50000000
-			"shields" 40000
-			"hull" 40000
-			"required crew" 400
-			"bunks" 500
-			"mass" 2270
-			"drag" 18.75
-			"heat dissipation" 0.3
-			"fuel capacity" 500
-			"cargo space" 200
-			"outfit space" 2400
-			"weapon capacity" 900
-			"engine capacity" 400
-		outfits
-			"Ion Cannon" 12
-			"Electron Turret" 4
-			"Heavy Anti-Missile Turret" 4
-
-			"Armageddon Core" 4
-			"LP036a Battery Pack"
-			"S-970 Regenerator" 6
-			"Liquid Helium Cooler" 5
-			"Catalytic Ramscoop"
-
-			"A860 Atomic Thruster"
-			"A865 Atomic Steering" 2
-			"Ionic Afterburner"
-			"Scram Drive"
-
-		engine -14 177
-		engine 14 177
-		gun -75 57 "Ion Cannon"
-		gun 75 57 "Ion Cannon"
-		gun -75 57 "Ion Cannon"
-		gun 75 57 "Ion Cannon"
-		gun -53 61 "Ion Cannon"
-		gun 53 61 "Ion Cannon"
-		gun -53 61 "Ion Cannon"
-		gun 53 61 "Ion Cannon"
-		gun -31 66 "Ion Cannon"
-		gun 31 66 "Ion Cannon"
-		gun -31 66 "Ion Cannon"
-		gun 31 66 "Ion Cannon"
-		turret -7 -4 "Electron Turret"
-		turret 7 -4 "Electron Turret"
-		turret -7 -4 "Heavy Anti-Missile Turret"
-		turret 7 -4 "Heavy Anti-Missile Turret"
-		turret -23 14 "Electron Turret"
-		turret 23 14 "Electron Turret"
-		turret -23 14 "Heavy Anti-Missile Turret"
-		turret 23 14 "Heavy Anti-Missile Turret"
-		bay "Fighter" -46 106 under
-			"launch effect" "human internal"
-		bay "Fighter" 46 106 under
-			"launch effect" "human internal"
-		explode "small explosion" 50
-		explode "medium explosion" 80
-		explode "large explosion" 120
-		explode "huge explosion" 60
+	ship "Kestrel (MZ)"
 	ship "Finch (MZ)" "Vapor"
 	ship "Finch (MZ)" "Cipher"
 
+
+overwrite
+ship "Kestrel" "Kestrel (MZ)"
+	sprite "ship/kestreloriginal"
+	thumbnail "thumbnail/kestreloriginal"
+	attributes
+		category "Heavy Warship"
+		"cost" 50000000
+		"shields" 40000
+		"hull" 40000
+		"required crew" 400
+		"bunks" 500
+		"mass" 2270
+		"drag" 18.75
+		"heat dissipation" 0.3
+		"fuel capacity" 500
+		"cargo space" 200
+		"outfit space" 2400
+		"weapon capacity" 900
+		"engine capacity" 400
+	outfits
+		"Ion Cannon" 12
+		"Electron Turret" 4
+		"Heavy Anti-Missile Turret" 4
+		"Armageddon Core" 4
+		"LP036a Battery Pack"
+		"S-970 Regenerator" 6
+		"Liquid Helium Cooler" 5
+		"Catalytic Ramscoop"
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering" 2
+		"Ionic Afterburner"
+		"Scram Drive"
+	engine -14 177
+	engine 14 177
+	gun -75 57 "Ion Cannon"
+	gun 75 57 "Ion Cannon"
+	gun -75 57 "Ion Cannon"
+	gun 75 57 "Ion Cannon"
+	gun -53 61 "Ion Cannon"
+	gun 53 61 "Ion Cannon"
+	gun -53 61 "Ion Cannon"
+	gun 53 61 "Ion Cannon"
+	gun -31 66 "Ion Cannon"
+	gun 31 66 "Ion Cannon"
+	gun -31 66 "Ion Cannon"
+	gun 31 66 "Ion Cannon"
+	turret -7 -4 "Electron Turret"
+	turret 7 -4 "Electron Turret"
+	turret -7 -4 "Heavy Anti-Missile Turret"
+	turret 7 -4 "Heavy Anti-Missile Turret"
+	turret -23 14 "Electron Turret"
+	turret 23 14 "Electron Turret"
+	turret -23 14 "Heavy Anti-Missile Turret"
+	turret 23 14 "Heavy Anti-Missile Turret"
+	bay "Fighter" -46 106 under
+		"launch effect" "human internal"
+	bay "Fighter" 46 106 under
+		"launch effect" "human internal"
+	explode "small explosion" 50
+	explode "medium explosion" 80
+	explode "large explosion" 120
+	explode "huge explosion" 60
+
+
+overwrite
 ship "Finch" "Finch (MZ)"
 	add attributes
 		"shields" 900
@@ -121,56 +137,95 @@ ship "Finch" "Finch (MZ)"
 		"engine capacity" 22
 	outfits
 		"Electron Beam" 2
-
 		"Fuel Pod"
 		"Liquid Nitrogen Cooler"
 		"Large Radar Jammer"
 		"Ramscoop"
 		"S-270 Regenerator"
-
 		"LP036a Battery Pack"
 		"Fission Reactor"
-
 		"A125 Atomic Steering"
 		"A120 Atomic Thruster"
 		"Ionic Afterburner"
+	gun
+	gun "Electron Beam"
+	gun "Electron Beam"
 
 
-person "Cap'n Pester (C)"
+overwrite
+person "Cap'n Pester"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
+		surveillance
 	phrase
 		phrase
 			"friendly author"
-	ship "Quarg Wardragon" "Quarg Wardragon"
-		add attributes
-			"outfit space" 70
-			"engine capacity" 20
-			"weapon capacity" 20
-		outfits
-			"Quarg Skylance" 2
-			"Quarg Anti-Missile" 2
-
-			"Antimatter Core"
-			"Nanotech Battery"
-			"Quantum Shield Generator"
-			"Intrusion Countermeasures" 160
-			"Cargo Scanner"
-			"Outfit Scanner"
-			"Wanderer Ramscoop"
-
-			"Medium Graviton Thruster"
-			"Medium Graviton Steering"
-			"Scram Drive"
+	ship "Wardragon"
 
 
-person "Marauding Max (C)"
+overwrite
+ship "Wardragon"
+	sprite "ship/wardragon"
+	thumbnail "thumbnail/wardragon"
+	"administrative cost" 11
+	attributes
+		category "Heavy Warship"
+		"cost" 5900000
+		"shields" 160000
+		"hull" 50000
+		"required crew" 160
+		"bunks" 185
+		"mass" 840
+		"drag" 14
+		"heat dissipation" .34
+		"fuel capacity" 800
+		"cargo space" 50
+		"outfit space" 610
+		"weapon capacity" 200
+		"engine capacity" 120
+		"hull repair rate" 5
+		"hull energy" 5
+		"ramscoop" 10
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Quarg Skylance" 2
+		"Quarg Anti-Missile" 2
+		"Antimatter Core"
+		"Nanotech Battery"
+		"Quantum Shield Generator"
+		"Intrusion Countermeasures" 160
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Wanderer Ramscoop"
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Scram Drive"
+	engine -14 47
+	engine 14 47
+	turret -9 -14 "Quarg Anti-Missile"
+	turret 9 -14 "Quarg Anti-Missile"
+	turret -28 7 "Quarg Skylance"
+	turret 28 7 "Quarg Skylance"
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description "The origin of this Wardragon is shrouded in mystery. It was said that the Quarg once used this ship as a powerful light warship. Other sources suggest that it was used as a front-line heavy warship. One thing is for certain though, and that's its design is far different than any Quarg ship that exists today, and one can only question where it came from."
+
+
+overwrite
+person "Marauding Max"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
+		surveillance unconstrained harvests
 	phrase
 		word
 			"Do you think you "
@@ -230,11 +285,12 @@ person "Marauding Max (C)"
 	ship "Marauder Fury" "Mad Quest"
 
 
-person "Captain Nate (C)"
+overwrite
+person "Captain Nate"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
+		vindictive heroic
 	phrase
 		phrase
 			"friendly author"
@@ -254,7 +310,6 @@ person "Captain Nate (C)"
 			"It's not a tumor!"
 			"There IS no bathroom!!!"
 			"You're a freakin' choirboy compared to me, a choirboy!!!!"
-
 	phrase
 		word
 			"Do you have a problem?"
@@ -276,102 +331,102 @@ person "Captain Nate (C)"
 			"Ram them!"
 			"Ram them again!"
 			"Accelerate to Waaagh velocity!"
-
 	phrase
 		word
 			"When you need to make your point, stick to Pointedstick Communications Inc.!"
 			"Pointedstick Communications: making the galaxy a more verbose place, one commit at a time!"
 			`Pointedstick Inc.: "Sharpen your communication skills!"`
 			`Pointedstick Inc.: "Our products are simply so good that no one feels the need to compete with us!"`
-			"Did you know that you can hail a ship over and over again, and you'll get a different reply each time?"
+			"Did you know that you can hail a ship over and over again and you'll get a different reply each time?"
 			"Don't you have a cargo of antique grandfather clocks or something to deliver somewhere?"
 			"Need as well as greed have followed us to the stars, and the rewards of wealth still await those wise enough to recognize this deep thrumming of our common pulse."
-
-	ship Vanguard "Pointedstick"
-		sprite "ship/pointedstick vanguard"
-		attributes
-			category "Heavy Warship"
-			"cost" 7200000
-			"shields" 20000
-			"hull" 8000
-			"required crew" 23
-			"bunks" 45
-			"mass" 1357.5
-			"drag" 12
-			"heat dissipation" .4
-			"fuel capacity" 400
-			"cargo space" 50
-			"outfit space" 1215
-			"weapon capacity" 450
-			"engine capacity" 330
-			weapon
-				"blast radius" 160
-				"shield damage" 1600
-				"hull damage" 800
-				"hit force" 2400
-		outfits
-			"Proton Gun" 11
-			"Heavy Rocket Launcher" 4
-			"Heavy Rocket" 400
-			"Anti-Missile Turret"
-
-			"Armageddon Core" 2
-			"KP-6 Photovoltaic Array" 4
-			"LP072a Battery Pack"
-			"D67-TM Shield Generator" 2
-			"Liquid Helium Cooler" 2
-
-			"A860 Atomic Thruster"
-			"A865 Atomic Steering"
-			"Ionic Afterburner"
-			"Hyperdrive"
-
-		engine -31.5 130.5 0.7
-		engine 31.5 130.5 0.7
-		engine 0 130.5 0.7
-		gun 0 -130.5 "Proton Gun"
-			parallel
-		gun 0 -130.5 "Proton Gun"
-			parallel
-		gun 0 -130.5 "Proton Gun"
-			parallel
-		gun -24 -122 "Heavy Rocket Launcher"
-			parallel
-		gun -24 -122 "Heavy Rocket Launcher"
-			parallel
-		gun 24 -122 "Heavy Rocket Launcher"
-			parallel
-		gun 24 -122 "Heavy Rocket Launcher"
-			parallel
-		gun -40 -46 "Proton Gun"
-			parallel
-		gun -40 -46 "Proton Gun"
-			parallel
-		gun 40 -46 "Proton Gun"
-			parallel
-		gun 40 -46 "Proton Gun"
-			parallel
-		gun -34.5 -43 "Proton Gun"
-			parallel
-		gun -34.5 -43 "Proton Gun"
-			parallel
-		gun 34.5 -43 "Proton Gun"
-			parallel
-		gun 34.5 -43 "Proton Gun"
-			parallel
-		turret 0 42 "Anti-Missile Turret"
-		explode "tiny explosion" 18
-		explode "small explosion" 36
-		explode "medium explosion" 24
-		explode "large explosion" 8
-		"final explode" "final explosion large"
+	ship "Vanguard (Pointedstick)"
 
 
-person "Tranquility (C)"
+overwrite
+ship "Vanguard" "Vanguard (Pointedstick)"
+	sprite "ship/pointedstick vanguard"
+	attributes
+		category "Heavy Warship"
+		"cost" 7200000
+		"shields" 20000
+		"hull" 8000
+		"required crew" 23
+		"bunks" 45
+		"mass" 1357.5
+		"drag" 12
+		"heat dissipation" .4
+		"fuel capacity" 400
+		"cargo space" 50
+		"outfit space" 1215
+		"weapon capacity" 450
+		"engine capacity" 330
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
+	outfits
+		"Proton Gun" 11
+		"Heavy Rocket Launcher" 4
+		"Heavy Rocket" 400
+		"Anti-Missile Turret"
+		"Armageddon Core" 2
+		"KP-6 Photovoltaic Array" 4
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator" 2
+		"Liquid Helium Cooler" 2
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Ionic Afterburner"
+		"Hyperdrive"
+	engine -31.5 130.5 0.7
+	engine 31.5 130.5 0.7
+	engine 0 130.5 0.7
+	gun 0 -130.5 "Proton Gun"
+		parallel
+	gun 0 -130.5 "Proton Gun"
+		parallel
+	gun 0 -130.5 "Proton Gun"
+		parallel
+	gun -24 -122 "Heavy Rocket Launcher"
+		parallel
+	gun -24 -122 "Heavy Rocket Launcher"
+		parallel
+	gun 24 -122 "Heavy Rocket Launcher"
+		parallel
+	gun 24 -122 "Heavy Rocket Launcher"
+		parallel
+	gun -40 -46 "Proton Gun"
+		parallel
+	gun -40 -46 "Proton Gun"
+		parallel
+	gun 40 -46 "Proton Gun"
+		parallel
+	gun 40 -46 "Proton Gun"
+		parallel
+	gun -34.5 -43 "Proton Gun"
+		parallel
+	gun -34.5 -43 "Proton Gun"
+		parallel
+	gun 34.5 -43 "Proton Gun"
+		parallel
+	gun 34.5 -43 "Proton Gun"
+		parallel
+	turret 0 42 "Anti-Missile Turret"
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+
+
+overwrite
+person "Tranquility"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
+		timid
 	phrase
 		word
 			"They tell ya never to hit a man with a closed fist, but it is on occasion hilarious."
@@ -397,9 +452,11 @@ person "Tranquility (C)"
 			"I'm a dangerous-minded man on a ship loaded with hurt."
 	ship "Lampyrid-Class Transport" "Tranquility"
 
+
 ship "Lampyrid-Class Transport"
 	sprite "ship/lampyrid"
 	thumbnail "thumbnail/lampyrid"
+	"administrative cost" 2
 	attributes
 		category "Heavy Freighter"
 		cost 2760000
@@ -426,12 +483,11 @@ ship "Lampyrid-Class Transport"
 		"D67-TM Shield Generator"
 		"Large Radar Jammer"
 		"Ramscoop"
-		"Energy Blaster"
 		"Impala Plasma Thruster"
 		"Impala Plasma Steering"
+		"Energy Blaster"
 		"Hyperdrive"
-
-	gun 0 -119 "Energy Blaster"
+	gun 0 0
 	engine -64 28 0.7
 	engine 0 80 1.8
 	engine 0 100 1.2
@@ -455,11 +511,12 @@ ship "Lampyrid-Class Transport"
 	"final explode" "final explosion medium" 1
 
 
-person "Power of the People (C)"
+overwrite
+person "Power of the People"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
+		mining harvests opportunistic frugal unconstrained
 	phrase
 		phrase
 			"friendly author"
@@ -484,8 +541,7 @@ person "Power of the People (C)"
 			"Take it from me: "
 			"A word of caution: "
 			"A piece of advice: "
-			""
-			""
+			"" 2
 		word
 			"If you think the other guy might have a blaster hidden under the table... bring two blasters."
 			"I'm a team player. As long as the rest of the team stays behind me."
@@ -542,14 +598,103 @@ person "Power of the People (C)"
 			`"Negative. I am a meat popsicle."`
 			`"How 'bout a bumper sandwich, Boogerlips?"`
 			`"I recommend the lobster."`
-	ship "Modified Osprey" "Power of the People"
+	ship "Modified Osprey"
+	
+
+overwrite
+ship "Modified Osprey"
+	sprite "ship/mosprey"
+	"administrative cost" 8
+	swizzle 3
+	attributes
+		category "Heavy Warship"
+		"cost" 44000000
+		"shields" 41000
+		"shield generation" 10
+		"hull" 27500
+		"hull repair rate" 10
+		"required crew" 189
+		"bunks" 240
+		"mass" 1416
+		"drag" 22.65
+		"heat dissipation" .4
+		"fuel capacity" 625
+		"cargo space" 80
+		"outfit space" 2172
+		"weapon capacity" 851
+		"engine capacity" 499
+		"afterburner fuel" -.678
+		"afterburner heat" -30
+		"ramscoop" 6
+		weapon
+			"blast radius" 750
+			"shield damage" 7000
+			"hull damage" 3500
+			"heat damage" 24000
+			"ion damage" 24000
+			"scrambling damage" 24000
+			"disruption damage" 1200
+			"hit force" 30000
+	outfits
+		"Nuclear Missile"
+		"Husk-Slice" 4
+		"Korath Detainer" 4
+		"Finisher Pod" 2
+		"Finisher Torpedo" 200
+		"Shield Disruptor Turret" 2
+		"Heliarch Repulsor" 2
+		"Point Defense Turret" 3
+		"Blue Sun Reactor" 3
+		"Red Sun Reactor"
+		"Dark Storm Shielding" 3
+		"Large Repair Module" 4
+		"Large Heat Shunt" 2
+		"Asteroid Scanner"
+		"Large Radar Jammer"
+		"Tactical Scanner"
+		"Wanderer Ramscoop"
+		"Volcano Afterburner"
+		`"Bufaer" Atomic Thruster`
+		"Ionic Afterburner" 5
+		"Type 4 Radiant Thruster"
+		"Type 4 Radiant Steering" 4
+		"Hyperdrive"
+		"Jump Drive"
+	engine -45.5 64 .8
+	engine 45.5 64 .8
+	engine -16.5 105 .6
+	engine 16.5 105 .6
+	gun 0 -114 "Nuclear Missile"
+	gun -6.5 -100 "Husk-Slice"
+	gun 6.5 -100 "Husk-Slice"
+	gun -14 -91 "Husk-Slice"
+	gun 14 -91 "Husk-Slice"
+	gun -19 -59 "Korath Detainer"
+	gun 19 -59 "Korath Detainer"
+	gun -26.5 -53 "Korath Detainer"
+	gun 26.5 -53 "Korath Detainer"
+	gun -67 -1.5 "Finisher Pod"
+	gun 67 -1.5 "Finisher Pod"
+	turret 0 -91.5 "Point Defense Turret"
+	turret -13.5 -15.5 "Shield Disruptor Turret"
+	turret 13.5 -15.5 "Shield Disruptor Turret"
+	turret -49.5 20 "Heliarch Repulsor"
+	turret 49.5 20 "Heliarch Repulsor"
+	turret 0 29 "Point Defense Turret"
+	turret 0 89.5 "Point Defense Turret"
+	explode "medium explosion" 24
+	explode "large explosion" 16
+	explode "small explosion" 40
+	explode "tiny explosion" 28
+	"final explode" "final explosion large" 1
 
 
-person "Local God (C)"
+overwrite
+person "Local God"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
+		mining harvests surveillance unconstrained forbearing
 	phrase
 		phrase
 			"friendly author"
@@ -626,127 +771,147 @@ person "Local God (C)"
 			"made a few modifications"
 		word
 			", with a little help, of course."
-	ship "Ursa Polaris" "Local God"
+	ship "Ursa Polaris"
 
 
-person "Subsidurial (C)"
+overwrite
+ship "Ursa Polaris"
+	plural "Ursa Polaris"
+	sprite "ship/localworldship"
+	"administrative cost" 10
+	attributes
+		category "Unclassified"
+		cost 142857
+		shields 39000
+		hull 27000
+		"required crew" 559
+		"bunks" 972
+		"mass" 2758.5
+		"drag" 18
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"solar collection" 15
+		"afterburner thrust" 300
+		"turn" 6007.5
+		"ramscoop" 20
+		"hull repair rate" 7
+		"energy generation" 200
+		"outfit scan power" 186
+		"outfit scan efficiency" 15
+		"tactical scan power" 99
+		"asteroid scan power" 69
+		"cargo space" 1408
+		"outfit space" 1768
+		"weapon capacity" 861
+		"engine capacity" 301
+		weapon
+			"blast radius" 1000
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 6000
+	outfits
+		"Quarg Skylance"
+		"LG Gridfire Turret" 3
+		"Plasma Turret"
+		"Shield Disruptor Turret" 5
+		"Quarg Anti-Missile" 5
+		Hyperdrive
+		"Large Heat Shunt"
+		"Small Heat Shunt" 2
+		"Systems Core (Large)" 2
+		"Thermal Repeater Rifle" 600
+		"Thruster (Stellar Class)"
+		"Smelter-Class Thruster"
+		`"Basrem" Atomic Thruster`
+	engine 26 219 0.9
+	engine 59.5 205.5 0.6
+	engine -7 205.5 0.6
+	engine -82 80.5 0.4
+	engine -106.5 80.5 0.4
+	turret 27 -162 "Quarg Anti-Missile"
+	turret 27 -162 "Quarg Skylance"
+	turret 27 -162 "Shield Disruptor Turret"
+	turret 94.5 -52.5 "Quarg Anti-Missile"
+	turret 94.5 -52.5 "LG Gridfire Turret"
+	turret 94.5 -52.5 "Shield Disruptor Turret"
+	turret 80.5 53 "Quarg Anti-Missile"
+	turret 80.5 53 "LG Gridfire Turret"
+	turret 80.5 53 "Shield Disruptor Turret"
+	turret 21 25.5 "Quarg Anti-Missile"
+	turret 21 25.5 "LG Gridfire Turret"
+	turret 21 25.5 "Shield Disruptor Turret"
+	turret -69.5 -43 "Quarg Anti-Missile"
+	turret -69.5 -43 "Plasma Turret"
+	turret -69.5 -43 "Shield Disruptor Turret"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+
+
+overwrite
+person "Subsidurial"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
-	ship "Subsidurial" "Subsidurial"
+		timid unconstrained coward appeasing uninterested mining harvests mute
 	system
 		government "Uninhabited"
+	ship "Subsidurial"
 
 
+overwrite
 ship "Subsidurial"
-	add attributes
+	noun "creature"
+	sprite "ship/subsidurial"
+	thumbnail "thumbnail/subsidurial"
+	attributes
+		category "Unclassified"
 		"outfit space" 1
-		"fuel capacity" 300
+		"hull" 11600
+		"automaton" 1
+		"mass" 1050
+		"cargo space" 70
+		"drag" 12.3
+		"heat dissipation" .54
+		"fuel capacity" 400
+		"thrust" 15
+		"turn" 1200
+		"hull repair rate" 3
+		"ion protection" 3
+		"scramble protection" 3
+		"ion resistance" 1
+		"scramble resistance" 1
+		"energy capacity" 1
+		"inscrutable" 1
+		"gaslining" 1
+		"hyperdrive" 1
+		"jump speed" .2
 	outfits
-		"Quantum Keystone"
 		Mouthparts? 3
+		"Quantum Keystone"
+	gun 0 -97 Mouthparts?
+	gun -23 -95 Mouthparts?
+	gun 23 -95 Mouthparts?
+	turret -28 0
+	turret 28 0
+	leak "blood" 30 50
+	explode "blood" 45
+	"final explode" "subsidurial death"
+	description "It is unclear what these creatures are, where they come from, or how they evolved. Scientists have dissected several, but so far the results have simply been that these creatures contain no materials or resources of value; are not even slightly edible, and are too big to be kept as pets."
+	description "	To date, none have demonstrated any sign of sapience, and the few captains who have seen them basically consider them to be the bison of space."
 
 
-person "Prototype B3-CC4 (C)"
+# shooting star doesnt need any changes
+
+
+overwrite
+person "Rais Iris XVIII"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
-	system
-		attributes "ember waste"
-	phrase
-		word
-			"Long years of technological development were for me a pathway to many abilities some consider to be unnatural."
-			"What were you thinking about when you hailed me? 'Oh look, an asteroid. Let's chat.'"
-			"How does it feel to try hailing an asteroid and actually succeeding?"
-			"What a day to be a non-sentient rock floating in the middle of the eternal void."
-			"When even the local asteroid belt starts chatting with you, you can tell you've been jumping a little too much lately."
-			"What's weirder, an asteroid that emits purple rays or the person that tried to talk with it?"
-			"My goals are beyond your understanding."
-			"What the Quarg say about the Builders is false. I am the only one responsible for their extinction, and I am proud of it."
-			"You think that nuclear weapons are bad? Come closer, and you will see what a real weapon is."
-			"I have been classified as a weapon of mass destruction by most human and alien governments. You don't want to see what I am capable of."
-			"Sometimes, just for fun, I set myself on a close trajectory on an inhabited planet and pass just above their atmosphere. I love how lesser species start to freak out as they think that the end is near."
-			"I have been watching you, <first> <last>, current captain of the <ship>."
-			"I am here for you."
-			"I want your money."
-			"Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key."
-			"Your politics bore me."
-			"There is only one being in the whole universe that isn't commanded by AI, and that's me."
-			"Shields are useless--I can pass through them just fine. I can show you, if you'd like."
-			"The Quarg are wrong saying that the firstborns are long gone, for I am the firstborn."
-			"Have you ever been in the Weft? It's so damn boring. It's a lot more fun to mess with simpler minds like yours."
-			"I remember when the Archons tried to kill me with some supernovae. They got so depressed when they understood that not even their weapons could stop me."
-			"I ate a black hole once. It took me a few years, but it was definitely worth it. Tastes like chicken."
-			"I am the only thing in the universe capable of beating the power of friendship."
-			"I want to tell you some words of a long gone past, which back then used to scare people of your race more than any weapon or war machine. These words are, 'The macOS workflow run was not successful.'"
-	phrase
-		word
-			"What are you looking at?"
-			"Stop staring at my ship."
-		word
-			" "
-		word
-			"I thought captains like you saw asteroids passing by every day."
-			"I'm just a normal minor planet trying its best to ignore the law of gravity."
-
-	phrase # The ones below are EVN Krypt Pod references
-		word
-			"<"
-		word
-			"Unauthorized"
-			"Unknown"
-		word
-			" "
-		word
-			"interface"
-			"computer access"
-		word
-			">"
-	phrase
-		word
-			"<Transmission disrupted at source>"
-	phrase
-		word
-			"<Incoherent signal>"
-	phrase
-		word
-			"<"
-		word
-			"Incoherent"
-			"Irregular"
-			"Static"
-			"Undecipherable"
-		word
-			" "
-		word
-			"response"
-			"EM beam"
-			"transmission burst"
-		word
-			">"
-	phrase
-		word
-			"<"
-		word
-			"Unregistered"
-			"Undecipherable"
-		word
-			" "
-		word
-			"language"
-			"transmission burst"
-		word
-			">"
-	ship "Shooting Star" "Prototype B3-CC4"
-
-
-person "Rais Iris XVIII (C)"
-	government "Author"
-	frequency 200
-	personality
-		disables heroic surveillance
+		disables heroic plunders opportunistic
 	phrase
 		phrase
 			"friendly author"
@@ -762,7 +927,6 @@ person "Rais Iris XVIII (C)"
 			"Look at me. I am the Captain now."
 			`Pronounce "Wrzlprnft." You have 5 seconds.`
 			"Everything you see here has been created by volunteers. You can join us if you want!"
-
 			"To this day, I can still hear the Teeworlds title music."
 			"I am a light sleeper; but I am a heavy dreamer." # Owl City
 			"Did you know Viggo broke his toe?" # LoTR
@@ -771,7 +935,6 @@ person "Rais Iris XVIII (C)"
 			"Heard of solar panels? Now you can eat sunlight!" # bill wurtz
 			"So you want to be a pirate, m'lad? Well, let me tell ye: being a pirate, be all about Branding." # CGPGrey
 			"Do not greed for the Thrumbo horns." # RimWorld
-
 			# Walter Moers: The Mugg's Code of Conduct
 			"Honor thy muggroom."
 			"If thou seest two sticks lying one on top of the other, thou shalt walk backwards over them with thy left foot first, not with thy right. Moreover, thou shalt not devour them."
@@ -779,17 +942,14 @@ person "Rais Iris XVIII (C)"
 			"If thou cross the path of a white cockerel seated on two superimposed sticks, thou shalt not strike it, nor shalt thou address it by name nor partake of the said sticks."
 			"Thou shalt not finkle backwards."
 			"Thou shalt not finkle forwards."
-
 			# SovietWomble
 			"Get the doomsday rounds."
 			`I wouldn't recommend shooting at me, because your gun goes "pew pew," but my gun goes BBBRRRRRRR!`
 			"Ramming speed!"
-
 			# videogamedonkey
 			"Tony. Get the boulder."
 			"Not even close!"
 			"Knack II, baby!"
-
 			# League of Legends
 			"Damnit Skaarl, did you hide my mushroom juice again?"
 			"Stand still! My eyes are on the side of my head!"
@@ -798,7 +958,6 @@ person "Rais Iris XVIII (C)"
 			"If you want a weapon, here's a weapon. If you want conversation - here's a weapon."
 			"Working with you is almost like working alone. Almost."
 			"I will go over there. It looks quiet. It will be nice."
-
 			# Star Wars
 			"Yes, using Parsecs as measurement of speed does make sense."
 			"Hello there."
@@ -806,7 +965,6 @@ person "Rais Iris XVIII (C)"
 			"Did you ever hear the tragedy of Darth Plagueis the wise?"
 			"Congratulations, you are being rescued. Please do not resist."
 			"I'll be there for you. Cassian said I had to."
-
 	phrase
 		word
 			"We all serve "
@@ -822,14 +980,74 @@ person "Rais Iris XVIII (C)"
 			"scatty stallion."
 			"potty pony."
 			"mental mustang."
-	ship "Marauder Bactrian" "Rais Iris XVIII"
+	ship "Marauder Bactrian"
 
 
-person "Zitchas (C)"
+overwrite
+ship "Marauder Bactrian"
+	sprite ship/mbactriane
+	thumbnail thumbnail/bactrian
+	"administrative cost" 7
+	attributes
+		licenses
+			City-Ship
+		category "Transport"
+		"cost" 17600000
+		"shields" 30000
+		"hull" 12000
+		"required crew" 70
+		"bunks" 93
+		"mass" 1738
+		"drag" 22.5
+		"heat dissipation" 0.33
+		"fuel capacity" 800
+		"cargo space" 80
+		"outfit space" 1526
+		"weapon capacity" 1000
+		"engine capacity" 220
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Dual Sunbeam Turret" 7
+		"Point Defense Turret"
+		"Blue Sun Reactor" 3
+		"Dark Storm Shielding" 5
+		"Large Heat Shunt" 3
+		"Outfits Expansion" 4
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Hyperdrive"
+	engine -45 230 1.2
+	engine -18 230 1.2
+	engine 18 230 1.2
+	engine 45 230 1.2
+	turret -10.5 -160.5 "Dual Sunbeam Turret"
+	turret 32.5 -86 "Dual Sunbeam Turret"
+	turret -40.5 -23 "Dual Sunbeam Turret"
+	turret 0 10 "Dual Sunbeam Turret"
+	turret -19.5 73 "Dual Sunbeam Turret"
+	turret 35 74 "Dual Sunbeam Turret"
+	turret 33.5 148.5 "Dual Sunbeam Turret"
+	turret -42 185.5 "Point Defense Turret"
+	leak leak 30 50
+	leak flame 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large" 1
+
+
+overwrite
+person "Zitchas"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance decloaked
+		mining harvests unconstrained opportunistic decloaked
 	system
 		attributes "ember waste"
 	phrase
@@ -950,11 +1168,13 @@ person "Zitchas (C)"
 	ship "Tern" "Shadow Flight 24"
 
 
-person "Brick (C)"
+overwrite
+person "Brick"
+	"must destroy all"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
+		mining harvests plunders
 	phrase
 		word
 			"If sticks and stones break bones, then bricks should work wonders."
@@ -966,11 +1186,96 @@ person "Brick (C)"
 	ship "Modified Boxwing" "Remnant Block"
 
 
-person "Gefullte Taubenbrust (C)"
+overwrite
+ship "Modified Boxwing"
+	sprite "ship/modified boxwing"
+	thumbnail "thumbnail/modified boxwing"
+	"administrative cost" 2
+	attributes
+		category "Interceptor"
+		cost 3690000
+		"shields" 8000
+		"hull" 8000
+		"required crew" 1
+		"bunks" 3
+		"mass" 90
+		"drag" 3.875
+		"heat dissipation" .18
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 350
+		"weapon capacity" 130
+		"engine capacity" 100
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Electron Beam" 2
+		"Heavy Laser" 2
+		"Beam Laser" 2
+		"Quarg Anti-Missile"
+		"Asteroid Scanner"
+		"Fuel Processor"
+		"Water Coolant System"
+		"Luxury Accommodations"
+		"Pebble Core"
+		"Hai Chasm Batteries"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		"Chipmunk Plasma Steering"
+		"Chipmunk Plasma Thruster"
+		"Scram Drive"
+	gun -3 -44.5 "Beam Laser"
+	gun 3 -44.5 "Beam Laser"
+	gun -8.5 -43 "Heavy Laser"
+	gun 8.5 -43 "Heavy Laser"
+	gun -15 -39 "Electron Beam"
+	gun 15 -39 "Electron Beam"
+	turret 0 7.5 "Quarg Anti-Missile"
+	engine -5 42
+		zoom 1
+	engine 5 42
+		zoom 1
+	engine -12 44
+		zoom 1
+	engine 12 44
+		zoom 1
+	engine -21.5 35
+		zoom 0.75
+	engine 21.5 35
+		zoom 0.75
+	engine -26 2
+		zoom 0.5
+	engine 26 2
+		zoom 0.5
+	"steering engine" -26.5 2
+		zoom 0.5
+		right
+	"steering engine" 26.5 2
+		zoom 0.5
+		left
+	"steering engine" -21.5 35
+		zoom 0.5
+		right
+	"steering engine" 21.5 35
+		zoom 0.5
+		left
+	leak "leak" 70 50
+	leak "flame" 50 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description `No matter how maligned, every ship has someone out there that loves it.`
+	description `Surprisingly, someone invested a lot of time, money, and effort into transforming this humble boxwing from a flying coffin into a palatial sarcophagus. It is still terribly cramped, but at least it is luxurious and shiny!`
+
+
+overwrite
+person "Gefullte Taubenbrust"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
+		heroic plunders opportunistic
 	phrase
 		word
 			"The whole room is spinning."
@@ -985,11 +1290,93 @@ person "Gefullte Taubenbrust (C)"
 	ship "Modified Battleship" "RSS Smoking Dove"
 
 
-person "MasterOfGrey (C)"
+overwrite
+ship "Modified Battleship"
+	sprite "ship/battleship"
+	thumbnail "thumbnail/battleship"
+	"administrative cost" 8
+	attributes
+		category "Heavy Warship"
+		"cost" 35000000
+		"shields" 36000
+		"hull" 26000
+		"required crew" 160
+		"bunks" 212
+		"mass" 1515
+		"drag" 29.1
+		"heat dissipation" .24
+		"fuel capacity" 1000
+		"cargo space" 30
+		"outfit space" 1152
+		"weapon capacity" 592
+		"engine capacity" 123
+		"spinal mount" 1
+		weapon
+			"blast radius" 340
+			"shield damage" 3400
+			"hull damage" 1700
+			"hit force" 5100
+	outfits
+		"Prototype Fusion Cannon"
+		"Quad Blaster Turret" 4
+		"Heavy Laser Turret" 4
+		"Electron Turret" 2
+		"Wanderer Anti-Missile"
+		"Torpedo Pod" 4
+		"Torpedo Storage Rack" 2
+		"Torpedo" 42
+		"Typhoon Pod" 2
+		"Typhoon Torpedo" 34
+		"Dark Storm Shielding" 2
+		"Triple Plasma Core"
+		"LP036a Battery Pack"
+		"LP072a Battery Pack"
+		"Large Heat Shunt" 3
+		"Fuel Processor" 3
+		"Tactical Scanner"
+		"Afterburner (Lunar Class)"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+	engine 45 212
+	engine 21 220
+		zoom 0.8
+	engine -45 212
+	engine -21 220
+		zoom 0.8
+	gun 0 -223 "Prototype Fusion Cannon"
+	gun -59 14 "Typhoon Pod"
+	gun 59 14 "Typhoon Pod"
+	gun -72 25 "Torpedo Pod"
+	gun 72 26 "Torpedo Pod"
+	gun -84 38 "Torpedo Pod"
+	gun 84 38 "Torpedo Pod"
+	turret -37 -11 "Electron Turret"
+	turret 37 -11 "Electron Turret"
+	turret 0 10 "Wanderer Anti-Missile"
+	turret -37 31 "Quad Blaster Turret"
+	turret 37 31 "Quad Blaster Turret"
+	turret -39 73 "Quad Blaster Turret"
+	turret 39 73 "Quad Blaster Turret"
+	turret -75 108 "Heavy Laser Turret"
+	turret 75 108 "Heavy Laser Turret"
+	turret -23 108 "Heavy Laser Turret"
+	turret 23 108 "Heavy Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `Never underestimate how far an individual is willing to go to modify their favorite spacecraft - sometimes before it even exists.`
+
+
+overwrite
+person "MasterOfGrey"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
+		heroic plunders opportunistic
 	system
 		government "Hai"
 	phrase
@@ -1018,38 +1405,118 @@ person "MasterOfGrey (C)"
 			"<placeholder text>"
 	ship "Modified Ladybug" "Revealer of Hai"
 
-person "Patrol Team (C)"
+
+overwrite
+ship "Modified Ladybug"
+	sprite "ship/modified ladybug"
+	thumbnail "ship/modified ladybug"
+	"administrative cost" 6
+	attributes
+		category "Medium Warship"
+		"cost" 8950000
+		"shields" 38000
+		"hull" 20000
+		"required crew" 16
+		"bunks" 33
+		"mass" 740
+		"drag" 8.1
+		"heat dissipation" .58
+		"fuel capacity" 900
+		"cargo space" 91
+		"outfit space" 647
+		"weapon capacity" 206
+		"engine capacity" 153
+		"ramscoop" 0.5
+		"cargo scan power" 5
+		"cargo scan efficiency" 16
+		"tactical scan power" 25
+		"atmosphere scan" 100
+		"asteroid scan power" 30
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Bombardment Turret"
+		"Thermal Repeater Turret" 2
+		"Point Defense Turret"
+		"Warder Anti-Missile"
+		"Systems Core (Medium)"
+		"S-970 Regenerator"
+		"Crystal Capacitor"
+		"Double Plasma Core"
+		"Small Heat Shunt" 2
+		"Large Heat Shunt"
+		"Fuel Processor"
+		"Quantum Keystone"
+		"Thermal Repeater Rifle" 16
+		`"Biroo" Reverse Thruster`
+		`"Bondir" Atomic Steering`
+		`"Bufaer" Atomic Thruster`
+		"Hyperdrive"
+		"Jump Drive"
+	turret 0 -47.5 "Bombardment Turret"
+	turret 35 -25 "Thermal Repeater Turret"
+	turret -35 -29 "Thermal Repeater Turret"
+	turret 39.5 5 "Warder Anti-Missile"
+	turret -39.5 5 "Point Defense Turret"
+	"reverse engine" 10.5 -64 0.7
+	"reverse engine" -10.5 -64 0.7
+	"reverse engine" 7.5 -64 0.7
+	"reverse engine" -7.5 -64 0.7
+	"reverse engine" 4.5 -64 0.7
+	"reverse engine" -4.5 -64 0.7
+	"reverse engine" 1.5 -64 0.7
+	"reverse engine" -1.5 -64 0.7
+	engine 10.5 56.5
+	engine -10.5 56.5
+	engine 40.5 57
+	engine -40.5 57
+	engine 16 57.5
+	engine -16 57.5
+	engine 35 58
+	engine -35 58
+	engine 22.5 58.5
+	engine -22.5 58.5
+	engine 29.5 59
+	engine -29.5 59
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `This is an old war-torn Hai Ladybug with numerous modifications done on the hull. Apart from the additional turret mounts, the main adjustments on the vessel are three huge engine cells - two in the back replacing the old engine pods, and one in the front replacing the gun mounts. These push the Modified Ladybug to speeds only an insane captain would enjoy.`
+
+
+overwrite
+person "Patrol Team"
+	"must destroy all"
 	government "Author"
 	frequency 1000
 	personality
-		disables heroic surveillance
+		mining harvests plunders
 	phrase
 		word
-#		Marksman
 			"If you're interested in helping out but don't have time, consider being a proofreader! You can take my job, and I get to laze around doing nothing!"
 			"The number of times someone breaks the fourth wall, it's mind-boggling!"
 			"Look, we aren't here for your money. We do all this for free and look where that gets us."
 			"If you're interested in helping out but don't have time, consider looking through the proposals on GitHub! Sometimes, a new perspective is needed!"
 			"What do you mean you don't have a save file for this pull request!?"
 			"This statement is, intentionally wrote wrongly to make point."
-
-#		Saugia
 			"Sometimes, a large amount of detail on a model can look less appealing."
 			"Sometimes, a small amount of detail on a model can look more appealing."
 			"Make sure to look at an image from a few steps back as well."
 			"Down with tangents, up with overlaps."
 			"Don't be afraid of adding more contrast."
 			"If you want to learn how to create artwork, start with a donut."
-
-#		tibetiroka
 			"It's just the Steam CI, no need to panic."
 			"Did you check for nullptr?"
 			"		How do we indent after line breaks again?"
 			"Please put the includes in alphabetical order."
 			"Always keep three empty lines between functions."
 			"Why do aliens speak English?"
-
-#		bene-dictator
 			"Just a syntax review. Hold on, I have to rewrite this whole paragraph for you quickly. Delay the merge!"
 			"I was requested for spelling? Oh my goodness, this needs a rewrite..."
 			"One more review. Pretty please?"
@@ -1059,8 +1526,6 @@ person "Patrol Team (C)"
 			"Unidentified sentence appears to be lacking a comma. Very dangerous, and highly likely to incite multiple suggestions on where the comma should go. Calling backup reviewers."
 			"Commas are your greatest friends."
 			"Commas are your greatest enemies."
-
-#		roadrunner56
 			"More semicolons!"
 			"...I think I broke something."
 			"Canadian spelling fails me again."
@@ -1068,8 +1533,6 @@ person "Patrol Team (C)"
 			"Looks like school's starting back up again. See you in a few months."
 			"Typo detected. Initiating weapons engagement."
 			"Code non-functional. Destroy them."
-
-#		EjoThims
 	phrase
 		word
 			"If you want your pull request not to be merged"
@@ -1094,7 +1557,6 @@ person "Patrol Team (C)"
 			"."
 			". Trust me! It works."
 			". You shouldn't do those things, though! I'm just kidding."
-
 	phrase
 		word
 			"You don't have to be a Reviewer to review pull requests"
@@ -1106,7 +1568,6 @@ person "Patrol Team (C)"
 		word
 			"."
 			"!"
-
 	ship "Waverider" "Proofreader's Pain"
 	ship "Waverider" "Art Critics' Regret"
 	ship "Waverider" "Code Herders' Curse"
@@ -1125,11 +1586,9 @@ person "Patrol Team (C)"
 			"Cargo Scanner"
 			"Outfit Scanner"
 			"Asteroid Scanner"
-
 			"A120 Atomic Thruster"
 			"A125 Atomic Steering" 2
 			"Scram Drive"
-
 			"Emotional Baggage"
 			"Tear of Skade" 2
 	ship "Waverider" "Balancers' Madness"
@@ -1139,16 +1598,63 @@ person "Patrol Team (C)"
 			"mass" 100
 
 
-person "Danau (C)"
+overwrite
+ship "Waverider"
+	sprite "ship/waverider"
+	"administrative cost" 2
+	attributes
+		category "Light Warship"
+		"cost" 3000000
+		"shields" 10000
+		"hull" 7000
+		"required crew" 1
+		"bunks" 1
+		"mass" 398
+		"drag" 2.25
+		"heat dissipation" .67
+		"fuel capacity" 1000
+		"cargo space" 100
+		"outfit space" 346
+		"weapon capacity" 120
+		"engine capacity" 54
+		weapon
+			"blast radius" 340
+			"shield damage" 3400
+			"hull damage" 1700
+			"hit force" 5000
+	outfits
+		"Particle Cannon" 4
+		"S-970 Regenerator"
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"Liquid Nitrogen Cooler"
+		"Catalytic Ramscoop"
+		"Tactical Scanner"
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Asteroid Scanner"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering" 2
+		"Scram Drive"
+		"Emotional Baggage"
+	engine 0 56
+	engine -23 64
+	engine 23 64
+	gun -22.5 -56.5 "Particle Cannon"
+	gun 22.5 -56.5 "Particle Cannon"
+	gun -31.5 -7 "Particle Cannon"
+	gun 31.5 -7 "Particle Cannon"
+	description `The Waverider was a ship that was first requested and never used for five years, seven months and twenty-seven days.`
+	description `	Its disappointment was so immense, it willed itself into being.`
+
+
+overwrite
+person "Danau"
 	government "Author"
-	frequency 1000
+	frequency 100
 	personality
-		disables heroic surveillance
+		heroic unconstrained opportunistic
 	formation "Vic"
-	system
-		government "Syndicate"
-		government "Republic"
-		government "Free Worlds"
 	phrase
 		word
 			"When you want to stop your ship, press shift and reverse."
@@ -1239,7 +1745,6 @@ person "Danau (C)"
 			"Have more time for good reviews!"
 			"Have more time for playing the game!"
 			"Prevent bugs!"
-
 	ship "Modified Hauler VI" "Bouldered Sea"
 	ship "Hauler III" "Gravelly Reservoir"
 	ship "Hauler III" "Stony Mere"
@@ -1247,3 +1752,68 @@ person "Danau (C)"
 	ship "Hauler II" "Shingly Loch"
 	ship "Hauler" "Craggy Tarn"
 	ship "Hauler" "Pebbly Pond"
+	
+
+overwrite
+ship "Modified Hauler VI"
+	sprite "ship/hauler vi"
+	thumbnail "thumbnail/hauler vi"
+	"administrative cost" 5
+	attributes
+		category "Heavy Freighter"
+		"shields" 13200
+		"hull" 26800
+		"required crew" 3
+		"bunks" 12
+		"mass" 1240
+		"drag" 21.7
+		"heat dissipation" .43
+		"fuel capacity" 800
+		"cargo space" 780
+		"outfit space" 900
+		"weapon capacity" 430
+		"engine capacity" 160
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 180
+		"Point Defense Turret" 2
+		"Bombardment Turret" 6
+		"Fusion Reactor"
+		"S3 Thermionic"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Laser Rifle" 3
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Hyperdrive"
+	engine -83.5 196.5
+	engine 83.5 196.5
+	engine 0 196.5
+	gun -14.5 -168
+	gun 14.5 -168
+	gun -35 -128
+	gun 35 -128
+	turret -21 -124.5
+	turret 21 -124.5 "Point Defense Turret"
+	turret -32.5 -102.5
+	turret 32.5 -102.5
+	turret -22 154 "Point Defense Turret"
+	turret 22 154
+	turret -60 154
+	turret 60 154
+	leak "leak" 70 50
+	leak "flame" 40 80
+	leak "big leak" 90 40
+	explode "small explosion" 30
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Hauler cargo ships are considered by many to be outdated, and it is unclear if upgrading the cargo space to six containers is sufficient to make this Hauler ship popular. It certainly doesn't help that the Hauler VI is more expensive than four Hauler IIIs."
