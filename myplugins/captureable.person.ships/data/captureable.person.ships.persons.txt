@@ -903,7 +903,7 @@ ship "Subsidurial"
 	description "	To date, none have demonstrated any sign of sapience, and the few captains who have seen them basically consider them to be the bison of space."
 
 
-# shooting star doesnt need any changes
+# shooting star doesn't need any changes
 
 
 overwrite
