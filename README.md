@@ -19,6 +19,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-11-17 | update: captureable.person.ships<br>
 2026-11-03 | update: ship.merging<br>
 2026-11-03 | update: mission.helper<br>
 2026-11-02 | update: additional.command.buttons.radial<br>
@@ -28,7 +29,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-09-25 | update: additional.command.buttons.radial<br>
 2026-09-18 | update: show.reputation<br>
 2026-09-13 | update: control.station<br>
-2026-09-10 | update: portable.outfitter<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1219,10 +1219,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/captureable.person.ships.png" width="130" height="20">
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.11-captureable.person.ships/captureable.person.ships.zip) 
-<img src="https://img.shields.io/badge/v1.1.11-707070"> 
-<img src="https://img.shields.io/badge/197.44_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--04--28-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.12-captureable.person.ships/captureable.person.ships.zip) 
+<img src="https://img.shields.io/badge/v1.1.12-707070"> 
+<img src="https://img.shields.io/badge/200.35_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--11--17-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=captureable.person.ships-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/)
 [<img src="https://img.shields.io/badge/view_images_[4]-707070">](res/imagemd/captureable.person.ships.md)<br>
@@ -1246,13 +1246,13 @@ Makes person ships captureable.<br>
 
 <br>
 
-Well, technically this plugin disables the person ships, and creates new ones which are captureable (with changed names to "<name> (C)", due to limitations of changing parts of the originals). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesn't flee. And changed "Zitchas" personality to "decloaked", so it doesn't flee and regenerate while cloaked.<br>
+New script mechanics make it possible, the person ships ar now overwritten, instead of rplaced :). Also adds all of them to the author government, adjusts some personalities and sets all frequencies to 1000. Changed "Tranquility" to have a weapon, so it doesn't flee. And changed "Zitchas" personality to "decloaked", so it doesn't flee and regenerate while cloaked.<br>
 
 Attacking one of them makes all your enemies, they all try to disable instead of destroying, and they all have the same spawn chance which is in average 10 minutes.<br>
 
 <br>
 
-At Earth's job board you can find a repeatable job that displays which persons you have already killed, which are alive, and where to find them. If the plugin control.station is installed hou can find the list there, along with this readme.<br>
+At Earth's job board you can find a repeatable job that displays which persons you have already killed, which are alive, and where to find them. If the plugin control.station is installed you can find the list there, along with this readme.<br>
 
 After you've killed them all, you receive a small unique gift.<br>
 
@@ -1302,9 +1302,25 @@ If you set the gamerules to	"person spawn period" 2000 and "person spawn weight"
 
 <br>
 
+Though not really a person ship, the Rulei ship is also made capturable<br>
+
+<br>
+
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-11-17<br>
+
+fixed not-working capturing (rported by SiegerExtra)
+
+changed all persons from replaced versions to overwritten originals<br>
+
+updated person changes from 0.11.4<br>
+
+updated rulei ship capturing<br>
 
 <br>
 
