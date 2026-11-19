@@ -19,6 +19,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-11-19 | update: captureable.person.ships<br>
 2026-11-17 | update: captureable.person.ships<br>
 2026-11-03 | update: ship.merging<br>
 2026-11-03 | update: mission.helper<br>
@@ -28,7 +29,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-09-26 | update: mission.helper<br>
 2026-09-25 | update: additional.command.buttons.radial<br>
 2026-09-18 | update: show.reputation<br>
-2026-09-13 | update: control.station<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -1219,10 +1219,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/captureable.person.ships.png" width="130" height="20">
 <img src="myplugins/captureable.person.ships/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.12-captureable.person.ships/captureable.person.ships.zip) 
-<img src="https://img.shields.io/badge/v1.1.12-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.13-captureable.person.ships/captureable.person.ships.zip) 
+<img src="https://img.shields.io/badge/v1.1.13-707070"> 
 <img src="https://img.shields.io/badge/200.35_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--11--17-707070"> 
+<img src="https://img.shields.io/badge/2026--11--19-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=captureable.person.ships-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/captureable.person.ships/)
 [<img src="https://img.shields.io/badge/view_images_[4]-707070">](res/imagemd/captureable.person.ships.md)<br>
@@ -1314,7 +1314,7 @@ Changelog:<br>
 
 2026-11-17<br>
 
-fixed not-working capturing (rported by SiegerExtra)
+fixed not-working capturing (reported by SiegerExtra)<br>
 
 changed all persons from replaced versions to overwritten originals<br>
 

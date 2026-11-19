@@ -6,7 +6,7 @@ avgi.licenses|1.0.0
 better.starts|1.0.5
 boss.loot|1.0.10
 bunrodea.missions|1.0.9
-captureable.person.ships|1.1.12
+captureable.person.ships|1.1.13
 coalition.shopping|1.0.8
 combat.ai|1.0.13
 comets|1.0.1
