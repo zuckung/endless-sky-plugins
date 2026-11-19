@@ -38,7 +38,7 @@ Though not really a person ship, the Rulei ship is also made capturable<br>
 Changelog:<br>
 <br>
 2026-11-17<br>
-fixed not-working capturing (rported by SiegerExtra)
+fixed not-working capturing (reported by SiegerExtra)<br>
 changed all persons from replaced versions to overwritten originals<br>
 updated person changes from 0.11.4<br>
 updated rulei ship capturing<br>

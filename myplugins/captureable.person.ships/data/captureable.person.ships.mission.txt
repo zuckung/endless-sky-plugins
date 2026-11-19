@@ -7,9 +7,9 @@
 # outfit "Author Slaughtering Trophy"
 # government "Author"
 
-"gamerules preset" "Default"
-	"person spawn period" 1200
-	"no person spawn weight" 0
+#"gamerules preset" "Default"
+#	"person spawn period" 1200
+#	"no person spawn weight" 0
 
 substitutions
 	"<mich>" "alive"
